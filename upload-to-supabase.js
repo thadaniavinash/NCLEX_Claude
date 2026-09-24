@@ -1,4 +1,10 @@
 // Script to migrate existing cases-data.js content into Supabase
+
+// Disabled in NCLEX_Claude: this experimental copy must not overwrite the
+// original app's live Supabase data. Remove this guard only after pointing
+// the URL and key below at a Supabase project dedicated to this copy.
+console.error('upload-to-supabase.js is disabled in NCLEX_Claude to protect the original app\'s database.');
+process.exit(1);
 const fs = require('fs');
 const path = require('path');
 const https = require('https');

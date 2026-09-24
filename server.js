@@ -49,9 +49,11 @@ function saveAllFiles(cases, standalone) {
     fs.writeFileSync(path.join(jsonDir, `${s.id}_${slug}.json`), JSON.stringify(s, null, 2), 'utf8');
   }
 
-  // 5. Mirror to Desktop backup if it exists
+  // 5. Desktop backup mirror is disabled in NCLEX_Claude: that folder belongs
+  // to the original app, and this experimental copy must not overwrite it.
   const desktopDir = path.join('C:', 'Users', 'thada', 'Desktop', 'Antigravity', 'NCLEX Application');
-  if (fs.existsSync(desktopDir)) {
+  const MIRROR_TO_ORIGINAL_DESKTOP_BACKUP = false;
+  if (MIRROR_TO_ORIGINAL_DESKTOP_BACKUP && fs.existsSync(desktopDir)) {
     try {
       fs.writeFileSync(path.join(desktopDir, 'cases-data.js'), jsContent, 'utf8');
       fs.writeFileSync(path.join(desktopDir, 'cases.json'), JSON.stringify(cases, null, 2), 'utf8');

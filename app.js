@@ -285,11 +285,15 @@ function migrateCaseTypes(c) {
 
 const SUPABASE_URL = 'https://taprukpiubqsckahocaz.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_V1u7recZMcdc2-DXhoMwoQ_BEVWej3g';
+// NCLEX_Claude is an experimental copy: keep it disconnected from the original
+// app's Supabase database so nothing here can read stale or overwrite live data.
+// Content is loaded from cases-data.js in this repository instead.
+const USE_SUPABASE = false;
 
 async function loadAllData() {
   // Try fetching from Supabase database
   let loadedFromSupabase = false;
-  try {
+  if (USE_SUPABASE) try {
     const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?select=key,data`, {
       headers: {
         'apikey': SUPABASE_ANON_KEY,
@@ -633,7 +637,7 @@ async function saveCasesToStorage() {
 
   // 4. Push updates to Supabase
   let savedToSupabase = false;
-  try {
+  if (USE_SUPABASE) try {
     const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.cases`, {
       method: 'PATCH',
       headers: {
@@ -683,7 +687,7 @@ async function saveStandaloneToStorage() {
 
   // 4. Push updates to Supabase
   let savedToSupabase = false;
-  try {
+  if (USE_SUPABASE) try {
     const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.standalone`, {
       method: 'PATCH',
       headers: {
