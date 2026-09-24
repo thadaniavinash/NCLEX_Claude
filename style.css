@@ -1460,6 +1460,13 @@ textarea {
   box-shadow: none;
 }
 
+/* Keep every block at its natural height so the card scrolls instead. Otherwise,
+   when a long question fills the card, the flex layout squeezes the feedback card
+   (score and rationale) down to a thin line and students see only the highlights. */
+.question-card > * {
+  flex-shrink: 0;
+}
+
 .question-stem-wrapper {
   display: flex;
   gap: 10px;

@@ -394,6 +394,7 @@ function confirmSkipQuestion() {
     }
   } else {
     renderPlayerStep(playerStepIndex);
+    revealPlayerFeedback();
   }
 }
 
@@ -410,6 +411,7 @@ function handlePlayerSubmit() {
   submittedAnswers[playerStepIndex] = true;
   evaluateStepScore(playerStepIndex);
   renderPlayerStep(playerStepIndex);
+  revealPlayerFeedback();
   // Response submitted toast removed per user request
 }
 
@@ -418,6 +420,35 @@ function handlePlayerGiveUp() {
   evaluateStepScore(playerStepIndex);
   playerScores[playerStepIndex].score = 0; // force zero points
   renderPlayerStep(playerStepIndex);
+  revealPlayerFeedback();
+}
+
+// The feedback card (Correct / Partial Correct / Incorrect, score, rationale) sits
+// below the answer options. With long questions on laptop screens it lands below
+// the visible part of the question panel, so after submitting, students saw only
+// the highlighted answers. Scroll just far enough to show the result and the start
+// of the rationale, without pushing the result header above the top of the panel.
+function revealPlayerFeedback() {
+  const card = document.getElementById('player-feedback-card');
+  if (!card || card.classList.contains('hidden')) return;
+  const header = card.querySelector('.feedback-header') || card;
+
+  let scroller = card.parentElement;
+  while (scroller && scroller !== document.body) {
+    const overflowY = getComputedStyle(scroller).overflowY;
+    if ((overflowY === 'auto' || overflowY === 'scroll') && scroller.scrollHeight > scroller.clientHeight) break;
+    scroller = scroller.parentElement;
+  }
+  const useWindow = !scroller || scroller === document.body;
+  const view = useWindow ? { top: 0, bottom: window.innerHeight } : scroller.getBoundingClientRect();
+  const headerRect = header.getBoundingClientRect();
+
+  const WANTED_BELOW_HEADER = 140; // room for the start of the rationale
+  const overshoot = headerRect.bottom + WANTED_BELOW_HEADER - view.bottom;
+  if (overshoot <= 0) return;
+  const delta = Math.min(overshoot, headerRect.top - view.top - 8);
+  if (delta <= 0) return;
+  (useWindow ? window : scroller).scrollBy({ top: delta, behavior: 'smooth' });
 }
 
 function displayPlayerFeedback(stepIdx) {
