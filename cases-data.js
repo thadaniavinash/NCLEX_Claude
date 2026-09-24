@@ -766,18 +766,6 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Shortness of breath",
-              "correct": true
-            },
-            {
-              "text": "Chest tightness",
-              "correct": true
-            },
-            {
-              "text": "Respiratory rate",
-              "correct": true
-            },
-            {
               "text": "Dry cough",
               "correct": true
             },
@@ -786,7 +774,11 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Tripod position",
+              "text": "Blood pressure",
+              "correct": false
+            },
+            {
+              "text": "Respiratory rate",
               "correct": true
             },
             {
@@ -794,12 +786,20 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Blood pressure",
-              "correct": false
+              "text": "Shortness of breath",
+              "correct": true
             },
             {
               "text": "Tenderness of chest wall",
               "correct": false
+            },
+            {
+              "text": "Chest tightness",
+              "correct": true
+            },
+            {
+              "text": "Tripod position",
+              "correct": true
             }
           ],
           "preamble": "The nurse assesses the client on admission.",
@@ -1691,24 +1691,24 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Provide hand-hygiene and environmental-cleaning education to the residence community.",
-              "correct": true
-            },
-            {
-              "text": "Advise symptomatic students to avoid preparing food for others and to seek assessment if symptoms persist or worsen.",
-              "correct": true
-            },
-            {
               "text": "Communicate case trends to the designated infection-prevention/public health contact according to organizational policy.",
               "correct": true
+            },
+            {
+              "text": "Stop surveillance after the student begins to feel better.",
+              "correct": false
             },
             {
               "text": "Announce a final cause of the illness before the investigation is complete.",
               "correct": false
             },
             {
-              "text": "Stop surveillance after the student begins to feel better.",
-              "correct": false
+              "text": "Provide hand-hygiene and environmental-cleaning education to the residence community.",
+              "correct": true
+            },
+            {
+              "text": "Advise symptomatic students to avoid preparing food for others and to seek assessment if symptoms persist or worsen.",
+              "correct": true
             }
           ],
           "preamble": "",
@@ -1742,6 +1742,18 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Prevalence is zero because no new cases occurred, even though two students remain symptomatic.",
+              "correct": false
+            },
+            {
+              "text": "The absence of new cases proves the exact etiology of the illness.",
+              "correct": false
+            },
+            {
+              "text": "Morbidity has decreased because symptoms and usual function have improved.",
+              "correct": true
+            },
+            {
               "text": "The incidence during the most recent 72-hour period is zero because no new cases occurred.",
               "correct": true
             },
@@ -1750,20 +1762,8 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Morbidity has decreased because symptoms and usual function have improved.",
-              "correct": true
-            },
-            {
               "text": "The findings support that the response may be effective, although surveillance and follow-up should continue.",
               "correct": true
-            },
-            {
-              "text": "The absence of new cases proves the exact etiology of the illness.",
-              "correct": false
-            },
-            {
-              "text": "Prevalence is zero because no new cases occurred, even though two students remain symptomatic.",
-              "correct": false
             }
           ],
           "preamble": "",
@@ -3116,6 +3116,14 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Burning sensation in the epigastric region",
+              "correct": false
+            },
+            {
+              "text": "Severe, band-like tension headache across the forehead",
+              "correct": false
+            },
+            {
               "text": "Blood pressure of 154/96 mmHg",
               "correct": true
             },
@@ -3126,14 +3134,6 @@ window.NCLEX_CASES = [
             {
               "text": "Epigastric tenderness elicited on abdominal palpation",
               "correct": true
-            },
-            {
-              "text": "Severe, band-like tension headache across the forehead",
-              "correct": false
-            },
-            {
-              "text": "Burning sensation in the epigastric region",
-              "correct": false
             },
             {
               "text": "Profound exhaustion and insomnia",
@@ -3540,28 +3540,28 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Bilateral wrist and hand joint pain rated 8/10",
-              "correct": true
-            },
-            {
               "text": "Morning joint stiffness lasting 2.5 hours",
               "correct": true
-            },
-            {
-              "text": "Feelings of profound fatigue and malaise",
-              "correct": true
-            },
-            {
-              "text": "Bilateral symmetrical swelling and warmth of the 2nd and 3rd MCP joints",
-              "correct": false
             },
             {
               "text": "Oral body temperature of 38.1 °C",
               "correct": false
             },
             {
+              "text": "Bilateral symmetrical swelling and warmth of the 2nd and 3rd MCP joints",
+              "correct": false
+            },
+            {
               "text": "Measured wrist flexion of 30 degrees",
               "correct": false
+            },
+            {
+              "text": "Bilateral wrist and hand joint pain rated 8/10",
+              "correct": true
+            },
+            {
+              "text": "Feelings of profound fatigue and malaise",
+              "correct": true
             }
           ],
           "preamble": "",
@@ -4031,12 +4031,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Historical reduction in right calf muscle circumference following 10 weeks of non-weight-bearing cast immobilization",
-              "correct": true
-            },
-            {
               "text": "Acute temperature elevation of 39.5 °C with purulent sputum and marked leukocytosis",
               "correct": false
+            },
+            {
+              "text": "Historical reduction in right calf muscle circumference following 10 weeks of non-weight-bearing cast immobilization",
+              "correct": true
             },
             {
               "text": "Profuse arterial hypotension with cardiogenic shock and pulmonary edema",
@@ -4044,7 +4044,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Cellular adaptations are reversible changes in cell size, number, phenotype, metabolic activity, or organization in response to altered physiological demand or chronic environmental stress. In this client, adaptations include: (1) Barrett's esophagus—glandular metaplasia of esophageal stratified squamous epithelium to columnar epithelium to better tolerate acidic gastric juice; (2) Squamous metaplasia of respiratory pseudostratified ciliated columnar epithelium to stratified squamous epithelium due to chronic cigarette smoke; (3) Left ventricular hypertrophy—increased cardiomyocyte size in response to chronic hemodynamic afterload; and (4) Disuse atrophy—shrinkage of skeletal muscle cells from decreased functional demand during casting. High fever with purulent sputum indicates acute infection/inflammation, while shock indicates cardiovascular collapse, neither of which represents an adaptive cellular response."
+          "explanation": "Cellular adaptations are reversible changes in cell size, number, phenotype, metabolic activity, or organization in response to altered physiological demand or chronic environmental stress. In this client, adaptations include: (Option 1) Barrett's esophagus—glandular metaplasia of esophageal stratified squamous epithelium to columnar epithelium to better tolerate acidic gastric juice; (Option 2) Squamous metaplasia of respiratory pseudostratified ciliated columnar epithelium to stratified squamous epithelium due to chronic cigarette smoke; (Option 3) Left ventricular hypertrophy—increased cardiomyocyte size in response to chronic hemodynamic afterload; and (Option 5) Disuse atrophy—shrinkage of skeletal muscle cells from decreased functional demand during casting. High fever with purulent sputum indicates acute infection/inflammation, while shock indicates cardiovascular collapse, neither of which represents an adaptive cellular response."
         },
         "leftContent": {
           "tabs": [
@@ -4238,15 +4238,11 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Prepare the client for an immediate surgical esophagectomy with radiation therapy",
+              "correct": false
+            },
+            {
               "text": "Provide education and supportive resources for a structured smoking cessation program to remove chronic bronchial mucosal irritation",
-              "correct": true
-            },
-            {
-              "text": "Administer prescribed proton pump inhibitor (PPI) therapy to suppress gastric acid exposure to the esophageal mucosa",
-              "correct": true
-            },
-            {
-              "text": "Educate the client on anti-reflux lifestyle measures, including elevating the head of the bed 15 to 20 cm and avoiding meals within 3 hours of sleep",
               "correct": true
             },
             {
@@ -4258,12 +4254,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Prepare the client for an immediate surgical esophagectomy with radiation therapy",
-              "correct": false
+              "text": "Administer prescribed proton pump inhibitor (PPI) therapy to suppress gastric acid exposure to the esophageal mucosa",
+              "correct": true
+            },
+            {
+              "text": "Educate the client on anti-reflux lifestyle measures, including elevating the head of the bed 15 to 20 cm and avoiding meals within 3 hours of sleep",
+              "correct": true
             }
           ],
           "preamble": "The nurse develops a nursing plan of care aimed at arresting and reversing Arthur's cellular adaptations and pre-neoplastic changes.",
-          "explanation": "Nursing interventions for clients with adaptive cellular responses and low-grade dysplasia focus on removing noxious stimuli, administering prescribed protective therapies, and health teaching: (1) Smoking cessation education removes toxic combustion products, allowing respiratory stem cells to regenerate ciliated columnar morphology; (2) Administering prescribed PPIs reduces chemical acid/peptic injury to the distal esophagus; (3) Elevating the head of the bed and meal timing physically reduces nocturnal reflux; (4) Administering prescribed antihypertensives lowers systemic afterload, halting or regressing left ventricular hypertrophy; (5) Reinforcing surveillance endoscopy ensures early detection if dysplasia advances. Preparing for esophagectomy and radiation is incorrect, as radical surgery and radiotherapy are reserved for invasive malignancy, not low-grade pre-invasive dysplasia."
+          "explanation": "Nursing interventions for clients with adaptive cellular responses and low-grade dysplasia focus on removing noxious stimuli, administering prescribed protective therapies, and health teaching: (Option 2) Smoking cessation education removes toxic combustion products, allowing respiratory stem cells to regenerate ciliated columnar morphology; (Option 5) Administering prescribed PPIs reduces chemical acid/peptic injury to the distal esophagus; (Option 6) Elevating the head of the bed and meal timing physically reduces nocturnal reflux; (Option 3) Administering prescribed antihypertensives lowers systemic afterload, halting or regressing left ventricular hypertrophy; (Option 4) Reinforcing surveillance endoscopy ensures early detection if dysplasia advances. Preparing for esophagectomy and radiation is incorrect, as radical surgery and radiotherapy are reserved for invasive malignancy, not low-grade pre-invasive dysplasia."
         },
         "leftContent": {
           "tabs": [
@@ -4450,11 +4450,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Hepatocyte hydropic swelling with expanded, pale cytoplasm and cellular enlargement (ballooning degeneration)",
-              "correct": true
-            },
-            {
-              "text": "Intracellular accumulation of macrovesicular and microvesicular lipid vacuoles within hepatocytes",
+              "text": "Preservation of hepatocyte plasma membrane and nuclear envelope integrity",
               "correct": true
             },
             {
@@ -4462,20 +4458,24 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Preservation of hepatocyte plasma membrane and nuclear envelope integrity",
-              "correct": true
+              "text": "Formation of chalky white saponified fat deposits embedded in surrounding tissue",
+              "correct": false
             },
             {
               "text": "Extensive nuclear karyorrhexis, chromatin disintegration, and plasma membrane lysis",
               "correct": false
             },
             {
-              "text": "Formation of chalky white saponified fat deposits embedded in surrounding tissue",
-              "correct": false
+              "text": "Intracellular accumulation of macrovesicular and microvesicular lipid vacuoles within hepatocytes",
+              "correct": true
+            },
+            {
+              "text": "Hepatocyte hydropic swelling with expanded, pale cytoplasm and cellular enlargement (ballooning degeneration)",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Reversible cellular injury is characterized by: (1) Hydropic swelling—cellular volume expansion caused by ATP depletion and failure of the energy-dependent Na+/K+-ATPase exchange pump, causing intracellular sodium and water accumulation; (2) Intracellular accumulations—in this case, hepatic steatosis (triglyceride accumulation) resulting from alcohol-induced impairment of mitochondrial lipid metabolism; and (3) Ultrastructural changes including dilated endoplasmic reticulum, detachment/disaggregation of ribosomes, and mitochondrial swelling. Crucially, the cell's plasma membrane and nuclear structure remain intact. In contrast, nuclear dissolution (karyorrhexis, karyolysis) and membrane lysis indicate irreversible necrotic cell death. Saponified chalky white deposits are specific to fat necrosis (such as in acute pancreatitis)."
+          "explanation": "Reversible cellular injury is characterized by: (Option 6) Hydropic swelling—cellular volume expansion caused by ATP depletion and failure of the energy-dependent Na+/K+-ATPase exchange pump, causing intracellular sodium and water accumulation; (Option 5) Intracellular accumulations—in this case, hepatic steatosis (triglyceride accumulation) resulting from alcohol-induced impairment of mitochondrial lipid metabolism; and (Option 2) Ultrastructural changes including dilated endoplasmic reticulum, detachment/disaggregation of ribosomes, and mitochondrial swelling. Crucially, the cell's plasma membrane and nuclear structure remain intact. In contrast, nuclear dissolution (karyorrhexis, karyolysis) and membrane lysis indicate irreversible necrotic cell death. Saponified chalky white deposits are specific to fat necrosis (such as in acute pancreatitis)."
         },
         "leftContent": {
           "tabs": [
@@ -4662,7 +4662,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Implement a standardized alcohol withdrawal protocol with frequent monitoring of withdrawal symptoms and vital signs",
+              "text": "Collaborate with the registered dietitian to provide high-calorie, balanced protein nutrition to support cellular repair and apolipoprotein synthesis",
               "correct": true
             },
             {
@@ -4670,7 +4670,11 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Collaborate with the registered dietitian to provide high-calorie, balanced protein nutrition to support cellular repair and apolipoprotein synthesis",
+              "text": "Administer acetaminophen 1000 mg orally every 6 hours around the clock for right upper quadrant discomfort",
+              "correct": false
+            },
+            {
+              "text": "Implement a standardized alcohol withdrawal protocol with frequent monitoring of withdrawal symptoms and vital signs",
               "correct": true
             },
             {
@@ -4678,16 +4682,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Administer acetaminophen 1000 mg orally every 6 hours around the clock for right upper quadrant discomfort",
-              "correct": false
-            },
-            {
               "text": "Prepare the client for an urgent surgical wedge resection of the enlarged liver lobes",
               "correct": false
             }
           ],
           "preamble": "The nurse develops the client's nursing plan of care focused on cellular recovery, nutritional replenishment, and safe detoxification.",
-          "explanation": "Nursing management of reversible toxic and nutritional cell injury centers on removing the injurious agent, restoring metabolic substrates, and monitoring for complications: (1) Protocol-driven withdrawal monitoring detects early autonomic hyperactivity and prevents withdrawal delirium; (2) Administering prescribed IV thiamine prior to glucose prevents acute Wernicke encephalopathy and provides essential coenzymes for aerobic ATP generation; (3) Collaborating on nutritional repletion supplies amino acids essential for protein synthesis (such as apolipoproteins needed to export accumulated lipids out of hepatocytes); (4) Serial liver enzymes and coagulation profiles evaluate whether cell membranes are stabilizing and liver synthetic function is returning. In contrast, acetaminophen is metabolized by the liver into the hepatotoxic intermediate NAPQI; in the setting of glutathione depletion from chronic alcohol use, standard doses can precipitate massive, irreversible hepatic necrosis. Surgery is contraindicated for diffuse, reversible metabolic liver injury."
+          "explanation": "Nursing management of reversible toxic and nutritional cell injury centers on removing the injurious agent, restoring metabolic substrates, and monitoring for complications: (Option 4) Protocol-driven withdrawal monitoring detects early autonomic hyperactivity and prevents withdrawal delirium; (Option 2) Administering prescribed IV thiamine prior to glucose prevents acute Wernicke encephalopathy and provides essential coenzymes for aerobic ATP generation; (Option 1) Collaborating on nutritional repletion supplies amino acids essential for protein synthesis (such as apolipoproteins needed to export accumulated lipids out of hepatocytes); (Option 5) Serial liver enzymes and coagulation profiles evaluate whether cell membranes are stabilizing and liver synthetic function is returning. In contrast, acetaminophen is metabolized by the liver into the hepatotoxic intermediate NAPQI; in the setting of glutathione depletion from chronic alcohol use, standard doses can precipitate massive, irreversible hepatic necrosis. Surgery is contraindicated for diffuse, reversible metabolic liver injury."
         },
         "leftContent": {
           "tabs": [
@@ -4874,10 +4874,6 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Blackened, dry, shriveled right second and third toes with an initial clear line of demarcation",
-              "correct": true
-            },
-            {
               "text": "Rapid onset of foul-smelling, purulent, liquefactive drainage with tissue softening and extensive forefoot erythema",
               "correct": true
             },
@@ -4886,20 +4882,24 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Hypotension (BP 92/58 mmHg), tachycardia (118 bpm), high fever (38.9 °C), and elevated serum lactate (4.2 mmol/L)",
-              "correct": true
+              "text": "Strong, bounding palpable dorsalis pedis and posterior tibial arterial pulses bilaterally",
+              "correct": false
             },
             {
               "text": "Transient toe paresthesia that completely resolves with limb elevation and warm blankets",
               "correct": false
             },
             {
-              "text": "Strong, bounding palpable dorsalis pedis and posterior tibial arterial pulses bilaterally",
-              "correct": false
+              "text": "Blackened, dry, shriveled right second and third toes with an initial clear line of demarcation",
+              "correct": true
+            },
+            {
+              "text": "Hypotension (BP 92/58 mmHg), tachycardia (118 bpm), high fever (38.9 °C), and elevated serum lactate (4.2 mmol/L)",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Irreversible cell death results in necrosis and gangrene: (1) Dry gangrene is a form of coagulative necrosis resulting from severe ischemia, characterized by black, dry, wrinkled, mummified tissue with a distinct line of demarcation; (2) Wet gangrene occurs when necrotic tissue is superinfected by bacteria, inducing liquefactive necrosis with tissue softening, foul-smelling purulent drainage, and rapidly spreading edema; (3) Gas gangrene results from anaerobic bacterial infection (e.g., Clostridium perfringens), which ferments carbohydrates and produces characteristic gas bubbles that feel like crackling crepitus under the skin; (4) Systemic signs of septic shock (fever, tachycardia, hypotension, lactic acidosis from tissue hypoperfusion) reflect bacterial toxin release and systemic inflammatory response. Gangrene does not resolve with elevation or warming, and peripheral pulses are absent due to severe arterial occlusive disease."
+          "explanation": "Irreversible cell death results in necrosis and gangrene: (Option 5) Dry gangrene is a form of coagulative necrosis resulting from severe ischemia, characterized by black, dry, wrinkled, mummified tissue with a distinct line of demarcation; (Option 1) Wet gangrene occurs when necrotic tissue is superinfected by bacteria, inducing liquefactive necrosis with tissue softening, foul-smelling purulent drainage, and rapidly spreading edema; (Option 2) Gas gangrene results from anaerobic bacterial infection (e.g., Clostridium perfringens), which ferments carbohydrates and produces characteristic gas bubbles that feel like crackling crepitus under the skin; (Option 6) Systemic signs of septic shock (fever, tachycardia, hypotension, lactic acidosis from tissue hypoperfusion) reflect bacterial toxin release and systemic inflammatory response. Gangrene does not resolve with elevation or warming, and peripheral pulses are absent due to severe arterial occlusive disease."
         },
         "leftContent": {
           "tabs": [
@@ -5086,15 +5086,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Submerge the gangrenous extremity in a warm water whirlpool bath to soften and soak necrotic crusts",
+              "correct": false
+            },
+            {
+              "text": "Apply tight compression dressings and warm heating pads directly to the necrotic right forefoot",
+              "correct": false
+            },
+            {
               "text": "Administer prescribed rapid intravenous isotonic crystalloid resuscitation (e.g., 30 mL/kg of Lactated Ringer's) to restore circulating volume and perfusion pressure",
-              "correct": true
-            },
-            {
-              "text": "Administer prescribed broad-spectrum intravenous antimicrobial therapy covering anaerobes and gram-negative bacilli (e.g., piperacillin-tazobactam plus vancomycin)",
-              "correct": true
-            },
-            {
-              "text": "Prepare the client for emergent surgical debridement by verifying informed consent documentation and initiating preoperative checklists",
               "correct": true
             },
             {
@@ -5102,16 +5102,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Apply tight compression dressings and warm heating pads directly to the necrotic right forefoot",
-              "correct": false
+              "text": "Prepare the client for emergent surgical debridement by verifying informed consent documentation and initiating preoperative checklists",
+              "correct": true
             },
             {
-              "text": "Submerge the gangrenous extremity in a warm water whirlpool bath to soften and soak necrotic crusts",
-              "correct": false
+              "text": "Administer prescribed broad-spectrum intravenous antimicrobial therapy covering anaerobes and gram-negative bacilli (e.g., piperacillin-tazobactam plus vancomycin)",
+              "correct": true
             }
           ],
           "preamble": "The nurse plans emergency resuscitation, stabilization, and preoperative preparation for urgent operative debridement.",
-          "explanation": "Gas/wet gangrene with septic shock is a surgical and medical emergency requiring immediate nursing actions: (1) Administering prescribed crystalloid fluid resuscitation restores effective circulating volume and combats hypoperfusion lactic acidosis; (2) Administering prescribed broad-spectrum intravenous antimicrobials stops bacterial proliferation and toxin production; (3) Preparing the client for surgical debridement/amputation ensures prompt source control, as antimicrobials cannot penetrate avascular dead tissue; and (4) Strict hourly urine output monitoring assesses renal perfusion. In contrast, tight compression bandages worsen tissue ischemia by further restricting arterial inflow, and heating pads cause thermal injury to neuropathic skin. Soaking in water macerates tissue, accelerates bacterial multiplication, and is strictly contraindicated."
+          "explanation": "Gas/wet gangrene with septic shock is a surgical and medical emergency requiring immediate nursing actions: (Option 3) Administering prescribed crystalloid fluid resuscitation restores effective circulating volume and combats hypoperfusion lactic acidosis; (Option 6) Administering prescribed broad-spectrum intravenous antimicrobials stops bacterial proliferation and toxin production; (Option 5) Preparing the client for surgical debridement/amputation ensures prompt source control, as antimicrobials cannot penetrate avascular dead tissue; and (Option 4) Strict hourly urine output monitoring assesses renal perfusion. In contrast, tight compression bandages worsen tissue ischemia by further restricting arterial inflow, and heating pads cause thermal injury to neuropathic skin. Soaking in water macerates tissue, accelerates bacterial multiplication, and is strictly contraindicated."
         },
         "leftContent": {
           "tabs": [
@@ -5302,23 +5302,15 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Upward slanting palpebral fissures with prominent inner epicanthal folds",
-              "correct": true
-            },
-            {
-              "text": "Protruding, large-appearing tongue (macroglossia) with narrow high-arched palate",
-              "correct": true
-            },
-            {
-              "text": "Low-set, small ears with folded superior helixes",
-              "correct": true
-            },
-            {
               "text": "Single transverse palmar crease (simian crease) bilaterally",
               "correct": true
             },
             {
               "text": "Grade 3/6 harsh pansystolic murmur auscultated along the lower left sternal border",
+              "correct": true
+            },
+            {
+              "text": "Low-set, small ears with folded superior helixes",
               "correct": true
             },
             {
@@ -5328,6 +5320,14 @@ window.NCLEX_CASES = [
             {
               "text": "Microcephaly with severe craniosynostosis and fused sagittal suture",
               "correct": false
+            },
+            {
+              "text": "Protruding, large-appearing tongue (macroglossia) with narrow high-arched palate",
+              "correct": true
+            },
+            {
+              "text": "Upward slanting palpebral fissures with prominent inner epicanthal folds",
+              "correct": true
             }
           ],
           "preamble": "",
@@ -5526,8 +5526,16 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Assess respiratory rate, effort, work of breathing, and liver span for early signs of congestive heart failure",
+              "correct": true
+            },
+            {
               "text": "Position the infant in an upright, semi-seated posture with neck supported slightly forward during feedings",
               "correct": true
+            },
+            {
+              "text": "Maintain the infant in complete neck hyperextension during bottle feedings to prevent tongue protrusion",
+              "correct": false
             },
             {
               "text": "Utilize a small, straight nipple or specialized cleft/hypotonic feeding bottle with frequent burping and rest periods",
@@ -5538,16 +5546,8 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Assess respiratory rate, effort, work of breathing, and liver span for early signs of congestive heart failure",
-              "correct": true
-            },
-            {
               "text": "Provide supportive, non-judgmental guidance and connect parents with community genetic support groups and early infant intervention services",
               "correct": true
-            },
-            {
-              "text": "Maintain the infant in complete neck hyperextension during bottle feedings to prevent tongue protrusion",
-              "correct": false
             },
             {
               "text": "Limit feeding sessions to a minimum of 60 consecutive minutes to force total volume ingestion regardless of tachypnea",
@@ -5555,7 +5555,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Key nursing interventions for a neonate with Trisomy 21 and a congenital heart defect (ASD) include: (1) Upright positioning with head and neck supported to facilitate swallowing and prevent aspiration; (2) Using specialized feeding devices (e.g., Haberman or firm nipple) with small, frequent feeds (limiting feeds to 20–30 minutes to avoid excessive caloric expenditure and fatigue); (3) Close monitoring for heart failure (daily weights, respiratory effort, tachypnea, hepatomegaly, diaphoresis with feeds); and (4) Providing emotional support, genetic counseling referrals, and connection to infant development resources. Hyperextending the neck increases airway aspiration risk, and forcing 60-minute feeds exhausts the infant and increases cardiac work."
+          "explanation": "Key nursing interventions for a neonate with Trisomy 21 and a congenital heart defect (ASD) include: (Option 2) Upright positioning with head and neck supported to facilitate swallowing and prevent aspiration; (Option 4) Using specialized feeding devices (e.g., Haberman or firm nipple) with small, frequent feeds (limiting feeds to 20–30 minutes to avoid excessive caloric expenditure and fatigue); (Options 1 and 5) Close monitoring for heart failure (daily weights, respiratory effort, tachypnea, hepatomegaly, diaphoresis with feeds); and (Option 6) Providing emotional support, genetic counseling referrals, and connection to infant development resources. Hyperextending the neck increases airway aspiration risk, and forcing 60-minute feeds exhausts the infant and increases cardiac work."
         },
         "leftContent": {
           "tabs": [
@@ -5761,15 +5761,11 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Maya's full biological brother has Hemophilia A, a severe factor VIII bleeding disorder requiring intravenous clotting factor infusions",
-              "correct": true
+              "text": "Maya's maternal grandmother developed essential primary hypertension and type 2 diabetes mellitus at age 62",
+              "correct": false
             },
             {
               "text": "David's father died suddenly at age 38 from an acute ascending aortic dissection and had tall stature with pectus excavatum",
-              "correct": true
-            },
-            {
-              "text": "Both Maya and David have first cousins diagnosed with Cystic Fibrosis (CFTR gene mutations with chronic bronchiectasis and pancreatic insufficiency)",
               "correct": true
             },
             {
@@ -5777,16 +5773,20 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Maya's maternal grandmother developed essential primary hypertension and type 2 diabetes mellitus at age 62",
+              "text": "Maya experienced mild seasonal allergic rhinitis during spring tree pollen blooms",
               "correct": false
             },
             {
-              "text": "Maya experienced mild seasonal allergic rhinitis during spring tree pollen blooms",
-              "correct": false
+              "text": "Maya's full biological brother has Hemophilia A, a severe factor VIII bleeding disorder requiring intravenous clotting factor infusions",
+              "correct": true
+            },
+            {
+              "text": "Both Maya and David have first cousins diagnosed with Cystic Fibrosis (CFTR gene mutations with chronic bronchiectasis and pancreatic insufficiency)",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Mendelian single-gene disorders follow predictable inheritance patterns (autosomal dominant, autosomal recessive, or X-linked): (1) Hemophilia A is an X-linked recessive bleeding disorder caused by deficiency of factor VIII; Maya's brother being affected means their mother is an obligate or probable carrier, placing Maya at 50% risk of being a carrier. (2) Sudden aortic dissection in a tall relative with pectus excavatum strongly suggests Marfan syndrome (an autosomal dominant connective tissue disorder caused by FBN1 mutations). (3) Cystic Fibrosis is an autosomal recessive disorder caused by CFTR mutations; cousins affected indicates carrier risk in parental lineages. (4) David's physical findings (tall, arm span > height, joint laxity, aortic murmur) are phenotypic cues of Marfan syndrome requiring immediate cardiovascular investigation. Primary hypertension and type 2 diabetes are multifactorial/polygenic disorders, not Mendelian single-gene disorders. Seasonal allergies are immune-mediated environmental responses."
+          "explanation": "Mendelian single-gene disorders follow predictable inheritance patterns (autosomal dominant, autosomal recessive, or X-linked): (Option 5) Hemophilia A is an X-linked recessive bleeding disorder caused by deficiency of factor VIII; Maya's brother being affected means their mother is an obligate or probable carrier, placing Maya at 50% risk of being a carrier. (Option 2) Sudden aortic dissection in a tall relative with pectus excavatum strongly suggests Marfan syndrome (an autosomal dominant connective tissue disorder caused by FBN1 mutations). (Option 6) Cystic Fibrosis is an autosomal recessive disorder caused by CFTR mutations; cousins affected indicates carrier risk in parental lineages. (Option 3) David's physical findings (tall, arm span > height, joint laxity, aortic murmur) are phenotypic cues of Marfan syndrome requiring immediate cardiovascular investigation. Primary hypertension and type 2 diabetes are multifactorial/polygenic disorders, not Mendelian single-gene disorders. Seasonal allergies are immune-mediated environmental responses."
         },
         "leftContent": {
           "tabs": [
@@ -5974,15 +5974,23 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Promptly alert the cardiovascular healthcare provider regarding David's aortic root dilation (4.4 cm) and diastolic murmur for urgent cardiology evaluation",
-              "correct": true
-            },
-            {
               "text": "Educate David on avoiding heavy isometric weightlifting, competitive contact sports, and strenuous straining that increase aortic wall shear stress",
               "correct": true
             },
             {
+              "text": "Instruct Maya that taking high-dose folic acid supplements will completely prevent single-gene mutations such as Cystic Fibrosis and Hemophilia",
+              "correct": false
+            },
+            {
+              "text": "Reassure David that aortic root dilation of 4.4 cm is a normal athletic heart adaptation requiring no physical activity restrictions",
+              "correct": false
+            },
+            {
               "text": "Provide education on reproductive options including pre-implantation genetic diagnosis (PGD) with in vitro fertilization (IVF) and prenatal chorionic villus sampling (CVS) / amniocentesis",
+              "correct": true
+            },
+            {
+              "text": "Promptly alert the cardiovascular healthcare provider regarding David's aortic root dilation (4.4 cm) and diastolic murmur for urgent cardiology evaluation",
               "correct": true
             },
             {
@@ -5992,18 +6000,10 @@ window.NCLEX_CASES = [
             {
               "text": "Assess the couple's psychological coping, anxiety, and provide referrals to certified genetic counselors and the Marfan Foundation",
               "correct": true
-            },
-            {
-              "text": "Reassure David that aortic root dilation of 4.4 cm is a normal athletic heart adaptation requiring no physical activity restrictions",
-              "correct": false
-            },
-            {
-              "text": "Instruct Maya that taking high-dose folic acid supplements will completely prevent single-gene mutations such as Cystic Fibrosis and Hemophilia",
-              "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing interventions include: (1) Promptly alerting the cardiology healthcare provider regarding David's aortic root dilation (4.4 cm is significantly enlarged in Marfan syndrome, placing him at risk for fatal aortic dissection/rupture); (2) Educating David on avoiding isometric resistance exercises and high-impact contact sports to prevent acute aortic wall shear stress; (3) Reviewing reproductive technologies (PGD with IVF, or prenatal diagnostic amniocentesis/CVS) so the couple can make informed family planning decisions; (4) Educating Maya regarding hemophilia precautions for a male newborn (deferring elective circumcisions until coagulation factor VIII status is verified to prevent life-threatening hemorrhage); and (5) Providing psychological support and disease-specific foundation resources. Aortic dilation of 4.4 cm is never a benign athletic finding in someone with Marfan phenotype. Folic acid prevents neural tube defects (multifactorial developmental defect), but cannot prevent or repair Mendelian single-gene DNA mutations."
+          "explanation": "Appropriate nursing interventions include: (Option 5) Promptly alerting the cardiology healthcare provider regarding David's aortic root dilation (4.4 cm is significantly enlarged in Marfan syndrome, placing him at risk for fatal aortic dissection/rupture); (Option 1) Educating David on avoiding isometric resistance exercises and high-impact contact sports to prevent acute aortic wall shear stress; (Option 4) Reviewing reproductive technologies (PGD with IVF, or prenatal diagnostic amniocentesis/CVS) so the couple can make informed family planning decisions; (Option 6) Educating Maya regarding hemophilia precautions for a male newborn (deferring elective circumcisions until coagulation factor VIII status is verified to prevent life-threatening hemorrhage); and (Option 7) Providing psychological support and disease-specific foundation resources. Aortic dilation of 4.4 cm is never a benign athletic finding in someone with Marfan phenotype. Folic acid prevents neural tube defects (multifactorial developmental defect), but cannot prevent or repair Mendelian single-gene DNA mutations."
         },
         "leftContent": {
           "tabs": [
@@ -6199,7 +6199,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Microcephaly with head circumference below the 3rd percentile for gestational age",
+              "text": "Unilateral cleft lip extending into the left nasal floor and primary palate",
               "correct": true
             },
             {
@@ -6207,11 +6207,19 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
+              "text": "Petechial 'blueberry muffin' skin rash and hepatosplenomegaly on abdominal palpation",
+              "correct": true
+            },
+            {
+              "text": "Macrosomia with birth weight of 4,600 g and marked maternal hyperglycemia",
+              "correct": false
+            },
+            {
               "text": "Short palpebral fissures (small eye openings) with low nasal bridge",
               "correct": true
             },
             {
-              "text": "Unilateral cleft lip extending into the left nasal floor and primary palate",
+              "text": "Microcephaly with head circumference below the 3rd percentile for gestational age",
               "correct": true
             },
             {
@@ -6219,20 +6227,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Petechial 'blueberry muffin' skin rash and hepatosplenomegaly on abdominal palpation",
-              "correct": true
-            },
-            {
               "text": "Normal vigorous cry, robust active tone, and birth weight at the 50th percentile",
-              "correct": false
-            },
-            {
-              "text": "Macrosomia with birth weight of 4,600 g and marked maternal hyperglycemia",
               "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (1) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (2) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (3) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (4) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
+          "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (Options 2 and 5) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 6 and 7) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 1) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 3) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
         },
         "leftContent": {
           "tabs": [
@@ -6427,11 +6427,19 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Use a specialty cleft lip feeding bottle (e.g., squeezable Mead Johnson or Pigeon bottle) and support the cheeks to enhance suction",
-              "correct": true
+              "text": "Position the infant completely flat and supine during bottle feeding to maximize gravitational fluid flow",
+              "correct": false
+            },
+            {
+              "text": "Reprimand the mother regarding her alcohol consumption during early gestation to prevent future noncompliance",
+              "correct": false
             },
             {
               "text": "Burp the infant frequently (every 15 to 30 mL) during feeding to expel swallowed air and prevent regurgitation",
+              "correct": true
+            },
+            {
+              "text": "Use a specialty cleft lip feeding bottle (e.g., squeezable Mead Johnson or Pigeon bottle) and support the cheeks to enhance suction",
               "correct": true
             },
             {
@@ -6439,24 +6447,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Cluster nursing care, maintain a quiet, dimly lit environment, and provide swaddling to reduce neurobehavioral overstimulation",
-              "correct": true
-            },
-            {
               "text": "Provide empathetic, nonjudgmental therapeutic communication to support maternal coping and facilitate positive maternal-infant bonding",
               "correct": true
             },
             {
-              "text": "Position the infant completely flat and supine during bottle feeding to maximize gravitational fluid flow",
-              "correct": false
-            },
-            {
-              "text": "Reprimand the mother regarding her alcohol consumption during early gestation to prevent future noncompliance",
-              "correct": false
+              "text": "Cluster nursing care, maintain a quiet, dimly lit environment, and provide swaddling to reduce neurobehavioral overstimulation",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing interventions include: (1) Utilizing specialty cleft feeders with assisted squeezes and gentle cheek support to compensate for the absent lip seal; (2) Frequent burping to expel swallowed air resulting from poor suction; (3) Implementing bleeding precautions (soft handling, monitoring for petechiae/hematuria, minimizing venipunctures/IM injections) due to thrombocytopenia (platelets 68 &times; 109/L); (4) Minimizing sensory stimulation (dim lighting, clustering care, swaddling) for neurobehavioral irritability/tremulousness characteristic of neonatal alcohol withdrawal and CNS teratogenicity; and (5) Fostering maternal-infant attachment through compassionate, nonjudgmental support. Feeding infants flat supine is strictly contraindicated due to high aspiration and choking risk. Scolding or shaming the mother is unprofessional, destroys therapeutic rapport, and impedes infant care."
+          "explanation": "Appropriate nursing interventions include: (Option 4) Utilizing specialty cleft feeders with assisted squeezes and gentle cheek support to compensate for the absent lip seal; (Option 3) Frequent burping to expel swallowed air resulting from poor suction; (Option 5) Implementing bleeding precautions (soft handling, monitoring for petechiae/hematuria, minimizing venipunctures/IM injections) due to thrombocytopenia (platelets 68 &times; 109/L); (Option 7) Minimizing sensory stimulation (dim lighting, clustering care, swaddling) for neurobehavioral irritability/tremulousness characteristic of neonatal alcohol withdrawal and CNS teratogenicity; and (Option 6) Fostering maternal-infant attachment through compassionate, nonjudgmental support. Feeding infants flat supine is strictly contraindicated due to high aspiration and choking risk. Scolding or shaming the mother is unprofessional, destroys therapeutic rapport, and impedes infant care."
         },
         "leftContent": {
           "tabs": [
@@ -6883,7 +6883,11 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Explain that technetium radiotracer and blue dye will be injected around the tumor bed to map the primary lymphatic pathway to the sentinel node",
+              "text": "Reassure the client that her uterine leiomyoma requires immediate radical total hysterectomy before addressing the breast carcinoma",
+              "correct": false
+            },
+            {
+              "text": "Instruct the client on postoperative arm care, including avoiding blood draws, intravenous lines, and blood pressure cuffs on the operative right arm if axillary nodes are removed",
               "correct": true
             },
             {
@@ -6891,24 +6895,20 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Instruct the client on postoperative arm care, including avoiding blood draws, intravenous lines, and blood pressure cuffs on the operative right arm if axillary nodes are removed",
-              "correct": true
-            },
-            {
               "text": "Assess the client's psychological coping, body image concerns, and connect her with cancer support resources",
               "correct": true
             },
             {
-              "text": "Reassure the client that her uterine leiomyoma requires immediate radical total hysterectomy before addressing the breast carcinoma",
+              "text": "Encourage vigorous heavy lifting and repetitive upper body weight training immediately within 24 hours postoperatively",
               "correct": false
             },
             {
-              "text": "Encourage vigorous heavy lifting and repetitive upper body weight training immediately within 24 hours postoperatively",
-              "correct": false
+              "text": "Explain that technetium radiotracer and blue dye will be injected around the tumor bed to map the primary lymphatic pathway to the sentinel node",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing interventions include: (1) Teaching the physiological basis of sentinel lymph node mapping using radiotracer and blue dye; (2) Preparing the client for harmless transient blue-green discoloration of urine and skin from isosulfan blue; (3) Educating on lymphedema prevention (limb precautions: no venipunctures, injections, or blood pressure measurements on the operative side); and (4) Providing psychosocial support and navigation. The benign uterine leiomyoma is slow-growing and asymptomatic aside from known menorrhagia; the invasive breast carcinoma is an aggressive malignant lesion requiring prioritized surgical and oncologic management. Heavy lifting immediately postoperatively is contraindicated due to risks of wound dehiscence and hematoma."
+          "explanation": "Appropriate nursing interventions include: (Option 6) Teaching the physiological basis of sentinel lymph node mapping using radiotracer and blue dye; (Option 3) Preparing the client for harmless transient blue-green discoloration of urine and skin from isosulfan blue; (Option 2) Educating on lymphedema prevention (limb precautions: no venipunctures, injections, or blood pressure measurements on the operative side); and (Option 4) Providing psychosocial support and navigation. The benign uterine leiomyoma is slow-growing and asymptomatic aside from known menorrhagia; the invasive breast carcinoma is an aggressive malignant lesion requiring prioritized surgical and oncologic management. Heavy lifting immediately postoperatively is contraindicated due to risks of wound dehiscence and hematoma."
         },
         "leftContent": {
           "intro": "The nurse conducts the preoperative nursing consultation and assesses Eleanor's understanding of the planned surgical procedure and postoperative recovery expectations.",
@@ -7109,19 +7109,11 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Persistent, progressive change in bowel habits from normal daily stools to alternating obstipation and pencil-thin stools over 4 months",
-              "correct": true
-            },
-            {
-              "text": "Unusual rectal bleeding with dark maroon blood mixed throughout the stool and a positive fecal immunochemical test (FIT)",
-              "correct": true
-            },
-            {
-              "text": "Microcytic hypochromic anemia (hemoglobin 98 g/L) reflecting occult chronic gastrointestinal blood loss",
-              "correct": true
-            },
-            {
               "text": "40 pack-year history of cigarette smoking and a sedentary lifestyle with a diet high in processed red meats and low in dietary fiber",
+              "correct": true
+            },
+            {
+              "text": "Persistent, progressive change in bowel habits from normal daily stools to alternating obstipation and pencil-thin stools over 4 months",
               "correct": true
             },
             {
@@ -7131,10 +7123,18 @@ window.NCLEX_CASES = [
             {
               "text": "BMI of 22.1 kg/m² with regular consumption of 5 to 7 daily servings of fresh cruciferous vegetables",
               "correct": false
+            },
+            {
+              "text": "Unusual rectal bleeding with dark maroon blood mixed throughout the stool and a positive fecal immunochemical test (FIT)",
+              "correct": true
+            },
+            {
+              "text": "Microcytic hypochromic anemia (hemoglobin 98 g/L) reflecting occult chronic gastrointestinal blood loss",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (1) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (2) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
+          "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 2) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 5 and 6) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
         },
         "leftContent": {
           "intro": "The nurse in an outpatient gastroenterology and endoscopy clinic is reviewing the health history of Robert Chen, a 61-year-old male presenting for diagnostic colonoscopy after abnormal screening tests.",
@@ -7317,19 +7317,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Enroll in a structured tobacco cessation program, explaining that smoking cessation substantially reduces cancer recurrence and mortality",
-              "correct": true
-            },
-            {
-              "text": "Adopt a high-fiber, plant-rich diet including fruits, vegetables, and whole grains while strictly reducing processed meats and saturated fats",
-              "correct": true
-            },
-            {
               "text": "Engage in regular physical activity (at least 150 minutes of moderate exercise weekly) to achieve and maintain a healthy body mass index (BMI)",
-              "correct": true
-            },
-            {
-              "text": "Recommend that Robert's first-degree biological relatives (children and siblings) initiate screening colonoscopy 10 years earlier than his age of diagnosis",
               "correct": true
             },
             {
@@ -7339,10 +7327,22 @@ window.NCLEX_CASES = [
             {
               "text": "Advise that screening colonoscopies are unnecessary once a client reaches 50 years of age if they feel asymptomatic",
               "correct": false
+            },
+            {
+              "text": "Adopt a high-fiber, plant-rich diet including fruits, vegetables, and whole grains while strictly reducing processed meats and saturated fats",
+              "correct": true
+            },
+            {
+              "text": "Enroll in a structured tobacco cessation program, explaining that smoking cessation substantially reduces cancer recurrence and mortality",
+              "correct": true
+            },
+            {
+              "text": "Recommend that Robert's first-degree biological relatives (children and siblings) initiate screening colonoscopy 10 years earlier than his age of diagnosis",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Canadian Cancer Statistics and cancer prevention guidelines establish that approximately 4 in 10 cancer cases are preventable through modifiable lifestyle factors: (1) Tobacco cessation is paramount, as smoking causes 18-25% of all cancer deaths; (2) Maintaining a healthy BMI through regular exercise (at least 150 mins/week) and a high-fiber diet rich in cruciferous vegetables reduces colon cancer risk; (3) First-degree relatives of individuals with colorectal cancer have double the baseline risk and must begin screening at age 40 (or 10 years before the index case's diagnosis, whichever is earlier); (4) Dietary supplements do not substitute for surgical and oncologic intervention. Colorectal cancer screening in asymptomatic adults is vital because early lesions produce no symptoms."
+          "explanation": "Canadian Cancer Statistics and cancer prevention guidelines establish that approximately 4 in 10 cancer cases are preventable through modifiable lifestyle factors: (Option 5) Tobacco cessation is paramount, as smoking causes 18-25% of all cancer deaths; (Options 1 and 4) Maintaining a healthy BMI through regular exercise (at least 150 mins/week) and a high-fiber diet rich in cruciferous vegetables reduces colon cancer risk; (Option 6) First-degree relatives of individuals with colorectal cancer have double the baseline risk and must begin screening at age 40 (or 10 years before the index case's diagnosis, whichever is earlier); (Option 2) Dietary supplements do not substitute for surgical and oncologic intervention. Colorectal cancer screening in asymptomatic adults is vital because early lesions produce no symptoms."
         },
         "leftContent": {
           "intro": "The nurse coordinates with the surgical oncology clinic to plan Robert's preoperative staging and provides personalized lifestyle risk reduction education.",
@@ -7533,15 +7533,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Persistent, nagging cough for 3 months with episodes of blood-streaked sputum (hemoptysis)",
-              "correct": true
-            },
-            {
               "text": "Unilateral dull, aching right-sided chest pain that intensifies with deep inspiration and coughing",
-              "correct": true
-            },
-            {
-              "text": "Progressive hoarseness of voice developing over the past 4 weeks without pharyngitis",
               "correct": true
             },
             {
@@ -7549,16 +7541,24 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Acute rhinorrhea, sneezing, and itchy watery eyes triggered by exposure to cat dander",
-              "correct": false
+              "text": "Progressive hoarseness of voice developing over the past 4 weeks without pharyngitis",
+              "correct": true
             },
             {
               "text": "History of seasonal influenza immunization 6 months ago without respiratory complaints",
               "correct": false
+            },
+            {
+              "text": "Persistent, nagging cough for 3 months with episodes of blood-streaked sputum (hemoptysis)",
+              "correct": true
+            },
+            {
+              "text": "Acute rhinorrhea, sneezing, and itchy watery eyes triggered by exposure to cat dander",
+              "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Danielle presents with quintessential CAUTION warning signs of respiratory malignancy: (1) 'N' &mdash; Nagging cough or hoarseness (cough > 3 months, hoarseness indicative of mediastinal tumor involvement and recurrent laryngeal nerve compression); (2) 'U' &mdash; Unusual bleeding (hemoptysis / blood-streaked sputum from tumor erosion into bronchial vasculature); (3) Local invasive signs (pleuritic chest pain from pleural or chest wall invasion); and (4) Systemic hallmarks of advanced neoplasia (substantial unintentional weight loss and cancer fatigue). Allergic rhinitis and previous immunization are unrelated."
+          "explanation": "Danielle presents with quintessential CAUTION warning signs of respiratory malignancy: (Options 3 and 5) 'N' &mdash; Nagging cough or hoarseness (cough > 3 months, hoarseness indicative of mediastinal tumor involvement and recurrent laryngeal nerve compression); (Option 5) 'U' &mdash; Unusual bleeding (hemoptysis / blood-streaked sputum from tumor erosion into bronchial vasculature); (Option 1) Local invasive signs (pleuritic chest pain from pleural or chest wall invasion); and (Option 2) Systemic hallmarks of advanced neoplasia (substantial unintentional weight loss and cancer fatigue). Allergic rhinitis and previous immunization are unrelated."
         },
         "leftContent": {
           "intro": "The nurse in an outpatient thoracic oncology clinic is admitting Danielle Moreau, a 54-year-old female presenting for comprehensive diagnostic evaluation of an abnormal chest CT revealing a right hilar lung mass.",
@@ -7740,15 +7740,11 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Perform comprehensive pain assessments, evaluating both visceral chest pain and somatic L3 bone pain, and administer prescribed analgesics on a scheduled around-the-clock basis",
-              "correct": true
-            },
-            {
-              "text": "Monitor for neurological warning signs of spinal cord compression (lower extremity weakness, paresthesias, sensory level deficit, bowel/bladder dysfunction)",
-              "correct": true
-            },
-            {
               "text": "Educate the client on bone-targeted therapy (e.g., denosumab or bisphosphonates) and emphasize maintaining excellent oral hygiene to reduce risk of osteonecrosis of the jaw",
+              "correct": true
+            },
+            {
+              "text": "Perform comprehensive pain assessments, evaluating both visceral chest pain and somatic L3 bone pain, and administer prescribed analgesics on a scheduled around-the-clock basis",
               "correct": true
             },
             {
@@ -7756,16 +7752,20 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Encourage vigorous high-impact spinal twisting exercises and spinal manipulation to relieve the L3 bone pain",
+              "text": "Advise the client that stage IV lung cancer with bone metastases is easily cured by a simple outpatient laser surgery",
               "correct": false
             },
             {
-              "text": "Advise the client that stage IV lung cancer with bone metastases is easily cured by a simple outpatient laser surgery",
+              "text": "Monitor for neurological warning signs of spinal cord compression (lower extremity weakness, paresthesias, sensory level deficit, bowel/bladder dysfunction)",
+              "correct": true
+            },
+            {
+              "text": "Encourage vigorous high-impact spinal twisting exercises and spinal manipulation to relieve the L3 bone pain",
               "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing interventions for stage IV metastatic cancer include: (1) Scheduled, round-the-clock analgesic management for combined visceral and somatic/bone pain; (2) Vigilant surveillance for spinal cord compression (an oncologic emergency caused by vertebral metastasis at L3 manifesting as progressive leg weakness, sensory loss, or incontinence); (3) Education on bone-modifying agents to prevent pathological fractures, including dental precautions for osteonecrosis of the jaw; and (4) Early palliative integration to address symptom burden, psychological coping, and advance directives. High-impact spinal manipulation over osteolytic vertebral metastases risks catastrophic pathological fracture and cord transection. Stage IV lung cancer is incurable, managed with palliative and life-prolonging systemic therapies."
+          "explanation": "Appropriate nursing interventions for stage IV metastatic cancer include: (Option 2) Scheduled, round-the-clock analgesic management for combined visceral and somatic/bone pain; (Option 5) Vigilant surveillance for spinal cord compression (an oncologic emergency caused by vertebral metastasis at L3 manifesting as progressive leg weakness, sensory loss, or incontinence); (Option 1) Education on bone-modifying agents to prevent pathological fractures, including dental precautions for osteonecrosis of the jaw; and (Option 3) Early palliative integration to address symptom burden, psychological coping, and advance directives. High-impact spinal manipulation over osteolytic vertebral metastases risks catastrophic pathological fracture and cord transection. Stage IV lung cancer is incurable, managed with palliative and life-prolonging systemic therapies."
         },
         "leftContent": {
           "intro": "The nurse collaborates with the medical oncologist, palliative care team, and radiation oncologist to formulate Danielle's symptom management and supportive care plan.",
@@ -7956,7 +7956,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Oral temperature of 38.6 °C (101.5 °F) with absolute neutrophil count (ANC) of 320/mm³ (0.32 &times; 10⁹/L)",
+              "text": "Severe temporal muscle wasting, sunken eyes, prominent ribs, and a 14% involuntary loss of body mass over 10 weeks despite nutritional supplements",
+              "correct": true
+            },
+            {
+              "text": "Normal vigorous appetite with rapid 5 kg weight gain and generalized bilateral 3+ pitting pedal edema",
+              "correct": false
+            },
+            {
+              "text": "Extensive oral erythema, ulcerations, and white pseudomembranous plaques causing excruciating pain on swallowing",
               "correct": true
             },
             {
@@ -7968,20 +7976,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Extensive oral erythema, ulcerations, and white pseudomembranous plaques causing excruciating pain on swallowing",
+              "text": "Oral temperature of 38.6 °C (101.5 °F) with absolute neutrophil count (ANC) of 320/mm³ (0.32 &times; 10⁹/L)",
               "correct": true
-            },
-            {
-              "text": "Severe temporal muscle wasting, sunken eyes, prominent ribs, and a 14% involuntary loss of body mass over 10 weeks despite nutritional supplements",
-              "correct": true
-            },
-            {
-              "text": "Normal vigorous appetite with rapid 5 kg weight gain and generalized bilateral 3+ pitting pedal edema",
-              "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Gerald exhibits life-threatening complications of advanced cancer and cytotoxic chemotherapy: (1) Febrile neutropenia (temp >= 38.3 °C with ANC < 500/mm³)—an oncologic emergency requiring immediate broad-spectrum antibiotics within 60 minutes due to absent inflammatory response; (2) Severe thrombocytopenia (platelets 28 &times; 109/L) causing spontaneous cutaneous bleeding (petechiae, ecchymoses); (3) Symptomatic severe anemia (hemoglobin 72 g/L with compensatory tachycardia and pallor); (4) Grade 3 oral mucositis, serving as a painful barrier breakdown and prime portal for bacteremia/sepsis; and (5) Cancer cachexia (profound wasting of skeletal muscle and adipose tissue driven by tumor-derived inflammatory cytokines). Rapid weight gain with pitting edema reflects volume overload/heart failure, not cachectic wasting."
+          "explanation": "Gerald exhibits life-threatening complications of advanced cancer and cytotoxic chemotherapy: (Option 6) Febrile neutropenia (temp >= 38.3 °C with ANC < 500/mm³)—an oncologic emergency requiring immediate broad-spectrum antibiotics within 60 minutes due to absent inflammatory response; (Option 4) Severe thrombocytopenia (platelets 28 &times; 109/L) causing spontaneous cutaneous bleeding (petechiae, ecchymoses); (Option 5) Symptomatic severe anemia (hemoglobin 72 g/L with compensatory tachycardia and pallor); (Option 3) Grade 3 oral mucositis, serving as a painful barrier breakdown and prime portal for bacteremia/sepsis; and (Option 1) Cancer cachexia (profound wasting of skeletal muscle and adipose tissue driven by tumor-derived inflammatory cytokines). Rapid weight gain with pitting edema reflects volume overload/heart failure, not cachectic wasting."
         },
         "leftContent": {
           "intro": "The nurse in an oncology emergency department is evaluating Gerald Kowalski, a 67-year-old male with Stage IV pancreatic adenocarcinoma who completed cycle 3 of FOLFIRINOX chemotherapy 9 days ago.",
@@ -8165,23 +8165,11 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Implement strict protective neutropenic precautions including private room placement, strict handwashing, and avoidance of fresh plants, flowers, or raw unpasteurized foods",
-              "correct": true
+              "text": "Encourage vigorous daily flossing and firm scrubbing of ulcerated oral mucosa to mechanically debride plaques",
+              "correct": false
             },
             {
               "text": "Implement bleeding precautions: avoid intramuscular injections, use soft-bristled toothbrushes or foam swabs, and avoid straight razors",
-              "correct": true
-            },
-            {
-              "text": "Provide non-alcoholic, soothing oral rinses (e.g., sodium bicarbonate or salt-and-soda rinse) every 2 to 4 hours, avoiding commercial alcohol-based mouthwashes",
-              "correct": true
-            },
-            {
-              "text": "Administer prescribed subcutaneous filgrastim (G-CSF) to accelerate granulocyte bone marrow production and recovery",
-              "correct": true
-            },
-            {
-              "text": "Administer prescribed packed red blood cells to treat symptomatic severe anemia (hemoglobin 72 g/L)",
               "correct": true
             },
             {
@@ -8189,12 +8177,24 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Encourage vigorous daily flossing and firm scrubbing of ulcerated oral mucosa to mechanically debride plaques",
-              "correct": false
+              "text": "Administer prescribed packed red blood cells to treat symptomatic severe anemia (hemoglobin 72 g/L)",
+              "correct": true
+            },
+            {
+              "text": "Provide non-alcoholic, soothing oral rinses (e.g., sodium bicarbonate or salt-and-soda rinse) every 2 to 4 hours, avoiding commercial alcohol-based mouthwashes",
+              "correct": true
+            },
+            {
+              "text": "Implement strict protective neutropenic precautions including private room placement, strict handwashing, and avoidance of fresh plants, flowers, or raw unpasteurized foods",
+              "correct": true
+            },
+            {
+              "text": "Administer prescribed subcutaneous filgrastim (G-CSF) to accelerate granulocyte bone marrow production and recovery",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing interventions include: (1) Strict protective isolation to shield the immunocompromised client from opportunistic pathogens; (2) Bleeding precautions (platelets 28 &times; 109/L) including avoiding IM injections, razor shaving, and hard toothbrushes; (3) Gentle, alcohol-free oral hygiene (salt/soda rinses, topical analgesics) to treat mucositis without irritating raw mucosa; (4) Administering G-CSF (filgrastim) to stimulate neutrophil production in the bone marrow; and (5) Transfusing packed red blood cells for symptomatic anemia with tachycardia. Rectal temperatures, suppositories, and enemas are strictly contraindicated in neutropenic and thrombocytopenic clients due to the risk of mucosal tearing, rectal abscess, and direct bacterial seeding into the bloodstream. Vigorous oral flossing causes mucosal laceration and bacteremia."
+          "explanation": "Appropriate nursing interventions include: (Option 6) Strict protective isolation to shield the immunocompromised client from opportunistic pathogens; (Option 2) Bleeding precautions (platelets 28 &times; 109/L) including avoiding IM injections, razor shaving, and hard toothbrushes; (Option 5) Gentle, alcohol-free oral hygiene (salt/soda rinses, topical analgesics) to treat mucositis without irritating raw mucosa; (Option 7) Administering G-CSF (filgrastim) to stimulate neutrophil production in the bone marrow; and (Option 4) Transfusing packed red blood cells for symptomatic anemia with tachycardia. Rectal temperatures, suppositories, and enemas are strictly contraindicated in neutropenic and thrombocytopenic clients due to the risk of mucosal tearing, rectal abscess, and direct bacterial seeding into the bloodstream. Vigorous oral flossing causes mucosal laceration and bacteremia."
         },
         "leftContent": {
           "intro": "Gerald is admitted to the specialized inpatient hematology-oncology unit. The nurse establishes the multi-faceted supportive and protective care plan.",
@@ -8399,15 +8399,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Serum sodium level of 116 mmol/L with low serum osmolality (242 mOsm/kg)",
-              "correct": true
-            },
-            {
               "text": "Inappropriately concentrated urine with high urine specific gravity (1.032) and elevated urine sodium (> 40 mmol/L)",
-              "correct": true
-            },
-            {
-              "text": "Generalized muscle weakness, depressed deep tendon reflexes (+1), and coarse muscle twitching",
               "correct": true
             },
             {
@@ -8415,11 +8407,19 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Profound volume depletion with severe orthostatic hypotension, dry mucous membranes, and tachycardia",
-              "correct": false
+              "text": "Generalized muscle weakness, depressed deep tendon reflexes (+1), and coarse muscle twitching",
+              "correct": true
             },
             {
               "text": "Serum sodium level of 152 mmol/L with massive dilute polyuria exceeding 6 liters daily",
+              "correct": false
+            },
+            {
+              "text": "Serum sodium level of 116 mmol/L with low serum osmolality (242 mOsm/kg)",
+              "correct": true
+            },
+            {
+              "text": "Profound volume depletion with severe orthostatic hypotension, dry mucous membranes, and tachycardia",
               "correct": false
             }
           ],
@@ -8607,19 +8607,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Implement strict fluid restriction (&le; 800 mL/24 hours) and post a 'Strict Fluid Restriction' sign over the bed and at the nursing station",
-              "correct": true
+              "text": "Infuse intravenous 5% Dextrose in Water (D5W) at 150 mL/hr to maintain patent peripheral venous access",
+              "correct": false
             },
             {
-              "text": "Maintain full seizure precautions: padded bed rails, functional oxygen, and working suction equipment ready at bedside",
-              "correct": true
+              "text": "Encourage Raymond to drink large glasses of ice water whenever he complains of thirst to soothe dry mucous membranes",
+              "correct": false
             },
             {
               "text": "Assess neurological vital signs and Glasgow Coma Scale (GCS) every 1 to 2 hours during hypertonic saline infusion",
-              "correct": true
-            },
-            {
-              "text": "Monitor serum sodium every 2 to 4 hours to verify that the rate of sodium correction does not exceed 8 to 10 mmol/L in 24 hours",
               "correct": true
             },
             {
@@ -8627,16 +8623,20 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Encourage Raymond to drink large glasses of ice water whenever he complains of thirst to soothe dry mucous membranes",
-              "correct": false
+              "text": "Maintain full seizure precautions: padded bed rails, functional oxygen, and working suction equipment ready at bedside",
+              "correct": true
             },
             {
-              "text": "Infuse intravenous 5% Dextrose in Water (D5W) at 150 mL/hr to maintain patent peripheral venous access",
-              "correct": false
+              "text": "Implement strict fluid restriction (&le; 800 mL/24 hours) and post a 'Strict Fluid Restriction' sign over the bed and at the nursing station",
+              "correct": true
+            },
+            {
+              "text": "Monitor serum sodium every 2 to 4 hours to verify that the rate of sodium correction does not exceed 8 to 10 mmol/L in 24 hours",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing interventions for paraneoplastic SIADH include: (1) Strict fluid restriction (usually 800-1000 mL/day) to prevent further dilutional drop in serum sodium; (2) Seizure precautions (padding, suction, O2) due to lowered seizure threshold from cerebral edema; (3) Frequent neurological checks (GCS, pupil response, orientation, motor power) to track resolution or worsening of brain swelling; (4) Monitoring sodium every 2-4 hours to strictly avoid overcorrection (> 8-10 mmol/L per 24h); and (5) Precise I&O and daily weights to track fluid retention. Giving free water drinks or infusing hypotonic fluids like D5W (which metabolizes to free water in the body) is strictly contraindicated, as it rapidly exacerbates cerebral edema, seizures, and herniation."
+          "explanation": "Appropriate nursing interventions for paraneoplastic SIADH include: (Option 6) Strict fluid restriction (usually 800-1000 mL/day) to prevent further dilutional drop in serum sodium; (Option 5) Seizure precautions (padding, suction, O2) due to lowered seizure threshold from cerebral edema; (Option 3) Frequent neurological checks (GCS, pupil response, orientation, motor power) to track resolution or worsening of brain swelling; (Option 7) Monitoring sodium every 2-4 hours to strictly avoid overcorrection (> 8-10 mmol/L per 24h); and (Option 4) Precise I&O and daily weights to track fluid retention. Giving free water drinks or infusing hypotonic fluids like D5W (which metabolizes to free water in the body) is strictly contraindicated, as it rapidly exacerbates cerebral edema, seizures, and herniation."
         },
         "leftContent": {
           "intro": "The nurse implements the emergency protocol for severe symptomatic hyponatremia on the oncology unit.",
@@ -9051,15 +9051,11 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Educate Harold and his spouse to perform monthly skin self-examinations utilizing the ABCDE criteria (Asymmetry, Border, Color, Diameter, Evolution)",
-              "correct": true
+              "text": "Reassure Harold that because basal cell carcinoma rarely metastasizes, he may cancel all future dermatological appointments",
+              "correct": false
             },
             {
               "text": "Instruct on photoprotection: apply broad-spectrum sunscreen (SPF &ge; 30) 15 to 30 minutes before sun exposure, reapply every 2 hours, and wear wide-brimmed hats and long sleeves",
-              "correct": true
-            },
-            {
-              "text": "Advise avoiding outdoor sun exposure during peak ultraviolet radiation hours between 10:00 AM and 4:00 PM",
               "correct": true
             },
             {
@@ -9067,16 +9063,20 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Reassure Harold that because basal cell carcinoma rarely metastasizes, he may cancel all future dermatological appointments",
-              "correct": false
+              "text": "Educate Harold and his spouse to perform monthly skin self-examinations utilizing the ABCDE criteria (Asymmetry, Border, Color, Diameter, Evolution)",
+              "correct": true
             },
             {
               "text": "Recommend using commercial indoor ultraviolet tanning beds twice weekly to 'toughen' aging skin against tears",
               "correct": false
+            },
+            {
+              "text": "Advise avoiding outdoor sun exposure during peak ultraviolet radiation hours between 10:00 AM and 4:00 PM",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Comprehensive skin health education for a client with cutaneous neoplasms and severe photoaging includes: (1) Teaching monthly skin self-examination using the ABCDE rule; (2) Consistent photoprotection (broad-spectrum SPF 30+, protective clothing, sunglasses, wide-brimmed hats); (3) Avoiding peak midday UV intensity (10:00–16:00); and (4) Protecting fragile, dry aging skin with gentle, lipid-rich emollients and avoiding hot water that strips cutaneous sebum. Canceling appointments is dangerous, as clients with one skin cancer have a 30–50% risk of developing another primary cutaneous malignancy within 5 years. Tanning beds emit intense UVA radiation that significantly multiplies melanoma and squamous cell carcinoma risk."
+          "explanation": "Comprehensive skin health education for a client with cutaneous neoplasms and severe photoaging includes: (Option 4) Teaching monthly skin self-examination using the ABCDE rule; (Option 2) Consistent photoprotection (broad-spectrum SPF 30+, protective clothing, sunglasses, wide-brimmed hats); (Option 6) Avoiding peak midday UV intensity (10:00–16:00); and (Option 3) Protecting fragile, dry aging skin with gentle, lipid-rich emollients and avoiding hot water that strips cutaneous sebum. Canceling appointments is dangerous, as clients with one skin cancer have a 30–50% risk of developing another primary cutaneous malignancy within 5 years. Tanning beds emit intense UVA radiation that significantly multiplies melanoma and squamous cell carcinoma risk."
         },
         "leftContent": {
           "intro": "The nurse conducts outpatient education and surgical preparation with Harold and his spouse prior to his upcoming definitive oncologic re-excision.",
@@ -9267,15 +9267,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Diffuse generalized macular rash across both palms and soles accompanied by a painless genital ulcer (chancre)",
+              "correct": false
+            },
+            {
+              "text": "Bilateral symmetric silvery scaly plaques on the extensor elbows and knees with pitted fingernails",
+              "correct": false
+            },
+            {
               "text": "Liam: Erythematous vesicles and pustules around the mouth and nose that have ruptured to form thick, weeping golden-yellow 'honey-colored' crusts",
-              "correct": true
-            },
-            {
-              "text": "Marcus: Unilateral crop of clustered, painful, tense vesicles on an erythematous base distributed along the right T6 dermatome of the chest and back",
-              "correct": true
-            },
-            {
-              "text": "Marcus: Prodromal localized burning, itching, and severe sharp stabbing pain (hyperesthesia) in the right chest wall preceding the rash by 3 days",
               "correct": true
             },
             {
@@ -9283,16 +9283,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Bilateral symmetric silvery scaly plaques on the extensor elbows and knees with pitted fingernails",
-              "correct": false
+              "text": "Marcus: Prodromal localized burning, itching, and severe sharp stabbing pain (hyperesthesia) in the right chest wall preceding the rash by 3 days",
+              "correct": true
             },
             {
-              "text": "Diffuse generalized macular rash across both palms and soles accompanied by a painless genital ulcer (chancre)",
-              "correct": false
+              "text": "Marcus: Unilateral crop of clustered, painful, tense vesicles on an erythematous base distributed along the right T6 dermatome of the chest and back",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "1. Impetigo (Liam): Highly contagious superficial bacterial infection (Staphylococcus aureus and/or Group A Streptococcus) typically presenting in children with vesicles that rupture, leaving weeping, exudative lesions with pathognomonic thick, golden-yellow 'honey-colored' crusts, exacerbated by scratching.<br>2. Herpes Zoster / Shingles (Marcus): Reactivation of latent Varicella-Zoster Virus (VZV) that has remained dormant in the dorsal root/neural ganglia since childhood chickenpox. It travels down a sensory nerve, manifesting as a dermatomal prodrome (burning, tingling, pain) followed by crops of vesicles on an erythematous base strictly confined to a unilateral dermatome.<br>3. Silvery plaques describe psoriasis. Palm/sole rash with painless chancre describes primary and secondary syphilis."
+          "explanation": "(Options 3 and 4) Impetigo (Liam): Highly contagious superficial bacterial infection (Staphylococcus aureus and/or Group A Streptococcus) typically presenting in children with vesicles that rupture, leaving weeping, exudative lesions with pathognomonic thick, golden-yellow 'honey-colored' crusts, exacerbated by scratching.<br>(Options 5 and 6) Herpes Zoster / Shingles (Marcus): Reactivation of latent Varicella-Zoster Virus (VZV) that has remained dormant in the dorsal root/neural ganglia since childhood chickenpox. It travels down a sensory nerve, manifesting as a dermatomal prodrome (burning, tingling, pain) followed by crops of vesicles on an erythematous base strictly confined to a unilateral dermatome.<br>(Options 1 and 2) Silvery plaques describe psoriasis. Palm/sole rash with painless chancre describes primary and secondary syphilis."
         },
         "leftContent": {
           "intro": "The nurse in an urgent care community health center is triaging Liam (8 years old) and his older brother Marcus (21 years old), brought in by their mother for acute dermatological complaints.",
@@ -9482,10 +9482,6 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Instruct Liam's mother to soak the facial crusts gently with warm water compresses to facilitate crust removal prior to applying prescribed topical mupirocin ointment",
-              "correct": true
-            },
-            {
               "text": "Emphasize strict separate laundering of Liam's and Marcus's towels, washcloths, and bed linens, and enforce meticulous hand hygiene after touching lesions",
               "correct": true
             },
@@ -9494,20 +9490,24 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Advise Marcus to strictly avoid contact with pregnant women who have not had chickenpox, unvaccinated infants, and immunocompromised individuals",
-              "correct": true
-            },
-            {
               "text": "Encourage Liam to attend elementary school immediately while weeping facial crusts are open and uncovered",
               "correct": false
             },
             {
+              "text": "Instruct Liam's mother to soak the facial crusts gently with warm water compresses to facilitate crust removal prior to applying prescribed topical mupirocin ointment",
+              "correct": true
+            },
+            {
               "text": "Instruct Marcus to scratch and vigorously pop the shingles vesicles with a needle to relieve the burning nerve pain",
               "correct": false
+            },
+            {
+              "text": "Advise Marcus to strictly avoid contact with pregnant women who have not had chickenpox, unvaccinated infants, and immunocompromised individuals",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing care plans include: (1) Softening and gently removing impetigo crusts with warm compresses so topical mupirocin can penetrate directly into underlying infected tissue; (2) Strict fomite isolation (separate towels, linens) and frequent handwashing; (3) Keeping shingles lesions covered, which prevents transmission of VZV from vesicular fluid to susceptible people; and (4) Protecting non-immune individuals (pregnant women, infants, immunocompromised) because direct contact with shingles blister fluid can cause chickenpox in those without immunity. Children with active, draining impetigo should be excluded from school/daycare until 24 hours of effective antibiotic therapy has elapsed. Popping shingles vesicles risks secondary bacterial superinfection and does not relieve neuropathic pain."
+          "explanation": "Appropriate nursing care plans include: (Option 4) Softening and gently removing impetigo crusts with warm compresses so topical mupirocin can penetrate directly into underlying infected tissue; (Option 1) Strict fomite isolation (separate towels, linens) and frequent handwashing; (Option 2) Keeping shingles lesions covered, which prevents transmission of VZV from vesicular fluid to susceptible people; and (Option 6) Protecting non-immune individuals (pregnant women, infants, immunocompromised) because direct contact with shingles blister fluid can cause chickenpox in those without immunity. Children with active, draining impetigo should be excluded from school/daycare until 24 hours of effective antibiotic therapy has elapsed. Popping shingles vesicles risks secondary bacterial superinfection and does not relieve neuropathic pain."
         },
         "leftContent": {
           "intro": "The nurse organizes outpatient medication schedules, topical wound care, and contagion control strategies for both brothers.",
@@ -9698,15 +9698,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Fixed, erythematous, flat to slightly raised 'butterfly-shaped' rash spanning symmetrically across the bilateral cheeks and nasal bridge while sparing the nasolabial folds",
-              "correct": true
-            },
-            {
               "text": "Marked photosensitivity with acute flare of facial erythema, burning, and malaise following 30 minutes of direct sunlight exposure",
-              "correct": true
-            },
-            {
-              "text": "Bilateral symmetric swelling, warmth, and stiffness of the proximal interphalangeal (PIP) and metacarpophalangeal (MCP) hand joints",
               "correct": true
             },
             {
@@ -9718,12 +9710,20 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
+              "text": "Fixed, erythematous, flat to slightly raised 'butterfly-shaped' rash spanning symmetrically across the bilateral cheeks and nasal bridge while sparing the nasolabial folds",
+              "correct": true
+            },
+            {
               "text": "Intensely pruritic lichenified plaques in the bilateral antecubital and popliteal flexural creases with personal history of asthma",
               "correct": false
+            },
+            {
+              "text": "Bilateral symmetric swelling, warmth, and stiffness of the proximal interphalangeal (PIP) and metacarpophalangeal (MCP) hand joints",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Maya presents with classic diagnostic criteria for Systemic Lupus Erythematosus (SLE): (1) Characteristic malar 'butterfly' rash (erythema over the malar eminences and bridge of the nose, classically sparing the nasolabial folds); (2) Photosensitivity (cutaneous rash triggered or worsened by ultraviolet sunlight); (3) Non-erosive polyarthritis affecting small joints (MCP, PIP); and (4) Oral/nasopharyngeal mucosal ulcers. Well-demarcated plaques with silvery scales on extensor surfaces (elbows/knees) characterize plaque psoriasis. Lichenified pruritic plaques in flexural folds (antecubital, popliteal) with an asthma history characterize atopic dermatitis."
+          "explanation": "Maya presents with classic diagnostic criteria for Systemic Lupus Erythematosus (SLE): (Option 4) Characteristic malar 'butterfly' rash (erythema over the malar eminences and bridge of the nose, classically sparing the nasolabial folds); (Option 1) Photosensitivity (cutaneous rash triggered or worsened by ultraviolet sunlight); (Option 6) Non-erosive polyarthritis affecting small joints (MCP, PIP); and (Option 2) Oral/nasopharyngeal mucosal ulcers. Well-demarcated plaques with silvery scales on extensor surfaces (elbows/knees) characterize plaque psoriasis. Lichenified pruritic plaques in flexural folds (antecubital, popliteal) with an asthma history characterize atopic dermatitis."
         },
         "leftContent": {
           "intro": "The nurse in a rheumatology and dermatology combined clinic is evaluating Maya Al-Mansoor, a 28-year-old female presenting with a persistent facial rash and polyarthralgias.",
@@ -9907,6 +9907,10 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Instruct Maya to monitor for signs of renal flare, including sudden weight gain, peripheral leg swelling, or foamy/frothy urine, and report them promptly",
+              "correct": true
+            },
+            {
               "text": "Instruct Maya to apply broad-spectrum sunscreen (SPF &ge; 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
               "correct": true
             },
@@ -9915,16 +9919,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Instruct Maya to monitor for signs of renal flare, including sudden weight gain, peripheral leg swelling, or foamy/frothy urine, and report them promptly",
-              "correct": true
+              "text": "Encourage Maya to use commercial sunlamps and tanning beds during winter months to keep her skin warm and improve joint stiffness",
+              "correct": false
             },
             {
               "text": "Advise balancing rest with low-impact physical exercise to reduce joint stiffness and combat chronic fatigue without overexertion",
               "correct": true
-            },
-            {
-              "text": "Encourage Maya to use commercial sunlamps and tanning beds during winter months to keep her skin warm and improve joint stiffness",
-              "correct": false
             },
             {
               "text": "Instruct Maya to abruptly discontinue prescribed oral corticosteroids as soon as her facial rash fades",
@@ -9932,7 +9932,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing education for SLE includes: (1) Rigorous photoprotection (SPF 50+, protective clothing, avoiding sun) because UV light directly triggers cutaneous and systemic flares; (2) Annual dilated ophthalmology exams for hydroxychloroquine retinopathy (maculopathy/bull's-eye damage); (3) Surveillance for renal impairment (foamy urine indicating proteinuria, edema, hypertension); and (4) Energy conservation and pacing for lupus fatigue. Tanning beds emit intense UV radiation that can provoke catastrophic lupus flares. Corticosteroids must never be stopped abruptly due to the risk of life-threatening secondary adrenal crisis."
+          "explanation": "Appropriate nursing education for SLE includes: (Option 2) Rigorous photoprotection (SPF 50+, protective clothing, avoiding sun) because UV light directly triggers cutaneous and systemic flares; (Option 3) Annual dilated ophthalmology exams for hydroxychloroquine retinopathy (maculopathy/bull's-eye damage); (Option 1) Surveillance for renal impairment (foamy urine indicating proteinuria, edema, hypertension); and (Option 5) Energy conservation and pacing for lupus fatigue. Tanning beds emit intense UV radiation that can provoke catastrophic lupus flares. Corticosteroids must never be stopped abruptly due to the risk of life-threatening secondary adrenal crisis."
         },
         "leftContent": {
           "intro": "The nurse conducts an outpatient counseling session with Maya to review lifestyle modifications, drug safety, and flare recognition.",
@@ -10123,6 +10123,14 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Progressive hoarseness of voice, brassy cough, and inspiratory stridor",
+              "correct": true
+            },
+            {
+              "text": "Erythema and superficial epidermal peeling over the unburned posterior lower calves",
+              "correct": false
+            },
+            {
               "text": "Singed facial hair, scorched eyebrows, and singed nasal vibrissae",
               "correct": true
             },
@@ -10131,24 +10139,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Progressive hoarseness of voice, brassy cough, and inspiratory stridor",
-              "correct": true
+              "text": "Clear bilateral breath sounds with respiratory rate of 12 breaths/min on room air without coughing",
+              "correct": false
             },
             {
               "text": "History of being trapped in a closed, poorly ventilated garage during an explosion and fire for approximately 10 minutes",
               "correct": true
-            },
-            {
-              "text": "Erythema and superficial epidermal peeling over the unburned posterior lower calves",
-              "correct": false
-            },
-            {
-              "text": "Clear bilateral breath sounds with respiratory rate of 12 breaths/min on room air without coughing",
-              "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Critical cues of thermal inhalation injury include: (1) Fire/explosion in an enclosed, confined space; (2) Singed facial hairs, eyebrows, and nasal vibrissae; (3) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (4) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
+          "explanation": "Critical cues of thermal inhalation injury include: (Option 6) Fire/explosion in an enclosed, confined space; (Option 3) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 1) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
         },
         "leftContent": {
           "intro": "The nurse in a regional burn trauma center is admitting Tyler Brooks, a 34-year-old industrial mechanic transported by emergency medical services (EMS) following an explosion and flash fire in an enclosed auto repair garage 45 minutes ago.",
@@ -10331,16 +10331,8 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Infuse warm Lactated Ringer's solution as the primary crystalloid resuscitation fluid to prevent hypothermia and metabolic acidosis",
-              "correct": true
-            },
-            {
-              "text": "Maintain continuous cardiac telemetry to monitor for tall peaked T waves, widened QRS, or ventricular dysrhythmias secondary to acute hyperkalemia",
-              "correct": true
-            },
-            {
-              "text": "Assess hourly urine output via Foley urometer, titrating the IV fluid rate up or down to achieve 0.5 mL/kg/hr (30 to 50 mL/hr)",
-              "correct": true
+              "text": "Administer large doses of subcutaneous or intramuscular opioid injections into burned edematous extremities",
+              "correct": false
             },
             {
               "text": "Cover the burn wounds with clean, dry, sterile sheets and maintain a warm ambient room temperature (30 to 32 °C) to prevent severe hypothermia",
@@ -10351,12 +10343,20 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Administer large doses of subcutaneous or intramuscular opioid injections into burned edematous extremities",
-              "correct": false
+              "text": "Assess hourly urine output via Foley urometer, titrating the IV fluid rate up or down to achieve 0.5 mL/kg/hr (30 to 50 mL/hr)",
+              "correct": true
+            },
+            {
+              "text": "Maintain continuous cardiac telemetry to monitor for tall peaked T waves, widened QRS, or ventricular dysrhythmias secondary to acute hyperkalemia",
+              "correct": true
+            },
+            {
+              "text": "Infuse warm Lactated Ringer's solution as the primary crystalloid resuscitation fluid to prevent hypothermia and metabolic acidosis",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate resuscitative nursing interventions include: (1) Infusing warmed Lactated Ringer's (the crystalloid of choice because its electrolyte composition closely mimics physiological plasma and buffers acidosis without hyperchloremia); (2) Cardiac monitoring for hyperkalemia (peaked T waves, dysrhythmias) from massive cellular thermal lysis; (3) Hourly urine output titration (0.5 mL/kg/hr); and (4) Covering wounds with dry sterile dressings and warming the room (burn patients lose the epidermal barrier and suffer rapid evaporative heat loss). Submerging extensive burns in ice water causes profound vasoconstriction, worsening dermal ischemia and inducing lethal hypothermia. In severe burn shock, impaired peripheral perfusion prevents absorption of IM/SC medications; all analgesics must be administered intravenously in small, titrated doses."
+          "explanation": "Appropriate resuscitative nursing interventions include: (Option 6) Infusing warmed Lactated Ringer's (the crystalloid of choice because its electrolyte composition closely mimics physiological plasma and buffers acidosis without hyperchloremia); (Option 5) Cardiac monitoring for hyperkalemia (peaked T waves, dysrhythmias) from massive cellular thermal lysis; (Option 4) Hourly urine output titration (0.5 mL/kg/hr); and (Option 2) Covering wounds with dry sterile dressings and warming the room (burn patients lose the epidermal barrier and suffer rapid evaporative heat loss). Submerging extensive burns in ice water causes profound vasoconstriction, worsening dermal ischemia and inducing lethal hypothermia. In severe burn shock, impaired peripheral perfusion prevents absorption of IM/SC medications; all analgesics must be administered intravenously in small, titrated doses."
         },
         "leftContent": {
           "intro": "The nurse coordinates resuscitation interventions and continuously monitors Tyler's cardiopulmonary and renal response.",
@@ -10766,15 +10766,19 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Perform active and passive range-of-motion (ROM) exercises to all affected joints several times daily and apply custom splints in positions of functional extension to prevent joint contractures",
+              "text": "Apply prescribed topical antimicrobial agents (e.g., silver sulfadiazine or mafenide acetate) to debrided burn wounds using strict aseptic technique",
               "correct": true
+            },
+            {
+              "text": "Enforce complete bed rest with permanent immobilization of all burned limbs for 6 weeks",
+              "correct": false
             },
             {
               "text": "Administer prescribed intravenous opioid analgesics approximately 20 to 30 minutes prior to scheduled wound debridement and dressing changes",
               "correct": true
             },
             {
-              "text": "Apply prescribed topical antimicrobial agents (e.g., silver sulfadiazine or mafenide acetate) to debrided burn wounds using strict aseptic technique",
+              "text": "Perform active and passive range-of-motion (ROM) exercises to all affected joints several times daily and apply custom splints in positions of functional extension to prevent joint contractures",
               "correct": true
             },
             {
@@ -10784,14 +10788,10 @@ window.NCLEX_CASES = [
             {
               "text": "Position the right knee and right ankle in comfortable, dependent, flexed positions with pillows beneath the knees at all times",
               "correct": false
-            },
-            {
-              "text": "Enforce complete bed rest with permanent immobilization of all burned limbs for 6 weeks",
-              "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate nursing interventions include: (1) Aggressive physical therapy, ROM exercises, and splinting in neutral or extended positions to combat the powerful forces of myofibroblast-mediated scar contractures across joints; (2) Pre-medicating with analgesics before dressing changes, which are intensely painful; (3) Aseptic application of topical antimicrobials (silver sulfadiazine, mafenide acetate) to suppress microbial colonization in avascular eschar; and (4) Glycemic monitoring, as stress hormones cause severe insulin resistance. Positioning limbs in dependent flexion ('positions of comfort') is the primary cause of crippling permanent contractures (e.g., knee flexion contractures, foot drop); joints must be maintained in functional extension. Complete immobilization promotes deep vein thrombosis and permanent joint ankylosis."
+          "explanation": "Appropriate nursing interventions include: (Option 4) Aggressive physical therapy, ROM exercises, and splinting in neutral or extended positions to combat the powerful forces of myofibroblast-mediated scar contractures across joints; (Option 3) Pre-medicating with analgesics before dressing changes, which are intensely painful; (Option 1) Aseptic application of topical antimicrobials (silver sulfadiazine, mafenide acetate) to suppress microbial colonization in avascular eschar; and (Option 5) Glycemic monitoring, as stress hormones cause severe insulin resistance. Positioning limbs in dependent flexion ('positions of comfort') is the primary cause of crippling permanent contractures (e.g., knee flexion contractures, foot drop); joints must be maintained in functional extension. Complete immobilization promotes deep vein thrombosis and permanent joint ankylosis."
         },
         "leftContent": {
           "intro": "The nurse coordinates physical and occupational therapy, wound care schedules, and pain management for Karen.",
@@ -12113,19 +12113,19 @@ window.NCLEX_STANDALONE = [
           "type": "trend",
           "options": [
             {
-              "text": "The remaining kidney is undergoing compensatory hypertrophy with enlargement of nephrons and increased filtration capacity to meet systemic metabolic demands.",
-              "correct": true
+              "text": "The remaining kidney is undergoing widespread metaplastic transformation into hepatic parenchymal tissue.",
+              "correct": false
             },
             {
               "text": "The remaining kidney is undergoing progressive ischemic atrophy secondary to excessive hemodynamic workload.",
               "correct": false
             },
             {
-              "text": "The remaining kidney is exhibiting neoplastic hyperplasia with uncontrolled tubular mitotic division.",
-              "correct": false
+              "text": "The remaining kidney is undergoing compensatory hypertrophy with enlargement of nephrons and increased filtration capacity to meet systemic metabolic demands.",
+              "correct": true
             },
             {
-              "text": "The remaining kidney is undergoing widespread metaplastic transformation into hepatic parenchymal tissue.",
+              "text": "The remaining kidney is exhibiting neoplastic hyperplasia with uncontrolled tubular mitotic division.",
               "correct": false
             }
           ],
@@ -12377,7 +12377,7 @@ window.NCLEX_STANDALONE = [
           "type": "select_all",
           "options": [
             {
-              "text": "X-linked recessive inheritance affecting predominantly male offspring",
+              "text": "Pseudohypertrophy of the calf muscles due to fatty infiltration and fibrosis",
               "correct": true
             },
             {
@@ -12385,20 +12385,20 @@ window.NCLEX_STANDALONE = [
               "correct": true
             },
             {
-              "text": "Positive Gowers' sign, where the child uses their hands to 'climb up' their legs to achieve standing",
+              "text": "X-linked recessive inheritance affecting predominantly male offspring",
               "correct": true
             },
             {
-              "text": "Pseudohypertrophy of the calf muscles due to fatty infiltration and fibrosis",
-              "correct": true
+              "text": "Prominent sensory anesthesia and loss of deep tendon reflexes in upper extremities",
+              "correct": false
             },
             {
               "text": "Markedly elevated serum creatine kinase (CK) levels reflecting active muscle necrosis",
               "correct": true
             },
             {
-              "text": "Prominent sensory anesthesia and loss of deep tendon reflexes in upper extremities",
-              "correct": false
+              "text": "Positive Gowers' sign, where the child uses their hands to 'climb up' their legs to achieve standing",
+              "correct": true
             }
           ],
           "preamble": "The neuromuscular clinic nurse is conducting an intake assessment on a 5-year-old boy presenting with frequent falls and waddling gait.",
@@ -12704,19 +12704,19 @@ window.NCLEX_STANDALONE = [
           "type": "trend",
           "options": [
             {
-              "text": "Progressive pulmonary overcirculation and heart failure secondary to a large complete atrioventricular (AV) septal defect.",
-              "correct": true
-            },
-            {
               "text": "Severe acute renal failure resulting from congenital cystic kidney disease.",
               "correct": false
             },
             {
-              "text": "Malignant intracranial hypertension resulting from premature cranial synostosis.",
+              "text": "Primary hypoparathyroidism resulting from parathyroid aplasia.",
               "correct": false
             },
             {
-              "text": "Primary hypoparathyroidism resulting from parathyroid aplasia.",
+              "text": "Progressive pulmonary overcirculation and heart failure secondary to a large complete atrioventricular (AV) septal defect.",
+              "correct": true
+            },
+            {
+              "text": "Malignant intracranial hypertension resulting from premature cranial synostosis.",
               "correct": false
             }
           ],
@@ -13180,11 +13180,7 @@ window.NCLEX_STANDALONE = [
           "type": "trend",
           "options": [
             {
-              "text": "Occult recurrent metastatic colorectal carcinoma, most likely localized to hepatic parenchyma.",
-              "correct": true
-            },
-            {
-              "text": "Completely sustained remission with benign postoperative fibrous scarring.",
+              "text": "Primary benign prostatic hypertrophy causing cross-reactive biomarker elevation.",
               "correct": false
             },
             {
@@ -13192,7 +13188,11 @@ window.NCLEX_STANDALONE = [
               "correct": false
             },
             {
-              "text": "Primary benign prostatic hypertrophy causing cross-reactive biomarker elevation.",
+              "text": "Occult recurrent metastatic colorectal carcinoma, most likely localized to hepatic parenchyma.",
+              "correct": true
+            },
+            {
+              "text": "Completely sustained remission with benign postoperative fibrous scarring.",
               "correct": false
             }
           ],
@@ -13388,28 +13388,28 @@ window.NCLEX_STANDALONE = [
           "type": "select_all",
           "options": [
             {
-              "text": "Superficial bacterial epidermal infection caused by Staphylococcus aureus or Streptococcus pyogenes",
-              "correct": true
-            },
-            {
-              "text": "Fragile thin-roofed vesicles that rupture readily to form classic thick, honey-colored (amber) adherent crusts",
-              "correct": true
-            },
-            {
               "text": "Highly contagious transmission through direct personal contact or shared contaminated fomites",
               "correct": true
             },
             {
-              "text": "Pruritus leading to excoriation and mechanical autoinoculation to adjacent cutaneous sites",
-              "correct": true
+              "text": "Obligatory permanent scarring extending deep into the reticular dermis",
+              "correct": false
             },
             {
               "text": "Deep subcutaneous fascial necrosis and gas gangrene formation",
               "correct": false
             },
             {
-              "text": "Obligatory permanent scarring extending deep into the reticular dermis",
-              "correct": false
+              "text": "Pruritus leading to excoriation and mechanical autoinoculation to adjacent cutaneous sites",
+              "correct": true
+            },
+            {
+              "text": "Superficial bacterial epidermal infection caused by Staphylococcus aureus or Streptococcus pyogenes",
+              "correct": true
+            },
+            {
+              "text": "Fragile thin-roofed vesicles that rupture readily to form classic thick, honey-colored (amber) adherent crusts",
+              "correct": true
             }
           ],
           "preamble": "The community health clinic nurse is evaluating a 4-year-old preschool child brought in by parents for facial skin lesions.",
@@ -13444,7 +13444,11 @@ window.NCLEX_STANDALONE = [
           "type": "select_all",
           "options": [
             {
-              "text": "T-cell-mediated autoimmune dysregulation with oversecretion of pro-inflammatory cytokines (IL-17, IL-23, TNF-alpha)",
+              "text": "Spontaneous painless skin sloughing involving the entire dermal and subcutaneous layers",
+              "correct": false
+            },
+            {
+              "text": "Predilection for extensor surfaces such as bilateral elbows, knees, and the presacral scalp",
               "correct": true
             },
             {
@@ -13456,16 +13460,12 @@ window.NCLEX_STANDALONE = [
               "correct": true
             },
             {
-              "text": "Predilection for extensor surfaces such as bilateral elbows, knees, and the presacral scalp",
-              "correct": true
-            },
-            {
               "text": "Pinpoint bleeding provoked by gentle removal of adherent surface scale (positive Auspitz sign)",
               "correct": true
             },
             {
-              "text": "Spontaneous painless skin sloughing involving the entire dermal and subcutaneous layers",
-              "correct": false
+              "text": "T-cell-mediated autoimmune dysregulation with oversecretion of pro-inflammatory cytokines (IL-17, IL-23, TNF-alpha)",
+              "correct": true
             }
           ],
           "preamble": "The outpatient dermatology clinic nurse is assessing a 35-year-old client presenting with recurrent scaly cutaneous plaques.",
@@ -13772,8 +13772,8 @@ window.NCLEX_STANDALONE = [
           "type": "trend",
           "options": [
             {
-              "text": "Resuscitation is achieving target end-organ perfusion as evidenced by normalization of urine output to the target range of 0.5 to 1.0 mL/kg/hr (35–70 mL/hr); maintain current IV infusion titration.",
-              "correct": true
+              "text": "The client has developed complete anuric renal failure requiring emergent hemodialysis.",
+              "correct": false
             },
             {
               "text": "The client is in progressive uncompensated hypovolemic shock; immediately double the hourly crystalloid infusion rate.",
@@ -13784,8 +13784,8 @@ window.NCLEX_STANDALONE = [
               "correct": false
             },
             {
-              "text": "The client has developed complete anuric renal failure requiring emergent hemodialysis.",
-              "correct": false
+              "text": "Resuscitation is achieving target end-organ perfusion as evidenced by normalization of urine output to the target range of 0.5 to 1.0 mL/kg/hr (35–70 mL/hr); maintain current IV infusion titration.",
+              "correct": true
             }
           ],
           "preamble": "The burn intensive care unit nurse is titrating Lactated Ringer's resuscitation fluid based on hourly physiologic parameters.",
