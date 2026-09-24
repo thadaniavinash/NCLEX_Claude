@@ -283,8 +283,18 @@ function migrateCaseTypes(c) {
     if (screen.question) {
       migrateLegacyDropdownCloze(screen.question);
       migrateLegacyHighlightText(screen.question, `ht_${c.id}_${screen.step}`);
+      migratePlainTextLineBreaks(screen.question);
     }
   });
+}
+
+// Rationales are rendered as HTML, so plain "\n" line breaks (used by numbered
+// "1. ... 2. ..." rationales) collapse into one paragraph. Convert them to <br>
+// when the rationale has no HTML block structure of its own.
+function migratePlainTextLineBreaks(q) {
+  const text = q.explanation;
+  if (typeof text !== 'string' || !text.includes('\n') || /<(br|p|div|li|ul|ol|table)\b/i.test(text)) return;
+  q.explanation = text.trim().replace(/\r?\n/g, '<br>');
 }
 
 // Older highlight questions kept their passage in `highlightText`; the player and
@@ -3319,18 +3329,10 @@ function renderDropdownTableConfigurator(q, box) {
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
     
-    // Clean generic default header strings to empty for placeholder behavior
-    let h1Val = q.dropdownTableHeader1 || '';
-    if (h1Val === 'Braden Scale Category' || h1Val === 'Category Findings') {
-      h1Val = '';
-      q.dropdownTableHeader1 = '';
-    }
-    
-    let h2Val = q.dropdownTableHeader2 || '';
-    if (h2Val === 'Client Assessment Score' || h2Val === 'Clinical Assessment Score / Selection') {
-      h2Val = '';
-      q.dropdownTableHeader2 = '';
-    }
+    // Headers are reset when the question type changes (initializeQuestionTypeDefaults),
+    // not on every render, so headers an author typed are never erased.
+    const h1Val = q.dropdownTableHeader1 || '';
+    const h2Val = q.dropdownTableHeader2 || '';
     
     // Column 1 Header Input
     const th1 = document.createElement('th');
@@ -3563,13 +3565,11 @@ function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
     
-    // Clean generic default header strings to empty for placeholder behavior
-    let h1Val = m.firstColumnHeader || '';
-    if (h1Val === 'Potential Interventions' || h1Val === 'Findings') {
-      h1Val = '';
-      m.firstColumnHeader = '';
-    }
-    
+    // Generic default headers are cleared when the question type changes
+    // (initializeQuestionTypeDefaults), not here: clearing on every render erased
+    // headers such as "Findings" that authors chose on purpose.
+    const h1Val = m.firstColumnHeader || '';
+
     // First column header input
     const thFirst = document.createElement('th');
     thFirst.style.padding = '8px';
@@ -6881,49 +6881,71 @@ function formatNursesNotes(html, tabTitle) {
     return html;
   }
   if (!html) return '';
-  
-  const cleanedHtml = stripNursesNotesFormatting(html);
-  
+
   const temp = document.createElement('div');
-  temp.innerHTML = cleanedHtml;
-  
-  const children = Array.from(temp.childNodes);
-  children.forEach(child => {
+  temp.innerHTML = html;
+
+  Array.from(temp.childNodes).forEach(child => {
+    // Keep rows that already carry an authored time label such as "0800 (DOL 2)"
+    // or "Postoperative Day 4"; re-detecting them would only recognize plain times.
+    if (isAuthoredNoteRow(child)) return;
+
+    let nodes = [child];
     if (child.nodeType === Node.ELEMENT_NODE) {
-      const tagName = child.tagName.toLowerCase();
-      if (['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(tagName)) {
-        // Strip any existing <b>/<strong> tags around time digits to clean up
-        let innerHTML = child.innerHTML.replace(/<\/?(?:strong|b)>/g, '').trim();
-        const timeRegex = /^\s*(\b\d{2}:?\d{2}\b)\s*:\s*(.*)/i;
-        const match = innerHTML.match(timeRegex);
-        
-        if (match) {
-          const rawTime = match[1];
-          const restHtml = match[2].trim();
-          child.className = 'nurse-note-row';
-          child.innerHTML = `<span class="nurse-note-time">${rawTime}:</span><span class="nurse-note-text">${restHtml}</span>`;
-        } else {
-          child.classList.remove('nurse-note-row');
-        }
-      }
-    } else if (child.nodeType === Node.TEXT_NODE && child.textContent.trim()) {
-      const text = child.textContent.trim();
-      const timeRegex = /^\s*(\b\d{2}:?\d{2}\b)\s*:\s*(.*)/i;
-      const match = text.match(timeRegex);
-      const newP = document.createElement('p');
+      const holder = document.createElement('div');
+      holder.innerHTML = stripNursesNotesFormatting(child.outerHTML);
+      nodes = Array.from(holder.childNodes);
+      nodes.forEach(n => temp.insertBefore(n, child));
+      temp.removeChild(child);
+    }
+    nodes.forEach(node => formatNoteNode(node, temp));
+  });
+
+  return temp.innerHTML;
+}
+
+// A note's time label: "0800", "08:00", or a time with a short qualifier such as "0800 (DOL 2)".
+const NOTE_TIME_REGEX = /^\s*(\b\d{2}:?\d{2}\b(?:\s*\([^()<>]{1,60}\))?)\s*:\s*(.*)/is;
+
+function isAuthoredNoteRow(node) {
+  if (node.nodeType !== Node.ELEMENT_NODE || !node.classList.contains('nurse-note-row') || node.children.length !== 2) return false;
+  const [time, text] = node.children;
+  const label = time.textContent.replace(/ /g, ' ').trim();
+  return time.classList.contains('nurse-note-time') && text.classList.contains('nurse-note-text') &&
+    time.children.length === 0 && label.length > 0 && label.length <= 60;
+}
+
+function formatNoteNode(child, parent) {
+  if (child.nodeType === Node.ELEMENT_NODE) {
+    const tagName = child.tagName.toLowerCase();
+    if (['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(tagName)) {
+      // Strip any existing <b>/<strong> tags around time digits to clean up
+      let innerHTML = child.innerHTML.replace(/<\/?(?:strong|b)>/g, '').trim();
+      const match = innerHTML.match(NOTE_TIME_REGEX);
+
       if (match) {
         const rawTime = match[1];
-        const restText = match[2].trim();
-        newP.className = 'nurse-note-row';
-        newP.innerHTML = `<span class="nurse-note-time">${rawTime}:</span><span class="nurse-note-text">${restText}</span>`;
+        const restHtml = match[2].trim();
+        child.className = 'nurse-note-row';
+        child.innerHTML = `<span class="nurse-note-time">${rawTime}:</span><span class="nurse-note-text">${restHtml}</span>`;
       } else {
-        newP.textContent = text;
+        child.classList.remove('nurse-note-row');
       }
-      temp.replaceChild(newP, child);
     }
-  });
-  
-  return temp.innerHTML;
+  } else if (child.nodeType === Node.TEXT_NODE && child.textContent.trim()) {
+    const text = child.textContent.trim();
+    const match = text.match(NOTE_TIME_REGEX);
+    const newP = document.createElement('p');
+    if (match) {
+      const rawTime = match[1];
+      const restText = match[2].trim();
+      newP.className = 'nurse-note-row';
+      newP.innerHTML = `<span class="nurse-note-time">${escapeHTML(rawTime)}:</span><span class="nurse-note-text">${escapeHTML(restText)}</span>`;
+    } else {
+      newP.textContent = text;
+    }
+    parent.replaceChild(newP, child);
+  }
 }
 
 let selectedTableCellElement = null;

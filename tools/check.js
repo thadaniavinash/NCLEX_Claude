@@ -98,8 +98,12 @@ function answerKey(q) {
       for (let i = 0; i < copy.screens.length; i++) { renderEditorStep(i); currentStepIndex = i; saveCurrentStepData(false, true); }
       const before = JSON.parse(original);
       const diff = [];
+      // Ignore changes that render identically: HTML re-serialization (e.g. & -> &amp;)
+      // and a missing field saved as an empty string.
+      const tmp = document.createElement('div');
+      const norm = v => { if (v === undefined || v === null) return ''; if (typeof v !== 'string') return v; tmp.innerHTML = v; return tmp.innerHTML; };
       (function walk(a, b, path) {
-        if (JSON.stringify(a) === JSON.stringify(b)) return;
+        if (JSON.stringify(a) === JSON.stringify(b) || (typeof (a ?? '') === 'string' && typeof (b ?? '') === 'string' && norm(a) === norm(b))) return;
         if (a && b && typeof a === 'object' && typeof b === 'object') {
           new Set([...Object.keys(a), ...Object.keys(b)]).forEach(k => walk(a[k], b[k], path + '.' + k));
         } else diff.push(path);
