@@ -1,0 +1,449 @@
+{
+  "id": "case_1782370000004",
+  "title": "NURS 1017 Unit 3 Case Study 4",
+  "topic": "Unit 3 (Genetic and Developmental Disorders)",
+  "unit": "Unit 3 (Genetic and Developmental Disorders)",
+  "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+  "course": "NURS 1017",
+  "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes.",
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in a pediatric primary care clinic is assessing Ethan, a 4-year-old boy brought in by his mother for frequent falls.",
+        "tabs": [
+          {
+            "id": "nn_1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Ethan, a 4-year-old boy, is brought to the pediatric primary care clinic by his mother, Sarah (29 years old), because his preschool teacher reports that he 'falls more than the other children and cannot keep up on the playground.' Sarah states he walked independently at 18 months, has never been able to run well, and in the past 6 months has begun walking on his toes and needs to hold the railing with both hands to climb stairs. She adds that he has a mild expressive speech delay and is followed by a speech therapist.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Gait is wide-based and waddling with an exaggerated lumbar lordosis. When asked to stand up from sitting on the floor, Ethan rolls to a prone position, pushes up onto his hands and feet, and 'walks' his hands up his thighs to reach standing; timed rise from the floor is 7 seconds. Both calves are enlarged and feel firm and rubbery on palpation. Unable to hop on one foot. Heel cords are tight bilaterally with ankle dorsiflexion limited to neutral. Fine motor skills and hand grip are age-appropriate. No muscle tenderness, rash, or joint swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0940:</span><span class=\"nurse-note-text\">Family history: Sarah's brother died at age 20 of 'heart and breathing failure from a muscle disease' that began when he was a young child. Ethan has a healthy 2-year-old sister, Lily. Sarah and her partner are planning another pregnancy within the next year. Immunizations are up to date for age. Primary care provider notified of findings.</span></p>"
+          },
+          {
+            "id": "vs_1",
+            "title": "Vital Signs & Growth",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Parameter</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Ethan (0915)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Expected for Age 4</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9 °C (tympanic)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5 – 37.5 °C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 bpm, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 – 120 bpm</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min, unlabored</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 – 28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mmHg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89–112 / 46–72 mmHg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">≥ 95%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">17.2 kg (50th percentile)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">—</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Height</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 cm (40th percentile)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">—</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "stem": "The nurse reviews Ethan's history and physical assessment. Which findings should the nurse recognize as cues of a <b>progressive inherited neuromuscular disorder</b>? <b>Select all that apply.</b>",
+        "preamble": "",
+        "options": [
+          {
+            "text": "Uses his hands to push up on his thighs to rise from the floor, taking 7 seconds",
+            "correct": true
+          },
+          {
+            "text": "Heart rate 104 bpm and respiratory rate 24 breaths/min",
+            "correct": false
+          },
+          {
+            "text": "Enlarged, firm, rubbery calf muscles bilaterally",
+            "correct": true
+          },
+          {
+            "text": "Maternal uncle died at age 20 of heart and breathing failure from a childhood-onset muscle disease",
+            "correct": true
+          },
+          {
+            "text": "Age-appropriate hand grip and fine motor skills",
+            "correct": false
+          },
+          {
+            "text": "Waddling gait with exaggerated lumbar lordosis and difficulty climbing stairs",
+            "correct": true
+          },
+          {
+            "text": "Height at the 40th percentile and weight at the 50th percentile",
+            "correct": false
+          },
+          {
+            "text": "Walked independently at 18 months, with frequent falls and toe-walking",
+            "correct": true
+          }
+        ],
+        "explanation": "<b>Correct cues:</b><br><br><b>Gowers sign</b> (climbing up the thighs with the hands to stand) reflects weakness of the proximal hip and thigh muscles, the first muscles affected in Duchenne muscular dystrophy (DMD).<br><br><b>Calf pseudohypertrophy:</b> the calves look large, but damaged muscle fibers are being replaced by fat and fibrous connective tissue, which makes them feel firm and rubbery. They are not stronger.<br><br><b>Family history:</b> an affected male relative on the mother's side (her brother) who died young of cardiac and respiratory failure strongly suggests an X-linked recessive disorder passed through the maternal line.<br><br><b>Waddling (Trendelenburg) gait, lumbar lordosis and trouble with stairs</b> compensate for weak hip and trunk muscles.<br><br><b>Late walking (after about 15–18 months), frequent falls and toe-walking</b> are early motor signs. Toe-walking comes from tight heel cords (Achilles contractures).<br><br><b>Not cues:</b> heart rate, respiratory rate and growth are normal for a 4-year-old. Grip and fine motor skills are usually preserved early because DMD weakens proximal muscles before distal ones."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "Ethan's laboratory and genetic test results are now available.",
+        "tabs": [
+          {
+            "id": "nn_2",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Day 10: Ethan and Sarah return to the clinic to review laboratory results with the provider. The provider explains that a markedly elevated creatine kinase with a normal GGT suggests that the enzymes are leaking from damaged skeletal muscle rather than from the liver, and that genetic testing has confirmed a diagnosis of Duchenne muscular dystrophy. Sarah is tearful and asks, 'Did I cause this? My brother had the same thing.' Referral placed to the neuromuscular clinic. Sarah consents to carrier testing.</span></p>"
+          },
+          {
+            "id": "lab_2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Ethan (Day 3)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>18,450 U/L</b> (critical high)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 – 200 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>AST</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>168 U/L</b> (high)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">10 – 40 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ALT</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>212 U/L</b> (high)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7 – 40 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>GGT</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5 – 32 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Total bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.4 mg/dL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.1 – 1.2 mg/dL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>TSH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.7 – 5.7 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.3 mEq/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5 – 5.0 mEq/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "gen_2",
+            "title": "Genetic Testing Report",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Item</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Test</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">DMD gene deletion/duplication analysis (MLPA), peripheral blood</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Gene / Locus</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">DMD (dystrophin), Xp21.2</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Finding</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemizygous deletion of exons 45–50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reading frame</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Out-of-frame (frameshift) — predicted absence of functional dystrophin protein</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Interpretation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pathogenic. Consistent with a diagnosis of Duchenne muscular dystrophy (DMD).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Recommendation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Genetic counseling; carrier testing for the mother; neuromuscular specialist referral.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "The nurse compares Duchenne muscular dystrophy with Becker muscular dystrophy to prepare family teaching. For each feature, click to specify whether it is characteristic of <b>Duchenne muscular dystrophy</b>, <b>Becker muscular dystrophy</b>, or <b>Both</b>.",
+        "preamble": "",
+        "matrix": {
+          "firstColumnHeader": "Feature",
+          "columns": [
+            "Duchenne",
+            "Becker",
+            "Both"
+          ],
+          "rows": [
+            {
+              "text": "Out-of-frame DMD gene deletion resulting in absent dystrophin protein",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "In-frame DMD gene deletion producing a shortened, partially functional dystrophin protein",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "X-linked recessive inheritance affecting mostly males",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Onset of weakness in early childhood with loss of independent walking by about age 12 without treatment",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Milder course, with many people still walking into their late teens or adulthood",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Elevated serum creatine kinase and risk of cardiomyopathy",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "Both disorders are <b>X-linked recessive</b> and are caused by mutations in the same gene, DMD, which codes for dystrophin. Dystrophin anchors the inside of the muscle fiber to its outer membrane and protects the membrane during contraction.<br><br><b>Duchenne:</b> an out-of-frame deletion (such as Ethan's exons 45–50) shifts the genetic reading frame, so almost no functional dystrophin is made. Muscle membranes tear with everyday use, and fibers die and are replaced by fat and fibrous tissue. Weakness starts in early childhood, and without treatment children usually stop walking by about age 12.<br><br><b>Becker:</b> an in-frame deletion keeps the reading frame intact, so a shorter but partly working dystrophin is made. The course is milder and later, and many people still walk into their late teens or adulthood.<br><br><b>Both:</b> damaged muscle leaks creatine kinase (CK) into the blood, so CK is elevated in both conditions. Heart muscle also needs dystrophin, so both carry a risk of dilated cardiomyopathy."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "Three weeks after diagnosis, Ethan's parents meet with the nurse and genetic counselor to review carrier test results.",
+        "tabs": [
+          {
+            "id": "nn_3",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Week 3: Genetic counseling visit with Sarah and her partner, Daniel. Sarah's carrier testing has resulted (see Family Genetics tab). Couple asks what the results mean for Lily and for a future pregnancy. Sarah states, 'Everyone keeps asking about Ethan's liver. Is his liver failing too?'</span></p>"
+          },
+          {
+            "id": "fam_3",
+            "title": "Family Genetics",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Family Member</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Status</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ethan (4 y, proband)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Affected — DMD exons 45–50 deletion (hemizygous)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sarah (mother, 29 y)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heterozygous carrier</b> of the same DMD exons 45–50 deletion</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Daniel (father, 31 y)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Unaffected; not tested (X-linked; not relevant to transmission to sons)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal uncle</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Deceased at 20 y — clinical DMD (not genetically confirmed)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal grandmother (58 y)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Presumed carrier; testing offered</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lily (sister, 2 y)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Not tested</td></tr></tbody></table>"
+          },
+          {
+            "id": "lab_2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Ethan (Day 3)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>18,450 U/L</b> (critical high)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 – 200 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>AST</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>168 U/L</b> (high)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">10 – 40 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ALT</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>212 U/L</b> (high)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7 – 40 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>GGT</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5 – 32 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Total bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.4 mg/dL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.1 – 1.2 mg/dL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>TSH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.7 – 5.7 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.3 mEq/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5 – 5.0 mEq/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "stem": "The nurse reinforces the genetic counselor's teaching. Complete the following sentences by choosing from the lists of options.",
+        "preamble": "",
+        "cloze": {
+          "text": "Because Sarah is a heterozygous carrier, each of her sons has a [[drop0]] chance of being affected by DMD, and each daughter has a [[drop1]] chance of being a carrier. Ethan's elevated AST and ALT with a normal GGT and bilirubin most likely reflect [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "25%",
+                  "correct": false
+                },
+                {
+                  "text": "50%",
+                  "correct": true
+                },
+                {
+                  "text": "100%",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "0%",
+                  "correct": false
+                },
+                {
+                  "text": "50%",
+                  "correct": true
+                },
+                {
+                  "text": "100%",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "enzyme release from damaged skeletal muscle",
+                  "correct": true
+                },
+                {
+                  "text": "early liver failure",
+                  "correct": false
+                },
+                {
+                  "text": "a side effect of his vaccinations",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>X-linked recessive inheritance:</b> a carrier mother has one normal X and one X with the DMD mutation, and passes one of them to each child at random.<br><br><b>Sons</b> get their only X from their mother (and a Y from their father), so each son has a <b>50% chance</b> of inheriting the mutated X and being affected.<br><br><b>Daughters</b> get one X from each parent. Each daughter has a <b>50% chance</b> of receiving the mutated X and being a carrier; because she also has her father's normal X, she is usually unaffected. Carrier women do have a risk of cardiomyopathy and should have periodic heart screening.<br><br><b>Liver enzymes:</b> AST and ALT are found in skeletal muscle as well as the liver. When they rise alongside a very high CK while liver-specific markers (GGT, bilirubin) are normal, the source is damaged muscle, not the liver. Recognizing this prevents unnecessary liver work-ups such as a liver biopsy."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "Two months after diagnosis, the nurse is coordinating Ethan's multidisciplinary plan of care at the neuromuscular clinic.",
+        "tabs": [
+          {
+            "id": "nn_4",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Month 2: Neuromuscular clinic visit. Ethan (now 4 y 3 mo, 17.6 kg) remains ambulatory; timed rise from floor 7.4 seconds. The neurologist plans to begin daily oral glucocorticoid therapy to slow the loss of muscle strength and discusses the multidisciplinary care plan. Chart review: Ethan received 1 dose of varicella vaccine at 12 months; varicella IgG titer pending.</span></p>"
+          },
+          {
+            "id": "ord_4",
+            "title": "Care Plan Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Service</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Prednisone 0.75 mg/kg (13 mg) PO once daily with breakfast — start after immunization review</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Baseline 12-lead ECG and echocardiogram</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulmonology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Baseline assessment; pulmonary function testing when able to cooperate</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Physical therapy</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Evaluate and treat; home stretching program; night-time ankle-foot orthoses</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Nutrition</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Dietitian consult; 25-hydroxyvitamin D level; calcium intake assessment</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Follow-up counseling for extended family</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "stem": "The nurse is planning care and teaching for Ethan and his family. Which interventions should the nurse include in the plan of care? <b>Select all that apply.</b>",
+        "preamble": "",
+        "options": [
+          {
+            "text": "Confirm varicella immunity and complete any outstanding immunizations before starting prednisone",
+            "correct": true
+          },
+          {
+            "text": "Limit Ethan to bed and wheelchair rest to conserve remaining muscle strength",
+            "correct": false
+          },
+          {
+            "text": "Teach the family a daily home stretching program for the heel cords and hips, and use night-time ankle-foot orthoses",
+            "correct": true
+          },
+          {
+            "text": "Encourage swimming and tricycle riding, and avoid trampolines and repeated downhill running",
+            "correct": true
+          },
+          {
+            "text": "Recommend a high-calorie diet to build muscle mass",
+            "correct": false
+          },
+          {
+            "text": "Place an alert in Ethan's chart and provide a wallet card stating that succinylcholine and inhaled volatile anesthetics must be avoided",
+            "correct": true
+          },
+          {
+            "text": "Recommend that Sarah, as a confirmed carrier, have periodic cardiac screening",
+            "correct": true
+          },
+          {
+            "text": "Monitor serum creatine kinase every week to measure how fast the disease is progressing",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Immunizations first:</b> daily glucocorticoids weaken the immune response. Varicella immunity should be confirmed and vaccines completed before steroid therapy begins, and annual inactivated influenza vaccination continues afterward.<br><br><b>Stretching and night splints:</b> daily stretching and resting ankle-foot orthoses slow the development of heel-cord and hip contractures, which hasten the loss of walking.<br><br><b>The right kind of activity:</b> gentle, submaximal aerobic activity such as swimming or cycling helps maintain function. Eccentric and high-impact exercise (trampolines, running downhill) and heavy resistance training cause more muscle damage and should be avoided.<br><br><b>Anesthesia alert:</b> in dystrophin-deficient muscle, succinylcholine and inhaled volatile anesthetics can cause sudden muscle breakdown (rhabdomyolysis), a life-threatening rise in potassium, and cardiac arrest.<br><br><b>Carrier heart screening:</b> female carriers can develop dilated cardiomyopathy and need periodic cardiac evaluation.<br><br><b>Incorrect:</b> bed rest speeds up muscle loss and contractures. Extra calories do not build dystrophic muscle; they cause obesity (made worse by steroids), which further limits mobility. CK does not track disease progression and actually falls over time as muscle mass is lost."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "One year later, Ethan is brought to the emergency department after a fall and needs a fracture reduction under procedural sedation.",
+        "tabs": [
+          {
+            "id": "nn_5",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">One year later: Ethan, now 5 years old, is brought to the emergency department after tripping at the park and falling onto an outstretched right hand. Right distal forearm is swollen and angulated; X-ray shows a displaced distal radius fracture. Radial pulse 2+, capillary refill < 2 seconds, fingers warm and able to wiggle. Pain 6/10 (FACES). Ethan has taken prednisone 13 mg daily for the past 10 months; last dose at 0730 today. Orthopedics plans closed reduction under procedural sedation. Ethan last ate at 1230.</span></p>"
+          },
+          {
+            "id": "vs_5",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Parameter</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1615</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 bpm</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/64 mmHg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8 °C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20.1 kg</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "The emergency department nurse is preparing Ethan for closed reduction of his forearm fracture. For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+        "preamble": "",
+        "matrix": {
+          "firstColumnHeader": "Nursing Action",
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "rows": [
+            {
+              "text": "Tell the provider that Ethan has taken prednisone daily for 10 months, so a stress dose of steroids can be considered",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hold Ethan's prednisone for the next several days while he is recovering",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Prepare succinylcholine as the paralytic agent in case airway management is needed",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Assess neurovascular status of the right hand before and after the reduction",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Obtain a serum creatine kinase level before the procedure",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Keep Ethan on strict bed rest for 2 weeks after the reduction",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Indicated – stress-dose steroids:</b> long-term glucocorticoid use suppresses the body's own adrenal response. Procedures and injuries raise cortisol needs, so the provider must know about Ethan's steroid use in order to consider stress dosing and prevent adrenal crisis (low blood pressure, shock).<br><br><b>Contraindicated – holding prednisone:</b> stopping chronic steroids abruptly can cause adrenal insufficiency. The daily dose must continue unless the prescriber changes it.<br><br><b>Contraindicated – succinylcholine:</b> in DMD it can cause rhabdomyolysis, severe hyperkalemia and cardiac arrest. The nurse should speak up and point out the anesthesia alert.<br><br><b>Indicated – neurovascular checks:</b> checking pulses, capillary refill, color, warmth, movement and sensation before and after reduction detects vascular injury or compartment syndrome.<br><br><b>Non-Essential – CK level:</b> CK is chronically elevated in DMD and does not guide this procedure.<br><br><b>Contraindicated – strict bed rest:</b> immobility in DMD can cause permanent loss of walking within days to weeks. Children should be up and moving as early as it is safe, with physical therapy."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "Ethan returns to the neuromuscular clinic 18 months after starting prednisone for a routine evaluation.",
+        "tabs": [
+          {
+            "id": "nn_6",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">18 months after starting prednisone: Routine neuromuscular clinic follow-up. Ethan (now 5 y 10 mo) is walking independently, and Sarah reports that falls have decreased from several per day to about 1 per week since starting prednisone. He attends kindergarten with an individualized education program (IEP). Sarah is concerned that he 'is always hungry,' has 'grown out of his clothes sideways,' and has more frequent temper outbursts.</span></p>"
+          },
+          {
+            "id": "fu_6",
+            "title": "Follow-Up Data",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Parameter</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Before Prednisone (4 y 3 mo)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Now (5 y 10 mo)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Timed rise from floor</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.4 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.1 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>10-meter walk/run time</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.8 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.5 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">17.6 kg (55th percentile)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>24.3 kg (92nd percentile)</b></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Height</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">103 cm (40th percentile)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>108 cm (15th percentile)</b></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BMI</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.6 kg/m² (65th percentile)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>20.8 kg/m² (98th percentile)</b></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mmHg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/64 mmHg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>25-hydroxyvitamin D</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 ng/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>16 ng/mL</b> (goal ≥ 30 ng/mL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">EF 64%, normal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">EF 63%, normal</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "stem": "The nurse evaluates Ethan's response to the plan of care. Complete the following sentences by choosing from the lists of options.",
+        "preamble": "",
+        "cloze": {
+          "text": "Ethan's stable timed rise from the floor and 10-meter walk/run time indicate that prednisone therapy is [[drop0]]. His weight gain, slowed growth in height, and vitamin D level of 16 ng/mL indicate a need to [[drop1]]. When Sarah asks whether the prednisone can simply be stopped because of the weight gain, the nurse explains that it [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "achieving its goal of slowing the loss of muscle strength",
+                  "correct": true
+                },
+                {
+                  "text": "curing the underlying genetic defect",
+                  "correct": false
+                },
+                {
+                  "text": "no longer needed because Ethan's strength has stabilized",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "request a dietitian referral and discuss vitamin D and calcium supplementation with the provider",
+                  "correct": true
+                },
+                {
+                  "text": "stop physical therapy until his weight improves",
+                  "correct": false
+                },
+                {
+                  "text": "give extra calories to support muscle growth",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "must never be stopped suddenly; any change must be a gradual taper directed by the provider",
+                  "correct": true
+                },
+                {
+                  "text": "can be stopped at home once his weight returns to normal",
+                  "correct": false
+                },
+                {
+                  "text": "should be stopped for 1 week each month to allow a steroid holiday",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Expected outcome:</b> in DMD, steroids aim to slow the decline, not to cure. For a 5–6-year-old with Duchenne, holding his motor function steady (rise time 7.4 → 7.1 s) and falling less shows the treatment is working. It does not mean the treatment can stop; the underlying dystrophin deficiency remains.<br><br><b>Adverse effects needing a plan change:</b> steroid-related weight gain (BMI now at the 98th percentile), slowed growth in height, and vitamin D deficiency. Steroid treatment and reduced mobility both weaken bones and raise fracture risk, as Ethan's broken arm showed. The nurse should arrange nutrition counseling and discuss vitamin D and calcium supplementation with the provider. Behavior changes and increased appetite are also common steroid effects that the family should know about.<br><br><b>Safety teaching:</b> chronic glucocorticoids suppress the adrenal glands. Stopping them suddenly can cause a life-threatening adrenal crisis, so any change in dose must be a gradual taper ordered by the prescriber."
+      }
+    }
+  ]
+}
