@@ -56,6 +56,9 @@ let studentUnitFilter = 'ALL';
 
 let caseStudies = [];
 let standaloneQuestions = [];
+// True when a ?cases= or ?standalone= link loaded only part of the bank. Saving
+// would then overwrite the full bank with that subset, so saves are refused.
+let isBankFiltered = false;
 let currentCase = null;
 let currentStepIndex = 0; // For Editor
 let activeTabId = ''; // For Editor active tab
@@ -269,8 +272,44 @@ if (document.readyState === 'loading') {
   initApp();
 }
 
+// Question content is authored HTML (tables, bold, notes) and is rendered with
+// innerHTML, while the database accepts writes from anyone holding the public key.
+// Strip anything that can run script before the content is used anywhere.
+const UNSAFE_TAGS = 'script, iframe, frame, frameset, object, embed, applet, link, meta, base, form, style, noscript, template';
+const UNSAFE_URL = /^\s*(javascript|vbscript|data:text\/html)/i;
+
+function sanitizeRichText(html) {
+  if (typeof html !== 'string' || !html.includes('<')) return html;
+  const tpl = document.createElement('template'); // parses inertly: no scripts run, nothing loads
+  tpl.innerHTML = html;
+  let changed = false;
+  tpl.content.querySelectorAll(UNSAFE_TAGS).forEach(el => { el.remove(); changed = true; });
+  tpl.content.querySelectorAll('*').forEach(el => {
+    Array.from(el.attributes).forEach(attr => {
+      const name = attr.name.toLowerCase();
+      if (name.startsWith('on') || name === 'srcdoc' ||
+          (['href', 'src', 'action', 'formaction', 'xlink:href'].includes(name) && UNSAFE_URL.test(attr.value))) {
+        el.removeAttribute(attr.name);
+        changed = true;
+      }
+    });
+  });
+  // Only re-serialize when something was removed, so safe content stays exactly as authored.
+  return changed ? tpl.innerHTML : html;
+}
+
+function sanitizeItemContent(value) {
+  if (typeof value === 'string') return sanitizeRichText(value);
+  if (Array.isArray(value)) return value.map(sanitizeItemContent);
+  if (value && typeof value === 'object') {
+    Object.keys(value).forEach(k => { value[k] = sanitizeItemContent(value[k]); });
+  }
+  return value;
+}
+
 function migrateCaseTypes(c) {
   if (!c || !c.screens) return;
+  sanitizeItemContent(c);
   c.screens.forEach(screen => {
     if (screen.question && screen.question.type) {
       const t = screen.question.type;
@@ -424,23 +463,26 @@ async function loadAllData() {
     }
   }
 
-  if (caseStudies.length === 0 && window.DEFAULT_CASE) {
-    caseStudies.push(window.DEFAULT_CASE);
-    saveCasesToStorage();
-  }
-
   // Apply query parameter filtering if specified in the URL (e.g. ?cases=id1,id2)
   const urlParams = new URLSearchParams(window.location.search);
   const casesFilter = urlParams.get('cases');
   if (casesFilter) {
     const allowedIds = casesFilter.split(',');
     caseStudies = caseStudies.filter(c => allowedIds.includes(c.id));
+    isBankFiltered = true;
   }
   const standaloneFilter = urlParams.get('standalone');
   if (standaloneFilter) {
     const allowedIds = standaloneFilter.split(',');
     standaloneQuestions = standaloneQuestions.filter(q => allowedIds.includes(q.id));
+    isBankFiltered = true;
   }
+}
+
+function refuseSaveIfBankFiltered() {
+  if (!isBankFiltered) return false;
+  showToast('Saving is disabled on filtered links. Open the app without ?cases= or ?standalone= to edit.', 'error');
+  return true;
 }
 
 // Local Folder (File System Access API) state
@@ -663,6 +705,7 @@ function exportCasesDataJs() {
 }
 
 async function saveCasesToStorage() {
+  if (refuseSaveIfBankFiltered()) return;
   // 1. IndexedDB / localStorage fallback
   if (db) {
     caseStudies.forEach(c => putInStore('case_studies', c));
@@ -713,6 +756,7 @@ async function saveCasesToStorage() {
 }
 
 async function saveStandaloneToStorage() {
+  if (refuseSaveIfBankFiltered()) return;
   // 1. IndexedDB / localStorage fallback
   if (db) {
     standaloneQuestions.forEach(q => putInStore('standalone_questions', q));
