@@ -1,6 +1,12 @@
 // Script to pull latest cases and standalone questions from Supabase
 // and save directly to cases-data.js, cases.json, standalone.json, the json/ folder, and Desktop backup.
 
+// Disabled in NCLEX_Claude: this pulls from the original app's database and would
+// overwrite the fixes made to cases-data.js in this repository. It will be
+// re-pointed at NCLEX_Claude's own Supabase project once that exists.
+console.error('sync-from-supabase.js is disabled in NCLEX_Claude until it is pointed at this copy\'s own database.');
+process.exit(1);
+
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
