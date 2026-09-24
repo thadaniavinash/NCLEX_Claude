@@ -196,7 +196,6 @@ async function initApp() {
   }
 
   await loadAllData();
-  await tryRestoreFolderHandle();
   initDashboardEvents();
   initSessionBuilder();
   initEditorEvents();
@@ -220,7 +219,6 @@ async function initApp() {
   if (directCaseId) {
     const targetCase = caseStudies.find(c => c.id === directCaseId || c.id.toLowerCase() === directCaseId.toLowerCase());
     if (targetCase) {
-      console.log(`Direct LMS launch: Case Study "${targetCase.title}" (${targetCase.id})`);
       const targetMode = examMode === 'test' ? 'test' : 'review';
       startPlayer(targetCase, {
         mode: targetMode,
@@ -238,7 +236,6 @@ async function initApp() {
   if (directStandaloneId) {
     const targetQ = standaloneQuestions.find(q => q.id === directStandaloneId || q.id.toLowerCase() === directStandaloneId.toLowerCase());
     if (targetQ) {
-      console.log(`Direct LMS launch: Stand-alone Question "${targetQ.title}" (${targetQ.id})`);
       const targetMode = examMode === 'test' ? 'test' : 'review';
       startPlayer(targetQ, {
         mode: targetMode,
@@ -398,7 +395,6 @@ async function loadAllData() {
         standaloneQuestions.forEach(migrateCaseTypes);
       }
       loadedFromSupabase = true;
-      console.log('Loaded NCLEX data successfully from Supabase.');
     } else {
       console.warn('Supabase fetch failed, falling back to local files/storage.', response.status);
     }
@@ -485,63 +481,6 @@ function refuseSaveIfBankFiltered() {
   return true;
 }
 
-// Local Folder (File System Access API) state
-let localFolderHandle = null;
-
-function getDirectoryHandleFromDB() {
-  return new Promise((resolve) => {
-    try {
-      const req = indexedDB.open('NCLEX_FOLDER_STORAGE', 1);
-      req.onupgradeneeded = (e) => {
-        const d = e.target.result;
-        if (!d.objectStoreNames.contains('handles')) {
-          d.createObjectStore('handles');
-        }
-      };
-      req.onsuccess = (e) => {
-        const d = e.target.result;
-        const tx = d.transaction('handles', 'readonly');
-        const store = tx.objectStore('handles');
-        const getReq = store.get('folder_handle');
-        getReq.onsuccess = () => resolve(getReq.result || null);
-        getReq.onerror = () => resolve(null);
-      };
-      req.onerror = () => resolve(null);
-    } catch (err) {
-      resolve(null);
-    }
-  });
-}
-
-function saveDirectoryHandleToDB(handle) {
-  return new Promise((resolve) => {
-    try {
-      const req = indexedDB.open('NCLEX_FOLDER_STORAGE', 1);
-      req.onupgradeneeded = (e) => {
-        const d = e.target.result;
-        if (!d.objectStoreNames.contains('handles')) {
-          d.createObjectStore('handles');
-        }
-      };
-      req.onsuccess = (e) => {
-        const d = e.target.result;
-        const tx = d.transaction('handles', 'readwrite');
-        const store = tx.objectStore('handles');
-        if (handle) {
-          store.put(handle, 'folder_handle');
-        } else {
-          store.delete('folder_handle');
-        }
-        tx.oncomplete = () => resolve(true);
-        tx.onerror = () => resolve(false);
-      };
-      req.onerror = () => resolve(false);
-    } catch (err) {
-      resolve(false);
-    }
-  });
-}
-
 async function saveToLocalBackend(cases, standalone) {
   const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
   if (!isLocal) return false;
@@ -552,121 +491,12 @@ async function saveToLocalBackend(cases, standalone) {
       body: JSON.stringify({ cases, standalone })
     });
     if (res.ok) {
-      console.log('[LOCAL SERVER] Saved directly to local disk and json/ folder.');
       return true;
     }
   } catch (e) {
     console.warn('[LOCAL SERVER] /api/save unavailable:', e.message);
   }
   return false;
-}
-
-async function writeDataToConnectedFolder(cases, standalone) {
-  if (!localFolderHandle) return false;
-  try {
-    let permission = await localFolderHandle.queryPermission({ mode: 'readwrite' });
-    if (permission !== 'granted') {
-      permission = await localFolderHandle.requestPermission({ mode: 'readwrite' });
-      if (permission !== 'granted') return false;
-    }
-
-    // 1. cases-data.js
-    const jsFile = await localFolderHandle.getFileHandle('cases-data.js', { create: true });
-    const jsWritable = await jsFile.createWritable();
-    const jsContent = `window.NCLEX_CASES = ${JSON.stringify(cases, null, 2)};\n\nwindow.NCLEX_STANDALONE = ${JSON.stringify(standalone, null, 2)};\n`;
-    await jsWritable.write(jsContent);
-    await jsWritable.close();
-
-    // 2. cases.json
-    const casesFile = await localFolderHandle.getFileHandle('cases.json', { create: true });
-    const casesWritable = await casesFile.createWritable();
-    await casesWritable.write(JSON.stringify(cases, null, 2));
-    await casesWritable.close();
-
-    // 3. standalone.json
-    const standaloneFile = await localFolderHandle.getFileHandle('standalone.json', { create: true });
-    const standaloneWritable = await standaloneFile.createWritable();
-    await standaloneWritable.write(JSON.stringify(standalone, null, 2));
-    await standaloneWritable.close();
-
-    // 4. json/ folder
-    const jsonDirHandle = await localFolderHandle.getDirectoryHandle('json', { create: true });
-    for (const c of cases) {
-      const slug = (c.title || 'case').replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 30);
-      const f = await jsonDirHandle.getFileHandle(`${c.id}_${slug}.json`, { create: true });
-      const w = await f.createWritable();
-      await w.write(JSON.stringify(c, null, 2));
-      await w.close();
-    }
-    for (const s of standalone) {
-      const slug = (s.title || 'standalone').replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 30);
-      const f = await jsonDirHandle.getFileHandle(`${s.id}_${slug}.json`, { create: true });
-      const w = await f.createWritable();
-      await w.write(JSON.stringify(s, null, 2));
-      await w.close();
-    }
-
-    console.log('[LOCAL FOLDER] Successfully wrote all files to connected folder:', localFolderHandle.name);
-    return true;
-  } catch (err) {
-    console.error('[LOCAL FOLDER] Error writing to folder:', err);
-    return false;
-  }
-}
-
-async function connectLocalFolder() {
-  if (!window.showDirectoryPicker) {
-    showToast("File System Access API is not supported by this browser. Please use Chrome or Edge.", "error");
-    return;
-  }
-  try {
-    const handle = await window.showDirectoryPicker({ mode: 'readwrite' });
-    if (handle) {
-      localFolderHandle = handle;
-      await saveDirectoryHandleToDB(handle);
-      updateFolderButtonUI(true);
-      const success = await writeDataToConnectedFolder(caseStudies, standaloneQuestions);
-      if (success) {
-        showToast(`Connected & saved files to: ${handle.name}`);
-      } else {
-        showToast(`Connected to ${handle.name}, but write permission was not granted.`, "warning");
-      }
-    }
-  } catch (err) {
-    if (err.name !== 'AbortError') {
-      console.error('Error selecting folder:', err);
-      showToast("Could not connect folder: " + err.message, "error");
-    }
-  }
-}
-
-async function tryRestoreFolderHandle() {
-  if (!window.showDirectoryPicker) return;
-  try {
-    const handle = await getDirectoryHandleFromDB();
-    if (handle) {
-      localFolderHandle = handle;
-      const permission = await handle.queryPermission({ mode: 'readwrite' });
-      updateFolderButtonUI(permission === 'granted');
-    }
-  } catch (err) {
-    console.warn('Could not restore folder handle:', err);
-  }
-}
-
-function updateFolderButtonUI(isPermissionGranted = true) {
-  const btns = document.querySelectorAll('.connect-folder-btn');
-  btns.forEach(btn => {
-    if (localFolderHandle) {
-      btn.innerHTML = `<svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none" style="margin-right: 6px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/><polyline points="9 11 12 14 22 4"/></svg> ${isPermissionGranted ? 'Synced: ' : 'Reconnect: '}${localFolderHandle.name}`;
-      btn.classList.add('btn-folder-connected');
-      btn.title = `Connected to "${localFolderHandle.name}". Click to change folder or re-authenticate.`;
-    } else {
-      btn.innerHTML = `<svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none" style="margin-right: 6px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg> Connect Local Folder`;
-      btn.classList.remove('btn-folder-connected');
-      btn.title = `Connect a local folder so all saves write directly to your hard drive.`;
-    }
-  });
 }
 
 function downloadBlob(content, filename, contentType) {
@@ -682,26 +512,16 @@ function downloadBlob(content, filename, contentType) {
   showToast(`Exported ${filename}!`);
 }
 
-function exportAllDataAsJson() {
-  const data = {
-    cases: caseStudies,
-    standalone: standaloneQuestions,
-    exportedAt: new Date().toISOString()
-  };
-  downloadBlob(JSON.stringify(data, null, 2), 'nclex_all_data.json', 'application/json');
-}
-
-function exportCasesJson() {
-  downloadBlob(JSON.stringify(caseStudies, null, 2), 'cases.json', 'application/json');
-}
-
-function exportStandaloneJson() {
-  downloadBlob(JSON.stringify(standaloneQuestions, null, 2), 'standalone.json', 'application/json');
-}
-
-function exportCasesDataJs() {
-  const content = `window.NCLEX_CASES = ${JSON.stringify(caseStudies, null, 2)};\n\nwindow.NCLEX_STANDALONE = ${JSON.stringify(standaloneQuestions, null, 2)};\n`;
-  downloadBlob(content, 'cases-data.js', 'application/javascript');
+// The app loads from the database, or from cases-data.js when none is connected,
+// so a save that only reached browser storage will not appear after a reload.
+function showSaveResult(savedToLocalServer, savedToSupabase) {
+  if (savedToLocalServer) {
+    showToast("Saved directly to cases-data.js on your hard drive!");
+  } else if (savedToSupabase) {
+    showToast("Changes saved to cloud database.");
+  } else {
+    showToast("Not saved permanently: no database is connected, so this change will be lost when the page reloads.", "warning");
+  }
 }
 
 async function saveCasesToStorage() {
@@ -720,10 +540,7 @@ async function saveCasesToStorage() {
   // 2. Direct save to Local Server if running locally
   const savedToLocalServer = await saveToLocalBackend(caseStudies, standaloneQuestions);
 
-  // 3. Direct save to Connected Local Folder (File System Access API) if connected
-  const savedToConnectedFolder = await writeDataToConnectedFolder(caseStudies, standaloneQuestions);
-
-  // 4. Push updates to Supabase
+  // 3. Push updates to Supabase
   let savedToSupabase = false;
   if (USE_SUPABASE) try {
     const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.cases`, {
@@ -737,22 +554,12 @@ async function saveCasesToStorage() {
     });
     if (response.ok) {
       savedToSupabase = true;
-      console.log('Saved cases successfully to Supabase.');
     }
   } catch (err) {
     console.error('Error saving cases to Supabase:', err);
   }
 
-  // Clear, helpful feedback
-  if (savedToLocalServer) {
-    showToast("Saved directly to hard drive & json/ folder!");
-  } else if (savedToConnectedFolder) {
-    showToast("Saved directly to connected local folder & json/!");
-  } else if (savedToSupabase) {
-    showToast("Changes saved to cloud database.");
-  } else {
-    showToast("Saved locally in browser.", "warning");
-  }
+  showSaveResult(savedToLocalServer, savedToSupabase);
 }
 
 async function saveStandaloneToStorage() {
@@ -771,10 +578,7 @@ async function saveStandaloneToStorage() {
   // 2. Direct save to Local Server if running locally
   const savedToLocalServer = await saveToLocalBackend(caseStudies, standaloneQuestions);
 
-  // 3. Direct save to Connected Local Folder (File System Access API) if connected
-  const savedToConnectedFolder = await writeDataToConnectedFolder(caseStudies, standaloneQuestions);
-
-  // 4. Push updates to Supabase
+  // 3. Push updates to Supabase
   let savedToSupabase = false;
   if (USE_SUPABASE) try {
     const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.standalone`, {
@@ -788,35 +592,12 @@ async function saveStandaloneToStorage() {
     });
     if (response.ok) {
       savedToSupabase = true;
-      console.log('Saved standalone questions successfully to Supabase.');
     }
   } catch (err) {
     console.error('Error saving standalone to Supabase:', err);
   }
 
-  // Clear, helpful feedback
-  if (savedToLocalServer) {
-    showToast("Saved directly to hard drive & json/ folder!");
-  } else if (savedToConnectedFolder) {
-    showToast("Saved directly to connected local folder & json/!");
-  } else if (savedToSupabase) {
-    showToast("Changes saved to cloud database.");
-  } else {
-    showToast("Saved locally in browser.", "warning");
-  }
-}
-
-function downloadUpdatedDataFile() {
-  const content = 'window.NCLEX_CASES = ' + JSON.stringify(caseStudies, null, 2) + ';\nwindow.NCLEX_STANDALONE = ' + JSON.stringify(standaloneQuestions, null, 2) + ';\n';
-  const blob = new Blob([content], { type: 'application/javascript' });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = 'cases-data.js';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  showToast("Downloaded updated cases-data.js file. Please replace it in your folder.");
+  showSaveResult(savedToLocalServer, savedToSupabase);
 }
 
 function saveCurrentCaseOrStandalone() {
@@ -849,40 +630,6 @@ function renderStudentPortal() {
   renderSessionTopicsList();
   renderManualSelectionLists();
   updateSessionCountsAndBounds();
-}
-
-function exportAllCases() {
-  if (caseStudies.length === 0) {
-    showToast("No case studies to export.", "error");
-    return;
-  }
-  const jsonStr = JSON.stringify(caseStudies, null, 2);
-  const blob = new Blob([jsonStr], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = `All_NGN_Case_Studies.json`;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  showToast("All case studies exported.");
-}
-
-function exportAllStandalone() {
-  if (standaloneQuestions.length === 0) {
-    showToast("No standalone questions to export.", "error");
-    return;
-  }
-  const jsonStr = JSON.stringify(standaloneQuestions, null, 2);
-  const blob = new Blob([jsonStr], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = `All_NGN_Standalone_Questions.json`;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  showToast("All standalone questions exported.");
 }
 
 /* ================= DASHBOARD ENGINE (FACULTY AUTHORING PORTAL) ================= */
@@ -1387,33 +1134,6 @@ function createStandaloneQuestion() {
   showToast("New standalone question initialized.");
 }
 
-function handleImportStandaloneFile(e) {
-  const file = e.target.files[0];
-  if (!file) return;
-  
-  const reader = new FileReader();
-  reader.onload = function(evt) {
-    try {
-      const imported = JSON.parse(evt.target.result);
-      if (!imported.title || !imported.screens) {
-        throw new Error("Invalid question format: missing title or screens.");
-      }
-      imported.id = 'imported_standalone_' + Date.now();
-      imported.isStandalone = true;
-      migrateCaseTypes(imported);
-      standaloneQuestions.push(imported);
-      saveStandaloneToStorage();
-      showToast(`Successfully imported standalone: ${imported.title}`);
-      switchAuthorTab('standalone');
-      renderDashboard();
-    } catch (err) {
-      alert(`Import failed: ${err.message}`);
-    }
-  };
-  reader.readAsText(file);
-  e.target.value = '';
-}
-
 /* ================= NEXTGEN NCLEX SESSION BUILDER ================= */
 let sessionBuilderTopics = [];
 let sessionBuilderMode = 'review'; // 'review' | 'test'
@@ -1517,17 +1237,6 @@ function initSessionBuilder() {
   const authBtn = document.getElementById('student-authoring-btn');
   if (authBtn) {
     authBtn.addEventListener('click', () => switchView('dashboard'));
-  }
-
-  // Return to student portal from dashboard
-  const retStudentBtn = document.getElementById('return-to-student-btn');
-  if (retStudentBtn) {
-    retStudentBtn.addEventListener('click', () => switchView('student'));
-  }
-
-  const navTabGen = document.getElementById('nav-tab-generator');
-  if (navTabGen) {
-    navTabGen.addEventListener('click', () => switchView('student'));
   }
 
   // Student Course & Unit Filters
@@ -2058,23 +1767,6 @@ function generateAndStartSession() {
   });
 }
 
-function renderGeneratorLists() {
-  renderSessionTopicsList();
-  renderManualSelectionLists();
-}
-
-function renderGeneratorPanel() {
-  renderGeneratorLists();
-}
-
-function updateGeneratorSummary() {
-  updateSessionCountsAndBounds();
-}
-
-function generateAndStartQuiz() {
-  generateAndStartSession();
-}
-
 function createNewCase() {
   const newId = 'case_' + Date.now();
   const newCase = {
@@ -2111,32 +1803,6 @@ function createNewCase() {
   startEditor(newCase);
   showToast("New case study initialized.");
 }
-
-function handleImportFile(e) {
-  const file = e.target.files[0];
-  if (!file) return;
-  
-  const reader = new FileReader();
-  reader.onload = function(evt) {
-    try {
-      const imported = JSON.parse(evt.target.result);
-      if (!imported.title || !imported.screens) {
-        throw new Error("Invalid NGN case study format: missing title or screens.");
-      }
-      imported.id = 'imported_' + Date.now();
-      migrateCaseTypes(imported);
-      caseStudies.push(imported);
-      saveCasesToStorage();
-      showToast(`Successfully imported: ${imported.title}`);
-      renderDashboard();
-    } catch (err) {
-      alert(`Import failed: ${err.message}`);
-    }
-  };
-  reader.readAsText(file);
-  e.target.value = '';
-}
-
 
 function updateToolbarStates(editor) {
   const container = editor.closest('.rich-editor-container');
@@ -4822,10 +4488,6 @@ function renderQuestionNavigatorList() {
   });
 }
 
-function renderPlayerNavGrid() {
-  renderQuestionNavigatorList();
-}
-
 /* ================= 17 PLAYER OPTIONS RENDERERS ================= */
 function renderPlayerAnswersBox(q, stepIdx) {
   const box = document.getElementById('player-answer-box');
@@ -6042,8 +5704,6 @@ function evaluateStepScore(stepIdx) {
   const q = step.question;
   const userAnswers = playerAnswers[stepIdx] || {};
   
-  console.log("evaluateStepScore triggered for stepIdx:", stepIdx, "Question Type:", q.type);
-  console.log("User Answers:", JSON.stringify(userAnswers));
   
   let score = 0;
   let maxScore = 0;
@@ -6323,7 +5983,6 @@ function evaluateStepScore(stepIdx) {
     }
   }
   
-  console.log("evaluateStepScore result - Score:", score, "Max:", maxScore);
   playerScores[stepIdx] = { score, max: maxScore };
 }
 
@@ -6400,34 +6059,6 @@ function hasSelectedAnyAnswer(q, stepIdx) {
     }
   }
 
-  // 2. DOM inspection safeguard
-  const box = document.getElementById('player-answers-box');
-  if (box) {
-    const checkedInput = box.querySelector('input[type="checkbox"]:checked, input[type="radio"]:checked');
-    if (checkedInput) return true;
-
-    const selects = box.querySelectorAll('select');
-    for (const sel of selects) {
-      if (sel.value !== '' && sel.value !== null && sel.value !== undefined) return true;
-    }
-
-    const textInputs = box.querySelectorAll('input[type="text"], input[type="number"]');
-    for (const inp of textInputs) {
-      if (inp.value && inp.value.trim().length > 0) return true;
-    }
-
-    const highlighted = box.querySelector('.highlight-token.selected, .highlightable-text.selected, .highlight-token.active, .highlight-word.selected, .highlight-span.selected');
-    if (highlighted) return true;
-
-    const orderedItems = box.querySelectorAll('#order-right-box .order-item, #order-right-box .order-token, #order-right-box > div');
-    if (orderedItems.length > 0) return true;
-
-    const bowtieFilled = box.querySelector('.bowtie-target.filled, .bowtie-drop-zone.filled');
-    if (bowtieFilled) return true;
-
-    const hotspotMarker = box.querySelector('.hotspot-click-marker');
-    if (hotspotMarker) return true;
-  }
 
   return false;
 }
