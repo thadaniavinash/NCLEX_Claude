@@ -666,7 +666,14 @@ window.NCLEX_CASES = [
           "preamble": "",
           "explanation": "The priority intervention for diabetic ketoacidosis management is fluid resuscitation with isotonic IV fluid, typically with a largevolume 0.9% sodium chloride IV bolus. Fluid resuscitation prevents hypovolemic shock and helps normalize glucose and electrolyte levels via hemodilution. (Incorrect) It is essential to frequently monitor blood glucose\nlevels to assess treatment effectiveness and check for hypoglycemia. However, a blood glucose level had recently been obtained for this client. (Incorrect) Continuous infusion of isotonic IV fluid (e.g., 0.9% sodium chloride 125 mL/hr) is appropriate, but the IV fluid bolus should be infused first because rapid infusion of a large volume of isotonic IV fluid more quickly corrects hypovolemia. (Incorrect) The nurse should prioritize administration of regular insulin IV continuous infusion to correct hyperglycemia, but the first priority is prevention of life-threatening hypovolemic shock\nwith fluid resuscitation. (Incorrect) Maintaining NPO status may be appropriate for a client with a decreased level of consciousness to help prevent aspiration secondary to vomiting while the blood glucose level is being stabilized. However, this can be implemented after fluid resuscitation is initiated. (Incorrect) After blood glucose is decreased to an acceptable range, continuous infusion of isotonic IV fluid is replaced with a continuous infusion of glucose-containing IV solution (5% dextrose in 0.45% sodium chloride) to prevent hypoglycemia and cerebral edema related to a rapidly decreased serum osmolality. If hypoglycemia occurs, 50% dextrose solution IV can be administered PRN to rapidly increase the blood glucose level. Educational objective: The priority intervention for DKA is fluid resuscitation to prevent life-threatening hypovolemic shock and help normalize serum glucose and electrolyte levels.",
           "highlightText": "0905:\n - {Monitor blood glucose level every hour}\n - {Initiate 0.9% sodium chloride 125 mL/hr IV}\n - {Administer regular insulin IV continuous infusion}\n - {Maintain NPO status except for oral medications}\n - {Administer 0.9% sodium chloride 1000 mL IV bolus|correct}\n - {Initiate 50% dextrose solution IV PRN for hypoglycemia}",
-          "maxCorrectSelections": null
+          "maxCorrectSelections": null,
+          "highlightTabs": [
+            {
+              "id": "ht_case_1780489713691_5",
+              "title": "Nurses' Notes",
+              "content": "0905:\n - {Monitor blood glucose level every hour}\n - {Initiate 0.9% sodium chloride 125 mL/hr IV}\n - {Administer regular insulin IV continuous infusion}\n - {Maintain NPO status except for oral medications}\n - {Administer 0.9% sodium chloride 1000 mL IV bolus|correct}\n - {Initiate 50% dextrose solution IV PRN for hypoglycemia}"
+            }
+          ]
         },
         "leftContent": {
           "tabs": [
@@ -5427,46 +5434,72 @@ window.NCLEX_CASES = [
           "options": [],
           "preamble": "",
           "explanation": "Trisomy 21 (Down syndrome) most commonly (~95% of cases) arises from nondisjunction of chromosome 21 during parental meiosis (strongly correlated with advancing maternal age). The presence of a large atrial septal defect creates a left-to-right intracardiac shunt, placing the infant at high risk for pulmonary overcirculation, tachypnea, diaphoresis with feeds, and congestive heart failure. Concurrently, generalized hypotonia coupled with a protruding tongue (macroglossia) causes weak suction, uncoordinated swallowing, and increased risk for feeding fatigue, poor caloric intake, and aspiration of formula or breast milk.",
-          "dropdown_cloze": {
+          "cloze": {
+            "text": "The infant's chromosomal abnormality is caused by [[drop0]] during parental meiosis, resulting in autosomal aneuploidy with three copies of chromosome 21. The nurse's immediate physiological priority during the newborn transition period is monitoring for [[drop1]] secondary to the confirmed atrial septal defect. Due to generalized muscular hypotonia and macroglossia, the nurse must prioritize interventions to prevent [[drop2]] during enteral nutrition.",
             "dropdowns": [
               {
-                "id": "drp1",
-                "label": "chromosomal mechanism",
+                "placeholder": "Select...",
                 "options": [
-                  "meiotic nondisjunction",
-                  "point gene deletion on chromosome 7",
-                  "X-linked recessive mutation",
-                  "trinucleotide repeat expansion"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "X-linked recessive mutation",
+                    "correct": false
+                  },
+                  {
+                    "text": "point gene deletion on chromosome 7",
+                    "correct": false
+                  },
+                  {
+                    "text": "meiotic nondisjunction",
+                    "correct": true
+                  },
+                  {
+                    "text": "trinucleotide repeat expansion",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp2",
-                "label": "immediate cardiac risk",
+                "placeholder": "Select...",
                 "options": [
-                  "congestive heart failure and pulmonary overcirculation",
-                  "acute left ventricular outflow tract rupture",
-                  "coarctation of the abdominal aorta with leg ischemia",
-                  "immediate malignant cardiac dysrhythmias"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "acute left ventricular outflow tract rupture",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediate malignant cardiac dysrhythmias",
+                    "correct": false
+                  },
+                  {
+                    "text": "congestive heart failure and pulmonary overcirculation",
+                    "correct": true
+                  },
+                  {
+                    "text": "coarctation of the abdominal aorta with leg ischemia",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp3",
-                "label": "nutritional priority",
+                "placeholder": "Select...",
                 "options": [
-                  "feeding fatigue, poor latch, and milk aspiration",
-                  "rapid esophageal stricture and intussusception",
-                  "hyperosmolar hyperglycemic syndrome",
-                  "excessive gastric hyperchlorhydria"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "feeding fatigue, poor latch, and milk aspiration",
+                    "correct": true
+                  },
+                  {
+                    "text": "hyperosmolar hyperglycemic syndrome",
+                    "correct": false
+                  },
+                  {
+                    "text": "excessive gastric hyperchlorhydria",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid esophageal stricture and intussusception",
+                    "correct": false
+                  }
+                ]
               }
-            ],
-            "sentences": [
-              "The infant's chromosomal abnormality is caused by [drp1] during parental meiosis, resulting in autosomal aneuploidy with three copies of chromosome 21.",
-              "The nurse's immediate physiological priority during the newborn transition period is monitoring for [drp2] secondary to the confirmed atrial septal defect.",
-              "Due to generalized muscular hypotonia and macroglossia, the nurse must prioritize interventions to prevent [drp3] during enteral nutrition."
             ]
           }
         },
@@ -5625,46 +5658,72 @@ window.NCLEX_CASES = [
           "options": [],
           "preamble": "Discharge preparation is underway on Day of Life 3.",
           "explanation": "1. Warning signs of worsening left-to-right shunt and heart failure in infants with congenital heart disease include diaphoresis during feeds, tachypnea (> 60 breaths/min), retractions, prolonged feeding times (> 30 mins), and faltering weight gain.\n2. Children with Trisomy 21 have multisystem risks requiring structured surveillance: thyroid dysfunction (hypothyroidism ~15%), sensorineural/conductive hearing loss, acute leukemias (10- to 20-fold increased risk), celiac disease, obstructive sleep apnea, and atlantoaxial instability, as well as early Alzheimer disease in adult years.\n3. For parents of a child with standard nondisjunction Trisomy 21, the recurrence risk in subsequent pregnancies is approximately 1% (or slightly higher if maternal age exceeds 40 years), which differs significantly from Mendelian single-gene disorders (25% or 50%).",
-          "dropdown_cloze": {
+          "cloze": {
+            "text": "The nurse recognizes that parents demonstrate correct understanding of home cardiac monitoring when they state they will notify the healthcare provider if the infant develops [[drop0]]. Regarding developmental screening and long-term health maintenance for Trisomy 21, the nurse educates the parents that regular evaluations are necessary due to an increased risk of [[drop1]]. When the mother asks about recurrence risk in future pregnancies, the nurse explains that the recurrence rate for standard meiotic nondisjunction trisomy 21 is approximately [[drop2]].",
             "dropdowns": [
               {
-                "id": "drp1",
-                "label": "cardiac warning sign",
+                "placeholder": "Select...",
                 "options": [
-                  "excessive sweating during feeds, rapid breathing, and poor weight gain",
-                  "brief sleeping intervals of 2 to 3 hours between feedings",
-                  "transient hiccups following burping",
-                  "mild physiological jaundice resolving by day 5"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "brief sleeping intervals of 2 to 3 hours between feedings",
+                    "correct": false
+                  },
+                  {
+                    "text": "transient hiccups following burping",
+                    "correct": false
+                  },
+                  {
+                    "text": "mild physiological jaundice resolving by day 5",
+                    "correct": false
+                  },
+                  {
+                    "text": "excessive sweating during feeds, rapid breathing, and poor weight gain",
+                    "correct": true
+                  }
+                ]
               },
               {
-                "id": "drp2",
-                "label": "long-term health risks",
+                "placeholder": "Select...",
                 "options": [
-                  "congenital hypothyroidism, hearing loss, leukemia, and celiac disease",
-                  "early testicular neoplasia and cystic renal dysplasia",
-                  "hypergonadotropic hypogonadism with streak ovaries",
-                  "rapid muscular hypertrophy and Marfanoid skeletal elongation"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "early testicular neoplasia and cystic renal dysplasia",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid muscular hypertrophy and Marfanoid skeletal elongation",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypergonadotropic hypogonadism with streak ovaries",
+                    "correct": false
+                  },
+                  {
+                    "text": "congenital hypothyroidism, hearing loss, leukemia, and celiac disease",
+                    "correct": true
+                  }
+                ]
               },
               {
-                "id": "drp3",
-                "label": "recurrence risk",
+                "placeholder": "Select...",
                 "options": [
-                  "1% (or maternal age-related risk if higher)",
-                  "50% for every subsequent pregnancy",
-                  "25% in accordance with autosomal recessive inheritance",
-                  "100% because all subsequent gametes carry 24 chromosomes"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "100% because all subsequent gametes carry 24 chromosomes",
+                    "correct": false
+                  },
+                  {
+                    "text": "50% for every subsequent pregnancy",
+                    "correct": false
+                  },
+                  {
+                    "text": "25% in accordance with autosomal recessive inheritance",
+                    "correct": false
+                  },
+                  {
+                    "text": "1% (or maternal age-related risk if higher)",
+                    "correct": true
+                  }
+                ]
               }
-            ],
-            "sentences": [
-              "The nurse recognizes that parents demonstrate correct understanding of home cardiac monitoring when they state they will notify the healthcare provider if the infant develops [drp1].",
-              "Regarding developmental screening and long-term health maintenance for Trisomy 21, the nurse educates the parents that regular evaluations are necessary due to an increased risk of [drp2].",
-              "When the mother asks about recurrence risk in future pregnancies, the nurse explains that the recurrence rate for standard meiotic nondisjunction trisomy 21 is approximately [drp3]."
             ]
           }
         },
@@ -5823,46 +5882,72 @@ window.NCLEX_CASES = [
           "options": [],
           "preamble": "",
           "explanation": "1. Autosomal Recessive (Cystic Fibrosis): When two heterozygous carriers mate (Cc x Cc), Punnett square yields: 25% homozygous normal (CC), 50% heterozygous carrier (Cc), and 25% homozygous affected (cc). Thus, each child has a 1 in 4 (25%) risk of having CF.\n2. X-Linked Recessive (Hemophilia A): A carrier mother (XHXh) and normal father (XHY) produce daughters who are XHXH (50% normal) or XHXh (50% carrier), and sons who are XHY (50% normal) or XhY (50% affected). Thus, any son born has a 50% (1 in 2) probability of having Hemophilia A.\n3. Autosomal Dominant (Marfan Syndrome): An affected individual heterozygous for the mutant allele (Mm) mated with an unaffected partner (mm) produces 50% affected offspring (Mm) and 50% unaffected offspring (mm), with males and females equally at risk.",
-          "dropdown_cloze": {
+          "cloze": {
+            "text": "Because both Maya and David are heterozygous carriers for Cystic Fibrosis (Cc x Cc), with each pregnancy there is a [[drop0]] probability of having a child affected with Cystic Fibrosis. As an X-linked recessive carrier (X<sup>H</sup>X<sup>h</sup>) partnered with an unaffected male (X<sup>H</sup>Y), Maya has a [[drop1]] probability of giving birth to an affected son with Hemophilia A. If David is confirmed to carry a heterozygous dominant mutation for Marfan syndrome (Mm x mm), any biological child has a [[drop2]] probability of inheriting the disorder regardless of biological sex.",
             "dropdowns": [
               {
-                "id": "drp1",
-                "label": "Cystic Fibrosis probability",
+                "placeholder": "Select...",
                 "options": [
-                  "25% (1 in 4 chance)",
-                  "50% (1 in 2 chance)",
-                  "75% (3 in 4 chance)",
-                  "0% because carriers never have affected offspring"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "25% (1 in 4 chance)",
+                    "correct": true
+                  },
+                  {
+                    "text": "0% because carriers never have affected offspring",
+                    "correct": false
+                  },
+                  {
+                    "text": "50% (1 in 2 chance)",
+                    "correct": false
+                  },
+                  {
+                    "text": "75% (3 in 4 chance)",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp2",
-                "label": "Hemophilia A son probability",
+                "placeholder": "Select...",
                 "options": [
-                  "50% (1 in 2 chance for male offspring)",
-                  "100% for all male offspring",
-                  "25% for male offspring",
-                  "0% because fathers transmit X chromosomes to sons"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "50% (1 in 2 chance for male offspring)",
+                    "correct": true
+                  },
+                  {
+                    "text": "0% because fathers transmit X chromosomes to sons",
+                    "correct": false
+                  },
+                  {
+                    "text": "100% for all male offspring",
+                    "correct": false
+                  },
+                  {
+                    "text": "25% for male offspring",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp3",
-                "label": "Marfan syndrome probability",
+                "placeholder": "Select...",
                 "options": [
-                  "50% (1 in 2 chance)",
-                  "25% (1 in 4 chance)",
-                  "75% (3 in 4 chance)",
-                  "100% because the mutation is dominant"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "50% (1 in 2 chance)",
+                    "correct": true
+                  },
+                  {
+                    "text": "100% because the mutation is dominant",
+                    "correct": false
+                  },
+                  {
+                    "text": "25% (1 in 4 chance)",
+                    "correct": false
+                  },
+                  {
+                    "text": "75% (3 in 4 chance)",
+                    "correct": false
+                  }
+                ]
               }
-            ],
-            "sentences": [
-              "Because both Maya and David are heterozygous carriers for Cystic Fibrosis (Cc x Cc), with each pregnancy there is a [drp1] probability of having a child affected with Cystic Fibrosis.",
-              "As an X-linked recessive carrier (X<sup>H</sup>X<sup>h</sup>) partnered with an unaffected male (X<sup>H</sup>Y), Maya has a [drp2] probability of giving birth to an affected son with Hemophilia A.",
-              "If David is confirmed to carry a heterozygous dominant mutation for Marfan syndrome (Mm x mm), any biological child has a [drp3] probability of inheriting the disorder regardless of biological sex."
             ]
           }
         },
@@ -6016,46 +6101,72 @@ window.NCLEX_CASES = [
           "options": [],
           "preamble": "Post-counseling evaluation in the genetics clinic.",
           "explanation": "1. Autosomal Recessive Carrier Probability among Unaffected Offspring: Among the healthy/unaffected children of two carriers (excluding the 25% homozygous affected [cc]), 2 out of 3 (66.7%) will be heterozygous carriers (Cc), while 1 out of 3 (33.3%) will be homozygous normal (CC).\n2. X-Linked Recessive: Carrier mothers have a 50% chance of transmitting the defective X to daughters, making them asymptomatic carriers. A female would only be clinically affected if her father had hemophilia and her mother was a carrier (or through non-random X-inactivation/Turner syndrome).\n3. Marfan Syndrome Management: Connective tissue deficiency cannot be cured; medical management focuses on lifelong serial echocardiography/MRI surveillance of aortic diameter and administration of beta-blockers or angiotensin receptor blockers (ARBs) to lower heart rate and blood pressure, reducing pulsatile aortic wall stress.",
-          "dropdown_cloze": {
+          "cloze": {
+            "text": "The nurse confirms the couple understands autosomal recessive transmission when they state that an unaffected child born to two carriers has a [[drop0]] probability of being a carrier like themselves. Regarding X-linked inheritance, the nurse verifies comprehension when Maya states that her future daughters [[drop1]]. In reviewing the natural history of Marfan syndrome, the nurse confirms David understands that aortic root dilation requires [[drop2]].",
             "dropdowns": [
               {
-                "id": "drp1",
-                "label": "unaffected child carrier risk",
+                "placeholder": "Select...",
                 "options": [
-                  "2 in 3 (66.7%)",
-                  "1 in 4 (25%)",
-                  "1 in 2 (50%)",
-                  "100%"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "1 in 2 (50%)",
+                    "correct": false
+                  },
+                  {
+                    "text": "2 in 3 (66.7%)",
+                    "correct": true
+                  },
+                  {
+                    "text": "1 in 4 (25%)",
+                    "correct": false
+                  },
+                  {
+                    "text": "100%",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp2",
-                "label": "X-linked daughter risk",
+                "placeholder": "Select...",
                 "options": [
-                  "have a 50% chance of being asymptomatic carriers and will not have hemophilic bleeding unless the father also has hemophilia",
-                  "have a 100% certainty of developing severe hemophilia requiring daily factor replacement",
-                  "will never inherit the defective factor VIII gene from her",
-                  "will pass the defective gene exclusively to their future daughters"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "will pass the defective gene exclusively to their future daughters",
+                    "correct": false
+                  },
+                  {
+                    "text": "will never inherit the defective factor VIII gene from her",
+                    "correct": false
+                  },
+                  {
+                    "text": "have a 50% chance of being asymptomatic carriers and will not have hemophilic bleeding unless the father also has hemophilia",
+                    "correct": true
+                  },
+                  {
+                    "text": "have a 100% certainty of developing severe hemophilia requiring daily factor replacement",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp3",
-                "label": "Marfan management requirement",
+                "placeholder": "Select...",
                 "options": [
-                  "lifelong serial echocardiographic surveillance and blood pressure regulation to reduce hemodynamic shear stress",
-                  "immediate emergency coronary artery bypass grafting within 24 hours",
-                  "curative gene therapy that reverses mutated fibrillin-1 proteins",
-                  "strict bed rest with permanent avoidance of all light aerobic physical activity"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "curative gene therapy that reverses mutated fibrillin-1 proteins",
+                    "correct": false
+                  },
+                  {
+                    "text": "lifelong serial echocardiographic surveillance and blood pressure regulation to reduce hemodynamic shear stress",
+                    "correct": true
+                  },
+                  {
+                    "text": "strict bed rest with permanent avoidance of all light aerobic physical activity",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediate emergency coronary artery bypass grafting within 24 hours",
+                    "correct": false
+                  }
+                ]
               }
-            ],
-            "sentences": [
-              "The nurse confirms the couple understands autosomal recessive transmission when they state that an unaffected child born to two carriers has a [drp1] probability of being a carrier like themselves.",
-              "Regarding X-linked inheritance, the nurse verifies comprehension when Maya states that her future daughters [drp2].",
-              "In reviewing the natural history of Marfan syndrome, the nurse confirms David understands that aortic root dilation requires [drp3]."
             ]
           }
         },
@@ -6224,46 +6335,72 @@ window.NCLEX_CASES = [
           "options": [],
           "preamble": "",
           "explanation": "1. Teratogenic Vulnerability: The first 8 weeks of gestation (the embryonic period) represent the critical window of organogenesis during which tissues and organs differentiate. Exposure to teratogens (alcohol, medications, infectious agents, radiation) during this period causes severe structural malformations (e.g., neural tube defects, heart anomalies, facial clefts). In contrast, teratogens in the fetal period (week 9 to term) primarily impair growth and physiological/organ maturation (e.g., microcephaly, functional CNS deficits).\n2. Congenital Cytomegalovirus (CMV): The leading non-genetic cause of sensorineural hearing loss and neurodevelopmental disability in children. Intracranial periventricular calcifications reflect necrosis and inflammation of germinal matrix tissues.\n3. Cleft Lip Nursing Priorities: Infants with cleft lip struggle to achieve an airtight seal around a standard nipple, causing excessive air swallowing (aerophagia), nasal regurgitation, fatigue, inadequate caloric intake, and aspiration.",
-          "dropdown_cloze": {
+          "cloze": {
+            "text": "The developing human conceptus is most vulnerable to major structural malformations caused by teratogenic agents during [[drop0]], when basic organogenesis is occurring. The positive urine CMV PCR and periventricular calcifications indicate congenital cytomegalovirus infection, which places infant Noah at highest long-term risk for [[drop1]]. In managing the infant's unilateral cleft lip defect during enteral feeding, the primary nursing concern is preventing [[drop2]].",
             "dropdowns": [
               {
-                "id": "drp1",
-                "label": "vulnerable embryonic period",
+                "placeholder": "Select...",
                 "options": [
-                  "the first 8 weeks of gestation (embryonic period)",
-                  "the third trimester (weeks 28 to 40)",
-                  "the pre-implantation stage before day 6",
-                  "the post-term period after 41 weeks"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "the post-term period after 41 weeks",
+                    "correct": false
+                  },
+                  {
+                    "text": "the first 8 weeks of gestation (embryonic period)",
+                    "correct": true
+                  },
+                  {
+                    "text": "the pre-implantation stage before day 6",
+                    "correct": false
+                  },
+                  {
+                    "text": "the third trimester (weeks 28 to 40)",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp2",
-                "label": "congenital CMV complication",
+                "placeholder": "Select...",
                 "options": [
-                  "progressive sensorineural hearing loss and intellectual disability",
-                  "rapid coronary artery aneurysm rupture",
-                  "autosomal dominant muscular dystrophy",
-                  "severe hypercalcemic nephrolithiasis"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "autosomal dominant muscular dystrophy",
+                    "correct": false
+                  },
+                  {
+                    "text": "severe hypercalcemic nephrolithiasis",
+                    "correct": false
+                  },
+                  {
+                    "text": "progressive sensorineural hearing loss and intellectual disability",
+                    "correct": true
+                  },
+                  {
+                    "text": "rapid coronary artery aneurysm rupture",
+                    "correct": false
+                  }
+                ]
               },
               {
-                "id": "drp3",
-                "label": "cleft lip feeding concern",
+                "placeholder": "Select...",
                 "options": [
-                  "inadequate seal leading to air swallowing, fatigue, and milk aspiration",
-                  "immediate upper gastrointestinal stricture and achalasia",
-                  "excessive hyperactive gag reflex causing projectile bile vomiting",
-                  "metabolic ketoacidosis from carbohydrate malabsorption"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "inadequate seal leading to air swallowing, fatigue, and milk aspiration",
+                    "correct": true
+                  },
+                  {
+                    "text": "metabolic ketoacidosis from carbohydrate malabsorption",
+                    "correct": false
+                  },
+                  {
+                    "text": "excessive hyperactive gag reflex causing projectile bile vomiting",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediate upper gastrointestinal stricture and achalasia",
+                    "correct": false
+                  }
+                ]
               }
-            ],
-            "sentences": [
-              "The developing human conceptus is most vulnerable to major structural malformations caused by teratogenic agents during [drp1], when basic organogenesis is occurring.",
-              "The positive urine CMV PCR and periventricular calcifications indicate congenital cytomegalovirus infection, which places infant Noah at highest long-term risk for [drp2].",
-              "In managing the infant's unilateral cleft lip defect during enteral feeding, the primary nursing concern is preventing [drp3]."
             ]
           }
         },
@@ -6422,46 +6559,72 @@ window.NCLEX_CASES = [
           "options": [],
           "preamble": "Discharge preparation and health promotion teaching on Day of Life 3.",
           "explanation": "1. Fetal Alcohol Exposure Education: There is no known safe threshold, dose, or gestational timing for alcohol consumption during pregnancy. Abstinence from alcohol throughout pregnancy and when attempting to conceive is the only proven preventive measure.\n2. Toxoplasmosis Prevention: Toxoplasma gondii oocysts are shed in feline feces and cysts are found in undercooked meat. Prevention involves having someone else change cat litter, washing hands thoroughly after gardening/soil exposure, and cooking meats to safe internal temperatures (> 66–74 °C). No human vaccine exists for toxoplasmosis.\n3. Cleft Lip Surgical Timing: Cheiloplasty (cleft lip repair) is typically performed at approximately 10 to 12 weeks of age, guided by the traditional 'rule of 10s' (age at least 10 weeks, weight at least 10 pounds [4.5 kg], hemoglobin at least 10 g/dL [100 g/L], and WBC < 10,000) to ensure surgical and anesthetic safety. In contrast, cleft palate repair is typically performed later, between 9 and 18 months, before significant speech development.",
-          "dropdown_cloze": {
+          "cloze": {
+            "text": "In educating the mother regarding Fetal Alcohol Spectrum Disorders, the nurse emphasizes that safe alcohol consumption during pregnancy is [[drop0]]. Regarding the prevention of congenital toxoplasmosis in future pregnancies, the nurse instructs the mother to [[drop1]]. The nurse explains that surgical reconstruction for the infant's cleft lip is typically planned at around [[drop2]], provided the infant meets physiological growth and stability criteria.",
             "dropdowns": [
               {
-                "id": "drp1",
-                "label": "safe alcohol intake level",
+                "placeholder": "Select...",
                 "options": [
-                  "strictly zero; there is no known safe amount or safe time to consume alcohol during pregnancy",
-                  "limited to one glass of red wine per week after the first trimester",
-                  "safe as long as high-proof distilled spirits are avoided",
-                  "acceptable up to 2 drinks daily once organogenesis is complete"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "limited to one glass of red wine per week after the first trimester",
+                    "correct": false
+                  },
+                  {
+                    "text": "safe as long as high-proof distilled spirits are avoided",
+                    "correct": false
+                  },
+                  {
+                    "text": "acceptable up to 2 drinks daily once organogenesis is complete",
+                    "correct": false
+                  },
+                  {
+                    "text": "strictly zero; there is no known safe amount or safe time to consume alcohol during pregnancy",
+                    "correct": true
+                  }
+                ]
               },
               {
-                "id": "drp2",
-                "label": "toxoplasmosis prevention",
+                "placeholder": "Select...",
                 "options": [
-                  "avoid changing cat litter, wear gloves when gardening, and thoroughly cook all meats",
-                  "receive the routine pre-pregnancy toxoplasmosis live-attenuated vaccine",
-                  "avoid all dairy products and unpasteurized juices throughout gestation",
-                  "undergo routine weekly prophylactic penicillin injections during the first trimester"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "avoid all dairy products and unpasteurized juices throughout gestation",
+                    "correct": false
+                  },
+                  {
+                    "text": "undergo routine weekly prophylactic penicillin injections during the first trimester",
+                    "correct": false
+                  },
+                  {
+                    "text": "receive the routine pre-pregnancy toxoplasmosis live-attenuated vaccine",
+                    "correct": false
+                  },
+                  {
+                    "text": "avoid changing cat litter, wear gloves when gardening, and thoroughly cook all meats",
+                    "correct": true
+                  }
+                ]
               },
               {
-                "id": "drp3",
-                "label": "cleft lip surgical timing",
+                "placeholder": "Select...",
                 "options": [
-                  "10 to 12 weeks of age (adhering to the 'rule of 10s': 10 weeks old, 10 pounds weight, hemoglobin 100 g/L)",
-                  "the first 24 to 48 hours of life before hospital discharge",
-                  "12 to 18 months of age when speech development commences",
-                  "5 to 6 years of age prior to primary school entry"
-                ],
-                "correctIndex": 0
+                  {
+                    "text": "5 to 6 years of age prior to primary school entry",
+                    "correct": false
+                  },
+                  {
+                    "text": "the first 24 to 48 hours of life before hospital discharge",
+                    "correct": false
+                  },
+                  {
+                    "text": "10 to 12 weeks of age (adhering to the 'rule of 10s': 10 weeks old, 10 pounds weight, hemoglobin 100 g/L)",
+                    "correct": true
+                  },
+                  {
+                    "text": "12 to 18 months of age when speech development commences",
+                    "correct": false
+                  }
+                ]
               }
-            ],
-            "sentences": [
-              "In educating the mother regarding Fetal Alcohol Spectrum Disorders, the nurse emphasizes that safe alcohol consumption during pregnancy is [drp1].",
-              "Regarding the prevention of congenital toxoplasmosis in future pregnancies, the nurse instructs the mother to [drp2].",
-              "The nurse explains that surgical reconstruction for the infant's cleft lip is typically planned at around [drp3], provided the infant meets physiological growth and stability criteria."
             ]
           }
         },
@@ -6625,51 +6788,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse analyzes the client's clinical data and surgical pathology plan.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The client's breast malignancy is an adenocarcinoma, indicating a malignant tumor derived from [drp1] tissue.",
-              "To accurately determine regional lymphatic spread while minimizing surgical morbidity, the nurse anticipates the surgical team will perform a [drp2].",
-              "If the histological evaluation of the first draining lymph node shows no malignant cells, the nurse understands that [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "tissue of origin",
-                "options": [
-                  "glandular epithelial",
-                  "mesenchymal connective",
-                  "striated skeletal muscle",
-                  "neuroglial supportive"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "lymphatic staging procedure",
-                "options": [
-                  "sentinel lymph node biopsy (SLNB)",
-                  "complete prophylactic bilateral axillary dissection",
-                  "percutaneous needle aspiration of the contralateral supraclavicular node",
-                  "random mesenteric node sampling"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "sentinel node significance",
-                "options": [
-                  "the remaining axillary lymph nodes are highly likely to be free of cancer, avoiding full axillary dissection",
-                  "distant visceral metastasis can be completely ruled out with 100% certainty",
-                  "the primary tumor is reclassified as a benign adenoma",
-                  "postoperative systemic adjuvant therapy will be strictly contraindicated"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "Carcinomas arise from epithelial tissue; an adenocarcinoma specifically arises from glandular epithelial tissue (such as mammary ducts and lobules). In modern oncologic surgery, a sentinel lymph node biopsy (SLNB) uses radiotracer or isosulfan blue dye to identify and biopsy the first draining lymph node(s) receiving lymphatic flow from the primary tumor bed. If the sentinel node is negative for malignant cells, the remaining downstream axillary lymph nodes are statistically free of metastasis, sparing the client an extensive complete axillary node dissection and dramatically reducing the lifelong risk of upper extremity lymphedema, nerve damage, and chronic arm pain."
+          "explanation": "Carcinomas arise from epithelial tissue; an adenocarcinoma specifically arises from glandular epithelial tissue (such as mammary ducts and lobules). In modern oncologic surgery, a sentinel lymph node biopsy (SLNB) uses radiotracer or isosulfan blue dye to identify and biopsy the first draining lymph node(s) receiving lymphatic flow from the primary tumor bed. If the sentinel node is negative for malignant cells, the remaining downstream axillary lymph nodes are statistically free of metastasis, sparing the client an extensive complete axillary node dissection and dramatically reducing the lifelong risk of upper extremity lymphedema, nerve damage, and chronic arm pain.",
+          "cloze": {
+            "text": "The client's breast malignancy is an adenocarcinoma, indicating a malignant tumor derived from [[drop0]] tissue. To accurately determine regional lymphatic spread while minimizing surgical morbidity, the nurse anticipates the surgical team will perform a [[drop1]]. If the histological evaluation of the first draining lymph node shows no malignant cells, the nurse understands that [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "neuroglial supportive",
+                    "correct": false
+                  },
+                  {
+                    "text": "mesenchymal connective",
+                    "correct": false
+                  },
+                  {
+                    "text": "striated skeletal muscle",
+                    "correct": false
+                  },
+                  {
+                    "text": "glandular epithelial",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "percutaneous needle aspiration of the contralateral supraclavicular node",
+                    "correct": false
+                  },
+                  {
+                    "text": "complete prophylactic bilateral axillary dissection",
+                    "correct": false
+                  },
+                  {
+                    "text": "random mesenteric node sampling",
+                    "correct": false
+                  },
+                  {
+                    "text": "sentinel lymph node biopsy (SLNB)",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "postoperative systemic adjuvant therapy will be strictly contraindicated",
+                    "correct": false
+                  },
+                  {
+                    "text": "the primary tumor is reclassified as a benign adenoma",
+                    "correct": false
+                  },
+                  {
+                    "text": "the remaining axillary lymph nodes are highly likely to be free of cancer, avoiding full axillary dissection",
+                    "correct": true
+                  },
+                  {
+                    "text": "distant visceral metastasis can be completely ruled out with 100% certainty",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse reviews the surgical oncology consultation notes and prepares educational materials for Eleanor's upcoming partial mastectomy and sentinel lymph node mapping.",
@@ -6814,51 +7003,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse assesses Eleanor in the Post-Anesthesia Care Unit (PACU) and evaluates surgical pathology findings.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The intraoperative surgical pathology report confirms negative margins on the primary tumor and 0 of 2 sentinel nodes containing metastases (pT2N0), which indicates [drp1].",
-              "In evaluating the client's postoperative voiding, the nurse recognizes that greenish-blue urine is [drp2].",
-              "Prior to discharge home, the nurse instructs Eleanor that if she notices sudden swelling, tautness, or a sensation of heaviness in the right arm, she should [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "staging evaluation",
-                "options": [
-                  "no detectable regional lymph node spread, confirming a localized primary stage",
-                  "immediate progression to systemic stage IV hematogenous dissemination",
-                  "misclassification of the breast tumor as a benign fibroadenoma",
-                  "complete failure of the lymphatic mapping procedure"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "urine color evaluation",
-                "options": [
-                  "an expected, benign side effect of isosulfan blue dye excretion by the kidneys",
-                  "an acute sign of rhabdomyolysis and renal tubular necrosis",
-                  "evidence of urinary tract hemorrhage requiring bladder catheterization",
-                  "a severe anaphylactic reaction requiring epinephrine"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "postoperative arm care",
-                "options": [
-                  "promptly notify the oncology team for early lymphedema evaluation and physical therapy referral",
-                  "apply tight compressive tourniquets across the right shoulder and elbow",
-                  "immerse the right upper extremity in hot water baths twice daily",
-                  "refrain from moving the fingers, wrist, or elbow for 6 weeks"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Postoperative recovery in the surgical day-stay unit (1400).",
-          "explanation": "1. Pathology Evaluation: A finding of pT2N0 (tumor > 2 cm but <= 5 cm, with negative sentinel nodes) confirms that malignant cells have not invaded the regional lymphatic basin, placing the patient in a localized stage with a favorable prognosis and sparing full axillary clearance.\n2. Isosulfan Blue Elimination: Green or blue-tinted urine is an expected physiological finding caused by renal excretion of the lymphatic mapping dye.\n3. Lymphedema Surveillance: Early symptoms of lymphedema include fullness, heaviness, tightness, and mild edema of the arm. Early detection allows prompt referral for specialized decongestive therapy and compressive garments to prevent permanent fibrotic changes."
+          "explanation": "1. Pathology Evaluation: A finding of pT2N0 (tumor > 2 cm but <= 5 cm, with negative sentinel nodes) confirms that malignant cells have not invaded the regional lymphatic basin, placing the patient in a localized stage with a favorable prognosis and sparing full axillary clearance.\n2. Isosulfan Blue Elimination: Green or blue-tinted urine is an expected physiological finding caused by renal excretion of the lymphatic mapping dye.\n3. Lymphedema Surveillance: Early symptoms of lymphedema include fullness, heaviness, tightness, and mild edema of the arm. Early detection allows prompt referral for specialized decongestive therapy and compressive garments to prevent permanent fibrotic changes.",
+          "cloze": {
+            "text": "The intraoperative surgical pathology report confirms negative margins on the primary tumor and 0 of 2 sentinel nodes containing metastases (pT2N0), which indicates [[drop0]]. In evaluating the client's postoperative voiding, the nurse recognizes that greenish-blue urine is [[drop1]]. Prior to discharge home, the nurse instructs Eleanor that if she notices sudden swelling, tautness, or a sensation of heaviness in the right arm, she should [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "misclassification of the breast tumor as a benign fibroadenoma",
+                    "correct": false
+                  },
+                  {
+                    "text": "complete failure of the lymphatic mapping procedure",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediate progression to systemic stage IV hematogenous dissemination",
+                    "correct": false
+                  },
+                  {
+                    "text": "no detectable regional lymph node spread, confirming a localized primary stage",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "an expected, benign side effect of isosulfan blue dye excretion by the kidneys",
+                    "correct": true
+                  },
+                  {
+                    "text": "a severe anaphylactic reaction requiring epinephrine",
+                    "correct": false
+                  },
+                  {
+                    "text": "an acute sign of rhabdomyolysis and renal tubular necrosis",
+                    "correct": false
+                  },
+                  {
+                    "text": "evidence of urinary tract hemorrhage requiring bladder catheterization",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "immerse the right upper extremity in hot water baths twice daily",
+                    "correct": false
+                  },
+                  {
+                    "text": "apply tight compressive tourniquets across the right shoulder and elbow",
+                    "correct": false
+                  },
+                  {
+                    "text": "promptly notify the oncology team for early lymphedema evaluation and physical therapy referral",
+                    "correct": true
+                  },
+                  {
+                    "text": "refrain from moving the fingers, wrist, or elbow for 6 weeks",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Eleanor is recovering in the PACU following successful right lumpectomy and sentinel lymph node biopsy. The operative report and recovery flow sheet are available.",
@@ -7012,51 +7227,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse synthesizes the molecular and genetic findings to guide clinical reasoning.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The client's tumor exhibits an activating mutation in K-Ras, which transforms a normal proto-oncogene into an oncogene through [drp1].",
-              "The concurrent loss of functional p53 protein is critical to tumor progression because normal p53 functions as the 'guardian of the genome' by [drp2].",
-              "Malignant cells achieve limitless replicative potential ('cellular immortality') primarily by producing [drp3], which prevents critical chromosomal shortening during division."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "proto-oncogene mechanism",
-                "options": [
-                  "a gain-of-function mutation causing autonomous, continuous proliferative signaling",
-                  "loss of both parental alleles leading to complete cessation of protein synthesis",
-                  "excessive degradation of cell surface growth factor receptors",
-                  "permanent transcriptional arrest at the G1/S checkpoint"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "p53 function",
-                "options": [
-                  "arresting the cell cycle for DNA repair or initiating apoptosis if damage is irreparable",
-                  "stimulating rapid neovascularization and vascular endothelial growth factor release",
-                  "activating meiotic nondisjunction across all somatic autosomes",
-                  "synthesizing protective mucin layers across the colonic epithelium"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "immortality enzyme",
-                "options": [
-                  "telomerase",
-                  "reverse transcriptase",
-                  "alkaline phosphatase",
-                  "lactate dehydrogenase"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Proto-oncogenes vs. Oncogenes: Proto-oncogenes are normal genes that regulate cell growth, growth factor signaling, and transcription factors. A gain-of-function mutation transforms them into oncogenes (e.g., mutant K-Ras), generating continuous, inappropriate growth signals even without external growth factor stimulation.\n2. Tumor Suppressor Genes (p53): p53 is the most frequently mutated tumor suppressor in human cancer. It accumulates when DNA is damaged, halting cell division at G1/S to permit DNA repair; if damage cannot be repaired, p53 triggers programmed cell death (apoptosis). Inactivating mutations in p53 remove this critical checkpoint, allowing genetically defective cells to survive and proliferate.\n3. Telomerase: Normal somatic cells have a finite lifespan because telomeres shorten with each cell cycle. Cancer cells synthesize telomerase, an enzyme that maintains telomere length at chromosome ends, conferring limitless replicative immortality."
+          "explanation": "1. Proto-oncogenes vs. Oncogenes: Proto-oncogenes are normal genes that regulate cell growth, growth factor signaling, and transcription factors. A gain-of-function mutation transforms them into oncogenes (e.g., mutant K-Ras), generating continuous, inappropriate growth signals even without external growth factor stimulation.\n2. Tumor Suppressor Genes (p53): p53 is the most frequently mutated tumor suppressor in human cancer. It accumulates when DNA is damaged, halting cell division at G1/S to permit DNA repair; if damage cannot be repaired, p53 triggers programmed cell death (apoptosis). Inactivating mutations in p53 remove this critical checkpoint, allowing genetically defective cells to survive and proliferate.\n3. Telomerase: Normal somatic cells have a finite lifespan because telomeres shorten with each cell cycle. Cancer cells synthesize telomerase, an enzyme that maintains telomere length at chromosome ends, conferring limitless replicative immortality.",
+          "cloze": {
+            "text": "The client's tumor exhibits an activating mutation in K-Ras, which transforms a normal proto-oncogene into an oncogene through [[drop0]]. The concurrent loss of functional p53 protein is critical to tumor progression because normal p53 functions as the 'guardian of the genome' by [[drop1]]. Malignant cells achieve limitless replicative potential ('cellular immortality') primarily by producing [[drop2]], which prevents critical chromosomal shortening during division.",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "excessive degradation of cell surface growth factor receptors",
+                    "correct": false
+                  },
+                  {
+                    "text": "permanent transcriptional arrest at the G1/S checkpoint",
+                    "correct": false
+                  },
+                  {
+                    "text": "loss of both parental alleles leading to complete cessation of protein synthesis",
+                    "correct": false
+                  },
+                  {
+                    "text": "a gain-of-function mutation causing autonomous, continuous proliferative signaling",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "activating meiotic nondisjunction across all somatic autosomes",
+                    "correct": false
+                  },
+                  {
+                    "text": "synthesizing protective mucin layers across the colonic epithelium",
+                    "correct": false
+                  },
+                  {
+                    "text": "arresting the cell cycle for DNA repair or initiating apoptosis if damage is irreparable",
+                    "correct": true
+                  },
+                  {
+                    "text": "stimulating rapid neovascularization and vascular endothelial growth factor release",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "alkaline phosphatase",
+                    "correct": false
+                  },
+                  {
+                    "text": "telomerase",
+                    "correct": true
+                  },
+                  {
+                    "text": "lactate dehydrogenase",
+                    "correct": false
+                  },
+                  {
+                    "text": "reverse transcriptase",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse reviews genetic mechanisms of cancer with Robert to help him understand his pathology findings and prepare him for subsequent interprofessional cancer care.",
@@ -7191,51 +7432,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse evaluates Robert's comprehension of carcinogenesis and risk reduction before concluding the visit.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse confirms the client understands the stages of cancer development when he states that the 'promotion' stage [drp1].",
-              "In explaining the role of tumor markers, the nurse notes that serum carcinoembryonic antigen (CEA) levels are used primarily to [drp2].",
-              "Regarding smoking cessation, the nurse reinforces that quitting smoking even after a cancer diagnosis [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "promotion stage understanding",
-                "options": [
-                  "involves the prolonged proliferation of mutated cells, which can be accelerated by modifiable factors like diet, smoking, and obesity",
-                  "is an irreversible single-second event occurring during embryonic development",
-                  "is entirely caused by a benign bacterial infection that antibiotics can sterilize",
-                  "occurs only after distant metastases have already spread to the liver and brain"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "CEA tumor marker role",
-                "options": [
-                  "monitor surgical treatment response, detect disease recurrence, and assess surveillance trends over time",
-                  "serve as a standalone screening test to diagnose cancer in healthy young individuals",
-                  "function as an internal radiotracer that destroys malignant cells during radiation therapy",
-                  "confer passive immunotherapy by blocking epidermal growth factor receptors"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "smoking cessation benefit",
-                "options": [
-                  "significantly improves wound healing, lowers risk of postoperative complications, and reduces cancer recurrence",
-                  "has no measurable biological benefit once a primary tumor has already developed",
-                  "guarantees that chemotherapy will have zero side effects",
-                  "increases tumor angiogenesis and promotes rapid local growth"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Final pre-surgical nursing evaluation.",
-          "explanation": "1. Promotion Stage: Unlike initiation (which is rapid and irreversible DNA mutation), promotion involves prolonged clonal growth of altered cells, driven by promoters (hormones, chronic inflammation, obesity, toxic metabolites). It represents a critical window where lifestyle modifications and removal of promoters can slow or halt cancer development.\n2. Tumor Markers (CEA): Carcinoembryonic antigen is a glycoprotein tumor marker elevated in colorectal carcinoma. It lacks sufficient sensitivity/specificity for initial screening of healthy populations, but is invaluable post-diagnosis for tracking response to surgical resection and detecting early postoperative tumor recurrence.\n3. Post-Diagnosis Smoking Cessation: Stopping tobacco use improves surgical tissue oxygenation, accelerates incision healing, decreases pulmonary complications, improves chemotherapy tolerance, and significantly extends overall survival."
+          "explanation": "1. Promotion Stage: Unlike initiation (which is rapid and irreversible DNA mutation), promotion involves prolonged clonal growth of altered cells, driven by promoters (hormones, chronic inflammation, obesity, toxic metabolites). It represents a critical window where lifestyle modifications and removal of promoters can slow or halt cancer development.\n2. Tumor Markers (CEA): Carcinoembryonic antigen is a glycoprotein tumor marker elevated in colorectal carcinoma. It lacks sufficient sensitivity/specificity for initial screening of healthy populations, but is invaluable post-diagnosis for tracking response to surgical resection and detecting early postoperative tumor recurrence.\n3. Post-Diagnosis Smoking Cessation: Stopping tobacco use improves surgical tissue oxygenation, accelerates incision healing, decreases pulmonary complications, improves chemotherapy tolerance, and significantly extends overall survival.",
+          "cloze": {
+            "text": "The nurse confirms the client understands the stages of cancer development when he states that the 'promotion' stage [[drop0]]. In explaining the role of tumor markers, the nurse notes that serum carcinoembryonic antigen (CEA) levels are used primarily to [[drop1]]. Regarding smoking cessation, the nurse reinforces that quitting smoking even after a cancer diagnosis [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "involves the prolonged proliferation of mutated cells, which can be accelerated by modifiable factors like diet, smoking, and obesity",
+                    "correct": true
+                  },
+                  {
+                    "text": "occurs only after distant metastases have already spread to the liver and brain",
+                    "correct": false
+                  },
+                  {
+                    "text": "is entirely caused by a benign bacterial infection that antibiotics can sterilize",
+                    "correct": false
+                  },
+                  {
+                    "text": "is an irreversible single-second event occurring during embryonic development",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "monitor surgical treatment response, detect disease recurrence, and assess surveillance trends over time",
+                    "correct": true
+                  },
+                  {
+                    "text": "confer passive immunotherapy by blocking epidermal growth factor receptors",
+                    "correct": false
+                  },
+                  {
+                    "text": "serve as a standalone screening test to diagnose cancer in healthy young individuals",
+                    "correct": false
+                  },
+                  {
+                    "text": "function as an internal radiotracer that destroys malignant cells during radiation therapy",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "guarantees that chemotherapy will have zero side effects",
+                    "correct": false
+                  },
+                  {
+                    "text": "increases tumor angiogenesis and promotes rapid local growth",
+                    "correct": false
+                  },
+                  {
+                    "text": "has no measurable biological benefit once a primary tumor has already developed",
+                    "correct": false
+                  },
+                  {
+                    "text": "significantly improves wound healing, lowers risk of postoperative complications, and reduces cancer recurrence",
+                    "correct": true
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Robert concludes his clinic visit and reviews his individualized cancer care roadmap with the oncology clinic nurse.",
@@ -7383,51 +7650,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse analyzes the cellular mechanisms responsible for tumor invasion and distant metastasis.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The initial step allowing malignant cells to detach from the primary tumor and invade surrounding extracellular matrix is the loss of [drp1].",
-              "To sustain tumor growth beyond 1 to 2 millimeters in diameter and provide routes for hematogenous metastasis, cancer cells secrete angiogenic growth factors such as [drp2].",
-              "The intense yellow/hot areas observed on Danielle's FDG-PET scan occur because malignant cells exhibit [drp3] compared to normal resting host tissue."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "cellular adhesion molecule",
-                "options": [
-                  "E-cadherin (intercellular adhesion contact sites)",
-                  "terminal chromosomal telomeres",
-                  "adenosine triphosphate (ATP) synthase",
-                  "intracellular hemoglobin molecules"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "angiogenic growth factor",
-                "options": [
-                  "vascular endothelial growth factor (VEGF)",
-                  "acetylcholinesterase",
-                  "human chorionic gonadotropin (hCG)",
-                  "anti-diuretic hormone (ADH)"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "PET scan mechanism",
-                "options": [
-                  "markedly elevated metabolic rates and accelerated glucose uptake (Warburg effect)",
-                  "complete absence of glucose transporters on their outer cell membranes",
-                  "excessive storage of dense bone mineral calcium crystals",
-                  "abnormally low mitochondrial density and diminished oxygen diffusion"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Invasion and Detachment: For epithelial cancer cells to invade, they must downregulate intercellular cell-adhesion molecules, predominantly E-cadherin. Loss of E-cadherin allows tumor cells to break loose from adjacent cells, degrade the extracellular basement membrane via proteolytic enzymes (matrix metalloproteinases), and migrate into surrounding tissue.\n2. Angiogenesis: An avascular tumor cannot grow beyond 1–2 mm due to diffusion limits. Malignant tumors secrete angiogenic factors, chiefly Vascular Endothelial Growth Factor (VEGF), stimulating the sprouting of new, tortuous, hyperpermeable blood vessels from existing host vasculature, nourishing the tumor and providing entryways into the systemic circulation.\n3. PET Scan Principle: Malignant tumor cells rely heavily on aerobic glycolysis and have dramatically upregulated glucose transporters (the Warburg effect). Positron Emission Tomography (PET) injects 18F-fluorodeoxyglucose (FDG, a radioactive glucose analog), which is avidly taken up and trapped inside hypermetabolic cancer cells, producing bright 'hot spots' on scan images."
+          "explanation": "1. Invasion and Detachment: For epithelial cancer cells to invade, they must downregulate intercellular cell-adhesion molecules, predominantly E-cadherin. Loss of E-cadherin allows tumor cells to break loose from adjacent cells, degrade the extracellular basement membrane via proteolytic enzymes (matrix metalloproteinases), and migrate into surrounding tissue.\n2. Angiogenesis: An avascular tumor cannot grow beyond 1–2 mm due to diffusion limits. Malignant tumors secrete angiogenic factors, chiefly Vascular Endothelial Growth Factor (VEGF), stimulating the sprouting of new, tortuous, hyperpermeable blood vessels from existing host vasculature, nourishing the tumor and providing entryways into the systemic circulation.\n3. PET Scan Principle: Malignant tumor cells rely heavily on aerobic glycolysis and have dramatically upregulated glucose transporters (the Warburg effect). Positron Emission Tomography (PET) injects 18F-fluorodeoxyglucose (FDG, a radioactive glucose analog), which is avidly taken up and trapped inside hypermetabolic cancer cells, producing bright 'hot spots' on scan images.",
+          "cloze": {
+            "text": "The initial step allowing malignant cells to detach from the primary tumor and invade surrounding extracellular matrix is the loss of [[drop0]]. To sustain tumor growth beyond 1 to 2 millimeters in diameter and provide routes for hematogenous metastasis, cancer cells secrete angiogenic growth factors such as [[drop1]]. The intense yellow/hot areas observed on Danielle's FDG-PET scan occur because malignant cells exhibit [[drop2]] compared to normal resting host tissue.",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "adenosine triphosphate (ATP) synthase",
+                    "correct": false
+                  },
+                  {
+                    "text": "intracellular hemoglobin molecules",
+                    "correct": false
+                  },
+                  {
+                    "text": "E-cadherin (intercellular adhesion contact sites)",
+                    "correct": true
+                  },
+                  {
+                    "text": "terminal chromosomal telomeres",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "vascular endothelial growth factor (VEGF)",
+                    "correct": true
+                  },
+                  {
+                    "text": "acetylcholinesterase",
+                    "correct": false
+                  },
+                  {
+                    "text": "human chorionic gonadotropin (hCG)",
+                    "correct": false
+                  },
+                  {
+                    "text": "anti-diuretic hormone (ADH)",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "complete absence of glucose transporters on their outer cell membranes",
+                    "correct": false
+                  },
+                  {
+                    "text": "abnormally low mitochondrial density and diminished oxygen diffusion",
+                    "correct": false
+                  },
+                  {
+                    "text": "excessive storage of dense bone mineral calcium crystals",
+                    "correct": false
+                  },
+                  {
+                    "text": "markedly elevated metabolic rates and accelerated glucose uptake (Warburg effect)",
+                    "correct": true
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse conducts an in-depth clinical consultation with Danielle and her partner to review the pathophysiologic basis of metastasis and interpret her PET scan images.",
@@ -7562,51 +7855,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse conducts discharge counseling and evaluates Danielle's understanding of her cancer diagnosis, stage, and home management.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse confirms the client understands the difference between grading and staging when Danielle explains that her cancer is classified as Stage IVB because [drp1].",
-              "Regarding angiogenesis inhibition therapy, the nurse educates Danielle that anti-angiogenic medications work by [drp2].",
-              "The nurse recognizes that Danielle understands her oncologic emergency warning signs when she states she will seek immediate emergency medical care if she experiences [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "staging rationale",
-                "options": [
-                  "malignant cells have spread through the bloodstream to distant organs including her spine and adrenal gland",
-                  "the tumor cells look well-differentiated and benign under microscopic examination",
-                  "the primary tumor is strictly localized to the bronchial epithelial basement membrane",
-                  "her tumor suppressor p53 genes have completely repaired themselves"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "anti-angiogenic mechanism",
-                "options": [
-                  "starving the tumor by preventing the formation of new blood vessels that feed it",
-                  "stimulating the bone marrow to produce excessive amounts of platelets",
-                  "permanently freezing all cellular telomeres in normal healthy tissues",
-                  "increasing glucose consumption in skeletal muscle to outcompete tumor cells"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "oncologic emergency sign",
-                "options": [
-                  "new difficulty walking, leg heaviness, or loss of bowel or bladder control",
-                  "mild morning dry mouth that resolves after drinking water",
-                  "minor bruising around the IV port dressing site",
-                  "feeling sleepy after taking her evening pain medication"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Discharge teaching prior to outpatient medical oncology follow-up.",
-          "explanation": "1. Stage IVB Understanding: Stage IVB is defined by distant metastases in multiple extra-thoracic organs (in this case, lumbar spine and contralateral adrenal gland) spread hematogenously.\n2. Anti-angiogenic Mechanism: Anti-VEGF agents (e.g., bevacizumab) bind to VEGF, preventing endothelial cell proliferation and the creation of new microvessels, effectively starving the tumor of oxygen and nutrients.\n3. Spinal Cord Compression: Symptoms such as lower extremity motor weakness, progressive sensory loss, or acute bowel/bladder dysfunction signal spinal cord compression from the L3 lesion, requiring immediate emergency spinal MRI and neurosurgical/radiation oncology intervention to prevent permanent paralysis."
+          "explanation": "1. Stage IVB Understanding: Stage IVB is defined by distant metastases in multiple extra-thoracic organs (in this case, lumbar spine and contralateral adrenal gland) spread hematogenously.\n2. Anti-angiogenic Mechanism: Anti-VEGF agents (e.g., bevacizumab) bind to VEGF, preventing endothelial cell proliferation and the creation of new microvessels, effectively starving the tumor of oxygen and nutrients.\n3. Spinal Cord Compression: Symptoms such as lower extremity motor weakness, progressive sensory loss, or acute bowel/bladder dysfunction signal spinal cord compression from the L3 lesion, requiring immediate emergency spinal MRI and neurosurgical/radiation oncology intervention to prevent permanent paralysis.",
+          "cloze": {
+            "text": "The nurse confirms the client understands the difference between grading and staging when Danielle explains that her cancer is classified as Stage IVB because [[drop0]]. Regarding angiogenesis inhibition therapy, the nurse educates Danielle that anti-angiogenic medications work by [[drop1]]. The nurse recognizes that Danielle understands her oncologic emergency warning signs when she states she will seek immediate emergency medical care if she experiences [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "the tumor cells look well-differentiated and benign under microscopic examination",
+                    "correct": false
+                  },
+                  {
+                    "text": "her tumor suppressor p53 genes have completely repaired themselves",
+                    "correct": false
+                  },
+                  {
+                    "text": "malignant cells have spread through the bloodstream to distant organs including her spine and adrenal gland",
+                    "correct": true
+                  },
+                  {
+                    "text": "the primary tumor is strictly localized to the bronchial epithelial basement membrane",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "increasing glucose consumption in skeletal muscle to outcompete tumor cells",
+                    "correct": false
+                  },
+                  {
+                    "text": "starving the tumor by preventing the formation of new blood vessels that feed it",
+                    "correct": true
+                  },
+                  {
+                    "text": "permanently freezing all cellular telomeres in normal healthy tissues",
+                    "correct": false
+                  },
+                  {
+                    "text": "stimulating the bone marrow to produce excessive amounts of platelets",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "new difficulty walking, leg heaviness, or loss of bowel or bladder control",
+                    "correct": true
+                  },
+                  {
+                    "text": "mild morning dry mouth that resolves after drinking water",
+                    "correct": false
+                  },
+                  {
+                    "text": "minor bruising around the IV port dressing site",
+                    "correct": false
+                  },
+                  {
+                    "text": "feeling sleepy after taking her evening pain medication",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Danielle prepares for discharge home following completion of cycle 1 chemotherapy. Outpatient palliative radiotherapy to L3 is scheduled to begin in 3 days.",
@@ -7756,51 +8075,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse synthesizes the client's clinical findings to establish immediate nursing priorities.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The client's immediate, life-threatening clinical priority is [drp1] secondary to profound chemotherapy-induced bone marrow suppression.",
-              "Because neutropenic clients lack adequate numbers of mature white blood cells to mount a localized inflammatory response, the nurse understands that [drp2].",
-              "The client's cancer cachexia is distinct from simple starvation because it involves [drp3] that cannot be reversed by caloric supplementation alone."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "immediate clinical priority",
-                "options": [
-                  "septic shock and overwhelming bacterial infection from febrile neutropenia",
-                  "acute hypercalcemic nephrolithiasis and ureteral colic",
-                  "rapid local direct infiltration of the pancreas into the lumbar spine",
-                  "severe chronic polycythemia vera and hyperviscosity syndrome"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "neutropenic infection sign",
-                "options": [
-                  "fever may be the only presenting sign of a life-threatening infection, requiring urgent broad-spectrum antibiotic infusion",
-                  "severe purulent abscesses will invariably form within 6 hours at all infection sites",
-                  "the client will develop prominent high-grade lymphadenopathy before temperature rises",
-                  "antibiotic administration should be deferred until blood culture organism sensitivity results are finalized in 48 hours"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "cachexia mechanism",
-                "options": [
-                  "tumor-induced pro-inflammatory cytokine hypercatabolism with marked muscle and fat wasting",
-                  "intentional psychological refusal of food intake associated with depression",
-                  "simple mechanical esophageal obstruction that resolves immediately upon stenting",
-                  "excessive production of anti-diuretic hormone causing severe fluid retention"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Priority Threat: In febrile neutropenia (fever >= 38.3 °C with ANC < 500/mm³), microbial invasion (often endogenous flora translocating through broken mucosal barriers) can escalate to septic shock and death within hours. Administering broad-spectrum anti-pseudomonal beta-lactams within 60 minutes of arrival is an international emergency standard.\n2. Lack of Pus / Fever as Solitary Sign: Neutrophils are required to create erythema, swelling, and pus. In their near-absence (ANC 320/mm³), local physical signs are muted, and fever is frequently the sole manifestation of bacteremia.\n3. Cachexia vs. Starvation: In starvation, the body reduces basal metabolic rate and spares muscle protein while utilizing fat stores. In cancer cachexia, tumor cytokines (TNF-alpha, IL-6) drive profound hypercatabolism, proteolysis, and energy expenditure, causing refractory muscle and fat wasting that cannot be reversed by nutrition alone."
+          "explanation": "1. Priority Threat: In febrile neutropenia (fever >= 38.3 °C with ANC < 500/mm³), microbial invasion (often endogenous flora translocating through broken mucosal barriers) can escalate to septic shock and death within hours. Administering broad-spectrum anti-pseudomonal beta-lactams within 60 minutes of arrival is an international emergency standard.\n2. Lack of Pus / Fever as Solitary Sign: Neutrophils are required to create erythema, swelling, and pus. In their near-absence (ANC 320/mm³), local physical signs are muted, and fever is frequently the sole manifestation of bacteremia.\n3. Cachexia vs. Starvation: In starvation, the body reduces basal metabolic rate and spares muscle protein while utilizing fat stores. In cancer cachexia, tumor cytokines (TNF-alpha, IL-6) drive profound hypercatabolism, proteolysis, and energy expenditure, causing refractory muscle and fat wasting that cannot be reversed by nutrition alone.",
+          "cloze": {
+            "text": "The client's immediate, life-threatening clinical priority is [[drop0]] secondary to profound chemotherapy-induced bone marrow suppression. Because neutropenic clients lack adequate numbers of mature white blood cells to mount a localized inflammatory response, the nurse understands that [[drop1]]. The client's cancer cachexia is distinct from simple starvation because it involves [[drop2]] that cannot be reversed by caloric supplementation alone.",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "acute hypercalcemic nephrolithiasis and ureteral colic",
+                    "correct": false
+                  },
+                  {
+                    "text": "severe chronic polycythemia vera and hyperviscosity syndrome",
+                    "correct": false
+                  },
+                  {
+                    "text": "septic shock and overwhelming bacterial infection from febrile neutropenia",
+                    "correct": true
+                  },
+                  {
+                    "text": "rapid local direct infiltration of the pancreas into the lumbar spine",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "severe purulent abscesses will invariably form within 6 hours at all infection sites",
+                    "correct": false
+                  },
+                  {
+                    "text": "the client will develop prominent high-grade lymphadenopathy before temperature rises",
+                    "correct": false
+                  },
+                  {
+                    "text": "fever may be the only presenting sign of a life-threatening infection, requiring urgent broad-spectrum antibiotic infusion",
+                    "correct": true
+                  },
+                  {
+                    "text": "antibiotic administration should be deferred until blood culture organism sensitivity results are finalized in 48 hours",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "simple mechanical esophageal obstruction that resolves immediately upon stenting",
+                    "correct": false
+                  },
+                  {
+                    "text": "excessive production of anti-diuretic hormone causing severe fluid retention",
+                    "correct": false
+                  },
+                  {
+                    "text": "intentional psychological refusal of food intake associated with depression",
+                    "correct": false
+                  },
+                  {
+                    "text": "tumor-induced pro-inflammatory cytokine hypercatabolism with marked muscle and fat wasting",
+                    "correct": true
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse is establishing immediate clinical care priorities and organizing the emergency nursing care pathway for Gerald.",
@@ -7949,51 +8294,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse conducts discharge preparation and evaluates client and family understanding of home infection prevention and cachexia management.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse recognizes that the client's bone marrow is recovering when the laboratory report demonstrates an absolute neutrophil count (ANC) of [drp1].",
-              "In reviewing home temperature monitoring, the nurse instructs the client to take his oral temperature immediately if he feels chills and to contact the oncology clinic or present to the emergency department if his temperature reaches [drp2].",
-              "To optimize nutritional intake and manage cancer cachexia at home, the nurse educates the family to provide [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "ANC recovery threshold",
-                "options": [
-                  "greater than 1,500/mm³ (1.5 &times; 10⁹/L)",
-                  "less than 200/mm³ (0.2 &times; 10⁹/L)",
-                  "consistently 0/mm³ for 3 consecutive days",
-                  "greater than 50,000/mm³"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "febrile threshold",
-                "options": [
-                  "38.0 °C (100.4 °F) sustained for 1 hour, or a single reading of &ge; 38.3 °C (101.0 °F)",
-                  "37.2 °C (99.0 °F) on two morning checks",
-                  "36.0 °C (96.8 °F) accompanied by diaphoresis",
-                  "41.5 °C (106.7 °F) regardless of symptoms"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "home nutritional strategy",
-                "options": [
-                  "small, frequent, high-calorie, high-protein meals with pleasant aromas and oral liquid supplements",
-                  "a strict clear-liquid diet consisting only of water and apple juice for 3 weeks",
-                  "large, heavy meals three times daily with high amounts of spicy and fibrous raw vegetables",
-                  "unpasteurized raw goat milk and unwashed organic garden fruits"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Discharge evaluation on Day 4.",
-          "explanation": "1. ANC Recovery: An ANC > 1,500/mm³ represents safe recovery of the neutrophil defense network, permitting discontinuation of protective isolation and resumption of outpatient status.\n2. Febrile Threshold: In oncology, fever in a neutropenic client is defined as an oral temperature >= 38.3 °C (101.0 °F) once, or >= 38.0 °C (100.4 °F) sustained over 1 hour. This constitutes an immediate medical emergency requiring prompt blood cultures and broad-spectrum antibiotics.\n3. Cachexia Nutritional Management: Since cytokines cause anorexia, early satiety, and hypercatabolism, small, calorie- and protein-dense meals served frequently throughout the day, supplemented with oral nutritional shakes and mild seasoning, provide the best nutritional maintenance without overwhelming the client."
+          "explanation": "1. ANC Recovery: An ANC > 1,500/mm³ represents safe recovery of the neutrophil defense network, permitting discontinuation of protective isolation and resumption of outpatient status.\n2. Febrile Threshold: In oncology, fever in a neutropenic client is defined as an oral temperature >= 38.3 °C (101.0 °F) once, or >= 38.0 °C (100.4 °F) sustained over 1 hour. This constitutes an immediate medical emergency requiring prompt blood cultures and broad-spectrum antibiotics.\n3. Cachexia Nutritional Management: Since cytokines cause anorexia, early satiety, and hypercatabolism, small, calorie- and protein-dense meals served frequently throughout the day, supplemented with oral nutritional shakes and mild seasoning, provide the best nutritional maintenance without overwhelming the client.",
+          "cloze": {
+            "text": "The nurse recognizes that the client's bone marrow is recovering when the laboratory report demonstrates an absolute neutrophil count (ANC) of [[drop0]]. In reviewing home temperature monitoring, the nurse instructs the client to take his oral temperature immediately if he feels chills and to contact the oncology clinic or present to the emergency department if his temperature reaches [[drop1]]. To optimize nutritional intake and manage cancer cachexia at home, the nurse educates the family to provide [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "consistently 0/mm³ for 3 consecutive days",
+                    "correct": false
+                  },
+                  {
+                    "text": "greater than 1,500/mm³ (1.5 &times; 10⁹/L)",
+                    "correct": true
+                  },
+                  {
+                    "text": "greater than 50,000/mm³",
+                    "correct": false
+                  },
+                  {
+                    "text": "less than 200/mm³ (0.2 &times; 10⁹/L)",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "36.0 °C (96.8 °F) accompanied by diaphoresis",
+                    "correct": false
+                  },
+                  {
+                    "text": "37.2 °C (99.0 °F) on two morning checks",
+                    "correct": false
+                  },
+                  {
+                    "text": "41.5 °C (106.7 °F) regardless of symptoms",
+                    "correct": false
+                  },
+                  {
+                    "text": "38.0 °C (100.4 °F) sustained for 1 hour, or a single reading of &ge; 38.3 °C (101.0 °F)",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "a strict clear-liquid diet consisting only of water and apple juice for 3 weeks",
+                    "correct": false
+                  },
+                  {
+                    "text": "large, heavy meals three times daily with high amounts of spicy and fibrous raw vegetables",
+                    "correct": false
+                  },
+                  {
+                    "text": "unpasteurized raw goat milk and unwashed organic garden fruits",
+                    "correct": false
+                  },
+                  {
+                    "text": "small, frequent, high-calorie, high-protein meals with pleasant aromas and oral liquid supplements",
+                    "correct": true
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Gerald is now on Day 4 of admission. His counts have recovered, and he is preparing for discharge home under the care of his family and home oncology nursing.",
@@ -8146,51 +8517,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse prioritizes hypotheses and safety concerns for Raymond.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The client's severe acute neurological manifestations are directly caused by [drp1] secondary to fluid movement into brain cells.",
-              "The primary immediate nursing goal in managing severe, symptomatic hyponatremia (Na 116 mmol/L) is raising serum sodium using [drp2].",
-              "When correcting severe hyponatremia, the nurse must ensure sodium levels rise gradually (&le; 8 to 10 mmol/L in 24 hours) to prevent [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "neurological mechanism",
-                "options": [
-                  "cerebral edema and increased intracranial pressure (intracellular water shifts)",
-                  "cerebral ischemia from massive hypovolemic circulatory shock",
-                  "direct bacterial invasion of the meninges and cerebrospinal fluid",
-                  "rapid intracranial calcification from paraneoplastic hypercalcemia"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "emergency management",
-                "options": [
-                  "cautious infusion of hypertonic (3%) sodium chloride and strict fluid restriction (< 800 to 1,000 mL/day)",
-                  "rapid intravenous infusion of 0.45% normal saline or 5% dextrose in water (D5W)",
-                  "aggressive oral hydration with 4 to 5 liters of free tap water daily",
-                  "intravenous loop diuretic infusions combined with liberal oral fluid intake"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "correction complication",
-                "options": [
-                  "osmotic demyelination syndrome (central pontine myelinolysis)",
-                  "severe acute hypocalcemic tetany and laryngospasm",
-                  "rapid massive malignant tumor lysis syndrome",
-                  "spontaneous intracerebral aneurysm formation"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Cerebral Edema in SIADH: Severe hyponatremia lowers extracellular fluid osmolality relative to brain intracellular osmolality, driving water into brain cells via osmosis. This causes cerebral swelling, elevated intracranial pressure, confusion, somnolence, seizures, and potential herniation.\n2. Acute Management: Severe symptomatic hyponatremia (Na < 120 mmol/L with neurologic deficits) is managed with strict fluid restriction (< 800-1000 mL/day) and cautious administration of hypertonic 3% sodium chloride via infusion pump to draw water out of edematous brain cells.\n3. Osmotic Demyelination: Correcting chronic/severe hyponatremia too rapidly (> 8-10 mmol/L per 24 hours) causes rapid dehydration of brain oligodendrocytes, triggering Osmotic Demyelination Syndrome (central pontine myelinolysis), an irreversible condition leading to spastic quadriplegia, pseudobulbar palsy, and 'locked-in' syndrome."
+          "explanation": "1. Cerebral Edema in SIADH: Severe hyponatremia lowers extracellular fluid osmolality relative to brain intracellular osmolality, driving water into brain cells via osmosis. This causes cerebral swelling, elevated intracranial pressure, confusion, somnolence, seizures, and potential herniation.\n2. Acute Management: Severe symptomatic hyponatremia (Na < 120 mmol/L with neurologic deficits) is managed with strict fluid restriction (< 800-1000 mL/day) and cautious administration of hypertonic 3% sodium chloride via infusion pump to draw water out of edematous brain cells.\n3. Osmotic Demyelination: Correcting chronic/severe hyponatremia too rapidly (> 8-10 mmol/L per 24 hours) causes rapid dehydration of brain oligodendrocytes, triggering Osmotic Demyelination Syndrome (central pontine myelinolysis), an irreversible condition leading to spastic quadriplegia, pseudobulbar palsy, and 'locked-in' syndrome.",
+          "cloze": {
+            "text": "The client's severe acute neurological manifestations are directly caused by [[drop0]] secondary to fluid movement into brain cells. The primary immediate nursing goal in managing severe, symptomatic hyponatremia (Na 116 mmol/L) is raising serum sodium using [[drop1]]. When correcting severe hyponatremia, the nurse must ensure sodium levels rise gradually (&le; 8 to 10 mmol/L in 24 hours) to prevent [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "rapid intracranial calcification from paraneoplastic hypercalcemia",
+                    "correct": false
+                  },
+                  {
+                    "text": "cerebral ischemia from massive hypovolemic circulatory shock",
+                    "correct": false
+                  },
+                  {
+                    "text": "direct bacterial invasion of the meninges and cerebrospinal fluid",
+                    "correct": false
+                  },
+                  {
+                    "text": "cerebral edema and increased intracranial pressure (intracellular water shifts)",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "aggressive oral hydration with 4 to 5 liters of free tap water daily",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid intravenous infusion of 0.45% normal saline or 5% dextrose in water (D5W)",
+                    "correct": false
+                  },
+                  {
+                    "text": "intravenous loop diuretic infusions combined with liberal oral fluid intake",
+                    "correct": false
+                  },
+                  {
+                    "text": "cautious infusion of hypertonic (3%) sodium chloride and strict fluid restriction (< 800 to 1,000 mL/day)",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "osmotic demyelination syndrome (central pontine myelinolysis)",
+                    "correct": true
+                  },
+                  {
+                    "text": "severe acute hypocalcemic tetany and laryngospasm",
+                    "correct": false
+                  },
+                  {
+                    "text": "spontaneous intracerebral aneurysm formation",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid massive malignant tumor lysis syndrome",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse collaborates with the neuro-oncologist and intensive care team to establish a safe sodium correction plan and seizure precautions for Raymond.",
@@ -8334,51 +8731,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse conducts discharge teaching and evaluates family understanding before Raymond transitions home.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse confirms the family understands the definitive cure for paraneoplastic SIADH when they state that the sodium imbalance will resolve primarily by [drp1].",
-              "In reviewing home fluid management, the nurse verifies comprehension when the spouse explains that Raymond's daily fluid intake must [drp2].",
-              "When educating on pediatric cancer warning signs (CHILDREN acronym), the nurse reinforces that any child displaying an unexplained whitish pupil reflection (leukocoria) requires immediate evaluation for [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "definitive paraneoplastic treatment",
-                "options": [
-                  "treating the underlying small cell lung cancer with chemotherapy to eradicate the hormone-secreting tumor cells",
-                  "taking lifelong daily oral potassium supplements and drinking distilled water",
-                  "undergoing bilateral total adrenalectomy within 48 hours",
-                  "permanently avoiding all dietary salt and sodium chloride"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "home fluid restriction",
-                "options": [
-                  "be strictly measured and limited to 1,000 mL per 24 hours, including soups, ice, and beverages",
-                  "be forced to at least 3,500 mL daily to flush out excess ADH through the kidneys",
-                  "consist entirely of commercial fruit juices and high-sugar sports drinks",
-                  "be unrestricted as long as he does not complain of nausea"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "leukocoria indication",
-                "options": [
-                  "retinoblastoma (Rb tumor suppressor gene-related retinal cancer)",
-                  "benign physiological astigmatism that resolves spontaneously",
-                  "severe acute allergic conjunctivitis from seasonal pollen",
-                  "congenital osteosarcoma of the frontal cranium"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Discharge evaluation on Day 3.",
-          "explanation": "1. Paraneoplastic Resolution: Paraneoplastic symptoms originate from ectopic tumor secretion. While fluid restriction and hypertonic saline manage acute life-threatening hyponatremia, definitive long-term resolution requires systemic antineoplastic therapy (chemotherapy/radiation) to destroy the neoplastic cells producing the hormone.\n2. Home Fluid Restriction: Adherence to strict fluid measurement (1,000 mL/day including liquids, ice, and soups) prevents recurrence of dilutional hyponatremia and cerebral edema.\n3. Leukocoria / Children's Signs: The 'whitish appearance in pupil of the eye' (the 'D' in CHILDREN) is the classic sign of retinoblastoma, a childhood retinal malignancy caused by inactivation of both copies of the Rb tumor suppressor gene."
+          "explanation": "1. Paraneoplastic Resolution: Paraneoplastic symptoms originate from ectopic tumor secretion. While fluid restriction and hypertonic saline manage acute life-threatening hyponatremia, definitive long-term resolution requires systemic antineoplastic therapy (chemotherapy/radiation) to destroy the neoplastic cells producing the hormone.\n2. Home Fluid Restriction: Adherence to strict fluid measurement (1,000 mL/day including liquids, ice, and soups) prevents recurrence of dilutional hyponatremia and cerebral edema.\n3. Leukocoria / Children's Signs: The 'whitish appearance in pupil of the eye' (the 'D' in CHILDREN) is the classic sign of retinoblastoma, a childhood retinal malignancy caused by inactivation of both copies of the Rb tumor suppressor gene.",
+          "cloze": {
+            "text": "The nurse confirms the family understands the definitive cure for paraneoplastic SIADH when they state that the sodium imbalance will resolve primarily by [[drop0]]. In reviewing home fluid management, the nurse verifies comprehension when the spouse explains that Raymond's daily fluid intake must [[drop1]]. When educating on pediatric cancer warning signs (CHILDREN acronym), the nurse reinforces that any child displaying an unexplained whitish pupil reflection (leukocoria) requires immediate evaluation for [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "taking lifelong daily oral potassium supplements and drinking distilled water",
+                    "correct": false
+                  },
+                  {
+                    "text": "permanently avoiding all dietary salt and sodium chloride",
+                    "correct": false
+                  },
+                  {
+                    "text": "undergoing bilateral total adrenalectomy within 48 hours",
+                    "correct": false
+                  },
+                  {
+                    "text": "treating the underlying small cell lung cancer with chemotherapy to eradicate the hormone-secreting tumor cells",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "be forced to at least 3,500 mL daily to flush out excess ADH through the kidneys",
+                    "correct": false
+                  },
+                  {
+                    "text": "be unrestricted as long as he does not complain of nausea",
+                    "correct": false
+                  },
+                  {
+                    "text": "be strictly measured and limited to 1,000 mL per 24 hours, including soups, ice, and beverages",
+                    "correct": true
+                  },
+                  {
+                    "text": "consist entirely of commercial fruit juices and high-sugar sports drinks",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "severe acute allergic conjunctivitis from seasonal pollen",
+                    "correct": false
+                  },
+                  {
+                    "text": "benign physiological astigmatism that resolves spontaneously",
+                    "correct": false
+                  },
+                  {
+                    "text": "retinoblastoma (Rb tumor suppressor gene-related retinal cancer)",
+                    "correct": true
+                  },
+                  {
+                    "text": "congenital osteosarcoma of the frontal cranium",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Raymond Miller is preparing for discharge home on Day 3. Serum sodium has stabilized at 131 mmol/L. Outpatient chemotherapy orientation is scheduled.",
@@ -8533,51 +8956,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse synthesizes the histopathological and clinical findings to establish pathophysiological priorities.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The client's nasal lesion is confirmed as basal cell carcinoma, which arises from basal keratinocytes in the deepest layer of the epidermis and characteristically exhibits [drp1].",
-              "The back lesion is confirmed as malignant melanoma, which arises from [drp2] and poses a high mortality risk due to its propensity for aggressive lymphatic and hematogenous metastasis.",
-              "The client's extensive dorsal forearm purpura is directly caused by age-related [drp3], which deprives superficial dermal capillaries of structural support against minor shear trauma."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "BCC behavior",
-                "options": [
-                  "slow, local tissue-destructive expansion with extremely rare metastatic spread",
-                  "rapid hematogenous dissemination to lungs, brain, and liver within weeks",
-                  "spontaneous malignant transformation into acute lymphocytic leukemia",
-                  "systemic immune complex deposition causing glomerulonephritis"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "melanoma cellular origin",
-                "options": [
-                  "atypical melanocytes along the dermoepidermal junction",
-                  "subcutaneous adipocytes within the hypodermis",
-                  "sebaceous gland secretory epithelial cells",
-                  "ciliated columnar respiratory goblet cells"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "senile purpura mechanism",
-                "options": [
-                  "loss of dermal collagen, elastin, and subcutaneous tissue cushioning",
-                  "congenital deficiency of coagulation Factor VIII and Factor IX",
-                  "acute widespread bacterial microvascular thrombosis",
-                  "excessive accumulation of melanin granules inside vascular endothelium"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Basal Cell Carcinoma: Arises from basal cells of the epidermis. It is the most common and least aggressively malignant cutaneous tumor; it grows slowly and destroys local tissue if neglected (pearly nodule with central ulceration), but metastasis is exceedingly rare (< 0.1%).\n2. Malignant Melanoma: Malignancy of pigment-producing melanocytes, usually triggered by intermittent intense UV exposure. It is the most lethal skin cancer because it penetrates into the rich vascular and lymphatic plexus of the dermis, predisposing to early metastasis to regional lymph nodes, brain, lungs, and liver.\n3. Senile/Actinic Purpura: In aging skin, dermal collagen thins and elastin fibers bundle and break down, while subcutaneous fat atrophies. Consequently, fragile capillary vessels lack surrounding structural cushioning; even trivial friction or shear causes extravasation of red blood cells, producing non-palpable purple macules that fade slowly."
+          "explanation": "1. Basal Cell Carcinoma: Arises from basal cells of the epidermis. It is the most common and least aggressively malignant cutaneous tumor; it grows slowly and destroys local tissue if neglected (pearly nodule with central ulceration), but metastasis is exceedingly rare (< 0.1%).\n2. Malignant Melanoma: Malignancy of pigment-producing melanocytes, usually triggered by intermittent intense UV exposure. It is the most lethal skin cancer because it penetrates into the rich vascular and lymphatic plexus of the dermis, predisposing to early metastasis to regional lymph nodes, brain, lungs, and liver.\n3. Senile/Actinic Purpura: In aging skin, dermal collagen thins and elastin fibers bundle and break down, while subcutaneous fat atrophies. Consequently, fragile capillary vessels lack surrounding structural cushioning; even trivial friction or shear causes extravasation of red blood cells, producing non-palpable purple macules that fade slowly.",
+          "cloze": {
+            "text": "The client's nasal lesion is confirmed as basal cell carcinoma, which arises from basal keratinocytes in the deepest layer of the epidermis and characteristically exhibits [[drop0]]. The back lesion is confirmed as malignant melanoma, which arises from [[drop1]] and poses a high mortality risk due to its propensity for aggressive lymphatic and hematogenous metastasis. The client's extensive dorsal forearm purpura is directly caused by age-related [[drop2]], which deprives superficial dermal capillaries of structural support against minor shear trauma.",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "spontaneous malignant transformation into acute lymphocytic leukemia",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid hematogenous dissemination to lungs, brain, and liver within weeks",
+                    "correct": false
+                  },
+                  {
+                    "text": "systemic immune complex deposition causing glomerulonephritis",
+                    "correct": false
+                  },
+                  {
+                    "text": "slow, local tissue-destructive expansion with extremely rare metastatic spread",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "sebaceous gland secretory epithelial cells",
+                    "correct": false
+                  },
+                  {
+                    "text": "subcutaneous adipocytes within the hypodermis",
+                    "correct": false
+                  },
+                  {
+                    "text": "ciliated columnar respiratory goblet cells",
+                    "correct": false
+                  },
+                  {
+                    "text": "atypical melanocytes along the dermoepidermal junction",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "excessive accumulation of melanin granules inside vascular endothelium",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute widespread bacterial microvascular thrombosis",
+                    "correct": false
+                  },
+                  {
+                    "text": "congenital deficiency of coagulation Factor VIII and Factor IX",
+                    "correct": false
+                  },
+                  {
+                    "text": "loss of dermal collagen, elastin, and subcutaneous tissue cushioning",
+                    "correct": true
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Biopsy pathology results have returned for Harold's two skin lesions. The nurse evaluates the definitive diagnoses.",
@@ -8717,51 +9166,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse conducts discharge teaching and evaluates Harold's understanding of his pathology results and long-term dermatological surveillance.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse confirms the client understands the prognosis of his nasal basal cell carcinoma when Harold states that because Mohs surgery achieved clear margins, [drp1].",
-              "Regarding his malignant melanoma, the nurse explains that the Breslow depth of 1.8 mm is a critical prognostic indicator because [drp2].",
-              "In evaluating Harold's comprehension of skin cancer prevention, the nurse recognizes correct understanding when Harold states he will [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "BCC prognosis understanding",
-                "options": [
-                  "the local cure rate exceeds 98%, but he requires regular follow-up to detect any new primary skin cancers",
-                  "he will require immediate total nasal amputation and systemic high-dose chemotherapy",
-                  "the lesion is guaranteed to recur in his lungs within 6 months",
-                  "his skin has become completely immune to any future ultraviolet damage"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "Breslow depth significance",
-                "options": [
-                  "it measures tumor thickness into the dermis, where deeper invasion directly correlates with higher risk of metastasis",
-                  "it indicates that the tumor is completely benign and will never spread",
-                  "it proves that the lesion was caused by an acute bacterial wound infection",
-                  "it measures the total surface width of the stratum corneum in millimeters"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "prevention commitment",
-                "options": [
-                  "wear a wide-brimmed hat, apply SPF 30+ sunscreen daily, and have his spouse check his back each month",
-                  "avoid all outdoor exposure indefinitely and remain indoors in a darkened room",
-                  "apply rubbing alcohol to all brown spots on his skin twice daily",
-                  "rely exclusively on occasional cloudy weather for sun protection"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Final follow-up visit on Post-Op Day 10 for suture removal.",
-          "explanation": "1. Basal Cell Carcinoma Outcome: Mohs micrographic surgery offers the highest cure rate (> 98%) while sparing healthy tissue. However, because extensive prior solar damage persists, close routine surveillance is necessary to detect new primary skin cancers.\n2. Breslow Depth: In malignant melanoma, Breslow tumor thickness (vertical measurement from stratum granulosum to the deepest tumor cell) is the single most powerful predictor of metastasis and survival. Thicker lesions (> 1.0 mm) reach dermal lymphatic and blood channels, warranting sentinel lymph node biopsy.\n3. Preventive Health Maintenance: Consistent sun-protective habits (wide-brimmed hats, daily broad-spectrum sunscreen, monthly partner-assisted skin checks, and biannual professional total body skin exams) provide optimal secondary and tertiary prevention."
+          "explanation": "1. Basal Cell Carcinoma Outcome: Mohs micrographic surgery offers the highest cure rate (> 98%) while sparing healthy tissue. However, because extensive prior solar damage persists, close routine surveillance is necessary to detect new primary skin cancers.\n2. Breslow Depth: In malignant melanoma, Breslow tumor thickness (vertical measurement from stratum granulosum to the deepest tumor cell) is the single most powerful predictor of metastasis and survival. Thicker lesions (> 1.0 mm) reach dermal lymphatic and blood channels, warranting sentinel lymph node biopsy.\n3. Preventive Health Maintenance: Consistent sun-protective habits (wide-brimmed hats, daily broad-spectrum sunscreen, monthly partner-assisted skin checks, and biannual professional total body skin exams) provide optimal secondary and tertiary prevention.",
+          "cloze": {
+            "text": "The nurse confirms the client understands the prognosis of his nasal basal cell carcinoma when Harold states that because Mohs surgery achieved clear margins, [[drop0]]. Regarding his malignant melanoma, the nurse explains that the Breslow depth of 1.8 mm is a critical prognostic indicator because [[drop1]]. In evaluating Harold's comprehension of skin cancer prevention, the nurse recognizes correct understanding when Harold states he will [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "his skin has become completely immune to any future ultraviolet damage",
+                    "correct": false
+                  },
+                  {
+                    "text": "he will require immediate total nasal amputation and systemic high-dose chemotherapy",
+                    "correct": false
+                  },
+                  {
+                    "text": "the lesion is guaranteed to recur in his lungs within 6 months",
+                    "correct": false
+                  },
+                  {
+                    "text": "the local cure rate exceeds 98%, but he requires regular follow-up to detect any new primary skin cancers",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "it proves that the lesion was caused by an acute bacterial wound infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "it measures the total surface width of the stratum corneum in millimeters",
+                    "correct": false
+                  },
+                  {
+                    "text": "it indicates that the tumor is completely benign and will never spread",
+                    "correct": false
+                  },
+                  {
+                    "text": "it measures tumor thickness into the dermis, where deeper invasion directly correlates with higher risk of metastasis",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "avoid all outdoor exposure indefinitely and remain indoors in a darkened room",
+                    "correct": false
+                  },
+                  {
+                    "text": "apply rubbing alcohol to all brown spots on his skin twice daily",
+                    "correct": false
+                  },
+                  {
+                    "text": "wear a wide-brimmed hat, apply SPF 30+ sunscreen daily, and have his spouse check his back each month",
+                    "correct": true
+                  },
+                  {
+                    "text": "rely exclusively on occasional cloudy weather for sun protection",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Harold returns on Post-Op Day 10 for suture removal and review of sentinel lymph node pathology.",
@@ -8917,51 +9392,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse analyzes the pathophysiologic mechanisms of Varicella-Zoster Virus (VZV) latency and impetigo transmission.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "Following Marcus's childhood varicella (chickenpox) infection, the virus remained dormant in a latent state within the [drp1].",
-              "In managing Marcus's herpes zoster, the nurse recognizes that the primary clinical priority in an elderly or immunocompromised host is preventing [drp2].",
-              "For Liam's impetigo, the nurse instructs the mother that the condition is highly transmissible to others primarily via [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "VZV latency site",
-                "options": [
-                  "sensory dorsal root or cranial nerve ganglia",
-                  "subcutaneous adipose adipocytes",
-                  "superficial keratinized stratum corneum cells",
-                  "synovial fluid of large weight-bearing joints"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "zoster complication",
-                "options": [
-                  "postherpetic neuralgia (debilitating persistent neuropathic pain lasting months to years)",
-                  "immediate systemic aplastic anemia and bone marrow fibrosis",
-                  "acute full-thickness fourth-degree skin necrosis across the entire thorax",
-                  "spontaneous malignant transformation into cutaneous squamous cell carcinoma"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "impetigo transmission route",
-                "options": [
-                  "direct contact with exudate, crusts, contaminated hands, or shared washcloths and towels",
-                  "airborne droplet nuclei traveling across long distances through ventilation ducts",
-                  "ingestion of undercooked poultry or unwashed root vegetables",
-                  "transmission by domestic insect tick bites in wooded areas"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. VZV Dormancy: After primary chickenpox, the varicella-zoster virus retrogradely ascends sensory nerves and resides indefinitely in a dormant state inside dorsal root ganglia or trigeminal sensory ganglia. Reactivation (triggered by stress, immunosuppression, or aging) causes the virus to migrate anterogradely down the sensory axon to the cutaneous dermatome.\n2. Postherpetic Neuralgia (PHN): The most debilitating complication of shingles, characterized by severe intractable burning, stabbing neuropathic pain persisting > 90 days after rash resolution, caused by sensory nerve damage and chronic spinal cord sensitization.\n3. Impetigo Transmission: Highly contagious bacterial pyoderma spread by direct skin-to-skin touch with open weeping sores or indirect contact via fomites (towels, washcloths, clothing, bed linen)."
+          "explanation": "1. VZV Dormancy: After primary chickenpox, the varicella-zoster virus retrogradely ascends sensory nerves and resides indefinitely in a dormant state inside dorsal root ganglia or trigeminal sensory ganglia. Reactivation (triggered by stress, immunosuppression, or aging) causes the virus to migrate anterogradely down the sensory axon to the cutaneous dermatome.\n2. Postherpetic Neuralgia (PHN): The most debilitating complication of shingles, characterized by severe intractable burning, stabbing neuropathic pain persisting > 90 days after rash resolution, caused by sensory nerve damage and chronic spinal cord sensitization.\n3. Impetigo Transmission: Highly contagious bacterial pyoderma spread by direct skin-to-skin touch with open weeping sores or indirect contact via fomites (towels, washcloths, clothing, bed linen).",
+          "cloze": {
+            "text": "Following Marcus's childhood varicella (chickenpox) infection, the virus remained dormant in a latent state within the [[drop0]]. In managing Marcus's herpes zoster, the nurse recognizes that the primary clinical priority in an elderly or immunocompromised host is preventing [[drop1]]. For Liam's impetigo, the nurse instructs the mother that the condition is highly transmissible to others primarily via [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "superficial keratinized stratum corneum cells",
+                    "correct": false
+                  },
+                  {
+                    "text": "subcutaneous adipose adipocytes",
+                    "correct": false
+                  },
+                  {
+                    "text": "synovial fluid of large weight-bearing joints",
+                    "correct": false
+                  },
+                  {
+                    "text": "sensory dorsal root or cranial nerve ganglia",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "postherpetic neuralgia (debilitating persistent neuropathic pain lasting months to years)",
+                    "correct": true
+                  },
+                  {
+                    "text": "spontaneous malignant transformation into cutaneous squamous cell carcinoma",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute full-thickness fourth-degree skin necrosis across the entire thorax",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediate systemic aplastic anemia and bone marrow fibrosis",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "direct contact with exudate, crusts, contaminated hands, or shared washcloths and towels",
+                    "correct": true
+                  },
+                  {
+                    "text": "airborne droplet nuclei traveling across long distances through ventilation ducts",
+                    "correct": false
+                  },
+                  {
+                    "text": "ingestion of undercooked poultry or unwashed root vegetables",
+                    "correct": false
+                  },
+                  {
+                    "text": "transmission by domestic insect tick bites in wooded areas",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse conducts detailed discharge counseling and infection control instruction with the mother and brothers.",
@@ -9096,51 +9597,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse evaluates client and family comprehension prior to discharge from the clinic.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse recognizes that Marcus understands shingles transmission when he states that an unvaccinated person exposed to his open blister fluid could develop [drp1].",
-              "In evaluating Liam's progress, the nurse instructs the mother to monitor for systemic complications and contact the healthcare provider immediately if Liam develops [drp2].",
-              "To prevent future recurrent episodes of shingles, the nurse educates Marcus that after full recovery, older adults and at-risk individuals should receive [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "transmission risk",
-                "options": [
-                  "chickenpox (varicella), not shingles directly",
-                  "immediate systemic syphilis with palmar rash",
-                  "impetigo with golden-yellow crusting",
-                  "a superficial tinea fungal ringworm lesion"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "impetigo complication",
-                "options": [
-                  "periorbital edema, dark cola-colored urine, and hypertension (post-streptococcal glomerulonephritis)",
-                  "sudden severe loss of deep tendon reflexes and foot drop",
-                  "widespread silvery plaques over extensor joints",
-                  "acute paraneoplastic hypercalcemia and polyuria"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "zoster prevention",
-                "options": [
-                  "the recombinant zoster vaccine (Shingrix) to boost VZV-specific cell-mediated immunity",
-                  "lifelong daily prophylactic penicillin injections",
-                  "annual immunization with the trivalent oral polio vaccine",
-                  "daily application of topical antifungal creams"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Discharge evaluation in urgent care.",
-          "explanation": "1. Shingles Transmission Truth: Shingles cannot be caught directly as shingles from another person. The vesicular fluid contains active VZV; if an individual who is non-immune (never had chickenpox and never vaccinated) comes into direct contact with the blister fluid, they will contract primary Varicella (chickenpox).\n2. Post-Streptococcal Glomerulonephritis (PSGN): Group A beta-hemolytic Streptococcus causing impetigo can lead to immune-complex mediated PSGN 1 to 3 weeks later. Warning signs include periorbital edema, dark tea- or cola-colored urine (hematuria), oliguria, and hypertension.\n3. Shingrix Immunization: Recombinant zoster vaccine (Shingrix) is highly effective (> 90%) in boosting waning VZV cell-mediated immunity in adults 50+ (or immunocompromised 19+), preventing shingles reactivation and postherpetic neuralgia."
+          "explanation": "1. Shingles Transmission Truth: Shingles cannot be caught directly as shingles from another person. The vesicular fluid contains active VZV; if an individual who is non-immune (never had chickenpox and never vaccinated) comes into direct contact with the blister fluid, they will contract primary Varicella (chickenpox).\n2. Post-Streptococcal Glomerulonephritis (PSGN): Group A beta-hemolytic Streptococcus causing impetigo can lead to immune-complex mediated PSGN 1 to 3 weeks later. Warning signs include periorbital edema, dark tea- or cola-colored urine (hematuria), oliguria, and hypertension.\n3. Shingrix Immunization: Recombinant zoster vaccine (Shingrix) is highly effective (> 90%) in boosting waning VZV cell-mediated immunity in adults 50+ (or immunocompromised 19+), preventing shingles reactivation and postherpetic neuralgia.",
+          "cloze": {
+            "text": "The nurse recognizes that Marcus understands shingles transmission when he states that an unvaccinated person exposed to his open blister fluid could develop [[drop0]]. In evaluating Liam's progress, the nurse instructs the mother to monitor for systemic complications and contact the healthcare provider immediately if Liam develops [[drop1]]. To prevent future recurrent episodes of shingles, the nurse educates Marcus that after full recovery, older adults and at-risk individuals should receive [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "impetigo with golden-yellow crusting",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediate systemic syphilis with palmar rash",
+                    "correct": false
+                  },
+                  {
+                    "text": "chickenpox (varicella), not shingles directly",
+                    "correct": true
+                  },
+                  {
+                    "text": "a superficial tinea fungal ringworm lesion",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "periorbital edema, dark cola-colored urine, and hypertension (post-streptococcal glomerulonephritis)",
+                    "correct": true
+                  },
+                  {
+                    "text": "sudden severe loss of deep tendon reflexes and foot drop",
+                    "correct": false
+                  },
+                  {
+                    "text": "widespread silvery plaques over extensor joints",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute paraneoplastic hypercalcemia and polyuria",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "annual immunization with the trivalent oral polio vaccine",
+                    "correct": false
+                  },
+                  {
+                    "text": "daily application of topical antifungal creams",
+                    "correct": false
+                  },
+                  {
+                    "text": "the recombinant zoster vaccine (Shingrix) to boost VZV-specific cell-mediated immunity",
+                    "correct": true
+                  },
+                  {
+                    "text": "lifelong daily prophylactic penicillin injections",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Liam and Marcus complete their clinic visit and receive written infection control and disease recovery summaries.",
@@ -9290,51 +9817,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse synthesizes Maya's clinical cues and laboratory markers to prioritize systemic risks.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The client's malar rash and systemic symptoms are driven by [drp1], which trigger complement activation and microvascular tissue damage.",
-              "Because ultraviolet (UV) radiation induces epidermal keratinocyte apoptosis and exposes intracellular nuclear autoantigens, sunlight acts as [drp2].",
-              "The presence of proteinuria and hematuria on Maya's urinalysis indicates that the nurse must prioritize ongoing monitoring for [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "SLE pathophysiologic driver",
-                "options": [
-                  "circulating immune complexes depositing in blood vessel walls and basement membranes",
-                  "acute IgE-mediated mast cell degranulation triggered by food ingestion",
-                  "direct superficial invasion of keratinocytes by dermatophyte fungal hyphae",
-                  "accelerated basal cell neoplastic transformation with anaplasia"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "UV radiation effect in SLE",
-                "options": [
-                  "a potent environmental trigger that provokes severe systemic and cutaneous flare-ups",
-                  "a curative therapeutic modality that permanently suppresses autoantibody formation",
-                  "a benign physical stimulus that only affects hair follicles",
-                  "an antioxidant stabilizer that repairs broken complement proteins"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "priority organ complication",
-                "options": [
-                  "lupus nephritis and progressive renal impairment",
-                  "acute full-thickness fourth-degree cutaneous burn shock",
-                  "rapid spontaneous rupture of coronary artery aneurysms",
-                  "acute bacterial impetigo with extensive honey-colored crusts"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Type III Hypersensitivity: In SLE, autoantibodies against nuclear antigens (ANA, anti-dsDNA) form antigen-antibody complexes. These circulating immune complexes deposit in capillary basement membranes of skin, glomeruli, joints, and serosa, activating complement (consuming C3/C4) and recruiting neutrophils that cause tissue injury.\n2. Photosensitivity: UV radiation damages keratinocytes, prompting apoptosis and cellular blebbing that displays nuclear debris at the cell surface. This provides a surge of autoantigens that binds autoantibodies, triggering severe cutaneous inflammation (malar flare) and systemic disease exacerbations.\n3. Renal Priority: Lupus nephritis occurs in up to 50% of SLE patients and is a leading cause of morbidity/mortality. Proteinuria and hematuria signal glomerular immune complex deposition, requiring immediate nephrology surveillance."
+          "explanation": "1. Type III Hypersensitivity: In SLE, autoantibodies against nuclear antigens (ANA, anti-dsDNA) form antigen-antibody complexes. These circulating immune complexes deposit in capillary basement membranes of skin, glomeruli, joints, and serosa, activating complement (consuming C3/C4) and recruiting neutrophils that cause tissue injury.\n2. Photosensitivity: UV radiation damages keratinocytes, prompting apoptosis and cellular blebbing that displays nuclear debris at the cell surface. This provides a surge of autoantigens that binds autoantibodies, triggering severe cutaneous inflammation (malar flare) and systemic disease exacerbations.\n3. Renal Priority: Lupus nephritis occurs in up to 50% of SLE patients and is a leading cause of morbidity/mortality. Proteinuria and hematuria signal glomerular immune complex deposition, requiring immediate nephrology surveillance.",
+          "cloze": {
+            "text": "The client's malar rash and systemic symptoms are driven by [[drop0]], which trigger complement activation and microvascular tissue damage. Because ultraviolet (UV) radiation induces epidermal keratinocyte apoptosis and exposes intracellular nuclear autoantigens, sunlight acts as [[drop1]]. The presence of proteinuria and hematuria on Maya's urinalysis indicates that the nurse must prioritize ongoing monitoring for [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "direct superficial invasion of keratinocytes by dermatophyte fungal hyphae",
+                    "correct": false
+                  },
+                  {
+                    "text": "circulating immune complexes depositing in blood vessel walls and basement membranes",
+                    "correct": true
+                  },
+                  {
+                    "text": "acute IgE-mediated mast cell degranulation triggered by food ingestion",
+                    "correct": false
+                  },
+                  {
+                    "text": "accelerated basal cell neoplastic transformation with anaplasia",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "a potent environmental trigger that provokes severe systemic and cutaneous flare-ups",
+                    "correct": true
+                  },
+                  {
+                    "text": "a curative therapeutic modality that permanently suppresses autoantibody formation",
+                    "correct": false
+                  },
+                  {
+                    "text": "an antioxidant stabilizer that repairs broken complement proteins",
+                    "correct": false
+                  },
+                  {
+                    "text": "a benign physical stimulus that only affects hair follicles",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "lupus nephritis and progressive renal impairment",
+                    "correct": true
+                  },
+                  {
+                    "text": "acute full-thickness fourth-degree cutaneous burn shock",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid spontaneous rupture of coronary artery aneurysms",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute bacterial impetigo with extensive honey-colored crusts",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse organizes the interprofessional care plan with the rheumatologist and nephrologist to address Maya's acute flare and prevent progressive organ damage.",
@@ -9469,51 +10022,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse conducts discharge evaluation and confirms Maya's understanding of systemic lupus management.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse confirms Maya understands photosensitivity management when she states that ultraviolet light [drp1].",
-              "Regarding medication adherence with hydroxychloroquine, the nurse verifies comprehension when Maya states she will [drp2].",
-              "In reviewing potential life-threatening drug reactions (such as Toxic Epidermal Necrolysis), the nurse instructs Maya that if a new medication causes widespread blistering with skin peeling, she must [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "photosensitivity comprehension",
-                "options": [
-                  "triggers cellular apoptosis and releases nuclear antigens that stimulate autoimmune flares throughout her body",
-                  "permanently cures the autoimmune disease by burning away circulating autoantibodies",
-                  "only affects the skin if she stays in the sun for more than 12 consecutive hours",
-                  "is completely blocked by ordinary thin cotton clothing without sunscreen"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "hydroxychloroquine safety",
-                "options": [
-                  "take the medication daily as prescribed and attend scheduled ophthalmological eye examinations annually",
-                  "discontinue the medication immediately if she develops joint pain",
-                  "consume large quantities of calcium supplements while avoiding all water intake",
-                  "stop the medication whenever she plans to spend time outdoors"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "severe drug reaction action",
-                "options": [
-                  "immediately discontinue the offending drug and seek emergency medical evaluation at a burn or trauma center",
-                  "apply thick over-the-counter petroleum jelly and wait 2 weeks for the skin to heal",
-                  "double the dose of the medication to overcome the allergic reaction",
-                  "scrub the peeling blisters vigorously with alcohol pads"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Discharge evaluation in outpatient rheumatology clinic.",
-          "explanation": "1. Photosensitivity Mechanism: UV exposure triggers keratinocyte death, releasing DNA and nucleosomes that bind to circulating antinuclear antibodies, igniting local malar flares and systemic complement activation.\n2. Hydroxychloroquine Adherence: Daily adherence reduces flare frequency and thrombotic complications, while annual eye exams detect rare retinal toxicity before irreversible vision loss occurs.\n3. Severe Cutaneous Adverse Reactions (SCAR/TEN): Widespread blistering with epidermal sloughing (> 30% body surface area) represents Toxic Epidermal Necrolysis, a medical emergency requiring immediate cessation of the causative drug and specialized burn unit intensive care."
+          "explanation": "1. Photosensitivity Mechanism: UV exposure triggers keratinocyte death, releasing DNA and nucleosomes that bind to circulating antinuclear antibodies, igniting local malar flares and systemic complement activation.\n2. Hydroxychloroquine Adherence: Daily adherence reduces flare frequency and thrombotic complications, while annual eye exams detect rare retinal toxicity before irreversible vision loss occurs.\n3. Severe Cutaneous Adverse Reactions (SCAR/TEN): Widespread blistering with epidermal sloughing (> 30% body surface area) represents Toxic Epidermal Necrolysis, a medical emergency requiring immediate cessation of the causative drug and specialized burn unit intensive care.",
+          "cloze": {
+            "text": "The nurse confirms Maya understands photosensitivity management when she states that ultraviolet light [[drop0]]. Regarding medication adherence with hydroxychloroquine, the nurse verifies comprehension when Maya states she will [[drop1]]. In reviewing potential life-threatening drug reactions (such as Toxic Epidermal Necrolysis), the nurse instructs Maya that if a new medication causes widespread blistering with skin peeling, she must [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "is completely blocked by ordinary thin cotton clothing without sunscreen",
+                    "correct": false
+                  },
+                  {
+                    "text": "triggers cellular apoptosis and releases nuclear antigens that stimulate autoimmune flares throughout her body",
+                    "correct": true
+                  },
+                  {
+                    "text": "permanently cures the autoimmune disease by burning away circulating autoantibodies",
+                    "correct": false
+                  },
+                  {
+                    "text": "only affects the skin if she stays in the sun for more than 12 consecutive hours",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "stop the medication whenever she plans to spend time outdoors",
+                    "correct": false
+                  },
+                  {
+                    "text": "consume large quantities of calcium supplements while avoiding all water intake",
+                    "correct": false
+                  },
+                  {
+                    "text": "discontinue the medication immediately if she develops joint pain",
+                    "correct": false
+                  },
+                  {
+                    "text": "take the medication daily as prescribed and attend scheduled ophthalmological eye examinations annually",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "scrub the peeling blisters vigorously with alcohol pads",
+                    "correct": false
+                  },
+                  {
+                    "text": "apply thick over-the-counter petroleum jelly and wait 2 weeks for the skin to heal",
+                    "correct": false
+                  },
+                  {
+                    "text": "double the dose of the medication to overcome the allergic reaction",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediately discontinue the offending drug and seek emergency medical evaluation at a burn or trauma center",
+                    "correct": true
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Maya completes her visit and schedules her multi-specialty follow-up visits.",
@@ -9662,51 +10241,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse utilizes the Parkland (Baxter) formula to calculate the client's initial 24-hour fluid resuscitation requirement.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "Using the Parkland formula (4 mL &times; 80 kg &times; 40.5% TBSA), the client's total calculated fluid volume for the first 24 hours from the time of injury is [drp1] of Lactated Ringer's solution.",
-              "The nurse must administer half of this total calculated volume ([drp2]) during the first 8 hours post-injury, accounting for fluids already infused by EMS.",
-              "The primary clinical parameter utilized by the nurse to titrate the hourly intravenous fluid infusion rate is maintaining an hourly urine output of [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "total 24-hr fluid volume",
-                "options": [
-                  "12,960 mL",
-                  "6,480 mL",
-                  "25,920 mL",
-                  "3,240 mL"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "first 8-hr fluid volume",
-                "options": [
-                  "6,480 mL (at an average rate of ~810 mL/hr minus prehospital fluids)",
-                  "3,240 mL (at an average rate of ~405 mL/hr)",
-                  "12,960 mL infused all at once in the first 2 hours",
-                  "1,000 mL bolus followed by maintenance at 100 mL/hr"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "urine output titration target",
-                "options": [
-                  "0.5 mL/kg/hr (30 to 50 mL/hr in an adult)",
-                  "at least 200 to 300 mL/hr to flush out cellular debris",
-                  "less than 10 mL/hr to conserve plasma volume",
-                  "strictly 5 mL/kg/hr to induce hypervolemia"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Parkland Formula: Total Volume in 24 hours = 4 mL &times; Weight in kg &times; %TBSA (second/third degree). Here: 4 mL &times; 80 kg &times; 40.5 = 12,960 mL of Lactated Ringer's solution.\n2. Timing: Half of the total volume (6,480 mL) must be infused within the first 8 hours from the moment of injury (not from hospital arrival), with the remaining half (6,480 mL) infused over the subsequent 16 hours.\n3. Titration Metric: While the formula provides the starting rate, fluid resuscitation is titrated directly to end-organ perfusion, best reflected by hourly urine output. In adult thermal burns, the gold standard target is 0.5 mL/kg/hr (approximately 30–50 mL/hr; or 40 mL/hr for an 80 kg patient). Over-resuscitation causes compartment syndromes and pulmonary edema, while under-resuscitation causes acute tubular necrosis and irreversible shock."
+          "explanation": "1. Parkland Formula: Total Volume in 24 hours = 4 mL &times; Weight in kg &times; %TBSA (second/third degree). Here: 4 mL &times; 80 kg &times; 40.5 = 12,960 mL of Lactated Ringer's solution.\n2. Timing: Half of the total volume (6,480 mL) must be infused within the first 8 hours from the moment of injury (not from hospital arrival), with the remaining half (6,480 mL) infused over the subsequent 16 hours.\n3. Titration Metric: While the formula provides the starting rate, fluid resuscitation is titrated directly to end-organ perfusion, best reflected by hourly urine output. In adult thermal burns, the gold standard target is 0.5 mL/kg/hr (approximately 30–50 mL/hr; or 40 mL/hr for an 80 kg patient). Over-resuscitation causes compartment syndromes and pulmonary edema, while under-resuscitation causes acute tubular necrosis and irreversible shock.",
+          "cloze": {
+            "text": "Using the Parkland formula (4 mL &times; 80 kg &times; 40.5% TBSA), the client's total calculated fluid volume for the first 24 hours from the time of injury is [[drop0]] of Lactated Ringer's solution. The nurse must administer half of this total calculated volume ([[drop1]]) during the first 8 hours post-injury, accounting for fluids already infused by EMS. The primary clinical parameter utilized by the nurse to titrate the hourly intravenous fluid infusion rate is maintaining an hourly urine output of [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "6,480 mL",
+                    "correct": false
+                  },
+                  {
+                    "text": "25,920 mL",
+                    "correct": false
+                  },
+                  {
+                    "text": "12,960 mL",
+                    "correct": true
+                  },
+                  {
+                    "text": "3,240 mL",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "1,000 mL bolus followed by maintenance at 100 mL/hr",
+                    "correct": false
+                  },
+                  {
+                    "text": "12,960 mL infused all at once in the first 2 hours",
+                    "correct": false
+                  },
+                  {
+                    "text": "3,240 mL (at an average rate of ~405 mL/hr)",
+                    "correct": false
+                  },
+                  {
+                    "text": "6,480 mL (at an average rate of ~810 mL/hr minus prehospital fluids)",
+                    "correct": true
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "0.5 mL/kg/hr (30 to 50 mL/hr in an adult)",
+                    "correct": true
+                  },
+                  {
+                    "text": "at least 200 to 300 mL/hr to flush out cellular debris",
+                    "correct": false
+                  },
+                  {
+                    "text": "strictly 5 mL/kg/hr to induce hypervolemia",
+                    "correct": false
+                  },
+                  {
+                    "text": "less than 10 mL/hr to conserve plasma volume",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "The nurse programs the dual IV infusion pumps with Lactated Ringer's solution and prepares the fluid resuscitation flow sheet.",
@@ -9846,51 +10451,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse evaluates Tyler's transition at 24 hours post-injury into the acute/diuretic phase of burn recovery.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "At approximately 24 to 48 hours post-burn, capillary membrane integrity begins to restore and fluid shifts reverse, which heralds the [drp1].",
-              "During this second phase of burn shock recovery, the nurse anticipates that laboratory monitoring will characteristically demonstrate [drp2].",
-              "In evaluating pulmonary recovery following inhalation injury, the nurse recognizes successful stabilization when bronchoscopy confirms resolving mucosal erythema and the client maintains [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "second phase of burn recovery",
-                "options": [
-                  "fluid remobilization and spontaneous diuretic phase",
-                  "immediate permanent cessation of all urine output",
-                  "acute full-thickness skin graft rejection phase",
-                  "severe irreversible hypocalcemic crisis"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "electrolyte shifts in diuretic phase",
-                "options": [
-                  "hypokalemia (as potassium shifts back into cells and is excreted in urine) and hemodilution",
-                  "severe hyperkalemia with potassium exceeding 8.5 mmol/L",
-                  "profound hemoconcentration with hematocrit rising above 65%",
-                  "massive acute hypercalcemia with bone fractures"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "pulmonary stability marker",
-                "options": [
-                  "adequate arterial oxygenation on low ventilator settings without stridor or wheezing",
-                  "permanent mechanical ventilator dependence with 100% FiO₂",
-                  "copious thick black soot filling both mainstem bronchi",
-                  "bilateral complete pneumothorax on chest radiograph"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Evaluation at 24 to 36 hours post-injury in the burn intensive care unit.",
-          "explanation": "1. Fluid Remobilization Phase: Around 24–48 hours post-burn, capillary endothelial integrity heals, capillary leakage ceases, and fluid begins to shift from the interstitial spaces back into the intravascular compartment. This initiates a spontaneous diuretic phase with high urine outputs.\n2. Electrolyte Reversal: During this diuretic phase, potassium shifts back into re-equilibrating cells and is excreted by the kidneys, often causing hypokalemia. The influx of fluid into the vascular bed hemodilutes the blood, causing hematocrit to drop.\n3. Inhalation Resolution: Adequate gas exchange (PaO2/FiO2 ratio > 300) with minimal ventilatory support, clearing of carbonaceous secretions, and absence of stridor indicate resolving mucosal edema, paving the way for planned extubation."
+          "explanation": "1. Fluid Remobilization Phase: Around 24–48 hours post-burn, capillary endothelial integrity heals, capillary leakage ceases, and fluid begins to shift from the interstitial spaces back into the intravascular compartment. This initiates a spontaneous diuretic phase with high urine outputs.\n2. Electrolyte Reversal: During this diuretic phase, potassium shifts back into re-equilibrating cells and is excreted by the kidneys, often causing hypokalemia. The influx of fluid into the vascular bed hemodilutes the blood, causing hematocrit to drop.\n3. Inhalation Resolution: Adequate gas exchange (PaO2/FiO2 ratio > 300) with minimal ventilatory support, clearing of carbonaceous secretions, and absence of stridor indicate resolving mucosal edema, paving the way for planned extubation.",
+          "cloze": {
+            "text": "At approximately 24 to 48 hours post-burn, capillary membrane integrity begins to restore and fluid shifts reverse, which heralds the [[drop0]]. During this second phase of burn shock recovery, the nurse anticipates that laboratory monitoring will characteristically demonstrate [[drop1]]. In evaluating pulmonary recovery following inhalation injury, the nurse recognizes successful stabilization when bronchoscopy confirms resolving mucosal erythema and the client maintains [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "fluid remobilization and spontaneous diuretic phase",
+                    "correct": true
+                  },
+                  {
+                    "text": "acute full-thickness skin graft rejection phase",
+                    "correct": false
+                  },
+                  {
+                    "text": "immediate permanent cessation of all urine output",
+                    "correct": false
+                  },
+                  {
+                    "text": "severe irreversible hypocalcemic crisis",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "hypokalemia (as potassium shifts back into cells and is excreted in urine) and hemodilution",
+                    "correct": true
+                  },
+                  {
+                    "text": "profound hemoconcentration with hematocrit rising above 65%",
+                    "correct": false
+                  },
+                  {
+                    "text": "severe hyperkalemia with potassium exceeding 8.5 mmol/L",
+                    "correct": false
+                  },
+                  {
+                    "text": "massive acute hypercalcemia with bone fractures",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "adequate arterial oxygenation on low ventilator settings without stridor or wheezing",
+                    "correct": true
+                  },
+                  {
+                    "text": "permanent mechanical ventilator dependence with 100% FiO₂",
+                    "correct": false
+                  },
+                  {
+                    "text": "copious thick black soot filling both mainstem bronchi",
+                    "correct": false
+                  },
+                  {
+                    "text": "bilateral complete pneumothorax on chest radiograph",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Tyler is now at 30 hours post-burn in the Burn Intensive Care Unit. The initial 24-hour resuscitation protocol is complete, and capillary leak has resolved.",
@@ -10040,51 +10671,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse analyzes the metabolic and physiological consequences of major burn trauma during the post-resuscitation period.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "Following major burn trauma, the body enters a profound hypermetabolic state driven by massive release of [drp1] from the neuroendocrine system.",
-              "This hypermetabolic stress response induces severe whole-body catabolism characterized by [drp2], resulting in rapid loss of lean muscle mass and impaired immune defense.",
-              "To support wound healing, prevent gut mucosal atrophy, and blunt catabolism, the nurse prioritizes [drp3] initiated as early as possible."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "hypermetabolic hormones",
-                "options": [
-                  "catecholamines (epinephrine/norepinephrine), cortisol, and glucagon",
-                  "insulin, parathyroid hormone, and calcitonin",
-                  "anti-diuretic hormone and aldosterone alone",
-                  "melatonin and thyroid-stimulating hormone"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "catabolic process",
-                "options": [
-                  "accelerated skeletal muscle proteolysis, lipolysis, and severe negative nitrogen balance",
-                  "massive deposition of adipose tissue and glycogen storage",
-                  "permanent suppression of basal metabolic rate below 50% of normal",
-                  "rapid muscular hypertrophy and bone calcification"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "nutritional priority",
-                "options": [
-                  "early enteral nutrition via feeding tube providing high-protein, high-calorie formulas",
-                  "a strict clear-water diet for 14 days to rest the digestive tract",
-                  "exclusive administration of 5% dextrose in water at 50 mL/hr",
-                  "high-fat oral meals consisting of deep-fried foods"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "",
-          "explanation": "1. Hypermetabolic State: Severe burns trigger the highest hypermetabolic response of any human trauma (metabolic rate can exceed 150–200% of baseline). It is mediated by a massive neuroendocrine surge of catecholamines (epinephrine, norepinephrine), corticosteroids (cortisol), and glucagon, persisting for weeks to months.\n2. Catabolism: This hormonal surge stimulates glycogenolysis, gluconeogenesis, lipolysis, and massive skeletal muscle proteolysis (breakdown of muscle into alanine and glutamine to fuel hepatic gluconeogenesis), causing severe negative nitrogen balance, muscle wasting, and delayed wound healing.\n3. Early Enteral Nutrition: Initiating high-protein (1.5–2.0 g/kg/day), high-calorie enteral feeding within the first 24 hours maintains splanchnic blood flow, prevents gut mucosal atrophy and bacterial translocation, blunts the hypermetabolic surge, and provides the amino acids essential for collagen synthesis across wound healing phases."
+          "explanation": "1. Hypermetabolic State: Severe burns trigger the highest hypermetabolic response of any human trauma (metabolic rate can exceed 150–200% of baseline). It is mediated by a massive neuroendocrine surge of catecholamines (epinephrine, norepinephrine), corticosteroids (cortisol), and glucagon, persisting for weeks to months.\n2. Catabolism: This hormonal surge stimulates glycogenolysis, gluconeogenesis, lipolysis, and massive skeletal muscle proteolysis (breakdown of muscle into alanine and glutamine to fuel hepatic gluconeogenesis), causing severe negative nitrogen balance, muscle wasting, and delayed wound healing.\n3. Early Enteral Nutrition: Initiating high-protein (1.5–2.0 g/kg/day), high-calorie enteral feeding within the first 24 hours maintains splanchnic blood flow, prevents gut mucosal atrophy and bacterial translocation, blunts the hypermetabolic surge, and provides the amino acids essential for collagen synthesis across wound healing phases.",
+          "cloze": {
+            "text": "Following major burn trauma, the body enters a profound hypermetabolic state driven by massive release of [[drop0]] from the neuroendocrine system. This hypermetabolic stress response induces severe whole-body catabolism characterized by [[drop1]], resulting in rapid loss of lean muscle mass and impaired immune defense. To support wound healing, prevent gut mucosal atrophy, and blunt catabolism, the nurse prioritizes [[drop2]] initiated as early as possible.",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "catecholamines (epinephrine/norepinephrine), cortisol, and glucagon",
+                    "correct": true
+                  },
+                  {
+                    "text": "anti-diuretic hormone and aldosterone alone",
+                    "correct": false
+                  },
+                  {
+                    "text": "insulin, parathyroid hormone, and calcitonin",
+                    "correct": false
+                  },
+                  {
+                    "text": "melatonin and thyroid-stimulating hormone",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "massive deposition of adipose tissue and glycogen storage",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid muscular hypertrophy and bone calcification",
+                    "correct": false
+                  },
+                  {
+                    "text": "accelerated skeletal muscle proteolysis, lipolysis, and severe negative nitrogen balance",
+                    "correct": true
+                  },
+                  {
+                    "text": "permanent suppression of basal metabolic rate below 50% of normal",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "exclusive administration of 5% dextrose in water at 50 mL/hr",
+                    "correct": false
+                  },
+                  {
+                    "text": "high-fat oral meals consisting of deep-fried foods",
+                    "correct": false
+                  },
+                  {
+                    "text": "early enteral nutrition via feeding tube providing high-protein, high-calorie formulas",
+                    "correct": true
+                  },
+                  {
+                    "text": "a strict clear-water diet for 14 days to rest the digestive tract",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Karen is now on Post-Burn Day 3. The nurse collaborates with the burn team dietitian and surgeon to optimize nutritional support and track wound healing phases.",
@@ -10224,51 +10881,77 @@ window.NCLEX_CASES = [
         "question": {
           "stem": "The nurse conducts discharge teaching and evaluates Karen's understanding of long-term burn rehabilitation, scar remodeling, and skin care.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
-          "dropdown_cloze": {
-            "sentences": [
-              "The nurse explains that healed burn wounds and skin grafts frequently remain permanently dry and fragile because [drp1].",
-              "To prevent hypertrophic scarring and contractures during the 1- to 2-year remodeling phase, the nurse instructs Karen that she will need to wear [drp2].",
-              "In reviewing ultraviolet protection for newly healed burn grafts, the nurse educates Karen to [drp3]."
-            ],
-            "dropdowns": [
-              {
-                "id": "drp1",
-                "label": "dry skin etiology",
-                "options": [
-                  "sebaceous and sweat glands were destroyed by the thermal injury, requiring daily lifelong application of unscented moisturizing lotions",
-                  "intravenous resuscitation fluids permanently diluted the skin's natural oil production",
-                  "skin grafts produce excessive amounts of sweat that rapidly evaporates",
-                  "topical silver sulfadiazine permanently seals all cutaneous pores"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp2",
-                "label": "hypertrophic scar prevention",
-                "options": [
-                  "custom-fitted pressure gradient garments (e.g., Jobst garments) 23 hours a day for 12 to 18 months",
-                  "loose-fitting wool sweaters and thick denim trousers only",
-                  "heavy metal leg braces that prevent all joint motion indefinitely",
-                  "tight adhesive duct tape wrapped circumferentially around the scars"
-                ],
-                "correctIndex": 0
-              },
-              {
-                "id": "drp3",
-                "label": "graft UV protection",
-                "options": [
-                  "avoid all direct sun exposure and apply SPF 50+ sunscreen, as grafted skin lacks normal melanocytes and burns easily",
-                  "sunbathe for 20 minutes daily to stimulate natural melanin production in the graft",
-                  "use artificial tanning beds to darken the pale graft scars to match surrounding skin",
-                  "apply hot mineral oils before going outdoors in summer"
-                ],
-                "correctIndex": 0
-              }
-            ]
-          },
           "options": [],
           "preamble": "Discharge rehabilitation planning on Post-Burn Day 21.",
-          "explanation": "1. Sebaceous Gland Loss: Deep partial- and full-thickness burns destroy the epidermal appendages located in the dermis, including sebaceous glands (which secrete lubricating sebum) and eccrine sweat glands (which regulate heat). Healed and grafted skin is perpetually dry, pruritic, and susceptible to cracking, requiring daily lifelong application of bland emollients.\n2. Compression Garments: Hypertrophic scars occur when myofibroblasts and disordered collagen bundles proliferate excessively during the remodeling phase. Custom-fitted pressure garments (20–30 mmHg) worn 23 hours/day for 12–18 months flatten collagen fibers, suppress vascularity, relieve itching, and prevent contractures.\n3. Sun Protection: Newly healed burns and split-thickness grafts have diminished or absent melanocytes and thin epidermis. Exposure to UV rays causes severe sunburn and permanent hyperpigmentation; complete photoprotection (SPF 50+, physical covering) is essential for at least 1 year."
+          "explanation": "1. Sebaceous Gland Loss: Deep partial- and full-thickness burns destroy the epidermal appendages located in the dermis, including sebaceous glands (which secrete lubricating sebum) and eccrine sweat glands (which regulate heat). Healed and grafted skin is perpetually dry, pruritic, and susceptible to cracking, requiring daily lifelong application of bland emollients.\n2. Compression Garments: Hypertrophic scars occur when myofibroblasts and disordered collagen bundles proliferate excessively during the remodeling phase. Custom-fitted pressure garments (20–30 mmHg) worn 23 hours/day for 12–18 months flatten collagen fibers, suppress vascularity, relieve itching, and prevent contractures.\n3. Sun Protection: Newly healed burns and split-thickness grafts have diminished or absent melanocytes and thin epidermis. Exposure to UV rays causes severe sunburn and permanent hyperpigmentation; complete photoprotection (SPF 50+, physical covering) is essential for at least 1 year.",
+          "cloze": {
+            "text": "The nurse explains that healed burn wounds and skin grafts frequently remain permanently dry and fragile because [[drop0]]. To prevent hypertrophic scarring and contractures during the 1- to 2-year remodeling phase, the nurse instructs Karen that she will need to wear [[drop1]]. In reviewing ultraviolet protection for newly healed burn grafts, the nurse educates Karen to [[drop2]].",
+            "dropdowns": [
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "skin grafts produce excessive amounts of sweat that rapidly evaporates",
+                    "correct": false
+                  },
+                  {
+                    "text": "sebaceous and sweat glands were destroyed by the thermal injury, requiring daily lifelong application of unscented moisturizing lotions",
+                    "correct": true
+                  },
+                  {
+                    "text": "topical silver sulfadiazine permanently seals all cutaneous pores",
+                    "correct": false
+                  },
+                  {
+                    "text": "intravenous resuscitation fluids permanently diluted the skin's natural oil production",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "custom-fitted pressure gradient garments (e.g., Jobst garments) 23 hours a day for 12 to 18 months",
+                    "correct": true
+                  },
+                  {
+                    "text": "loose-fitting wool sweaters and thick denim trousers only",
+                    "correct": false
+                  },
+                  {
+                    "text": "heavy metal leg braces that prevent all joint motion indefinitely",
+                    "correct": false
+                  },
+                  {
+                    "text": "tight adhesive duct tape wrapped circumferentially around the scars",
+                    "correct": false
+                  }
+                ]
+              },
+              {
+                "placeholder": "Select...",
+                "options": [
+                  {
+                    "text": "use artificial tanning beds to darken the pale graft scars to match surrounding skin",
+                    "correct": false
+                  },
+                  {
+                    "text": "avoid all direct sun exposure and apply SPF 50+ sunscreen, as grafted skin lacks normal melanocytes and burns easily",
+                    "correct": true
+                  },
+                  {
+                    "text": "sunbathe for 20 minutes daily to stimulate natural melanin production in the graft",
+                    "correct": false
+                  },
+                  {
+                    "text": "apply hot mineral oils before going outdoors in summer",
+                    "correct": false
+                  }
+                ]
+              }
+            ]
+          }
         },
         "leftContent": {
           "intro": "Karen is 3 weeks post-burn and preparing for discharge to outpatient burn rehabilitation.",
@@ -10787,7 +11470,14 @@ window.NCLEX_STANDALONE = [
           "highlightText": "Client presents for scheduled foot check. Right second toe displays dry, dark brown, shriveled tissue with a distinct line of demarcation and no drainage. {The adjacent third toe is swollen, tense, and oozing malodorous purulent fluid|correct}. {Crepitus is palpated along the dorsal forefoot with audible subcutaneous bubbling|correct}. Temperature is 36.6 °C, heart rate 74/min. {Surrounding metatarsal skin is hot, violaceous, and rapidly extending red streaks are observed ascending the ankle|correct}. Capillary refill in left foot is 2 seconds.",
           "maxCorrectSelections": 3,
           "preamble": "The wound care nurse is assessing a chronic diabetic ischemic foot ulcer for signs of acute infectious gangrene.",
-          "explanation": "Dry gangrene is characterized by slow coagulative necrosis where tissue becomes dry, shriveled, dark brown/black with a clear line of demarcation from healthy tissue, usually without bacterial superinfection. In contrast, wet gangrene (liquefactive necrosis superinfected with pathogenic, gas-forming bacteria such as Clostridium or mixed anaerobes) features rapid spread, edema, foul-smelling purulence, hot spreading erythema/lymphangitis, and subcutaneous crepitus (gas in tissues). Wet gangrene is an immediate surgical emergency due to high risk of sepsis and limb loss."
+          "explanation": "Dry gangrene is characterized by slow coagulative necrosis where tissue becomes dry, shriveled, dark brown/black with a clear line of demarcation from healthy tissue, usually without bacterial superinfection. In contrast, wet gangrene (liquefactive necrosis superinfected with pathogenic, gas-forming bacteria such as Clostridium or mixed anaerobes) features rapid spread, edema, foul-smelling purulence, hot spreading erythema/lymphangitis, and subcutaneous crepitus (gas in tissues). Wet gangrene is an immediate surgical emergency due to high risk of sepsis and limb loss.",
+          "highlightTabs": [
+            {
+              "id": "ht_standalone_1783010000006_1",
+              "title": "Nurses' Notes",
+              "content": "Client presents for scheduled foot check. Right second toe displays dry, dark brown, shriveled tissue with a distinct line of demarcation and no drainage. {The adjacent third toe is swollen, tense, and oozing malodorous purulent fluid|correct}. {Crepitus is palpated along the dorsal forefoot with audible subcutaneous bubbling|correct}. Temperature is 36.6 °C, heart rate 74/min. {Surrounding metatarsal skin is hot, violaceous, and rapidly extending red streaks are observed ascending the ankle|correct}. Capillary refill in left foot is 2 seconds."
+            }
+          ]
         },
         "leftContent": {
           "intro": "A 62-year-old client with poorly controlled type 2 diabetes mellitus and peripheral arterial disease arrives at the outpatient wound clinic for a routine evaluation of a necrotic toe.",
@@ -11385,7 +12075,14 @@ window.NCLEX_STANDALONE = [
           "maxCorrectSelections": 4,
           "options": [],
           "preamble": "The women's health clinic nurse is evaluating biopsy findings to guide client education regarding cervical intraepithelial neoplasia.",
-          "explanation": "Cervical dysplasia is characterized by atypical disordered cellular growth. Key microscopic and colposcopic hallmarks include dense acetowhite epithelium with coarse vascular punctation/mosaicism, marked pleomorphism with loss of architectural polarity, nuclear enlargement with hyperchromatism (elevated N:C ratio), and frequent atypical mitotic figures above the basal layer. The intact basement membrane indicates the process has not invaded the stroma, classifying it as pre-invasive dysplasia/CIN rather than invasive carcinoma. Vital signs, negative pregnancy test, and absence of pain are general non-dysplastic clinical observations."
+          "explanation": "Cervical dysplasia is characterized by atypical disordered cellular growth. Key microscopic and colposcopic hallmarks include dense acetowhite epithelium with coarse vascular punctation/mosaicism, marked pleomorphism with loss of architectural polarity, nuclear enlargement with hyperchromatism (elevated N:C ratio), and frequent atypical mitotic figures above the basal layer. The intact basement membrane indicates the process has not invaded the stroma, classifying it as pre-invasive dysplasia/CIN rather than invasive carcinoma. Vital signs, negative pregnancy test, and absence of pain are general non-dysplastic clinical observations.",
+          "highlightTabs": [
+            {
+              "id": "ht_standalone_1783020000007_1",
+              "title": "Nurses' Notes",
+              "content": "A 32-year-old client returns for colposcopy evaluation following a liquid-based Pap smear revealing high-grade squamous intraepithelial lesion (HSIL). Application of 5% acetic acid solution to the cervix demonstrates {dense acetowhite epithelium with coarse punctation and mosaic capillary patterns|correct} located at the squamocolumnar transformation zone. Directed punch biopsy of the lesion is obtained. Microscopic histological analysis demonstrates {marked cellular pleomorphism with prominent loss of architectural polarity|correct} throughout two-thirds of the epithelial thickness. The pathologist notes {hyperchromatic, enlarged nuclei with elevated nuclear-to-cytoplasmic ratio|correct} along with {frequent atypical mitotic figures extending above the basal cell layer|correct}. The underlying basement membrane is continuous and intact without microinvasion. {The client denies postcoital vaginal bleeding, pelvic pain, or intermenstrual discharge.} {Vitals: T 36.8 °C, P 72, BP 118/74 mmHg.} {Urine human chorionic gonadotropin pregnancy test is negative.}"
+            }
+          ]
         },
         "leftContent": {
           "intro": "A 32-year-old client with persistent human papillomavirus (HPV) genotype 16 infection attends the colposcopy clinic for diagnostic evaluation of an abnormal screening smear.",
@@ -11908,7 +12605,14 @@ window.NCLEX_STANDALONE = [
           "maxCorrectSelections": 4,
           "options": [],
           "preamble": "The metabolic genetics clinic nurse is reviewing clinical and laboratory findings for an infant suspected of having an inborn error of amino acid metabolism.",
-          "explanation": "Phenylketonuria (PKU) is an autosomal recessive deficiency of the hepatic enzyme phenylalanine hydroxylase (PAH), which normally converts phenylalanine to tyrosine. High toxic levels of phenylalanine accumulate in the brain and blood, while tyrosine becomes deficient. Manifestations include: (1) musty/mousy odor from phenylacetic acid metabolites excreted in sweat and urine, (2) hypopigmentation (fair hair, pale skin, blue eyes) because tyrosine is an essential precursor for melanin synthesis, (3) neurologic impairment, seizures/spasms, microcephaly, and intellectual disability, and (4) markedly elevated plasma phenylalanine (> 1,200 micromol/L vs normal < 120). Normal CBC, electrolytes, and abdominal ultrasound are non-specific."
+          "explanation": "Phenylketonuria (PKU) is an autosomal recessive deficiency of the hepatic enzyme phenylalanine hydroxylase (PAH), which normally converts phenylalanine to tyrosine. High toxic levels of phenylalanine accumulate in the brain and blood, while tyrosine becomes deficient. Manifestations include: (1) musty/mousy odor from phenylacetic acid metabolites excreted in sweat and urine, (2) hypopigmentation (fair hair, pale skin, blue eyes) because tyrosine is an essential precursor for melanin synthesis, (3) neurologic impairment, seizures/spasms, microcephaly, and intellectual disability, and (4) markedly elevated plasma phenylalanine (> 1,200 micromol/L vs normal < 120). Normal CBC, electrolytes, and abdominal ultrasound are non-specific.",
+          "highlightTabs": [
+            {
+              "id": "ht_standalone_1783030000007_1",
+              "title": "Nurses' Notes",
+              "content": "A 6-month-old infant is evaluated for developmental regression, head lag, and persistent rash. The mother states the infant was born at home with no newborn metabolic blood spot screening performed. On exam, the nurse notes {a distinctive musty, mousy odor emanating from the infant's urine and skin|correct}. Physical inspection reveals fair skin, blonde hair, and blue eyes significantly lighter than the biological parents, consistent with {impaired melanin synthesis secondary to severe tyrosine deficiency|correct}. Neurologic evaluation reveals {infantile spasms, microcephaly, and profound developmental milestones regression|correct}. Diagnostic metabolic laboratory testing demonstrates {plasma phenylalanine concentration markedly elevated at 1,420 micromol/L due to phenylalanine hydroxylase deficiency|correct}. {Complete blood count reveals hemoglobin 12.1 g/dL and platelet count 280,000/mcL.} {Serum sodium is 139 mEq/L and potassium is 4.3 mEq/L.} {Abdominal ultrasound demonstrates normal hepatic and splenic size.}"
+            }
+          ]
         },
         "leftContent": {
           "intro": "A 6-month-old infant presents with developmental regression and skin rash. The child missed routine newborn screening after an unassisted home birth.",
@@ -12379,7 +13083,14 @@ window.NCLEX_STANDALONE = [
           "maxCorrectSelections": 4,
           "options": [],
           "preamble": "The primary care clinic nurse is screening an adult client for early signs and symptoms of malignancy using the CAUTION mnemonic.",
-          "explanation": "The American Cancer Society's CAUTION mnemonic outlines key warning signs: C = Change in bowel or bladder habits (ribbon-like stools/constipation); A = A sore that does not heal (non-healing lip ulcer); U = Unusual bleeding or discharge; T = Thickening or lump in breast or elsewhere (firm breast lump); I = Indigestion or difficulty swallowing; O = Obvious change in wart or mole; N = Nagging cough or hoarseness (persistent hoarseness/cough > 3 months). Normal blood pressure, normal urinalysis, and intact visual acuity are non-neoplastic general physical exam findings."
+          "explanation": "The American Cancer Society's CAUTION mnemonic outlines key warning signs: C = Change in bowel or bladder habits (ribbon-like stools/constipation); A = A sore that does not heal (non-healing lip ulcer); U = Unusual bleeding or discharge; T = Thickening or lump in breast or elsewhere (firm breast lump); I = Indigestion or difficulty swallowing; O = Obvious change in wart or mole; N = Nagging cough or hoarseness (persistent hoarseness/cough > 3 months). Normal blood pressure, normal urinalysis, and intact visual acuity are non-neoplastic general physical exam findings.",
+          "highlightTabs": [
+            {
+              "id": "ht_standalone_1783040000006_1",
+              "title": "Nurses' Notes",
+              "content": "A 62-year-old client presents for routine annual review. Review of systems reveals {a persistent change in bowel habits over 2 months with ribbon-like stools and alternating constipation|correct}. The client also reports {a non-healing shallow ulcer on the lower lip that has bled repeatedly for 7 weeks|correct}. On physical examination of the left breast, the nurse palpates {a firm, non-tender, immobile 2-cm thickening and lump in the upper outer quadrant|correct}. In addition, the client mentions {a nagging, dry hoarseness and coughing that has persisted for over 3 months without an antecedent viral infection|correct}. {Blood pressure is 126/78 mmHg, heart rate is 74 beats/min, and oxygen saturation is 98% on room air.} {Urine dipstick is negative for protein and glucose.} {Bilateral visual acuity is 20/20 with corrective lenses.}"
+            }
+          ]
         },
         "leftContent": {
           "intro": "A 62-year-old client presents for a routine annual health review with subtle multi-system complaints noted over the past several months.",
@@ -12961,7 +13672,14 @@ window.NCLEX_STANDALONE = [
           "maxCorrectSelections": 4,
           "options": [],
           "preamble": "The dermatology oncology nurse is assessing a pigmented cutaneous lesion using the ABCDE screening framework.",
-          "explanation": "The ABCDE criteria for melanoma include: A = Asymmetry (one half does not match the other); B = Border irregularity (scalloped, notched, or poorly defined edges); C = Color variegation (heterogeneous mixture of brown, black, blue, white, or red); D = Diameter > 6 mm (pencil eraser size); E = Evolving (lesion changing in size, shape, or color over time). Surrounding non-dysplastic freckles, normal vital signs, and negative systemic review are non-melanoma findings."
+          "explanation": "The ABCDE criteria for melanoma include: A = Asymmetry (one half does not match the other); B = Border irregularity (scalloped, notched, or poorly defined edges); C = Color variegation (heterogeneous mixture of brown, black, blue, white, or red); D = Diameter > 6 mm (pencil eraser size); E = Evolving (lesion changing in size, shape, or color over time). Surrounding non-dysplastic freckles, normal vital signs, and negative systemic review are non-melanoma findings.",
+          "highlightTabs": [
+            {
+              "id": "ht_standalone_1783050000007_1",
+              "title": "Nurses' Notes",
+              "content": "A 48-year-old fair-skinned client with extensive recreational sun exposure presents for evaluation of an abnormal back lesion. Visual inspection of the left infrascapular region reveals a pigmented lesion with {marked asymmetry between the superior and inferior hemispheres|correct}. Dermatoscopic examination identifies {irregular, notched, and scalloped peripheral borders|correct}. The internal lesion displays {prominent color variegation containing shades of jet black, deep brown, pink, and focal bluish-white depigmentation|correct}. Caliper measurement records {a maximal cross-sectional diameter of 9 millimeters|correct}. The client notes the lesion was previously uniform and small but grew and changed over the last 4 months. {The surrounding skin shows numerous non-dysplastic ephelides (freckles).} {Blood pressure is 120/80 mmHg, and heart rate is 68 beats/min.} {Review of systems is negative for bone pain, cough, or weight loss.}"
+            }
+          ]
         },
         "leftContent": {
           "intro": "A 48-year-old client with Fitzpatrick skin type II presents after a spouse noticed a rapidly darkening, irregular mole on the mid-back.",

@@ -280,7 +280,42 @@ function migrateCaseTypes(c) {
       else if (t === 'single') screen.question.type = 'multiple_choice';
       else if (t === 'selectN') screen.question.type = 'select_n';
     }
+    if (screen.question) {
+      migrateLegacyDropdownCloze(screen.question);
+      migrateLegacyHighlightText(screen.question, `ht_${c.id}_${screen.step}`);
+    }
   });
+}
+
+// Older highlight questions kept their passage in `highlightText`; the player and
+// editor now use `highlightTabs`. Convert once on load with a stable tab id, rather
+// than letting the player rewrite the question every time it is displayed.
+function migrateLegacyHighlightText(q, tabId) {
+  if ((q.type !== 'highlight' && q.type !== 'highlight_2') || q.highlightTabs || typeof q.highlightText !== 'string') return;
+  q.highlightTabs = [{ id: tabId, title: "Nurses' Notes", content: q.highlightText }];
+}
+
+// Older drop-down questions were stored as
+//   dropdown_cloze: { sentences: ['... [drp1] ...'], dropdowns: [{ id, options: ['...'], correctIndex }] }
+// but the player and editor read
+//   cloze: { text: '... [[drop0]] ...', dropdowns: [{ placeholder, options: [{ text, correct }] }] }
+// Convert on load so those questions show their drop-downs.
+function migrateLegacyDropdownCloze(q) {
+  const legacy = q.dropdown_cloze;
+  if (!legacy || typeof legacy !== 'object' || q.cloze) return;
+  const dropdowns = legacy.dropdowns || [];
+  const slotById = {};
+  dropdowns.forEach((d, i) => { slotById[d.id] = i; });
+  const text = (legacy.sentences || []).map(s => String(s).trim()).join(' ')
+    .replace(/\[(\w+)\]/g, (m, id) => (id in slotById ? `[[drop${slotById[id]}]]` : m));
+  q.cloze = {
+    text,
+    dropdowns: dropdowns.map(d => ({
+      placeholder: 'Select...',
+      options: (d.options || []).map((opt, i) => ({ text: String(opt), correct: i === d.correctIndex }))
+    }))
+  };
+  delete q.dropdown_cloze;
 }
 
 const SUPABASE_URL = 'https://taprukpiubqsckahocaz.supabase.co';
