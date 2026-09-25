@@ -65,6 +65,30 @@ Question types (`question.type`) and their answer keys:
 Content conventions: never list correct answers first (shuffle options; if a rationale refers to option
 numbers, write "(Option N)" to match); don't number rationale points in a way that looks like option numbers.
 
+## Writing new case studies (draft → review → publish)
+
+New content is developed in its own session, separate from UI/UX work. That session only touches
+`drafts/` (and publishes through the workflow); it does not edit `js/`, `style.css` or `index.html`.
+Both sessions push to `main`, so pull (rebase) before pushing.
+
+1. **Draft** in `drafts/`: one generator script per case (`build_<unit>_<case>.py`, modelled on
+   `drafts/build_unit3_case4.py`) that writes `drafts/<id>_<Title>.json`. Match the structure and style of
+   the existing NURS 1017 cases in the same unit (6 screens, tabs that unfold over time, HTML tables,
+   `<br>` rationales). Pick the next free ID in the unit's range (check `cases-data.js` and `drafts/`).
+   Base the content on the resources the user provides; don't duplicate topics that already exist.
+2. **Review**: render every screen in the real player (load the JSON into the app with Playwright,
+   Supabase blocked), confirm each screen scores full marks with its answer key and passes the readiness
+   rule (`itemProblems` returns nothing), and give the user a PDF walkthrough (question + answered
+   screenshots per screen) and a Markdown answer key with full rationales. Flag anything that needs
+   clinician review. Iterate on the draft until the user approves it. **Drafts are not visible to students.**
+3. **Publish** only after the user approves: trigger the Supabase workflow with `action: add`,
+   `file: drafts/<file>.json` (needs the `SUPABASE_SECRET_KEY` secret once the admin lock-down SQL has run),
+   check the job log, then trigger `action: download` so the workflow commits the refreshed
+   `cases-data.js` backup; pull it. Never edit `cases-data.js` by hand for new content, and never use
+   `upload` to publish (it replaces the whole bank).
+4. To change an already-published case, edit it in the authoring studio (signed in as admin), or ask the
+   user before replacing it through the tools.
+
 ## Saving and sign-in (how it works)
 
 - Load: database (`select=*`) → if unreachable or empty, fall back to `cases-data.js` and set
