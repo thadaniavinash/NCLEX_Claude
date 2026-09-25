@@ -213,12 +213,12 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "enzyme release from damaged skeletal muscle",
-                  "correct": true
-                },
-                {
                   "text": "early liver failure",
                   "correct": false
+                },
+                {
+                  "text": "enzyme release from damaged skeletal muscle",
+                  "correct": true
                 },
                 {
                   "text": "a side effect of his vaccinations",
@@ -393,16 +393,16 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "achieving its goal of slowing the loss of muscle strength",
-                  "correct": true
-                },
-                {
                   "text": "curing the underlying genetic defect",
                   "correct": false
                 },
                 {
                   "text": "no longer needed because Ethan's strength has stabilized",
                   "correct": false
+                },
+                {
+                  "text": "achieving its goal of slowing the loss of muscle strength",
+                  "correct": true
                 }
               ]
             },
@@ -410,12 +410,12 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "request a dietitian referral and discuss vitamin D and calcium supplementation with the provider",
-                  "correct": true
-                },
-                {
                   "text": "stop physical therapy until his weight improves",
                   "correct": false
+                },
+                {
+                  "text": "request a dietitian referral and discuss vitamin D and calcium supplementation with the provider",
+                  "correct": true
                 },
                 {
                   "text": "give extra calories to support muscle growth",
@@ -427,16 +427,16 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "must never be stopped suddenly; any change must be a gradual taper directed by the provider",
-                  "correct": true
-                },
-                {
                   "text": "can be stopped at home once his weight returns to normal",
                   "correct": false
                 },
                 {
                   "text": "should be stopped for 1 week each month to allow a steroid holiday",
                   "correct": false
+                },
+                {
+                  "text": "must never be stopped suddenly; any change must be a gradual taper directed by the provider",
+                  "correct": true
                 }
               ]
             }

@@ -6,8 +6,12 @@
 //   node tools/supabase.js compare-original  what changed on the original live site since this copy was made
 //   node tools/supabase.js upload            cases-data.js -> this copy's database (verified)
 //   node tools/supabase.js download          this copy's database -> cases-data.js
+//   node tools/supabase.js add <file.json>   add one new case study or stand-alone question to the database
 //
-// Needs Node 18+ (global fetch).
+// Needs Node 18+ (global fetch). Writes use the SUPABASE_SECRET_KEY environment variable when
+// it is set (required once supabase/002_admin_logins.sql restricts saving to admins); reads use
+// the publishable key. When the table has a `version` column, every write only succeeds if
+// nobody else saved in the meantime (and bumps the version, so open editors notice).
 
 const fs = require('fs');
 const path = require('path');
@@ -23,6 +27,8 @@ const COPY_BASE_COMMIT = 'a922452';
 
 const REPO_DIR = path.dirname(__dirname);
 const DATA_FILE = path.join(REPO_DIR, 'cases-data.js');
+
+const WRITE_KEY = process.env.SUPABASE_SECRET_KEY || NEW_KEY;
 
 const headers = key => ({ apikey: key, Authorization: `Bearer ${key}` });
 
@@ -47,23 +53,38 @@ function canonical(value) {
 const same = (a, b) => JSON.stringify(canonical(a)) === JSON.stringify(canonical(b));
 
 async function readBank(url, key) {
-  const res = await fetch(`${url}/rest/v1/nclex_data?select=key,data`, { headers: headers(key) });
+  // select=* so this works both before and after the `version` column exists.
+  const res = await fetch(`${url}/rest/v1/nclex_data?select=*`, { headers: headers(key) });
   if (!res.ok) throw new Error(`Reading ${url} failed: ${res.status} ${await res.text()}`);
   const rows = await res.json();
   const row = k => rows.find(r => r.key === k);
-  return { rows, cases: row('cases') ? row('cases').data : null, standalone: row('standalone') ? row('standalone').data : null };
+  const version = k => (row(k) && row(k).version !== undefined ? row(k).version : null);
+  return {
+    rows,
+    cases: row('cases') ? row('cases').data : null,
+    standalone: row('standalone') ? row('standalone').data : null,
+    versions: { cases: version('cases'), standalone: version('standalone') }
+  };
 }
 
-async function writeRow(key, data) {
+// expectedVersion: the version read before this write (null when the table has no version
+// column). The write then only applies if the row is still at that version.
+async function writeRow(key, data, expectedVersion = null) {
   if (NEW_URL === ORIGINAL_URL) throw new Error('Refusing to write: the target is the original database.');
-  const res = await fetch(`${NEW_URL}/rest/v1/nclex_data?key=eq.${key}`, {
+  const versioned = expectedVersion !== null && expectedVersion !== undefined;
+  const filter = versioned ? `&version=eq.${expectedVersion}` : '';
+  const res = await fetch(`${NEW_URL}/rest/v1/nclex_data?key=eq.${key}${filter}`, {
     method: 'PATCH',
-    headers: { ...headers(NEW_KEY), 'Content-Type': 'application/json', Prefer: 'return=representation' },
-    body: JSON.stringify({ data })
+    headers: { ...headers(WRITE_KEY), 'Content-Type': 'application/json', Prefer: 'return=representation' },
+    body: JSON.stringify(versioned ? { data, version: expectedVersion + 1 } : { data })
   });
   const body = await res.text();
   if (!res.ok) throw new Error(`Writing '${key}' failed: ${res.status} ${body}`);
-  if (JSON.parse(body).length !== 1) throw new Error(`Writing '${key}' changed no row. Was supabase/setup.sql run?`);
+  if (JSON.parse(body).length !== 1) {
+    throw new Error(versioned
+      ? `Writing '${key}' was refused: someone saved in the meantime, or this key may not save (set SUPABASE_SECRET_KEY). Nothing was changed.`
+      : `Writing '${key}' changed no row: the rows are missing, or this key may not save (set SUPABASE_SECRET_KEY).`);
+  }
 }
 
 async function ping() {
@@ -78,8 +99,10 @@ async function check() {
     throw new Error("The 'cases' and 'standalone' rows are missing. Run supabase/setup.sql in the project's SQL Editor.");
   }
   console.log(`Currently holds ${bank.cases.length} case studies and ${bank.standalone.length} stand-alone questions.`);
-  await writeRow('standalone', bank.standalone); // rewrite the same data: proves the key can update
-  console.log('Read and write access: OK');
+  console.log(`Versions: cases=${bank.versions.cases}, standalone=${bank.versions.standalone} (null = no version column yet)`);
+  // Rewrite the same data (version-checked): proves the write key can update.
+  await writeRow('standalone', bank.standalone, bank.versions.standalone);
+  console.log(`Read and write access with the ${process.env.SUPABASE_SECRET_KEY ? 'secret' : 'publishable'} key: OK`);
 }
 
 // Field-level differences between two versions of an item, with short excerpts.
@@ -124,7 +147,8 @@ async function compareOriginal() {
 async function upload() {
   const bank = parseBank(fs.readFileSync(DATA_FILE, 'utf8'));
   if (!bank.cases.length) throw new Error('cases-data.js has no case studies; refusing to upload an empty bank.');
-  for (const key of ['cases', 'standalone']) await writeRow(key, bank[key]);
+  const current = await readBank(NEW_URL, NEW_KEY);
+  for (const key of ['cases', 'standalone']) await writeRow(key, bank[key], current.versions[key]);
   const stored = await readBank(NEW_URL, NEW_KEY);
   const ok = same(stored.cases, bank.cases) && same(stored.standalone, bank.standalone);
   console.log(`Uploaded ${bank.cases.length} case studies and ${bank.standalone.length} stand-alone questions; ` +
@@ -135,13 +159,57 @@ async function upload() {
 async function download() {
   const bank = await readBank(NEW_URL, NEW_KEY);
   if (!Array.isArray(bank.cases) || !bank.cases.length) throw new Error('The database has no case studies; refusing to overwrite cases-data.js.');
+  // Postgres reorders the keys inside each item. Keep the repo's copy of every item that
+  // has not really changed, so the file's diff shows only real edits.
+  const local = parseBank(fs.readFileSync(DATA_FILE, 'utf8'));
+  let changed = 0;
+  // Edited items: put keys back in the repo's order, so the diff shows only the edit.
+  const orderLike = (value, model) => {
+    if (Array.isArray(value)) return value.map((v, i) => orderLike(v, Array.isArray(model) ? model[i] : undefined));
+    if (!value || typeof value !== 'object') return value;
+    const reference = model && typeof model === 'object' && !Array.isArray(model) ? Object.keys(model) : [];
+    const keys = [...reference.filter(k => k in value), ...Object.keys(value).filter(k => !reference.includes(k))];
+    return keys.reduce((o, k) => { o[k] = orderLike(value[k], model ? model[k] : undefined); return o; }, {});
+  };
+  const keepOrder = (dbItems, localItems) => {
+    const byId = new Map(localItems.map(x => [x.id, x]));
+    return dbItems.map(x => {
+      const mine = byId.get(x.id);
+      if (mine && same(mine, x)) return mine;
+      changed++;
+      return orderLike(x, mine);
+    });
+  };
+  const merged = { cases: keepOrder(bank.cases, local.cases), standalone: keepOrder(bank.standalone || [], local.standalone) };
+  const dbIds = new Set([...merged.cases, ...merged.standalone].map(x => x.id));
+  const removed = [...local.cases, ...local.standalone].filter(x => !dbIds.has(x.id)).length;
   const tmp = DATA_FILE + '.tmp';
-  fs.writeFileSync(tmp, bankToSource(bank), 'utf8');
+  fs.writeFileSync(tmp, bankToSource(merged), 'utf8');
   fs.renameSync(tmp, DATA_FILE);
-  console.log(`Saved ${bank.cases.length} case studies and ${bank.standalone.length} stand-alone questions to cases-data.js.`);
+  console.log(`Saved ${merged.cases.length} case studies and ${merged.standalone.length} stand-alone questions to cases-data.js ` +
+              `(${changed} added or edited in the database, ${removed} removed).`);
 }
 
-const commands = { ping, check, 'compare-original': compareOriginal, upload, download };
+async function add() {
+  const files = process.argv.slice(3);
+  if (!files.length) throw new Error('Usage: node tools/supabase.js add <item.json> [more.json ...]');
+  const bank = await readBank(NEW_URL, NEW_KEY);
+  if (!Array.isArray(bank.cases) || !Array.isArray(bank.standalone)) throw new Error('The database rows are missing.');
+  const touched = new Set();
+  for (const file of files) {
+    const item = JSON.parse(fs.readFileSync(path.resolve(REPO_DIR, file), 'utf8'));
+    if (!item.id || !Array.isArray(item.screens) || !item.screens.length) throw new Error(`${file} is not a case study or stand-alone question.`);
+    if ([...bank.cases, ...bank.standalone].some(x => x.id === item.id)) throw new Error(`${item.id} is already in the database; not added.`);
+    const key = item.isStandalone ? 'standalone' : 'cases';
+    bank[key].push(item);
+    touched.add(key);
+    console.log(`Adding ${item.title} [${item.id}] to ${key}.`);
+  }
+  for (const key of touched) await writeRow(key, bank[key], bank.versions[key]);
+  console.log(`Database now holds ${bank.cases.length} case studies and ${bank.standalone.length} stand-alone questions.`);
+}
+
+const commands = { ping, check, 'compare-original': compareOriginal, upload, download, add };
 const command = commands[process.argv[2]];
 if (!command) {
   console.error(`Usage: node tools/supabase.js <${Object.keys(commands).join('|')}>`);
