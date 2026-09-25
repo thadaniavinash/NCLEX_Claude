@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1784060000005",
+  "title": "Unit 6 Stand-alone 5: ERCP Pre-Procedure Questions",
+  "course": "NURS 1021",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following questions would be important for the nurse to ask? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is talking with a client who is scheduled for endoscopic retrograde cholangiopancreatography (ERCP) in 2 hours in the outpatient department.",
+        "options": [
+          {
+            "text": "“How will you be getting home after the procedure?”",
+            "correct": true
+          },
+          {
+            "text": "“Do you have access to a thermometer after you leave here?”",
+            "correct": true
+          },
+          {
+            "text": "“What allergies do you have?”",
+            "correct": true
+          },
+          {
+            "text": "“Are you wearing dentures?”",
+            "correct": true
+          },
+          {
+            "text": "“Do you have external hemorrhoids?”",
+            "correct": false
+          }
+        ],
+        "explanation": "ERCP is performed with sedation, so the client must arrange transportation home and should not drive (Option 1). The client should have a thermometer available at home to monitor for fever, an early sign of post-ERCP complications such as pancreatitis or cholangitis (Option 2). ERCP uses contrast dye, so allergies (particularly to iodine or shellfish) must be identified beforehand (Option 3). ERCP involves passing an endoscope through the mouth and esophagus, so dentures must be identified and removed before the procedure (Option 4). External hemorrhoids (Option 5) are unrelated to ERCP, which examines the upper gastrointestinal tract and biliary system, not the rectum or anus.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

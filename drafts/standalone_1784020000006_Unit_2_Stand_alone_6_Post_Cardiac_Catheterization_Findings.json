@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784020000006",
+  "title": "Unit 2 Stand-alone 6: Post-Cardiac-Catheterization Findings",
+  "course": "NURS 1021",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would require <b>immediate</b> follow-up?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is assessing a client who had cardiac catheterization 2 hours ago.",
+        "options": [
+          {
+            "text": "blood pressure, 104/70 mm Hg",
+            "correct": false
+          },
+          {
+            "text": "1+ pedal pulse of the affected extremity",
+            "correct": true
+          },
+          {
+            "text": "heart rate, 98",
+            "correct": false
+          },
+          {
+            "text": "urine output of 100 mL for the past 2 hours",
+            "correct": false
+          }
+        ],
+        "explanation": "A diminished (1+) pedal pulse in the extremity used for catheter access (Option 2) requires immediate follow-up because it may indicate arterial occlusion, thrombus, or a hematoma compressing blood flow -- a vascular emergency after cardiac catheterization. A blood pressure of 104/70 mm Hg (Option 1) and a heart rate of 98 (Option 3) are within expected limits. A urine output of 100 mL over 2 hours (Option 4) is approximately 50 mL/hr, an adequate output that does not require immediate follow-up.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

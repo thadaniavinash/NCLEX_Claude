@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783110000003",
+  "title": "Unit 11 Stand-alone 3: Insulin Infusion Pump Teaching Evaluation",
+  "course": "NURS 1017",
+  "unit": "Unit 11 (Endocrine Disorders)",
+  "topic": "Unit 11 (Endocrine Disorders)",
+  "disorder": "Unit 11 (Endocrine Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would require follow-up?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is talking with a client who has diabetes mellitus (type 1) and is receiving insulin via an infusion pump.",
+        "options": [
+          {
+            "text": "“I need a bolus dose of insulin prior to a meal.”",
+            "correct": false
+          },
+          {
+            "text": "“I should refill the pump with short-duration insulin.”",
+            "correct": false
+          },
+          {
+            "text": "“I can decrease serum glucose monitoring to twice daily.”",
+            "correct": true
+          },
+          {
+            "text": "“I will change the infusion needle every 2 to 3 days.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Insulin pump therapy requires frequent blood glucose monitoring, typically 4 or more times daily, to safely adjust basal and bolus dosing and detect pump malfunction early; decreasing monitoring to twice daily (Option 3) is unsafe and requires follow-up. Requiring a bolus dose before meals (Option 1), using short-duration (rapid-acting) insulin in the pump (Option 2), and changing the infusion needle every 2 to 3 days (Option 4) are all accurate statements about correct insulin pump use.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

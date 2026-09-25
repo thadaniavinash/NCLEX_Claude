@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784080000001",
+  "title": "Unit 8 Stand-alone 1: Priority Lab Monitoring by Diagnosis",
+  "course": "NURS 1021",
+  "unit": "Unit 8 (Fluid, Electrolytes, and Acid-Base Imbalances)",
+  "topic": "Unit 8 (Fluid, Electrolytes, and Acid-Base Imbalances)",
+  "disorder": "Unit 8 (Fluid, Electrolytes, and Acid-Base Imbalances)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would be <b>most</b> important for the nurse to monitor",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for assigned clients.",
+        "options": [
+          {
+            "text": "serum lipase levels for the client with hypercholesterolemia",
+            "correct": false
+          },
+          {
+            "text": "arterial blood gas (ABG) results for the client who has an acid-base imbalance",
+            "correct": true
+          },
+          {
+            "text": "serum glucose levels for the client with diabetes insipidus (DI)",
+            "correct": false
+          },
+          {
+            "text": "adrenocorticotropic hormone (ACTH) levels for the client who has a fluid imbalance",
+            "correct": false
+          }
+        ],
+        "explanation": "Arterial blood gas results (Option 2) directly assess acid-base status and are the correct, matched lab for a client with an acid-base imbalance. Serum lipase (Option 1) evaluates pancreatic function, not cholesterol status. Serum glucose (Option 3) is the relevant lab for diabetes mellitus, not diabetes insipidus, which is a disorder of antidiuretic hormone and water balance. ACTH (Option 4) reflects adrenal/pituitary function and is not the most directly relevant lab for a general fluid imbalance.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

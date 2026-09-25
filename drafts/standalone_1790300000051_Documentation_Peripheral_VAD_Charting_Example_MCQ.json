@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000051",
+  "title": "Documentation - Peripheral VAD Charting Example (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following would be the <b>best</b> example of correct documentation for the nurse to include in the client's medical record?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is documenting care for a client who had a peripheral venous access device (VAD) inserted 10 minutes ago.",
+        "options": [
+          {
+            "text": "22-gauge catheter inserted into the right hand.",
+            "correct": true
+          },
+          {
+            "text": "Secured the site with paper tape to avoid skin tears.",
+            "correct": false
+          },
+          {
+            "text": "Infusion started slowly due to reports of coolness at the site.",
+            "correct": false
+          },
+          {
+            "text": "Labeled site, tubing, and intravenous fluid bag.",
+            "correct": false
+          }
+        ],
+        "explanation": "Documenting the specific catheter gauge and insertion site (Option 1) is objective, factual charting -- exactly what should be recorded after a VAD insertion, without added interpretation. Stating the site was secured with paper tape “to avoid skin tears” (Option 2) adds a subjective rationale rather than simply documenting the objective action taken. Documenting that the infusion was started “slowly” (Option 3) is vague and not a quantifiable rate, and links the action to a client report without also documenting the objective assessment findings (such as site appearance) that prompted it. Labeling the site, tubing, and fluid bag (Option 4) describes a correct safety action but is flagged here for clinician review, since it is also a defensible answer to this item.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

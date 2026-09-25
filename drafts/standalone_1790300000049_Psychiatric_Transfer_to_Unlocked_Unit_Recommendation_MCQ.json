@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000049",
+  "title": "Psychiatric - Transfer to Unlocked Unit Recommendation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The charge nurse should recommend for transfer the client with",
+        "type": "multiple_choice",
+        "preamble": "The charge nurse must transfer a client from a locked psychiatric unit to an unlocked unit in order to make a bed available.",
+        "options": [
+          {
+            "text": "depression who has suddenly become more animated and involved in unit activities",
+            "correct": false
+          },
+          {
+            "text": "bipolar I disorder who is experiencing a manic episode, is disrobing, and is laughing with other clients",
+            "correct": false
+          },
+          {
+            "text": "schizophrenia who is withdrawn and requires assistance with activities of daily living (ADL)",
+            "correct": true
+          },
+          {
+            "text": "dementia who is delusional about being poisoned by staff members",
+            "correct": false
+          }
+        ],
+        "explanation": "The client with schizophrenia who is withdrawn and needs assistance with ADLs (Option 3) presents the lowest immediate safety risk of the group -- quiet and cooperative, without acute agitation, elopement risk, or unsafe behavior -- making this client the most appropriate candidate for transfer to a less restrictive, unlocked unit. A previously depressed client who suddenly becomes markedly more animated (Option 1) is a classic warning sign for increased suicide risk and requires continued close monitoring, not transfer to a less secure unit. A client in an acute manic episode who is disrobing and disorganized (Option 2) has impaired judgment and safety awareness unsuitable for an unlocked unit. A client with dementia who has active paranoid delusions about being poisoned (Option 4) is at risk for refusing care, elopement, or agitation and needs continued close supervision.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

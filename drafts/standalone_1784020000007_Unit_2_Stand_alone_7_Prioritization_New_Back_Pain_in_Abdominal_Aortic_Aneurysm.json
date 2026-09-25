@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784020000007",
+  "title": "Unit 2 Stand-alone 7: Prioritization - New Back Pain in Abdominal Aortic Aneurysm",
+  "course": "NURS 1021",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> assess the client",
+        "type": "multiple_choice",
+        "preamble": "The nurse has received information about assigned clients.",
+        "options": [
+          {
+            "text": "with multiple sclerosis (MS) who had an indwelling urethral catheter removed 5 hours ago and has not been able to urinate",
+            "correct": false
+          },
+          {
+            "text": "with an abdominal aortic aneurysm who reports recent onset of low back pain",
+            "correct": true
+          },
+          {
+            "text": "who had coronary artery bypass graft (CABG) surgery 2 days ago and reports sternal pain when coughing",
+            "correct": false
+          },
+          {
+            "text": "who has bacterial pneumonia and is requesting a cough suppressant",
+            "correct": false
+          }
+        ],
+        "explanation": "New onset low back pain in a client with a known abdominal aortic aneurysm (Option 2) is a classic warning sign of aneurysm expansion or impending rupture, a life-threatening emergency requiring immediate assessment. Urinary retention after recent catheter removal in a client with MS (Option 1) needs assessment but is not immediately life-threatening. Sternal pain with coughing 2 days after CABG surgery (Option 3) is an expected postoperative finding. A request for a cough suppressant in a client with bacterial pneumonia (Option 4) is a reasonable, non-urgent request.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784010000003",
+  "title": "Unit 1 Stand-alone 3: Clopidogrel Client Teaching",
+  "course": "NURS 1021",
+  "unit": "Unit 1 (Blood Disorders)",
+  "topic": "Unit 1 (Blood Disorders)",
+  "disorder": "Unit 1 (Blood Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is teaching a client who is receiving newly prescribed clopidogrel.",
+        "options": [
+          {
+            "text": "“Notify your primary health care provider if you experience unusual bruising.”",
+            "correct": true
+          },
+          {
+            "text": "“Avoid taking over-the-counter (OTC) medications containing acetaminophen.”",
+            "correct": false
+          },
+          {
+            "text": "“Avoid driving your car for a short time until your response to the medication is known.”",
+            "correct": false
+          },
+          {
+            "text": "“Have a blood specimen obtained every 3 months to check your serum albumin level.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Clopidogrel is an antiplatelet medication, so the client should report unusual bruising or bleeding to the primary health care provider (Option 1). Acetaminophen (Option 2) does not carry the same bleeding-risk interaction with clopidogrel that NSAIDs or aspirin do, so this restriction is not appropriate teaching. Clopidogrel does not cause sedation or impair driving ability, so a driving restriction (Option 3) is not indicated. Routine serum albumin monitoring (Option 4) is not part of standard clopidogrel therapy monitoring.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

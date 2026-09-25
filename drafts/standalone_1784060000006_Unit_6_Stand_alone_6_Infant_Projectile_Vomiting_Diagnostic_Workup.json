@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1784060000006",
+  "title": "Unit 6 Stand-alone 6: Infant Projectile Vomiting - Diagnostic Workup",
+  "course": "NURS 1021",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following diagnostic procedures should the nurse anticipate the physician would order? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse in the emergency department (ED) is caring for a 10-day-old client with recurrent projectile vomiting after feedings, hyperactive bowel sounds, and, by the most recent assessment, a distended abdomen and inconsolable crying.",
+        "options": [
+          {
+            "text": "barium enema",
+            "correct": false
+          },
+          {
+            "text": "abdominal x-ray",
+            "correct": true
+          },
+          {
+            "text": "abdominal ultrasound",
+            "correct": true
+          },
+          {
+            "text": "complete metabolic panel",
+            "correct": true
+          },
+          {
+            "text": "esophagogastroduodenoscopy (EGD)",
+            "correct": false
+          }
+        ],
+        "explanation": "This presentation (recurrent projectile vomiting in a neonate, abdominal distention) is consistent with pyloric stenosis or another upper gastrointestinal obstructive process. Abdominal ultrasound (Option 3) is the gold-standard imaging study to visualize a thickened, elongated pylorus. An abdominal x-ray (Option 2) is a reasonable initial screen for a distended, obstructed abdomen. A complete metabolic panel (Option 4) is indicated to assess for the hypochloremic, hypokalemic metabolic alkalosis that results from repeated vomiting of gastric contents. A barium enema (Option 1) evaluates the lower gastrointestinal tract (for example, intussusception) and is not indicated for this upper gastrointestinal/gastric outlet presentation. Esophagogastroduodenoscopy (Option 5) is an invasive direct-visualization procedure that is not the standard first-line diagnostic study for suspected pyloric stenosis in an infant.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

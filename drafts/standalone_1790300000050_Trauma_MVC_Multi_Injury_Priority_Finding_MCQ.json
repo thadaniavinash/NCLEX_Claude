@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000050",
+  "title": "Trauma - MVC Multi-Injury Priority Finding (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings should receive <b>highest</b> priority?",
+        "type": "multiple_choice",
+        "preamble": "The nurse in the emergency department (ED) is assessing a client with multiple injuries that occurred as a result of a motor vehicle collision.",
+        "options": [
+          {
+            "text": "avulsion injury of the left index finger",
+            "correct": false
+          },
+          {
+            "text": "deep laceration on the right forearm with blood oozing from the surface",
+            "correct": false
+          },
+          {
+            "text": "hematoma on the left side of the neck",
+            "correct": true
+          },
+          {
+            "text": "open fracture of the right tibia and fibula",
+            "correct": false
+          }
+        ],
+        "explanation": "A neck hematoma (Option 3) is the highest priority because an expanding hematoma in the neck can compress the airway or major blood vessels, posing an immediate threat to life. A finger avulsion (Option 1), a forearm laceration with oozing (not actively hemorrhaging) blood (Option 2), and an open tibia-fibula fracture (Option 4) are all significant injuries but are not immediately life-threatening compared to a potential airway or major vascular compromise.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

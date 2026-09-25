@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784030000005",
+  "title": "Unit 3 Stand-alone 5: COPD Nutrition Documentation and Negligence Review",
+  "course": "NURS 1021",
+  "unit": "Unit 3 (Respiratory Disorders)",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "disorder": "Unit 3 (Respiratory Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following entries in the client's medical record would help <b>refute</b> the charge of negligence?",
+        "type": "multiple_choice",
+        "preamble": "The nurse that cared for a client with chronic obstructive pulmonary disease (COPD) who lost more than 10% of ideal body weight has been named in a lawsuit charging negligence.",
+        "options": [
+          {
+            "text": "The client has been instructed to eat 3 large meals daily.",
+            "correct": false
+          },
+          {
+            "text": "The client has been encouraged to maintain a high-calorie, high-protein diet.",
+            "correct": true
+          },
+          {
+            "text": "The client has been encouraged to drink fluids with meals to promote digestion.",
+            "correct": false
+          },
+          {
+            "text": "The client has been instructed to exercise 30 minutes before eating to improve appetite.",
+            "correct": false
+          }
+        ],
+        "explanation": "Encouraging a high-calorie, high-protein diet (Option 2) is the correct, evidence-based nutritional teaching for a client with COPD at risk for malnutrition, and documentation of this teaching would help refute a claim of negligent care. Instructing the client to eat 3 large meals daily (Option 1) is incorrect teaching, since large meals can cause abdominal distention that presses on the diaphragm and worsens dyspnea; smaller, more frequent meals are recommended instead. Encouraging fluids with meals (Option 3) is also incorrect, since fluids taken with meals can cause early satiety and reduce food intake; fluids should be taken between meals. Instructing the client to exercise immediately before eating (Option 4) is incorrect, since exertion before a meal increases fatigue and dyspnea and can further reduce appetite and intake; rest before meals is recommended instead. Documentation of these 3 incorrect teaching points would not help refute, and could support, a negligence claim.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

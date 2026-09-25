@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000052",
+  "title": "Leadership - Collaborative Conflict Resolution Example (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following would <b>best</b> describe implementation of a collaborative conflict resolution strategy?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is planning a staff education program about collaborative conflict resolution strategies.",
+        "options": [
+          {
+            "text": "“A staff nurse is working with the nurse manager and offering suggestions about an upcoming new procedure.”",
+            "correct": false
+          },
+          {
+            "text": "“The clinical nurse leader is flattered by being asked to help create a clinical ladder for nursing staff members.”",
+            "correct": false
+          },
+          {
+            "text": "“The charge nurse is working with staff nurses and the nurse manager to develop shared goals and a plan for the new staffing format.”",
+            "correct": true
+          },
+          {
+            "text": "“A new nurse has offered to work on a holiday in exchange for having the following weekend off.”",
+            "correct": false
+          }
+        ],
+        "explanation": "The charge nurse working together with staff nurses and the nurse manager to develop shared goals and a plan for a potentially contentious issue (a new staffing format) (Option 3) reflects the collaborating conflict-resolution style, in which multiple stakeholders work together toward a mutually satisfying, shared outcome. Offering suggestions about a new procedure (Option 1) and being flattered by an invitation to help with a project (Option 2) do not describe an active conflict being resolved collaboratively. A nurse trading a holiday shift for a weekend off (Option 4) reflects a compromising style (a give-and-take trade-off between 2 parties), not the collaborating style, which involves shared goal-setting among multiple parties.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

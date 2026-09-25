@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000054",
+  "title": "Disaster Triage - Priority Client (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should give <b>priority</b> for treatment to a",
+        "type": "multiple_choice",
+        "preamble": "The nurse is participating in a community-based disaster drill.",
+        "options": [
+          {
+            "text": "2-year-old client with a bleeding scalp laceration and briskly reactive pupils",
+            "correct": false
+          },
+          {
+            "text": "15-year-old client who is restless and has a distended, firm abdomen",
+            "correct": true
+          },
+          {
+            "text": "30-year-old client who has a leg wound exposing the femur, a blood pressure of 120/76 mm Hg, and a pulse of 90",
+            "correct": false
+          },
+          {
+            "text": "60-year-old client with heart failure whose pulse oximetry reading is 92% on room air and whose respirations are 26",
+            "correct": false
+          }
+        ],
+        "explanation": "Restlessness together with a distended, firm abdomen (Option 2) suggests internal hemorrhage with early signs of hypoperfusion (restlessness reflecting altered mental status from shock), which is an immediate, life-threatening priority in disaster triage. A scalp laceration with briskly reactive pupils (Option 1) reflects an intact neurologic status and a non-life-threatening injury. An open femur wound with stable vital signs (blood pressure and pulse within normal limits) (Option 3) is a serious but not immediately life-threatening injury in this context. A pulse oximetry reading of 92% and a respiratory rate of 26 (Option 4) reflect mild respiratory compromise, less acute than the signs of impending shock in Option 2.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

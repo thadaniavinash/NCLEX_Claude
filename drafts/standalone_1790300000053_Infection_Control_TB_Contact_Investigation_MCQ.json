@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000053",
+  "title": "Infection Control - TB Contact Investigation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should recognize that after this notification the local health department will",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a client who lives with a spouse and 2 adolescent children and who has been admitted to a hospital for treatment of active pulmonary tuberculosis (TB). The local health department has been notified about the client's diagnosis.",
+        "options": [
+          {
+            "text": "schedule periodic examinations of the client's chest and sputum",
+            "correct": false
+          },
+          {
+            "text": "contact the client's family to arrange for family members to be examined",
+            "correct": true
+          },
+          {
+            "text": "immunize those persons with whom the client has been in contact",
+            "correct": false
+          },
+          {
+            "text": "isolate members of the client's immediate family at home until diagnostic studies rule out TB",
+            "correct": false
+          }
+        ],
+        "explanation": "Contact investigation is a core public health function following a reportable TB diagnosis: the health department contacts close contacts, such as household family members, to arrange examination and testing for TB exposure (Option 2). Scheduling periodic exams of the index client's own chest and sputum (Option 1) describes ongoing monitoring of the already-diagnosed client, not the health department's contact-investigation role. Routine immunization of contacts (Option 3) is not standard TB practice in the United States, where the BCG vaccine is not routinely used. Preemptively isolating asymptomatic family members at home (Option 4) is not standard practice; contacts are examined and tested, not isolated without evidence of infection.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

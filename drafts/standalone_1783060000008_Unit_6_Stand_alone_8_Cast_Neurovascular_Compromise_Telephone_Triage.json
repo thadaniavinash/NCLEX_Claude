@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783060000008",
+  "title": "Unit 6 Stand-alone 8: Cast Neurovascular Compromise Telephone Triage",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> return the telephone call to the parent of a",
+        "type": "multiple_choice",
+        "preamble": "The nurse in a community-based setting has received the following telephone messages.",
+        "options": [
+          {
+            "text": "3-year-old child who sustained a concussion and was irritable when awakened every 2 hours during the night",
+            "correct": false
+          },
+          {
+            "text": "4-year-old child with impetigo contagiosa who has eruptions spreading around the mouth and nose that are draining thin yellow fluid",
+            "correct": false
+          },
+          {
+            "text": "5-year-old child with Ewing sarcoma who is receiving external radiation and the irradiated area appears reddened",
+            "correct": false
+          },
+          {
+            "text": "6-year-old child with a right long-leg cast whose toes on the affected extremity are swollen and cool to the touch",
+            "correct": true
+          }
+        ],
+        "explanation": "Swollen, cool toes distal to a cast (Option 4) are signs of neurovascular compromise and possible compartment syndrome from a cast that is too tight, an urgent, limb-threatening complication requiring the first callback. Irritability when awakened for periodic neuro checks after a concussion (Option 1) is an expected part of monitoring, and being arousable is a reassuring sign. Thin yellow drainage and spreading perioral/nasal eruptions (Option 2) are the expected clinical picture of impetigo contagiosa. Redness of the skin in an irradiated area (Option 3) is an expected, anticipated side effect of external radiation therapy.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}
