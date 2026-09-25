@@ -22,6 +22,26 @@ written. If the database cannot be reached, or returns an empty bank, the app fa
 `cases-data.js` is the backup: `node tools/supabase.js download` refreshes it from the
 database, and `upload` loads it into the database.
 
+## Administrators
+
+Saving is protected by Supabase Auth (see `js/auth.js`): editors sign in with an email and
+password, and the database only accepts saves from accounts listed in `nclex_admins`.
+One-time setup (Supabase dashboard of this project):
+
+1. **Authentication -> Users -> Add user -> Create new user**: your email and a strong password,
+   with *Auto Confirm User* ticked.
+2. **Authentication -> Sign In / Providers -> Email**: turn off *Allow new users to sign up*
+   (only accounts you create can then exist).
+3. **SQL Editor**: run `supabase/002_admin_logins.sql` after replacing `YOUR-EMAIL@example.com`
+   with that email. Add more admins later with
+   `insert into public.nclex_admins (email) values ('someone@example.com');`
+4. **GitHub -> Settings -> Secrets and variables -> Actions -> New repository secret**:
+   `SUPABASE_SECRET_KEY` = the project's secret key (Supabase -> Project Settings -> API Keys).
+   The workflow's `add` and `upload` actions need it once saving is restricted to admins.
+
+Unfinished items (a screen with no question text, or an answer key that cannot score full
+marks) are kept out of student sessions and marked *Hidden from students* in the studio.
+
 ## Tools
 
 - `python3 tools/bump_version.py` - after changing any `.js` or `.css` file (or
@@ -30,7 +50,9 @@ database, and `upload` loads it into the database.
   (`python3 -m http.server 8765`), loads the real app in headless Chromium and, for every
   question, checks it renders, that its answer key scores full marks, and that opening and
   saving it in the editor changes nothing. Supabase and `/api/save` are blocked while it runs.
-- `node tools/supabase.js <ping|check|compare-original|upload|download>` - manage the
+- `node tools/check-saving.js` - checks admin sign-in and saving (including two editors saving
+  at once) against a simulated Supabase.
+- `node tools/supabase.js <ping|check|compare-original|download|add|upload>` - manage the
   database (see the comment at the top of the file). The **Supabase** GitHub Actions workflow
   runs the same commands from the Actions tab, and pings the project daily so the free tier is
   not paused.
