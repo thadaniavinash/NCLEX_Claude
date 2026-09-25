@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000035",
+  "title": "IV Site Sharp Pain and Slowed Infusion (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should recognize that the client is <b>most</b> likely experiencing",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a client who is receiving an intravenous infusion via a peripheral venous access device (VAD). The client reports sharp pain at the VAD site. The nurse notes the intravenous fluid is infusing more slowly than prescribed.",
+        "options": [
+          {
+            "text": "venous spasm",
+            "correct": true
+          },
+          {
+            "text": "nerve damage",
+            "correct": false
+          },
+          {
+            "text": "septicemia",
+            "correct": false
+          },
+          {
+            "text": "hematoma",
+            "correct": false
+          }
+        ],
+        "explanation": "Venous spasm, a reflexive narrowing of the vein in response to irritation, classically causes both localized sharp pain and a reduced infusion rate because the vessel lumen narrows. Nerve damage (Option 2) would cause pain but would not mechanically slow the infusion. Septicemia (Option 3) would present with systemic signs such as fever and hypotension, not an isolated site finding. A hematoma (Option 4) classically presents with localized swelling and bruising rather than sharp pain as the primary symptom.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

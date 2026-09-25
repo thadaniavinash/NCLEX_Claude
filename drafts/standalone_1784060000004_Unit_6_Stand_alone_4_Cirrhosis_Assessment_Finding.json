@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784060000004",
+  "title": "Unit 6 Stand-alone 4: Cirrhosis Assessment Finding",
+  "course": "NURS 1021",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would be consistent with a diagnosis of cirrhosis?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is assessing a client with cirrhosis.",
+        "options": [
+          {
+            "text": "steatorrhea",
+            "correct": false
+          },
+          {
+            "text": "deep vein thrombosis (DVT)",
+            "correct": false
+          },
+          {
+            "text": "high fever",
+            "correct": false
+          },
+          {
+            "text": "spontaneous bruising",
+            "correct": true
+          }
+        ],
+        "explanation": "Spontaneous bruising is a classic cirrhosis finding, resulting from decreased synthesis of clotting factors by the diseased liver. Steatorrhea (Option 1) is more characteristic of pancreatic insufficiency or malabsorption. DVT (Option 2) is not a hallmark cirrhosis finding. High fever (Option 3) is not a defining feature of cirrhosis itself, though it can occur with a complication such as spontaneous bacterial peritonitis.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

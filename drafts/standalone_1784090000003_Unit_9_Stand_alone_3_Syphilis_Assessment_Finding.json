@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784090000003",
+  "title": "Unit 9 Stand-alone 3: Syphilis Assessment Finding",
+  "course": "NURS 1021",
+  "unit": "Unit 9 (Reproductive Disorders)",
+  "topic": "Unit 9 (Reproductive Disorders)",
+  "disorder": "Unit 9 (Reproductive Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would support a diagnosis of syphilis?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is assessing a male client who has suspected syphilis.",
+        "options": [
+          {
+            "text": "urethritis",
+            "correct": false
+          },
+          {
+            "text": "conjunctivitis",
+            "correct": false
+          },
+          {
+            "text": "chancre lesions",
+            "correct": true
+          },
+          {
+            "text": "penile discharge",
+            "correct": false
+          }
+        ],
+        "explanation": "A chancre, a painless genital ulcer, is the classic, pathognomonic finding of primary syphilis. Urethritis and penile discharge (Options 1 and 4) are more characteristic of gonorrhea or chlamydia. Conjunctivitis (Option 2) is not a classic syphilis finding.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

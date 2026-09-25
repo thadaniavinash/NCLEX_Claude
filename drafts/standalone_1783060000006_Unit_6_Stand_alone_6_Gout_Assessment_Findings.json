@@ -1,0 +1,51 @@
+{
+  "id": "standalone_1783060000006",
+  "title": "Unit 6 Stand-alone 6: Gout Assessment Findings",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would support a diagnosis of gout? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is assessing a client with suspected gout.",
+        "options": [
+          {
+            "text": "elevated serum uric acid level",
+            "correct": true
+          },
+          {
+            "text": "a swollen, red joint",
+            "correct": true
+          },
+          {
+            "text": "reports of moderate fatigue",
+            "correct": false
+          },
+          {
+            "text": "distal extremities cool to touch",
+            "correct": false
+          },
+          {
+            "text": "pain associated with movement of the affected extremity",
+            "correct": true
+          },
+          {
+            "text": "intolerance of dairy products",
+            "correct": false
+          }
+        ],
+        "explanation": "An elevated serum uric acid level (hyperuricemia), a swollen and red joint, and pain with movement of the affected joint are all classic gout findings, reflecting acute monoarticular inflammatory arthritis from urate crystal deposition. Fatigue is a nonspecific finding not characteristic of gout. Gout causes a warm, not cool, joint, so extremities cool to touch (Option 4) do not support the diagnosis. Dairy intolerance (Option 6) is unrelated to gout.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

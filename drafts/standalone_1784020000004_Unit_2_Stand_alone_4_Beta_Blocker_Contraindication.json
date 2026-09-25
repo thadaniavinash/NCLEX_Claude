@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784020000004",
+  "title": "Unit 2 Stand-alone 4: Beta Blocker Contraindication",
+  "course": "NURS 1021",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following would be a contraindication to administer the medication?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is preparing to administer a beta blocker to a client.",
+        "options": [
+          {
+            "text": "heart block",
+            "correct": true
+          },
+          {
+            "text": "myocardial infarction (MI)",
+            "correct": false
+          },
+          {
+            "text": "heart failure",
+            "correct": false
+          },
+          {
+            "text": "angina pectoris",
+            "correct": false
+          }
+        ],
+        "explanation": "Beta blockers are contraindicated in heart block, since they further slow atrioventricular conduction and can worsen the block. Beta blockers are actually standard, indicated therapy following an MI (Option 2) and for angina (Option 4), both of which reduce myocardial oxygen demand. Certain beta blockers are also indicated for stable chronic heart failure (Option 3); heart failure is not a blanket contraindication the way heart block is.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

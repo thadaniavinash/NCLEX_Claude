@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000032",
+  "title": "Haloperidol Immediate Follow-up Finding (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would require <b>immediate</b> follow-up?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has administered haloperidol to a client with schizophrenia who is agitated.",
+        "options": [
+          {
+            "text": "continued lack of motivation",
+            "correct": false
+          },
+          {
+            "text": "reports of muscle stiffness",
+            "correct": true
+          },
+          {
+            "text": "inappropriate emotional expressions",
+            "correct": false
+          },
+          {
+            "text": "difficulty focusing due to blurred vision",
+            "correct": false
+          }
+        ],
+        "explanation": "Muscle stiffness after a high-potency typical antipsychotic like haloperidol raises concern for an acute extrapyramidal reaction (dystonia) or early neuroleptic malignant syndrome, both of which require immediate follow-up. Lack of motivation (Option 1) and inappropriate emotional expressions (Option 3) are negative/baseline symptoms of schizophrenia, not acute medication emergencies. Blurred vision (Option 4) is a common, less dangerous anticholinergic side effect.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

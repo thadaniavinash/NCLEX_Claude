@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1783060000004",
+  "title": "Unit 6 Stand-alone 4: Total Hip Arthroplasty Teaching",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is teaching a client who is scheduled for a total hip arthroplasty via a posterior approach.",
+        "options": [
+          {
+            "text": "“The type of prosthesis used is based on the muscle strength and joint function of your upper extremities.”",
+            "correct": false
+          },
+          {
+            "text": "“Do not bend the affected hip more than 90 degrees after surgery.”",
+            "correct": true
+          },
+          {
+            "text": "“Skin preparation and cleansing is mandatory before surgery.”",
+            "correct": true
+          },
+          {
+            "text": "“Use an elevated toilet seat for at least 6 weeks after surgery.”",
+            "correct": true
+          },
+          {
+            "text": "“You can resume sexual intercourse after surgery if your partner is in a dependent position.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Posterior-approach hip precautions include avoiding hip flexion beyond 90 degrees and using an elevated toilet seat to help maintain that precaution; pre-operative skin preparation and cleansing is standard surgical teaching. Prosthesis selection is based on the hip and lower-extremity anatomy and function, not the upper extremities (Option 1). Resuming intercourse safely depends on the client's own hip positioning to avoid excessive flexion, adduction, or internal rotation, not on the partner's position (Option 5).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784040000001",
+  "title": "Unit 4 Stand-alone 1: HIV Viral Load Test Teaching",
+  "course": "NURS 1021",
+  "unit": "Unit 4 (Inflammation and Immune Disorders)",
+  "topic": "Unit 4 (Inflammation and Immune Disorders)",
+  "disorder": "Unit 4 (Inflammation and Immune Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has taught a client who has a positive laboratory test result for human immunodeficiency virus (HIV) infection. The client is scheduled for a viral load test.",
+        "options": [
+          {
+            "text": "“The viral load test is used to determine my response to the treatment regimen I am receiving for HIV.”",
+            "correct": true
+          },
+          {
+            "text": "“The viral load test can rapidly detect HIV-specific antibodies in the blood.”",
+            "correct": false
+          },
+          {
+            "text": "“I will be able to decrease the dosage of my prescribed medications if my viral load is low.”",
+            "correct": false
+          },
+          {
+            "text": "“I am unlikely to develop acquired immune deficiency syndrome (AIDS) if my viral load is high.”",
+            "correct": false
+          }
+        ],
+        "explanation": "The viral load test measures the amount of HIV RNA in the blood and is used to monitor how well antiretroviral therapy is controlling the virus. It does not detect HIV-specific antibodies (Option 2), which is what an antibody/ELISA test does. Maintaining the full prescribed regimen, not reducing the dose, is what keeps the viral load low; reducing medication (Option 3) risks resistance and viral rebound. A high, not low, viral load (Option 4) reflects poor disease control and increases the risk of progression to AIDS.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

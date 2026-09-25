@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783070000008",
+  "title": "Unit 7 Stand-alone 8: Spinal Shock Manifestations Evaluation",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Follow-up is required if the nurse states that manifestations of spinal shock include",
+        "type": "multiple_choice",
+        "preamble": "The nurse has attended a staff education program about spinal shock following acute spinal cord injury.",
+        "options": [
+          {
+            "text": "bowel dysfunction",
+            "correct": false
+          },
+          {
+            "text": "bladder dysfunction",
+            "correct": false
+          },
+          {
+            "text": "spastic paralysis below the level of injury",
+            "correct": true
+          },
+          {
+            "text": "loss of sensation below the level of injury",
+            "correct": false
+          }
+        ],
+        "explanation": "Spinal shock causes flaccid, not spastic, paralysis below the level of injury, along with areflexia; spasticity typically develops later, after spinal shock resolves. This statement is incorrect and requires follow-up. Bowel dysfunction, bladder dysfunction, and loss of sensation below the level of injury are all accurate, expected manifestations of spinal shock.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

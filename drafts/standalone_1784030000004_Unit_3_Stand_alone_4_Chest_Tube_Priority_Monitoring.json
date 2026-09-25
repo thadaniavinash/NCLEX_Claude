@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784030000004",
+  "title": "Unit 3 Stand-alone 4: Chest Tube Priority Monitoring",
+  "course": "NURS 1021",
+  "unit": "Unit 3 (Respiratory Disorders)",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "disorder": "Unit 3 (Respiratory Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would be a priority for the nurse to monitor the client for",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a client who has a chest tube attached to a closed-chest drainage system.",
+        "options": [
+          {
+            "text": "tracheal deviation",
+            "correct": true
+          },
+          {
+            "text": "pain at the insertion site",
+            "correct": false
+          },
+          {
+            "text": "subcutaneous emphysema",
+            "correct": false
+          },
+          {
+            "text": "redness or swelling at the insertion site",
+            "correct": false
+          }
+        ],
+        "explanation": "Tracheal deviation signals a tension pneumothorax and mediastinal shift, a life-threatening emergency that can rapidly cause cardiovascular collapse, making it the priority finding to monitor for. Pain at the insertion site (Option 2) is an expected, manageable finding. Subcutaneous emphysema (Option 3) can occur with a chest tube and needs monitoring but is generally not as immediately life-threatening as tracheal deviation. Redness or swelling at the insertion site (Option 4) may suggest local infection but is not an acute emergency.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

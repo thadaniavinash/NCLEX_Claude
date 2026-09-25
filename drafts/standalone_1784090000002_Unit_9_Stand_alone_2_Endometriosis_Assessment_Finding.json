@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784090000002",
+  "title": "Unit 9 Stand-alone 2: Endometriosis Assessment Finding",
+  "course": "NURS 1021",
+  "unit": "Unit 9 (Reproductive Disorders)",
+  "topic": "Unit 9 (Reproductive Disorders)",
+  "disorder": "Unit 9 (Reproductive Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would support a diagnosis of endometriosis?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is assessing a client with suspected endometriosis.",
+        "options": [
+          {
+            "text": "dyspareunia",
+            "correct": true
+          },
+          {
+            "text": "hot flashes",
+            "correct": false
+          },
+          {
+            "text": "weight gain",
+            "correct": false
+          },
+          {
+            "text": "amenorrhea",
+            "correct": false
+          }
+        ],
+        "explanation": "Dyspareunia (painful intercourse) is a classic symptom of endometriosis. Hot flashes (Option 2) are associated with menopause, not endometriosis. Weight gain (Option 3) is not a characteristic endometriosis finding. Endometriosis is typically associated with dysmenorrhea and abnormal bleeding, not amenorrhea (absence of menses) (Option 4).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

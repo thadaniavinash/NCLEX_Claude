@@ -1,0 +1,51 @@
+{
+  "id": "standalone_1784010000002",
+  "title": "Unit 1 Stand-alone 2: Acute Transfusion Reaction Response",
+  "course": "NURS 1021",
+  "unit": "Unit 1 (Blood Disorders)",
+  "topic": "Unit 1 (Blood Disorders)",
+  "disorder": "Unit 1 (Blood Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions should the nurse take? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is caring for a client who is receiving a blood transfusion and states, “I feel chilled and am having back pain.”",
+        "options": [
+          {
+            "text": "Stop the transfusion.",
+            "correct": true
+          },
+          {
+            "text": "Check the client's vital signs.",
+            "correct": true
+          },
+          {
+            "text": "Notify the client's primary health care provider.",
+            "correct": true
+          },
+          {
+            "text": "Return the blood and infusion tubing to the blood bank.",
+            "correct": true
+          },
+          {
+            "text": "Infuse 5% dextrose in water through the intravenous catheter.",
+            "correct": false
+          },
+          {
+            "text": "Administer a dose of an antiemetic prescribed p.r.n. to the client.",
+            "correct": false
+          }
+        ],
+        "explanation": "Chills and back pain during a transfusion are classic signs of an acute transfusion reaction. The nurse should stop the transfusion immediately, check vital signs, notify the primary health care provider, and return the blood bag and tubing to the blood bank for reaction workup. The line should be kept open with 0.9% sodium chloride, not 5% dextrose in water (Option 5), which can cause hemolysis. An antiemetic (Option 6) does not address this client's presenting symptoms (chills and back pain, not nausea) and is not one of the immediate reaction-response actions.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

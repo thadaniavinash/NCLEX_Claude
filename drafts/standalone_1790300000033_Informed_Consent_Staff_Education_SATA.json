@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1790300000033",
+  "title": "Informed Consent Staff Education (SATA)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is planning a staff education program about informed consent.",
+        "options": [
+          {
+            "text": "“The main value of informed consent is for protection against lawsuits.”",
+            "correct": false
+          },
+          {
+            "text": "“Clients may withdraw consent after signing the informed consent form.”",
+            "correct": true
+          },
+          {
+            "text": "“Clients must sign the informed consent form before receiving preprocedural medication.”",
+            "correct": true
+          },
+          {
+            "text": "“Nurses witness the signing of the informed consent form to confirm that consent is voluntary.”",
+            "correct": true
+          },
+          {
+            "text": "“The signed consent form serves as evidence that the informed consent process has taken place.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Clients retain the right to withdraw consent at any time, even after signing. Consent must be obtained before administering sedating preprocedural medication, so the client's capacity to consent is not impaired. The nurse witnessing the signature helps confirm the client is signing voluntarily and is who they say they are. The signed form documents that the informed consent process took place. The main value of informed consent is protecting the client's right to self-determination, not primarily shielding the institution from lawsuits (Option 1).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

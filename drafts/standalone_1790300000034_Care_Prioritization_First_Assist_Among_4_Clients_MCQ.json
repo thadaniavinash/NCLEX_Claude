@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000034",
+  "title": "Care Prioritization - First Assist Among 4 Clients (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> assist the client who had",
+        "type": "multiple_choice",
+        "preamble": "The nurse has been made aware that the following 4 clients require assistance.",
+        "options": [
+          {
+            "text": "an abdominal hysterectomy 5 hours ago and is reporting severe incisional pain",
+            "correct": false
+          },
+          {
+            "text": "a transurethral resection of the prostate (TURP) yesterday and whose catheter has become disconnected",
+            "correct": false
+          },
+          {
+            "text": "a lumbar laminectomy 2 days ago and is reporting that the feet are still numb",
+            "correct": false
+          },
+          {
+            "text": "a spinal cord injury at T2 two weeks ago and is currently diaphoretic and nauseated",
+            "correct": true
+          }
+        ],
+        "explanation": "New diaphoresis and nausea in a client with a spinal cord injury at T2 (above T6) are classic signs of autonomic dysreflexia, a life-threatening emergency that can rapidly progress to severe hypertension and stroke if the triggering stimulus (commonly bladder distension or bowel impaction) is not identified and relieved; this client must be seen first. Severe incisional pain (Option 1) needs treatment but is not immediately life-threatening. A disconnected catheter (Option 2) is a quick fix, not an emergency. Persistent numbness 2 days after a lumbar laminectomy (Option 3) needs evaluation but is not as acutely dangerous as untreated autonomic dysreflexia.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

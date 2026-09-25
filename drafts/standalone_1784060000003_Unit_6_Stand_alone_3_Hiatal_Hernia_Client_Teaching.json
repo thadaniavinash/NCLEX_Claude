@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784060000003",
+  "title": "Unit 6 Stand-alone 3: Hiatal Hernia Client Teaching",
+  "course": "NURS 1021",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has taught a client with a hiatal hernia about interventions for the condition.",
+        "options": [
+          {
+            "text": "“I will consume 3 regular-sized meals daily.”",
+            "correct": false
+          },
+          {
+            "text": "“Wearing an abdominal binder can help relieve symptoms.”",
+            "correct": false
+          },
+          {
+            "text": "“I should elevate the head of the bed on 6 in (15 cm) blocks.”",
+            "correct": true
+          },
+          {
+            "text": "“Eating foods with a high fat content will increase gastric emptying.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Elevating the head of the bed reduces nighttime reflux and is standard hiatal hernia/GERD teaching. Small, frequent meals are recommended instead of 3 regular-sized meals (Option 1), to reduce abdominal pressure. An abdominal binder (Option 2) increases intra-abdominal pressure and would worsen symptoms. High-fat foods (Option 4) delay, rather than increase, gastric emptying, which worsens reflux risk.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

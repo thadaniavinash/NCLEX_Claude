@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1783060000003",
+  "title": "Unit 6 Stand-alone 3: Alendronate Client Teaching",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse has taught a client who is receiving alendronate.",
+        "options": [
+          {
+            "text": "“I will take alendronate a half hour before I eat breakfast.”",
+            "correct": true
+          },
+          {
+            "text": "“I should avoid weight-bearing exercises while taking alendronate.”",
+            "correct": false
+          },
+          {
+            "text": "“I should discontinue alendronate if I experience nausea or vomiting.”",
+            "correct": false
+          },
+          {
+            "text": "“I will need to remain in an upright position for 30 minutes after I take alendronate.”",
+            "correct": true
+          },
+          {
+            "text": "“I should notify my primary health care provider if I experience difficulty swallowing while taking alendronate.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Alendronate must be taken on an empty stomach, at least 30 minutes before the first food, beverage, or other medication of the day, and the client must remain upright for at least 30 minutes afterward to prevent esophageal irritation. Difficulty swallowing should be reported promptly, since it can signal esophagitis or ulceration. Weight-bearing exercise (Option 2) should be encouraged, not avoided, to support bone density. Nausea or vomiting should be reported to the primary health care provider, not managed by self-discontinuing the medication (Option 3).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

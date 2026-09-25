@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000036",
+  "title": "Central VAD Blood Specimen Collection Evaluation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the nurse would require follow-up?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has attended a staff education program about obtaining blood specimens from a central venous access device (VAD).",
+        "options": [
+          {
+            "text": "“I will use a 3 mL syringe to flush the catheter port.”",
+            "correct": true
+          },
+          {
+            "text": "“The injection cap should be cleansed with antiseptic and allowed to air-dry.”",
+            "correct": false
+          },
+          {
+            "text": "“I will aspirate 5 mL of blood and discard the syringe in the biohazard container before obtaining the specimen.”",
+            "correct": false
+          },
+          {
+            "text": "“The infusion should be turned off for at least 1 minute before the specimen is aspirated.”",
+            "correct": false
+          }
+        ],
+        "explanation": "A central VAD should never be flushed with a syringe smaller than 10 mL, since a smaller syringe generates higher pressure that can rupture or otherwise damage the catheter, so this statement requires follow-up. Cleansing and air-drying the injection cap, discarding an initial waste sample before collecting the actual specimen, and briefly pausing any infusion before aspirating are all correct, standard practices.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

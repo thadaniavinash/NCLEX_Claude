@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784070000003",
+  "title": "Unit 7 Stand-alone 3: Spinal Cord Injury Indwelling Catheter Care",
+  "course": "NURS 1021",
+  "unit": "Unit 7 (Urinary Disorders)",
+  "topic": "Unit 7 (Urinary Disorders)",
+  "disorder": "Unit 7 (Urinary Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following would be a priority for the nurse to include in the plan of care?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is developing a plan of care for a client with a spinal cord injury at C5 who has an indwelling urethral catheter.",
+        "options": [
+          {
+            "text": "encouraging the client to drink 6 to 8 glasses of fluid per day",
+            "correct": false
+          },
+          {
+            "text": "maintaining the urine collection bag in a dependent position",
+            "correct": true
+          },
+          {
+            "text": "teaching the client about foods high in fiber",
+            "correct": false
+          },
+          {
+            "text": "assessing the color of the urine output",
+            "correct": false
+          }
+        ],
+        "explanation": "Keeping the urine collection bag below the level of the bladder (a dependent position) is a fundamental catheter-care priority that prevents urine reflux and reduces infection risk, and applies regardless of other considerations. Adequate fluid intake (Option 1) supports urinary health but is a general goal rather than a catheter-specific priority. High-fiber foods (Option 3) address bowel, not bladder, management. Assessing urine color (Option 4) is reasonable general monitoring but is not as fundamental a safety priority as proper drainage positioning.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

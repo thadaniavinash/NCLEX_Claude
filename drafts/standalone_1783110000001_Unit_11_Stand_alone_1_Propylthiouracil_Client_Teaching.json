@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783110000001",
+  "title": "Unit 11 Stand-alone 1: Propylthiouracil Client Teaching",
+  "course": "NURS 1017",
+  "unit": "Unit 11 (Endocrine Disorders)",
+  "topic": "Unit 11 (Endocrine Disorders)",
+  "disorder": "Unit 11 (Endocrine Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is teaching a client who is receiving newly prescribed propylthiouracil.",
+        "options": [
+          {
+            "text": "“Carry emergency identification with you listing your condition and medication regimen.”",
+            "correct": true
+          },
+          {
+            "text": "“The medication dose will need to be reduced if you develop agranulocytosis.”",
+            "correct": false
+          },
+          {
+            "text": "“You will experience weight loss if the medication is effective.”",
+            "correct": false
+          },
+          {
+            "text": "“Increase your daily intake of foods containing iodine.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Propylthiouracil carries a risk of agranulocytosis, so carrying emergency identification helps ensure prompt recognition and evaluation (such as a CBC) if the client develops fever or signs of infection. Agranulocytosis requires stopping the medication, not reducing the dose (Option 2). Propylthiouracil treats hyperthyroidism; as it becomes effective and the metabolism normalizes, the client would be expected to gain weight or stabilize, not continue losing weight (Option 3). Iodine intake should generally be limited, not increased, in a client on antithyroid medication (Option 4).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

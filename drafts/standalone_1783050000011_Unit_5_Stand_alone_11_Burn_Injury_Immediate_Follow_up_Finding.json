@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783050000011",
+  "title": "Unit 5 Stand-alone 11: Burn Injury Immediate Follow-up Finding",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would require <b>immediate</b> follow-up?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is assessing a newly admitted client who sustained partial-thickness (second-degree) burns to the anterior thorax in a house fire.",
+        "options": [
+          {
+            "text": "dizziness and confusion",
+            "correct": true
+          },
+          {
+            "text": "hypoactive bowel sounds and nausea",
+            "correct": false
+          },
+          {
+            "text": "vesicular breath sounds throughout the lung fields",
+            "correct": false
+          },
+          {
+            "text": "pain rated 5 on a scale of 0 (no pain) to 10 (severe pain)",
+            "correct": false
+          }
+        ],
+        "explanation": "Dizziness and confusion in a client burned in a house fire are highly concerning for smoke inhalation injury, hypoxia, or carbon monoxide poisoning, and require immediate follow-up (assessing airway patency and obtaining a carboxyhemoglobin level). Hypoactive bowel sounds and nausea (Option 2) reflect an expected postburn stress ileus. Vesicular breath sounds (Option 3) are the normal breath sounds heard throughout most of the lung fields, not an abnormal finding. Moderate pain of 5/10 (Option 4) is expected with a burn injury and is manageable, not an emergency.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

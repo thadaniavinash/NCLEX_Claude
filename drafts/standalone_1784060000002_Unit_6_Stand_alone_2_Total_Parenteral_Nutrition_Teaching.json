@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1784060000002",
+  "title": "Unit 6 Stand-alone 2: Total Parenteral Nutrition Teaching",
+  "course": "NURS 1021",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is preparing a staff education program about total parenteral nutrition (TPN).",
+        "options": [
+          {
+            "text": "“The TPN intravenous tubing should be changed once a week.”",
+            "correct": false
+          },
+          {
+            "text": "“TPN can be administered through a peripherally inserted central catheter (PICC).”",
+            "correct": true
+          },
+          {
+            "text": "“Clients receiving TPN should be weighed daily.”",
+            "correct": true
+          },
+          {
+            "text": "“An infusion pump is used to deliver TPN.”",
+            "correct": true
+          },
+          {
+            "text": "“Serum glucose levels should be monitored in clients receiving TPN.”",
+            "correct": true
+          }
+        ],
+        "explanation": "TPN can be safely infused through a PICC line, a form of central venous access appropriate for TPN's high osmolarity. Daily weights track fluid and nutritional status. An infusion pump ensures precise, controlled delivery. Serum glucose must be monitored because of TPN's high dextrose content and hyperglycemia risk. TPN tubing must be changed every 24 hours, not weekly (Option 1), because of the high infection risk from its glucose- and lipid-rich composition.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

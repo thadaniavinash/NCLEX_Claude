@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1783110000002",
+  "title": "Unit 11 Stand-alone 2: Diabetic Foot Care Teaching",
+  "course": "NURS 1017",
+  "unit": "Unit 11 (Endocrine Disorders)",
+  "topic": "Unit 11 (Endocrine Disorders)",
+  "disorder": "Unit 11 (Endocrine Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse has taught a client with diabetes mellitus (type 2) about foot care.",
+        "options": [
+          {
+            "text": "“I will check my shoes for foreign objects prior to putting them on.”",
+            "correct": true
+          },
+          {
+            "text": "“I should use a large, coarse file to remove dry skin from a bunion.”",
+            "correct": false
+          },
+          {
+            "text": "“I will apply a petroleum-based ointment between my toes after bathing.”",
+            "correct": false
+          },
+          {
+            "text": "“I should avoid crossing my legs to prevent decreased circulation to my feet.”",
+            "correct": true
+          },
+          {
+            "text": "“I should wear new shoes for a few hours for several days until they fit well.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Checking shoes for foreign objects protects against unnoticed injury given possible diabetic neuropathy. Avoiding crossing the legs prevents impaired circulation to the feet. Gradually breaking in new shoes over several days prevents blisters and injury. Aggressive self-filing of a bunion or callus with a coarse file (Option 2) risks skin breakdown; this should be done by a podiatrist. Ointment applied between the toes (Option 3) increases moisture and maceration risk in that area, promoting fungal infection; moisturizer should go on the tops and soles of the feet, not between the toes.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

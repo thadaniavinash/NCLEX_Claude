@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000037",
+  "title": "Peripheral VAD Insertion Technique (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions should the nurse take?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is preparing to insert a peripheral venous access device (VAD) for a client.",
+        "options": [
+          {
+            "text": "Ask the client to open and close the fist multiple times.",
+            "correct": false
+          },
+          {
+            "text": "Tap the client's vein multiple times to promote dilation.",
+            "correct": true
+          },
+          {
+            "text": "Apply the tourniquet 9 to 10 in (22.5 to 25 cm) above the venipuncture site.",
+            "correct": false
+          },
+          {
+            "text": "Palpate for a vein after cleansing the selected site.",
+            "correct": false
+          }
+        ],
+        "explanation": "Light tapping over the vein promotes venodilation and is a simple, widely endorsed technique with no downside. Repetitive fist clenching (Option 1) is now discouraged by current practice standards because it can artificially alter certain lab values (such as potassium and lactate) if blood is drawn from that site. The tourniquet should be applied closer to the site, typically about 4 to 6 in (10 to 15 cm) above it (Option 3), not 9 to 10 in away. The vein should be selected and palpated before cleansing the site, not after (Option 4), since palpating after cleansing recontaminates the prepared site.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

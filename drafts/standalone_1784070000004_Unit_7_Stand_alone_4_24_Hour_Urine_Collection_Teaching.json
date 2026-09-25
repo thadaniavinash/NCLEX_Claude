@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1784070000004",
+  "title": "Unit 7 Stand-alone 4: 24-Hour Urine Collection Teaching",
+  "course": "NURS 1021",
+  "unit": "Unit 7 (Urinary Disorders)",
+  "topic": "Unit 7 (Urinary Disorders)",
+  "disorder": "Unit 7 (Urinary Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is teaching a client who is scheduled for a 24-hour urine collection.",
+        "options": [
+          {
+            "text": "“You will be asked to urinate when starting the collection, and the initial urine will be discarded.”",
+            "correct": true
+          },
+          {
+            "text": "“A sign will be posted on the bathroom door as a reminder to save your urine.”",
+            "correct": true
+          },
+          {
+            "text": "“You will be asked to void at the end of the designated time period to complete the urine collection.”",
+            "correct": true
+          },
+          {
+            "text": "“You should discard urine that is dark or pink in color.”",
+            "correct": false
+          },
+          {
+            "text": "“The collected urine will be sent to the laboratory at the end of each shift.”",
+            "correct": false
+          }
+        ],
+        "explanation": "The standard protocol discards the first void to mark the true start time, saves every void afterward, posts a reminder sign, and includes the final void at the end of the collection period. All urine must be saved regardless of its color or appearance (Option 4); discarding any portion compromises the accuracy of the total collection. The complete collection is kept together (often on ice or refrigerated) and sent to the laboratory as one specimen at the end of the full 24 hours, not sent in portions at the end of each shift (Option 5).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

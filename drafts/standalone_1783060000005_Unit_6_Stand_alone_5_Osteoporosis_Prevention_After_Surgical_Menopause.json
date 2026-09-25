@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783060000005",
+  "title": "Unit 6 Stand-alone 5: Osteoporosis Prevention After Surgical Menopause",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate correct understanding of the teaching?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has taught about preventing osteoporosis to a 45-year-old client who has had a hysterectomy and bilateral salpingo-oophorectomy.",
+        "options": [
+          {
+            "text": "“I will begin to take dancing lessons.”",
+            "correct": true
+          },
+          {
+            "text": "“I will get more rest at night.”",
+            "correct": false
+          },
+          {
+            "text": "“I will take a multivitamin supplement daily.”",
+            "correct": false
+          },
+          {
+            "text": "“I will add more fiber to my diet.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Dancing is a weight-bearing exercise, and weight-bearing exercise stimulates bone formation and is a cornerstone of osteoporosis prevention, especially important after surgical menopause removes the protective effect of estrogen. Getting more rest (Option 2) and adding fiber (Option 4) are not targeted osteoporosis-prevention measures. A general multivitamin (Option 3) does not reliably provide the specific calcium and vitamin D intake that bone health requires.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

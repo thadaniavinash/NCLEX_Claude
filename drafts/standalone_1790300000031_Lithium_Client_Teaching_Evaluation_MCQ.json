@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000031",
+  "title": "Lithium Client Teaching Evaluation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has taught a client with bipolar I disorder who is experiencing a manic episode and is receiving lithium.",
+        "options": [
+          {
+            "text": "“I will increase my oral fluid intake to 2 to 3 L daily while taking the medication.”",
+            "correct": true
+          },
+          {
+            "text": "“I will experience an improvement in my condition 5 weeks after starting the medication.”",
+            "correct": false
+          },
+          {
+            "text": "“I should decrease my intake of dietary sodium after starting the medication.”",
+            "correct": false
+          },
+          {
+            "text": "“I should limit time spent in a sauna to 1 hour weekly while taking the medication.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Maintaining generous fluid intake (2 to 3 L daily) is essential lithium teaching, since dehydration increases lithium reabsorption and raises toxicity risk. Lithium's antimanic effect is generally expected within 1 to 3 weeks, not 5 (Option 2). Decreasing sodium intake (Option 3) is dangerous and backward: low sodium causes the kidneys to retain more lithium, increasing toxicity risk; sodium intake should stay consistent. Prolonged heat exposure and sweating, such as from a sauna (Option 4), promote dehydration and should generally be avoided or closely managed, not simply “limited to 1 hour weekly” as though that were safe.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}
