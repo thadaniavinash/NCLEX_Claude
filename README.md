@@ -8,7 +8,7 @@ the original `NCLEX` app or its database.
 | Path | What it is |
 |---|---|
 | `index.html`, `style.css` | The single-page app (student portal, test player, authoring studio) |
-| `cases-data.js` | **The question bank**: every case study and stand-alone question. The only data file the app loads |
+| `cases-data.js` | Backup copy of the question bank (every case study and stand-alone question), used when the database cannot be reached |
 | `js/` | App code, one file per feature, loaded in order by `index.html` (`main.js` last) |
 | `tools/` | Maintenance scripts (below) |
 | `drafts/` | Case studies being written, not yet in the bank |
