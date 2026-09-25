@@ -1,0 +1,42 @@
+{
+  "id": "standalone_1790300000002",
+  "title": "Immune-Infection Control - Varicella Precautions (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions by the staff member would require the nurse to intervene?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is observing a staff member caring for a client who has chickenpox.<div style=\"margin-top:14px;padding-top:10px;border-top:1px solid #ccc;font-size:0.78em;color:#888;font-style:italic;\">&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.</div>",
+        "options": [
+          {
+            "text": "placing the client in a private room with monitored negative air pressure",
+            "correct": false
+          },
+          {
+            "text": "placing a box of disposable face shields outside the client's room",
+            "correct": true
+          },
+          {
+            "text": "placing an alcohol-based hand rub in the client's room for hand hygiene",
+            "correct": false
+          },
+          {
+            "text": "placing a surgical mask on the client during transport out of the client's room",
+            "correct": false
+          }
+        ],
+        "explanation": "Varicella (chickenpox) requires airborne precautions. Placing disposable face shields outside the room instead of fit-tested N95 (or higher-level) respirators (Option 2) would require the nurse to intervene, because face shields alone do not filter airborne droplet nuclei and do not provide adequate respiratory protection against airborne transmission. A private room with monitored negative air pressure (Option 1) is the correct room placement for airborne precautions. An alcohol-based hand rub available in the room (Option 3) supports correct hand hygiene practice. Placing a surgical mask on the client during transport (Option 4) is appropriate source control to reduce transmission risk to others outside the room."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

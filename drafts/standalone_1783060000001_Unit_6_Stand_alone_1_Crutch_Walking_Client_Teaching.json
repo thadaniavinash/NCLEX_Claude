@@ -1,0 +1,42 @@
+{
+  "id": "standalone_1783060000001",
+  "title": "Unit 6 Stand-alone 1: Crutch-Walking Client Teaching",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is teaching a client how to ambulate using crutches.<div style=\"margin-top:14px;padding-top:10px;border-top:1px solid #ccc;font-size:0.78em;color:#888;font-style:italic;\">&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.</div>",
+        "options": [
+          {
+            "text": "“Wear slippers when ambulating with the crutches in your home.”",
+            "correct": false
+          },
+          {
+            "text": "“Maintain the crutches 12 in (30 cm) in front of your feet while standing.”",
+            "correct": false
+          },
+          {
+            "text": "“Adjust the hand grips of the crutches so that your elbows are fully extended.”",
+            "correct": false
+          },
+          {
+            "text": "“Use your hands and arms to support your body weight.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Weight should be borne through the hands and arms (Option 4) rather than the axillae, to prevent axillary nerve compression and radial nerve palsy ('crutch palsy'); this is a priority safety teaching point. Slippers (Option 1) do not provide adequate traction and increase fall risk; sturdy, well-fitting, non-skid shoes should be worn instead. Positioning the crutch tips 12 in (30 cm) in front of the feet (Option 2) places the base of support too far forward and increases the risk of the crutches sliding out and the client falling backward; crutch tips should be placed approximately 6 in (15 cm) in front of and to the side of each foot. Elbows fully extended at the hand grips (Option 3) prevents the client from adequately pushing off and controlling the crutches; the hand grips should instead be adjusted so the elbows are flexed approximately 15 to 30 degrees."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}
