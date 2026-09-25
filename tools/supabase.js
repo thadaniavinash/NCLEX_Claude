@@ -82,6 +82,19 @@ async function check() {
   console.log('Read and write access: OK');
 }
 
+// Field-level differences between two versions of an item, with short excerpts.
+function diffPaths(before, after, path = '', out = []) {
+  if (same(before, after)) return out;
+  const isObj = v => v && typeof v === 'object';
+  if (isObj(before) && isObj(after)) {
+    new Set([...Object.keys(before), ...Object.keys(after)]).forEach(k => diffPaths(before[k], after[k], `${path}.${k}`, out));
+    return out;
+  }
+  const show = v => v === undefined ? '(missing)' : JSON.stringify(v).slice(0, 300);
+  out.push(`${path}\n        was: ${show(before)}\n        now: ${show(after)}`);
+  return out;
+}
+
 function describeChanges(label, base, live) {
   const byId = list => new Map(list.map(x => [x.id, x]));
   const b = byId(base), l = byId(live);
@@ -90,7 +103,10 @@ function describeChanges(label, base, live) {
   const edited = live.filter(x => b.has(x.id) && !same(b.get(x.id), x));
   console.log(`\n${label}: ${base.length} when copied, ${live.length} on the live site now`);
   added.forEach(x => console.log(`  + added:   ${x.title} [${x.id}]`));
-  edited.forEach(x => console.log(`  ~ edited:  ${x.title} [${x.id}]`));
+  edited.forEach(x => {
+    console.log(`  ~ edited:  ${x.title} [${x.id}]`);
+    diffPaths(b.get(x.id), x).forEach(d => console.log(`      ${d}`));
+  });
   removed.forEach(x => console.log(`  - removed: ${x.title} [${x.id}]`));
   if (!added.length && !edited.length && !removed.length) console.log('  no changes');
   return added.length + edited.length + removed.length;
