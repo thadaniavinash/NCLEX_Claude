@@ -5,7 +5,8 @@ Source: a 10-page PDF exam preview the user attached. It contains 6 complete sta
 items (no published answer key) followed by the first 3 of 6 screens of an unfolding case
 study (screens 4-6 are not in the source and are handled separately, in a later session).
 
-Every item carries a copyright footnote appended to its preamble, per the user's request:
+Every item carries a copyright footnote, shown below the Submit button (question.footnote,
+rendered by player.js), per the user's request:
 "(c) NCSBN. Taken from https://www.nclex.com/prepare.page; click on 'Download Exam Preview'."
 
 The source PDF does not publish an answer key. Options/rationales below reflect this
@@ -21,12 +22,11 @@ import re
 DRAFTS_DIR = os.path.dirname(os.path.abspath(__file__))
 ECG_IMAGE_PATH = os.path.join(DRAFTS_DIR, "assets", "ncsbn_preview_item3_ecg.png")
 
+# Rendered by player.js below the Submit button (question.footnote), not inline with
+# the scenario text, so it stays styled/positioned consistently across all items.
 FOOTNOTE = (
-    '<div style="margin-top:14px;padding-top:10px;border-top:1px solid #ccc;'
-    'font-size:0.78em;color:#888;font-style:italic;">'
     "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; "
     "click on &#39;Download Exam Preview&#39;."
-    "</div>"
 )
 
 
@@ -35,11 +35,12 @@ def opts(*pairs):
 
 
 def preamble(text):
-    return text + FOOTNOTE
+    return text
 
 
 def screen(question, image=None):
     q = dict(question)
+    q.setdefault("footnote", FOOTNOTE)
     if image is not None:
         q["questionImage"] = image
     return [{

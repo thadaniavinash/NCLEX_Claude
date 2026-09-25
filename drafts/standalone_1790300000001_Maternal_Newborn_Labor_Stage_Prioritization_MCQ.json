@@ -12,7 +12,7 @@
       "question": {
         "stem": "The charge nurse should ask a staff member to <b>first</b> see the client in the",
         "type": "multiple_choice",
-        "preamble": "The charge nurse has received a change-of-shift report on the following clients in labor.<div style=\"margin-top:14px;padding-top:10px;border-top:1px solid #ccc;font-size:0.78em;color:#888;font-style:italic;\">&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.</div>",
+        "preamble": "The charge nurse has received a change-of-shift report on the following clients in labor.",
         "options": [
           {
             "text": "first stage of labor who has an oral temperature of 99.7&deg; F (37.6&deg; C)",
@@ -31,7 +31,8 @@
             "correct": false
           }
         ],
-        "explanation": "Contractions occurring every 30 seconds (Option 2) indicate uterine tachysystole, which shortens the interval available for uteroplacental perfusion between contractions and places the fetus at risk for hypoxia; this finding requires the most urgent follow-up. A mildly elevated oral temperature of 99.7&deg;F (Option 1) is not acutely concerning and does not require immediate follow-up ahead of a more urgent finding. A respiratory rate of 26 during active pushing in the second stage (Option 3) is an expected finding related to the work of bearing down. Contractions lasting 60 seconds in the second stage (Option 4) are within the expected duration for that stage of labor."
+        "explanation": "Contractions occurring every 30 seconds (Option 2) indicate uterine tachysystole, which shortens the interval available for uteroplacental perfusion between contractions and places the fetus at risk for hypoxia; this finding requires the most urgent follow-up. A mildly elevated oral temperature of 99.7&deg;F (Option 1) is not acutely concerning and does not require immediate follow-up ahead of a more urgent finding. A respiratory rate of 26 during active pushing in the second stage (Option 3) is an expected finding related to the work of bearing down. Contractions lasting 60 seconds in the second stage (Option 4) are within the expected duration for that stage of labor.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
       },
       "leftContent": {
         "intro": "",

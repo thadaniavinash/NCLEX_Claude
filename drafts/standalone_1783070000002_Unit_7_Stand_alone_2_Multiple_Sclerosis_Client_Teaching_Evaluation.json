@@ -12,7 +12,7 @@
       "question": {
         "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
         "type": "multiple_choice",
-        "preamble": "The nurse has taught a client with multiple sclerosis (MS).<div style=\"margin-top:14px;padding-top:10px;border-top:1px solid #ccc;font-size:0.78em;color:#888;font-style:italic;\">&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.</div>",
+        "preamble": "The nurse has taught a client with multiple sclerosis (MS).",
         "options": [
           {
             "text": "“I have learned how to massage my bladder to help empty my bladder completely.”",
@@ -31,7 +31,8 @@
             "correct": true
           }
         ],
-        "explanation": "Completing tasks in the morning when the client is best rested (Option 4) reflects correct understanding of energy conservation teaching for multiple sclerosis (MS), since fatigue is a hallmark symptom that worsens as the day progresses. Bladder massage (Option 1) is not a taught or effective technique for the neurogenic bladder dysfunction seen in MS; intermittent self-catheterization or other prescribed bladder-management strategies are used instead. A hot bath in the evening (Option 2) is contraindicated because heat exposure can transiently worsen MS symptoms (Uhthoff phenomenon) through slowed nerve conduction in demyelinated fibers. Stating that blurred vision will resolve after several weeks of medication (Option 3) is inaccurate; MS is a chronic, relapsing condition, and while an acute exacerbation such as optic neuritis may improve with treatment, this is not a guaranteed or universal expected outcome."
+        "explanation": "Completing tasks in the morning when the client is best rested (Option 4) reflects correct understanding of energy conservation teaching for multiple sclerosis (MS), since fatigue is a hallmark symptom that worsens as the day progresses. Bladder massage (Option 1) is not a taught or effective technique for the neurogenic bladder dysfunction seen in MS; intermittent self-catheterization or other prescribed bladder-management strategies are used instead. A hot bath in the evening (Option 2) is contraindicated because heat exposure can transiently worsen MS symptoms (Uhthoff phenomenon) through slowed nerve conduction in demyelinated fibers. Stating that blurred vision will resolve after several weeks of medication (Option 3) is inaccurate; MS is a chronic, relapsing condition, and while an acute exacerbation such as optic neuritis may improve with treatment, this is not a guaranteed or universal expected outcome.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
       },
       "leftContent": {
         "intro": "",

@@ -280,7 +280,19 @@ function renderPlayerStep(stepIdx) {
       preambleEl.classList.add('hidden');
     }
   }
-  
+
+  // Source footnote (e.g. copyright attribution), shown below the submit button
+  const footnoteEl = document.getElementById('player-question-footnote');
+  if (footnoteEl) {
+    if (step.question.footnote && step.question.footnote.trim()) {
+      footnoteEl.innerHTML = step.question.footnote;
+      footnoteEl.style.cssText = 'margin-top:14px;padding-top:10px;border-top:1px solid #ccc;font-size:0.78em;color:#888;font-style:italic;';
+    } else {
+      footnoteEl.innerHTML = '';
+      footnoteEl.style.cssText = '';
+    }
+  }
+
   // Render question image in player if present
   const imgContainer = document.getElementById('player-question-image-container');
   const playerImg = document.getElementById('player-question-image');

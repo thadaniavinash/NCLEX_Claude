@@ -11,7 +11,12 @@ should be reviewed by a clinician before publishing**, especially Item 3 (ECG
 rhythm interpreted from a scanned strip graphic of uncertain calibration).
 
 Every item carries a footnote crediting NCSBN and linking to the source, per the
-user's request, visible on-screen directly under the client scenario.
+user's request, visible on-screen directly below the Submit button (a new
+`question.footnote` field, rendered by `player.js` between the answer actions and
+the feedback card — this required a small addition to `index.html`/`player.js`,
+outside this content-drafting session's usual scope, made at the user's explicit
+request so it applies consistently to this item and all future ones, case-study
+screens included).
 
 Course/unit placement: items 1 and 2 (OB/labor, infection control) don't map to
 an existing course/unit in `js/state.js`'s `CURRICULUM_COURSES`, so they are filed

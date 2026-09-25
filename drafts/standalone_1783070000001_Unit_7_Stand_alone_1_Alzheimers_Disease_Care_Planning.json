@@ -12,7 +12,7 @@
       "question": {
         "stem": "Which of the following interventions should the nurse include in the client's plan of care?",
         "type": "multiple_choice",
-        "preamble": "The nurse is planning care for a client with moderate Alzheimer's disease (AD).<div style=\"margin-top:14px;padding-top:10px;border-top:1px solid #ccc;font-size:0.78em;color:#888;font-style:italic;\">&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.</div>",
+        "preamble": "The nurse is planning care for a client with moderate Alzheimer's disease (AD).",
         "options": [
           {
             "text": "Confront the client when inappropriate or agitated behaviors occur.",
@@ -31,7 +31,8 @@
             "correct": false
           }
         ],
-        "explanation": "Encouraging reminiscence about happy memories (Option 3) is a therapeutic, validating intervention appropriate for a client with moderate Alzheimer's disease (AD) because long-term memories often remain accessible longer than short-term memory, and this approach reduces anxiety and supports self-esteem. Confronting the client during agitated or inappropriate behavior (Option 1) is not therapeutic and can escalate distress; redirection and a calm approach are preferred instead. Providing complex activity choices and asking the client to plan the day (Option 2) exceeds the executive functioning and decision-making capacity typically impaired in moderate AD; a simple, structured routine is more appropriate. Cholinesterase inhibitors (Option 4) may temporarily slow symptom progression for some clients but do not reverse or cure the underlying course of AD, making this statement inaccurate."
+        "explanation": "Encouraging reminiscence about happy memories (Option 3) is a therapeutic, validating intervention appropriate for a client with moderate Alzheimer's disease (AD) because long-term memories often remain accessible longer than short-term memory, and this approach reduces anxiety and supports self-esteem. Confronting the client during agitated or inappropriate behavior (Option 1) is not therapeutic and can escalate distress; redirection and a calm approach are preferred instead. Providing complex activity choices and asking the client to plan the day (Option 2) exceeds the executive functioning and decision-making capacity typically impaired in moderate AD; a simple, structured routine is more appropriate. Cholinesterase inhibitors (Option 4) may temporarily slow symptom progression for some clients but do not reverse or cure the underlying course of AD, making this statement inaccurate.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
       },
       "leftContent": {
         "intro": "",
