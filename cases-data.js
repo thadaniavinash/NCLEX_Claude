@@ -5294,7 +5294,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse completes the initial newborn assessment for infant Leo. Which clinical findings should the nurse recognize as cues suggestive of <b>chromosomal aneuploidy (Trisomy 21 / Down syndrome)</b>? <b>Select all that apply.</b>",
+          "stem": "Which clinical findings should the nurse recognize as cues suggestive of Down syndrome? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -5302,7 +5302,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Single transverse palmar crease (simian crease) bilaterally",
+              "text": "Single transverse palmar crease bilaterally",
               "correct": true
             },
             {
@@ -5330,7 +5330,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse completes the initial newborn assessment for the infant.",
           "explanation": "Clinical manifestations of Trisomy 21 (Down syndrome) result from the presence of an extra 21st chromosome (autosomal polysomy/trisomy) and characteristically include: generalized muscular hypotonia (floppy infant), upward-slanting palpebral fissures, prominent epicanthal folds, protruding tongue/macroglossia, low-set malformed ears, short neck with redundant skin, single transverse palmar crease (simian crease), wide gap between the first and second toes, and congenital heart defects (most commonly atrioventricular septal defects or atrial/ventricular septal defects, producing murmurs). Hypertonia, sustained clonus, and craniosynostosis are not characteristic of Down syndrome."
         },
         "leftContent": {
@@ -5338,7 +5338,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_1",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0100 (DOL 1):</span><span class=\"nurse-note-text\">Term male infant admitted from labor and delivery for transition monitoring. Birth weight: 3,120 g (40th percentile); length: 48 cm (35th percentile); head circumference: 32 cm (25th percentile). Maternal history: 41-year-old G3P3, prenatal ultrasound at 20 weeks noted thickened nuchal fold, but parents declined definitive prenatal amniocentesis. Infant is awake but exhibits marked generalized muscular hypotonia ('floppy infant' appearance) with poor resistance to passive elbow and knee extension. Facial exam notable for brachycephaly with a flattened occiput, flattened nasal bridge, prominent epicanthal folds with upslanting eyes, and small low-set ears. Oral exam demonstrates a protruding tongue that pushes against the nipple, causing difficulty latching during initial bottle-feeding attempt. Hands exhibit short, broad fingers with a single continuous transverse flexion crease across both palms. Auscultation reveals a grade 3/6 harsh pansystolic murmur audible at the lower left sternal border without heave. Peripheral pulses +2 bilaterally. Acrocyanosis present in extremities; trunk and lips are pink. Pediatric hospitalist notified.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0100:</span><span class=\"nurse-note-text\">Day-of-Life 1 (DOL1). Term male infant admitted from labor and delivery for transition monitoring. Birth weight: 3,120 g (40th percentile); length: 48 cm (35th percentile); head circumference: 32 cm (25th percentile). Maternal history: 41-year-old G3P3, prenatal ultrasound at 20 weeks noted thickened nuchal fold, but parents declined definitive prenatal amniocentesis. Infant is awake but exhibits marked generalized muscular hypotonia ('floppy infant' appearance) with poor resistance to passive elbow and knee extension. Facial exam notable for brachycephaly with a flattened occiput, flattened nasal bridge, prominent epicanthal folds with upslanting eyes, and small low-set ears. Oral exam demonstrates a protruding tongue that pushes against the nipple, causing difficulty latching during initial bottle-feeding attempt. Hands exhibit short, broad fingers with a single continuous transverse flexion crease across both palms. Auscultation reveals a grade 3/6 harsh pansystolic murmur audible at the lower left sternal border without heave. Peripheral pulses +2 bilaterally. Acrocyanosis present in extremities; trunk and lips are pink. Pediatric hospitalist notified.</span></p>"
             },
             {
               "id": "vs_1",
@@ -5415,7 +5415,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_2",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200 (DOL 1):</span><span class=\"nurse-note-text\">Infant Leo remains stable on room air. Pre- and post-ductal SpO<sub>2</sub> remain 95–97%. Fed 20 mL of expressed breast milk via specialty Haberman feeder with frequent rest periods due to weak suck and tongue protrusion; no emesis or coughing noted during feed. Cardiac murmur unchanged. Mother expresses grief and anxiety regarding the preliminary diagnosis of Down syndrome and asks questions regarding how sex chromosome disorders differ from autosomal disorders. Nurse provides empathetic presence and prepares supportive educational materials regarding chromosomal aneuploidies.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">(DOL1) Infant remains stable on room air. Pre- and post-ductal SpO<sub>2</sub> remain 95–97%. Fed 20 mL of expressed breast milk via specialty Haberman feeder with frequent rest periods due to weak suck and tongue protrusion; no emesis or coughing noted during feed. Cardiac murmur unchanged. Mother expresses grief and anxiety regarding the preliminary diagnosis of Down syndrome and asks questions regarding how sex chromosome disorders differ from autosomal disorders.</span></p>"
             },
             {
               "id": "dr_2",
