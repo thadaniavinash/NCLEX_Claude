@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1790300000045",
+  "title": "Legal - Informed Consent Staff Education (SATA)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is planning a staff education program about informed consent.",
+        "options": [
+          {
+            "text": "“An individual designated by a power of attorney for health care can provide informed consent despite the competency of the client.”",
+            "correct": false
+          },
+          {
+            "text": "“The nurse has a duty to insist that the client repeat what has been said about a procedure for which consent is necessary.”",
+            "correct": true
+          },
+          {
+            "text": "“The primary health care provider must disclose the risks if the client declines a recommended procedure.”",
+            "correct": true
+          },
+          {
+            "text": "“The client should sign the consent form prior to receiving prescribed opioids.”",
+            "correct": true
+          },
+          {
+            "text": "“Informed consent is not needed for emergency procedures that are in the client's best interest.”",
+            "correct": true
+          }
+        ],
+        "explanation": "A health care power of attorney may consent on the client's behalf only when the client is not competent to do so; it does not override the client's own decision-making authority whenever the client remains competent, so the statement that it applies “despite the competency of the client” (Option 1) is incorrect. The nurse has a role in verifying that the client understands what was explained about a procedure, including having the client restate it in their own words (Option 2). The primary health care provider must disclose the risks of declining a recommended procedure as part of informed refusal (Option 3). Consent should be obtained before administering sedating medications such as opioids, since these can impair the client's decision-making capacity (Option 4). Informed consent is not required when immediate treatment is needed to preserve life or health and the client is unable to consent (Option 5).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

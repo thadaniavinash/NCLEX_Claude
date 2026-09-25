@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000040",
+  "title": "Infection Control - Alcohol-Based Hand Rub Staff Education (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information about alcohol-based hand rub should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is planning a staff education program about infection control guidelines.",
+        "options": [
+          {
+            "text": "“Use before touching medical equipment that will come in direct contact with the client.”",
+            "correct": true
+          },
+          {
+            "text": "“Avoid using when moving your hands from a contaminated body site to a clean body site during client care.”",
+            "correct": false
+          },
+          {
+            "text": "“Avoid using before caring for clients who have severe neutropenia.”",
+            "correct": false
+          },
+          {
+            "text": "“Use after contact with body excretions that do not cause your hands to be visibly soiled.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Alcohol-based hand rub should be used before touching medical equipment that will have direct client contact (Option 1), one of the standard hand-hygiene moments for a clean/aseptic task. Moving from a contaminated body site to a clean body site during care (Option 2) is exactly when hand hygiene, including alcohol-based rub, should be performed, not avoided. Clients with severe neutropenia (Option 3) are at higher infection risk and hand hygiene, including alcohol-based rub, should be used more consistently around their care, not avoided. Option 4 describes an appropriate use of alcohol-based hand rub as well, but is not the single best answer here; this item is flagged for clinician review since Options 1 and 4 are each independently defensible.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

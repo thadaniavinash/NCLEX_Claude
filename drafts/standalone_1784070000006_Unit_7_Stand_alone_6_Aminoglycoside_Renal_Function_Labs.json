@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784070000006",
+  "title": "Unit 7 Stand-alone 6: Aminoglycoside - Renal Function Labs",
+  "course": "NURS 1021",
+  "unit": "Unit 7 (Urinary Disorders)",
+  "topic": "Unit 7 (Urinary Disorders)",
+  "disorder": "Unit 7 (Urinary Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following laboratory test results should the nurse review before administering the medication?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is preparing to administer an aminoglycoside.",
+        "options": [
+          {
+            "text": "serum electrolyte level and serum uric acid level",
+            "correct": false
+          },
+          {
+            "text": "hemoglobin (Hgb) and white blood cell (WBC) count",
+            "correct": false
+          },
+          {
+            "text": "serum ammonia level and serum glucose level",
+            "correct": false
+          },
+          {
+            "text": "blood urea nitrogen (BUN) and serum creatinine",
+            "correct": true
+          }
+        ],
+        "explanation": "Aminoglycosides are nephrotoxic, so the nurse should review blood urea nitrogen (BUN) and serum creatinine (Option 4) before administration to confirm adequate renal function and avoid drug accumulation and toxicity. Serum electrolyte and uric acid levels (Option 1), hemoglobin and WBC count (Option 2), and serum ammonia and glucose levels (Option 3) are not the primary safety labs associated with aminoglycoside nephrotoxicity.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

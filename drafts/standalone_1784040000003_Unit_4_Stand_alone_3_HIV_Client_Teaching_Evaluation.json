@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784040000003",
+  "title": "Unit 4 Stand-alone 3: HIV Client Teaching Evaluation",
+  "course": "NURS 1021",
+  "unit": "Unit 4 (Inflammation and Immune Disorders)",
+  "topic": "Unit 4 (Inflammation and Immune Disorders)",
+  "disorder": "Unit 4 (Inflammation and Immune Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would require follow-up?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is talking with a client who has a positive laboratory test result for human immunodeficiency virus (HIV) infection.",
+        "options": [
+          {
+            "text": "“I try to eat a well-balanced diet.”",
+            "correct": false
+          },
+          {
+            "text": "“I avoid crowds when I go outside the house.”",
+            "correct": false
+          },
+          {
+            "text": "“I am taking a vitamin C tablet daily to help prevent infections.”",
+            "correct": false
+          },
+          {
+            "text": "“I take echinacea every day to help improve my immune system.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Echinacea and other herbal immune stimulants (Option 4) are not recommended for clients who are immunocompromised, including those with HIV, both because the effect on an already dysregulated immune system is not established as beneficial and because herbal immunostimulants can interact with antiretroviral medications; this statement requires follow-up. Eating a well-balanced diet (Option 1) and avoiding crowds to reduce exposure to infection (Option 2) are appropriate self-care measures. A daily vitamin C supplement (Option 3) is a generally low-risk practice and does not require the same follow-up concern as an immune-stimulating herbal supplement.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

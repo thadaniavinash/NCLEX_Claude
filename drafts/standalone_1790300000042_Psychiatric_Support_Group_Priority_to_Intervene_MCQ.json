@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000042",
+  "title": "Psychiatric - Support Group Priority to Intervene (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would be a <b>priority</b> for the nurse to intervene if the client with",
+        "type": "multiple_choice",
+        "preamble": "The nurse in the inpatient psychiatric unit is leading a support group for clients.",
+        "options": [
+          {
+            "text": "bipolar I disorder is experiencing a manic episode, is moving the legs, and is looking around the room restlessly",
+            "correct": true
+          },
+          {
+            "text": "borderline personality disorder is saying that another group member is too disturbed to be attending the session",
+            "correct": false
+          },
+          {
+            "text": "major depressive disorder is sitting quietly with the eyes downcast",
+            "correct": false
+          },
+          {
+            "text": "schizophrenia is rocking in place and copying the gestures of another client in the group",
+            "correct": false
+          }
+        ],
+        "explanation": "The client experiencing a manic episode with increased psychomotor activity and restlessness (Option 1) is at highest risk for escalating agitation and disrupting the group, making this the priority for intervention. A comment about another member (Option 2), quiet withdrawn behavior consistent with depression (Option 3), and stereotyped behavior such as echopraxia in schizophrenia (Option 4) are each expected manifestations of the stated diagnoses and do not represent an immediate safety or escalation risk to the group.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

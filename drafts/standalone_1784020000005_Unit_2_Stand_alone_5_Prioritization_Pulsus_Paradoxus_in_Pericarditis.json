@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784020000005",
+  "title": "Unit 2 Stand-alone 5: Prioritization - Pulsus Paradoxus in Pericarditis",
+  "course": "NURS 1021",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> assess the client",
+        "type": "multiple_choice",
+        "preamble": "The nurse has been made aware of the following client situations.",
+        "options": [
+          {
+            "text": "with chronic obstructive pulmonary disease (COPD) who is using pursed-lip breathing after ambulating in the hallway",
+            "correct": false
+          },
+          {
+            "text": "with pericarditis who has a systolic blood pressure that is 20 mm Hg higher during expiration than during inspiration",
+            "correct": true
+          },
+          {
+            "text": "who had a total abdominal hysterectomy (TAH) 12 hours ago and has saturated 1 perineal pad in the past 5 hours",
+            "correct": false
+          },
+          {
+            "text": "who has Guillain-Barré syndrome and has had an increase in the vital capacity over the past 4 hours",
+            "correct": false
+          }
+        ],
+        "explanation": "A systolic blood pressure drop of more than 10 mm Hg during inspiration (here, 20 mm Hg higher during expiration than inspiration) is pulsus paradoxus, and in a client with pericarditis (Option 2) this is a concerning sign of cardiac tamponade, a life-threatening emergency requiring immediate assessment. Pursed-lip breathing after ambulation in a client with COPD (Option 1) is an expected, adaptive breathing pattern. Saturating 1 perineal pad over 5 hours after a TAH (Option 3) is an expected amount of postoperative drainage, not excessive bleeding. An increasing vital capacity in Guillain-Barré syndrome (Option 4) is a reassuring, improving sign, since a falling vital capacity is the finding that signals impending respiratory failure in this condition.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

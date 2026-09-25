@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000039",
+  "title": "Infection Control - Airborne Precautions Room Placement (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following infection control precautions should the nurse implement?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is preparing to admit a client who has pleuritic chest pain and is reporting a cough productive of yellow sputum for the past 1 week. The client has a pulse oximetry reading of 90% on room air.",
+        "options": [
+          {
+            "text": "Use a stethoscope that is designated for use with the client only.",
+            "correct": false
+          },
+          {
+            "text": "Wear sterile gloves when inserting a peripheral venous access device (VAD).",
+            "correct": false
+          },
+          {
+            "text": "Assign the client to a private room with monitored negative air pressure.",
+            "correct": true
+          },
+          {
+            "text": "Place a box of surgical masks inside the client's room.",
+            "correct": false
+          }
+        ],
+        "explanation": "A prolonged productive cough with hypoxia raises concern for an airborne infection such as tuberculosis; the client should be placed in a private room with monitored negative air pressure (Option 3), the defining room feature of airborne precautions. A client-dedicated stethoscope (Option 1) is a contact-precaution measure, not specific to this presentation. Sterile gloves for VAD insertion (Option 2) is standard aseptic technique unrelated to airborne isolation. Surgical masks kept inside the client's room (Option 4) are backward; staff should don fit-tested N95 (or higher) respirators before entering the room, and a surgical mask would be placed on the client only for source control during transport out of the room.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784040000002",
+  "title": "Unit 4 Stand-alone 2: Mononucleosis Assessment Findings",
+  "course": "NURS 1021",
+  "unit": "Unit 4 (Inflammation and Immune Disorders)",
+  "topic": "Unit 4 (Inflammation and Immune Disorders)",
+  "disorder": "Unit 4 (Inflammation and Immune Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following findings would support a diagnosis of mononucleosis?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is assessing a client with suspected mononucleosis.",
+        "options": [
+          {
+            "text": "polyarthralgia",
+            "correct": false
+          },
+          {
+            "text": "costovertebral pain",
+            "correct": false
+          },
+          {
+            "text": "cervical lymphadenopathy",
+            "correct": true
+          },
+          {
+            "text": "left lower quadrant (LLQ) tenderness",
+            "correct": false
+          }
+        ],
+        "explanation": "Cervical lymphadenopathy (Option 3) is a classic finding in infectious mononucleosis, along with fever, pharyngitis, and fatigue. Polyarthralgia (Option 1) is not a typical mononucleosis finding. Costovertebral angle tenderness (Option 2) suggests renal pathology, not mononucleosis. Mononucleosis characteristically causes splenomegaly with left upper quadrant tenderness, not left lower quadrant tenderness (Option 4).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

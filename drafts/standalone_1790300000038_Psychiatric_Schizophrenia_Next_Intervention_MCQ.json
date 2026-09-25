@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000038",
+  "title": "Psychiatric - Schizophrenia Next Intervention (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following interventions should the nurse take <b>next</b>?",
+        "type": "multiple_choice",
+        "preamble": "The nurse in the psychiatric unit has completed the morning assessment of a client. Progress notes, Day 2, 0830: withdrawn, remains in assigned client room, exhibiting blunted affect and jumbled, illogical speech, experiencing auditory hallucinations and paranoid delusions. History and Physical: third admission this year for acute signs and symptoms of mental illness; family history of schizophrenia. Orders: attend group sessions when stabilized; risperidone 4 mg p.o. daily.",
+        "options": [
+          {
+            "text": "Encourage the client to attend 1 group session today.",
+            "correct": false
+          },
+          {
+            "text": "Teach the client's family members about how to prevent a relapse.",
+            "correct": false
+          },
+          {
+            "text": "Administer the prescribed dose of risperidone.",
+            "correct": true
+          },
+          {
+            "text": "Prepare to discharge the client to a community treatment program.",
+            "correct": false
+          }
+        ],
+        "explanation": "The client remains acutely symptomatic (withdrawn, blunted affect, illogical speech, hallucinations, delusions) and is not yet stabilized, so administering the prescribed antipsychotic (Option 3) is the next appropriate action to work toward stabilization. The order for group sessions specifically applies once the client is stabilized (Option 1), which has not yet occurred. Family relapse-prevention teaching (Option 2) is appropriate later in the admission, once the client's acute symptoms are controlled, not as the next priority action. Discharge planning (Option 4) is premature for a client who is actively psychotic on day 2 of a third admission this year.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

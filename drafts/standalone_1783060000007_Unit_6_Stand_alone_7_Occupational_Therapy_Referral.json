@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783060000007",
+  "title": "Unit 6 Stand-alone 7: Occupational Therapy Referral",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should recommend a referral to an occupational therapist for the client with",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for the following clients.",
+        "options": [
+          {
+            "text": "rheumatoid arthritis (RA) who has a 2-month-old infant",
+            "correct": true
+          },
+          {
+            "text": "an intertrochanteric hip fracture who works as a surgeon",
+            "correct": false
+          },
+          {
+            "text": "mononucleosis who is a college student",
+            "correct": false
+          },
+          {
+            "text": "tendonitis who is a professional tennis player",
+            "correct": false
+          }
+        ],
+        "explanation": "Occupational therapy focuses on adapting activities of daily living and teaching joint protection and energy conservation techniques; a client with RA caring for a newborn (Option 1) benefits most from OT referral to learn adaptive techniques and equipment for infant care that protect inflamed joints. The client recovering from a hip fracture (Option 2) primarily needs physical therapy for mobility and gait training, not OT. Mononucleosis (Option 3) is a self-limited viral illness managed with rest, not requiring OT. Tendonitis in an athlete (Option 4) is generally managed with physical therapy and activity modification rather than OT.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

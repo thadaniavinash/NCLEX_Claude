@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000047",
+  "title": "Maternal-Newborn - Umbilical Cord Prolapse Priority Action (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions should the nurse take?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a client in the first stage of labor and observes that a segment of the umbilical cord is visible in the vaginal opening after rupture of the client's amniotic membranes.",
+        "options": [
+          {
+            "text": "Instruct the client to lie on her left side.",
+            "correct": false
+          },
+          {
+            "text": "Attempt to place the umbilical cord back into the uterus.",
+            "correct": false
+          },
+          {
+            "text": "Assist the client into a knee-chest position.",
+            "correct": true
+          },
+          {
+            "text": "Administer an intravenous tocolytic agent.",
+            "correct": false
+          }
+        ],
+        "explanation": "For umbilical cord prolapse, the priority nursing action is to relieve pressure on the cord by repositioning the client into a knee-chest or Trendelenburg position (Option 3), which the nurse can implement immediately and independently. The nurse should never attempt to push the visible cord back into the uterus (Option 2), which risks further cord compression and trauma. A left side-lying position alone (Option 1) is less effective at relieving cord compression than the knee-chest position. An intravenous tocolytic agent (Option 4) may be part of the overall management to reduce contractions and pressure on the cord, but it requires a prescription and is not the nurse's first, independent action.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000044",
+  "title": "Psychiatric - Milieu De-escalation During Medication Pass (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions should the nurse take?",
+        "type": "multiple_choice",
+        "preamble": "The nurse in the psychiatric unit is administering medications when a client with borderline personality disorder approaches and asks to talk. The nurse suggests having a talk in 1 hour. The client shouts, “I'll wait, but you will be sorry!” and then picks up a pitcher of water and throws it onto the floor.",
+        "options": [
+          {
+            "text": "Offer to listen to the client while continuing to administer the medications.",
+            "correct": false
+          },
+          {
+            "text": "Suggest that the client take a p.r.n. prescribed medication for agitation.",
+            "correct": false
+          },
+          {
+            "text": "Ask another nurse to finish administering the medications, and talk with the client.",
+            "correct": true
+          },
+          {
+            "text": "Request assistance from several nearby staff members with controlling the client's behavior.",
+            "correct": false
+          }
+        ],
+        "explanation": "Separating the tasks by asking another nurse to complete medication administration while the primary nurse gives the client focused, 1:1 attention (Option 3) allows both the medication pass and therapeutic de-escalation to occur safely, addressing the client's underlying need to be heard. Offering to listen while continuing to hand out medications (Option 1) does not give the client focused attention and does not resolve the safety concern of an agitated client during a medication pass. Suggesting a p.r.n. medication (Option 2) does not address the client's expressed need to talk and may feel punitive. Summoning several staff members (Option 4) is a show-of-force response reserved for imminent danger of harm, which has not yet been established by throwing water onto the floor; this response risks escalating rather than de-escalating the situation.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

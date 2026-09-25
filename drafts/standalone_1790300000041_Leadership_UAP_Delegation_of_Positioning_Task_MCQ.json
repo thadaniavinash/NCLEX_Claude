@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000041",
+  "title": "Leadership - UAP Delegation of Positioning Task (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would be <b>most appropriate</b> for the nurse to assign UAP to",
+        "type": "multiple_choice",
+        "preamble": "The nurse and unlicensed assistive personnel (UAP) are caring for assigned clients.",
+        "options": [
+          {
+            "text": "apply a continuous passive motion (CPM) device to the affected extremity of a client who had a total knee replacement",
+            "correct": false
+          },
+          {
+            "text": "change the bed linens for a client who was admitted 1 hour ago following a closed-head injury and is comatose and is vomiting",
+            "correct": false
+          },
+          {
+            "text": "reposition a client with hydrocephalus who has a headache and is vomiting",
+            "correct": false
+          },
+          {
+            "text": "place in the prone position a client who had an above-the-knee amputation (AKA) 1 day ago",
+            "correct": true
+          }
+        ],
+        "explanation": "Prone positioning of a stable client 1 day after an AKA (Option 4) is a routine, non-invasive comfort/positioning measure used to prevent hip flexion contracture and is appropriate to delegate to UAP. Applying a CPM device (Option 1) requires assessment and device setup that exceeds UAP scope. A client 1 hour after a closed-head injury who is comatose and vomiting (Option 2) is unstable and at risk for increased intracranial pressure; this client requires ongoing nursing assessment, and handling by UAP without RN evaluation is not appropriate. A client with hydrocephalus who has a new headache and vomiting (Option 3) has findings concerning for increased intracranial pressure that require nursing assessment before any positioning is delegated.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000043",
+  "title": "Psychiatric - Client Rights and Staff Boundary Violation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "When the nurse meets privately with the staff member, which of the following statements would be <b>most</b> appropriate for the nurse to make to the staff member?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has observed a staff member tell a client with bipolar disorder that there will be consequences for making negative comments about conditions in the facility.",
+        "options": [
+          {
+            "text": "“Threatening a client can result in the immediate dismissal of a staff member.”",
+            "correct": false
+          },
+          {
+            "text": "“Staff members who have difficulty with control issues often seek power over clients.”",
+            "correct": false
+          },
+          {
+            "text": "“Clients have a right to provide feedback about services without fear of punishment.”",
+            "correct": true
+          },
+          {
+            "text": "“Staff should set limits with clients in a nonjudgmental manner.”",
+            "correct": false
+          }
+        ],
+        "explanation": "The core issue is the client's right to voice complaints about care or facility conditions without fear of retaliation, so the nurse's most appropriate statement centers that right (Option 3). Framing the conversation around dismissal (Option 1) is punitive and not the most therapeutic first approach in a private coaching conversation. Speculating about the staff member's psychology (Option 2) is not appropriate or professional. Reminding the staff member to set limits nonjudgmentally (Option 4) does not address the actual problem, since the staff member's statement was a threat, not a therapeutic limit.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}
