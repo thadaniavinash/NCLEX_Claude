@@ -1,0 +1,411 @@
+{
+  "id": "case_1786010000001",
+  "title": "NURS 1021 Unit 1 Case Study 1",
+  "unit": "Unit 1 (Blood Disorders)",
+  "course": "NURS 1021",
+  "topic": "Unit 1 (Blood Disorders)",
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "A 71-year-old client develops a right lower leg deep vein thrombosis (DVT) that progresses to a submassive pulmonary embolism, from recognize cues through evaluate outcomes.",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which client findings would be of <b>immediate</b> concern to the nurse? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse reviews the 0825 nurses’ notes for a 71-year-old client who was admitted to the ED.",
+        "options": [
+          {
+            "text": "Painful right lower leg",
+            "correct": true
+          },
+          {
+            "text": "Reddened, warm, and swollen right lower leg",
+            "correct": true
+          },
+          {
+            "text": "Unable to ambulate without leg pain",
+            "correct": true
+          },
+          {
+            "text": "Pedal pulses in both feet 1+",
+            "correct": false
+          },
+          {
+            "text": "H/O type 2 diabetes mellitus",
+            "correct": false
+          },
+          {
+            "text": "DVT 10 years ago after a total knee arthroplasty",
+            "correct": false
+          },
+          {
+            "text": "Hypercholesterolemia controlled by lovastatin",
+            "correct": false
+          },
+          {
+            "text": "BP 178/92 mmHg",
+            "correct": true
+          },
+          {
+            "text": "SpO2 96% on RA",
+            "correct": false
+          },
+          {
+            "text": "Blood glucose 6.54 mmol/L (118 mg/dL)",
+            "correct": false
+          }
+        ],
+        "explanation": "The client presented to the ED with a painful, red, warm, and swollen right lower leg (Options 1, 2). The pain prevents the client from ambulating without pain (Option 3). All of these findings are of immediate concern to the nurse because the client could be experiencing a postoperative complication that could become life-threatening. The client's blood pressure is elevated (Option 8), which is also of immediate concern and needs to be addressed. The SpO2 of 96% is normal (95% and greater) and the blood glucose of 6.54 mmol/L (118 mg/dL) is within expected limits for this client and would not be of concern to the nurse. The client's history of diabetes mellitus and hypercholesterolemia are also not concerning at this time because they are being effectively managed. The client's history of DVT would be considered as a factor that could influence the treatment plan, but is not of immediate concern to the nurse. Although normal pedal pulses would be 2+ rather than 1+, the client is an older adult who has type 2 diabetes. Older adults often develop arteriosclerosis/atherosclerosis as physiological changes associated with aging. These arterial changes cause narrowing and decreased blood flow, resulting in diminished distal pulse strength. Peripheral arterial disease is a common vascular complication of diabetes that results in decreased circulation to distal extremities. Pedal pulses are 1+ bilaterally, indicating that the client's right lower leg swelling is not affecting perfusion at this time. Therefore, diminished pedal pulses are not of immediate concern to the nurse."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT).",
+        "tabs": [
+          {
+            "id": "nn_dvt_pe",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each client finding below, click to specify if the finding is consistent with the disease process of deep vein thrombosis, peripheral arterial disease, or both. Each finding may support more than 1 disease process.",
+        "type": "matrix_mr",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Painful right lower leg",
+              "correctIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": "Reddened, warm right lower leg",
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Both feet cool",
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pedal pulses 1+ in both feet",
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Swollen right lower leg",
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "H/O type 2 diabetes mellitus",
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Deep Vein Thrombosis",
+            "Peripheral Arterial Disease"
+          ],
+          "firstColumnHeader": "Client Finding"
+        },
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse reviews the 0825 nurses’ notes for a 71-year-old client who was admitted to the ED.",
+        "explanation": "Deep vein thrombosis (DVT) is the presence of one or more venous clots in the lower extremities, and is a common complication after major surgery. Venous return slows as a result of decreased mobility and positioning during surgery, leading to venous stasis and eventually clot formation. The most common symptoms of DVT are pain, redness, warmth, and swelling, indications of venous inflammation. Most clients who have diabetes mellitus have vascular complications, such as peripheral arterial disease (PAD), which decreases arterial blood flow to distal tissues. Decreased tissue perfusion typically results in cool, pale distal extremities, especially in the feet, and diminished distal pulses. Many clients experience claudication and other painful sensations in the lower extremities, so pain can be a feature of both DVT and PAD, while redness/warmth/swelling point specifically to DVT and cool skin, diminished pulses, and the vascular effects of diabetes point specifically to PAD."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT).",
+        "tabs": [
+          {
+            "id": "nn_dvt_pe",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentence from the list of options provided.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The nurse determines that the priority for the client receiving continuous heparin is to monitor for [[drop0]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "Hemorrhage",
+                  "correct": true
+                },
+                {
+                  "text": "Hyperkalemia",
+                  "correct": false
+                },
+                {
+                  "text": "Acute ischemic stroke",
+                  "correct": false
+                },
+                {
+                  "text": "Acute kidney injury",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse reviews the ED notes to begin to plan care for a 71-year-old client.",
+        "explanation": "The client has a confirmed DVT for which a continuous heparin infusion was ordered. Unfractionated heparin is an anticoagulant that works rapidly by combining with antithrombin III to prevent thrombin formation. As a result, fibrinogen does not convert to fibrin, and a fibrin clot is not formed. Heparin is being administered to this client to prevent extension of the existing DVT and to prevent additional clot formation. Clients need to be monitored for hemorrhage, including observation for signs of GI bleeding, ecchymosis (bruising), petechiae, and hematuria. The client's aPTT is monitored as a basis for drug dosing management."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT).",
+        "tabs": [
+          {
+            "id": "nn_dvt_pe",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which of the following statements, if made by the nurse, would indicate appropriate health teaching? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse on the medical unit reviews the nurses’ notes from the ED and plans health teaching for a 71-year-old client receiving continuous IV heparin infusion for right lower leg DVT.",
+        "options": [
+          {
+            "text": "“You can expect to have your blood drawn often to monitor your INR level as the basis for how much heparin you receive each day.”",
+            "correct": false
+          },
+          {
+            "text": "“We will test your stools for any microscopic blood that could indicate we need to stop or slow your heparin infusion.”",
+            "correct": true
+          },
+          {
+            "text": "“In a few days your medication will likely be switched to a different drug that can be given by injection once or twice a day.”",
+            "correct": true
+          },
+          {
+            "text": "“The doctor wants you to have IV heparin now because you have a history of developing DVT.”",
+            "correct": true
+          },
+          {
+            "text": "“Please let us know if you feel any chest discomfort or start having shortness of breath.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Many clients who experience a DVT are started on a low-molecular-weight heparin (LMWH). However, this client has a history of DVT and is therefore receiving a continuous heparin infusion for initial management. Unfractionated heparin is an anticoagulant that works rapidly by combining with antithrombin III to prevent thrombin formation. As a result, fibrinogen does not convert to fibrin, and a fibrin clot is not formed. Heparin is being administered to this client to prevent enlargement of the current DVT and prevent additional clot formation. Clients should be monitored for hemorrhage, including observation for signs of GI bleeding, ecchymosis (bruising), petechiae, and hematuria. Therefore, the client's stools and urine may be tested for occult (microscopic) blood to detect early signs of bleeding. The client's aPTT is monitored as a basis for drug dosing management. INR is monitored for clients receiving warfarin and is therefore an incorrect response. If the client's condition begins to improve, the client will likely receive heparin for 3 days and then be switched to an LMWH that can be administered once or twice daily by injection; this drug does not require lab monitoring. While being treated for DVT, the client should be closely monitored for indications that a piece of the thrombus has become dislodged and caused an embolus, most often a pulmonary embolus (PE). Most clients have chest discomfort or shortness of breath when a PE occurs. The nurse would teach the client to report either or both of these symptoms as soon as they occur so that treatment can be initiated. Embolic complications can be life-threatening."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT).",
+        "tabs": [
+          {
+            "id": "nn_dvt_pe",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p><div><b>Medical Unit</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1152:</span><span class=\"nurse-note-text\">Admitted to medical unit with continuous heparin infusing at 1,323 units/h for right leg DVT. Alert and oriented. Current VS: T 36.7° C (98° F); HR 82 BPM; RR 16 bpm; BP 164/90 mmHg; SpO2 97% on RA.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which of the following actions should the nurse take? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse on the medical unit is preparing to perform the initial shift assessment for the client receiving continuous IV heparin infusion for right lower leg DVT.",
+        "options": [
+          {
+            "text": "Respiratory: Initiate continuous pulse oximetry monitoring.",
+            "correct": true
+          },
+          {
+            "text": "Respiratory: Administer oxygen therapy via nasal cannula.",
+            "correct": true
+          },
+          {
+            "text": "Respiratory: Use incentive spirometry every 2 hours.",
+            "correct": false
+          },
+          {
+            "text": "Respiratory: Assess lung sounds at least every shift.",
+            "correct": false
+          },
+          {
+            "text": "Respiratory: Elevate the head of the bed.",
+            "correct": true
+          },
+          {
+            "text": "Cardiovascular: Prepare to administer IV crystalloid such as lactated Ringer’s.",
+            "correct": true
+          },
+          {
+            "text": "Cardiovascular: Assess vital signs at least hourly.",
+            "correct": true
+          },
+          {
+            "text": "Cardiovascular: Prepare client for CT scan of the chest.",
+            "correct": true
+          },
+          {
+            "text": "Neurological: Monitor level of consciousness.",
+            "correct": true
+          },
+          {
+            "text": "Neurological: Perform neurological checks every 4 hours.",
+            "correct": false
+          },
+          {
+            "text": "Neurological: Provide reassurance to the client.",
+            "correct": true
+          }
+        ],
+        "explanation": "The client has shortness of breath and a low SpO2, for which the nurse would raise the head of the client's bed and immediately start oxygen therapy, along with continuous pulse oximetry monitoring to track the client's oxygenation closely. Lung sounds need to be monitored frequently, at least every 30 to 60 minutes; therefore, a respiratory assessment only every shift is insufficient and is not an appropriate action. Incentive spirometry (IS) is used to expand the lungs and prevent alveolar collapse; this client has one or more clots in a pulmonary blood vessel and would not likely benefit from the IS. The client's blood pressure markedly decreased, causing the heart rate to increase. An IV crystalloid such as lactated Ringer's solution would help increase blood volume and the client's blood pressure; if the BP continues to decrease, a vasopressor such as dobutamine may be ordered. Vital signs are monitored frequently, at least hourly, and the client needs to be prepared for a CT scan or CT angiogram to confirm the PE. Although the nurse does not need to perform a formal neurological assessment every 4 hours, the client's level of consciousness needs to be monitored due to the decreasing blood pressure and possible hemoptysis (cough with blood-streaked sputum) that can occur in some clients who have a PE. Providing reassurance to the client will assist in managing anxiety and will aid in promoting recovery. This item is flagged for clinician review: continuous pulse oximetry monitoring was not explicitly addressed in the original rationale and is included here as a reasonable extension of “immediately start oxygen therapy” for a client with a new, significant desaturation."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT).",
+        "tabs": [
+          {
+            "id": "nn_dvt_pe",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p><div><b>Medical Unit</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1152:</span><span class=\"nurse-note-text\">Admitted to medical unit with continuous heparin infusing at 1,323 units/h for right leg DVT. Alert and oriented. Current VS: T 36.7° C (98° F); HR 82 BPM; RR 16 bpm; BP 164/90 mmHg; SpO2 97% on RA.</span></p><div><b>Day 2</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0700:</span><span class=\"nurse-note-text\">Nurse begins the initial shift assessment. Client reports that chest discomfort started about 1 hour ago, with mild shortness of breath, and states feeling very anxious. Current VS: T 36.7° C (98° F); HR 102 BPM; RR 20 bpm; BP 98/62 mmHg; SpO2 90% on RA.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each assessment finding, click to specify if the client’s condition has improved or is not improved when comparing the current finding to the finding from 2 days ago.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Chest discomfort → No chest discomfort",
+              "correctIndex": 0
+            },
+            {
+              "text": "Shortness of breath → Occasional shortness of breath",
+              "correctIndex": 0
+            },
+            {
+              "text": "Very anxious → Very anxious",
+              "correctIndex": 1
+            },
+            {
+              "text": "HR 102 BPM → HR 80 BPM",
+              "correctIndex": 0
+            },
+            {
+              "text": "BP 98/62 mmHg → BP 124/76 mmHg",
+              "correctIndex": 0
+            },
+            {
+              "text": "SpO2 90% on RA → SpO2 95% on RA",
+              "correctIndex": 0
+            }
+          ],
+          "columns": [
+            "Improving",
+            "Not Improving"
+          ],
+          "firstColumnHeader": "Assessment Finding (2 Days Ago → Today)"
+        },
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse is assigned to care for a 71-year-old client who was admitted to the medical unit 3 days ago for DVT of the lower right leg. Two days ago, the client experienced a submassive pulmonary embolus, causing chest discomfort, shortness of breath, and hypotension; it was confirmed by imaging and treated immediately. Before assessing the client, the nurse reviews the nurses’ notes from the last shift, and then compares the client’s current findings with findings 2 days ago.",
+        "explanation": "All of the current assessment findings indicate that the client's condition has improved except the report of feeling very anxious. Anxiety is a common problem for clients experiencing shortness of breath or breathlessness, which creates fear. Fearful situations then trigger a sympathetic response, which can worsen breathing problems. Currently the client is experiencing only occasional shortness of breath and no chest discomfort. Current vital signs are all within normal range, demonstrating that the client's condition has improved."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT).",
+        "tabs": [
+          {
+            "id": "nn_dvt_pe",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p><div><b>Medical Unit</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1152:</span><span class=\"nurse-note-text\">Admitted to medical unit with continuous heparin infusing at 1,323 units/h for right leg DVT. Alert and oriented. Current VS: T 36.7° C (98° F); HR 82 BPM; RR 16 bpm; BP 164/90 mmHg; SpO2 97% on RA.</span></p><div><b>Day 2</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0700:</span><span class=\"nurse-note-text\">Nurse begins the initial shift assessment. Client reports that chest discomfort started about 1 hour ago, with mild shortness of breath, and states feeling very anxious. Current VS: T 36.7° C (98° F); HR 102 BPM; RR 20 bpm; BP 98/62 mmHg; SpO2 90% on RA.</span></p><div><b>Day 4</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0645:</span><span class=\"nurse-note-text\">Oxygen therapy discontinued last evening. Current VS: T 36.9° C (98.4° F); HR 80 BPM; RR 18 bpm; BP 124/76 mmHg; SpO2 95% on RA. Lung sounds clear in all fields; no adventitious sounds. Occasional shortness of breath, but no chest discomfort; states still feeling very anxious. S1 S2 present. Bowel sounds present in all quadrants. Heparin infusion at 1,323 units/h in left forearm. Occult blood negative in morning stool; no bleeding or bruising. Heparin infusing per protocol. Client to start enoxaparin this afternoon after blood work.</span></p>"
+          }
+        ]
+      }
+    }
+  ],
+  "availability": "all"
+}
