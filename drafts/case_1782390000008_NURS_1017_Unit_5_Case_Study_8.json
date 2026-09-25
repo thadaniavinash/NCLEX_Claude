@@ -1,0 +1,641 @@
+{
+  "id": "case_1782390000008",
+  "title": "NURS 1017 Unit 5 Case Study 8",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "description": "A 54-year-old male client with 20 years of plaque psoriasis who progresses to generalized exfoliative dermatitis (erythroderma) after stopping methotrexate, from the emergency department through biologic therapy and discharge planning.",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the ED flowsheet. <b>Highlight</b> the findings that require <b>immediate</b> follow-up.",
+        "type": "highlight",
+        "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "highlightTabs": [
+          {
+            "id": "c3_ht1",
+            "title": "ED Flowsheet",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Finding</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{35.6 °C|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{116/min|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{96/58 mm Hg lying; 80/50 mm Hg standing, with dizziness|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory rate / SpO2</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{18/min / 97% room air}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{100 mL of dark amber urine in the past 8 hours|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Skin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{Bright erythema with scaling and peeling over approximately 90% of the body, including palms and soles|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Nails</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{Pitting and ridging of several fingernails}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{3.1 mmol/L (3.5&ndash;5.0)|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Magnesium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{0.62 mmol/L (0.70&ndash;1.00)|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{132 µmol/L (1.49 mg/dL); 84 µmol/L three months ago|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Albumin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{26 g/L (2.6 g/dL) (35&ndash;50 g/L)|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ESR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{48 mm/h (0&ndash;20)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{124 g/L (135&ndash;175)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ALT</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{34 U/L (7&ndash;56)}</td></tr></tbody></table>"
+          }
+        ],
+        "maxCorrectSelections": null,
+        "explanation": "Impaired thermoregulation (temperature 35.6 °C) results when the skin barrier is almost completely lost; the nurse monitors temperature and provides warming measures in erythroderma. Tachycardia and hypotension with an orthostatic drop reflect hemodynamic instability from fluid loss through the damaged skin -- hemodynamic stability is the priority in erythroderma. Only 100 mL of dark, concentrated urine in 8 hours (about 0.14 mL/kg/h in a 92-kg client) shows oliguria from hypovolemia. Erythema over about 90% of the body meets the chapter's definition of generalized exfoliative dermatitis (erythroderma), a life-threatening condition managed in hospital. Low potassium and magnesium are replaced; both raise dysrhythmia risk, and heavy alcohol use contributes to low magnesium. A creatinine risen from a baseline of 84 to 132 µmol/L suggests prerenal acute kidney injury from hypovolemia. An albumin of 26 g/L reflects protein loss through the shedding, inflamed skin; this explains the ankle edema and lowers oncotic pressure. A normal respiratory rate and SpO2 argue against a respiratory cause for these findings. Nail pitting is a chronic finding of nail psoriasis, not urgent. An elevated ESR is expected with psoriatic inflammation and is monitored, but does not require immediate action on its own. Mild anemia and a normal ALT are not immediately dangerous; the ALT is a useful baseline before starting systemic therapy.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma).",
+        "tabs": [
+          {
+            "id": "c3_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+          },
+          {
+            "id": "c3_notes",
+            "title": "Nurses' Notes",
+            "content": ""
+          }
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "cloze": {
+          "text": "The client's hypotension and tachycardia are most likely caused by [[drop0]] as evidenced by [[drop1]]. His temperature of 35.6 °C is most likely due to [[drop2]]. The bilateral ankle edema is most likely related to [[drop3]]. The flare was most likely triggered by [[drop4]].",
+          "scoreGroups": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "fluid loss through the widely inflamed, shedding skin",
+                  "correct": true
+                },
+                {
+                  "text": "cardiogenic shock",
+                  "correct": false
+                },
+                {
+                  "text": "methotrexate toxicity",
+                  "correct": false
+                },
+                {
+                  "text": "anaphylaxis to prednisone",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output",
+                  "correct": true
+                },
+                {
+                  "text": "the nail pitting and ridging",
+                  "correct": false
+                },
+                {
+                  "text": "the ESR of 48 mm/h",
+                  "correct": false
+                },
+                {
+                  "text": "the SpO2 of 97%",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "heat loss through widespread, dilated skin blood vessels",
+                  "correct": true
+                },
+                {
+                  "text": "hypothyroidism",
+                  "correct": false
+                },
+                {
+                  "text": "alcohol withdrawal",
+                  "correct": false
+                },
+                {
+                  "text": "a normal evening drop in body temperature",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "a low serum albumin from protein loss through the skin",
+                  "correct": true
+                },
+                {
+                  "text": "fluid overload from IV fluids",
+                  "correct": false
+                },
+                {
+                  "text": "right-sided heart failure",
+                  "correct": false
+                },
+                {
+                  "text": "bilateral deep vein thrombosis",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress",
+                  "correct": true
+                },
+                {
+                  "text": "a new laundry detergent",
+                  "correct": false
+                },
+                {
+                  "text": "a recent streptococcal throat infection",
+                  "correct": false
+                },
+                {
+                  "text": "too much sun exposure",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "In erythroderma the skin barrier is almost completely absent, so the patient loses fluid rapidly through the skin. The orthostatic drop, dry mucosa, and low, concentrated urine output confirm volume depletion; a normal SpO2 and clear lungs argue against a cardiopulmonary cause, and there is no allergen exposure suggesting anaphylaxis. Inflamed, vasodilated skin over 90% of the body loses heat rapidly; the chapter directs frequent temperature monitoring with warming or cooling as needed. The client has not stopped drinking long enough for significant withdrawal, and alcohol withdrawal tends to raise, not lower, temperature. An albumin of 26 g/L shows protein loss through scaling and exudation; low oncotic pressure lets fluid shift into tissues even while the client is intravascularly depleted, and IV fluids have not yet been given. The chapter lists stress and excessive alcohol as psoriasis triggers and notes psoriasis is a contributing cause of erythroderma. Abruptly stopping systemic therapy and withdrawal of systemic corticosteroids are well-recognized triggers of erythrodermic flares. A streptococcal infection classically triggers guttate psoriasis; detergents trigger contact dermatitis, not this presentation.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma).",
+        "tabs": [
+          {
+            "id": "c3_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+          },
+          {
+            "id": "c3_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "cloze": {
+          "text": "The priority nursing hypothesis at this time is [[drop0]] because [[drop1]]. Once this is addressed, the nurse's next priority is [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "risk for hemodynamic instability related to fluid and electrolyte loss",
+                  "correct": true
+                },
+                {
+                  "text": "impaired skin integrity",
+                  "correct": false
+                },
+                {
+                  "text": "disturbed body image",
+                  "correct": false
+                },
+                {
+                  "text": "deficient knowledge about medication adherence",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat",
+                  "correct": true
+                },
+                {
+                  "text": "psoriasis is an autoimmune disorder",
+                  "correct": false
+                },
+                {
+                  "text": "the client stopped taking methotrexate",
+                  "correct": false
+                },
+                {
+                  "text": "the ESR is elevated",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "impaired skin integrity",
+                  "correct": true
+                },
+                {
+                  "text": "disturbed body image",
+                  "correct": false
+                },
+                {
+                  "text": "deficient knowledge",
+                  "correct": false
+                },
+                {
+                  "text": "ineffective coping",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "For ordinary psoriasis, impaired skin integrity is the priority. Once the disease becomes erythroderma, the priority shifts to hemodynamic instability, because the skin barrier is almost completely absent -- this is the key clinical-judgment shift in this case. That widespread loss of the skin barrier is the mechanism that makes erythroderma life-threatening; the other options are true facts but do not explain the immediate danger. Impaired skin integrity is the next hypothesis in erythroderma. Body image, knowledge, and coping are real needs for this client (he is tearful and isolating) and are addressed once he is physiologically stable, in keeping with the priority of physiological needs.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma).",
+        "tabs": [
+          {
+            "id": "c3_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+          },
+          {
+            "id": "c3_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which interventions should the nurse include in the plan of care for the first 24 hours? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+        "options": [
+          {
+            "text": "Administer IV isotonic fluids as prescribed",
+            "correct": true
+          },
+          {
+            "text": "Replace potassium and magnesium as prescribed, with cardiac monitoring",
+            "correct": true
+          },
+          {
+            "text": "Keep the room warm, apply warm blankets, and monitor temperature frequently",
+            "correct": true
+          },
+          {
+            "text": "Maintain strict intake and output and obtain a daily weight",
+            "correct": true
+          },
+          {
+            "text": "Provide lukewarm oatmeal soaks followed by a bland, oil-based emollient",
+            "correct": true
+          },
+          {
+            "text": "Administer the prescribed oral antihistamine, preferably at bedtime",
+            "correct": true
+          },
+          {
+            "text": "Monitor for alcohol withdrawal using a validated scale (e.g., CIWA-Ar)",
+            "correct": true
+          },
+          {
+            "text": "Restrict oral fluids to 1 L/day to reduce the ankle edema",
+            "correct": false
+          },
+          {
+            "text": "Apply coal tar ointment to all reddened skin",
+            "correct": false
+          },
+          {
+            "text": "Arrange an ultraviolet phototherapy session for tomorrow",
+            "correct": false
+          },
+          {
+            "text": "Use hot water and a washcloth to scrub off loose scale",
+            "correct": false
+          }
+        ],
+        "explanation": "Adequate hydration through IV fluid replacement maintains hemodynamic stability. Potassium, magnesium, and calcium are replaced when indicated; low potassium and magnesium raise dysrhythmia risk, so cardiac monitoring is prudent. Temperature monitoring with warming measures as needed addresses impaired thermoregulation. Strict intake and output and daily weight track the response to fluid replacement and ongoing losses. Oatmeal baths are recommended for erythroderma, and oil-based emollients are recommended for psoriasis; lukewarm water avoids further vasodilation and heat loss. Oral antihistamines (for example, diphenhydramine) are listed for itching in erythroderma; bedtime dosing uses the sedating effect, with supervision for getting up because of orthostatic hypotension. He reports 6 to 8 drinks a day; withdrawal can begin within 6 to 24 hours of the last drink and worsens hemodynamic instability. The edema comes from low albumin while the client is intravascularly depleted; restricting fluids would worsen hypotension and kidney injury. Coal tar is a treatment for mild, localized psoriasis; on inflamed, broken skin over 90% of the body it is irritating and can worsen erythroderma. Ultraviolet phototherapy is used for more stable psoriasis; ultraviolet exposure to acutely inflamed skin can aggravate erythroderma, and he is unstable. Friction and heat from hot water scrubbing further damage the fragile barrier, increase heat and fluid loss, and invite infection.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma).",
+        "tabs": [
+          {
+            "id": "c3_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+          },
+          {
+            "id": "c3_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each nursing action, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for the client on hospital day 3.",
+        "type": "matrix_mc",
+        "preamble": "Phase 2 &mdash; Medical Unit, Hospital Day 3.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "matrix": {
+          "rows": [
+            {
+              "text": "Confirm that the TB and hepatitis screening results are documented before the first infliximab infusion",
+              "correctIndex": 0
+            },
+            {
+              "text": "Monitor vital signs and observe for an infusion reaction (fever, chills, dyspnea, hives) during and after the infusion",
+              "correctIndex": 0
+            },
+            {
+              "text": "Teach the client to report fever, cough, night sweats, or signs of skin infection promptly",
+              "correctIndex": 0
+            },
+            {
+              "text": "Advise the client to get any overdue live vaccines (e.g., MMR) now that infusions are starting",
+              "correctIndex": 1
+            },
+            {
+              "text": "Explain that the infusions can be stopped once his skin clears",
+              "correctIndex": 1
+            },
+            {
+              "text": "Refer the client to a social worker for drug-coverage options and to a psoriasis support group or counselling",
+              "correctIndex": 0
+            },
+            {
+              "text": "Teach stress-reduction strategies and support his plan to reduce alcohol intake",
+              "correctIndex": 0
+            },
+            {
+              "text": "Encourage long, hot showers to soften and remove scale",
+              "correctIndex": 1
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Finding / Action"
+        },
+        "explanation": "For systemic and biologic therapy (infliximab is named), the nurse monitors for serious infections such as tuberculosis and hepatitis. TNF inhibitors can reactivate latent TB and hepatitis B, so screening must be confirmed first. Infliximab can cause infusion reactions. Suppressed immunity makes infection more likely and directs teaching about worsening redness, swelling, or discharge. Live vaccines are avoided during biologic immunosuppression; needed vaccines should be given before therapy starts, per prescriber. Psoriasis is chronic with remission and relapse; the nurse reinforces adherence rather than suggesting therapy can simply be stopped once the skin clears -- stopping therapy is what precipitated this admission. Addressing the root cause of non-adherence (lost drug coverage) and the psychosocial impact matters: support groups and social work are appropriate for coping and financial concerns. Education to avoid triggers, including stress and excessive alcohol, and stress-reduction techniques are directed. Heat and prolonged water exposure dry and irritate the skin and promote heat and fluid loss; lukewarm soaks followed by emollients are appropriate instead.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma).",
+        "tabs": [
+          {
+            "id": "c3_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+          },
+          {
+            "id": "c3_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+          },
+          {
+            "id": "c3_notes2",
+            "title": "Nurses' Notes Day 3",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88/min, temperature 36.9 °C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
+          },
+          {
+            "id": "c3_screening",
+            "title": "Screening Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Interferon-gamma release assay (TB)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis B surface antigen / core antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative / Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis C antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest x-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">No acute findings</td></tr></tbody></table>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding on hospital day 7, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+        "type": "matrix_mc",
+        "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 7.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "matrix": {
+          "rows": [
+            {
+              "text": "BP 124/78 mm Hg and HR 82/min, with no orthostatic change",
+              "correctIndex": 0
+            },
+            {
+              "text": "Temperature 36.8 °C",
+              "correctIndex": 0
+            },
+            {
+              "text": "Potassium 4.1 mmol/L; magnesium 0.84 mmol/L",
+              "correctIndex": 0
+            },
+            {
+              "text": "Erythema reduced to about 40% of the body; less peeling; itch rated 3/10",
+              "correctIndex": 0
+            },
+            {
+              "text": "Excoriation on the right shin now has a honey-coloured crust with surrounding redness and warmth",
+              "correctIndex": 1
+            },
+            {
+              "text": "Alcohol withdrawal scores 0–2 for the past 72 hours",
+              "correctIndex": 0
+            },
+            {
+              "text": "Client states: “If my skin stays clear, I'll just skip the next infusion.”",
+              "correctIndex": 1
+            }
+          ],
+          "columns": [
+            "Effective",
+            "Not effective"
+          ],
+          "firstColumnHeader": "Finding / Action"
+        },
+        "explanation": "Stable blood pressure and heart rate meet the expected outcome of vital signs within normal limits without fluid imbalance. A normal temperature shows thermoregulation restored. Normal potassium and magnesium show no electrolyte disturbance. The chapter expects the skin to begin healing with decreased peeling and itching. A honey-coloured crust with surrounding redness and warmth is a classic sign of secondary bacterial infection (impetigo-like); the chapter notes yellow crusts over excoriations signal infection -- notify the provider; topical mupirocin is commonly prescribed, and infection risk is higher on a biologic. Low withdrawal scores show withdrawal was prevented or managed. Planning to skip the next infusion once the skin clears shows the adherence teaching has not been understood; the chapter directs the nurse to evaluate education and reinforce continuing treatment.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma).",
+        "tabs": [
+          {
+            "id": "c3_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+          },
+          {
+            "id": "c3_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+          },
+          {
+            "id": "c3_notes2",
+            "title": "Nurses' Notes Day 3",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88/min, temperature 36.9 °C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
+          },
+          {
+            "id": "c3_screening",
+            "title": "Screening Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Interferon-gamma release assay (TB)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis B surface antigen / core antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative / Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis C antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest x-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">No acute findings</td></tr></tbody></table>"
+          },
+          {
+            "id": "c3_notes3",
+            "title": "Nurses' Notes Day 7",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 7:</span><span class=\"nurse-note-text\">First infliximab infusion completed on day 3 without reaction. The nurse reviews today's findings before discharge planning.</span></p>"
+          }
+        ]
+      }
+    }
+  ],
+  "availability": "all"
+}

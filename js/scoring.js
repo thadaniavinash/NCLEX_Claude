@@ -17,21 +17,35 @@ function evaluateStepScore(stepIdx) {
     case 'drag_drop_cloze': {
       const c = q.cloze || { dropdowns: [] };
       const dropdowns = c.dropdowns || [];
-      // Count indices where drop exists
-      const activeDropdowns = dropdowns.filter(Boolean);
-      maxScore = activeDropdowns.length;
-      
+
+      const isBlankCorrect = (dd, idx) => {
+        if (!dd || !dd.options) return false;
+        const userVal = userAnswers[idx];
+        if (q.type === 'drag_drop_cloze') {
+          const correctText = dd.options.find(o => o.correct)?.text || '';
+          return userVal === correctText;
+        }
+        const correctIdx = dd.options.findIndex(o => o.correct);
+        return userVal !== undefined && parseInt(userVal) === correctIdx;
+      };
+
+      // Optional: c.scoreGroups groups blank indices that are scored together
+      // as a single all-or-nothing point (NCSBN-style paired "dyad" rationale
+      // scoring), e.g. [[0,1],[2,3]]. Indices not in any group are scored
+      // individually, 1 point each, as before. Omitting scoreGroups keeps the
+      // original per-blank scoring behavior unchanged.
+      const groups = Array.isArray(c.scoreGroups) ? c.scoreGroups : [];
+      const groupedIndices = new Set(groups.flat());
+
+      maxScore = groups.length;
+      groups.forEach(group => {
+        if (group.every((idx) => isBlankCorrect(dropdowns[idx], idx))) score++;
+      });
+
       dropdowns.forEach((dd, idx) => {
-        if (dd && dd.options) {
-          const correctIdx = dd.options.findIndex(o => o.correct);
-          const userVal = userAnswers[idx];
-          // For drag drop, correct value is the exact text match
-          if (q.type === 'drag_drop_cloze') {
-            const correctText = dd.options.find(o => o.correct)?.text || '';
-            if (userVal === correctText) score++;
-          } else {
-            if (userVal !== undefined && parseInt(userVal) === correctIdx) score++;
-          }
+        if (dd && !groupedIndices.has(idx)) {
+          maxScore++;
+          if (isBlankCorrect(dd, idx)) score++;
         }
       });
       break;

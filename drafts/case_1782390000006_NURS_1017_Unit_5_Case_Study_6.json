@@ -1,0 +1,755 @@
+{
+  "id": "case_1782390000006",
+  "title": "NURS 1017 Unit 5 Case Study 6",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "description": "A 46-year-old male client with flame burns and suspected inhalation injury, from the emergency department through fluid resuscitation and early burn-centre recovery.",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the Nurses’ Notes. <b>Highlight</b> the findings that indicate the client is at risk for airway compromise or impaired gas exchange.",
+        "type": "highlight",
+        "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "highlightTabs": [
+          {
+            "id": "c1_ht1",
+            "title": "Nurses' Notes",
+            "content": "0305: Client is {tearful and repeatedly asking about his dog.} {Oriented to person only; unsure of the time or place. Reports headache and nausea.|correct} {Voice is hoarse and he has a frequent cough|correct}{producing black-tinged sputum.|correct} {Nasal hairs and eyebrows singed; soot around the nose and mouth.|correct} Face reddened and dry without blisters. {Expiratory wheezes heard bilaterally.|correct} Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; {rates chest pain 9/10.} {Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched.} {Wearing a wedding ring on the right hand and a metal watch on the right wrist.} Right radial pulse 2+; capillary refill 3 seconds."
+          }
+        ],
+        "maxCorrectSelections": null,
+        "explanation": "New confusion (oriented to person only) after smoke exposure suggests cerebral hypoxia from carbon monoxide (CO) and/or impaired gas exchange. Hoarseness signals thermal injury and swelling of the larynx and upper airway; edema can progress rapidly to obstruction, so this is a red-flag cue. Black-tinged (carbonaceous) sputum shows that smoke was inhaled below the vocal cords. Singed nasal hairs and eyebrows with soot around the nose and mouth are classic external cues of smoke and heat inhalation, especially after confinement in an enclosed, smoke-filled space. Bilateral expiratory wheezes indicate bronchospasm and lower-airway irritation from inhaled smoke and chemicals. Being tearful and asking about his dog is an expected emotional response that needs support later, but is not a cue of airway or gas-exchange risk. Chest pain 9/10 comes from the partial-thickness (second-degree) burn to the anterior trunk, which is very painful because nerve endings are exposed; it needs treatment, but it is not an airway cue. The circumferential full-thickness right arm burn is a circulation concern (risk for compartment syndrome), not an airway concern in this client -- a circumferential full-thickness burn of the <i>chest</i> could restrict breathing, but the arm cannot. The ring and watch on the burned arm must be removed before swelling develops (a circulation concern), but do not indicate airway risk.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury.",
+        "tabs": [
+          {
+            "id": "c1_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+          },
+          {
+            "id": "c1_vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_notes",
+            "title": "Nurses' Notes",
+            "content": ""
+          }
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each assessment finding, click to specify whether it is consistent with <b>upper airway (inhalation) injury</b>, <b>carbon monoxide poisoning</b>, or <b>hypovolemia related to the burn injury</b>. Each finding may support more than one condition.",
+        "type": "matrix_mr",
+        "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "matrix": {
+          "rows": [
+            {
+              "text": "Hoarse voice",
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Singed nasal hairs",
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Headache and nausea",
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Oriented to person only",
+              "correctIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": "SpO2 98% despite new confusion",
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "HR 122/min with BP 104/66 mm Hg",
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Hematocrit 0.53 L/L (53%)",
+              "correctIndices": [
+                2
+              ]
+            }
+          ],
+          "columns": [
+            "Upper airway (inhalation) injury",
+            "Carbon monoxide poisoning",
+            "Hypovolemia related to burn"
+          ],
+          "firstColumnHeader": "Finding / Action"
+        },
+        "explanation": "Hoarse voice and singed nasal hairs are direct evidence of heat and smoke near the airway (upper airway/inhalation injury). Headache and nausea are early, nonspecific symptoms of CO toxicity, since CO binds hemoglobin far more tightly than oxygen, reducing oxygen delivery to tissues. Confusion (oriented to person only) can come from hypoxemia caused by airway and lung injury, and from tissue hypoxia caused by CO -- both apply. A normal-appearing SpO2 of 98% despite new confusion is falsely reassuring: standard pulse oximeters cannot tell carboxyhemoglobin from oxyhemoglobin, so the COHb level on the ABG (ordered, pending) is needed to detect CO poisoning. Burns over 20% TBSA trigger a systemic inflammatory response with fluid shifts that can lead to hypovolemic shock; tachycardia (HR 122) with a narrowing blood pressure (104/66) is compensation for that fluid loss. A hematocrit of 53% reflects hemoconcentration: plasma leaks out of the vessels while red cells stay in, raising the hematocrit as intravascular volume falls.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury.",
+        "tabs": [
+          {
+            "id": "c1_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+          },
+          {
+            "id": "c1_vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "cloze": {
+          "text": "The client is at highest risk for [[drop0]] as evidenced by [[drop1]]. Once this is addressed, the nurse should next focus on the client's risk for [[drop2]] as evidenced by [[drop3]].",
+          "scoreGroups": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "airway obstruction from upper airway edema",
+                  "correct": true
+                },
+                {
+                  "text": "wound infection",
+                  "correct": false
+                },
+                {
+                  "text": "hypothermia",
+                  "correct": false
+                },
+                {
+                  "text": "compartment syndrome of the right arm",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "the hoarse voice and black-tinged sputum",
+                  "correct": true
+                },
+                {
+                  "text": "the circumferential full-thickness burn of the right arm",
+                  "correct": false
+                },
+                {
+                  "text": "the temperature of 36.3 °C",
+                  "correct": false
+                },
+                {
+                  "text": "the WBC of 11.2 × 10⁹/L",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "hypovolemic shock",
+                  "correct": true
+                },
+                {
+                  "text": "impaired skin integrity",
+                  "correct": false
+                },
+                {
+                  "text": "acute pain",
+                  "correct": false
+                },
+                {
+                  "text": "disturbed body image",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "HR 122/min, BP 104/66 mm Hg, and hematocrit 0.53 L/L",
+                  "correct": true
+                },
+                {
+                  "text": "the blistered anterior trunk",
+                  "correct": false
+                },
+                {
+                  "text": "the pain rating of 9/10",
+                  "correct": false
+                },
+                {
+                  "text": "the potassium of 5.3 mmol/L",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The nurse prioritizes with ABCDE, and for burns, ABC is followed by fluid resuscitation. After smoke inhalation, impaired gas exchange takes priority over impaired skin integrity. Upper-airway edema can worsen over hours, so early recognition (the hoarse voice and carbonaceous sputum) allows a controlled intubation before the airway is lost entirely. Circulation follows airway and breathing: with about 27% TBSA of partial- and full-thickness burns, large fluid shifts are expected, and IV access and fluid resuscitation are top priorities after the airway, evidenced by the tachycardia, low-normal blood pressure, and hemoconcentration (elevated hematocrit). Wound infection develops over days, not within this timeframe. Hypothermia is a real risk but is addressed after airway, breathing, and circulation. Compartment syndrome of the arm threatens a limb and needs frequent checks, but a threat to the airway threatens life.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury.",
+        "tabs": [
+          {
+            "id": "c1_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+          },
+          {
+            "id": "c1_vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "The nurse plans the client's fluid resuscitation. Use the Nurses’ Notes (Phase 1), the Rule of Nines, and the provider's orders. Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "preamble": "Phase 2 &mdash; Emergency Department, 0340.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "cloze": {
+          "text": "The percentage of TBSA to include in the fluid resuscitation calculation is [[drop0]]. The total volume of Ringer's lactate prescribed for the first 24 hours is [[drop1]]. Half of this volume, [[drop2]], is to be infused over the first 8 hours, timed from [[drop3]]. The nurse will titrate the infusion as prescribed to maintain a urine output of at least [[drop4]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "18%",
+                  "correct": false
+                },
+                {
+                  "text": "27%",
+                  "correct": true
+                },
+                {
+                  "text": "31.5%",
+                  "correct": false
+                },
+                {
+                  "text": "36%",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "4,320 mL",
+                  "correct": false
+                },
+                {
+                  "text": "8,640 mL",
+                  "correct": true
+                },
+                {
+                  "text": "10,080 mL",
+                  "correct": false
+                },
+                {
+                  "text": "11,520 mL",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "2,160 mL",
+                  "correct": false
+                },
+                {
+                  "text": "4,320 mL",
+                  "correct": true
+                },
+                {
+                  "text": "5,040 mL",
+                  "correct": false
+                },
+                {
+                  "text": "5,760 mL",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "0215 (time of injury)",
+                  "correct": true
+                },
+                {
+                  "text": "0300 (arrival in the ED)",
+                  "correct": false
+                },
+                {
+                  "text": "the time the IV was started",
+                  "correct": false
+                },
+                {
+                  "text": "the time the order was written",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "20 mL/h",
+                  "correct": false
+                },
+                {
+                  "text": "40 mL/h",
+                  "correct": true
+                },
+                {
+                  "text": "100 mL/h",
+                  "correct": false
+                },
+                {
+                  "text": "160 mL/h",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "By the Rule of Nines: anterior trunk (chest + abdomen) = 18%; the entire right arm, anterior 4.5% + posterior 4.5% = 9%. Total 27%. The face is a first-degree (superficial) burn -- red, dry, no blisters -- and is <b>not</b> counted in resuscitation calculations. Using the Parkland formula, 4 mL &times; 80 kg &times; 27 = 8,640 mL over 24 hours. Half of that, 4,320 mL, is given in the first 8 hours; the remaining 4,320 mL is given over the next 16 hours. The 8-hour clock starts at the burn, not at arrival -- because 45+ minutes have already passed since 0215, the hourly rate must make up for lost time. The adult urine-output target is about 0.5 mL/kg/h: 0.5 &times; 80 kg = 40 mL/h. Urine output is the key guide for titration; output well above 1 mL/kg/h (for example, 100&ndash;160 mL/h) suggests over-resuscitation and risks edema-related complications.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury.",
+        "tabs": [
+          {
+            "id": "c1_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+          },
+          {
+            "id": "c1_vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0335</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.30</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.35&ndash;7.45</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">35&ndash;45 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm Hg (on non-rebreather)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80&ndash;100 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>-</sup></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22&ndash;26 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Carboxyhemoglobin (COHb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Less than 3% (non-smoker)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0340:</span><span class=\"nurse-note-text\">Client's voice is more hoarse and a high-pitched inspiratory sound is now audible at rest. Oxygen changed to a non-rebreather mask. The provider, respiratory therapist, and anesthesia are preparing for endotracheal intubation. Right hand: fingers cool and pale, capillary refill 5 seconds, right radial pulse faint (1+); client reports numbness and tingling in the right fingers; right forearm feels tense on palpation. Two large-bore IV catheters inserted in unburned skin of the left arm.</span></p>"
+          },
+          {
+            "id": "c1_orders",
+            "title": "Provider Orders",
+            "content": "<p><b>0340:</b></p><ul><li>Oxygen 100% via non-rebreather mask until airway secured</li><li>Ringer's lactate (lactated Ringer's) per Parkland formula: 4 mL &times; kg &times; %TBSA (partial- and full-thickness burns only); titrate to urine output</li><li>Insert indwelling urinary catheter; hourly urine output</li><li>NPO; nasogastric tube to low intermittent suction</li><li>Morphine 2&ndash;4 mg IV every 1 hour PRN pain</li><li>Tetanus toxoid IM</li><li>Chest x-ray; 12-lead ECG</li><li>Arrange transfer to regional burn centre</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client at this time.",
+        "type": "matrix_mc",
+        "preamble": "Phase 2 &mdash; Emergency Department, 0340.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "matrix": {
+          "rows": [
+            {
+              "text": "Notify the provider immediately about the right-hand findings",
+              "correctIndex": 0
+            },
+            {
+              "text": "Remove the wedding ring and watch from the right hand and wrist",
+              "correctIndex": 0
+            },
+            {
+              "text": "Elevate the right arm on pillows above the level of the heart",
+              "correctIndex": 0
+            },
+            {
+              "text": "Apply a snug elastic compression wrap to the right arm to limit swelling",
+              "correctIndex": 1
+            },
+            {
+              "text": "Continue 100% oxygen via non-rebreather mask until the airway is secured",
+              "correctIndex": 0
+            },
+            {
+              "text": "Administer the prescribed morphine intramuscularly into the unburned thigh",
+              "correctIndex": 1
+            },
+            {
+              "text": "Apply ice packs to the blistered chest to relieve pain",
+              "correctIndex": 1
+            },
+            {
+              "text": "Offer small sips of an electrolyte drink to replace fluid losses",
+              "correctIndex": 1
+            },
+            {
+              "text": "Teach active range-of-motion exercises for the right hand",
+              "correctIndex": 2
+            },
+            {
+              "text": "Cover the burns with clean, dry dressings or sheets and keep the room warm",
+              "correctIndex": 0
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Contraindicated",
+            "Nonessential"
+          ],
+          "firstColumnHeader": "Finding / Action"
+        },
+        "explanation": "Cool, pale fingers, delayed capillary refill, a weakening pulse, paresthesia, and a tense forearm under a circumferential full-thickness burn signal impending compartment syndrome; the provider must be notified immediately, and the expected treatment is an escharotomy (incision through the inelastic eschar). Jewelry and clothing near the burn should be removed, since once edema develops, a ring or watch acts as a tourniquet. Elevating the arm above heart level reduces edema formation. Anything constricting (a compression wrap) worsens the compartment pressure that is already compromising perfusion. A carboxyhemoglobin of 19% confirms CO poisoning; high-flow oxygen shortens the half-life of carboxyhemoglobin and continues until the airway is secured and the COHb falls. During burn shock, peripheral and muscle perfusion is poor, so IM absorption is unreliable -- little early relief, then possible delayed, excessive absorption once perfusion returns; the client's orders specify IV morphine. Ice causes vasoconstriction that can deepen the injury and, over a 27% TBSA burn, promotes hypothermia; cooling with room-temperature water or saline is used instead. The client is NPO with an NG tube ordered: intubation is imminent and large burns commonly cause paralytic ileus, so resuscitation and any fluids are IV, not oral. Range-of-motion teaching is important later, in rehabilitation, but is not the priority during an airway emergency with a compromised arm. Clean, dry coverage protects the wounds from contamination and limits heat loss, and a warm room helps prevent hypothermia.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury.",
+        "tabs": [
+          {
+            "id": "c1_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+          },
+          {
+            "id": "c1_vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0335</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.30</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.35&ndash;7.45</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">35&ndash;45 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm Hg (on non-rebreather)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80&ndash;100 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>-</sup></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22&ndash;26 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Carboxyhemoglobin (COHb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Less than 3% (non-smoker)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0340:</span><span class=\"nurse-note-text\">Client's voice is more hoarse and a high-pitched inspiratory sound is now audible at rest. Oxygen changed to a non-rebreather mask. The provider, respiratory therapist, and anesthesia are preparing for endotracheal intubation. Right hand: fingers cool and pale, capillary refill 5 seconds, right radial pulse faint (1+); client reports numbness and tingling in the right fingers; right forearm feels tense on palpation. Two large-bore IV catheters inserted in unburned skin of the left arm.</span></p>"
+          },
+          {
+            "id": "c1_orders",
+            "title": "Provider Orders",
+            "content": "<p><b>0340:</b></p><ul><li>Oxygen 100% via non-rebreather mask until airway secured</li><li>Ringer's lactate (lactated Ringer's) per Parkland formula: 4 mL &times; kg &times; %TBSA (partial- and full-thickness burns only); titrate to urine output</li><li>Insert indwelling urinary catheter; hourly urine output</li><li>NPO; nasogastric tube to low intermittent suction</li><li>Morphine 2&ndash;4 mg IV every 1 hour PRN pain</li><li>Tetanus toxoid IM</li><li>Chest x-ray; 12-lead ECG</li><li>Arrange transfer to regional burn centre</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding on post-injury day 5, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+        "type": "matrix_mc",
+        "preamble": "Phase 3 &mdash; Regional Burn Centre, Post-injury Day 5.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "matrix": {
+          "rows": [
+            {
+              "text": "Urine output averaging 55 mL/h over the past 24 hours",
+              "correctIndex": 0
+            },
+            {
+              "text": "Right hand warm, capillary refill 2 seconds, right radial pulse 2+",
+              "correctIndex": 0
+            },
+            {
+              "text": "SpO2 96% on O2 2 L/min nasal cannula; lungs clear; speaks in full sentences",
+              "correctIndex": 0
+            },
+            {
+              "text": "Pain rated 3/10 during a dressing change after IV morphine 30 minutes beforehand",
+              "correctIndex": 0
+            },
+            {
+              "text": "Green-yellow, foul-smelling drainage from the chest wound; redness extending 2 cm beyond the wound edge",
+              "correctIndex": 1
+            },
+            {
+              "text": "Temperature 38.9 °C; WBC 17.4 × 10⁹/L",
+              "correctIndex": 1
+            }
+          ],
+          "columns": [
+            "Effective",
+            "Not effective"
+          ],
+          "firstColumnHeader": "Finding / Action"
+        },
+        "explanation": "Urine output of 55 mL/h is above the 40 mL/h (0.5 mL/kg/h) target, showing adequate renal perfusion after resuscitation. A warm hand with brisk capillary refill and a palpable pulse matches the expected short-term outcome of no signs of compartment syndrome: no swelling and no decreased pulses in the affected area. SpO2 96%, clear lungs, and speaking in full sentences show that gas exchange and airway patency have been restored after extubation. Pain 3/10 during a dressing change reflects giving analgesia at least 30 minutes before burn care, with pain that is tolerable before, during, and after the dressing change. Yellow, foul-smelling discharge with increased erythema are signs of burn-wound infection; the nurse notifies the provider (a wound culture and antimicrobials are likely). The short-term goal is a WBC within normal range; fever with leukocytosis and a purulent wound suggest infection and possible sepsis, so the provider is notified and this is escalated promptly.",
+        "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0."
+      },
+      "leftContent": {
+        "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury.",
+        "tabs": [
+          {
+            "id": "c1_hp",
+            "title": "History and Physical",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+          },
+          {
+            "id": "c1_vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0335</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.30</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.35&ndash;7.45</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">35&ndash;45 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm Hg (on non-rebreather)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80&ndash;100 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>-</sup></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22&ndash;26 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Carboxyhemoglobin (COHb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Less than 3% (non-smoker)</td></tr></tbody></table>"
+          },
+          {
+            "id": "c1_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0340:</span><span class=\"nurse-note-text\">Client's voice is more hoarse and a high-pitched inspiratory sound is now audible at rest. Oxygen changed to a non-rebreather mask. The provider, respiratory therapist, and anesthesia are preparing for endotracheal intubation. Right hand: fingers cool and pale, capillary refill 5 seconds, right radial pulse faint (1+); client reports numbness and tingling in the right fingers; right forearm feels tense on palpation. Two large-bore IV catheters inserted in unburned skin of the left arm.</span></p>"
+          },
+          {
+            "id": "c1_orders",
+            "title": "Provider Orders",
+            "content": "<p><b>0340:</b></p><ul><li>Oxygen 100% via non-rebreather mask until airway secured</li><li>Ringer's lactate (lactated Ringer's) per Parkland formula: 4 mL &times; kg &times; %TBSA (partial- and full-thickness burns only); titrate to urine output</li><li>Insert indwelling urinary catheter; hourly urine output</li><li>NPO; nasogastric tube to low intermittent suction</li><li>Morphine 2&ndash;4 mg IV every 1 hour PRN pain</li><li>Tetanus toxoid IM</li><li>Chest x-ray; 12-lead ECG</li><li>Arrange transfer to regional burn centre</li></ul>"
+          },
+          {
+            "id": "c1_notes3",
+            "title": "Progress Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Post-injury Day 5:</span><span class=\"nurse-note-text\">Right-arm escharotomy was performed on arrival at the burn centre. Client was extubated on day 3. Morphine IV given 30 minutes before each dressing change. Silver sulfadiazine and nonadherent dressings applied to the anterior trunk twice daily. Today's assessment findings are shown below.</span></p><p>Urine output averaging 55 mL/h over the past 24 hours. Right hand warm, capillary refill 2 seconds, right radial pulse 2+. SpO2 96% on O2 2 L/min nasal cannula; lungs clear; speaks in full sentences. Pain rated 3/10 during a dressing change after IV morphine 30 minutes beforehand. Green-yellow, foul-smelling drainage from the chest wound; redness extending 2 cm beyond the wound edge. Temperature 38.9 °C; WBC 17.4 × 10⁹/L.</p>"
+          }
+        ]
+      }
+    }
+  ],
+  "availability": "all"
+}
