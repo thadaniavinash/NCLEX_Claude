@@ -577,8 +577,8 @@ function generateAndStartSession() {
     const stdQty = Math.min(67, parseInt(stdInput ? stdInput.value : '0', 10) || 0);
 
     // Shuffle and slice requested count
-    const shuffledCases = [...availableCases].sort(() => 0.5 - Math.random());
-    const shuffledStd = [...availableStandalone].sort(() => 0.5 - Math.random());
+    const shuffledCases = shuffleArray(availableCases);
+    const shuffledStd = shuffleArray(availableStandalone);
 
     selectedCaseStudies = shuffledCases.slice(0, casesQty);
     selectedStandalone = shuffledStd.slice(0, stdQty);

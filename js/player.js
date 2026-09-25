@@ -1289,7 +1289,11 @@ function renderPlayerOrderedResponse(q, stepIdx, box, isSubmitted, userAnswers) 
   
   // Shuffled options list (only generated once or stored)
   if (!stateAnswers.shuffled) {
-    stateAnswers.shuffled = [...correctSequence].sort(() => Math.random() - 0.5);
+    // Never start an ordering question already in the correct order.
+    const distinctItems = new Set(correctSequence).size > 1;
+    do {
+      stateAnswers.shuffled = shuffleArray(correctSequence);
+    } while (distinctItems && stateAnswers.shuffled.every((item, i) => item === correctSequence[i]));
     // Remove items already placed in ordered box
     stateAnswers.shuffled = stateAnswers.shuffled.filter(item => !stateAnswers.order.includes(item));
   }

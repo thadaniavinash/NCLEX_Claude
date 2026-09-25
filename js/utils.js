@@ -124,3 +124,14 @@ function formatNoteNode(child, parent) {
     parent.replaceChild(newP, child);
   }
 }
+
+// Unbiased random order (Fisher-Yates). Sorting with a random comparator, as used before,
+// favours some orders over others.
+function shuffleArray(items) {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
