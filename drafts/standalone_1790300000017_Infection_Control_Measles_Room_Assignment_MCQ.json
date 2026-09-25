@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000017",
+  "title": "Infection Control - Measles Room Assignment (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should assign the client to a",
+        "type": "multiple_choice",
+        "preamble": "The nurse in the pediatric unit is preparing to admit a client with rubeola (measles).",
+        "options": [
+          {
+            "text": "private room at the end of the hallway",
+            "correct": false
+          },
+          {
+            "text": "private room with monitored negative air pressure",
+            "correct": true
+          },
+          {
+            "text": "room with a client who has chickenpox",
+            "correct": false
+          },
+          {
+            "text": "room with a client who has atopic dermatitis (eczema)",
+            "correct": false
+          }
+        ],
+        "explanation": "Measles (rubeola) requires airborne precautions, so a private room with monitored negative air pressure (Option 2) is the correct assignment. Physical distance from other rooms alone (Option 1) does not provide airborne isolation without negative pressure. Cohorting the client with a client who has chickenpox (varicella) (Option 3) is not appropriate; although both require airborne precautions, they are different organisms, and cohorting different airborne infections risks cross-infection. A client with atopic dermatitis (Option 4) has a disrupted skin barrier and is at increased risk for severe or complicated measles infection, making this an unsafe roommate pairing.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

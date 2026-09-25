@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1790300000015",
+  "title": "Infection Control - Impetigo Contact Precautions (SATA)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following infection control precautions should the nurse implement? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is caring for a 3-year-old client with impetigo.",
+        "options": [
+          {
+            "text": "Wear a surgical mask when bathing the client.",
+            "correct": false
+          },
+          {
+            "text": "Wear a protective gown when changing the client's bed linens.",
+            "correct": true
+          },
+          {
+            "text": "Keep the door to the client's room closed.",
+            "correct": false
+          },
+          {
+            "text": "Place a box of clean gloves outside the client's door.",
+            "correct": true
+          },
+          {
+            "text": "Place a surgical mask on the client during transport to other departments.",
+            "correct": false
+          }
+        ],
+        "explanation": "Impetigo is a skin infection requiring contact precautions, so a gown for direct contact with contaminated linens (Option 2) and gloves readily available at the point of care (Option 4) are correct. A surgical mask when bathing the client (Option 1) is unnecessary, since impetigo is not spread by the respiratory route. Keeping the door closed (Option 3) is an airborne-precaution measure (to maintain negative pressure), not required for a contact-precaution skin infection. Placing a mask on the client during transport (Option 5) is similarly unnecessary, since impetigo does not spread by droplet or airborne transmission.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

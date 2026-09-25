@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784030000002",
+  "title": "Unit 3 Stand-alone 2: Priority Assessment After Thoracic Surgery",
+  "course": "NURS 1021",
+  "unit": "Unit 3 (Respiratory Disorders)",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "disorder": "Unit 3 (Respiratory Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> assess the client",
+        "type": "multiple_choice",
+        "preamble": "The nurse has become aware of the following client situations.",
+        "options": [
+          {
+            "text": "who had a right pneumonectomy 24 hours ago and is in the high-Fowler's position while lying on the right side",
+            "correct": false
+          },
+          {
+            "text": "with chronic obstructive pulmonary disease (COPD) who is using pursed-lip breathing and reporting hemoptysis",
+            "correct": true
+          },
+          {
+            "text": "who had a wedge resection of the left lung 24 hours ago and is sitting in the high-Fowler's position",
+            "correct": false
+          },
+          {
+            "text": "with heart failure who has a productive cough and is restless",
+            "correct": false
+          }
+        ],
+        "explanation": "Hemoptysis (Option 2) is a new, objective finding that is never an expected part of a COPD client's baseline presentation and can signal a serious complication such as infection, pulmonary embolism, or malignancy; it requires the most urgent assessment. Positioning on the operative (right) side in the high-Fowler's position after a right pneumonectomy (Option 1) is the expected, correct post-pneumonectomy position, since it allows the remaining lung to expand and prevents fluid from draining toward it. Sitting upright after a wedge resection (Option 3) is also the expected position to maximize lung expansion. A productive cough and restlessness in a client with heart failure (Option 4) can reflect pulmonary congestion and warrants follow-up but is a less acute, objectively alarming finding than new hemoptysis.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

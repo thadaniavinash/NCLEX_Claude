@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000010",
+  "title": "Care Prioritization - Home-Health First Visit (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> visit the client with",
+        "type": "multiple_choice",
+        "preamble": "The home-health nurse is assigned to visit the following clients who live within 3 miles (4.8 km) of one another.",
+        "options": [
+          {
+            "text": "breast cancer who had a mastectomy 2 days ago and has had 25 mL of drainage from the closed-wound drainage system in the past 12 hours",
+            "correct": false
+          },
+          {
+            "text": "lung cancer who received a dose of chemotherapy 2 weeks ago and has a temperature of 101.1° F (38.4° C)",
+            "correct": true
+          },
+          {
+            "text": "chronic obstructive pulmonary disease (COPD) who is reporting expectorating large amounts of thick, yellow mucus",
+            "correct": false
+          },
+          {
+            "text": "diabetes mellitus (type 1) who had a right below-the-knee amputation (BKA) and is reporting right toe pain",
+            "correct": false
+          }
+        ],
+        "explanation": "A fever in a client who received chemotherapy within the past 2 to 3 weeks (Option 2) is a medical emergency until proven otherwise, since chemotherapy-induced neutropenia leaves the client unable to mount a normal immune response and febrile neutropenia can progress rapidly to sepsis; this client must be seen first. A drainage volume of about 25 mL over 12 hours from a mastectomy drain (Option 1) is within the expected, gradually decreasing range for a closed-wound drainage system. Thick, yellow sputum in a client with COPD (Option 3) suggests a possible infection or exacerbation and needs follow-up but is not immediately life-threatening. Right toe pain after a right below-the-knee amputation (Option 4) most likely represents phantom limb pain, a real and important symptom to manage but not an emergency.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

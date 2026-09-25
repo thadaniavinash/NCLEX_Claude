@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784030000001",
+  "title": "Unit 3 Stand-alone 1: Positive Pressure Ventilation Client Teaching",
+  "course": "NURS 1021",
+  "unit": "Unit 3 (Respiratory Disorders)",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "disorder": "Unit 3 (Respiratory Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the nurse would indicate a correct understanding of the teaching?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has attended a staff education program about caring for clients who are receiving positive pressure mechanical ventilation.",
+        "options": [
+          {
+            "text": "“Clients should avoid range-of-motion (ROM) exercises until weaned from ventilation.”",
+            "correct": false
+          },
+          {
+            "text": "“Clients may develop stress ulcers and gastrointestinal bleeding.”",
+            "correct": true
+          },
+          {
+            "text": "“Clients will be chemically paralyzed to improve oxygenation.”",
+            "correct": false
+          },
+          {
+            "text": "“Clients will experience diuresis and polyuria.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Mechanically ventilated clients are at risk for stress ulcers and gastrointestinal bleeding (Option 2) due to the physiologic stress of critical illness; stress-ulcer prophylaxis (e.g., a proton pump inhibitor or H2 blocker) is standard care. ROM exercises (Option 1) should continue, not be avoided, to prevent contractures, pressure injury, and venous thromboembolism during ventilation. Chemical paralysis (Option 3) is reserved for specific situations such as severe ventilator dyssynchrony or ARDS, not a routine expectation for every ventilated client. Positive pressure ventilation decreases venous return and cardiac output, which activates the renin-angiotensin-aldosterone system and typically causes fluid retention and decreased urine output, not diuresis and polyuria (Option 4).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

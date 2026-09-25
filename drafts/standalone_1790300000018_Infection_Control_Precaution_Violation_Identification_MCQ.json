@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000018",
+  "title": "Infection Control - Precaution Violation Identification (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would require intervention if a",
+        "type": "multiple_choice",
+        "preamble": "The charge nurse is observing the following client situations.",
+        "options": [
+          {
+            "text": "client with hepatitis B (HBV) is eating food brought into the facility by a visitor",
+            "correct": false
+          },
+          {
+            "text": "visitor is sitting on the side of the bed of a client with acute pancreatitis",
+            "correct": false
+          },
+          {
+            "text": "staff member is entering the room of a client with Haemophilus influenzae meningitis wearing a protective gown and gloves",
+            "correct": true
+          },
+          {
+            "text": "family member of a client with mycoplasma pneumonia leaves the door to the client's room open",
+            "correct": false
+          }
+        ],
+        "explanation": "Haemophilus influenzae meningitis requires droplet precautions, and the key required PPE is a mask; a staff member wearing only a gown and gloves (Option 3) is missing the mask that actually protects against droplet transmission, so this requires intervention. Hepatitis B (Option 1) is a bloodborne pathogen, not transmitted through food or casual contact, so a visitor sharing food is not a concern. A visitor sitting on the side of the bed of a client with pancreatitis (Option 2), a noninfectious condition with no isolation precautions, does not require intervention. Mycoplasma pneumoniae (Option 4) is managed with standard precautions in most settings and does not require the door to remain closed.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000013",
+  "title": "Infection Control - Precaution Type Teaching Evaluation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would indicate a correct understanding of the teaching if the nurse is observed",
+        "type": "multiple_choice",
+        "preamble": "The nurse has attended a staff education program about infection control precautions.",
+        "options": [
+          {
+            "text": "wearing a particulate respirator mask (N95) when entering the room of a client with Haemophilus influenzae pneumonia",
+            "correct": false
+          },
+          {
+            "text": "placing a client with streptococcal pneumonia in a room with a client who has respiratory syncytial virus (RSV)",
+            "correct": false
+          },
+          {
+            "text": "wearing a protective gown when entering the room of a client with Escherichia coli O157:H7 who is incontinent",
+            "correct": true
+          },
+          {
+            "text": "placing a client with pediculosis capitis (head lice) in a room with a client who has scabies",
+            "correct": false
+          }
+        ],
+        "explanation": "Escherichia coli O157:H7 requires contact precautions, and a gown (Option 3) is appropriate PPE for contact with an incontinent client at high risk for fecal contamination of the environment and caregiver's clothing. Haemophilus influenzae pneumonia (Option 1) requires droplet precautions, not airborne precautions; an N95 respirator is not the correct PPE for this organism. Cohorting a client with streptococcal pneumonia (a bacterial droplet-precaution infection) with a client who has RSV (a different, viral, contact/droplet-precaution infection) (Option 2) risks cross-infecting each client with the other's organism and should not be done. Cohorting a client with head lice and a client with scabies (Option 4) similarly risks cross-infestation between 2 different ectoparasites and is not appropriate even though both require contact precautions.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

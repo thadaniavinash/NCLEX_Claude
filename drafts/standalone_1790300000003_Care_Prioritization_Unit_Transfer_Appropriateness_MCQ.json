@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000003",
+  "title": "Care Prioritization - Unit Transfer Appropriateness (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would be most appropriate for the nurse to transfer the client who is",
+        "type": "multiple_choice",
+        "preamble": "The charge nurse must transfer a female client from the medical-surgical unit to the maternity unit to make a bed available.",
+        "options": [
+          {
+            "text": "28 years old, had a right mastectomy and has a closed-wound drainage system",
+            "correct": false
+          },
+          {
+            "text": "49 years old, has diabetes mellitus (type 2) and has begun receiving insulin",
+            "correct": false
+          },
+          {
+            "text": "56 years old, has hepatitis C (HCV), and has been afebrile for 24 hours",
+            "correct": true
+          },
+          {
+            "text": "70 years old, has a fractured left tibia and had an external fixation device applied 48 hours ago",
+            "correct": false
+          }
+        ],
+        "explanation": "The client with hepatitis C who has been afebrile for 24 hours (Option 3) is the most stable and has the least complex ongoing nursing needs: HCV is a bloodborne pathogen requiring only standard precautions (not a transmission risk to postpartum clients or newborns through casual contact), and being afebrile indicates no acute infectious process. The client recovering from a mastectomy with a closed-wound drainage system (Option 1) needs surgical drain management. The client newly started on insulin (Option 2) needs close glucose monitoring and hypoglycemia assessment as the regimen is titrated. The client with a recently applied external fixation device (Option 4) needs pin-site care and neurovascular monitoring; maternity unit staff are not positioned to provide this specialized medical-surgical monitoring as safely as a med-surg unit can.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

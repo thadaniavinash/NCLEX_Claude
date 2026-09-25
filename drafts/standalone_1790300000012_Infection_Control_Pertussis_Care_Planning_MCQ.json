@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000012",
+  "title": "Infection Control - Pertussis Care Planning (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following interventions should the nurse include in the client's plan of care?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is planning care for a pediatric client being admitted with pertussis.",
+        "options": [
+          {
+            "text": "Keep the client NPO.",
+            "correct": false
+          },
+          {
+            "text": "Place a dehumidifier in the client's room.",
+            "correct": false
+          },
+          {
+            "text": "Encourage the client to ambulate frequently.",
+            "correct": false
+          },
+          {
+            "text": "Implement droplet precautions.",
+            "correct": true
+          }
+        ],
+        "explanation": "Pertussis (Bordetella pertussis) is transmitted by respiratory droplets, so droplet precautions (Option 4) are the correct, standard isolation precaution. There is no reason to keep the client NPO (Option 1); oral intake is not restricted for pertussis. A humidifier, not a dehumidifier (Option 2), helps loosen respiratory secretions; dry air from a dehumidifier can worsen airway irritation and coughing. Frequent ambulation (Option 3) is reasonable general activity but is not the priority, targeted intervention for this infection-control diagnosis.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

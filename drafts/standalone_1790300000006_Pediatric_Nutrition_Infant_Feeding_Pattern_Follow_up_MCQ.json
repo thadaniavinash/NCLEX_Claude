@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000006",
+  "title": "Pediatric Nutrition - Infant Feeding Pattern Follow-up (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "It would be a priority for the nurse to follow up with the",
+        "type": "multiple_choice",
+        "preamble": "The nurse has taken a nutritional history from parents of clients.",
+        "options": [
+          {
+            "text": "5-month-old client whose only source of nutrition is 5 formula feedings daily",
+            "correct": false
+          },
+          {
+            "text": "7-month-old client who eats several crackers as finger food",
+            "correct": false
+          },
+          {
+            "text": "9-month-old client whose typical daily diet includes 10 bottles of 2% milk, 1 cup of apple juice, and 3 servings of infant cereal",
+            "correct": true
+          },
+          {
+            "text": "1-year-old client whose typical food intake includes 4 breast-feedings and 3 servings of cooked vegetables, pears, or sliced cheese",
+            "correct": false
+          }
+        ],
+        "explanation": "The 9-month-old's diet (Option 3) requires follow-up for 2 reasons: 2% (reduced-fat) cow's milk is not recommended before 12 months of age, and 10 bottles per day is an excessive volume that can displace iron-rich solid foods and increase the risk of iron-deficiency (“milk”) anemia. Exclusive formula feeding at 5 months (Option 1) is developmentally appropriate, since solids are not introduced until around 6 months. Introducing finger foods such as crackers at 7 months (Option 2) is developmentally appropriate. A 1-year-old eating breast milk along with a variety of vegetables, fruit, and cheese (Option 4) reflects an appropriately varied diet for that age.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

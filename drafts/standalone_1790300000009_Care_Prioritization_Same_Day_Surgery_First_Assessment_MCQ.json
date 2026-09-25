@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000009",
+  "title": "Care Prioritization - Same-Day Surgery First Assessment (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> see the client who had",
+        "type": "multiple_choice",
+        "preamble": "The nurse in the same-day surgical center has received a change-of-shift report on the following clients.",
+        "options": [
+          {
+            "text": "closed reduction of a fractured tibia with cast application 1 hour ago and is reporting that the casted leg feels hot",
+            "correct": true
+          },
+          {
+            "text": "extraction of a cataract lens 2 hours ago and is reporting nausea",
+            "correct": false
+          },
+          {
+            "text": "an arthroscopy of the right knee 3 hours ago and is reporting knee pain rated as 4 on a scale of 0 (no pain) to 10 (severe pain)",
+            "correct": false
+          },
+          {
+            "text": "a laparoscopic cholecystectomy 4 hours ago and is reporting right shoulder pain",
+            "correct": false
+          }
+        ],
+        "explanation": "A casted extremity that feels hot only 1 hour after cast application (Option 1) is a red flag for acute compartment syndrome, a limb-threatening emergency that develops as swelling occurs under a rigid cast in the first hours after application, and requires the most urgent assessment (checking the 5 P's, and cast tightness). Nausea after cataract surgery (Option 2) matters because vomiting can transiently raise intraocular pressure, but it is more readily managed with an antiemetic than a possible compartment syndrome is. Knee pain rated 4/10 3 hours after arthroscopy (Option 3) is mild, well-controlled pain and is a reassuring finding. Right shoulder pain after a laparoscopic cholecystectomy (Option 4) is expected, benign referred pain from diaphragmatic irritation caused by residual carbon dioxide used to insufflate the abdomen during the procedure.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

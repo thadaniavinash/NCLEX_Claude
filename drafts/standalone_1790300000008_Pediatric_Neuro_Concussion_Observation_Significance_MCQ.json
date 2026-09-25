@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000008",
+  "title": "Pediatric Neuro - Concussion Observation Significance (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following observations would be most significant for the nurse to report to the oncoming shift?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a 3-year-old client with a cerebral concussion who is being observed overnight in the pediatric unit.",
+        "options": [
+          {
+            "text": "The client has a blood pressure of 84/58 mm Hg and an apical pulse of 90.",
+            "correct": false
+          },
+          {
+            "text": "The client is sleeping but is easily aroused.",
+            "correct": true
+          },
+          {
+            "text": "The client's pupils are equal and reactive to light.",
+            "correct": false
+          },
+          {
+            "text": "The client has an axillary temperature of 99.0° F (37.2° C) and respirations of 24.",
+            "correct": false
+          }
+        ],
+        "explanation": "Level of consciousness and arousability are the central parameters tracked during concussion observation, since a change in either is the earliest and most sensitive sign of deterioration such as an expanding intracranial bleed. Precisely reporting that the client is “sleeping but easily aroused” (Option 2) gives the oncoming shift the exact baseline needed to detect any subsequent decline in arousability, which is more clinically significant to hand off than the other findings listed. The blood pressure and pulse (Option 1), pupil findings (Option 3), and temperature and respirations (Option 4) in this scenario are each within a broadly expected range for a 3-year-old and do not by themselves signal a change in neurologic status.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

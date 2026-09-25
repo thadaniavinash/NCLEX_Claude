@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1790300000014",
+  "title": "Safety - Extrinsic Fall Risk Factors (SATA)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following are extrinsic risk factors for falling? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is assessing an older adult client who is scheduled for discharge and is at risk for falls.",
+        "options": [
+          {
+            "text": "uneven stairs",
+            "correct": true
+          },
+          {
+            "text": "throw rugs",
+            "correct": true
+          },
+          {
+            "text": "hemiparesis",
+            "correct": false
+          },
+          {
+            "text": "dim lighting",
+            "correct": true
+          },
+          {
+            "text": "confusion",
+            "correct": false
+          }
+        ],
+        "explanation": "Extrinsic (environmental) fall risk factors are hazards in the client's surroundings: uneven stairs, throw rugs, and dim lighting (Options 1, 2, and 4) are all environmental hazards the nurse and client can modify. Hemiparesis (Option 3) and confusion (Option 5) are intrinsic risk factors, arising from the client's own physical and cognitive condition rather than the environment.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

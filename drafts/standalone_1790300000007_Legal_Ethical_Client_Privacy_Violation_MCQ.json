@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000007",
+  "title": "Legal-Ethical - Client Privacy Violation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following scenarios should the nurse include as an example of a violation of client privacy?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is planning a staff education program about client privacy.",
+        "options": [
+          {
+            "text": "discussing with an unlicensed assistive personnel (UAP) that the UAP's assigned client will require a smaller condom catheter",
+            "correct": false
+          },
+          {
+            "text": "sharing the client's blood alcohol level (BAL) test result with the police officer who brought the client to the emergency department (ED)",
+            "correct": true
+          },
+          {
+            "text": "responding to the call light of the client who is assigned to another nurse and needs assistance in the bathroom",
+            "correct": false
+          },
+          {
+            "text": "allowing a nursing student who has been assigned to the client to review the client's medical record",
+            "correct": false
+          }
+        ],
+        "explanation": "Sharing a client's blood alcohol level with a police officer without the client's consent or proper legal authority such as a warrant or a specific legal exception (Option 2) is a privacy violation; law enforcement is not automatically entitled to protected health information. Discussing a care need with the UAP assigned to that same client (Option 1) is appropriate, need-to-know care coordination. Responding to another nurse's client's call light for bathroom assistance (Option 3) is appropriate teamwork, not a privacy breach. A nursing student assigned to a client's care reviewing that client's record (Option 4) is a normal, permitted part of clinical education and the care team's access to the record.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

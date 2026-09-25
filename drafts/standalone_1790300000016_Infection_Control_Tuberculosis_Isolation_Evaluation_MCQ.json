@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000016",
+  "title": "Infection Control - Tuberculosis Isolation Evaluation (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions by the staff member would indicate to the nurse an understanding of the principles of infection control for tuberculosis isolation?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is evaluating a staff member's care of a client with active pulmonary tuberculosis (TB).",
+        "options": [
+          {
+            "text": "instructing visitors to wash their hands before entering the client's room",
+            "correct": false
+          },
+          {
+            "text": "putting on a mask, gown, and gloves before entering the client's room",
+            "correct": false
+          },
+          {
+            "text": "placing tissues and a trash receptacle within the client's reach",
+            "correct": true
+          },
+          {
+            "text": "asking the client to put on a clean mask each time someone enters the room",
+            "correct": false
+          }
+        ],
+        "explanation": "Placing tissues and a trash receptacle within the client's reach (Option 3) supports respiratory hygiene and cough etiquette, helping contain infectious droplet nuclei at the source, and is an important, correctly targeted TB infection-control measure. Hand hygiene for visitors (Option 1) is good general practice but does not address the airborne transmission route that defines TB precautions, which specifically require a fit-tested N95 (or higher-level) respirator, not just hand hygiene. Gown and gloves (Option 2) are contact-precaution PPE and are not needed for airborne-only pulmonary TB; describing generic “a mask” also fails to specify the N95 respirator that TB actually requires. The engineering controls of the client's own negative-pressure isolation room, plus staff wearing an N95 on entry, are what protect others; routinely re-masking the client every time someone enters their own isolation room (Option 4) is not the standard practice (a mask on the client is used mainly during transport outside the room).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

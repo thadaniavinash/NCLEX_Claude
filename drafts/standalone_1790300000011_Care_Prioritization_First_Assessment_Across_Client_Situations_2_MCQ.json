@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000011",
+  "title": "Care Prioritization - First Assessment Across Client Situations 2 (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> assess the client",
+        "type": "multiple_choice",
+        "preamble": "The nurse has become aware of the following client situations.",
+        "options": [
+          {
+            "text": "who had a total abdominal hysterectomy (TAH) 1 day ago and is unable to void 7 hours after the indwelling urethral catheter was removed",
+            "correct": false
+          },
+          {
+            "text": "who had a total knee replacement 24 hours ago",
+            "correct": false
+          },
+          {
+            "text": "with bacterial pneumonia who has bronchial breath sounds auscultated between the scapulae and a temperature of 103.3° F (39.6° C)",
+            "correct": true
+          },
+          {
+            "text": "with hepatic cirrhosis who has an elevated aspartate aminotransferase (AST) level and respirations of 24",
+            "correct": false
+          }
+        ],
+        "explanation": "Bronchial breath sounds heard over a peripheral lung field (between the scapulae, rather than over the large airways where they are normally heard) indicate lung consolidation, and combined with a high fever, this client (Option 3) shows signs of a worsening infection with risk for respiratory decompensation or sepsis, making this the priority. Urinary retention 7 hours after catheter removal (Option 1) is uncomfortable and needs intervention (such as a straight catheterization) but is not immediately life-threatening. A client 24 hours after an uncomplicated total knee replacement with no other findings reported (Option 2) is the most stable of the group. An elevated AST is an expected, chronic finding in hepatic cirrhosis rather than a new acute change, and a respiratory rate of 24 (Option 4) is only mildly elevated.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

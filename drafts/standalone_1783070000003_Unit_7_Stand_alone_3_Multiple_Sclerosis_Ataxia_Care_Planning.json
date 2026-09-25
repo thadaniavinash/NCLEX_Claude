@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783070000003",
+  "title": "Unit 7 Stand-alone 3: Multiple Sclerosis Ataxia Care Planning",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following interventions should the nurse include in the client's plan of care?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is planning care for a client with multiple sclerosis (MS) who has ataxia.",
+        "options": [
+          {
+            "text": "Add thickener to thin liquids for the client.",
+            "correct": false
+          },
+          {
+            "text": "Obtain a referral to a physical therapist for the client.",
+            "correct": true
+          },
+          {
+            "text": "Face the client directly when speaking with the client.",
+            "correct": false
+          },
+          {
+            "text": "Provide a board with pictures to help the client communicate needs.",
+            "correct": false
+          }
+        ],
+        "explanation": "Ataxia in MS reflects impaired coordination and balance from cerebellar or proprioceptive pathway involvement, and a physical therapy referral (Option 2) is the appropriate intervention to address gait, balance, and coordination training and reduce fall risk. Adding thickener to liquids (Option 1) addresses dysphagia, a different MS symptom not described here. Facing the client directly when speaking (Option 3) is an intervention for hearing loss or receptive communication difficulty, not ataxia. A picture communication board (Option 4) addresses expressive communication impairment (such as from dysarthria or aphasia), not a coordination/balance problem.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

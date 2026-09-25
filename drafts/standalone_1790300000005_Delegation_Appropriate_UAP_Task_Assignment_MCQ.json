@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000005",
+  "title": "Delegation - Appropriate UAP Task Assignment (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following tasks would be appropriate for the nurse to assign to UAP?",
+        "type": "multiple_choice",
+        "preamble": "The nurse and unlicensed assistive personnel (UAP) are caring for assigned clients.",
+        "options": [
+          {
+            "text": "assisting a client with atrial fibrillation to shower",
+            "correct": true
+          },
+          {
+            "text": "checking the ability of a client to swallow water after a transesophageal echocardiogram (TEE)",
+            "correct": false
+          },
+          {
+            "text": "observing while a client with dysphagia begins a thickened liquid diet",
+            "correct": false
+          },
+          {
+            "text": "transporting a client with respiratory distress to the radiology department for a chest radiograph",
+            "correct": false
+          }
+        ],
+        "explanation": "Assisting a stable client with a basic activity of daily living such as showering (Option 1) is within the scope of UAP practice and does not require nursing assessment or clinical judgment; atrial fibrillation alone does not change this. Checking a client's ability to swallow water after a TEE (Option 2) is a clinical swallow screen assessing for post-procedure aspiration risk and requires a licensed nurse's judgment. Observing a client with known dysphagia as they begin a new thickened liquid consistency (Option 3) similarly requires skilled assessment for aspiration. Transporting a client who is in respiratory distress (Option 4) requires a licensed staff member who can monitor for and respond to deterioration en route.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

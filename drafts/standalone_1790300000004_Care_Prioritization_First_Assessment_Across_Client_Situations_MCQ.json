@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000004",
+  "title": "Care Prioritization - First Assessment Across Client Situations (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should <b>first</b> assess the client with",
+        "type": "multiple_choice",
+        "preamble": "The nurse has been made aware of the following client situations.",
+        "options": [
+          {
+            "text": "heart failure who has a productive cough and is anxious",
+            "correct": false
+          },
+          {
+            "text": "regional enteritis (Crohn's disease) who is reporting cramping abdominal pain and diarrhea",
+            "correct": false
+          },
+          {
+            "text": "idiopathic thrombocytopenic purpura (ITP) who has petechiae on the trunk and is reporting heavy menses",
+            "correct": false
+          },
+          {
+            "text": "chronic obstructive pulmonary disease (COPD) who has dyspnea with exertion and is using accessory muscles to breathe",
+            "correct": true
+          }
+        ],
+        "explanation": "Use of accessory muscles to breathe (Option 4) is an ominous sign of significantly increased work of breathing and impending respiratory failure, making this client the priority to assess first. A productive cough and anxiety in a client with heart failure (Option 1) can reflect early pulmonary congestion but is a less acute presentation than active accessory muscle use. Cramping and diarrhea (Option 2) are expected exacerbation symptoms of Crohn's disease. Petechiae and heavy menses in a client with ITP (Option 3) reflect the client's known thrombocytopenia and warrant follow-up but are not as immediately life-threatening as a client showing active signs of respiratory decompensation.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}
