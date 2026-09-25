@@ -1,0 +1,204 @@
+"""Converts a bowtie item the user originally wrote in an earlier version of this app (a
+55-year-old postoperative craniotomy client developing increased intracranial pressure) into
+this app's data format.
+
+The user supplied: the question stem/preamble and the 1000 (immediate postoperative) Nurses'
+Notes entry via screenshot; the full answer-choice pool via a second screenshot; the correct
+answers and a full written rationale via a third screenshot. The user confirmed the other tabs
+(Health History, Laboratory Results, Diagnostic Tests) and the 1500 (evening) Nurses' Notes
+entry are missing from their original source and asked this session to build them up based on
+the rationale.
+
+Every specific clinical detail in the constructed 1500 note is taken directly from the
+rationale's own wording (temperature rising from 37.2 C/99.0 F to 38.1 C/100.6 F, periorbital
+edema/ecchymosis explicitly called an expected/insignificant finding, dime-sized dried drainage
+explicitly called not concerning, decreased LOC, motor weakness, aphasia, decreased sensory
+perception, sluggish pupils, abnormal respirations, a widened pulse pressure, headache,
+nausea/vomiting). The constructed Health History, Laboratory Results, and Diagnostic Tests tabs
+add plausible, internally consistent supporting detail (a right frontal tumor location, to
+explain the new left-sided deficits; labs that are only mildly/expectedly abnormal, consistent
+with the rationale's point that they do not indicate bleeding or infection) -- these are this
+session's own construction, not sourced from the user, and are noted as such below.
+
+This is the user's own original content, not sourced from the NCSBN exam preview, so no NCSBN
+copyright footnote is added.
+"""
+import json
+import os
+import re
+
+DRAFTS_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def opt(text, correct):
+    return {"text": text, "correct": correct}
+
+
+NOTES_TAB = (
+    '<p class="nurse-note-row"><span class="nurse-note-time">1000:</span>'
+    '<span class="nurse-note-text">Client returns from the OR. Sleepy but easily arousable and '
+    'oriented. Answering questions appropriately. Able to move all extremities. Intact sensory '
+    'perception. Head of bed elevated at 30°, head midline. No drainage on the head '
+    'dressing. Glasgow Coma Scale (GCS) = 15, PERRLA.<br>Oxygen at 2 L via NC, SpO<sub>2</sub> '
+    '96%. T 37.2° C (99.0° F), HR 82 BPM and regular, RR 20 bpm, BP 130/80 mm Hg, NSR '
+    'on cardiac monitor.</span></p>'
+    '<p class="nurse-note-row"><span class="nurse-note-time">1500:</span>'
+    '<span class="nurse-note-text">Evening nurse performs an assessment 5 hours '
+    'postoperatively. Client is difficult to arouse, opening eyes only to firm stimulation; '
+    'oriented to name only. Speech is slurred and hesitant, with difficulty finding words when '
+    'answering questions. New weakness noted in the left upper and lower extremities, with a '
+    'weaker hand grip on the left. Decreased response to light touch on the left side. Pupils '
+    'are sluggish to react to light bilaterally. Client reports nausea and a headache rated '
+    '7/10 and has vomited once, non-projectile. Periorbital edema and ecchymosis noted '
+    'bilaterally around the eyes. Head dressing intact; a small (dime-sized) amount of dark '
+    'red, dried drainage noted on the dressing, marked and dated for baseline comparison per '
+    'agency practice. Head of bed elevated at 30°, head midline.<br>Oxygen at 2 L via NC, '
+    'SpO<sub>2</sub> 95%. T 38.1° C (100.6° F), HR 58 BPM and regular, RR 10 bpm and '
+    'irregular, BP 168/62 mm Hg, NSR on cardiac monitor. Glasgow Coma Scale (GCS) = '
+    '12.</span></p>'
+)
+
+HEALTH_HISTORY_TAB = (
+    '<table class="nclex-editor-table" style="width:100%; border-collapse:collapse; margin:12px 0;">'
+    '<thead><tr><th style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;">Category</th>'
+    '<th style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;">Findings</th></tr></thead><tbody>'
+    '<tr><td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;"><b>Reason for Admission</b></td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">2 months of progressively worsening headaches and blurred vision; MRI revealed a right frontal brain mass. Admitted for elective open craniotomy via supratentorial approach for tumor resection.</td></tr>'
+    '<tr><td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;"><b>Past Medical History</b></td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">Hypertension, well-controlled with lisinopril. No known bleeding disorder. No known drug allergies.</td></tr>'
+    '</tbody></table>'
+)
+
+LABS_TAB = (
+    '<table class="nclex-editor-table" style="width:100%; border-collapse:collapse; margin:12px 0;">'
+    '<thead><tr><th style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;">Laboratory Test and Reference Range</th>'
+    '<th style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;">0600 (Preoperative)</th>'
+    '<th style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;">1100 (Immediate Postoperative)</th></tr></thead><tbody>'
+    '<tr><td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">white blood cell (WBC) count<br>4,500–11,000/mm³ (4.5–11 x 10⁹/L)</td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">7,200/mm³ (7.2 x 10⁹/L)</td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">10,800/mm³ (10.8 x 10⁹/L)</td></tr>'
+    '<tr><td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">hemoglobin (Hgb)<br>Male: 14–18 g/dL (140–180 g/L)</td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">14.1 g/dL (141 g/L)</td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">13.6 g/dL (136 g/L)</td></tr>'
+    '<tr><td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">hematocrit (HCT)<br>Male: 42%–52% (0.42–0.52)</td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">42% (0.42)</td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">40% (0.40)</td></tr>'
+    '</tbody></table>'
+)
+
+DIAGNOSTIC_TESTS_TAB = (
+    '<table class="nclex-editor-table" style="width:100%; border-collapse:collapse; margin:12px 0;">'
+    '<thead><tr><th style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;">Study</th>'
+    '<th style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;">Result</th></tr></thead><tbody>'
+    '<tr><td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">MRI brain with contrast (preoperative)</td>'
+    '<td style="border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;">4.2 cm enhancing mass in the right frontal lobe, consistent with a primary brain tumor, with mild surrounding vasogenic edema. No evidence of hemorrhage.</td></tr>'
+    '</tbody></table>'
+)
+
+item = {
+    "id": "standalone_1783070000009",
+    "title": "Unit 7 Stand-alone 9: Bowtie - Increased ICP After Craniotomy",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": True,
+    "description": "A postoperative craniotomy client develops signs of increased intracranial pressure 5 hours after surgery.",
+    "screens": [{
+        "step": 1,
+        "question": {
+            "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client’s progress.",
+            "type": "bowtie",
+            "options": [opt("", False) for _ in range(5)],
+            "preamble": (
+                "The evening nurse in the neurosurgical unit performs an assessment on a "
+                "55-year-old postoperative client who returned to the unit 5 hours ago following "
+                "open craniotomy via supratentorial surgery to remove a brain tumor. The nurse "
+                "reviews the immediate postoperative nurses’ notes from 1000 and the "
+                "neurological flow sheet documentation done every 30 minutes by the day nurse "
+                "prior to performing an assessment and notes no significant changes."
+            ),
+            "explanation": (
+                "The focus of postoperative craniotomy care is monitoring for changes in status "
+                "that signal increased intracranial pressure (ICP), which results from cerebral "
+                "edema. At 1000, the client’s findings were expected for the immediate "
+                "postoperative period: arousable and oriented, moving all extremities, intact "
+                "sensory perception, and a GCS of 15. By 1500, the client shows new neurological "
+                "deficits -- a decreased level of consciousness (difficult to arouse, oriented to "
+                "name only, GCS down to 12), new left-sided motor weakness, aphasia (slurred, "
+                "hesitant speech with word-finding difficulty), decreased sensory perception on "
+                "the left, and pupils now sluggish to react -- together with abnormal "
+                "respirations (RR 10, irregular), a rising blood pressure with a widening pulse "
+                "pressure (168/62, versus 130/80 at 1000), bradycardia (HR 58, down from 82), an "
+                "elevated temperature, headache, and vomiting. This combination is characteristic "
+                "of increased ICP, and the surgeon must be notified immediately. Periorbital "
+                "edema and ecchymosis around the eyes are common and expected after cranial "
+                "surgery and are not significant on their own. The small, dime-sized amount of "
+                "dark red, dried drainage on the head dressing is a small and expected amount, "
+                "which makes bleeding an unlikely cause of this decline. The temperature increase "
+                "from 37.2° C (99.0° F) to 38.1° C (100.6° F) is mild and, by "
+                "itself, does not indicate infection, and the client’s preoperative and "
+                "immediate postoperative white blood cell count remains close to the expected "
+                "range for the normal postoperative stress response, not a level suggestive of "
+                "infection. Stroke is not a likely postoperative complication here, and the "
+                "global pattern of decline (level of consciousness, vital signs, and bilateral "
+                "pupil findings) together with the recent cranial surgery points to increased ICP "
+                "rather than a new stroke. The nurse should notify the surgeon immediately and "
+                "anticipate a prescription for an intravenous hyperosmotic agent, such as "
+                "mannitol, which treats cerebral edema by drawing water out of the extracellular "
+                "space of the edematous brain tissue. Vital signs and neurological status, along "
+                "with intake and output, are the priority parameters to monitor to evaluate the "
+                "client’s response to treatment. Obtaining blood cultures and requesting IV "
+                "antibiotics, with monitoring of the white blood cell count, would be appropriate "
+                "if infection were suspected, which it is not here. Requesting packed red blood "
+                "cells and monitoring hemoglobin and hematocrit would be appropriate if active "
+                "bleeding were suspected, which the minimal head dressing drainage does not "
+                "support. A client with this degree of altered neurological status should remain "
+                "NPO; testing swallowing ability would be unsafe and risks aspiration, and it is "
+                "also not the relevant parameter here since the client is not having a stroke."
+            ),
+            "bowtieParams": [
+                opt("White blood cell count", False),
+                opt("Intake and output", True),
+                opt("Swallowing ability", False),
+                opt("Hemoglobin and hematocrit levels", False),
+                opt("Vital signs and neurological status", True),
+            ],
+            "bowtieActions": [
+                opt("Notify the surgeon", True),
+                opt("Obtain blood cultures", False),
+                opt("Request a prescription for IV antibiotics", False),
+                opt("Request a prescription for packed red blood cells (PRBCs)", False),
+                opt("Request a prescription for an IV hyperosmotic agent", True),
+            ],
+            "bowtieCol1Header": "Actions to Take",
+            "bowtieCol2Header": "Potential Condition",
+            "bowtieCol3Header": "Parameters to Monitor",
+            "bowtieConditions": [
+                opt("Stroke", False),
+                opt("Bleeding", False),
+                opt("Infection", False),
+                opt("Increased intracranial pressure", True),
+            ],
+            "bowtieLeftPlaceholder": "",
+            "bowtieRightPlaceholder": "",
+            "bowtieCenterPlaceholder": "",
+        },
+        "leftContent": {
+            "tabs": [
+                {"id": "hh_1783070000009", "title": "Health History", "content": HEALTH_HISTORY_TAB},
+                {"id": "nn_1783070000009", "title": "Nurses' Notes", "content": NOTES_TAB},
+                {"id": "lab_1783070000009", "title": "Laboratory Results", "content": LABS_TAB},
+                {"id": "dx_1783070000009", "title": "Diagnostic Tests", "content": DIAGNOSTIC_TESTS_TAB},
+            ],
+            "intro": "The evening nurse in the neurosurgical unit is caring for a 55-year-old postoperative client.",
+        },
+    }],
+    "availability": "all",
+}
+
+if __name__ == "__main__":
+    path = os.path.join(DRAFTS_DIR, f"{item['id']}_Bowtie_Increased_ICP_After_Craniotomy.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(item, f, indent=2, ensure_ascii=False)
+    print("wrote", path)
