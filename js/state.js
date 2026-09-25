@@ -61,6 +61,9 @@ let standaloneQuestions = [];
 // True when a ?cases= or ?standalone= link loaded only part of the bank. Saving
 // would then overwrite the full bank with that subset, so saves are refused.
 let isBankFiltered = false;
+// True when the database is enabled but could not be read, so the app fell back
+// to cases-data.js. Saving would overwrite newer database content, so it is refused.
+let isDatabaseUnavailable = false;
 let currentCase = null;
 let currentStepIndex = 0; // For Editor
 let activeTabId = ''; // For Editor active tab

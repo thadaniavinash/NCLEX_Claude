@@ -15,9 +15,12 @@ the original `NCLEX` app or its database.
 | `supabase/setup.sql` | One-time setup for this copy's own Supabase project |
 | `server.js`, `*.bat` | Optional local server for Windows: saves from the editor go straight to `cases-data.js` |
 
-This copy is not connected to a database yet (`USE_SUPABASE = false` in `js/data.js`), so
-it loads `cases-data.js`, and edits made in the authoring studio are lost on reload.
-Content changes are made in `cases-data.js` and committed.
+The app loads and saves the question bank in this copy's own Supabase project
+(`wgnrcopjkylviiyllsgz`, configured in `js/data.js`); the original app's database is never
+written. If the database cannot be reached, or returns an empty bank, the app falls back to
+`cases-data.js` and refuses to save, so an older copy can never overwrite newer questions.
+`cases-data.js` is the backup: `node tools/supabase.js download` refreshes it from the
+database, and `upload` loads it into the database.
 
 ## Tools
 
@@ -27,4 +30,8 @@ Content changes are made in `cases-data.js` and committed.
   (`python3 -m http.server 8765`), loads the real app in headless Chromium and, for every
   question, checks it renders, that its answer key scores full marks, and that opening and
   saving it in the editor changes nothing. Supabase and `/api/save` are blocked while it runs.
+- `node tools/supabase.js <ping|check|compare-original|upload|download>` - manage the
+  database (see the comment at the top of the file). The **Supabase** GitHub Actions workflow
+  runs the same commands from the Actions tab, and pings the project daily so the free tier is
+  not paused.
 - `tools/bank.py` - Python helpers to read and write `cases-data.js` without changing its format.

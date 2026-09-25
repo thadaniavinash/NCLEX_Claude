@@ -95,12 +95,10 @@ function migrateLegacyDropdownCloze(q) {
   delete q.dropdown_cloze;
 }
 
-const SUPABASE_URL = 'https://taprukpiubqsckahocaz.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_V1u7recZMcdc2-DXhoMwoQ_BEVWej3g';
-// NCLEX_Claude is an experimental copy: keep it disconnected from the original
-// app's Supabase database so nothing here can read stale or overwrite live data.
-// Content is loaded from cases-data.js in this repository instead.
-const USE_SUPABASE = false;
+// NCLEX_Claude's own Supabase project (not the original app's database).
+const SUPABASE_URL = 'https://wgnrcopjkylviiyllsgz.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_yHZHAVA7OjJajQJfJ8zFAw_q2ld1l6M';
+const USE_SUPABASE = true;
 
 async function loadAllData() {
   // Try fetching from Supabase database
@@ -117,15 +115,17 @@ async function loadAllData() {
       const casesRecord = records.find(r => r.key === 'cases');
       const standaloneRecord = records.find(r => r.key === 'standalone');
       
-      if (casesRecord) {
-        caseStudies = casesRecord.data || [];
+      // An empty or missing bank means the database was never loaded (or was
+      // wiped): use cases-data.js rather than showing, and later saving, nothing.
+      if (casesRecord && Array.isArray(casesRecord.data) && casesRecord.data.length > 0) {
+        caseStudies = casesRecord.data;
         caseStudies.forEach(migrateCaseTypes);
-      }
-      if (standaloneRecord) {
-        standaloneQuestions = standaloneRecord.data || [];
+        standaloneQuestions = (standaloneRecord && Array.isArray(standaloneRecord.data)) ? standaloneRecord.data : [];
         standaloneQuestions.forEach(migrateCaseTypes);
+        loadedFromSupabase = true;
+      } else {
+        console.warn('Supabase returned no case studies, falling back to cases-data.js.');
       }
-      loadedFromSupabase = true;
     } else {
       console.warn('Supabase fetch failed, falling back to local files/storage.', response.status);
     }
@@ -135,6 +135,8 @@ async function loadAllData() {
 
   // Fallback if Supabase fetch failed (or returned nothing)
   if (!loadedFromSupabase) {
+    // Saving now would overwrite the database with this older fallback copy.
+    if (USE_SUPABASE) isDatabaseUnavailable = true;
     if (window.NCLEX_CASES && window.NCLEX_CASES.length > 0) {
       caseStudies = window.NCLEX_CASES;
       caseStudies.forEach(migrateCaseTypes);
@@ -206,10 +208,16 @@ async function loadAllData() {
   }
 }
 
-function refuseSaveIfBankFiltered() {
-  if (!isBankFiltered) return false;
-  showToast('Saving is disabled on filtered links. Open the app without ?cases= or ?standalone= to edit.', 'error');
-  return true;
+function refuseUnsafeSave() {
+  if (isBankFiltered) {
+    showToast('Saving is disabled on filtered links. Open the app without ?cases= or ?standalone= to edit.', 'error');
+    return true;
+  }
+  if (isDatabaseUnavailable) {
+    showToast('The database could not be reached when the page loaded, so saving is disabled to avoid overwriting newer questions. Reload the page and try again.', 'error');
+    return true;
+  }
+  return false;
 }
 
 async function saveToLocalBackend(cases, standalone) {
@@ -256,7 +264,7 @@ function showSaveResult(savedToLocalServer, savedToSupabase) {
 }
 
 async function saveCasesToStorage() {
-  if (refuseSaveIfBankFiltered()) return;
+  if (refuseUnsafeSave()) return;
   // 1. IndexedDB / localStorage fallback
   if (db) {
     caseStudies.forEach(c => putInStore('case_studies', c));
@@ -294,7 +302,7 @@ async function saveCasesToStorage() {
 }
 
 async function saveStandaloneToStorage() {
-  if (refuseSaveIfBankFiltered()) return;
+  if (refuseUnsafeSave()) return;
   // 1. IndexedDB / localStorage fallback
   if (db) {
     standaloneQuestions.forEach(q => putInStore('standalone_questions', q));
