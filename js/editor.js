@@ -205,7 +205,7 @@ function initializeQuestionTypeDefaults(q) {
       if (q.matrix.firstColumnHeader === 'Potential Interventions' || q.matrix.firstColumnHeader === 'Findings') {
         q.matrix.firstColumnHeader = '';
       }
-      const genericRows = ['clear liquid diet', 'soapsuds enema', 'polyuria', 'weight gain', 'New Row 1', 'New Row 2'];
+      const genericRows = ['polyuria', 'weight gain', 'New Row 1', 'New Row 2'];
       q.matrix.rows.forEach(r => {
         if (genericRows.includes(r.text)) {
           r.text = '';
@@ -229,7 +229,7 @@ function initializeQuestionTypeDefaults(q) {
         ]
       };
     } else {
-      const genericRows = ['clear liquid diet', 'soapsuds enema', 'polyuria', 'weight gain', 'New Row 1', 'New Row 2'];
+      const genericRows = ['polyuria', 'weight gain', 'New Row 1', 'New Row 2'];
       q.matrix.rows.forEach(r => {
         if (genericRows.includes(r.text)) {
           r.text = '';
@@ -1337,7 +1337,7 @@ function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
       
       // Clean generic row label strings to empty for placeholder behavior
       let rText = r.text || '';
-      const genericRows = ['clear liquid diet', 'soapsuds enema', 'polyuria', 'weight gain', 'New Row 1', 'New Row 2'];
+      const genericRows = ['polyuria', 'weight gain', 'New Row 1', 'New Row 2'];
       if (genericRows.includes(rText)) {
         rText = '';
         r.text = '';
