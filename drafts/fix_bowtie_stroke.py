@@ -4,19 +4,22 @@ flagged as known-incomplete ("answer key scores 3/5").
 
 This item is, verbatim, the NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie *example*
 (fifth attachment, item 112, labeled "Bow-Tie Example Screen 1"): a 79-year-old client with
-right-sided ptosis, facial drooping, hemiparesis, and expressive aphasia -- symptoms that look
-like stroke, but the client's random serum glucose (4.2 mmol/L) is BELOW the elderly reference
-range (4.6-6.4 mmol/L). This is the classic "hypoglycemia mimics stroke" teaching scenario.
+right-sided ptosis, facial drooping, hemiparesis, and expressive aphasia, plus an irregular
+apical pulse of 126 bpm.
 
-The existing item has 2 real bugs, not just incompleteness:
-1. bowtieConditions marks "ischemic stroke" correct; it should be "hypoglycemia".
-2. bowtieActions marks "Administer oxygen..." correct (as one of only 2); the condition-specific
-   pair is "Insert a peripheral VAD" + "Request an order for 50% dextrose in water IV" (the
-   direct treatment for symptomatic hypoglycemia).
-3. bowtieParams is missing 3 of its 5 options outright (blank placeholders) -- this is the source
-   of the "3/5" incomplete score. The missing 2 correct parameters are "neurologic status" (to
-   confirm the deficits resolve once glucose is corrected) and "serum glucose level"; the 5th,
-   non-correct option is "electrocardiogram (ECG) rhythm", matching the source's full list of 5.
+NOTE: an earlier version of this script incorrectly concluded the condition was hypoglycemia
+(misreading the client's glucose value against the wrong reference range, and mistaking the
+source PDF's template cell shading for a revealed answer key -- the source publishes no answer
+key at all). That was wrong and has been corrected here per clinician review. The correct
+read: this is a classic acute ischemic stroke presentation (right-sided ptosis/facial
+drooping/hemiparesis/expressive aphasia, consistent with a left-hemisphere event), and the
+irregular, tachycardic apical pulse (126 bpm) points to atrial fibrillation, a major risk
+factor for embolic ischemic stroke.
+
+The existing (published) item already had the condition right (ischemic stroke marked
+correct) but was still incomplete: bowtieActions had only 1 of 2 correct actions marked, and
+bowtieParams was missing 3 of its 5 options outright (blank placeholders), which is the source
+of the "3/5" incomplete score check.js has tolerated all session.
 
 This does NOT touch cases-data.js or the live database. It writes a corrected copy to drafts/
 for review, exactly like the earlier case-study fix.
@@ -32,7 +35,7 @@ FOOTNOTE = (
 )
 
 COURSE = "NURS 1017"
-UNIT = "Unit 11 (Endocrine Disorders)"
+UNIT = "Unit 7 (Neurological Disorders)"
 
 NOTES_TAB = (
     '<p class="nurse-note-row"><span class="nurse-note-time">1215:</span>'
@@ -72,12 +75,12 @@ def opt(text, correct):
 
 item = {
     "id": "case_1789577787012",
-    "title": "NURS 1017 Unit 11 Bowtie 1: Hypoglycemia Mimicking Stroke",
+    "title": "NURS 1017 Unit 7 Bowtie 1: Ischemic Stroke with Atrial Fibrillation",
     "unit": UNIT,
     "course": COURSE,
     "topic": UNIT,
     "disorder": UNIT,
-    "description": "NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie item-type example: an older adult presents with stroke-like symptoms, but the cause is hypoglycemia.",
+    "description": "NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie item-type example: an older adult presents with classic ischemic stroke findings and a history of atrial fibrillation.",
     "screens": [{
         "step": 1,
         "question": {
@@ -87,40 +90,49 @@ item = {
             "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
             "footnote": FOOTNOTE,
             "explanation": (
-                "The client's neurologic deficits (facial drooping, hemiparesis, expressive "
-                "aphasia) look like an acute stroke, but the random serum glucose of 4.2 mmol/L is "
-                "below the elderly reference range of 4.6-6.4 mmol/L -- the client is hypoglycemic, "
-                "and severe hypoglycemia is a well-known stroke mimic. The nurse should insert a "
-                "peripheral VAD and request an order for IV 50% dextrose, the direct treatment for "
-                "symptomatic hypoglycemia; administering oxygen and obtaining a urine specimen (for "
-                "a possible UTI) or an oral corticosteroid (for Bell's palsy) do not address the "
-                "actual cause. Neurologic status should be monitored, since resolution of the "
-                "deficits as glucose is corrected confirms hypoglycemia was the cause rather than a "
-                "stroke; serum glucose level should be monitored directly to confirm response to "
-                "treatment. Urine output, temperature, and ECG rhythm are reasonable general "
-                "parameters but are not the 2 most specific to this condition."
+                "<b>Condition Most Likely Experiencing</b><br>"
+                "Ischemic stroke: The client exhibits classic signs of a stroke (likely in the left "
+                "hemisphere), including right-sided ptosis, facial drooping, right-sided hemiparesis, "
+                "and expressive aphasia. The irregular apical pulse of 126 bpm strongly suggests "
+                "atrial fibrillation, which is a major risk factor for embolic ischemic strokes."
+                "<br><br><b>Actions to Take</b><br>"
+                "Administer oxygen at 2 L/min via nasal cannula: The client's pulse oximetry reading "
+                "is 90% on room air, indicating mild hypoxia that needs to be corrected to prevent "
+                "further brain tissue ischemia.<br>"
+                "Insert a peripheral venous access device (VAD): Establishing IV access is a critical "
+                "immediate step for suspected stroke patients to facilitate emergency lab draws, CT "
+                "contrast administration, and potential thrombolytic therapy (e.g., tPA) or other "
+                "medications."
+                "<br><br><b>Parameters to Monitor</b><br>"
+                "Neurologic status: Continuous neuro assessments (such as the NIH Stroke Scale) are "
+                "vital to track the progression or resolution of the client's deficits and to monitor "
+                "for potential complications like increased intracranial pressure.<br>"
+                "Electrocardiogram (ECG) rhythm: Because the client presented with an irregular, "
+                "tachycardic apical pulse (126 bpm), continuous ECG monitoring is necessary to "
+                "evaluate the rhythm (likely atrial fibrillation) and guide rate/rhythm control "
+                "interventions."
             ),
             "bowtieParams": [
                 opt("urine output", False),
                 opt("temperature", False),
                 opt("neurologic status", True),
-                opt("serum glucose level", True),
-                opt("electrocardiogram (ECG) rhythm", False),
+                opt("serum glucose level", False),
+                opt("electrocardiogram (ECG) rhythm", True),
             ],
             "bowtieActions": [
-                opt("Administer oxygen at 2 L/min via nasal cannula.", False),
+                opt("Administer oxygen at 2 L/min via nasal cannula.", True),
                 opt("Request a prescription for an oral corticosteroid.", False),
                 opt("Insert a peripheral venous access device (VAD).", True),
                 opt("Obtain a urine specimen for urinalysis and culture and sensitivity (C & S).", False),
-                opt("Request an order for 50% dextrose in water to be administered intravenously.", True),
+                opt("Request an order for 50% dextrose in water to be administered intravenously.", False),
             ],
             "bowtieCol1Header": "Actions to Take",
             "bowtieCol2Header": "Potential Conditions",
             "bowtieCol3Header": "Parameters to Monitor",
             "bowtieConditions": [
                 opt("Bell's palsy", False),
-                opt("hypoglycemia", True),
-                opt("ischemic stroke", False),
+                opt("hypoglycemia", False),
+                opt("ischemic stroke", True),
                 opt("urinary tract infection (UTI)", False),
             ],
             "bowtieLeftPlaceholder": "",
@@ -140,7 +152,7 @@ item = {
 }
 
 if __name__ == "__main__":
-    out_path = os.path.join(DRAFTS_DIR, "case_1789577787012_FIXED_NURS_1017_Unit_11_Bowtie_1.json")
+    out_path = os.path.join(DRAFTS_DIR, "case_1789577787012_FIXED_NURS_1017_Unit_7_Bowtie_1.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(item, f, indent=2, ensure_ascii=False)
     print("wrote", out_path)

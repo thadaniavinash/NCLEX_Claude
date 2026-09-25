@@ -1,11 +1,11 @@
 {
   "id": "case_1789577787012",
-  "title": "NURS 1017 Unit 11 Bowtie 1: Hypoglycemia Mimicking Stroke",
-  "unit": "Unit 11 (Endocrine Disorders)",
+  "title": "NURS 1017 Unit 7 Bowtie 1: Ischemic Stroke with Atrial Fibrillation",
+  "unit": "Unit 7 (Neurological Disorders)",
   "course": "NURS 1017",
-  "topic": "Unit 11 (Endocrine Disorders)",
-  "disorder": "Unit 11 (Endocrine Disorders)",
-  "description": "NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie item-type example: an older adult presents with stroke-like symptoms, but the cause is hypoglycemia.",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie item-type example: an older adult presents with classic ischemic stroke findings and a history of atrial fibrillation.",
   "screens": [
     {
       "step": 1,
@@ -36,7 +36,7 @@
         ],
         "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
         "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
-        "explanation": "The client's neurologic deficits (facial drooping, hemiparesis, expressive aphasia) look like an acute stroke, but the random serum glucose of 4.2 mmol/L is below the elderly reference range of 4.6-6.4 mmol/L -- the client is hypoglycemic, and severe hypoglycemia is a well-known stroke mimic. The nurse should insert a peripheral VAD and request an order for IV 50% dextrose, the direct treatment for symptomatic hypoglycemia; administering oxygen and obtaining a urine specimen (for a possible UTI) or an oral corticosteroid (for Bell's palsy) do not address the actual cause. Neurologic status should be monitored, since resolution of the deficits as glucose is corrected confirms hypoglycemia was the cause rather than a stroke; serum glucose level should be monitored directly to confirm response to treatment. Urine output, temperature, and ECG rhythm are reasonable general parameters but are not the 2 most specific to this condition.",
+        "explanation": "<b>Condition Most Likely Experiencing</b><br>Ischemic stroke: The client exhibits classic signs of a stroke (likely in the left hemisphere), including right-sided ptosis, facial drooping, right-sided hemiparesis, and expressive aphasia. The irregular apical pulse of 126 bpm strongly suggests atrial fibrillation, which is a major risk factor for embolic ischemic strokes.<br><br><b>Actions to Take</b><br>Administer oxygen at 2 L/min via nasal cannula: The client's pulse oximetry reading is 90% on room air, indicating mild hypoxia that needs to be corrected to prevent further brain tissue ischemia.<br>Insert a peripheral venous access device (VAD): Establishing IV access is a critical immediate step for suspected stroke patients to facilitate emergency lab draws, CT contrast administration, and potential thrombolytic therapy (e.g., tPA) or other medications.<br><br><b>Parameters to Monitor</b><br>Neurologic status: Continuous neuro assessments (such as the NIH Stroke Scale) are vital to track the progression or resolution of the client's deficits and to monitor for potential complications like increased intracranial pressure.<br>Electrocardiogram (ECG) rhythm: Because the client presented with an irregular, tachycardic apical pulse (126 bpm), continuous ECG monitoring is necessary to evaluate the rhythm (likely atrial fibrillation) and guide rate/rhythm control interventions.",
         "bowtieParams": [
           {
             "text": "urine output",
@@ -52,17 +52,17 @@
           },
           {
             "text": "serum glucose level",
-            "correct": true
+            "correct": false
           },
           {
             "text": "electrocardiogram (ECG) rhythm",
-            "correct": false
+            "correct": true
           }
         ],
         "bowtieActions": [
           {
             "text": "Administer oxygen at 2 L/min via nasal cannula.",
-            "correct": false
+            "correct": true
           },
           {
             "text": "Request a prescription for an oral corticosteroid.",
@@ -78,7 +78,7 @@
           },
           {
             "text": "Request an order for 50% dextrose in water to be administered intravenously.",
-            "correct": true
+            "correct": false
           }
         ],
         "bowtieCol1Header": "Actions to Take",
@@ -91,11 +91,11 @@
           },
           {
             "text": "hypoglycemia",
-            "correct": true
+            "correct": false
           },
           {
             "text": "ischemic stroke",
-            "correct": false
+            "correct": true
           },
           {
             "text": "urinary tract infection (UTI)",

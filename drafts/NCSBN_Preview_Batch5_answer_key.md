@@ -9,40 +9,42 @@ this session's own clinical judgment and needs clinician review before publishin
 Item 97 (chest tube priority monitoring) is a repeated page from the previous PDF, already
 built in batch 4 as `standalone_1784030000004`, and was skipped here — no duplicate created.
 
-## Discovery: item 112 is a duplicate of an existing, wrong/incomplete item already in the bank
+## Discovery: item 112 is a duplicate of an existing, incomplete item already in the bank
 
 Item 112 ("Bow-Tie Example Screen 1") is NCSBN's own bowtie item-type example: a 79-year-old
-female with stroke-like symptoms (facial drooping, hemiparesis, expressive aphasia) whose
-random serum glucose (4.2 mmol/L) is below the elderly reference range — hypoglycemia
-mimicking stroke.
+female with right-sided ptosis, facial drooping, right-sided hemiparesis, and expressive
+aphasia, an irregular apical pulse of 126 bpm, and a history of atrial fibrillation.
 
 This exact scenario, with the exact same Nurses' Notes / History and Physical / Laboratory
 Results content, is **already in the live bank** as `case_1789577787012` ("Bowtie-Stroke",
 filed under course/unit "Others"/"Others"). It is one of the 4 "known incomplete" items
 `tools/check.js` has been tolerating in its baseline across every batch this session
-("answer key scores 3/5"). Investigating it turned up 2 real bugs, not just incompleteness:
+("answer key scores 3/5").
 
-- `bowtieConditions` marked **"ischemic stroke"** correct — the source, and the client's
-  glucose level, both point to **hypoglycemia**.
-- `bowtieActions` marked "Administer oxygen at 2 L/min via nasal cannula" as one of the 2
-  correct actions — the source's 2 correct actions are **"Insert a peripheral venous access
-  device (VAD)"** and **"Request an order for 50% dextrose in water to be administered
-  intravenously,"** the direct treatment for symptomatic hypoglycemia.
-- `bowtieParams` was missing 3 of its 5 options outright (blank placeholders) — this was the
-  source of the "3/5" score. The 2 correct parameters are "neurologic status" (confirms the
-  deficits resolve once glucose is corrected) and "serum glucose level"; the 5th, non-correct
-  option is "electrocardiogram (ECG) rhythm."
+**Correction:** an earlier version of this doc misread this item as hypoglycemia mimicking
+stroke, based on a misreading of the client's glucose value against the wrong reference range
+and on mistaking the source PDF's template cell shading for a revealed answer — the source
+does not publish an answer key for this item, and there is no highlighted/revealed correct
+answer here. The correct read, confirmed by clinician review, is a classic **ischemic stroke**
+presentation (the neurologic deficits, likely a left-hemisphere event) with the irregular,
+tachycardic apical pulse pointing to **atrial fibrillation**, a major risk factor for embolic
+ischemic stroke. The existing (published) item already had the condition right (ischemic
+stroke marked correct); it was incomplete because `bowtieActions` had only 1 of 2 correct
+actions marked, and `bowtieParams` was missing 3 of its 5 options outright (blank
+placeholders) — the source of the "3/5" score.
 
-Following the same precedent as the appendicitis-case duplicate found in an earlier batch
-(and per your instruction there — "fix the existing item"), I fixed `case_1789577787012` in
-place rather than creating a new duplicate item: corrected all 3 fields above (verified
-against the source's own highlighted correct answers, see the walkthrough PDF pages for item
-112), moved it from "Others"/"Others" to **NURS 1017 Unit 11 (Endocrine Disorders)**, renamed
-the misleading title "Bowtie-Stroke" to "NURS 1017 Unit 11 Bowtie 1: Hypoglycemia Mimicking
-Stroke," added the copyright footnote, and added a full rationale. The Nurses' Notes, History
-and Physical, and Laboratory Results tab content are preserved verbatim from the existing
-item. Draft file: `drafts/case_1789577787012_FIXED_NURS_1017_Unit_11_Bowtie_1.json`
-(`drafts/fix_bowtie_hypoglycemia.py`). It now scores 5/5 — this drops the check.js known-incomplete
+I fixed `case_1789577787012` in place rather than creating a new duplicate item (same
+precedent as the appendicitis-case duplicate found in an earlier batch): marked "Administer
+oxygen at 2 L/min via nasal cannula" and "Insert a peripheral venous access device (VAD)" as
+the 2 correct actions, filled in the 3 missing parameter options ("neurologic status," "serum
+glucose level," "electrocardiogram (ECG) rhythm") and marked "neurologic status" and
+"electrocardiogram (ECG) rhythm" correct, moved it from "Others"/"Others" to **NURS 1017 Unit
+7 (Neurological Disorders)**, renamed it to "NURS 1017 Unit 7 Bowtie 1: Ischemic Stroke with
+Atrial Fibrillation," added the copyright footnote, and added a full rationale. The Nurses'
+Notes, History and Physical, and Laboratory Results tab content are preserved verbatim from
+the existing item. Draft file:
+`drafts/case_1789577787012_FIXED_NURS_1017_Unit_7_Bowtie_1.json`
+(`drafts/fix_bowtie_stroke.py`). It now scores 5/5 — this drops the check.js known-incomplete
 count from 4 to 3 once this fix is published.
 
 ## Items I'd most want a clinician's second opinion on
@@ -83,11 +85,11 @@ count from 4 to 3 once this fix is published.
 | 109 | Informed Consent Staff Education (SATA) | Others | Nurse verifies understanding, PHCP discloses risk of refusal, consent before opioids, emergency exception |
 | 110 | Wrong IV Fluid Infusing — First Action | Others | Assess the client |
 | 111 | Umbilical Cord Prolapse Priority Action | Others | Knee-chest position |
-| 112 | (fix, existing item) Hypoglycemia Mimicking Stroke (Bowtie) | NURS 1017 Unit 11 | Hypoglycemia; insert VAD + request IV dextrose; monitor neuro status + glucose |
+| 112 | (fix, existing item) Ischemic Stroke with Atrial Fibrillation (Bowtie) | NURS 1017 Unit 7 | Ischemic stroke; administer O2 + insert VAD; monitor neuro status + ECG rhythm |
 | 113 | Aminoglycoside — Renal Function Labs | NURS 1021 Unit 7 | BUN and serum creatinine |
 
 Full rationale for each item is in the walkthrough PDF (shown after answering) and in
-`drafts/build_ncsbn_preview_batch5.py` / `drafts/fix_bowtie_hypoglycemia.py`.
+`drafts/build_ncsbn_preview_batch5.py` / `drafts/fix_bowtie_stroke.py`.
 
 ## Verification performed this session
 
@@ -112,7 +114,7 @@ Full rationale for each item is in the walkthrough PDF (shown after answering) a
 
 - **93 stand-alone questions** (6 + 19 + 27 + 27 + 14)
 - **3 case studies** (2 new + 1 fixed existing — appendicitis)
-- **1 existing item corrected** in addition to the case studies (the bowtie/hypoglycemia item)
+- **1 existing item corrected** in addition to the case studies (the bowtie/ischemic-stroke item)
 - All still sitting on the branch, unpublished, per your instruction — this was the last batch
   of PDFs, so the next step is your call on publishing (merge to `main`, then the Supabase
   `add`/`upload` workflow) whenever you're ready.
