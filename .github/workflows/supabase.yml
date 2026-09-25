@@ -1,0 +1,30 @@
+name: Supabase
+
+# Talks to NCLEX_Claude's own Supabase project via tools/supabase.js.
+# The original app's database is only read (compare-original), never written.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: What to do
+        type: choice
+        options: [ping, check, compare-original, upload]
+        default: ping
+  schedule:
+    # Daily read-only ping so the free-tier project is not paused for inactivity.
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  supabase:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # compare-original reads the data as it was when the copy was made
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/supabase.js ${{ inputs.action || 'ping' }}
