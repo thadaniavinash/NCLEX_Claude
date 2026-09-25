@@ -1,0 +1,121 @@
+{
+  "id": "standalone_1784060000007",
+  "title": "Unit 6 Stand-alone 7: Bowtie - Infected Gastrostomy Tube Site",
+  "course": "NURS 1021",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client’s progress.",
+        "type": "bowtie",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
+        "explanation": "Thick, yellow drainage and erythematous, flaking skin at the gastrostomy tube site, together with fever, marked tachycardia (P 171), and early signs of poor perfusion (weak peripheral pulses, cool extremities, capillary refill of 3 seconds), indicate an infection of the gastrostomy tube site that is causing early systemic compromise, not simply the expected appearance of a healing site. This is not refeeding syndrome, which results from electrolyte shifts (hypophosphatemia, hypokalemia, hypomagnesemia) after reintroducing nutrition to a malnourished client and is not suggested by any finding here. The nurse should request an intravenous fluid bolus to support perfusion given the signs of early shock, and request a wound consultation given the infected, draining, loose tube site, which needs specialized evaluation beyond routine dressing care. The nurse should monitor skin integrity to track the infected site and vital signs every 30 minutes to closely track the client’s hemodynamic status while systemic compromise is a concern. Changing the site dressing is reasonable general care but is a lower-priority action than addressing perfusion and obtaining specialized wound input; obtaining an electrocardiogram is more relevant if refeeding syndrome were suspected, which it is not here; and reassuring the parent that the findings are a normal progression of healing is incorrect, since the findings described are abnormal. This item is flagged for clinician review: reasonable practice could also prioritize changing the saturated dressing among the top 2 actions.",
+        "bowtieParams": [
+          {
+            "text": "stool output",
+            "correct": false
+          },
+          {
+            "text": "skin integrity",
+            "correct": true
+          },
+          {
+            "text": "feeding tolerance",
+            "correct": false
+          },
+          {
+            "text": "vital signs every 30 minutes",
+            "correct": true
+          },
+          {
+            "text": "parent's ability to administer a tube feeding",
+            "correct": false
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "change the site dressing",
+            "correct": false
+          },
+          {
+            "text": "request a wound consultation",
+            "correct": true
+          },
+          {
+            "text": "obtain an electrocardiogram (ECG)",
+            "correct": false
+          },
+          {
+            "text": "request a bolus of intravenous 0.9% sodium chloride (normal saline)",
+            "correct": true
+          },
+          {
+            "text": "reassure the parent that the site findings are the normal progression of healing",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieConditions": [
+          {
+            "text": "refeeding syndrome",
+            "correct": false
+          },
+          {
+            "text": "infection of the gastrostomy tube site",
+            "correct": true
+          },
+          {
+            "text": "normal gastrostomy tube findings",
+            "correct": false
+          },
+          {
+            "text": "intolerance to gastrostomy tube feedings",
+            "correct": false
+          }
+        ],
+        "bowtieLeftPlaceholder": "",
+        "bowtieRightPlaceholder": "",
+        "bowtieCenterPlaceholder": "",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "The nurse in the pediatric unit is caring for a 6-month-old client.",
+        "tabs": [
+          {
+            "id": "nn_1784060000007",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client admitted with increased irritability and a leaking gastrostomy feeding tube, which was placed 2 weeks ago for failure to thrive. The feeding tube insertion site, which is on the left side of the abdomen, is covered with a dressing that is saturated with old formula. On removal of the dressing, the skin surrounding the feeding tube site is erythematous and flaking, and the feeding tube is loose. At the insertion site, a small amount of thick, yellow drainage is noted. Peripheral pulses are weak. Extremities are cool to the touch. Capillary refill is 3 seconds. Client is intermittently pulling at the tube and scratching at the site. Parent reports giving the client acetaminophen last night before bedtime, but the client was still intermittently waking and irritable throughout the night. Parent attempted to feed the client through the feeding tube 8 hours ago. Vital signs: temporal T 100.6° F (38.1° C), P 171, RR 42, BP 74/62, pulse oximetry reading 97% on room air. Parent has a history of a penicillin allergy.</span></p>"
+          }
+        ]
+      }
+    }
+  ],
+  "isStandalone": true
+}

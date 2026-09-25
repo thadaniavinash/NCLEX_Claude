@@ -1,0 +1,80 @@
+{
+  "id": "standalone_1790300000055",
+  "title": "Breastfed Infant Failure to Thrive (Drag-Word Cloze)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Drag words from the choices below to fill in each blank in the following sentence.",
+        "type": "dyad",
+        "preamble": "The home-health nurse is caring for a 2-month-old client.",
+        "cloze": {
+          "text": "The nurse should anticipate that the physician will instruct the parent to [[drop0]] and [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Word Choice",
+              "options": [
+                {
+                  "text": "fortify the breast milk",
+                  "correct": true
+                },
+                {
+                  "text": "complete a feeding log",
+                  "correct": false
+                },
+                {
+                  "text": "feed the client formula for 2 weeks",
+                  "correct": false
+                },
+                {
+                  "text": "increase the parent's caloric intake",
+                  "correct": false
+                },
+                {
+                  "text": "consult a pediatric surgeon for placement of a gastrostomy tube",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Word Choice",
+              "options": [
+                {
+                  "text": "fortify the breast milk",
+                  "correct": false
+                },
+                {
+                  "text": "complete a feeding log",
+                  "correct": true
+                },
+                {
+                  "text": "feed the client formula for 2 weeks",
+                  "correct": false
+                },
+                {
+                  "text": "increase the parent's caloric intake",
+                  "correct": false
+                },
+                {
+                  "text": "consult a pediatric surgeon for placement of a gastrostomy tube",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "Across 3 weekly visits, the client's weight has trended steadily downward despite frequent (6 to 8 times daily) breastfeeding on demand, now totaling a 12.5% weight loss, alongside worsening lethargy -- this is failure to thrive from inadequate caloric intake. Because breastfeeding on demand makes true intake volumes difficult to quantify, the physician would first have the parent complete a feeding log to objectively track how much and how often the client is feeding. At the same time, fortifying the breast milk (adding measured calories per ounce) increases caloric density while preserving the benefits of breastfeeding, a less drastic first step than replacing breastfeeding with formula altogether. Feeding the client formula for 2 weeks is a bigger change in feeding method than this trend supports as a first step, since fortifying breast milk has not yet been tried. Increasing the parent's own caloric intake does not directly address the infant's documented weight loss. Consulting a pediatric surgeon for gastrostomy tube placement is a far more invasive intervention reserved for failure to thrive that does not respond to less invasive measures, not an appropriate next step after only 3 visits.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ],
+  "isStandalone": true
+}
