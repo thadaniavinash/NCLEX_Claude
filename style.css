@@ -5856,3 +5856,17 @@ details[open] .chevron-adv {
 
 
 
+
+/* Authoring table: items students cannot see yet (see isReadyForStudents in js/data.js) */
+.readiness-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 11px;
+  font-weight: 600;
+  vertical-align: middle;
+  cursor: help;
+}

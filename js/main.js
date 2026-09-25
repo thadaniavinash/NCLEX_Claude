@@ -37,7 +37,7 @@ async function initApp() {
 
   // 1. Direct Case Study Launch (for LMS links)
   if (directCaseId) {
-    const targetCase = caseStudies.find(c => c.id === directCaseId || c.id.toLowerCase() === directCaseId.toLowerCase());
+    const targetCase = studentCaseStudies().find(c => c.id === directCaseId || c.id.toLowerCase() === directCaseId.toLowerCase());
     if (targetCase) {
       const targetMode = examMode === 'test' ? 'test' : 'review';
       startPlayer(targetCase, {
@@ -54,7 +54,7 @@ async function initApp() {
 
   // 2. Direct Stand-alone Question Launch (for LMS links)
   if (directStandaloneId) {
-    const targetQ = standaloneQuestions.find(q => q.id === directStandaloneId || q.id.toLowerCase() === directStandaloneId.toLowerCase());
+    const targetQ = studentStandaloneQuestions().find(q => q.id === directStandaloneId || q.id.toLowerCase() === directStandaloneId.toLowerCase());
     if (targetQ) {
       const targetMode = examMode === 'test' ? 'test' : 'review';
       startPlayer(targetQ, {
@@ -104,7 +104,7 @@ function switchView(viewId) {
 function renderStudentPortal() {
   const bankStatusEl = document.getElementById('student-bank-status-text');
   if (bankStatusEl) {
-    bankStatusEl.textContent = `Local Bank: ${caseStudies.length} Cases \u2022 ${standaloneQuestions.length} Standalone`;
+    bankStatusEl.textContent = `Local Bank: ${studentCaseStudies().length} Cases \u2022 ${studentStandaloneQuestions().length} Standalone`;
   }
   renderSessionTopicsList();
   renderManualSelectionLists();

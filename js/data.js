@@ -253,6 +253,81 @@ function downloadBlob(content, filename, contentType) {
   showToast(`Exported ${filename}!`);
 }
 
+/* ---- Which items students can see ----
+   Unfinished items (no question text, or an answer key that cannot score full marks) stay
+   in the bank and in the authoring studio, but are left out of student sessions and links. */
+
+function hasText(html) {
+  return typeof html === 'string' && html.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').trim().length > 0;
+}
+
+// Why a screen is not ready for students, or '' when it is.
+function screenProblem(q) {
+  if (!q || !q.type) return 'no question';
+  if (!hasText(q.stem)) return 'no question text';
+  const options = q.options || [];
+  const correct = options.filter(o => o.correct).length;
+  switch (q.type) {
+    case 'select_all': case 'trend':
+      if (!correct) return 'no correct option';
+      if (options.some(o => !hasText(o.text))) return 'blank option';
+      return '';
+    case 'multiple_choice':
+      if (correct !== 1) return 'needs exactly one correct option';
+      if (options.some(o => !hasText(o.text))) return 'blank option';
+      return '';
+    case 'select_n':
+      if (!correct || correct !== (q.limit || 0)) return 'number of correct options does not match';
+      if (options.some(o => !hasText(o.text))) return 'blank option';
+      return '';
+    case 'matrix_mc': case 'matrix_mr': {
+      const m = q.matrix || {};
+      if (!(m.rows || []).length || (m.rows || []).some(r => !hasText(r.text))) return 'blank matrix row';
+      if ((m.columns || []).some(c => !hasText(c))) return 'blank matrix column';
+      if (q.type === 'matrix_mc' && m.rows.some(r => !(r.correctIndex >= 0 && r.correctIndex < m.columns.length))) return 'matrix row without an answer';
+      return '';
+    }
+    case 'dropdown_cloze': case 'drag_drop_cloze': case 'dyad': case 'triad': {
+      const dropdowns = (q.cloze && q.cloze.dropdowns) || [];
+      const blanks = ((q.cloze && q.cloze.text) || '').match(/\[\[d(?:r)?op\d+\]\]/gi) || [];
+      if (!dropdowns.length || blanks.length !== dropdowns.length) return 'drop-downs do not match the sentence';
+      if (dropdowns.some(d => (d.options || []).filter(o => o.correct).length !== 1)) return 'drop-down without exactly one answer';
+      if (dropdowns.some(d => (d.options || []).some(o => !hasText(o.text)))) return 'blank drop-down option';
+      return '';
+    }
+    case 'bowtie': {
+      const count = list => (list || []).filter(x => x.correct && hasText(x.text)).length;
+      if (count(q.bowtieActions) !== 2 || count(q.bowtieConditions) !== 1 || count(q.bowtieParams) !== 2) return 'bowtie answer key incomplete';
+      return '';
+    }
+    case 'highlight': case 'highlight_2': {
+      const passages = q.highlightTabs ? q.highlightTabs.map(t => t.content || '') : [q.highlightText || ''];
+      return passages.some(p => /\|correct\}/.test(p)) ? '' : 'nothing marked to highlight';
+    }
+    case 'ordered_response':
+      return (q.orderedOptions || []).filter(hasText).length >= 2 ? '' : 'fewer than two items to order';
+    default:
+      return '';
+  }
+}
+
+function itemProblems(item) {
+  if (!item || !Array.isArray(item.screens) || !item.screens.length) return ['no screens'];
+  return item.screens.map((s, i) => { const p = screenProblem(s.question); return p ? `screen ${i + 1}: ${p}` : ''; }).filter(Boolean);
+}
+
+function isReadyForStudents(item) {
+  return itemProblems(item).length === 0;
+}
+
+function studentCaseStudies() {
+  return caseStudies.filter(isReadyForStudents);
+}
+
+function studentStandaloneQuestions() {
+  return standaloneQuestions.filter(isReadyForStudents);
+}
+
 /* ---- Saving to the database ----
    Each row ('cases', 'standalone') holds a whole list and carries a version number that the
    database bumps on every save. A save only applies if the row is still at the version this

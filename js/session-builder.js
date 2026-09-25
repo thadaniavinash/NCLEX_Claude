@@ -308,7 +308,7 @@ function renderSessionTopicsList() {
   topicsMap["Others"] = { cases: 0, standalone: 0, course: "Others" };
   
   // 2. Collect topics from cases
-  caseStudies.forEach(c => {
+  studentCaseStudies().forEach(c => {
     const t = (c.unit || c.topic || c.disorder || 'Others').trim();
     if (!topicsMap[t]) {
       topicsMap[t] = { cases: 0, standalone: 0, course: c.course || 'Others' };
@@ -318,7 +318,7 @@ function renderSessionTopicsList() {
   });
 
   // 3. Collect topics from standalone
-  standaloneQuestions.forEach(s => {
+  studentStandaloneQuestions().forEach(s => {
     const t = (s.unit || s.topic || s.disorder || 'Others').trim();
     if (!topicsMap[t]) {
       topicsMap[t] = { cases: 0, standalone: 0, course: s.course || 'Others' };
@@ -416,8 +416,8 @@ function updateSessionTopicsFromCheckboxes() {
 
 function updateSessionCountsAndBounds() {
   // Available pool from selected topics
-  const availableCases = caseStudies.filter(c => sessionBuilderTopics.includes((c.topic || c.disorder || 'General').trim()));
-  const availableStandalone = standaloneQuestions.filter(s => sessionBuilderTopics.includes((s.topic || s.disorder || 'General').trim()));
+  const availableCases = studentCaseStudies().filter(c => sessionBuilderTopics.includes((c.topic || c.disorder || 'General').trim()));
+  const availableStandalone = studentStandaloneQuestions().filter(s => sessionBuilderTopics.includes((s.topic || s.disorder || 'General').trim()));
 
   const maxCases = Math.min(3, availableCases.length);
   const maxStandalone = Math.min(67, availableStandalone.length);
@@ -523,10 +523,10 @@ function renderManualSelectionLists() {
   casesList.innerHTML = '';
   standaloneList.innerHTML = '';
 
-  if (caseStudies.length === 0) {
+  if (studentCaseStudies().length === 0) {
     casesList.innerHTML = '<p style="color:var(--text-dash-secondary); font-style:italic; padding:8px;">No case studies available.</p>';
   } else {
-    caseStudies.forEach(c => {
+    studentCaseStudies().forEach(c => {
       const item = document.createElement('label');
       item.className = 'generator-item-label';
       item.innerHTML = `
@@ -538,10 +538,10 @@ function renderManualSelectionLists() {
     });
   }
 
-  if (standaloneQuestions.length === 0) {
+  if (studentStandaloneQuestions().length === 0) {
     standaloneList.innerHTML = '<p style="color:var(--text-dash-secondary); font-style:italic; padding:8px;">No stand-alone questions available.</p>';
   } else {
-    standaloneQuestions.forEach(q => {
+    studentStandaloneQuestions().forEach(q => {
       const item = document.createElement('label');
       item.className = 'generator-item-label';
       item.innerHTML = `
@@ -568,8 +568,8 @@ function generateAndStartSession() {
     selectedStandalone = manualStdCbs.map(cb => standaloneQuestions.find(x => x.id === cb.dataset.id)).filter(Boolean);
   } else {
     // Use Topic & Quantity configuration
-    const availableCases = caseStudies.filter(c => sessionBuilderTopics.includes((c.topic || c.disorder || 'General').trim()));
-    const availableStandalone = standaloneQuestions.filter(s => sessionBuilderTopics.includes((s.topic || s.disorder || 'General').trim()));
+    const availableCases = studentCaseStudies().filter(c => sessionBuilderTopics.includes((c.topic || c.disorder || 'General').trim()));
+    const availableStandalone = studentStandaloneQuestions().filter(s => sessionBuilderTopics.includes((s.topic || s.disorder || 'General').trim()));
 
     const casesInput = document.getElementById('generator-cases-input');
     const stdInput = document.getElementById('generator-standalone-input');

@@ -160,6 +160,13 @@ function renderDashboard() {
   applyAuthorTableFilters();
 }
 
+// Marks items students cannot see yet, with the reasons on hover.
+function readinessBadge(item) {
+  const problems = itemProblems(item);
+  if (!problems.length) return '';
+  return ` <span class="readiness-badge" title="${escapeHTML('Hidden from students until fixed: ' + problems.join('; '))}">Hidden from students</span>`;
+}
+
 function renderAuthorCasesTable() {
   const tbody = document.getElementById('author-cases-tbody');
   if (!tbody) return;
@@ -191,7 +198,7 @@ function renderAuthorCasesTable() {
 
     tr.innerHTML = `
       <td>
-        <div class="author-scenario-title">${escapeHTML(c.title || 'Untitled Case')}</div>
+        <div class="author-scenario-title">${escapeHTML(c.title || 'Untitled Case')}${readinessBadge(c)}</div>
         <div class="author-scenario-desc">${escapeHTML(c.description || 'No description.')}</div>
         <span class="author-scenario-id card-id-badge" data-id="${c.id}" title="Click to copy direct LMS link for students"><svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-1px; margin-right:3px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>ID: ${escapeHTML(c.id)}</span>
       </td>
@@ -289,7 +296,7 @@ function renderAuthorStandaloneTable() {
 
     tr.innerHTML = `
       <td>
-        <div class="author-scenario-title">${escapeHTML(q.title || 'Untitled Question')}</div>
+        <div class="author-scenario-title">${escapeHTML(q.title || 'Untitled Question')}${readinessBadge(q)}</div>
         <div class="author-scenario-desc">${escapeHTML(q.description || 'No description.')}</div>
         <span class="author-scenario-id card-id-badge" data-id="${q.id}" title="Click to copy direct LMS link for students"><svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-1px; margin-right:3px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>ID: ${escapeHTML(q.id)}</span>
       </td>
