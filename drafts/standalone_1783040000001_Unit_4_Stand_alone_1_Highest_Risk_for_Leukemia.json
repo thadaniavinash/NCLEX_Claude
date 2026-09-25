@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783040000001",
+  "title": "Unit 4 Stand-alone 1: Highest Risk for Leukemia",
+  "course": "NURS 1017",
+  "unit": "Unit 4 (Neoplasia)",
+  "topic": "Unit 4 (Neoplasia)",
+  "disorder": "Unit 4 (Neoplasia)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "At <b>highest</b> risk for developing leukemia is the client who",
+        "type": "multiple_choice",
+        "preamble": "The nurse is screening clients for those at increased risk for developing cancer.",
+        "options": [
+          {
+            "text": "received more than 3 blood transfusions",
+            "correct": false
+          },
+          {
+            "text": "has a magnetic resonance imaging (MRI) scan annually",
+            "correct": false
+          },
+          {
+            "text": "has polycythemia vera and requires phlebotomy treatments",
+            "correct": false
+          },
+          {
+            "text": "had colon cancer and received chemotherapy treatments",
+            "correct": true
+          }
+        ],
+        "explanation": "Certain chemotherapy agents, particularly alkylating agents and topoisomerase II inhibitors commonly used to treat colon cancer, are well-established causes of treatment-related (secondary) leukemia, making this client's risk the highest of those listed. Multiple blood transfusions (Option 1) are not an established leukemia risk factor. MRI (Option 2) uses no ionizing radiation and is not a cancer risk factor, unlike CT or x-ray imaging. Polycythemia vera (Option 3) carries some increased risk of transformation to acute leukemia over time, but this risk is generally smaller in magnitude than the risk associated with leukemogenic chemotherapy.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

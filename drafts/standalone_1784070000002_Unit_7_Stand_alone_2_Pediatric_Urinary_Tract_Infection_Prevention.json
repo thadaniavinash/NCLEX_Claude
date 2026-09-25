@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1784070000002",
+  "title": "Unit 7 Stand-alone 2: Pediatric Urinary Tract Infection Prevention",
+  "course": "NURS 1021",
+  "unit": "Unit 7 (Urinary Disorders)",
+  "topic": "Unit 7 (Urinary Disorders)",
+  "disorder": "Unit 7 (Urinary Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is planning a staff education program about the prevention of urinary tract infections (UTIs) in children.",
+        "options": [
+          {
+            "text": "“Teach the child to perform Kegel exercises.”",
+            "correct": false
+          },
+          {
+            "text": "“Encourage the child to empty the bladder completely.”",
+            "correct": true
+          },
+          {
+            "text": "“Encourage the child to maintain an adequate fluid intake.”",
+            "correct": true
+          },
+          {
+            "text": "“Teach the child how to properly cleanse the perineal area.”",
+            "correct": true
+          },
+          {
+            "text": "“Offer the child noncarbonated, decaffeinated beverage choices.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Complete bladder emptying (Option 2) prevents urinary stasis that allows bacteria to multiply. Adequate fluid intake (Option 3) helps flush bacteria from the urinary tract. Proper perineal cleansing technique, such as front-to-back wiping (Option 4), prevents introducing bacteria into the urethra. Noncarbonated, decaffeinated beverages (Option 5) avoid bladder irritants that carbonation and caffeine can cause. Kegel exercises (Option 1) strengthen pelvic floor muscles for continence and are not a standard pediatric UTI prevention teaching point.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

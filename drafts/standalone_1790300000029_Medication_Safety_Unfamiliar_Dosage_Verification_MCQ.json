@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000029",
+  "title": "Medication Safety - Unfamiliar Dosage Verification (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions should the nurse take <b>next</b>?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is preparing to administer lorazepam 2 mg, IV, now to a client who is scheduled for surgery in 30 minutes. The nurse is unfamiliar with the dosage for the medication.",
+        "options": [
+          {
+            "text": "Check the medication dosage in a medication reference source.",
+            "correct": false
+          },
+          {
+            "text": "Ask another nurse whether the prescribed dose is a safe dose.",
+            "correct": false
+          },
+          {
+            "text": "Clarify that the dose is correct with the primary health care provider.",
+            "correct": false
+          },
+          {
+            "text": "Contact the pharmacist to verify the safe dosage range for the medication.",
+            "correct": true
+          }
+        ],
+        "explanation": "The pharmacist is the medication expert and the most authoritative, reliable resource for verifying a safe dosage range, especially in a time-sensitive situation (Option 4). Checking a general reference (Option 1) is reasonable but less authoritative than a pharmacist consultation for verifying a specific order. Asking a peer nurse (Option 2) is not an authoritative safety check. Contacting the prescriber (Option 3) is appropriate if there is concern the order itself is wrong, but the nurse's stated problem here is simply unfamiliarity with the medication, which the pharmacist is best positioned to resolve.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

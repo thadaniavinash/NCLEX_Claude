@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784090000001",
+  "title": "Unit 9 Stand-alone 1: Perimenopause Hot Flash Management",
+  "course": "NURS 1021",
+  "unit": "Unit 9 (Reproductive Disorders)",
+  "topic": "Unit 9 (Reproductive Disorders)",
+  "disorder": "Unit 9 (Reproductive Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following lifestyle modifications would be appropriate for the nurse to recommend?",
+        "type": "multiple_choice",
+        "preamble": "The nurse at a health fair is talking with a client who is in perimenopause and is experiencing hot flashes.",
+        "options": [
+          {
+            "text": "increasing fluid intake",
+            "correct": false
+          },
+          {
+            "text": "exercising daily",
+            "correct": false
+          },
+          {
+            "text": "decreasing sodium intake",
+            "correct": false
+          },
+          {
+            "text": "wearing clothing in layers",
+            "correct": true
+          }
+        ],
+        "explanation": "Wearing clothing in layers (Option 4) is a standard, practical recommendation for managing hot flashes, since layers can be quickly removed when a hot flash occurs and added back as it resolves. Increasing fluid intake (Option 1) and decreasing sodium intake (Option 3) are general health measures not specifically targeted at hot flash management. Daily exercise (Option 2) supports overall menopausal health but is not the specific, targeted recommendation for managing an acute hot flash episode the way dressing in layers is.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

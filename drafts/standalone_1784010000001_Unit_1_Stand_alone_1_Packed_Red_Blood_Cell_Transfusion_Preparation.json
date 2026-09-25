@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784010000001",
+  "title": "Unit 1 Stand-alone 1: Packed Red Blood Cell Transfusion Preparation",
+  "course": "NURS 1021",
+  "unit": "Unit 1 (Blood Disorders)",
+  "topic": "Unit 1 (Blood Disorders)",
+  "disorder": "Unit 1 (Blood Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following actions should the nurse take?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is preparing to administer a unit of packed red blood cells (PRBCs) to a client.",
+        "options": [
+          {
+            "text": "Assess the client's recent urine output.",
+            "correct": false
+          },
+          {
+            "text": "Prime a Y-tubing blood administration set with lactated Ringer's solution.",
+            "correct": false
+          },
+          {
+            "text": "Ensure that the client has a peripheral venous access device (VAD) that is 24-gauge or larger.",
+            "correct": true
+          },
+          {
+            "text": "Verify with another nurse that the client's room number is on both the blood product label and the client's identification band.",
+            "correct": false
+          }
+        ],
+        "explanation": "Blood is administered through a VAD of at least 24-gauge (that is, 24-gauge or a larger-bore catheter such as 22, 20, or 18-gauge) to allow safe infusion of the product (Option 3). Blood administration sets must be primed with 0.9% sodium chloride only, never lactated Ringer's solution (Option 2), because the calcium in Ringer's solution can cause the blood product to clot. Room number is never an acceptable client identifier for verifying a blood product against the client's identification band (Option 4); a full name and a unique identifier such as a medical record number must be used instead. Assessing recent urine output (Option 1) is not a required immediate pre-transfusion action; it is more relevant to monitoring after the transfusion begins.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000019",
+  "title": "Safety - Restraint Use Client Teaching (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is planning a staff education program about caring for clients with restraints.",
+        "options": [
+          {
+            "text": "“Restraints should be removed once during a shift to perform passive range-of-motion (ROM) exercises.”",
+            "correct": false
+          },
+          {
+            "text": "“Restraints should be secured to the side rails of the client's bed for quick release.”",
+            "correct": false
+          },
+          {
+            "text": "“Restraints require an order from the primary health care provider.”",
+            "correct": true
+          },
+          {
+            "text": "“Restraints may be used p.r.n. for clients who are confused.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Restraints require a time-limited order from the primary health care provider (Option 3); they cannot be applied solely at nursing discretion. Restraints should be released and the limb assessed and repositioned at least every 2 hours, not just once per shift (Option 1). Restraints must be secured to the bed frame, never to a movable side rail (Option 2), which is a safety hazard if the rail is lowered. Restraint orders cannot be written as p.r.n. (Option 4); confusion alone does not automatically justify restraint use, and the least restrictive alternative must be tried first.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

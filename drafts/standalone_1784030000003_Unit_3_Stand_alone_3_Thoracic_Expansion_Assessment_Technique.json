@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784030000003",
+  "title": "Unit 3 Stand-alone 3: Thoracic Expansion Assessment Technique",
+  "course": "NURS 1021",
+  "unit": "Unit 3 (Respiratory Disorders)",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "disorder": "Unit 3 (Respiratory Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following would indicate that the coworker is using the correct assessment technique?",
+        "type": "multiple_choice",
+        "preamble": "The nurse observes a coworker who is assessing a client's thoracic expansion.",
+        "options": [
+          {
+            "text": "percussion from the apex of the scapula downward on each side",
+            "correct": false
+          },
+          {
+            "text": "placement of the hands flat on the back with the thumbs at the level of the tenth ribs pointing to the spine, then asking the client to inhale",
+            "correct": true
+          },
+          {
+            "text": "measurement of the anteroposterior diameter of the chest",
+            "correct": false
+          },
+          {
+            "text": "placement of the palms at the level of the tenth ribs with thumbs pointing to the xiphoid process, then asking the client to inhale",
+            "correct": false
+          }
+        ],
+        "explanation": "Posterior thoracic (respiratory) excursion is assessed by placing the hands flat against the client's back with the thumbs at about the level of the tenth ribs pointing toward the spine, then observing the thumbs move symmetrically apart as the client inhales (Option 2). Percussion from the scapula downward (Option 1) assesses lung resonance/diaphragmatic excursion, a different parameter, not chest wall expansion. Measuring the anteroposterior diameter (Option 3) assesses chest configuration (for example, a barrel chest), not excursion during breathing.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

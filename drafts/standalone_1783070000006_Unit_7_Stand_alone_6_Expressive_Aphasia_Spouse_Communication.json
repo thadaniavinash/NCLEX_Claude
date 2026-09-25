@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1783070000006",
+  "title": "Unit 7 Stand-alone 6: Expressive Aphasia Spouse Communication",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client's spouse would indicate a correct understanding of the client's communication abilities and interaction needs? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is planning care for a client who has expressive aphasia after a left-sided stroke.",
+        "options": [
+          {
+            "text": "“My spouse's response of 'fine' when I asked how the day has been may or may not be what my spouse meant to communicate.”",
+            "correct": true
+          },
+          {
+            "text": "“I can anticipate what my spouse wants to say, so I complete my spouse's sentences to make communication quicker.”",
+            "correct": false
+          },
+          {
+            "text": "“I will purchase a picture board to help my spouse express common needs, thoughts, and feelings when communication is difficult.”",
+            "correct": true
+          },
+          {
+            "text": "“My spouse's angry response when we have a conversation makes me hesitant to try further communication.”",
+            "correct": false
+          },
+          {
+            "text": "“I have arranged for my spouse to meet with a speech therapist twice each week to improve communication skills.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Recognizing that a simple response like “fine” may not accurately reflect what the client intends to say (Option 1) reflects correct understanding of expressive aphasia, in which producing intended language is impaired. Obtaining a picture communication board (Option 3) and arranging regular speech therapy (Option 5) are both appropriate, standard interventions for expressive aphasia. Habitually finishing the client's sentences (Option 2) is not recommended, since it can be frustrating and does not reliably reflect what the client intends to say; the client should be given time to communicate. Becoming hesitant to attempt further communication because of the client's frustration (Option 4) is an avoidant response, not an appropriate coping strategy.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

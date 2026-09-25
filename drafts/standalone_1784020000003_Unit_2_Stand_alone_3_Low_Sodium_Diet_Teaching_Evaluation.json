@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784020000003",
+  "title": "Unit 2 Stand-alone 3: Low-Sodium Diet Teaching Evaluation",
+  "course": "NURS 1021",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has taught a client who has been ordered a low-sodium diet about appropriate food choices.",
+        "options": [
+          {
+            "text": "“I will eat steamed, fresh broccoli with herbs and spices for an evening meal.”",
+            "correct": true
+          },
+          {
+            "text": "“I will add cottage cheese and other dairy products to my daily diet.”",
+            "correct": false
+          },
+          {
+            "text": "“I am glad I can still enjoy eating cereals, such as bran flakes with raisins.”",
+            "correct": false
+          },
+          {
+            "text": "“I am glad I can eat lean meats daily because I eat ham sandwiches for an afternoon meal.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Fresh steamed vegetables seasoned with herbs and spices instead of salt (Option 1) is exactly the substitution pattern taught for a low-sodium diet. Cottage cheese (Option 2) and many processed breakfast cereals such as bran flakes (Option 3) are common hidden-sodium sources that clients often mistakenly consider low-sodium choices. Ham (Option 4) is a cured, processed meat that is very high in sodium and is not an appropriate substitute for a fresh lean meat on a low-sodium diet.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

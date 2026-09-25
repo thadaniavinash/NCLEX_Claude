@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784020000002",
+  "title": "Unit 2 Stand-alone 2: Ineffective Coping After Myocardial Infarction",
+  "course": "NURS 1021",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the client would indicate ineffective coping?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is assessing the coping strategies of a client who had a myocardial infarction (MI) 3 days ago.",
+        "options": [
+          {
+            "text": "“I know that stopping smoking will be difficult.”",
+            "correct": false
+          },
+          {
+            "text": "“I plan to attend a cardiac rehabilitation support group.”",
+            "correct": false
+          },
+          {
+            "text": "“I have trouble believing this has really happened to me.”",
+            "correct": false
+          },
+          {
+            "text": "“I have let down my family because I will not be able to financially support them any longer.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Assuming, only 3 days after an MI, that the client will permanently be unable to work and support their family (Option 4) reflects catastrophic thinking and hopelessness not grounded in the client's actual prognosis, indicating ineffective coping and warranting further assessment for depression or excessive guilt. Acknowledging that quitting smoking will be difficult (Option 1) and planning to attend cardiac rehabilitation (Option 2) both reflect realistic, adaptive coping and engagement with recovery. Some difficulty believing the MI happened (Option 3) reflects an early, commonly expected stage of processing a sudden diagnosis rather than clearly ineffective coping at only 3 days out.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

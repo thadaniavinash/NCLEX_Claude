@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1783070000005",
+  "title": "Unit 7 Stand-alone 5: Alzheimer's Disease Daily Care Planning",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following interventions should the nurse include in the client's plan of care? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is planning care for a client with moderate Alzheimer's disease (AD).",
+        "options": [
+          {
+            "text": "Establish a daily routine for the client.",
+            "correct": true
+          },
+          {
+            "text": "Assist the client to void every 2 hours.",
+            "correct": true
+          },
+          {
+            "text": "Introduce self upon interacting with the client.",
+            "correct": true
+          },
+          {
+            "text": "Display a clock and calendar in the client's room.",
+            "correct": true
+          },
+          {
+            "text": "Keep the client's television on during the day to distract the client.",
+            "correct": false
+          }
+        ],
+        "explanation": "A consistent daily routine (Option 1) reduces confusion and anxiety in AD. Scheduled toileting every 2 hours (Option 2) is a proactive continence strategy. Reintroducing oneself at each interaction (Option 3) accommodates impaired recognition memory and reduces fear or confusion. A clock and calendar (Option 4) support reality orientation. Keeping the television on continuously (Option 5) is not appropriate; excess background stimulation tends to increase confusion and agitation in AD rather than help, and a calm, low-stimulation environment is generally preferred.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

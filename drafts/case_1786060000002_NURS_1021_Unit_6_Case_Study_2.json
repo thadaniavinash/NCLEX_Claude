@@ -1,0 +1,434 @@
+{
+  "id": "case_1786060000002",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "title": "NURS 1021 Unit 6 Case Study 2",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "course": "NURS 1021",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following assessment findings require <b>immediate</b> follow-up? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "",
+        "options": [
+          {
+            "text": "lung sounds",
+            "correct": true
+          },
+          {
+            "text": "shoulder pain",
+            "correct": true
+          },
+          {
+            "text": "laboratory results",
+            "correct": true
+          },
+          {
+            "text": "productive cough",
+            "correct": false
+          },
+          {
+            "text": "abdominal assessment findings",
+            "correct": true
+          },
+          {
+            "text": "pulse, respirations, and blood pressure",
+            "correct": true
+          },
+          {
+            "text": "temperature and pulse oximetry reading",
+            "correct": false
+          }
+        ],
+        "explanation": "Diminished breath sounds in the left lung fields (Option 1) require follow-up, since combined with the trauma history they raise concern for a hemothorax. Left shoulder pain (Option 2) requires follow-up because it can represent Kehr's sign, referred pain from diaphragmatic irritation caused by bleeding from a splenic injury, not just the client's old rotator cuff history. The laboratory results (Option 3) require follow-up: the hemoglobin of 9 g/dL and hematocrit of 27% are well below normal, consistent with ongoing blood loss, and the WBC of 19,000/mm&sup3; reflects an acute inflammatory/traumatic response. The abdominal assessment findings (Option 5) require follow-up: LUQ bruising, tenderness, guarding, and dullness to percussion over the spleen's location are classic signs of splenic injury with possible intra-abdominal bleeding. The pulse, respirations, and blood pressure (Option 6) require follow-up because tachycardia (116), tachypnea (24), and hypotension (90/50) together are early signs of hypovolemic shock from blood loss. A productive cough (Option 4) is a nonspecific finding already reflected in the more specific lung sounds finding above, and the temperature and pulse oximetry reading (Option 7) are within normal limits and do not require follow-up.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "hp_case2",
+            "title": "History and Physical",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_case2",
+            "title": "Nurses' Notes",
+            "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div>"
+          },
+          {
+            "id": "vs_case2",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "lab_case2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "Which of the following issues is the client at risk of developing? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "",
+        "options": [
+          {
+            "text": "stroke",
+            "correct": false
+          },
+          {
+            "text": "hemothorax",
+            "correct": true
+          },
+          {
+            "text": "bowel perforation",
+            "correct": true
+          },
+          {
+            "text": "splenic laceration",
+            "correct": true
+          },
+          {
+            "text": "pulmonary embolism",
+            "correct": false
+          },
+          {
+            "text": "abdominal aortic aneurysm",
+            "correct": false
+          }
+        ],
+        "explanation": "Given blunt trauma to the left flank/rib cage with LUQ bruising, tenderness, diminished left breath sounds, tachycardia, and hypotension, the client is at risk for a splenic laceration (Option 4, the organ most often injured by blunt left-flank/rib trauma), a hemothorax (Option 2, given the diminished left lung sounds and chest discomfort with deep breathing), and bowel perforation (Option 3, a recognized complication of blunt abdominal trauma). A stroke (Option 1) is not a typical consequence of blunt torso trauma. A pulmonary embolism (Option 5) is not an immediate risk from this acute injury itself. An abdominal aortic aneurysm (Option 6) is a degenerative vascular condition that develops over time, not something caused by an acute traumatic injury.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "hp_case2",
+            "title": "History and Physical",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_case2",
+            "title": "Nurses' Notes",
+            "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div>"
+          },
+          {
+            "id": "vs_case2",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "lab_case2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentence by choosing from the list of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The nurse should first address the client's [[drop0]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "abdominal pain",
+                  "correct": false
+                },
+                {
+                  "text": "respiratory status",
+                  "correct": true
+                },
+                {
+                  "text": "laboratory results",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "preamble": "",
+        "explanation": "The client's respiratory status is the priority using the airway-breathing-circulation framework: diminished left breath sounds, chest discomfort with deep inspiration, tachypnea (RR 24), and borderline pulse oximetry all point to a possible hemothorax compromising oxygenation, which is more immediately life-threatening than addressing abdominal pain or reviewing laboratory results, both of which are important but secondary once the airway and breathing are confirmed to be adequately supported.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "hp_case2",
+            "title": "History and Physical",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_case2",
+            "title": "Nurses' Notes",
+            "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div>"
+          },
+          {
+            "id": "vs_case2",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "lab_case2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "For each potential order, click to specify whether the potential order is indicated or not indicated for the client.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "intravenous fluids",
+              "correctIndex": 0
+            },
+            {
+              "text": "serum type and screen",
+              "correctIndex": 0
+            },
+            {
+              "text": "chest percussion therapy",
+              "correctIndex": 1
+            },
+            {
+              "text": "insertion of a nasogastric (NG) tube",
+              "correctIndex": 0
+            },
+            {
+              "text": "administration of prescribed pain medication",
+              "correctIndex": 0
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "firstColumnHeader": "Potential Orders"
+        },
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1000.",
+        "explanation": "Intravenous fluids are indicated to begin resuscitating a client with signs of hypovolemic shock from a splenic laceration. A serum type and screen is indicated to prepare for a likely blood transfusion and anticipated surgery. Chest percussion therapy is not indicated: it is contraindicated with a hemothorax and recent rib trauma, since it can worsen bleeding and cause significant pain. Insertion of an NG tube is indicated given the client's abdominal fullness and nausea and the likelihood of surgery, to decompress the stomach and reduce aspiration risk. Administration of prescribed pain medication is indicated to treat the client's reported 6/10 pain.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "hp_case2",
+            "title": "History and Physical",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_case2",
+            "title": "Nurses' Notes",
+            "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div>"
+          },
+          {
+            "id": "vs_case2",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "lab_case2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which of the following actions should the nurse take? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1030.",
+        "options": [
+          {
+            "text": "Mark the surgical site.",
+            "correct": true
+          },
+          {
+            "text": "Provide the client with ice chips.",
+            "correct": false
+          },
+          {
+            "text": "Perform a medication reconciliation.",
+            "correct": true
+          },
+          {
+            "text": "Obtain consent for surgery from the client.",
+            "correct": false
+          },
+          {
+            "text": "Insert a peripheral venous access device (VAD).",
+            "correct": true
+          },
+          {
+            "text": "Inform the client about the risks and benefits of the surgery.",
+            "correct": false
+          },
+          {
+            "text": "Assess the client's previous experience with surgery and anesthesia.",
+            "correct": true
+          },
+          {
+            "text": "Ask the client's parents to wait in the waiting room while the plan of care is discussed with the client.",
+            "correct": false
+          }
+        ],
+        "explanation": "Marking the surgical site, performing a medication reconciliation, inserting a peripheral VAD, and assessing the client's previous experience with surgery and anesthesia are all standard nursing pre-operative preparation tasks. Providing ice chips is inappropriate because the client needs to be NPO before surgery. Obtaining consent and informing the client about the risks and benefits of the surgery are the surgeon's/prescriber's responsibility, not the nurse's, and legally a minor client's parent or guardian must give consent, not the 17-year-old client. Asking the client's parents to leave while the plan of care is discussed is inappropriate for a minor client; parents/guardians should be included in care planning discussions, not excluded.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "hp_case2",
+            "title": "History and Physical",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_case2",
+            "title": "Nurses' Notes",
+            "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Client referred for immediate surgery.</span></div>"
+          },
+          {
+            "id": "vs_case2",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "lab_case2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "Click to highlight the findings below that indicate a worsening of the client's status.",
+        "type": "highlight",
+        "preamble": "The nurse has reviewed the Progress Notes from 0800.",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "highlightTabs": [
+          {
+            "id": "ht_case2_s6",
+            "title": "Progress Notes",
+            "content": "Client is postoperative day 3 after a splenectomy and is able to ambulate in the corridor 3 or 4 times daily with minimal assistance. Client has clear breath sounds bilaterally. Left-sided chest tube in place attached to a closed-chest drainage system. Tidaling of the water chamber noted on drainage system. {Client refuses to use the incentive spirometer, stating it causes left-sided chest pain. Client is using prescribed patient-controlled analgesia (PCA) device maximally every hour and continues to have intermittent nausea and vomiting.|correct} Adequate urine output. Abdominal surgical incision site with dressing clean, dry, and intact with no erythema, edema, or drainage."
+          }
+        ],
+        "maxCorrectSelections": null,
+        "explanation": "Refusing to use the incentive spirometer because of left-sided chest pain, combined with maximal PCA use every hour and continued nausea and vomiting, indicates worsening status: poorly controlled pain that prevents deep breathing raises the risk of atelectasis and pneumonia, and ongoing nausea/vomiting despite heavy analgesic use is not the expected postoperative trajectory by day 3. Ambulating with minimal assistance, clear bilateral breath sounds, an appropriately functioning (tidaling) chest tube drainage system, adequate urine output, and a clean, dry, intact incision without erythema, edema, or drainage are all reassuring, expected findings that do not indicate worsening.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "hp_case2",
+            "title": "History and Physical",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_case2",
+            "title": "Nurses' Notes",
+            "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Client referred for immediate surgery.</span></div>"
+          },
+          {
+            "id": "pn_case2_s6",
+            "title": "Progress Notes",
+            "content": "<p><b>Progress Notes</b></p><p><b>Day 3</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client is postoperative day 3 after a splenectomy and is able to ambulate in the corridor 3 or 4 times daily with minimal assistance. Client has clear breath sounds bilaterally. Left-sided chest tube in place attached to a closed-chest drainage system. Tidaling of the water chamber noted on drainage system. {Client refuses to use the incentive spirometer, stating it causes left-sided chest pain. Client is using prescribed patient-controlled analgesia (PCA) device maximally every hour and continues to have intermittent nausea and vomiting.|correct} Adequate urine output. Abdominal surgical incision site with dressing clean, dry, and intact with no erythema, edema, or drainage.</span></div>"
+          },
+          {
+            "id": "vs_case2",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "lab_case2",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+      }
+    }
+  ],
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 17-year-old male client with a splenic laceration and left-sided hemothorax from blunt trauma, from recognize cues through evaluate outcomes.",
+  "availability": "all"
+}

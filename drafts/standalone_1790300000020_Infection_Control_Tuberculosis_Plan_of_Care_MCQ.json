@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000020",
+  "title": "Infection Control - Tuberculosis Plan of Care (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following should the nurse include in the client's plan of care?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a client with active pulmonary tuberculosis (TB).",
+        "options": [
+          {
+            "text": "placing the client in a private room with the door open",
+            "correct": false
+          },
+          {
+            "text": "putting a surgical mask on the client during transport to the radiology department",
+            "correct": true
+          },
+          {
+            "text": "instructing the primary caregivers to wear surgical masks when caring for the client",
+            "correct": false
+          },
+          {
+            "text": "instituting the standards for droplet precautions",
+            "correct": false
+          }
+        ],
+        "explanation": "TB requires airborne precautions, and placing a surgical mask on the client for source control during transport outside the negative-pressure room (Option 2) is correct practice. The private room's door must stay closed, not open (Option 1), to maintain negative pressure. Caregivers need a fit-tested N95 (or higher-level) respirator, not a surgical mask (Option 3), to protect against airborne transmission. TB requires airborne precautions, not droplet precautions (Option 4).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

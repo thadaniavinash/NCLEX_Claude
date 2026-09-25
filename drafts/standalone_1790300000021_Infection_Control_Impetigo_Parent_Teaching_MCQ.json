@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000021",
+  "title": "Infection Control - Impetigo Parent Teaching (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The home-health nurse is teaching the parents of a 4-year-old client with impetigo.",
+        "options": [
+          {
+            "text": "“Put a surgical mask on your child when around siblings.”",
+            "correct": false
+          },
+          {
+            "text": "“Cleanse the lesions with a povidone-iodine solution daily.”",
+            "correct": false
+          },
+          {
+            "text": "“Apply petroleum jelly to the lesions daily.”",
+            "correct": false
+          },
+          {
+            "text": "“Instruct your child not to use the same towels as siblings.”",
+            "correct": true
+          }
+        ],
+        "explanation": "Impetigo spreads by direct and indirect contact (including shared linens and towels), so not sharing towels with siblings (Option 4) is standard, correct contact-precaution teaching. A mask (Option 1) is unnecessary, since impetigo does not spread by the respiratory route. Daily cleansing is typically with gentle soap and water rather than povidone-iodine (Option 2). Petroleum jelly (Option 3) is not the standard treatment; prescribed topical or oral antibiotics are used instead, and an occlusive ointment is not the recommended lesion care.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

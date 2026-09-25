@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000028",
+  "title": "Pediatric Dysfunctional Grieving Indicator (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should understand that the child may be experiencing dysfunctional grieving if the parent reports that the child",
+        "type": "multiple_choice",
+        "preamble": "A parent is discussing with the nurse the behaviors of a 4-year-old child following the death of a grandparent.",
+        "options": [
+          {
+            "text": "conducts mock funerals with stuffed animals",
+            "correct": false
+          },
+          {
+            "text": "refuses to go to sleep at night",
+            "correct": true
+          },
+          {
+            "text": "continues to talk about the grandparent coming to visit",
+            "correct": false
+          },
+          {
+            "text": "asks to play with the grandparent while at the cemetery",
+            "correct": false
+          }
+        ],
+        "explanation": "Persistent refusal to sleep at night (Option 2) reflects ongoing anxiety and dysregulation that goes beyond the expected, developmentally typical grief responses of a preschooler and can indicate the grieving process is becoming dysfunctional. Reenacting funerals through play (Option 1), continuing to talk about the deceased returning (Option 3), and asking to play with the grandparent at the cemetery (Option 4) all reflect the magical thinking and play-based processing that are normal, expected features of how preschool-age children process death, since children this age do not yet fully grasp its permanence.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

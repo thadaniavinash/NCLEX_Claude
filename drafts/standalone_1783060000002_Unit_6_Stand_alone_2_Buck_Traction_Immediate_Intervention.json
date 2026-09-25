@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783060000002",
+  "title": "Unit 6 Stand-alone 2: Buck Traction Immediate Intervention",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following would require <b>immediate</b> intervention?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a client who is in Buck traction.",
+        "options": [
+          {
+            "text": "A pillow is placed under the knee.",
+            "correct": true
+          },
+          {
+            "text": "The foot is 2 in (5 cm) away from the foot plate.",
+            "correct": false
+          },
+          {
+            "text": "The weights attached to the pulley are 6 in (15 cm) from the floor.",
+            "correct": false
+          },
+          {
+            "text": "A pillow is placed under the lower leg with the heel off the bed.",
+            "correct": false
+          }
+        ],
+        "explanation": "Buck traction requires the affected leg to remain straight and in line with the pull of the traction; placing a pillow under the knee (Option 1) flexes the knee, misaligns the traction, and undermines its therapeutic effect, requiring immediate intervention. The foot being a short distance from the foot plate (Option 2) is an acceptable, expected finding. Weights hanging freely a few inches off the floor (Option 3) is the correct, expected setup. A pillow supporting the length of the lower leg while keeping the heel off the bed (Option 4) is an appropriate technique to prevent heel pressure injury without disrupting alignment.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

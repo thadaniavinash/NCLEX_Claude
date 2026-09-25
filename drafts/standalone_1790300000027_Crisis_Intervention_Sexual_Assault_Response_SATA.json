@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1790300000027",
+  "title": "Crisis Intervention - Sexual Assault Response (SATA)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following would be an appropriate response for the nurse to make? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is talking with a client who has been sexually assaulted. The client states, “I never should have walked home late at night. I am to blame for what has happened to me.”",
+        "options": [
+          {
+            "text": "“The police officers who brought you into the hospital will be with you during this interview.”",
+            "correct": false
+          },
+          {
+            "text": "“You should take a warm, calming shower in order to feel more relaxed.”",
+            "correct": false
+          },
+          {
+            "text": "“You did the best you could in very difficult circumstances.”",
+            "correct": true
+          },
+          {
+            "text": "“Sometimes the victim's behavior causes the violence.”",
+            "correct": false
+          },
+          {
+            "text": "“You are safe here.”",
+            "correct": true
+          }
+        ],
+        "explanation": "“You did the best you could in very difficult circumstances” validates the client and counters self-blame. “You are safe here” provides appropriate reassurance and helps establish a sense of safety. Having police remain present during a sensitive forensic/medical interview is not standard best practice; the client should have control over who is present, generally a support person or advocate of the client's choosing. Recommending a shower before a forensic examination is incorrect and harmful, since showering destroys evidence needed for the examination. Suggesting that “the victim's behavior causes the violence” is victim-blaming and is never an appropriate statement.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

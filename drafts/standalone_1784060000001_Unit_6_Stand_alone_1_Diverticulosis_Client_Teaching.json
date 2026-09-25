@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784060000001",
+  "title": "Unit 6 Stand-alone 1: Diverticulosis Client Teaching",
+  "course": "NURS 1021",
+  "unit": "Unit 6 (Gastrointestinal Disorders)",
+  "topic": "Unit 6 (Gastrointestinal Disorders)",
+  "disorder": "Unit 6 (Gastrointestinal Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is teaching a client newly diagnosed with diverticulosis.",
+        "options": [
+          {
+            "text": "“Limit your daily fluid intake to 2 L to avoid bloating.”",
+            "correct": false
+          },
+          {
+            "text": "“You may be prescribed a bulk-forming laxative.”",
+            "correct": true
+          },
+          {
+            "text": "“Limit your intake of dairy products such as milk and yogurt.”",
+            "correct": false
+          },
+          {
+            "text": "“You should avoid consuming cooked vegetables.”",
+            "correct": false
+          }
+        ],
+        "explanation": "A bulk-forming laxative such as psyllium (Option 2) is commonly prescribed for diverticulosis to promote regular, soft bowel movements and reduce intraluminal pressure. Diverticulosis management encourages adequate, not limited, fluid intake (Option 1) alongside a high-fiber diet to prevent constipation. There is no standard indication to limit dairy products (Option 3). Cooked vegetables (Option 4) are a recommended source of fiber and are not restricted; the older recommendation to avoid seeds, nuts, and popcorn is now considered outdated and not evidence-based, and cooked vegetables were never part of that restriction.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

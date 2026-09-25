@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783040000002",
+  "title": "Unit 4 Stand-alone 2: Post-Mastectomy Range-of-Motion Exercise",
+  "course": "NURS 1017",
+  "unit": "Unit 4 (Neoplasia)",
+  "topic": "Unit 4 (Neoplasia)",
+  "disorder": "Unit 4 (Neoplasia)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following, if reported by the client on her return visit to the clinic, would indicate to the nurse that the instructions have been followed correctly?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for a client who had a left modified radical mastectomy. The client received discharge instructions for performing range-of-motion (ROM) exercises on her left arm.",
+        "options": [
+          {
+            "text": "regular squeezing of a tennis ball in her left hand",
+            "correct": false
+          },
+          {
+            "text": "placing her left palm against a wall and “climbing” the wall with the left fingers",
+            "correct": true
+          },
+          {
+            "text": "carrying light hand weights while walking 1 mile every other day",
+            "correct": false
+          },
+          {
+            "text": "performing isometric exercises with both arms extended",
+            "correct": false
+          }
+        ],
+        "explanation": "“Wall climbing” with the fingers of the affected arm (Option 2) is the classic, specifically taught postmastectomy exercise for restoring shoulder range of motion. Carrying weights with the affected arm (Option 3) is generally discouraged early in recovery because of the risk of lymphedema, particularly after axillary lymph node involvement. Squeezing a tennis ball (Option 1) exercises the hand but is not the specific shoulder ROM exercise taught for this surgery. Isometric exercises with the arms extended (Option 4) are not part of the standard early postmastectomy ROM teaching.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

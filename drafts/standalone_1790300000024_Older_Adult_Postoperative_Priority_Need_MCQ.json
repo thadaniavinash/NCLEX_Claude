@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000024",
+  "title": "Older Adult Postoperative Priority Need (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse should know that this client, compared with younger clients in the postoperative period, will have an <b>increased</b> need for",
+        "type": "multiple_choice",
+        "preamble": "The nurse is caring for an older adult client in the postoperative period.",
+        "options": [
+          {
+            "text": "oral hygiene",
+            "correct": false
+          },
+          {
+            "text": "analgesics",
+            "correct": false
+          },
+          {
+            "text": "high-calorie foods",
+            "correct": false
+          },
+          {
+            "text": "early mobilization",
+            "correct": true
+          }
+        ],
+        "explanation": "Older adults have an increased need for early mobilization after surgery (Option 4) because they are at substantially higher risk than younger clients for complications of immobility such as pneumonia, venous thromboembolism, pressure injury, and functional decline, and they recover mobility more slowly. Oral hygiene (Option 1) is important for all postoperative clients but is not specifically increased by age. Analgesic needs (Option 2) are often lower, not higher, in older adults due to altered pharmacokinetics and increased sensitivity to side effects. Caloric needs (Option 3) are generally decreased, not increased, in older adults due to a lower metabolic rate.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

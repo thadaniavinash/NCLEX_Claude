@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000025",
+  "title": "End-of-Life Comfort Care Caregiver Teaching (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the caregiver would require follow-up?",
+        "type": "multiple_choice",
+        "preamble": "The hospice nurse has taught an in-home caregiver about comfort care for a client at the end of life.",
+        "options": [
+          {
+            "text": "“I have been applying petroleum jelly to keep the client's lips moist.”",
+            "correct": false
+          },
+          {
+            "text": "“I have been offering healthy foods frequently to keep up the client's strength.”",
+            "correct": true
+          },
+          {
+            "text": "“A blowing fan seems to be less anxiety-producing for the client than an oxygen mask.”",
+            "correct": false
+          },
+          {
+            "text": "“Sitting upright seems to reduce the client's noisy breathing more than lying down in the bed.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Frequently offering food to “keep up strength” (Option 2) requires follow-up, because appetite naturally declines at the end of life and end-of-life care focuses on comfort, not on forcing intake to build strength; frequent food offers can cause discomfort or distress. Petroleum jelly for dry lips (Option 1) is an appropriate comfort measure. A fan blowing air on the face (Option 3) is a well-supported way to relieve the sensation of dyspnea, often with less associated anxiety than an oxygen mask. Sitting upright to reduce noisy breathing (“death rattle”) (Option 4) is an accurate, appropriate observation, since upright positioning can improve secretion drainage.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

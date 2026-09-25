@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1783070000004",
+  "title": "Unit 7 Stand-alone 4: Alzheimer's Disease Family Teaching (Agitation)",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following interventions should the nurse include in the teaching? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is teaching the family member of a client with moderate Alzheimer's disease (AD).",
+        "options": [
+          {
+            "text": "Use distraction when the client becomes agitated.",
+            "correct": true
+          },
+          {
+            "text": "Place calendars within clear view of the client.",
+            "correct": true
+          },
+          {
+            "text": "Use short, simple sentences and provide step-by-step instructions for the client.",
+            "correct": true
+          },
+          {
+            "text": "Avoid reminiscing with the client about past experiences in order to avoid feelings of loss and loneliness.",
+            "correct": false
+          },
+          {
+            "text": "Encourage the client to participate in a daytime exercise program to promote restful sleep at night.",
+            "correct": true
+          }
+        ],
+        "explanation": "Distraction (Option 1) is a standard de-escalation technique for agitation in AD. Calendars (Option 2) support reality orientation. Short, simple sentences with step-by-step instructions (Option 3) match the client's cognitive processing ability. A daytime exercise program (Option 5) helps regulate the sleep-wake cycle and can reduce sundowning and improve nighttime rest. Reminiscence about long-term memories (Option 4) should be encouraged, not avoided, since long-term memory is often preserved in AD and reminiscing is a validating, anxiety-reducing activity.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

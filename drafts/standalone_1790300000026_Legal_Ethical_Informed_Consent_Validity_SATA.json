@@ -1,0 +1,47 @@
+{
+  "id": "standalone_1790300000026",
+  "title": "Legal-Ethical - Informed Consent Validity (SATA)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following conditions should the nurse recognize must be met to ensure the consent is valid? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "preamble": "The nurse is witnessing the client's signature on a consent form.",
+        "options": [
+          {
+            "text": "The client gave consent voluntarily.",
+            "correct": true
+          },
+          {
+            "text": "The client received adequate disclosure.",
+            "correct": true
+          },
+          {
+            "text": "The consent form is witnessed by 2 health care professionals.",
+            "correct": false
+          },
+          {
+            "text": "The client understands the scheduled procedure or treatment.",
+            "correct": true
+          },
+          {
+            "text": "The consent form is signed within 24 hours of the scheduled procedure or treatment.",
+            "correct": false
+          }
+        ],
+        "explanation": "Valid informed consent requires that it be given voluntarily (Option 1), that the client received adequate disclosure of the risks, benefits, and alternatives (Option 2), and that the client demonstrates understanding of the procedure or treatment (Option 4). Consent forms typically require only 1 witness signature, not 2 health care professionals (Option 3). There is no universal requirement that consent be signed within a specific 24-hour window of the procedure (Option 5).",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

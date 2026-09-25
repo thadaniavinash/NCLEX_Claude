@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1790300000023",
+  "title": "Health Promotion for Clients Over 65 (MCQ)",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following information should the nurse include?",
+        "type": "multiple_choice",
+        "preamble": "The nurse in a community-based setting is teaching clients over 65 years of age about health promotion activities.",
+        "options": [
+          {
+            "text": "“Purchase all of your prescribed medications at the same pharmacy.”",
+            "correct": true
+          },
+          {
+            "text": "“Schedule an appointment for a vision screening every 3 years.”",
+            "correct": false
+          },
+          {
+            "text": "“Participate in daily aerobic exercises for 60 minutes.”",
+            "correct": false
+          },
+          {
+            "text": "“Increase your intake of fat-soluble vitamins.”",
+            "correct": false
+          }
+        ],
+        "explanation": "Using a single pharmacy (Option 1) allows the pharmacist to screen all of a client's medications together for interactions and duplications, an important safety measure for older adults. Vision screening (Option 2) should generally occur annually for this age group, not every 3 years. Recommending 60 minutes of daily aerobic exercise (Option 3) exceeds standard general guidelines (about 150 minutes per week of moderate activity) and may not be realistic or safe as a blanket recommendation. Increasing fat-soluble vitamin intake (Option 4) is not a general health-promotion recommendation, and excess fat-soluble vitamins (A, D, E, K) can accumulate to toxic levels.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

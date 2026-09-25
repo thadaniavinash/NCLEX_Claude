@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1784070000001",
+  "title": "Unit 7 Stand-alone 1: Acute Kidney Injury Order Clarification",
+  "course": "NURS 1021",
+  "unit": "Unit 7 (Urinary Disorders)",
+  "topic": "Unit 7 (Urinary Disorders)",
+  "disorder": "Unit 7 (Urinary Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following orders should the nurse clarify?",
+        "type": "multiple_choice",
+        "preamble": "The nurse is reviewing the orders of a client who has acute kidney injury.",
+        "options": [
+          {
+            "text": "computed tomography (CT) scan of the abdomen with intravenous contrast media",
+            "correct": true
+          },
+          {
+            "text": "urine specimen for urinalysis",
+            "correct": false
+          },
+          {
+            "text": "blood specimen for arterial blood gas (ABG)",
+            "correct": false
+          },
+          {
+            "text": "referral to registered dietitian for parenteral nutrition evaluation",
+            "correct": false
+          }
+        ],
+        "explanation": "Intravenous contrast media is nephrotoxic and can worsen kidney function in a client who already has acute kidney injury (AKI); this order should be clarified with the prescriber, who may choose an alternative imaging study or non-contrast CT. A urinalysis (Option 2) and an ABG (Option 3) are appropriate, expected diagnostic studies for evaluating AKI. A dietitian referral (Option 4) is appropriate, since nutritional needs commonly must be adjusted in AKI.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}

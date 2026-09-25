@@ -1,0 +1,43 @@
+{
+  "id": "standalone_1783070000007",
+  "title": "Unit 7 Stand-alone 7: Alzheimer's Disease Home Care Teaching",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which of the following statements by the adult child would indicate a correct understanding of the teaching?",
+        "type": "multiple_choice",
+        "preamble": "The nurse has taught the adult child caregiver of a client with moderate Alzheimer's disease (AD) about home care.",
+        "options": [
+          {
+            "text": "“I will only allow my parent to smoke while my parent is outdoors.”",
+            "correct": false
+          },
+          {
+            "text": "“I will place a picture on the bathroom door to indicate which room is the bathroom.”",
+            "correct": true
+          },
+          {
+            "text": "“I will encourage family members to visit in large groups to keep my parent interested in the conversation.”",
+            "correct": false
+          },
+          {
+            "text": "“I will encourage my parent to take walks in the park when the weather permits to get the exercise needed.”",
+            "correct": false
+          }
+        ],
+        "explanation": "A picture on the bathroom door (Option 2) is a well-established, effective wayfinding aid for clients with AD who have difficulty with word/symbol recognition. Location alone does not address the core safety issue with smoking (Option 1); a client with AD needs direct supervision while smoking regardless of setting, due to fire-safety risk and impaired judgment. Large group visits (Option 3) tend to overstimulate and confuse clients with AD; small, quiet visits are generally recommended instead. Unsupervised walks in the park (Option 4) raise a significant wandering and safety risk for a client with AD.",
+        "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;."
+      },
+      "leftContent": {
+        "intro": "",
+        "tabs": []
+      }
+    }
+  ]
+}
