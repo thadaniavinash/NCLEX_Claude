@@ -90,7 +90,7 @@ function diffPaths(before, after, path = '', out = []) {
     new Set([...Object.keys(before), ...Object.keys(after)]).forEach(k => diffPaths(before[k], after[k], `${path}.${k}`, out));
     return out;
   }
-  const show = v => v === undefined ? '(missing)' : JSON.stringify(v).slice(0, 300);
+  const show = v => v === undefined ? '(missing)' : JSON.stringify(v);
   out.push(`${path}\n        was: ${show(before)}\n        now: ${show(after)}`);
   return out;
 }
