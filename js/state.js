@@ -76,7 +76,8 @@ let isCasesFolderExpanded = false;
 let isStandaloneFolderExpanded = false;
 let activeCasesDisorderFilter = '';
 let activeStandaloneDisorderFilter = '';
-let isAdminLoggedIn = (typeof sessionStorage !== 'undefined') ? (sessionStorage.getItem('isAdmin') === 'true') : false;
+// Set by restoreAdminSession() / signInAdmin() in auth.js once a Supabase admin session is confirmed.
+let isAdminLoggedIn = false;
 
 // Player interaction tracking
 let playerAnswers = {}; // { stepIndex: answersObject }

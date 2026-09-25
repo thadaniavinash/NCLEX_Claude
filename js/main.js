@@ -24,6 +24,7 @@ async function initApp() {
   makeCalculatorDraggable();
   
   initAdminEvents();
+  await restoreAdminSession();
   applyAdminState();
 
   // Check URL parameters for direct case study launch, exam/mode launches, or authoring

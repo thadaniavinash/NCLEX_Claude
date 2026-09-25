@@ -104,7 +104,7 @@ async function loadAllData() {
   // Try fetching from Supabase database
   let loadedFromSupabase = false;
   if (USE_SUPABASE) try {
-    const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?select=key,data`, {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?select=*`, {
       headers: {
         'apikey': SUPABASE_ANON_KEY,
         'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
@@ -123,6 +123,8 @@ async function loadAllData() {
         standaloneQuestions = (standaloneRecord && Array.isArray(standaloneRecord.data)) ? standaloneRecord.data : [];
         standaloneQuestions.forEach(migrateCaseTypes);
         loadedFromSupabase = true;
+        rememberBankSnapshot('cases', caseStudies, casesRecord.version);
+        rememberBankSnapshot('standalone', standaloneQuestions, standaloneRecord ? standaloneRecord.version : null);
       } else {
         console.warn('Supabase returned no case studies, falling back to cases-data.js.');
       }
@@ -251,26 +253,152 @@ function downloadBlob(content, filename, contentType) {
   showToast(`Exported ${filename}!`);
 }
 
-// The app loads from the database, or from cases-data.js when none is connected,
-// so a save that only reached browser storage will not appear after a reload.
-function showSaveResult(savedToLocalServer, savedToSupabase) {
-  if (savedToLocalServer) {
-    showToast("Saved directly to cases-data.js on your hard drive!");
-  } else if (savedToSupabase) {
-    showToast("Changes saved to cloud database.");
+/* ---- Saving to the database ----
+   Each row ('cases', 'standalone') holds a whole list and carries a version number that the
+   database bumps on every save. A save only applies if the row is still at the version this
+   page loaded; if another editor saved in the meantime, the latest list is fetched, this
+   page's own additions, edits and deletions are applied on top of it, and the save is retried.
+   Saving requires a signed-in administrator (see auth.js). */
+
+// What this page last loaded or saved, per row: { version, items: Map(id -> JSON) }.
+const bankSnapshots = { cases: null, standalone: null };
+
+function rememberBankSnapshot(key, items, version) {
+  bankSnapshots[key] = {
+    version: (version === undefined ? null : version),
+    items: new Map(items.map(item => [item.id, JSON.stringify(item)]))
+  };
+}
+
+function bankList(key) {
+  return key === 'cases' ? caseStudies : standaloneQuestions;
+}
+
+function setBankList(key, items) {
+  if (key === 'cases') caseStudies = items;
+  else standaloneQuestions = items;
+}
+
+async function fetchBankRow(key) {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.${key}&select=*`, {
+    headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': `Bearer ${SUPABASE_ANON_KEY}` }
+  });
+  if (!res.ok) throw new Error(`read failed: ${res.status}`);
+  const [row] = await res.json();
+  if (!row || !Array.isArray(row.data)) throw new Error('row missing');
+  row.data.forEach(migrateCaseTypes);
+  return { items: row.data, version: row.version === undefined ? null : row.version };
+}
+
+// Apply this page's changes (relative to its snapshot) on top of the latest saved list.
+// Returns the merged list and the titles of items that both sides had changed.
+function mergeBankChanges(snapshot, localItems, latestItems) {
+  const localById = new Map(localItems.map(item => [item.id, item]));
+  const deletedHere = [...snapshot.items.keys()].filter(id => !localById.has(id));
+  const changedHere = localItems.filter(item => snapshot.items.get(item.id) !== JSON.stringify(item));
+  const conflicts = [];
+
+  const merged = latestItems.filter(item => !deletedHere.includes(item.id));
+  changedHere.forEach(item => {
+    const i = merged.findIndex(other => other.id === item.id);
+    if (i === -1) {
+      merged.push(item);
+    } else {
+      const before = snapshot.items.get(item.id);
+      if (before !== undefined && before !== JSON.stringify(merged[i])) conflicts.push(item.title || item.id);
+      merged[i] = item; // this page's version wins, and the editor is told
+    }
+  });
+  return { merged, conflicts };
+}
+
+// PATCH one row. Returns { status: 'saved' | 'conflict' | 'denied' | 'error', version }.
+async function patchBankRow(key, items, expectedVersion, token) {
+  const versioned = expectedVersion !== null;
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.${key}${versioned ? `&version=eq.${expectedVersion}` : ''}`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+      'apikey': SUPABASE_ANON_KEY,
+      'Authorization': `Bearer ${token}`,
+      'Prefer': 'return=representation'
+    },
+    body: JSON.stringify({ data: items })
+  });
+  if (res.status === 401 || res.status === 403) return { status: 'denied' };
+  if (!res.ok) return { status: 'error' };
+  const rows = await res.json();
+  if (rows.length === 1) return { status: 'saved', version: rows[0].version === undefined ? null : rows[0].version };
+  // No row updated: either someone saved first (version moved on) or this account may not save.
+  if (!versioned) return { status: 'denied' };
+  const latest = await fetchBankRow(key);
+  return { status: latest.version !== expectedVersion ? 'conflict' : 'denied' };
+}
+
+async function saveBankRowToDatabase(key) {
+  const token = await getAdminAccessToken();
+  if (!token) return { ok: false, reason: 'signed-out' };
+  let items = bankList(key);
+  let expectedVersion = bankSnapshots[key] ? bankSnapshots[key].version : null;
+  const conflicts = [];
+  let merged = false;
+
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const result = await patchBankRow(key, items, expectedVersion, token);
+    if (result.status === 'saved') {
+      setBankList(key, items);
+      rememberBankSnapshot(key, items, result.version);
+      return { ok: true, merged, conflicts };
+    }
+    if (result.status !== 'conflict') return { ok: false, reason: result.status };
+    const latest = await fetchBankRow(key);
+    const mergeResult = mergeBankChanges(bankSnapshots[key], bankList(key), latest.items);
+    items = mergeResult.merged;
+    expectedVersion = latest.version;
+    mergeResult.conflicts.forEach(title => { if (!conflicts.includes(title)) conflicts.push(title); });
+    merged = true;
+  }
+  return { ok: false, reason: 'busy' };
+}
+
+function showSaveResult(savedToLocalServer, dbResult) {
+  if (dbResult && dbResult.ok) {
+    if (dbResult.conflicts.length) {
+      showToast(`Saved. Someone else had also changed ${dbResult.conflicts.join(', ')}; your version replaced theirs.`, 'warning');
+    } else if (dbResult.merged) {
+      showToast('Saved. Changes another editor made since you opened the page were kept as well.');
+      if (typeof renderDashboard === 'function') renderDashboard();
+    } else {
+      showToast('Changes saved to cloud database.');
+    }
+    return;
+  }
+  const reason = dbResult && dbResult.reason;
+  if (reason === 'signed-out') {
+    showToast(savedToLocalServer ? 'Saved to cases-data.js on your hard drive. Log in as an administrator to also save to the database.'
+                                 : 'Not saved: log in as an administrator to save changes.', 'error');
+  } else if (reason === 'denied') {
+    showToast('Not saved: this account is not allowed to save. Log in again as an administrator.', 'error');
+  } else if (reason === 'busy') {
+    showToast('Not saved: other editors are saving right now. Wait a moment and save again.', 'error');
+  } else if (reason) {
+    showToast('Not saved: the database could not be reached. Your changes are still on this page; try saving again.', 'error');
+  } else if (savedToLocalServer) {
+    showToast('Saved directly to cases-data.js on your hard drive!');
   } else {
-    showToast("Not saved permanently: no database is connected, so this change will be lost when the page reloads.", "warning");
+    showToast('Not saved permanently: no database is connected, so this change will be lost when the page reloads.', 'warning');
   }
 }
 
-async function saveCasesToStorage() {
+async function saveBankToStorage(key) {
   if (refuseUnsafeSave()) return;
-  // 1. IndexedDB / localStorage fallback
+  // 1. IndexedDB / localStorage copy in this browser
+  const storeName = key === 'cases' ? 'case_studies' : 'standalone_questions';
   if (db) {
-    caseStudies.forEach(c => putInStore('case_studies', c));
+    bankList(key).forEach(item => putInStore(storeName, item));
   } else {
     try {
-      localStorage.setItem('nclex_cases', JSON.stringify(caseStudies));
+      localStorage.setItem(key === 'cases' ? 'nclex_cases' : 'nclex_standalone', JSON.stringify(bankList(key)));
     } catch (e) {
       console.warn("localStorage is blocked:", e);
     }
@@ -279,64 +407,26 @@ async function saveCasesToStorage() {
   // 2. Direct save to Local Server if running locally
   const savedToLocalServer = await saveToLocalBackend(caseStudies, standaloneQuestions);
 
-  // 3. Push updates to Supabase
-  let savedToSupabase = false;
-  if (USE_SUPABASE) try {
-    const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.cases`, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json',
-        'apikey': SUPABASE_ANON_KEY,
-        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
-      },
-      body: JSON.stringify({ data: caseStudies })
-    });
-    if (response.ok) {
-      savedToSupabase = true;
+  // 3. The database
+  let dbResult = null;
+  if (USE_SUPABASE) {
+    try {
+      dbResult = await saveBankRowToDatabase(key);
+    } catch (err) {
+      console.error(`Error saving ${key} to Supabase:`, err);
+      dbResult = { ok: false, reason: 'error' };
     }
-  } catch (err) {
-    console.error('Error saving cases to Supabase:', err);
   }
 
-  showSaveResult(savedToLocalServer, savedToSupabase);
+  showSaveResult(savedToLocalServer, dbResult);
 }
 
-async function saveStandaloneToStorage() {
-  if (refuseUnsafeSave()) return;
-  // 1. IndexedDB / localStorage fallback
-  if (db) {
-    standaloneQuestions.forEach(q => putInStore('standalone_questions', q));
-  } else {
-    try {
-      localStorage.setItem('nclex_standalone', JSON.stringify(standaloneQuestions));
-    } catch (e) {
-      console.warn("localStorage is blocked:", e);
-    }
-  }
+function saveCasesToStorage() {
+  return saveBankToStorage('cases');
+}
 
-  // 2. Direct save to Local Server if running locally
-  const savedToLocalServer = await saveToLocalBackend(caseStudies, standaloneQuestions);
-
-  // 3. Push updates to Supabase
-  let savedToSupabase = false;
-  if (USE_SUPABASE) try {
-    const response = await fetch(`${SUPABASE_URL}/rest/v1/nclex_data?key=eq.standalone`, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json',
-        'apikey': SUPABASE_ANON_KEY,
-        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
-      },
-      body: JSON.stringify({ data: standaloneQuestions })
-    });
-    if (response.ok) {
-      savedToSupabase = true;
-    }
-  } catch (err) {
-    console.error('Error saving standalone to Supabase:', err);
-  }
-
-  showSaveResult(savedToLocalServer, savedToSupabase);
+function saveStandaloneToStorage() {
+  return saveBankToStorage('standalone');
 }
 
 function saveCurrentCaseOrStandalone() {

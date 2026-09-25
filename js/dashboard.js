@@ -405,19 +405,24 @@ function initAdminEvents() {
   }
 
   if (adminLoginForm) {
-    adminLoginForm.addEventListener('submit', (e) => {
+    adminLoginForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const username = loginUsernameInput.value.trim();
+      const email = loginUsernameInput.value.trim();
       const password = loginPasswordInput.value;
+      const submitBtn = adminLoginForm.querySelector('button[type="submit"]');
+      if (submitBtn) submitBtn.disabled = true;
+      if (loginErrorMsg) loginErrorMsg.classList.add('hidden');
 
-      if (username === 'athadani' && password === '0911Keen!') {
-        isAdminLoggedIn = true;
-        if (typeof sessionStorage !== 'undefined') sessionStorage.setItem('isAdmin', 'true');
+      const result = await signInAdmin(email, password);
+      if (submitBtn) submitBtn.disabled = false;
+      if (result.ok) {
+        loginPasswordInput.value = '';
         if (loginModal) loginModal.classList.add('hidden');
         showToast("Logged in as Administrator", "success");
         applyAdminState();
-      } else {
-        if (loginErrorMsg) loginErrorMsg.classList.remove('hidden');
+      } else if (loginErrorMsg) {
+        loginErrorMsg.textContent = result.message;
+        loginErrorMsg.classList.remove('hidden');
       }
     });
   }
@@ -425,8 +430,7 @@ function initAdminEvents() {
   if (adminLogoutBtn) {
     adminLogoutBtn.addEventListener('click', () => {
       if (confirm("Are you sure you want to log out of admin mode?")) {
-        isAdminLoggedIn = false;
-        if (typeof sessionStorage !== 'undefined') sessionStorage.removeItem('isAdmin');
+        signOutAdmin();
         showToast("Logged out of Admin Mode", "success");
         applyAdminState();
       }
