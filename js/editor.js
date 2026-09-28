@@ -24,8 +24,8 @@ function initEditorEvents() {
   
   document.getElementById('editor-save-btn').addEventListener('click', () => {
     if (!saveCurrentStepData()) return;
+    // saveBankToStorage reports whether the save actually worked.
     saveCurrentCaseOrStandalone();
-    showToast("Progress saved successfully.");
   });
 
   document.getElementById('editor-export-btn').addEventListener('click', () => {
@@ -356,6 +356,7 @@ function startEditor(c) {
   }
   
   switchView('editor');
+  renderSaveStatus();
   renderEditorStep(0);
 }
 
@@ -428,17 +429,33 @@ function updateImagePreview(base64Str) {
   }
 }
 
+// Clinical judgment step of each screen in a standard six-screen case study.
+const CLINICAL_JUDGMENT_STEPS = ['Recognize cues', 'Analyze cues', 'Prioritize hypotheses', 'Generate solutions', 'Take action', 'Evaluate outcomes'];
+
 function renderStepsSidebar() {
   const stepsList = document.getElementById('editor-steps-list');
   stepsList.innerHTML = '';
+  const namedSteps = currentCase.screens.length === CLINICAL_JUDGMENT_STEPS.length;
   
   currentCase.screens.forEach((step, idx) => {
     const item = document.createElement('div');
     item.className = `step-nav-item ${idx === currentStepIndex ? 'active' : ''}`;
+    item.setAttribute('role', 'button');
+    item.tabIndex = 0;
+    if (idx === currentStepIndex) item.setAttribute('aria-current', 'step');
+    // Readiness as last saved (the open screen is checked again when you leave it).
+    const problem = screenProblem(step.question);
+    const typeLabel = step.question && step.question.type ? getQuestionTypeLabel(step.question.type) : 'No question';
     item.innerHTML = `
-      <span>Screen ${idx + 1}</span>
+      <span class="step-nav-text">
+        <span class="step-nav-name">${namedSteps ? `${idx + 1}. ${CLINICAL_JUDGMENT_STEPS[idx]}` : `Screen ${idx + 1}`}</span>
+        <span class="step-nav-meta">
+          <span class="step-nav-status ${problem ? 'needs-work' : 'ready'}" title="${escapeHTML(problem ? 'Not ready for students: ' + problem : 'Ready for students')}">${problem ? '&#9888;' : '&#10003;'}</span>
+          ${escapeHTML(typeLabel)}
+        </span>
+      </span>
       ${currentCase.screens.length > 1 ? `
-        <button class="btn-step-delete" title="Delete Screen">
+        <button class="btn-step-delete" title="Delete screen ${idx + 1}" aria-label="Delete screen ${idx + 1}">
           <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2" fill="none"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
         </button>
       ` : ''}
@@ -451,6 +468,12 @@ function renderStepsSidebar() {
       } else {
         if (!saveCurrentStepData()) return;
         renderEditorStep(idx);
+      }
+    });
+    item.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target === item) {
+        e.preventDefault();
+        item.click();
       }
     });
     
@@ -1170,7 +1193,7 @@ function renderDropdownTableConfigurator(q, box) {
       tdDel.style.verticalAlign = 'top';
       tdDel.style.textAlign = 'center';
       tdDel.innerHTML = `
-        <button class="delete-row-btn" style="background:transparent; border:none; color:#ef4444; font-size:18px; cursor:pointer; padding:4px 0 0 0;">&times;</button>
+        <button class="delete-row-btn" type="button" title="Delete row" aria-label="Delete row" style="background:transparent; border:none; color:#ef4444; font-size:18px; cursor:pointer; padding:4px 0 0 0;">&times;</button>
       `;
       tdDel.querySelector('.delete-row-btn').addEventListener('click', () => {
         rows.splice(rIdx, 1);
@@ -1216,6 +1239,13 @@ function renderMatrixMcConfigurator(q, box) {
 // 4. Matrix MR (Multiple response/checkboxes per row)
 function renderMatrixMrConfigurator(q, box) {
   renderMatrixBaseConfigurator(q, box, true);
+}
+
+// Grows a textarea to fit its text, so long matrix rows and headings are not cut off.
+function autoGrowTextarea(el) {
+  const fit = () => { el.style.height = 'auto'; el.style.height = `${el.scrollHeight + 2}px`; };
+  el.addEventListener('input', fit);
+  requestAnimationFrame(fit);
 }
 
 function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
@@ -1279,8 +1309,9 @@ function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
     thFirst.style.padding = '8px';
     thFirst.style.minWidth = '180px';
     thFirst.innerHTML = `
-      <input type="text" class="form-control matrix-first-header-input" style="font-weight:bold; font-size:12px; padding:6px;" value="${escapeHTML(h1Val)}" placeholder="Add text...">
+      <textarea rows="1" class="form-control matrix-grow-input matrix-first-header-input" style="font-weight:bold; font-size:12px; padding:6px;" placeholder="Add text..." aria-label="First column heading">${escapeHTML(h1Val)}</textarea>
     `;
+    autoGrowTextarea(thFirst.querySelector('textarea'));
     thFirst.querySelector('.matrix-first-header-input').addEventListener('input', (e) => {
       m.firstColumnHeader = e.target.value;
     });
@@ -1292,13 +1323,14 @@ function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
       thCol.style.padding = '8px';
       thCol.style.textAlign = 'center';
       thCol.style.position = 'relative';
-      thCol.style.minWidth = '120px';
+      thCol.style.minWidth = '150px';
       thCol.innerHTML = `
         <div style="display:flex; align-items:center; gap:4px; justify-content:center;">
-          <input type="text" class="form-control matrix-col-header-input" style="font-size:12px; text-align:center; padding:6px;" value="${escapeHTML(col)}" placeholder="Add text...">
-          ${m.columns.length > 2 ? `<button class="delete-col-btn" style="background:transparent; border:none; color:#ef4444; font-size:16px; cursor:pointer; padding:0 4px;">&times;</button>` : ''}
+          <textarea rows="1" class="form-control matrix-grow-input matrix-col-header-input" style="font-size:12px; text-align:center; padding:6px;" placeholder="Add text..." aria-label="Column ${cIdx + 1} heading">${escapeHTML(col)}</textarea>
+          ${m.columns.length > 2 ? `<button class="delete-col-btn" type="button" title="Delete column ${cIdx + 1}" aria-label="Delete column ${cIdx + 1}" style="background:transparent; border:none; color:#ef4444; font-size:16px; cursor:pointer; padding:0 4px;">&times;</button>` : ''}
         </div>
       `;
+      autoGrowTextarea(thCol.querySelector('textarea'));
       thCol.querySelector('.matrix-col-header-input').addEventListener('input', (e) => {
         m.columns[cIdx] = e.target.value;
       });
@@ -1346,9 +1378,11 @@ function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
       // Row Label Input
       const tdLabel = document.createElement('td');
       tdLabel.style.padding = '8px';
+      tdLabel.style.minWidth = '220px';
       tdLabel.innerHTML = `
-        <input type="text" class="form-control matrix-row-label-input" style="font-size:12px; padding:6px;" value="${escapeHTML(rText)}" placeholder="Text...">
+        <textarea rows="1" class="form-control matrix-grow-input matrix-row-label-input" style="font-size:12px; padding:6px;" placeholder="Text..." aria-label="Row ${rIdx + 1} text">${escapeHTML(rText)}</textarea>
       `;
+      autoGrowTextarea(tdLabel.querySelector('textarea'));
       tdLabel.querySelector('.matrix-row-label-input').addEventListener('input', (e) => {
         r.text = e.target.value;
       });
@@ -1365,7 +1399,7 @@ function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
           : r.correctIndex === cIdx;
         
         tdCheck.innerHTML = `
-          <input type="${isMultiResponse ? 'checkbox' : 'radio'}" name="matrix-row-radio-${rIdx}" ${isChecked ? 'checked' : ''} style="transform: scale(1.1); cursor:pointer;">
+          <input type="${isMultiResponse ? 'checkbox' : 'radio'}" name="matrix-row-radio-${rIdx}" ${isChecked ? 'checked' : ''} aria-label="Row ${rIdx + 1}: ${escapeHTML(col || 'column ' + (cIdx + 1))} is correct" style="transform: scale(1.1); cursor:pointer;">
         `;
         tdCheck.querySelector('input').addEventListener('change', (e) => {
           if (isMultiResponse) {
@@ -1387,7 +1421,7 @@ function renderMatrixBaseConfigurator(q, box, isMultiResponse) {
       tdDel.style.padding = '8px';
       tdDel.style.textAlign = 'center';
       tdDel.innerHTML = `
-        <button class="delete-row-btn" style="background:transparent; border:none; color:#ef4444; font-size:18px; cursor:pointer; padding:0;">&times;</button>
+        <button class="delete-row-btn" type="button" title="Delete row" aria-label="Delete row" style="background:transparent; border:none; color:#ef4444; font-size:18px; cursor:pointer; padding:0;">&times;</button>
       `;
       tdDel.querySelector('.delete-row-btn').addEventListener('click', () => {
         m.rows.splice(rIdx, 1);

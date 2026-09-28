@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260928153114">
+  <link rel="stylesheet" href="style.css?v=20260928160628">
 </head>
 <body>
 
@@ -414,9 +414,9 @@
         <div class="author-pv-meta">
           <span>Active Curriculum: <strong>NURS 1017 &bull; NURS 1021</strong></span>
           <span style="color:#cbd5e1;">|</span>
-          <span class="save-status-indicator">
+          <span class="save-status-indicator" role="status" aria-live="polite">
             <span class="status-dot-pulse"></span>
-            Auto-saving active (Disk & Cloud Sync)
+            <span class="save-status-text">Checking…</span>
           </span>
         </div>
       </div>
@@ -445,7 +445,7 @@
             <div>
               <span class="kpi-label">Stand-alone Qs</span>
               <div id="author-kpi-standalone-count" class="kpi-value">0 Questions</div>
-              <span class="kpi-sub">Bowtie, SATA, MCQ Formats</span>
+              <span id="author-kpi-standalone-sub" class="kpi-sub">Bowtie, SATA, MCQ Formats</span>
             </div>
             <div class="kpi-icon indigo">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
@@ -545,11 +545,26 @@
                   </optgroup>
                 </select>
               </div>
+
+              <div class="filter-item">
+                <label for="author-status-filter">Status:</label>
+                <select id="author-status-filter" class="author-select">
+                  <option value="ALL">All</option>
+                  <option value="ready">Visible to students</option>
+                  <option value="hidden">Hidden from students</option>
+                </select>
+              </div>
             </div>
 
             <div class="author-search-wrapper">
-              <input type="text" id="author-table-search" placeholder="Search scenario title or ID..." class="author-search-input">
+              <input type="text" id="author-table-search" placeholder="Search scenario title or ID..." class="author-search-input" aria-label="Search by title, description or ID">
             </div>
+          </div>
+
+          <!-- Shown when this page cannot create, edit or delete items -->
+          <div id="author-readonly-notice" class="author-readonly-notice hidden" role="status">
+            <span id="author-readonly-notice-text"></span>
+            <button id="author-readonly-signin-btn" type="button" class="author-readonly-signin-btn hidden">Sign in</button>
           </div>
 
           <!-- 1. Case Studies Table View -->
@@ -557,11 +572,12 @@
             <table class="pv-table">
               <thead>
                 <tr>
-                  <th style="width: 38%;">Case Title & Scenario</th>
-                  <th style="width: 12%;">Course</th>
-                  <th style="width: 22%;">Unit / Category</th>
-                  <th style="width: 10%;">Screens</th>
-                  <th style="width: 18%; text-align: right;">Actions</th>
+                  <th style="width: 34%;" data-sort="title">Case Title & Scenario</th>
+                  <th style="width: 11%;" data-sort="course">Course</th>
+                  <th style="width: 20%;" data-sort="unit">Unit / Category</th>
+                  <th style="width: 9%;">Screens</th>
+                  <th style="width: 11%;" data-sort="status">Status</th>
+                  <th style="width: 15%; text-align: right;">Actions</th>
                 </tr>
               </thead>
               <tbody id="author-cases-tbody">
@@ -575,11 +591,12 @@
             <table class="pv-table">
               <thead>
                 <tr>
-                  <th style="width: 38%;">Question Title & Scenario</th>
-                  <th style="width: 12%;">Course</th>
-                  <th style="width: 22%;">Unit / Category</th>
-                  <th style="width: 10%;">Format</th>
-                  <th style="width: 18%; text-align: right;">Actions</th>
+                  <th style="width: 34%;" data-sort="title">Question Title & Scenario</th>
+                  <th style="width: 11%;" data-sort="course">Course</th>
+                  <th style="width: 20%;" data-sort="unit">Unit / Category</th>
+                  <th style="width: 9%;">Format</th>
+                  <th style="width: 11%;" data-sort="status">Status</th>
+                  <th style="width: 15%; text-align: right;">Actions</th>
                 </tr>
               </thead>
               <tbody id="author-standalone-tbody">
@@ -591,7 +608,7 @@
           <!-- Table Footer -->
           <div class="author-table-footer">
             <span id="author-filtered-count-text">Showing 0 of 0 Case Studies</span>
-            <span class="author-footer-note">All edits save automatically to local disk and Supabase cloud.</span>
+            <span class="author-footer-note">The editor saves when you click Save Progress, Export or Launch, or go back to this list.</span>
           </div>
 
         </div>
@@ -605,21 +622,21 @@
   <div id="editor-view" class="view">
     <header class="editor-header">
       <div class="editor-header-left">
-        <button id="editor-back-btn" class="btn-icon-back">
+        <button id="editor-back-btn" class="btn-icon-back" title="Save and go back to the list" aria-label="Save and go back to the list">
           <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
         </button>
         <div class="editor-title-container" style="display: flex; flex-direction: column; gap: 6px; flex-grow: 1;">
-          <input type="text" id="case-title-input" class="editor-title-input" placeholder="Case Study Title" style="width: 100%;">
+          <input type="text" id="case-title-input" class="editor-title-input" placeholder="Case Study Title" aria-label="Title" style="width: 100%;">
           <div style="display: flex; gap: 12px; align-items: center; width: 100%;">
-            <input type="text" id="case-desc-input" class="editor-desc-input" placeholder="Enter a brief case description..." style="flex-grow: 1;">
+            <input type="text" id="case-desc-input" class="editor-desc-input" placeholder="Enter a brief case description..." aria-label="Description" style="flex-grow: 1;">
             <div style="display: flex; gap: 8px; align-items: center;">
-              <select id="case-course-select" class="form-control" style="width: 130px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); border: 1px solid #334155; background: #1e293b; color: white; height: 28px; font-weight: 600; cursor: pointer; outline: none;">
+              <select id="case-course-select" class="form-control" aria-label="Course" style="width: 130px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); border: 1px solid #334155; background: #1e293b; color: white; height: 28px; font-weight: 600; cursor: pointer; outline: none;">
                 <option value="">Course: None</option>
                 <option value="NURS 1017">NURS 1017</option>
                 <option value="NURS 1021">NURS 1021</option>
                 <option value="Others">Others</option>
               </select>
-              <select id="case-unit-select" class="form-control" style="width: 250px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); border: 1px solid #334155; background: #1e293b; color: white; height: 28px; font-weight: 500; cursor: pointer; outline: none;">
+              <select id="case-unit-select" class="form-control" aria-label="Unit" style="width: 250px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); border: 1px solid #334155; background: #1e293b; color: white; height: 28px; font-weight: 500; cursor: pointer; outline: none;">
                 <!-- Populated dynamically based on course -->
               </select>
               <select id="case-disorder-select" style="display: none;"></select>
@@ -628,12 +645,16 @@
         </div>
       </div>
       <div class="editor-header-right">
-        <button id="editor-theme-toggle-btn" class="btn btn-secondary" title="Toggle Light/Dark Mode" style="display: inline-flex; align-items: center; justify-content: center; padding: 0; width: 36px; height: 32px;">
+        <button id="editor-theme-toggle-btn" class="btn btn-secondary" title="Switch the editor between light and dark" aria-label="Switch the editor between light and dark" style="display: inline-flex; align-items: center; justify-content: center; padding: 0; width: 36px; height: 32px;">
           <!-- Light Mode Icon (Sun) -->
           <svg class="sun-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: block;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
           <!-- Dark Mode Icon (Moon) -->
           <svg class="moon-icon hidden" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         </button>
+        <span class="save-status-indicator editor-save-status" role="status" aria-live="polite">
+          <span class="status-dot-pulse"></span>
+          <span class="save-status-text"></span>
+        </span>
         <button id="editor-save-btn" class="btn btn-secondary">Save Progress</button>
         <button id="editor-export-btn" class="btn btn-secondary">
           <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
@@ -850,7 +871,7 @@
     <header class="player-header-new">
       <div class="player-dark-bar">
         <div class="player-header-left-new" style="display:flex; align-items:center; gap:8px;">
-          <button id="player-menu-toggle-btn" class="player-menu-toggle-btn" style="background:none; border:none; color:white; cursor:pointer; display:none; padding:4px; align-items:center; justify-content:center;">
+          <button id="player-menu-toggle-btn" class="player-menu-toggle-btn" aria-label="Menu" style="background:none; border:none; color:white; cursor:pointer; display:none; padding:4px; align-items:center; justify-content:center;">
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
           </button>
           <span>Practice NCLEX RN Test</span>
@@ -905,7 +926,7 @@
           </svg>
           Question Navigator
         </div>
-        <button id="close-question-nav-btn" class="question-nav-drawer-close" title="Close Navigator">&times;</button>
+        <button id="close-question-nav-btn" class="question-nav-drawer-close" aria-label="Close navigator" title="Close Navigator">&times;</button>
       </div>
 
       <div class="question-nav-drawer-legend">
@@ -926,7 +947,7 @@
       <div id="ti108-calculator" class="ti-108-calc hidden">
         <div class="calc-top-bar">
           <span>TI-108</span>
-          <button id="close-calc-btn" class="close-calc-x">&times;</button>
+          <button id="close-calc-btn" class="close-calc-x" aria-label="Close calculator">&times;</button>
         </div>
         <div class="calc-body">
           <div class="calc-solar-and-logo">
@@ -947,33 +968,33 @@
           <div class="calc-keypad">
             <!-- Row 1: Operations -->
             <button class="calc-btn op-btn" data-action="sign">+/-</button>
-            <button class="calc-btn op-btn" data-action="sqrt">&radic;</button>
-            <button class="calc-btn op-btn" data-action="percent">%</button>
-            <button class="calc-btn op-btn" data-action="divide">&divide;</button>
+            <button class="calc-btn op-btn" data-action="sqrt" aria-label="Square root">&radic;</button>
+            <button class="calc-btn op-btn" data-action="percent" aria-label="Percent">%</button>
+            <button class="calc-btn op-btn" data-action="divide" aria-label="Divide">&divide;</button>
 
             <!-- Row 2: Memory & Multiply -->
             <button class="calc-btn mem-btn" data-action="mrc">MRC</button>
             <button class="calc-btn mem-btn" data-action="mminus">M-</button>
             <button class="calc-btn mem-btn" data-action="mplus">M+</button>
-            <button class="calc-btn op-btn" data-action="multiply">&times;</button>
+            <button class="calc-btn op-btn" data-action="multiply" aria-label="Multiply">&times;</button>
 
             <!-- Row 3: Numbers & Minus -->
             <button class="calc-btn num-btn">7</button>
             <button class="calc-btn num-btn">8</button>
             <button class="calc-btn num-btn">9</button>
-            <button class="calc-btn op-btn" data-action="subtract">-</button>
+            <button class="calc-btn op-btn" data-action="subtract" aria-label="Subtract">-</button>
 
             <!-- Row 4: Numbers & Plus -->
             <button class="calc-btn num-btn">4</button>
             <button class="calc-btn num-btn">5</button>
             <button class="calc-btn num-btn">6</button>
-            <button class="calc-btn op-btn" data-action="add">+</button>
+            <button class="calc-btn op-btn" data-action="add" aria-label="Add">+</button>
 
             <!-- Row 5: Numbers & Equals -->
             <button class="calc-btn num-btn">1</button>
             <button class="calc-btn num-btn">2</button>
             <button class="calc-btn num-btn">3</button>
-            <button class="calc-btn equal-btn" data-action="equals" style="grid-row: span 2; height: 100%;">=</button>
+            <button class="calc-btn equal-btn" data-action="equals" aria-label="Equals" style="grid-row: span 2; height: 100%;">=</button>
 
             <!-- Row 6: Clear & Zero & Decimal -->
             <button class="calc-btn clear-btn" data-action="clear">ON/C</button>
@@ -1102,14 +1123,10 @@
   <div id="results-view" class="view">
     <div class="results-container">
       <header class="results-header">
-        <div class="success-icon">
-          <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-            <polyline points="22 4 12 14.01 9 11.01"/>
-          </svg>
-        </div>
-        <h2>Quiz Attempt Completed!</h2>
+        <div id="results-icon" class="results-icon" aria-hidden="true"></div>
+        <h2 id="results-heading">Session complete</h2>
         <p id="results-case-title">Cardiovascular Case Study 1</p>
+        <p id="results-message" class="results-message"></p>
       </header>
 
       <main class="results-summary">
@@ -1127,17 +1144,10 @@
         </div>
       </main>
 
-      <footer class="results-actions" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-        <button id="results-review-answers-btn" class="btn btn-primary" style="background-color: #166da9; font-weight: 600; padding: 10px 20px;">
-          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" style="vertical-align: middle; margin-right: 6px;">
-            <circle cx="12" cy="12" r="9"/>
-            <polygon points="12 4 15 11 12 10 9 11 12 4" fill="currentColor"/>
-            <polygon points="12 20 15 13 12 14 9 13 12 20" fill="currentColor" fill-opacity="0.5"/>
-          </svg>
-          Interactive Review Answers & Rationales
-        </button>
-        <button id="results-retry-btn" class="btn btn-secondary">Retry Quiz</button>
-        <button id="results-dashboard-btn" class="btn btn-secondary">Return to Dashboard</button>
+      <footer class="results-actions">
+        <button id="results-review-answers-btn" class="btn btn-primary">Review Answers &amp; Rationales</button>
+        <button id="results-retry-btn" class="btn btn-secondary">Retry These Questions</button>
+        <button id="results-dashboard-btn" class="btn btn-secondary">Back to Session Builder</button>
       </footer>
     </div>
   </div>
@@ -1208,18 +1218,18 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20260928153114"></script>
-  <script src="js/state.js?v=20260928153114"></script>
-  <script src="js/utils.js?v=20260928153114"></script>
-  <script src="js/data.js?v=20260928153114"></script>
-  <script src="js/auth.js?v=20260928153114"></script>
-  <script src="js/dashboard.js?v=20260928153114"></script>
-  <script src="js/session-builder.js?v=20260928153114"></script>
-  <script src="js/editor.js?v=20260928153114"></script>
-  <script src="js/player.js?v=20260928153114"></script>
-  <script src="js/scoring.js?v=20260928153114"></script>
-  <script src="js/results.js?v=20260928153114"></script>
-  <script src="js/calculator.js?v=20260928153114"></script>
-  <script src="js/main.js?v=20260928153114"></script>
+  <script src="cases-data.js?v=20260928160628"></script>
+  <script src="js/state.js?v=20260928160628"></script>
+  <script src="js/utils.js?v=20260928160628"></script>
+  <script src="js/data.js?v=20260928160628"></script>
+  <script src="js/auth.js?v=20260928160628"></script>
+  <script src="js/dashboard.js?v=20260928160628"></script>
+  <script src="js/session-builder.js?v=20260928160628"></script>
+  <script src="js/editor.js?v=20260928160628"></script>
+  <script src="js/player.js?v=20260928160628"></script>
+  <script src="js/scoring.js?v=20260928160628"></script>
+  <script src="js/results.js?v=20260928160628"></script>
+  <script src="js/calculator.js?v=20260928160628"></script>
+  <script src="js/main.js?v=20260928160628"></script>
 </body>
 </html>

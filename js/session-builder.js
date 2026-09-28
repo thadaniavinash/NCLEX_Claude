@@ -10,20 +10,16 @@ function initSessionBuilder() {
   const testCard = document.getElementById('mode-card-test');
   const reviewRadio = document.querySelector('input[name="session-mode"][value="review"]');
   const testRadio = document.querySelector('input[name="session-mode"][value="test"]');
-  const launchBtnLabel = document.getElementById('launch-btn-label');
-
   function setSessionMode(mode) {
     sessionBuilderMode = mode;
     if (mode === 'review') {
       if (reviewCard) reviewCard.classList.add('selected');
       if (testCard) testCard.classList.remove('selected');
       if (reviewRadio) reviewRadio.checked = true;
-      if (launchBtnLabel) launchBtnLabel.textContent = 'Start Practice Session (Review Mode)';
     } else {
       if (testCard) testCard.classList.add('selected');
       if (reviewCard) reviewCard.classList.remove('selected');
       if (testRadio) testRadio.checked = true;
-      if (launchBtnLabel) launchBtnLabel.textContent = 'Start NCLEX Exam Simulation (Test Mode)';
     }
     updateSessionCountsAndBounds();
   }
@@ -62,6 +58,15 @@ function initSessionBuilder() {
       if (stdInput) stdInput.value = standalone;
 
       updateSessionCountsAndBounds();
+
+      const gotCases = parseInt(casesInput ? casesInput.value : '0', 10) || 0;
+      const gotStandalone = parseInt(stdInput ? stdInput.value : '0', 10) || 0;
+      const shortfalls = [];
+      if (gotCases < cases) shortfalls.push(gotCases ? `only ${gotCases} case stud${gotCases === 1 ? 'y' : 'ies'}` : 'no case studies');
+      if (gotStandalone < standalone) shortfalls.push(gotStandalone ? `only ${gotStandalone} stand-alone question${gotStandalone === 1 ? '' : 's'}` : 'no stand-alone questions');
+      if (shortfalls.length) {
+        showToast(`The selected units have ${shortfalls.join(' and ')}, so the session uses what is available.`, 'warning');
+      }
     });
   });
 
@@ -92,6 +97,12 @@ function initSessionBuilder() {
       updateSessionCountsAndBounds();
     });
   }
+
+  // Manually chosen items (step 4) can start a session on their own
+  ['generator-cases-list', 'generator-standalone-list'].forEach(id => {
+    const list = document.getElementById(id);
+    if (list) list.addEventListener('change', updateSessionCountsAndBounds);
+  });
 
   // Launch button
   const launchBtn = document.getElementById('generate-play-btn');
@@ -432,6 +443,14 @@ function updateSessionCountsAndBounds() {
   const stdSlider = document.getElementById('generator-standalone-slider');
   const stdInput = document.getElementById('generator-standalone-input');
 
+  // A pool with nothing in it (for example units without case studies) cannot be changed.
+  [[casesSlider, casesInput, maxCases], [stdSlider, stdInput, maxStandalone]].forEach(([slider, input, max]) => {
+    if (slider) slider.disabled = max === 0;
+    if (input) input.disabled = max === 0;
+    const card = slider && slider.closest('.quantity-card');
+    if (card) card.classList.toggle('is-empty', max === 0);
+  });
+
   if (casesSlider && casesInput) {
     casesSlider.max = maxCases;
     casesInput.max = maxCases;
@@ -467,8 +486,17 @@ function updateSessionCountsAndBounds() {
 
   const casesNote = document.getElementById('cases-questions-note');
   const stdNote = document.getElementById('standalone-questions-note');
-  if (casesNote) casesNote.textContent = `${casesVal} Case Stud${casesVal === 1 ? 'y' : 'ies'} = ${casesQuestions} Questions`;
-  if (stdNote) stdNote.textContent = `${stdVal} Stand-alone Question${stdVal === 1 ? '' : 's'}`;
+  const noTopics = sessionBuilderTopics.length === 0;
+  if (casesNote) {
+    casesNote.textContent = maxCases === 0
+      ? (noTopics ? 'Choose units in Topic Selector first' : 'No case studies in the selected units')
+      : `${casesVal} Case Stud${casesVal === 1 ? 'y' : 'ies'} = ${casesQuestions} Questions`;
+  }
+  if (stdNote) {
+    stdNote.textContent = maxStandalone === 0
+      ? (noTopics ? 'Choose units in Topic Selector first' : 'No stand-alone questions in the selected units')
+      : `${stdVal} Stand-alone Question${stdVal === 1 ? '' : 's'}`;
+  }
 
   const totalValEl = document.getElementById('session-total-questions-val');
   const statusBadge = document.getElementById('session-total-status-badge');
@@ -502,16 +530,27 @@ function updateSessionCountsAndBounds() {
     poolCountsText.textContent = `${availableCases.length} Cases (${poolCaseQuestions} Qs) + ${availableStandalone.length} Standalone`;
   }
 
+  // The start button says what is still missing instead of just turning pale.
+  // Items ticked under "Select Specific Case Studies and Questions" replace the topic settings.
+  const manualCount = document.querySelectorAll('.generator-case-checkbox:checked, .generator-standalone-checkbox:checked').length;
+  let missing = '';
+  if (!manualCount) {
+    if (noTopics) missing = 'Choose at least one unit to start';
+    else if (maxCases === 0 && maxStandalone === 0) missing = 'The selected units have no questions yet';
+    else if (totalQuestions === 0) missing = 'Choose how many questions to include';
+  }
+
   if (statusBadge) {
-    if (totalQuestions === 0) {
-      statusBadge.textContent = 'Select at least 1 Question';
-      statusBadge.className = 'total-status error';
-      if (launchBtn) launchBtn.disabled = true;
-    } else {
-      statusBadge.textContent = `Ready (${sessionBuilderMode === 'review' ? 'Practice' : 'Exam'})`;
-      statusBadge.className = 'total-status';
-      if (launchBtn) launchBtn.disabled = false;
-    }
+    statusBadge.textContent = missing ? 'Nothing selected yet'
+      : manualCount ? `Using ${manualCount} chosen item${manualCount === 1 ? '' : 's'} (step 4)`
+      : `Ready (${sessionBuilderMode === 'review' ? 'Practice' : 'Exam'})`;
+    statusBadge.className = missing ? 'total-status error' : 'total-status';
+  }
+  if (launchBtn) launchBtn.disabled = !!missing;
+  const launchBtnLabel = document.getElementById('launch-btn-label');
+  if (launchBtnLabel) {
+    launchBtnLabel.textContent = missing
+      || (sessionBuilderMode === 'review' ? 'Start Practice Session (Review Mode)' : 'Start NCLEX Exam Simulation (Test Mode)');
   }
 }
 

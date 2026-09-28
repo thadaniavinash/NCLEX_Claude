@@ -42,7 +42,8 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
 
 ## Data format (one item = case study or stand-alone question)
 
-`{ id, title, course, unit, topic, disorder, description, isStandalone?, screens: [...] }`.
+`{ id, title, course, unit, topic, disorder, description, isStandalone?, draft?, screens: [...] }`.
+`draft: true` hides a finished item from students (set by the dashboard's Duplicate and "Hide from students").
 IDs: `case_<13 digits>` / `standalone_<13 digits>`; NURS 1017 cases use `case_17823<unit>000<n>`
 (for example Unit 3 Case 4 = `case_1782370000004`). `topic` and `disorder` currently equal `unit`; units are listed in
 `CURRICULUM_COURSES` (`js/state.js`). Case studies have 6 screens following the clinical judgment steps
@@ -97,13 +98,18 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 - Save (`saveBankToStorage` in `data.js`): needs a signed-in admin (`getAdminAccessToken`). PATCH with
   `version=eq.<loaded version>` and `Prefer: return=representation`; on conflict, fetch latest, merge this
   page's changes (`mergeBankChanges`), retry. Works without the version column too.
-- Readiness (`isReadyForStudents`, `itemProblems` in `data.js`): items with missing stems or incomplete
-  answer keys are hidden from students (session builder, direct links) and badged in the dashboard.
+- Readiness (`isReadyForStudents`, `itemProblems` in `data.js`): items with missing stems, incomplete
+  answer keys or `draft: true` are hidden from students (session builder, direct links); the dashboard
+  shows them in its Status column with the reasons.
+- `canEditBank()` (`data.js`): the dashboard only offers Create/Edit/Duplicate/Delete to a signed-in admin
+  (or on localhost) with the full, database-loaded bank; otherwise it shows a read-only notice.
+  `renderSaveStatus()` (`dashboard.js`) shows the real save state in the dashboard and editor headers.
 
 ## Checks (serve the repo first: `python3 -m http.server 8765`)
 
 - `node tools/check.js`: every question renders, its answer key scores full marks, the editor's
-  open-and-save changes nothing. Expected: 0 failures, 4 known incomplete items.
+  open-and-save changes nothing. Expected: 0 failures, 3 known incomplete items. (Since the September
+  2026 content sync it also reports 2 stand-alone items whose chart tab the editor changes on save.)
 - `node tools/check-saving.js`: sign-in and saving against a simulated Supabase (13 checks).
 - Playwright is preinstalled (global npm); Chromium at `/opt/pw-browsers`. Block `*.supabase.co` in
   tests so nothing is written.
@@ -145,7 +151,18 @@ The old hard-coded admin password is still in git history; the user was told to 
 12. Run `check.js`/`check-saving.js` in CI on every push.
 13. The workflow's actions run on Node 20, which GitHub is deprecating.
 
-## UI/UX ideas (next phase; user to pick where to start, 1-3 suggested first)
+## UI/UX work
+
+Done (quick fixes): real save status; read-only dashboard when signed out/offline; results page light and
+score-aware; honest counts (hidden items); session builder start button says what is missing, empty pools
+disabled, manual picks (step 4) can start a session; dashboard Status column + filter, sortable columns,
+"⋯" menu (copy link, Duplicate as draft, hide/show, delete); editor step list with clinical judgment step,
+question type and readiness; matrix editor fields wrap; labels on icon-only buttons.
+Suggested next: player feedback and mobile layout (per-option ✓/✗, score explanation, rationale jump,
+chart/question tabs on phones, "new" markers), then the design-system pass. Bowtie editor inputs still
+truncate long text like the matrix ones did.
+
+### Ideas list
 
 1. Simplify the Session Builder into a guided flow (mode, topics, count, start) with quick-start and resume.
 2. Mobile-friendly player: chart and question as tabs/drawer instead of stacked.

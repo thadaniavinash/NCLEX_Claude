@@ -313,7 +313,10 @@ function screenProblem(q) {
 
 function itemProblems(item) {
   if (!item || !Array.isArray(item.screens) || !item.screens.length) return ['no screens'];
-  return item.screens.map((s, i) => { const p = screenProblem(s.question); return p ? `screen ${i + 1}: ${p}` : ''; }).filter(Boolean);
+  const problems = item.screens.map((s, i) => { const p = screenProblem(s.question); return p ? `screen ${i + 1}: ${p}` : ''; }).filter(Boolean);
+  // Authors can keep a finished item away from students (for example a new duplicate).
+  if (item.draft === true) problems.unshift('marked as draft');
+  return problems;
 }
 
 function isReadyForStudents(item) {
@@ -436,7 +439,25 @@ async function saveBankRowToDatabase(key) {
   return { ok: false, reason: 'busy' };
 }
 
+// Outcome of the last save on this page ({ ok, text, at }), shown by renderSaveStatus().
+let lastSaveOutcome = null;
+
+function isLocalServerHost() {
+  return window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+}
+
+// Whether this page may create, edit or delete items: never on a partial or backup bank, and
+// otherwise only for a signed-in admin (or on the local server, which writes cases-data.js).
+function canEditBank() {
+  if (isBankFiltered || isDatabaseUnavailable) return false;
+  return isAdminLoggedIn || !USE_SUPABASE || isLocalServerHost();
+}
+
 function showSaveResult(savedToLocalServer, dbResult) {
+  const failure = dbResult && dbResult.reason;
+  const ok = !!(dbResult && dbResult.ok) || (!!savedToLocalServer && (!failure || failure === 'signed-out'));
+  lastSaveOutcome = { ok, at: new Date() };
+  if (typeof renderSaveStatus === 'function') renderSaveStatus();
   if (dbResult && dbResult.ok) {
     if (dbResult.conflicts.length) {
       showToast(`Saved. Someone else had also changed ${dbResult.conflicts.join(', ')}; your version replaced theirs.`, 'warning');

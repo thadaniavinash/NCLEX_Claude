@@ -104,7 +104,15 @@ function switchView(viewId) {
 function renderStudentPortal() {
   const bankStatusEl = document.getElementById('student-bank-status-text');
   if (bankStatusEl) {
-    bankStatusEl.textContent = `Local Bank: ${studentCaseStudies().length} Cases \u2022 ${studentStandaloneQuestions().length} Standalone`;
+    const counts = `${studentCaseStudies().length} case studies \u2022 ${studentStandaloneQuestions().length} questions`;
+    bankStatusEl.textContent = isDatabaseUnavailable ? `Offline backup: ${counts}` : counts;
+    const indicator = bankStatusEl.closest('.student-pv-status-indicator');
+    if (indicator) {
+      indicator.classList.toggle('offline', isDatabaseUnavailable);
+      indicator.title = isDatabaseUnavailable
+        ? 'The question bank could not be reached, so a saved backup copy is shown. It may be missing the newest questions.'
+        : 'Questions available to practise';
+    }
   }
   renderSessionTopicsList();
   renderManualSelectionLists();
