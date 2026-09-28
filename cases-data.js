@@ -11596,6 +11596,3877 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes."
+  },
+  {
+    "id": "case_1782390000006",
+    "unit": "Unit 5 (Integumentary Disorders and Burns)",
+    "title": "NURS 1017 Unit 5 Case Study 6",
+    "topic": "Unit 5 (Integumentary Disorders and Burns)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses’ Notes. <b>Highlight</b> the findings that indicate the client is at risk for airway compromise or impaired gas exchange.",
+          "type": "highlight",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
+          "explanation": "New confusion (oriented to person only) after smoke exposure suggests cerebral hypoxia from carbon monoxide (CO) and/or impaired gas exchange. Hoarseness signals thermal injury and swelling of the larynx and upper airway; edema can progress rapidly to obstruction, so this is a red-flag cue. Black-tinged (carbonaceous) sputum shows that smoke was inhaled below the vocal cords. Singed nasal hairs and eyebrows with soot around the nose and mouth are classic external cues of smoke and heat inhalation, especially after confinement in an enclosed, smoke-filled space. Bilateral expiratory wheezes indicate bronchospasm and lower-airway irritation from inhaled smoke and chemicals. Being tearful and asking about his dog is an expected emotional response that needs support later, but is not a cue of airway or gas-exchange risk. Chest pain 9/10 comes from the partial-thickness (second-degree) burn to the anterior trunk, which is very painful because nerve endings are exposed; it needs treatment, but it is not an airway cue. The circumferential full-thickness right arm burn is a circulation concern (risk for compartment syndrome), not an airway concern in this client -- a circumferential full-thickness burn of the <i>chest</i> could restrict breathing, but the arm cannot. The ring and watch on the burned arm must be removed before swelling develops (a circulation concern), but do not indicate airway risk.",
+          "highlightTabs": [
+            {
+              "id": "c1_ht1",
+              "title": "Nurses' Notes",
+              "content": "0305: Client is {tearful and repeatedly asking about his dog.} {Oriented to person only; unsure of the time or place. Reports headache and nausea.|correct} {Voice is hoarse and he has a frequent cough|correct}{producing black-tinged sputum.|correct} {Nasal hairs and eyebrows singed; soot around the nose and mouth.|correct} Face reddened and dry without blisters. {Expiratory wheezes heard bilaterally.|correct} Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; {rates chest pain 9/10.} {Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched.} {Wearing a wedding ring on the right hand and a metal watch on the right wrist.} Right radial pulse 2+; capillary refill 3 seconds."
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c1_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+            },
+            {
+              "id": "c1_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_notes",
+              "title": "Nurses' Notes",
+              "content": ""
+            }
+          ],
+          "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each assessment finding, click to specify whether it is consistent with <b>upper airway (inhalation) injury</b>, <b>carbon monoxide poisoning</b>, or <b>hypovolemia related to the burn injury</b>. Each finding may support more than one condition.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Hoarse voice",
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Singed nasal hairs",
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Headache and nausea",
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Oriented to person only",
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "SpO2 98% despite new confusion",
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "HR 122/min with BP 104/66 mm Hg",
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Hematocrit 0.53 L/L (53%)",
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Upper airway (inhalation) injury",
+              "Carbon monoxide poisoning",
+              "Hypovolemia related to burn"
+            ],
+            "firstColumnHeader": "Finding / Action"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
+          "explanation": "Hoarse voice and singed nasal hairs are direct evidence of heat and smoke near the airway (upper airway/inhalation injury). Headache and nausea are early, nonspecific symptoms of CO toxicity, since CO binds hemoglobin far more tightly than oxygen, reducing oxygen delivery to tissues. Confusion (oriented to person only) can come from hypoxemia caused by airway and lung injury, and from tissue hypoxia caused by CO -- both apply. A normal-appearing SpO2 of 98% despite new confusion is falsely reassuring: standard pulse oximeters cannot tell carboxyhemoglobin from oxyhemoglobin, so the COHb level on the ABG (ordered, pending) is needed to detect CO poisoning. Burns over 20% TBSA trigger a systemic inflammatory response with fluid shifts that can lead to hypovolemic shock; tachycardia (HR 122) with a narrowing blood pressure (104/66) is compensation for that fluid loss. A hematocrit of 53% reflects hemoconcentration: plasma leaks out of the vessels while red cells stay in, raising the hematocrit as intravascular volume falls."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c1_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+            },
+            {
+              "id": "c1_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client is at highest risk for [[drop0]] as evidenced by [[drop1]]. Once this is addressed, the nurse should next focus on the client's risk for [[drop2]] as evidenced by [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "airway obstruction from upper airway edema",
+                    "correct": true
+                  },
+                  {
+                    "text": "wound infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypothermia",
+                    "correct": false
+                  },
+                  {
+                    "text": "compartment syndrome of the right arm",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the hoarse voice and black-tinged sputum",
+                    "correct": true
+                  },
+                  {
+                    "text": "the circumferential full-thickness burn of the right arm",
+                    "correct": false
+                  },
+                  {
+                    "text": "the temperature of 36.3 °C",
+                    "correct": false
+                  },
+                  {
+                    "text": "the WBC of 11.2 × 10⁹/L",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "hypovolemic shock",
+                    "correct": true
+                  },
+                  {
+                    "text": "impaired skin integrity",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute pain",
+                    "correct": false
+                  },
+                  {
+                    "text": "disturbed body image",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "HR 122/min, BP 104/66 mm Hg, and hematocrit 0.53 L/L",
+                    "correct": true
+                  },
+                  {
+                    "text": "the blistered anterior trunk",
+                    "correct": false
+                  },
+                  {
+                    "text": "the pain rating of 9/10",
+                    "correct": false
+                  },
+                  {
+                    "text": "the potassium of 5.3 mmol/L",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ],
+            "scoreGroups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
+          "explanation": "The nurse prioritizes with ABCDE, and for burns, ABC is followed by fluid resuscitation. After smoke inhalation, impaired gas exchange takes priority over impaired skin integrity. Upper-airway edema can worsen over hours, so early recognition (the hoarse voice and carbonaceous sputum) allows a controlled intubation before the airway is lost entirely. Circulation follows airway and breathing: with about 27% TBSA of partial- and full-thickness burns, large fluid shifts are expected, and IV access and fluid resuscitation are top priorities after the airway, evidenced by the tachycardia, low-normal blood pressure, and hemoconcentration (elevated hematocrit). Wound infection develops over days, not within this timeframe. Hypothermia is a real risk but is addressed after airway, breathing, and circulation. Compartment syndrome of the arm threatens a limb and needs frequent checks, but a threat to the airway threatens life."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c1_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+            },
+            {
+              "id": "c1_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "The nurse plans the client's fluid resuscitation. Use the Nurses’ Notes (Phase 1), the Rule of Nines, and the provider's orders. Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The percentage of TBSA to include in the fluid resuscitation calculation is [[drop0]]. The total volume of Ringer's lactate prescribed for the first 24 hours is [[drop1]]. Half of this volume, [[drop2]], is to be infused over the first 8 hours, timed from [[drop3]]. The nurse will titrate the infusion as prescribed to maintain a urine output of at least [[drop4]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "18%",
+                    "correct": false
+                  },
+                  {
+                    "text": "27%",
+                    "correct": true
+                  },
+                  {
+                    "text": "31.5%",
+                    "correct": false
+                  },
+                  {
+                    "text": "36%",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "4,320 mL",
+                    "correct": false
+                  },
+                  {
+                    "text": "8,640 mL",
+                    "correct": true
+                  },
+                  {
+                    "text": "10,080 mL",
+                    "correct": false
+                  },
+                  {
+                    "text": "11,520 mL",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "2,160 mL",
+                    "correct": false
+                  },
+                  {
+                    "text": "4,320 mL",
+                    "correct": true
+                  },
+                  {
+                    "text": "5,040 mL",
+                    "correct": false
+                  },
+                  {
+                    "text": "5,760 mL",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "0215 (time of injury)",
+                    "correct": true
+                  },
+                  {
+                    "text": "0300 (arrival in the ED)",
+                    "correct": false
+                  },
+                  {
+                    "text": "the time the IV was started",
+                    "correct": false
+                  },
+                  {
+                    "text": "the time the order was written",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "20 mL/h",
+                    "correct": false
+                  },
+                  {
+                    "text": "40 mL/h",
+                    "correct": true
+                  },
+                  {
+                    "text": "100 mL/h",
+                    "correct": false
+                  },
+                  {
+                    "text": "160 mL/h",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 2 &mdash; Emergency Department, 0340.",
+          "explanation": "By the Rule of Nines: anterior trunk (chest + abdomen) = 18%; the entire right arm, anterior 4.5% + posterior 4.5% = 9%. Total 27%. The face is a first-degree (superficial) burn -- red, dry, no blisters -- and is <b>not</b> counted in resuscitation calculations. Using the Parkland formula, 4 mL &times; 80 kg &times; 27 = 8,640 mL over 24 hours. Half of that, 4,320 mL, is given in the first 8 hours; the remaining 4,320 mL is given over the next 16 hours. The 8-hour clock starts at the burn, not at arrival -- because 45+ minutes have already passed since 0215, the hourly rate must make up for lost time. The adult urine-output target is about 0.5 mL/kg/h: 0.5 &times; 80 kg = 40 mL/h. Urine output is the key guide for titration; output well above 1 mL/kg/h (for example, 100&ndash;160 mL/h) suggests over-resuscitation and risks edema-related complications."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c1_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+            },
+            {
+              "id": "c1_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0335</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.30</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.35&ndash;7.45</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">35&ndash;45 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm Hg (on non-rebreather)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80&ndash;100 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>-</sup></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22&ndash;26 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Carboxyhemoglobin (COHb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Less than 3% (non-smoker)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0340:</span><span class=\"nurse-note-text\">Client's voice is more hoarse and a high-pitched inspiratory sound is now audible at rest. Oxygen changed to a non-rebreather mask. The provider, respiratory therapist, and anesthesia are preparing for endotracheal intubation. Right hand: fingers cool and pale, capillary refill 5 seconds, right radial pulse faint (1+); client reports numbness and tingling in the right fingers; right forearm feels tense on palpation. Two large-bore IV catheters inserted in unburned skin of the left arm.</span></p>"
+            },
+            {
+              "id": "c1_orders",
+              "title": "Provider Orders",
+              "content": "<p><b>0340:</b></p><ul><li>Oxygen 100% via non-rebreather mask until airway secured</li><li>Ringer's lactate (lactated Ringer's) per Parkland formula: 4 mL &times; kg &times; %TBSA (partial- and full-thickness burns only); titrate to urine output</li><li>Insert indwelling urinary catheter; hourly urine output</li><li>NPO; nasogastric tube to low intermittent suction</li><li>Morphine 2&ndash;4 mg IV every 1 hour PRN pain</li><li>Tetanus toxoid IM</li><li>Chest x-ray; 12-lead ECG</li><li>Arrange transfer to regional burn centre</li></ul>"
+            }
+          ],
+          "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client at this time.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Notify the provider immediately about the right-hand findings",
+                "correctIndex": 0
+              },
+              {
+                "text": "Remove the wedding ring and watch from the right hand and wrist",
+                "correctIndex": 0
+              },
+              {
+                "text": "Elevate the right arm on pillows above the level of the heart",
+                "correctIndex": 0
+              },
+              {
+                "text": "Apply a snug elastic compression wrap to the right arm to limit swelling",
+                "correctIndex": 1
+              },
+              {
+                "text": "Continue 100% oxygen via non-rebreather mask until the airway is secured",
+                "correctIndex": 0
+              },
+              {
+                "text": "Administer the prescribed morphine intramuscularly into the unburned thigh",
+                "correctIndex": 1
+              },
+              {
+                "text": "Apply ice packs to the blistered chest to relieve pain",
+                "correctIndex": 1
+              },
+              {
+                "text": "Offer small sips of an electrolyte drink to replace fluid losses",
+                "correctIndex": 1
+              },
+              {
+                "text": "Teach active range-of-motion exercises for the right hand",
+                "correctIndex": 2
+              },
+              {
+                "text": "Cover the burns with clean, dry dressings or sheets and keep the room warm",
+                "correctIndex": 0
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated",
+              "Nonessential"
+            ],
+            "firstColumnHeader": "Finding / Action"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 2 &mdash; Emergency Department, 0340.",
+          "explanation": "Cool, pale fingers, delayed capillary refill, a weakening pulse, paresthesia, and a tense forearm under a circumferential full-thickness burn signal impending compartment syndrome; the provider must be notified immediately, and the expected treatment is an escharotomy (incision through the inelastic eschar). Jewelry and clothing near the burn should be removed, since once edema develops, a ring or watch acts as a tourniquet. Elevating the arm above heart level reduces edema formation. Anything constricting (a compression wrap) worsens the compartment pressure that is already compromising perfusion. A carboxyhemoglobin of 19% confirms CO poisoning; high-flow oxygen shortens the half-life of carboxyhemoglobin and continues until the airway is secured and the COHb falls. During burn shock, peripheral and muscle perfusion is poor, so IM absorption is unreliable -- little early relief, then possible delayed, excessive absorption once perfusion returns; the client's orders specify IV morphine. Ice causes vasoconstriction that can deepen the injury and, over a 27% TBSA burn, promotes hypothermia; cooling with room-temperature water or saline is used instead. The client is NPO with an NG tube ordered: intubation is imminent and large burns commonly cause paralytic ileus, so resuscitation and any fluids are IV, not oral. Range-of-motion teaching is important later, in rehabilitation, but is not the priority during an airway emergency with a compromised arm. Clean, dry coverage protects the wounds from contamination and limits heat loss, and a warm room helps prevent hypothermia."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c1_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+            },
+            {
+              "id": "c1_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0335</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.30</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.35&ndash;7.45</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">35&ndash;45 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm Hg (on non-rebreather)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80&ndash;100 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>-</sup></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22&ndash;26 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Carboxyhemoglobin (COHb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Less than 3% (non-smoker)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0340:</span><span class=\"nurse-note-text\">Client's voice is more hoarse and a high-pitched inspiratory sound is now audible at rest. Oxygen changed to a non-rebreather mask. The provider, respiratory therapist, and anesthesia are preparing for endotracheal intubation. Right hand: fingers cool and pale, capillary refill 5 seconds, right radial pulse faint (1+); client reports numbness and tingling in the right fingers; right forearm feels tense on palpation. Two large-bore IV catheters inserted in unburned skin of the left arm.</span></p>"
+            },
+            {
+              "id": "c1_orders",
+              "title": "Provider Orders",
+              "content": "<p><b>0340:</b></p><ul><li>Oxygen 100% via non-rebreather mask until airway secured</li><li>Ringer's lactate (lactated Ringer's) per Parkland formula: 4 mL &times; kg &times; %TBSA (partial- and full-thickness burns only); titrate to urine output</li><li>Insert indwelling urinary catheter; hourly urine output</li><li>NPO; nasogastric tube to low intermittent suction</li><li>Morphine 2&ndash;4 mg IV every 1 hour PRN pain</li><li>Tetanus toxoid IM</li><li>Chest x-ray; 12-lead ECG</li><li>Arrange transfer to regional burn centre</li></ul>"
+            }
+          ],
+          "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding on post-injury day 5, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Urine output averaging 55 mL/h over the past 24 hours",
+                "correctIndex": 0
+              },
+              {
+                "text": "Right hand warm, capillary refill 2 seconds, right radial pulse 2+",
+                "correctIndex": 0
+              },
+              {
+                "text": "SpO2 96% on O2 2 L/min nasal cannula; lungs clear; speaks in full sentences",
+                "correctIndex": 0
+              },
+              {
+                "text": "Pain rated 3/10 during a dressing change after IV morphine 30 minutes beforehand",
+                "correctIndex": 0
+              },
+              {
+                "text": "Green-yellow, foul-smelling drainage from the chest wound; redness extending 2 cm beyond the wound edge",
+                "correctIndex": 1
+              },
+              {
+                "text": "Temperature 38.9 °C; WBC 17.4 × 10⁹/L",
+                "correctIndex": 1
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding / Action"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 3 &mdash; Regional Burn Centre, Post-injury Day 5.",
+          "explanation": "Urine output of 55 mL/h is above the 40 mL/h (0.5 mL/kg/h) target, showing adequate renal perfusion after resuscitation. A warm hand with brisk capillary refill and a palpable pulse matches the expected short-term outcome of no signs of compartment syndrome: no swelling and no decreased pulses in the affected area. SpO2 96%, clear lungs, and speaking in full sentences show that gas exchange and airway patency have been restored after extubation. Pain 3/10 during a dressing change reflects giving analgesia at least 30 minutes before burn care, with pain that is tolerable before, during, and after the dressing change. Yellow, foul-smelling discharge with increased erythema are signs of burn-wound infection; the nurse notifies the provider (a wound culture and antimicrobials are likely). The short-term goal is a WBC within normal range; fever with leukocytosis and a purulent wound suggest infection and possible sepsis, so the provider is notified and this is escalated promptly."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c1_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">46-year-old male brought in by EMS after a house fire that began at approximately 0215. Firefighters found him in a smoke-filled bedroom. Medical history: hypertension (lisinopril 10 mg daily). No known drug allergies. Tetanus immunization status unknown. Stated weight 80 kg.</span></p>"
+            },
+            {
+              "id": "c1_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0305</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.3 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on O<sub>2</sub> 4 L/min nasal cannula (applied by EMS)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9/10 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0320</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">171 g/L (17.1 g/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;175 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.53 L/L (53%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.40&ndash;0.50 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>WBC</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0&ndash;11.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">135&ndash;145 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5&ndash;5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ABG with carboxyhemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Drawn &mdash; pending</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0335</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.30</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.35&ndash;7.45</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">35&ndash;45 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm Hg (on non-rebreather)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80&ndash;100 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>-</sup></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22&ndash;26 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Carboxyhemoglobin (COHb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Less than 3% (non-smoker)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c1_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0305:</span><span class=\"nurse-note-text\">Client is tearful and repeatedly asking about his dog. Oriented to person only; unsure of the time or place. Reports headache and nausea. Voice is hoarse and he has a frequent cough producing black-tinged sputum. Nasal hairs and eyebrows singed; soot around the nose and mouth. Face reddened and dry without blisters. Expiratory wheezes heard bilaterally. Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; rates chest pain 9/10. Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched. Wearing a wedding ring on the right hand and a metal watch on the right wrist. Right radial pulse 2+; capillary refill 3 seconds.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0340:</span><span class=\"nurse-note-text\">Client's voice is more hoarse and a high-pitched inspiratory sound is now audible at rest. Oxygen changed to a non-rebreather mask. The provider, respiratory therapist, and anesthesia are preparing for endotracheal intubation. Right hand: fingers cool and pale, capillary refill 5 seconds, right radial pulse faint (1+); client reports numbness and tingling in the right fingers; right forearm feels tense on palpation. Two large-bore IV catheters inserted in unburned skin of the left arm.</span></p>"
+            },
+            {
+              "id": "c1_orders",
+              "title": "Provider Orders",
+              "content": "<p><b>0340:</b></p><ul><li>Oxygen 100% via non-rebreather mask until airway secured</li><li>Ringer's lactate (lactated Ringer's) per Parkland formula: 4 mL &times; kg &times; %TBSA (partial- and full-thickness burns only); titrate to urine output</li><li>Insert indwelling urinary catheter; hourly urine output</li><li>NPO; nasogastric tube to low intermittent suction</li><li>Morphine 2&ndash;4 mg IV every 1 hour PRN pain</li><li>Tetanus toxoid IM</li><li>Chest x-ray; 12-lead ECG</li><li>Arrange transfer to regional burn centre</li></ul>"
+            },
+            {
+              "id": "c1_notes3",
+              "title": "Progress Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Post-injury Day 5:</span><span class=\"nurse-note-text\">Right-arm escharotomy was performed on arrival at the burn centre. Client was extubated on day 3. Morphine IV given 30 minutes before each dressing change. Silver sulfadiazine and nonadherent dressings applied to the anterior trunk twice daily. Today's assessment findings are shown below.</span></p><p>Urine output averaging 55 mL/h over the past 24 hours. Right hand warm, capillary refill 2 seconds, right radial pulse 2+. SpO2 96% on O2 2 L/min nasal cannula; lungs clear; speaks in full sentences. Pain rated 3/10 during a dressing change after IV morphine 30 minutes beforehand. Green-yellow, foul-smelling drainage from the chest wound; redness extending 2 cm beyond the wound edge. Temperature 38.9 °C; WBC 17.4 × 10⁹/L.</p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 46-year-old male client brought to the ED after a house fire, with suspected inhalation injury."
+        }
+      }
+    ],
+    "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+    "description": "A 46-year-old male client with flame burns and suspected inhalation injury, from the emergency department through fluid resuscitation and early burn-centre recovery.",
+    "availability": "all"
+  },
+  {
+    "id": "case_1782390000007",
+    "unit": "Unit 5 (Integumentary Disorders and Burns)",
+    "title": "NURS 1017 Unit 5 Case Study 7",
+    "topic": "Unit 5 (Integumentary Disorders and Burns)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which findings require <b>immediate</b> follow-up by the nurse? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Vesicle on the tip of the nose",
+              "correct": true
+            },
+            {
+              "text": "Left-eye redness, sensitivity to light, and blurred vision",
+              "correct": true
+            },
+            {
+              "text": "Lesions stop at the midline",
+              "correct": false
+            },
+            {
+              "text": "Takes methotrexate weekly and prednisone daily",
+              "correct": true
+            },
+            {
+              "text": "Provides daytime care for her 4-month-old grandson",
+              "correct": true
+            },
+            {
+              "text": "Pain rated 8/10, burning, worse with light touch",
+              "correct": true
+            },
+            {
+              "text": "Had chickenpox as a child",
+              "correct": false
+            },
+            {
+              "text": "Temperature 37.9 °C",
+              "correct": false
+            },
+            {
+              "text": "Grouped vesicles on an erythematous base",
+              "correct": false
+            },
+            {
+              "text": "Blood pressure 146/84 mm Hg",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
+          "explanation": "A lesion on the tip or side of the nose (Hutchinson sign) shows involvement of the nasociliary branch of the ophthalmic (V1) division of the trigeminal nerve, which also supplies the eye; the provider should be informed immediately of any facial lesion, especially near the eye or ear. Eye redness, photophobia, and blurred vision are signs of ocular involvement (conjunctivitis, keratitis, uveitis) that can threaten sight and need urgent ophthalmology assessment. Methotrexate and prednisone raise the risk of severe, prolonged, or disseminated zoster, changing the treatment setting (IV antiviral), the isolation needed, and the monitoring. A young infant is too young for varicella vaccination and could develop chickenpox from contact with lesion fluid; this needs immediate teaching and exposure planning. Pain 8/10 with allodynia (pain worse with light touch) needs prompt management and is linked to a higher risk of postherpetic neuralgia. Lesions staying on one side and stopping at the midline, grouped vesicles on a red base, childhood chickenpox, and a mildly elevated temperature and blood pressure are all expected features of herpes zoster or an expected response to pain and stress; they do not require immediate follow-up on their own."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c2_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
+            },
+            {
+              "id": "c2_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": ""
+            }
+          ],
+          "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is an <b>expected manifestation of herpes zoster</b>, <b>suggests ocular (eye) involvement</b>, or <b>increases the risk of severe or complicated disease</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Burning, tingling pain for 3 days before the rash appeared",
+                "correctIndex": 0
+              },
+              {
+                "text": "Lesions limited to one side, stopping at the midline",
+                "correctIndex": 0
+              },
+              {
+                "text": "Low-grade fever and fatigue",
+                "correctIndex": 0
+              },
+              {
+                "text": "Vesicle on the tip of the nose",
+                "correctIndex": 1
+              },
+              {
+                "text": "Photophobia and blurred vision in the left eye",
+                "correctIndex": 1
+              },
+              {
+                "text": "Daily prednisone and weekly methotrexate",
+                "correctIndex": 2
+              },
+              {
+                "text": "Age 72",
+                "correctIndex": 2
+              }
+            ],
+            "columns": [
+              "Expected manifestation",
+              "Suggests ocular involvement",
+              "Increases risk of severe disease"
+            ],
+            "firstColumnHeader": "Finding / Action"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
+          "explanation": "The chapter describes a viral prodrome with a burning sensation where the rash will appear several days later. Zoster follows a single dermatome and does not cross the midline. Low-grade fever and fatigue are part of the prodrome. A vesicle on the tip of the nose (Hutchinson sign) is a strong predictor of eye involvement, since the nasociliary nerve supplies both the tip of the nose and the eye. Photophobia and blurred vision suggest corneal or intraocular inflammation. Prednisone and methotrexate suppress cell-mediated immunity, which normally controls varicella-zoster virus, raising the risk of dissemination and prolonged shedding. Zoster most commonly affects older adults, and age also raises the risk of complications, including postherpetic neuralgia."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c2_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
+            },
+            {
+              "id": "c2_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse's priority is to prevent [[drop0]] because [[drop1]]. The nurse's immediate action should be to [[drop2]]. The nurse also recognizes the client's [[drop3]] as a concurrent priority.",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "permanent vision loss",
+                    "correct": true
+                  },
+                  {
+                    "text": "secondary bacterial skin infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "scarring of the forehead",
+                    "correct": false
+                  },
+                  {
+                    "text": "hyperglycemia",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the virus is affecting the ophthalmic division of the trigeminal nerve",
+                    "correct": true
+                  },
+                  {
+                    "text": "the client is older than 65 years",
+                    "correct": false
+                  },
+                  {
+                    "text": "the lesions are vesicular",
+                    "correct": false
+                  },
+                  {
+                    "text": "the client had chickenpox as a child",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "notify the provider immediately so that urgent ophthalmology assessment can be arranged",
+                    "correct": true
+                  },
+                  {
+                    "text": "apply antibiotic ointment to the left eyelid",
+                    "correct": false
+                  },
+                  {
+                    "text": "schedule a follow-up visit in 1 week",
+                    "correct": false
+                  },
+                  {
+                    "text": "teach the client to apply warm compresses to the eye",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "acute pain",
+                    "correct": true
+                  },
+                  {
+                    "text": "fluid volume excess",
+                    "correct": false
+                  },
+                  {
+                    "text": "impaired gas exchange",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypothermia",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
+          "explanation": "Herpes zoster ophthalmicus can cause keratitis, uveitis, glaucoma, and vision loss. A threat of permanent loss of function takes priority over skin integrity. The forehead, scalp, upper eyelid, and nose-tip lesions map to the V1 (ophthalmic) dermatome, explaining why the eye is at risk. This is stated directly in the chapter for facial lesions near the eye or ear. Applying ointment to the eye or warm compresses without a prescription is outside the nurse's scope, and waiting a week risks permanent damage. Pain rated 8/10 with allodynia must be addressed promptly; adequate pain control is a recognized priority in zoster care."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c2_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
+            },
+            {
+              "id": "c2_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "The nurse plans care for the client on the medical unit. Which <b>five</b> interventions should the nurse include in the plan of care? <b>Select five.</b>",
+          "type": "select_n",
+          "limit": 5,
+          "options": [
+            {
+              "text": "Place the client in an airborne infection isolation room and use airborne and contact precautions",
+              "correct": true
+            },
+            {
+              "text": "Assign staff members with documented immunity to varicella",
+              "correct": true
+            },
+            {
+              "text": "Infuse each acyclovir dose over at least 1 hour, maintain hydration, and keep strict intake and output",
+              "correct": true
+            },
+            {
+              "text": "Assess left-eye symptoms and visual acuity each shift and report changes",
+              "correct": true
+            },
+            {
+              "text": "Monitor the serum creatinine daily",
+              "correct": true
+            },
+            {
+              "text": "Tell the daughter she may bring the baby to visit if she wears a gown and gloves",
+              "correct": false
+            },
+            {
+              "text": "Gently open intact vesicles to help the lesions dry faster",
+              "correct": false
+            },
+            {
+              "text": "Apply the prescribed mupirocin ointment to the left eye and eyelid margin",
+              "correct": false
+            },
+            {
+              "text": "Hold the client's daily prednisone to improve her immune response",
+              "correct": false
+            },
+            {
+              "text": "Give the recombinant shingles vaccine now to shorten this episode",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400.",
+          "explanation": "For localized zoster in an immunocompromised client, isolation guidance calls for airborne and contact precautions until disseminated infection is ruled out. Varicella-zoster virus spreads to people who are not immune, so non-immune or pregnant staff should not provide care. IV acyclovir can precipitate as crystals in the renal tubules and cause acute kidney injury, especially with rapid infusion or dehydration, so each dose is infused slowly with adequate hydration and strict intake and output. Eye assessment follows directly from the priority of preventing vision loss; worsening vision needs prompt reporting to ophthalmology. Daily creatinine detects acyclovir-related kidney injury early. A 4-month-old is unvaccinated against varicella, and airborne precautions are in place; a gown and gloves do not protect the infant from an airborne exposure, so the visit should not be encouraged this way. Opening intact vesicles increases the risk of secondary bacterial infection and scarring; ointments are prescribed to prevent secondary infection, not to dry lesions faster. The order specifies skin lesions only -- only ophthalmic preparations may be placed in the eye. Stopping long-term corticosteroids abruptly risks adrenal insufficiency; the provider continued it, and any change needs a prescriber's order. The vaccine prevents future episodes; it does not treat active zoster, and vaccination is discussed after recovery."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c2_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
+            },
+            {
+              "id": "c2_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
+            {
+              "id": "c2_notes2",
+              "title": "Nurses' Notes 1400",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Admitted for IV antiviral therapy. Ophthalmology confirmed left-eye involvement and prescribed topical eye medications. Lesions remain confined to the left forehead, scalp, upper eyelid, and nose tip; assessment for dissemination is in progress. Pain 8/10. Daughter asks whether she can bring the baby to visit this evening. Admission creatinine 78 µmol/L (0.88 mg/dL).</span></p>"
+            },
+            {
+              "id": "c2_orders",
+              "title": "Provider Orders",
+              "content": "<ul><li>Airborne and contact precautions (airborne infection isolation room) until disseminated disease is ruled out</li><li>Acyclovir 600 mg (10 mg/kg) IV every 8 hours, infuse over 1 hour</li><li>0.9% sodium chloride IV at 75 mL/h</li><li>Strict intake and output; serum creatinine daily</li><li>Acetaminophen 650 mg PO every 6 hours</li><li>Oxycodone 5 mg PO every 4 hours PRN severe pain</li><li>Mupirocin 2% ointment to crusted skin lesions twice daily (not for eye)</li><li>Ophthalmic medications per ophthalmology</li><li>Continue prednisone 7.5 mg PO daily; methotrexate on hold per rheumatology</li><li>Slit-lamp examination in eye clinic tomorrow 0900</li></ul>"
+            }
+          ],
+          "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Complete the sentences by dragging a word choice from the word bank into each blank. Not all word choices will be used, and each is used only once.",
+          "type": "drag_drop_cloze",
+          "cloze": {
+            "text": "Before entering the client's room, the nurse performs hand hygiene and dons a gown, gloves, and a [[drop0]]. The door to the client's room must remain [[drop1]]. Before the client is transported to the eye clinic for her slit-lamp examination, the nurse places [[drop2]] and prepares her by [[drop3]]. After administering the prescribed oxycodone for pain rated 8/10, the nurse plans to [[drop4]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": true
+                  },
+                  {
+                    "text": "surgical mask",
+                    "correct": false
+                  },
+                  {
+                    "text": "closed",
+                    "correct": false
+                  },
+                  {
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "a surgical mask on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "an N95 respirator on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
+                    "correct": false
+                  },
+                  {
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "reassess pain within 60 minutes",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "surgical mask",
+                    "correct": false
+                  },
+                  {
+                    "text": "closed",
+                    "correct": true
+                  },
+                  {
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "a surgical mask on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "an N95 respirator on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
+                    "correct": false
+                  },
+                  {
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "reassess pain within 60 minutes",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "surgical mask",
+                    "correct": false
+                  },
+                  {
+                    "text": "closed",
+                    "correct": false
+                  },
+                  {
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "a surgical mask on the client",
+                    "correct": true
+                  },
+                  {
+                    "text": "an N95 respirator on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
+                    "correct": false
+                  },
+                  {
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "reassess pain within 60 minutes",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "surgical mask",
+                    "correct": false
+                  },
+                  {
+                    "text": "closed",
+                    "correct": false
+                  },
+                  {
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "a surgical mask on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "an N95 respirator on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
+                    "correct": true
+                  },
+                  {
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "reassess pain within 60 minutes",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "surgical mask",
+                    "correct": false
+                  },
+                  {
+                    "text": "closed",
+                    "correct": false
+                  },
+                  {
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "a surgical mask on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "an N95 respirator on the client",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
+                    "correct": false
+                  },
+                  {
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "reassess pain within 60 minutes",
+                    "correct": true
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400.",
+          "explanation": "Airborne precautions require a fit-tested N95 (or higher) respirator; a surgical mask does not filter airborne particles adequately. An airborne infection isolation room keeps negative pressure only with the door closed. During essential transport, the client wears a surgical mask to contain respiratory secretions; a client is not placed in an N95 (it is designed to protect the wearer, and may have an exhalation valve). Covering the skin lesions limits contact and airborne spread from vesicle fluid. Reassessing pain within the drug's peak time (about 30&ndash;60 minutes for oral opioids, per agency policy) evaluates effectiveness and sedation."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c2_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
+            },
+            {
+              "id": "c2_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
+            {
+              "id": "c2_notes2",
+              "title": "Nurses' Notes 1400",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Admitted for IV antiviral therapy. Ophthalmology confirmed left-eye involvement and prescribed topical eye medications. Lesions remain confined to the left forehead, scalp, upper eyelid, and nose tip; assessment for dissemination is in progress. Pain 8/10. Daughter asks whether she can bring the baby to visit this evening. Admission creatinine 78 µmol/L (0.88 mg/dL).</span></p>"
+            },
+            {
+              "id": "c2_orders",
+              "title": "Provider Orders",
+              "content": "<ul><li>Airborne and contact precautions (airborne infection isolation room) until disseminated disease is ruled out</li><li>Acyclovir 600 mg (10 mg/kg) IV every 8 hours, infuse over 1 hour</li><li>0.9% sodium chloride IV at 75 mL/h</li><li>Strict intake and output; serum creatinine daily</li><li>Acetaminophen 650 mg PO every 6 hours</li><li>Oxycodone 5 mg PO every 4 hours PRN severe pain</li><li>Mupirocin 2% ointment to crusted skin lesions twice daily (not for eye)</li><li>Ophthalmic medications per ophthalmology</li><li>Continue prednisone 7.5 mg PO daily; methotrexate on hold per rheumatology</li><li>Slit-lamp examination in eye clinic tomorrow 0900</li></ul>"
+            }
+          ],
+          "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "The nurse reviews the hospital day 4 flowsheet. <b>Highlight</b> the findings that indicate the client's condition or understanding has <b>not</b> progressed as expected and requires follow-up.",
+          "type": "highlight",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 4.",
+          "explanation": "A creatinine more than doubled from the 78 µmol/L admission baseline suggests acyclovir-associated acute kidney injury; the nurse notifies the provider promptly, since the dose may need adjustment and hydration reviewed. Oliguria (a urine output under about 400 mL/24 h, or under 0.5 mL/kg/h) despite adequate intake also supports kidney injury. The client's statement that ongoing burning after the scabs are gone “doesn't mean anything” shows a misunderstanding: pain that persists after the rash heals may be postherpetic neuralgia, a treatable, reportable neurological complication, and this teaching needs reinforcement. Temperature, skin, pain, and eye findings all show expected progress: afebrile, lesions crusted without dissemination, pain controlled, and eye findings stable. A capillary glucose of 7.4 mmol/L is acceptable for a client with diabetes taking prednisone. The vaccine and hand-hygiene statements reflect accurate understanding -- the recombinant (non-live) zoster vaccine is recommended after recovery, including for people who are immunocompromised.",
+          "highlightTabs": [
+            {
+              "id": "c2_ht6",
+              "title": "Hospital Day 4 Flowsheet",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Finding</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{37.0 °C}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Skin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{All lesions crusted; no new lesions outside the left forehead, scalp, and nose}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{3/10 with scheduled acetaminophen}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Left eye</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{Less redness; visual acuity unchanged from ophthalmology baseline}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Serum creatinine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{163 µmol/L (1.84 mg/dL); admission 78 µmol/L (0.88 mg/dL)|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intake / output (24 h)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{Intake 1,600 mL / urine output 380 mL|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose (before lunch)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{7.4 mmol/L (133 mg/dL)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Client statement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{“Once the scabs are gone, any burning that's left doesn't mean anything, so I won't bother anyone about it.”|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Client statement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{“After I recover, I should ask my doctor about the two-dose shingles vaccine.”}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Client statement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{“I'll keep washing my hands and I won't rub my eye.”}</td></tr></tbody></table>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c2_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
+            },
+            {
+              "id": "c2_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9 &deg;C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
+            },
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
+            {
+              "id": "c2_notes2",
+              "title": "Nurses' Notes 1400",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Admitted for IV antiviral therapy. Ophthalmology confirmed left-eye involvement and prescribed topical eye medications. Lesions remain confined to the left forehead, scalp, upper eyelid, and nose tip; assessment for dissemination is in progress. Pain 8/10. Daughter asks whether she can bring the baby to visit this evening. Admission creatinine 78 µmol/L (0.88 mg/dL).</span></p>"
+            },
+            {
+              "id": "c2_orders",
+              "title": "Provider Orders",
+              "content": "<ul><li>Airborne and contact precautions (airborne infection isolation room) until disseminated disease is ruled out</li><li>Acyclovir 600 mg (10 mg/kg) IV every 8 hours, infuse over 1 hour</li><li>0.9% sodium chloride IV at 75 mL/h</li><li>Strict intake and output; serum creatinine daily</li><li>Acetaminophen 650 mg PO every 6 hours</li><li>Oxycodone 5 mg PO every 4 hours PRN severe pain</li><li>Mupirocin 2% ointment to crusted skin lesions twice daily (not for eye)</li><li>Ophthalmic medications per ophthalmology</li><li>Continue prednisone 7.5 mg PO daily; methotrexate on hold per rheumatology</li><li>Slit-lamp examination in eye clinic tomorrow 0900</li></ul>"
+            },
+            {
+              "id": "c2_notes3",
+              "title": "Nurses' Notes Day 4",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 4:</span><span class=\"nurse-note-text\">Dissemination was ruled out on day 2. The nurse reviews today's flowsheet and discharge teaching in preparation for possible discharge tomorrow.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
+        }
+      }
+    ],
+    "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+    "description": "A 72-year-old immunosuppressed female client with herpes zoster involving the left forehead, scalp, and eye, from the primary care clinic through hospitalization and discharge planning.",
+    "availability": "all"
+  },
+  {
+    "id": "case_1782390000008",
+    "unit": "Unit 5 (Integumentary Disorders and Burns)",
+    "title": "NURS 1017 Unit 5 Case Study 8",
+    "topic": "Unit 5 (Integumentary Disorders and Burns)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the ED flowsheet. <b>Highlight</b> the findings that require <b>immediate</b> follow-up.",
+          "type": "highlight",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+          "explanation": "Impaired thermoregulation (temperature 35.6 °C) results when the skin barrier is almost completely lost; the nurse monitors temperature and provides warming measures in erythroderma. Tachycardia and hypotension with an orthostatic drop reflect hemodynamic instability from fluid loss through the damaged skin -- hemodynamic stability is the priority in erythroderma. Only 100 mL of dark, concentrated urine in 8 hours (about 0.14 mL/kg/h in a 92-kg client) shows oliguria from hypovolemia. Erythema over about 90% of the body meets the chapter's definition of generalized exfoliative dermatitis (erythroderma), a life-threatening condition managed in hospital. Low potassium and magnesium are replaced; both raise dysrhythmia risk, and heavy alcohol use contributes to low magnesium. A creatinine risen from a baseline of 84 to 132 µmol/L suggests prerenal acute kidney injury from hypovolemia. An albumin of 26 g/L reflects protein loss through the shedding, inflamed skin; this explains the ankle edema and lowers oncotic pressure. A normal respiratory rate and SpO2 argue against a respiratory cause for these findings. Nail pitting is a chronic finding of nail psoriasis, not urgent. An elevated ESR is expected with psoriatic inflammation and is monitored, but does not require immediate action on its own. Mild anemia and a normal ALT are not immediately dangerous; the ALT is a useful baseline before starting systemic therapy.",
+          "highlightTabs": [
+            {
+              "id": "c3_ht1",
+              "title": "ED Flowsheet",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Finding</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{35.6 °C|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{116/min|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{96/58 mm Hg lying; 80/50 mm Hg standing, with dizziness|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory rate / SpO2</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{18/min / 97% room air}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{100 mL of dark amber urine in the past 8 hours|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Skin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{Bright erythema with scaling and peeling over approximately 90% of the body, including palms and soles|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Nails</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{Pitting and ridging of several fingernails}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{3.1 mmol/L (3.5&ndash;5.0)|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Magnesium</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{0.62 mmol/L (0.70&ndash;1.00)|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{132 µmol/L (1.49 mg/dL); 84 µmol/L three months ago|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Albumin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{26 g/L (2.6 g/dL) (35&ndash;50 g/L)|correct}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ESR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{48 mm/h (0&ndash;20)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{124 g/L (135&ndash;175)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>ALT</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">{34 U/L (7&ndash;56)}</td></tr></tbody></table>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c3_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+            },
+            {
+              "id": "c3_notes",
+              "title": "Nurses' Notes",
+              "content": ""
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma)."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client's hypotension and tachycardia are most likely caused by [[drop0]] as evidenced by [[drop1]]. His temperature of 35.6 °C is most likely due to [[drop2]]. The bilateral ankle edema is most likely related to [[drop3]]. The flare was most likely triggered by [[drop4]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "fluid loss through the widely inflamed, shedding skin",
+                    "correct": true
+                  },
+                  {
+                    "text": "cardiogenic shock",
+                    "correct": false
+                  },
+                  {
+                    "text": "methotrexate toxicity",
+                    "correct": false
+                  },
+                  {
+                    "text": "anaphylaxis to prednisone",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output",
+                    "correct": true
+                  },
+                  {
+                    "text": "the nail pitting and ridging",
+                    "correct": false
+                  },
+                  {
+                    "text": "the ESR of 48 mm/h",
+                    "correct": false
+                  },
+                  {
+                    "text": "the SpO2 of 97%",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "heat loss through widespread, dilated skin blood vessels",
+                    "correct": true
+                  },
+                  {
+                    "text": "hypothyroidism",
+                    "correct": false
+                  },
+                  {
+                    "text": "alcohol withdrawal",
+                    "correct": false
+                  },
+                  {
+                    "text": "a normal evening drop in body temperature",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "a low serum albumin from protein loss through the skin",
+                    "correct": true
+                  },
+                  {
+                    "text": "fluid overload from IV fluids",
+                    "correct": false
+                  },
+                  {
+                    "text": "right-sided heart failure",
+                    "correct": false
+                  },
+                  {
+                    "text": "bilateral deep vein thrombosis",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress",
+                    "correct": true
+                  },
+                  {
+                    "text": "a new laundry detergent",
+                    "correct": false
+                  },
+                  {
+                    "text": "a recent streptococcal throat infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "too much sun exposure",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ],
+            "scoreGroups": [
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+          "explanation": "In erythroderma the skin barrier is almost completely absent, so the patient loses fluid rapidly through the skin. The orthostatic drop, dry mucosa, and low, concentrated urine output confirm volume depletion; a normal SpO2 and clear lungs argue against a cardiopulmonary cause, and there is no allergen exposure suggesting anaphylaxis. Inflamed, vasodilated skin over 90% of the body loses heat rapidly; the chapter directs frequent temperature monitoring with warming or cooling as needed. The client has not stopped drinking long enough for significant withdrawal, and alcohol withdrawal tends to raise, not lower, temperature. An albumin of 26 g/L shows protein loss through scaling and exudation; low oncotic pressure lets fluid shift into tissues even while the client is intravascularly depleted, and IV fluids have not yet been given. The chapter lists stress and excessive alcohol as psoriasis triggers and notes psoriasis is a contributing cause of erythroderma. Abruptly stopping systemic therapy and withdrawal of systemic corticosteroids are well-recognized triggers of erythrodermic flares. A streptococcal infection classically triggers guttate psoriasis; detergents trigger contact dermatitis, not this presentation."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c3_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+            },
+            {
+              "id": "c3_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma)."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The priority nursing hypothesis at this time is [[drop0]] because [[drop1]]. Once this is addressed, the nurse's next priority is [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "risk for hemodynamic instability related to fluid and electrolyte loss",
+                    "correct": true
+                  },
+                  {
+                    "text": "impaired skin integrity",
+                    "correct": false
+                  },
+                  {
+                    "text": "disturbed body image",
+                    "correct": false
+                  },
+                  {
+                    "text": "deficient knowledge about medication adherence",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat",
+                    "correct": true
+                  },
+                  {
+                    "text": "psoriasis is an autoimmune disorder",
+                    "correct": false
+                  },
+                  {
+                    "text": "the client stopped taking methotrexate",
+                    "correct": false
+                  },
+                  {
+                    "text": "the ESR is elevated",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "impaired skin integrity",
+                    "correct": true
+                  },
+                  {
+                    "text": "disturbed body image",
+                    "correct": false
+                  },
+                  {
+                    "text": "deficient knowledge",
+                    "correct": false
+                  },
+                  {
+                    "text": "ineffective coping",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+          "explanation": "For ordinary psoriasis, impaired skin integrity is the priority. Once the disease becomes erythroderma, the priority shifts to hemodynamic instability, because the skin barrier is almost completely absent -- this is the key clinical-judgment shift in this case. That widespread loss of the skin barrier is the mechanism that makes erythroderma life-threatening; the other options are true facts but do not explain the immediate danger. Impaired skin integrity is the next hypothesis in erythroderma. Body image, knowledge, and coping are real needs for this client (he is tearful and isolating) and are addressed once he is physiologically stable, in keeping with the priority of physiological needs."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c3_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+            },
+            {
+              "id": "c3_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma)."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in the plan of care for the first 24 hours? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Administer IV isotonic fluids as prescribed",
+              "correct": true
+            },
+            {
+              "text": "Replace potassium and magnesium as prescribed, with cardiac monitoring",
+              "correct": true
+            },
+            {
+              "text": "Keep the room warm, apply warm blankets, and monitor temperature frequently",
+              "correct": true
+            },
+            {
+              "text": "Maintain strict intake and output and obtain a daily weight",
+              "correct": true
+            },
+            {
+              "text": "Provide lukewarm oatmeal soaks followed by a bland, oil-based emollient",
+              "correct": true
+            },
+            {
+              "text": "Administer the prescribed oral antihistamine, preferably at bedtime",
+              "correct": true
+            },
+            {
+              "text": "Monitor for alcohol withdrawal using a validated scale (e.g., CIWA-Ar)",
+              "correct": true
+            },
+            {
+              "text": "Restrict oral fluids to 1 L/day to reduce the ankle edema",
+              "correct": false
+            },
+            {
+              "text": "Apply coal tar ointment to all reddened skin",
+              "correct": false
+            },
+            {
+              "text": "Arrange an ultraviolet phototherapy session for tomorrow",
+              "correct": false
+            },
+            {
+              "text": "Use hot water and a washcloth to scrub off loose scale",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+          "explanation": "Adequate hydration through IV fluid replacement maintains hemodynamic stability. Potassium, magnesium, and calcium are replaced when indicated; low potassium and magnesium raise dysrhythmia risk, so cardiac monitoring is prudent. Temperature monitoring with warming measures as needed addresses impaired thermoregulation. Strict intake and output and daily weight track the response to fluid replacement and ongoing losses. Oatmeal baths are recommended for erythroderma, and oil-based emollients are recommended for psoriasis; lukewarm water avoids further vasodilation and heat loss. Oral antihistamines (for example, diphenhydramine) are listed for itching in erythroderma; bedtime dosing uses the sedating effect, with supervision for getting up because of orthostatic hypotension. He reports 6 to 8 drinks a day; withdrawal can begin within 6 to 24 hours of the last drink and worsens hemodynamic instability. The edema comes from low albumin while the client is intravascularly depleted; restricting fluids would worsen hypotension and kidney injury. Coal tar is a treatment for mild, localized psoriasis; on inflamed, broken skin over 90% of the body it is irritating and can worsen erythroderma. Ultraviolet phototherapy is used for more stable psoriasis; ultraviolet exposure to acutely inflamed skin can aggravate erythroderma, and he is unstable. Friction and heat from hot water scrubbing further damage the fragile barrier, increase heat and fluid loss, and invite infection."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c3_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+            },
+            {
+              "id": "c3_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma)."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for the client on hospital day 3.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Confirm that the TB and hepatitis screening results are documented before the first infliximab infusion",
+                "correctIndex": 0
+              },
+              {
+                "text": "Monitor vital signs and observe for an infusion reaction (fever, chills, dyspnea, hives) during and after the infusion",
+                "correctIndex": 0
+              },
+              {
+                "text": "Teach the client to report fever, cough, night sweats, or signs of skin infection promptly",
+                "correctIndex": 0
+              },
+              {
+                "text": "Advise the client to get any overdue live vaccines (e.g., MMR) now that infusions are starting",
+                "correctIndex": 1
+              },
+              {
+                "text": "Explain that the infusions can be stopped once his skin clears",
+                "correctIndex": 1
+              },
+              {
+                "text": "Refer the client to a social worker for drug-coverage options and to a psoriasis support group or counselling",
+                "correctIndex": 0
+              },
+              {
+                "text": "Teach stress-reduction strategies and support his plan to reduce alcohol intake",
+                "correctIndex": 0
+              },
+              {
+                "text": "Encourage long, hot showers to soften and remove scale",
+                "correctIndex": 1
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Finding / Action"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 2 &mdash; Medical Unit, Hospital Day 3.",
+          "explanation": "For systemic and biologic therapy (infliximab is named), the nurse monitors for serious infections such as tuberculosis and hepatitis. TNF inhibitors can reactivate latent TB and hepatitis B, so screening must be confirmed first. Infliximab can cause infusion reactions. Suppressed immunity makes infection more likely and directs teaching about worsening redness, swelling, or discharge. Live vaccines are avoided during biologic immunosuppression; needed vaccines should be given before therapy starts, per prescriber. Psoriasis is chronic with remission and relapse; the nurse reinforces adherence rather than suggesting therapy can simply be stopped once the skin clears -- stopping therapy is what precipitated this admission. Addressing the root cause of non-adherence (lost drug coverage) and the psychosocial impact matters: support groups and social work are appropriate for coping and financial concerns. Education to avoid triggers, including stress and excessive alcohol, and stress-reduction techniques are directed. Heat and prolonged water exposure dry and irritate the skin and promote heat and fluid loss; lukewarm soaks followed by emollients are appropriate instead."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c3_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+            },
+            {
+              "id": "c3_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+            },
+            {
+              "id": "c3_notes2",
+              "title": "Nurses' Notes Day 3",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88/min, temperature 36.9 °C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
+            },
+            {
+              "id": "c3_screening",
+              "title": "Screening Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Interferon-gamma release assay (TB)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis B surface antigen / core antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative / Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis C antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest x-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">No acute findings</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma)."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding on hospital day 7, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "BP 124/78 mm Hg and HR 82/min, with no orthostatic change",
+                "correctIndex": 0
+              },
+              {
+                "text": "Temperature 36.8 °C",
+                "correctIndex": 0
+              },
+              {
+                "text": "Potassium 4.1 mmol/L; magnesium 0.84 mmol/L",
+                "correctIndex": 0
+              },
+              {
+                "text": "Erythema reduced to about 40% of the body; less peeling; itch rated 3/10",
+                "correctIndex": 0
+              },
+              {
+                "text": "Excoriation on the right shin now has a honey-coloured crust with surrounding redness and warmth",
+                "correctIndex": 1
+              },
+              {
+                "text": "Alcohol withdrawal scores 0–2 for the past 72 hours",
+                "correctIndex": 0
+              },
+              {
+                "text": "Client states: “If my skin stays clear, I'll just skip the next infusion.”",
+                "correctIndex": 1
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding / Action"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
+          "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 7.",
+          "explanation": "Stable blood pressure and heart rate meet the expected outcome of vital signs within normal limits without fluid imbalance. A normal temperature shows thermoregulation restored. Normal potassium and magnesium show no electrolyte disturbance. The chapter expects the skin to begin healing with decreased peeling and itching. A honey-coloured crust with surrounding redness and warmth is a classic sign of secondary bacterial infection (impetigo-like); the chapter notes yellow crusts over excoriations signal infection -- notify the provider; topical mupirocin is commonly prescribed, and infection risk is higher on a biologic. Low withdrawal scores show withdrawal was prevented or managed. Planning to skip the next infusion once the skin clears shows the adherence teaching has not been understood; the chapter directs the nurse to evaluate education and reinforce continuing treatment."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "c3_hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">54-year-old male with plaque psoriasis for 20 years, managed by a dermatologist with methotrexate once weekly. Stopped methotrexate 6 weeks ago after being laid off and losing his drug coverage. Since then drinks “6 to 8 beers a day.” Two weeks ago a walk-in clinic prescribed a short course of oral prednisone for a flare; he finished it 5 days ago. Father has psoriasis. Weight 92 kg.</span></p>"
+            },
+            {
+              "id": "c3_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2140:</span><span class=\"nurse-note-text\">Over the past 3 days redness spread over “my whole body”; skin peeling in sheets; intense itching and burning; shaking chills; “I can't get warm.” Dizzy when standing. Diffuse bright erythema with fine scaling and peeling over approximately 90% of the body, including palms and soles. Oral mucosa dry. Bilateral 2+ pitting ankle edema. Several fingernails pitted and ridged. Excoriations on both forearms. Client is tearful: “I've stopped leaving the house. People stare.”</span></p>"
+            },
+            {
+              "id": "c3_notes2",
+              "title": "Nurses' Notes Day 3",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88/min, temperature 36.9 °C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
+            },
+            {
+              "id": "c3_screening",
+              "title": "Screening Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Interferon-gamma release assay (TB)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis B surface antigen / core antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative / Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hepatitis C antibody</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest x-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">No acute findings</td></tr></tbody></table>"
+            },
+            {
+              "id": "c3_notes3",
+              "title": "Nurses' Notes Day 7",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 7:</span><span class=\"nurse-note-text\">First infliximab infusion completed on day 3 without reaction. The nurse reviews today's findings before discharge planning.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old male client with plaque psoriasis progressing to generalized exfoliative dermatitis (erythroderma)."
+        }
+      }
+    ],
+    "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+    "description": "A 54-year-old male client with 20 years of plaque psoriasis who progresses to generalized exfoliative dermatitis (erythroderma) after stopping methotrexate, from the emergency department through biologic therapy and discharge planning.",
+    "availability": "all"
+  },
+  {
+    "id": "case_1786010000001",
+    "unit": "Unit 1 (Blood Disorders)",
+    "title": "NURS 1021 Unit 1 Case Study 1",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which client findings would be of <b>immediate</b> concern to the nurse? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Painful right lower leg",
+              "correct": true
+            },
+            {
+              "text": "Reddened, warm, and swollen right lower leg",
+              "correct": true
+            },
+            {
+              "text": "Unable to ambulate without leg pain",
+              "correct": true
+            },
+            {
+              "text": "Pedal pulses in both feet 1+",
+              "correct": false
+            },
+            {
+              "text": "H/O type 2 diabetes mellitus",
+              "correct": false
+            },
+            {
+              "text": "DVT 10 years ago after a total knee arthroplasty",
+              "correct": false
+            },
+            {
+              "text": "Hypercholesterolemia controlled by lovastatin",
+              "correct": false
+            },
+            {
+              "text": "BP 178/92 mmHg",
+              "correct": true
+            },
+            {
+              "text": "SpO2 96% on RA",
+              "correct": false
+            },
+            {
+              "text": "Blood glucose 6.54 mmol/L (118 mg/dL)",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse reviews the 0825 nurses’ notes for a 71-year-old client who was admitted to the ED.",
+          "explanation": "The client presented to the ED with a painful, red, warm, and swollen right lower leg (Options 1, 2). The pain prevents the client from ambulating without pain (Option 3). All of these findings are of immediate concern to the nurse because the client could be experiencing a postoperative complication that could become life-threatening. The client's blood pressure is elevated (Option 8), which is also of immediate concern and needs to be addressed. The SpO2 of 96% is normal (95% and greater) and the blood glucose of 6.54 mmol/L (118 mg/dL) is within expected limits for this client and would not be of concern to the nurse. The client's history of diabetes mellitus and hypercholesterolemia are also not concerning at this time because they are being effectively managed. The client's history of DVT would be considered as a factor that could influence the treatment plan, but is not of immediate concern to the nurse. Although normal pedal pulses would be 2+ rather than 1+, the client is an older adult who has type 2 diabetes. Older adults often develop arteriosclerosis/atherosclerosis as physiological changes associated with aging. These arterial changes cause narrowing and decreased blood flow, resulting in diminished distal pulse strength. Peripheral arterial disease is a common vascular complication of diabetes that results in decreased circulation to distal extremities. Pedal pulses are 1+ bilaterally, indicating that the client's right lower leg swelling is not affecting perfusion at this time. Therefore, diminished pedal pulses are not of immediate concern to the nurse."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_dvt_pe",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT)."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each client finding below, click to specify if the finding is consistent with the disease process of deep vein thrombosis, peripheral arterial disease, or both. Each finding may support more than 1 disease process.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Painful right lower leg",
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "Reddened, warm right lower leg",
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Both feet cool",
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Pedal pulses 1+ in both feet",
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Swollen right lower leg",
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "H/O type 2 diabetes mellitus",
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Deep Vein Thrombosis",
+              "Peripheral Arterial Disease"
+            ],
+            "firstColumnHeader": "Client Finding"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse reviews the 0825 nurses’ notes for a 71-year-old client who was admitted to the ED.",
+          "explanation": "Deep vein thrombosis (DVT) is the presence of one or more venous clots in the lower extremities, and is a common complication after major surgery. Venous return slows as a result of decreased mobility and positioning during surgery, leading to venous stasis and eventually clot formation. The most common symptoms of DVT are pain, redness, warmth, and swelling, indications of venous inflammation. Most clients who have diabetes mellitus have vascular complications, such as peripheral arterial disease (PAD), which decreases arterial blood flow to distal tissues. Decreased tissue perfusion typically results in cool, pale distal extremities, especially in the feet, and diminished distal pulses. Many clients experience claudication and other painful sensations in the lower extremities, so pain can be a feature of both DVT and PAD, while redness/warmth/swelling point specifically to DVT and cool skin, diminished pulses, and the vascular effects of diabetes point specifically to PAD."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_dvt_pe",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT)."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentence from the list of options provided.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse determines that the priority for the client receiving continuous heparin is to monitor for [[drop0]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "Hemorrhage",
+                    "correct": true
+                  },
+                  {
+                    "text": "Hyperkalemia",
+                    "correct": false
+                  },
+                  {
+                    "text": "Acute ischemic stroke",
+                    "correct": false
+                  },
+                  {
+                    "text": "Acute kidney injury",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse reviews the ED notes to begin to plan care for a 71-year-old client.",
+          "explanation": "The client has a confirmed DVT for which a continuous heparin infusion was ordered. Unfractionated heparin is an anticoagulant that works rapidly by combining with antithrombin III to prevent thrombin formation. As a result, fibrinogen does not convert to fibrin, and a fibrin clot is not formed. Heparin is being administered to this client to prevent extension of the existing DVT and to prevent additional clot formation. Clients need to be monitored for hemorrhage, including observation for signs of GI bleeding, ecchymosis (bruising), petechiae, and hematuria. The client's aPTT is monitored as a basis for drug dosing management."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_dvt_pe",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT)."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which of the following statements, if made by the nurse, would indicate appropriate health teaching? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“You can expect to have your blood drawn often to monitor your INR level as the basis for how much heparin you receive each day.”",
+              "correct": false
+            },
+            {
+              "text": "“We will test your stools for any microscopic blood that could indicate we need to stop or slow your heparin infusion.”",
+              "correct": true
+            },
+            {
+              "text": "“In a few days your medication will likely be switched to a different drug that can be given by injection once or twice a day.”",
+              "correct": true
+            },
+            {
+              "text": "“The doctor wants you to have IV heparin now because you have a history of developing DVT.”",
+              "correct": true
+            },
+            {
+              "text": "“Please let us know if you feel any chest discomfort or start having shortness of breath.”",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse on the medical unit reviews the nurses’ notes from the ED and plans health teaching for a 71-year-old client receiving continuous IV heparin infusion for right lower leg DVT.",
+          "explanation": "Many clients who experience a DVT are started on a low-molecular-weight heparin (LMWH). However, this client has a history of DVT and is therefore receiving a continuous heparin infusion for initial management. Unfractionated heparin is an anticoagulant that works rapidly by combining with antithrombin III to prevent thrombin formation. As a result, fibrinogen does not convert to fibrin, and a fibrin clot is not formed. Heparin is being administered to this client to prevent enlargement of the current DVT and prevent additional clot formation. Clients should be monitored for hemorrhage, including observation for signs of GI bleeding, ecchymosis (bruising), petechiae, and hematuria. Therefore, the client's stools and urine may be tested for occult (microscopic) blood to detect early signs of bleeding. The client's aPTT is monitored as a basis for drug dosing management. INR is monitored for clients receiving warfarin and is therefore an incorrect response. If the client's condition begins to improve, the client will likely receive heparin for 3 days and then be switched to an LMWH that can be administered once or twice daily by injection; this drug does not require lab monitoring. While being treated for DVT, the client should be closely monitored for indications that a piece of the thrombus has become dislodged and caused an embolus, most often a pulmonary embolus (PE). Most clients have chest discomfort or shortness of breath when a PE occurs. The nurse would teach the client to report either or both of these symptoms as soon as they occur so that treatment can be initiated. Embolic complications can be life-threatening."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_dvt_pe",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p><div><b>Medical Unit</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1152:</span><span class=\"nurse-note-text\">Admitted to medical unit with continuous heparin infusing at 1,323 units/h for right leg DVT. Alert and oriented. Current VS: T 36.7° C (98° F); HR 82 BPM; RR 16 bpm; BP 164/90 mmHg; SpO2 97% on RA.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT)."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which of the following actions should the nurse take? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Respiratory: Initiate continuous pulse oximetry monitoring.",
+              "correct": true
+            },
+            {
+              "text": "Respiratory: Administer oxygen therapy via nasal cannula.",
+              "correct": true
+            },
+            {
+              "text": "Respiratory: Use incentive spirometry every 2 hours.",
+              "correct": false
+            },
+            {
+              "text": "Respiratory: Assess lung sounds at least every shift.",
+              "correct": false
+            },
+            {
+              "text": "Respiratory: Elevate the head of the bed.",
+              "correct": true
+            },
+            {
+              "text": "Cardiovascular: Prepare to administer IV crystalloid such as lactated Ringer’s.",
+              "correct": true
+            },
+            {
+              "text": "Cardiovascular: Assess vital signs at least hourly.",
+              "correct": true
+            },
+            {
+              "text": "Cardiovascular: Prepare client for CT scan of the chest.",
+              "correct": true
+            },
+            {
+              "text": "Neurological: Monitor level of consciousness.",
+              "correct": true
+            },
+            {
+              "text": "Neurological: Perform neurological checks every 4 hours.",
+              "correct": false
+            },
+            {
+              "text": "Neurological: Provide reassurance to the client.",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse on the medical unit is preparing to perform the initial shift assessment for the client receiving continuous IV heparin infusion for right lower leg DVT.",
+          "explanation": "The client has shortness of breath and a low SpO2, for which the nurse would raise the head of the client's bed and immediately start oxygen therapy, along with continuous pulse oximetry monitoring to track the client's oxygenation closely. Lung sounds need to be monitored frequently, at least every 30 to 60 minutes; therefore, a respiratory assessment only every shift is insufficient and is not an appropriate action. Incentive spirometry (IS) is used to expand the lungs and prevent alveolar collapse; this client has one or more clots in a pulmonary blood vessel and would not likely benefit from the IS. The client's blood pressure markedly decreased, causing the heart rate to increase. An IV crystalloid such as lactated Ringer's solution would help increase blood volume and the client's blood pressure; if the BP continues to decrease, a vasopressor such as dobutamine may be ordered. Vital signs are monitored frequently, at least hourly, and the client needs to be prepared for a CT scan or CT angiogram to confirm the PE. Although the nurse does not need to perform a formal neurological assessment every 4 hours, the client's level of consciousness needs to be monitored due to the decreasing blood pressure and possible hemoptysis (cough with blood-streaked sputum) that can occur in some clients who have a PE. Providing reassurance to the client will assist in managing anxiety and will aid in promoting recovery. This item is flagged for clinician review: continuous pulse oximetry monitoring was not explicitly addressed in the original rationale and is included here as a reasonable extension of “immediately start oxygen therapy” for a client with a new, significant desaturation."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_dvt_pe",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p><div><b>Medical Unit</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1152:</span><span class=\"nurse-note-text\">Admitted to medical unit with continuous heparin infusing at 1,323 units/h for right leg DVT. Alert and oriented. Current VS: T 36.7° C (98° F); HR 82 BPM; RR 16 bpm; BP 164/90 mmHg; SpO2 97% on RA.</span></p><div><b>Day 2</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0700:</span><span class=\"nurse-note-text\">Nurse begins the initial shift assessment. Client reports that chest discomfort started about 1 hour ago, with mild shortness of breath, and states feeling very anxious. Current VS: T 36.7° C (98° F); HR 102 BPM; RR 20 bpm; BP 98/62 mmHg; SpO2 90% on RA.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT)."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each assessment finding, click to specify if the client’s condition has improved or is not improved when comparing the current finding to the finding from 2 days ago.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Chest discomfort → No chest discomfort",
+                "correctIndex": 0
+              },
+              {
+                "text": "Shortness of breath → Occasional shortness of breath",
+                "correctIndex": 0
+              },
+              {
+                "text": "Very anxious → Very anxious",
+                "correctIndex": 1
+              },
+              {
+                "text": "HR 102 BPM → HR 80 BPM",
+                "correctIndex": 0
+              },
+              {
+                "text": "BP 98/62 mmHg → BP 124/76 mmHg",
+                "correctIndex": 0
+              },
+              {
+                "text": "SpO2 90% on RA → SpO2 95% on RA",
+                "correctIndex": 0
+              }
+            ],
+            "columns": [
+              "Improving",
+              "Not Improving"
+            ],
+            "firstColumnHeader": "Assessment Finding (2 Days Ago → Today)"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse is assigned to care for a 71-year-old client who was admitted to the medical unit 3 days ago for DVT of the lower right leg. Two days ago, the client experienced a submassive pulmonary embolus, causing chest discomfort, shortness of breath, and hypotension; it was confirmed by imaging and treated immediately. Before assessing the client, the nurse reviews the nurses’ notes from the last shift, and then compares the client’s current findings with findings 2 days ago.",
+          "explanation": "All of the current assessment findings indicate that the client's condition has improved except the report of feeling very anxious. Anxiety is a common problem for clients experiencing shortness of breath or breathlessness, which creates fear. Fearful situations then trigger a sympathetic response, which can worsen breathing problems. Currently the client is experiencing only occasional shortness of breath and no chest discomfort. Current vital signs are all within normal range, demonstrating that the client's condition has improved."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_dvt_pe",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0825:</span><span class=\"nurse-note-text\">Client brought to ED by partner with report of painful right lower leg that is reddened, warm, and swollen. Unable to ambulate without leg pain. Pedal pulses in both feet 1+; both feet cool. Alert and oriented x 3. Client discharged from hospital 2 weeks ago after having a colon resection for stage 2 colorectal cancer. Abdominal incision approximated and healing; no redness or drainage. H/O type 2 diabetes mellitus now controlled by diet and exercise after recent weight loss of 31.7 kg (70 lb), DVT 10 years ago after total knee arthroplasty, and hypercholesterolemia controlled by lovastatin. Current weight is 73.5 kg (162 lb). Current VS: T 36.7° C (98° F); HR 80 BPM; RR 18 bpm; BP 178/92 mmHg; SpO2 96% on RA; blood glucose 6.54 mmol/L (118 mg/dL).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1010:</span><span class=\"nurse-note-text\">Stat blood work drawn and sent to lab. Right leg elevated on two pillows.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1055:</span><span class=\"nurse-note-text\">Ultrasound-confirmed DVT in right lower leg. After heparin 5,880-unit bolus administered, continuous IV heparin infusion started in left forearm at 1,323 units/h per protocol. Prepared for transfer to medical unit.</span></p><div><b>Medical Unit</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1152:</span><span class=\"nurse-note-text\">Admitted to medical unit with continuous heparin infusing at 1,323 units/h for right leg DVT. Alert and oriented. Current VS: T 36.7° C (98° F); HR 82 BPM; RR 16 bpm; BP 164/90 mmHg; SpO2 97% on RA.</span></p><div><b>Day 2</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0700:</span><span class=\"nurse-note-text\">Nurse begins the initial shift assessment. Client reports that chest discomfort started about 1 hour ago, with mild shortness of breath, and states feeling very anxious. Current VS: T 36.7° C (98° F); HR 102 BPM; RR 20 bpm; BP 98/62 mmHg; SpO2 90% on RA.</span></p><div><b>Day 4</b></div><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0645:</span><span class=\"nurse-note-text\">Oxygen therapy discontinued last evening. Current VS: T 36.9° C (98.4° F); HR 80 BPM; RR 18 bpm; BP 124/76 mmHg; SpO2 95% on RA. Lung sounds clear in all fields; no adventitious sounds. Occasional shortness of breath, but no chest discomfort; states still feeling very anxious. S1 S2 present. Bowel sounds present in all quadrants. Heparin infusion at 1,323 units/h in left forearm. Occult blood negative in morning stool; no bleeding or bruising. Heparin infusing per protocol. Client to start enoxaparin this afternoon after blood work.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 71-year-old client with a right lower leg deep vein thrombosis (DVT)."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "A 71-year-old client develops a right lower leg deep vein thrombosis (DVT) that progresses to a submassive pulmonary embolism, from recognize cues through evaluate outcomes.",
+    "availability": "all"
+  },
+  {
+    "id": "case_1786030000001",
+    "unit": "Unit 3 (Respiratory Disorders)",
+    "title": "NURS 1021 Unit 3 Case Study 1",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Select the 4 client findings that require <b>immediate</b> follow-up.",
+          "type": "select_n",
+          "limit": 4,
+          "options": [
+            {
+              "text": "vital signs",
+              "correct": true
+            },
+            {
+              "text": "lung sounds",
+              "correct": true
+            },
+            {
+              "text": "capillary refill",
+              "correct": false
+            },
+            {
+              "text": "client orientation",
+              "correct": false
+            },
+            {
+              "text": "radial pulse characteristics",
+              "correct": true
+            },
+            {
+              "text": "characteristics of the cough",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "",
+          "explanation": "The vital signs require follow-up: a fever of 101.1&deg;F and a pulse oximetry reading of 94% despite supplemental oxygen both signal an active, worsening process. The lung sounds require follow-up: coarse bilateral crackles are consistent with pneumonia. The radial pulse characteristics require follow-up: an irregular pulse could reflect the client's known atrial fibrillation becoming unstable under physiologic stress. The characteristics of the cough require follow-up: greenish (purulent) sputum points to a bacterial respiratory infection. Capillary refill of 3 seconds is only borderline/minimally delayed and does not clearly require immediate follow-up. Client orientation is documented as intact (alert and oriented to person, place, and time) on this assessment, even though the adult child reports occasional confusion historically; the current objective finding is normal."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_case3",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client was brought to the ED by the client's adult child due to increased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was hospitalized for issues with atrial fibrillation 6 days ago. History of hypertension. Vital signs: T 101.1&deg; F (38.4&deg; C), P 92, RR 22, BP 152/86, pulse oximetry reading 94% on oxygen at 2 L/min via nasal cannula. On assessment, the client's breathing appears slightly labored, and coarse crackles (rales) are noted in the bilateral lung bases. Skin slightly cool to touch and pale pink in tone; pulses 3+ and irregular. Capillary refill is 3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous access device (VAD) placed in right forearm.</span></div>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 78-year-old female client."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each client finding below, click to specify if the finding is consistent with the disease process of pneumonia, a urinary tract infection (UTI), or influenza. Each finding may support more than 1 disease process.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "fever",
+                "correctIndices": [
+                  0,
+                  1,
+                  2
+                ]
+              },
+              {
+                "text": "confusion",
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "body soreness",
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "cough and sputum",
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "shortness of breath",
+                "correctIndices": [
+                  0,
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Pneumonia",
+              "Urinary Tract Infection",
+              "Influenza"
+            ],
+            "firstColumnHeader": "Client Findings"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "",
+          "explanation": "Fever is a nonspecific sign of infection consistent with all 3 processes. Confusion in an older adult is a classic atypical presentation of a UTI and can also occur with pneumonia through hypoxia or a systemic inflammatory response, but is not a hallmark influenza finding. Body soreness (myalgia) is a hallmark influenza symptom and is not characteristic of pneumonia or a UTI. Cough with purulent (greenish) sputum is characteristic of bacterial pneumonia; influenza classically causes a dry cough, and a UTI does not cause cough. Shortness of breath is consistent with pneumonia (the primary respiratory process) and can occur with influenza (especially with complications), but is not a UTI finding."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_case3",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client was brought to the ED by the client's adult child due to increased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was hospitalized for issues with atrial fibrillation 6 days ago. History of hypertension. Vital signs: T 101.1&deg; F (38.4&deg; C), P 92, RR 22, BP 152/86, pulse oximetry reading 94% on oxygen at 2 L/min via nasal cannula. On assessment, the client's breathing appears slightly labored, and coarse crackles (rales) are noted in the bilateral lung bases. Skin slightly cool to touch and pale pink in tone; pulses 3+ and irregular. Capillary refill is 3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous access device (VAD) placed in right forearm.</span></div>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 78-year-old female client."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentence by choosing from the list of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client is at highest risk for developing [[drop0]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "stroke",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypoxia",
+                    "correct": false
+                  },
+                  {
+                    "text": "dysrhythmias",
+                    "correct": true
+                  },
+                  {
+                    "text": "a pulmonary embolism",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "",
+          "explanation": "The client has a recent history of atrial fibrillation, and the physiologic stress of an acute infection (fever, hypoxia, tachycardia) commonly destabilizes an existing arrhythmia or provokes a new one, making dysrhythmias the highest risk. Hypoxia, stroke, and pulmonary embolism are all plausible general risks for an acutely ill older adult, but none is as directly tied to this client's specific known cardiac history as a dysrhythmia is."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_case3",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client was brought to the ED by the client's adult child due to increased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was hospitalized for issues with atrial fibrillation 6 days ago. History of hypertension. Vital signs: T 101.1&deg; F (38.4&deg; C), P 92, RR 22, BP 152/86, pulse oximetry reading 94% on oxygen at 2 L/min via nasal cannula. On assessment, the client's breathing appears slightly labored, and coarse crackles (rales) are noted in the bilateral lung bases. Skin slightly cool to touch and pale pink in tone; pulses 3+ and irregular. Capillary refill is 3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous access device (VAD) placed in right forearm.</span></div>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 78-year-old female client."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each potential nursing intervention, click to specify whether the intervention is indicated or not indicated for the care of the client.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Prepare the client for defibrillation.",
+                "correctIndex": 1
+              },
+              {
+                "text": "Place client in a semi-Fowler's position.",
+                "correctIndex": 0
+              },
+              {
+                "text": "Request an order to increase the oxygen flow rate.",
+                "correctIndex": 0
+              },
+              {
+                "text": "Request an order to insert an additional peripheral VAD.",
+                "correctIndex": 0
+              },
+              {
+                "text": "Request an order to administer an intravenous fluid bolus.",
+                "correctIndex": 0
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Not Indicated"
+            ],
+            "firstColumnHeader": "Potential Nursing Interventions"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1200.",
+          "explanation": "Defibrillation is not indicated: it treats pulseless ventricular fibrillation/tachycardia, and this client has a pulse and is not in cardiac arrest. A semi-Fowler's position is indicated to ease the client's work of breathing. Increasing the oxygen flow rate is indicated given the client's hypoxia (91% despite 2 L/min). An additional VAD is indicated to support anticipated fluids and IV medications. An intravenous fluid bolus is indicated given the client's new hypotension (90/62), tachycardia, and signs suggestive of early septic shock."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_case3",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client was brought to the ED by the client's adult child due to increased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was hospitalized for issues with atrial fibrillation 6 days ago. History of hypertension. Vital signs: T 101.1&deg; F (38.4&deg; C), P 92, RR 22, BP 152/86, pulse oximetry reading 94% on oxygen at 2 L/min via nasal cannula. On assessment, the client's breathing appears slightly labored, and coarse crackles (rales) are noted in the bilateral lung bases. Skin slightly cool to touch and pale pink in tone; pulses 3+ and irregular. Capillary refill is 3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous access device (VAD) placed in right forearm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Called to bedside by the adult child who states that the client “isn't acting right.” On assessment, client is difficult to arouse, pale, and diaphoretic. Vital signs: P 112, RR 32, BP 90/62, pulse oximetry reading 91% on 2 L/min via nasal cannula.</span></div>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 78-year-old female client."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Click to highlight the orders that the nurse should consider a priority.",
+          "type": "highlight",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has reviewed the Orders from 1215.",
+          "explanation": "The vancomycin, the normal saline bolus, and the blood culture/CBC/ABG labs form the core of a sepsis-bundle response to a client with a likely serious infection and new signs of shock: cultures should be drawn before (or essentially alongside) starting antibiotics, antibiotics should be given promptly, and fluids address the hypotension. The indwelling urethral catheter and the chest CT are reasonable orders but are not as time-critical as the sepsis-bundle interventions.",
+          "highlightTabs": [
+            {
+              "id": "ht_case3_s5",
+              "title": "Orders",
+              "content": "<p><b>Orders</b></p><p><b>1215:</b></p><ul><li>{insert an indwelling urethral catheter}</li><li>{vancomycin 1 g, IV, every 12 hours|correct}</li><li>{computed tomography (CT) scan of the chest}</li><li>{0.9% sodium chloride (normal saline) 500 mL, IV, once|correct}</li><li>{laboratory tests: blood culture and sensitivity (C &amp; S), complete blood count (CBC), arterial blood gas (ABG)|correct}</li></ul>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_case3",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client was brought to the ED by the client's adult child due to increased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was hospitalized for issues with atrial fibrillation 6 days ago. History of hypertension. Vital signs: T 101.1&deg; F (38.4&deg; C), P 92, RR 22, BP 152/86, pulse oximetry reading 94% on oxygen at 2 L/min via nasal cannula. On assessment, the client's breathing appears slightly labored, and coarse crackles (rales) are noted in the bilateral lung bases. Skin slightly cool to touch and pale pink in tone; pulses 3+ and irregular. Capillary refill is 3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous access device (VAD) placed in right forearm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Called to bedside by the adult child who states that the client “isn't acting right.” On assessment, client is difficult to arouse, pale, and diaphoretic. Vital signs: P 112, RR 32, BP 90/62, pulse oximetry reading 91% on 2 L/min via nasal cannula.</span></div>"
+            },
+            {
+              "id": "ord_case3",
+              "title": "Orders",
+              "content": "<p><b>Orders</b></p><p><b>1215:</b></p><ul><li>insert an indwelling urethral catheter</li><li>vancomycin 1 g, IV, every 12 hours</li><li>computed tomography (CT) scan of the chest</li><li>0.9% sodium chloride (normal saline) 500 mL, IV, once</li><li>laboratory tests: blood culture and sensitivity (C &amp; S), complete blood count (CBC), arterial blood gas (ABG)</li></ul>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 78-year-old female client."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each assessment finding, click to specify if the finding indicates that the client's condition has improved, not changed, or worsened.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "pale skin tone",
+                "correctIndex": 1
+              },
+              {
+                "text": "respirations, 36",
+                "correctIndex": 2
+              },
+              {
+                "text": "blood pressure, 118/68",
+                "correctIndex": 0
+              },
+              {
+                "text": "pulse oximetry reading 91%",
+                "correctIndex": 1
+              },
+              {
+                "text": "client interacting with adult child at bedside",
+                "correctIndex": 0
+              }
+            ],
+            "columns": [
+              "Improved",
+              "Not Changed",
+              "Worsened"
+            ],
+            "firstColumnHeader": "Assessment Findings"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "",
+          "explanation": "Compared to the 1200 assessment (P 112, RR 32, BP 90/62, pulse oximetry 91%, difficult to arouse, pale, diaphoretic), the blood pressure of 118/68 is improved (no longer hypotensive), and the client interacting with the adult child at the bedside is improved (previously difficult to arouse). Pale skin tone is not changed (still pale, as before). The pulse oximetry reading of 91% is not changed (identical to the 1200 value). Respirations of 36 are worsened (up from 32), showing the client's respiratory status remains a concern even as circulation and mental status are trending in the right direction."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_case3",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client was brought to the ED by the client's adult child due to increased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was hospitalized for issues with atrial fibrillation 6 days ago. History of hypertension. Vital signs: T 101.1&deg; F (38.4&deg; C), P 92, RR 22, BP 152/86, pulse oximetry reading 94% on oxygen at 2 L/min via nasal cannula. On assessment, the client's breathing appears slightly labored, and coarse crackles (rales) are noted in the bilateral lung bases. Skin slightly cool to touch and pale pink in tone; pulses 3+ and irregular. Capillary refill is 3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous access device (VAD) placed in right forearm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Called to bedside by the adult child who states that the client “isn't acting right.” On assessment, client is difficult to arouse, pale, and diaphoretic. Vital signs: P 112, RR 32, BP 90/62, pulse oximetry reading 91% on 2 L/min via nasal cannula.</span></div>"
+            },
+            {
+              "id": "ord_case3",
+              "title": "Orders",
+              "content": "<p><b>Orders</b></p><p><b>1215:</b></p><ul><li>insert an indwelling urethral catheter</li><li>vancomycin 1 g, IV, every 12 hours</li><li>computed tomography (CT) scan of the chest</li><li>0.9% sodium chloride (normal saline) 500 mL, IV, once</li><li>laboratory tests: blood culture and sensitivity (C &amp; S), complete blood count (CBC), arterial blood gas (ABG)</li></ul>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 78-year-old female client."
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Respiratory Disorders)",
+    "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 78-year-old female client with pneumonia and a history of atrial fibrillation, presenting with fever, cough, and confusion, progressing toward septic shock, from recognize cues through evaluate outcomes.",
+    "availability": "all"
+  },
+  {
+    "id": "case_1786060000002",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "NURS 1021 Unit 6 Case Study 2",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following assessment findings require <b>immediate</b> follow-up? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "lung sounds",
+              "correct": true
+            },
+            {
+              "text": "shoulder pain",
+              "correct": true
+            },
+            {
+              "text": "laboratory results",
+              "correct": true
+            },
+            {
+              "text": "productive cough",
+              "correct": false
+            },
+            {
+              "text": "abdominal assessment findings",
+              "correct": true
+            },
+            {
+              "text": "pulse, respirations, and blood pressure",
+              "correct": true
+            },
+            {
+              "text": "temperature and pulse oximetry reading",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "",
+          "explanation": "Diminished breath sounds in the left lung fields (Option 1) require follow-up, since combined with the trauma history they raise concern for a hemothorax. Left shoulder pain (Option 2) requires follow-up because it can represent Kehr's sign, referred pain from diaphragmatic irritation caused by bleeding from a splenic injury, not just the client's old rotator cuff history. The laboratory results (Option 3) require follow-up: the hemoglobin of 9 g/dL and hematocrit of 27% are well below normal, consistent with ongoing blood loss, and the WBC of 19,000/mm&sup3; reflects an acute inflammatory/traumatic response. The abdominal assessment findings (Option 5) require follow-up: LUQ bruising, tenderness, guarding, and dullness to percussion over the spleen's location are classic signs of splenic injury with possible intra-abdominal bleeding. The pulse, respirations, and blood pressure (Option 6) require follow-up because tachycardia (116), tachypnea (24), and hypotension (90/50) together are early signs of hypovolemic shock from blood loss. A productive cough (Option 4) is a nonspecific finding already reflected in the more specific lung sounds finding above, and the temperature and pulse oximetry reading (Option 7) are within normal limits and do not require follow-up."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "hp_case2",
+              "title": "History and Physical",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+            },
+            {
+              "id": "nn_case2",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div>"
+            },
+            {
+              "id": "vs_case2",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "lab_case2",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "Which of the following issues is the client at risk of developing? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "stroke",
+              "correct": false
+            },
+            {
+              "text": "hemothorax",
+              "correct": true
+            },
+            {
+              "text": "bowel perforation",
+              "correct": true
+            },
+            {
+              "text": "splenic laceration",
+              "correct": true
+            },
+            {
+              "text": "pulmonary embolism",
+              "correct": false
+            },
+            {
+              "text": "abdominal aortic aneurysm",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "",
+          "explanation": "Given blunt trauma to the left flank/rib cage with LUQ bruising, tenderness, diminished left breath sounds, tachycardia, and hypotension, the client is at risk for a splenic laceration (Option 4, the organ most often injured by blunt left-flank/rib trauma), a hemothorax (Option 2, given the diminished left lung sounds and chest discomfort with deep breathing), and bowel perforation (Option 3, a recognized complication of blunt abdominal trauma). A stroke (Option 1) is not a typical consequence of blunt torso trauma. A pulmonary embolism (Option 5) is not an immediate risk from this acute injury itself. An abdominal aortic aneurysm (Option 6) is a degenerative vascular condition that develops over time, not something caused by an acute traumatic injury."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "hp_case2",
+              "title": "History and Physical",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+            },
+            {
+              "id": "nn_case2",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div>"
+            },
+            {
+              "id": "vs_case2",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "lab_case2",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentence by choosing from the list of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse should first address the client's [[drop0]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "abdominal pain",
+                    "correct": false
+                  },
+                  {
+                    "text": "respiratory status",
+                    "correct": true
+                  },
+                  {
+                    "text": "laboratory results",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "",
+          "explanation": "The client's respiratory status is the priority using the airway-breathing-circulation framework: diminished left breath sounds, chest discomfort with deep inspiration, tachypnea (RR 24), and borderline pulse oximetry all point to a possible hemothorax compromising oxygenation, which is more immediately life-threatening than addressing abdominal pain or reviewing laboratory results, both of which are important but secondary once the airway and breathing are confirmed to be adequately supported."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "hp_case2",
+              "title": "History and Physical",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+            },
+            {
+              "id": "nn_case2",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div>"
+            },
+            {
+              "id": "vs_case2",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "lab_case2",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each potential order, click to specify whether the potential order is indicated or not indicated for the client.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "intravenous fluids",
+                "correctIndex": 0
+              },
+              {
+                "text": "serum type and screen",
+                "correctIndex": 0
+              },
+              {
+                "text": "chest percussion therapy",
+                "correctIndex": 1
+              },
+              {
+                "text": "insertion of a nasogastric (NG) tube",
+                "correctIndex": 0
+              },
+              {
+                "text": "administration of prescribed pain medication",
+                "correctIndex": 0
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Not Indicated"
+            ],
+            "firstColumnHeader": "Potential Orders"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1000.",
+          "explanation": "Intravenous fluids are indicated to begin resuscitating a client with signs of hypovolemic shock from a splenic laceration. A serum type and screen is indicated to prepare for a likely blood transfusion and anticipated surgery. Chest percussion therapy is not indicated: it is contraindicated with a hemothorax and recent rib trauma, since it can worsen bleeding and cause significant pain. Insertion of an NG tube is indicated given the client's abdominal fullness and nausea and the likelihood of surgery, to decompress the stomach and reduce aspiration risk. Administration of prescribed pain medication is indicated to treat the client's reported 6/10 pain."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "hp_case2",
+              "title": "History and Physical",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+            },
+            {
+              "id": "nn_case2",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div>"
+            },
+            {
+              "id": "vs_case2",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "lab_case2",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which of the following actions should the nurse take? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Mark the surgical site.",
+              "correct": true
+            },
+            {
+              "text": "Provide the client with ice chips.",
+              "correct": false
+            },
+            {
+              "text": "Perform a medication reconciliation.",
+              "correct": true
+            },
+            {
+              "text": "Obtain consent for surgery from the client.",
+              "correct": false
+            },
+            {
+              "text": "Insert a peripheral venous access device (VAD).",
+              "correct": true
+            },
+            {
+              "text": "Inform the client about the risks and benefits of the surgery.",
+              "correct": false
+            },
+            {
+              "text": "Assess the client's previous experience with surgery and anesthesia.",
+              "correct": true
+            },
+            {
+              "text": "Ask the client's parents to wait in the waiting room while the plan of care is discussed with the client.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1030.",
+          "explanation": "Marking the surgical site, performing a medication reconciliation, inserting a peripheral VAD, and assessing the client's previous experience with surgery and anesthesia are all standard nursing pre-operative preparation tasks. Providing ice chips is inappropriate because the client needs to be NPO before surgery. Obtaining consent and informing the client about the risks and benefits of the surgery are the surgeon's/prescriber's responsibility, not the nurse's, and legally a minor client's parent or guardian must give consent, not the 17-year-old client. Asking the client's parents to leave while the plan of care is discussed is inappropriate for a minor client; parents/guardians should be included in care planning discussions, not excluded."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "hp_case2",
+              "title": "History and Physical",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+            },
+            {
+              "id": "nn_case2",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Client referred for immediate surgery.</span></div>"
+            },
+            {
+              "id": "vs_case2",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "lab_case2",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Click to highlight the findings below that indicate a worsening of the client's status.",
+          "type": "highlight",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has reviewed the Progress Notes from 0800.",
+          "explanation": "Refusing to use the incentive spirometer because of left-sided chest pain, combined with maximal PCA use every hour and continued nausea and vomiting, indicates worsening status: poorly controlled pain that prevents deep breathing raises the risk of atelectasis and pneumonia, and ongoing nausea/vomiting despite heavy analgesic use is not the expected postoperative trajectory by day 3. Ambulating with minimal assistance, clear bilateral breath sounds, an appropriately functioning (tidaling) chest tube drainage system, adequate urine output, and a clean, dry, intact incision without erythema, edema, or drainage are all reassuring, expected findings that do not indicate worsening.",
+          "highlightTabs": [
+            {
+              "id": "ht_case2_s6",
+              "title": "Progress Notes",
+              "content": "Client is postoperative day 3 after a splenectomy and is able to ambulate in the corridor 3 or 4 times daily with minimal assistance. Client has clear breath sounds bilaterally. Left-sided chest tube in place attached to a closed-chest drainage system. Tidaling of the water chamber noted on drainage system. {Client refuses to use the incentive spirometer, stating it causes left-sided chest pain. Client is using prescribed patient-controlled analgesia (PCA) device maximally every hour and continues to have intermittent nausea and vomiting.|correct} Adequate urine output. Abdominal surgical incision site with dressing clean, dry, and intact with no erythema, edema, or drainage."
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "hp_case2",
+              "title": "History and Physical",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulmonary</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in the lower left side of chest when taking a deep breath</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Gastrointestinal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is occasionally nauseated</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Musculoskeletal</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being struck by a mechanically pitched baseball in a batting cage last week; reports intermittent pain in the left shoulder rated 6/10 on the Numerical Rating Scale; light-headed; significant bruising to the shoulder; history of an orthoscopic repair to the left shoulder for a torn rotator cuff last year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Psychosocial</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">client has not felt well enough to attend baseball practice since the injury</td></tr></tbody></table>"
+            },
+            {
+              "id": "nn_case2",
+              "title": "Nurses' Notes",
+              "content": "<p><b>Emergency Department</b></p><p><b>Day 1</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted along the left torso and over the left upper quadrant (LUQ) of the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds in the left lung fields on auscultation; client has a productive cough. Electrocardiogram (ECG) shows normal sinus rhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Client referred for immediate surgery.</span></div>"
+            },
+            {
+              "id": "pn_case2_s6",
+              "title": "Progress Notes",
+              "content": "<p><b>Progress Notes</b></p><p><b>Day 3</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client is postoperative day 3 after a splenectomy and is able to ambulate in the corridor 3 or 4 times daily with minimal assistance. Client has clear breath sounds bilaterally. Left-sided chest tube in place attached to a closed-chest drainage system. Tidaling of the water chamber noted on drainage system. {Client refuses to use the incentive spirometer, stating it causes left-sided chest pain. Client is using prescribed patient-controlled analgesia (PCA) device maximally every hour and continues to have intermittent nausea and vomiting.|correct} Adequate urine output. Abdominal surgical incision site with dressing clean, dry, and intact with no erythema, edema, or drainage.</span></div>"
+            },
+            {
+              "id": "vs_case2",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97.8&deg; F (36.6&deg; C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">RR</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90/50</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pulse oximetry reading</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "lab_case2",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5,000&ndash;10,000/mm&sup3; (5&ndash;10 x 10&sup9;/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19,000/mm&sup3; (19 x 10&sup9;/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14&ndash;18 g/dL (140&ndash;180 g/L)<br>Female: 12&ndash;16 g/dL (120&ndash;160 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 g/dL (90 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%&ndash;52% (0.42&ndash;0.52)<br>Female: 37%&ndash;47% (0.37&ndash;0.47)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 17-year-old male client."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 17-year-old male client with a splenic laceration and left-sided hemothorax from blunt trauma, from recognize cues through evaluate outcomes.",
+    "availability": "all"
+  },
+  {
+    "id": "case_1786060000003",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "NURS 1021 Unit 6 Case Study 3",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which client findings would be of <b>immediate</b> concern to the nurse at this time? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Worsening epigastric pain",
+              "correct": true
+            },
+            {
+              "text": "Anorexia",
+              "correct": false
+            },
+            {
+              "text": "Avoids foods that make pain worse",
+              "correct": false
+            },
+            {
+              "text": "Has depression",
+              "correct": false
+            },
+            {
+              "text": "Lives in a car",
+              "correct": true
+            },
+            {
+              "text": "SpO2 95% on RA",
+              "correct": false
+            },
+            {
+              "text": "H. pylori +",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse reviews the nurses’ note for a 54-year-old client who was seen in the community health clinic.",
+          "explanation": "The client reports worsening epigastric pain that has continued for 2 weeks. The client avoids foods that make the pain worse and notes that alcohol can aggravate the pain. However, these actions to decrease pain are not of concern at this time. Epigastric pain combined with confirmed H. pylori would be of immediate concern to the nurse because this type of bacteria can cause a number of stomach disorders, including cancer, if not treated promptly. Any treatment that is initiated would need to be carefully adhered to and followed up. However, this client has been living in a car, and may not desire or be able to follow up, which would be of immediate concern to the nurse. Having anorexia would be expected for a client who has epigastric pain, so this finding is not of immediate concern to the nurse, especially because the client's weight has been stable. The client's peripheral oxygen saturation level is normal and is not of concern. Although the client may have depression, this mental health problem is not of immediate concern but could be important later if it impacts the treatment plan."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "gi_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Presents to the community health clinic with report of worsening epigastric pain and anorexia that have continued for the past 2 weeks. Tries to avoid foods that make pain worse, such as onions and garlic; excessive alcohol also increases pain. States has not been eating well for months since the client's partner “threw” the client out of the house after the client lost a longtime job and became depressed. Has been living in the car most nights, but stays at the homeless shelter when the weather gets too cold. Is unemployed but the client's family members sometimes give the client money to buy food or gas. Alert and oriented × 3. No adventitious breath sounds; no shortness of breath. S1 S2 present; BS present × 4. VS: T 36.6° C (97.8° F), HR 84 BPM, RR 18 bpm, BP 126/78 mmHg, SpO2 95% on RA. Current wt. 68.9 kg (152 lb), ht. 175.3 cm (69 in). States that weight has been about the same for 5 years. Confirmed H. pylori +.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "Complete the following sentence by selecting from the list of options below.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse analyzes the client findings and determines that they are <b>most</b> consistent with [[drop0]] or [[drop1]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "Cholecystitis",
+                    "correct": false
+                  },
+                  {
+                    "text": "Gastritis",
+                    "correct": true
+                  },
+                  {
+                    "text": "Pancreatitis",
+                    "correct": false
+                  },
+                  {
+                    "text": "Peptic ulcer disease",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "Cholecystitis",
+                    "correct": false
+                  },
+                  {
+                    "text": "Gastritis",
+                    "correct": false
+                  },
+                  {
+                    "text": "Pancreatitis",
+                    "correct": false
+                  },
+                  {
+                    "text": "Peptic ulcer disease",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse reviews the nurses’ note entries for a 54-year-old client who was seen in the community health clinic. The client is seen by the physician and was prescribed a 10-day course of PPI-triple therapy. Health teaching was done about how to take the medication and the need for adherence to the medication regimen. The client was discharged with a follow-up clinic visit in 2 weeks.",
+          "explanation": "H. pylori may be found in clients who have gastritis, peptic ulcer disease, or gastric cancer. The client has not experienced weight loss, which commonly occurs in those who have gastric cancer. Therefore, the client likely has either gastritis or peptic ulcer disease, which are both manifested by epigastric pain. The client was also started on a regimen of PPI-triple therapy, which is a combination of three antibiotics specifically prescribed to treat H. pylori. Cholecystitis is not associated with H. pylori and is characterized by right upper quadrant pain that occurs most often after eating fatty foods. Pancreatitis is also not associated with H. pylori and is characterized by left upper quadrant pain."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "gi_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Presents to the community health clinic with report of worsening epigastric pain and anorexia that have continued for the past 2 weeks. Tries to avoid foods that make pain worse, such as onions and garlic; excessive alcohol also increases pain. States has not been eating well for months since the client's partner “threw” the client out of the house after the client lost a longtime job and became depressed. Has been living in the car most nights, but stays at the homeless shelter when the weather gets too cold. Is unemployed but the client's family members sometimes give the client money to buy food or gas. Alert and oriented × 3. No adventitious breath sounds; no shortness of breath. S1 S2 present; BS present × 4. VS: T 36.6° C (97.8° F), HR 84 BPM, RR 18 bpm, BP 126/78 mmHg, SpO2 95% on RA. Current wt. 68.9 kg (152 lb), ht. 175.3 cm (69 in). States that weight has been about the same for 5 years. Confirmed H. pylori +.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentence by selecting from the lists of options below.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse determines that the <b>priority</b> for care is to manage the client's [[drop0]] as evidenced by [[drop1]] and [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "Pain",
+                    "correct": false
+                  },
+                  {
+                    "text": "Hypovolemia",
+                    "correct": true
+                  },
+                  {
+                    "text": "Vomiting",
+                    "correct": false
+                  },
+                  {
+                    "text": "Fluid overload",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "Hematemesis",
+                    "correct": false
+                  },
+                  {
+                    "text": "Disorientation",
+                    "correct": false
+                  },
+                  {
+                    "text": "Hypotension",
+                    "correct": true
+                  },
+                  {
+                    "text": "Tachycardia",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "Hematemesis",
+                    "correct": false
+                  },
+                  {
+                    "text": "Disorientation",
+                    "correct": false
+                  },
+                  {
+                    "text": "Hypotension",
+                    "correct": false
+                  },
+                  {
+                    "text": "Tachycardia",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ],
+            "scoreGroups": [
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes.",
+          "explanation": "The assessment findings support that the client has hypovolemia (dehydration) because the client's blood pressure is low and heart rate is high to compensate for the fluid deficit by circulating less blood more often through the body. The client has lost body fluids, sodium, and potassium because of vomiting. Inadequate blood volume exerts less pressure on the walls of arterial vessels, causing a decrease in blood pressure. Although the client's pain is important to address, it can be managed once the fluid volume state is corrected. The client's vomiting can also be managed once the fluid abnormalities are addressed. The client is not at risk for fluid overload. Although hematemesis and disorientation are related to hypovolemia, hypotension and tachycardia provide direct evidence of hypovolemia."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "gi_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Presents to the community health clinic with report of worsening epigastric pain and anorexia that have continued for the past 2 weeks. Tries to avoid foods that make pain worse, such as onions and garlic; excessive alcohol also increases pain. States has not been eating well for months since the client's partner “threw” the client out of the house after the client lost a longtime job and became depressed. Has been living in the car most nights, but stays at the homeless shelter when the weather gets too cold. Is unemployed but the client's family members sometimes give the client money to buy food or gas. Alert and oriented × 3. No adventitious breath sounds; no shortness of breath. S1 S2 present; BS present × 4. VS: T 36.6° C (97.8° F), HR 84 BPM, RR 18 bpm, BP 126/78 mmHg, SpO2 95% on RA. Current wt. 68.9 kg (152 lb), ht. 175.3 cm (69 in). States that weight has been about the same for 5 years. Confirmed H. pylori +.</span></p><p>The client is seen by the physician and was prescribed a 10-day course of PPI-triple therapy. Health teaching was done about how to take the medication and the need for adherence to the medication regimen. The client was discharged with a follow-up clinic visit in 2 weeks.</p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">54-year-old client brought to the ED by ambulance after falling at the local homeless shelter. Was diagnosed with probable peptic ulcer disease last week at the community health clinic. Admits lack of adherence with prescribed PPI-triple therapy drug regimen. Currently drowsy but arousable; oriented × 2 and reporting pain of 8/10 in “stomach area.” States has had several vomiting episodes during the day. One episode of 120 mL hematemesis while in ED. VS: T 37.9° C (100.2° F), HR 110 BPM, RR 16 bpm, BP 98/56 mmHg lying position, SpO2 95% on RA.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each potential nursing action below, indicate which actions are <b>Indicated</b> (needed and useful) and which actions are <b>Contraindicated</b> (possibly harmful or not useful) at this time.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Give client clear liquids as tolerated",
+                "correctIndex": 1
+              },
+              {
+                "text": "Type and crossmatch 2 units packed RBCs",
+                "correctIndex": 0
+              },
+              {
+                "text": "Insert nasogastric tube (NGT) and connect to suction",
+                "correctIndex": 0
+              },
+              {
+                "text": "Start IV infusion with NS and 20 mEq potassium via large-bore catheter",
+                "correctIndex": 0
+              },
+              {
+                "text": "Begin supplemental oxygen 3 L/min via NC",
+                "correctIndex": 0
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Potential Nursing Action"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and the nurse reviews the results.",
+          "explanation": "The potential nursing actions for the client's condition are directed primarily toward correcting the client's fluid and electrolyte imbalances. IV fluids would be initiated to replace vital fluids and electrolytes. A large-bore IV catheter would be inserted because the client may need a blood transfusion if bleeding does not stop. Therefore, typing and crossmatching several units of packed cells is indicated at this time in case it is needed. The client would be NPO and not be allowed to have any oral intake until the hypovolemia caused by GI bleeding and vomiting is under control. Therefore, giving clear liquids as tolerated would be contraindicated. An NGT would be inserted to decompress the stomach so that it can rest to begin the healing process and prevent additional vomiting. Clients who are hypovolemic may not have adequate oxygen to perfuse the brain and other vital organs. Therefore, providing low-flow oxygen administration would help ensure adequate organ perfusion."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "gi_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Presents to the community health clinic with report of worsening epigastric pain and anorexia that have continued for the past 2 weeks. Tries to avoid foods that make pain worse, such as onions and garlic; excessive alcohol also increases pain. States has not been eating well for months since the client's partner “threw” the client out of the house after the client lost a longtime job and became depressed. Has been living in the car most nights, but stays at the homeless shelter when the weather gets too cold. Is unemployed but the client's family members sometimes give the client money to buy food or gas. Alert and oriented × 3. No adventitious breath sounds; no shortness of breath. S1 S2 present; BS present × 4. VS: T 36.6° C (97.8° F), HR 84 BPM, RR 18 bpm, BP 126/78 mmHg, SpO2 95% on RA. Current wt. 68.9 kg (152 lb), ht. 175.3 cm (69 in). States that weight has been about the same for 5 years. Confirmed H. pylori +.</span></p><p>The client is seen by the physician and was prescribed a 10-day course of PPI-triple therapy. Health teaching was done about how to take the medication and the need for adherence to the medication regimen. The client was discharged with a follow-up clinic visit in 2 weeks.</p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">54-year-old client brought to the ED by ambulance after falling at the local homeless shelter. Was diagnosed with probable peptic ulcer disease last week at the community health clinic. Admits lack of adherence with prescribed PPI-triple therapy drug regimen. Currently drowsy but arousable; oriented × 2 and reporting pain of 8/10 in “stomach area.” States has had several vomiting episodes during the day. One episode of 120 mL hematemesis while in ED. VS: T 37.9° C (100.2° F), HR 110 BPM, RR 16 bpm, BP 98/56 mmHg lying position, SpO2 95% on RA.</span></p>"
+            },
+            {
+              "id": "gi_labs",
+              "title": "Laboratory Tests",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Normal Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood urea nitrogen (BUN)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.6 mmol/L (24 mg/dL) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.9–8.2 mmol/L (10–20 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine (Cr)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 mcmol/L (1.2 mg/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">53–106 mcmol/L (0.6–1.2 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 mmol/L (131 mEq/L) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136–145 mmol/L (136–145 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L (3.4 mEq/L) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5–5.0 mmol/L (3.5–5.0 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.9 mmol/L (74 mg/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.9–6.1 mmol/L (74–106 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cells (RBCs)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10⁹/L (4.2 × 10⁶ mcL) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.7–6.1 × 10⁹/L (4.7–6.1 × 10⁶ mcL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.95 mmol/L (11.2 g/dL) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.7–11.2 mmol/L (14–18 g/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36% (0.36 volume fraction) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42%–52% (0.42–0.52 volume fraction)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cells (WBCs)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.5 × 10⁹/L (13,500/mm³) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.0–10.0 × 10⁹/L (5,000–10,000/mm³)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Select <b>5</b> assessment parameters that would be <b>essential</b> for the nurse to monitor as part of the client's care.",
+          "type": "select_n",
+          "limit": 5,
+          "options": [
+            {
+              "text": "Urinary output",
+              "correct": true
+            },
+            {
+              "text": "Oxygen saturation",
+              "correct": true
+            },
+            {
+              "text": "Oral intake",
+              "correct": false
+            },
+            {
+              "text": "Blood pressure",
+              "correct": true
+            },
+            {
+              "text": "Hematemesis",
+              "correct": true
+            },
+            {
+              "text": "Pain intensity",
+              "correct": true
+            },
+            {
+              "text": "Finger-stick blood glucose",
+              "correct": false
+            }
+          ],
+          "preamble": "The client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and results are reported.",
+          "explanation": "Monitoring client findings is an essential nursing action as part of the plan of care. For the client, who has hypovolemia, the nurse would monitor urinary output and cardiac output to ensure adequate perfusion to vital organs. Oxygen saturation helps to determine perfusion in the periphery. Blood pressure is an important indicator of blood volume and would be carefully monitored. Additional episodes of hematemesis and pain intensity would be monitored to determine whether the client's condition is improving. Oral intake would not be monitored because the client would be NPO. There is no indication that the client would need FSBG monitoring. The client's blood glucose level is 3.9 mmol/L (74 mg/dL)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "gi_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Presents to the community health clinic with report of worsening epigastric pain and anorexia that have continued for the past 2 weeks. Tries to avoid foods that make pain worse, such as onions and garlic; excessive alcohol also increases pain. States has not been eating well for months since the client's partner “threw” the client out of the house after the client lost a longtime job and became depressed. Has been living in the car most nights, but stays at the homeless shelter when the weather gets too cold. Is unemployed but the client's family members sometimes give the client money to buy food or gas. Alert and oriented × 3. No adventitious breath sounds; no shortness of breath. S1 S2 present; BS present × 4. VS: T 36.6° C (97.8° F), HR 84 BPM, RR 18 bpm, BP 126/78 mmHg, SpO2 95% on RA. Current wt. 68.9 kg (152 lb), ht. 175.3 cm (69 in). States that weight has been about the same for 5 years. Confirmed H. pylori +.</span></p><p>The client is seen by the physician and was prescribed a 10-day course of PPI-triple therapy. Health teaching was done about how to take the medication and the need for adherence to the medication regimen. The client was discharged with a follow-up clinic visit in 2 weeks.</p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">54-year-old client brought to the ED by ambulance after falling at the local homeless shelter. Was diagnosed with probable peptic ulcer disease last week at the community health clinic. Admits lack of adherence with prescribed PPI-triple therapy drug regimen. Currently drowsy but arousable; oriented × 2 and reporting pain of 8/10 in “stomach area.” States has had several vomiting episodes during the day. One episode of 120 mL hematemesis while in ED. VS: T 37.9° C (100.2° F), HR 110 BPM, RR 16 bpm, BP 98/56 mmHg lying position, SpO2 95% on RA.</span></p>"
+            },
+            {
+              "id": "gi_labs",
+              "title": "Laboratory Tests",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Normal Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood urea nitrogen (BUN)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.6 mmol/L (24 mg/dL) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.9–8.2 mmol/L (10–20 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine (Cr)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 mcmol/L (1.2 mg/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">53–106 mcmol/L (0.6–1.2 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 mmol/L (131 mEq/L) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136–145 mmol/L (136–145 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L (3.4 mEq/L) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5–5.0 mmol/L (3.5–5.0 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.9 mmol/L (74 mg/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.9–6.1 mmol/L (74–106 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cells (RBCs)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10⁹/L (4.2 × 10⁶ mcL) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.7–6.1 × 10⁹/L (4.7–6.1 × 10⁶ mcL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.95 mmol/L (11.2 g/dL) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.7–11.2 mmol/L (14–18 g/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36% (0.36 volume fraction) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42%–52% (0.42–0.52 volume fraction)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cells (WBCs)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.5 × 10⁹/L (13,500/mm³) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.0–10.0 × 10⁹/L (5,000–10,000/mm³)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Indicate whether the client is <b>Progressing</b> or <b>Not Progressing</b> by comparing the current client findings listed below with earlier findings when the client was admitted to the ED.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "BP 118/70 mmHg",
+                "correctIndex": 0
+              },
+              {
+                "text": "SpO2 97% on RA",
+                "correctIndex": 0
+              },
+              {
+                "text": "Pain 4/10",
+                "correctIndex": 0
+              },
+              {
+                "text": "Na 137 mmol/L (137 mEq/L)",
+                "correctIndex": 0
+              },
+              {
+                "text": "K 4.0 mmol/L (4.0 mEq/L)",
+                "correctIndex": 0
+              },
+              {
+                "text": "BUN 8.2 mmol/L (20 mg/dL)",
+                "correctIndex": 0
+              }
+            ],
+            "columns": [
+              "Progressing",
+              "Not Progressing"
+            ],
+            "firstColumnHeader": "Current Client Finding"
+          },
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse on the medical unit performs an admission assessment and compares current client findings with earlier findings in the Nurses’ Notes and laboratory results from when the client was admitted to the ED.",
+          "explanation": "All of the listed current client findings are improving, demonstrating that the client is progressing. The client's systolic blood pressure is well above 100 mmHg, and the pain level has decreased from an 8/10 to a 4/10 on a pain scale of 0 to 10 (the worst possible pain). Sodium, potassium, and BUN values have all normalized, and the SpO2 is at a normal of 95% or greater for the client's age."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "gi_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Presents to the community health clinic with report of worsening epigastric pain and anorexia that have continued for the past 2 weeks. Tries to avoid foods that make pain worse, such as onions and garlic; excessive alcohol also increases pain. States has not been eating well for months since the client's partner “threw” the client out of the house after the client lost a longtime job and became depressed. Has been living in the car most nights, but stays at the homeless shelter when the weather gets too cold. Is unemployed but the client's family members sometimes give the client money to buy food or gas. Alert and oriented × 3. No adventitious breath sounds; no shortness of breath. S1 S2 present; BS present × 4. VS: T 36.6° C (97.8° F), HR 84 BPM, RR 18 bpm, BP 126/78 mmHg, SpO2 95% on RA. Current wt. 68.9 kg (152 lb), ht. 175.3 cm (69 in). States that weight has been about the same for 5 years. Confirmed H. pylori +.</span></p><p>The client is seen by the physician and was prescribed a 10-day course of PPI-triple therapy. Health teaching was done about how to take the medication and the need for adherence to the medication regimen. The client was discharged with a follow-up clinic visit in 2 weeks.</p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">54-year-old client brought to the ED by ambulance after falling at the local homeless shelter. Was diagnosed with probable peptic ulcer disease last week at the community health clinic. Admits lack of adherence with prescribed PPI-triple therapy drug regimen. Currently drowsy but arousable; oriented × 2 and reporting pain of 8/10 in “stomach area.” States has had several vomiting episodes during the day. One episode of 120 mL hematemesis while in ED. VS: T 37.9° C (100.2° F), HR 110 BPM, RR 16 bpm, BP 98/56 mmHg lying position, SpO2 95% on RA.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Medical Unit:</span><span class=\"nurse-note-text\">Client transferred to the medical unit after receiving 2 units of packed red blood cells and IV fluid resuscitation in the ED. Repeat assessment: alert and oriented × 3. No further episodes of hematemesis. VS: BP 118/70 mmHg, SpO2 97% on RA. Reports pain 4/10.</span></p>"
+            },
+            {
+              "id": "gi_labs",
+              "title": "Laboratory Tests",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Normal Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood urea nitrogen (BUN)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.6 mmol/L (24 mg/dL) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.9–8.2 mmol/L (10–20 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine (Cr)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 mcmol/L (1.2 mg/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">53–106 mcmol/L (0.6–1.2 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 mmol/L (131 mEq/L) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136–145 mmol/L (136–145 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L (3.4 mEq/L) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5–5.0 mmol/L (3.5–5.0 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.9 mmol/L (74 mg/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.9–6.1 mmol/L (74–106 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cells (RBCs)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10⁹/L (4.2 × 10⁶ mcL) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.7–6.1 × 10⁹/L (4.7–6.1 × 10⁶ mcL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.95 mmol/L (11.2 g/dL) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.7–11.2 mmol/L (14–18 g/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36% (0.36 volume fraction) <span style=\"color:#1d4ed8; font-weight:600;\">L</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42%–52% (0.42–0.52 volume fraction)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cells (WBCs)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.5 × 10⁹/L (13,500/mm³) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.0–10.0 × 10⁹/L (5,000–10,000/mm³)</td></tr></tbody></table><p><b>Medical Unit (repeat draw):</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Normal Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">137 mmol/L (137 mEq/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136–145 mmol/L (136–145 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.0 mmol/L (4.0 mEq/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.5–5.0 mmol/L (3.5–5.0 mEq/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood urea nitrogen (BUN)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.2 mmol/L (20 mg/dL)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.9–8.2 mmol/L (10–20 mg/dL)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "description": "A 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease that progresses to a GI bleed and hypovolemia, from a community health clinic visit through ED stabilization and transfer to the medical unit.",
+    "availability": "all"
   }
 ];
 
@@ -14647,5 +18518,5237 @@ window.NCLEX_STANDALONE = [
     "isStandalone": true,
     "course": "Others",
     "unit": "Others"
+  },
+  {
+    "id": "standalone_1783050000011",
+    "unit": "Unit 5 (Integumentary Disorders and Burns)",
+    "title": "Unit 5 Stand-alone 11: Burn Injury Immediate Follow-up Finding",
+    "topic": "Unit 5 (Integumentary Disorders and Burns)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would require <b>immediate</b> follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "dizziness and confusion",
+              "correct": true
+            },
+            {
+              "text": "hypoactive bowel sounds and nausea",
+              "correct": false
+            },
+            {
+              "text": "vesicular breath sounds throughout the lung fields",
+              "correct": false
+            },
+            {
+              "text": "pain rated 5 on a scale of 0 (no pain) to 10 (severe pain)",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing a newly admitted client who sustained partial-thickness (second-degree) burns to the anterior thorax in a house fire.",
+          "explanation": "Dizziness and confusion in a client burned in a house fire are highly concerning for smoke inhalation injury, hypoxia, or carbon monoxide poisoning, and require immediate follow-up (assessing airway patency and obtaining a carboxyhemoglobin level). Hypoactive bowel sounds and nausea (Option 2) reflect an expected postburn stress ileus. Vesicular breath sounds (Option 3) are the normal breath sounds heard throughout most of the lung fields, not an abnormal finding. Moderate pain of 5/10 (Option 4) is expected with a burn injury and is manageable, not an emergency."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000001",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 1: Crutch-Walking Client Teaching",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Wear slippers when ambulating with the crutches in your home.”",
+              "correct": false
+            },
+            {
+              "text": "“Maintain the crutches 12 in (30 cm) in front of your feet while standing.”",
+              "correct": false
+            },
+            {
+              "text": "“Adjust the hand grips of the crutches so that your elbows are fully extended.”",
+              "correct": false
+            },
+            {
+              "text": "“Use your hands and arms to support your body weight.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is teaching a client how to ambulate using crutches.",
+          "explanation": "Weight should be borne through the hands and arms (Option 4) rather than the axillae, to prevent axillary nerve compression and radial nerve palsy ('crutch palsy'); this is a priority safety teaching point. Slippers (Option 1) do not provide adequate traction and increase fall risk; sturdy, well-fitting, non-skid shoes should be worn instead. Positioning the crutch tips 12 in (30 cm) in front of the feet (Option 2) places the base of support too far forward and increases the risk of the crutches sliding out and the client falling backward; crutch tips should be placed approximately 6 in (15 cm) in front of and to the side of each foot. Elbows fully extended at the hand grips (Option 3) prevents the client from adequately pushing off and controlling the crutches; the hand grips should instead be adjusted so the elbows are flexed approximately 15 to 30 degrees."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000002",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 2: Buck Traction Immediate Intervention",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following would require <b>immediate</b> intervention?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "A pillow is placed under the knee.",
+              "correct": true
+            },
+            {
+              "text": "The foot is 2 in (5 cm) away from the foot plate.",
+              "correct": false
+            },
+            {
+              "text": "The weights attached to the pulley are 6 in (15 cm) from the floor.",
+              "correct": false
+            },
+            {
+              "text": "A pillow is placed under the lower leg with the heel off the bed.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who is in Buck traction.",
+          "explanation": "Buck traction requires the affected leg to remain straight and in line with the pull of the traction; placing a pillow under the knee (Option 1) flexes the knee, misaligns the traction, and undermines its therapeutic effect, requiring immediate intervention. The foot being a short distance from the foot plate (Option 2) is an acceptable, expected finding. Weights hanging freely a few inches off the floor (Option 3) is the correct, expected setup. A pillow supporting the length of the lower leg while keeping the heel off the bed (Option 4) is an appropriate technique to prevent heel pressure injury without disrupting alignment."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000003",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 3: Alendronate Client Teaching",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“I will take alendronate a half hour before I eat breakfast.”",
+              "correct": true
+            },
+            {
+              "text": "“I should avoid weight-bearing exercises while taking alendronate.”",
+              "correct": false
+            },
+            {
+              "text": "“I should discontinue alendronate if I experience nausea or vomiting.”",
+              "correct": false
+            },
+            {
+              "text": "“I will need to remain in an upright position for 30 minutes after I take alendronate.”",
+              "correct": true
+            },
+            {
+              "text": "“I should notify my primary health care provider if I experience difficulty swallowing while taking alendronate.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught a client who is receiving alendronate.",
+          "explanation": "Alendronate must be taken on an empty stomach, at least 30 minutes before the first food, beverage, or other medication of the day, and the client must remain upright for at least 30 minutes afterward to prevent esophageal irritation. Difficulty swallowing should be reported promptly, since it can signal esophagitis or ulceration. Weight-bearing exercise (Option 2) should be encouraged, not avoided, to support bone density. Nausea or vomiting should be reported to the primary health care provider, not managed by self-discontinuing the medication (Option 3)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000004",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 4: Total Hip Arthroplasty Teaching",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“The type of prosthesis used is based on the muscle strength and joint function of your upper extremities.”",
+              "correct": false
+            },
+            {
+              "text": "“Do not bend the affected hip more than 90 degrees after surgery.”",
+              "correct": true
+            },
+            {
+              "text": "“Skin preparation and cleansing is mandatory before surgery.”",
+              "correct": true
+            },
+            {
+              "text": "“Use an elevated toilet seat for at least 6 weeks after surgery.”",
+              "correct": true
+            },
+            {
+              "text": "“You can resume sexual intercourse after surgery if your partner is in a dependent position.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is teaching a client who is scheduled for a total hip arthroplasty via a posterior approach.",
+          "explanation": "Posterior-approach hip precautions include avoiding hip flexion beyond 90 degrees and using an elevated toilet seat to help maintain that precaution; pre-operative skin preparation and cleansing is standard surgical teaching. Prosthesis selection is based on the hip and lower-extremity anatomy and function, not the upper extremities (Option 1). Resuming intercourse safely depends on the client's own hip positioning to avoid excessive flexion, adduction, or internal rotation, not on the partner's position (Option 5)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000005",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 5: Osteoporosis Prevention After Surgical Menopause",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I will begin to take dancing lessons.”",
+              "correct": true
+            },
+            {
+              "text": "“I will get more rest at night.”",
+              "correct": false
+            },
+            {
+              "text": "“I will take a multivitamin supplement daily.”",
+              "correct": false
+            },
+            {
+              "text": "“I will add more fiber to my diet.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught about preventing osteoporosis to a 45-year-old client who has had a hysterectomy and bilateral salpingo-oophorectomy.",
+          "explanation": "Dancing is a weight-bearing exercise, and weight-bearing exercise stimulates bone formation and is a cornerstone of osteoporosis prevention, especially important after surgical menopause removes the protective effect of estrogen. Getting more rest (Option 2) and adding fiber (Option 4) are not targeted osteoporosis-prevention measures. A general multivitamin (Option 3) does not reliably provide the specific calcium and vitamin D intake that bone health requires."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000006",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 6: Gout Assessment Findings",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would support a diagnosis of gout? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "elevated serum uric acid level",
+              "correct": true
+            },
+            {
+              "text": "a swollen, red joint",
+              "correct": true
+            },
+            {
+              "text": "reports of moderate fatigue",
+              "correct": false
+            },
+            {
+              "text": "distal extremities cool to touch",
+              "correct": false
+            },
+            {
+              "text": "pain associated with movement of the affected extremity",
+              "correct": true
+            },
+            {
+              "text": "intolerance of dairy products",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing a client with suspected gout.",
+          "explanation": "An elevated serum uric acid level (hyperuricemia), a swollen and red joint, and pain with movement of the affected joint are all classic gout findings, reflecting acute monoarticular inflammatory arthritis from urate crystal deposition. Fatigue is a nonspecific finding not characteristic of gout. Gout causes a warm, not cool, joint, so extremities cool to touch (Option 4) do not support the diagnosis. Dairy intolerance (Option 6) is unrelated to gout."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000007",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 7: Occupational Therapy Referral",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should recommend a referral to an occupational therapist for the client with",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "rheumatoid arthritis (RA) who has a 2-month-old infant",
+              "correct": true
+            },
+            {
+              "text": "an intertrochanteric hip fracture who works as a surgeon",
+              "correct": false
+            },
+            {
+              "text": "mononucleosis who is a college student",
+              "correct": false
+            },
+            {
+              "text": "tendonitis who is a professional tennis player",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for the following clients.",
+          "explanation": "Occupational therapy focuses on adapting activities of daily living and teaching joint protection and energy conservation techniques; a client with RA caring for a newborn (Option 1) benefits most from OT referral to learn adaptive techniques and equipment for infant care that protect inflamed joints. The client recovering from a hip fracture (Option 2) primarily needs physical therapy for mobility and gait training, not OT. Mononucleosis (Option 3) is a self-limited viral illness managed with rest, not requiring OT. Tendonitis in an athlete (Option 4) is generally managed with physical therapy and activity modification rather than OT."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783060000008",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Unit 6 Stand-alone 8: Cast Neurovascular Compromise Telephone Triage",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> return the telephone call to the parent of a",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "3-year-old child who sustained a concussion and was irritable when awakened every 2 hours during the night",
+              "correct": false
+            },
+            {
+              "text": "4-year-old child with impetigo contagiosa who has eruptions spreading around the mouth and nose that are draining thin yellow fluid",
+              "correct": false
+            },
+            {
+              "text": "5-year-old child with Ewing sarcoma who is receiving external radiation and the irradiated area appears reddened",
+              "correct": false
+            },
+            {
+              "text": "6-year-old child with a right long-leg cast whose toes on the affected extremity are swollen and cool to the touch",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in a community-based setting has received the following telephone messages.",
+          "explanation": "Swollen, cool toes distal to a cast (Option 4) are signs of neurovascular compromise and possible compartment syndrome from a cast that is too tight, an urgent, limb-threatening complication requiring the first callback. Irritability when awakened for periodic neuro checks after a concussion (Option 1) is an expected part of monitoring, and being arousable is a reassuring sign. Thin yellow drainage and spreading perioral/nasal eruptions (Option 2) are the expected clinical picture of impetigo contagiosa. Redness of the skin in an irradiated area (Option 3) is an expected, anticipated side effect of external radiation therapy."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000001",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 1: Alzheimer's Disease Care Planning",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following interventions should the nurse include in the client's plan of care?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Confront the client when inappropriate or agitated behaviors occur.",
+              "correct": false
+            },
+            {
+              "text": "Provide the client with information about activity choices in the morning so the client can make plans for the day.",
+              "correct": false
+            },
+            {
+              "text": "Encourage the client to reminisce about happy memories.",
+              "correct": true
+            },
+            {
+              "text": "Administer to the client the cholinesterase inhibitor to reverse the course of AD.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning care for a client with moderate Alzheimer's disease (AD).",
+          "explanation": "Encouraging reminiscence about happy memories (Option 3) is a therapeutic, validating intervention appropriate for a client with moderate Alzheimer's disease (AD) because long-term memories often remain accessible longer than short-term memory, and this approach reduces anxiety and supports self-esteem. Confronting the client during agitated or inappropriate behavior (Option 1) is not therapeutic and can escalate distress; redirection and a calm approach are preferred instead. Providing complex activity choices and asking the client to plan the day (Option 2) exceeds the executive functioning and decision-making capacity typically impaired in moderate AD; a simple, structured routine is more appropriate. Cholinesterase inhibitors (Option 4) may temporarily slow symptom progression for some clients but do not reverse or cure the underlying course of AD, making this statement inaccurate."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000002",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 2: Multiple Sclerosis Client Teaching Evaluation",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I have learned how to massage my bladder to help empty my bladder completely.”",
+              "correct": false
+            },
+            {
+              "text": "“I will take a hot bath in the evening to help me relax if I have had a stressful day at work.”",
+              "correct": false
+            },
+            {
+              "text": "“I should expect the blurred vision to resolve after I have received medications for several weeks.”",
+              "correct": false
+            },
+            {
+              "text": "“I will complete all of my household chores in the morning when I am well rested.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught a client with multiple sclerosis (MS).",
+          "explanation": "Completing tasks in the morning when the client is best rested (Option 4) reflects correct understanding of energy conservation teaching for multiple sclerosis (MS), since fatigue is a hallmark symptom that worsens as the day progresses. Bladder massage (Option 1) is not a taught or effective technique for the neurogenic bladder dysfunction seen in MS; intermittent self-catheterization or other prescribed bladder-management strategies are used instead. A hot bath in the evening (Option 2) is contraindicated because heat exposure can transiently worsen MS symptoms (Uhthoff phenomenon) through slowed nerve conduction in demyelinated fibers. Stating that blurred vision will resolve after several weeks of medication (Option 3) is inaccurate; MS is a chronic, relapsing condition, and while an acute exacerbation such as optic neuritis may improve with treatment, this is not a guaranteed or universal expected outcome."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000003",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 3: Multiple Sclerosis Ataxia Care Planning",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following interventions should the nurse include in the client's plan of care?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Add thickener to thin liquids for the client.",
+              "correct": false
+            },
+            {
+              "text": "Obtain a referral to a physical therapist for the client.",
+              "correct": true
+            },
+            {
+              "text": "Face the client directly when speaking with the client.",
+              "correct": false
+            },
+            {
+              "text": "Provide a board with pictures to help the client communicate needs.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning care for a client with multiple sclerosis (MS) who has ataxia.",
+          "explanation": "Ataxia in MS reflects impaired coordination and balance from cerebellar or proprioceptive pathway involvement, and a physical therapy referral (Option 2) is the appropriate intervention to address gait, balance, and coordination training and reduce fall risk. Adding thickener to liquids (Option 1) addresses dysphagia, a different MS symptom not described here. Facing the client directly when speaking (Option 3) is an intervention for hearing loss or receptive communication difficulty, not ataxia. A picture communication board (Option 4) addresses expressive communication impairment (such as from dysarthria or aphasia), not a coordination/balance problem."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000004",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 4: Alzheimer's Disease Family Teaching (Agitation)",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following interventions should the nurse include in the teaching? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Use distraction when the client becomes agitated.",
+              "correct": true
+            },
+            {
+              "text": "Place calendars within clear view of the client.",
+              "correct": true
+            },
+            {
+              "text": "Use short, simple sentences and provide step-by-step instructions for the client.",
+              "correct": true
+            },
+            {
+              "text": "Avoid reminiscing with the client about past experiences in order to avoid feelings of loss and loneliness.",
+              "correct": false
+            },
+            {
+              "text": "Encourage the client to participate in a daytime exercise program to promote restful sleep at night.",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is teaching the family member of a client with moderate Alzheimer's disease (AD).",
+          "explanation": "Distraction (Option 1) is a standard de-escalation technique for agitation in AD. Calendars (Option 2) support reality orientation. Short, simple sentences with step-by-step instructions (Option 3) match the client's cognitive processing ability. A daytime exercise program (Option 5) helps regulate the sleep-wake cycle and can reduce sundowning and improve nighttime rest. Reminiscence about long-term memories (Option 4) should be encouraged, not avoided, since long-term memory is often preserved in AD and reminiscing is a validating, anxiety-reducing activity."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000005",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 5: Alzheimer's Disease Daily Care Planning",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following interventions should the nurse include in the client's plan of care? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Establish a daily routine for the client.",
+              "correct": true
+            },
+            {
+              "text": "Assist the client to void every 2 hours.",
+              "correct": true
+            },
+            {
+              "text": "Introduce self upon interacting with the client.",
+              "correct": true
+            },
+            {
+              "text": "Display a clock and calendar in the client's room.",
+              "correct": true
+            },
+            {
+              "text": "Keep the client's television on during the day to distract the client.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning care for a client with moderate Alzheimer's disease (AD).",
+          "explanation": "A consistent daily routine (Option 1) reduces confusion and anxiety in AD. Scheduled toileting every 2 hours (Option 2) is a proactive continence strategy. Reintroducing oneself at each interaction (Option 3) accommodates impaired recognition memory and reduces fear or confusion. A clock and calendar (Option 4) support reality orientation. Keeping the television on continuously (Option 5) is not appropriate; excess background stimulation tends to increase confusion and agitation in AD rather than help, and a calm, low-stimulation environment is generally preferred."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000006",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 6: Expressive Aphasia Spouse Communication",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client's spouse would indicate a correct understanding of the client's communication abilities and interaction needs? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“My spouse's response of 'fine' when I asked how the day has been may or may not be what my spouse meant to communicate.”",
+              "correct": true
+            },
+            {
+              "text": "“I can anticipate what my spouse wants to say, so I complete my spouse's sentences to make communication quicker.”",
+              "correct": false
+            },
+            {
+              "text": "“I will purchase a picture board to help my spouse express common needs, thoughts, and feelings when communication is difficult.”",
+              "correct": true
+            },
+            {
+              "text": "“My spouse's angry response when we have a conversation makes me hesitant to try further communication.”",
+              "correct": false
+            },
+            {
+              "text": "“I have arranged for my spouse to meet with a speech therapist twice each week to improve communication skills.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning care for a client who has expressive aphasia after a left-sided stroke.",
+          "explanation": "Recognizing that a simple response like “fine” may not accurately reflect what the client intends to say (Option 1) reflects correct understanding of expressive aphasia, in which producing intended language is impaired. Obtaining a picture communication board (Option 3) and arranging regular speech therapy (Option 5) are both appropriate, standard interventions for expressive aphasia. Habitually finishing the client's sentences (Option 2) is not recommended, since it can be frustrating and does not reliably reflect what the client intends to say; the client should be given time to communicate. Becoming hesitant to attempt further communication because of the client's frustration (Option 4) is an avoidant response, not an appropriate coping strategy."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000007",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 7: Alzheimer's Disease Home Care Teaching",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the adult child would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I will only allow my parent to smoke while my parent is outdoors.”",
+              "correct": false
+            },
+            {
+              "text": "“I will place a picture on the bathroom door to indicate which room is the bathroom.”",
+              "correct": true
+            },
+            {
+              "text": "“I will encourage family members to visit in large groups to keep my parent interested in the conversation.”",
+              "correct": false
+            },
+            {
+              "text": "“I will encourage my parent to take walks in the park when the weather permits to get the exercise needed.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught the adult child caregiver of a client with moderate Alzheimer's disease (AD) about home care.",
+          "explanation": "A picture on the bathroom door (Option 2) is a well-established, effective wayfinding aid for clients with AD who have difficulty with word/symbol recognition. Location alone does not address the core safety issue with smoking (Option 1); a client with AD needs direct supervision while smoking regardless of setting, due to fire-safety risk and impaired judgment. Large group visits (Option 3) tend to overstimulate and confuse clients with AD; small, quiet visits are generally recommended instead. Unsupervised walks in the park (Option 4) raise a significant wandering and safety risk for a client with AD."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000008",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 8: Spinal Shock Manifestations Evaluation",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Follow-up is required if the nurse states that manifestations of spinal shock include",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "bowel dysfunction",
+              "correct": false
+            },
+            {
+              "text": "bladder dysfunction",
+              "correct": false
+            },
+            {
+              "text": "spastic paralysis below the level of injury",
+              "correct": true
+            },
+            {
+              "text": "loss of sensation below the level of injury",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has attended a staff education program about spinal shock following acute spinal cord injury.",
+          "explanation": "Spinal shock causes flaccid, not spastic, paralysis below the level of injury, along with areflexia; spasticity typically develops later, after spinal shock resolves. This statement is incorrect and requires follow-up. Bowel dysfunction, bladder dysfunction, and loss of sensation below the level of injury are all accurate, expected manifestations of spinal shock."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783070000009",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 9: Bowtie - Increased ICP After Craniotomy",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client’s progress.",
+          "type": "bowtie",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "The evening nurse in the neurosurgical unit performs an assessment on a 55-year-old postoperative client who returned to the unit 5 hours ago following open craniotomy via supratentorial surgery to remove a brain tumor. The nurse reviews the immediate postoperative nurses’ notes from 1000 and the neurological flow sheet documentation done every 30 minutes by the day nurse prior to performing an assessment and notes no significant changes.",
+          "explanation": "The focus of postoperative craniotomy care is monitoring for changes in status that signal increased intracranial pressure (ICP), which results from cerebral edema. At 1000, the client’s findings were expected for the immediate postoperative period: arousable and oriented, moving all extremities, intact sensory perception, and a GCS of 15. By 1500, the client shows new neurological deficits -- a decreased level of consciousness (difficult to arouse, oriented to name only, GCS down to 12), new left-sided motor weakness, aphasia (slurred, hesitant speech with word-finding difficulty), decreased sensory perception on the left, and pupils now sluggish to react -- together with abnormal respirations (RR 10, irregular), a rising blood pressure with a widening pulse pressure (168/62, versus 130/80 at 1000), bradycardia (HR 58, down from 82), an elevated temperature, headache, and vomiting. This combination is characteristic of increased ICP, and the surgeon must be notified immediately. Periorbital edema and ecchymosis around the eyes are common and expected after cranial surgery and are not significant on their own. The small, dime-sized amount of dark red, dried drainage on the head dressing is a small and expected amount, which makes bleeding an unlikely cause of this decline. The temperature increase from 37.2° C (99.0° F) to 38.1° C (100.6° F) is mild and, by itself, does not indicate infection, and the client’s preoperative and immediate postoperative white blood cell count remains close to the expected range for the normal postoperative stress response, not a level suggestive of infection. Stroke is not a likely postoperative complication here, and the global pattern of decline (level of consciousness, vital signs, and bilateral pupil findings) together with the recent cranial surgery points to increased ICP rather than a new stroke. The nurse should notify the surgeon immediately and anticipate a prescription for an intravenous hyperosmotic agent, such as mannitol, which treats cerebral edema by drawing water out of the extracellular space of the edematous brain tissue. Vital signs and neurological status, along with intake and output, are the priority parameters to monitor to evaluate the client’s response to treatment. Obtaining blood cultures and requesting IV antibiotics, with monitoring of the white blood cell count, would be appropriate if infection were suspected, which it is not here. Requesting packed red blood cells and monitoring hemoglobin and hematocrit would be appropriate if active bleeding were suspected, which the minimal head dressing drainage does not support. A client with this degree of altered neurological status should remain NPO; testing swallowing ability would be unsafe and risks aspiration, and it is also not the relevant parameter here since the client is not having a stroke.",
+          "bowtieParams": [
+            {
+              "text": "White blood cell count",
+              "correct": false
+            },
+            {
+              "text": "Intake and output",
+              "correct": true
+            },
+            {
+              "text": "Swallowing ability",
+              "correct": false
+            },
+            {
+              "text": "Hemoglobin and hematocrit levels",
+              "correct": false
+            },
+            {
+              "text": "Vital signs and neurological status",
+              "correct": true
+            }
+          ],
+          "bowtieActions": [
+            {
+              "text": "Notify the surgeon",
+              "correct": true
+            },
+            {
+              "text": "Obtain blood cultures",
+              "correct": false
+            },
+            {
+              "text": "Request a prescription for IV antibiotics",
+              "correct": false
+            },
+            {
+              "text": "Request a prescription for packed red blood cells (PRBCs)",
+              "correct": false
+            },
+            {
+              "text": "Request a prescription for an IV hyperosmotic agent",
+              "correct": true
+            }
+          ],
+          "bowtieCol1Header": "Actions to Take",
+          "bowtieCol2Header": "Potential Condition",
+          "bowtieCol3Header": "Parameters to Monitor",
+          "bowtieConditions": [
+            {
+              "text": "Stroke",
+              "correct": false
+            },
+            {
+              "text": "Bleeding",
+              "correct": false
+            },
+            {
+              "text": "Infection",
+              "correct": false
+            },
+            {
+              "text": "Increased intracranial pressure",
+              "correct": true
+            }
+          ],
+          "bowtieLeftPlaceholder": "",
+          "bowtieRightPlaceholder": "",
+          "bowtieCenterPlaceholder": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "hh_1783070000009",
+              "title": "Health History",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reason for Admission</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 months of progressively worsening headaches and blurred vision; MRI revealed a right frontal brain mass. Admitted for elective open craniotomy via supratentorial approach for tumor resection.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Past Medical History</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hypertension, well-controlled with lisinopril. No known bleeding disorder. No known drug allergies.</td></tr></tbody></table>"
+            },
+            {
+              "id": "nn_1783070000009",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client returns from the OR. Sleepy but easily arousable and oriented. Answering questions appropriately. Able to move all extremities. Intact sensory perception. Head of bed elevated at 30°, head midline. No drainage on the head dressing. Glasgow Coma Scale (GCS) = 15, PERRLA.<br>Oxygen at 2 L via NC, SpO<sub>2</sub> 96%. T 37.2° C (99.0° F), HR 82 BPM and regular, RR 20 bpm, BP 130/80 mm Hg, NSR on cardiac monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Evening nurse performs an assessment 5 hours postoperatively. Client is difficult to arouse, opening eyes only to firm stimulation; oriented to name only. Speech is slurred and hesitant, with difficulty finding words when answering questions. New weakness noted in the left upper and lower extremities, with a weaker hand grip on the left. Decreased response to light touch on the left side. Pupils are sluggish to react to light bilaterally. Client reports nausea and a headache rated 7/10 and has vomited once, non-projectile. Periorbital edema and ecchymosis noted bilaterally around the eyes. Head dressing intact; a small (dime-sized) amount of dark red, dried drainage noted on the dressing, marked and dated for baseline comparison per agency practice. Head of bed elevated at 30°, head midline.<br>Oxygen at 2 L via NC, SpO<sub>2</sub> 95%. T 38.1° C (100.6° F), HR 58 BPM and regular, RR 10 bpm and irregular, BP 168/62 mm Hg, NSR on cardiac monitor. Glasgow Coma Scale (GCS) = 12.</span></p>"
+            },
+            {
+              "id": "lab_1783070000009",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0600 (Preoperative)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100 (Immediate Postoperative)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>4,500–11,000/mm³ (4.5–11 x 10⁹/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7,200/mm³ (7.2 x 10⁹/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">10,800/mm³ (10.8 x 10⁹/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male: 14–18 g/dL (140–180 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14.1 g/dL (141 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.6 g/dL (136 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male: 42%–52% (0.42–0.52)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42% (0.42)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">40% (0.40)</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx_1783070000009",
+              "title": "Diagnostic Tests",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Study</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">MRI brain with contrast (preoperative)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 cm enhancing mass in the right frontal lobe, consistent with a primary brain tumor, with mild surrounding vasogenic edema. No evidence of hemorrhage.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The evening nurse in the neurosurgical unit is caring for a 55-year-old postoperative client."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "description": "A postoperative craniotomy client develops signs of increased intracranial pressure 5 hours after surgery.",
+    "availability": "all",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783090000001",
+    "unit": "Unit 9 (Disorders of the Eyes and Ears)",
+    "title": "Unit 9 Stand-alone 1: Bacterial Conjunctivitis Parent Teaching",
+    "topic": "Unit 9 (Disorders of the Eyes and Ears)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the parent would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“The infection produces profuse watery discharge.”",
+              "correct": false
+            },
+            {
+              "text": "“I should clean my child’s eyelids and eyelashes with soap and water prior to instilling the medication.”",
+              "correct": true
+            },
+            {
+              "text": "“My child’s eyes may be sensitive to light until the infection resolves.”",
+              "correct": false
+            },
+            {
+              "text": "“The prescribed corticosteroid eyedrops should be used for 1 week.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught the parent of a 9-year-old child who has been newly diagnosed with bacterial conjunctivitis.",
+          "explanation": "Cleaning the eyelids and eyelashes with soap and water before instilling eye medication (Option 2) is correct hygiene technique that removes crusted discharge and improves medication contact with the eye. Bacterial conjunctivitis typically produces purulent (thick, yellow-green) discharge, not profuse watery discharge (Option 1), which is more characteristic of viral or allergic conjunctivitis. Photophobia (Option 3) is not a typical expected finding of bacterial conjunctivitis. Corticosteroid eyedrops (Option 4) are not the treatment for bacterial conjunctivitis, which is treated with antibiotic eyedrops; corticosteroids can worsen an untreated infection."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 9 (Disorders of the Eyes and Ears)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783110000001",
+    "unit": "Unit 11 (Endocrine Disorders)",
+    "title": "Unit 11 Stand-alone 1: Propylthiouracil Client Teaching",
+    "topic": "Unit 11 (Endocrine Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Carry emergency identification with you listing your condition and medication regimen.”",
+              "correct": true
+            },
+            {
+              "text": "“The medication dose will need to be reduced if you develop agranulocytosis.”",
+              "correct": false
+            },
+            {
+              "text": "“You will experience weight loss if the medication is effective.”",
+              "correct": false
+            },
+            {
+              "text": "“Increase your daily intake of foods containing iodine.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is teaching a client who is receiving newly prescribed propylthiouracil.",
+          "explanation": "Propylthiouracil carries a risk of agranulocytosis, so carrying emergency identification helps ensure prompt recognition and evaluation (such as a CBC) if the client develops fever or signs of infection. Agranulocytosis requires stopping the medication, not reducing the dose (Option 2). Propylthiouracil treats hyperthyroidism; as it becomes effective and the metabolism normalizes, the client would be expected to gain weight or stabilize, not continue losing weight (Option 3). Iodine intake should generally be limited, not increased, in a client on antithyroid medication (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 11 (Endocrine Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783110000002",
+    "unit": "Unit 11 (Endocrine Disorders)",
+    "title": "Unit 11 Stand-alone 2: Diabetic Foot Care Teaching",
+    "topic": "Unit 11 (Endocrine Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“I will check my shoes for foreign objects prior to putting them on.”",
+              "correct": true
+            },
+            {
+              "text": "“I should use a large, coarse file to remove dry skin from a bunion.”",
+              "correct": false
+            },
+            {
+              "text": "“I will apply a petroleum-based ointment between my toes after bathing.”",
+              "correct": false
+            },
+            {
+              "text": "“I should avoid crossing my legs to prevent decreased circulation to my feet.”",
+              "correct": true
+            },
+            {
+              "text": "“I should wear new shoes for a few hours for several days until they fit well.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught a client with diabetes mellitus (type 2) about foot care.",
+          "explanation": "Checking shoes for foreign objects protects against unnoticed injury given possible diabetic neuropathy. Avoiding crossing the legs prevents impaired circulation to the feet. Gradually breaking in new shoes over several days prevents blisters and injury. Aggressive self-filing of a bunion or callus with a coarse file (Option 2) risks skin breakdown; this should be done by a podiatrist. Ointment applied between the toes (Option 3) increases moisture and maceration risk in that area, promoting fungal infection; moisturizer should go on the tops and soles of the feet, not between the toes."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 11 (Endocrine Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1783110000003",
+    "unit": "Unit 11 (Endocrine Disorders)",
+    "title": "Unit 11 Stand-alone 3: Insulin Infusion Pump Teaching Evaluation",
+    "topic": "Unit 11 (Endocrine Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would require follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I need a bolus dose of insulin prior to a meal.”",
+              "correct": false
+            },
+            {
+              "text": "“I should refill the pump with short-duration insulin.”",
+              "correct": false
+            },
+            {
+              "text": "“I can decrease serum glucose monitoring to twice daily.”",
+              "correct": true
+            },
+            {
+              "text": "“I will change the infusion needle every 2 to 3 days.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is talking with a client who has diabetes mellitus (type 1) and is receiving insulin via an infusion pump.",
+          "explanation": "Insulin pump therapy requires frequent blood glucose monitoring, typically 4 or more times daily, to safely adjust basal and bolus dosing and detect pump malfunction early; decreasing monitoring to twice daily (Option 3) is unsafe and requires follow-up. Requiring a bolus dose before meals (Option 1), using short-duration (rapid-acting) insulin in the pump (Option 2), and changing the infusion needle every 2 to 3 days (Option 4) are all accurate statements about correct insulin pump use."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 11 (Endocrine Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784010000001",
+    "unit": "Unit 1 (Blood Disorders)",
+    "title": "Unit 1 Stand-alone 1: Packed Red Blood Cell Transfusion Preparation",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions should the nurse take?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Assess the client's recent urine output.",
+              "correct": false
+            },
+            {
+              "text": "Prime a Y-tubing blood administration set with lactated Ringer's solution.",
+              "correct": false
+            },
+            {
+              "text": "Ensure that the client has a peripheral venous access device (VAD) that is 24-gauge or larger.",
+              "correct": true
+            },
+            {
+              "text": "Verify with another nurse that the client's room number is on both the blood product label and the client's identification band.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is preparing to administer a unit of packed red blood cells (PRBCs) to a client.",
+          "explanation": "Blood is administered through a VAD of at least 24-gauge (that is, 24-gauge or a larger-bore catheter such as 22, 20, or 18-gauge) to allow safe infusion of the product (Option 3). Blood administration sets must be primed with 0.9% sodium chloride only, never lactated Ringer's solution (Option 2), because the calcium in Ringer's solution can cause the blood product to clot. Room number is never an acceptable client identifier for verifying a blood product against the client's identification band (Option 4); a full name and a unique identifier such as a medical record number must be used instead. Assessing recent urine output (Option 1) is not a required immediate pre-transfusion action; it is more relevant to monitoring after the transfusion begins."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784010000002",
+    "unit": "Unit 1 (Blood Disorders)",
+    "title": "Unit 1 Stand-alone 2: Acute Transfusion Reaction Response",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions should the nurse take? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Stop the transfusion.",
+              "correct": true
+            },
+            {
+              "text": "Check the client's vital signs.",
+              "correct": true
+            },
+            {
+              "text": "Notify the client's primary health care provider.",
+              "correct": true
+            },
+            {
+              "text": "Return the blood and infusion tubing to the blood bank.",
+              "correct": true
+            },
+            {
+              "text": "Infuse 5% dextrose in water through the intravenous catheter.",
+              "correct": false
+            },
+            {
+              "text": "Administer a dose of an antiemetic prescribed p.r.n. to the client.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who is receiving a blood transfusion and states, “I feel chilled and am having back pain.”",
+          "explanation": "Chills and back pain during a transfusion are classic signs of an acute transfusion reaction. The nurse should stop the transfusion immediately, check vital signs, notify the primary health care provider, and return the blood bag and tubing to the blood bank for reaction workup. The line should be kept open with 0.9% sodium chloride, not 5% dextrose in water (Option 5), which can cause hemolysis. An antiemetic (Option 6) does not address this client's presenting symptoms (chills and back pain, not nausea) and is not one of the immediate reaction-response actions."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784010000003",
+    "unit": "Unit 1 (Blood Disorders)",
+    "title": "Unit 1 Stand-alone 3: Clopidogrel Client Teaching",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Notify your primary health care provider if you experience unusual bruising.”",
+              "correct": true
+            },
+            {
+              "text": "“Avoid taking over-the-counter (OTC) medications containing acetaminophen.”",
+              "correct": false
+            },
+            {
+              "text": "“Avoid driving your car for a short time until your response to the medication is known.”",
+              "correct": false
+            },
+            {
+              "text": "“Have a blood specimen obtained every 3 months to check your serum albumin level.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is teaching a client who is receiving newly prescribed clopidogrel.",
+          "explanation": "Clopidogrel is an antiplatelet medication, so the client should report unusual bruising or bleeding to the primary health care provider (Option 1). Acetaminophen (Option 2) does not carry the same bleeding-risk interaction with clopidogrel that NSAIDs or aspirin do, so this restriction is not appropriate teaching. Clopidogrel does not cause sedation or impair driving ability, so a driving restriction (Option 3) is not indicated. Routine serum albumin monitoring (Option 4) is not part of standard clopidogrel therapy monitoring."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784020000001",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
+    "title": "Unit 2 Stand-alone 1: Symptomatic Bradycardia (ECG Rhythm SATA)",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions would be appropriate for the nurse to take? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Administer the client's prescribed beta blocker.",
+              "correct": false
+            },
+            {
+              "text": "Prepare for transcutaneous pacing.",
+              "correct": true
+            },
+            {
+              "text": "Instruct the client to perform the Valsalva maneuver.",
+              "correct": false
+            },
+            {
+              "text": "Begin chest compressions.",
+              "correct": false
+            },
+            {
+              "text": "Assess the client for angina.",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who reports feeling faint and is experiencing the cardiac rhythm shown in the electrocardiogram (ECG) strip below.",
+          "explanation": "The rhythm strip shows a regular, narrow-complex rhythm with a markedly slow ventricular rate consistent with symptomatic bradycardia, correlating with the client's report of feeling faint (pre-syncope from reduced cardiac output). The nurse should prepare for transcutaneous pacing (Option 2) because pacing may be required to increase heart rate and cardiac output if the client remains symptomatic. The nurse should also assess the client for angina (Option 5), since a slow heart rate can reduce coronary perfusion and precipitate ischemic chest pain, and this finding would guide further treatment. Administering a beta blocker (Option 1) is contraindicated because beta blockers further slow heart rate and conduction, worsening bradycardia. Instructing the client to perform the Valsalva maneuver (Option 3) is incorrect because vagal maneuvers slow the heart rate further and are used to treat tachyarrhythmias, not bradycardia. Beginning chest compressions (Option 4) is not indicated because the client is conscious and reporting symptoms, indicating a perfusing rhythm with a pulse; compressions are reserved for pulseless arrest.",
+          "questionImage": "data:image/png;base64,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"
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784020000002",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
+    "title": "Unit 2 Stand-alone 2: Ineffective Coping After Myocardial Infarction",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate ineffective coping?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I know that stopping smoking will be difficult.”",
+              "correct": false
+            },
+            {
+              "text": "“I plan to attend a cardiac rehabilitation support group.”",
+              "correct": false
+            },
+            {
+              "text": "“I have trouble believing this has really happened to me.”",
+              "correct": false
+            },
+            {
+              "text": "“I have let down my family because I will not be able to financially support them any longer.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing the coping strategies of a client who had a myocardial infarction (MI) 3 days ago.",
+          "explanation": "Assuming, only 3 days after an MI, that the client will permanently be unable to work and support their family (Option 4) reflects catastrophic thinking and hopelessness not grounded in the client's actual prognosis, indicating ineffective coping and warranting further assessment for depression or excessive guilt. Acknowledging that quitting smoking will be difficult (Option 1) and planning to attend cardiac rehabilitation (Option 2) both reflect realistic, adaptive coping and engagement with recovery. Some difficulty believing the MI happened (Option 3) reflects an early, commonly expected stage of processing a sudden diagnosis rather than clearly ineffective coping at only 3 days out."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784020000003",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
+    "title": "Unit 2 Stand-alone 3: Low-Sodium Diet Teaching Evaluation",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I will eat steamed, fresh broccoli with herbs and spices for an evening meal.”",
+              "correct": true
+            },
+            {
+              "text": "“I will add cottage cheese and other dairy products to my daily diet.”",
+              "correct": false
+            },
+            {
+              "text": "“I am glad I can still enjoy eating cereals, such as bran flakes with raisins.”",
+              "correct": false
+            },
+            {
+              "text": "“I am glad I can eat lean meats daily because I eat ham sandwiches for an afternoon meal.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught a client who has been ordered a low-sodium diet about appropriate food choices.",
+          "explanation": "Fresh steamed vegetables seasoned with herbs and spices instead of salt (Option 1) is exactly the substitution pattern taught for a low-sodium diet. Cottage cheese (Option 2) and many processed breakfast cereals such as bran flakes (Option 3) are common hidden-sodium sources that clients often mistakenly consider low-sodium choices. Ham (Option 4) is a cured, processed meat that is very high in sodium and is not an appropriate substitute for a fresh lean meat on a low-sodium diet."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784020000004",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
+    "title": "Unit 2 Stand-alone 4: Beta Blocker Contraindication",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following would be a contraindication to administer the medication?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "heart block",
+              "correct": true
+            },
+            {
+              "text": "myocardial infarction (MI)",
+              "correct": false
+            },
+            {
+              "text": "heart failure",
+              "correct": false
+            },
+            {
+              "text": "angina pectoris",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is preparing to administer a beta blocker to a client.",
+          "explanation": "Beta blockers are contraindicated in heart block, since they further slow atrioventricular conduction and can worsen the block. Beta blockers are actually standard, indicated therapy following an MI (Option 2) and for angina (Option 4), both of which reduce myocardial oxygen demand. Certain beta blockers are also indicated for stable chronic heart failure (Option 3); heart failure is not a blanket contraindication the way heart block is."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784020000005",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
+    "title": "Unit 2 Stand-alone 5: Prioritization - Pulsus Paradoxus in Pericarditis",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> assess the client",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "with chronic obstructive pulmonary disease (COPD) who is using pursed-lip breathing after ambulating in the hallway",
+              "correct": false
+            },
+            {
+              "text": "with pericarditis who has a systolic blood pressure that is 20 mm Hg higher during expiration than during inspiration",
+              "correct": true
+            },
+            {
+              "text": "who had a total abdominal hysterectomy (TAH) 12 hours ago and has saturated 1 perineal pad in the past 5 hours",
+              "correct": false
+            },
+            {
+              "text": "who has Guillain-Barré syndrome and has had an increase in the vital capacity over the past 4 hours",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has been made aware of the following client situations.",
+          "explanation": "A systolic blood pressure drop of more than 10 mm Hg during inspiration (here, 20 mm Hg higher during expiration than inspiration) is pulsus paradoxus, and in a client with pericarditis (Option 2) this is a concerning sign of cardiac tamponade, a life-threatening emergency requiring immediate assessment. Pursed-lip breathing after ambulation in a client with COPD (Option 1) is an expected, adaptive breathing pattern. Saturating 1 perineal pad over 5 hours after a TAH (Option 3) is an expected amount of postoperative drainage, not excessive bleeding. An increasing vital capacity in Guillain-Barré syndrome (Option 4) is a reassuring, improving sign, since a falling vital capacity is the finding that signals impending respiratory failure in this condition."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784020000006",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
+    "title": "Unit 2 Stand-alone 6: Post-Cardiac-Catheterization Findings",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would require <b>immediate</b> follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "blood pressure, 104/70 mm Hg",
+              "correct": false
+            },
+            {
+              "text": "1+ pedal pulse of the affected extremity",
+              "correct": true
+            },
+            {
+              "text": "heart rate, 98",
+              "correct": false
+            },
+            {
+              "text": "urine output of 100 mL for the past 2 hours",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing a client who had cardiac catheterization 2 hours ago.",
+          "explanation": "A diminished (1+) pedal pulse in the extremity used for catheter access (Option 2) requires immediate follow-up because it may indicate arterial occlusion, thrombus, or a hematoma compressing blood flow -- a vascular emergency after cardiac catheterization. A blood pressure of 104/70 mm Hg (Option 1) and a heart rate of 98 (Option 3) are within expected limits. A urine output of 100 mL over 2 hours (Option 4) is approximately 50 mL/hr, an adequate output that does not require immediate follow-up."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784020000007",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
+    "title": "Unit 2 Stand-alone 7: Prioritization - New Back Pain in Abdominal Aortic Aneurysm",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> assess the client",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "with multiple sclerosis (MS) who had an indwelling urethral catheter removed 5 hours ago and has not been able to urinate",
+              "correct": false
+            },
+            {
+              "text": "with an abdominal aortic aneurysm who reports recent onset of low back pain",
+              "correct": true
+            },
+            {
+              "text": "who had coronary artery bypass graft (CABG) surgery 2 days ago and reports sternal pain when coughing",
+              "correct": false
+            },
+            {
+              "text": "who has bacterial pneumonia and is requesting a cough suppressant",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has received information about assigned clients.",
+          "explanation": "New onset low back pain in a client with a known abdominal aortic aneurysm (Option 2) is a classic warning sign of aneurysm expansion or impending rupture, a life-threatening emergency requiring immediate assessment. Urinary retention after recent catheter removal in a client with MS (Option 1) needs assessment but is not immediately life-threatening. Sternal pain with coughing 2 days after CABG surgery (Option 3) is an expected postoperative finding. A request for a cough suppressant in a client with bacterial pneumonia (Option 4) is a reasonable, non-urgent request."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784030000001",
+    "unit": "Unit 3 (Respiratory Disorders)",
+    "title": "Unit 3 Stand-alone 1: Positive Pressure Ventilation Client Teaching",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the nurse would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Clients should avoid range-of-motion (ROM) exercises until weaned from ventilation.”",
+              "correct": false
+            },
+            {
+              "text": "“Clients may develop stress ulcers and gastrointestinal bleeding.”",
+              "correct": true
+            },
+            {
+              "text": "“Clients will be chemically paralyzed to improve oxygenation.”",
+              "correct": false
+            },
+            {
+              "text": "“Clients will experience diuresis and polyuria.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has attended a staff education program about caring for clients who are receiving positive pressure mechanical ventilation.",
+          "explanation": "Mechanically ventilated clients are at risk for stress ulcers and gastrointestinal bleeding (Option 2) due to the physiologic stress of critical illness; stress-ulcer prophylaxis (e.g., a proton pump inhibitor or H2 blocker) is standard care. ROM exercises (Option 1) should continue, not be avoided, to prevent contractures, pressure injury, and venous thromboembolism during ventilation. Chemical paralysis (Option 3) is reserved for specific situations such as severe ventilator dyssynchrony or ARDS, not a routine expectation for every ventilated client. Positive pressure ventilation decreases venous return and cardiac output, which activates the renin-angiotensin-aldosterone system and typically causes fluid retention and decreased urine output, not diuresis and polyuria (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Respiratory Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784030000002",
+    "unit": "Unit 3 (Respiratory Disorders)",
+    "title": "Unit 3 Stand-alone 2: Priority Assessment After Thoracic Surgery",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> assess the client",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "who had a right pneumonectomy 24 hours ago and is in the high-Fowler's position while lying on the right side",
+              "correct": false
+            },
+            {
+              "text": "with chronic obstructive pulmonary disease (COPD) who is using pursed-lip breathing and reporting hemoptysis",
+              "correct": true
+            },
+            {
+              "text": "who had a wedge resection of the left lung 24 hours ago and is sitting in the high-Fowler's position",
+              "correct": false
+            },
+            {
+              "text": "with heart failure who has a productive cough and is restless",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has become aware of the following client situations.",
+          "explanation": "Hemoptysis (Option 2) is a new, objective finding that is never an expected part of a COPD client's baseline presentation and can signal a serious complication such as infection, pulmonary embolism, or malignancy; it requires the most urgent assessment. Positioning on the operative (right) side in the high-Fowler's position after a right pneumonectomy (Option 1) is the expected, correct post-pneumonectomy position, since it allows the remaining lung to expand and prevents fluid from draining toward it. Sitting upright after a wedge resection (Option 3) is also the expected position to maximize lung expansion. A productive cough and restlessness in a client with heart failure (Option 4) can reflect pulmonary congestion and warrants follow-up but is a less acute, objectively alarming finding than new hemoptysis."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Respiratory Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784030000003",
+    "unit": "Unit 3 (Respiratory Disorders)",
+    "title": "Unit 3 Stand-alone 3: Thoracic Expansion Assessment Technique",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following would indicate that the coworker is using the correct assessment technique?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "percussion from the apex of the scapula downward on each side",
+              "correct": false
+            },
+            {
+              "text": "placement of the hands flat on the back with the thumbs at the level of the tenth ribs pointing to the spine, then asking the client to inhale",
+              "correct": true
+            },
+            {
+              "text": "measurement of the anteroposterior diameter of the chest",
+              "correct": false
+            },
+            {
+              "text": "placement of the palms at the level of the tenth ribs with thumbs pointing to the xiphoid process, then asking the client to inhale",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse observes a coworker who is assessing a client's thoracic expansion.",
+          "explanation": "Posterior thoracic (respiratory) excursion is assessed by placing the hands flat against the client's back with the thumbs at about the level of the tenth ribs pointing toward the spine, then observing the thumbs move symmetrically apart as the client inhales (Option 2). Percussion from the scapula downward (Option 1) assesses lung resonance/diaphragmatic excursion, a different parameter, not chest wall expansion. Measuring the anteroposterior diameter (Option 3) assesses chest configuration (for example, a barrel chest), not excursion during breathing."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Respiratory Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784030000004",
+    "unit": "Unit 3 (Respiratory Disorders)",
+    "title": "Unit 3 Stand-alone 4: Chest Tube Priority Monitoring",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would be a priority for the nurse to monitor the client for",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "tracheal deviation",
+              "correct": true
+            },
+            {
+              "text": "pain at the insertion site",
+              "correct": false
+            },
+            {
+              "text": "subcutaneous emphysema",
+              "correct": false
+            },
+            {
+              "text": "redness or swelling at the insertion site",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who has a chest tube attached to a closed-chest drainage system.",
+          "explanation": "Tracheal deviation signals a tension pneumothorax and mediastinal shift, a life-threatening emergency that can rapidly cause cardiovascular collapse, making it the priority finding to monitor for. Pain at the insertion site (Option 2) is an expected, manageable finding. Subcutaneous emphysema (Option 3) can occur with a chest tube and needs monitoring but is generally not as immediately life-threatening as tracheal deviation. Redness or swelling at the insertion site (Option 4) may suggest local infection but is not an acute emergency."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Respiratory Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784030000005",
+    "unit": "Unit 3 (Respiratory Disorders)",
+    "title": "Unit 3 Stand-alone 5: COPD Nutrition Documentation and Negligence Review",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following entries in the client's medical record would help <b>refute</b> the charge of negligence?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "The client has been instructed to eat 3 large meals daily.",
+              "correct": false
+            },
+            {
+              "text": "The client has been encouraged to maintain a high-calorie, high-protein diet.",
+              "correct": true
+            },
+            {
+              "text": "The client has been encouraged to drink fluids with meals to promote digestion.",
+              "correct": false
+            },
+            {
+              "text": "The client has been instructed to exercise 30 minutes before eating to improve appetite.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse that cared for a client with chronic obstructive pulmonary disease (COPD) who lost more than 10% of ideal body weight has been named in a lawsuit charging negligence.",
+          "explanation": "Encouraging a high-calorie, high-protein diet (Option 2) is the correct, evidence-based nutritional teaching for a client with COPD at risk for malnutrition, and documentation of this teaching would help refute a claim of negligent care. Instructing the client to eat 3 large meals daily (Option 1) is incorrect teaching, since large meals can cause abdominal distention that presses on the diaphragm and worsens dyspnea; smaller, more frequent meals are recommended instead. Encouraging fluids with meals (Option 3) is also incorrect, since fluids taken with meals can cause early satiety and reduce food intake; fluids should be taken between meals. Instructing the client to exercise immediately before eating (Option 4) is incorrect, since exertion before a meal increases fatigue and dyspnea and can further reduce appetite and intake; rest before meals is recommended instead. Documentation of these 3 incorrect teaching points would not help refute, and could support, a negligence claim."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Respiratory Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784040000001",
+    "unit": "Unit 4 (Inflammation and Immune Disorders)",
+    "title": "Unit 4 Stand-alone 1: HIV Viral Load Test Teaching",
+    "topic": "Unit 4 (Inflammation and Immune Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“The viral load test is used to determine my response to the treatment regimen I am receiving for HIV.”",
+              "correct": true
+            },
+            {
+              "text": "“The viral load test can rapidly detect HIV-specific antibodies in the blood.”",
+              "correct": false
+            },
+            {
+              "text": "“I will be able to decrease the dosage of my prescribed medications if my viral load is low.”",
+              "correct": false
+            },
+            {
+              "text": "“I am unlikely to develop acquired immune deficiency syndrome (AIDS) if my viral load is high.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught a client who has a positive laboratory test result for human immunodeficiency virus (HIV) infection. The client is scheduled for a viral load test.",
+          "explanation": "The viral load test measures the amount of HIV RNA in the blood and is used to monitor how well antiretroviral therapy is controlling the virus. It does not detect HIV-specific antibodies (Option 2), which is what an antibody/ELISA test does. Maintaining the full prescribed regimen, not reducing the dose, is what keeps the viral load low; reducing medication (Option 3) risks resistance and viral rebound. A high, not low, viral load (Option 4) reflects poor disease control and increases the risk of progression to AIDS."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 4 (Inflammation and Immune Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784040000002",
+    "unit": "Unit 4 (Inflammation and Immune Disorders)",
+    "title": "Unit 4 Stand-alone 2: Mononucleosis Assessment Findings",
+    "topic": "Unit 4 (Inflammation and Immune Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would support a diagnosis of mononucleosis?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "polyarthralgia",
+              "correct": false
+            },
+            {
+              "text": "costovertebral pain",
+              "correct": false
+            },
+            {
+              "text": "cervical lymphadenopathy",
+              "correct": true
+            },
+            {
+              "text": "left lower quadrant (LLQ) tenderness",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing a client with suspected mononucleosis.",
+          "explanation": "Cervical lymphadenopathy (Option 3) is a classic finding in infectious mononucleosis, along with fever, pharyngitis, and fatigue. Polyarthralgia (Option 1) is not a typical mononucleosis finding. Costovertebral angle tenderness (Option 2) suggests renal pathology, not mononucleosis. Mononucleosis characteristically causes splenomegaly with left upper quadrant tenderness, not left lower quadrant tenderness (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 4 (Inflammation and Immune Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784040000003",
+    "unit": "Unit 4 (Inflammation and Immune Disorders)",
+    "title": "Unit 4 Stand-alone 3: HIV Client Teaching Evaluation",
+    "topic": "Unit 4 (Inflammation and Immune Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would require follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I try to eat a well-balanced diet.”",
+              "correct": false
+            },
+            {
+              "text": "“I avoid crowds when I go outside the house.”",
+              "correct": false
+            },
+            {
+              "text": "“I am taking a vitamin C tablet daily to help prevent infections.”",
+              "correct": false
+            },
+            {
+              "text": "“I take echinacea every day to help improve my immune system.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is talking with a client who has a positive laboratory test result for human immunodeficiency virus (HIV) infection.",
+          "explanation": "Echinacea and other herbal immune stimulants (Option 4) are not recommended for clients who are immunocompromised, including those with HIV, both because the effect on an already dysregulated immune system is not established as beneficial and because herbal immunostimulants can interact with antiretroviral medications; this statement requires follow-up. Eating a well-balanced diet (Option 1) and avoiding crowds to reduce exposure to infection (Option 2) are appropriate self-care measures. A daily vitamin C supplement (Option 3) is a generally low-risk practice and does not require the same follow-up concern as an immune-stimulating herbal supplement."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 4 (Inflammation and Immune Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784060000001",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "Unit 6 Stand-alone 1: Diverticulosis Client Teaching",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Limit your daily fluid intake to 2 L to avoid bloating.”",
+              "correct": false
+            },
+            {
+              "text": "“You may be prescribed a bulk-forming laxative.”",
+              "correct": true
+            },
+            {
+              "text": "“Limit your intake of dairy products such as milk and yogurt.”",
+              "correct": false
+            },
+            {
+              "text": "“You should avoid consuming cooked vegetables.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is teaching a client newly diagnosed with diverticulosis.",
+          "explanation": "A bulk-forming laxative such as psyllium (Option 2) is commonly prescribed for diverticulosis to promote regular, soft bowel movements and reduce intraluminal pressure. Diverticulosis management encourages adequate, not limited, fluid intake (Option 1) alongside a high-fiber diet to prevent constipation. There is no standard indication to limit dairy products (Option 3). Cooked vegetables (Option 4) are a recommended source of fiber and are not restricted; the older recommendation to avoid seeds, nuts, and popcorn is now considered outdated and not evidence-based, and cooked vegetables were never part of that restriction."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784060000002",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "Unit 6 Stand-alone 2: Total Parenteral Nutrition Teaching",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“The TPN intravenous tubing should be changed once a week.”",
+              "correct": false
+            },
+            {
+              "text": "“TPN can be administered through a peripherally inserted central catheter (PICC).”",
+              "correct": true
+            },
+            {
+              "text": "“Clients receiving TPN should be weighed daily.”",
+              "correct": true
+            },
+            {
+              "text": "“An infusion pump is used to deliver TPN.”",
+              "correct": true
+            },
+            {
+              "text": "“Serum glucose levels should be monitored in clients receiving TPN.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is preparing a staff education program about total parenteral nutrition (TPN).",
+          "explanation": "TPN can be safely infused through a PICC line, a form of central venous access appropriate for TPN's high osmolarity. Daily weights track fluid and nutritional status. An infusion pump ensures precise, controlled delivery. Serum glucose must be monitored because of TPN's high dextrose content and hyperglycemia risk. TPN tubing must be changed every 24 hours, not weekly (Option 1), because of the high infection risk from its glucose- and lipid-rich composition."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784060000003",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "Unit 6 Stand-alone 3: Hiatal Hernia Client Teaching",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I will consume 3 regular-sized meals daily.”",
+              "correct": false
+            },
+            {
+              "text": "“Wearing an abdominal binder can help relieve symptoms.”",
+              "correct": false
+            },
+            {
+              "text": "“I should elevate the head of the bed on 6 in (15 cm) blocks.”",
+              "correct": true
+            },
+            {
+              "text": "“Eating foods with a high fat content will increase gastric emptying.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught a client with a hiatal hernia about interventions for the condition.",
+          "explanation": "Elevating the head of the bed reduces nighttime reflux and is standard hiatal hernia/GERD teaching. Small, frequent meals are recommended instead of 3 regular-sized meals (Option 1), to reduce abdominal pressure. An abdominal binder (Option 2) increases intra-abdominal pressure and would worsen symptoms. High-fat foods (Option 4) delay, rather than increase, gastric emptying, which worsens reflux risk."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784060000004",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "Unit 6 Stand-alone 4: Cirrhosis Assessment Finding",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would be consistent with a diagnosis of cirrhosis?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "steatorrhea",
+              "correct": false
+            },
+            {
+              "text": "deep vein thrombosis (DVT)",
+              "correct": false
+            },
+            {
+              "text": "high fever",
+              "correct": false
+            },
+            {
+              "text": "spontaneous bruising",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing a client with cirrhosis.",
+          "explanation": "Spontaneous bruising is a classic cirrhosis finding, resulting from decreased synthesis of clotting factors by the diseased liver. Steatorrhea (Option 1) is more characteristic of pancreatic insufficiency or malabsorption. DVT (Option 2) is not a hallmark cirrhosis finding. High fever (Option 3) is not a defining feature of cirrhosis itself, though it can occur with a complication such as spontaneous bacterial peritonitis."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784060000005",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "Unit 6 Stand-alone 5: ERCP Pre-Procedure Questions",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following questions would be important for the nurse to ask? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“How will you be getting home after the procedure?”",
+              "correct": true
+            },
+            {
+              "text": "“Do you have access to a thermometer after you leave here?”",
+              "correct": true
+            },
+            {
+              "text": "“What allergies do you have?”",
+              "correct": true
+            },
+            {
+              "text": "“Are you wearing dentures?”",
+              "correct": true
+            },
+            {
+              "text": "“Do you have external hemorrhoids?”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is talking with a client who is scheduled for endoscopic retrograde cholangiopancreatography (ERCP) in 2 hours in the outpatient department.",
+          "explanation": "ERCP is performed with sedation, so the client must arrange transportation home and should not drive (Option 1). The client should have a thermometer available at home to monitor for fever, an early sign of post-ERCP complications such as pancreatitis or cholangitis (Option 2). ERCP uses contrast dye, so allergies (particularly to iodine or shellfish) must be identified beforehand (Option 3). ERCP involves passing an endoscope through the mouth and esophagus, so dentures must be identified and removed before the procedure (Option 4). External hemorrhoids (Option 5) are unrelated to ERCP, which examines the upper gastrointestinal tract and biliary system, not the rectum or anus."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784060000006",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "Unit 6 Stand-alone 6: Infant Projectile Vomiting - Diagnostic Workup",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following diagnostic procedures should the nurse anticipate the physician would order? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "barium enema",
+              "correct": false
+            },
+            {
+              "text": "abdominal x-ray",
+              "correct": true
+            },
+            {
+              "text": "abdominal ultrasound",
+              "correct": true
+            },
+            {
+              "text": "complete metabolic panel",
+              "correct": true
+            },
+            {
+              "text": "esophagogastroduodenoscopy (EGD)",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in the emergency department (ED) is caring for a 10-day-old client with recurrent projectile vomiting after feedings, hyperactive bowel sounds, and, by the most recent assessment, a distended abdomen and inconsolable crying.",
+          "explanation": "This presentation (recurrent projectile vomiting in a neonate, abdominal distention) is consistent with pyloric stenosis or another upper gastrointestinal obstructive process. Abdominal ultrasound (Option 3) is the gold-standard imaging study to visualize a thickened, elongated pylorus. An abdominal x-ray (Option 2) is a reasonable initial screen for a distended, obstructed abdomen. A complete metabolic panel (Option 4) is indicated to assess for the hypochloremic, hypokalemic metabolic alkalosis that results from repeated vomiting of gastric contents. A barium enema (Option 1) evaluates the lower gastrointestinal tract (for example, intussusception) and is not indicated for this upper gastrointestinal/gastric outlet presentation. Esophagogastroduodenoscopy (Option 5) is an invasive direct-visualization procedure that is not the standard first-line diagnostic study for suspected pyloric stenosis in an infant."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784060000007",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "Unit 6 Stand-alone 7: Bowtie - Infected Gastrostomy Tube Site",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client’s progress.",
+          "type": "bowtie",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
+          "explanation": "Thick, yellow drainage and erythematous, flaking skin at the gastrostomy tube site, together with fever, marked tachycardia (P 171), and early signs of poor perfusion (weak peripheral pulses, cool extremities, capillary refill of 3 seconds), indicate an infection of the gastrostomy tube site that is causing early systemic compromise, not simply the expected appearance of a healing site. This is not refeeding syndrome, which results from electrolyte shifts (hypophosphatemia, hypokalemia, hypomagnesemia) after reintroducing nutrition to a malnourished client and is not suggested by any finding here. The nurse should request an intravenous fluid bolus to support perfusion given the signs of early shock, and request a wound consultation given the infected, draining, loose tube site, which needs specialized evaluation beyond routine dressing care. The nurse should monitor skin integrity to track the infected site and vital signs every 30 minutes to closely track the client’s hemodynamic status while systemic compromise is a concern. Changing the site dressing is reasonable general care but is a lower-priority action than addressing perfusion and obtaining specialized wound input; obtaining an electrocardiogram is more relevant if refeeding syndrome were suspected, which it is not here; and reassuring the parent that the findings are a normal progression of healing is incorrect, since the findings described are abnormal. This item is flagged for clinician review: reasonable practice could also prioritize changing the saturated dressing among the top 2 actions.",
+          "bowtieParams": [
+            {
+              "text": "stool output",
+              "correct": false
+            },
+            {
+              "text": "skin integrity",
+              "correct": true
+            },
+            {
+              "text": "feeding tolerance",
+              "correct": false
+            },
+            {
+              "text": "vital signs every 30 minutes",
+              "correct": true
+            },
+            {
+              "text": "parent's ability to administer a tube feeding",
+              "correct": false
+            }
+          ],
+          "bowtieActions": [
+            {
+              "text": "change the site dressing",
+              "correct": false
+            },
+            {
+              "text": "request a wound consultation",
+              "correct": true
+            },
+            {
+              "text": "obtain an electrocardiogram (ECG)",
+              "correct": false
+            },
+            {
+              "text": "request a bolus of intravenous 0.9% sodium chloride (normal saline)",
+              "correct": true
+            },
+            {
+              "text": "reassure the parent that the site findings are the normal progression of healing",
+              "correct": false
+            }
+          ],
+          "bowtieCol1Header": "Actions to Take",
+          "bowtieCol2Header": "Potential Conditions",
+          "bowtieCol3Header": "Parameters to Monitor",
+          "bowtieConditions": [
+            {
+              "text": "refeeding syndrome",
+              "correct": false
+            },
+            {
+              "text": "infection of the gastrostomy tube site",
+              "correct": true
+            },
+            {
+              "text": "normal gastrostomy tube findings",
+              "correct": false
+            },
+            {
+              "text": "intolerance to gastrostomy tube feedings",
+              "correct": false
+            }
+          ],
+          "bowtieLeftPlaceholder": "",
+          "bowtieRightPlaceholder": "",
+          "bowtieCenterPlaceholder": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1784060000007",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client admitted with increased irritability and a leaking gastrostomy feeding tube, which was placed 2 weeks ago for failure to thrive. The feeding tube insertion site, which is on the left side of the abdomen, is covered with a dressing that is saturated with old formula. On removal of the dressing, the skin surrounding the feeding tube site is erythematous and flaking, and the feeding tube is loose. At the insertion site, a small amount of thick, yellow drainage is noted. Peripheral pulses are weak. Extremities are cool to the touch. Capillary refill is 3 seconds. Client is intermittently pulling at the tube and scratching at the site. Parent reports giving the client acetaminophen last night before bedtime, but the client was still intermittently waking and irritable throughout the night. Parent attempted to feed the client through the feeding tube 8 hours ago. Vital signs: temporal T 100.6° F (38.1° C), P 171, RR 42, BP 74/62, pulse oximetry reading 97% on room air. Parent has a history of a penicillin allergy.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the pediatric unit is caring for a 6-month-old client."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784070000001",
+    "unit": "Unit 7 (Urinary Disorders)",
+    "title": "Unit 7 Stand-alone 1: Acute Kidney Injury Order Clarification",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following orders should the nurse clarify?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "computed tomography (CT) scan of the abdomen with intravenous contrast media",
+              "correct": true
+            },
+            {
+              "text": "urine specimen for urinalysis",
+              "correct": false
+            },
+            {
+              "text": "blood specimen for arterial blood gas (ABG)",
+              "correct": false
+            },
+            {
+              "text": "referral to registered dietitian for parenteral nutrition evaluation",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is reviewing the orders of a client who has acute kidney injury.",
+          "explanation": "Intravenous contrast media is nephrotoxic and can worsen kidney function in a client who already has acute kidney injury (AKI); this order should be clarified with the prescriber, who may choose an alternative imaging study or non-contrast CT. A urinalysis (Option 2) and an ABG (Option 3) are appropriate, expected diagnostic studies for evaluating AKI. A dietitian referral (Option 4) is appropriate, since nutritional needs commonly must be adjusted in AKI."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Urinary Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784070000002",
+    "unit": "Unit 7 (Urinary Disorders)",
+    "title": "Unit 7 Stand-alone 2: Pediatric Urinary Tract Infection Prevention",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“Teach the child to perform Kegel exercises.”",
+              "correct": false
+            },
+            {
+              "text": "“Encourage the child to empty the bladder completely.”",
+              "correct": true
+            },
+            {
+              "text": "“Encourage the child to maintain an adequate fluid intake.”",
+              "correct": true
+            },
+            {
+              "text": "“Teach the child how to properly cleanse the perineal area.”",
+              "correct": true
+            },
+            {
+              "text": "“Offer the child noncarbonated, decaffeinated beverage choices.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning a staff education program about the prevention of urinary tract infections (UTIs) in children.",
+          "explanation": "Complete bladder emptying (Option 2) prevents urinary stasis that allows bacteria to multiply. Adequate fluid intake (Option 3) helps flush bacteria from the urinary tract. Proper perineal cleansing technique, such as front-to-back wiping (Option 4), prevents introducing bacteria into the urethra. Noncarbonated, decaffeinated beverages (Option 5) avoid bladder irritants that carbonation and caffeine can cause. Kegel exercises (Option 1) strengthen pelvic floor muscles for continence and are not a standard pediatric UTI prevention teaching point."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Urinary Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784070000003",
+    "unit": "Unit 7 (Urinary Disorders)",
+    "title": "Unit 7 Stand-alone 3: Spinal Cord Injury Indwelling Catheter Care",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following would be a priority for the nurse to include in the plan of care?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "encouraging the client to drink 6 to 8 glasses of fluid per day",
+              "correct": false
+            },
+            {
+              "text": "maintaining the urine collection bag in a dependent position",
+              "correct": true
+            },
+            {
+              "text": "teaching the client about foods high in fiber",
+              "correct": false
+            },
+            {
+              "text": "assessing the color of the urine output",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is developing a plan of care for a client with a spinal cord injury at C5 who has an indwelling urethral catheter.",
+          "explanation": "Keeping the urine collection bag below the level of the bladder (a dependent position) is a fundamental catheter-care priority that prevents urine reflux and reduces infection risk, and applies regardless of other considerations. Adequate fluid intake (Option 1) supports urinary health but is a general goal rather than a catheter-specific priority. High-fiber foods (Option 3) address bowel, not bladder, management. Assessing urine color (Option 4) is reasonable general monitoring but is not as fundamental a safety priority as proper drainage positioning."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Urinary Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784070000004",
+    "unit": "Unit 7 (Urinary Disorders)",
+    "title": "Unit 7 Stand-alone 4: 24-Hour Urine Collection Teaching",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“You will be asked to urinate when starting the collection, and the initial urine will be discarded.”",
+              "correct": true
+            },
+            {
+              "text": "“A sign will be posted on the bathroom door as a reminder to save your urine.”",
+              "correct": true
+            },
+            {
+              "text": "“You will be asked to void at the end of the designated time period to complete the urine collection.”",
+              "correct": true
+            },
+            {
+              "text": "“You should discard urine that is dark or pink in color.”",
+              "correct": false
+            },
+            {
+              "text": "“The collected urine will be sent to the laboratory at the end of each shift.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is teaching a client who is scheduled for a 24-hour urine collection.",
+          "explanation": "The standard protocol discards the first void to mark the true start time, saves every void afterward, posts a reminder sign, and includes the final void at the end of the collection period. All urine must be saved regardless of its color or appearance (Option 4); discarding any portion compromises the accuracy of the total collection. The complete collection is kept together (often on ice or refrigerated) and sent to the laboratory as one specimen at the end of the full 24 hours, not sent in portions at the end of each shift (Option 5)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Urinary Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784070000005",
+    "unit": "Unit 7 (Urinary Disorders)",
+    "title": "Unit 7 Stand-alone 5: Arteriovenous Shunt Care Planning",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following interventions should the nurse include in the client's plan of care?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Instruct the client to protect the AV shunt by tucking the left arm under the body while sleeping.",
+              "correct": false
+            },
+            {
+              "text": "Check for a bruit by palpating the AV shunt.",
+              "correct": false
+            },
+            {
+              "text": "Administer prescribed intravenous fluids through the AV shunt.",
+              "correct": false
+            },
+            {
+              "text": "Avoid obtaining blood pressure measurements in the arm with the AV shunt.",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning care for a client who has an arteriovenous (AV) shunt in the left arm.",
+          "explanation": "Blood pressure measurements, venipuncture, and IV access should never be performed in the extremity with an AV shunt or fistula, to protect it from pressure damage or occlusion. Tucking the arm under the body (Option 1) risks compressing and occluding the shunt. A bruit is assessed by auscultation (listening), while a thrill is assessed by palpation (feeling); “checking for a bruit by palpating” (Option 2) describes the wrong technique for the wrong finding. The AV shunt is reserved exclusively for dialysis access and should not be used for routine IV fluid administration (Option 3)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Urinary Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784070000006",
+    "unit": "Unit 7 (Urinary Disorders)",
+    "title": "Unit 7 Stand-alone 6: Aminoglycoside - Renal Function Labs",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following laboratory test results should the nurse review before administering the medication?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "serum electrolyte level and serum uric acid level",
+              "correct": false
+            },
+            {
+              "text": "hemoglobin (Hgb) and white blood cell (WBC) count",
+              "correct": false
+            },
+            {
+              "text": "serum ammonia level and serum glucose level",
+              "correct": false
+            },
+            {
+              "text": "blood urea nitrogen (BUN) and serum creatinine",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is preparing to administer an aminoglycoside.",
+          "explanation": "Aminoglycosides are nephrotoxic, so the nurse should review blood urea nitrogen (BUN) and serum creatinine (Option 4) before administration to confirm adequate renal function and avoid drug accumulation and toxicity. Serum electrolyte and uric acid levels (Option 1), hemoglobin and WBC count (Option 2), and serum ammonia and glucose levels (Option 3) are not the primary safety labs associated with aminoglycoside nephrotoxicity."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Urinary Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784070000007",
+    "unit": "Unit 7 (Urinary Disorders)",
+    "title": "Unit 7 Stand-alone 7: Triad - Acute Kidney Injury After AAA Repair",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Complete the following sentence by selecting from the 3 lists of options below. Based on the assessment data in the medical record, click to specify the <b>most likely</b> condition the client is experiencing and 2 assessment findings that <b>most</b> support that condition.",
+          "type": "triad",
+          "cloze": {
+            "text": "The client is most likely experiencing [[drop0]] as evidenced by [[drop1]] and [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "Hypoxia",
+                    "correct": false
+                  },
+                  {
+                    "text": "Bleeding",
+                    "correct": false
+                  },
+                  {
+                    "text": "Wound infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "Acute kidney injury",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "Heart rate",
+                    "correct": false
+                  },
+                  {
+                    "text": "Urine output",
+                    "correct": true
+                  },
+                  {
+                    "text": "Temperature",
+                    "correct": false
+                  },
+                  {
+                    "text": "Respiratory rate",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "SpO2",
+                    "correct": false
+                  },
+                  {
+                    "text": "IV intake",
+                    "correct": false
+                  },
+                  {
+                    "text": "BUN and Cr",
+                    "correct": true
+                  },
+                  {
+                    "text": "Blood pressure",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "1300: The nurse reviews the medical record and morning laboratory results of a 54-year-old client who had an abdominal aneurysm repair 24 hours ago. The client has an IV infusion at a rate of 75 mL/hr, unchanged for the last 12 hours.",
+          "explanation": "All 4 conditions listed are complications the nurse would monitor for after this surgery, but the client's data most specifically point to acute kidney injury (AKI). Following abdominal aortic aneurysm repair, the kidneys are at risk from intraoperative blood loss and, depending on the aneurysm's location, temporary hypoperfusion of the renal arteries. The client's urine output has declined steadily across the shift (90 mL, then 50 mL, then only 26 mL) despite a steady IV infusion rate and ongoing oral intake, and the BUN (12.6 mmol/L / 35 mg/dL) and creatinine (198 mcmol/L / 1.8 mg/dL) are both elevated above their reference ranges. These findings support AKI, and the surgeon should be notified immediately. Hypoxia would be expected to present with restlessness, dyspnea, diaphoresis, tachycardia, hypertension, cyanosis, and a low pulse oximetry reading; although the blood pressure has risen and the pulse oximetry has dropped slightly (92% at 1200), neither change is marked enough, and no other finding supports hypoxia as the primary concern this far out from anesthesia (24 hours postoperative). Bleeding would be expected to present with restlessness, a weak and rapid pulse, hypotension, tachypnea, and cool, clammy skin; the client's pulse and blood pressure are trending up, not down, and only the declining urine output could be argued to fit, which is far better explained by AKI. Wound infection would be expected to present with fever, chills, and a warm, tender, painful, inflamed incision; the client's temperature has trended downward across the shift, and there is no documentation of chills or incisional findings."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "vs_1784070000007",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C (99.8° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.5° C (99.6° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.3° C (99.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 BPM</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 BPM</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 BPM</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 bpm</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 bpm</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 bpm</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106/58 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">126/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">140/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub> (RA)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92%</td></tr></tbody></table>"
+            },
+            {
+              "id": "io_1784070000007",
+              "title": "Intake & Output",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intake oral</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">120 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">150 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90 mL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intake IV</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">300 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">300 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">300 mL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">90 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">50 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 mL</td></tr></tbody></table>"
+            },
+            {
+              "id": "lab_1784070000007",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood urea nitrogen (BUN)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12.6 mmol/L (35 mg/dL) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6–7.1 mmol/L (10–20 mg/dL)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine (Cr)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 mcmol/L (1.8 mg/dL) <span style=\"color:#c0392b; font-weight:600;\">H</span></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">44–106 mcmol/L (0.4–1.2 mg/dL)</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 54-year-old postoperative client."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Urinary Disorders)",
+    "description": "A postoperative abdominal aortic aneurysm repair client develops acute kidney injury.",
+    "availability": "all",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784080000001",
+    "unit": "Unit 8 (Fluid, Electrolytes, and Acid-Base Imbalances)",
+    "title": "Unit 8 Stand-alone 1: Priority Lab Monitoring by Diagnosis",
+    "topic": "Unit 8 (Fluid, Electrolytes, and Acid-Base Imbalances)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would be <b>most</b> important for the nurse to monitor",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "serum lipase levels for the client with hypercholesterolemia",
+              "correct": false
+            },
+            {
+              "text": "arterial blood gas (ABG) results for the client who has an acid-base imbalance",
+              "correct": true
+            },
+            {
+              "text": "serum glucose levels for the client with diabetes insipidus (DI)",
+              "correct": false
+            },
+            {
+              "text": "adrenocorticotropic hormone (ACTH) levels for the client who has a fluid imbalance",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for assigned clients.",
+          "explanation": "Arterial blood gas results (Option 2) directly assess acid-base status and are the correct, matched lab for a client with an acid-base imbalance. Serum lipase (Option 1) evaluates pancreatic function, not cholesterol status. Serum glucose (Option 3) is the relevant lab for diabetes mellitus, not diabetes insipidus, which is a disorder of antidiuretic hormone and water balance. ACTH (Option 4) reflects adrenal/pituitary function and is not the most directly relevant lab for a general fluid imbalance."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 8 (Fluid, Electrolytes, and Acid-Base Imbalances)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784090000001",
+    "unit": "Unit 9 (Reproductive Disorders)",
+    "title": "Unit 9 Stand-alone 1: Perimenopause Hot Flash Management",
+    "topic": "Unit 9 (Reproductive Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following lifestyle modifications would be appropriate for the nurse to recommend?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "increasing fluid intake",
+              "correct": false
+            },
+            {
+              "text": "exercising daily",
+              "correct": false
+            },
+            {
+              "text": "decreasing sodium intake",
+              "correct": false
+            },
+            {
+              "text": "wearing clothing in layers",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse at a health fair is talking with a client who is in perimenopause and is experiencing hot flashes.",
+          "explanation": "Wearing clothing in layers (Option 4) is a standard, practical recommendation for managing hot flashes, since layers can be quickly removed when a hot flash occurs and added back as it resolves. Increasing fluid intake (Option 1) and decreasing sodium intake (Option 3) are general health measures not specifically targeted at hot flash management. Daily exercise (Option 2) supports overall menopausal health but is not the specific, targeted recommendation for managing an acute hot flash episode the way dressing in layers is."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 9 (Reproductive Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784090000002",
+    "unit": "Unit 9 (Reproductive Disorders)",
+    "title": "Unit 9 Stand-alone 2: Endometriosis Assessment Finding",
+    "topic": "Unit 9 (Reproductive Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would support a diagnosis of endometriosis?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "dyspareunia",
+              "correct": true
+            },
+            {
+              "text": "hot flashes",
+              "correct": false
+            },
+            {
+              "text": "weight gain",
+              "correct": false
+            },
+            {
+              "text": "amenorrhea",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing a client with suspected endometriosis.",
+          "explanation": "Dyspareunia (painful intercourse) is a classic symptom of endometriosis. Hot flashes (Option 2) are associated with menopause, not endometriosis. Weight gain (Option 3) is not a characteristic endometriosis finding. Endometriosis is typically associated with dysmenorrhea and abnormal bleeding, not amenorrhea (absence of menses) (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 9 (Reproductive Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1784090000003",
+    "unit": "Unit 9 (Reproductive Disorders)",
+    "title": "Unit 9 Stand-alone 3: Syphilis Assessment Finding",
+    "topic": "Unit 9 (Reproductive Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would support a diagnosis of syphilis?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "urethritis",
+              "correct": false
+            },
+            {
+              "text": "conjunctivitis",
+              "correct": false
+            },
+            {
+              "text": "chancre lesions",
+              "correct": true
+            },
+            {
+              "text": "penile discharge",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing a male client who has suspected syphilis.",
+          "explanation": "A chancre, a painless genital ulcer, is the classic, pathognomonic finding of primary syphilis. Urethritis and penile discharge (Options 1 and 4) are more characteristic of gonorrhea or chlamydia. Conjunctivitis (Option 2) is not a classic syphilis finding."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 9 (Reproductive Disorders)",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000001",
+    "unit": "Others",
+    "title": "Maternal-Newborn - Labor Stage Prioritization (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The charge nurse should ask a staff member to <b>first</b> see the client in the",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "first stage of labor who has an oral temperature of 99.7&deg; F (37.6&deg; C)",
+              "correct": false
+            },
+            {
+              "text": "first stage of labor whose contractions are occurring every 30 seconds",
+              "correct": true
+            },
+            {
+              "text": "second stage of labor who has respirations of 26",
+              "correct": false
+            },
+            {
+              "text": "second stage of labor whose contractions are lasting for 60 seconds",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The charge nurse has received a change-of-shift report on the following clients in labor.",
+          "explanation": "Contractions occurring every 30 seconds (Option 2) indicate uterine tachysystole, which shortens the interval available for uteroplacental perfusion between contractions and places the fetus at risk for hypoxia; this finding requires the most urgent follow-up. A mildly elevated oral temperature of 99.7&deg;F (Option 1) is not acutely concerning and does not require immediate follow-up ahead of a more urgent finding. A respiratory rate of 26 during active pushing in the second stage (Option 3) is an expected finding related to the work of bearing down. Contractions lasting 60 seconds in the second stage (Option 4) are within the expected duration for that stage of labor."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000002",
+    "unit": "Others",
+    "title": "Immune-Infection Control - Varicella Precautions (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions by the staff member would require the nurse to intervene?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "placing the client in a private room with monitored negative air pressure",
+              "correct": false
+            },
+            {
+              "text": "placing a box of disposable face shields outside the client's room",
+              "correct": true
+            },
+            {
+              "text": "placing an alcohol-based hand rub in the client's room for hand hygiene",
+              "correct": false
+            },
+            {
+              "text": "placing a surgical mask on the client during transport out of the client's room",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is observing a staff member caring for a client who has chickenpox.",
+          "explanation": "Varicella (chickenpox) requires airborne precautions. Placing disposable face shields outside the room instead of fit-tested N95 (or higher-level) respirators (Option 2) would require the nurse to intervene, because face shields alone do not filter airborne droplet nuclei and do not provide adequate respiratory protection against airborne transmission. A private room with monitored negative air pressure (Option 1) is the correct room placement for airborne precautions. An alcohol-based hand rub available in the room (Option 3) supports correct hand hygiene practice. Placing a surgical mask on the client during transport (Option 4) is appropriate source control to reduce transmission risk to others outside the room."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000003",
+    "unit": "Others",
+    "title": "Care Prioritization - Unit Transfer Appropriateness (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would be most appropriate for the nurse to transfer the client who is",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "28 years old, had a right mastectomy and has a closed-wound drainage system",
+              "correct": false
+            },
+            {
+              "text": "49 years old, has diabetes mellitus (type 2) and has begun receiving insulin",
+              "correct": false
+            },
+            {
+              "text": "56 years old, has hepatitis C (HCV), and has been afebrile for 24 hours",
+              "correct": true
+            },
+            {
+              "text": "70 years old, has a fractured left tibia and had an external fixation device applied 48 hours ago",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The charge nurse must transfer a female client from the medical-surgical unit to the maternity unit to make a bed available.",
+          "explanation": "The client with hepatitis C who has been afebrile for 24 hours (Option 3) is the most stable and has the least complex ongoing nursing needs: HCV is a bloodborne pathogen requiring only standard precautions (not a transmission risk to postpartum clients or newborns through casual contact), and being afebrile indicates no acute infectious process. The client recovering from a mastectomy with a closed-wound drainage system (Option 1) needs surgical drain management. The client newly started on insulin (Option 2) needs close glucose monitoring and hypoglycemia assessment as the regimen is titrated. The client with a recently applied external fixation device (Option 4) needs pin-site care and neurovascular monitoring; maternity unit staff are not positioned to provide this specialized medical-surgical monitoring as safely as a med-surg unit can."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000004",
+    "unit": "Others",
+    "title": "Care Prioritization - First Assessment Across Client Situations (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> assess the client with",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "heart failure who has a productive cough and is anxious",
+              "correct": false
+            },
+            {
+              "text": "regional enteritis (Crohn's disease) who is reporting cramping abdominal pain and diarrhea",
+              "correct": false
+            },
+            {
+              "text": "idiopathic thrombocytopenic purpura (ITP) who has petechiae on the trunk and is reporting heavy menses",
+              "correct": false
+            },
+            {
+              "text": "chronic obstructive pulmonary disease (COPD) who has dyspnea with exertion and is using accessory muscles to breathe",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has been made aware of the following client situations.",
+          "explanation": "Use of accessory muscles to breathe (Option 4) is an ominous sign of significantly increased work of breathing and impending respiratory failure, making this client the priority to assess first. A productive cough and anxiety in a client with heart failure (Option 1) can reflect early pulmonary congestion but is a less acute presentation than active accessory muscle use. Cramping and diarrhea (Option 2) are expected exacerbation symptoms of Crohn's disease. Petechiae and heavy menses in a client with ITP (Option 3) reflect the client's known thrombocytopenia and warrant follow-up but are not as immediately life-threatening as a client showing active signs of respiratory decompensation."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000005",
+    "unit": "Others",
+    "title": "Delegation - Appropriate UAP Task Assignment (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following tasks would be appropriate for the nurse to assign to UAP?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "assisting a client with atrial fibrillation to shower",
+              "correct": true
+            },
+            {
+              "text": "checking the ability of a client to swallow water after a transesophageal echocardiogram (TEE)",
+              "correct": false
+            },
+            {
+              "text": "observing while a client with dysphagia begins a thickened liquid diet",
+              "correct": false
+            },
+            {
+              "text": "transporting a client with respiratory distress to the radiology department for a chest radiograph",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse and unlicensed assistive personnel (UAP) are caring for assigned clients.",
+          "explanation": "Assisting a stable client with a basic activity of daily living such as showering (Option 1) is within the scope of UAP practice and does not require nursing assessment or clinical judgment; atrial fibrillation alone does not change this. Checking a client's ability to swallow water after a TEE (Option 2) is a clinical swallow screen assessing for post-procedure aspiration risk and requires a licensed nurse's judgment. Observing a client with known dysphagia as they begin a new thickened liquid consistency (Option 3) similarly requires skilled assessment for aspiration. Transporting a client who is in respiratory distress (Option 4) requires a licensed staff member who can monitor for and respond to deterioration en route."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000006",
+    "unit": "Others",
+    "title": "Pediatric Nutrition - Infant Feeding Pattern Follow-up (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would be a priority for the nurse to follow up with the",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "5-month-old client whose only source of nutrition is 5 formula feedings daily",
+              "correct": false
+            },
+            {
+              "text": "7-month-old client who eats several crackers as finger food",
+              "correct": false
+            },
+            {
+              "text": "9-month-old client whose typical daily diet includes 10 bottles of 2% milk, 1 cup of apple juice, and 3 servings of infant cereal",
+              "correct": true
+            },
+            {
+              "text": "1-year-old client whose typical food intake includes 4 breast-feedings and 3 servings of cooked vegetables, pears, or sliced cheese",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taken a nutritional history from parents of clients.",
+          "explanation": "The 9-month-old's diet (Option 3) requires follow-up for 2 reasons: 2% (reduced-fat) cow's milk is not recommended before 12 months of age, and 10 bottles per day is an excessive volume that can displace iron-rich solid foods and increase the risk of iron-deficiency (“milk”) anemia. Exclusive formula feeding at 5 months (Option 1) is developmentally appropriate, since solids are not introduced until around 6 months. Introducing finger foods such as crackers at 7 months (Option 2) is developmentally appropriate. A 1-year-old eating breast milk along with a variety of vegetables, fruit, and cheese (Option 4) reflects an appropriately varied diet for that age."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000007",
+    "unit": "Others",
+    "title": "Legal-Ethical - Client Privacy Violation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following scenarios should the nurse include as an example of a violation of client privacy?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "discussing with an unlicensed assistive personnel (UAP) that the UAP's assigned client will require a smaller condom catheter",
+              "correct": false
+            },
+            {
+              "text": "sharing the client's blood alcohol level (BAL) test result with the police officer who brought the client to the emergency department (ED)",
+              "correct": true
+            },
+            {
+              "text": "responding to the call light of the client who is assigned to another nurse and needs assistance in the bathroom",
+              "correct": false
+            },
+            {
+              "text": "allowing a nursing student who has been assigned to the client to review the client's medical record",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning a staff education program about client privacy.",
+          "explanation": "Sharing a client's blood alcohol level with a police officer without the client's consent or proper legal authority such as a warrant or a specific legal exception (Option 2) is a privacy violation; law enforcement is not automatically entitled to protected health information. Discussing a care need with the UAP assigned to that same client (Option 1) is appropriate, need-to-know care coordination. Responding to another nurse's client's call light for bathroom assistance (Option 3) is appropriate teamwork, not a privacy breach. A nursing student assigned to a client's care reviewing that client's record (Option 4) is a normal, permitted part of clinical education and the care team's access to the record."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000008",
+    "unit": "Others",
+    "title": "Pediatric Neuro - Concussion Observation Significance (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following observations would be most significant for the nurse to report to the oncoming shift?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "The client has a blood pressure of 84/58 mm Hg and an apical pulse of 90.",
+              "correct": false
+            },
+            {
+              "text": "The client is sleeping but is easily aroused.",
+              "correct": true
+            },
+            {
+              "text": "The client's pupils are equal and reactive to light.",
+              "correct": false
+            },
+            {
+              "text": "The client has an axillary temperature of 99.0° F (37.2° C) and respirations of 24.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a 3-year-old client with a cerebral concussion who is being observed overnight in the pediatric unit.",
+          "explanation": "Level of consciousness and arousability are the central parameters tracked during concussion observation, since a change in either is the earliest and most sensitive sign of deterioration such as an expanding intracranial bleed. Precisely reporting that the client is “sleeping but easily aroused” (Option 2) gives the oncoming shift the exact baseline needed to detect any subsequent decline in arousability, which is more clinically significant to hand off than the other findings listed. The blood pressure and pulse (Option 1), pupil findings (Option 3), and temperature and respirations (Option 4) in this scenario are each within a broadly expected range for a 3-year-old and do not by themselves signal a change in neurologic status."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000009",
+    "unit": "Others",
+    "title": "Care Prioritization - Same-Day Surgery First Assessment (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> see the client who had",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "closed reduction of a fractured tibia with cast application 1 hour ago and is reporting that the casted leg feels hot",
+              "correct": true
+            },
+            {
+              "text": "extraction of a cataract lens 2 hours ago and is reporting nausea",
+              "correct": false
+            },
+            {
+              "text": "an arthroscopy of the right knee 3 hours ago and is reporting knee pain rated as 4 on a scale of 0 (no pain) to 10 (severe pain)",
+              "correct": false
+            },
+            {
+              "text": "a laparoscopic cholecystectomy 4 hours ago and is reporting right shoulder pain",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in the same-day surgical center has received a change-of-shift report on the following clients.",
+          "explanation": "A casted extremity that feels hot only 1 hour after cast application (Option 1) is a red flag for acute compartment syndrome, a limb-threatening emergency that develops as swelling occurs under a rigid cast in the first hours after application, and requires the most urgent assessment (checking the 5 P's, and cast tightness). Nausea after cataract surgery (Option 2) matters because vomiting can transiently raise intraocular pressure, but it is more readily managed with an antiemetic than a possible compartment syndrome is. Knee pain rated 4/10 3 hours after arthroscopy (Option 3) is mild, well-controlled pain and is a reassuring finding. Right shoulder pain after a laparoscopic cholecystectomy (Option 4) is expected, benign referred pain from diaphragmatic irritation caused by residual carbon dioxide used to insufflate the abdomen during the procedure."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000010",
+    "unit": "Others",
+    "title": "Care Prioritization - Home-Health First Visit (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> visit the client with",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "breast cancer who had a mastectomy 2 days ago and has had 25 mL of drainage from the closed-wound drainage system in the past 12 hours",
+              "correct": false
+            },
+            {
+              "text": "lung cancer who received a dose of chemotherapy 2 weeks ago and has a temperature of 101.1° F (38.4° C)",
+              "correct": true
+            },
+            {
+              "text": "chronic obstructive pulmonary disease (COPD) who is reporting expectorating large amounts of thick, yellow mucus",
+              "correct": false
+            },
+            {
+              "text": "diabetes mellitus (type 1) who had a right below-the-knee amputation (BKA) and is reporting right toe pain",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The home-health nurse is assigned to visit the following clients who live within 3 miles (4.8 km) of one another.",
+          "explanation": "A fever in a client who received chemotherapy within the past 2 to 3 weeks (Option 2) is a medical emergency until proven otherwise, since chemotherapy-induced neutropenia leaves the client unable to mount a normal immune response and febrile neutropenia can progress rapidly to sepsis; this client must be seen first. A drainage volume of about 25 mL over 12 hours from a mastectomy drain (Option 1) is within the expected, gradually decreasing range for a closed-wound drainage system. Thick, yellow sputum in a client with COPD (Option 3) suggests a possible infection or exacerbation and needs follow-up but is not immediately life-threatening. Right toe pain after a right below-the-knee amputation (Option 4) most likely represents phantom limb pain, a real and important symptom to manage but not an emergency."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000011",
+    "unit": "Others",
+    "title": "Care Prioritization - First Assessment Across Client Situations 2 (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> assess the client",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "who had a total abdominal hysterectomy (TAH) 1 day ago and is unable to void 7 hours after the indwelling urethral catheter was removed",
+              "correct": false
+            },
+            {
+              "text": "who had a total knee replacement 24 hours ago",
+              "correct": false
+            },
+            {
+              "text": "with bacterial pneumonia who has bronchial breath sounds auscultated between the scapulae and a temperature of 103.3° F (39.6° C)",
+              "correct": true
+            },
+            {
+              "text": "with hepatic cirrhosis who has an elevated aspartate aminotransferase (AST) level and respirations of 24",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has become aware of the following client situations.",
+          "explanation": "Bronchial breath sounds heard over a peripheral lung field (between the scapulae, rather than over the large airways where they are normally heard) indicate lung consolidation, and combined with a high fever, this client (Option 3) shows signs of a worsening infection with risk for respiratory decompensation or sepsis, making this the priority. Urinary retention 7 hours after catheter removal (Option 1) is uncomfortable and needs intervention (such as a straight catheterization) but is not immediately life-threatening. A client 24 hours after an uncomplicated total knee replacement with no other findings reported (Option 2) is the most stable of the group. An elevated AST is an expected, chronic finding in hepatic cirrhosis rather than a new acute change, and a respiratory rate of 24 (Option 4) is only mildly elevated."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000012",
+    "unit": "Others",
+    "title": "Infection Control - Pertussis Care Planning (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following interventions should the nurse include in the client's plan of care?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Keep the client NPO.",
+              "correct": false
+            },
+            {
+              "text": "Place a dehumidifier in the client's room.",
+              "correct": false
+            },
+            {
+              "text": "Encourage the client to ambulate frequently.",
+              "correct": false
+            },
+            {
+              "text": "Implement droplet precautions.",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning care for a pediatric client being admitted with pertussis.",
+          "explanation": "Pertussis (Bordetella pertussis) is transmitted by respiratory droplets, so droplet precautions (Option 4) are the correct, standard isolation precaution. There is no reason to keep the client NPO (Option 1); oral intake is not restricted for pertussis. A humidifier, not a dehumidifier (Option 2), helps loosen respiratory secretions; dry air from a dehumidifier can worsen airway irritation and coughing. Frequent ambulation (Option 3) is reasonable general activity but is not the priority, targeted intervention for this infection-control diagnosis."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000013",
+    "unit": "Others",
+    "title": "Infection Control - Precaution Type Teaching Evaluation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would indicate a correct understanding of the teaching if the nurse is observed",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "wearing a particulate respirator mask (N95) when entering the room of a client with Haemophilus influenzae pneumonia",
+              "correct": false
+            },
+            {
+              "text": "placing a client with streptococcal pneumonia in a room with a client who has respiratory syncytial virus (RSV)",
+              "correct": false
+            },
+            {
+              "text": "wearing a protective gown when entering the room of a client with Escherichia coli O157:H7 who is incontinent",
+              "correct": true
+            },
+            {
+              "text": "placing a client with pediculosis capitis (head lice) in a room with a client who has scabies",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has attended a staff education program about infection control precautions.",
+          "explanation": "Escherichia coli O157:H7 requires contact precautions, and a gown (Option 3) is appropriate PPE for contact with an incontinent client at high risk for fecal contamination of the environment and caregiver's clothing. Haemophilus influenzae pneumonia (Option 1) requires droplet precautions, not airborne precautions; an N95 respirator is not the correct PPE for this organism. Cohorting a client with streptococcal pneumonia (a bacterial droplet-precaution infection) with a client who has RSV (a different, viral, contact/droplet-precaution infection) (Option 2) risks cross-infecting each client with the other's organism and should not be done. Cohorting a client with head lice and a client with scabies (Option 4) similarly risks cross-infestation between 2 different ectoparasites and is not appropriate even though both require contact precautions."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000014",
+    "unit": "Others",
+    "title": "Safety - Extrinsic Fall Risk Factors (SATA)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following are extrinsic risk factors for falling? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "uneven stairs",
+              "correct": true
+            },
+            {
+              "text": "throw rugs",
+              "correct": true
+            },
+            {
+              "text": "hemiparesis",
+              "correct": false
+            },
+            {
+              "text": "dim lighting",
+              "correct": true
+            },
+            {
+              "text": "confusion",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is assessing an older adult client who is scheduled for discharge and is at risk for falls.",
+          "explanation": "Extrinsic (environmental) fall risk factors are hazards in the client's surroundings: uneven stairs, throw rugs, and dim lighting (Options 1, 2, and 4) are all environmental hazards the nurse and client can modify. Hemiparesis (Option 3) and confusion (Option 5) are intrinsic risk factors, arising from the client's own physical and cognitive condition rather than the environment."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000015",
+    "unit": "Others",
+    "title": "Infection Control - Impetigo Contact Precautions (SATA)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following infection control precautions should the nurse implement? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Wear a surgical mask when bathing the client.",
+              "correct": false
+            },
+            {
+              "text": "Wear a protective gown when changing the client's bed linens.",
+              "correct": true
+            },
+            {
+              "text": "Keep the door to the client's room closed.",
+              "correct": false
+            },
+            {
+              "text": "Place a box of clean gloves outside the client's door.",
+              "correct": true
+            },
+            {
+              "text": "Place a surgical mask on the client during transport to other departments.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a 3-year-old client with impetigo.",
+          "explanation": "Impetigo is a skin infection requiring contact precautions, so a gown for direct contact with contaminated linens (Option 2) and gloves readily available at the point of care (Option 4) are correct. A surgical mask when bathing the client (Option 1) is unnecessary, since impetigo is not spread by the respiratory route. Keeping the door closed (Option 3) is an airborne-precaution measure (to maintain negative pressure), not required for a contact-precaution skin infection. Placing a mask on the client during transport (Option 5) is similarly unnecessary, since impetigo does not spread by droplet or airborne transmission."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000016",
+    "unit": "Others",
+    "title": "Infection Control - Tuberculosis Isolation Evaluation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions by the staff member would indicate to the nurse an understanding of the principles of infection control for tuberculosis isolation?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "instructing visitors to wash their hands before entering the client's room",
+              "correct": false
+            },
+            {
+              "text": "putting on a mask, gown, and gloves before entering the client's room",
+              "correct": false
+            },
+            {
+              "text": "placing tissues and a trash receptacle within the client's reach",
+              "correct": true
+            },
+            {
+              "text": "asking the client to put on a clean mask each time someone enters the room",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is evaluating a staff member's care of a client with active pulmonary tuberculosis (TB).",
+          "explanation": "Placing tissues and a trash receptacle within the client's reach (Option 3) supports respiratory hygiene and cough etiquette, helping contain infectious droplet nuclei at the source, and is an important, correctly targeted TB infection-control measure. Hand hygiene for visitors (Option 1) is good general practice but does not address the airborne transmission route that defines TB precautions, which specifically require a fit-tested N95 (or higher-level) respirator, not just hand hygiene. Gown and gloves (Option 2) are contact-precaution PPE and are not needed for airborne-only pulmonary TB; describing generic “a mask” also fails to specify the N95 respirator that TB actually requires. The engineering controls of the client's own negative-pressure isolation room, plus staff wearing an N95 on entry, are what protect others; routinely re-masking the client every time someone enters their own isolation room (Option 4) is not the standard practice (a mask on the client is used mainly during transport outside the room)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000017",
+    "unit": "Others",
+    "title": "Infection Control - Measles Room Assignment (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should assign the client to a",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "private room at the end of the hallway",
+              "correct": false
+            },
+            {
+              "text": "private room with monitored negative air pressure",
+              "correct": true
+            },
+            {
+              "text": "room with a client who has chickenpox",
+              "correct": false
+            },
+            {
+              "text": "room with a client who has atopic dermatitis (eczema)",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in the pediatric unit is preparing to admit a client with rubeola (measles).",
+          "explanation": "Measles (rubeola) requires airborne precautions, so a private room with monitored negative air pressure (Option 2) is the correct assignment. Physical distance from other rooms alone (Option 1) does not provide airborne isolation without negative pressure. Cohorting the client with a client who has chickenpox (varicella) (Option 3) is not appropriate; although both require airborne precautions, they are different organisms, and cohorting different airborne infections risks cross-infection. A client with atopic dermatitis (Option 4) has a disrupted skin barrier and is at increased risk for severe or complicated measles infection, making this an unsafe roommate pairing."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000018",
+    "unit": "Others",
+    "title": "Infection Control - Precaution Violation Identification (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would require intervention if a",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "client with hepatitis B (HBV) is eating food brought into the facility by a visitor",
+              "correct": false
+            },
+            {
+              "text": "visitor is sitting on the side of the bed of a client with acute pancreatitis",
+              "correct": false
+            },
+            {
+              "text": "staff member is entering the room of a client with Haemophilus influenzae meningitis wearing a protective gown and gloves",
+              "correct": true
+            },
+            {
+              "text": "family member of a client with mycoplasma pneumonia leaves the door to the client's room open",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The charge nurse is observing the following client situations.",
+          "explanation": "Haemophilus influenzae meningitis requires droplet precautions, and the key required PPE is a mask; a staff member wearing only a gown and gloves (Option 3) is missing the mask that actually protects against droplet transmission, so this requires intervention. Hepatitis B (Option 1) is a bloodborne pathogen, not transmitted through food or casual contact, so a visitor sharing food is not a concern. A visitor sitting on the side of the bed of a client with pancreatitis (Option 2), a noninfectious condition with no isolation precautions, does not require intervention. Mycoplasma pneumoniae (Option 4) is managed with standard precautions in most settings and does not require the door to remain closed."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000019",
+    "unit": "Others",
+    "title": "Safety - Restraint Use Client Teaching (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Restraints should be removed once during a shift to perform passive range-of-motion (ROM) exercises.”",
+              "correct": false
+            },
+            {
+              "text": "“Restraints should be secured to the side rails of the client's bed for quick release.”",
+              "correct": false
+            },
+            {
+              "text": "“Restraints require an order from the primary health care provider.”",
+              "correct": true
+            },
+            {
+              "text": "“Restraints may be used p.r.n. for clients who are confused.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning a staff education program about caring for clients with restraints.",
+          "explanation": "Restraints require a time-limited order from the primary health care provider (Option 3); they cannot be applied solely at nursing discretion. Restraints should be released and the limb assessed and repositioned at least every 2 hours, not just once per shift (Option 1). Restraints must be secured to the bed frame, never to a movable side rail (Option 2), which is a safety hazard if the rail is lowered. Restraint orders cannot be written as p.r.n. (Option 4); confusion alone does not automatically justify restraint use, and the least restrictive alternative must be tried first."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000020",
+    "unit": "Others",
+    "title": "Infection Control - Tuberculosis Plan of Care (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following should the nurse include in the client's plan of care?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "placing the client in a private room with the door open",
+              "correct": false
+            },
+            {
+              "text": "putting a surgical mask on the client during transport to the radiology department",
+              "correct": true
+            },
+            {
+              "text": "instructing the primary caregivers to wear surgical masks when caring for the client",
+              "correct": false
+            },
+            {
+              "text": "instituting the standards for droplet precautions",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client with active pulmonary tuberculosis (TB).",
+          "explanation": "TB requires airborne precautions, and placing a surgical mask on the client for source control during transport outside the negative-pressure room (Option 2) is correct practice. The private room's door must stay closed, not open (Option 1), to maintain negative pressure. Caregivers need a fit-tested N95 (or higher-level) respirator, not a surgical mask (Option 3), to protect against airborne transmission. TB requires airborne precautions, not droplet precautions (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000021",
+    "unit": "Others",
+    "title": "Infection Control - Impetigo Parent Teaching (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Put a surgical mask on your child when around siblings.”",
+              "correct": false
+            },
+            {
+              "text": "“Cleanse the lesions with a povidone-iodine solution daily.”",
+              "correct": false
+            },
+            {
+              "text": "“Apply petroleum jelly to the lesions daily.”",
+              "correct": false
+            },
+            {
+              "text": "“Instruct your child not to use the same towels as siblings.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The home-health nurse is teaching the parents of a 4-year-old client with impetigo.",
+          "explanation": "Impetigo spreads by direct and indirect contact (including shared linens and towels), so not sharing towels with siblings (Option 4) is standard, correct contact-precaution teaching. A mask (Option 1) is unnecessary, since impetigo does not spread by the respiratory route. Daily cleansing is typically with gentle soap and water rather than povidone-iodine (Option 2). Petroleum jelly (Option 3) is not the standard treatment; prescribed topical or oral antibiotics are used instead, and an occlusive ointment is not the recommended lesion care."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000022",
+    "unit": "Others",
+    "title": "Bioterrorism Agent Transmission Teaching (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the nurse would require follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Botulism is transmitted by ingestion of contaminated canned foods.”",
+              "correct": false
+            },
+            {
+              "text": "“Hemorrhagic fever is spread by direct contact with blood or body fluids.”",
+              "correct": false
+            },
+            {
+              "text": "“Anthrax is spread through direct contact with the bacteria and its spores.”",
+              "correct": false
+            },
+            {
+              "text": "“Bubonic plague is transmitted from person to person via airborne droplets.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has attended a staff education program about bioterrorism.",
+          "explanation": "Bubonic plague (Option 4) is transmitted primarily through the bite of infected fleas, not person-to-person via airborne droplets; it is pneumonic plague, a different clinical form, that can spread person to person via respiratory droplets, so this statement is incorrect and requires follow-up. Botulism from contaminated canned foods (Option 1), hemorrhagic fever spread by contact with blood/body fluids (Option 2), and anthrax spread through direct contact with the bacteria and spores (Option 3) are all accurate statements that do not require follow-up."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000023",
+    "unit": "Others",
+    "title": "Health Promotion for Clients Over 65 (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Purchase all of your prescribed medications at the same pharmacy.”",
+              "correct": true
+            },
+            {
+              "text": "“Schedule an appointment for a vision screening every 3 years.”",
+              "correct": false
+            },
+            {
+              "text": "“Participate in daily aerobic exercises for 60 minutes.”",
+              "correct": false
+            },
+            {
+              "text": "“Increase your intake of fat-soluble vitamins.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in a community-based setting is teaching clients over 65 years of age about health promotion activities.",
+          "explanation": "Using a single pharmacy (Option 1) allows the pharmacist to screen all of a client's medications together for interactions and duplications, an important safety measure for older adults. Vision screening (Option 2) should generally occur annually for this age group, not every 3 years. Recommending 60 minutes of daily aerobic exercise (Option 3) exceeds standard general guidelines (about 150 minutes per week of moderate activity) and may not be realistic or safe as a blanket recommendation. Increasing fat-soluble vitamin intake (Option 4) is not a general health-promotion recommendation, and excess fat-soluble vitamins (A, D, E, K) can accumulate to toxic levels."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000024",
+    "unit": "Others",
+    "title": "Older Adult Postoperative Priority Need (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should know that this client, compared with younger clients in the postoperative period, will have an <b>increased</b> need for",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "oral hygiene",
+              "correct": false
+            },
+            {
+              "text": "analgesics",
+              "correct": false
+            },
+            {
+              "text": "high-calorie foods",
+              "correct": false
+            },
+            {
+              "text": "early mobilization",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for an older adult client in the postoperative period.",
+          "explanation": "Older adults have an increased need for early mobilization after surgery (Option 4) because they are at substantially higher risk than younger clients for complications of immobility such as pneumonia, venous thromboembolism, pressure injury, and functional decline, and they recover mobility more slowly. Oral hygiene (Option 1) is important for all postoperative clients but is not specifically increased by age. Analgesic needs (Option 2) are often lower, not higher, in older adults due to altered pharmacokinetics and increased sensitivity to side effects. Caloric needs (Option 3) are generally decreased, not increased, in older adults due to a lower metabolic rate."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000025",
+    "unit": "Others",
+    "title": "End-of-Life Comfort Care Caregiver Teaching (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the caregiver would require follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I have been applying petroleum jelly to keep the client's lips moist.”",
+              "correct": false
+            },
+            {
+              "text": "“I have been offering healthy foods frequently to keep up the client's strength.”",
+              "correct": true
+            },
+            {
+              "text": "“A blowing fan seems to be less anxiety-producing for the client than an oxygen mask.”",
+              "correct": false
+            },
+            {
+              "text": "“Sitting upright seems to reduce the client's noisy breathing more than lying down in the bed.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The hospice nurse has taught an in-home caregiver about comfort care for a client at the end of life.",
+          "explanation": "Frequently offering food to “keep up strength” (Option 2) requires follow-up, because appetite naturally declines at the end of life and end-of-life care focuses on comfort, not on forcing intake to build strength; frequent food offers can cause discomfort or distress. Petroleum jelly for dry lips (Option 1) is an appropriate comfort measure. A fan blowing air on the face (Option 3) is a well-supported way to relieve the sensation of dyspnea, often with less associated anxiety than an oxygen mask. Sitting upright to reduce noisy breathing (“death rattle”) (Option 4) is an accurate, appropriate observation, since upright positioning can improve secretion drainage."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000026",
+    "unit": "Others",
+    "title": "Legal-Ethical - Informed Consent Validity (SATA)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following conditions should the nurse recognize must be met to ensure the consent is valid? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "The client gave consent voluntarily.",
+              "correct": true
+            },
+            {
+              "text": "The client received adequate disclosure.",
+              "correct": true
+            },
+            {
+              "text": "The consent form is witnessed by 2 health care professionals.",
+              "correct": false
+            },
+            {
+              "text": "The client understands the scheduled procedure or treatment.",
+              "correct": true
+            },
+            {
+              "text": "The consent form is signed within 24 hours of the scheduled procedure or treatment.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is witnessing the client's signature on a consent form.",
+          "explanation": "Valid informed consent requires that it be given voluntarily (Option 1), that the client received adequate disclosure of the risks, benefits, and alternatives (Option 2), and that the client demonstrates understanding of the procedure or treatment (Option 4). Consent forms typically require only 1 witness signature, not 2 health care professionals (Option 3). There is no universal requirement that consent be signed within a specific 24-hour window of the procedure (Option 5)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000027",
+    "unit": "Others",
+    "title": "Crisis Intervention - Sexual Assault Response (SATA)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following would be an appropriate response for the nurse to make? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“The police officers who brought you into the hospital will be with you during this interview.”",
+              "correct": false
+            },
+            {
+              "text": "“You should take a warm, calming shower in order to feel more relaxed.”",
+              "correct": false
+            },
+            {
+              "text": "“You did the best you could in very difficult circumstances.”",
+              "correct": true
+            },
+            {
+              "text": "“Sometimes the victim's behavior causes the violence.”",
+              "correct": false
+            },
+            {
+              "text": "“You are safe here.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is talking with a client who has been sexually assaulted. The client states, “I never should have walked home late at night. I am to blame for what has happened to me.”",
+          "explanation": "“You did the best you could in very difficult circumstances” validates the client and counters self-blame. “You are safe here” provides appropriate reassurance and helps establish a sense of safety. Having police remain present during a sensitive forensic/medical interview is not standard best practice; the client should have control over who is present, generally a support person or advocate of the client's choosing. Recommending a shower before a forensic examination is incorrect and harmful, since showering destroys evidence needed for the examination. Suggesting that “the victim's behavior causes the violence” is victim-blaming and is never an appropriate statement."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000028",
+    "unit": "Others",
+    "title": "Pediatric Dysfunctional Grieving Indicator (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should understand that the child may be experiencing dysfunctional grieving if the parent reports that the child",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "conducts mock funerals with stuffed animals",
+              "correct": false
+            },
+            {
+              "text": "refuses to go to sleep at night",
+              "correct": true
+            },
+            {
+              "text": "continues to talk about the grandparent coming to visit",
+              "correct": false
+            },
+            {
+              "text": "asks to play with the grandparent while at the cemetery",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "A parent is discussing with the nurse the behaviors of a 4-year-old child following the death of a grandparent.",
+          "explanation": "Persistent refusal to sleep at night (Option 2) reflects ongoing anxiety and dysregulation that goes beyond the expected, developmentally typical grief responses of a preschooler and can indicate the grieving process is becoming dysfunctional. Reenacting funerals through play (Option 1), continuing to talk about the deceased returning (Option 3), and asking to play with the grandparent at the cemetery (Option 4) all reflect the magical thinking and play-based processing that are normal, expected features of how preschool-age children process death, since children this age do not yet fully grasp its permanence."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000029",
+    "unit": "Others",
+    "title": "Medication Safety - Unfamiliar Dosage Verification (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions should the nurse take <b>next</b>?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Check the medication dosage in a medication reference source.",
+              "correct": false
+            },
+            {
+              "text": "Ask another nurse whether the prescribed dose is a safe dose.",
+              "correct": false
+            },
+            {
+              "text": "Clarify that the dose is correct with the primary health care provider.",
+              "correct": false
+            },
+            {
+              "text": "Contact the pharmacist to verify the safe dosage range for the medication.",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is preparing to administer lorazepam 2 mg, IV, now to a client who is scheduled for surgery in 30 minutes. The nurse is unfamiliar with the dosage for the medication.",
+          "explanation": "The pharmacist is the medication expert and the most authoritative, reliable resource for verifying a safe dosage range, especially in a time-sensitive situation (Option 4). Checking a general reference (Option 1) is reasonable but less authoritative than a pharmacist consultation for verifying a specific order. Asking a peer nurse (Option 2) is not an authoritative safety check. Contacting the prescriber (Option 3) is appropriate if there is concern the order itself is wrong, but the nurse's stated problem here is simply unfamiliarity with the medication, which the pharmacist is best positioned to resolve."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000030",
+    "unit": "Others",
+    "title": "Neuroleptic Malignant Syndrome Priority Finding (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "When evaluating the client for a life-threatening syndrome related to the medication, it would be a priority for the nurse to report",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "dry mouth",
+              "correct": false
+            },
+            {
+              "text": "orthostatic hypotension",
+              "correct": false
+            },
+            {
+              "text": "fever",
+              "correct": true
+            },
+            {
+              "text": "photophobia",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who is receiving a high dose of a phenothiazine.",
+          "explanation": "Fever is a cardinal sign of neuroleptic malignant syndrome (NMS) (Option 3), a rare but life-threatening reaction to phenothiazines and other antipsychotics that also includes muscle rigidity, altered mental status, and autonomic instability; it must be reported immediately. Dry mouth (Option 1) and orthostatic hypotension (Option 2) are common, expected anticholinergic and alpha-blocking side effects of phenothiazines, not signs of NMS. Photophobia (Option 4) is not a typical finding of either routine phenothiazine side effects or NMS."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000031",
+    "unit": "Others",
+    "title": "Lithium Client Teaching Evaluation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the client would indicate a correct understanding of the teaching?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I will increase my oral fluid intake to 2 to 3 L daily while taking the medication.”",
+              "correct": true
+            },
+            {
+              "text": "“I will experience an improvement in my condition 5 weeks after starting the medication.”",
+              "correct": false
+            },
+            {
+              "text": "“I should decrease my intake of dietary sodium after starting the medication.”",
+              "correct": false
+            },
+            {
+              "text": "“I should limit time spent in a sauna to 1 hour weekly while taking the medication.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has taught a client with bipolar I disorder who is experiencing a manic episode and is receiving lithium.",
+          "explanation": "Maintaining generous fluid intake (2 to 3 L daily) is essential lithium teaching, since dehydration increases lithium reabsorption and raises toxicity risk. Lithium's antimanic effect is generally expected within 1 to 3 weeks, not 5 (Option 2). Decreasing sodium intake (Option 3) is dangerous and backward: low sodium causes the kidneys to retain more lithium, increasing toxicity risk; sodium intake should stay consistent. Prolonged heat exposure and sweating, such as from a sauna (Option 4), promote dehydration and should generally be avoided or closely managed, not simply “limited to 1 hour weekly” as though that were safe."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000032",
+    "unit": "Others",
+    "title": "Haloperidol Immediate Follow-up Finding (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings would require <b>immediate</b> follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "continued lack of motivation",
+              "correct": false
+            },
+            {
+              "text": "reports of muscle stiffness",
+              "correct": true
+            },
+            {
+              "text": "inappropriate emotional expressions",
+              "correct": false
+            },
+            {
+              "text": "difficulty focusing due to blurred vision",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has administered haloperidol to a client with schizophrenia who is agitated.",
+          "explanation": "Muscle stiffness after a high-potency typical antipsychotic like haloperidol raises concern for an acute extrapyramidal reaction (dystonia) or early neuroleptic malignant syndrome, both of which require immediate follow-up. Lack of motivation (Option 1) and inappropriate emotional expressions (Option 3) are negative/baseline symptoms of schizophrenia, not acute medication emergencies. Blurred vision (Option 4) is a common, less dangerous anticholinergic side effect."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000033",
+    "unit": "Others",
+    "title": "Informed Consent Staff Education (SATA)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“The main value of informed consent is for protection against lawsuits.”",
+              "correct": false
+            },
+            {
+              "text": "“Clients may withdraw consent after signing the informed consent form.”",
+              "correct": true
+            },
+            {
+              "text": "“Clients must sign the informed consent form before receiving preprocedural medication.”",
+              "correct": true
+            },
+            {
+              "text": "“Nurses witness the signing of the informed consent form to confirm that consent is voluntary.”",
+              "correct": true
+            },
+            {
+              "text": "“The signed consent form serves as evidence that the informed consent process has taken place.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning a staff education program about informed consent.",
+          "explanation": "Clients retain the right to withdraw consent at any time, even after signing. Consent must be obtained before administering sedating preprocedural medication, so the client's capacity to consent is not impaired. The nurse witnessing the signature helps confirm the client is signing voluntarily and is who they say they are. The signed form documents that the informed consent process took place. The main value of informed consent is protecting the client's right to self-determination, not primarily shielding the institution from lawsuits (Option 1)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000034",
+    "unit": "Others",
+    "title": "Care Prioritization - First Assist Among 4 Clients (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should <b>first</b> assist the client who had",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "an abdominal hysterectomy 5 hours ago and is reporting severe incisional pain",
+              "correct": false
+            },
+            {
+              "text": "a transurethral resection of the prostate (TURP) yesterday and whose catheter has become disconnected",
+              "correct": false
+            },
+            {
+              "text": "a lumbar laminectomy 2 days ago and is reporting that the feet are still numb",
+              "correct": false
+            },
+            {
+              "text": "a spinal cord injury at T2 two weeks ago and is currently diaphoretic and nauseated",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has been made aware that the following 4 clients require assistance.",
+          "explanation": "New diaphoresis and nausea in a client with a spinal cord injury at T2 (above T6) are classic signs of autonomic dysreflexia, a life-threatening emergency that can rapidly progress to severe hypertension and stroke if the triggering stimulus (commonly bladder distension or bowel impaction) is not identified and relieved; this client must be seen first. Severe incisional pain (Option 1) needs treatment but is not immediately life-threatening. A disconnected catheter (Option 2) is a quick fix, not an emergency. Persistent numbness 2 days after a lumbar laminectomy (Option 3) needs evaluation but is not as acutely dangerous as untreated autonomic dysreflexia."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000035",
+    "unit": "Others",
+    "title": "IV Site Sharp Pain and Slowed Infusion (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should recognize that the client is <b>most</b> likely experiencing",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "venous spasm",
+              "correct": true
+            },
+            {
+              "text": "nerve damage",
+              "correct": false
+            },
+            {
+              "text": "septicemia",
+              "correct": false
+            },
+            {
+              "text": "hematoma",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who is receiving an intravenous infusion via a peripheral venous access device (VAD). The client reports sharp pain at the VAD site. The nurse notes the intravenous fluid is infusing more slowly than prescribed.",
+          "explanation": "Venous spasm, a reflexive narrowing of the vein in response to irritation, classically causes both localized sharp pain and a reduced infusion rate because the vessel lumen narrows. Nerve damage (Option 2) would cause pain but would not mechanically slow the infusion. Septicemia (Option 3) would present with systemic signs such as fever and hypotension, not an isolated site finding. A hematoma (Option 4) classically presents with localized swelling and bruising rather than sharp pain as the primary symptom."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000036",
+    "unit": "Others",
+    "title": "Central VAD Blood Specimen Collection Evaluation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following statements by the nurse would require follow-up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“I will use a 3 mL syringe to flush the catheter port.”",
+              "correct": true
+            },
+            {
+              "text": "“The injection cap should be cleansed with antiseptic and allowed to air-dry.”",
+              "correct": false
+            },
+            {
+              "text": "“I will aspirate 5 mL of blood and discard the syringe in the biohazard container before obtaining the specimen.”",
+              "correct": false
+            },
+            {
+              "text": "“The infusion should be turned off for at least 1 minute before the specimen is aspirated.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has attended a staff education program about obtaining blood specimens from a central venous access device (VAD).",
+          "explanation": "A central VAD should never be flushed with a syringe smaller than 10 mL, since a smaller syringe generates higher pressure that can rupture or otherwise damage the catheter, so this statement requires follow-up. Cleansing and air-drying the injection cap, discarding an initial waste sample before collecting the actual specimen, and briefly pausing any infusion before aspirating are all correct, standard practices."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000037",
+    "unit": "Others",
+    "title": "Peripheral VAD Insertion Technique (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions should the nurse take?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Ask the client to open and close the fist multiple times.",
+              "correct": false
+            },
+            {
+              "text": "Tap the client's vein multiple times to promote dilation.",
+              "correct": true
+            },
+            {
+              "text": "Apply the tourniquet 9 to 10 in (22.5 to 25 cm) above the venipuncture site.",
+              "correct": false
+            },
+            {
+              "text": "Palpate for a vein after cleansing the selected site.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is preparing to insert a peripheral venous access device (VAD) for a client.",
+          "explanation": "Light tapping over the vein promotes venodilation and is a simple, widely endorsed technique with no downside. Repetitive fist clenching (Option 1) is now discouraged by current practice standards because it can artificially alter certain lab values (such as potassium and lactate) if blood is drawn from that site. The tourniquet should be applied closer to the site, typically about 4 to 6 in (10 to 15 cm) above it (Option 3), not 9 to 10 in away. The vein should be selected and palpated before cleansing the site, not after (Option 4), since palpating after cleansing recontaminates the prepared site."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000038",
+    "unit": "Others",
+    "title": "Psychiatric - Schizophrenia Next Intervention (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following interventions should the nurse take <b>next</b>?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Encourage the client to attend 1 group session today.",
+              "correct": false
+            },
+            {
+              "text": "Teach the client's family members about how to prevent a relapse.",
+              "correct": false
+            },
+            {
+              "text": "Administer the prescribed dose of risperidone.",
+              "correct": true
+            },
+            {
+              "text": "Prepare to discharge the client to a community treatment program.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in the psychiatric unit has completed the morning assessment of a client. Progress notes, Day 2, 0830: withdrawn, remains in assigned client room, exhibiting blunted affect and jumbled, illogical speech, experiencing auditory hallucinations and paranoid delusions. History and Physical: third admission this year for acute signs and symptoms of mental illness; family history of schizophrenia. Orders: attend group sessions when stabilized; risperidone 4 mg p.o. daily.",
+          "explanation": "The client remains acutely symptomatic (withdrawn, blunted affect, illogical speech, hallucinations, delusions) and is not yet stabilized, so administering the prescribed antipsychotic (Option 3) is the next appropriate action to work toward stabilization. The order for group sessions specifically applies once the client is stabilized (Option 1), which has not yet occurred. Family relapse-prevention teaching (Option 2) is appropriate later in the admission, once the client's acute symptoms are controlled, not as the next priority action. Discharge planning (Option 4) is premature for a client who is actively psychotic on day 2 of a third admission this year."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000039",
+    "unit": "Others",
+    "title": "Infection Control - Airborne Precautions Room Placement (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following infection control precautions should the nurse implement?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Use a stethoscope that is designated for use with the client only.",
+              "correct": false
+            },
+            {
+              "text": "Wear sterile gloves when inserting a peripheral venous access device (VAD).",
+              "correct": false
+            },
+            {
+              "text": "Assign the client to a private room with monitored negative air pressure.",
+              "correct": true
+            },
+            {
+              "text": "Place a box of surgical masks inside the client's room.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is preparing to admit a client who has pleuritic chest pain and is reporting a cough productive of yellow sputum for the past 1 week. The client has a pulse oximetry reading of 90% on room air.",
+          "explanation": "A prolonged productive cough with hypoxia raises concern for an airborne infection such as tuberculosis; the client should be placed in a private room with monitored negative air pressure (Option 3), the defining room feature of airborne precautions. A client-dedicated stethoscope (Option 1) is a contact-precaution measure, not specific to this presentation. Sterile gloves for VAD insertion (Option 2) is standard aseptic technique unrelated to airborne isolation. Surgical masks kept inside the client's room (Option 4) are backward; staff should don fit-tested N95 (or higher) respirators before entering the room, and a surgical mask would be placed on the client only for source control during transport out of the room."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000040",
+    "unit": "Others",
+    "title": "Infection Control - Alcohol-Based Hand Rub Staff Education (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information about alcohol-based hand rub should the nurse include?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Use before touching medical equipment that will come in direct contact with the client.”",
+              "correct": true
+            },
+            {
+              "text": "“Avoid using when moving your hands from a contaminated body site to a clean body site during client care.”",
+              "correct": false
+            },
+            {
+              "text": "“Avoid using before caring for clients who have severe neutropenia.”",
+              "correct": false
+            },
+            {
+              "text": "“Use after contact with body excretions that do not cause your hands to be visibly soiled.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning a staff education program about infection control guidelines.",
+          "explanation": "Alcohol-based hand rub should be used before touching medical equipment that will have direct client contact (Option 1), one of the standard hand-hygiene moments for a clean/aseptic task. Moving from a contaminated body site to a clean body site during care (Option 2) is exactly when hand hygiene, including alcohol-based rub, should be performed, not avoided. Clients with severe neutropenia (Option 3) are at higher infection risk and hand hygiene, including alcohol-based rub, should be used more consistently around their care, not avoided. Option 4 describes an appropriate use of alcohol-based hand rub as well, but is not the single best answer here; this item is flagged for clinician review since Options 1 and 4 are each independently defensible."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000041",
+    "unit": "Others",
+    "title": "Leadership - UAP Delegation of Positioning Task (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would be <b>most appropriate</b> for the nurse to assign UAP to",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "apply a continuous passive motion (CPM) device to the affected extremity of a client who had a total knee replacement",
+              "correct": false
+            },
+            {
+              "text": "change the bed linens for a client who was admitted 1 hour ago following a closed-head injury and is comatose and is vomiting",
+              "correct": false
+            },
+            {
+              "text": "reposition a client with hydrocephalus who has a headache and is vomiting",
+              "correct": false
+            },
+            {
+              "text": "place in the prone position a client who had an above-the-knee amputation (AKA) 1 day ago",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse and unlicensed assistive personnel (UAP) are caring for assigned clients.",
+          "explanation": "Prone positioning of a stable client 1 day after an AKA (Option 4) is a routine, non-invasive comfort/positioning measure used to prevent hip flexion contracture and is appropriate to delegate to UAP. Applying a CPM device (Option 1) requires assessment and device setup that exceeds UAP scope. A client 1 hour after a closed-head injury who is comatose and vomiting (Option 2) is unstable and at risk for increased intracranial pressure; this client requires ongoing nursing assessment, and handling by UAP without RN evaluation is not appropriate. A client with hydrocephalus who has a new headache and vomiting (Option 3) has findings concerning for increased intracranial pressure that require nursing assessment before any positioning is delegated."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000042",
+    "unit": "Others",
+    "title": "Psychiatric - Support Group Priority to Intervene (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "It would be a <b>priority</b> for the nurse to intervene if the client with",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "bipolar I disorder is experiencing a manic episode, is moving the legs, and is looking around the room restlessly",
+              "correct": true
+            },
+            {
+              "text": "borderline personality disorder is saying that another group member is too disturbed to be attending the session",
+              "correct": false
+            },
+            {
+              "text": "major depressive disorder is sitting quietly with the eyes downcast",
+              "correct": false
+            },
+            {
+              "text": "schizophrenia is rocking in place and copying the gestures of another client in the group",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in the inpatient psychiatric unit is leading a support group for clients.",
+          "explanation": "The client experiencing a manic episode with increased psychomotor activity and restlessness (Option 1) is at highest risk for escalating agitation and disrupting the group, making this the priority for intervention. A comment about another member (Option 2), quiet withdrawn behavior consistent with depression (Option 3), and stereotyped behavior such as echopraxia in schizophrenia (Option 4) are each expected manifestations of the stated diagnoses and do not represent an immediate safety or escalation risk to the group."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000043",
+    "unit": "Others",
+    "title": "Psychiatric - Client Rights and Staff Boundary Violation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "When the nurse meets privately with the staff member, which of the following statements would be <b>most</b> appropriate for the nurse to make to the staff member?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“Threatening a client can result in the immediate dismissal of a staff member.”",
+              "correct": false
+            },
+            {
+              "text": "“Staff members who have difficulty with control issues often seek power over clients.”",
+              "correct": false
+            },
+            {
+              "text": "“Clients have a right to provide feedback about services without fear of punishment.”",
+              "correct": true
+            },
+            {
+              "text": "“Staff should set limits with clients in a nonjudgmental manner.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse has observed a staff member tell a client with bipolar disorder that there will be consequences for making negative comments about conditions in the facility.",
+          "explanation": "The core issue is the client's right to voice complaints about care or facility conditions without fear of retaliation, so the nurse's most appropriate statement centers that right (Option 3). Framing the conversation around dismissal (Option 1) is punitive and not the most therapeutic first approach in a private coaching conversation. Speculating about the staff member's psychology (Option 2) is not appropriate or professional. Reminding the staff member to set limits nonjudgmentally (Option 4) does not address the actual problem, since the staff member's statement was a threat, not a therapeutic limit."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000044",
+    "unit": "Others",
+    "title": "Psychiatric - Milieu De-escalation During Medication Pass (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions should the nurse take?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Offer to listen to the client while continuing to administer the medications.",
+              "correct": false
+            },
+            {
+              "text": "Suggest that the client take a p.r.n. prescribed medication for agitation.",
+              "correct": false
+            },
+            {
+              "text": "Ask another nurse to finish administering the medications, and talk with the client.",
+              "correct": true
+            },
+            {
+              "text": "Request assistance from several nearby staff members with controlling the client's behavior.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in the psychiatric unit is administering medications when a client with borderline personality disorder approaches and asks to talk. The nurse suggests having a talk in 1 hour. The client shouts, “I'll wait, but you will be sorry!” and then picks up a pitcher of water and throws it onto the floor.",
+          "explanation": "Separating the tasks by asking another nurse to complete medication administration while the primary nurse gives the client focused, 1:1 attention (Option 3) allows both the medication pass and therapeutic de-escalation to occur safely, addressing the client's underlying need to be heard. Offering to listen while continuing to hand out medications (Option 1) does not give the client focused attention and does not resolve the safety concern of an agitated client during a medication pass. Suggesting a p.r.n. medication (Option 2) does not address the client's expressed need to talk and may feel punitive. Summoning several staff members (Option 4) is a show-of-force response reserved for imminent danger of harm, which has not yet been established by throwing water onto the floor; this response risks escalating rather than de-escalating the situation."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000045",
+    "unit": "Others",
+    "title": "Legal - Informed Consent Staff Education (SATA)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following information should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“An individual designated by a power of attorney for health care can provide informed consent despite the competency of the client.”",
+              "correct": false
+            },
+            {
+              "text": "“The nurse has a duty to insist that the client repeat what has been said about a procedure for which consent is necessary.”",
+              "correct": true
+            },
+            {
+              "text": "“The primary health care provider must disclose the risks if the client declines a recommended procedure.”",
+              "correct": true
+            },
+            {
+              "text": "“The client should sign the consent form prior to receiving prescribed opioids.”",
+              "correct": true
+            },
+            {
+              "text": "“Informed consent is not needed for emergency procedures that are in the client's best interest.”",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning a staff education program about informed consent.",
+          "explanation": "A health care power of attorney may consent on the client's behalf only when the client is not competent to do so; it does not override the client's own decision-making authority whenever the client remains competent, so the statement that it applies “despite the competency of the client” (Option 1) is incorrect. The nurse has a role in verifying that the client understands what was explained about a procedure, including having the client restate it in their own words (Option 2). The primary health care provider must disclose the risks of declining a recommended procedure as part of informed refusal (Option 3). Consent should be obtained before administering sedating medications such as opioids, since these can impair the client's decision-making capacity (Option 4). Informed consent is not required when immediate treatment is needed to preserve life or health and the client is unable to consent (Option 5)."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000046",
+    "unit": "Others",
+    "title": "Safety - Wrong IV Fluid Infusing First Action (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions should the nurse take <b>first</b>?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Change the intravenous fluid to the prescribed fluid.",
+              "correct": false
+            },
+            {
+              "text": "Notify the primary health care provider.",
+              "correct": false
+            },
+            {
+              "text": "Complete an incident report.",
+              "correct": false
+            },
+            {
+              "text": "Assess the client.",
+              "correct": true
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who has a prescription for an intravenous infusion of 0.45% sodium chloride (half-strength saline). The nurse notes the client is receiving 5% dextrose in water.",
+          "explanation": "When a nurse discovers the wrong intravenous fluid is infusing, the first action is to assess the client (Option 4) for any signs of an adverse reaction or complication before taking further steps. Changing the fluid to the prescribed solution (Option 1), notifying the primary health care provider (Option 2), and completing an incident report (Option 3) are all appropriate subsequent actions, but the client's clinical status must be assessed first."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000047",
+    "unit": "Others",
+    "title": "Maternal-Newborn - Umbilical Cord Prolapse Priority Action (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following actions should the nurse take?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Instruct the client to lie on her left side.",
+              "correct": false
+            },
+            {
+              "text": "Attempt to place the umbilical cord back into the uterus.",
+              "correct": false
+            },
+            {
+              "text": "Assist the client into a knee-chest position.",
+              "correct": true
+            },
+            {
+              "text": "Administer an intravenous tocolytic agent.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client in the first stage of labor and observes that a segment of the umbilical cord is visible in the vaginal opening after rupture of the client's amniotic membranes.",
+          "explanation": "For umbilical cord prolapse, the priority nursing action is to relieve pressure on the cord by repositioning the client into a knee-chest or Trendelenburg position (Option 3), which the nurse can implement immediately and independently. The nurse should never attempt to push the visible cord back into the uterus (Option 2), which risks further cord compression and trauma. A left side-lying position alone (Option 1) is less effective at relieving cord compression than the knee-chest position. An intravenous tocolytic agent (Option 4) may be part of the overall management to reduce contractions and pressure on the cord, but it requires a prescription and is not the nurse's first, independent action."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000048",
+    "unit": "Others",
+    "title": "Legal - Informed Consent Follow-up Situations (SATA)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following situations would require follow-up? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "The nurse notes that the client signed the consent form 1 week ago.",
+              "correct": false
+            },
+            {
+              "text": "The nurse determines that the last analgesia the client received was yesterday afternoon.",
+              "correct": false
+            },
+            {
+              "text": "The client states, “I need to find out why the surgery is needed before I sign the consent form.”",
+              "correct": true
+            },
+            {
+              "text": "The nurse administers the prescribed preoperative sedation after the client signs the consent form.",
+              "correct": false
+            },
+            {
+              "text": "The client states, “I am afraid to sign the consent form because I know I am going to die during the surgery.”",
+              "correct": true
+            },
+            {
+              "text": "The client states, “The surgery may result in some paralysis, but the resolution of the pain is worth the risk to me.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who is scheduled for a spinal fusion in 1 hour.",
+          "explanation": "A client stating a need to find out why surgery is needed before signing (Option 3) indicates the informed consent process is incomplete, since the client does not yet understand the reason for the procedure; this requires follow-up before consent is obtained. A client voicing an extreme, unaddressed fear of dying during a routine spinal fusion (Option 5) reflects unresolved distress that should be addressed before proceeding and requires follow-up. A consent form signed a week prior (Option 1) is not itself concerning absent any change in the client's condition or understanding. Analgesia received the prior afternoon (Option 2) is not close enough to the procedure to impair the client's current decision-making capacity. Administering preoperative sedation only after the consent form is signed (Option 4) is the correct sequence and does not require follow-up. A client who acknowledges the risk of paralysis but has weighed it against the benefit of pain resolution (Option 6) is demonstrating understanding of the risks, which is the goal of informed consent, not a concern requiring follow-up."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000049",
+    "unit": "Others",
+    "title": "Psychiatric - Transfer to Unlocked Unit Recommendation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The charge nurse should recommend for transfer the client with",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "depression who has suddenly become more animated and involved in unit activities",
+              "correct": false
+            },
+            {
+              "text": "bipolar I disorder who is experiencing a manic episode, is disrobing, and is laughing with other clients",
+              "correct": false
+            },
+            {
+              "text": "schizophrenia who is withdrawn and requires assistance with activities of daily living (ADL)",
+              "correct": true
+            },
+            {
+              "text": "dementia who is delusional about being poisoned by staff members",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The charge nurse must transfer a client from a locked psychiatric unit to an unlocked unit in order to make a bed available.",
+          "explanation": "The client with schizophrenia who is withdrawn and needs assistance with ADLs (Option 3) presents the lowest immediate safety risk of the group -- quiet and cooperative, without acute agitation, elopement risk, or unsafe behavior -- making this client the most appropriate candidate for transfer to a less restrictive, unlocked unit. A previously depressed client who suddenly becomes markedly more animated (Option 1) is a classic warning sign for increased suicide risk and requires continued close monitoring, not transfer to a less secure unit. A client in an acute manic episode who is disrobing and disorganized (Option 2) has impaired judgment and safety awareness unsuitable for an unlocked unit. A client with dementia who has active paranoid delusions about being poisoned (Option 4) is at risk for refusing care, elopement, or agitation and needs continued close supervision."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000050",
+    "unit": "Others",
+    "title": "Trauma - MVC Multi-Injury Priority Finding (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following findings should receive <b>highest</b> priority?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "avulsion injury of the left index finger",
+              "correct": false
+            },
+            {
+              "text": "deep laceration on the right forearm with blood oozing from the surface",
+              "correct": false
+            },
+            {
+              "text": "hematoma on the left side of the neck",
+              "correct": true
+            },
+            {
+              "text": "open fracture of the right tibia and fibula",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse in the emergency department (ED) is assessing a client with multiple injuries that occurred as a result of a motor vehicle collision.",
+          "explanation": "A neck hematoma (Option 3) is the highest priority because an expanding hematoma in the neck can compress the airway or major blood vessels, posing an immediate threat to life. A finger avulsion (Option 1), a forearm laceration with oozing (not actively hemorrhaging) blood (Option 2), and an open tibia-fibula fracture (Option 4) are all significant injuries but are not immediately life-threatening compared to a potential airway or major vascular compromise."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000051",
+    "unit": "Others",
+    "title": "Documentation - Peripheral VAD Charting Example (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following would be the <b>best</b> example of correct documentation for the nurse to include in the client's medical record?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "22-gauge catheter inserted into the right hand.",
+              "correct": true
+            },
+            {
+              "text": "Secured the site with paper tape to avoid skin tears.",
+              "correct": false
+            },
+            {
+              "text": "Infusion started slowly due to reports of coolness at the site.",
+              "correct": false
+            },
+            {
+              "text": "Labeled site, tubing, and intravenous fluid bag.",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is documenting care for a client who had a peripheral venous access device (VAD) inserted 10 minutes ago.",
+          "explanation": "Documenting the specific catheter gauge and insertion site (Option 1) is objective, factual charting -- exactly what should be recorded after a VAD insertion, without added interpretation. Stating the site was secured with paper tape “to avoid skin tears” (Option 2) adds a subjective rationale rather than simply documenting the objective action taken. Documenting that the infusion was started “slowly” (Option 3) is vague and not a quantifiable rate, and links the action to a client report without also documenting the objective assessment findings (such as site appearance) that prompted it. Labeling the site, tubing, and fluid bag (Option 4) describes a correct safety action but is flagged here for clinician review, since it is also a defensible answer to this item."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000052",
+    "unit": "Others",
+    "title": "Leadership - Collaborative Conflict Resolution Example (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which of the following would <b>best</b> describe implementation of a collaborative conflict resolution strategy?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "“A staff nurse is working with the nurse manager and offering suggestions about an upcoming new procedure.”",
+              "correct": false
+            },
+            {
+              "text": "“The clinical nurse leader is flattered by being asked to help create a clinical ladder for nursing staff members.”",
+              "correct": false
+            },
+            {
+              "text": "“The charge nurse is working with staff nurses and the nurse manager to develop shared goals and a plan for the new staffing format.”",
+              "correct": true
+            },
+            {
+              "text": "“A new nurse has offered to work on a holiday in exchange for having the following weekend off.”",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is planning a staff education program about collaborative conflict resolution strategies.",
+          "explanation": "The charge nurse working together with staff nurses and the nurse manager to develop shared goals and a plan for a potentially contentious issue (a new staffing format) (Option 3) reflects the collaborating conflict-resolution style, in which multiple stakeholders work together toward a mutually satisfying, shared outcome. Offering suggestions about a new procedure (Option 1) and being flattered by an invitation to help with a project (Option 2) do not describe an active conflict being resolved collaboratively. A nurse trading a holiday shift for a weekend off (Option 4) reflects a compromising style (a give-and-take trade-off between 2 parties), not the collaborating style, which involves shared goal-setting among multiple parties."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000053",
+    "unit": "Others",
+    "title": "Infection Control - TB Contact Investigation (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should recognize that after this notification the local health department will",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "schedule periodic examinations of the client's chest and sputum",
+              "correct": false
+            },
+            {
+              "text": "contact the client's family to arrange for family members to be examined",
+              "correct": true
+            },
+            {
+              "text": "immunize those persons with whom the client has been in contact",
+              "correct": false
+            },
+            {
+              "text": "isolate members of the client's immediate family at home until diagnostic studies rule out TB",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is caring for a client who lives with a spouse and 2 adolescent children and who has been admitted to a hospital for treatment of active pulmonary tuberculosis (TB). The local health department has been notified about the client's diagnosis.",
+          "explanation": "Contact investigation is a core public health function following a reportable TB diagnosis: the health department contacts close contacts, such as household family members, to arrange examination and testing for TB exposure (Option 2). Scheduling periodic exams of the index client's own chest and sputum (Option 1) describes ongoing monitoring of the already-diagnosed client, not the health department's contact-investigation role. Routine immunization of contacts (Option 3) is not standard TB practice in the United States, where the BCG vaccine is not routinely used. Preemptively isolating asymptomatic family members at home (Option 4) is not standard practice; contacts are examined and tested, not isolated without evidence of infection."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000054",
+    "unit": "Others",
+    "title": "Disaster Triage - Priority Client (MCQ)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse should give <b>priority</b> for treatment to a",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "2-year-old client with a bleeding scalp laceration and briskly reactive pupils",
+              "correct": false
+            },
+            {
+              "text": "15-year-old client who is restless and has a distended, firm abdomen",
+              "correct": true
+            },
+            {
+              "text": "30-year-old client who has a leg wound exposing the femur, a blood pressure of 120/76 mm Hg, and a pulse of 90",
+              "correct": false
+            },
+            {
+              "text": "60-year-old client with heart failure whose pulse oximetry reading is 92% on room air and whose respirations are 26",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is participating in a community-based disaster drill.",
+          "explanation": "Restlessness together with a distended, firm abdomen (Option 2) suggests internal hemorrhage with early signs of hypoperfusion (restlessness reflecting altered mental status from shock), which is an immediate, life-threatening priority in disaster triage. A scalp laceration with briskly reactive pupils (Option 1) reflects an intact neurologic status and a non-life-threatening injury. An open femur wound with stable vital signs (blood pressure and pulse within normal limits) (Option 3) is a serious but not immediately life-threatening injury in this context. A pulse oximetry reading of 92% and a respiratory rate of 26 (Option 4) reflect mild respiratory compromise, less acute than the signs of impending shock in Option 2."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
+  },
+  {
+    "id": "standalone_1790300000055",
+    "unit": "Others",
+    "title": "Breastfed Infant Failure to Thrive (Drag-Word Cloze)",
+    "topic": "Others",
+    "course": "Others",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Drag words from the choices below to fill in each blank in the following sentence.",
+          "type": "dyad",
+          "cloze": {
+            "text": "The nurse should anticipate that the physician will instruct the parent to [[drop0]] and [[drop1]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "fortify the breast milk",
+                    "correct": true
+                  },
+                  {
+                    "text": "complete a feeding log",
+                    "correct": false
+                  },
+                  {
+                    "text": "feed the client formula for 2 weeks",
+                    "correct": false
+                  },
+                  {
+                    "text": "increase the parent's caloric intake",
+                    "correct": false
+                  },
+                  {
+                    "text": "consult a pediatric surgeon for placement of a gastrostomy tube",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Word Choice"
+              },
+              {
+                "options": [
+                  {
+                    "text": "fortify the breast milk",
+                    "correct": false
+                  },
+                  {
+                    "text": "complete a feeding log",
+                    "correct": true
+                  },
+                  {
+                    "text": "feed the client formula for 2 weeks",
+                    "correct": false
+                  },
+                  {
+                    "text": "increase the parent's caloric intake",
+                    "correct": false
+                  },
+                  {
+                    "text": "consult a pediatric surgeon for placement of a gastrostomy tube",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Word Choice"
+              }
+            ]
+          },
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The home-health nurse is caring for a 2-month-old client.",
+          "explanation": "Across 3 weekly visits, the client's weight has trended steadily downward despite frequent (6 to 8 times daily) breastfeeding on demand, now totaling a 12.5% weight loss, alongside worsening lethargy -- this is failure to thrive from inadequate caloric intake. Because breastfeeding on demand makes true intake volumes difficult to quantify, the physician would first have the parent complete a feeding log to objectively track how much and how often the client is feeding. At the same time, fortifying the breast milk (adding measured calories per ounce) increases caloric density while preserving the benefits of breastfeeding, a less drastic first step than replacing breastfeeding with formula altogether. Feeding the client formula for 2 weeks is a bigger change in feeding method than this trend supports as a first step, since fortifying breast milk has not yet been tried. Increasing the parent's own caloric intake does not directly address the infant's documented weight loss. Consulting a pediatric surgeon for gastrostomy tube placement is a far more invasive intervention reserved for failure to thrive that does not respond to less invasive measures, not an appropriate next step after only 3 visits."
+        },
+        "leftContent": {
+          "tabs": [],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Others",
+    "isStandalone": true
   }
 ];
