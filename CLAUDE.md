@@ -42,7 +42,9 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   `is_nclex_admin()`, admin-only update policy).
 - `server.js` + `*.bat`: optional local Windows server (`/api/save` writes `cases-data.js`).
 - `.github/workflows/supabase.yml`: runs `tools/supabase.js` from GitHub Actions (ping daily; manual:
-  check, compare-original, download (commits the backup), add, upload).
+  check, compare-original, download (commits the backup), add, patch-preambles, upload).
+  `patch-preambles <file>` changes only `question.preamble` on listed case screens (`drafts/preamble_patch.json`,
+  built by `drafts/build_preamble_patch.py`); it refuses the whole patch if any preamble changed since.
 
 ## Data format (one item = case study or stand-alone question)
 
@@ -69,7 +71,9 @@ Question types (`question.type`) and their answer keys:
 - `highlight`, `highlight_2`: `highlightTabs: [{ id, title, content }]` with `{phrase|correct}` / `{phrase}` markup
 - `bowtie`: `bowtieActions` (2 correct), `bowtieConditions` (1), `bowtieParams` (2)
 - `ordered_response`: `orderedOptions` in the correct order (the player shuffles)
-Content conventions: never list correct answers first (shuffle options; if a rationale refers to option
+Content conventions: on every case screen after the first whose chart gained a tab or new entries, the
+question preamble says so ("The nurse has reviewed the Nurses' Notes from 1130 and the Diagnostic Results.");
+the player has no New/Updated markers. Never list correct answers first (shuffle options; if a rationale refers to option
 numbers, write "(Option N)" to match); don't number rationale points in a way that looks like option numbers.
 
 ## Writing new case studies (draft → review → publish)

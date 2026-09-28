@@ -8,10 +8,10 @@ on:
       action:
         description: What to do
         type: choice
-        options: [ping, check, compare-original, download, add, upload]
+        options: [ping, check, compare-original, download, add, patch-preambles, upload]
         default: ping
       file:
-        description: For "add", the item file(s) in the repo, space-separated (e.g. drafts/case_x.json)
+        description: For "add", the item file(s) in the repo, space-separated (e.g. drafts/case_x.json); for "patch-preambles", the patch file
         required: false
         default: ''
   schedule:

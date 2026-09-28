@@ -7,6 +7,9 @@
 //   node tools/supabase.js upload            cases-data.js -> this copy's database (verified)
 //   node tools/supabase.js download          this copy's database -> cases-data.js
 //   node tools/supabase.js add <file.json>   add one new case study or stand-alone question to the database
+//   node tools/supabase.js patch-preambles <patch.json>
+//                                            set question preambles only ([{id, screen, before, after}];
+//                                            an entry whose preamble is no longer `before` is refused)
 //
 // Needs Node 18+ (global fetch). Writes use the SUPABASE_SECRET_KEY environment variable when
 // it is set (required once supabase/002_admin_logins.sql restricts saving to admins); reads use
@@ -226,7 +229,43 @@ async function add() {
   console.log(`Database now holds ${bank.cases.length} case studies and ${bank.standalone.length} stand-alone questions.`);
 }
 
-const commands = { ping, check, 'compare-original': compareOriginal, upload, download, add };
+// Changes question.preamble on the listed case-study screens and nothing else. Every entry must
+// still have its `before` text (so an edit made in the studio since the patch was built is never
+// overwritten); the whole patch is refused otherwise. The row is written version-checked, then read
+// back and compared with the expected result.
+async function patchPreambles() {
+  const file = process.argv[3];
+  if (!file) throw new Error('Usage: node tools/supabase.js patch-preambles <patch.json>');
+  const patch = JSON.parse(fs.readFileSync(path.resolve(REPO_DIR, file), 'utf8'));
+  const bank = await readBank(NEW_URL, NEW_KEY);
+  if (!Array.isArray(bank.cases) || !bank.cases.length) throw new Error('The database has no case studies.');
+  const expected = JSON.parse(JSON.stringify(bank.cases));
+  const problems = [];
+  let changed = 0;
+  const touched = new Set();
+  for (const p of patch) {
+    const item = expected.find(c => c.id === p.id);
+    const screen = item && item.screens[p.screen - 1];
+    if (!screen || !screen.question) { problems.push(`${p.id} screen ${p.screen}: not found`); continue; }
+    const current = screen.question.preamble || '';
+    if (current === p.after) continue; // already applied
+    if (current !== p.before) { problems.push(`${p.id} screen ${p.screen}: preamble was edited since the patch was built`); continue; }
+    screen.question.preamble = p.after;
+    touched.add(item);
+    changed++;
+  }
+  if (problems.length) throw new Error(`Nothing was changed:\n  ${problems.join('\n  ')}`);
+  if (!changed) { console.log('Every preamble in the patch is already in the database.'); return; }
+  const stamp = new Date().toISOString();
+  touched.forEach(item => { item.updatedAt = stamp; });
+  await writeRow('cases', expected, bank.versions.cases);
+  const stored = await readBank(NEW_URL, NEW_KEY);
+  if (!same(stored.cases, expected)) throw new Error('The database does not match the expected result after patching.');
+  if (!same(stored.standalone, bank.standalone)) throw new Error('The stand-alone questions changed during the patch.');
+  console.log(`Set ${changed} preambles in ${touched.size} case studies; read back identical, nothing else changed.`);
+}
+
+const commands = { ping, check, 'compare-original': compareOriginal, upload, download, add, 'patch-preambles': patchPreambles };
 const command = commands[process.argv[2]];
 if (!command) {
   console.error(`Usage: node tools/supabase.js <${Object.keys(commands).join('|')}>`);
