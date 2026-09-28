@@ -198,15 +198,16 @@ the real player (iframe `index.html?preview=1`, "With answers" fills the key; ch
 conventions; `js/editor-preview.js`); unsaved-changes marker + leave warning; `updatedAt` stamped on save
 and shown as a sortable "Edited" column; question-type filter in the studio.
 Done (app frame): one frame for everything except player/editor (top bar with status, theme and sign-in;
-sidebar with Practise / My progress for students, Overview / Question bank for the studio; small
-"Authoring studio" / "Student portal" links at the sidebar foot, the authoring link hidden on phones).
+sidebar with Practise / My progress for students, Overview / Question bank for the studio, and a small
+"Student portal" link at the studio sidebar's foot). Students have no link to the studio (user decision):
+it opens only with `?author=1` (or `?studio=1`); `Start-NCLEX-Studio.bat` opens `localhost:3000/?author=1`.
 My progress: tiles, score by clinical judgment step (case screens) and by unit, "To revisit" (items whose
 latest attempt lost points, "Practise again"), recent sessions, export/import/delete. Sessions record once
 when results show (`recordSessionProgress`); items launched from the studio or the editor preview carry
 `source: 'studio'` and are not recorded, and their exits return to the question bank (`leaveSession`).
 Session screens carry `caseId`/`itemScreen` or `itemId` (`startCompiledSession` in `session-builder.js`).
 Studio Overview: counts, needs attention, recently edited, coverage by unit (all curriculum units), stand-alone
-question types. `?author=1` and the authoring link open Overview.
+question types. `?author=1` opens Overview.
 Suggested next: the guided student flow (C), inside the Practise page of the frame. Bowtie editor inputs
 still truncate long text.
 

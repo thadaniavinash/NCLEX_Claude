@@ -6591,8 +6591,6 @@ html:not([data-theme="dark"]) #editor-view.with-preview .pane-left { border-bott
 
   .app-nav-item[aria-current="page"] { box-shadow: none; }
 
-  /* Students' phones show only their own tabs; the studio keeps its way back to the portal. */
-  .app-shell[data-area="student"] .app-sidebar-foot { display: none; }
   .app-sidebar-foot { flex: 1; display: flex; margin: 0; padding: 0; border: 0; }
   .app-nav-link svg { width: 20px; height: 20px; }
 

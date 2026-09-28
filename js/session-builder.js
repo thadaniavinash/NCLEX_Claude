@@ -110,12 +110,6 @@ function initSessionBuilder() {
     launchBtn.addEventListener('click', generateAndStartSession);
   }
 
-  // Authoring button in student header
-  const authBtn = document.getElementById('student-authoring-btn');
-  if (authBtn) {
-    authBtn.addEventListener('click', () => switchView('overview'));
-  }
-
   // Student Course & Unit Filters
   const studentCourseFilterEl = document.getElementById('student-course-filter');
   if (studentCourseFilterEl) {
