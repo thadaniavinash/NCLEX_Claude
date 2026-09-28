@@ -345,10 +345,10 @@ window.NCLEX_CASES = [
   },
   {
     "id": "case_1780489713691",
-    "unit": "Others",
+    "unit": "Unit 11 (Endocrine Disorders)",
     "title": "Case Study 2",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 11 (Endocrine Disorders)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -748,7 +748,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 11 (Endocrine Disorders)",
     "description": "Endocrine Disorders",
     "availability": "all"
   },
@@ -15458,6 +15458,648 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "A 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease that progresses to a GI bleed and hypovolemia, from a community health clinic visit through ED stabilization and transfer to the medical unit.",
     "availability": "all"
+  },
+  {
+    "id": "case_1790621517257",
+    "title": "New Case Study",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621517257_0",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621517257_0",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Not Indicated"
+            ],
+            "firstColumnHeader": ""
+          },
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621517257_1",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621517257_1",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "",
+          "type": "dyad",
+          "cloze": {
+            "text": "The client is most likely experiencing [[drop0]] as evidenced by [[drop1]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621517257_2",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621517257_2",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621517257_3",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621517257_3",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Not Indicated"
+            ],
+            "firstColumnHeader": ""
+          },
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621517257_4",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621517257_4",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Complete the following sentence by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse should first [[drop0]] because the client [[drop1]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621517257_5",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621517257_5",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      }
+    ],
+    "description": ""
+  },
+  {
+    "id": "case_1790621568594",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "Lower Extremity Fracture",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Click to highlight the findings below that would require follow-up.",
+          "type": "highlight",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse in the emergency department (ED) is caring for a 22-year old male brought to the ED by emergency medical services (EMS) after a motor vehicle accident (MVA).",
+          "explanation": "Sharp pain, throbbing, inability to bear weight, and visible deformity are all classic clinical manifestations of a bone fracture<sup></sup>. Diaphoresis, past surgical history, and current Tylenol use are assessment points but do not define the immediate orthopedic emergency.",
+          "highlightTabs": [
+            {
+              "id": "ht_1790621606782",
+              "title": "Nurses' Notes",
+              "content": "<div><b>1400:</b>&nbsp;Client reports {sudden onset of sharp pain in the left lower leg|correct} after a collision, followed by { throbbing pain when attempting to walk|correct}. Client presents with an {inability to bear weight|correct} and {visible deformity of the left lower leg|correct}. {Mild diaphoresis observed|incorrect}. {Medical history includes a concussion two years ago|incorrect}&nbsp;and a {tonsillectomy at age four|incorrect}. Current medications: {acetaminophen 500 mg PRN for pain|incorrect}.</div>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621568594_0",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621568594_0",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each assessment finding below, click to specify if the finding is consistent with the disease process of ... . Each finding may support more than 1 disease process.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Not Indicated",
+              ""
+            ],
+            "firstColumnHeader": ""
+          },
+          "preamble": "",
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621568594_1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Patient reports sudden onset of sharp pain in the left lower leg after a collision, followed by throbbing when attempting to walk<sup></sup>. Presents with an inability to bear weight and visible deformity of the left lower leg<sup></sup>. Mild diaphoresis observed. Medical history includes a concussion two years ago and a tonsillectomy at age four<sup></sup>. Current medications: acetaminophen 500 mg PRN for pain<sup></sup>.</span></p>"
+            },
+            {
+              "id": "vs_1790621568594_1",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "",
+          "type": "dyad",
+          "cloze": {
+            "text": "The client is most likely experiencing [[drop0]] as evidenced by [[drop1]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621568594_2",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621568594_2",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621568594_3",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621568594_3",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Not Indicated"
+            ],
+            "firstColumnHeader": ""
+          },
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621568594_4",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621568594_4",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Complete the following sentence by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse should first [[drop0]] because the client [[drop1]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  },
+                  {
+                    "text": "",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "explanation": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1790621568594_5",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
+            {
+              "id": "vs_1790621568594_5",
+              "title": "Vital Signs",
+              "content": ""
+            }
+          ],
+          "intro": ""
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "updatedAt": "2026-09-28T20:34:59.037Z",
+    "description": ""
   }
 ];
 
