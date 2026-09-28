@@ -239,11 +239,11 @@ function renderPlayerStep(stepIdx) {
   const splitContainer = document.querySelector('.player-center-split');
   if (splitContainer) {
     const hasLeftContent = step.leftContent && step.leftContent.tabs && step.leftContent.tabs.length > 0 && step.question.type !== 'highlight';
-    if (!hasLeftContent) {
-      splitContainer.classList.add('full-width');
-    } else {
-      splitContainer.classList.remove('full-width');
-    }
+    // A highlight question (not highlight_2) has no separate question: like the NCLEX screen, the
+    // question and its passage fill the left panel and the right panel stays blank.
+    const isHighlightLeft = step.question.type === 'highlight';
+    splitContainer.classList.toggle('highlight-left', isHighlightLeft);
+    splitContainer.classList.toggle('full-width', !hasLeftContent && !isHighlightLeft);
   }
 
   // Question Navigator button visibility: Hidden in active Test Mode, Visible in Review Mode & Remediation Review
@@ -293,7 +293,7 @@ function renderPlayerStep(stepIdx) {
   }
 
   renderPlayerTabs(step.leftContent.tabs);
-  updatePlayerMobileLayout(step, !!(splitContainer && !splitContainer.classList.contains('full-width')));
+  updatePlayerMobileLayout(step, !!(splitContainer && !splitContainer.classList.contains('full-width') && !splitContainer.classList.contains('highlight-left')));
   renderQuestionNavigatorList();
   
   const preambleEl = document.getElementById('player-question-preamble');

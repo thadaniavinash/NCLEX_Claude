@@ -225,6 +225,9 @@ and has the cursor. Ready-made tables (`TABLE_TEMPLATES`: Vital signs = blank | 
 T, P, RR, BP, Pulse Oximetry Reading (SpO2); Laboratory results = "Laboratory Test and Reference Range" |
 time, 4 empty rows) are in the Table picker and in the "Add Tab" menu (Blank / Nurses' Notes / Vital Signs /
 Laboratory Results).
+Done (player): a `highlight` question (not `highlight_2`) shows the question and its passage in the left
+panel with the right panel blank, as on the NCLEX (`.highlight-left` on `.player-center-split`); phones show
+it in one column.
 Suggested next: the guided student flow (C), inside the Practise page of the frame. Bowtie editor inputs
 still truncate long text.
 

@@ -2116,6 +2116,29 @@ td.matrix-cell-incorrect {
   display: none !important;
 }
 
+/* Highlight questions (type "highlight", not "highlight_2"): question in the left panel, right panel blank. */
+.player-center-split.highlight-left {
+  background-color: var(--surface);
+}
+
+.player-center-split.highlight-left .chart-pane {
+  display: none !important;
+}
+
+.player-center-split.highlight-left .question-pane {
+  grid-column: 1;
+  border-right: 1px solid #cccccc;
+}
+
+@media (max-width: 900px) {
+  .player-center-split.highlight-left {
+    grid-template-rows: 1fr;
+  }
+  .player-center-split.highlight-left .question-pane {
+    border-right: none;
+  }
+}
+
 /* ================= RICH TEXT EDITOR STYLING ================= */
 .rich-editor-container {
   display: flex;
