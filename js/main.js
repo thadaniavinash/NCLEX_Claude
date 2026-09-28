@@ -9,6 +9,7 @@ async function initApp() {
   }
 
   initTheme();
+  initAppShell();
 
   await loadAllData();
   initDashboardEvents();
@@ -16,6 +17,8 @@ async function initApp() {
   initEditorEvents();
   initPlayerEvents();
   initResultsEvents();
+  initProgressEvents();
+  initOverviewEvents();
   initCalculator();
   makeCalculatorDraggable();
   
@@ -67,7 +70,7 @@ async function initApp() {
 
   // 3. Authoring or Exam Simulation Mode
   if (isAuthorParam) {
-    switchView('dashboard');
+    switchView('overview');
   } else if (examMode === 'test' || examId) {
     // Launch directly into Test Mode simulation
     switchView('student');
@@ -85,16 +88,43 @@ if (document.readyState === 'loading') {
   initApp();
 }
 
+// Screens inside the app frame (top bar + sidebar) and the area whose navigation they show.
+// The exam player and the editor fill the whole window instead.
+const SHELL_VIEWS = { student: 'student', progress: 'student', results: 'student', overview: 'studio', dashboard: 'studio' };
+
 function switchView(viewId) {
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   const targetView = document.getElementById(`${viewId}-view`);
   if (targetView) targetView.classList.add('active');
-  
+
+  const shell = document.getElementById('app-shell');
+  const area = SHELL_VIEWS[viewId];
+  if (shell) {
+    shell.classList.toggle('hidden', !area);
+    if (area) shell.dataset.area = area;
+    const navId = viewId === 'results' ? 'student' : viewId;
+    shell.querySelectorAll('[data-nav]').forEach(b => {
+      if (b.dataset.nav === navId) b.setAttribute('aria-current', 'page');
+      else b.removeAttribute('aria-current');
+    });
+    if (targetView && area) targetView.scrollTop = 0;
+  }
+
   if (viewId === 'dashboard') {
     renderDashboard();
   } else if (viewId === 'student') {
     renderStudentPortal();
+  } else if (viewId === 'progress') {
+    renderProgressView();
+  } else if (viewId === 'overview') {
+    renderOverview();
   }
+}
+
+function initAppShell() {
+  document.querySelectorAll('#app-shell [data-nav]').forEach(btn => {
+    btn.addEventListener('click', () => switchView(btn.dataset.nav));
+  });
 }
 
 function renderStudentPortal() {
@@ -102,12 +132,12 @@ function renderStudentPortal() {
   if (bankStatusEl) {
     const counts = `${studentCaseStudies().length} case studies \u2022 ${studentStandaloneQuestions().length} questions`;
     bankStatusEl.textContent = isDatabaseUnavailable ? `Offline backup: ${counts}` : counts;
-    const indicator = bankStatusEl.closest('.student-pv-status-indicator');
+    const indicator = bankStatusEl.closest('.app-status');
     if (indicator) {
       indicator.classList.toggle('offline', isDatabaseUnavailable);
-      indicator.title = isDatabaseUnavailable
+      indicator.title = (isDatabaseUnavailable ? `${bankStatusEl.textContent}. ` : '') + (isDatabaseUnavailable
         ? 'The question bank could not be reached, so a saved backup copy is shown. It may be missing the newest questions.'
-        : 'Questions available to practise';
+        : 'Questions available to practise');
     }
   }
   renderSessionTopicsList();

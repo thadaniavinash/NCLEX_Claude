@@ -3,12 +3,11 @@
 /* ================= RESULTS VIEW (SCOREBOARD) ================= */
 function initResultsEvents() {
   document.getElementById('results-retry-btn').addEventListener('click', () => {
-    startPlayer(currentCase, { mode: sessionConfig.mode, isRemediation: false });
+    startPlayer(currentCase, { mode: sessionConfig.mode, isRemediation: false, source: sessionConfig.source });
   });
   
-  document.getElementById('results-dashboard-btn').addEventListener('click', () => {
-    switchView('student');
-  });
+  document.getElementById('results-dashboard-btn').addEventListener('click', leaveSession);
+  document.getElementById('results-progress-btn').addEventListener('click', () => switchView('progress'));
 
   const reviewAnswersBtn = document.getElementById('results-review-answers-btn');
   if (reviewAnswersBtn) {
@@ -16,6 +15,12 @@ function initResultsEvents() {
       startRemediationReview(0);
     });
   }
+}
+
+// Where a session returns to: the question bank when the author launched it from the studio,
+// otherwise the student portal.
+function leaveSession() {
+  switchView(sessionConfig.source === 'studio' ? 'dashboard' : 'student');
 }
 
 function startRemediationReview(jumpIdx = 0) {
@@ -31,6 +36,8 @@ function startRemediationReview(jumpIdx = 0) {
 }
 
 function loadResultsView() {
+  // Screens the student answered themselves (the rest are scored 0 below).
+  const answeredSteps = currentCase.screens.map((s, idx) => !!submittedAnswers[idx]);
   currentCase.screens.forEach((s, idx) => {
     if (!submittedAnswers[idx]) {
       submittedAnswers[idx] = true;
@@ -108,5 +115,24 @@ function loadResultsView() {
     list.appendChild(item);
   });
   
+  // Kept in this browser for My progress (once per session, not again after reviewing answers).
+  const fromStudio = sessionConfig.source === 'studio';
+  if (!fromStudio && !sessionConfig.progressRecorded) {
+    sessionConfig.progressRecorded = true;
+    sessionConfig.progressSaved = recordSessionProgress(answeredSteps);
+  }
+  const note = document.getElementById('results-progress-note');
+  if (note) {
+    note.classList.toggle('hidden', fromStudio);
+    note.dataset.tone = sessionConfig.progressSaved ? 'ok' : 'warn';
+    note.textContent = sessionConfig.progressSaved
+      ? 'Saved to My progress in this browser.'
+      : 'This result could not be saved to My progress: this browser is not keeping site data (for example in a private window).';
+  }
+  const progressBtn = document.getElementById('results-progress-btn');
+  if (progressBtn) progressBtn.classList.toggle('hidden', fromStudio);
+  const backBtn = document.getElementById('results-dashboard-btn');
+  if (backBtn) backBtn.textContent = fromStudio ? 'Back to Question bank' : 'Back to Practise';
+
   switchView('results');
 }

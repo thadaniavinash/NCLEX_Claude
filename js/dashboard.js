@@ -200,6 +200,7 @@ function renderSaveStatus() {
   const status = currentSaveStatus();
   document.querySelectorAll('.save-status-indicator').forEach(el => {
     el.dataset.tone = status.tone;
+    el.title = status.text;
     const text = el.querySelector('.save-status-text');
     if (text) text.textContent = status.text;
   });
@@ -344,7 +345,7 @@ function renderAuthorTable(kind) {
 
     const editBtn = tr.querySelector('.btn-author-edit');
     if (editBtn) editBtn.addEventListener('click', () => startEditor(item));
-    tr.querySelector('.btn-author-launch').addEventListener('click', () => startPlayer(item));
+    tr.querySelector('.btn-author-launch').addEventListener('click', () => startPlayer(item, { source: 'studio' }));
     tr.querySelector('.btn-author-more').addEventListener('click', (e) => {
       e.stopPropagation();
       openAuthorRowMenu(e.currentTarget, kind, item);

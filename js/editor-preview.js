@@ -195,7 +195,7 @@ function initPreviewFrame() {
     if (e.origin !== window.location.origin || !e.data || !e.data.nclexPreview) return;
     const { item, step, mode } = e.data;
     const keepTab = playerActiveTabId;
-    startPlayer(item, { mode: 'review', isRemediation: false, allowBacktrack: true });
+    startPlayer(item, { mode: 'review', isRemediation: false, allowBacktrack: true, source: 'studio' });
     playerActiveTabId = keepTab; // stay on the chart tab the author was looking at
     if (mode === 'key') {
       playerAnswers[step] = previewAnswerKey(item.screens[step].question || {});

@@ -113,7 +113,7 @@ function initSessionBuilder() {
   // Authoring button in student header
   const authBtn = document.getElementById('student-authoring-btn');
   if (authBtn) {
-    authBtn.addEventListener('click', () => switchView('dashboard'));
+    authBtn.addEventListener('click', () => switchView('overview'));
   }
 
   // Student Course & Unit Filters
@@ -628,10 +628,16 @@ function generateAndStartSession() {
     return;
   }
 
+  startCompiledSession(selectedCaseStudies, selectedStandalone, sessionBuilderMode);
+}
+
+// One session from whole case studies (all their screens, in order) followed by stand-alone questions.
+// Each screen keeps where it came from (caseId/itemId, itemScreen) for My progress.
+function startCompiledSession(selectedCaseStudies, selectedStandalone, mode) {
   const compiledCase = {
     id: 'compiled_session_' + Date.now(),
-    title: sessionBuilderMode === 'review' ? 'NCLEX Practice Session' : 'NextGen NCLEX Exam Simulation',
-    description: `A custom ${sessionBuilderMode} testing session containing ${selectedCaseStudies.length} case studies and ${selectedStandalone.length} stand-alone questions.`,
+    title: mode === 'review' ? 'NCLEX Practice Session' : 'NextGen NCLEX Exam Simulation',
+    description: `A custom ${mode} testing session containing ${selectedCaseStudies.length} case studies and ${selectedStandalone.length} stand-alone questions.`,
     screens: []
   };
 
@@ -644,6 +650,7 @@ function generateAndStartSession() {
         const screenCopy = JSON.parse(JSON.stringify(screen));
         screenCopy.step = currentStepNum++;
         screenCopy.caseId = c.id;
+        screenCopy.itemScreen = screenIdx;
         screenCopy.caseTitle = c.title;
         screenCopy.isCaseStart = (screenIdx === 0);
         screenCopy.isStandalone = false;
@@ -659,6 +666,7 @@ function generateAndStartSession() {
         const screenCopy = JSON.parse(JSON.stringify(screen));
         screenCopy.step = currentStepNum++;
         screenCopy.isStandalone = true;
+        screenCopy.itemId = q.id;
         screenCopy.caseTitle = q.title || 'Stand-alone Question';
         compiledCase.screens.push(screenCopy);
       });
@@ -666,9 +674,9 @@ function generateAndStartSession() {
   });
 
   startPlayer(compiledCase, {
-    mode: sessionBuilderMode,
+    mode: mode,
     isRemediation: false,
-    allowBacktrack: (sessionBuilderMode === 'review')
+    allowBacktrack: (mode === 'review')
   });
 }
 

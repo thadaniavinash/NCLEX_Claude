@@ -66,7 +66,7 @@ function initEditorEvents() {
   document.getElementById('editor-play-btn').addEventListener('click', () => {
     if (!saveCurrentStepData()) return;
     saveCurrentCaseOrStandalone();
-    startPlayer(currentCase);
+    startPlayer(currentCase, { source: 'studio' });
   });
 
   document.getElementById('add-step-btn').addEventListener('click', addStepToCase);

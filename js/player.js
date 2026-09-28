@@ -4,7 +4,7 @@
 function initPlayerEvents() {
   document.getElementById('player-quit-btn').addEventListener('click', () => {
     if (confirm("Are you sure you want to quit the quiz? Your current progress will be lost.")) {
-      switchView('student');
+      leaveSession();
     }
   });
 

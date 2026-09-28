@@ -22,15 +22,18 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
 
 ## Layout
 
-- `index.html` + `style.css`: single-page app with views: student portal (session builder), player,
-  results, authoring dashboard + editor.
+- `index.html` + `style.css`: single-page app. `#app-shell` (top bar + sidebar, bottom tabs on phones) holds
+  the student area (Practise = session builder, My progress, results) and the studio area (Overview,
+  Question bank); the exam player and the editor fill the window. Routing: `switchView` / `SHELL_VIEWS`
+  in `main.js`.
 - `js/` (plain scripts sharing one global scope, loaded in this order; `main.js` last):
   `state.js` (constants, state, IndexedDB), `utils.js` (toast, escapeHTML, nurses' notes formatting,
   shuffleArray), `data.js` (sanitizing, format migrations, load, readiness rule, saving),
   `auth.js` (Supabase Auth admin sign-in), `dashboard.js` (authoring tables, admin login UI),
   `session-builder.js`, `rich-text.js` (text box extras), `notes-editor.js`, `cloze-editor.js`,
   `editor-preview.js`, `editor.js` (+ table cell menu), `player.js`, `scoring.js`, `results.js`,
-  `calculator.js`, `main.js` (initApp, routing).
+  `progress.js` (My progress, browser-only results), `overview.js` (studio Overview), `calculator.js`,
+  `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
   when the database can't be reached. Read/write it losslessly with `tools/bank.py` (Python) or
   `tools/supabase.js` (Node). Keep it in sync via the workflow's `download` action.
@@ -128,6 +131,13 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 - The DMD case (NURS 1017 Unit 3 Case Study 4) is in the bank; its medical content still merits
   clinician review.
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
+- No student logins for now (no permission to store student data). Students get the GitHub Pages link;
+  their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),
+  with export/import to a file. Nothing about students is sent anywhere. Accounts may come later: the stored
+  rows are shaped to map onto a results table.
+- The authoring studio is for the user only, for the foreseeable future (others may author in a few years).
+- The interface is built from scratch on the app's own design system (a purchased admin template, Inspinia,
+  was considered and declined).
 
 ## Pending setup (user's side; check the README "Administrators" section)
 
@@ -141,7 +151,8 @@ The old hard-coded admin password is still in git history; the user was told to 
 ## Remaining code work (from the latest review)
 
 1. Test Mode says "Timed Exam Conditions" but there is no timer.
-2. Student results/progress are never saved (would need student accounts + a results table).
+2. Student results are kept only in each student's browser (My progress); saving them centrally needs
+   student accounts + a results table (not permitted yet).
 3. Finish or remove the 5 hidden items (content decisions).
 4. Whole bank saved per row (over 1 MB); one row per item would shrink saves and merges.
 5. Images are embedded as base64 in the data; move to Supabase Storage.
@@ -186,7 +197,18 @@ starts with the six clinical judgment screens (`NEW_CASE_TEMPLATE`); live previe
 the real player (iframe `index.html?preview=1`, "With answers" fills the key; checklist of blockers and
 conventions; `js/editor-preview.js`); unsaved-changes marker + leave warning; `updatedAt` stamped on save
 and shown as a sortable "Edited" column; question-type filter in the studio.
-Suggested next: the guided student flow (C). Bowtie editor inputs still truncate long text.
+Done (app frame): one frame for everything except player/editor (top bar with status, theme and sign-in;
+sidebar with Practise / My progress for students, Overview / Question bank for the studio; small
+"Authoring studio" / "Student portal" links at the sidebar foot, the authoring link hidden on phones).
+My progress: tiles, score by clinical judgment step (case screens) and by unit, "To revisit" (items whose
+latest attempt lost points, "Practise again"), recent sessions, export/import/delete. Sessions record once
+when results show (`recordSessionProgress`); items launched from the studio or the editor preview carry
+`source: 'studio'` and are not recorded, and their exits return to the question bank (`leaveSession`).
+Session screens carry `caseId`/`itemScreen` or `itemId` (`startCompiledSession` in `session-builder.js`).
+Studio Overview: counts, needs attention, recently edited, coverage by unit (all curriculum units), stand-alone
+question types. `?author=1` and the authoring link open Overview.
+Suggested next: the guided student flow (C), inside the Practise page of the frame. Bowtie editor inputs
+still truncate long text.
 
 ### Design system (how to style new work)
 
