@@ -158,7 +158,9 @@ function openTableSizePicker(button, editor) {
   const MAX = 8;
   let cells = '';
   for (let r = 1; r <= MAX; r++) for (let c = 1; c <= MAX; c++) cells += `<button type="button" data-r="${r}" data-c="${c}" aria-label="${r} rows by ${c} columns"></button>`;
-  picker.innerHTML = `<div class="table-size-grid" style="grid-template-columns: repeat(${MAX}, 18px)">${cells}</div><div class="table-size-label">Header row + 2 rows × 2 columns</div>`;
+  const templates = Object.entries(TABLE_TEMPLATES).map(([key, t]) => `<button type="button" class="table-template-btn" data-template="${key}">${t.label}</button>`).join('');
+  picker.innerHTML = `<div class="table-size-grid" style="grid-template-columns: repeat(${MAX}, 18px)">${cells}</div><div class="table-size-label">Header row + 2 rows × 2 columns</div>`
+    + `<div class="table-template-list" role="group" aria-label="Ready-made tables"><span>Ready-made</span>${templates}</div>`;
   document.body.appendChild(picker);
   const rect = button.getBoundingClientRect();
   picker.style.top = `${rect.bottom + 4}px`;
@@ -169,15 +171,16 @@ function openTableSizePicker(button, editor) {
     picker.querySelectorAll('button').forEach(b => b.classList.toggle('on', +b.dataset.r <= r && +b.dataset.c <= c));
     label.textContent = `Header row + ${r} row${r === 1 ? '' : 's'} × ${c} column${c === 1 ? '' : 's'}`;
   };
-  picker.addEventListener('mouseover', e => { const b = e.target.closest('button'); if (b) show(+b.dataset.r, +b.dataset.c); });
-  picker.addEventListener('focusin', e => { const b = e.target.closest('button'); if (b) show(+b.dataset.r, +b.dataset.c); });
+  picker.addEventListener('mouseover', e => { const b = e.target.closest('button[data-r]'); if (b) show(+b.dataset.r, +b.dataset.c); });
+  picker.addEventListener('focusin', e => { const b = e.target.closest('button[data-r]'); if (b) show(+b.dataset.r, +b.dataset.c); });
   picker.addEventListener('mousedown', e => e.preventDefault());
   picker.addEventListener('click', e => {
     const b = e.target.closest('button');
     if (!b) return;
     editor.focus();
     if (savedRange) { const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(savedRange); }
-    insertTableAtCursor(editor, +b.dataset.r, +b.dataset.c);
+    if (b.dataset.template) insertTableHTMLAtCursor(editor, templateTableHTML(b.dataset.template));
+    else insertTableAtCursor(editor, +b.dataset.r, +b.dataset.c);
     closeTableSizePicker();
   });
   show(2, 2);

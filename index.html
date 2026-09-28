@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260928210228">
+  <link rel="stylesheet" href="style.css?v=20260928220405">
 </head>
 <body>
 
@@ -692,10 +692,18 @@
               <div class="tabs-editor-container">
                 <div class="tabs-editor-header">
                   <h5>Chart Tabs</h5>
-                  <button id="add-tab-btn" class="btn btn-text btn-xs">
-                    <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2.5" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                    Add Tab
-                  </button>
+                  <div class="add-tab-wrap">
+                    <button id="add-tab-btn" class="btn btn-text btn-xs" aria-haspopup="menu" aria-expanded="false" aria-controls="add-tab-menu">
+                      <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2.5" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                      Add Tab
+                    </button>
+                    <div id="add-tab-menu" class="add-tab-menu hidden" role="menu" aria-label="Add a chart tab">
+                      <button type="button" role="menuitem" data-tab-template="blank">Blank tab</button>
+                      <button type="button" role="menuitem" data-tab-template="notes">Nurses' Notes</button>
+                      <button type="button" role="menuitem" data-tab-template="vitals">Vital Signs <span>table</span></button>
+                      <button type="button" role="menuitem" data-tab-template="labs">Laboratory Results <span>table</span></button>
+                    </div>
+                  </div>
                 </div>
                 <div id="editor-tabs-list" class="tabs-list-horizontal">
                   <!-- Tabs headers here -->
@@ -1205,24 +1213,25 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20260928210228"></script>
-  <script src="js/state.js?v=20260928210228"></script>
-  <script src="js/utils.js?v=20260928210228"></script>
-  <script src="js/data.js?v=20260928210228"></script>
-  <script src="js/auth.js?v=20260928210228"></script>
-  <script src="js/dashboard.js?v=20260928210228"></script>
-  <script src="js/session-builder.js?v=20260928210228"></script>
-  <script src="js/rich-text.js?v=20260928210228"></script>
-  <script src="js/notes-editor.js?v=20260928210228"></script>
-  <script src="js/cloze-editor.js?v=20260928210228"></script>
-  <script src="js/editor-preview.js?v=20260928210228"></script>
-  <script src="js/editor.js?v=20260928210228"></script>
-  <script src="js/player.js?v=20260928210228"></script>
-  <script src="js/scoring.js?v=20260928210228"></script>
-  <script src="js/results.js?v=20260928210228"></script>
-  <script src="js/progress.js?v=20260928210228"></script>
-  <script src="js/overview.js?v=20260928210228"></script>
-  <script src="js/calculator.js?v=20260928210228"></script>
-  <script src="js/main.js?v=20260928210228"></script>
+  <script src="cases-data.js?v=20260928220405"></script>
+  <script src="js/state.js?v=20260928220405"></script>
+  <script src="js/utils.js?v=20260928220405"></script>
+  <script src="js/data.js?v=20260928220405"></script>
+  <script src="js/auth.js?v=20260928220405"></script>
+  <script src="js/dashboard.js?v=20260928220405"></script>
+  <script src="js/session-builder.js?v=20260928220405"></script>
+  <script src="js/rich-text.js?v=20260928220405"></script>
+  <script src="js/table-tools.js?v=20260928220405"></script>
+  <script src="js/notes-editor.js?v=20260928220405"></script>
+  <script src="js/cloze-editor.js?v=20260928220405"></script>
+  <script src="js/editor-preview.js?v=20260928220405"></script>
+  <script src="js/editor.js?v=20260928220405"></script>
+  <script src="js/player.js?v=20260928220405"></script>
+  <script src="js/scoring.js?v=20260928220405"></script>
+  <script src="js/results.js?v=20260928220405"></script>
+  <script src="js/progress.js?v=20260928220405"></script>
+  <script src="js/overview.js?v=20260928220405"></script>
+  <script src="js/calculator.js?v=20260928220405"></script>
+  <script src="js/main.js?v=20260928220405"></script>
 </body>
 </html>

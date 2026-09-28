@@ -824,52 +824,6 @@ function initRichTextEditors() {
   initRichTextExtras();
 }
 
-function insertTableAtCursor(editorDiv, rows, cols) {
-  let tableHTML = '<table class="nclex-editor-table" style="width:100%; border-collapse:collapse; margin:12px 0;">';
-  // Header Row
-  tableHTML += '<thead><tr>';
-  for (let j = 0; j < cols; j++) {
-    tableHTML += `<th placeholder="Header ${j+1}" style="border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;"></th>`;
-  }
-  tableHTML += '</tr></thead><tbody>';
-  // Data Rows
-  for (let i = 0; i < rows; i++) {
-    tableHTML += '<tr>';
-    for (let j = 0; j < cols; j++) {
-      tableHTML += '<td placeholder="Cell" style="border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;"></td>';
-    }
-    tableHTML += '</tr>';
-  }
-  tableHTML += '</tbody></table><p><br></p>';
-  
-  editorDiv.focus();
-  const selection = window.getSelection();
-  if (selection.rangeCount > 0) {
-    const range = selection.getRangeAt(0);
-    // Ensure selection is inside the editor
-    if (editorDiv.contains(range.commonAncestorContainer)) {
-      range.deleteContents();
-      const el = document.createElement('div');
-      el.innerHTML = tableHTML;
-      const frag = document.createDocumentFragment();
-      let node, lastNode;
-      while ((node = el.firstChild)) {
-        lastNode = frag.appendChild(node);
-      }
-      range.insertNode(frag);
-      if (lastNode) {
-        range.setStartAfter(lastNode);
-        range.collapse(true);
-        selection.removeAllRanges();
-        selection.addRange(range);
-      }
-      return;
-    }
-  }
-  // Fallback if not focused/inside editor
-  editorDiv.innerHTML += tableHTML;
-}
-
 /* ---- Light / dark theme for the whole app ----
    html[data-theme] is set before first paint by the script in index.html (the stored choice,
    otherwise the device setting). The toggles are the [data-theme-toggle] buttons. */

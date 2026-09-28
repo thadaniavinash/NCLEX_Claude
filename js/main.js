@@ -145,9 +145,9 @@ function renderStudentPortal() {
   updateSessionCountsAndBounds();
 }
 
-// Run initializer on window load
+// Table toolbar, cell navigation and template hints in the authoring text boxes (js/table-tools.js)
 if (document.readyState === 'loading') {
-  window.addEventListener('DOMContentLoaded', setupTableInteractionMenu);
+  window.addEventListener('DOMContentLoaded', initTableTools);
 } else {
-  setupTableInteractionMenu();
+  initTableTools();
 }

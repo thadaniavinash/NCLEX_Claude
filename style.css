@@ -2225,21 +2225,8 @@ td.matrix-cell-incorrect {
   color: var(--text-exam-primary);
 }
 
-/* Placeholders for table cells when editing */
-.nclex-editor-table th:empty::before {
-  content: attr(placeholder);
-  color: rgba(255, 255, 255, 0.6) !important;
-  font-weight: 600 !important;
-  font-style: italic;
-  display: inline-block;
-}
-
-.nclex-editor-table td:empty::before {
-  content: attr(placeholder);
-  color: #94a3b8 !important;
-  font-style: italic;
-  display: inline-block;
-}
+/* Table cells show no placeholder text: students see empty cells as empty. Authoring hints for
+   template cells are drawn over the cell by js/table-tools.js (.table-cell-hint). */
 
 /* ================= ADMINISTRATOR SECURITY FEATURES ================= */
 
@@ -2678,38 +2665,6 @@ html:not([data-theme="dark"]) .card-id-badge:hover {
   background: rgba(75, 163, 227, 0.08);
   color: var(--nclex-sky);
   border-color: var(--nclex-sky);
-}
-
-/* Table cell interaction controls (relative positioning and hover chevron button) */
-[contenteditable="true"] .nclex-editor-table th,
-[contenteditable="true"] .nclex-editor-table td {
-  position: relative !important;
-}
-
-[contenteditable="true"] .nclex-editor-table th::after,
-[contenteditable="true"] .nclex-editor-table td::after {
-  content: '▼';
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  font-size: 8px;
-  line-height: 12px;
-  text-align: center;
-  width: 14px;
-  height: 14px;
-  background: rgba(30, 41, 59, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: #e2e8f0;
-  border-radius: 3px;
-  cursor: pointer;
-  display: none;
-  z-index: 50;
-  user-select: none;
-}
-
-[contenteditable="true"] .nclex-editor-table th:hover::after,
-[contenteditable="true"] .nclex-editor-table td:hover::after {
-  display: block;
 }
 
 /* ================= MOBILE RESPONSIVE MEDIA QUERIES ================= */
@@ -6552,3 +6507,152 @@ html:not([data-theme="dark"]) #editor-view.with-preview .pane-left { border-bott
   flex-direction: column;
   gap: var(--space-5);
 }
+
+/* ================= EDITOR: TABLE TOOLBAR, TEMPLATES, ADD-TAB MENU (js/table-tools.js, editor.js) ================= */
+
+.table-tools-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  padding: var(--space-1) var(--space-2);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-selected);
+}
+
+.table-tools-group {
+  margin: 0 2px 0 var(--space-2);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--brand-text);
+}
+
+.table-tools-group:first-child { margin-left: 0; }
+.table-tools-group:empty { width: 1px; align-self: stretch; margin: 2px var(--space-1); background: var(--border); }
+
+/* Empty cells keep a normal row height while editing (in the player they are simply empty). */
+[contenteditable="true"] .nclex-editor-table th:empty,
+[contenteditable="true"] .nclex-editor-table td:empty {
+  height: 2.6em;
+}
+
+.table-tools-bar button {
+  min-height: 28px;
+  padding: 2px 6px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.table-tools-bar button:hover { background: var(--surface-sunken); }
+.table-tools-bar button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+.table-tools-bar button.is-danger { color: var(--danger); }
+.table-tools-bar button.is-danger:hover,
+.table-tools-bar button.is-confirming { background: var(--danger-bg); color: var(--danger-text); }
+
+.table-tools-target {
+  position: fixed;
+  z-index: 3050;
+  border: 2px solid var(--brand-sky);
+  border-radius: 2px;
+  background: rgba(75, 163, 227, 0.12);
+  pointer-events: none;
+}
+
+.table-cell-hint {
+  position: fixed;
+  z-index: 3050;
+  overflow: hidden;
+  color: #94a3b8;
+  font-size: var(--fs-sm);
+  font-style: italic;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+
+.table-cell-hint.on-header { color: rgba(255, 255, 255, 0.7); }
+
+@media (pointer: coarse) {
+  .table-tools-bar button { min-height: var(--touch-target); }
+}
+
+.table-template-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid #475569;
+}
+
+.table-template-list span {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #94a3b8;
+}
+
+.table-template-btn {
+  padding: 4px 6px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: #e2e8f0;
+  font-size: var(--fs-sm);
+  text-align: left;
+  cursor: pointer;
+}
+
+.table-template-btn:hover,
+.table-template-btn:focus-visible { background: rgba(75, 163, 227, 0.25); outline: none; }
+
+html:not([data-theme="dark"]) .table-template-list { border-color: #cbd5e1; }
+html:not([data-theme="dark"]) .table-template-list span { color: #64748b; }
+html:not([data-theme="dark"]) .table-template-btn { color: #1e293b; }
+html:not([data-theme="dark"]) .table-template-btn:hover,
+html:not([data-theme="dark"]) .table-template-btn:focus-visible { background: #dbeafe; }
+
+.add-tab-wrap { position: relative; }
+
+.add-tab-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  padding: var(--space-1);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+}
+
+.add-tab-menu.hidden { display: none; }
+
+.add-tab-menu button {
+  min-height: 32px;
+  padding: 4px var(--space-2);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text);
+  font-size: var(--fs-body-sm);
+  text-align: left;
+  cursor: pointer;
+}
+
+.add-tab-menu button span { color: var(--text-muted); font-size: var(--fs-sm); }
+.add-tab-menu button:hover,
+.add-tab-menu button:focus-visible { background: var(--surface-sunken); outline: none; }

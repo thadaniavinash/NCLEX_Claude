@@ -30,8 +30,9 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   `state.js` (constants, state, IndexedDB), `utils.js` (toast, escapeHTML, nurses' notes formatting,
   shuffleArray), `data.js` (sanitizing, format migrations, load, readiness rule, saving),
   `auth.js` (Supabase Auth admin sign-in), `dashboard.js` (authoring tables, admin login UI),
-  `session-builder.js`, `rich-text.js` (text box extras), `notes-editor.js`, `cloze-editor.js`,
-  `editor-preview.js`, `editor.js` (+ table cell menu), `player.js`, `scoring.js`, `results.js`,
+  `session-builder.js`, `rich-text.js` (text box extras), `table-tools.js` (table toolbar, templates,
+  cell hints), `notes-editor.js`, `cloze-editor.js`,
+  `editor-preview.js`, `editor.js`, `player.js`, `scoring.js`, `results.js`,
   `progress.js` (My progress, browser-only results), `overview.js` (studio Overview), `calculator.js`,
   `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
@@ -214,6 +215,16 @@ when results show (`recordSessionProgress`); items launched from the studio or t
 Session screens carry `caseId`/`itemScreen` or `itemId` (`startCompiledSession` in `session-builder.js`).
 Studio Overview: counts, needs attention, recently edited, coverage by unit (all curriculum units), stand-alone
 question types. `?author=1` opens Overview.
+Done (tables, `js/table-tools.js`): while the cursor is in a table cell, a "Row: Above / Below / Delete |
+Column: Left / Right / Delete | Delete table" bar appears under that text box's formatting toolbar (acts on
+the current cell's row/column; hovering outlines the target; Delete table asks for a second click; replaced
+the hidden ▼ cell menu). Tab/Shift+Tab move between cells, Tab in the last cell adds a row, Enter is a line
+break inside a cell. Cells never show placeholder text (students used to see "Header 1" in empty cells);
+template cells carry a `placeholder` hint drawn over the cell only in the editor, only while it is empty
+and has the cursor. Ready-made tables (`TABLE_TEMPLATES`: Vital signs = blank | setting/time header, rows
+T, P, RR, BP, Pulse Oximetry Reading (SpO2); Laboratory results = "Laboratory Test and Reference Range" |
+time, 4 empty rows) are in the Table picker and in the "Add Tab" menu (Blank / Nurses' Notes / Vital Signs /
+Laboratory Results).
 Suggested next: the guided student flow (C), inside the Practise page of the frame. Bowtie editor inputs
 still truncate long text.
 
