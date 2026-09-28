@@ -5044,54 +5044,6 @@ td.matrix-cell-missed {
   box-shadow: 0 8px 20px rgba(15, 23, 42, 0.25);
 }
 
-/* ================= PLAYER: CHART CHANGES AS THE CASE UNFOLDS ================= */
-.chart-tab-change {
-  display: inline-block;
-  margin-left: 6px;
-  padding: 0 6px;
-  border-radius: 999px;
-  font-size: 10.5px;
-  font-weight: 700;
-  line-height: 16px;
-  vertical-align: 1px;
-}
-
-.chart-tab-change.new { background: #dbeafe; color: #1e40af; }
-.chart-tab-change.updated { background: var(--warning-bg); color: var(--warning-text); }
-
-.chart-entry-new {
-  background-color: var(--warning-bg-subtle) !important;
-  box-shadow: inset 3px 0 0 #f59e0b;
-}
-
-/* Room for the bar without moving the text */
-p.chart-entry-new,
-li.chart-entry-new {
-  margin-left: -10px !important;
-  padding-left: 10px !important;
-}
-
-tr.chart-entry-new > td {
-  background-color: var(--warning-bg-subtle) !important;
-}
-
-.chart-new-legend {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 10px;
-  font-size: var(--fs-sm);
-  color: var(--warning-text);
-}
-
-.chart-new-swatch {
-  width: 14px;
-  height: 14px;
-  border-radius: 2px;
-  background: var(--warning-bg-subtle);
-  box-shadow: inset 3px 0 0 #f59e0b, 0 0 0 1px #fcd34d;
-}
-
 /* ================= PLAYER: PHONE LAYOUT ================= */
 .player-mobile-switch,
 .player-mobile-to-question,
@@ -5130,16 +5082,6 @@ tr.chart-entry-new > td {
     color: #ffffff;
   }
 
-  .mobile-switch-new {
-    margin-left: 8px;
-    padding: 1px 7px;
-    border-radius: 999px;
-    background: #f59e0b;
-    color: #1f2937;
-    font-size: var(--fs-xs);
-    font-weight: 700;
-    vertical-align: 1px;
-  }
 
   .player-center-split.mobile-show-chart .question-pane,
   .player-center-split.mobile-show-question .chart-pane {

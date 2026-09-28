@@ -177,9 +177,10 @@ question type and readiness; matrix editor fields wrap; labels on icon-only butt
 Done (player): after Submit every answer says "your answer: correct/incorrect" or "correct answer (not
 selected)" (options, matrix cells, drop-downs with the right choice, highlight, bowtie and ordered-response
 answer keys); the result explains the scoring rule with the +/- arithmetic (`scoringExplanation` in
-`scoring.js`); in-page notices replace the player's alerts; chart tabs show New/Updated and new entries are
-highlighted (`chartChanges` in `player.js`; not in an active Test Mode exam); phones get a Chart | Question
-switch (opens on Chart when it has new information) and left-aligned notes.
+`scoring.js`); in-page notices replace the player's alerts; phones get a Chart | Question switch (opens on Chart) and
+left-aligned notes. **No "New"/"Updated" tab labels or highlighted new entries (user decision: the real
+NCLEX has none).** What changed since the previous screen is stated in the question preamble instead,
+e.g. "The nurse has reviewed the Nurses' Notes from 1130 and 1200 and the Diagnostic Results from 1215.".
 Done (design system): tokens, light/dark theme for everything except the exam player, type scale, 44px
 touch targets, focus ring, small-screen headers (see "Design system" below).
 Done (authoring): Nurses' Notes tabs are edited as timed entries (`js/notes-editor.js`: label field +

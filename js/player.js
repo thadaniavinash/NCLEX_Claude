@@ -392,65 +392,6 @@ function renderPlayerStep(stepIdx) {
   }
 }
 
-/* ---- What changed in the chart since the previous screen of the same case ---- */
-
-// The previous screen when it belongs to the same unfolding case, otherwise null.
-function previousCaseScreen(stepIdx) {
-  if (stepIdx <= 0 || currentCase.isStandalone) return null;
-  const step = currentCase.screens[stepIdx];
-  const prev = currentCase.screens[stepIdx - 1];
-  if (!prev || step.isStandalone || prev.isStandalone || prev.caseId !== step.caseId) return null;
-  return prev;
-}
-
-// Entries of a chart tab (table rows, notes, list items) as normalised text. Parsed with
-// DOMParser so images in the content are not fetched just for the comparison.
-function chartEntryElements(root) {
-  return Array.from(root.querySelectorAll('tr, p, li')).filter(el => el.tagName === 'TR' || !el.closest('table'));
-}
-
-function chartEntryText(el) {
-  return el.textContent.replace(/\s+/g, ' ').trim();
-}
-
-// For each tab of the screen: 'first' (no earlier screen), 'new', 'updated' (with the earlier
-// entries) or 'same'.
-function chartChanges(stepIdx) {
-  const step = currentCase.screens[stepIdx];
-  const tabs = (step && step.leftContent && step.leftContent.tabs) || [];
-  const prev = previousCaseScreen(stepIdx);
-  const byTab = {};
-  let hasNewInfo = !prev && tabs.length > 0;
-  const prevTabs = prev ? ((prev.leftContent && prev.leftContent.tabs) || []) : [];
-  tabs.forEach(t => {
-    if (!prev) { byTab[t.id] = { status: 'first' }; return; }
-    // Same tab on the previous screen: same title, else same id, else identical content
-    // (so a tab whose title was retyped is not reported as new).
-    const key = (t.title || '').trim().toLowerCase();
-    const prevTab = prevTabs.find(pt => (pt.title || '').trim().toLowerCase() === key)
-      || prevTabs.find(pt => pt.id && pt.id === t.id)
-      || prevTabs.find(pt => (pt.content || '') === (t.content || ''));
-    if (!prevTab) {
-      byTab[t.id] = { status: 'new' };
-      hasNewInfo = true;
-    } else if ((prevTab.content || '') === (t.content || '')) {
-      byTab[t.id] = { status: 'same' };
-    } else {
-      const doc = new DOMParser().parseFromString(formatNursesNotes(prevTab.content || '', prevTab.title), 'text/html');
-      byTab[t.id] = { status: 'updated', previousEntries: new Set(chartEntryElements(doc.body).map(chartEntryText)) };
-      hasNewInfo = true;
-    }
-  });
-  if (prev && (prev.leftContent && prev.leftContent.intro) !== (step.leftContent && step.leftContent.intro)) hasNewInfo = true;
-  return { byTab, hasNewInfo, hasPrevious: !!prev };
-}
-
-// "New"/"Updated" markers help students follow an unfolding case, but are left out of an
-// active Test Mode exam, which imitates the real NCLEX screen.
-function showChartChangeMarkers() {
-  return !(sessionConfig.mode === 'test' && !sessionConfig.isRemediation);
-}
-
 function renderPlayerTabs(tabs) {
   const tabsBar = document.getElementById('player-chart-tabs');
   const contentBox = document.getElementById('player-chart-content');
@@ -466,19 +407,12 @@ function renderPlayerTabs(tabs) {
     playerActiveTabId = tabs[0].id;
   }
 
-  const changes = showChartChangeMarkers() ? chartChanges(playerStepIndex).byTab : {};
-  
+  // No "New"/"Updated" tab labels or highlighted entries: the real NCLEX screen has none. What the
+  // nurse has reviewed since the last screen is stated in the question's preamble instead.
   tabs.forEach(t => {
     const tabBtn = document.createElement('button');
     tabBtn.className = `patient-chart-tab ${t.id === playerActiveTabId ? 'active' : ''}`;
     tabBtn.textContent = t.title;
-    const change = changes[t.id];
-    if (change && (change.status === 'new' || change.status === 'updated')) {
-      const marker = document.createElement('span');
-      marker.className = `chart-tab-change ${change.status}`;
-      marker.textContent = change.status === 'new' ? 'New' : 'Updated';
-      tabBtn.appendChild(marker);
-    }
     tabBtn.addEventListener('click', () => {
       playerActiveTabId = t.id;
       renderPlayerTabs(tabs);
@@ -488,22 +422,6 @@ function renderPlayerTabs(tabs) {
   
   const activeTab = tabs.find(t => t.id === playerActiveTabId);
   contentBox.innerHTML = activeTab ? formatNursesNotes(activeTab.content, activeTab.title) : '';
-
-  // Mark the entries added since the previous screen.
-  const activeChange = activeTab && changes[activeTab.id];
-  if (activeChange && activeChange.status === 'updated') {
-    let marked = 0;
-    chartEntryElements(contentBox).forEach(el => {
-      const text = chartEntryText(el);
-      if (text && !activeChange.previousEntries.has(text)) {
-        el.classList.add('chart-entry-new');
-        marked++;
-      }
-    });
-    if (marked) {
-      contentBox.insertAdjacentHTML('afterbegin', '<div class="chart-new-legend"><span class="chart-new-swatch"></span>Highlighted entries are new since the previous screen.</div>');
-    }
-  }
 }
 
 /* ---- Phone layout: the chart and the question are two panes with a switch ---- */
@@ -526,15 +444,11 @@ function setPlayerMobilePane(pane) {
 }
 
 // Called on every render of a screen; picks the starting pane only when a new screen opens
-// (not when the same screen re-renders after Submit): the chart when it has new information.
+// (not when the same screen re-renders after Submit): the chart first, as it sits on the left of
+// the real exam screen. Nothing signals what changed in the chart (the preamble says it).
 function updatePlayerMobileLayout(step, hasChart) {
   const switcher = document.getElementById('player-mobile-switch');
-  const changes = chartChanges(playerStepIndex);
-  if (switcher) {
-    switcher.classList.toggle('hidden', !hasChart);
-    const dot = switcher.querySelector('.mobile-switch-new');
-    if (dot) dot.classList.toggle('hidden', !(changes.hasPrevious && changes.hasNewInfo && showChartChangeMarkers()));
-  }
+  if (switcher) switcher.classList.toggle('hidden', !hasChart);
   const mobileIntro = document.getElementById('player-mobile-intro');
   if (mobileIntro) {
     mobileIntro.innerHTML = hasChart ? (step.leftContent.intro || '') : '';
@@ -542,7 +456,7 @@ function updatePlayerMobileLayout(step, hasChart) {
   }
   if (playerMobilePaneStep !== step) {
     playerMobilePaneStep = step;
-    setPlayerMobilePane(hasChart && changes.hasNewInfo ? 'chart' : 'question');
+    setPlayerMobilePane(hasChart ? 'chart' : 'question');
   } else if (!hasChart) {
     setPlayerMobilePane('question');
   }
