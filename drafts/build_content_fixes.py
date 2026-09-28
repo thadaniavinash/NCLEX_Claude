@@ -1,18 +1,21 @@
-"""Question preambles that say what the nurse has reviewed since the previous screen.
+"""Content fixes for the case studies (September 2026), applied with `tools/supabase.js patch`.
 
-The player no longer marks chart tabs as New/Updated (the real NCLEX does not), so each case-study
-screen whose chart gained a tab or new entries states it in the question preamble instead, e.g.
-"The nurse has reviewed the Nurses' Notes from 1130 and the Diagnostic Results."
+1. Question preambles. The player no longer marks chart tabs as New/Updated (the real NCLEX does not),
+   so each case-study screen whose chart gained a tab or new entries says so in its preamble, e.g.
+   "The nurse has reviewed the Nurses' Notes from 1130 and the Diagnostic Results." The sentence goes
+   after any existing preamble text (whose "(see ... tab)" pointers are dropped as redundant).
+   First screens, unchanged charts and preambles already written this way are left alone.
+2. Chart and wording errors found while checking (see FIXES below).
+3. HTML codes such as "&times;" typed into fields the player shows as plain text (option, matrix row
+   and drop-down choice text) become the characters themselves.
 
-Rule: on a screen whose chart changed, the sentence is added after any existing preamble text
-('add'), or becomes the preamble when there was none ('set'). Screens that already use this form,
-first screens and screens whose chart did not change are left alone. Only question.preamble changes.
-
-Writes drafts/preamble_patch.json: [{id, title, screen (1-based), before, after}]. `before` is the
-current preamble; tools/supabase.js patch-preambles refuses an entry whose preamble has changed since.
+Writes drafts/content_patch.json: [{row, id, title, path, before, after, why}]. tools/supabase.js patch
+refuses the whole patch if any field no longer holds `before`, so edits made since are never lost.
 """
+import html
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -176,7 +179,7 @@ PREAMBLES = {
     'case_1782390000007': {
         2: R + "Nurses' Notes from 1030.",
         4: R + "Nurses' Notes from 1400 and the Provider Orders.",
-        6: R + "Nurses' Notes from Hospital Day 4.",
+        6: R + 'Hospital Day 4 Flowsheet.',  # a highlight question: its own tab is the chart shown
     },
     'case_1782390000008': {
         2: R + "Nurses' Notes from 2140.",
@@ -199,21 +202,127 @@ PREAMBLES = {
 }
 
 
-def main():
-    cases, _ = bank.load()
+SEE_TAB = re.compile(r'\s*\(see [^()]*?tab\)', re.I)
+# Existing preambles whose wording needs the sentence placed inside rather than after.
+REWORDED = {
+    ('case_1781534070850', 2): 'On Tuesday morning, the campus clinic nurse reviews the clinic log and contacts the residence. '
+                               'The nurse has reviewed the Epidemiologic Data. The cause of the illness has not been confirmed.',
+}
+ENTITY = re.compile(r'&(times|ge|le|deg|plusmn|micro|mdash|ndash|rarr|asymp|ne|nbsp);')
+PLAIN_TEXT_KEYS = {'text', 'columns', 'firstColumnHeader', 'placeholder'}
+
+
+def note_row(time, text):
+    return (f'<p class="nurse-note-row"><span class="nurse-note-time">{time}:</span>'
+            f'<span class="nurse-note-text">{text}</span></p>')
+
+
+def tab_index(screen, title):
+    return next(i for i, t in enumerate(screen['leftContent']['tabs']) if t['title'] == title)
+
+
+def build():
+    cases, standalone = bank.load()
     by_id = {c['id']: c for c in cases}
     patch = []
+
+    def add(item, path, after, why, row='cases'):
+        node = item
+        for k in path:
+            node = node[k] if not isinstance(node, dict) or k in node else None
+            if node is None:
+                break
+        before = node
+        if before == after:
+            return
+        patch.append({'row': row, 'id': item['id'], 'title': item['title'], 'path': path,
+                      'before': before, 'after': after, 'why': why})
+
+    # 1. Preambles
     for cid, screens in PREAMBLES.items():
         item = by_id[cid]
         for n, sentence in screens.items():
             before = item['screens'][n - 1]['question'].get('preamble') or ''
-            text = before.strip()
-            after = f'{text} {sentence}' if text else sentence
-            patch.append({'id': cid, 'title': item['title'], 'screen': n, 'before': before, 'after': after})
-    out = os.path.join(HERE, 'preamble_patch.json')
+            if (cid, n) in REWORDED:
+                after = REWORDED[(cid, n)]
+            else:
+                kept = SEE_TAB.sub('', before).strip()
+                after = f'{kept} {sentence}' if kept else sentence
+            add(item, ['screens', n - 1, 'question', 'preamble'], after, 'preamble')
+
+    # 2. Chart and wording errors
+    # NURS 1021 Unit 6 CS1: the CT results were timed 1100/1130, before the CT scans (1230, repeat at
+    # 1415); the preamble already gave 1230 and 1445. The second entry's markup was also malformed.
+    u6 = by_id['case_1781741217820']
+    fixed = (note_row('1230', 'Acute gangrenous appendix with calcified appendicolith.') +
+             note_row('1445', 'Free intraperitoneal fluid noted consistent with a ruptured appendix.'))
+    for n in (5, 6):
+        i = tab_index(u6['screens'][n - 1], 'Diagnostic Results')
+        add(u6, ['screens', n - 1, 'leftContent', 'tabs', i, 'content'], fixed,
+            'Diagnostic Results times 1100/1130 -> 1230/1445 (after the CT scans), tidy markup')
+
+    # Case Study 2 (DKA): tab title typo; the introduction changed mid-case to "a client in the clinic..."
+    # although the client is in hospital; the highlight question's tab holds the prescriptions.
+    dka = by_id['case_1780489713691']
+    for n, s in enumerate(dka['screens'], 1):
+        for i, t in enumerate(s['leftContent']['tabs']):
+            if t['title'] == "Nurses's Notes":
+                add(dka, ['screens', n - 1, 'leftContent', 'tabs', i, 'title'], "Nurses' Notes", 'tab title typo')
+        if n > 2:
+            add(dka, ['screens', n - 1, 'leftContent', 'intro'], dka['screens'][0]['leftContent']['intro'],
+                'introduction matches screens 1-2')
+    add(dka, ['screens', 4, 'question', 'highlightTabs', 0, 'title'], 'Prescriptions',
+        'the highlight tab holds the 0905 prescriptions')
+
+    # Case Study 1 (heart failure): tabs vanished between screens (Nurses' Notes on screen 5, Lab Results on 6).
+    hf = by_id['cardio-case-1']
+    s4, s5, s6 = hf['screens'][3], hf['screens'][4], hf['screens'][5]
+    notes4 = s4['leftContent']['tabs'][tab_index(s4, "Nurses' Notes")]
+    labs5 = s5['leftContent']['tabs'][tab_index(s5, 'Lab Results')]
+    add(hf, ['screens', 4, 'leftContent', 'tabs'],
+        [s5['leftContent']['tabs'][0], dict(notes4, id=notes4['id'] + '_s5'), labs5],
+        "keep the Nurses' Notes tab on screen 5")
+    add(hf, ['screens', 5, 'leftContent', 'tabs'],
+        s6['leftContent']['tabs'] + [dict(labs5, id=labs5['id'] + '_s6')], 'keep the Lab Results tab on screen 6')
+
+    # New Case Study (78-year-old, pneumonia/sepsis): screen 6 stem was unfinished. Its matrix columns are
+    # Improved / Not Changed / Worsened (as in NURS 1021 Unit 3 Case Study 1).
+    ncs = by_id['case_1782159166328']
+    add(ncs, ['screens', 5, 'question', 'stem'],
+        "For each assessment finding, click to specify if the finding indicates that the client's condition has improved, not changed, or worsened.",
+        'unfinished stem completed to match the matrix columns')
+
+    # 3. HTML codes in plain-text fields
+    def walk(item, row, node, path):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                walk(item, row, v, path + [k])
+        elif isinstance(node, list):
+            for i, v in enumerate(node):
+                walk(item, row, v, path + [i])
+        elif isinstance(node, str) and ENTITY.search(node):
+            key = next(p for p in reversed(path) if isinstance(p, str))
+            if key in PLAIN_TEXT_KEYS:
+                add(item, path, ENTITY.sub(lambda m: html.unescape(m.group(0)), node), 'HTML code shown as text', row)
+    for c in cases:
+        walk(c, 'cases', c, [])
+    for q in standalone:
+        walk(q, 'standalone', q, [])
+    return patch
+
+
+def main():
+    patch = build()
+    out = os.path.join(HERE, 'content_patch.json')
     with open(out, 'w', encoding='utf-8') as f:
-        json.dump(patch, f, indent=2, ensure_ascii=False)
-    print(f'{len(patch)} preambles in {len({p["id"] for p in patch})} case studies -> {out}')
+        json.dump(patch, f, indent=1, ensure_ascii=False)
+    kinds = {}
+    for p in patch:
+        k = 'preamble' if p['why'] == 'preamble' else p['why']
+        kinds[k] = kinds.get(k, 0) + 1
+    print(f'{len(patch)} changes in {len({p["id"] for p in patch})} items -> {out}')
+    for k, n in kinds.items():
+        print(f'  {n:4}  {k}')
 
 
 if __name__ == '__main__':

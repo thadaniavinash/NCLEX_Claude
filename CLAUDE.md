@@ -42,9 +42,10 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   `is_nclex_admin()`, admin-only update policy).
 - `server.js` + `*.bat`: optional local Windows server (`/api/save` writes `cases-data.js`).
 - `.github/workflows/supabase.yml`: runs `tools/supabase.js` from GitHub Actions (ping daily; manual:
-  check, compare-original, download (commits the backup), add, patch-preambles, upload).
-  `patch-preambles <file>` changes only `question.preamble` on listed case screens (`drafts/preamble_patch.json`,
-  built by `drafts/build_preamble_patch.py`); it refuses the whole patch if any preamble changed since.
+  check, compare-original, download (commits the backup), add, patch, upload).
+  `patch <file>` changes only the listed fields (`[{row, id, path, before, after}]`, e.g.
+  `drafts/content_patch.json` from `drafts/build_content_fixes.py`); it refuses the whole patch if any field
+  no longer holds its `before` value. Use it (not `upload`) to fix published items from the tools.
 
 ## Data format (one item = case study or stand-alone question)
 

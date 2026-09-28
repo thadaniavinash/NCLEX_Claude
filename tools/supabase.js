@@ -7,9 +7,8 @@
 //   node tools/supabase.js upload            cases-data.js -> this copy's database (verified)
 //   node tools/supabase.js download          this copy's database -> cases-data.js
 //   node tools/supabase.js add <file.json>   add one new case study or stand-alone question to the database
-//   node tools/supabase.js patch-preambles <patch.json>
-//                                            set question preambles only ([{id, screen, before, after}];
-//                                            an entry whose preamble is no longer `before` is refused)
+//   node tools/supabase.js patch <patch.json> change listed fields only ([{row, id, path, before, after}];
+//                                            refused as a whole if any field no longer holds `before`)
 //
 // Needs Node 18+ (global fetch). Writes use the SUPABASE_SECRET_KEY environment variable when
 // it is set (required once supabase/002_admin_logins.sql restricts saving to admins); reads use
@@ -229,43 +228,53 @@ async function add() {
   console.log(`Database now holds ${bank.cases.length} case studies and ${bank.standalone.length} stand-alone questions.`);
 }
 
-// Changes question.preamble on the listed case-study screens and nothing else. Every entry must
-// still have its `before` text (so an edit made in the studio since the patch was built is never
-// overwritten); the whole patch is refused otherwise. The row is written version-checked, then read
-// back and compared with the expected result.
-async function patchPreambles() {
+// Applies a list of field changes ([{row: 'cases'|'standalone', id, path: [...keys], before, after}]),
+// for example drafts/content_patch.json. Every field must still hold its `before` value, so an edit
+// made in the studio since the patch was built is never overwritten: otherwise nothing is written.
+// Each changed row is written version-checked, then read back and compared with the expected result.
+async function patch() {
   const file = process.argv[3];
-  if (!file) throw new Error('Usage: node tools/supabase.js patch-preambles <patch.json>');
-  const patch = JSON.parse(fs.readFileSync(path.resolve(REPO_DIR, file), 'utf8'));
+  if (!file) throw new Error('Usage: node tools/supabase.js patch <patch.json>');
+  const entries = JSON.parse(fs.readFileSync(path.resolve(REPO_DIR, file), 'utf8'));
   const bank = await readBank(NEW_URL, NEW_KEY);
-  if (!Array.isArray(bank.cases) || !bank.cases.length) throw new Error('The database has no case studies.');
-  const expected = JSON.parse(JSON.stringify(bank.cases));
+  if (!Array.isArray(bank.cases) || !bank.cases.length || !Array.isArray(bank.standalone)) throw new Error('The database rows are missing or empty.');
+  const expected = { cases: JSON.parse(JSON.stringify(bank.cases)), standalone: JSON.parse(JSON.stringify(bank.standalone)) };
   const problems = [];
+  const touched = new Map(); // row -> Set of items
   let changed = 0;
-  const touched = new Set();
-  for (const p of patch) {
-    const item = expected.find(c => c.id === p.id);
-    const screen = item && item.screens[p.screen - 1];
-    if (!screen || !screen.question) { problems.push(`${p.id} screen ${p.screen}: not found`); continue; }
-    const current = screen.question.preamble || '';
-    if (current === p.after) continue; // already applied
-    if (current !== p.before) { problems.push(`${p.id} screen ${p.screen}: preamble was edited since the patch was built`); continue; }
-    screen.question.preamble = p.after;
-    touched.add(item);
+  for (const e of entries) {
+    const where = `${e.id} ${e.path.join('.')}`;
+    const list = expected[e.row];
+    const item = list && list.find(x => x.id === e.id);
+    if (!item) { problems.push(`${where}: item not found`); continue; }
+    let parent = item;
+    for (const k of e.path.slice(0, -1)) parent = parent == null ? undefined : parent[k];
+    const last = e.path[e.path.length - 1];
+    if (parent == null || typeof parent !== 'object') { problems.push(`${where}: path not found`); continue; }
+    const current = parent[last] === undefined ? null : parent[last];
+    if (same(current, e.after)) continue; // already applied
+    if (!same(current, e.before)) { problems.push(`${where}: changed since the patch was built`); continue; }
+    parent[last] = e.after;
+    if (!touched.has(e.row)) touched.set(e.row, new Set());
+    touched.get(e.row).add(item);
     changed++;
   }
   if (problems.length) throw new Error(`Nothing was changed:\n  ${problems.join('\n  ')}`);
-  if (!changed) { console.log('Every preamble in the patch is already in the database.'); return; }
+  if (!changed) { console.log('Every change in the patch is already in the database.'); return; }
   const stamp = new Date().toISOString();
-  touched.forEach(item => { item.updatedAt = stamp; });
-  await writeRow('cases', expected, bank.versions.cases);
+  for (const [row, items] of touched) {
+    items.forEach(item => { item.updatedAt = stamp; });
+    await writeRow(row, expected[row], bank.versions[row]);
+  }
   const stored = await readBank(NEW_URL, NEW_KEY);
-  if (!same(stored.cases, expected)) throw new Error('The database does not match the expected result after patching.');
-  if (!same(stored.standalone, bank.standalone)) throw new Error('The stand-alone questions changed during the patch.');
-  console.log(`Set ${changed} preambles in ${touched.size} case studies; read back identical, nothing else changed.`);
+  for (const row of ['cases', 'standalone']) {
+    if (!same(stored[row], expected[row])) throw new Error(`The '${row}' row does not match the expected result after patching.`);
+  }
+  const items = [...touched.values()].reduce((n, set) => n + set.size, 0);
+  console.log(`Applied ${changed} changes to ${items} items; read back identical, nothing else changed.`);
 }
 
-const commands = { ping, check, 'compare-original': compareOriginal, upload, download, add, 'patch-preambles': patchPreambles };
+const commands = { ping, check, 'compare-original': compareOriginal, upload, download, add, patch };
 const command = commands[process.argv[2]];
 if (!command) {
   console.error(`Usage: node tools/supabase.js <${Object.keys(commands).join('|')}>`);

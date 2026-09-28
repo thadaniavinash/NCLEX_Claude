@@ -1,0 +1,1948 @@
+[
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "title": "Case Study 1",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 0800.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "title": "Case Study 1",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 0815.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "title": "Case Study 1",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 0830.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "title": "Case Study 1",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Lab Results.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "title": "Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1200.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Laboratory Results from 0900.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Prescriptions from 0905.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1781534070850",
+  "title": "NURS 1017 Unit 1 Case Study 1",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "On Tuesday morning, the campus clinic nurse reviews the clinic log and contacts the residence. The following information becomes available (see Epidemiologic Data tab). The cause of the illness has not been confirmed.",
+  "after": "On Tuesday morning, the campus clinic nurse reviews the clinic log and contacts the residence. The nurse has reviewed the Epidemiologic Data. The cause of the illness has not been confirmed.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1781534070850",
+  "title": "NURS 1017 Unit 1 Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Follow-Up Data (After 7 Days).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1781741217820",
+  "title": "NURS 1021 Unit 6 Case Study 1",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1100.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782350000001",
+  "title": "NURS 1017 Unit 1 Case Study 2",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse reviews Marcus's clinical background and recent activities alongside newly obtained assessment findings (see Clinical Assessment and Point-of-Care Testing tab).",
+  "after": "The nurse reviews Marcus's clinical background and recent activities alongside newly obtained assessment findings. The nurse has reviewed the Clinical Assessment and Point-of-Care Testing.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782350000001",
+  "title": "NURS 1017 Unit 1 Case Study 2",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Follow-Up Data (4 Weeks Later).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782350000002",
+  "title": "NURS 1017 Unit 1 Case Study 3",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse analyzes Evelyn's history and reviews newly available laboratory and imaging findings (see Diagnostic and Laboratory Findings tab).",
+  "after": "The nurse analyzes Evelyn's history and reviews newly available laboratory and imaging findings. The nurse has reviewed the Diagnostic and Laboratory Findings.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782350000002",
+  "title": "NURS 1017 Unit 1 Case Study 3",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Follow-Up Assessment (6 Months Later).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782360000001",
+  "title": "NURS 1017 Unit 2 Case Study 1",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Endoscopy, echocardiography, and biopsy pathology reports have been added to the client's chart (see Diagnostic Reports tab).",
+  "after": "Endoscopy, echocardiography, and biopsy pathology reports have been added to the client's chart. The nurse has reviewed the Diagnostic Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782360000001",
+  "title": "NURS 1017 Unit 2 Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "At the 12-month follow-up visit, Arthur reports he has quit smoking completely for 10 months, adheres to his prescribed ramipril and esomeprazole, and participates in regular aerobic walking.",
+  "after": "At the 12-month follow-up visit, Arthur reports he has quit smoking completely for 10 months, adheres to his prescribed ramipril and esomeprazole, and participates in regular aerobic walking. The nurse has reviewed the Nurses' Notes from the 12-Month Follow-Up.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782360000002",
+  "title": "NURS 1017 Unit 2 Case Study 2",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Laboratory and pathology results are now available in the electronic health record (see Laboratory & Pathology tab).",
+  "after": "Laboratory and pathology results are now available in the electronic health record. The nurse has reviewed the Laboratory &amp; Pathology results.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782360000002",
+  "title": "NURS 1017 Unit 2 Case Study 2",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Elena returns to the clinic 4 weeks after hospital discharge. She reports complete alcohol abstinence, active participation in a recovery support program, and excellent appetite with balanced nutrition.",
+  "after": "Elena returns to the clinic 4 weeks after hospital discharge. She reports complete alcohol abstinence, active participation in a recovery support program, and excellent appetite with balanced nutrition. The nurse has reviewed the Nurses' Notes from the 4-Week Outpatient Follow-up.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782360000003",
+  "title": "NURS 1017 Unit 2 Case Study 3",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Laboratory results and preliminary wound culture findings have returned (see Laboratory & Wound Assessment tab).",
+  "after": "Laboratory results and preliminary wound culture findings have returned. The nurse has reviewed the Laboratory &amp; Wound Assessment.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782360000003",
+  "title": "NURS 1017 Unit 2 Case Study 3",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Walter is transferred to the surgical ICU following emergent right transmetatarsal amputation and extensive surgical debridement.",
+  "after": "Walter is transferred to the surgical ICU following emergent right transmetatarsal amputation and extensive surgical debridement. The nurse has reviewed the Nurses' Notes from 1830 (Postoperative SICU).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782360000003",
+  "title": "NURS 1017 Unit 2 Case Study 3",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "On postoperative day 4, Walter is hemodynamically stable, afebrile, and his amputation site demonstrates clean, beefy red granulation tissue without purulence or crepitus.",
+  "after": "On postoperative day 4, Walter is hemodynamically stable, afebrile, and his amputation site demonstrates clean, beefy red granulation tissue without purulence or crepitus. The nurse has reviewed the Nurses' Notes from Postoperative Day 4.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000001",
+  "title": "NURS 1017 Unit 3 Case Study 1",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Karyotype results and diagnostic genetic consult notes have been added to infant Leo's chart (see Diagnostic & Genetic Reports tab).",
+  "after": "Karyotype results and diagnostic genetic consult notes have been added to infant Leo's chart. The nurse has reviewed the Nurses' Notes from 1200 and the Diagnostic &amp; Genetic Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000001",
+  "title": "NURS 1017 Unit 3 Case Study 1",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes and Vital Signs from 1400 (DOL 1).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000001",
+  "title": "NURS 1017 Unit 3 Case Study 1",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1600 (DOL 1) and the Cardiology Consult Note.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000001",
+  "title": "NURS 1017 Unit 3 Case Study 1",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is executing the daily neonatal care plan and monitoring infant Leo on DOL 2.",
+  "after": "The nurse is executing the daily neonatal care plan and monitoring infant Leo on DOL 2. The nurse has reviewed the Nurses' Notes and Vital Signs from 0800 (DOL 2).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000001",
+  "title": "NURS 1017 Unit 3 Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge preparation is underway on Day of Life 3.",
+  "after": "Discharge preparation is underway on Day of Life 3. The nurse has reviewed the Nurses' Notes from 1100 (DOL 3) and the Discharge Summary.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000002",
+  "title": "NURS 1017 Unit 3 Case Study 2",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is reviewing Mendelian inheritance principles to prepare genetic education modules for the clients.",
+  "after": "The nurse is reviewing Mendelian inheritance principles to prepare genetic education modules for the clients. The nurse has reviewed the Nurses' Notes from 1030 and the Genetic &amp; Diagnostic Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000002",
+  "title": "NURS 1017 Unit 3 Case Study 2",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1115 and the Punnett Probability Reference.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000002",
+  "title": "NURS 1017 Unit 3 Case Study 2",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1300 and the Care Pathways.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000002",
+  "title": "NURS 1017 Unit 3 Case Study 2",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is reviewing discharge teaching and self-care instructions with Maya and David.",
+  "after": "The nurse is reviewing discharge teaching and self-care instructions with Maya and David. The nurse has reviewed the Nurses' Notes from 1430.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000002",
+  "title": "NURS 1017 Unit 3 Case Study 2",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Post-counseling evaluation in the genetics clinic.",
+  "after": "Post-counseling evaluation in the genetics clinic. The nurse has reviewed the Nurses' Notes from 1530.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000003",
+  "title": "NURS 1017 Unit 3 Case Study 3",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Laboratory evaluations, serology, and cranial imaging results have been reported (see Diagnostic & Laboratory Reports tab).",
+  "after": "Laboratory evaluations, serology, and cranial imaging results have been reported. The nurse has reviewed the Nurses' Notes from 0900 and the Diagnostic &amp; Laboratory Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000003",
+  "title": "NURS 1017 Unit 3 Case Study 3",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1100 and the Teratology Principles Chart.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000003",
+  "title": "NURS 1017 Unit 3 Case Study 3",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1300 and the Clinical Pathway.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000003",
+  "title": "NURS 1017 Unit 3 Case Study 3",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is preparing medications and setting up safety measures on Day of Life 2.",
+  "after": "The nurse is preparing medications and setting up safety measures on Day of Life 2. The nurse has reviewed the Nurses' Notes from 0800 (DOL 2) and the Vital Signs.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000003",
+  "title": "NURS 1017 Unit 3 Case Study 3",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge preparation and health promotion teaching on Day of Life 3.",
+  "after": "Discharge preparation and health promotion teaching on Day of Life 3. The nurse has reviewed the Nurses' Notes from 1400 (DOL 3) and the Interprofessional Discharge Plan.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000004",
+  "title": "NURS 1017 Unit 3 Case Study 4",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1400, the Laboratory Results, and the Genetic Testing Report.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000004",
+  "title": "NURS 1017 Unit 3 Case Study 4",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1000 and the Family Genetics.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000004",
+  "title": "NURS 1017 Unit 3 Case Study 4",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1100 and the Care Plan Orders.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000004",
+  "title": "NURS 1017 Unit 3 Case Study 4",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes and Vital Signs from 1615.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782370000004",
+  "title": "NURS 1017 Unit 3 Case Study 4",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 0930 and the Follow-Up Data.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000001",
+  "title": "NURS 1017 Unit 4 Case Study 1",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Core needle biopsy results from the breast mass and pelvic imaging have been added to the client's electronic health record (see Diagnostic & Pathology Reports tab).",
+  "after": "Core needle biopsy results from the breast mass and pelvic imaging have been added to the client's electronic health record. The nurse has reviewed the Nurses' Notes from 1130 and the Diagnostic &amp; Pathology Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000001",
+  "title": "NURS 1017 Unit 4 Case Study 1",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1300 and the Surgical Consult Plan.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000001",
+  "title": "NURS 1017 Unit 4 Case Study 1",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1430.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000001",
+  "title": "NURS 1017 Unit 4 Case Study 1",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Eleanor is admitted to the same-day surgical unit on the day of surgery (0630).",
+  "after": "Eleanor is admitted to the same-day surgical unit on the day of surgery (0630). The nurse has reviewed the Nurses' Notes and Vital Signs from 0630.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000001",
+  "title": "NURS 1017 Unit 4 Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Postoperative recovery in the surgical day-stay unit (1400).",
+  "after": "Postoperative recovery in the surgical day-stay unit (1400). The nurse has reviewed the Nurses' Notes from 1400 and the Operative &amp; Pathology Summary.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000002",
+  "title": "NURS 1017 Unit 4 Case Study 2",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Colonoscopy and molecular genetic analysis have been completed (see Diagnostic & Endoscopy Reports tab).",
+  "after": "Colonoscopy and molecular genetic analysis have been completed. The nurse has reviewed the Nurses' Notes from 1330 and the Diagnostic &amp; Endoscopy Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000002",
+  "title": "NURS 1017 Unit 4 Case Study 2",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1500.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000002",
+  "title": "NURS 1017 Unit 4 Case Study 2",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1600.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000002",
+  "title": "NURS 1017 Unit 4 Case Study 2",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse evaluates care priorities for Robert prior to hospital admission for laparoscopic sigmoid colectomy.",
+  "after": "The nurse evaluates care priorities for Robert prior to hospital admission for laparoscopic sigmoid colectomy. The nurse has reviewed the Nurses' Notes from 1000 (Pre-Admission).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000002",
+  "title": "NURS 1017 Unit 4 Case Study 2",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Final pre-surgical nursing evaluation.",
+  "after": "Final pre-surgical nursing evaluation. The nurse has reviewed the Nurses' Notes from 1130.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000003",
+  "title": "NURS 1017 Unit 4 Case Study 3",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Bronchoscopic biopsy, CT imaging, and whole-body FDG-PET results have been compiled (see Diagnostic & Pathology Reports tab).",
+  "after": "Bronchoscopic biopsy, CT imaging, and whole-body FDG-PET results have been compiled. The nurse has reviewed the Nurses' Notes from 1300 and the Diagnostic &amp; Pathology Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000003",
+  "title": "NURS 1017 Unit 4 Case Study 3",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1430.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000003",
+  "title": "NURS 1017 Unit 4 Case Study 3",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1600.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000003",
+  "title": "NURS 1017 Unit 4 Case Study 3",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Danielle is admitted to the oncology care unit for treatment initiation and pain stabilization.",
+  "after": "Danielle is admitted to the oncology care unit for treatment initiation and pain stabilization. The nurse has reviewed the Nurses' Notes from 0900 (Day 2).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000003",
+  "title": "NURS 1017 Unit 4 Case Study 3",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge teaching prior to outpatient medical oncology follow-up.",
+  "after": "Discharge teaching prior to outpatient medical oncology follow-up. The nurse has reviewed the Nurses' Notes from 1400 (Day 3).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Stat laboratory results have been returned from the hospital laboratory (see Laboratory Reports tab).",
+  "after": "Stat laboratory results have been returned from the hospital laboratory. The nurse has reviewed the Nurses' Notes from 1030 and the Laboratory Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1100.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1300 and the Clinical Care Protocol.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Day 2 inpatient oncology nursing monitoring.",
+  "after": "Day 2 inpatient oncology nursing monitoring. The nurse has reviewed the Nurses' Notes and Vital Signs from 0800 (Day 2).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge evaluation on Day 4.",
+  "after": "Discharge evaluation on Day 4. The nurse has reviewed the Nurses' Notes from 1100 (Day 4).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000005",
+  "title": "NURS 1017 Unit 4 Case Study 5",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Laboratory results and endocrine panel findings have been reported (see Laboratory & Endocrine Reports tab).",
+  "after": "Laboratory results and endocrine panel findings have been reported. The nurse has reviewed the Nurses' Notes from 0900 and the Laboratory &amp; Endocrine Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000005",
+  "title": "NURS 1017 Unit 4 Case Study 5",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1000.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000005",
+  "title": "NURS 1017 Unit 4 Case Study 5",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1200.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000005",
+  "title": "NURS 1017 Unit 4 Case Study 5",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse evaluates oncologic safety and clinical interventions on Day 2 of hospitalization.",
+  "after": "The nurse evaluates oncologic safety and clinical interventions on Day 2 of hospitalization. The nurse has reviewed the Nurses' Notes and Vital Signs from 0800 (Day 2).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000005",
+  "title": "NURS 1017 Unit 4 Case Study 5",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge evaluation on Day 3.",
+  "after": "Discharge evaluation on Day 3. The nurse has reviewed the Nurses' Notes from 1300 (Day 3).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000001",
+  "title": "NURS 1017 Unit 5 Case Study 1",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is reviewing dermatological lesion nomenclature and staging prior to skin biopsies (see Dermatological Reference tab).",
+  "after": "The nurse is reviewing dermatological lesion nomenclature and staging prior to skin biopsies. The nurse has reviewed the Nurses' Notes from 1000 and the Dermatological Reference.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000001",
+  "title": "NURS 1017 Unit 5 Case Study 1",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1400 (4 days post-biopsy) and the Pathology Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000001",
+  "title": "NURS 1017 Unit 5 Case Study 1",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1500.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000001",
+  "title": "NURS 1017 Unit 5 Case Study 1",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Harold presents to the clinic 48 hours post-procedure for surgical dressing evaluation.",
+  "after": "Harold presents to the clinic 48 hours post-procedure for surgical dressing evaluation. The nurse has reviewed the Nurses' Notes from 1000 (Post-Op Day 2).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000001",
+  "title": "NURS 1017 Unit 5 Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Final follow-up visit on Post-Op Day 10 for suture removal.",
+  "after": "Final follow-up visit on Post-Op Day 10 for suture removal. The nurse has reviewed the Nurses' Notes from 1100 (Post-Op Day 10).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000002",
+  "title": "NURS 1017 Unit 5 Case Study 2",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse analyzes skin infection etiologies to prepare educational handouts (see Infectious Disease Matrix tab).",
+  "after": "The nurse analyzes skin infection etiologies to prepare educational handouts. The nurse has reviewed the Nurses' Notes from 1045 and the Infectious Disease Matrix.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000002",
+  "title": "NURS 1017 Unit 5 Case Study 2",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1130.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000002",
+  "title": "NURS 1017 Unit 5 Case Study 2",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1215.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000002",
+  "title": "NURS 1017 Unit 5 Case Study 2",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Clinical management and infection control execution in urgent care.",
+  "after": "Clinical management and infection control execution in urgent care. The nurse has reviewed the Nurses' Notes from 1300.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000002",
+  "title": "NURS 1017 Unit 5 Case Study 2",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge evaluation in urgent care.",
+  "after": "Discharge evaluation in urgent care. The nurse has reviewed the Nurses' Notes from 1330.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000003",
+  "title": "NURS 1017 Unit 5 Case Study 3",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Laboratory serology, antinuclear antibodies, and inflammatory markers have been reported (see Laboratory & Serology Reports tab).",
+  "after": "Laboratory serology, antinuclear antibodies, and inflammatory markers have been reported. The nurse has reviewed the Nurses' Notes from 1100 and the Laboratory &amp; Serology Reports.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000003",
+  "title": "NURS 1017 Unit 5 Case Study 3",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1300.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000003",
+  "title": "NURS 1017 Unit 5 Case Study 3",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1430.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000003",
+  "title": "NURS 1017 Unit 5 Case Study 3",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is evaluating comparative dermatological safety and client education.",
+  "after": "The nurse is evaluating comparative dermatological safety and client education. The nurse has reviewed the Nurses' Notes from 1530.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000003",
+  "title": "NURS 1017 Unit 5 Case Study 3",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge evaluation in outpatient rheumatology clinic.",
+  "after": "Discharge evaluation in outpatient rheumatology clinic. The nurse has reviewed the Nurses' Notes from 1600.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000004",
+  "title": "NURS 1017 Unit 5 Case Study 4",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Burn trauma assessment data and stat blood work have been reported (see Burn Assessment & Labs tab).",
+  "after": "Burn trauma assessment data and stat blood work have been reported. The nurse has reviewed the Nurses' Notes and the Burn Assessment &amp; Labs from 0915.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000004",
+  "title": "NURS 1017 Unit 5 Case Study 4",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 0930.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000004",
+  "title": "NURS 1017 Unit 5 Case Study 4",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1130 (Hour 3 Post-Injury).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000004",
+  "title": "NURS 1017 Unit 5 Case Study 4",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Resuscitation management at Hour 6 post-injury.",
+  "after": "Resuscitation management at Hour 6 post-injury. The nurse has reviewed the Nurses' Notes from 1445 (Hour 6 Post-Injury) and the Resuscitation Flow Sheet.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000004",
+  "title": "NURS 1017 Unit 5 Case Study 4",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Evaluation at 24 to 36 hours post-injury in the burn intensive care unit.",
+  "after": "Evaluation at 24 to 36 hours post-injury in the burn intensive care unit. The nurse has reviewed the Nurses' Notes from 1500 (Hour 30 Post-Burn).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000005",
+  "title": "NURS 1017 Unit 5 Case Study 5",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse reviews burn wound depth taxonomy prior to surgical debridement (see Burn Classification Reference tab).",
+  "after": "The nurse reviews burn wound depth taxonomy prior to surgical debridement. The nurse has reviewed the Nurses' Notes from 1620 and the Burn Classification Reference.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000005",
+  "title": "NURS 1017 Unit 5 Case Study 5",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1000 (Post-Burn Day 3) and the Wound Healing Stages Reference.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000005",
+  "title": "NURS 1017 Unit 5 Case Study 5",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "",
+  "after": "The nurse has reviewed the Nurses' Notes from 1330.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000005",
+  "title": "NURS 1017 Unit 5 Case Study 5",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Pre- and post-grafting clinical care management.",
+  "after": "Pre- and post-grafting clinical care management. The nurse has reviewed the Nurses' Notes from 1600 (Post-Op Day 1 / Post-Burn Day 8).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000005",
+  "title": "NURS 1017 Unit 5 Case Study 5",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Discharge rehabilitation planning on Post-Burn Day 21.",
+  "after": "Discharge rehabilitation planning on Post-Burn Day 21. The nurse has reviewed the Nurses' Notes from 1100 (Post-Burn Day 21).",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000006",
+  "title": "NURS 1017 Unit 5 Case Study 6",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 1 &mdash; Emergency Department, 0305.",
+  "after": "Phase 1 &mdash; Emergency Department, 0305. The nurse has reviewed the Nurses' Notes from 0305.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000006",
+  "title": "NURS 1017 Unit 5 Case Study 6",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 2 &mdash; Emergency Department, 0340.",
+  "after": "Phase 2 &mdash; Emergency Department, 0340. The nurse has reviewed the Nurses' Notes from 0340, the Laboratory Results from 0335, and the Provider Orders from 0340.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000006",
+  "title": "NURS 1017 Unit 5 Case Study 6",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 3 &mdash; Regional Burn Centre, Post-injury Day 5.",
+  "after": "Phase 3 &mdash; Regional Burn Centre, Post-injury Day 5. The nurse has reviewed the Progress Notes from Post-injury Day 5.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000007",
+  "title": "NURS 1017 Unit 5 Case Study 7",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 1 &mdash; Primary Care Clinic, 1030.",
+  "after": "Phase 1 &mdash; Primary Care Clinic, 1030. The nurse has reviewed the Nurses' Notes from 1030.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000007",
+  "title": "NURS 1017 Unit 5 Case Study 7",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 2 &mdash; Medical Unit, Same Day 1400.",
+  "after": "Phase 2 &mdash; Medical Unit, Same Day 1400. The nurse has reviewed the Nurses' Notes from 1400 and the Provider Orders.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000007",
+  "title": "NURS 1017 Unit 5 Case Study 7",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 3 &mdash; Medical Unit, Hospital Day 4.",
+  "after": "Phase 3 &mdash; Medical Unit, Hospital Day 4. The nurse has reviewed the Hospital Day 4 Flowsheet.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000008",
+  "title": "NURS 1017 Unit 5 Case Study 8",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 1 &mdash; Emergency Department, 2140.",
+  "after": "Phase 1 &mdash; Emergency Department, 2140. The nurse has reviewed the Nurses' Notes from 2140.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000008",
+  "title": "NURS 1017 Unit 5 Case Study 8",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 2 &mdash; Medical Unit, Hospital Day 3.",
+  "after": "Phase 2 &mdash; Medical Unit, Hospital Day 3. The nurse has reviewed the Nurses' Notes from Hospital Day 3 and the Screening Results.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000008",
+  "title": "NURS 1017 Unit 5 Case Study 8",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "Phase 3 &mdash; Medical Unit, Hospital Day 7.",
+  "after": "Phase 3 &mdash; Medical Unit, Hospital Day 7. The nurse has reviewed the Nurses' Notes from Hospital Day 7.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1786010000001",
+  "title": "NURS 1021 Unit 1 Case Study 1",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse reviews the ED notes to begin to plan care for a 71-year-old client.",
+  "after": "The nurse reviews the ED notes to begin to plan care for a 71-year-old client. The nurse has reviewed the Nurses' Notes from 1055.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1786010000001",
+  "title": "NURS 1021 Unit 1 Case Study 1",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse on the medical unit reviews the nurses’ notes from the ED and plans health teaching for a 71-year-old client receiving continuous IV heparin infusion for right lower leg DVT.",
+  "after": "The nurse on the medical unit reviews the nurses’ notes from the ED and plans health teaching for a 71-year-old client receiving continuous IV heparin infusion for right lower leg DVT. The nurse has reviewed the Nurses' Notes from 1152.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1786010000001",
+  "title": "NURS 1021 Unit 1 Case Study 1",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse on the medical unit is preparing to perform the initial shift assessment for the client receiving continuous IV heparin infusion for right lower leg DVT.",
+  "after": "The nurse on the medical unit is preparing to perform the initial shift assessment for the client receiving continuous IV heparin infusion for right lower leg DVT. The nurse has reviewed the Nurses' Notes from 0700.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1786010000001",
+  "title": "NURS 1021 Unit 1 Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is assigned to care for a 71-year-old client who was admitted to the medical unit 3 days ago for DVT of the lower right leg. Two days ago, the client experienced a submassive pulmonary embolus, causing chest discomfort, shortness of breath, and hypotension; it was confirmed by imaging and treated immediately. Before assessing the client, the nurse reviews the nurses’ notes from the last shift, and then compares the client’s current findings with findings 2 days ago.",
+  "after": "The nurse is assigned to care for a 71-year-old client who was admitted to the medical unit 3 days ago for DVT of the lower right leg. Two days ago, the client experienced a submassive pulmonary embolus, causing chest discomfort, shortness of breath, and hypotension; it was confirmed by imaging and treated immediately. Before assessing the client, the nurse reviews the nurses’ notes from the last shift, and then compares the client’s current findings with findings 2 days ago. The nurse has reviewed the Nurses' Notes from 0645.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1786060000003",
+  "title": "NURS 1021 Unit 6 Case Study 3",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "preamble"
+  ],
+  "before": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes.",
+  "after": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. The nurse has reviewed the Nurses' Notes from 0815.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1786060000003",
+  "title": "NURS 1021 Unit 6 Case Study 3",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "preamble"
+  ],
+  "before": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and the nurse reviews the results.",
+  "after": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and the nurse reviews the results. The nurse has reviewed the Laboratory Tests.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1786060000003",
+  "title": "NURS 1021 Unit 6 Case Study 3",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse on the medical unit performs an admission assessment and compares current client findings with earlier findings in the Nurses’ Notes and laboratory results from when the client was admitted to the ED.",
+  "after": "The nurse on the medical unit performs an admission assessment and compares current client findings with earlier findings in the Nurses’ Notes and laboratory results from when the client was admitted to the ED. The nurse has reviewed the Nurses' Notes and the repeat Laboratory Tests from the Medical Unit.",
+  "why": "preamble"
+ },
+ {
+  "row": "cases",
+  "id": "case_1781741217820",
+  "title": "NURS 1021 Unit 6 Case Study 1",
+  "path": [
+   "screens",
+   4,
+   "leftContent",
+   "tabs",
+   1,
+   "content"
+  ],
+  "before": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130: <span style=\"font-weight: normal;\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></span><span class=\"nurse-note-text\"><br></span></div>",
+  "after": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></p>",
+  "why": "Diagnostic Results times 1100/1130 -> 1230/1445 (after the CT scans), tidy markup"
+ },
+ {
+  "row": "cases",
+  "id": "case_1781741217820",
+  "title": "NURS 1021 Unit 6 Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "leftContent",
+   "tabs",
+   1,
+   "content"
+  ],
+  "before": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130: <span style=\"font-weight: normal;\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></span><span class=\"nurse-note-text\"><br></span></div>",
+  "after": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></p>",
+  "why": "Diagnostic Results times 1100/1130 -> 1230/1445 (after the CT scans), tidy markup"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   2,
+   "leftContent",
+   "intro"
+  ],
+  "before": "The nurse is caring for a client in the clinic...",
+  "after": "The nurse is caring for a 20-year-old female client.",
+  "why": "introduction matches screens 1-2"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   3,
+   "leftContent",
+   "tabs",
+   0,
+   "title"
+  ],
+  "before": "Nurses's Notes",
+  "after": "Nurses' Notes",
+  "why": "tab title typo"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   3,
+   "leftContent",
+   "intro"
+  ],
+  "before": "The nurse is caring for a client in the clinic...",
+  "after": "The nurse is caring for a 20-year-old female client.",
+  "why": "introduction matches screens 1-2"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   4,
+   "leftContent",
+   "tabs",
+   0,
+   "title"
+  ],
+  "before": "Nurses's Notes",
+  "after": "Nurses' Notes",
+  "why": "tab title typo"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   4,
+   "leftContent",
+   "intro"
+  ],
+  "before": "The nurse is caring for a client in the clinic...",
+  "after": "The nurse is caring for a 20-year-old female client.",
+  "why": "introduction matches screens 1-2"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   5,
+   "leftContent",
+   "tabs",
+   0,
+   "title"
+  ],
+  "before": "Nurses's Notes",
+  "after": "Nurses' Notes",
+  "why": "tab title typo"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   5,
+   "leftContent",
+   "intro"
+  ],
+  "before": "The nurse is caring for a client in the clinic...",
+  "after": "The nurse is caring for a 20-year-old female client.",
+  "why": "introduction matches screens 1-2"
+ },
+ {
+  "row": "cases",
+  "id": "case_1780489713691",
+  "title": "Case Study 2",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "highlightTabs",
+   0,
+   "title"
+  ],
+  "before": "Nurses' Notes",
+  "after": "Prescriptions",
+  "why": "the highlight tab holds the 0905 prescriptions"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "title": "Case Study 1",
+  "path": [
+   "screens",
+   4,
+   "leftContent",
+   "tabs"
+  ],
+  "before": [
+   {
+    "id": "hp",
+    "title": "History and Physical",
+    "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+   },
+   {
+    "id": "labs",
+    "title": "Lab Results",
+    "content": "BNP: 1,250 pg/mL (Elevated)\nTroponin I: 0.02 ng/mL (Normal)\nBUN: 28 mg/dL (Elevated)\nCreatinine: 1.4 mg/dL (Slightly Elevated)\nChest X-Ray: Cardiomegaly with diffuse bilateral alveolar infiltrates consistent with pulmonary edema."
+   }
+  ],
+  "after": [
+   {
+    "id": "hp",
+    "title": "History and Physical",
+    "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+   },
+   {
+    "id": "nn_s5",
+    "title": "Nurses' Notes",
+    "content": "08:30 - IV furosemide 40mg was administered stat. Foley catheter inserted with 150mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received."
+   },
+   {
+    "id": "labs",
+    "title": "Lab Results",
+    "content": "BNP: 1,250 pg/mL (Elevated)\nTroponin I: 0.02 ng/mL (Normal)\nBUN: 28 mg/dL (Elevated)\nCreatinine: 1.4 mg/dL (Slightly Elevated)\nChest X-Ray: Cardiomegaly with diffuse bilateral alveolar infiltrates consistent with pulmonary edema."
+   }
+  ],
+  "why": "keep the Nurses' Notes tab on screen 5"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "title": "Case Study 1",
+  "path": [
+   "screens",
+   5,
+   "leftContent",
+   "tabs"
+  ],
+  "before": [
+   {
+    "id": "hp",
+    "title": "History and Physical",
+    "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+   },
+   {
+    "id": "nn",
+    "title": "Nurses' Notes",
+    "content": "12:00 - Client's symptoms have significantly improved following administration of IV loop diuretics. Breathing is comfortable at 18 breaths/min on 2L nasal cannula, SpO2 96%. Plan is to transition to oral medications and discharge home with close outpatient follow-up. Discharging nurse is preparing lifestyle modification education."
+   }
+  ],
+  "after": [
+   {
+    "id": "hp",
+    "title": "History and Physical",
+    "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+   },
+   {
+    "id": "nn",
+    "title": "Nurses' Notes",
+    "content": "12:00 - Client's symptoms have significantly improved following administration of IV loop diuretics. Breathing is comfortable at 18 breaths/min on 2L nasal cannula, SpO2 96%. Plan is to transition to oral medications and discharge home with close outpatient follow-up. Discharging nurse is preparing lifestyle modification education."
+   },
+   {
+    "id": "labs_s6",
+    "title": "Lab Results",
+    "content": "BNP: 1,250 pg/mL (Elevated)\nTroponin I: 0.02 ng/mL (Normal)\nBUN: 28 mg/dL (Elevated)\nCreatinine: 1.4 mg/dL (Slightly Elevated)\nChest X-Ray: Cardiomegaly with diffuse bilateral alveolar infiltrates consistent with pulmonary edema."
+   }
+  ],
+  "why": "keep the Lab Results tab on screen 6"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782159166328",
+  "title": "New Case Study",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "stem"
+  ],
+  "before": "For each assessment finding below, click to specify if the finding is consistent with the disease process of ... . Each finding may support more than 1 disease process.",
+  "after": "For each assessment finding, click to specify if the finding indicates that the client's condition has improved, not changed, or worsened.",
+  "why": "unfinished stem completed to match the matrix columns"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   0,
+   "question",
+   "options",
+   3,
+   "text"
+  ],
+  "before": "Multiple scattered petechiae and ecchymoses on bilateral forearms with platelet count of 28 &times; 10⁹/L",
+  "after": "Multiple scattered petechiae and ecchymoses on bilateral forearms with platelet count of 28 × 10⁹/L",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   0,
+   "question",
+   "options",
+   5,
+   "text"
+  ],
+  "before": "Oral temperature of 38.6 °C (101.5 °F) with absolute neutrophil count (ANC) of 320/mm³ (0.32 &times; 10⁹/L)",
+  "after": "Oral temperature of 38.6 °C (101.5 °F) with absolute neutrophil count (ANC) of 320/mm³ (0.32 × 10⁹/L)",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   1,
+   "question",
+   "matrix",
+   "rows",
+   2,
+   "text"
+  ],
+  "before": "Multiple petechiae, spontaneous mucosal ecchymoses, and platelet count of 28 &times; 10⁹/L",
+  "after": "Multiple petechiae, spontaneous mucosal ecchymoses, and platelet count of 28 × 10⁹/L",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "cloze",
+   "dropdowns",
+   0,
+   "options",
+   1,
+   "text"
+  ],
+  "before": "greater than 1,500/mm³ (1.5 &times; 10⁹/L)",
+  "after": "greater than 1,500/mm³ (1.5 × 10⁹/L)",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "cloze",
+   "dropdowns",
+   0,
+   "options",
+   3,
+   "text"
+  ],
+  "before": "less than 200/mm³ (0.2 &times; 10⁹/L)",
+  "after": "less than 200/mm³ (0.2 × 10⁹/L)",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000004",
+  "title": "NURS 1017 Unit 4 Case Study 4",
+  "path": [
+   "screens",
+   5,
+   "question",
+   "cloze",
+   "dropdowns",
+   1,
+   "options",
+   3,
+   "text"
+  ],
+  "before": "38.0 °C (100.4 °F) sustained for 1 hour, or a single reading of &ge; 38.3 °C (101.0 °F)",
+  "after": "38.0 °C (100.4 °F) sustained for 1 hour, or a single reading of ≥ 38.3 °C (101.0 °F)",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000005",
+  "title": "NURS 1017 Unit 4 Case Study 5",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "cloze",
+   "text"
+  ],
+  "before": "The client's severe acute neurological manifestations are directly caused by [[drop0]] secondary to fluid movement into brain cells. The primary immediate nursing goal in managing severe, symptomatic hyponatremia (Na 116 mmol/L) is raising serum sodium using [[drop1]]. When correcting severe hyponatremia, the nurse must ensure sodium levels rise gradually (&le; 8 to 10 mmol/L in 24 hours) to prevent [[drop2]].",
+  "after": "The client's severe acute neurological manifestations are directly caused by [[drop0]] secondary to fluid movement into brain cells. The primary immediate nursing goal in managing severe, symptomatic hyponatremia (Na 116 mmol/L) is raising serum sodium using [[drop1]]. When correcting severe hyponatremia, the nurse must ensure sodium levels rise gradually (≤ 8 to 10 mmol/L in 24 hours) to prevent [[drop2]].",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782380000005",
+  "title": "NURS 1017 Unit 4 Case Study 5",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "options",
+   5,
+   "text"
+  ],
+  "before": "Implement strict fluid restriction (&le; 800 mL/24 hours) and post a 'Strict Fluid Restriction' sign over the bed and at the nursing station",
+  "after": "Implement strict fluid restriction (≤ 800 mL/24 hours) and post a 'Strict Fluid Restriction' sign over the bed and at the nursing station",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000001",
+  "title": "NURS 1017 Unit 5 Case Study 1",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "options",
+   1,
+   "text"
+  ],
+  "before": "Instruct on photoprotection: apply broad-spectrum sunscreen (SPF &ge; 30) 15 to 30 minutes before sun exposure, reapply every 2 hours, and wear wide-brimmed hats and long sleeves",
+  "after": "Instruct on photoprotection: apply broad-spectrum sunscreen (SPF ≥ 30) 15 to 30 minutes before sun exposure, reapply every 2 hours, and wear wide-brimmed hats and long sleeves",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000003",
+  "title": "NURS 1017 Unit 5 Case Study 3",
+  "path": [
+   "screens",
+   3,
+   "question",
+   "options",
+   1,
+   "text"
+  ],
+  "before": "Instruct Maya to apply broad-spectrum sunscreen (SPF &ge; 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
+  "after": "Instruct Maya to apply broad-spectrum sunscreen (SPF ≥ 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782390000004",
+  "title": "NURS 1017 Unit 5 Case Study 4",
+  "path": [
+   "screens",
+   2,
+   "question",
+   "cloze",
+   "text"
+  ],
+  "before": "Using the Parkland formula (4 mL &times; 80 kg &times; 40.5% TBSA), the client's total calculated fluid volume for the first 24 hours from the time of injury is [[drop0]] of Lactated Ringer's solution. The nurse must administer half of this total calculated volume ([[drop1]]) during the first 8 hours post-injury, accounting for fluids already infused by EMS. The primary clinical parameter utilized by the nurse to titrate the hourly intravenous fluid infusion rate is maintaining an hourly urine output of [[drop2]].",
+  "after": "Using the Parkland formula (4 mL × 80 kg × 40.5% TBSA), the client's total calculated fluid volume for the first 24 hours from the time of injury is [[drop0]] of Lactated Ringer's solution. The nurse must administer half of this total calculated volume ([[drop1]]) during the first 8 hours post-injury, accounting for fluids already infused by EMS. The primary clinical parameter utilized by the nurse to titrate the hourly intravenous fluid infusion rate is maintaining an hourly urine output of [[drop2]].",
+  "why": "HTML code shown as text"
+ },
+ {
+  "row": "standalone",
+  "id": "standalone_1790300000001",
+  "title": "Maternal-Newborn - Labor Stage Prioritization (MCQ)",
+  "path": [
+   "screens",
+   0,
+   "question",
+   "options",
+   0,
+   "text"
+  ],
+  "before": "first stage of labor who has an oral temperature of 99.7&deg; F (37.6&deg; C)",
+  "after": "first stage of labor who has an oral temperature of 99.7° F (37.6° C)",
+  "why": "HTML code shown as text"
+ }
+]
