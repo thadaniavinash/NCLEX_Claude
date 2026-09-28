@@ -69,13 +69,16 @@ async function readBank(url, key) {
 
 // expectedVersion: the version read before this write (null when the table has no version
 // column). The write then only applies if the row is still at that version.
-async function writeRow(key, data, expectedVersion = null) {
+// writeKey: which key signs the request; defaults to WRITE_KEY (the secret key, or the
+// publishable key when the secret is not set). `check` also calls this with the plain
+// publishable key to confirm it is correctly refused once admin lock-down is in place.
+async function writeRow(key, data, expectedVersion = null, writeKey = WRITE_KEY) {
   if (NEW_URL === ORIGINAL_URL) throw new Error('Refusing to write: the target is the original database.');
   const versioned = expectedVersion !== null && expectedVersion !== undefined;
   const filter = versioned ? `&version=eq.${expectedVersion}` : '';
   const res = await fetch(`${NEW_URL}/rest/v1/nclex_data?key=eq.${key}${filter}`, {
     method: 'PATCH',
-    headers: { ...headers(WRITE_KEY), 'Content-Type': 'application/json', Prefer: 'return=representation' },
+    headers: { ...headers(writeKey), 'Content-Type': 'application/json', Prefer: 'return=representation' },
     body: JSON.stringify(versioned ? { data, version: expectedVersion + 1 } : { data })
   });
   const body = await res.text();
@@ -103,6 +106,20 @@ async function check() {
   // Rewrite the same data (version-checked): proves the write key can update.
   await writeRow('standalone', bank.standalone, bank.versions.standalone);
   console.log(`Read and write access with the ${process.env.SUPABASE_SECRET_KEY ? 'secret' : 'publishable'} key: OK`);
+
+  // Once a secret key is set, confirm the plain publishable key is now refused (the point of
+  // supabase/002_admin_logins.sql): re-read the current version, then try the same rewrite
+  // signed with NEW_KEY instead of WRITE_KEY.
+  if (process.env.SUPABASE_SECRET_KEY) {
+    const after = await readBank(NEW_URL, NEW_KEY);
+    try {
+      await writeRow('standalone', after.standalone, after.versions.standalone, NEW_KEY);
+      console.log('WARNING: the publishable key can still write to the database. Admin lock-down ' +
+                  '(supabase/002_admin_logins.sql) has not taken effect yet.');
+    } catch {
+      console.log('Publishable key correctly refused: admin lock-down is in effect.');
+    }
+  }
 }
 
 // Field-level differences between two versions of an item, with short excerpts.
