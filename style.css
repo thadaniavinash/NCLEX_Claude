@@ -6143,3 +6143,289 @@ html:not([data-theme="dark"]) #editor-view .cloze-placeholder-label,
 html:not([data-theme="dark"]) #editor-view .cloze-preview-title { color: #64748b; }
 html:not([data-theme="dark"]) #editor-view .cloze-preview { border-color: #94a3b8; background: #f8fafc; }
 html:not([data-theme="dark"]) #editor-view .cloze-preview-answer { color: #047857; }
+
+/* ================= EDITOR: TEXT BOX EXTRAS (js/rich-text.js) ================= */
+/* Boxes grow with their text up to most of the screen; Expand gives a large writing view. */
+.rich-text-editor {
+  max-height: 60vh;
+  resize: vertical;
+}
+
+.toolbar-expand-btn {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.rich-expand-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 2400;
+  background: rgba(15, 23, 42, 0.55);
+}
+
+.rich-expand-backdrop.visible {
+  display: block;
+}
+
+.rich-editor-container.is-expanded {
+  position: fixed;
+  top: 5vh;
+  left: 50%;
+  z-index: 2500;
+  width: min(960px, calc(100vw - 32px));
+  height: 90vh;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-premium);
+}
+
+.rich-editor-container.is-expanded > .rich-text-editor:not(.hidden),
+.rich-editor-container.is-expanded > .notes-row-editor:not(.hidden) {
+  flex: 1;
+  max-height: none;
+  min-height: 0;
+  font-size: var(--fs-md);
+}
+
+.table-size-picker {
+  position: fixed;
+  z-index: 3000;
+  padding: var(--space-2);
+  border: 1px solid #475569;
+  border-radius: var(--radius-md);
+  background: #1e293b;
+  box-shadow: var(--shadow-lg);
+}
+
+.table-size-grid {
+  display: grid;
+  gap: 3px;
+}
+
+.table-size-grid button {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 1px solid #475569;
+  border-radius: 2px;
+  background: #0f172a;
+  cursor: pointer;
+}
+
+.table-size-grid button.on {
+  border-color: var(--brand-sky);
+  background: rgba(75, 163, 227, 0.45);
+}
+
+.table-size-label {
+  margin-top: 6px;
+  font-size: var(--fs-sm);
+  color: #cbd5e1;
+  text-align: center;
+}
+
+html:not([data-theme="dark"]) .table-size-picker { background: #ffffff; border-color: #cbd5e1; }
+html:not([data-theme="dark"]) .table-size-grid button { background: #f8fafc; border-color: #cbd5e1; }
+html:not([data-theme="dark"]) .table-size-grid button.on { background: #bfdbfe; border-color: #3b82f6; }
+html:not([data-theme="dark"]) .table-size-label { color: #475569; }
+
+.rich-editor-container.is-expanded { background-color: #0f172a; }
+html:not([data-theme="dark"]) #editor-view .rich-editor-container.is-expanded { background-color: #ffffff; }
+
+/* ================= EDITOR: PREVIEW PANEL, UNSAVED CHANGES (js/editor-preview.js, editor.js) ================= */
+#editor-save-btn.has-changes {
+  border-color: #f59e0b !important;
+  box-shadow: inset 0 0 0 1px #f59e0b;
+}
+
+#editor-save-btn.has-changes::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: #f59e0b;
+}
+
+#editor-preview-btn[aria-pressed="true"] {
+  border-color: var(--brand-sky);
+  color: var(--brand-sky);
+}
+
+.editor-preview-panel {
+  flex: 0 0 clamp(520px, 50vw, 860px);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border-left: 1px solid var(--border-dash);
+  background: #0b0f19;
+}
+
+.preview-panel-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-dash);
+  color: #f8fafc;
+}
+
+.preview-screen-label {
+  font-size: var(--fs-sm);
+  color: #94a3b8;
+}
+
+.preview-mode-switch {
+  display: inline-flex;
+  margin-left: auto;
+  border: 1px solid #334155;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.preview-mode-switch button {
+  padding: 5px 12px;
+  border: none;
+  background: transparent;
+  color: #94a3b8;
+  font: inherit;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.preview-mode-switch button.active {
+  background: var(--brand-sky);
+  color: #ffffff;
+}
+
+.preview-close-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: #94a3b8;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.preview-checks {
+  list-style: none;
+  margin: 0;
+  padding: 8px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 1px solid var(--border-dash);
+  font-size: var(--fs-body-sm);
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.preview-check.ok { color: #34d399; }
+.preview-check.block { color: #fca5a5; }
+.preview-check.warn { color: #fbbf24; }
+.preview-check.info { color: #94a3b8; }
+
+.preview-body {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+  background: #eef2f5;
+}
+
+#editor-preview-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  transform-origin: top left;
+  background: #ffffff;
+}
+
+/* While previewing, the two editing panes stack and the screen list shows numbers only */
+#editor-view.with-preview .editor-main-split {
+  flex-direction: column;
+  overflow-y: auto;
+  min-width: 0;
+}
+
+#editor-view.with-preview .editor-pane {
+  flex: none;
+  overflow: visible;
+}
+
+#editor-view.with-preview .pane-body {
+  overflow: visible;
+}
+
+#editor-view.with-preview .pane-left {
+  border-right: none;
+  border-bottom: 1px solid var(--border-dash);
+}
+
+#editor-view.with-preview .editor-steps-sidebar {
+  width: 64px;
+  padding: 16px 8px;
+}
+
+#editor-view.with-preview .step-nav-label,
+#editor-view.with-preview .step-nav-type,
+#editor-view.with-preview .btn-step-delete,
+#editor-view.with-preview .sidebar-section-title {
+  display: none !important;
+}
+
+#editor-view.with-preview .step-nav-item {
+  justify-content: center;
+  padding: 8px 4px;
+}
+
+#editor-view.with-preview .step-nav-text {
+  align-items: center;
+}
+
+#editor-view.with-preview #add-step-btn {
+  font-size: 0;
+  justify-content: center;
+}
+
+/* The player inside the preview frame has no Quit (the editor closes the preview) */
+body.preview-frame #player-quit-btn {
+  visibility: hidden;
+}
+
+html:not([data-theme="dark"]) #editor-view .editor-preview-panel { background: #f8fafc; border-left-color: #cbd5e1; }
+html:not([data-theme="dark"]) #editor-view .preview-panel-header,
+html:not([data-theme="dark"]) #editor-view .preview-checks { border-color: #cbd5e1; color: #1e293b; }
+html:not([data-theme="dark"]) #editor-view .preview-mode-switch { border-color: #cbd5e1; }
+html:not([data-theme="dark"]) #editor-view .preview-mode-switch button:not(.active),
+html:not([data-theme="dark"]) #editor-view .preview-screen-label,
+html:not([data-theme="dark"]) #editor-view .preview-close-btn,
+html:not([data-theme="dark"]) #editor-view .preview-check.info { color: #64748b; }
+html:not([data-theme="dark"]) #editor-view .preview-check.ok { color: #047857; }
+html:not([data-theme="dark"]) #editor-view .preview-check.block { color: #b91c1c; }
+html:not([data-theme="dark"]) #editor-view .preview-check.warn { color: #b45309; }
+html:not([data-theme="dark"]) #editor-view.with-preview .pane-left { border-bottom-color: #cbd5e1; }
+
+.author-edited-cell {
+  font-size: var(--fs-body-sm);
+  color: var(--text-subtle);
+  white-space: nowrap;
+}
+
+/* Editor header: buttons stay on one line; the save status wraps instead */
+#editor-view .editor-header-right .btn {
+  white-space: nowrap;
+}
+
+#editor-view .editor-save-status {
+  max-width: 220px;
+  line-height: 1.3;
+}

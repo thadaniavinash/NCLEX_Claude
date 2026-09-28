@@ -44,6 +44,14 @@ function initDashboardEvents() {
     });
   }
 
+  const typeFilter = document.getElementById('author-type-filter');
+  if (typeFilter) {
+    typeFilter.addEventListener('change', (e) => {
+      authorTypeFilter = e.target.value;
+      applyAuthorTableFilters();
+    });
+  }
+
   const statusFilter = document.getElementById('author-status-filter');
   if (statusFilter) {
     statusFilter.addEventListener('change', (e) => {
@@ -168,6 +176,7 @@ function renderDashboard() {
 
   renderSaveStatus();
   renderAuthorReadOnlyNotice();
+  renderAuthorTypeFilterOptions();
   renderAuthorTable('cases');
   renderAuthorTable('standalone');
   applyAuthorTableFilters();
@@ -179,6 +188,7 @@ function currentSaveStatus() {
   if (isDatabaseUnavailable) return { tone: 'warn', text: 'Offline: showing the backup copy, saving is off' };
   if (lastSaveOutcome && !lastSaveOutcome.ok) return { tone: 'error', text: 'Last save failed, see the message and try again' };
   if (!canEditBank()) return { tone: 'muted', text: 'Signed out: sign in to make changes' };
+  if (typeof editorDirty !== 'undefined' && editorDirty) return { tone: 'warn', text: 'Unsaved changes' };
   if (lastSaveOutcome) {
     const time = lastSaveOutcome.at.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
     return { tone: 'ok', text: `Saved at ${time}` };
@@ -277,7 +287,7 @@ function renderAuthorTable(kind) {
   const items = authorBank(kind);
 
   if (items.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:32px; color:var(--text-subtle); font-style:italic;">${cfg.empty}</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding:32px; color:var(--text-subtle); font-style:italic;">${cfg.empty}</td></tr>`;
     return;
   }
 
@@ -292,6 +302,8 @@ function renderAuthorTable(kind) {
     tr.dataset.desc = (item.description || '').toLowerCase();
     tr.dataset.ready = isReadyForStudents(item) ? 'ready' : 'hidden';
     tr.dataset.order = bankIndex;
+    tr.dataset.edited = item.updatedAt || '';
+    tr.dataset.types = [...new Set((item.screens || []).map(s => s.question && s.question.type).filter(Boolean))].join(' ');
 
     const courseBadge = item.course === 'NURS 1017'
       ? `<span class="badge-course-1017">NURS 1017</span>`
@@ -320,6 +332,7 @@ function renderAuthorTable(kind) {
       <td>${unitBadge}</td>
       <td>${thirdColumn}</td>
       <td>${readinessBadge(item)}</td>
+      <td class="author-edited-cell">${item.updatedAt ? `<time datetime="${escapeHTML(item.updatedAt)}" title="${escapeHTML(new Date(item.updatedAt).toLocaleString())}">${escapeHTML(relativeTime(item.updatedAt))}</time>` : '<span class="author-edited-unknown" title="Edited before edit dates were recorded">&mdash;</span>'}</td>
       <td class="author-actions-cell">
         <div class="author-actions-wrapper">
           ${editable ? `<button class="btn-author-edit" type="button">Edit</button>` : ''}
@@ -416,6 +429,7 @@ function duplicateAuthorItem(kind, item) {
   copy.id = (kind === 'cases' ? 'case_' : 'standalone_') + Date.now();
   copy.title = `${item.title || AUTHOR_TABLES[kind].untitled} (copy)`;
   copy.draft = true;
+  copy.updatedAt = new Date().toISOString();
   list.splice(list.indexOf(item) + 1, 0, copy);
   saveAuthorBank(kind);
   renderDashboard();
@@ -423,6 +437,7 @@ function duplicateAuthorItem(kind, item) {
 }
 
 function setAuthorItemDraft(kind, item, isDraft) {
+  item.updatedAt = new Date().toISOString();
   if (isDraft) item.draft = true;
   else delete item.draft;
   saveAuthorBank(kind);
@@ -446,6 +461,30 @@ function deleteAuthorItem(kind, item) {
 
 /* ---- Filtering and sorting ---- */
 let authorStatusFilter = 'ALL';
+let authorTypeFilter = 'ALL';
+
+// "3 days ago" style label for the Edited column.
+function relativeTime(iso) {
+  const ms = Date.now() - new Date(iso).getTime();
+  if (!(ms >= 0)) return new Date(iso).toLocaleDateString();
+  const min = Math.round(ms / 60000), hr = Math.round(ms / 3600000), day = Math.round(ms / 86400000);
+  if (min < 1) return 'just now';
+  if (min < 60) return `${min} min ago`;
+  if (hr < 24) return `${hr} h ago`;
+  if (day < 30) return `${day} day${day === 1 ? '' : 's'} ago`;
+  return new Date(iso).toLocaleDateString();
+}
+
+// Question-type filter: the types used anywhere in the bank.
+function renderAuthorTypeFilterOptions() {
+  const select = document.getElementById('author-type-filter');
+  if (!select) return;
+  const types = [...new Set([...caseStudies, ...standaloneQuestions].flatMap(it => (it.screens || []).map(s => s.question && s.question.type)).filter(Boolean))]
+    .sort((a, b) => getQuestionTypeLabel(a).localeCompare(getQuestionTypeLabel(b)));
+  select.innerHTML = '<option value="ALL">All types</option>' + types.map(t => `<option value="${escapeHTML(t)}">${escapeHTML(getQuestionTypeLabel(t))}</option>`).join('');
+  select.value = types.includes(authorTypeFilter) ? authorTypeFilter : 'ALL';
+  authorTypeFilter = select.value;
+}
 let authorSort = { key: '', dir: 1 };
 
 function applyAuthorTableFilters() {
@@ -461,9 +500,10 @@ function applyAuthorTableFilters() {
     const matchesCourse = (authorCourseFilter === 'ALL' || tr.dataset.course === authorCourseFilter);
     const matchesUnit = (authorUnitFilter === 'ALL' || tr.dataset.unit === authorUnitFilter);
     const matchesStatus = (authorStatusFilter === 'ALL' || tr.dataset.ready === authorStatusFilter);
+    const matchesType = (authorTypeFilter === 'ALL' || tr.dataset.types.split(' ').includes(authorTypeFilter));
     const matchesSearch = (!authorSearchQuery || tr.dataset.title.includes(authorSearchQuery) || tr.dataset.desc.includes(authorSearchQuery) || rowId.includes(authorSearchQuery));
 
-    if (matchesCourse && matchesUnit && matchesStatus && matchesSearch) {
+    if (matchesCourse && matchesUnit && matchesStatus && matchesType && matchesSearch) {
       tr.style.display = '';
       visibleCount++;
     } else {
@@ -477,7 +517,8 @@ function applyAuthorTableFilters() {
     const value = tr => key === 'title' ? tr.dataset.title
       : key === 'course' ? tr.dataset.course
       : key === 'unit' ? tr.dataset.unit
-      : key === 'status' ? tr.dataset.ready : '';
+      : key === 'status' ? tr.dataset.ready
+      : key === 'edited' ? tr.dataset.edited : '';
     rows.sort((a, b) => {
       const cmp = key ? value(a).localeCompare(value(b), undefined, { numeric: true, sensitivity: 'base' }) * authorSort.dir : 0;
       return cmp || (a.dataset.order - b.dataset.order);
@@ -500,7 +541,7 @@ function initAuthorTableSorting() {
     th.innerHTML = `<button type="button" class="th-sort-btn">${escapeHTML(label)}<span class="th-sort-arrow" aria-hidden="true"></span></button>`;
     th.querySelector('button').addEventListener('click', () => {
       const key = th.dataset.sort;
-      if (authorSort.key !== key) authorSort = { key, dir: 1 };
+      if (authorSort.key !== key) authorSort = { key, dir: key === 'edited' ? -1 : 1 }; // newest edits first
       else if (authorSort.dir === 1) authorSort = { key, dir: -1 };
       else authorSort = { key: '', dir: 1 };
       applyAuthorTableFilters();

@@ -457,6 +457,7 @@ function showSaveResult(savedToLocalServer, dbResult) {
   const failure = dbResult && dbResult.reason;
   const ok = !!(dbResult && dbResult.ok) || (!!savedToLocalServer && (!failure || failure === 'signed-out'));
   lastSaveOutcome = { ok, at: new Date() };
+  if (ok && typeof setEditorDirty === 'function') setEditorDirty(false);
   if (typeof renderSaveStatus === 'function') renderSaveStatus();
   if (dbResult && dbResult.ok) {
     if (dbResult.conflicts.length) {
@@ -527,6 +528,7 @@ function saveStandaloneToStorage() {
 
 function saveCurrentCaseOrStandalone() {
   if (currentCase) {
+    if (typeof editorDirty !== 'undefined' && editorDirty) currentCase.updatedAt = new Date().toISOString();
     if (currentCase.isStandalone) {
       saveStandaloneToStorage();
     } else {

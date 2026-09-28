@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260928172520">
+  <link rel="stylesheet" href="style.css?v=20260928173315">
 </head>
 <body>
 
@@ -567,6 +567,13 @@
               </div>
 
               <div class="filter-item">
+                <label for="author-type-filter">Type:</label>
+                <select id="author-type-filter" class="author-select">
+                  <option value="ALL">All types</option>
+                </select>
+              </div>
+
+              <div class="filter-item">
                 <label for="author-status-filter">Status:</label>
                 <select id="author-status-filter" class="author-select">
                   <option value="ALL">All</option>
@@ -592,12 +599,13 @@
             <table class="pv-table">
               <thead>
                 <tr>
-                  <th style="width: 34%;" data-sort="title">Case Title & Scenario</th>
-                  <th style="width: 11%;" data-sort="course">Course</th>
-                  <th style="width: 20%;" data-sort="unit">Unit / Category</th>
+                  <th style="width: 30%;" data-sort="title">Case Title & Scenario</th>
+                  <th style="width: 10%;" data-sort="course">Course</th>
+                  <th style="width: 18%;" data-sort="unit">Unit / Category</th>
                   <th style="width: 9%;">Screens</th>
-                  <th style="width: 11%;" data-sort="status">Status</th>
-                  <th style="width: 15%; text-align: right;">Actions</th>
+                  <th style="width: 10%;" data-sort="status">Status</th>
+                  <th style="width: 9%;" data-sort="edited">Edited</th>
+                  <th style="width: 14%; text-align: right;">Actions</th>
                 </tr>
               </thead>
               <tbody id="author-cases-tbody">
@@ -611,12 +619,13 @@
             <table class="pv-table">
               <thead>
                 <tr>
-                  <th style="width: 34%;" data-sort="title">Question Title & Scenario</th>
-                  <th style="width: 11%;" data-sort="course">Course</th>
-                  <th style="width: 20%;" data-sort="unit">Unit / Category</th>
+                  <th style="width: 30%;" data-sort="title">Question Title & Scenario</th>
+                  <th style="width: 10%;" data-sort="course">Course</th>
+                  <th style="width: 18%;" data-sort="unit">Unit / Category</th>
                   <th style="width: 9%;">Format</th>
-                  <th style="width: 11%;" data-sort="status">Status</th>
-                  <th style="width: 15%; text-align: right;">Actions</th>
+                  <th style="width: 10%;" data-sort="status">Status</th>
+                  <th style="width: 9%;" data-sort="edited">Edited</th>
+                  <th style="width: 14%; text-align: right;">Actions</th>
                 </tr>
               </thead>
               <tbody id="author-standalone-tbody">
@@ -673,6 +682,10 @@
           <span class="status-dot-pulse"></span>
           <span class="save-status-text"></span>
         </span>
+        <button id="editor-preview-btn" class="btn btn-secondary" aria-pressed="false" title="Show this screen as students see it">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Preview
+        </button>
         <button id="editor-save-btn" class="btn btn-secondary">Save Progress</button>
         <button id="editor-export-btn" class="btn btn-secondary">
           <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
@@ -888,6 +901,23 @@
           </div>
         </section>
       </main>
+
+      <!-- Live preview of the current screen in the real player; see js/editor-preview.js -->
+      <aside id="editor-preview-panel" class="editor-preview-panel hidden" aria-label="Preview of this screen">
+        <div class="preview-panel-header">
+          <strong>Preview</strong>
+          <span id="preview-screen-label" class="preview-screen-label"></span>
+          <div class="preview-mode-switch" role="group" aria-label="Preview mode">
+            <button type="button" data-preview-mode="student" class="active" aria-pressed="true">Student view</button>
+            <button type="button" data-preview-mode="key" aria-pressed="false">With answers</button>
+          </div>
+          <button type="button" id="editor-preview-close" class="preview-close-btn" aria-label="Close preview" title="Close preview">&times;</button>
+        </div>
+        <ul id="preview-checks" class="preview-checks" aria-live="polite"></ul>
+        <div id="editor-preview-body" class="preview-body">
+          <iframe id="editor-preview-frame" title="Student view of this screen" src="about:blank"></iframe>
+        </div>
+      </aside>
     </div>
   </div>
 
@@ -1256,20 +1286,22 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20260928172520"></script>
-  <script src="js/state.js?v=20260928172520"></script>
-  <script src="js/utils.js?v=20260928172520"></script>
-  <script src="js/data.js?v=20260928172520"></script>
-  <script src="js/auth.js?v=20260928172520"></script>
-  <script src="js/dashboard.js?v=20260928172520"></script>
-  <script src="js/session-builder.js?v=20260928172520"></script>
-  <script src="js/notes-editor.js?v=20260928172520"></script>
-  <script src="js/cloze-editor.js?v=20260928172520"></script>
-  <script src="js/editor.js?v=20260928172520"></script>
-  <script src="js/player.js?v=20260928172520"></script>
-  <script src="js/scoring.js?v=20260928172520"></script>
-  <script src="js/results.js?v=20260928172520"></script>
-  <script src="js/calculator.js?v=20260928172520"></script>
-  <script src="js/main.js?v=20260928172520"></script>
+  <script src="cases-data.js?v=20260928173315"></script>
+  <script src="js/state.js?v=20260928173315"></script>
+  <script src="js/utils.js?v=20260928173315"></script>
+  <script src="js/data.js?v=20260928173315"></script>
+  <script src="js/auth.js?v=20260928173315"></script>
+  <script src="js/dashboard.js?v=20260928173315"></script>
+  <script src="js/session-builder.js?v=20260928173315"></script>
+  <script src="js/rich-text.js?v=20260928173315"></script>
+  <script src="js/notes-editor.js?v=20260928173315"></script>
+  <script src="js/cloze-editor.js?v=20260928173315"></script>
+  <script src="js/editor-preview.js?v=20260928173315"></script>
+  <script src="js/editor.js?v=20260928173315"></script>
+  <script src="js/player.js?v=20260928173315"></script>
+  <script src="js/scoring.js?v=20260928173315"></script>
+  <script src="js/results.js?v=20260928173315"></script>
+  <script src="js/calculator.js?v=20260928173315"></script>
+  <script src="js/main.js?v=20260928173315"></script>
 </body>
 </html>

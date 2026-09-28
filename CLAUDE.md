@@ -28,7 +28,8 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   `state.js` (constants, state, IndexedDB), `utils.js` (toast, escapeHTML, nurses' notes formatting,
   shuffleArray), `data.js` (sanitizing, format migrations, load, readiness rule, saving),
   `auth.js` (Supabase Auth admin sign-in), `dashboard.js` (authoring tables, admin login UI),
-  `session-builder.js`, `editor.js` (+ table cell menu), `player.js`, `scoring.js`, `results.js`,
+  `session-builder.js`, `rich-text.js` (text box extras), `notes-editor.js`, `cloze-editor.js`,
+  `editor-preview.js`, `editor.js` (+ table cell menu), `player.js`, `scoring.js`, `results.js`,
   `calculator.js`, `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
   when the database can't be reached. Read/write it losslessly with `tools/bank.py` (Python) or
@@ -42,7 +43,8 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
 
 ## Data format (one item = case study or stand-alone question)
 
-`{ id, title, course, unit, topic, disorder, description, isStandalone?, draft?, screens: [...] }`.
+`{ id, title, course, unit, topic, disorder, description, isStandalone?, draft?, updatedAt?, screens: [...] }`.
+`updatedAt` (ISO time) is stamped when the editor saves a changed item, and by Duplicate / Hide / Show.
 `draft: true` hides a finished item from students (set by the dashboard's Duplicate and "Hide from students").
 IDs: `case_<13 digits>` / `standalone_<13 digits>`; NURS 1017 cases use `case_17823<unit>000<n>`
 (for example Unit 3 Case 4 = `case_1782370000004`). `topic` and `disorder` currently equal `unit`; units are listed in
@@ -176,8 +178,15 @@ triad questions are edited as one sentence with drop-down chips, choice cards, p
 live student/answer-key preview (`js/cloze-editor.js`). New blanks have no correct choice preselected and
 the editor warns when the correct choice is listed first. Keyboard answering for drag-and-drop questions
 was deliberately not added (user decision: the real exam is answered with a mouse).
-Suggested next: B3/B4 (bigger text boxes, shortcuts, clean paste, table sizes, case templates, preview,
-unsaved-changes warning), then the guided student flow. Bowtie editor inputs still truncate long text.
+Done (authoring comfort): text boxes grow, can be resized and expanded (Esc closes); shortcuts Ctrl+B/I/U,
+Ctrl+. superscript, Ctrl+, subscript, Ctrl+Shift+7/8 lists; paste keeps bold/italic/underline/sub/sup/
+lists/tables and drops fonts, colours, images and Word markup (`js/rich-text.js`, all formatting goes
+through `richCommand()` so `execCommand` can be replaced in one place); table size picker; a new case
+starts with the six clinical judgment screens (`NEW_CASE_TEMPLATE`); live preview beside the editor in
+the real player (iframe `index.html?preview=1`, "With answers" fills the key; checklist of blockers and
+conventions; `js/editor-preview.js`); unsaved-changes marker + leave warning; `updatedAt` stamped on save
+and shown as a sortable "Edited" column; question-type filter in the studio.
+Suggested next: the guided student flow (C). Bowtie editor inputs still truncate long text.
 
 ### Design system (how to style new work)
 

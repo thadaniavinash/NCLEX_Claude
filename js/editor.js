@@ -89,6 +89,8 @@ function initEditorEvents() {
 
   document.getElementById('tab-text-input').addEventListener('keydown', handleFreeTextNotesTab);
   initNotesEditor();
+  initEditorPreview();
+  initEditorChangeTracking();
 
   document.getElementById('question-type-select').addEventListener('change', (e) => {
     const prevType = currentCase.screens[currentStepIndex].question.type;
@@ -338,8 +340,48 @@ function startEditor(c) {
   }
   
   switchView('editor');
-  renderSaveStatus();
+  setEditorDirty(false);
   renderEditorStep(0);
+}
+
+/* ---- Unsaved changes ----
+   Any edit marks the open item as changed: the Save button shows it, the save status says
+   "Unsaved changes" and the browser warns before the page is closed. A successful save clears it
+   (showSaveResult in data.js) and stamps the item's updatedAt, shown as "Edited" in the studio. */
+let editorDirty = false;
+
+function setEditorDirty(dirty) {
+  editorDirty = dirty;
+  const btn = document.getElementById('editor-save-btn');
+  if (btn) {
+    btn.classList.toggle('has-changes', dirty);
+    btn.textContent = dirty ? 'Save changes' : 'Save Progress';
+  }
+  renderSaveStatus();
+}
+
+// Clicks that only change what is shown, not the content.
+const EDITOR_VIEW_ONLY_CONTROLS = '[data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn';
+
+function initEditorChangeTracking() {
+  const view = document.getElementById('editor-view');
+  const mark = e => {
+    if (!currentCase || e.target.closest('#editor-preview-panel, [data-theme-toggle]')) return;
+    if (!editorDirty) setEditorDirty(true);
+  };
+  view.addEventListener('input', mark);
+  view.addEventListener('change', mark);
+  view.addEventListener('click', e => {
+    const btn = e.target.closest('button');
+    if (btn && !btn.closest(EDITOR_VIEW_ONLY_CONTROLS) && !btn.matches(EDITOR_VIEW_ONLY_CONTROLS)) mark(e);
+  });
+  // Choosing a table size in the picker (it sits outside the editor) is an edit too.
+  document.addEventListener('click', e => { if (e.target.closest('#table-size-picker button') && currentCase) mark(e); });
+  window.addEventListener('beforeunload', e => {
+    if (!editorDirty || !document.getElementById('editor-view').classList.contains('active')) return;
+    e.preventDefault();
+    e.returnValue = '';
+  });
 }
 
 function renderEditorStep(stepIdx) {
@@ -391,6 +433,7 @@ function renderEditorStep(stepIdx) {
   updateImagePreview(q.questionImage || null);
   
   renderDynamicQuestionConfigurator(q);
+  schedulePreviewUpdate(0);
 }
 
 function updateImagePreview(base64Str) {
@@ -411,6 +454,10 @@ function updateImagePreview(base64Str) {
   }
 }
 
+function typeLabelFor(step) {
+  return step.question && step.question.type ? getQuestionTypeLabel(step.question.type) : 'No question';
+}
+
 // Clinical judgment step of each screen in a standard six-screen case study.
 const CLINICAL_JUDGMENT_STEPS = ['Recognize cues', 'Analyze cues', 'Prioritize hypotheses', 'Generate solutions', 'Take action', 'Evaluate outcomes'];
 
@@ -424,16 +471,17 @@ function renderStepsSidebar() {
     item.className = `step-nav-item ${idx === currentStepIndex ? 'active' : ''}`;
     item.setAttribute('role', 'button');
     item.tabIndex = 0;
+    item.title = `${namedSteps ? CLINICAL_JUDGMENT_STEPS[idx] : 'Screen ' + (idx + 1)}: ${typeLabelFor(step)}`;
     if (idx === currentStepIndex) item.setAttribute('aria-current', 'step');
     // Readiness as last saved (the open screen is checked again when you leave it).
     const problem = screenProblem(step.question);
     const typeLabel = step.question && step.question.type ? getQuestionTypeLabel(step.question.type) : 'No question';
     item.innerHTML = `
       <span class="step-nav-text">
-        <span class="step-nav-name">${namedSteps ? `${idx + 1}. ${CLINICAL_JUDGMENT_STEPS[idx]}` : `Screen ${idx + 1}`}</span>
+        <span class="step-nav-name"><span class="step-nav-num">${idx + 1}</span><span class="step-nav-label">${namedSteps ? `. ${CLINICAL_JUDGMENT_STEPS[idx]}` : `. Screen`}</span></span>
         <span class="step-nav-meta">
           <span class="step-nav-status ${problem ? 'needs-work' : 'ready'}" title="${escapeHTML(problem ? 'Not ready for students: ' + problem : 'Ready for students')}">${problem ? '&#9888;' : '&#10003;'}</span>
-          ${escapeHTML(typeLabel)}
+          <span class="step-nav-type">${escapeHTML(typeLabel)}</span>
         </span>
       </span>
       ${currentCase.screens.length > 1 ? `

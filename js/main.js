@@ -2,6 +2,12 @@
 
 /* ================= INITIALIZATION & ROUTING ================= */
 async function initApp() {
+  // The editor's live preview loads this page in a frame: player only, content arrives by message.
+  if (new URLSearchParams(window.location.search).get('preview') === '1') {
+    initPreviewFrame();
+    return;
+  }
+
   initTheme();
 
   await loadAllData();

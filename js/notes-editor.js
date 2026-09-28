@@ -159,7 +159,7 @@ function renderNoteRows(focusIndex, focusField) {
     text.addEventListener('keydown', e => {
       if (e.key === 'Enter' && e.shiftKey) {
         e.preventDefault();
-        document.execCommand('insertLineBreak');
+        richCommand('insertLineBreak');
       } else if (e.key === 'Enter') {
         e.preventDefault();
         row.html = text.innerHTML;
@@ -246,11 +246,11 @@ function handleFreeTextNotesTab(e) {
       .closest('p, div:not(.rich-text-editor)');
     const lineText = (block && e.currentTarget.contains(block) ? block.textContent : range.startContainer.textContent || '').replace(/ /g, ' ');
     if (new RegExp(String.raw`^\s*` + NOTE_LABEL_SOURCE + String.raw`\s*$`, 'i').test(lineText)) {
-      document.execCommand('insertText', false, ': ');
+      richCommand('insertText', ': ');
       return;
     }
   }
-  document.execCommand('insertHTML', false, '&nbsp;&nbsp;&nbsp;&nbsp;');
+  richCommand('insertHTML', '&nbsp;&nbsp;&nbsp;&nbsp;');
 }
 
 function initNotesEditor() {

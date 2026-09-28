@@ -241,7 +241,7 @@ function renderClozeSentenceEditor(q, box) {
   });
   sentence.addEventListener('paste', e => {
     e.preventDefault();
-    document.execCommand('insertText', false, (e.clipboardData || window.clipboardData).getData('text/plain'));
+    richCommand('insertText', (e.clipboardData || window.clipboardData).getData('text/plain'));
   });
   sentence.addEventListener('click', e => {
     const chip = e.target.closest('.cloze-chip');

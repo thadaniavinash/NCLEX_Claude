@@ -672,41 +672,49 @@ function generateAndStartSession() {
   });
 }
 
+// Question types suggested for each clinical judgment step of a new case (the author can change them).
+const NEW_CASE_TEMPLATE = [
+  { type: 'select_all' },
+  { type: 'matrix_mc' },
+  { type: 'dyad' },
+  { type: 'select_all' },
+  { type: 'matrix_mc' },
+  { type: 'dropdown_cloze' }
+];
+
+// A new case study starts with the six clinical judgment screens (recognize cues … evaluate outcomes),
+// each with the usual chart tabs and a suggested question type. It stays hidden from students until
+// every screen has a question and an answer key.
 function createNewCase() {
-  const newId = 'case_' + Date.now();
+  const stamp = Date.now();
   const newCase = {
-    id: newId,
+    id: 'case_' + stamp,
     title: 'New Case Study',
     description: '',
-    screens: [
-      {
-        step: 1,
+    screens: NEW_CASE_TEMPLATE.map((t, i) => {
+      const question = { type: t.type, stem: '', explanation: '' };
+      if (['select_all', 'multiple_choice', 'select_n', 'trend'].includes(t.type)) {
+        question.options = Array.from({ length: 5 }, () => ({ text: '', correct: false }));
+      }
+      initializeQuestionTypeDefaults(question);
+      return {
+        step: i + 1,
         leftContent: {
           intro: '',
           tabs: [
-            { id: 'nn_' + Date.now(), title: "Nurses' Notes", content: '' }
+            { id: `nn_${stamp}_${i}`, title: "Nurses' Notes", content: '' },
+            { id: `vs_${stamp}_${i}`, title: 'Vital Signs', content: '' }
           ]
         },
-        question: {
-          type: 'select_all',
-          stem: '',
-          options: [
-            { text: '', correct: false },
-            { text: '', correct: false },
-            { text: '', correct: false },
-            { text: '', correct: false },
-            { text: '', correct: false }
-          ],
-          explanation: ''
-        }
-      }
-    ]
+        question
+      };
+    })
   };
-  
+
   caseStudies.push(newCase);
   saveCasesToStorage();
   startEditor(newCase);
-  showToast("New case study initialized.");
+  showToast("New case study with the six clinical judgment screens. Fill in each screen's chart and question.");
 }
 
 function updateToolbarStates(editor) {
@@ -771,11 +779,12 @@ function initRichTextEditors() {
     const symbol = btn.dataset.symbol;
     
     if (cmd) {
-      document.execCommand(cmd, false, null);
+      richCommand(cmd);
     } else if (symbol) {
-      document.execCommand('insertText', false, symbol);
+      richCommand('insertText', symbol);
     } else if (btn.classList.contains('table-insert-btn')) {
-      insertTableAtCursor(editor, 3, 2);
+      openTableSizePicker(btn, editor);
+      return;
     }
     
     // Restore focus and selection range (only if not already focused, or if text was selected)
@@ -809,18 +818,9 @@ function initRichTextEditors() {
     if (editor) updateToolbarStates(editor);
   });
 
-  // Force plain text paste in contenteditable editors to prevent font modifications
-  document.addEventListener('paste', (e) => {
-    const editor = e.target.closest('.rich-text-editor');
-    if (!editor) return;
-
-    e.preventDefault();
-    const text = (e.originalEvent || e).clipboardData.getData('text/plain');
-    document.execCommand('insertText', false, text);
-  });
+  // Paste, shortcuts, the expanded view and the table picker: see js/rich-text.js
+  initRichTextExtras();
 }
-
-
 
 function insertTableAtCursor(editorDiv, rows, cols) {
   let tableHTML = '<table class="nclex-editor-table" style="width:100%; border-collapse:collapse; margin:12px 0;">';
