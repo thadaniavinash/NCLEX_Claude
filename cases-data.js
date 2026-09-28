@@ -94,7 +94,7 @@ window.NCLEX_CASES = [
             ],
             "firstColumnHeader": ""
           },
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 0800.",
           "explanation": "Left-sided heart failure causes pulmonary congestion (dyspnea, pink frothy sputum). Right-sided heart failure causes systemic venous congestion (jugular venous distention, dependent edema, ascites, hepatomegaly)."
         },
         "leftContent": {
@@ -157,7 +157,7 @@ window.NCLEX_CASES = [
               }
             ]
           },
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 0815.",
           "explanation": "Placing the client in high-Fowler's position reduces venous return (preload) and allows maximum lung expansion. Elevating oxygen delivery via a non-rebreather mask is the immediate next step to address severe hypoxia (SpO2 89%) before invasive measures like intubation."
         },
         "leftContent": {
@@ -222,7 +222,7 @@ window.NCLEX_CASES = [
             ],
             "firstColumnHeader": "Findings"
           },
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 0830.",
           "explanation": "Anticipated tests include Liver Function Tests (to evaluate hepatic congestion from right heart failure), Chest X-ray (pulmonary congestion/cardiomegaly), Echocardiogram (EF and structural dysfunction), CBC (general assessment), and ECG (ischemia/infarction/rhythm). Non-anticipated tests include EEG (for seizures/brain activity), Ventriculostomy (intracranial pressure monitoring), and Pulmonary Function Tests (not for acute cardiac dyspnea management)."
         },
         "leftContent": {
@@ -264,7 +264,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Lab Results.",
           "explanation": "Epinephrine is a potent beta-1 and alpha-1 agonist that increases heart rate, cardiac workload, and myocardial oxygen demand, which can exacerbate heart failure and induce myocardial ischemia. Ramipril (ACE inhibitor) and Nitroglycerin (vasodilator) are standard treatments to reduce afterload and preload, and Metoprolol (beta-blocker) is part of long-term therapy once stabilized."
         },
         "leftContent": {
@@ -273,6 +273,11 @@ window.NCLEX_CASES = [
               "id": "hp",
               "title": "History and Physical",
               "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+            },
+            {
+              "id": "nn_s5",
+              "title": "Nurses' Notes",
+              "content": "08:30 - IV furosemide 40mg was administered stat. Foley catheter inserted with 150mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received."
             },
             {
               "id": "labs",
@@ -319,7 +324,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1200.",
           "explanation": "1. Gaining 0.5 lbs overnight is normal fluctuation; patients are taught to report 2-3 lbs in 24 hours or 5 lbs in a week. 2. Patients must stop smoking entirely, not limit to 1 cigarette. 3. Heart failure patients require fluid restriction, not increased fluids."
         },
         "leftContent": {
@@ -333,6 +338,11 @@ window.NCLEX_CASES = [
               "id": "nn",
               "title": "Nurses' Notes",
               "content": "12:00 - Client's symptoms have significantly improved following administration of IV loop diuretics. Breathing is comfortable at 18 breaths/min on 2L nasal cannula, SpO2 96%. Plan is to transition to oral medications and discharge home with close outpatient follow-up. Discharging nurse is preparing lifestyle modification education."
+            },
+            {
+              "id": "labs_s6",
+              "title": "Lab Results",
+              "content": "BNP: 1,250 pg/mL (Elevated)\nTroponin I: 0.02 ng/mL (Normal)\nBUN: 28 mg/dL (Elevated)\nCreatinine: 1.4 mg/dL (Slightly Elevated)\nChest X-Ray: Cardiomegaly with diffuse bilateral alveolar infiltrates consistent with pulmonary edema."
             }
           ],
           "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -341,7 +351,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Others",
     "description": "",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1780489713691",
@@ -560,7 +571,7 @@ window.NCLEX_CASES = [
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0845:</span><span class=\"nurse-note-text\">The parent brought the client to the hospital after finding the client in the bathroom vomiting and unable to stand without assistance. The client states that she has experienced sore throat and nasal congestion for the past week. She reports 4 episodes of emesis during the past 24 hours and abdominal pain that is diffuse, constant, non-radiating, and rated 3 on a scale of 0-10. The client also reports polydipsia and polyuria over the past 2 months. The last menstrual period ended approximately 6 weeks ago with no abnormalities. Pregnancy status is unknown. The client is taking no medications, and she reports no smoking, alcohol, or recreational drug use. Family history includes hypertension and diabetes mellitus. The client appears drowsy and is oriented to person and time only. The abdomen is soft without guarding, rigidity, or rebound tenderness, and bowel sounds are normal. No blood is present in emesis. Respirations are rapid and deep. Breath sounds are clear. Vital signs are T 37.1° C), P 128, RR 30, and BP 88/60 mm Hg. Finger-stick blood glucose level is 33.3 mmol/L.</span></p>"
             }
           ],
-          "intro": "The nurse is caring for a client in the clinic..."
+          "intro": "The nurse is caring for a 20-year-old female client."
         }
       },
       {
@@ -629,14 +640,14 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Laboratory Results from 0900.",
           "explanation": "Management of diabetic ketoacidosis (DKA) initially focuses on IV fluid resuscitation to reverse hypovolemia and then correction of hyperglycemia, electrolyte abnormalities, and acid-base imbalance. Expected prescriptions include:<br>Continuous insulin IV infusion to correct hyperglycemia. IV insulin has a more rapid onset of action than<br>subcutaneous insulin, which allows faster and more precise management of the blood glucose level. Continuous cardiac monitoring to detect dysrhythmias related to metabolic acidosis or electrolyte abnormalities. Frequent monitoring of electrolyte levels and replacement of electrolytes as needed to help prevent dysrhythmias.<br>Isotonic IV fluid (e.g., 0.9% sodium chloride) to replace fluid losses. Hourly finger-stick blood glucose level checks to<br>monitor for treatment effectiveness and detect any hypoglycemia related to the insulin infusion. Strict intake and output monitoring to evaluate the effectiveness of fluid resuscitation and to monitor for signs of acute kidney injury.<br>A prescription of 5% dextrose in 0.9% sodium chloride, a hypertonic solution, would be unexpected because it would<br>worsen fluid loss through osmotic diuresis and further increase blood glucose level. This solution is typically administered when ketones are still present in the body but glucose is lower due to insulin administration. In this situation, continuous insulin infusion is needed to clear the ketones (acidosis) from the body, so a dextrose-containing solution is added to prevent hypoglycemia. Sodium polystyrene sulfonate, a potassium-binding resin,<br>would be unexpected for a client with DKA because it may contribute to hypokalemia. Even though serum potassium is elevated in this client at this time, the total body potassium is usually lower due to increased urinary losses. Hypokalemia may develop after insulin administration due to the shift of potassium from the extracellular to intracellular space. Educational objective: Management of diabetic ketoacidosis (DKA) focuses on IV fluid<br>resuscitation and correction of hyperglycemia, electrolytes abnormalities, and acid-base imbalance. In addition to<br>administration of isotonic IV fluid, interventions include cardiac monitoring, insulin IV infusion, and frequent monitoring of blood glucose level, electrolytes, and intake/output."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "hp",
-              "title": "Nurses's Notes",
+              "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0845:</span><span class=\"nurse-note-text\">The parent brought the client to the hospital after finding the client in the bathroom vomiting and unable to stand without assistance. The client states that she has experienced sore throat and nasal congestion for the past week. She reports 4 episodes of emesis during the past 24 hours and abdominal pain that is diffuse, constant, non-radiating, and rated 3 on a scale of 0-10. The client also reports polydipsia and polyuria over the past 2 months. The last menstrual period ended approximately 6 weeks ago with no abnormalities. Pregnancy status is unknown. The client is taking no medications, and she reports no smoking, alcohol, or recreational drug use. Family history includes hypertension and diabetes mellitus. The client appears drowsy and is oriented to person and time only. The abdomen is soft without guarding, rigidity, or rebound tenderness, and bowel sounds are normal. No blood is present in emesis. Respirations are rapid and deep. Breath sounds are clear. Vital signs are T 37.1° C), P 128, RR 30, and BP 88/60 mm Hg. Finger-stick blood glucose level is 33.3 mmol/L.</span></p>"
             },
             {
@@ -645,7 +656,7 @@ window.NCLEX_CASES = [
               "content": "<div><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, serum (random)<br>&lt;11.1 mmol/L</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><br>31.8 mmol/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5 - 5.0 mmol/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><br>5.7 mmol/L</td></tr></tbody></table></div>"
             }
           ],
-          "intro": "The nurse is caring for a client in the clinic..."
+          "intro": "The nurse is caring for a 20-year-old female client."
         }
       },
       {
@@ -663,14 +674,14 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Prescriptions from 0905.",
           "explanation": "The priority intervention for diabetic ketoacidosis management is fluid resuscitation with isotonic IV fluid, typically with a largevolume 0.9% sodium chloride IV bolus. Fluid resuscitation prevents hypovolemic shock and helps normalize glucose and electrolyte levels via hemodilution. (Incorrect) It is essential to frequently monitor blood glucose<br>levels to assess treatment effectiveness and check for hypoglycemia. However, a blood glucose level had recently been obtained for this client. (Incorrect) Continuous infusion of isotonic IV fluid (e.g., 0.9% sodium chloride 125 mL/hr) is appropriate, but the IV fluid bolus should be infused first because rapid infusion of a large volume of isotonic IV fluid more quickly corrects hypovolemia. (Incorrect) The nurse should prioritize administration of regular insulin IV continuous infusion to correct hyperglycemia, but the first priority is prevention of life-threatening hypovolemic shock<br>with fluid resuscitation. (Incorrect) Maintaining NPO status may be appropriate for a client with a decreased level of consciousness to help prevent aspiration secondary to vomiting while the blood glucose level is being stabilized. However, this can be implemented after fluid resuscitation is initiated. (Incorrect) After blood glucose is decreased to an acceptable range, continuous infusion of isotonic IV fluid is replaced with a continuous infusion of glucose-containing IV solution (5% dextrose in 0.45% sodium chloride) to prevent hypoglycemia and cerebral edema related to a rapidly decreased serum osmolality. If hypoglycemia occurs, 50% dextrose solution IV can be administered PRN to rapidly increase the blood glucose level. Educational objective: The priority intervention for DKA is fluid resuscitation to prevent life-threatening hypovolemic shock and help normalize serum glucose and electrolyte levels.",
           "highlightText": "0905:\n - {Monitor blood glucose level every hour}\n - {Initiate 0.9% sodium chloride 125 mL/hr IV}\n - {Administer regular insulin IV continuous infusion}\n - {Maintain NPO status except for oral medications}\n - {Administer 0.9% sodium chloride 1000 mL IV bolus|correct}\n - {Initiate 50% dextrose solution IV PRN for hypoglycemia}",
           "maxCorrectSelections": null,
           "highlightTabs": [
             {
               "id": "ht_case_1780489713691_5",
-              "title": "Nurses' Notes",
+              "title": "Prescriptions",
               "content": "0905:\n - {Monitor blood glucose level every hour}\n - {Initiate 0.9% sodium chloride 125 mL/hr IV}\n - {Administer regular insulin IV continuous infusion}\n - {Maintain NPO status except for oral medications}\n - {Administer 0.9% sodium chloride 1000 mL IV bolus|correct}\n - {Initiate 50% dextrose solution IV PRN for hypoglycemia}"
             }
           ]
@@ -679,7 +690,7 @@ window.NCLEX_CASES = [
           "tabs": [
             {
               "id": "hp",
-              "title": "Nurses's Notes",
+              "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0845:</span><span class=\"nurse-note-text\">The parent brought the client to the hospital after finding the client in the bathroom vomiting and unable to stand without assistance. The client states that she has experienced sore throat and nasal congestion for the past week. She reports 4 episodes of emesis during the past 24 hours and abdominal pain that is diffuse, constant, non-radiating, and rated 3 on a scale of 0-10. The client also reports polydipsia and polyuria over the past 2 months. The last menstrual period ended approximately 6 weeks ago with no abnormalities. Pregnancy status is unknown. The client is taking no medications, and she reports no smoking, alcohol, or recreational drug use. Family history includes hypertension and diabetes mellitus. The client appears drowsy and is oriented to person and time only. The abdomen is soft without guarding, rigidity, or rebound tenderness, and bowel sounds are normal. No blood is present in emesis. Respirations are rapid and deep. Breath sounds are clear. Vital signs are T 37.1° C), P 128, RR 30, and BP 88/60 mm Hg. Finger-stick blood glucose level is 33.3 mmol/L.</span></p>"
             },
             {
@@ -693,7 +704,7 @@ window.NCLEX_CASES = [
               "content": "0905:\n\n- Monitor blood glucose level every hour\n- Initiate 0.9% sodium chloride 125 mL/hr IV\n- Administer regular insulin IV continuous infusion\n- Maintain NPO status except for oral medications\n- Administer 0.9% sodium chloride 1000 mL IV bolus\n- Initiate 50% dextrose solution IV PRN for hypoglycemia"
             }
           ],
-          "intro": "The nurse is caring for a client in the clinic..."
+          "intro": "The nurse is caring for a 20-year-old female client."
         }
       },
       {
@@ -730,7 +741,7 @@ window.NCLEX_CASES = [
           "tabs": [
             {
               "id": "hp",
-              "title": "Nurses's Notes",
+              "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0845:</span><span class=\"nurse-note-text\">The parent brought the client to the hospital after finding the client in the bathroom vomiting and unable to stand without assistance. The client states that she has experienced sore throat and nasal congestion for the past week. She reports 4 episodes of emesis during the past 24 hours and abdominal pain that is diffuse, constant, non-radiating, and rated 3 on a scale of 0-10. The client also reports polydipsia and polyuria over the past 2 months. The last menstrual period ended approximately 6 weeks ago with no abnormalities. Pregnancy status is unknown. The client is taking no medications, and she reports no smoking, alcohol, or recreational drug use. Family history includes hypertension and diabetes mellitus. The client appears drowsy and is oriented to person and time only. The abdomen is soft without guarding, rigidity, or rebound tenderness, and bowel sounds are normal. No blood is present in emesis. Respirations are rapid and deep. Breath sounds are clear. Vital signs are T 37.1° C), P 128, RR 30, and BP 88/60 mm Hg. Finger-stick blood glucose level is 33.3 mmol/L.</span></p>"
             },
             {
@@ -744,13 +755,14 @@ window.NCLEX_CASES = [
               "content": "0905:\n\n- Monitor blood glucose level every hour\n- Initiate 0.9% sodium chloride 125 mL/hr IV\n- Administer regular insulin IV continuous infusion\n- Maintain NPO status except for oral medications\n- Administer 0.9% sodium chloride 1000 mL IV bolus\n- Initiate 50% dextrose solution IV PRN for hypoglycemia"
             }
           ],
-          "intro": "The nurse is caring for a client in the clinic..."
+          "intro": "The nurse is caring for a 20-year-old female client."
         }
       }
     ],
     "disorder": "Unit 11 (Endocrine Disorders)",
     "description": "Endocrine Disorders",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1780591712513",
@@ -1527,7 +1539,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "On Tuesday morning, the campus clinic nurse reviews the clinic log and contacts the residence. The following information becomes available (see Epidemiologic Data tab). The cause of the illness has not been confirmed.",
+          "preamble": "On Tuesday morning, the campus clinic nurse reviews the clinic log and contacts the residence. The nurse has reviewed the Epidemiologic Data. The cause of the illness has not been confirmed.",
           "explanation": "The incubation period is the time from exposure to symptom onset. Incidence refers to new cases during a specified period. Prevalence refers to all current cases at a point in time or during a defined period."
         },
         "leftContent": {
@@ -1766,7 +1778,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Follow-Up Data (After 7 Days).",
           "explanation": "Based on the follow-up data, the incidence is zero since there are no new cases. Since only two students are currently ill, the prevalence has also decreased. Morbidity is the presence of a disease state and since only two students are currently symptomatic, it has decreased. Since the incidence, prevalence, and morbidity have decreased, the interventions most likely have been effective. Etiology is the cause of a disease and has no relationship to the incidence of the disease. Prevalence is not zero because two students currently have the disease."
         },
         "leftContent": {
@@ -1798,7 +1810,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 1 (Introduction to Pathophysiology)",
     "description": "A case study for formative review of NURS 1017 Unit 1",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1781741217820",
@@ -1923,7 +1936,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1100.",
           "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
           "explanation": "Decreased appetite is consistent with bowel obstruction and appendicitis (both cause visceral inflammation or distension that suppresses appetite) but is not a typical finding of an isolated ruptured spleen, so appetite is checked under Bowel Obstruction and Appendicitis only. Pain level is checked under all 3 disease processes because bowel obstruction, appendicitis, and a ruptured spleen can each cause significant abdominal pain — obstruction from bowel wall distension, appendicitis from localized peritoneal irritation, and splenic rupture from hemoperitoneum and capsular stretch. Bowel pattern (constipation) is checked under Bowel Obstruction and Appendicitis, since mechanical obstruction directly halts stool passage and appendicitis commonly causes an associated ileus with constipation, while an isolated splenic injury does not typically alter bowel pattern. Gastrointestinal symptoms such as nausea and vomiting are checked under Bowel Obstruction and Appendicitis, both of which commonly trigger vomiting through bowel distension or peritoneal irritation, whereas an isolated splenic rupture (a vascular/hemorrhagic injury) does not typically produce prominent nausea and vomiting on its own."
         },
@@ -2153,7 +2166,7 @@ window.NCLEX_CASES = [
             {
               "id": "tab_1781749126110",
               "title": "Diagnostic Results",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130: <span style=\"font-weight: normal;\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></span><span class=\"nurse-note-text\"><br></span></div>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></p>"
             }
           ],
           "intro": "The nurse in the emergency department (ED) is caring for a 41-year-old male client."
@@ -2204,7 +2217,7 @@ window.NCLEX_CASES = [
             {
               "id": "tab_1781749126110",
               "title": "Diagnostic Results",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130: <span style=\"font-weight: normal;\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></span><span class=\"nurse-note-text\"><br></span></div>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></p>"
             }
           ],
           "intro": "The nurse in the emergency department (ED) is caring for a 41-year-old male client."
@@ -2213,7 +2226,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study 1: a 41-year-old male client with a ruptured appendix, from recognize cues through evaluate outcomes.",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782149061171",
@@ -3006,7 +3020,7 @@ window.NCLEX_CASES = [
       {
         "step": 6,
         "question": {
-          "stem": "For each assessment finding below, click to specify if the finding is consistent with the disease process of ... . Each finding may support more than 1 disease process.",
+          "stem": "For each assessment finding, click to specify if the finding indicates that the client's condition has improved, not changed, or worsened.",
           "type": "matrix_mc",
           "matrix": {
             "rows": [
@@ -3089,7 +3103,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Others",
     "description": "",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782350000001",
@@ -3198,7 +3213,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Client Finding"
           },
           "options": [],
-          "preamble": "The nurse reviews Marcus's clinical background and recent activities alongside newly obtained assessment findings (see Clinical Assessment and Point-of-Care Testing tab).",
+          "preamble": "The nurse reviews Marcus's clinical background and recent activities alongside newly obtained assessment findings. The nurse has reviewed the Clinical Assessment and Point-of-Care Testing.",
           "explanation": "Predisposing factors are factors that increase the risk or vulnerability of developing a disease or condition (e.g., genetic family history, chronic prolonged occupational stress, middle age, and sex). Precipitating factors are specific triggers that directly provoke or cause the onset of an acute disease state or acute clinical manifestation (e.g., sudden high-dose ingestion of ulcerogenic NSAIDs triggering acute epigastric gastritis, and acute caffeine overload triggering tachyarrhythmia and blood pressure elevation)."
         },
         "leftContent": {
@@ -3481,7 +3496,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Follow-Up Data (4 Weeks Later).",
           "explanation": "Homeostasis is the maintenance of a stable internal environment via the dynamic equilibrium of physiological variables within narrow set-point ranges using negative feedback loops (demonstrated by normal BP, HR, and glucose). Remission is the temporary, partial, or complete disappearance of the clinical manifestations of a disease. Convalescence is the stage of recovery following an acute stage of disease or injury. Prognosis is a forecast as to the probable course and outcome of disease (which is favorable here). Sequelae are permanent lesions, disorders, or pathological conditions resulting from a preceding disease, which Marcus did not develop. Mortality refers to the death rate within a population and cannot be inferred from a single client's recovery."
         },
         "leftContent": {
@@ -3513,7 +3528,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 1 (Introduction to Pathophysiology)",
     "description": "A case study for formative review of NURS 1017 Unit 1",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782350000002",
@@ -3646,7 +3662,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "The nurse analyzes Evelyn's history and reviews newly available laboratory and imaging findings (see Diagnostic and Laboratory Findings tab).",
+          "preamble": "The nurse analyzes Evelyn's history and reviews newly available laboratory and imaging findings. The nurse has reviewed the Diagnostic and Laboratory Findings.",
           "explanation": "The subclinical stage occurs when a disease process is active in the body without apparent clinical manifestations (e.g., autoantibodies present before physical symptoms). The prodromal stage is the brief period before the onset of acute disease characterized by vague, premonitory symptoms (e.g., generalized malaise and fatigue). An exacerbation is an acute increase in the severity of a disease or any of its clinical manifestations."
         },
         "leftContent": {
@@ -3908,7 +3924,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Follow-Up Assessment (6 Months Later).",
           "explanation": "Remission is the temporary, partial, or complete disappearance of the clinical manifestations of a disease without being cured. Sequelae are any lesions, disorders, or pathological conditions that result from a preceding disease or accident (such as permanent joint deformity or restriction). Morbidity is a diseased condition or state, which has substantially improved with functional recovery. Prognosis is a forecast as to the probable course and outcome of the disease. Remission does not mean the disease is eradicated. Oral thrush resulting from corticosteroid immunosuppression is iatrogenic, not idiopathic."
         },
         "leftContent": {
@@ -3940,7 +3956,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 1 (Introduction to Pathophysiology)",
     "description": "A case study for formative review of NURS 1017 Unit 1",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1789753289436",
@@ -4103,7 +4120,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Clinical & Pathological Finding"
           },
           "options": [],
-          "preamble": "Endoscopy, echocardiography, and biopsy pathology reports have been added to the client's chart (see Diagnostic Reports tab).",
+          "preamble": "Endoscopy, echocardiography, and biopsy pathology reports have been added to the client's chart. The nurse has reviewed the Diagnostic Reports.",
           "explanation": "1. Hypertrophy: Increase in individual cell size resulting in overall organ enlargement, typical in non-dividing cells like cardiac myocytes adapting to chronic pressure overload (hypertension).<br>2. Metaplasia: Reversible transformation of one differentiated adult cell type into another differentiated cell type that better withstands a noxious microenvironment (e.g., columnar epithelium replacing squamous in the esophagus, or squamous replacing ciliated columnar in bronchial airways).<br>3. Atrophy: Reduction in cell size and functional capacity due to decreased workload/disuse, loss of innervation, or diminished blood supply.<br>4. Dysplasia: Disordered growth and maturation characterized by variation in cellular size and shape, hyperchromatic enlarged nuclei, and architectural disarray; it is a pre-malignant alteration that may progress to neoplasia."
         },
         "leftContent": {
@@ -4402,7 +4419,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "At the 12-month follow-up visit, Arthur reports he has quit smoking completely for 10 months, adheres to his prescribed ramipril and esomeprazole, and participates in regular aerobic walking.",
+          "preamble": "At the 12-month follow-up visit, Arthur reports he has quit smoking completely for 10 months, adheres to his prescribed ramipril and esomeprazole, and participates in regular aerobic walking. The nurse has reviewed the Nurses' Notes from the 12-Month Follow-Up.",
           "explanation": "The removal of noxious stimuli allows tissues with dividing stem cell populations to reverse adaptive metaplasia and early low-grade dysplasia. In the respiratory tract, differentiated pseudostratified ciliated columnar epithelium is regenerated by basal stem cells once tobacco smoke toxins are eliminated. Similarly, lowering systemic blood pressure decreases myocardial wall tension, reversing hemodynamic overload and halting left ventricular hypertrophy. This clinical case illustrates the fundamental pathophysiological principle: cellular adaptation and mild dysplasia are reversible upon removal of environmental stressors, preventing progression to irreversible malignant neoplasia."
         },
         "leftContent": {
@@ -4423,7 +4440,8 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 2 (Cellular Basis of Disease)",
-    "description": "58-year-old male with chronic GERD, smoking, and hypertension presenting with Barrett's metaplasia, bronchial squamous metaplasia, and left ventricular hypertrophy."
+    "description": "58-year-old male with chronic GERD, smoking, and hypertension presenting with Barrett's metaplasia, bronchial squamous metaplasia, and left ventricular hypertrophy.",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782360000002",
@@ -4527,7 +4545,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Pathophysiological Mechanism"
           },
           "options": [],
-          "preamble": "Laboratory and pathology results are now available in the electronic health record (see Laboratory & Pathology tab).",
+          "preamble": "Laboratory and pathology results are now available in the electronic health record. The nurse has reviewed the Laboratory &amp; Pathology results.",
           "explanation": "1. Hydropic swelling (cloudy swelling) occurs when cellular injury impairs ATP production, disabling the Na+/K+-ATPase pump; sodium accumulates intracellularly and draws water into the cytoplasm by osmosis.<br>2. Intracellular lipid accumulation (hepatic steatosis) in alcoholism results from excess NADH production, impaired mitochondrial beta-oxidation of fatty acids, increased lipogenesis, and decreased apolipoprotein synthesis needed for VLDL export.<br>3. Chaperone proteins (heat-shock proteins like Hsp70) bind misfolded nascent proteins to prevent aggregation and assist in proper 3D refolding under cellular stress.<br>4. Ubiquitin-proteasome pathway: When chaperone-assisted refolding fails, abnormal proteins are polyubiquitinated, targeting them to the 26S proteasome for degradation into reusable peptides."
         },
         "leftContent": {
@@ -4826,7 +4844,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Elena returns to the clinic 4 weeks after hospital discharge. She reports complete alcohol abstinence, active participation in a recovery support program, and excellent appetite with balanced nutrition.",
+          "preamble": "Elena returns to the clinic 4 weeks after hospital discharge. She reports complete alcohol abstinence, active participation in a recovery support program, and excellent appetite with balanced nutrition. The nurse has reviewed the Nurses' Notes from the 4-Week Outpatient Follow-up.",
           "explanation": "This case exemplifies the hallmark clinical course of reversible cellular injury. Once the chemical toxin (alcohol) is eliminated and nutritional cofactors are restored, mitochondrial aerobic respiration recovers, generating the ATP necessary to power the Na+/K+-ATPase pump. Intracellular sodium is actively pumped out against its concentration gradient, followed by water, resolving hydropic swelling. Concurrently, normal lipid synthesis and apolipoprotein transport mechanisms resume, mobilizing intrahepatic fat droplets. The dramatic drop in transaminases reflects restored plasma membrane integrity, confirming full recovery from reversible injury without progression to permanent necrosis or cirrhosis."
         },
         "leftContent": {
@@ -4847,7 +4865,8 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 2 (Cellular Basis of Disease)",
-    "description": "46-year-old female with chronic alcohol abuse and malnutrition presenting with severe hepatic steatosis, hydropic swelling, and proteasome stress."
+    "description": "46-year-old female with chronic alcohol abuse and malnutrition presenting with severe hepatic steatosis, hydropic swelling, and proteasome stress.",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782360000003",
@@ -4951,7 +4970,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Clinical & Pathological Scenario"
           },
           "options": [],
-          "preamble": "Laboratory results and preliminary wound culture findings have returned (see Laboratory & Wound Assessment tab).",
+          "preamble": "Laboratory results and preliminary wound culture findings have returned. The nurse has reviewed the Laboratory &amp; Wound Assessment.",
           "explanation": "1. Coagulative necrosis: Most commonly caused by ischemia (except in the brain); protein denaturation predominates over enzymatic lysis, preserving basic structural cell outlines ('tombstone' or 'ghost' cells) for several days while nuclei undergo pyknosis, karyorrhexis, and karyolysis.<br>2. Liquefactive necrosis: Enzymatic digestion predominates over protein denaturation; dead cells completely dissolve into a fluid viscous mass (pus/abscess), classic in bacterial/fungal infections and hypoxic death of central nervous system tissue (brain).<br>3. Fat necrosis: Characterized by lipase-mediated destruction of adipose tissue (e.g., in acute pancreatitis or breast trauma); released free fatty acids bind with calcium ions (saponification) creating gross chalky-white deposits.<br>4. Caseous necrosis: Distinctive feature of tuberculosis; tissue architecture is completely obliterated, leaving a friable, cheesy, amorphous granular debris surrounded by granulomatous inflammation."
         },
         "leftContent": {
@@ -5169,7 +5188,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Postoperative Nursing Action"
           },
           "options": [],
-          "preamble": "Walter is transferred to the surgical ICU following emergent right transmetatarsal amputation and extensive surgical debridement.",
+          "preamble": "Walter is transferred to the surgical ICU following emergent right transmetatarsal amputation and extensive surgical debridement. The nurse has reviewed the Nurses' Notes from 1830 (Postoperative SICU).",
           "explanation": "1. Indicated: Supplemental oxygen supports mitochondrial oxidative phosphorylation in borderzone tissues and creates an oxygen-rich environment toxic to obligate anaerobic Clostridium species.<br>2. Indicated: Reperfusion of chronically ischemic tissue delivers oxygen that generates toxic reactive oxygen species (free radicals) and high levels of extracellular calcium that rush into injured cells, triggering secondary cell death and cardiac arrhythmias.<br>3. Indicated: Hyperglycemia impairs neutrophil phagocytosis and wound healing; maintaining glucose 140–180 mg/dL optimizes cellular defense without inducing hypoglycemia.<br>4. Contraindicated: Weight-bearing and barefoot walking on a freshly debrided neuropathic diabetic amputation stump would cause immediate mechanical tissue disruption and catastrophic wound breakdown.<br>5. Non-Essential: Radiation therapy is used for malignant neoplasms, not infectious ischemic gangrene."
         },
         "leftContent": {
@@ -5250,7 +5269,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "On postoperative day 4, Walter is hemodynamically stable, afebrile, and his amputation site demonstrates clean, beefy red granulation tissue without purulence or crepitus.",
+          "preamble": "On postoperative day 4, Walter is hemodynamically stable, afebrile, and his amputation site demonstrates clean, beefy red granulation tissue without purulence or crepitus. The nurse has reviewed the Nurses' Notes from Postoperative Day 4.",
           "explanation": "This case summarizes the critical contrast between necrosis and apoptosis. In necrosis (including coagulative necrosis of dry gangrene and liquefactive necrosis of wet/gas gangrene), external injury disrupts the plasma membrane, spilling intracellular proteins, enzymes, and nucleic acids into surrounding interstitial spaces, triggering intense acute inflammation and tissue damage. In contrast, apoptosis is an orderly, programmed process wherein cell suicide is executed cleanly: cell shrinkage, chromatin condensation, and fragmentation into membrane-bound apoptotic bodies that display 'eat-me' signals (like phosphatidylserine) for rapid recognition and engulfment by tissue macrophages, preventing any inflammatory damage to neighboring tissues."
         },
         "leftContent": {
@@ -5271,7 +5290,8 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 2 (Cellular Basis of Disease)",
-    "description": "72-year-old male with diabetes and PAD presenting with ischemic dry gangrene progressing to liquefactive wet/gas gangrene with septic shock."
+    "description": "72-year-old male with diabetes and PAD presenting with ischemic dry gangrene progressing to liquefactive wet/gas gangrene with septic shock.",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782370000001",
@@ -5396,7 +5416,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Clinical & Genetic Manifestation"
           },
           "options": [],
-          "preamble": "Karyotype results and diagnostic genetic consult notes have been added to infant Leo's chart (see Diagnostic & Genetic Reports tab).",
+          "preamble": "Karyotype results and diagnostic genetic consult notes have been added to infant Leo's chart. The nurse has reviewed the Nurses' Notes from 1200 and the Diagnostic &amp; Genetic Reports.",
           "explanation": "1. Down Syndrome (Trisomy 21): Extra autosome 21 (47,XX,+21 or 47,XY,+21); manifestations include hypotonia, protruding tongue, epicanthal folds, low-set ears, atrioventricular septal defects, and high lifetime risk of leukemia and Alzheimer disease.<br>2. Turner Syndrome (45,X): Monosomy of the X chromosome in females (only 1 normal X; other missing or structurally abnormal); manifestations include short stature, webbed neck, broad shield-like chest with widely spaced nipples, streak ovaries causing primary amenorrhea and sterility, and aortic coarctation/bicuspid aortic valve.<br>3. Klinefelter Syndrome (47,XXY): Polysomy of sex chromosomes in males (extra X chromosome); manifestations include male phenotype, testicular atrophy, reduced testosterone production causing gynecomastia, female-pattern hair distribution, taller than average height with elongated limbs, infertility, and verbal/learning deficits."
         },
         "leftContent": {
@@ -5421,7 +5441,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse analyzes the client's clinical data and genetic findings to formulate priorities of care.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes and Vital Signs from 1400 (DOL 1).",
           "explanation": "Trisomy 21 (Down syndrome) most commonly (~95% of cases) arises from nondisjunction of chromosome 21 during parental meiosis (strongly correlated with advancing maternal age). The presence of a large atrial septal defect creates a left-to-right intracardiac shunt, placing the infant at high risk for pulmonary overcirculation, tachypnea, diaphoresis with feeds, and congestive heart failure. Concurrently, generalized hypotonia coupled with a protruding tongue (macroglossia) causes weak suction, uncoordinated swallowing, and increased risk for feeding fatigue, poor caloric intake, and aspiration of formula or breast milk.",
           "cloze": {
             "text": "The infant's chromosomal abnormality is caused by [[drop0]] during parental meiosis, resulting in autosomal aneuploidy with three copies of chromosome 21. The nurse's immediate physiological priority during the newborn transition period is monitoring for [[drop1]] secondary to the confirmed atrial septal defect. Due to generalized muscular hypotonia and macroglossia, the nurse must prioritize interventions to prevent [[drop2]] during enteral nutrition.",
@@ -5543,7 +5563,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1600 (DOL 1) and the Cardiology Consult Note.",
           "explanation": "Key nursing interventions for a neonate with Trisomy 21 and a congenital heart defect (ASD) include: (Option 2) Upright positioning with head and neck supported to facilitate swallowing and prevent aspiration; (Option 4) Using specialized feeding devices (e.g., Haberman or firm nipple) with small, frequent feeds (limiting feeds to 20–30 minutes to avoid excessive caloric expenditure and fatigue); (Options 1 and 5) Close monitoring for heart failure (daily weights, respiratory effort, tachypnea, hepatomegaly, diaphoresis with feeds); and (Option 6) Providing emotional support, genetic counseling referrals, and connection to infant development resources. Hyperextending the neck increases airway aspiration risk, and forcing 60-minute feeds exhausts the infant and increases cardiac work."
         },
         "leftContent": {
@@ -5620,7 +5640,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Nursing Action"
           },
           "options": [],
-          "preamble": "The nurse is executing the daily neonatal care plan and monitoring infant Leo on DOL 2.",
+          "preamble": "The nurse is executing the daily neonatal care plan and monitoring infant Leo on DOL 2. The nurse has reviewed the Nurses' Notes and Vital Signs from 0800 (DOL 2).",
           "explanation": "1. Indicated: Assessing oxygen saturation and apical pulse pre- and post-feeding evaluates cardiopulmonary tolerance and detects early decompensation.<br>2. Contraindicated: Prone sleeping is contraindicated due to increased risk of sudden infant death syndrome (SIDS); infants must sleep supine on a flat, firm surface.<br>3. Indicated: Clearing oral secretions with a bulb syringe helps maintain airway patency, especially given hypotonia and macroglossia.<br>4. Contraindicated: Prophylactic IV aminoglycosides are not indicated without evidence of systemic infection and pose risks of nephrotoxicity and ototoxicity.<br>5. Indicated: Monitoring diaper count (aiming for 6+ wet diapers/day), fontanel fullness, and skin turgor accurately evaluates hydration status.<br>6. Non-Essential: Invasive arterial monitoring is unnecessary and invasive for a stable neonate without cardiogenic shock or vasoactive infusions."
         },
         "leftContent": {
@@ -5645,7 +5665,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge teaching and evaluates parental understanding prior to home transition.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge preparation is underway on Day of Life 3.",
+          "preamble": "Discharge preparation is underway on Day of Life 3. The nurse has reviewed the Nurses' Notes from 1100 (DOL 3) and the Discharge Summary.",
           "explanation": "1. Warning signs of worsening left-to-right shunt and heart failure in infants with congenital heart disease include diaphoresis during feeds, tachypnea (> 60 breaths/min), retractions, prolonged feeding times (> 30 mins), and faltering weight gain.<br>2. Children with Trisomy 21 have multisystem risks requiring structured surveillance: thyroid dysfunction (hypothyroidism ~15%), sensorineural/conductive hearing loss, acute leukemias (10- to 20-fold increased risk), celiac disease, obstructive sleep apnea, and atlantoaxial instability, as well as early Alzheimer disease in adult years.<br>3. For parents of a child with standard nondisjunction Trisomy 21, the recurrence risk in subsequent pregnancies is approximately 1% (or slightly higher if maternal age exceeds 40 years), which differs significantly from Mendelian single-gene disorders (25% or 50%).",
           "cloze": {
             "text": "The nurse recognizes that parents demonstrate correct understanding of home cardiac monitoring when they state they will notify the healthcare provider if the infant develops [[drop0]]. Regarding developmental screening and long-term health maintenance for Trisomy 21, the nurse educates the parents that regular evaluations are necessary due to an increased risk of [[drop1]]. When the mother asks about recurrence risk in future pregnancies, the nurse explains that the recurrence rate for standard meiotic nondisjunction trisomy 21 is approximately [[drop2]].",
@@ -5734,7 +5754,8 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
-    "description": "Newborn male presenting with hypotonia, low-set ears, epicanthal folds, protruding tongue, and heart murmur, prompting chromosomal karyotyping and comparative evaluation of Down, Turner, and Klinefelter syndromes."
+    "description": "Newborn male presenting with hypotonia, low-set ears, epicanthal folds, protruding tongue, and heart murmur, prompting chromosomal karyotyping and comparative evaluation of Down, Turner, and Klinefelter syndromes.",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782370000002",
@@ -5844,7 +5865,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Disorder & Pathophysiology"
           },
           "options": [],
-          "preamble": "The nurse is reviewing Mendelian inheritance principles to prepare genetic education modules for the clients.",
+          "preamble": "The nurse is reviewing Mendelian inheritance principles to prepare genetic education modules for the clients. The nurse has reviewed the Nurses' Notes from 1030 and the Genetic &amp; Diagnostic Reports.",
           "explanation": "1. Cystic Fibrosis (CFTR): Autosomal recessive. Affects epithelial chloride conductance, leading to dehydrated thick mucus in pulmonary airways and pancreatic duct obstruction.<br>2. Marfan Syndrome (FBN1): Autosomal dominant. Connective tissue microfibril defect causing aortic root dilation/rupture, mitral valve prolapse, tall stature, and skeletal deformities.<br>3. Hemophilia A (F8): X-linked recessive. Factor VIII deficiency; affected individuals are almost exclusively male (hemizygous), while carrier females transmit the defective X chromosome.<br>4. Huntington Disease (HTT): Autosomal dominant. Progressive neurodegeneration with motor (chorea) and cognitive decline appearing around age 40 due to huntingtin protein aggregation. Offspring of an affected individual have a 50% (1 in 2) chance of inheriting the gene.<br>5. Sickle Cell Disease (HBB): Autosomal recessive. Both parents must carry the mutant allele for an offspring to have a 25% chance of being affected (homozygous HbSS)."
         },
         "leftContent": {
@@ -5869,7 +5890,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse utilizes Punnett square principles to calculate genetic transmission risks for Maya and David's future offspring.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1115 and the Punnett Probability Reference.",
           "explanation": "1. Autosomal Recessive (Cystic Fibrosis): When two heterozygous carriers mate (Cc x Cc), Punnett square yields: 25% homozygous normal (CC), 50% heterozygous carrier (Cc), and 25% homozygous affected (cc). Thus, each child has a 1 in 4 (25%) risk of having CF.<br>2. X-Linked Recessive (Hemophilia A): A carrier mother (XHXh) and normal father (XHY) produce daughters who are XHXH (50% normal) or XHXh (50% carrier), and sons who are XHY (50% normal) or XhY (50% affected). Thus, any son born has a 50% (1 in 2) probability of having Hemophilia A.<br>3. Autosomal Dominant (Marfan Syndrome): An affected individual heterozygous for the mutant allele (Mm) mated with an unaffected partner (mm) produces 50% affected offspring (Mm) and 50% unaffected offspring (mm), with males and females equally at risk.",
           "cloze": {
             "text": "Because both Maya and David are heterozygous carriers for Cystic Fibrosis (Cc x Cc), with each pregnancy there is a [[drop0]] probability of having a child affected with Cystic Fibrosis. As an X-linked recessive carrier (X<sup>H</sup>X<sup>h</sup>) partnered with an unaffected male (X<sup>H</sup>Y), Maya has a [[drop1]] probability of giving birth to an affected son with Hemophilia A. If David is confirmed to carry a heterozygous dominant mutation for Marfan syndrome (Mm x mm), any biological child has a [[drop2]] probability of inheriting the disorder regardless of biological sex.",
@@ -5991,7 +6012,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1300 and the Care Pathways.",
           "explanation": "Appropriate nursing interventions include: (Option 5) Promptly alerting the cardiology healthcare provider regarding David's aortic root dilation (4.4 cm is significantly enlarged in Marfan syndrome, placing him at risk for fatal aortic dissection/rupture); (Option 1) Educating David on avoiding isometric resistance exercises and high-impact contact sports to prevent acute aortic wall shear stress; (Option 4) Reviewing reproductive technologies (PGD with IVF, or prenatal diagnostic amniocentesis/CVS) so the couple can make informed family planning decisions; (Option 6) Educating Maya regarding hemophilia precautions for a male newborn (deferring elective circumcisions until coagulation factor VIII status is verified to prevent life-threatening hemorrhage); and (Option 7) Providing psychological support and disease-specific foundation resources. Aortic dilation of 4.4 cm is never a benign athletic finding in someone with Marfan phenotype. Folic acid prevents neural tube defects (multifactorial developmental defect), but cannot prevent or repair Mendelian single-gene DNA mutations."
         },
         "leftContent": {
@@ -6068,7 +6089,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Clinical Intervention & Education"
           },
           "options": [],
-          "preamble": "The nurse is reviewing discharge teaching and self-care instructions with Maya and David.",
+          "preamble": "The nurse is reviewing discharge teaching and self-care instructions with Maya and David. The nurse has reviewed the Nurses' Notes from 1430.",
           "explanation": "1. Indicated: Sudden tearing chest or back pain is the hallmark warning symptom of acute aortic dissection, requiring immediate emergency intervention.<br>2. Contraindicated: Heavy isometric lifting and contact sports dramatically elevate systolic blood pressure and aortic wall stress, increasing risk of dissection/rupture in Marfan syndrome.<br>3. Indicated: Fibrillin-1 mutations affect the ciliary zonules of the eye, making ectopia lentis (upward lens dislocation) a frequent diagnostic finding in Marfan syndrome.<br>4. Contraindicated: Discontinuing prenatal multivitamins is harmful; periconceptional folic acid is essential to prevent neural tube defects.<br>5. Indicated: Meconium ileus at birth, salty skin (elevated sweat chloride), failure to thrive, and steatorrhea (pancreatic exocrine deficiency) are classic infantile presentations of CF.<br>6. Non-Essential: Daily blood glucose checks are not indicated for an asymptomatic young adult with normal glycemic status and no acute symptoms."
         },
         "leftContent": {
@@ -6088,7 +6109,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse evaluates the couple's understanding of genetic principles and health maintenance before concluding the visit.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Post-counseling evaluation in the genetics clinic.",
+          "preamble": "Post-counseling evaluation in the genetics clinic. The nurse has reviewed the Nurses' Notes from 1530.",
           "explanation": "1. Autosomal Recessive Carrier Probability among Unaffected Offspring: Among the healthy/unaffected children of two carriers (excluding the 25% homozygous affected [cc]), 2 out of 3 (66.7%) will be heterozygous carriers (Cc), while 1 out of 3 (33.3%) will be homozygous normal (CC).<br>2. X-Linked Recessive: Carrier mothers have a 50% chance of transmitting the defective X to daughters, making them asymptomatic carriers. A female would only be clinically affected if her father had hemophilia and her mother was a carrier (or through non-random X-inactivation/Turner syndrome).<br>3. Marfan Syndrome Management: Connective tissue deficiency cannot be cured; medical management focuses on lifelong serial echocardiography/MRI surveillance of aortic diameter and administration of beta-blockers or angiotensin receptor blockers (ARBs) to lower heart rate and blood pressure, reducing pulsatile aortic wall stress.",
           "cloze": {
             "text": "The nurse confirms the couple understands autosomal recessive transmission when they state that an unaffected child born to two carriers has a [[drop0]] probability of being a carrier like themselves. Regarding X-linked inheritance, the nurse verifies comprehension when Maya states that her future daughters [[drop1]]. In reviewing the natural history of Marfan syndrome, the nurse confirms David understands that aortic root dilation requires [[drop2]].",
@@ -6172,7 +6193,8 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
-    "description": "Young couple presenting for preconception genetic counseling and health assessment with complex family history of Cystic Fibrosis (autosomal recessive), Marfan syndrome (autosomal dominant), and Hemophilia A (X-linked recessive)."
+    "description": "Young couple presenting for preconception genetic counseling and health assessment with complex family history of Cystic Fibrosis (autosomal recessive), Marfan syndrome (autosomal dominant), and Hemophilia A (X-linked recessive).",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782370000003",
@@ -6297,7 +6319,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Clinical Finding / Prenatal Exposure"
           },
           "options": [],
-          "preamble": "Laboratory evaluations, serology, and cranial imaging results have been reported (see Diagnostic & Laboratory Reports tab).",
+          "preamble": "Laboratory evaluations, serology, and cranial imaging results have been reported. The nurse has reviewed the Nurses' Notes from 0900 and the Diagnostic &amp; Laboratory Reports.",
           "explanation": "1. Fetal Alcohol Spectrum Disorders (FASD): Maternal ethanol easily crosses the placenta, generating reactive oxygen species, suppressing protein synthesis, and damaging migrating neural crest cells. This results in the triad of facial dysmorphology (smooth philtrum, thin vermilion, short palpebral fissures), growth restriction, and CNS neurodevelopmental damage.<br>2. TORCH Complex (Toxoplasmosis, Others, Rubella, Cytomegalovirus, Herpes simplex): Intrauterine pathogens cause chronic fetal infection characterized by hepatosplenomegaly, extramedullary cutaneous hematopoiesis ('blueberry muffin' rash), thrombocytopenia, intracranial calcifications, chorioretinitis, and microcephaly.<br>3. Multifactorial / Polygenic Inheritance: Disorders such as cleft lip/palate, congenital heart defects, and neural tube defects do not follow strict Mendelian ratios; they arise from cumulative interactions among multiple additive genes plus environmental factors during vulnerable developmental windows.<br>4. Toxoplasma gondii is an intracellular protozoan parasite (part of TORCH) contracted via handling cat litter or raw meat."
         },
         "leftContent": {
@@ -6322,7 +6344,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse synthesizes the timing of teratogenic injury and clinical findings to establish nursing care priorities.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1100 and the Teratology Principles Chart.",
           "explanation": "1. Teratogenic Vulnerability: The first 8 weeks of gestation (the embryonic period) represent the critical window of organogenesis during which tissues and organs differentiate. Exposure to teratogens (alcohol, medications, infectious agents, radiation) during this period causes severe structural malformations (e.g., neural tube defects, heart anomalies, facial clefts). In contrast, teratogens in the fetal period (week 9 to term) primarily impair growth and physiological/organ maturation (e.g., microcephaly, functional CNS deficits).<br>2. Congenital Cytomegalovirus (CMV): The leading non-genetic cause of sensorineural hearing loss and neurodevelopmental disability in children. Intracranial periventricular calcifications reflect necrosis and inflammation of germinal matrix tissues.<br>3. Cleft Lip Nursing Priorities: Infants with cleft lip struggle to achieve an airtight seal around a standard nipple, causing excessive air swallowing (aerophagia), nasal regurgitation, fatigue, inadequate caloric intake, and aspiration.",
           "cloze": {
             "text": "The developing human conceptus is most vulnerable to major structural malformations caused by teratogenic agents during [[drop0]], when basic organogenesis is occurring. The positive urine CMV PCR and periventricular calcifications indicate congenital cytomegalovirus infection, which places infant Noah at highest long-term risk for [[drop1]]. In managing the infant's unilateral cleft lip defect during enteral feeding, the primary nursing concern is preventing [[drop2]].",
@@ -6444,7 +6466,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1300 and the Clinical Pathway.",
           "explanation": "Appropriate nursing interventions include: (Option 4) Utilizing specialty cleft feeders with assisted squeezes and gentle cheek support to compensate for the absent lip seal; (Option 3) Frequent burping to expel swallowed air resulting from poor suction; (Option 5) Implementing bleeding precautions (soft handling, monitoring for petechiae/hematuria, minimizing venipunctures/IM injections) due to thrombocytopenia (platelets 68 &times; 109/L); (Option 7) Minimizing sensory stimulation (dim lighting, clustering care, swaddling) for neurobehavioral irritability/tremulousness characteristic of neonatal alcohol withdrawal and CNS teratogenicity; and (Option 6) Fostering maternal-infant attachment through compassionate, nonjudgmental support. Feeding infants flat supine is strictly contraindicated due to high aspiration and choking risk. Scolding or shaming the mother is unprofessional, destroys therapeutic rapport, and impedes infant care."
         },
         "leftContent": {
@@ -6521,7 +6543,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Nursing Action"
           },
           "options": [],
-          "preamble": "The nurse is preparing medications and setting up safety measures on Day of Life 2.",
+          "preamble": "The nurse is preparing medications and setting up safety measures on Day of Life 2. The nurse has reviewed the Nurses' Notes from 0800 (DOL 2) and the Vital Signs.",
           "explanation": "1. Indicated: CMV is shed in high titers in urine and saliva; meticulous standard precautions and gloves during diaper changes prevent nosocomial transmission (especially critical for pregnant healthcare personnel).<br>2. Indicated: IV ganciclovir treats symptomatic congenital CMV (reducing hearing and neurodevelopmental deterioration); it requires controlled infusion via pump and site assessment to avoid phlebitis/extravasation.<br>3. Contraindicated: CMV is transmitted via body fluid contact (urine, saliva), not airborne droplet nuclei; airborne negative pressure isolation is inappropriate and wasteful.<br>4. Indicated: Prolonged firm pressure after puncture is required due to thrombocytopenia (platelets 68 &times; 109/L) to prevent hematoma and continued oozing.<br>5. Contraindicated: Repeated skull X-rays deliver unnecessary ionizing radiation (which itself is a known mutagen/teratogen) without clinical benefit; microcephaly is monitored non-invasively with a measuring tape.<br>6. Non-Essential: Continuous SpO2 during feeds is non-essential for an infant without cardiopulmonary failure or baseline desaturations."
         },
         "leftContent": {
@@ -6546,7 +6568,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge counseling and prepares the family for community support and developmental surveillance.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge preparation and health promotion teaching on Day of Life 3.",
+          "preamble": "Discharge preparation and health promotion teaching on Day of Life 3. The nurse has reviewed the Nurses' Notes from 1400 (DOL 3) and the Interprofessional Discharge Plan.",
           "explanation": "1. Fetal Alcohol Exposure Education: There is no known safe threshold, dose, or gestational timing for alcohol consumption during pregnancy. Abstinence from alcohol throughout pregnancy and when attempting to conceive is the only proven preventive measure.<br>2. Toxoplasmosis Prevention: Toxoplasma gondii oocysts are shed in feline feces and cysts are found in undercooked meat. Prevention involves having someone else change cat litter, washing hands thoroughly after gardening/soil exposure, and cooking meats to safe internal temperatures (> 66–74 °C). No human vaccine exists for toxoplasmosis.<br>3. Cleft Lip Surgical Timing: Cheiloplasty (cleft lip repair) is typically performed at approximately 10 to 12 weeks of age, guided by the traditional 'rule of 10s' (age at least 10 weeks, weight at least 10 pounds [4.5 kg], hemoglobin at least 10 g/dL [100 g/L], and WBC < 10,000) to ensure surgical and anesthetic safety. In contrast, cleft palate repair is typically performed later, between 9 and 18 months, before significant speech development.",
           "cloze": {
             "text": "In educating the mother regarding Fetal Alcohol Spectrum Disorders, the nurse emphasizes that safe alcohol consumption during pregnancy is [[drop0]]. Regarding the prevention of congenital toxoplasmosis in future pregnancies, the nurse instructs the mother to [[drop1]]. The nurse explains that surgical reconstruction for the infant's cleft lip is typically planned at around [[drop2]], provided the infant meets physiological growth and stability criteria.",
@@ -6635,7 +6657,8 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
-    "description": "Newborn infant presenting with intrauterine growth restriction, microcephaly, smooth philtrum, thin vermilion border, cleft lip, and sensorineural hearing impairment, prompting nursing analysis of teratogenic timing, TORCH infections, FAS, and multifactorial inheritance."
+    "description": "Newborn infant presenting with intrauterine growth restriction, microcephaly, smooth philtrum, thin vermilion border, cleft lip, and sensorineural hearing impairment, prompting nursing analysis of teratogenic timing, TORCH infections, FAS, and multifactorial inheritance.",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782380000001",
@@ -6753,7 +6776,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Core needle biopsy results from the breast mass and pelvic imaging have been added to the client's electronic health record (see Diagnostic & Pathology Reports tab).",
+          "preamble": "Core needle biopsy results from the breast mass and pelvic imaging have been added to the client's electronic health record. The nurse has reviewed the Nurses' Notes from 1130 and the Diagnostic &amp; Pathology Reports.",
           "explanation": "1. Benign neoplasms: composed of well-differentiated cells that closely resemble the parent tissue, surrounded by a distinct fibrous capsule, slow expansive growth, absence of invasive or metastatic capabilities, and designated with suffix '-oma' (e.g., leiomyoma, adenoma).<br>2. Malignant neoplasms: characterized by anaplasia (loss of differentiation), cellular pleomorphism (variation in size and shape), hyperchromatic enlarged nuclei, infiltrative destruction of surrounding normal tissues, lack of encapsulation, rapid growth with central hemorrhage/necrosis, initiation of tumor angiogenesis, and the ability to invade lymphatics/blood vessels to establish distant metastases. Malignant epithelial tumors are termed 'carcinomas', while mesenchymal tumors are 'sarcomas'."
         },
         "leftContent": {
@@ -6778,7 +6801,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse analyzes the client's clinical data and surgical pathology plan.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1300 and the Surgical Consult Plan.",
           "explanation": "Carcinomas arise from epithelial tissue; an adenocarcinoma specifically arises from glandular epithelial tissue (such as mammary ducts and lobules). In modern oncologic surgery, a sentinel lymph node biopsy (SLNB) uses radiotracer or isosulfan blue dye to identify and biopsy the first draining lymph node(s) receiving lymphatic flow from the primary tumor bed. If the sentinel node is negative for malignant cells, the remaining downstream axillary lymph nodes are statistically free of metastasis, sparing the client an extensive complete axillary node dissection and dramatically reducing the lifelong risk of upper extremity lymphedema, nerve damage, and chronic arm pain.",
           "cloze": {
             "text": "The client's breast malignancy is an adenocarcinoma, indicating a malignant tumor derived from [[drop0]] tissue. To accurately determine regional lymphatic spread while minimizing surgical morbidity, the nurse anticipates the surgical team will perform a [[drop1]]. If the histological evaluation of the first draining lymph node shows no malignant cells, the nurse understands that [[drop2]].",
@@ -6896,7 +6919,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1430.",
           "explanation": "Appropriate nursing interventions include: (Option 6) Teaching the physiological basis of sentinel lymph node mapping using radiotracer and blue dye; (Option 3) Preparing the client for harmless transient blue-green discoloration of urine and skin from isosulfan blue; (Option 2) Educating on lymphedema prevention (limb precautions: no venipunctures, injections, or blood pressure measurements on the operative side); and (Option 4) Providing psychosocial support and navigation. The benign uterine leiomyoma is slow-growing and asymptomatic aside from known menorrhagia; the invasive breast carcinoma is an aggressive malignant lesion requiring prioritized surgical and oncologic management. Heavy lifting immediately postoperatively is contraindicated due to risks of wound dehiscence and hematoma."
         },
         "leftContent": {
@@ -6968,7 +6991,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Eleanor is admitted to the same-day surgical unit on the day of surgery (0630).",
+          "preamble": "Eleanor is admitted to the same-day surgical unit on the day of surgery (0630). The nurse has reviewed the Nurses' Notes and Vital Signs from 0630.",
           "explanation": "1. Indicated: Placing a limb alert band and utilizing the non-operative left arm for IV access prevents lymphatic trauma and lymphedema.<br>2. Indicated: Confirming surgical site marking with the client awake is a mandatory Universal Protocol safety step to prevent wrong-site surgery.<br>3. Contraindicated: Blood pressure cuffs must never be applied to the operative arm due to risk of vascular and lymphatic compromise.<br>4. Contraindicated: Razor shaving causes microscopic epidermal abrasions that significantly increase surgical site infection risk; if hair removal is needed, surgical clippers are used.<br>5. Indicated: Establishing baseline neurovascular and range of motion function is critical for detecting postoperative brachial plexus or intercostobrachial nerve injury.<br>6. Non-Essential: Invasive nephrostomy tubes are completely unnecessary for breast lumpectomy and SLNB."
         },
         "leftContent": {
@@ -6993,7 +7016,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse assesses Eleanor in the Post-Anesthesia Care Unit (PACU) and evaluates surgical pathology findings.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Postoperative recovery in the surgical day-stay unit (1400).",
+          "preamble": "Postoperative recovery in the surgical day-stay unit (1400). The nurse has reviewed the Nurses' Notes from 1400 and the Operative &amp; Pathology Summary.",
           "explanation": "1. Pathology Evaluation: A finding of pT2N0 (tumor > 2 cm but <= 5 cm, with negative sentinel nodes) confirms that malignant cells have not invaded the regional lymphatic basin, placing the patient in a localized stage with a favorable prognosis and sparing full axillary clearance.<br>2. Isosulfan Blue Elimination: Green or blue-tinted urine is an expected physiological finding caused by renal excretion of the lymphatic mapping dye.<br>3. Lymphedema Surveillance: Early symptoms of lymphedema include fullness, heaviness, tightness, and mild edema of the arm. Early detection allows prompt referral for specialized decongestive therapy and compressive garments to prevent permanent fibrotic changes.",
           "cloze": {
             "text": "The intraoperative surgical pathology report confirms negative margins on the primary tumor and 0 of 2 sentinel nodes containing metastases (pT2N0), which indicates [[drop0]]. In evaluating the client's postoperative voiding, the nurse recognizes that greenish-blue urine is [[drop1]]. Prior to discharge home, the nurse instructs Eleanor that if she notices sudden swelling, tautness, or a sensation of heaviness in the right arm, she should [[drop2]].",
@@ -7080,7 +7103,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782380000002",
@@ -7192,7 +7216,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Colonoscopy and molecular genetic analysis have been completed (see Diagnostic & Endoscopy Reports tab).",
+          "preamble": "Colonoscopy and molecular genetic analysis have been completed. The nurse has reviewed the Nurses' Notes from 1330 and the Diagnostic &amp; Endoscopy Reports.",
           "explanation": "1. Initiation: The first stage, wherein a carcinogen damages cellular DNA, causing an irreversible mutational event (e.g., APC tumor suppressor loss on chromosome 5q). The cell is altered but does not yet form a tumor without subsequent stimulation.<br>2. Promotion: The intermediate stage, during which initiated cells are stimulated to proliferate by promoters (hormones, growth factors, bile acids, nutritional co-factors, K-Ras oncogene activation). This leads to clonal expansion and benign intermediate adenomas. Promotion is potentially reversible if promoting stimuli are removed.<br>3. Progression: The final irreversible stage where proliferating cells undergo additional mutations (loss of p53, Smad4, telomerase activation), acquiring overt malignant characteristics: autonomous proliferation, invasive capacity, neovascularization (angiogenesis), and metastatic competence."
         },
         "leftContent": {
@@ -7217,7 +7241,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse synthesizes the molecular and genetic findings to guide clinical reasoning.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1500.",
           "explanation": "1. Proto-oncogenes vs. Oncogenes: Proto-oncogenes are normal genes that regulate cell growth, growth factor signaling, and transcription factors. A gain-of-function mutation transforms them into oncogenes (e.g., mutant K-Ras), generating continuous, inappropriate growth signals even without external growth factor stimulation.<br>2. Tumor Suppressor Genes (p53): p53 is the most frequently mutated tumor suppressor in human cancer. It accumulates when DNA is damaged, halting cell division at G1/S to permit DNA repair; if damage cannot be repaired, p53 triggers programmed cell death (apoptosis). Inactivating mutations in p53 remove this critical checkpoint, allowing genetically defective cells to survive and proliferate.<br>3. Telomerase: Normal somatic cells have a finite lifespan because telomeres shorten with each cell cycle. Cancer cells synthesize telomerase, an enzyme that maintains telomere length at chromosome ends, conferring limitless replicative immortality.",
           "cloze": {
             "text": "The client's tumor exhibits an activating mutation in K-Ras, which transforms a normal proto-oncogene into an oncogene through [[drop0]]. The concurrent loss of functional p53 protein is critical to tumor progression because normal p53 functions as the 'guardian of the genome' by [[drop1]]. Malignant cells achieve limitless replicative potential ('cellular immortality') primarily by producing [[drop2]], which prevents critical chromosomal shortening during division.",
@@ -7330,7 +7354,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1600.",
           "explanation": "Canadian Cancer Statistics and cancer prevention guidelines establish that approximately 4 in 10 cancer cases are preventable through modifiable lifestyle factors: (Option 5) Tobacco cessation is paramount, as smoking causes 18-25% of all cancer deaths; (Options 1 and 4) Maintaining a healthy BMI through regular exercise (at least 150 mins/week) and a high-fiber diet rich in cruciferous vegetables reduces colon cancer risk; (Option 6) First-degree relatives of individuals with colorectal cancer have double the baseline risk and must begin screening at age 40 (or 10 years before the index case's diagnosis, whichever is earlier); (Option 2) Dietary supplements do not substitute for surgical and oncologic intervention. Colorectal cancer screening in asymptomatic adults is vital because early lesions produce no symptoms."
         },
         "leftContent": {
@@ -7402,7 +7426,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "The nurse evaluates care priorities for Robert prior to hospital admission for laparoscopic sigmoid colectomy.",
+          "preamble": "The nurse evaluates care priorities for Robert prior to hospital admission for laparoscopic sigmoid colectomy. The nurse has reviewed the Nurses' Notes from 1000 (Pre-Admission).",
           "explanation": "1. Indicated: An annular constricting sigmoid tumor can progress to complete mechanical obstruction or cecal perforation; serial abdominal assessments for distension, tenderness, and flatus are crucial.<br>2. Indicated: Correcting iron deficiency anemia (hemoglobin 98 g/L) optimizes oxygen delivery and surgical resilience.<br>3. Contraindicated: Forcing high-volume cathartic bowel preparations against an acutely obstructed bowel lumen can trigger massive proximal bowel distension, ischemia, and catastrophic perforation.<br>4. Indicated: Preoperative stoma site marking and counseling by a wound/ostomy nurse significantly eases adaptation if a temporary colostomy is required.<br>5. Non-Essential: Routine hourly ABGs are invasive and inappropriate for a stable outpatient without respiratory failure.<br>6. Contraindicated: Carbonated drinks and high-residue seeds produce excess gas, cramps, and residue in a compromised colon."
         },
         "leftContent": {
@@ -7422,7 +7446,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse evaluates Robert's comprehension of carcinogenesis and risk reduction before concluding the visit.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Final pre-surgical nursing evaluation.",
+          "preamble": "Final pre-surgical nursing evaluation. The nurse has reviewed the Nurses' Notes from 1130.",
           "explanation": "1. Promotion Stage: Unlike initiation (which is rapid and irreversible DNA mutation), promotion involves prolonged clonal growth of altered cells, driven by promoters (hormones, chronic inflammation, obesity, toxic metabolites). It represents a critical window where lifestyle modifications and removal of promoters can slow or halt cancer development.<br>2. Tumor Markers (CEA): Carcinoembryonic antigen is a glycoprotein tumor marker elevated in colorectal carcinoma. It lacks sufficient sensitivity/specificity for initial screening of healthy populations, but is invaluable post-diagnosis for tracking response to surgical resection and detecting early postoperative tumor recurrence.<br>3. Post-Diagnosis Smoking Cessation: Stopping tobacco use improves surgical tissue oxygenation, accelerates incision healing, decreases pulmonary complications, improves chemotherapy tolerance, and significantly extends overall survival.",
           "cloze": {
             "text": "The nurse confirms the client understands the stages of cancer development when he states that the 'promotion' stage [[drop0]]. In explaining the role of tumor markers, the nurse notes that serum carcinoembryonic antigen (CEA) levels are used primarily to [[drop1]]. Regarding smoking cessation, the nurse reinforces that quitting smoking even after a cancer diagnosis [[drop2]].",
@@ -7504,7 +7528,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782380000003",
@@ -7615,7 +7640,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Bronchoscopic biopsy, CT imaging, and whole-body FDG-PET results have been compiled (see Diagnostic & Pathology Reports tab).",
+          "preamble": "Bronchoscopic biopsy, CT imaging, and whole-body FDG-PET results have been compiled. The nurse has reviewed the Nurses' Notes from 1300 and the Diagnostic &amp; Pathology Reports.",
           "explanation": "1. Histologic Grading: Examines the microscopic characteristics of the tumor cells themselves—the degree of differentiation (how much they resemble parent tissue) and anaplasia. Grade 1 indicates well-differentiated (low-grade, less aggressive) cells; Grade 4 indicates undifferentiated/anaplastic (high-grade, highly aggressive) cells with numerous atypical mitoses.<br>2. Staging (TNM): Describes the anatomical location, size, and extent of spread throughout the host body. 'T' reflects primary tumor size and local invasion; 'N' reflects regional lymph node involvement; 'M' reflects distant metastasis to other organs (e.g., bones, liver, adrenals, brain). Staging is the primary determinant of treatment modality and overall prognosis."
         },
         "leftContent": {
@@ -7640,7 +7665,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse analyzes the cellular mechanisms responsible for tumor invasion and distant metastasis.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1430.",
           "explanation": "1. Invasion and Detachment: For epithelial cancer cells to invade, they must downregulate intercellular cell-adhesion molecules, predominantly E-cadherin. Loss of E-cadherin allows tumor cells to break loose from adjacent cells, degrade the extracellular basement membrane via proteolytic enzymes (matrix metalloproteinases), and migrate into surrounding tissue.<br>2. Angiogenesis: An avascular tumor cannot grow beyond 1–2 mm due to diffusion limits. Malignant tumors secrete angiogenic factors, chiefly Vascular Endothelial Growth Factor (VEGF), stimulating the sprouting of new, tortuous, hyperpermeable blood vessels from existing host vasculature, nourishing the tumor and providing entryways into the systemic circulation.<br>3. PET Scan Principle: Malignant tumor cells rely heavily on aerobic glycolysis and have dramatically upregulated glucose transporters (the Warburg effect). Positron Emission Tomography (PET) injects 18F-fluorodeoxyglucose (FDG, a radioactive glucose analog), which is avidly taken up and trapped inside hypermetabolic cancer cells, producing bright 'hot spots' on scan images.",
           "cloze": {
             "text": "The initial step allowing malignant cells to detach from the primary tumor and invade surrounding extracellular matrix is the loss of [[drop0]]. To sustain tumor growth beyond 1 to 2 millimeters in diameter and provide routes for hematogenous metastasis, cancer cells secrete angiogenic growth factors such as [[drop1]]. The intense yellow/hot areas observed on Danielle's FDG-PET scan occur because malignant cells exhibit [[drop2]] compared to normal resting host tissue.",
@@ -7753,7 +7778,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1600.",
           "explanation": "Appropriate nursing interventions for stage IV metastatic cancer include: (Option 2) Scheduled, round-the-clock analgesic management for combined visceral and somatic/bone pain; (Option 5) Vigilant surveillance for spinal cord compression (an oncologic emergency caused by vertebral metastasis at L3 manifesting as progressive leg weakness, sensory loss, or incontinence); (Option 1) Education on bone-modifying agents to prevent pathological fractures, including dental precautions for osteonecrosis of the jaw; and (Option 3) Early palliative integration to address symptom burden, psychological coping, and advance directives. High-impact spinal manipulation over osteolytic vertebral metastases risks catastrophic pathological fracture and cord transection. Stage IV lung cancer is incurable, managed with palliative and life-prolonging systemic therapies."
         },
         "leftContent": {
@@ -7825,7 +7850,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Danielle is admitted to the oncology care unit for treatment initiation and pain stabilization.",
+          "preamble": "Danielle is admitted to the oncology care unit for treatment initiation and pain stabilization. The nurse has reviewed the Nurses' Notes from 0900 (Day 2).",
           "explanation": "1. Indicated: Assessing leg strength and sensation prior to ambulation prevents falls and detects early spinal cord compression from the L3 lesion.<br>2. Indicated: Numbness, paresthesias, and urinary retention are hallmark early signs of epidural spinal cord compression, requiring urgent MRI and high-dose corticosteroid therapy.<br>3. Indicated: Opioids cause dose-dependent constipation by slowing gastrointestinal motility; a bowel regimen must always accompany scheduled opioid therapy.<br>4. Contraindicated: Continuous high-intensity external heat over tumor sites or compromised bone can accelerate skin breakdown, cause severe burns, and increase local hemorrhage.<br>5. Indicated: Implantable vascular access ports protect peripheral veins from vesicant chemotherapy agents and provide reliable long-term venous access.<br>6. Non-Essential: Venous tourniquet tests are unnecessary and harmful to venous return."
         },
         "leftContent": {
@@ -7845,7 +7870,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge counseling and evaluates Danielle's understanding of her cancer diagnosis, stage, and home management.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge teaching prior to outpatient medical oncology follow-up.",
+          "preamble": "Discharge teaching prior to outpatient medical oncology follow-up. The nurse has reviewed the Nurses' Notes from 1400 (Day 3).",
           "explanation": "1. Stage IVB Understanding: Stage IVB is defined by distant metastases in multiple extra-thoracic organs (in this case, lumbar spine and contralateral adrenal gland) spread hematogenously.<br>2. Anti-angiogenic Mechanism: Anti-VEGF agents (e.g., bevacizumab) bind to VEGF, preventing endothelial cell proliferation and the creation of new microvessels, effectively starving the tumor of oxygen and nutrients.<br>3. Spinal Cord Compression: Symptoms such as lower extremity motor weakness, progressive sensory loss, or acute bowel/bladder dysfunction signal spinal cord compression from the L3 lesion, requiring immediate emergency spinal MRI and neurosurgical/radiation oncology intervention to prevent permanent paralysis.",
           "cloze": {
             "text": "The nurse confirms the client understands the difference between grading and staging when Danielle explains that her cancer is classified as Stage IVB because [[drop0]]. Regarding angiogenesis inhibition therapy, the nurse educates Danielle that anti-angiogenic medications work by [[drop1]]. The nurse recognizes that Danielle understands her oncologic emergency warning signs when she states she will seek immediate emergency medical care if she experiences [[drop2]].",
@@ -7927,7 +7952,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782380000004",
@@ -7957,7 +7983,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Multiple scattered petechiae and ecchymoses on bilateral forearms with platelet count of 28 &times; 10⁹/L",
+              "text": "Multiple scattered petechiae and ecchymoses on bilateral forearms with platelet count of 28 × 10⁹/L",
               "correct": true
             },
             {
@@ -7965,7 +7991,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Oral temperature of 38.6 °C (101.5 °F) with absolute neutrophil count (ANC) of 320/mm³ (0.32 &times; 10⁹/L)",
+              "text": "Oral temperature of 38.6 °C (101.5 °F) with absolute neutrophil count (ANC) of 320/mm³ (0.32 × 10⁹/L)",
               "correct": true
             }
           ],
@@ -8017,7 +8043,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Multiple petechiae, spontaneous mucosal ecchymoses, and platelet count of 28 &times; 10⁹/L",
+                "text": "Multiple petechiae, spontaneous mucosal ecchymoses, and platelet count of 28 × 10⁹/L",
                 "correctIndex": 3,
                 "correctIndices": [
                   3
@@ -8040,7 +8066,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Stat laboratory results have been returned from the hospital laboratory (see Laboratory Reports tab).",
+          "preamble": "Stat laboratory results have been returned from the hospital laboratory. The nurse has reviewed the Nurses' Notes from 1030 and the Laboratory Reports.",
           "explanation": "1. Cancer Cachexia: A complex metabolic wasting syndrome mediated by tumor-derived and host-produced pro-inflammatory cytokines (TNF-alpha, IL-1, IL-6, interferon-gamma) causing accelerated proteolysis, lipolysis, and hypermetabolism that cannot be reversed by conventional nutritional intake.<br>2. Neutropenia / Leukopenia: Deficiency of circulating functional white blood cells / neutrophils (ANC < 500/mm³). Neutrophils form the primary cellular defense against bacteria and fungi; because neutrophils make up pus, severely neutropenic clients cannot mount a typical inflammatory purulent response, making fever often the sole sign of lethal infection.<br>3. Thrombocytopenia: Platelet count < 50 &times; 109/L dramatically impairs primary hemostatic plug formation, manifesting as petechiae, purpura, and increased bleeding risk.<br>4. Anemia: Reduced red blood cells (Hb 72 g/L) impairs tissue oxygenation, eliciting compensatory tachycardia and tachypnea."
         },
         "leftContent": {
@@ -8065,7 +8091,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse synthesizes the client's clinical findings to establish immediate nursing priorities.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1100.",
           "explanation": "1. Priority Threat: In febrile neutropenia (fever >= 38.3 °C with ANC < 500/mm³), microbial invasion (often endogenous flora translocating through broken mucosal barriers) can escalate to septic shock and death within hours. Administering broad-spectrum anti-pseudomonal beta-lactams within 60 minutes of arrival is an international emergency standard.<br>2. Lack of Pus / Fever as Solitary Sign: Neutrophils are required to create erythema, swelling, and pus. In their near-absence (ANC 320/mm³), local physical signs are muted, and fever is frequently the sole manifestation of bacteremia.<br>3. Cachexia vs. Starvation: In starvation, the body reduces basal metabolic rate and spares muscle protein while utilizing fat stores. In cancer cachexia, tumor cytokines (TNF-alpha, IL-6) drive profound hypercatabolism, proteolysis, and energy expenditure, causing refractory muscle and fat wasting that cannot be reversed by nutrition alone.",
           "cloze": {
             "text": "The client's immediate, life-threatening clinical priority is [[drop0]] secondary to profound chemotherapy-induced bone marrow suppression. Because neutropenic clients lack adequate numbers of mature white blood cells to mount a localized inflammatory response, the nurse understands that [[drop1]]. The client's cancer cachexia is distinct from simple starvation because it involves [[drop2]] that cannot be reversed by caloric supplementation alone.",
@@ -8182,7 +8208,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1300 and the Clinical Care Protocol.",
           "explanation": "Appropriate nursing interventions include: (Option 6) Strict protective isolation to shield the immunocompromised client from opportunistic pathogens; (Option 2) Bleeding precautions (platelets 28 &times; 109/L) including avoiding IM injections, razor shaving, and hard toothbrushes; (Option 5) Gentle, alcohol-free oral hygiene (salt/soda rinses, topical analgesics) to treat mucositis without irritating raw mucosa; (Option 7) Administering G-CSF (filgrastim) to stimulate neutrophil production in the bone marrow; and (Option 4) Transfusing packed red blood cells for symptomatic anemia with tachycardia. Rectal temperatures, suppositories, and enemas are strictly contraindicated in neutropenic and thrombocytopenic clients due to the risk of mucosal tearing, rectal abscess, and direct bacterial seeding into the bloodstream. Vigorous oral flossing causes mucosal laceration and bacteremia."
         },
         "leftContent": {
@@ -8259,7 +8285,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Day 2 inpatient oncology nursing monitoring.",
+          "preamble": "Day 2 inpatient oncology nursing monitoring. The nurse has reviewed the Nurses' Notes and Vital Signs from 0800 (Day 2).",
           "explanation": "1. Indicated: Because neutropenic clients cannot produce pus, close physical inspection of potential breakdown sites (oral mucosa, catheter insertion site, perianal area) for subtle tenderness or erythema is vital.<br>2. Indicated: Nystatin treats opportunistic Candida albicans fungal superinfections common in immunocompromised clients with mucositis.<br>3. Contraindicated: Aspirin and NSAIDs inhibit platelet cyclooxygenase (worsening bleeding risk in severe thrombocytopenia) and can mask fevers.<br>4. Contraindicated: Rectal suppositories and enemas are strictly contraindicated due to risk of mucosal perforation, rectal hematoma, and systemic bacteremia.<br>5. Indicated: Soft, cool, non-acidic, high-protein foods minimize oral discomfort while providing caloric intake for cachexia.<br>6. Non-Essential: Repeated routine limb X-rays are clinically unjustified and expose the client to pointless radiation."
         },
         "leftContent": {
@@ -8284,7 +8310,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge preparation and evaluates client and family understanding of home infection prevention and cachexia management.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge evaluation on Day 4.",
+          "preamble": "Discharge evaluation on Day 4. The nurse has reviewed the Nurses' Notes from 1100 (Day 4).",
           "explanation": "1. ANC Recovery: An ANC > 1,500/mm³ represents safe recovery of the neutrophil defense network, permitting discontinuation of protective isolation and resumption of outpatient status.<br>2. Febrile Threshold: In oncology, fever in a neutropenic client is defined as an oral temperature >= 38.3 °C (101.0 °F) once, or >= 38.0 °C (100.4 °F) sustained over 1 hour. This constitutes an immediate medical emergency requiring prompt blood cultures and broad-spectrum antibiotics.<br>3. Cachexia Nutritional Management: Since cytokines cause anorexia, early satiety, and hypercatabolism, small, calorie- and protein-dense meals served frequently throughout the day, supplemented with oral nutritional shakes and mild seasoning, provide the best nutritional maintenance without overwhelming the client.",
           "cloze": {
             "text": "The nurse recognizes that the client's bone marrow is recovering when the laboratory report demonstrates an absolute neutrophil count (ANC) of [[drop0]]. In reviewing home temperature monitoring, the nurse instructs the client to take his oral temperature immediately if he feels chills and to contact the oncology clinic or present to the emergency department if his temperature reaches [[drop1]]. To optimize nutritional intake and manage cancer cachexia at home, the nurse educates the family to provide [[drop2]].",
@@ -8297,7 +8323,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "greater than 1,500/mm³ (1.5 &times; 10⁹/L)",
+                    "text": "greater than 1,500/mm³ (1.5 × 10⁹/L)",
                     "correct": true
                   },
                   {
@@ -8305,7 +8331,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "less than 200/mm³ (0.2 &times; 10⁹/L)",
+                    "text": "less than 200/mm³ (0.2 × 10⁹/L)",
                     "correct": false
                   }
                 ]
@@ -8326,7 +8352,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "38.0 °C (100.4 °F) sustained for 1 hour, or a single reading of &ge; 38.3 °C (101.0 °F)",
+                    "text": "38.0 °C (100.4 °F) sustained for 1 hour, or a single reading of ≥ 38.3 °C (101.0 °F)",
                     "correct": true
                   }
                 ]
@@ -8366,7 +8392,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782380000005",
@@ -8482,7 +8509,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Laboratory results and endocrine panel findings have been reported (see Laboratory & Endocrine Reports tab).",
+          "preamble": "Laboratory results and endocrine panel findings have been reported. The nurse has reviewed the Nurses' Notes from 0900 and the Laboratory &amp; Endocrine Reports.",
           "explanation": "Paraneoplastic syndromes are symptom complexes triggered by altered immune responses or ectopic hormone/protein secretion by cancer cells, not caused directly by local mass effect or tissue invasion: (1) SIADH: Ectopic production of ADH by small cell lung carcinoma causing excessive renal water reabsorption, dilutional hyponatremia, and cerebral edema; (2) Hypercalcemia of Malignancy: Tumor secretion of Parathyroid Hormone-related Protein (PTHrP) by squamous cell carcinomas (lung, head/neck) or breast cancer, which binds PTH receptors, stimulates osteoclasts to dissolve bone, and increases calcium reabsorption; (3) Ectopic Cushing Syndrome: Ectopic secretion of ACTH by neuroendocrine tumors (SCLC, pancreatic islet tumors) stimulating adrenal cortisol overproduction, leading to hypokalemic alkalosis, hypertension, and hyperglycemia."
         },
         "leftContent": {
@@ -8507,10 +8534,10 @@ window.NCLEX_CASES = [
           "stem": "The nurse prioritizes hypotheses and safety concerns for Raymond.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1000.",
           "explanation": "1. Cerebral Edema in SIADH: Severe hyponatremia lowers extracellular fluid osmolality relative to brain intracellular osmolality, driving water into brain cells via osmosis. This causes cerebral swelling, elevated intracranial pressure, confusion, somnolence, seizures, and potential herniation.<br>2. Acute Management: Severe symptomatic hyponatremia (Na < 120 mmol/L with neurologic deficits) is managed with strict fluid restriction (< 800-1000 mL/day) and cautious administration of hypertonic 3% sodium chloride via infusion pump to draw water out of edematous brain cells.<br>3. Osmotic Demyelination: Correcting chronic/severe hyponatremia too rapidly (> 8-10 mmol/L per 24 hours) causes rapid dehydration of brain oligodendrocytes, triggering Osmotic Demyelination Syndrome (central pontine myelinolysis), an irreversible condition leading to spastic quadriplegia, pseudobulbar palsy, and 'locked-in' syndrome.",
           "cloze": {
-            "text": "The client's severe acute neurological manifestations are directly caused by [[drop0]] secondary to fluid movement into brain cells. The primary immediate nursing goal in managing severe, symptomatic hyponatremia (Na 116 mmol/L) is raising serum sodium using [[drop1]]. When correcting severe hyponatremia, the nurse must ensure sodium levels rise gradually (&le; 8 to 10 mmol/L in 24 hours) to prevent [[drop2]].",
+            "text": "The client's severe acute neurological manifestations are directly caused by [[drop0]] secondary to fluid movement into brain cells. The primary immediate nursing goal in managing severe, symptomatic hyponatremia (Na 116 mmol/L) is raising serum sodium using [[drop1]]. When correcting severe hyponatremia, the nurse must ensure sodium levels rise gradually (≤ 8 to 10 mmol/L in 24 hours) to prevent [[drop2]].",
             "dropdowns": [
               {
                 "placeholder": "Select...",
@@ -8616,7 +8643,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Implement strict fluid restriction (&le; 800 mL/24 hours) and post a 'Strict Fluid Restriction' sign over the bed and at the nursing station",
+              "text": "Implement strict fluid restriction (≤ 800 mL/24 hours) and post a 'Strict Fluid Restriction' sign over the bed and at the nursing station",
               "correct": true
             },
             {
@@ -8624,7 +8651,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1200.",
           "explanation": "Appropriate nursing interventions for paraneoplastic SIADH include: (Option 6) Strict fluid restriction (usually 800-1000 mL/day) to prevent further dilutional drop in serum sodium; (Option 5) Seizure precautions (padding, suction, O2) due to lowered seizure threshold from cerebral edema; (Option 3) Frequent neurological checks (GCS, pupil response, orientation, motor power) to track resolution or worsening of brain swelling; (Option 7) Monitoring sodium every 2-4 hours to strictly avoid overcorrection (> 8-10 mmol/L per 24h); and (Option 4) Precise I&O and daily weights to track fluid retention. Giving free water drinks or infusing hypotonic fluids like D5W (which metabolizes to free water in the body) is strictly contraindicated, as it rapidly exacerbates cerebral edema, seizures, and herniation."
         },
         "leftContent": {
@@ -8696,7 +8723,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "The nurse evaluates oncologic safety and clinical interventions on Day 2 of hospitalization.",
+          "preamble": "The nurse evaluates oncologic safety and clinical interventions on Day 2 of hospitalization. The nurse has reviewed the Nurses' Notes and Vital Signs from 0800 (Day 2).",
           "explanation": "1. Indicated: The 'CHILDREN' acronym highlights cardinal pediatric malignancy warning signs: Continued unexplained weight loss, Headaches with morning vomiting, Increased swelling/bone pain, Lump or mass, Development of whitish pupil (leukocoria &mdash; retinoblastoma), Recurrent fevers, Excessive bruising, Noticeable paleness.<br>2. Contraindicated: Hypotonic saline (0.45% NaCl) adds free water, worsening dilutional hyponatremia and fatal cerebral edema in SIADH.<br>3. Indicated: Definitive management of any paraneoplastic syndrome requires treating the underlying primary neoplasm (chemotherapy for SCLC), which stops ectopic hormone synthesis.<br>4. Contraindicated: Leukocoria is the hallmark presentation of retinoblastoma (malignant retinal tumor linked to Rb tumor suppressor gene mutation) and requires immediate ophthalmologic oncology evaluation.<br>5. Indicated: Demeclocycline (which blocks tubular ADH action) or vaptans are pharmacological therapies for chronic paraneoplastic SIADH.<br>6. Non-Essential: Invasive ICP monitoring is unwarranted for resolving hyponatremia."
         },
         "leftContent": {
@@ -8721,7 +8748,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge teaching and evaluates family understanding before Raymond transitions home.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge evaluation on Day 3.",
+          "preamble": "Discharge evaluation on Day 3. The nurse has reviewed the Nurses' Notes from 1300 (Day 3).",
           "explanation": "1. Paraneoplastic Resolution: Paraneoplastic symptoms originate from ectopic tumor secretion. While fluid restriction and hypertonic saline manage acute life-threatening hyponatremia, definitive long-term resolution requires systemic antineoplastic therapy (chemotherapy/radiation) to destroy the neoplastic cells producing the hormone.<br>2. Home Fluid Restriction: Adherence to strict fluid measurement (1,000 mL/day including liquids, ice, and soups) prevents recurrence of dilutional hyponatremia and cerebral edema.<br>3. Leukocoria / Children's Signs: The 'whitish appearance in pupil of the eye' (the 'D' in CHILDREN) is the classic sign of retinoblastoma, a childhood retinal malignancy caused by inactivation of both copies of the Rb tumor suppressor gene.",
           "cloze": {
             "text": "The nurse confirms the family understands the definitive cure for paraneoplastic SIADH when they state that the sodium imbalance will resolve primarily by [[drop0]]. In reviewing home fluid management, the nurse verifies comprehension when the spouse explains that Raymond's daily fluid intake must [[drop1]]. When educating on pediatric cancer warning signs (CHILDREN acronym), the nurse reinforces that any child displaying an unexplained whitish pupil reflection (leukocoria) requires immediate evaluation for [[drop2]].",
@@ -8803,7 +8830,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000001",
@@ -8921,7 +8949,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "The nurse is reviewing dermatological lesion nomenclature and staging prior to skin biopsies (see Dermatological Reference tab).",
+          "preamble": "The nurse is reviewing dermatological lesion nomenclature and staging prior to skin biopsies. The nurse has reviewed the Nurses' Notes from 1000 and the Dermatological Reference.",
           "explanation": "1. Primary Skin Lesions: Physical changes in the skin considered to be caused directly by the disease process from the outset (original appearance). Examples include macules (flat < 1 cm), papules (solid elevated < 0.5–1 cm), nodules (deeper > 0.5–1 cm), plaques, vesicles (fluid-filled < 0.5 cm), bullae, pustules, and wheals.<br>2. Secondary Skin Lesions: Evolve from primary lesions or result from external factors such as scratching, rubbing, infection, or healing (modification of original appearance). Examples include crusts (dried exudate/blood), scales (shedding keratinocytes), fissures (deep linear cracks), erosions (loss of epidermis), ulcers (loss extending into dermis), scars, keloids, and lichenification (thickened leather-like skin from chronic rubbing)."
         },
         "leftContent": {
@@ -8946,7 +8974,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse synthesizes the histopathological and clinical findings to establish pathophysiological priorities.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1400 (4 days post-biopsy) and the Pathology Reports.",
           "explanation": "1. Basal Cell Carcinoma: Arises from basal cells of the epidermis. It is the most common and least aggressively malignant cutaneous tumor; it grows slowly and destroys local tissue if neglected (pearly nodule with central ulceration), but metastasis is exceedingly rare (< 0.1%).<br>2. Malignant Melanoma: Malignancy of pigment-producing melanocytes, usually triggered by intermittent intense UV exposure. It is the most lethal skin cancer because it penetrates into the rich vascular and lymphatic plexus of the dermis, predisposing to early metastasis to regional lymph nodes, brain, lungs, and liver.<br>3. Senile/Actinic Purpura: In aging skin, dermal collagen thins and elastin fibers bundle and break down, while subcutaneous fat atrophies. Consequently, fragile capillary vessels lack surrounding structural cushioning; even trivial friction or shear causes extravasation of red blood cells, producing non-palpable purple macules that fade slowly.",
           "cloze": {
             "text": "The client's nasal lesion is confirmed as basal cell carcinoma, which arises from basal keratinocytes in the deepest layer of the epidermis and characteristically exhibits [[drop0]]. The back lesion is confirmed as malignant melanoma, which arises from [[drop1]] and poses a high mortality risk due to its propensity for aggressive lymphatic and hematogenous metastasis. The client's extensive dorsal forearm purpura is directly caused by age-related [[drop2]], which deprives superficial dermal capillaries of structural support against minor shear trauma.",
@@ -9044,7 +9072,7 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Instruct on photoprotection: apply broad-spectrum sunscreen (SPF &ge; 30) 15 to 30 minutes before sun exposure, reapply every 2 hours, and wear wide-brimmed hats and long sleeves",
+              "text": "Instruct on photoprotection: apply broad-spectrum sunscreen (SPF ≥ 30) 15 to 30 minutes before sun exposure, reapply every 2 hours, and wear wide-brimmed hats and long sleeves",
               "correct": true
             },
             {
@@ -9064,7 +9092,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1500.",
           "explanation": "Comprehensive skin health education for a client with cutaneous neoplasms and severe photoaging includes: (Option 4) Teaching monthly skin self-examination using the ABCDE rule; (Option 2) Consistent photoprotection (broad-spectrum SPF 30+, protective clothing, sunglasses, wide-brimmed hats); (Option 6) Avoiding peak midday UV intensity (10:00–16:00); and (Option 3) Protecting fragile, dry aging skin with gentle, lipid-rich emollients and avoiding hot water that strips cutaneous sebum. Canceling appointments is dangerous, as clients with one skin cancer have a 30–50% risk of developing another primary cutaneous malignancy within 5 years. Tanning beds emit intense UVA radiation that significantly multiplies melanoma and squamous cell carcinoma risk."
         },
         "leftContent": {
@@ -9136,7 +9164,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Harold presents to the clinic 48 hours post-procedure for surgical dressing evaluation.",
+          "preamble": "Harold presents to the clinic 48 hours post-procedure for surgical dressing evaluation. The nurse has reviewed the Nurses' Notes from 1000 (Post-Op Day 2).",
           "explanation": "1. Indicated: Surgical sites must be monitored for infection, especially in older adults with reduced microvascularity.<br>2. Indicated: Aging skin has flattened rete ridges and fragile capillary walls, predisposing to devastating epidermal stripping and skin tears from standard medical tape; silicone adhesives and paper tape are indicated.<br>3. Contraindicated: Hydrogen peroxide and scrubbing destroy migrating epithelial cells, cause chemical irritation, and impede granulating wound healing.<br>4. Indicated: Wide excision on the back experiences high mechanical tension; restricting strenuous torso stretching and lifting protects suture lines from dehiscence.<br>5. Non-Essential: Continuous oximetry is unnecessary for a stable outpatient undergoing routine wound assessment.<br>6. Contraindicated: Tight neck bandages risk airway compromise and jugular venous occlusion."
         },
         "leftContent": {
@@ -9156,7 +9184,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge teaching and evaluates Harold's understanding of his pathology results and long-term dermatological surveillance.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Final follow-up visit on Post-Op Day 10 for suture removal.",
+          "preamble": "Final follow-up visit on Post-Op Day 10 for suture removal. The nurse has reviewed the Nurses' Notes from 1100 (Post-Op Day 10).",
           "explanation": "1. Basal Cell Carcinoma Outcome: Mohs micrographic surgery offers the highest cure rate (> 98%) while sparing healthy tissue. However, because extensive prior solar damage persists, close routine surveillance is necessary to detect new primary skin cancers.<br>2. Breslow Depth: In malignant melanoma, Breslow tumor thickness (vertical measurement from stratum granulosum to the deepest tumor cell) is the single most powerful predictor of metastasis and survival. Thicker lesions (> 1.0 mm) reach dermal lymphatic and blood channels, warranting sentinel lymph node biopsy.<br>3. Preventive Health Maintenance: Consistent sun-protective habits (wide-brimmed hats, daily broad-spectrum sunscreen, monthly partner-assisted skin checks, and biannual professional total body skin exams) provide optimal secondary and tertiary prevention.",
           "cloze": {
             "text": "The nurse confirms the client understands the prognosis of his nasal basal cell carcinoma when Harold states that because Mohs surgery achieved clear margins, [[drop0]]. Regarding his malignant melanoma, the nurse explains that the Breslow depth of 1.8 mm is a critical prognostic indicator because [[drop1]]. In evaluating Harold's comprehension of skin cancer prevention, the nurse recognizes correct understanding when Harold states he will [[drop2]].",
@@ -9238,7 +9266,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000002",
@@ -9357,7 +9386,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "The nurse analyzes skin infection etiologies to prepare educational handouts (see Infectious Disease Matrix tab).",
+          "preamble": "The nurse analyzes skin infection etiologies to prepare educational handouts. The nurse has reviewed the Nurses' Notes from 1045 and the Infectious Disease Matrix.",
           "explanation": "1. Bacterial Infections: Impetigo (S. aureus/GAS; honey-colored crusts), Cellulitis (deep dermal/subcutaneous spreading infection caused by Streptococcus pyogenes or S. aureus), and Syphilis (Treponema pallidum spirochete; primary painless chancre, secondary palm/sole rash, tertiary neurosyphilis/gummas).<br>2. Viral Infections: Herpes Zoster (VZV reactivation along a dermatome), Herpes Simplex Virus 1 and 2 (cold sores/genital ulcers, latent in trigeminal/sacral ganglia), and Measles (rubeola; paramyxovirus with Koplik spots and morbilliform rash).<br>3. Fungal / Yeast Infections: Dermatophyte superficial mycoses (Tinea corporis [ringworm], Tinea pedis [athlete's foot], Tinea capitis, Tinea cruris) featuring annular scaly borders and central clearing; and Candida albicans (yeast infection presenting as oral thrush or intertrigo with satellite pustules)."
         },
         "leftContent": {
@@ -9382,7 +9411,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse analyzes the pathophysiologic mechanisms of Varicella-Zoster Virus (VZV) latency and impetigo transmission.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1130.",
           "explanation": "1. VZV Dormancy: After primary chickenpox, the varicella-zoster virus retrogradely ascends sensory nerves and resides indefinitely in a dormant state inside dorsal root ganglia or trigeminal sensory ganglia. Reactivation (triggered by stress, immunosuppression, or aging) causes the virus to migrate anterogradely down the sensory axon to the cutaneous dermatome.<br>2. Postherpetic Neuralgia (PHN): The most debilitating complication of shingles, characterized by severe intractable burning, stabbing neuropathic pain persisting > 90 days after rash resolution, caused by sensory nerve damage and chronic spinal cord sensitization.<br>3. Impetigo Transmission: Highly contagious bacterial pyoderma spread by direct skin-to-skin touch with open weeping sores or indirect contact via fomites (towels, washcloths, clothing, bed linen).",
           "cloze": {
             "text": "Following Marcus's childhood varicella (chickenpox) infection, the virus remained dormant in a latent state within the [[drop0]]. In managing Marcus's herpes zoster, the nurse recognizes that the primary clinical priority in an elderly or immunocompromised host is preventing [[drop1]]. For Liam's impetigo, the nurse instructs the mother that the condition is highly transmissible to others primarily via [[drop2]].",
@@ -9495,7 +9524,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1215.",
           "explanation": "Appropriate nursing care plans include: (Option 4) Softening and gently removing impetigo crusts with warm compresses so topical mupirocin can penetrate directly into underlying infected tissue; (Option 1) Strict fomite isolation (separate towels, linens) and frequent handwashing; (Option 2) Keeping shingles lesions covered, which prevents transmission of VZV from vesicular fluid to susceptible people; and (Option 6) Protecting non-immune individuals (pregnant women, infants, immunocompromised) because direct contact with shingles blister fluid can cause chickenpox in those without immunity. Children with active, draining impetigo should be excluded from school/daycare until 24 hours of effective antibiotic therapy has elapsed. Popping shingles vesicles risks secondary bacterial superinfection and does not relieve neuropathic pain."
         },
         "leftContent": {
@@ -9567,7 +9596,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Clinical management and infection control execution in urgent care.",
+          "preamble": "Clinical management and infection control execution in urgent care. The nurse has reviewed the Nurses' Notes from 1300.",
           "explanation": "1. Indicated: Rigorous hand hygiene prevents autoinoculation and spread of S. aureus/Streptococcus to other body sites or household members.<br>2. Contraindicated: Topical corticosteroids suppress local cutaneous immune responses and are contraindicated in active untreated bacterial, viral, or fungal infections, as they cause worsening proliferation.<br>3. Indicated: Oral valacyclovir/acyclovir is excreted renally; maintaining good hydration prevents drug crystallization in renal tubules.<br>4. Indicated: Controlling acute shingles pain improves mobility, sleep, and decreases chronic neural sensitization.<br>5. Non-Essential: Continuous 12-lead ECG monitoring is unnecessary for uncomplicated pediatric impetigo.<br>6. Contraindicated: Sharing bathwater or towels promotes immediate cross-transmission of both bacterial and viral pathogens."
         },
         "leftContent": {
@@ -9587,7 +9616,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse evaluates client and family comprehension prior to discharge from the clinic.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge evaluation in urgent care.",
+          "preamble": "Discharge evaluation in urgent care. The nurse has reviewed the Nurses' Notes from 1330.",
           "explanation": "1. Shingles Transmission Truth: Shingles cannot be caught directly as shingles from another person. The vesicular fluid contains active VZV; if an individual who is non-immune (never had chickenpox and never vaccinated) comes into direct contact with the blister fluid, they will contract primary Varicella (chickenpox).<br>2. Post-Streptococcal Glomerulonephritis (PSGN): Group A beta-hemolytic Streptococcus causing impetigo can lead to immune-complex mediated PSGN 1 to 3 weeks later. Warning signs include periorbital edema, dark tea- or cola-colored urine (hematuria), oliguria, and hypertension.<br>3. Shingrix Immunization: Recombinant zoster vaccine (Shingrix) is highly effective (> 90%) in boosting waning VZV cell-mediated immunity in adults 50+ (or immunocompromised 19+), preventing shingles reactivation and postherpetic neuralgia.",
           "cloze": {
             "text": "The nurse recognizes that Marcus understands shingles transmission when he states that an unvaccinated person exposed to his open blister fluid could develop [[drop0]]. In evaluating Liam's progress, the nurse instructs the mother to monitor for systemic complications and contact the healthcare provider immediately if Liam develops [[drop1]]. To prevent future recurrent episodes of shingles, the nurse educates Marcus that after full recovery, older adults and at-risk individuals should receive [[drop2]].",
@@ -9669,7 +9698,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000003",
@@ -9782,7 +9812,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Laboratory serology, antinuclear antibodies, and inflammatory markers have been reported (see Laboratory & Serology Reports tab).",
+          "preamble": "Laboratory serology, antinuclear antibodies, and inflammatory markers have been reported. The nurse has reviewed the Nurses' Notes from 1100 and the Laboratory &amp; Serology Reports.",
           "explanation": "1. Lupus Erythematosus (SLE): Type III immune-complex hypersensitivity where circulating autoantibodies (ANA, anti-dsDNA, anti-Smith) form complexes that deposit in dermoepidermal junctions, blood vessels, and kidneys, creating photosensitive malar rashes and multisystem inflammation.<br>2. Psoriasis: T-lymphocyte driven autoimmune dermatosis where inflammatory cytokines (TNF, IL-17, IL-23) accelerate keratinocyte cell turnover from ~28 days down to 3–4 days, producing thickened erythematous plaques capped with micaceous silvery scales classically on extensor surfaces, accompanied by nail pitting and psoriatic arthritis in ~30%.<br>3. Atopic Dermatitis: Pruritic chronic inflammatory eczema linked to epidermal barrier gene defects (filaggrin) and IgE dysregulation, manifesting as flexural lichenification.<br>4. Allergic Contact Dermatitis: Type IV delayed-type cell-mediated hypersensitivity triggered by sensitized T-cells reacting to haptens (poison ivy urushiol, nickel jewelry, neomycin), forming pruritic vesicular eruptions mirroring the contact area."
         },
         "leftContent": {
@@ -9807,7 +9837,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse synthesizes Maya's clinical cues and laboratory markers to prioritize systemic risks.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1300.",
           "explanation": "1. Type III Hypersensitivity: In SLE, autoantibodies against nuclear antigens (ANA, anti-dsDNA) form antigen-antibody complexes. These circulating immune complexes deposit in capillary basement membranes of skin, glomeruli, joints, and serosa, activating complement (consuming C3/C4) and recruiting neutrophils that cause tissue injury.<br>2. Photosensitivity: UV radiation damages keratinocytes, prompting apoptosis and cellular blebbing that displays nuclear debris at the cell surface. This provides a surge of autoantigens that binds autoantibodies, triggering severe cutaneous inflammation (malar flare) and systemic disease exacerbations.<br>3. Renal Priority: Lupus nephritis occurs in up to 50% of SLE patients and is a leading cause of morbidity/mortality. Proteinuria and hematuria signal glomerular immune complex deposition, requiring immediate nephrology surveillance.",
           "cloze": {
             "text": "The client's malar rash and systemic symptoms are driven by [[drop0]], which trigger complement activation and microvascular tissue damage. Because ultraviolet (UV) radiation induces epidermal keratinocyte apoptosis and exposes intracellular nuclear autoantigens, sunlight acts as [[drop1]]. The presence of proteinuria and hematuria on Maya's urinalysis indicates that the nurse must prioritize ongoing monitoring for [[drop2]].",
@@ -9900,7 +9930,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Instruct Maya to apply broad-spectrum sunscreen (SPF &ge; 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
+              "text": "Instruct Maya to apply broad-spectrum sunscreen (SPF ≥ 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
               "correct": true
             },
             {
@@ -9920,7 +9950,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1430.",
           "explanation": "Appropriate nursing education for SLE includes: (Option 2) Rigorous photoprotection (SPF 50+, protective clothing, avoiding sun) because UV light directly triggers cutaneous and systemic flares; (Option 3) Annual dilated ophthalmology exams for hydroxychloroquine retinopathy (maculopathy/bull's-eye damage); (Option 1) Surveillance for renal impairment (foamy urine indicating proteinuria, edema, hypertension); and (Option 5) Energy conservation and pacing for lupus fatigue. Tanning beds emit intense UV radiation that can provoke catastrophic lupus flares. Corticosteroids must never be stopped abruptly due to the risk of life-threatening secondary adrenal crisis."
         },
         "leftContent": {
@@ -9992,7 +10022,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "The nurse is evaluating comparative dermatological safety and client education.",
+          "preamble": "The nurse is evaluating comparative dermatological safety and client education. The nurse has reviewed the Nurses' Notes from 1530.",
           "explanation": "1. Indicated: Cutaneous drug eruptions range from mild symmetric morbilliform exanthems to fatal Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis (TEN) with epidermal detachment; vigilance with new medications is critical.<br>2. Contraindicated: In psoriasis, forcibly removing scales triggers the Koebner phenomenon (new psoriatic lesions induced by local trauma) and Auspitz sign (punctate bleeding).<br>3. Indicated: Patch testing is the gold standard diagnostic tool for confirming Type IV cell-mediated allergic contact dermatitis.<br>4. Contraindicated: Hot water, long baths, and fragranced bubble baths strip lipids from the skin barrier, exacerbating xerosis and triggering intense pruritus in atopic dermatitis.<br>5. Indicated: Regular BP and urinalysis detect asymptomatic early lupus nephritis and renal vasculopathy.<br>6. Non-Essential: Invasive arterial monitoring is inappropriate for outpatient clinics."
         },
         "leftContent": {
@@ -10012,7 +10042,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge evaluation and confirms Maya's understanding of systemic lupus management.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge evaluation in outpatient rheumatology clinic.",
+          "preamble": "Discharge evaluation in outpatient rheumatology clinic. The nurse has reviewed the Nurses' Notes from 1600.",
           "explanation": "1. Photosensitivity Mechanism: UV exposure triggers keratinocyte death, releasing DNA and nucleosomes that bind to circulating antinuclear antibodies, igniting local malar flares and systemic complement activation.<br>2. Hydroxychloroquine Adherence: Daily adherence reduces flare frequency and thrombotic complications, while annual eye exams detect rare retinal toxicity before irreversible vision loss occurs.<br>3. Severe Cutaneous Adverse Reactions (SCAR/TEN): Widespread blistering with epidermal sloughing (> 30% body surface area) represents Toxic Epidermal Necrolysis, a medical emergency requiring immediate cessation of the causative drug and specialized burn unit intensive care.",
           "cloze": {
             "text": "The nurse confirms Maya understands photosensitivity management when she states that ultraviolet light [[drop0]]. Regarding medication adherence with hydroxychloroquine, the nurse verifies comprehension when Maya states she will [[drop1]]. In reviewing potential life-threatening drug reactions (such as Toxic Epidermal Necrolysis), the nurse instructs Maya that if a new medication causes widespread blistering with skin peeling, she must [[drop2]].",
@@ -10094,7 +10124,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000004",
@@ -10206,7 +10237,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Burn trauma assessment data and stat blood work have been reported (see Burn Assessment & Labs tab).",
+          "preamble": "Burn trauma assessment data and stat blood work have been reported. The nurse has reviewed the Nurses' Notes and the Burn Assessment &amp; Labs from 0915.",
           "explanation": "1. Rule of Nines: Head (entire 9%, anterior face 4.5%), Anterior Trunk (18%), Posterior Trunk (18%), Each Arm (9% each = 18%), Each Leg (18% each = 36%), Perineum (1%). Tyler's burns involve anterior face (4.5%), anterior trunk (18%), and both whole arms (9% &times; 2 = 18%), yielding 40.5% TBSA.<br>2. Fluid & Electrolyte Shifts in Burn Shock: Systemic inflammatory mediators cause widespread capillary leakage persisting for 24 hours. Intravascular albumin, sodium, and water leak into interstitial spaces, creating massive edema. Concurrently, thermal cellular membrane disruption releases intracellular potassium into circulation (hyperkalemia), while sodium and water shift into damaged cells.<br>3. Cardiovascular/Pulmonary Effects: Loss of plasma volume with retention of red cells produces severe hemoconcentration (Hct > 50%) and hyperviscosity, increasing afterload while cardiac output plummets (hypovolemic shock), severely reducing glomerular filtration rate."
         },
         "leftContent": {
@@ -10231,10 +10262,10 @@ window.NCLEX_CASES = [
           "stem": "The nurse utilizes the Parkland (Baxter) formula to calculate the client's initial 24-hour fluid resuscitation requirement.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 0930.",
           "explanation": "1. Parkland Formula: Total Volume in 24 hours = 4 mL &times; Weight in kg &times; %TBSA (second/third degree). Here: 4 mL &times; 80 kg &times; 40.5 = 12,960 mL of Lactated Ringer's solution.<br>2. Timing: Half of the total volume (6,480 mL) must be infused within the first 8 hours from the moment of injury (not from hospital arrival), with the remaining half (6,480 mL) infused over the subsequent 16 hours.<br>3. Titration Metric: While the formula provides the starting rate, fluid resuscitation is titrated directly to end-organ perfusion, best reflected by hourly urine output. In adult thermal burns, the gold standard target is 0.5 mL/kg/hr (approximately 30–50 mL/hr; or 40 mL/hr for an 80 kg patient). Over-resuscitation causes compartment syndromes and pulmonary edema, while under-resuscitation causes acute tubular necrosis and irreversible shock.",
           "cloze": {
-            "text": "Using the Parkland formula (4 mL &times; 80 kg &times; 40.5% TBSA), the client's total calculated fluid volume for the first 24 hours from the time of injury is [[drop0]] of Lactated Ringer's solution. The nurse must administer half of this total calculated volume ([[drop1]]) during the first 8 hours post-injury, accounting for fluids already infused by EMS. The primary clinical parameter utilized by the nurse to titrate the hourly intravenous fluid infusion rate is maintaining an hourly urine output of [[drop2]].",
+            "text": "Using the Parkland formula (4 mL × 80 kg × 40.5% TBSA), the client's total calculated fluid volume for the first 24 hours from the time of injury is [[drop0]] of Lactated Ringer's solution. The nurse must administer half of this total calculated volume ([[drop1]]) during the first 8 hours post-injury, accounting for fluids already infused by EMS. The primary clinical parameter utilized by the nurse to titrate the hourly intravenous fluid infusion rate is maintaining an hourly urine output of [[drop2]].",
             "dropdowns": [
               {
                 "placeholder": "Select...",
@@ -10344,7 +10375,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1130 (Hour 3 Post-Injury).",
           "explanation": "Appropriate resuscitative nursing interventions include: (Option 6) Infusing warmed Lactated Ringer's (the crystalloid of choice because its electrolyte composition closely mimics physiological plasma and buffers acidosis without hyperchloremia); (Option 5) Cardiac monitoring for hyperkalemia (peaked T waves, dysrhythmias) from massive cellular thermal lysis; (Option 4) Hourly urine output titration (0.5 mL/kg/hr); and (Option 2) Covering wounds with dry sterile dressings and warming the room (burn patients lose the epidermal barrier and suffer rapid evaporative heat loss). Submerging extensive burns in ice water causes profound vasoconstriction, worsening dermal ischemia and inducing lethal hypothermia. In severe burn shock, impaired peripheral perfusion prevents absorption of IM/SC medications; all analgesics must be administered intravenously in small, titrated doses."
         },
         "leftContent": {
@@ -10416,7 +10447,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Resuscitation management at Hour 6 post-injury.",
+          "preamble": "Resuscitation management at Hour 6 post-injury. The nurse has reviewed the Nurses' Notes from 1445 (Hour 6 Post-Injury) and the Resuscitation Flow Sheet.",
           "explanation": "1. Indicated: Fluid titration is bidirectional; if urine output consistently exceeds 0.5–1.0 mL/kg/hr (> 50–70 mL/hr in adults), fluid rates are dialed down to prevent over-resuscitation (fluid creep), which causes pulmonary edema, abdominal compartment syndrome, and extremity compartment syndrome.<br>2. Indicated: IV opioids are the standard of care for severe burn pain.<br>3. Contraindicated: Giving IV potassium in the emergent phase of burn shock is lethal because massive cellular lysis already causes dangerous hyperkalemia.<br>4. Indicated: Circumferential full-thickness burns on limbs act like unyielding tourniquets as edema expands underneath, requiring hourly Doppler pulse checks to detect impending compartment syndrome.<br>5. Contraindicated: Prophylactic systemic antibiotics do not reduce burn wound sepsis, penetrate poorly into avascular eschar, and promote multi-drug resistant superinfections.<br>6. Non-Essential: Continuous pupillometry is not indicated in a patient without acute primary intracranial pathology."
         },
         "leftContent": {
@@ -10441,7 +10472,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse evaluates Tyler's transition at 24 hours post-injury into the acute/diuretic phase of burn recovery.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Evaluation at 24 to 36 hours post-injury in the burn intensive care unit.",
+          "preamble": "Evaluation at 24 to 36 hours post-injury in the burn intensive care unit. The nurse has reviewed the Nurses' Notes from 1500 (Hour 30 Post-Burn).",
           "explanation": "1. Fluid Remobilization Phase: Around 24–48 hours post-burn, capillary endothelial integrity heals, capillary leakage ceases, and fluid begins to shift from the interstitial spaces back into the intravascular compartment. This initiates a spontaneous diuretic phase with high urine outputs.<br>2. Electrolyte Reversal: During this diuretic phase, potassium shifts back into re-equilibrating cells and is excreted by the kidneys, often causing hypokalemia. The influx of fluid into the vascular bed hemodilutes the blood, causing hematocrit to drop.<br>3. Inhalation Resolution: Adequate gas exchange (PaO2/FiO2 ratio > 300) with minimal ventilatory support, clearing of carbonaceous secretions, and absence of stridor indicate resolving mucosal edema, paving the way for planned extubation.",
           "cloze": {
             "text": "At approximately 24 to 48 hours post-burn, capillary membrane integrity begins to restore and fluid shifts reverse, which heralds the [[drop0]]. During this second phase of burn shock recovery, the nurse anticipates that laboratory monitoring will characteristically demonstrate [[drop1]]. In evaluating pulmonary recovery following inhalation injury, the nurse recognizes successful stabilization when bronchoscopy confirms resolving mucosal erythema and the client maintains [[drop2]].",
@@ -10523,7 +10554,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000005",
@@ -10636,7 +10668,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "The nurse reviews burn wound depth taxonomy prior to surgical debridement (see Burn Classification Reference tab).",
+          "preamble": "The nurse reviews burn wound depth taxonomy prior to surgical debridement. The nurse has reviewed the Nurses' Notes from 1620 and the Burn Classification Reference.",
           "explanation": "1. First-Degree (Superficial): Involves only the epidermis (e.g., standard sunburn). Red, dry, painful, no blisters, heals in 3–6 days.<br>2. Second-Degree Superficial Partial-Thickness: Involves epidermis and upper (papillary) dermis. Moist, thin-walled weeping blisters, extreme pain, brisk blanching, heals in 7–21 days.<br>3. Second-Degree Deep Partial-Thickness: Involves the entire dermis down to reticular layers, preserving only deep hair follicles/sweat glands. Mottled waxy-white with red areas, sluggish blanching, reduced sensation, heals slowly with severe scarring unless excised and grafted early.<br>4. Third-Degree Full-Thickness: Involves epidermis, entire dermis, and subcutaneous fat. Dry, leathery eschar, charred black, brown, or translucent white, insensate to light touch/pinprick because nerves are destroyed, requires surgical excision and grafting.<br>5. Fourth-Degree: Full thickness extending into underlying fascia, muscle, tendon, or bone (common in high-voltage electrical injuries)."
         },
         "leftContent": {
@@ -10661,7 +10693,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse analyzes the metabolic and physiological consequences of major burn trauma during the post-resuscitation period.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1000 (Post-Burn Day 3) and the Wound Healing Stages Reference.",
           "explanation": "1. Hypermetabolic State: Severe burns trigger the highest hypermetabolic response of any human trauma (metabolic rate can exceed 150–200% of baseline). It is mediated by a massive neuroendocrine surge of catecholamines (epinephrine, norepinephrine), corticosteroids (cortisol), and glucagon, persisting for weeks to months.<br>2. Catabolism: This hormonal surge stimulates glycogenolysis, gluconeogenesis, lipolysis, and massive skeletal muscle proteolysis (breakdown of muscle into alanine and glutamine to fuel hepatic gluconeogenesis), causing severe negative nitrogen balance, muscle wasting, and delayed wound healing.<br>3. Early Enteral Nutrition: Initiating high-protein (1.5–2.0 g/kg/day), high-calorie enteral feeding within the first 24 hours maintains splanchnic blood flow, prevents gut mucosal atrophy and bacterial translocation, blunts the hypermetabolic surge, and provides the amino acids essential for collagen synthesis across wound healing phases.",
           "cloze": {
             "text": "Following major burn trauma, the body enters a profound hypermetabolic state driven by massive release of [[drop0]] from the neuroendocrine system. This hypermetabolic stress response induces severe whole-body catabolism characterized by [[drop1]], resulting in rapid loss of lean muscle mass and impaired immune defense. To support wound healing, prevent gut mucosal atrophy, and blunt catabolism, the nurse prioritizes [[drop2]] initiated as early as possible.",
@@ -10779,7 +10811,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1330.",
           "explanation": "Appropriate nursing interventions include: (Option 4) Aggressive physical therapy, ROM exercises, and splinting in neutral or extended positions to combat the powerful forces of myofibroblast-mediated scar contractures across joints; (Option 3) Pre-medicating with analgesics before dressing changes, which are intensely painful; (Option 1) Aseptic application of topical antimicrobials (silver sulfadiazine, mafenide acetate) to suppress microbial colonization in avascular eschar; and (Option 5) Glycemic monitoring, as stress hormones cause severe insulin resistance. Positioning limbs in dependent flexion ('positions of comfort') is the primary cause of crippling permanent contractures (e.g., knee flexion contractures, foot drop); joints must be maintained in functional extension. Complete immobilization promotes deep vein thrombosis and permanent joint ankylosis."
         },
         "leftContent": {
@@ -10851,7 +10883,7 @@ window.NCLEX_CASES = [
             ]
           },
           "options": [],
-          "preamble": "Pre- and post-grafting clinical care management.",
+          "preamble": "Pre- and post-grafting clinical care management. The nurse has reviewed the Nurses' Notes from 1600 (Post-Op Day 1 / Post-Burn Day 8).",
           "explanation": "1. Indicated: Skin grafts require intimate contact with the vascularized wound bed for plasmatic imbibition (days 1–2) and inosculation/revascularization (days 3–5); hematomas or seromas beneath the graft prevent revascularization, causing graft necrosis.<br>2. Indicated: Limb elevation above heart level decreases capillary hydrostatic pressure and reduces interstitial edema.<br>3. Contraindicated: Prolonged cessation of enteral feeding in a hypermetabolic burn patient exacerbates negative nitrogen balance and wound breakdown; feeds are held only for the minimum required surgical NPO window.<br>4. Indicated: Immobilizing the grafted extremity for the initial 3–5 days prevents shear forces that tear fragile newly forming capillary buds.<br>5. Non-Essential: Repeated routine arterial blood gases are unwarranted in a non-intubated client with normal pulmonary function.<br>6. Contraindicated: Leaving open burns exposed to non-sterile hospital air causes desiccation and invites bacterial colonization."
         },
         "leftContent": {
@@ -10871,7 +10903,7 @@ window.NCLEX_CASES = [
           "stem": "The nurse conducts discharge teaching and evaluates Karen's understanding of long-term burn rehabilitation, scar remodeling, and skin care.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
-          "preamble": "Discharge rehabilitation planning on Post-Burn Day 21.",
+          "preamble": "Discharge rehabilitation planning on Post-Burn Day 21. The nurse has reviewed the Nurses' Notes from 1100 (Post-Burn Day 21).",
           "explanation": "1. Sebaceous Gland Loss: Deep partial- and full-thickness burns destroy the epidermal appendages located in the dermis, including sebaceous glands (which secrete lubricating sebum) and eccrine sweat glands (which regulate heat). Healed and grafted skin is perpetually dry, pruritic, and susceptible to cracking, requiring daily lifelong application of bland emollients.<br>2. Compression Garments: Hypertrophic scars occur when myofibroblasts and disordered collagen bundles proliferate excessively during the remodeling phase. Custom-fitted pressure garments (20–30 mmHg) worn 23 hours/day for 12–18 months flatten collagen fibers, suppress vascularity, relieve itching, and prevent contractures.<br>3. Sun Protection: Newly healed burns and split-thickness grafts have diminished or absent melanocytes and thin epidermis. Exposure to UV rays causes severe sunburn and permanent hyperpigmentation; complete photoprotection (SPF 50+, physical covering) is essential for at least 1 year.",
           "cloze": {
             "text": "The nurse explains that healed burn wounds and skin grafts frequently remain permanently dry and fragile because [[drop0]]. To prevent hypertrophic scarring and contractures during the 1- to 2-year remodeling phase, the nurse instructs Karen that she will need to wear [[drop1]]. In reviewing ultraviolet protection for newly healed burn grafts, the nurse educates Karen to [[drop2]].",
@@ -10953,7 +10985,8 @@ window.NCLEX_CASES = [
           ]
         }
       }
-    ]
+    ],
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1781285254218",
@@ -11261,7 +11294,7 @@ window.NCLEX_CASES = [
             ],
             "firstColumnHeader": "Feature"
           },
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1400, the Laboratory Results, and the Genetic Testing Report.",
           "explanation": "Both disorders are <b>X-linked recessive</b> and are caused by mutations in the same gene, DMD, which codes for dystrophin. Dystrophin anchors the inside of the muscle fiber to its outer membrane and protects the membrane during contraction.<br><br><b>Duchenne:</b> an out-of-frame deletion (such as Ethan's exons 45–50) shifts the genetic reading frame, so almost no functional dystrophin is made. Muscle membranes tear with everyday use, and fibers die and are replaced by fat and fibrous tissue. Weakness starts in early childhood, and without treatment children usually stop walking by about age 12.<br><br><b>Becker:</b> an in-frame deletion keeps the reading frame intact, so a shorter but partly working dystrophin is made. The course is milder and later, and many people still walk into their late teens or adulthood.<br><br><b>Both:</b> damaged muscle leaks creatine kinase (CK) into the blood, so CK is elevated in both conditions. Heart muscle also needs dystrophin, so both carry a risk of dilated cardiomyopathy."
         },
         "leftContent": {
@@ -11346,7 +11379,7 @@ window.NCLEX_CASES = [
               }
             ]
           },
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1000 and the Family Genetics.",
           "explanation": "<b>X-linked recessive inheritance:</b> a carrier mother has one normal X and one X with the DMD mutation, and passes one of them to each child at random.<br><br><b>Sons</b> get their only X from their mother (and a Y from their father), so each son has a <b>50% chance</b> of inheriting the mutated X and being affected.<br><br><b>Daughters</b> get one X from each parent. Each daughter has a <b>50% chance</b> of receiving the mutated X and being a carrier; because she also has her father's normal X, she is usually unaffected. Carrier women do have a risk of cardiomyopathy and should have periodic heart screening.<br><br><b>Liver enzymes:</b> AST and ALT are found in skeletal muscle as well as the liver. When they rise alongside a very high CK while liver-specific markers (GGT, bilirubin) are normal, the source is damaged muscle, not the liver. Recognizing this prevents unnecessary liver work-ups such as a liver biopsy."
         },
         "leftContent": {
@@ -11409,7 +11442,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1100 and the Care Plan Orders.",
           "explanation": "<b>Immunizations first:</b> daily glucocorticoids weaken the immune response. Varicella immunity should be confirmed and vaccines completed before steroid therapy begins, and annual inactivated influenza vaccination continues afterward.<br><br><b>Stretching and night splints:</b> daily stretching and resting ankle-foot orthoses slow the development of heel-cord and hip contractures, which hasten the loss of walking.<br><br><b>The right kind of activity:</b> gentle, submaximal aerobic activity such as swimming or cycling helps maintain function. Eccentric and high-impact exercise (trampolines, running downhill) and heavy resistance training cause more muscle damage and should be avoided.<br><br><b>Anesthesia alert:</b> in dystrophin-deficient muscle, succinylcholine and inhaled volatile anesthetics can cause sudden muscle breakdown (rhabdomyolysis), a life-threatening rise in potassium, and cardiac arrest.<br><br><b>Carrier heart screening:</b> female carriers can develop dilated cardiomyopathy and need periodic cardiac evaluation.<br><br><b>Incorrect:</b> bed rest speeds up muscle loss and contractures. Extra calories do not build dystrophic muscle; they cause obesity (made worse by steroids), which further limits mobility. CK does not track disease progression and actually falls over time as muscle mass is lost."
         },
         "leftContent": {
@@ -11485,7 +11518,7 @@ window.NCLEX_CASES = [
             ],
             "firstColumnHeader": "Nursing Action"
           },
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes and Vital Signs from 1615.",
           "explanation": "<b>Indicated – stress-dose steroids:</b> long-term glucocorticoid use suppresses the body's own adrenal response. Procedures and injuries raise cortisol needs, so the provider must know about Ethan's steroid use in order to consider stress dosing and prevent adrenal crisis (low blood pressure, shock).<br><br><b>Contraindicated – holding prednisone:</b> stopping chronic steroids abruptly can cause adrenal insufficiency. The daily dose must continue unless the prescriber changes it.<br><br><b>Contraindicated – succinylcholine:</b> in DMD it can cause rhabdomyolysis, severe hyperkalemia and cardiac arrest. The nurse should speak up and point out the anesthesia alert.<br><br><b>Indicated – neurovascular checks:</b> checking pulses, capillary refill, color, warmth, movement and sensation before and after reduction detects vascular injury or compartment syndrome.<br><br><b>Non-Essential – CK level:</b> CK is chronically elevated in DMD and does not guide this procedure.<br><br><b>Contraindicated – strict bed rest:</b> immobility in DMD can cause permanent loss of walking within days to weeks. Children should be up and moving as early as it is safe, with physical therapy."
         },
         "leftContent": {
@@ -11565,7 +11598,7 @@ window.NCLEX_CASES = [
               }
             ]
           },
-          "preamble": "",
+          "preamble": "The nurse has reviewed the Nurses' Notes from 0930 and the Follow-Up Data.",
           "explanation": "<b>Expected outcome:</b> in DMD, steroids aim to slow the decline, not to cure. For a 5–6-year-old with Duchenne, holding his motor function steady (rise time 7.4 → 7.1 s) and falling less shows the treatment is working. It does not mean the treatment can stop; the underlying dystrophin deficiency remains.<br><br><b>Adverse effects needing a plan change:</b> steroid-related weight gain (BMI now at the 98th percentile), slowed growth in height, and vitamin D deficiency. Steroid treatment and reduced mobility both weaken bones and raise fracture risk, as Ethan's broken arm showed. The nurse should arrange nutrition counseling and discuss vitamin D and calcium supplementation with the provider. Behavior changes and increased appetite are also common steroid effects that the family should know about.<br><br><b>Safety teaching:</b> chronic glucocorticoids suppress the adrenal glands. Stopping them suddenly can cause a life-threatening adrenal crisis, so any change in dose must be a gradual taper ordered by the prescriber."
         },
         "leftContent": {
@@ -11586,7 +11619,8 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
-    "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes."
+    "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes.",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000006",
@@ -11749,7 +11783,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 0305. The nurse has reviewed the Nurses' Notes from 0305.",
           "explanation": "Hoarse voice and singed nasal hairs are direct evidence of heat and smoke near the airway (upper airway/inhalation injury). Headache and nausea are early, nonspecific symptoms of CO toxicity, since CO binds hemoglobin far more tightly than oxygen, reducing oxygen delivery to tissues. Confusion (oriented to person only) can come from hypoxemia caused by airway and lung injury, and from tissue hypoxia caused by CO -- both apply. A normal-appearing SpO2 of 98% despite new confusion is falsely reassuring: standard pulse oximeters cannot tell carboxyhemoglobin from oxyhemoglobin, so the COHb level on the ABG (ordered, pending) is needed to detect CO poisoning. Burns over 20% TBSA trigger a systemic inflammatory response with fluid shifts that can lead to hypovolemic shock; tachycardia (HR 122) with a narrowing blood pressure (104/66) is compensation for that fluid loss. A hematocrit of 53% reflects hemoconcentration: plasma leaks out of the vessels while red cells stay in, raising the hematocrit as intravascular volume falls."
         },
         "leftContent": {
@@ -12068,7 +12102,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 2 &mdash; Emergency Department, 0340.",
+          "preamble": "Phase 2 &mdash; Emergency Department, 0340. The nurse has reviewed the Nurses' Notes from 0340, the Laboratory Results from 0335, and the Provider Orders from 0340.",
           "explanation": "By the Rule of Nines: anterior trunk (chest + abdomen) = 18%; the entire right arm, anterior 4.5% + posterior 4.5% = 9%. Total 27%. The face is a first-degree (superficial) burn -- red, dry, no blisters -- and is <b>not</b> counted in resuscitation calculations. Using the Parkland formula, 4 mL &times; 80 kg &times; 27 = 8,640 mL over 24 hours. Half of that, 4,320 mL, is given in the first 8 hours; the remaining 4,320 mL is given over the next 16 hours. The 8-hour clock starts at the burn, not at arrival -- because 45+ minutes have already passed since 0215, the hourly rate must make up for lost time. The adult urine-output target is about 0.5 mL/kg/h: 0.5 &times; 80 kg = 40 mL/h. Urine output is the key guide for titration; output well above 1 mL/kg/h (for example, 100&ndash;160 mL/h) suggests over-resuscitation and risks edema-related complications."
         },
         "leftContent": {
@@ -12299,7 +12333,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 3 &mdash; Regional Burn Centre, Post-injury Day 5.",
+          "preamble": "Phase 3 &mdash; Regional Burn Centre, Post-injury Day 5. The nurse has reviewed the Progress Notes from Post-injury Day 5.",
           "explanation": "Urine output of 55 mL/h is above the 40 mL/h (0.5 mL/kg/h) target, showing adequate renal perfusion after resuscitation. A warm hand with brisk capillary refill and a palpable pulse matches the expected short-term outcome of no signs of compartment syndrome: no swelling and no decreased pulses in the affected area. SpO2 96%, clear lungs, and speaking in full sentences show that gas exchange and airway patency have been restored after extubation. Pain 3/10 during a dressing change reflects giving analgesia at least 30 minutes before burn care, with pain that is tolerable before, during, and after the dressing change. Yellow, foul-smelling discharge with increased erythema are signs of burn-wound infection; the nurse notifies the provider (a wound culture and antimicrobials are likely). The short-term goal is a WBC within normal range; fever with leukocytosis and a purulent wound suggest infection and possible sepsis, so the provider is notified and this is escalated promptly."
         },
         "leftContent": {
@@ -12341,7 +12375,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "A 46-year-old male client with flame burns and suspected inhalation injury, from the emergency department through fluid resuscitation and early burn-centre recovery.",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000007",
@@ -12496,7 +12531,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
+          "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030. The nurse has reviewed the Nurses' Notes from 1030.",
           "explanation": "The chapter describes a viral prodrome with a burning sensation where the rash will appear several days later. Zoster follows a single dermatome and does not cross the midline. Low-grade fever and fatigue are part of the prodrome. A vesicle on the tip of the nose (Hutchinson sign) is a strong predictor of eye involvement, since the nasociliary nerve supplies both the tip of the nose and the eye. Photophobia and blurred vision suggest corneal or intraocular inflammation. Prednisone and methotrexate suppress cell-mediated immunity, which normally controls varicella-zoster virus, raising the risk of dissemination and prolonged shedding. Zoster most commonly affects older adults, and age also raises the risk of complications, including postherpetic neuralgia."
         },
         "leftContent": {
@@ -12706,7 +12741,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400.",
+          "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400. The nurse has reviewed the Nurses' Notes from 1400 and the Provider Orders.",
           "explanation": "For localized zoster in an immunocompromised client, isolation guidance calls for airborne and contact precautions until disseminated infection is ruled out. Varicella-zoster virus spreads to people who are not immune, so non-immune or pregnant staff should not provide care. IV acyclovir can precipitate as crystals in the renal tubules and cause acute kidney injury, especially with rapid infusion or dehydration, so each dose is infused slowly with adequate hydration and strict intake and output. Eye assessment follows directly from the priority of preventing vision loss; worsening vision needs prompt reporting to ophthalmology. Daily creatinine detects acyclovir-related kidney injury early. A 4-month-old is unvaccinated against varicella, and airborne precautions are in place; a gown and gloves do not protect the infant from an airborne exposure, so the visit should not be encouraged this way. Opening intact vesicles increases the risk of secondary bacterial infection and scarring; ointments are prescribed to prevent secondary infection, not to dry lesions faster. The order specifies skin lesions only -- only ophthalmic preparations may be placed in the eye. Stopping long-term corticosteroids abruptly risks adrenal insufficiency; the provider continued it, and any change needs a prescriber's order. The vaccine prevents future episodes; it does not treat active zoster, and vaccination is discussed after recovery."
         },
         "leftContent": {
@@ -13052,7 +13087,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 4.",
+          "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 4. The nurse has reviewed the Hospital Day 4 Flowsheet.",
           "explanation": "A creatinine more than doubled from the 78 µmol/L admission baseline suggests acyclovir-associated acute kidney injury; the nurse notifies the provider promptly, since the dose may need adjustment and hydration reviewed. Oliguria (a urine output under about 400 mL/24 h, or under 0.5 mL/kg/h) despite adequate intake also supports kidney injury. The client's statement that ongoing burning after the scabs are gone “doesn't mean anything” shows a misunderstanding: pain that persists after the rash heals may be postherpetic neuralgia, a treatable, reportable neurological complication, and this teaching needs reinforcement. Temperature, skin, pain, and eye findings all show expected progress: afebrile, lesions crusted without dissemination, pain controlled, and eye findings stable. A capillary glucose of 7.4 mmol/L is acceptable for a client with diabetes taking prednisone. The vaccine and hand-hygiene statements reflect accurate understanding -- the recombinant (non-live) zoster vaccine is recommended after recovery, including for people who are immunocompromised.",
           "highlightTabs": [
             {
@@ -13102,7 +13137,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "A 72-year-old immunosuppressed female client with herpes zoster involving the left forehead, scalp, and eye, from the primary care clinic through hospitalization and discharge planning.",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1782390000008",
@@ -13326,7 +13362,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
+          "preamble": "Phase 1 &mdash; Emergency Department, 2140. The nurse has reviewed the Nurses' Notes from 2140.",
           "explanation": "In erythroderma the skin barrier is almost completely absent, so the patient loses fluid rapidly through the skin. The orthostatic drop, dry mucosa, and low, concentrated urine output confirm volume depletion; a normal SpO2 and clear lungs argue against a cardiopulmonary cause, and there is no allergen exposure suggesting anaphylaxis. Inflamed, vasodilated skin over 90% of the body loses heat rapidly; the chapter directs frequent temperature monitoring with warming or cooling as needed. The client has not stopped drinking long enough for significant withdrawal, and alcohol withdrawal tends to raise, not lower, temperature. An albumin of 26 g/L shows protein loss through scaling and exudation; low oncotic pressure lets fluid shift into tissues even while the client is intravascularly depleted, and IV fluids have not yet been given. The chapter lists stress and excessive alcohol as psoriasis triggers and notes psoriasis is a contributing cause of erythroderma. Abruptly stopping systemic therapy and withdrawal of systemic corticosteroids are well-recognized triggers of erythrodermic flares. A streptococcal infection classically triggers guttate psoriasis; detergents trigger contact dermatitis, not this presentation."
         },
         "leftContent": {
@@ -13604,7 +13640,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 2 &mdash; Medical Unit, Hospital Day 3.",
+          "preamble": "Phase 2 &mdash; Medical Unit, Hospital Day 3. The nurse has reviewed the Nurses' Notes from Hospital Day 3 and the Screening Results.",
           "explanation": "For systemic and biologic therapy (infliximab is named), the nurse monitors for serious infections such as tuberculosis and hepatitis. TNF inhibitors can reactivate latent TB and hepatitis B, so screening must be confirmed first. Infliximab can cause infusion reactions. Suppressed immunity makes infection more likely and directs teaching about worsening redness, swelling, or discharge. Live vaccines are avoided during biologic immunosuppression; needed vaccines should be given before therapy starts, per prescriber. Psoriasis is chronic with remission and relapse; the nurse reinforces adherence rather than suggesting therapy can simply be stopped once the skin clears -- stopping therapy is what precipitated this admission. Addressing the root cause of non-adherence (lost drug coverage) and the psychosocial impact matters: support groups and social work are appropriate for coping and financial concerns. Education to avoid triggers, including stress and excessive alcohol, and stress-reduction techniques are directed. Heat and prolonged water exposure dry and irritate the skin and promote heat and fluid loss; lukewarm soaks followed by emollients are appropriate instead."
         },
         "leftContent": {
@@ -13706,7 +13742,7 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 7.",
+          "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 7. The nurse has reviewed the Nurses' Notes from Hospital Day 7.",
           "explanation": "Stable blood pressure and heart rate meet the expected outcome of vital signs within normal limits without fluid imbalance. A normal temperature shows thermoregulation restored. Normal potassium and magnesium show no electrolyte disturbance. The chapter expects the skin to begin healing with decreased peeling and itching. A honey-coloured crust with surrounding redness and warmth is a classic sign of secondary bacterial infection (impetigo-like); the chapter notes yellow crusts over excoriations signal infection -- notify the provider; topical mupirocin is commonly prescribed, and infection risk is higher on a biologic. Low withdrawal scores show withdrawal was prevented or managed. Planning to skip the next infusion once the skin clears shows the adherence teaching has not been understood; the chapter directs the nurse to evaluate education and reinforce continuing treatment."
         },
         "leftContent": {
@@ -13743,7 +13779,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "A 54-year-old male client with 20 years of plaque psoriasis who progresses to generalized exfoliative dermatitis (erythroderma) after stopping methotrexate, from the emergency department through biologic therapy and discharge planning.",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1786010000001",
@@ -13953,7 +13990,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "The nurse reviews the ED notes to begin to plan care for a 71-year-old client.",
+          "preamble": "The nurse reviews the ED notes to begin to plan care for a 71-year-old client. The nurse has reviewed the Nurses' Notes from 1055.",
           "explanation": "The client has a confirmed DVT for which a continuous heparin infusion was ordered. Unfractionated heparin is an anticoagulant that works rapidly by combining with antithrombin III to prevent thrombin formation. As a result, fibrinogen does not convert to fibrin, and a fibrin clot is not formed. Heparin is being administered to this client to prevent extension of the existing DVT and to prevent additional clot formation. Clients need to be monitored for hemorrhage, including observation for signs of GI bleeding, ecchymosis (bruising), petechiae, and hematuria. The client's aPTT is monitored as a basis for drug dosing management."
         },
         "leftContent": {
@@ -13994,7 +14031,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "The nurse on the medical unit reviews the nurses’ notes from the ED and plans health teaching for a 71-year-old client receiving continuous IV heparin infusion for right lower leg DVT.",
+          "preamble": "The nurse on the medical unit reviews the nurses’ notes from the ED and plans health teaching for a 71-year-old client receiving continuous IV heparin infusion for right lower leg DVT. The nurse has reviewed the Nurses' Notes from 1152.",
           "explanation": "Many clients who experience a DVT are started on a low-molecular-weight heparin (LMWH). However, this client has a history of DVT and is therefore receiving a continuous heparin infusion for initial management. Unfractionated heparin is an anticoagulant that works rapidly by combining with antithrombin III to prevent thrombin formation. As a result, fibrinogen does not convert to fibrin, and a fibrin clot is not formed. Heparin is being administered to this client to prevent enlargement of the current DVT and prevent additional clot formation. Clients should be monitored for hemorrhage, including observation for signs of GI bleeding, ecchymosis (bruising), petechiae, and hematuria. Therefore, the client's stools and urine may be tested for occult (microscopic) blood to detect early signs of bleeding. The client's aPTT is monitored as a basis for drug dosing management. INR is monitored for clients receiving warfarin and is therefore an incorrect response. If the client's condition begins to improve, the client will likely receive heparin for 3 days and then be switched to an LMWH that can be administered once or twice daily by injection; this drug does not require lab monitoring. While being treated for DVT, the client should be closely monitored for indications that a piece of the thrombus has become dislodged and caused an embolus, most often a pulmonary embolus (PE). Most clients have chest discomfort or shortness of breath when a PE occurs. The nurse would teach the client to report either or both of these symptoms as soon as they occur so that treatment can be initiated. Embolic complications can be life-threatening."
         },
         "leftContent": {
@@ -14059,7 +14096,7 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "The nurse on the medical unit is preparing to perform the initial shift assessment for the client receiving continuous IV heparin infusion for right lower leg DVT.",
+          "preamble": "The nurse on the medical unit is preparing to perform the initial shift assessment for the client receiving continuous IV heparin infusion for right lower leg DVT. The nurse has reviewed the Nurses' Notes from 0700.",
           "explanation": "The client has shortness of breath and a low SpO2, for which the nurse would raise the head of the client's bed and immediately start oxygen therapy, along with continuous pulse oximetry monitoring to track the client's oxygenation closely. Lung sounds need to be monitored frequently, at least every 30 to 60 minutes; therefore, a respiratory assessment only every shift is insufficient and is not an appropriate action. Incentive spirometry (IS) is used to expand the lungs and prevent alveolar collapse; this client has one or more clots in a pulmonary blood vessel and would not likely benefit from the IS. The client's blood pressure markedly decreased, causing the heart rate to increase. An IV crystalloid such as lactated Ringer's solution would help increase blood volume and the client's blood pressure; if the BP continues to decrease, a vasopressor such as dobutamine may be ordered. Vital signs are monitored frequently, at least hourly, and the client needs to be prepared for a CT scan or CT angiogram to confirm the PE. Although the nurse does not need to perform a formal neurological assessment every 4 hours, the client's level of consciousness needs to be monitored due to the decreasing blood pressure and possible hemoptysis (cough with blood-streaked sputum) that can occur in some clients who have a PE. Providing reassurance to the client will assist in managing anxiety and will aid in promoting recovery. This item is flagged for clinician review: continuous pulse oximetry monitoring was not explicitly addressed in the original rationale and is included here as a reasonable extension of “immediately start oxygen therapy” for a client with a new, significant desaturation."
         },
         "leftContent": {
@@ -14137,7 +14174,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "The nurse is assigned to care for a 71-year-old client who was admitted to the medical unit 3 days ago for DVT of the lower right leg. Two days ago, the client experienced a submassive pulmonary embolus, causing chest discomfort, shortness of breath, and hypotension; it was confirmed by imaging and treated immediately. Before assessing the client, the nurse reviews the nurses’ notes from the last shift, and then compares the client’s current findings with findings 2 days ago.",
+          "preamble": "The nurse is assigned to care for a 71-year-old client who was admitted to the medical unit 3 days ago for DVT of the lower right leg. Two days ago, the client experienced a submassive pulmonary embolus, causing chest discomfort, shortness of breath, and hypotension; it was confirmed by imaging and treated immediately. Before assessing the client, the nurse reviews the nurses’ notes from the last shift, and then compares the client’s current findings with findings 2 days ago. The nurse has reviewed the Nurses' Notes from 0645.",
           "explanation": "All of the current assessment findings indicate that the client's condition has improved except the report of feeling very anxious. Anxiety is a common problem for clients experiencing shortness of breath or breathlessness, which creates fear. Fearful situations then trigger a sympathetic response, which can worsen breathing problems. Currently the client is experiencing only occasional shortness of breath and no chest discomfort. Current vital signs are all within normal range, demonstrating that the client's condition has improved."
         },
         "leftContent": {
@@ -14154,7 +14191,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 1 (Blood Disorders)",
     "description": "A 71-year-old client develops a right lower leg deep vein thrombosis (DVT) that progresses to a submassive pulmonary embolism, from recognize cues through evaluate outcomes.",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1786030000001",
@@ -15227,7 +15265,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes.",
+          "preamble": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. The nurse has reviewed the Nurses' Notes from 0815.",
           "explanation": "The assessment findings support that the client has hypovolemia (dehydration) because the client's blood pressure is low and heart rate is high to compensate for the fluid deficit by circulating less blood more often through the body. The client has lost body fluids, sodium, and potassium because of vomiting. Inadequate blood volume exerts less pressure on the walls of arterial vessels, causing a decrease in blood pressure. Although the client's pain is important to address, it can be managed once the fluid volume state is corrected. The client's vomiting can also be managed once the fluid abnormalities are addressed. The client is not at risk for fluid overload. Although hematemesis and disorientation are related to hypovolemia, hypotension and tachycardia provide direct evidence of hypovolemia."
         },
         "leftContent": {
@@ -15297,7 +15335,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and the nurse reviews the results.",
+          "preamble": "One week following the community clinic visit: the client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and the nurse reviews the results. The nurse has reviewed the Laboratory Tests.",
           "explanation": "The potential nursing actions for the client's condition are directed primarily toward correcting the client's fluid and electrolyte imbalances. IV fluids would be initiated to replace vital fluids and electrolytes. A large-bore IV catheter would be inserted because the client may need a blood transfusion if bleeding does not stop. Therefore, typing and crossmatching several units of packed cells is indicated at this time in case it is needed. The client would be NPO and not be allowed to have any oral intake until the hypovolemia caused by GI bleeding and vomiting is under control. Therefore, giving clear liquids as tolerated would be contraindicated. An NGT would be inserted to decompress the stomach so that it can rest to begin the healing process and prevent additional vomiting. Clients who are hypovolemic may not have adequate oxygen to perfuse the brain and other vital organs. Therefore, providing low-flow oxygen administration would help ensure adequate organ perfusion."
         },
         "leftContent": {
@@ -15435,7 +15473,7 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "The nurse on the medical unit performs an admission assessment and compares current client findings with earlier findings in the Nurses’ Notes and laboratory results from when the client was admitted to the ED.",
+          "preamble": "The nurse on the medical unit performs an admission assessment and compares current client findings with earlier findings in the Nurses’ Notes and laboratory results from when the client was admitted to the ED. The nurse has reviewed the Nurses' Notes and the repeat Laboratory Tests from the Medical Unit.",
           "explanation": "All of the listed current client findings are improving, demonstrating that the client is progressing. The client's systolic blood pressure is well above 100 mmHg, and the pain level has decreased from an 8/10 to a 4/10 on a pain scale of 0 to 10 (the worst possible pain). Sodium, potassium, and BUN values have all normalized, and the SpO2 is at a normal of 95% or greater for the client's age."
         },
         "leftContent": {
@@ -15457,7 +15495,8 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "A 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease that progresses to a GI bleed and hypovolemia, from a community health clinic visit through ED stabilization and transfer to the medical unit.",
-    "availability": "all"
+    "availability": "all",
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "case_1790621517257",
@@ -21964,7 +22003,7 @@ window.NCLEX_STANDALONE = [
           "type": "multiple_choice",
           "options": [
             {
-              "text": "first stage of labor who has an oral temperature of 99.7&deg; F (37.6&deg; C)",
+              "text": "first stage of labor who has an oral temperature of 99.7° F (37.6° C)",
               "correct": false
             },
             {
@@ -21991,7 +22030,8 @@ window.NCLEX_STANDALONE = [
       }
     ],
     "disorder": "Others",
-    "isStandalone": true
+    "isStandalone": true,
+    "updatedAt": "2026-09-28T21:15:29.533Z"
   },
   {
     "id": "standalone_1790300000002",
