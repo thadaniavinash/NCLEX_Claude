@@ -32,6 +32,12 @@ function initPlayerEvents() {
     });
   }
 
+  document.querySelectorAll('#player-mobile-switch [data-pane]').forEach(btn => {
+    btn.addEventListener('click', () => setPlayerMobilePane(btn.dataset.pane));
+  });
+  const toQuestionBtn = document.getElementById('player-mobile-to-question');
+  if (toQuestionBtn) toQuestionBtn.addEventListener('click', () => setPlayerMobilePane('question'));
+
   document.getElementById('player-calc-btn').addEventListener('click', toggleCalculator);
   document.getElementById('close-calc-btn').addEventListener('click', toggleCalculator);
 
@@ -95,7 +101,7 @@ function initPlayerEvents() {
         showSkipQuestionModal();
         return;
       }
-      alert("Please submit your response first by clicking the Submit button.");
+      showPlayerNotice('Submit your answer first, then continue to the next question.');
       return;
     }
     if (playerStepIndex < currentCase.screens.length - 1) {
@@ -105,6 +111,23 @@ function initPlayerEvents() {
       loadResultsView();
     }
   });
+}
+
+// A short message just above the footer, in place of alert() pop-ups.
+let playerNoticeTimer = null;
+function showPlayerNotice(message) {
+  const notice = document.getElementById('player-notice');
+  if (!notice) return;
+  notice.textContent = message;
+  notice.classList.remove('hidden');
+  clearTimeout(playerNoticeTimer);
+  playerNoticeTimer = setTimeout(() => notice.classList.add('hidden'), 5000);
+}
+
+function hidePlayerNotice() {
+  const notice = document.getElementById('player-notice');
+  if (notice) notice.classList.add('hidden');
+  clearTimeout(playerNoticeTimer);
 }
 
 function showTestSubmitModal() {
@@ -150,6 +173,7 @@ function startPlayer(caseStudy, config) {
   currentCase = caseStudy;
   playerStepIndex = 0;
   playerActiveTabId = '';
+  playerMobilePaneStep = null;
   
   playerAnswers = {};
   submittedAnswers = {};
@@ -188,6 +212,7 @@ function startPlayer(caseStudy, config) {
 }
 
 function renderPlayerStep(stepIdx) {
+  if (stepIdx !== playerStepIndex) hidePlayerNotice();
   playerStepIndex = stepIdx;
   const step = currentCase.screens[stepIdx];
   if (!step) return;
@@ -268,6 +293,7 @@ function renderPlayerStep(stepIdx) {
   }
 
   renderPlayerTabs(step.leftContent.tabs);
+  updatePlayerMobileLayout(step, !!(splitContainer && !splitContainer.classList.contains('full-width')));
   renderQuestionNavigatorList();
   
   const preambleEl = document.getElementById('player-question-preamble');
@@ -366,6 +392,65 @@ function renderPlayerStep(stepIdx) {
   }
 }
 
+/* ---- What changed in the chart since the previous screen of the same case ---- */
+
+// The previous screen when it belongs to the same unfolding case, otherwise null.
+function previousCaseScreen(stepIdx) {
+  if (stepIdx <= 0 || currentCase.isStandalone) return null;
+  const step = currentCase.screens[stepIdx];
+  const prev = currentCase.screens[stepIdx - 1];
+  if (!prev || step.isStandalone || prev.isStandalone || prev.caseId !== step.caseId) return null;
+  return prev;
+}
+
+// Entries of a chart tab (table rows, notes, list items) as normalised text. Parsed with
+// DOMParser so images in the content are not fetched just for the comparison.
+function chartEntryElements(root) {
+  return Array.from(root.querySelectorAll('tr, p, li')).filter(el => el.tagName === 'TR' || !el.closest('table'));
+}
+
+function chartEntryText(el) {
+  return el.textContent.replace(/\s+/g, ' ').trim();
+}
+
+// For each tab of the screen: 'first' (no earlier screen), 'new', 'updated' (with the earlier
+// entries) or 'same'.
+function chartChanges(stepIdx) {
+  const step = currentCase.screens[stepIdx];
+  const tabs = (step && step.leftContent && step.leftContent.tabs) || [];
+  const prev = previousCaseScreen(stepIdx);
+  const byTab = {};
+  let hasNewInfo = !prev && tabs.length > 0;
+  const prevTabs = prev ? ((prev.leftContent && prev.leftContent.tabs) || []) : [];
+  tabs.forEach(t => {
+    if (!prev) { byTab[t.id] = { status: 'first' }; return; }
+    // Same tab on the previous screen: same title, else same id, else identical content
+    // (so a tab whose title was retyped is not reported as new).
+    const key = (t.title || '').trim().toLowerCase();
+    const prevTab = prevTabs.find(pt => (pt.title || '').trim().toLowerCase() === key)
+      || prevTabs.find(pt => pt.id && pt.id === t.id)
+      || prevTabs.find(pt => (pt.content || '') === (t.content || ''));
+    if (!prevTab) {
+      byTab[t.id] = { status: 'new' };
+      hasNewInfo = true;
+    } else if ((prevTab.content || '') === (t.content || '')) {
+      byTab[t.id] = { status: 'same' };
+    } else {
+      const doc = new DOMParser().parseFromString(formatNursesNotes(prevTab.content || '', prevTab.title), 'text/html');
+      byTab[t.id] = { status: 'updated', previousEntries: new Set(chartEntryElements(doc.body).map(chartEntryText)) };
+      hasNewInfo = true;
+    }
+  });
+  if (prev && (prev.leftContent && prev.leftContent.intro) !== (step.leftContent && step.leftContent.intro)) hasNewInfo = true;
+  return { byTab, hasNewInfo, hasPrevious: !!prev };
+}
+
+// "New"/"Updated" markers help students follow an unfolding case, but are left out of an
+// active Test Mode exam, which imitates the real NCLEX screen.
+function showChartChangeMarkers() {
+  return !(sessionConfig.mode === 'test' && !sessionConfig.isRemediation);
+}
+
 function renderPlayerTabs(tabs) {
   const tabsBar = document.getElementById('player-chart-tabs');
   const contentBox = document.getElementById('player-chart-content');
@@ -380,11 +465,20 @@ function renderPlayerTabs(tabs) {
   if (!playerActiveTabId || !tabs.find(t => t.id === playerActiveTabId)) {
     playerActiveTabId = tabs[0].id;
   }
+
+  const changes = showChartChangeMarkers() ? chartChanges(playerStepIndex).byTab : {};
   
   tabs.forEach(t => {
     const tabBtn = document.createElement('button');
     tabBtn.className = `patient-chart-tab ${t.id === playerActiveTabId ? 'active' : ''}`;
     tabBtn.textContent = t.title;
+    const change = changes[t.id];
+    if (change && (change.status === 'new' || change.status === 'updated')) {
+      const marker = document.createElement('span');
+      marker.className = `chart-tab-change ${change.status}`;
+      marker.textContent = change.status === 'new' ? 'New' : 'Updated';
+      tabBtn.appendChild(marker);
+    }
     tabBtn.addEventListener('click', () => {
       playerActiveTabId = t.id;
       renderPlayerTabs(tabs);
@@ -394,6 +488,64 @@ function renderPlayerTabs(tabs) {
   
   const activeTab = tabs.find(t => t.id === playerActiveTabId);
   contentBox.innerHTML = activeTab ? formatNursesNotes(activeTab.content, activeTab.title) : '';
+
+  // Mark the entries added since the previous screen.
+  const activeChange = activeTab && changes[activeTab.id];
+  if (activeChange && activeChange.status === 'updated') {
+    let marked = 0;
+    chartEntryElements(contentBox).forEach(el => {
+      const text = chartEntryText(el);
+      if (text && !activeChange.previousEntries.has(text)) {
+        el.classList.add('chart-entry-new');
+        marked++;
+      }
+    });
+    if (marked) {
+      contentBox.insertAdjacentHTML('afterbegin', '<div class="chart-new-legend"><span class="chart-new-swatch"></span>Highlighted entries are new since the previous screen.</div>');
+    }
+  }
+}
+
+/* ---- Phone layout: the chart and the question are two panes with a switch ---- */
+let playerMobilePane = 'question';
+let playerMobilePaneStep = null;
+
+function setPlayerMobilePane(pane) {
+  playerMobilePane = pane === 'chart' ? 'chart' : 'question';
+  const split = document.querySelector('.player-center-split');
+  if (split) {
+    split.classList.toggle('mobile-show-chart', playerMobilePane === 'chart');
+    split.classList.toggle('mobile-show-question', playerMobilePane === 'question');
+    split.scrollTop = 0;
+  }
+  document.querySelectorAll('#player-mobile-switch [data-pane]').forEach(btn => {
+    const isActive = btn.dataset.pane === playerMobilePane;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+  });
+}
+
+// Called on every render of a screen; picks the starting pane only when a new screen opens
+// (not when the same screen re-renders after Submit): the chart when it has new information.
+function updatePlayerMobileLayout(step, hasChart) {
+  const switcher = document.getElementById('player-mobile-switch');
+  const changes = chartChanges(playerStepIndex);
+  if (switcher) {
+    switcher.classList.toggle('hidden', !hasChart);
+    const dot = switcher.querySelector('.mobile-switch-new');
+    if (dot) dot.classList.toggle('hidden', !(changes.hasPrevious && changes.hasNewInfo && showChartChangeMarkers()));
+  }
+  const mobileIntro = document.getElementById('player-mobile-intro');
+  if (mobileIntro) {
+    mobileIntro.innerHTML = hasChart ? (step.leftContent.intro || '') : '';
+    mobileIntro.classList.toggle('hidden', !hasChart || !step.leftContent.intro);
+  }
+  if (playerMobilePaneStep !== step) {
+    playerMobilePaneStep = step;
+    setPlayerMobilePane(hasChart && changes.hasNewInfo ? 'chart' : 'question');
+  } else if (!hasChart) {
+    setPlayerMobilePane('question');
+  }
 }
 
 function renderQuestionNavigatorList() {
@@ -463,6 +615,38 @@ function renderQuestionNavigatorList() {
 }
 
 /* ================= 17 PLAYER OPTIONS RENDERERS ================= */
+/* ---- Answer markers after submitting ----
+   Each answered option says whether the student chose it and whether that was right,
+   so the result never depends on colour alone. */
+const ANSWER_OUTCOMES = {
+  chosenCorrect: { cls: 'show-correct', label: '\u2713 Your answer: correct' },
+  chosenIncorrect: { cls: 'show-incorrect', label: '\u2717 Your answer: incorrect' },
+  missed: { cls: 'show-missed', label: 'Correct answer (not selected)' }
+};
+
+function answerOutcome(isChosen, isCorrect) {
+  if (isChosen) return isCorrect ? ANSWER_OUTCOMES.chosenCorrect : ANSWER_OUTCOMES.chosenIncorrect;
+  return isCorrect ? ANSWER_OUTCOMES.missed : null;
+}
+
+function markAnsweredOption(row, isChosen, isCorrect) {
+  const outcome = answerOutcome(isChosen, isCorrect);
+  if (!outcome) return;
+  row.classList.add(outcome.cls);
+  const tag = document.createElement('span');
+  tag.className = `answer-outcome-tag ${outcome.cls}`;
+  tag.textContent = outcome.label;
+  row.appendChild(tag);
+}
+
+// Shows the correct answer under a question the student did not get fully right.
+function appendAnswerKey(box, title, itemsHtml) {
+  const key = document.createElement('div');
+  key.className = 'player-answer-key';
+  key.innerHTML = `<div class="player-answer-key-title">${escapeHTML(title)}</div>${itemsHtml}`;
+  box.appendChild(key);
+}
+
 function renderPlayerAnswersBox(q, stepIdx) {
   const box = document.getElementById('player-answer-box');
   if (!box) return;
@@ -580,12 +764,21 @@ function renderPlayerDropdownCloze(q, stepIdx, box, isSubmitted, userAnswers) {
         select.appendChild(oEl);
       });
       
+      let resultMark = null;
       if (isSubmitted) {
         const correctIdx = dd.options.findIndex(o => o.correct);
-        if (parseInt(savedVal) === correctIdx) {
-          select.classList.add('show-correct');
+        const isRight = savedVal !== undefined && savedVal !== '' && parseInt(savedVal) === correctIdx;
+        select.classList.add(isRight ? 'show-correct' : 'show-incorrect');
+        // Say it in words too, and give the right choice when the blank was wrong or skipped.
+        resultMark = document.createElement('span');
+        resultMark.className = `cloze-result ${isRight ? 'show-correct' : 'show-incorrect'}`;
+        if (isRight) {
+          resultMark.textContent = '\u2713';
+          resultMark.title = 'Your answer: correct';
+          resultMark.setAttribute('aria-label', 'Your answer: correct');
         } else {
-          select.classList.add('show-incorrect');
+          const correctText = correctIdx >= 0 ? dd.options[correctIdx].text : '';
+          resultMark.innerHTML = `\u2717 <span class="cloze-result-key">Correct: <strong>${escapeHTML(correctText)}</strong></span>`;
         }
       } else {
         select.addEventListener('change', (e) => {
@@ -594,6 +787,7 @@ function renderPlayerDropdownCloze(q, stepIdx, box, isSubmitted, userAnswers) {
         });
       }
       container.appendChild(select);
+      if (resultMark) container.appendChild(resultMark);
     } else {
       const fallback = document.createElement('span');
       fallback.textContent = `[drop${idx}]`;
@@ -799,20 +993,22 @@ function renderPlayerMatrixBase(q, stepIdx, box, isSubmitted, userAnswers, isMul
       }
       
       let cellClass = '';
+      let cellMark = '';
       if (isSubmitted) {
         const isCorrect = isMultiResponse
           ? (r.correctIndices || []).includes(cIdx)
           : r.correctIndex === cIdx;
-        
-        if (isCorrect) {
-          cellClass = 'matrix-cell-correct';
-        } else if (isChecked && !isCorrect) {
-          cellClass = 'matrix-cell-incorrect';
+        const outcome = answerOutcome(isChecked, isCorrect);
+        if (outcome) {
+          cellClass = outcome === ANSWER_OUTCOMES.chosenIncorrect ? 'matrix-cell-incorrect' : 'matrix-cell-correct';
+          if (outcome === ANSWER_OUTCOMES.missed) cellClass += ' matrix-cell-missed';
+          const symbol = outcome === ANSWER_OUTCOMES.chosenIncorrect ? '\u2717' : '\u2713';
+          cellMark = `<span class="matrix-cell-mark ${outcome.cls}" title="${outcome.label}" aria-label="${outcome.label}">${symbol}</span>`;
         }
       }
       
       html += `<td class="${cellClass}">
-        <input type="${isMultiResponse ? 'checkbox' : 'radio'}" name="player-matrix-row-${rIdx}" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''} data-row="${rIdx}" data-col="${cIdx}">
+        <input type="${isMultiResponse ? 'checkbox' : 'radio'}" name="player-matrix-row-${rIdx}" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''} data-row="${rIdx}" data-col="${cIdx}" aria-label="${escapeHTML(r.text)}: ${escapeHTML(col)}">${cellMark}
       </td>`;
     });
     html += `</tr>`;
@@ -849,6 +1045,14 @@ function renderPlayerMatrixBase(q, stepIdx, box, isSubmitted, userAnswers, isMul
     ? 'Note: Each column must have at least 1 response option selected.' 
     : 'Note: Each row must have only 1 response option selected.';
   box.appendChild(note);
+  if (isSubmitted) {
+    const legend = document.createElement('div');
+    legend.className = 'matrix-result-legend';
+    legend.innerHTML = '<span><span class="matrix-cell-mark show-correct">\u2713</span> your correct answer</span>'
+      + '<span><span class="matrix-cell-mark show-incorrect">\u2717</span> your incorrect answer</span>'
+      + '<span><span class="matrix-cell-mark show-missed">\u2713</span> correct answer you did not choose</span>';
+    box.appendChild(legend);
+  }
 }
 
 // 5. Select N Response
@@ -866,10 +1070,6 @@ function renderPlayerSelectN(q, stepIdx, box, isSubmitted, userAnswers) {
     const isChecked = savedVal[oIdx] === true;
     if (isChecked) row.classList.add('checked');
     
-    if (isSubmitted) {
-      if (opt.correct) row.classList.add('show-correct');
-      else if (isChecked && !opt.correct) row.classList.add('show-incorrect');
-    }
     
     row.innerHTML = `
       <input type="checkbox" name="selectN-group" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''}>
@@ -878,6 +1078,7 @@ function renderPlayerSelectN(q, stepIdx, box, isSubmitted, userAnswers) {
         ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid #e5e7eb; margin-top:4px;">` : ''}
       </div>
     `;
+    if (isSubmitted) markAnsweredOption(row, isChecked, !!opt.correct);
     
     if (!isSubmitted) {
       const input = row.querySelector('input');
@@ -885,7 +1086,7 @@ function renderPlayerSelectN(q, stepIdx, box, isSubmitted, userAnswers) {
         const currentCount = Object.values(playerAnswers[stepIdx] || {}).filter(Boolean).length;
         if (input.checked && currentCount >= limit) {
           input.checked = false;
-          alert(`You can only select up to ${limit} choices.`);
+          showPlayerNotice(`You can select up to ${limit} options. Clear one to choose another.`);
           return;
         }
         if (!playerAnswers[stepIdx]) playerAnswers[stepIdx] = {};
@@ -1179,6 +1380,15 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
     checkTarget(container.querySelector('#bowtie-target-center'), conditions);
     checkTarget(container.querySelector('#bowtie-target-right1'), params);
     checkTarget(container.querySelector('#bowtie-target-right2'), params);
+
+    const res = playerScores[stepIdx];
+    if (!res || res.score < res.max) {
+      const list = items => `<ul>${items.filter(x => x.correct).map(x => `<li>${escapeHTML(x.text)}</li>`).join('')}</ul>`;
+      appendAnswerKey(box, 'Correct answer',
+        `<ul><li><strong>${escapeHTML(col1Header)}:</strong> ${list(actions)}</li>`
+        + `<li><strong>${escapeHTML(centerPH)}:</strong> ${list(conditions)}</li>`
+        + `<li><strong>${escapeHTML(col3Header)}:</strong> ${list(params)}</li></ul>`);
+    }
   }
 }
 
@@ -1194,10 +1404,6 @@ function renderPlayerMultipleChoice(q, stepIdx, box, isSubmitted, userAnswers) {
     const isChecked = savedVal[oIdx] === true;
     if (isChecked) row.classList.add('checked');
     
-    if (isSubmitted) {
-      if (opt.correct) row.classList.add('show-correct');
-      else if (isChecked && !opt.correct) row.classList.add('show-incorrect');
-    }
     
     row.innerHTML = `
       <input type="radio" name="single-mc" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''}>
@@ -1206,6 +1412,7 @@ function renderPlayerMultipleChoice(q, stepIdx, box, isSubmitted, userAnswers) {
         ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid #e5e7eb; margin-top:4px;">` : ''}
       </div>
     `;
+    if (isSubmitted) markAnsweredOption(row, isChecked, !!opt.correct);
     
     if (!isSubmitted) {
       row.querySelector('input').addEventListener('change', () => {
@@ -1365,6 +1572,7 @@ function renderPlayerOrderedResponse(q, stepIdx, box, isSubmitted, userAnswers) 
         <span>${idx + 1}. ${escapeHTML(item)}</span>
       `;
       if (isSubmitted) {
+        el.querySelector('span').insertAdjacentHTML('beforebegin', `<span class="order-result-mark">${correctSequence[idx] === item ? '\u2713' : '\u2717'}</span>`);
         if (correctSequence[idx] === item) {
           el.style.borderColor = 'var(--accent-green)';
           el.style.backgroundColor = 'rgba(16, 185, 129, 0.05)';
@@ -1435,6 +1643,12 @@ function renderPlayerOrderedResponse(q, stepIdx, box, isSubmitted, userAnswers) 
   }
   
   box.appendChild(container);
+
+  const userOrder = stateAnswers.order || [];
+  const isFullyCorrect = userOrder.length === correctSequence.length && userOrder.every((item, i) => item === correctSequence[i]);
+  if (isSubmitted && !isFullyCorrect) {
+    appendAnswerKey(box, 'Correct order', `<ol>${correctSequence.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ol>`);
+  }
 }
 
 // 11. Select All (SATA / Trend)
@@ -1449,10 +1663,6 @@ function renderPlayerSata(q, stepIdx, box, isSubmitted, userAnswers) {
     const isChecked = savedVal[oIdx] === true;
     if (isChecked) row.classList.add('checked');
     
-    if (isSubmitted) {
-      if (opt.correct) row.classList.add('show-correct');
-      else if (isChecked && !opt.correct) row.classList.add('show-incorrect');
-    }
     
     row.innerHTML = `
       <input type="checkbox" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''}>
@@ -1461,6 +1671,7 @@ function renderPlayerSata(q, stepIdx, box, isSubmitted, userAnswers) {
         ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid #e5e7eb; margin-top:4px;">` : ''}
       </div>
     `;
+    if (isSubmitted) markAnsweredOption(row, isChecked, !!opt.correct);
     
     if (!isSubmitted) {
       row.querySelector('input').addEventListener('change', (e) => {
@@ -1571,10 +1782,10 @@ function renderPlayerHighlight(q, stepIdx, box, isSubmitted, userAnswers) {
         if (isSelected) span.classList.add('selected');
         
         if (isSubmitted) {
-          if (isCorrect) {
-            span.classList.add('show-correct');
-          } else if (isSelected) {
-            span.classList.add('show-incorrect');
+          const outcome = answerOutcome(isSelected, isCorrect);
+          if (outcome) {
+            span.classList.add(outcome.cls);
+            span.title = outcome.label;
           }
         } else {
           span.addEventListener('click', () => {
@@ -1647,15 +1858,12 @@ function renderPlayerGroupedMr(q, stepIdx, box, isSubmitted, userAnswers) {
       const isChecked = groupSavedVal[oIdx] === true;
       if (isChecked) row.classList.add('checked');
       
-      if (isSubmitted) {
-        if (opt.correct) row.classList.add('show-correct');
-        else if (isChecked && !opt.correct) row.classList.add('show-incorrect');
-      }
       
       row.innerHTML = `
         <input type="checkbox" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''}>
         <span class="option-text-label">${escapeHTML(opt.text)}</span>
       `;
+      if (isSubmitted) markAnsweredOption(row, isChecked, !!opt.correct);
       
       if (!isSubmitted) {
         row.querySelector('input').addEventListener('change', (e) => {

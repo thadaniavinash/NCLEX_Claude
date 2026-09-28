@@ -25,6 +25,7 @@ function startRemediationReview(jumpIdx = 0) {
     submittedAnswers[idx] = true;
     if (!playerScores[idx]) evaluateStepScore(idx);
   });
+  playerMobilePaneStep = null;
   switchView('player');
   renderPlayerStep(jumpIdx);
 }

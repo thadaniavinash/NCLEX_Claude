@@ -158,9 +158,14 @@ score-aware; honest counts (hidden items); session builder start button says wha
 disabled, manual picks (step 4) can start a session; dashboard Status column + filter, sortable columns,
 "⋯" menu (copy link, Duplicate as draft, hide/show, delete); editor step list with clinical judgment step,
 question type and readiness; matrix editor fields wrap; labels on icon-only buttons.
-Suggested next: player feedback and mobile layout (per-option ✓/✗, score explanation, rationale jump,
-chart/question tabs on phones, "new" markers), then the design-system pass. Bowtie editor inputs still
-truncate long text like the matrix ones did.
+Done (player): after Submit every answer says "your answer: correct/incorrect" or "correct answer (not
+selected)" (options, matrix cells, drop-downs with the right choice, highlight, bowtie and ordered-response
+answer keys); the result explains the scoring rule with the +/- arithmetic (`scoringExplanation` in
+`scoring.js`); in-page notices replace the player's alerts; chart tabs show New/Updated and new entries are
+highlighted (`chartChanges` in `player.js`; not in an active Test Mode exam); phones get a Chart | Question
+switch (opens on Chart when it has new information) and left-aligned notes.
+Suggested next: the design-system pass. Bowtie editor inputs still truncate long text like the matrix
+ones did.
 
 ### Ideas list
 

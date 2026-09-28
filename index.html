@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260928160628">
+  <link rel="stylesheet" href="style.css?v=20260928162421">
 </head>
 <body>
 
@@ -1006,6 +1006,11 @@
 
       <!-- Center split workspace: Left (Patient Chart) and Right (Question Card) -->
       <main class="player-center-split">
+        <!-- Phone layout only: switch between the chart and the question -->
+        <div id="player-mobile-switch" class="player-mobile-switch" role="tablist" aria-label="Show">
+          <button type="button" role="tab" data-pane="chart" aria-selected="false">Chart<span class="mobile-switch-new hidden">New info</span></button>
+          <button type="button" role="tab" data-pane="question" aria-selected="true">Question</button>
+        </div>
         <!-- Patient Chart (Left Panel) -->
         <section class="player-pane chart-pane">
           <div class="question-meta-box">
@@ -1024,7 +1029,7 @@
             <div class="patient-chart-content" id="player-chart-content">
               <!-- Active tab content goes here -->
             </div>
-
+            <button type="button" id="player-mobile-to-question" class="player-mobile-to-question">Go to the question &rarr;</button>
           </div>
         </section>
 
@@ -1045,6 +1050,9 @@
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; margin-right: 8px;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
               <span id="player-case-banner-text">The following 6 questions refer to this unfolding case study.</span>
             </div>
+
+            <!-- Phone layout only: the screen's intro, which otherwise sits above the chart -->
+            <p id="player-mobile-intro" class="player-mobile-intro hidden"></p>
 
             <!-- Question Preamble -->
             <div id="player-question-preamble" class="question-preamble hidden"></div>
@@ -1088,6 +1096,7 @@
                 <span class="feedback-badge" id="feedback-result-badge">Correct</span>
                 <span class="feedback-score-text" id="feedback-score-display">+1 point</span>
               </div>
+              <p class="feedback-scoring-note" id="feedback-scoring-note"></p>
               <div class="feedback-body">
                 <div class="feedback-explanation">
                   <strong>Rationale:</strong>
@@ -1099,6 +1108,9 @@
         </section>
       </main>
     </div>
+
+    <!-- Short messages (for example "Submit your answer first"), shown above the footer -->
+    <div id="player-notice" class="player-notice hidden" role="status" aria-live="polite"></div>
 
     <!-- Bottom Nav Bar -->
     <footer class="player-footer">
@@ -1218,18 +1230,18 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20260928160628"></script>
-  <script src="js/state.js?v=20260928160628"></script>
-  <script src="js/utils.js?v=20260928160628"></script>
-  <script src="js/data.js?v=20260928160628"></script>
-  <script src="js/auth.js?v=20260928160628"></script>
-  <script src="js/dashboard.js?v=20260928160628"></script>
-  <script src="js/session-builder.js?v=20260928160628"></script>
-  <script src="js/editor.js?v=20260928160628"></script>
-  <script src="js/player.js?v=20260928160628"></script>
-  <script src="js/scoring.js?v=20260928160628"></script>
-  <script src="js/results.js?v=20260928160628"></script>
-  <script src="js/calculator.js?v=20260928160628"></script>
-  <script src="js/main.js?v=20260928160628"></script>
+  <script src="cases-data.js?v=20260928162421"></script>
+  <script src="js/state.js?v=20260928162421"></script>
+  <script src="js/utils.js?v=20260928162421"></script>
+  <script src="js/data.js?v=20260928162421"></script>
+  <script src="js/auth.js?v=20260928162421"></script>
+  <script src="js/dashboard.js?v=20260928162421"></script>
+  <script src="js/session-builder.js?v=20260928162421"></script>
+  <script src="js/editor.js?v=20260928162421"></script>
+  <script src="js/player.js?v=20260928162421"></script>
+  <script src="js/scoring.js?v=20260928162421"></script>
+  <script src="js/results.js?v=20260928162421"></script>
+  <script src="js/calculator.js?v=20260928162421"></script>
+  <script src="js/main.js?v=20260928162421"></script>
 </body>
 </html>

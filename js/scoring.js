@@ -1,6 +1,79 @@
 /* Scoring of each question type, answer checks, submit/skip handling and rationale feedback. */
 
 /* --- PLAYER GRADING SYSTEM (NGN STANDARDS) --- */
+
+// The {phrase} / {phrase|correct} items of a highlight question, in answer-index order.
+function highlightPhrases(q) {
+  const regex = /\{([^{|]+)(?:\|([^{}]+))?\}/g;
+  const sources = q.highlightTabs ? q.highlightTabs.map(tab => tab.content || '') : [q.highlightText || ''];
+  const phrases = [];
+  sources.forEach(src => {
+    regex.lastIndex = 0;
+    let match;
+    while ((match = regex.exec(src)) !== null) {
+      phrases.push({ text: match[1], correct: match[2] === 'correct' });
+    }
+  });
+  return phrases;
+}
+
+// How a question type is scored, with the arithmetic for +/- scored types, shown under the
+// result so a partial score such as 1/5 makes sense to the student.
+function scoringExplanation(q, stepIdx) {
+  if (!hasSelectedAnyAnswer(q, stepIdx)) {
+    return 'You did not answer this question, so it scores 0.';
+  }
+  const a = playerAnswers[stepIdx] || {};
+  const plural = n => n === 1 ? '' : 's';
+  const plusMinus = (right, wrong) => {
+    const raw = right - wrong;
+    const sum = `You selected ${right} correct (+${right}) and ${wrong} incorrect (\u2212${wrong})`;
+    return raw < 0 ? `${sum}: below zero, so the score is 0.` : `${sum} = ${raw} point${plural(raw)}.`;
+  };
+  const plusMinusRule = '<strong>+/\u2212 scoring:</strong> each correct choice earns 1 point and each incorrect choice takes 1 point away (never below 0).';
+
+  switch (q.type) {
+    case 'select_all': case 'sata': case 'trend': {
+      let right = 0, wrong = 0;
+      (q.options || []).forEach((o, i) => { if (a[i] === true) { if (o.correct) right++; else wrong++; } });
+      return `${plusMinusRule} ${plusMinus(right, wrong)}`;
+    }
+    case 'highlight': case 'highlight_2': {
+      let right = 0, wrong = 0;
+      highlightPhrases(q).forEach((h, i) => { if (a[i] === true) { if (h.correct) right++; else wrong++; } });
+      return `${plusMinusRule} ${plusMinus(right, wrong)}`;
+    }
+    case 'matrix_mr': {
+      let right = 0, wrong = 0;
+      ((q.matrix || {}).rows || []).forEach((r, rIdx) => {
+        (a[rIdx] || []).forEach(cIdx => { if ((r.correctIndices || []).includes(cIdx)) right++; else wrong++; });
+      });
+      return `${plusMinusRule} ${plusMinus(right, wrong)}`;
+    }
+    case 'grouped_mr':
+      return `${plusMinusRule} Each group is scored on its own.`;
+    case 'select_n': case 'selectN':
+      return `<strong>0/1 scoring:</strong> 1 point for each correct option among the ${q.limit || 3} you choose; incorrect choices do not take points away.`;
+    case 'matrix_mc': case 'matrix':
+      return '<strong>0/1 scoring:</strong> 1 point for each row answered correctly.';
+    case 'dropdown_cloze': case 'cloze': case 'drag_drop_cloze':
+      return (q.cloze && Array.isArray(q.cloze.scoreGroups) && q.cloze.scoreGroups.length)
+        ? '<strong>0/1 scoring:</strong> 1 point for each blank answered correctly; linked blanks earn their point only when all of them are correct.'
+        : '<strong>0/1 scoring:</strong> 1 point for each blank answered correctly.';
+    case 'dropdown_table':
+      return '<strong>0/1 scoring:</strong> 1 point for each row answered correctly.';
+    case 'dyad': case 'triad': {
+      const n = ((q.cloze && q.cloze.dropdowns) || []).length;
+      return `<strong>Rationale scoring:</strong> 1 point only when all ${n} drop-downs are correct.`;
+    }
+    case 'bowtie':
+      return '<strong>0/1 scoring:</strong> 1 point for each box filled correctly (2 actions, 1 condition, 2 parameters).';
+    case 'ordered_response':
+      return '<strong>All-or-nothing:</strong> 1 point only when every step is in the correct order.';
+    default:
+      return '<strong>0/1 scoring:</strong> 1 point for the correct answer.';
+  }
+}
 function evaluateStepScore(stepIdx) {
   const step = currentCase.screens[stepIdx];
   const q = step.question;
@@ -191,24 +264,7 @@ function evaluateStepScore(stepIdx) {
       let correctSel = 0;
       let incorrectSel = 0;
       
-      const regex = /\{([^{|]+)(?:\|([^{}]+))?\}/g;
-      let match;
-      const highlights = [];
-      
-      if (q.highlightTabs) {
-        q.highlightTabs.forEach(tab => {
-          regex.lastIndex = 0;
-          while ((match = regex.exec(tab.content || '')) !== null) {
-            highlights.push({ text: match[1], correct: match[2] === 'correct' });
-          }
-        });
-      } else {
-        while ((match = regex.exec(q.highlightText || '')) !== null) {
-          highlights.push({ text: match[1], correct: match[2] === 'correct' });
-        }
-      }
-      
-      highlights.forEach((h, idx) => {
+      highlightPhrases(q).forEach((h, idx) => {
         const isSelected = userAnswers[idx] === true;
         if (h.correct) {
           maxScore++;
@@ -474,6 +530,8 @@ function displayPlayerFeedback(stepIdx) {
   const explText = document.getElementById('feedback-explanation-text');
   
   pointsEl.textContent = `Score: ${res.score} / ${res.max} point${res.max !== 1 ? 's' : ''}`;
+  const scoringNote = document.getElementById('feedback-scoring-note');
+  if (scoringNote) scoringNote.innerHTML = scoringExplanation(step.question, stepIdx);
   explText.innerHTML = step.question.explanation || 'No explanation rationale provided.';
   
   badge.className = 'feedback-badge';
