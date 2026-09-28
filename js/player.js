@@ -211,14 +211,28 @@ function startPlayer(caseStudy, config) {
   renderPlayerStep(0);
 }
 
+// "Case Study Screen 2 of 6": the position within the screen's own case study, also in a session that
+// mixes several cases and stand-alone questions (each session screen records its caseId and itemScreen).
+function caseScreenLabel(stepIdx) {
+  const step = currentCase.screens[stepIdx];
+  if (!step.caseId) return `Case Study Screen ${stepIdx + 1} of ${currentCase.screens.length}`;
+  const caseScreens = currentCase.screens.filter(s => s.caseId === step.caseId);
+  const position = step.itemScreen != null ? step.itemScreen + 1 : caseScreens.indexOf(step) + 1;
+  return `Case Study Screen ${position} of ${caseScreens.length}`;
+}
+
 function renderPlayerStep(stepIdx) {
   if (stepIdx !== playerStepIndex) hidePlayerNotice();
   playerStepIndex = stepIdx;
   const step = currentCase.screens[stepIdx];
   if (!step) return;
   
-  document.getElementById('player-progress-text').textContent = `${stepIdx + 1} of ${currentCase.screens.length}`;
-  document.getElementById('player-question-number-title').textContent = `Question ${stepIdx + 1}`;
+  // The only question number is in the header. The NCLEX's length varies, so Test Mode shows no total;
+  // practice sessions show it for pacing.
+  const showTotal = sessionConfig.mode !== 'test' || sessionConfig.isRemediation;
+  document.getElementById('player-progress-text').textContent = showTotal
+    ? `Question ${stepIdx + 1} of ${currentCase.screens.length}`
+    : `Question ${stepIdx + 1}`;
   
   const isSubmitted = submittedAnswers[stepIdx] || sessionConfig.isRemediation;
   
@@ -231,7 +245,7 @@ function renderPlayerStep(stepIdx) {
     screenLabel.style.display = 'none';
   } else {
     screenLabel.style.display = 'block';
-    screenLabel.textContent = `Case Study Screen ${stepIdx + 1} of ${currentCase.screens.length}`;
+    screenLabel.textContent = caseScreenLabel(stepIdx);
   }
   document.getElementById('player-intro-text').innerHTML = step.leftContent.intro || '';
   
@@ -256,36 +270,16 @@ function renderPlayerStep(stepIdx) {
     }
   }
 
-  // Case Transition Banner (Shown when a case study begins)
-  const caseBanner = document.getElementById('player-case-banner');
-  const bannerText = document.getElementById('player-case-banner-text');
-  if (caseBanner && bannerText) {
-    const isNewCaseStart = !isStepStandalone && (stepIdx === 0 || currentCase.screens[stepIdx - 1]?.isStandalone || (currentCase.screens[stepIdx - 1]?.caseId && currentCase.screens[stepIdx - 1]?.caseId !== step.caseId));
-    if (isNewCaseStart) {
-      const caseName = step.caseTitle || currentCase.title || 'Unfolding Clinical Case';
-      bannerText.innerHTML = `The following 6 questions refer to this clinical scenario: <strong>${caseName}</strong>.`;
-      caseBanner.classList.remove('hidden');
-    } else {
-      caseBanner.classList.add('hidden');
-    }
-  }
-
-  // Populate and show full-width meta header if in highlight question type
+  // Highlight questions hide the chart panel, so their status and screen label sit above the question.
   const fullwidthHeader = document.getElementById('player-fullwidth-meta-header');
   if (fullwidthHeader) {
     if (step.question.type === 'highlight') {
       fullwidthHeader.classList.remove('hidden');
-      document.getElementById('player-fullwidth-question-number-title').textContent = `Question ${stepIdx + 1}`;
       document.getElementById('player-fullwidth-question-status-text').textContent = isSubmitted ? 'Complete' : 'Not complete';
-      
       const fwScreenLabel = document.getElementById('player-fullwidth-screen-label');
       if (fwScreenLabel) {
-        if (isStepStandalone) {
-          fwScreenLabel.style.display = 'none';
-        } else {
-          fwScreenLabel.style.display = 'block';
-          fwScreenLabel.textContent = `Case Study Screen ${stepIdx + 1} of ${currentCase.screens.length}`;
-        }
+        fwScreenLabel.style.display = isStepStandalone ? 'none' : 'block';
+        if (!isStepStandalone) fwScreenLabel.textContent = caseScreenLabel(stepIdx);
       }
     } else {
       fullwidthHeader.classList.add('hidden');

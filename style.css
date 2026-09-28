@@ -1121,19 +1121,12 @@ textarea {
   padding: 16px 20px;
 }
 
-/* Question Header Meta */
+/* Question status ("Not complete" / "Complete"); the question number is in the header */
 .question-meta-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-bottom: 12px;
-}
-
-.question-num-header {
-  font-family: var(--font-title);
-  font-weight: 700;
-  font-size: 15px;
-  color: #111827;
 }
 
 .question-status {
@@ -3151,24 +3144,6 @@ html:not([data-theme="dark"]) .card-id-badge:hover {
 .nav-drawer-item-badge.badge-incorrect {
   background: var(--danger-bg);
   color: #b91c1c;
-}
-
-/* ================= TEST MODE CASE TRANSITION BANNER ================= */
-.player-case-banner {
-  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
-  color: white;
-  padding: 10px 14px;
-  border-radius: var(--radius-sm, 6px);
-  margin-bottom: 14px;
-  font-size: var(--fs-body-sm);
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.25);
-}
-
-.player-case-banner.hidden {
-  display: none !important;
 }
 
 /* ================= SESSION BUILDER (MODE & TOPIC SELECTOR) ================= */

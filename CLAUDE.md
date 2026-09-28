@@ -227,7 +227,10 @@ time, 4 empty rows) are in the Table picker and in the "Add Tab" menu (Blank / N
 Laboratory Results).
 Done (player): a `highlight` question (not `highlight_2`) shows the question and its passage in the left
 panel with the right panel blank, as on the NCLEX (`.highlight-left` on `.player-center-split`); phones show
-it in one column.
+it in one column. The only question number is in the player header ("Question 8 of 13"; Test Mode shows
+"Question 8" with no total, since the NCLEX's length varies); the panel keeps just "Not complete"/"Complete".
+"Case Study Screen N of 6" counts within the screen's own case (`caseScreenLabel`), also in mixed sessions.
+No "The following 6 questions refer to ..." banner (removed: the real exam has none).
 Suggested next: the guided student flow (C), inside the Practise page of the frame. Bowtie editor inputs
 still truncate long text.
 
