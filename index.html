@@ -3,13 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <!-- Theme before first paint: the stored choice, otherwise the device setting (see initTheme in js/session-builder.js) -->
+  <script>
+    (function () {
+      var theme = null;
+      try { theme = localStorage.getItem('nclex_color_theme'); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
   <title>Preparing for the NCLEX (NGN) Platform - Practice & Testing Portal</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260928162421">
+  <link rel="stylesheet" href="style.css?v=20260928165400">
 </head>
 <body>
 
@@ -39,6 +51,10 @@
             <span id="student-bank-status-text">Local Bank: Active</span>
           </div>
 
+          <button type="button" class="theme-toggle-btn theme-toggle-header" data-theme-toggle aria-label="Switch theme" title="Switch theme">
+            <svg class="theme-icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <svg class="theme-icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          </button>
           <button id="student-authoring-btn" class="student-authoring-button" title="Switch to Faculty Authoring Studio">
             <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
@@ -377,6 +393,10 @@
 
         <div class="author-pv-header-actions">
           <!-- Return to Student Portal Link -->
+          <button type="button" class="theme-toggle-btn theme-toggle-header" data-theme-toggle aria-label="Switch theme" title="Switch theme">
+            <svg class="theme-icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <svg class="theme-icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          </button>
           <button id="author-to-student-btn" class="author-student-link" title="Switch to Student Testing Portal">
             <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
@@ -407,13 +427,13 @@
       <!-- Sub-Header / Breadcrumb -->
       <div class="author-pv-sub-bar">
         <div class="author-pv-breadcrumb">
-          <span style="color:#94a3b8;">Authoring</span>
-          <span style="color:#94a3b8;">&rsaquo;</span>
-          <span style="font-weight:600; color:#002f5c;">Curriculum Case Repository</span>
+          <span style="color:var(--text-faint);">Authoring</span>
+          <span style="color:var(--text-faint);">&rsaquo;</span>
+          <span style="font-weight:600; color:var(--brand-text-strong);">Curriculum Case Repository</span>
         </div>
         <div class="author-pv-meta">
           <span>Active Curriculum: <strong>NURS 1017 &bull; NURS 1021</strong></span>
-          <span style="color:#cbd5e1;">|</span>
+          <span style="color:var(--border);">|</span>
           <span class="save-status-indicator" role="status" aria-live="polite">
             <span class="status-dot-pulse"></span>
             <span class="save-status-text">Checking…</span>
@@ -630,13 +650,13 @@
           <div style="display: flex; gap: 12px; align-items: center; width: 100%;">
             <input type="text" id="case-desc-input" class="editor-desc-input" placeholder="Enter a brief case description..." aria-label="Description" style="flex-grow: 1;">
             <div style="display: flex; gap: 8px; align-items: center;">
-              <select id="case-course-select" class="form-control" aria-label="Course" style="width: 130px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); border: 1px solid #334155; background: #1e293b; color: white; height: 28px; font-weight: 600; cursor: pointer; outline: none;">
+              <select id="case-course-select" class="form-control" aria-label="Course" style="width: 130px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); height: 28px; font-weight: 600; cursor: pointer; outline: none;">
                 <option value="">Course: None</option>
                 <option value="NURS 1017">NURS 1017</option>
                 <option value="NURS 1021">NURS 1021</option>
                 <option value="Others">Others</option>
               </select>
-              <select id="case-unit-select" class="form-control" aria-label="Unit" style="width: 250px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); border: 1px solid #334155; background: #1e293b; color: white; height: 28px; font-weight: 500; cursor: pointer; outline: none;">
+              <select id="case-unit-select" class="form-control" aria-label="Unit" style="width: 250px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); height: 28px; font-weight: 500; cursor: pointer; outline: none;">
                 <!-- Populated dynamically based on course -->
               </select>
               <select id="case-disorder-select" style="display: none;"></select>
@@ -645,12 +665,10 @@
         </div>
       </div>
       <div class="editor-header-right">
-        <button id="editor-theme-toggle-btn" class="btn btn-secondary" title="Switch the editor between light and dark" aria-label="Switch the editor between light and dark" style="display: inline-flex; align-items: center; justify-content: center; padding: 0; width: 36px; height: 32px;">
-          <!-- Light Mode Icon (Sun) -->
-          <svg class="sun-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: block;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-          <!-- Dark Mode Icon (Moon) -->
-          <svg class="moon-icon hidden" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-        </button>
+        <button id="editor-theme-toggle-btn" type="button" class="theme-toggle-btn theme-toggle-editor" data-theme-toggle aria-label="Switch theme" title="Switch theme">
+            <svg class="theme-icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <svg class="theme-icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          </button>
         <span class="save-status-indicator editor-save-status" role="status" aria-live="polite">
           <span class="status-dot-pulse"></span>
           <span class="save-status-text"></span>
@@ -871,9 +889,6 @@
     <header class="player-header-new">
       <div class="player-dark-bar">
         <div class="player-header-left-new" style="display:flex; align-items:center; gap:8px;">
-          <button id="player-menu-toggle-btn" class="player-menu-toggle-btn" aria-label="Menu" style="background:none; border:none; color:white; cursor:pointer; display:none; padding:4px; align-items:center; justify-content:center;">
-            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-          </button>
           <span>Practice NCLEX RN Test</span>
         </div>
         <div class="player-header-right-new">
@@ -903,7 +918,12 @@
           Calculator
         </button>
 
-        <button id="player-nav-btn" class="player-nav-link-new" title="Open Question Navigator">
+        <div class="player-light-bar-right">
+          <button type="button" class="theme-toggle-btn theme-toggle-player" data-theme-toggle aria-label="Switch theme" title="Switch theme">
+            <svg class="theme-icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <svg class="theme-icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          </button>
+          <button id="player-nav-btn" class="player-nav-link-new" title="Open Question Navigator">
           <svg viewBox="0 0 24 24" width="17" height="17" style="vertical-align: middle; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; margin-right: 5px;">
             <!-- Navigation compass / indicator icon -->
             <circle cx="12" cy="12" r="9" />
@@ -912,6 +932,7 @@
           </svg>
           Question Navigator
         </button>
+        </div>
       </div>
     </header>
 
@@ -1171,9 +1192,9 @@
         <span class="skip-modal-title" style="color: white; font-weight: 600;">Confirm Submission</span>
         <button type="button" class="skip-modal-close-btn" id="test-submit-close-btn" aria-label="Close" style="color: white;">&times;</button>
       </div>
-      <div class="skip-modal-body" style="padding: 20px; font-size: 14px; line-height: 1.5; color: #1e293b;">
+      <div class="skip-modal-body" style="padding: 20px; font-size: 14px; line-height: 1.5; color: var(--text);">
         <p style="margin-bottom: 8px;"><strong>Are you ready to submit your answer?</strong></p>
-        <p style="color: #64748b; margin: 0;">In Test Mode, once you submit and move to the next question, you cannot return to change your answer.</p>
+        <p style="color: var(--text-subtle); margin: 0;">In Test Mode, once you submit and move to the next question, you cannot return to change your answer.</p>
       </div>
       <div class="skip-modal-footer" style="padding: 12px 16px; display: flex; justify-content: flex-end; gap: 10px;">
         <button type="button" class="btn btn-secondary btn-sm" id="test-submit-cancel-btn">Cancel</button>
@@ -1230,18 +1251,18 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20260928162421"></script>
-  <script src="js/state.js?v=20260928162421"></script>
-  <script src="js/utils.js?v=20260928162421"></script>
-  <script src="js/data.js?v=20260928162421"></script>
-  <script src="js/auth.js?v=20260928162421"></script>
-  <script src="js/dashboard.js?v=20260928162421"></script>
-  <script src="js/session-builder.js?v=20260928162421"></script>
-  <script src="js/editor.js?v=20260928162421"></script>
-  <script src="js/player.js?v=20260928162421"></script>
-  <script src="js/scoring.js?v=20260928162421"></script>
-  <script src="js/results.js?v=20260928162421"></script>
-  <script src="js/calculator.js?v=20260928162421"></script>
-  <script src="js/main.js?v=20260928162421"></script>
+  <script src="cases-data.js?v=20260928165400"></script>
+  <script src="js/state.js?v=20260928165400"></script>
+  <script src="js/utils.js?v=20260928165400"></script>
+  <script src="js/data.js?v=20260928165400"></script>
+  <script src="js/auth.js?v=20260928165400"></script>
+  <script src="js/dashboard.js?v=20260928165400"></script>
+  <script src="js/session-builder.js?v=20260928165400"></script>
+  <script src="js/editor.js?v=20260928165400"></script>
+  <script src="js/player.js?v=20260928165400"></script>
+  <script src="js/scoring.js?v=20260928165400"></script>
+  <script src="js/results.js?v=20260928165400"></script>
+  <script src="js/calculator.js?v=20260928165400"></script>
+  <script src="js/main.js?v=20260928165400"></script>
 </body>
 </html>

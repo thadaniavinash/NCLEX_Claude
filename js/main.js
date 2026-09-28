@@ -2,17 +2,7 @@
 
 /* ================= INITIALIZATION & ROUTING ================= */
 async function initApp() {
-  let savedTheme = 'dark';
-  try {
-    savedTheme = localStorage.getItem('nclex_theme') || 'dark';
-  } catch (e) {
-    console.warn("localStorage is blocked in this context:", e);
-  }
-  if (savedTheme === 'light') {
-    toggleTheme(true);
-  } else {
-    toggleTheme(false);
-  }
+  initTheme();
 
   await loadAllData();
   initDashboardEvents();

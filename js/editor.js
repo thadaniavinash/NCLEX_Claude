@@ -4,11 +4,6 @@
 function initEditorEvents() {
   initRichTextEditors();
   
-  const themeToggleBtn = document.getElementById('editor-theme-toggle-btn');
-  if (themeToggleBtn) {
-    themeToggleBtn.addEventListener('click', toggleTheme);
-  }
-
   const courseSelect = document.getElementById('case-course-select');
   if (courseSelect) {
     courseSelect.addEventListener('change', (e) => {
@@ -1513,15 +1508,7 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
     
     q.options.forEach((opt, idx) => {
       const div = document.createElement('div');
-      div.className = 'option-config-row';
-      div.style.display = 'flex';
-      div.style.flexDirection = 'column';
-      div.style.gap = '8px';
-      div.style.border = '1px solid #334155';
-      div.style.padding = '8px';
-      div.style.borderRadius = 'var(--radius-sm)';
-      div.style.marginBottom = '8px';
-      div.style.background = '#1e293b';
+      div.className = 'option-config-row option-config-card';
       
       const placeholderText = `Option ${String.fromCharCode(65 + idx)}`;
       

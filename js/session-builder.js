@@ -262,7 +262,7 @@ function filterSessionTopicCards() {
     if (!emptyMsg) {
       emptyMsg = document.createElement('div');
       emptyMsg.id = 'generator-topics-empty-msg';
-      emptyMsg.style.cssText = 'color:#64748b; font-style:italic; padding: 16px; text-align: center;';
+      emptyMsg.style.cssText = 'color:var(--text-subtle); font-style:italic; padding: 16px; text-align: center;';
       emptyMsg.textContent = 'No matching units or topics found for the selected course and unit.';
       document.getElementById('generator-topics-list')?.appendChild(emptyMsg);
     } else {
@@ -367,7 +367,7 @@ function renderSessionTopicsList() {
   container.innerHTML = '';
 
   if (sortedTopics.length === 0) {
-    container.innerHTML = '<div style="color:#64748b; font-style:italic; padding: 8px;">No topics found in library.</div>';
+    container.innerHTML = '<div style="color:var(--text-subtle); font-style:italic; padding: 8px;">No topics found in library.</div>';
     return;
   }
 
@@ -393,13 +393,13 @@ function renderSessionTopicsList() {
     card.dataset.unit = topic;
     card.innerHTML = `
       <div class="topic-chip-left">
-        <input type="checkbox" class="session-topic-checkbox" value="${escapeHTML(topic)}" style="accent-color: #025287; cursor: pointer; width: 16px; height: 16px;">
+        <input type="checkbox" class="session-topic-checkbox" value="${escapeHTML(topic)}" style="accent-color: var(--brand); cursor: pointer; width: 16px; height: 16px;">
         <div>
           <div class="topic-chip-name">
             ${escapeHTML(topic)}
             ${course && course !== 'Others' ? `<span class="topic-course-tag ${course === 'NURS 1021' ? 'course-1021' : 'course-1017'}">${escapeHTML(course)}</span>` : ''}
           </div>
-          <div style="font-size: 11px; color: #64748b; font-weight: normal; margin-top: 1px;">${escapeHTML(desc)}</div>
+          <div style="font-size: 11px; color: var(--text-subtle); font-weight: normal; margin-top: 1px;">${escapeHTML(desc)}</div>
         </div>
       </div>
       <span class="topic-chip-counts">${counts.cases} Cases &bull; ${counts.standalone} Qs</span>
@@ -863,50 +863,50 @@ function insertTableAtCursor(editorDiv, rows, cols) {
   editorDiv.innerHTML += tableHTML;
 }
 
-function toggleTheme(forceLight) {
-  let targetLight;
-  if (typeof forceLight === 'boolean') {
-    targetLight = forceLight;
-  } else {
-    const isCurrentlyLight = document.body.classList.contains('light-mode');
-    targetLight = !isCurrentlyLight;
-  }
-  
-  if (targetLight) {
-    document.body.classList.add('light-mode');
-    try {
-      localStorage.setItem('nclex_theme', 'light');
-    } catch (e) {
-      console.warn("localStorage is blocked:", e);
-    }
-  } else {
-    document.body.classList.remove('light-mode');
-    try {
-      localStorage.setItem('nclex_theme', 'dark');
-    } catch (e) {
-      console.warn("localStorage is blocked:", e);
-    }
-  }
+/* ---- Light / dark theme for the whole app ----
+   html[data-theme] is set before first paint by the script in index.html (the stored choice,
+   otherwise the device setting). The toggles are the [data-theme-toggle] buttons. */
+const THEME_STORAGE_KEY = 'nclex_color_theme';
 
-  // Sync both buttons
-  ['editor-theme-toggle-btn', 'dashboard-theme-toggle-btn'].forEach(id => {
-    const btn = document.getElementById(id);
-    if (btn) {
-      const sunIcon = btn.querySelector('.sun-icon');
-      const moonIcon = btn.querySelector('.moon-icon');
-      if (targetLight) {
-        if (sunIcon) sunIcon.style.display = 'none';
-        if (moonIcon) {
-          moonIcon.style.display = 'block';
-          moonIcon.classList.remove('hidden');
-        }
-      } else {
-        if (sunIcon) sunIcon.style.display = 'block';
-        if (moonIcon) {
-          moonIcon.style.display = 'none';
-          moonIcon.classList.add('hidden');
-        }
-      }
-    }
+function storedTheme() {
+  try {
+    const value = localStorage.getItem(THEME_STORAGE_KEY);
+    return value === 'light' || value === 'dark' ? value : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function currentTheme() {
+  return document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+}
+
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  const next = theme === 'dark' ? 'light' : 'dark';
+  document.querySelectorAll('[data-theme-toggle]').forEach(btn => {
+    btn.setAttribute('aria-label', `Switch to ${next} mode`);
+    btn.title = `Switch to ${next} mode`;
   });
+}
+
+// toggleTheme() switches; toggleTheme(true / false) forces light / dark. The choice is remembered.
+function toggleTheme(forceLight) {
+  const theme = typeof forceLight === 'boolean' ? (forceLight ? 'light' : 'dark') : (currentTheme() === 'dark' ? 'light' : 'dark');
+  try {
+    localStorage.setItem(THEME_STORAGE_KEY, theme);
+  } catch (e) {
+    console.warn("localStorage is blocked:", e);
+  }
+  applyTheme(theme);
+}
+
+function initTheme() {
+  const media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  applyTheme(storedTheme() || (media && media.matches ? 'dark' : 'light'));
+  // Follow the device while the student has not picked a theme here.
+  if (media && media.addEventListener) {
+    media.addEventListener('change', e => { if (!storedTheme()) applyTheme(e.matches ? 'dark' : 'light'); });
+  }
+  document.querySelectorAll('[data-theme-toggle]').forEach(btn => btn.addEventListener('click', () => toggleTheme()));
 }

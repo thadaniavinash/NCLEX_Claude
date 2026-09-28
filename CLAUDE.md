@@ -146,7 +146,9 @@ The old hard-coded admin password is still in git history; the user was told to 
 7. Editor relies on the deprecated `document.execCommand`.
 8. `alert()` used for errors in editor/player; replace with in-page messages.
 9. Data fields: `disorder` duplicates `unit`; `availability` unused; "Others" items use old naming.
-10. CSS: 79 unused classes, 22 duplicated rule blocks, 113 `!important` (do during the redesign).
+10. CSS: unused classes removed and colours/type moved to tokens (design-system pass); 126 `!important`
+    remain, mostly overriding inline styles from content and JS, so they go away only once those inline
+    styles become classes. The editor is still written dark-first (see "Design system").
 11. Accessibility: almost no ARIA labels; drag-and-drop questions lack keyboard support.
 12. Run `check.js`/`check-saving.js` in CI on every push.
 13. The workflow's actions run on Node 20, which GitHub is deprecating.
@@ -164,8 +166,29 @@ answer keys); the result explains the scoring rule with the +/- arithmetic (`sco
 `scoring.js`); in-page notices replace the player's alerts; chart tabs show New/Updated and new entries are
 highlighted (`chartChanges` in `player.js`; not in an active Test Mode exam); phones get a Chart | Question
 switch (opens on Chart when it has new information) and left-aligned notes.
-Suggested next: the design-system pass. Bowtie editor inputs still truncate long text like the matrix
-ones did.
+Done (design system): tokens, app-wide light/dark theme, type scale, 44px touch targets, focus ring,
+small-screen headers (see "Design system" below).
+Suggested next: from the ideas list (guided session builder, results by clinical judgment step, Test
+Mode timer). Bowtie editor inputs still truncate long text like the matrix ones did.
+
+### Design system (how to style new work)
+
+- Tokens are at the top of `style.css`: surfaces (`--surface-page`, `--surface`, `--surface-muted`,
+  `--surface-sunken`, `--surface-strong`, `--surface-selected`), text (`--text`, `--text-secondary`,
+  `--text-muted`, `--text-subtle`, `--text-faint`, `--brand-text`), borders (`--border`, `--border-subtle`,
+  `--border-strong`), status (`--success|warning|danger` + `-bg`, `-bg-subtle`, `-border`, `-text`), brand
+  (`--brand`, `--brand-hover`, `--brand-bar`, `--text-on-brand`), type (`--fs-2xs` 10px … `--fs-5xl` 40px),
+  spacing (`--space-1` 4px … `--space-8` 32px), `--focus-ring`, `--touch-target`. Use them instead of hex
+  values, including in inline styles written by JS, so dark mode works.
+- Theme: `html[data-theme="light"|"dark"]`, set before first paint by the script in `index.html` (stored
+  choice `localStorage.nclex_color_theme`, otherwise the device setting) and switched by `toggleTheme()` /
+  any `[data-theme-toggle]` button (portal, studio, player and editor headers).
+- The editor (and the login modal, "specific items" list) is still dark-first: base rules use the dark
+  `--*-dash` palette and `html:not([data-theme="dark"]) #editor-view ...` rules give the light look.
+- Question content keeps its inline colours (white cells, slate text); the `DARK THEME: DETAILS TOKENS
+  CANNOT REACH` block maps them in dark mode for the player and results.
+- Visual checks: screenshot the states in both themes (desktop 1440 and phone 390) and compare with the
+  previous version; `pointer: coarse` rules make controls 44px on touch screens.
 
 ### Ideas list
 

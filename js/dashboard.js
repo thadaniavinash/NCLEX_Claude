@@ -277,7 +277,7 @@ function renderAuthorTable(kind) {
   const items = authorBank(kind);
 
   if (items.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:32px; color:#64748b; font-style:italic;">${cfg.empty}</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:32px; color:var(--text-subtle); font-style:italic;">${cfg.empty}</td></tr>`;
     return;
   }
 
@@ -305,7 +305,7 @@ function renderAuthorTable(kind) {
       thirdColumn = `<span class="badge-screens">${screensCount} Screens</span>`;
     } else {
       const qType = item.screens && item.screens[0] && item.screens[0].question ? item.screens[0].question.type : '';
-      thirdColumn = `<span class="badge-screens" style="background:#f1f5f9; color:#334155; border-color:#cbd5e1;">${escapeHTML(getQuestionTypeLabel(qType))}</span>`;
+      thirdColumn = `<span class="badge-screens" style="background:var(--surface-sunken); color:var(--text-secondary); border-color:var(--border);">${escapeHTML(getQuestionTypeLabel(qType))}</span>`;
     }
     const title = item.title || cfg.untitled;
 

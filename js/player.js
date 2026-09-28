@@ -312,7 +312,7 @@ function renderPlayerStep(stepIdx) {
   if (footnoteEl) {
     if (step.question.footnote && step.question.footnote.trim()) {
       footnoteEl.innerHTML = step.question.footnote;
-      footnoteEl.style.cssText = 'margin-top:14px;padding-top:10px;border-top:1px solid #ccc;font-size:0.78em;color:#888;font-style:italic;';
+      footnoteEl.style.cssText = 'margin-top:14px;padding-top:10px;border-top:1px solid var(--border);font-size:0.78em;color:var(--text-subtle);font-style:italic;';
     } else {
       footnoteEl.innerHTML = '';
       footnoteEl.style.cssText = '';
@@ -458,7 +458,7 @@ function renderPlayerTabs(tabs) {
   contentBox.innerHTML = '';
   
   if (!tabs || tabs.length === 0) {
-    contentBox.innerHTML = '<p style="color:#9ca3af; font-style:italic;">No chart entries.</p>';
+    contentBox.innerHTML = '<p style="color:var(--text-faint); font-style:italic;">No chart entries.</p>';
     return;
   }
   
@@ -864,7 +864,7 @@ function renderPlayerDragDropCloze(q, stepIdx, box, isSubmitted, userAnswers) {
   if (!isSubmitted) {
     const pool = document.createElement('div');
     pool.className = 'drag-options-pool';
-    pool.innerHTML = '<span style="font-size:11px; width:100%; font-weight:700; color:#64748b; margin-bottom:4px;">Drag / Click a term to place in blank slots:</span>';
+    pool.innerHTML = '<span style="font-size:11px; width:100%; font-weight:700; color:var(--text-subtle); margin-bottom:4px;">Drag / Click a term to place in blank slots:</span>';
     
     // Aggregate options
     const allOptions = [];
@@ -1075,7 +1075,7 @@ function renderPlayerSelectN(q, stepIdx, box, isSubmitted, userAnswers) {
       <input type="checkbox" name="selectN-group" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''}>
       <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
         <span class="option-text-label">${oIdx + 1}. ${escapeHTML(opt.text)}</span>
-        ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid #e5e7eb; margin-top:4px;">` : ''}
+        ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid var(--border-subtle); margin-top:4px;">` : ''}
       </div>
     `;
     if (isSubmitted) markAnsweredOption(row, isChecked, !!opt.correct);
@@ -1124,9 +1124,9 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
   const params = q.bowtieParams || [];
 
   let html = `
-    <div class="bowtie-diagram-wrapper" style="display:flex; justify-content:space-between; align-items:center; position:relative; min-height:220px; padding:20px; background:#ffffff; border:0px; border-radius:var(--radius-md); box-shadow:none; user-select:none;">
+    <div class="bowtie-diagram-wrapper" style="display:flex; justify-content:space-between; align-items:center; position:relative; min-height:220px; padding:20px; background:var(--surface); border:0px; border-radius:var(--radius-md); box-shadow:none; user-select:none;">
       
-      <svg style="position:absolute; top:20px; left:20px; width:calc(100% - 40px); height:calc(100% - 40px); pointer-events:none; stroke:#cbd5e1; stroke-width:0.5;" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <svg style="position:absolute; top:20px; left:20px; width:calc(100% - 40px); height:calc(100% - 40px); pointer-events:none; stroke:var(--border); stroke-width:0.5;" viewBox="0 0 100 100" preserveAspectRatio="none">
         <line x1="30" y1="22.2" x2="35" y2="50" />
         <line x1="30" y1="77.8" x2="35" y2="50" />
         <line x1="70" y1="22.2" x2="65" y2="50" />
@@ -1135,28 +1135,28 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
 
       <!-- Left Targets Column -->
       <div style="display:flex; flex-direction:column; justify-content:space-between; height:180px; width:30%; z-index:1;">
-        <div id="bowtie-target-left1" class="bowtie-target-zone" data-col="1" style="background:#ecf5f4; border:1.5px solid #025287; border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
-          <span class="placeholder-text" style="color:#025287; font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(leftPH)}</span>
+        <div id="bowtie-target-left1" class="bowtie-target-zone" data-col="1" style="background:var(--bowtie-action-bg); border:1.5px solid var(--bowtie-action-ink); border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
+          <span class="placeholder-text" style="color:var(--bowtie-action-ink); font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(leftPH)}</span>
         </div>
-        <div id="bowtie-target-left2" class="bowtie-target-zone" data-col="1" style="background:#ecf5f4; border:1.5px solid #025287; border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
-          <span class="placeholder-text" style="color:#025287; font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(leftPH)}</span>
+        <div id="bowtie-target-left2" class="bowtie-target-zone" data-col="1" style="background:var(--bowtie-action-bg); border:1.5px solid var(--bowtie-action-ink); border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
+          <span class="placeholder-text" style="color:var(--bowtie-action-ink); font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(leftPH)}</span>
         </div>
       </div>
 
       <!-- Center Target Column -->
       <div style="display:flex; flex-direction:column; justify-content:center; height:180px; width:30%; z-index:1;">
-        <div id="bowtie-target-center" class="bowtie-target-zone" data-col="2" style="background:#bae6f2; border:1.5px solid #0891b2; border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
-          <span class="placeholder-text" style="color:#0891b2; font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(centerPH)}</span>
+        <div id="bowtie-target-center" class="bowtie-target-zone" data-col="2" style="background:var(--bowtie-condition-bg); border:1.5px solid var(--bowtie-condition-ink); border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
+          <span class="placeholder-text" style="color:var(--bowtie-condition-ink); font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(centerPH)}</span>
         </div>
       </div>
 
       <!-- Right Targets Column -->
       <div style="display:flex; flex-direction:column; justify-content:space-between; height:180px; width:30%; z-index:1;">
-        <div id="bowtie-target-right1" class="bowtie-target-zone" data-col="3" style="background:#ecf0f5; border:1.5px solid #475569; border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
-          <span class="placeholder-text" style="color:#475569; font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(rightPH)}</span>
+        <div id="bowtie-target-right1" class="bowtie-target-zone" data-col="3" style="background:var(--bowtie-param-bg); border:1.5px solid var(--bowtie-param-ink); border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
+          <span class="placeholder-text" style="color:var(--bowtie-param-ink); font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(rightPH)}</span>
         </div>
-        <div id="bowtie-target-right2" class="bowtie-target-zone" data-col="3" style="background:#ecf0f5; border:1.5px solid #475569; border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
-          <span class="placeholder-text" style="color:#475569; font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(rightPH)}</span>
+        <div id="bowtie-target-right2" class="bowtie-target-zone" data-col="3" style="background:var(--bowtie-param-bg); border:1.5px solid var(--bowtie-param-ink); border-radius:4px; height:80px; display:flex; align-items:center; justify-content:center; padding:8px; text-align:center; position:relative; transition:all 0.2s;">
+          <span class="placeholder-text" style="color:var(--bowtie-param-ink); font-size:13px; font-weight:500; opacity:0.6;">${escapeHTML(rightPH)}</span>
         </div>
       </div>
 
@@ -1167,24 +1167,24 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
     <div class="bowtie-table-wrapper" style="display:flex; gap:16px; width:100%; user-select:none;">
       
       <!-- Column 1 (Ingredients) -->
-      <div style="flex:1; border:1.5px solid #000000; border-radius:4px; background:#ffffff; overflow:hidden; align-self: flex-start;">
-        <div style="background:#e9f1f7; border-bottom:1.5px solid #000000; padding:10px; font-weight:bold; font-size:13px; text-align:center; color:#1e293b;">
+      <div style="flex:1; border:1.5px solid var(--text); border-radius:4px; background:var(--surface); overflow:hidden; align-self: flex-start;">
+        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid var(--text); padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
           ${escapeHTML(col1Header)}
         </div>
         <div id="bowtie-table-col1" style="padding:8px; display:flex; flex-direction:column; gap:8px;"></div>
       </div>
 
       <!-- Column 2 (Orders) -->
-      <div style="flex:1; border:1.5px solid #000000; border-radius:4px; background:#ffffff; overflow:hidden; align-self: flex-start;">
-        <div style="background:#e9f1f7; border-bottom:1.5px solid #000000; padding:10px; font-weight:bold; font-size:13px; text-align:center; color:#1e293b;">
+      <div style="flex:1; border:1.5px solid var(--text); border-radius:4px; background:var(--surface); overflow:hidden; align-self: flex-start;">
+        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid var(--text); padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
           ${escapeHTML(col2Header)}
         </div>
         <div id="bowtie-table-col2" style="padding:8px; display:flex; flex-direction:column; gap:8px;"></div>
       </div>
 
       <!-- Column 3 (Materials) -->
-      <div style="flex:1; border:1.5px solid #000000; border-radius:4px; background:#ffffff; overflow:hidden; align-self: flex-start;">
-        <div style="background:#e9f1f7; border-bottom:1.5px solid #000000; padding:10px; font-weight:bold; font-size:13px; text-align:center; color:#1e293b;">
+      <div style="flex:1; border:1.5px solid var(--text); border-radius:4px; background:var(--surface); overflow:hidden; align-self: flex-start;">
+        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid var(--text); padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
           ${escapeHTML(col3Header)}
         </div>
         <div id="bowtie-table-col3" style="padding:8px; display:flex; flex-direction:column; gap:8px;"></div>
@@ -1252,7 +1252,7 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
       slot.dataset.idx = idx;
       slot.style.height = '48px';
       slot.style.background = itemColor;
-      slot.style.border = '1px solid #cbd5e1';
+      slot.style.border = '1px solid var(--border)';
       slot.style.borderRadius = '4px';
       slot.style.display = 'flex';
       slot.style.alignItems = 'center';
@@ -1272,7 +1272,7 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
       item.style.justifyContent = 'center';
       item.style.padding = '8px 12px';
       item.style.background = itemColor;
-      item.style.color = '#0f172a';
+      item.style.color = 'var(--text)';
       item.style.fontWeight = '500';
       item.style.fontSize = '12px';
       item.style.textAlign = 'center';
@@ -1310,9 +1310,9 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
     });
   };
 
-  populateColumn('bowtie-table-col1', actions, 1, '#ecf5f4');
-  populateColumn('bowtie-table-col2', conditions, 2, '#bae6f2');
-  populateColumn('bowtie-table-col3', params, 3, '#ecf0f5');
+  populateColumn('bowtie-table-col1', actions, 1, 'var(--bowtie-action-bg)');
+  populateColumn('bowtie-table-col2', conditions, 2, 'var(--bowtie-condition-bg)');
+  populateColumn('bowtie-table-col3', params, 3, 'var(--bowtie-param-bg)');
 
   if (!isSubmitted) {
     container.querySelectorAll('.bowtie-target-zone').forEach(zone => {
@@ -1409,7 +1409,7 @@ function renderPlayerMultipleChoice(q, stepIdx, box, isSubmitted, userAnswers) {
       <input type="radio" name="single-mc" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''}>
       <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
         <span class="option-text-label">${oIdx + 1}. ${escapeHTML(opt.text)}</span>
-        ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid #e5e7eb; margin-top:4px;">` : ''}
+        ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid var(--border-subtle); margin-top:4px;">` : ''}
       </div>
     `;
     if (isSubmitted) markAnsweredOption(row, isChecked, !!opt.correct);
@@ -1437,7 +1437,7 @@ function renderPlayerFillBlank(q, stepIdx, box, isSubmitted, userAnswers) {
     <div style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; margin: 16px 0; flex-wrap: nowrap;">
       <span style="white-space: nowrap;">Answer: </span>
       <input type="text" id="player-blank-input" class="form-control" 
-        style="max-width:300px; width:220px; background-color:#f8fafc; border:1.5px solid #000000; color:#000000; display: inline-block; margin: 0; vertical-align: middle; border-radius: 0;" 
+        style="max-width:300px; width:220px; background-color:var(--surface-muted); border:1.5px solid var(--text); color:var(--text); display: inline-block; margin: 0; vertical-align: middle; border-radius: 0;" 
         value="${escapeHTML(val)}" ${isSubmitted ? 'disabled' : ''}>
       <span style="white-space: nowrap;">${escapeHTML(unitText)}</span>
     </div>
@@ -1668,7 +1668,7 @@ function renderPlayerSata(q, stepIdx, box, isSubmitted, userAnswers) {
       <input type="checkbox" ${isChecked ? 'checked' : ''} ${isSubmitted ? 'disabled' : ''}>
       <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
         <span class="option-text-label">${oIdx + 1}. ${escapeHTML(opt.text)}</span>
-        ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid #e5e7eb; margin-top:4px;">` : ''}
+        ${opt.imageUrl ? `<img src="${escapeHTML(opt.imageUrl)}" class="option-image" style="max-width:300px; max-height:200px; border-radius:4px; border:1px solid var(--border-subtle); margin-top:4px;">` : ''}
       </div>
     `;
     if (isSubmitted) markAnsweredOption(row, isChecked, !!opt.correct);
@@ -1709,7 +1709,7 @@ function renderPlayerHighlight(q, stepIdx, box, isSubmitted, userAnswers) {
     limitInfo.style.marginBottom = '12px';
     limitInfo.style.fontSize = '13px';
     limitInfo.style.fontWeight = '700';
-    limitInfo.style.color = '#025287';
+    limitInfo.style.color = 'var(--brand-text)';
     limitInfo.textContent = `Select ${q.maxCorrectSelections} correct findings.`;
     container.appendChild(limitInfo);
   }
