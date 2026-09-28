@@ -1802,15 +1802,15 @@ window.NCLEX_CASES = [
   },
   {
     "id": "case_1781741217820",
-    "unit": "Others",
-    "title": "NCSBN - Case Study 1",
-    "topic": "Others",
-    "course": "Others",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
+    "title": "NURS 1021 Unit 6 Case Study 1",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
         "question": {
-          "stem": "Click\tto\thighlight\tthe\tfindings\tbelow\tthat\twould\trequire\tfollow-up.",
+          "stem": "Click to highlight the findings below that would require follow-up.",
           "type": "highlight",
           "options": [
             {
@@ -1834,13 +1834,14 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t41-year-old\tmale\tclient.",
-          "explanation": "These findings require follow-up because they suggest an acute abdominal process with infection or inflammatory complications. Persistent severe abdominal pain, fever, vomiting/constipation, and anorexia raise concern for appendicitis, obstruction, peritonitis, or occult traumatic injury. The trauma history and abnormal temperature/respiratory rate make the presentation more concerning than the social smoking/alcohol history or BMI.",
+          "preamble": "The nurse in the emergency department (ED) is caring for a 41-year-old male client.",
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "explanation": "Loss of appetite is highlighted because it is a classic early symptom of appendicitis and other acute intra-abdominal inflammatory processes. The abdominal pain description is highlighted because pain rated 7/10, present for a full week, and attributed by the client to a single kick 9 days earlier is disproportionate to a single minor blunt-trauma event and instead suggests an evolving intra-abdominal process such as appendicitis, bowel obstruction, or an unrecognized traumatic injury (for example, to the spleen). The full vital sign set — T 103.4°F (39.7°C), P 92, RR 22, BP 130/86, and pulse oximetry 98% — is highlighted as one finding because the fever signals an infectious or inflammatory process, and together with the mildly elevated pulse and respiratory rate it reflects an early systemic response to that process, even though the pulse, respiratory rate, and oxygen saturation are each close to normal in isolation. Nausea, the narrative mention of vomiting/fever/constipation, and the client playing soccer with the child once a week restate or add context to the more specific findings above without independently requiring follow-up. No significant past medical or surgical history, the BMI of 32, and the client's social alcohol and cigarette use are baseline/lifestyle information, not acute findings, and do not require follow-up.",
           "highlightTabs": [
             {
               "id": "ht_1781743042143",
               "title": "Nurses' Notes",
-              "content": "Client reports {nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks|correct} and {abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week|correct}. Client states, “{The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.|correct}” {Client plays soccer\twith\tthe\tchild\tonce\ta\tweek}.\tVital\tsigns: {T\t103.4°\tF\t(39.7°\tC), P\t92,\tRR\t22,\tBP\t130/86|correct}, {pulse\toximetry\treading\t98%\ton\troom\tair}. {No significant\tpast\tmedical\tor\tsurgical\thistory}.\tBody\tmass\tindex\t(BMI)\tof\t32. {Drinks\talcohol\tonly\tduring\tsocial\toccasions,\tusually\t3\tbeverages}. Smokes cigarettes during social occasions."
+              "content": "Client reports {nausea,} {loss of appetite,|correct} {vomiting, fever, and constipation for the past 2 weeks} and {abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.”|correct} {Client plays soccer with the child once a week.} {Vital signs: T 103.4° F (39.7° C), P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air.|correct} {No significant past medical or surgical history.} {Body mass index (BMI) of 32.} {Drinks alcohol only during social occasions, usually 3 beverages.} {Smokes cigarettes during social occasions.}"
             }
           ],
           "maxCorrectSelections": null
@@ -1859,7 +1860,7 @@ window.NCLEX_CASES = [
       {
         "step": 2,
         "question": {
-          "stem": "For each assessment finding below, click to specify if the finding is consistent with the disease process of ... . Each finding may support more than 1 disease process.",
+          "stem": "For each assessment finding below, click to specify if the finding is consistent with the disease process of bowel obstruction, appendicitis, or ruptured spleen. Each finding may support more than 1 disease process.",
           "type": "matrix_mr",
           "matrix": {
             "rows": [
@@ -1880,7 +1881,6 @@ window.NCLEX_CASES = [
               },
               {
                 "text": "bowel pattern",
-                "correctIndex": 0,
                 "correctIndices": [
                   0,
                   1
@@ -1888,7 +1888,6 @@ window.NCLEX_CASES = [
               },
               {
                 "text": "gastrointestinal symptoms",
-                "correctIndex": 0,
                 "correctIndices": [
                   0,
                   1
@@ -1925,23 +1924,24 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Loss of appetite is common in appendicitis and can occur with bowel obstruction. Severe abdominal pain is consistent with obstruction or appendicitis and can also occur with splenic injury after trauma. Constipation supports bowel obstruction and can occur with appendicitis; nausea and vomiting are most consistent with obstruction and appendicitis rather than isolated splenic rupture."
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "explanation": "Decreased appetite is consistent with bowel obstruction and appendicitis (both cause visceral inflammation or distension that suppresses appetite) but is not a typical finding of an isolated ruptured spleen, so appetite is checked under Bowel Obstruction and Appendicitis only. Pain level is checked under all 3 disease processes because bowel obstruction, appendicitis, and a ruptured spleen can each cause significant abdominal pain — obstruction from bowel wall distension, appendicitis from localized peritoneal irritation, and splenic rupture from hemoperitoneum and capsular stretch. Bowel pattern (constipation) is checked under Bowel Obstruction and Appendicitis, since mechanical obstruction directly halts stool passage and appendicitis commonly causes an associated ileus with constipation, while an isolated splenic injury does not typically alter bowel pattern. Gastrointestinal symptoms such as nausea and vomiting are checked under Bowel Obstruction and Appendicitis, both of which commonly trigger vomiting through bowel distension or peritoneal irritation, whereas an isolated splenic rupture (a vascular/hemorrhagic injury) does not typically produce prominent nausea and vomiting on its own."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_1781741217820",
               "title": "Nurses' Notes",
-              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 39.7 °C, P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div>"
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 103.4° F (39.7° C), P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div>"
             }
           ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t41-year-old\tmale\tclient."
+          "intro": "The nurse in the emergency department (ED) is caring for a 41-year-old male client."
         }
       },
       {
         "step": 3,
         "question": {
-          "stem": "Select\tthe\t3\tcomplications\tthe\tclient\tis\tat\trisk\tfor\tdeveloping.",
+          "stem": "Select the 3 complications the client is at risk for developing.",
           "type": "select_n",
           "limit": 3,
           "options": [
@@ -1971,17 +1971,18 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "The presentation and later findings are most consistent with complicated appendicitis with rupture. A ruptured appendix can spill infected contents into the peritoneum, causing peritonitis and sepsis/septic shock. Vomiting, fever, third spacing, and possible peritoneal fluid loss increase risk for hypovolemia."
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "explanation": "The client's presentation and CT findings (revealed later in the case) are consistent with a gangrenous, ruptured appendix. A ruptured appendix spills infected intestinal contents into the peritoneal cavity, so peritonitis (Option 2) — inflammation of the peritoneum — is a direct and expected complication. Untreated peritonitis can progress to septic shock (Option 3) as bacteria and inflammatory mediators enter the bloodstream. Vomiting, fever, and fluid shifting into the inflamed peritoneal space (third spacing) place the client at risk for hypovolemia (Option 4) from both fluid loss and reduced oral intake. Anemia (Option 1) is not an expected complication of appendiceal rupture, since this process does not typically cause significant blood loss. Dysrhythmias (Option 5) and cardiac arrest (Option 6) are late, severe complications that could theoretically follow untreated septic shock, but they are not among the 3 most directly expected complications of a ruptured appendix."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_1781741217820",
               "title": "Nurses' Notes",
-              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 39.7 °C, P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div>"
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 103.4° F (39.7° C), P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div>"
             }
           ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t41-year-old\tmale\tclient."
+          "intro": "The nurse in the emergency department (ED) is caring for a 41-year-old male client."
         }
       },
       {
@@ -1992,39 +1993,24 @@ window.NCLEX_CASES = [
           "matrix": {
             "rows": [
               {
-                "text": "clear liquid diet ",
-                "correctIndex": 1,
-                "correctIndices": [
-                  0
-                ]
+                "text": "clear liquid diet",
+                "correctIndex": 1
+              },
+              {
+                "text": "soapsuds enema",
+                "correctIndex": 1
               },
               {
                 "text": "heating pad to abdomen",
-                "correctIndex": 1,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "soadsuds enema",
-                "correctIndex": 1,
-                "correctIndices": [
-                  0
-                ]
+                "correctIndex": 1
               },
               {
                 "text": "abdominal girth measurements",
-                "correctIndex": 1,
-                "correctIndices": [
-                  0
-                ]
+                "correctIndex": 1
               },
               {
-                "text": "abdominal computed tomograph (CT) scan",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
+                "text": "abdominal computed tomography (CT) scan",
+                "correctIndex": 0
               }
             ],
             "columns": [
@@ -2055,18 +2041,19 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "The\tnurse\thas\treviewed\tthe\tNurses’\tNotes\tfrom\t1130.",
-          "explanation": "The client should remain NPO while an acute abdomen is evaluated and possible surgery is anticipated. Enemas and heat can worsen or mask an inflammatory abdominal process and increase the risk of perforation. CT imaging is indicated to evaluate appendicitis, obstruction, or traumatic abdominal pathology; abdominal girth measurement is not the priority intervention in this presentation."
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1130.",
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "explanation": "A clear liquid diet is not indicated because the client should remain NPO (nothing by mouth) while an acute surgical abdomen is being evaluated and urgent surgery is anticipated; oral intake increases aspiration risk with anesthesia and can worsen nausea/vomiting. A soapsuds enema is not indicated because increasing intraluminal pressure and peristalsis in an inflamed or possibly obstructed/perforated bowel raises the risk of worsening perforation. A heating pad to the abdomen is not indicated because heat increases local blood flow and metabolic activity in inflamed tissue, which can accelerate an inflammatory process, and is contraindicated whenever appendicitis is suspected (it can increase the risk of rupture). Abdominal girth measurements are not indicated as a priority action here; they help trend progressive distension in conditions such as bowel obstruction or ascites, but they do not provide diagnostic information about the underlying disease process. An abdominal CT scan is indicated because it is the key diagnostic study needed to identify the cause of the client's pain — appendicitis, bowel obstruction, or a traumatic injury such as splenic rupture — and to guide the surgical plan."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_1781741217820",
               "title": "Nurses' Notes",
-              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 39.7 °C, P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Notified primary health care provider about client status. Awaiting orders.</span></div>"
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 103.4° F (39.7° C), P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Notified primary health care provider about client status. Awaiting orders.</span></div>"
             }
           ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t41-year-old\tmale\tclient."
+          "intro": "The nurse in the emergency department (ED) is caring for a 41-year-old male client."
         }
       },
       {
@@ -2075,9 +2062,10 @@ window.NCLEX_CASES = [
           "stem": "Complete the following sentence by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "cloze": {
-            "text": "The nurse should insert [[drop0]]. It would be a priority for the nurse to request a prescription for an[[drop1]]. The nurse should prepare the client for surgery within[[drop2]].",
+            "text": "The nurse should insert [[drop0]]. It would be a priority for the nurse to request a prescription for an [[drop1]]. The nurse should prepare the client for surgery within [[drop2]].",
             "dropdowns": [
               {
+                "placeholder": "Select...",
                 "options": [
                   {
                     "text": "rectal tube",
@@ -2091,10 +2079,10 @@ window.NCLEX_CASES = [
                     "text": "an indwelling urethral catheter",
                     "correct": false
                   }
-                ],
-                "placeholder": "Select..."
+                ]
               },
               {
+                "placeholder": "Select...",
                 "options": [
                   {
                     "text": "analgesic medication",
@@ -2108,10 +2096,10 @@ window.NCLEX_CASES = [
                     "text": "anti-infective medication",
                     "correct": true
                   }
-                ],
-                "placeholder": "Select..."
+                ]
               },
               {
+                "placeholder": "Select...",
                 "options": [
                   {
                     "text": "6 hours",
@@ -2125,8 +2113,7 @@ window.NCLEX_CASES = [
                     "text": "24 hours",
                     "correct": false
                   }
-                ],
-                "placeholder": "Select..."
+                ]
               }
             ]
           },
@@ -2152,29 +2139,30 @@ window.NCLEX_CASES = [
               "correct": false
             }
           ],
-          "preamble": "The\tnurse\thas\treviewed\tthe\tNurses’\tNotes\tfrom\t1230,\t1245,\t1400,\tand\t1415 and\tthe\tDiagnostic\tResults\tfrom\t1230\tand\t1445.",
-          "explanation": "The CT scan shows gangrenous appendicitis progressing to ruptured appendix with free intraperitoneal fluid. An NG tube supports gastric decompression, anti-infective therapy is a priority for perforation/peritonitis risk, and urgent surgery is needed. Waiting 8 or 24 hours would increase the risk for worsening sepsis and peritoneal contamination."
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1230, 1245, 1400, and 1415 and the Diagnostic Results from 1230 and 1445.",
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "explanation": "The CT scan confirms acute gangrenous appendicitis with a calcified appendicolith, and the follow-up scan — ordered after the client's sudden pain relief, which can signal that the appendix has ruptured and relieved pressure-related pain — confirms free intraperitoneal fluid consistent with a ruptured appendix. The nurse should insert a nasogastric (NG) tube, not a rectal tube or indwelling urethral catheter, to decompress the stomach, reduce nausea/vomiting, and reduce aspiration risk before surgery. An anti-infective (antibiotic) medication is the priority prescription to request, over an analgesic or antipyretic, because a ruptured appendix has caused peritoneal contamination and the client is at immediate risk for progression to sepsis/septic shock; treating the underlying infection takes priority, though analgesics and antipyretics may also ultimately be given for comfort. The client should be prepared for surgery within 6 hours, not 8 or 24 hours, because a ruptured appendix with free peritoneal fluid is a surgical emergency — delaying surgery further increases the risk of worsening sepsis and peritoneal contamination."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_1781741217820",
               "title": "Nurses' Notes",
-              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 39.7 °C, P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Notified primary health care provider about client status. Awaiting orders.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Client transported to radiology department for abdominal computed tomography\t(CT)\tscan.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">20-gauge\tperipheral\tvenous\taccess\tdevice\t(VAD)\tinserted\tinto\tthe\tleft hand.\tVAD\tsite\tpatent\twithout\tsigns\tof\tinfiltration.\t0.9%\tsodium\tchloride (normal\tsaline)\tinfusing\tat\t75\tmL/hr.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Client\treports\tsudden\trelief\tof\tabdominal\tpain.\tVital\tsigns:\tT\t102.5°\tF (39.2°\tC),\tP\t110,\tRR\t20,\tBP\t125/86.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Primary\thealth\tcare\tprovider\tnotified\tabout\tclient\tstatus.\tOrder\treceived for an additional abdominal CT scan. Client transported to radiology department.</span></div>"
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 103.4° F (39.7° C), P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Notified primary health care provider about client status. Awaiting orders.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Client transported to radiology department for abdominal computed tomography (CT) scan.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">20-gauge peripheral venous access device (VAD) inserted into the left hand. VAD site patent without signs of infiltration. 0.9% sodium chloride (normal saline) infusing at 75 mL/hr.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Client reports sudden relief of abdominal pain. Vital signs: T 102.5° F (39.2° C), P 110, RR 20, BP 125/86.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Primary health care provider notified about client status. Order received for an additional abdominal CT scan. Client transported to radiology department.</span></div>"
             },
             {
               "id": "tab_1781749126110",
               "title": "Diagnostic Results",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute\tgangrenous\tappendix\twith\tcalcified\tappendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130<span style=\"font-weight: normal;\">:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free\tintraperitoneal\tfluid\tnoted\tconsistent\twith\ta\truptured\tappendix.</span></span><span class=\"nurse-note-text\"><br></span></div><div><br></div>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130: <span style=\"font-weight: normal;\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></span><span class=\"nurse-note-text\"><br></span></div>"
             }
           ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t41-year-old\tmale\tclient."
+          "intro": "The nurse in the emergency department (ED) is caring for a 41-year-old male client."
         }
       },
       {
         "step": 6,
         "question": {
-          "stem": "Which\tof\tthe\tfollowing\tfindings\twould\tindicate\tthe\tclient\tis\tprogressing as expected? <b>Select all that apply.</b>",
+          "stem": "Which of the following findings would indicate the client is progressing as expected? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -2202,28 +2190,29 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "The\tnurse\thas\treviewed\tthe\tNurses’\tNotes\tfrom\t1800,\t2030,\tand\t2230.",
-          "explanation": "Coughing, deep breathing, incentive spirometry, and leg exercises are expected postoperative behaviors that reduce atelectasis, pneumonia, and venous thromboembolism. A boardlike abdomen, rebound tenderness, and diminished bowel sounds after ruptured appendectomy suggest peritoneal irritation or ileus and require follow-up. Clear liquids are not the best indicator of expected progress when abdominal assessment findings remain abnormal."
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1800, 2030, and 2230.",
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "explanation": "Incentive spirometry use (Option 4) and performance of leg exercises (Option 6) are expected, appropriate postoperative behaviors that indicate the client is progressing as expected: incentive spirometry and coughing/deep breathing reduce the risk of atelectasis and pneumonia, and leg exercises reduce the risk of venous thromboembolism during a period of reduced mobility after surgery. A clear liquid diet (Option 1) alone is not evidence of expected progress; how oral intake is advanced depends on the client's bowel and abdominal assessment findings, which in this case remain abnormal. A boardlike (rigid) abdomen (Option 2), rebound tenderness (Option 3), and diminished bowel sounds (Option 5) are concerning findings, not expected ones, after surgery for a ruptured appendix; a boardlike abdomen and rebound tenderness suggest ongoing peritoneal irritation or a new complication such as an abscess, and diminished bowel sounds can indicate a postoperative ileus. All 3 require follow-up rather than indicating expected progress."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_1781741217820",
               "title": "Nurses' Notes",
-              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 39.7 °C, P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Notified primary health care provider about client status. Awaiting orders.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Client transported to radiology department for abdominal computed tomography\t(CT)\tscan.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">20-gauge\tperipheral\tvenous\taccess\tdevice\t(VAD)\tinserted\tinto\tthe\tleft hand.\tVAD\tsite\tpatent\twithout\tsigns\tof\tinfiltration.\t0.9%\tsodium\tchloride (normal\tsaline)\tinfusing\tat\t75\tmL/hr.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Client\treports\tsudden\trelief\tof\tabdominal\tpain.\tVital\tsigns:\tT\t102.5°\tF (39.2°\tC),\tP\t110,\tRR\t20,\tBP\t125/86.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Primary\thealth\tcare\tprovider\tnotified\tabout\tclient\tstatus.\tOrder\treceived for an additional abdominal CT scan. Client transported to radiology department.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1800:</span><span class=\"nurse-note-text\">Client transported to the operating room for an open appendectomy.</span></div><div class=\"\"><b>Medical-Surgical Unit</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">2030:</span><span class=\"nurse-note-text\">Client transported back to the medical-surgical unit.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">2230:</span><span class=\"nurse-note-text\">Client performing coughing and deep-breathing exercises every hour while awake with the incentive spirometer. Performing postoperative leg exercises every hour while awake. Nasogastric\t(NG)\ttube\tremoved. Drinking\tclear\tliquids.\tAbdomen\tboardlike\twith\tdiminished&nbsp; bowel sounds in all quadrants. Rebound tenderness present.</span></div>"
+              "content": "<p><b>Emergency Department</b></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports nausea, loss of appetite, vomiting, fever, and constipation for the past 2 weeks and abdominal pain rated 7/10 on the Numerical Rating Scale for 1 week. Client states, “The abdominal pain started after my 7-year-old child accidentally kicked me in the stomach.” Client plays soccer with the child once a week. Vital signs: T 103.4° F (39.7° C), P 92, RR 22, BP 130/86, pulse oximetry reading 98% on room air. No significant past medical or surgical history. Body mass index (BMI) of 32. Drinks alcohol only during social occasions, usually 3 beverages. Smokes cigarettes during social occasions.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Notified primary health care provider about client status. Awaiting orders.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Client transported to radiology department for abdominal computed tomography (CT) scan.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">20-gauge peripheral venous access device (VAD) inserted into the left hand. VAD site patent without signs of infiltration. 0.9% sodium chloride (normal saline) infusing at 75 mL/hr.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Client reports sudden relief of abdominal pain. Vital signs: T 102.5° F (39.2° C), P 110, RR 20, BP 125/86.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Primary health care provider notified about client status. Order received for an additional abdominal CT scan. Client transported to radiology department.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1800:</span><span class=\"nurse-note-text\">Client transported to the operating room for an open appendectomy.</span></div><div><b>Medical-Surgical Unit</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">2030:</span><span class=\"nurse-note-text\">Client transported back to the medical-surgical unit.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">2230:</span><span class=\"nurse-note-text\">Client performing coughing and deep-breathing exercises every hour while awake with the incentive spirometer. Performing postoperative leg exercises every hour while awake. Nasogastric (NG) tube removed. Drinking clear liquids. Abdomen boardlike with diminished bowel sounds in all quadrants. Rebound tenderness present.</span></div>"
             },
             {
               "id": "tab_1781749126110",
               "title": "Diagnostic Results",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute\tgangrenous\tappendix\twith\tcalcified\tappendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130<span style=\"font-weight: normal;\">:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free\tintraperitoneal\tfluid\tnoted\tconsistent\twith\ta\truptured\tappendix.</span></span><span class=\"nurse-note-text\"><br></span></div><div><br></div>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Acute gangrenous appendix with calcified appendicolith.</span></p><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130: <span style=\"font-weight: normal;\">Free intraperitoneal fluid noted consistent with a ruptured appendix.</span></span><span class=\"nurse-note-text\"><br></span></div>"
             }
           ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t41-year-old\tmale\tclient."
+          "intro": "The nurse in the emergency department (ED) is caring for a 41-year-old male client."
         }
       }
     ],
-    "disorder": "Others",
-    "description": "",
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
+    "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study 1: a 41-year-old male client with a ruptured appendix, from recognize cues through evaluate outcomes.",
     "availability": "all"
   },
   {
@@ -11020,7 +11009,12 @@ window.NCLEX_CASES = [
   },
   {
     "id": "case_1789577787012",
-    "title": "Bowtie-Stroke",
+    "title": "NURS 1017 Unit 7 Bowtie 1: Ischemic Stroke with Atrial Fibrillation",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "description": "NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie item-type example: an older adult presents with classic ischemic stroke findings and a history of atrial fibrillation.",
     "screens": [
       {
         "step": 1,
@@ -11050,7 +11044,8 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
-          "explanation": "",
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "explanation": "<b>Condition Most Likely Experiencing</b><br>Ischemic stroke: The client exhibits classic signs of a stroke (likely in the left hemisphere), including right-sided ptosis, facial drooping, right-sided hemiparesis, and expressive aphasia. The irregular apical pulse of 126 bpm strongly suggests atrial fibrillation, which is a major risk factor for embolic ischemic strokes.<br><br><b>Actions to Take</b><br>Administer oxygen at 2 L/min via nasal cannula: The client's pulse oximetry reading is 90% on room air, indicating mild hypoxia that needs to be corrected to prevent further brain tissue ischemia.<br>Insert a peripheral venous access device (VAD): Establishing IV access is a critical immediate step for suspected stroke patients to facilitate emergency lab draws, CT contrast administration, and potential thrombolytic therapy (e.g., tPA) or other medications.<br><br><b>Parameters to Monitor</b><br>Neurologic status: Continuous neuro assessments (such as the NIH Stroke Scale) are vital to track the progression or resolution of the client's deficits and to monitor for potential complications like increased intracranial pressure.<br>Electrocardiogram (ECG) rhythm: Because the client presented with an irregular, tachycardic apical pulse (126 bpm), continuous ECG monitoring is necessary to evaluate the rhythm (likely atrial fibrillation) and guide rate/rhythm control interventions.",
           "bowtieParams": [
             {
               "text": "urine output",
@@ -11061,16 +11056,16 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "",
+              "text": "neurologic status",
+              "correct": true
+            },
+            {
+              "text": "serum glucose level",
               "correct": false
             },
             {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
+              "text": "electrocardiogram (ECG) rhythm",
+              "correct": true
             }
           ],
           "bowtieActions": [
@@ -11130,23 +11125,19 @@ window.NCLEX_CASES = [
             {
               "id": "tab_1789577946502",
               "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neurological</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">history of a stroke 2 years ago</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cardiovascular</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">history of hypertension; atrial fibrillation; hyperlipidemia</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gastrointestinal</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">history of gastrointestinal bleeding 2 months ago</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Endocrine</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">history of diabetes mellitus (type 2) for 30 years</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Immunological</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">influenza 3 weeks ago</td></tr></tbody></table><p><br></p>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurological</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of a stroke 2 years ago</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiovascular</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of hypertension; atrial fibrillation; hyperlipidemia</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Gastrointestinal</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of gastrointestinal bleeding 2 months ago</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Endocrine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of diabetes mellitus (type 2) for 30 years</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Immunological</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">influenza 3 weeks ago</td></tr></tbody></table>"
             },
             {
               "id": "tab_1789578518012",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; background: rgb(2, 82, 135); color: white; text-align: left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>random serum glucose</b><br>Elderly 60 - 90 years: 4.6 - 6.4 mmol/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr></tbody></table><p><br></p>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>random serum glucose</b><br>Elderly 60-90 years: 4.6-6.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse in the emergency department (ED) is caring for a 79-year-old female client."
         }
       }
     ],
-    "disorder": "Others",
-    "description": "",
-    "course": "Others",
-    "unit": "Others",
-    "topic": "Others"
+    "availability": "all"
   },
   {
     "id": "case_1782370000004",
