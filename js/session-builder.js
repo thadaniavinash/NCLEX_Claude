@@ -747,7 +747,12 @@ function initRichTextEditors() {
     const container = btn.closest('.rich-editor-container');
     if (!container) return;
     
-    const editor = container.querySelector('.rich-text-editor');
+    // The text box the toolbar acts on: the one holding the cursor (a container can have several,
+    // such as the Nurses' Notes entries), otherwise the first visible one.
+    const focused = document.activeElement && document.activeElement.closest && document.activeElement.closest('.rich-text-editor');
+    const editor = (focused && container.contains(focused) ? focused : null)
+      || Array.from(container.querySelectorAll('.rich-text-editor')).find(el => el.offsetParent !== null)
+      || container.querySelector('.rich-text-editor');
     if (!editor) return;
     
     const isAlreadyFocused = (document.activeElement === editor || editor.contains(document.activeElement));

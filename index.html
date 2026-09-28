@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260928170227">
+  <link rel="stylesheet" href="style.css?v=20260928172520">
 </head>
 <body>
 
@@ -739,6 +739,14 @@
                     <div class="form-group no-margin">
                       <label id="active-tab-label">Content for "History and Physical"</label>
                       <input type="text" id="tab-title-input" class="tab-title-rename" placeholder="Tab Title">
+                      <!-- Nurses' Notes tabs: entries (time + note) or free text; see js/notes-editor.js -->
+                      <div id="notes-mode-bar" class="notes-mode-bar hidden">
+                        <div class="notes-mode-switch" role="group" aria-label="How to edit this tab">
+                          <button type="button" data-notes-mode="rows">Timed entries</button>
+                          <button type="button" data-notes-mode="free">Free text</button>
+                        </div>
+                        <span class="notes-mode-hint"></span>
+                      </div>
                       <div class="rich-editor-container">
                         <div class="rich-editor-toolbar">
                           <button type="button" class="toolbar-btn" data-cmd="bold" title="Bold"><b>B</b></button>
@@ -755,6 +763,7 @@
                           </button>
                         </div>
                         <div contenteditable="true" class="rich-text-editor" id="tab-text-input" placeholder="Enter tab medical record, logs, physical findings, or lab tables here..."></div>
+                        <div id="notes-row-editor" class="notes-row-editor hidden"></div>
                       </div>
                       <button id="delete-active-tab-btn" class="btn btn-danger btn-xs" style="margin-top: 10px;">Delete This Tab</button>
                     </div>
@@ -1247,18 +1256,20 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20260928170227"></script>
-  <script src="js/state.js?v=20260928170227"></script>
-  <script src="js/utils.js?v=20260928170227"></script>
-  <script src="js/data.js?v=20260928170227"></script>
-  <script src="js/auth.js?v=20260928170227"></script>
-  <script src="js/dashboard.js?v=20260928170227"></script>
-  <script src="js/session-builder.js?v=20260928170227"></script>
-  <script src="js/editor.js?v=20260928170227"></script>
-  <script src="js/player.js?v=20260928170227"></script>
-  <script src="js/scoring.js?v=20260928170227"></script>
-  <script src="js/results.js?v=20260928170227"></script>
-  <script src="js/calculator.js?v=20260928170227"></script>
-  <script src="js/main.js?v=20260928170227"></script>
+  <script src="cases-data.js?v=20260928172520"></script>
+  <script src="js/state.js?v=20260928172520"></script>
+  <script src="js/utils.js?v=20260928172520"></script>
+  <script src="js/data.js?v=20260928172520"></script>
+  <script src="js/auth.js?v=20260928172520"></script>
+  <script src="js/dashboard.js?v=20260928172520"></script>
+  <script src="js/session-builder.js?v=20260928172520"></script>
+  <script src="js/notes-editor.js?v=20260928172520"></script>
+  <script src="js/cloze-editor.js?v=20260928172520"></script>
+  <script src="js/editor.js?v=20260928172520"></script>
+  <script src="js/player.js?v=20260928172520"></script>
+  <script src="js/scoring.js?v=20260928172520"></script>
+  <script src="js/results.js?v=20260928172520"></script>
+  <script src="js/calculator.js?v=20260928172520"></script>
+  <script src="js/main.js?v=20260928172520"></script>
 </body>
 </html>

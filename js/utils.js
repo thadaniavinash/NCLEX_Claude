@@ -81,8 +81,10 @@ function formatNursesNotes(html, tabTitle) {
   return temp.innerHTML;
 }
 
-// A note's time label: "0800", "08:00", or a time with a short qualifier such as "0800 (DOL 2)".
-const NOTE_TIME_REGEX = /^\s*(\b\d{2}:?\d{2}\b(?:\s*\([^()<>]{1,60}\))?)\s*:\s*(.*)/is;
+// A note's time or date label: "0800", "08:00", "0800 (DOL 2)", "09/14 0800", "Day 3", "Day 3 0800",
+// "POD 2", "DOL 5 0600" or "Postoperative day 4". NOTE_LABEL_SOURCE is shared with the editor.
+const NOTE_LABEL_SOURCE = String.raw`(?:(?:Day|POD|DOL|Post-?op(?:erative)?\s+day)\s*\d{1,3}(?:\s+\d{2}:?\d{2}(?!\d))?|(?:\d{1,2}\/\d{1,2}(?:\/\d{2,4})?\s+)?\b\d{2}:?\d{2}(?!\d))(?:\s*\([^()<>]{1,60}\))?`;
+const NOTE_TIME_REGEX = new RegExp(String.raw`^\s*(` + NOTE_LABEL_SOURCE + String.raw`)\s*:\s*(.*)`, 'is');
 
 function isAuthoredNoteRow(node) {
   if (node.nodeType !== Node.ELEMENT_NODE || !node.classList.contains('nurse-note-row') || node.children.length !== 2) return false;

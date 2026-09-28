@@ -51,7 +51,8 @@ IDs: `case_<13 digits>` / `standalone_<13 digits>`; NURS 1017 cases use `case_17
 
 Each screen: `{ step, leftContent: { intro, tabs: [{ id, title, content(HTML) }] }, question }`.
 Nurses' notes rows: `<p class="nurse-note-row"><span class="nurse-note-time">1400:</span><span class="nurse-note-text">...</span></p>`
-(time labels may be `HHMM` or `HHMM (qualifier)`). Tables use the inline-styled `nclex-editor-table` markup
+(labels: `HHMM`, `HHMM (qualifier)`, dates/days such as `09/14 0800`, `Day 3 0800`, `POD 2`; see
+`NOTE_LABEL_SOURCE` in `js/utils.js`). Tables use the inline-styled `nclex-editor-table` markup
 seen in existing cases. Rationale (`explanation`) is HTML; use `<br>`, not `\n`.
 
 Question types (`question.type`) and their answer keys:
@@ -168,8 +169,15 @@ highlighted (`chartChanges` in `player.js`; not in an active Test Mode exam); ph
 switch (opens on Chart when it has new information) and left-aligned notes.
 Done (design system): tokens, light/dark theme for everything except the exam player, type scale, 44px
 touch targets, focus ring, small-screen headers (see "Design system" below).
-Suggested next: from the ideas list (guided session builder, results by clinical judgment step, Test
-Mode timer). Bowtie editor inputs still truncate long text like the matrix ones did.
+Done (authoring): Nurses' Notes tabs are edited as timed entries (`js/notes-editor.js`: label field +
+note text; Tab/Enter/Shift+Enter/Alt+↑↓; labels may be times or dates such as "Day 3 0800", "09/14 0800",
+"POD 2"; free-text mode still available, where a time followed by Tab becomes an entry); drop-down/dyad/
+triad questions are edited as one sentence with drop-down chips, choice cards, paste-many, shuffle and a
+live student/answer-key preview (`js/cloze-editor.js`). New blanks have no correct choice preselected and
+the editor warns when the correct choice is listed first. Keyboard answering for drag-and-drop questions
+was deliberately not added (user decision: the real exam is answered with a mouse).
+Suggested next: B3/B4 (bigger text boxes, shortcuts, clean paste, table sizes, case templates, preview,
+unsaved-changes warning), then the guided student flow. Bowtie editor inputs still truncate long text.
 
 ### Design system (how to style new work)
 

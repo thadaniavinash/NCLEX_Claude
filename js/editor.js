@@ -84,26 +84,11 @@ function initEditorEvents() {
     saveActiveTabContent();
   });
 
-  document.getElementById('tab-text-input').addEventListener('focus', (e) => {
-    if (!activeTabId) return;
-    const step = currentCase.screens[currentStepIndex];
-    if (!step) return;
-    const tabs = step.leftContent.tabs;
-    const tab = tabs.find(t => t.id === activeTabId);
-    if (tab && tab.title && /nurse|note|log|progress/i.test(tab.title)) {
-      const stripped = stripNursesNotesFormatting(e.target.innerHTML);
-      if (e.target.innerHTML !== stripped) {
-        e.target.innerHTML = stripped;
-      }
-    }
-  });
+  // (Timed entries are shown as plain "0800: text" lines when the author switches a notes tab to free
+  // text; see switchNotesMode. Rewriting the text on focus used to lose the cursor.)
 
-  document.getElementById('tab-text-input').addEventListener('keydown', (e) => {
-    if (e.key === 'Tab') {
-      e.preventDefault();
-      document.execCommand('insertHTML', false, '&nbsp;&nbsp;&nbsp;&nbsp;');
-    }
-  });
+  document.getElementById('tab-text-input').addEventListener('keydown', handleFreeTextNotesTab);
+  initNotesEditor();
 
   document.getElementById('question-type-select').addEventListener('change', (e) => {
     const prevType = currentCase.screens[currentStepIndex].question.type;
@@ -129,31 +114,33 @@ function initializeQuestionTypeDefaults(q) {
     }
     
     const textStr = q.cloze.text || '';
-    const isStandardDefault = !textStr || textStr === 'The patient should be ordered [[drop0]] due to [[drop1]].' || textStr === 'The patient should...[[drop0]]...due to...[[drop1]]';
+    const isStandardDefault = !textStr || textStr === 'The patient should be ordered [[drop0]] due to [[drop1]].' || textStr === 'The patient should...[[drop0]]...due to...[[drop1]]' ||
+      Object.values(CLOZE_DEFAULT_TEXT).includes(textStr) ||
+      textStr === 'The nurse should...[[drop0]]...as most evidenced by...[[drop1]]' || textStr === 'The nurse should...[[drop0]]...as most evidenced by...[[drop1]] and [[drop2]]';
     const isTriadText = textStr.includes('[[drop2]]') || textStr.includes('and [[drop2]]');
     const isDyadText = !isTriadText && textStr.includes('[[drop1]]');
 
     if (q.type === 'dyad') {
       if (isStandardDefault || isTriadText || !textStr) {
-        q.cloze.text = 'The nurse should...[[drop0]]...as most evidenced by...[[drop1]]';
+        q.cloze.text = CLOZE_DEFAULT_TEXT.dyad;
       }
       // Enforce exactly 2 slots for Dyad
       if (q.cloze.dropdowns.length !== 2) {
         q.cloze.dropdowns = [
-          q.cloze.dropdowns[0] || { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] },
-          q.cloze.dropdowns[1] || { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] }
+          q.cloze.dropdowns[0] || newClozeBlank(),
+          q.cloze.dropdowns[1] || newClozeBlank()
         ];
       }
     } else if (q.type === 'triad') {
       if (isStandardDefault || isDyadText || !textStr) {
-        q.cloze.text = 'The nurse should...[[drop0]]...as most evidenced by...[[drop1]] and [[drop2]]';
+        q.cloze.text = CLOZE_DEFAULT_TEXT.triad;
       }
       // Enforce exactly 3 slots for Triad
       if (q.cloze.dropdowns.length !== 3) {
         q.cloze.dropdowns = [
-          q.cloze.dropdowns[0] || { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] },
-          q.cloze.dropdowns[1] || { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] },
-          q.cloze.dropdowns[2] || { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] }
+          q.cloze.dropdowns[0] || newClozeBlank(),
+          q.cloze.dropdowns[1] || newClozeBlank(),
+          q.cloze.dropdowns[2] || newClozeBlank()
         ];
       }
     } else if (q.type === 'dropdown_cloze' || q.type === 'drag_drop_cloze') {
@@ -162,10 +149,10 @@ function initializeQuestionTypeDefaults(q) {
         q.stem = 'Complete the following sentence by choosing from the lists of options.';
       }
       if (!textStr) {
-        q.cloze.text = 'The patient should...[[drop0]]...due to...[[drop1]]';
+        q.cloze.text = CLOZE_DEFAULT_TEXT[q.type];
         q.cloze.dropdowns = [
-          { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] },
-          { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] }
+          newClozeBlank(),
+          newClozeBlank()
         ];
       }
     }
@@ -566,6 +553,7 @@ function renderEditorTabs(tabs) {
   document.getElementById('tab-title-input').value = activeTab.title;
   document.getElementById('tab-text-input').innerHTML = activeTab.content || '';
   document.getElementById('active-tab-label').textContent = `Content for "${activeTab.title}"`;
+  notesEditorOpen(activeTab, notesModeChoice[activeTab.id]);
 }
 
 function saveActiveTabContent() {
@@ -575,6 +563,7 @@ function saveActiveTabContent() {
   const tabs = step.leftContent.tabs;
   const tab = tabs.find(t => t.id === activeTabId);
   if (tab) {
+    notesEditorFlush();
     tab.title = document.getElementById('tab-title-input').value;
     const rawContent = document.getElementById('tab-text-input').innerHTML;
     tab.content = formatNursesNotes(rawContent, tab.title);
@@ -710,7 +699,7 @@ function renderDynamicQuestionConfigurator(q) {
     case 'drag_drop_cloze':
     case 'dyad':
     case 'triad':
-      renderClozeConfigurator(q, box);
+      renderClozeSentenceEditor(q, box);
       break;
     case 'dropdown_table':
       renderDropdownTableConfigurator(q, box);
@@ -751,266 +740,6 @@ function renderDynamicQuestionConfigurator(q) {
       renderGroupedMrConfigurator(q, box);
       break;
   }
-}
-
-function getClozeSegments(text, expectedCount) {
-  const regex = /\[\[d(?:r)?op(\d+)\]\]/gi;
-  let match;
-  const matches = [];
-  while ((match = regex.exec(text)) !== null) {
-    matches.push({
-      index: parseInt(match[1]),
-      start: match.index,
-      end: regex.lastIndex
-    });
-  }
-  
-  matches.sort((a, b) => a.index - b.index);
-  
-  const segments = [];
-  let lastIndex = 0;
-  for (let i = 0; i < expectedCount; i++) {
-    const currentMatch = matches.find(m => m.index === i);
-    if (currentMatch) {
-      segments.push(text.substring(lastIndex, currentMatch.start));
-      lastIndex = currentMatch.end;
-    } else {
-      segments.push('');
-    }
-  }
-  segments.push(text.substring(lastIndex));
-  return segments;
-}
-
-// 1. Cloze (Shared for Dropdown Cloze, Drag & Drop, Dyad, Triad)
-function renderClozeConfigurator(q, box) {
-  const c = q.cloze || { text: '', dropdowns: [] };
-  const wrapper = document.createElement('div');
-  
-  const isDyadOrTriad = (q.type === 'dyad' || q.type === 'triad');
-  
-  let instructions = 'Sentence contains drop-down options. Set the choices and placeholder for each slot below.';
-  if (q.type === 'dyad') instructions = 'Dyad requires exactly 2 slots: [[drop0]] and [[drop1]]. Both must be correct to score 1 point.';
-  if (q.type === 'triad') instructions = 'Triad requires exactly 3 slots: [[drop0]], [[drop1]], and [[drop2]]. All must be correct.';
-  
-  let expectedSlots;
-  if (q.type === 'dyad') {
-    expectedSlots = 2;
-  } else if (q.type === 'triad') {
-    expectedSlots = 3;
-  } else {
-    if (!c.dropdowns || c.dropdowns.length === 0) {
-      c.dropdowns = [
-        { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] },
-        { placeholder: 'Select...', options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }] }
-      ];
-    }
-    expectedSlots = c.dropdowns.length;
-  }
-  
-  const segments = getClozeSegments(c.text || '', expectedSlots);
-  let segmentInputsHTML = '';
-  
-  for (let i = 0; i <= expectedSlots; i++) {
-    let placeholder = 'Text...';
-    if (q.type === 'dyad') {
-      if (i === 0) placeholder = 'The nurse should...';
-      else if (i === 1) placeholder = '...as most evidenced by...';
-      else if (i === 2) placeholder = 'Suffix text (optional)...';
-    } else if (q.type === 'triad') {
-      if (i === 0) placeholder = 'The nurse should...';
-      else if (i === 1) placeholder = '...as most evidenced by...';
-      else if (i === 2) placeholder = '...and...';
-      else if (i === 3) placeholder = 'Suffix text (optional)...';
-    } else {
-      if (i === 0) placeholder = 'The patient should...';
-      else if (i === 1) placeholder = '...due to...';
-      else placeholder = 'Suffix text (optional)...';
-    }
-    
-    segmentInputsHTML += `<input type="text" class="cloze-segment-input form-control" data-index="${i}" style="flex: 1; min-width: 140px; font-size:12px; padding:6px;" value="${escapeHTML(segments[i] || '')}" placeholder="${placeholder}">`;
-    
-    if (i < expectedSlots) {
-      segmentInputsHTML += `<span class="cloze-slot-badge" style="background:#025287; color:white; padding:4px 8px; border-radius:4px; font-weight:600; font-size:11px; white-space:nowrap; user-select:none;">[Slot ${i + 1}]</span>`;
-    }
-  }
-  
-  const actionButtonsHTML = !isDyadOrTriad ? `
-    <div style="margin-top: 10px; display: flex; gap: 8px;">
-      <button id="add-cloze-slot-btn" class="btn btn-secondary btn-xs">+ Add Dropdown Slot</button>
-      ${expectedSlots > 1 ? `<button id="remove-cloze-slot-btn" class="btn btn-danger btn-xs">- Remove Last Slot</button>` : ''}
-    </div>
-  ` : '';
-  
-  wrapper.innerHTML = `
-    <div class="cloze-warning">${instructions}</div>
-    <div class="form-group">
-      <label>Question</label>
-      <div style="display:flex; flex-direction:column; gap:10px; background:rgba(255,255,255,0.03); padding:12px; border-radius:var(--radius-sm); border:1px solid var(--border-dash);">
-        <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
-          ${segmentInputsHTML}
-        </div>
-        ${actionButtonsHTML}
-      </div>
-    </div>
-    <div id="cloze-dropdowns-settings" style="margin-top: 16px;"></div>
-  `;
-  
-  box.appendChild(wrapper);
-  
-  const settingsBox = document.getElementById('cloze-dropdowns-settings');
-  
-  const parseCloze = () => {
-    const inputs = Array.from(wrapper.querySelectorAll('.cloze-segment-input'));
-    inputs.sort((a, b) => parseInt(a.dataset.index) - parseInt(b.dataset.index));
-    const segs = inputs.map(inp => inp.value);
-    
-    let assembledText = '';
-    for (let i = 0; i < expectedSlots; i++) {
-      assembledText += (segs[i] || '') + `[[drop${i}]]`;
-    }
-    assembledText += (segs[expectedSlots] || '');
-    c.text = assembledText;
-    
-    settingsBox.innerHTML = '';
-    const regex = /\[\[d(?:r)?op(\d+)\]\]/gi;
-    let match;
-    const foundIndices = [];
-    while ((match = regex.exec(c.text)) !== null) {
-      foundIndices.push(parseInt(match[1]));
-    }
-    const unique = [...new Set(foundIndices)].sort((a,b) => a-b);
-    
-    const temp = [];
-    unique.forEach(idx => {
-      if (!c.dropdowns[idx]) {
-        c.dropdowns[idx] = {
-          placeholder: 'Select...',
-          options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }]
-        };
-      }
-      const dd = c.dropdowns[idx];
-      temp[idx] = dd;
-      
-      const card = document.createElement('div');
-      card.className = 'cloze-dropdown-card';
-      card.innerHTML = `
-        <h6>Slot [[drop${idx}]]</h6>
-        <input type="text" class="cloze-placeholder-input form-control" value="${escapeHTML(dd.placeholder)}" placeholder="Add placeholder...">
-        <div class="options-config-title">
-          <span>Choices</span>
-          <button class="btn btn-text btn-xs add-choice-btn">+ Add Option</button>
-        </div>
-        <div class="choices-list"></div>
-      `;
-      
-      card.querySelector('.cloze-placeholder-input').addEventListener('input', (e) => {
-        dd.placeholder = e.target.value;
-      });
-      
-      const choicesList = card.querySelector('.choices-list');
-      const renderChoices = () => {
-        choicesList.innerHTML = '';
-        dd.options.forEach((opt, oIdx) => {
-          const row = document.createElement('div');
-          row.className = 'option-config-row';
-          const placeholderText = `Choice ${String.fromCharCode(65 + oIdx)}`;
-          
-          let val = opt.text || '';
-          const genericDefaults = [
-            'Choice A', 'Choice B', 'Choice C', 'Choice D', 'Choice E',
-            'Choice X', 'Choice Y', 'Choice Z',
-            'Choice 1', 'Choice 2', 'Choice 3',
-            'Correct Option', 'Incorrect Option', 'New Choice'
-          ];
-          if (genericDefaults.includes(val)) {
-            val = '';
-            opt.text = '';
-          }
-          
-          row.innerHTML = `
-            <input type="radio" name="cloze-correct-${idx}" class="choice-correct-toggle" ${opt.correct ? 'checked' : ''}>
-            <input type="text" class="option-text-input form-control" style="font-size:12px; padding:6px;" value="${escapeHTML(val)}" placeholder="${placeholderText}">
-            <button class="btn-option-delete">&times;</button>
-          `;
-          
-          row.querySelector('.option-text-input').addEventListener('input', (e) => {
-            opt.text = e.target.value;
-          });
-          row.querySelector('.choice-correct-toggle').addEventListener('change', () => {
-            dd.options.forEach((o, oi) => o.correct = oi === oIdx);
-          });
-          row.querySelector('.btn-option-delete').addEventListener('click', () => {
-            dd.options.splice(oIdx, 1);
-            renderChoices();
-          });
-          choicesList.appendChild(row);
-        });
-      };
-      
-      card.querySelector('.add-choice-btn').addEventListener('click', () => {
-        dd.options.push({ text: '', correct: false });
-        renderChoices();
-      });
-      
-      renderChoices();
-      settingsBox.appendChild(card);
-    });
-    c.dropdowns = temp;
-  };
-  
-  wrapper.querySelectorAll('.cloze-segment-input').forEach(inp => {
-    inp.addEventListener('input', parseCloze);
-  });
-  
-  if (!isDyadOrTriad) {
-    const addBtn = wrapper.querySelector('#add-cloze-slot-btn');
-    if (addBtn) {
-      addBtn.addEventListener('click', () => {
-        const inputs = Array.from(wrapper.querySelectorAll('.cloze-segment-input'));
-        inputs.sort((a, b) => parseInt(a.dataset.index) - parseInt(b.dataset.index));
-        const segs = inputs.map(inp => inp.value);
-        
-        let assembledText = '';
-        for (let i = 0; i < expectedSlots; i++) {
-          assembledText += (segs[i] || '') + `[[drop${i}]]`;
-        }
-        assembledText += (segs[expectedSlots] || '');
-        c.text = assembledText + `[[drop${expectedSlots}]]`;
-        
-        c.dropdowns.push({
-          placeholder: 'Select...',
-          options: [{ text: '', correct: true }, { text: '', correct: false }, { text: '', correct: false }]
-        });
-        
-        renderDynamicQuestionConfigurator(q);
-      });
-    }
-    
-    const removeBtn = wrapper.querySelector('#remove-cloze-slot-btn');
-    if (removeBtn) {
-      removeBtn.addEventListener('click', () => {
-        if (expectedSlots <= 1) return;
-        
-        const inputs = Array.from(wrapper.querySelectorAll('.cloze-segment-input'));
-        inputs.sort((a, b) => parseInt(a.dataset.index) - parseInt(b.dataset.index));
-        const segs = inputs.map(inp => inp.value);
-        
-        let assembledText = '';
-        for (let i = 0; i < expectedSlots - 1; i++) {
-          assembledText += (segs[i] || '') + `[[drop${i}]]`;
-        }
-        assembledText += (segs[expectedSlots - 1] || '') + (segs[expectedSlots] || '');
-        c.text = assembledText;
-        
-        c.dropdowns.pop();
-        
-        renderDynamicQuestionConfigurator(q);
-      });
-    }
-  }
-  
-  parseCloze();
 }
 
 // 2. Drop-Down Table Configurator
