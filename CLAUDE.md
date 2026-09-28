@@ -166,8 +166,8 @@ answer keys); the result explains the scoring rule with the +/- arithmetic (`sco
 `scoring.js`); in-page notices replace the player's alerts; chart tabs show New/Updated and new entries are
 highlighted (`chartChanges` in `player.js`; not in an active Test Mode exam); phones get a Chart | Question
 switch (opens on Chart when it has new information) and left-aligned notes.
-Done (design system): tokens, app-wide light/dark theme, type scale, 44px touch targets, focus ring,
-small-screen headers (see "Design system" below).
+Done (design system): tokens, light/dark theme for everything except the exam player, type scale, 44px
+touch targets, focus ring, small-screen headers (see "Design system" below).
 Suggested next: from the ideas list (guided session builder, results by clinical judgment step, Test
 Mode timer). Bowtie editor inputs still truncate long text like the matrix ones did.
 
@@ -182,11 +182,17 @@ Mode timer). Bowtie editor inputs still truncate long text like the matrix ones 
   values, including in inline styles written by JS, so dark mode works.
 - Theme: `html[data-theme="light"|"dark"]`, set before first paint by the script in `index.html` (stored
   choice `localStorage.nclex_color_theme`, otherwise the device setting) and switched by `toggleTheme()` /
-  any `[data-theme-toggle]` button (portal, studio, player and editor headers).
+  any `[data-theme-toggle]` button (portal, studio and editor headers).
+- **The player has no themes (user decision).** It imitates the Pearson VUE NCLEX screen, which has one
+  fixed colour scheme for all candidates (a colour-changing toggle exists only as an approved disability
+  accommodation). `#player-view`, `#test-submit-modal` and `#skip-question-modal` carry
+  `.theme-locked-light`, which re-declares the light token values, and the player keeps its original
+  literal colours and sizes. Never add a theme toggle or dark styles to the player; check that its
+  screenshots are identical with the app in light and in dark.
 - The editor (and the login modal, "specific items" list) is still dark-first: base rules use the dark
   `--*-dash` palette and `html:not([data-theme="dark"]) #editor-view ...` rules give the light look.
 - Question content keeps its inline colours (white cells, slate text); the `DARK THEME: DETAILS TOKENS
-  CANNOT REACH` block maps them in dark mode for the player and results.
+  CANNOT REACH` block maps them in dark mode on the results page (the player always shows them as authored).
 - Visual checks: screenshot the states in both themes (desktop 1440 and phone 390) and compare with the
   previous version; `pointer: coarse` rules make controls 44px on touch screens.
 

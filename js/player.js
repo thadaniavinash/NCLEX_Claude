@@ -1167,24 +1167,24 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
     <div class="bowtie-table-wrapper" style="display:flex; gap:16px; width:100%; user-select:none;">
       
       <!-- Column 1 (Ingredients) -->
-      <div style="flex:1; border:1.5px solid var(--text); border-radius:4px; background:var(--surface); overflow:hidden; align-self: flex-start;">
-        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid var(--text); padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
+      <div style="flex:1; border:1.5px solid #000000; border-radius:4px; background:#ffffff; overflow:hidden; align-self: flex-start;">
+        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid #000000; padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
           ${escapeHTML(col1Header)}
         </div>
         <div id="bowtie-table-col1" style="padding:8px; display:flex; flex-direction:column; gap:8px;"></div>
       </div>
 
       <!-- Column 2 (Orders) -->
-      <div style="flex:1; border:1.5px solid var(--text); border-radius:4px; background:var(--surface); overflow:hidden; align-self: flex-start;">
-        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid var(--text); padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
+      <div style="flex:1; border:1.5px solid #000000; border-radius:4px; background:#ffffff; overflow:hidden; align-self: flex-start;">
+        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid #000000; padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
           ${escapeHTML(col2Header)}
         </div>
         <div id="bowtie-table-col2" style="padding:8px; display:flex; flex-direction:column; gap:8px;"></div>
       </div>
 
       <!-- Column 3 (Materials) -->
-      <div style="flex:1; border:1.5px solid var(--text); border-radius:4px; background:var(--surface); overflow:hidden; align-self: flex-start;">
-        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid var(--text); padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
+      <div style="flex:1; border:1.5px solid #000000; border-radius:4px; background:#ffffff; overflow:hidden; align-self: flex-start;">
+        <div style="background:var(--bowtie-head-bg); border-bottom:1.5px solid #000000; padding:10px; font-weight:bold; font-size:13px; text-align:center; color:var(--text);">
           ${escapeHTML(col3Header)}
         </div>
         <div id="bowtie-table-col3" style="padding:8px; display:flex; flex-direction:column; gap:8px;"></div>
@@ -1272,7 +1272,7 @@ function renderPlayerBowtie(q, stepIdx, box, isSubmitted, userAnswers) {
       item.style.justifyContent = 'center';
       item.style.padding = '8px 12px';
       item.style.background = itemColor;
-      item.style.color = 'var(--text)';
+      item.style.color = '#0f172a';
       item.style.fontWeight = '500';
       item.style.fontSize = '12px';
       item.style.textAlign = 'center';
@@ -1437,7 +1437,7 @@ function renderPlayerFillBlank(q, stepIdx, box, isSubmitted, userAnswers) {
     <div style="display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; margin: 16px 0; flex-wrap: nowrap;">
       <span style="white-space: nowrap;">Answer: </span>
       <input type="text" id="player-blank-input" class="form-control" 
-        style="max-width:300px; width:220px; background-color:var(--surface-muted); border:1.5px solid var(--text); color:var(--text); display: inline-block; margin: 0; vertical-align: middle; border-radius: 0;" 
+        style="max-width:300px; width:220px; background-color:#f8fafc; border:1.5px solid #000000; color:#000000; display: inline-block; margin: 0; vertical-align: middle; border-radius: 0;" 
         value="${escapeHTML(val)}" ${isSubmitted ? 'disabled' : ''}>
       <span style="white-space: nowrap;">${escapeHTML(unitText)}</span>
     </div>
