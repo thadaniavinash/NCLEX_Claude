@@ -1241,9 +1241,7 @@ textarea {
 .btn-primary-exam:hover:not(:disabled) {
   background-color: #0d5c91;
   border-color: #0d5c91;
-  color: #ffff00;
-  text-shadow: 0 0 8px #ffff00, 0 0 16px rgba(255, 255, 0, 0.9);
-  box-shadow: 0 0 12px #ffff00;
+  color: #ffff00; /* yellow text only, like the footer buttons; no glow */
 }
 .btn-primary-exam:disabled {
   background-color: #d1d5db;
