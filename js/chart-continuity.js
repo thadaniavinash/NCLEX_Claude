@@ -3,8 +3,9 @@
    taken away on a later one.
 
    The editor enforces this as the author edits (applyChartTabEdit, carryNewTabForward,
-   removeTabFromScreens), and chartContinuityProblems / restoreChartContinuity find and repair gaps
-   in items written before the rule existed. Only edits the author makes are carried; opening and
+   removeTabFromScreens). chartContinuityProblems / restoreChartContinuity find and repair gaps in
+   items written before the rule existed (tools/check.js reports them; the bank was repaired in
+   September 2026). Only edits the author makes are carried; opening and
    saving without changes alters nothing. Tabs are matched by id (screens copy tabs with their ids),
    falling back to the title. */
 
@@ -251,9 +252,9 @@ function describeChartProblem(p) {
 }
 
 // Carries everything forward screen by screen: missing tabs are copied, missing entries are put back
-// after the entry they followed, and a table that changed (e.g. a vital signs table with a new
-// column) is kept, with the previous screen's version added only when the tab has no table left.
-// Returns the number of tabs changed.
+// after the entry they followed, and an earlier table whose values the later screen no longer shows
+// is put back above the later one (a table that only gained columns is left as it is). Used to
+// repair items written before the rule (drafts/build_chart_restore.js). Returns the tabs changed.
 function restoreChartContinuity(item) {
   let changed = 0;
   if (!item || item.isStandalone || !item.screens) return changed;
@@ -269,12 +270,16 @@ function restoreChartContinuity(item) {
       }
       const root = parseChartHTML(t.content);
       const have = new Set(chartBlocks(root).map(b => b.key));
-      const text = chartFacts(t.content).text;
-      const hasTable = !!root.querySelector('table');
+      const facts = chartFacts(t.content);
       let after = null, touched = false;
       chartBlocks(parseChartHTML(pt.content)).forEach(b => {
-        const isTable = b.node.nodeName === 'TABLE';
-        const present = isTable ? (have.has(b.key) || hasTable) : (have.has(b.key) || text.includes(b.key));
+        let present;
+        if (b.node.nodeName === 'TABLE') {
+          const cells = Array.from(b.node.querySelectorAll('th, td')).map(c => c.textContent.replace(/\s+/g, ' ').trim()).filter(Boolean);
+          present = have.has(b.key) || cells.every(c => facts.cells.has(c));
+        } else {
+          present = have.has(b.key) || facts.text.includes(b.key);
+        }
         if (!present) {
           insertChartNodeAfter(root, b.node, after);
           have.add(b.key);

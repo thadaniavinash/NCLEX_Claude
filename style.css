@@ -6655,8 +6655,7 @@ html:not([data-theme="dark"]) .table-template-btn:focus-visible { background: #d
 
 /* ================= EDITOR: CHART CARRY-FORWARD NOTICES (js/chart-continuity.js, editor.js) ================= */
 
-.chart-notice,
-.chart-continuity-banner {
+.chart-notice {
   margin: var(--space-2) 0;
   padding: var(--space-2) var(--space-3);
   border: 1px solid var(--info-border);
@@ -6675,8 +6674,7 @@ html:not([data-theme="dark"]) .table-template-btn:focus-visible { background: #d
 
 .chart-notice span { flex: 1; }
 
-.chart-notice.warn,
-.chart-continuity-banner {
+.chart-notice.warn {
   border-color: var(--warning-border);
   background: var(--warning-bg);
   color: var(--warning-text);
@@ -6691,8 +6689,6 @@ html:not([data-theme="dark"]) .table-template-btn:focus-visible { background: #d
   cursor: pointer;
 }
 
-.chart-continuity-banner ul { margin: var(--space-1) 0 var(--space-1) var(--space-5); padding: 0; }
-.chart-continuity-banner p { margin: 0 0 var(--space-2); }
 
 #delete-active-tab-btn.is-confirming { outline: 2px solid var(--danger); outline-offset: 1px; }
 

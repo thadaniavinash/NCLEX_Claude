@@ -112,8 +112,6 @@ function previewChecks(item) {
   const tabs = step.leftContent.tabs || [];
   if (q.type !== 'highlight' && tabs.length && tabs.every(t => !hasText(t.content))) list.push({ level: 'warn', text: 'The chart tabs are empty.' });
   if (q.type === 'highlight' || q.type === 'highlight_2') highlightWarnings(q).forEach(w => list.push({ level: 'warn', text: w }));
-  const gaps = chartContinuityProblems(item);
-  if (gaps.length) list.push({ level: 'warn', text: `Later screens drop chart content (${gaps.length} gap${gaps.length === 1 ? '' : 's'}); see the notice above the chart tabs.` });
   const otherProblems = item.screens.filter((s, i) => i !== currentStepIndex && screenProblem(s.question)).length;
   if (otherProblems) list.push({ level: 'info', text: `${otherProblems} other screen${otherProblems === 1 ? '' : 's'} still need work before students can see this ${item.isStandalone ? 'question' : 'case'}.` });
   return list;

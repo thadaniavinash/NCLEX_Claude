@@ -437,7 +437,6 @@ function renderEditorStep(stepIdx) {
   document.getElementById('step-intro-input').innerHTML = step.leftContent.intro || '';
   renderEditorTabs(step.leftContent.tabs);
   resetDeleteTabButton();
-  renderChartContinuityBanner();
   
   document.getElementById('question-type-select').value = q.type;
   document.getElementById('question-preamble-input').innerHTML = q.preamble || '';
@@ -651,7 +650,6 @@ function saveActiveTabContent() {
       notesEditorOpen(tab, notesModeChoice[tab.id]);
       showChartNotice(`${outcome.restored} entr${outcome.restored === 1 ? 'y' : 'ies'} from screen ${currentStepIndex} ${outcome.restored === 1 ? 'was' : 'were'} put back: a later screen keeps everything the earlier screens show. To change an entry, edit it; to remove it, remove it on the screen where it was first added.`, 'warn');
     }
-    if (outcome.carried || outcome.restored) renderChartContinuityBanner();
   }
 }
 
@@ -721,30 +719,6 @@ function showChartNotice(text, level = 'info') {
   box.querySelector('button').addEventListener('click', () => box.classList.add('hidden'));
   clearTimeout(showChartNotice.timer);
   if (level === 'info') showChartNotice.timer = setTimeout(() => box.classList.add('hidden'), 6000);
-}
-
-// Items written before the carry-forward rule may drop tabs or entries between screens: list the
-// gaps and offer to put everything back.
-function renderChartContinuityBanner() {
-  const box = document.getElementById('chart-continuity-banner');
-  if (!box || !currentCase) return;
-  const problems = chartContinuityProblems(currentCase);
-  if (!problems.length) { box.classList.add('hidden'); box.innerHTML = ''; return; }
-  const shown = problems.slice(0, 4).map(p => `<li>${escapeHTML(describeChartProblem(p))}</li>`).join('');
-  const more = problems.length > 4 ? `<li>…and ${problems.length - 4} more.</li>` : '';
-  box.innerHTML = `
-    <strong>Later screens show less of the chart than earlier ones.</strong>
-    <ul>${shown}${more}</ul>
-    <p>Each screen should keep every tab and entry from the screen before it. Restoring copies what is missing forward (a table that was changed, such as vital signs with a new column, is kept as it is).</p>
-    <button type="button" class="btn btn-secondary btn-xs" id="chart-continuity-restore">Restore missing tabs and entries</button>`;
-  box.classList.remove('hidden');
-  box.querySelector('#chart-continuity-restore').addEventListener('click', () => {
-    saveActiveTabContent();
-    const changed = restoreChartContinuity(currentCase);
-    renderEditorStep(currentStepIndex);
-    setEditorDirty(true);
-    showChartNotice(`Restored ${changed} tab${changed === 1 ? '' : 's'}. Check the screens, then save.`, 'info');
-  });
 }
 
 function saveCurrentStepData(isChangingType = false, isBackingOut = false) {

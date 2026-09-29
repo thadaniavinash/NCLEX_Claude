@@ -5,7 +5,8 @@
 //      one <select> per blank,
 //   2. fills in the answer key and checks the screen scores full marks,
 //   3. opens it in the authoring editor, saves each screen without edits, and
-//      reports anything the editor changed.
+//      reports anything the editor changed,
+//   4. checks that no later case screen drops a chart tab or entry (js/chart-continuity.js).
 //
 // Usage: serve the repo (e.g. `python3 -m http.server 8765`) then
 //   node tools/check.js [http://localhost:8765]
@@ -92,6 +93,8 @@ function answerKey(q) {
         if (!s || s.max === 0 || s.score !== s.max) failures.push(`${where}: answer key scores ${s ? s.score : '?'}/${s ? s.max : '?'}`);
       });
       if (JSON.stringify(item) !== original) failures.push(`${item.title} [${item.id}]: the player modified the item`);
+      // The chart only grows: no later screen may drop a tab or entry an earlier screen showed.
+      chartContinuityProblems(item).forEach(g => failures.push(`${item.title} [${item.id}]: ${describeChartProblem(g)}`));
 
       const copy = JSON.parse(original);
       startEditor(copy);
