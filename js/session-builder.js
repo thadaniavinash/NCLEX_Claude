@@ -787,6 +787,9 @@ function initRichTextEditors() {
     } else if (btn.classList.contains('table-insert-btn')) {
       openTableSizePicker(btn, editor);
       return;
+    } else if (btn.classList.contains('symbol-menu-btn')) {
+      openSymbolMenu(btn, editor);
+      return;
     }
     
     // Restore focus and selection range (only if not already focused, or if text was selected)

@@ -162,6 +162,7 @@ function renderNoteRows(focusIndex, focusField) {
       <div class="note-entry-body">
         <input type="text" class="note-entry-title ${row.showTitle ? '' : 'hidden'}" placeholder="Title (optional), shown in bold above the note" aria-label="Title for entry ${i + 1}" value="${escapeHTML(row.title || '')}">
         <div class="note-entry-text rich-text-editor" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Note for entry ${i + 1}" placeholder="Note…"></div>
+        <p class="note-entry-warn hidden" role="status"></p>
       </div>
       <div class="note-entry-actions">
         <button type="button" class="note-entry-btn note-entry-title-btn" data-act="title" tabindex="-1" title="${row.showTitle ? 'Remove the title' : 'Add a title above this note'}" aria-label="${row.showTitle ? 'Remove the title of' : 'Add a title to'} entry ${i + 1}">${row.showTitle ? '&minus;T' : '+T'}</button>
@@ -176,7 +177,7 @@ function renderNoteRows(focusIndex, focusField) {
     titleInput.addEventListener('input', () => { row.title = titleInput.value; state.dirty = true; });
     titleInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); placeCaretAtEnd(text); } });
 
-    timeInput.addEventListener('input', () => { row.time = timeInput.value; state.dirty = true; });
+    timeInput.addEventListener('input', () => { row.time = timeInput.value; state.dirty = true; updateNoteTimeHints(); });
     timeInput.addEventListener('keydown', e => {
       if (e.key === 'Enter') { e.preventDefault(); placeCaretAtEnd(text); }
       else if (e.altKey && (e.key === 'ArrowUp' || e.key === 'ArrowDown')) { e.preventDefault(); moveNoteRow(i, e.key === 'ArrowUp' ? -1 : 1, 'time'); }
@@ -224,6 +225,8 @@ function renderNoteRows(focusIndex, focusField) {
     }));
     rowsBox.appendChild(el);
   });
+
+  updateNoteTimeHints();
 
   const add = document.createElement('button');
   add.type = 'button';
@@ -288,6 +291,8 @@ function handleFreeTextNotesTab(e) {
 }
 
 function initNotesEditor() {
+  const rowsBox = document.getElementById('notes-row-editor');
+  if (rowsBox) rowsBox.addEventListener('paste', handleNoteRowsPaste);
   const bar = document.getElementById('notes-mode-bar');
   if (bar) bar.querySelectorAll('[data-notes-mode]').forEach(btn => btn.addEventListener('click', () => switchNotesMode(btn.dataset.notesMode)));
   const title = document.getElementById('tab-title-input');
@@ -316,4 +321,90 @@ function tableInsertTarget(editor) {
   sel.removeAllRanges();
   sel.addRange(range);
   return free;
+}
+
+/* ---- Time checks: an entry earlier than the one above gets a gentle warning ---- */
+
+// "1430" -> { day: null, minutes: 870 }; "Day 3 0800", "0800 (DOL 2)", "POD 2", "09/14 0800" carry a day.
+function noteLabelParts(label) {
+  const text = (label || '').trim();
+  if (!text) return null;
+  let day = null;
+  const d = text.match(/\b(Day|POD|DOL|Post-?op(?:erative)?\s+day)\s*(\d{1,3})/i);
+  const date = text.match(/\b(\d{1,2})\/(\d{1,2})(?:\/(\d{2,4}))?/);
+  if (d) day = { kind: d[1].toUpperCase().replace(/\s+/g, ''), n: Number(d[2]) };
+  else if (date) day = { kind: 'DATE', n: Number(date[3] || 0) * 10000 + Number(date[1]) * 100 + Number(date[2]) };
+  const withoutDate = date ? text.replace(date[0], '') : text;
+  const t = withoutDate.match(/\b(\d{2}):?(\d{2})\b(?!\d)/);
+  const minutes = t && Number(t[1]) < 24 && Number(t[2]) < 60 ? Number(t[1]) * 60 + Number(t[2]) : null;
+  return { day, minutes };
+}
+
+// True when entry b is clearly earlier than entry a (same kind of day, or no days at all).
+function noteLabelEarlier(a, b) {
+  if (!a || !b) return false;
+  if (a.day && b.day) {
+    if (a.day.kind !== b.day.kind) return false;
+    if (b.day.n !== a.day.n) return b.day.n < a.day.n;
+  } else if (a.day || b.day) {
+    return false;
+  }
+  return a.minutes != null && b.minutes != null && b.minutes < a.minutes;
+}
+
+function updateNoteTimeHints() {
+  const state = notesEditorState;
+  const { rowsBox } = notesEditorElements();
+  if (!state || !rowsBox) return;
+  const entries = rowsBox.querySelectorAll('.note-entry');
+  let prev = null; // the last entry above with a time
+  state.rows.forEach((row, i) => {
+    const el = entries[i];
+    if (!el) return;
+    const warn = el.querySelector('.note-entry-warn');
+    const input = el.querySelector('.note-entry-time');
+    input.placeholder = prev ? `after ${prev.label}` : '0800';
+    const parts = noteLabelParts(row.time);
+    const earlier = parts && prev && noteLabelEarlier(prev.parts, parts);
+    warn.textContent = earlier
+      ? `This is earlier than ${prev.label} above. Entries read top to bottom in time order; if it is the next day, add the day (for example "Day 2 ${row.time.trim()}").`
+      : '';
+    warn.classList.toggle('hidden', !earlier);
+    if (parts) prev = { label: row.time.trim(), parts };
+  });
+}
+
+/* ---- Paste many entries: "0800 text" lines become one entry each ---- */
+
+function handleNoteRowsPaste(e) {
+  const state = notesEditorState;
+  const field = e.target.closest && e.target.closest('.note-entry-text, .note-entry-time');
+  if (!state || !field) return;
+  const text = (e.clipboardData && e.clipboardData.getData('text/plain')) || '';
+  const lines = text.split(/\r?\n/).map(l => l.replace(/\u00a0/g, ' ').trim()).filter(Boolean);
+  const labelRe = new RegExp('^(' + NOTE_LABEL_SOURCE + ')\\s*(?:[:\\-\u2013\u2014]\\s*|\\s+)(.+)$', 'i');
+  if (lines.filter(l => labelRe.test(l)).length < 2) return; // an ordinary paste
+  e.preventDefault();
+  e.stopPropagation();
+  const pasted = [];
+  lines.forEach(line => {
+    const m = line.match(labelRe);
+    if (m) pasted.push(noteRow(m[1].trim(), escapeHTML(m[2].trim())));
+    else if (pasted.length) pasted[pasted.length - 1].html += `<br>${escapeHTML(line)}`;
+    else pasted.push(noteRow('', escapeHTML(line)));
+  });
+  const { rowsBox } = notesEditorElements();
+  const entries = Array.from(rowsBox.querySelectorAll('.note-entry'));
+  const index = entries.indexOf(field.closest('.note-entry'));
+  // Keep what was typed in the current entry, then put the pasted entries after it (or in its place if empty).
+  const current = state.rows[index];
+  if (current) {
+    current.html = entries[index].querySelector('.note-entry-text').innerHTML;
+    current.time = entries[index].querySelector('.note-entry-time').value;
+  }
+  const empty = current && !current.time.trim() && !(current.title || '').trim() && !hasText(current.html);
+  state.rows.splice(empty ? index : index + 1, empty ? 1 : 0, ...pasted);
+  state.dirty = true;
+  renderNoteRows((empty ? index : index + 1) + pasted.length - 1, 'text');
+  showToast(`Pasted ${pasted.length} entries.`);
 }

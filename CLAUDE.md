@@ -31,7 +31,7 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   shuffleArray), `data.js` (sanitizing, format migrations, load, readiness rule, saving),
   `auth.js` (Supabase Auth admin sign-in), `dashboard.js` (authoring tables, admin login UI),
   `session-builder.js`, `rich-text.js` (text box extras), `table-tools.js` (table toolbar, templates,
-  cell hints), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
+  cell hints), `lab-ranges.js` (MCC reference ranges for lab tables), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
   `editor-preview.js`, `highlight-editor.js` (highlight passage authoring), `editor.js`, `player.js`, `scoring.js`, `results.js`,
   `progress.js` (My progress, browser-only results), `overview.js` (studio Overview), `calculator.js`,
   `main.js` (initApp, routing).
@@ -262,6 +262,18 @@ Done (authoring, September 2026):
   button also works in a timed-entries tab (blank table or ready-made Vital signs / Laboratory results):
   the tab switches to free text with every entry kept and the table goes after the entry with the
   cursor (`tableInsertTarget`); new empty tables carry forward like any entry.
+- Tab-filling helpers: every formatting toolbar also has Italic, Underline, a clinical symbols menu
+  (± × ↑ ↓ µ ² …), Clear formatting and Undo/Redo (`enhanceToolbar` in `js/rich-text.js`, added to
+  toolbars created later too) and stays in view while scrolling (sticky). Pasting several "0800 text"
+  lines into a timed entry makes one entry each (`handleNoteRowsPaste`). An entry whose time is earlier
+  than the one above gets a gentle warning (with the "Day 2" hint), and the next time box suggests
+  "after 1400" (`updateNoteTimeHints`). The table bar has "+ Reading": a new time column after the last
+  reading, before a trailing Reference/Normal range column (`tableAddReading`). In a lab table, typing a
+  test name in the first column and leaving the cell fills "<b>Name</b><br>range" from
+  `LAB_REFERENCE_RANGES` (`js/lab-ranges.js`, to hold the Medical Council of Canada normal lab values;
+  empty until the MCC page can be read: mcc.ca was blocked by this container's network policy).
+  **No markers for new entries (user decision): on the NCLEX nothing new is highlighted; the nurse reads
+  the whole chart.**
 - Vital Signs tables leave the first header cell empty (user decision: the tab name says it). The
   template does; the 142 existing tables with "Parameter" / "Vital Sign" / "Time" / "Parameter /
   Assessment" there were cleared with `drafts/build_vitals_header.py` → `drafts/vitals_header_patch.json`.

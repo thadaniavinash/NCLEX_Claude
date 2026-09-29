@@ -132,6 +132,77 @@ function toggleExpandedEditor(container, force) {
   }
 }
 
+/* ---- Toolbar extras: italic, underline, symbols menu, clear formatting, undo/redo ----
+   The toolbars are written in several places (index.html, js/highlight-editor.js); enhanceToolbar
+   adds the same extra buttons to each, including toolbars created later (see initRichTextExtras). */
+
+const CLINICAL_SYMBOLS = ['°', '°C', '°F', '±', '×', '÷', '≈', '≠', '<', '>', '≤', '≥', '↑', '↓', '→', '←',
+  'µ', '²', '³', '½', '¼', '¾', '‰', '♀', '♂', '✓', '•', '–', '—'];
+
+function toolbarButton(html, attrs) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'toolbar-btn';
+  btn.innerHTML = html;
+  Object.entries(attrs).forEach(([k, v]) => btn.setAttribute(k, v));
+  return btn;
+}
+
+function enhanceToolbar(toolbar) {
+  if (toolbar.dataset.enhanced) return;
+  toolbar.dataset.enhanced = '1';
+  const bold = toolbar.querySelector('[data-cmd="bold"]');
+  if (bold) {
+    const italic = toolbarButton('<i>I</i>', { 'data-cmd': 'italic', title: 'Italic (Ctrl+I)', 'aria-label': 'Italic' });
+    const underline = toolbarButton('<u>U</u>', { 'data-cmd': 'underline', title: 'Underline (Ctrl+U)', 'aria-label': 'Underline' });
+    bold.after(italic, underline);
+  }
+  const lastSymbol = Array.from(toolbar.querySelectorAll('.btn-symbol')).pop();
+  const symbols = toolbarButton('&Omega;&#9662;', { class: 'toolbar-btn symbol-menu-btn', title: 'More symbols (± × ↑ ↓ µ ² …)', 'aria-label': 'More symbols', 'aria-haspopup': 'true' });
+  if (lastSymbol) lastSymbol.after(symbols); else toolbar.appendChild(symbols);
+  const extras = [
+    toolbarButton('<span aria-hidden="true">T&#x338;</span>', { 'data-cmd': 'removeFormat', title: 'Clear formatting of the selected text', 'aria-label': 'Clear formatting' }),
+    toolbarButton('&#8630;', { 'data-cmd': 'undo', title: 'Undo (Ctrl+Z)', 'aria-label': 'Undo' }),
+    toolbarButton('&#8631;', { 'data-cmd': 'redo', title: 'Redo (Ctrl+Y)', 'aria-label': 'Redo' })
+  ];
+  const expand = toolbar.querySelector('.toolbar-expand-btn');
+  extras.forEach(b => expand ? toolbar.insertBefore(b, expand) : toolbar.appendChild(b));
+}
+
+function openSymbolMenu(button, editor) {
+  closeSymbolMenu();
+  const sel = window.getSelection();
+  const savedRange = sel.rangeCount && editor.contains(sel.getRangeAt(0).commonAncestorContainer) ? sel.getRangeAt(0).cloneRange() : null;
+  const menu = document.createElement('div');
+  menu.id = 'symbol-menu';
+  menu.className = 'symbol-menu';
+  menu.setAttribute('role', 'menu');
+  menu.innerHTML = CLINICAL_SYMBOLS.map(s => `<button type="button" role="menuitem" data-symbol-insert="${s}" title="Insert ${s}">${s}</button>`).join('');
+  document.body.appendChild(menu);
+  const rect = button.getBoundingClientRect();
+  menu.style.top = `${rect.bottom + 4}px`;
+  menu.style.left = `${Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8))}px`;
+  menu.addEventListener('mousedown', e => e.preventDefault());
+  menu.addEventListener('click', e => {
+    const b = e.target.closest('[data-symbol-insert]');
+    if (!b) return;
+    editor.focus();
+    if (savedRange) { const s = window.getSelection(); s.removeAllRanges(); s.addRange(savedRange); }
+    richCommand('insertText', b.dataset.symbolInsert);
+    closeSymbolMenu();
+  });
+}
+
+function closeSymbolMenu() {
+  const menu = document.getElementById('symbol-menu');
+  if (menu) menu.remove();
+}
+
+document.addEventListener('mousedown', e => {
+  if (!e.target.closest('#symbol-menu') && !e.target.closest('.symbol-menu-btn')) closeSymbolMenu();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSymbolMenu(); });
+
 function addExpandButtons() {
   document.querySelectorAll('.rich-editor-toolbar').forEach(toolbar => {
     if (toolbar.querySelector('.toolbar-expand-btn')) return;
@@ -201,6 +272,15 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeTableSi
 
 function initRichTextExtras() {
   addExpandButtons();
+  document.querySelectorAll('.rich-editor-toolbar').forEach(enhanceToolbar);
+  // Toolbars created later (the highlight passage editor) get the same buttons.
+  new MutationObserver(records => {
+    records.forEach(r => r.addedNodes.forEach(node => {
+      if (node.nodeType !== Node.ELEMENT_NODE) return;
+      const bars = node.matches('.rich-editor-toolbar') ? [node] : Array.from(node.querySelectorAll('.rich-editor-toolbar'));
+      bars.forEach(bar => { if (!bar.querySelector('.toolbar-expand-btn')) addExpandButtons(); enhanceToolbar(bar); });
+    }));
+  }).observe(document.body, { childList: true, subtree: true });
   document.addEventListener('paste', handleRichPaste);
   document.addEventListener('keydown', handleRichKeydown);
   document.body.addEventListener('click', e => {

@@ -139,6 +139,26 @@ function tableInsertColumn(cell, right) {
   return target;
 }
 
+// A new readings column for vital signs or results over time: after the last reading, before a
+// trailing "Reference range" / "Normal range" / "Target" column. Returns its header cell (with a
+// time hint), where the cursor goes.
+function tableAddReading(table) {
+  const header = table.rows[0];
+  if (!header) return null;
+  const cells = Array.from(header.cells);
+  const last = cells[cells.length - 1];
+  const refLast = cells.length > 2 && /reference|normal|target|expected|range/i.test(last.textContent);
+  const index = refLast ? cells.length - 1 : cells.length; // insert position
+  let headerCell = null;
+  Array.from(table.rows).forEach(r => {
+    const model = r.cells[Math.min(index, r.cells.length) - 1] || r.cells[0];
+    const cell = emptyCellLike(model);
+    if (r === header) { cell.setAttribute('placeholder', 'Time, e.g. 1400'); headerCell = cell; }
+    if (index >= r.cells.length) r.appendChild(cell); else r.insertBefore(cell, r.cells[index]);
+  });
+  return headerCell;
+}
+
 // Returns the cell to move the cursor to, or null when the table was removed.
 function tableDeleteRow(cell) {
   const row = cell.closest('tr');
@@ -182,6 +202,7 @@ const TABLE_TOOLS_ACTIONS = [
   { id: 'col-right', label: 'Right', title: 'Insert a column to the right of this one', target: 'col' },
   { id: 'col-delete', label: 'Delete', title: 'Delete this column', target: 'col', danger: true },
   { group: '' },
+  { id: 'add-reading', label: '+ Reading', title: 'Add a column for the next set of readings (before a Reference/Normal range column, if there is one), with its time header ready to fill', target: 'table' },
   { id: 'table-delete', label: 'Delete table', title: 'Delete the whole table', target: 'table', danger: true }
 ];
 
@@ -257,6 +278,7 @@ function runTableAction(btn) {
     'col-left': () => tableInsertColumn(cell, false),
     'col-right': () => tableInsertColumn(cell, true),
     'col-delete': () => tableDeleteColumn(cell),
+    'add-reading': () => tableAddReading(cell.closest('table')),
     'table-delete': () => tableDelete(cell.closest('table'))
   }[action]();
   resetTableDeleteButton();
@@ -343,6 +365,36 @@ function updateTableCellHint(cell) {
 
 /* ---- Keyboard: Tab / Shift+Tab between cells, Tab in the last cell adds a row, Enter = line break ---- */
 
+/* ---- Laboratory results: reference range filled in from LAB_REFERENCE_RANGES (js/lab-ranges.js) ---- */
+
+function isLabTable(table) {
+  const first = table && table.rows[0] && table.rows[0].cells[0];
+  return !!first && /laboratory|lab test|reference range/i.test(first.textContent);
+}
+
+// When the author leaves the first cell of a lab-table row holding only a test name that is in the
+// list, the name is set in bold and the reference range goes on the next line ("<b>Potassium</b><br>
+// 3.5–5.0 mmol/L"), as in the existing charts. Anything else in the cell is left alone.
+function fillLabReferenceRange(cell) {
+  if (!cell || cell.cellIndex !== 0 || cell.tagName !== 'TD' || typeof findLabReference !== 'function') return false;
+  const table = cell.closest('table');
+  if (!isLabTable(table)) return false;
+  if (cell.querySelector('br') && cell.innerText.trim().split('\n').filter(Boolean).length > 1) return false;
+  const name = cell.textContent.replace(/\s+/g, ' ').trim();
+  const ref = name && findLabReference(name);
+  if (!ref) return false;
+  cell.innerHTML = `<b>${escapeHTML(ref.name)}</b><br>${escapeHTML(ref.range)}`;
+  notifyTableEdited(cell.closest('[contenteditable="true"]'));
+  return true;
+}
+
+let labCellWithCursor = null;
+function trackLabCell() {
+  const cell = currentEditableCell();
+  if (labCellWithCursor && labCellWithCursor !== cell && labCellWithCursor.isConnected) fillLabReferenceRange(labCellWithCursor);
+  labCellWithCursor = cell && cell.cellIndex === 0 && isLabTable(cell.closest('table')) ? cell : null;
+}
+
 function handleTableKeydown(e) {
   if (e.key !== 'Tab' && e.key !== 'Enter') return;
   if (e.ctrlKey || e.metaKey || e.altKey) return;
@@ -358,6 +410,7 @@ function handleTableKeydown(e) {
   }
   e.preventDefault();
   e.stopPropagation(); // not the free-text notes Tab handler
+  fillLabReferenceRange(cell); // leaving a lab test name: add its reference range
   const table = cell.closest('table');
   const cells = Array.from(table.querySelectorAll('th, td')).filter(c => c.closest('table') === table);
   const i = cells.indexOf(cell);
@@ -374,6 +427,8 @@ function handleTableKeydown(e) {
 function initTableTools() {
   ensureTableToolsElements();
   document.addEventListener('selectionchange', updateTableTools);
+  document.addEventListener('selectionchange', trackLabCell);
+  document.addEventListener('focusout', () => setTimeout(trackLabCell, 0));
   document.addEventListener('input', () => updateTableTools());
   document.addEventListener('keydown', handleTableKeydown, true);
   document.addEventListener('focusout', () => setTimeout(updateTableTools, 0));

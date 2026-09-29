@@ -6818,3 +6818,39 @@ textarea.bowtie-input { min-height: 24px; padding: 2px 4px; font-size: 11px; lin
 .note-entry-title:focus { border-color: var(--brand-sky); outline: none; }
 .note-entry-title-btn { width: auto; padding: 0 6px; font-size: var(--fs-xs); font-weight: 700; }
 html:not([data-theme="dark"]) #editor-view .note-entry-title { background: #ffffff; border-color: #cbd5e1; color: #1e293b; }
+
+/* ================= EDITOR: TOOLBAR EXTRAS (js/rich-text.js) ================= */
+/* The formatting toolbar stays in view while scrolling through a long tab. */
+.rich-editor-container > .rich-editor-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  flex-wrap: wrap;
+  background-color: var(--bg-dash-card);
+}
+html:not([data-theme="dark"]) .rich-editor-container > .rich-editor-toolbar { background-color: #f1f5f9; }
+
+.symbol-menu {
+  position: fixed;
+  z-index: 3000;
+  display: grid;
+  grid-template-columns: repeat(8, 34px);
+  gap: 3px;
+  padding: var(--space-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+}
+.symbol-menu button {
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-muted);
+  color: var(--text);
+  font-size: var(--fs-body-sm);
+  cursor: pointer;
+}
+.symbol-menu button:hover, .symbol-menu button:focus-visible { background: var(--surface-selected); border-color: var(--brand-sky); outline: none; }
+.note-entry-warn { margin: 0; font-size: var(--fs-xs); color: var(--warning-text); }
+html[data-theme="dark"] .note-entry-warn { color: var(--warning); }
