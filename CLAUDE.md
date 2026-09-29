@@ -31,8 +31,8 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   shuffleArray), `data.js` (sanitizing, format migrations, load, readiness rule, saving),
   `auth.js` (Supabase Auth admin sign-in), `dashboard.js` (authoring tables, admin login UI),
   `session-builder.js`, `rich-text.js` (text box extras), `table-tools.js` (table toolbar, templates,
-  cell hints), `notes-editor.js`, `cloze-editor.js`,
-  `editor-preview.js`, `editor.js`, `player.js`, `scoring.js`, `results.js`,
+  cell hints), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
+  `editor-preview.js`, `highlight-editor.js` (highlight passage authoring), `editor.js`, `player.js`, `scoring.js`, `results.js`,
   `progress.js` (My progress, browser-only results), `overview.js` (studio Overview), `calculator.js`,
   `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
@@ -231,8 +231,31 @@ it in one column. The only question number is in the player header ("Question 8 
 "Question 8" with no total, since the NCLEX's length varies); the panel keeps just "Not complete"/"Complete".
 "Case Study Screen N of 6" counts within the screen's own case (`caseScreenLabel`), also in mixed sessions.
 No "The following 6 questions refer to ..." banner (removed: the real exam has none).
-Suggested next: the guided student flow (C), inside the Practise page of the frame. Bowtie editor inputs
-still truncate long text.
+Done (authoring, September 2026):
+- **Chart carry-forward is enforced (user rule: tabs and information are never subtracted).**
+  `js/chart-continuity.js`: a tab added on a screen is added (same id) to every later screen; saving a tab
+  carries new entries, edits and title changes to later screens (block diff of top-level entries, matched
+  by text; an edit pairs only with an entry of the same kind/time label); entries inherited from the
+  previous screen that the author deletes are put back with a notice; a tab can only be deleted on the
+  screen where it first appears (then from all later screens, two-click confirm). Opening and saving
+  without edits changes nothing. `chartContinuityProblems` lists gaps in older items (21 of 38 cases had
+  them in September 2026, mostly screens showing only new notes); the editor shows a banner with
+  "Restore missing tabs and entries" (`restoreChartContinuity`, the author decides per case) and the
+  preview checklist warns. Existing bank content was not changed.
+- Highlight questions (`js/highlight-editor.js`): phrases are marked by selecting text (or clicking a
+  table cell) and choosing Correct answer / Distractor / Unmark; they show as `mark.hl-mark` and are
+  stored as `{phrase|correct}` / `{phrase}` on save (unchanged passages keep their stored HTML). Live
+  count and warnings (none correct, all correct, stray braces, limit below correct count; also in the
+  preview checklist). `highlight` is edited in the left column; `highlight_2` can copy a chart tab into
+  the passage. Nurses' Notes show as timed rows. "Students may select": same as correct (default for new
+  questions), no limit, or a number (`maxCorrectSelections`). No alert()/confirm() there.
+- "Draft from chart changes" writes the preamble ("The nurse has reviewed the Nurses' Notes from 1130
+  and the Vital Signs.") from what the chart gained since the previous screen (`draftPreambleFromChart`).
+- Select-all/multiple-choice options: "Shuffle order" (a correct answer is never left first; "(Option
+  N)"/"Option N" in the rationale are renumbered) and a warning when option 1 is correct.
+- Bowtie option fields grow to show long text.
+Suggested next: the guided student flow (C), inside the Practise page of the frame; the student view of
+highlight questions (clearer marking and feedback; mock-up discussed, deferred by the user).
 
 ### Design system (how to style new work)
 

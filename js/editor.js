@@ -70,6 +70,7 @@ function initEditorEvents() {
   });
 
   document.getElementById('add-step-btn').addEventListener('click', addStepToCase);
+  document.getElementById('draft-preamble-btn').addEventListener('click', applyDraftedPreamble);
   const addTabBtn = document.getElementById('add-tab-btn');
   const addTabMenu = document.getElementById('add-tab-menu');
   const setAddTabMenu = open => {
@@ -422,14 +423,21 @@ function renderEditorStep(stepIdx) {
     if (q.type === 'highlight') {
       stdChartEditor.classList.add('hidden');
       highlightPlaceholder.classList.remove('hidden');
+      const carried = (step.leftContent.tabs || []).map(t => t.title).join(', ');
+      document.getElementById('highlight-carried-note').textContent = carried
+        ? `Students don't see the chart on this screen. Its tabs (${carried}) carry over unchanged to the next screen.`
+        : '';
     } else {
       stdChartEditor.classList.remove('hidden');
       highlightPlaceholder.classList.add('hidden');
+      document.getElementById('highlight-passage-host').innerHTML = '';
     }
   }
   
   document.getElementById('step-intro-input').innerHTML = step.leftContent.intro || '';
   renderEditorTabs(step.leftContent.tabs);
+  resetDeleteTabButton();
+  renderChartContinuityBanner();
   
   document.getElementById('question-type-select').value = q.type;
   document.getElementById('question-preamble-input').innerHTML = q.preamble || '';
@@ -632,10 +640,18 @@ function saveActiveTabContent() {
   const tab = tabs.find(t => t.id === activeTabId);
   if (tab) {
     notesEditorFlush();
+    const oldTitle = tab.title, oldContent = tab.content;
     tab.title = document.getElementById('tab-title-input').value;
     const rawContent = document.getElementById('tab-text-input').innerHTML;
     tab.content = formatNursesNotes(rawContent, tab.title);
+    // The chart only grows: carry this edit to later screens, keep what earlier screens showed.
+    const outcome = applyChartTabEdit(currentCase, currentStepIndex, tab, oldContent, oldTitle);
     document.getElementById('tab-text-input').innerHTML = tab.content;
+    if (outcome.restored) {
+      notesEditorOpen(tab, notesModeChoice[tab.id]);
+      showChartNotice(`${outcome.restored} entr${outcome.restored === 1 ? 'y' : 'ies'} from screen ${currentStepIndex} ${outcome.restored === 1 ? 'was' : 'were'} put back: a later screen keeps everything the earlier screens show. To change an entry, edit it; to remove it, remove it on the screen where it was first added.`, 'warn');
+    }
+    if (outcome.carried || outcome.restored) renderChartContinuityBanner();
   }
 }
 
@@ -652,23 +668,83 @@ function addTabToStep(kind = 'blank') {
   };
   
   tabs.push(newTab);
+  // A new tab is part of the chart from this screen on.
+  const carried = carryNewTabForward(currentCase, currentStepIndex, newTab);
   activeTabId = newId;
   renderEditorStep(currentStepIndex);
+  if (carried) showChartNotice(`"${newTab.title}" was also added to the ${carried} later screen${carried === 1 ? '' : 's'}.`, 'info');
 }
 
 function deleteActiveTab() {
+  const btn = document.getElementById('delete-active-tab-btn');
   const tabs = currentCase.screens[currentStepIndex].leftContent.tabs;
+  const tab = tabs.find(t => t.id === activeTabId);
+  if (!tab) return;
   if (tabs.length <= 1) {
-    alert("Must keep at least one chart tab.");
+    showChartNotice('A screen keeps at least one chart tab.', 'warn');
     return;
   }
-  
-  if (confirm("Delete this chart tab?")) {
-    const idx = tabs.findIndex(t => t.id === activeTabId);
-    tabs.splice(idx, 1);
-    activeTabId = tabs[0].id;
-    renderEditorStep(currentStepIndex);
+  // Tabs carry forward, so a tab can only be deleted on the screen where it first appears.
+  const first = currentCase.isStandalone ? currentStepIndex : chartTabFirstScreen(currentCase, currentStepIndex, tab);
+  if (first < currentStepIndex) {
+    showChartNotice(`"${tab.title}" is on screen ${first + 1} already, and later screens keep every tab from earlier ones. To remove it, delete it on screen ${first + 1}.`, 'warn');
+    return;
   }
+  const later = currentCase.isStandalone ? 0 : currentCase.screens.slice(currentStepIndex + 1).filter(s => s.leftContent.tabs.some(t => t.id === tab.id)).length;
+  if (!btn.classList.contains('is-confirming')) {
+    btn.classList.add('is-confirming');
+    btn.textContent = later ? `Click again to delete it here and from ${later} later screen${later === 1 ? '' : 's'}` : 'Click again to delete this tab';
+    clearTimeout(deleteActiveTab.timer);
+    deleteActiveTab.timer = setTimeout(resetDeleteTabButton, 4000);
+    return;
+  }
+  resetDeleteTabButton();
+  saveActiveTabContent();
+  removeTabFromScreens(currentCase, currentStepIndex, tab);
+  activeTabId = tabs[0].id;
+  renderEditorStep(currentStepIndex);
+  setEditorDirty(true);
+}
+
+function resetDeleteTabButton() {
+  clearTimeout(deleteActiveTab.timer);
+  const btn = document.getElementById('delete-active-tab-btn');
+  if (btn) { btn.classList.remove('is-confirming'); btn.textContent = 'Delete This Tab'; }
+}
+
+// In-page message above the chart tabs (replaces alert()).
+function showChartNotice(text, level = 'info') {
+  const box = document.getElementById('chart-notice');
+  if (!box) return;
+  box.className = `chart-notice ${level}`;
+  box.innerHTML = `<span>${escapeHTML(text)}</span><button type="button" class="chart-notice-close" aria-label="Dismiss">&times;</button>`;
+  box.querySelector('button').addEventListener('click', () => box.classList.add('hidden'));
+  clearTimeout(showChartNotice.timer);
+  if (level === 'info') showChartNotice.timer = setTimeout(() => box.classList.add('hidden'), 6000);
+}
+
+// Items written before the carry-forward rule may drop tabs or entries between screens: list the
+// gaps and offer to put everything back.
+function renderChartContinuityBanner() {
+  const box = document.getElementById('chart-continuity-banner');
+  if (!box || !currentCase) return;
+  const problems = chartContinuityProblems(currentCase);
+  if (!problems.length) { box.classList.add('hidden'); box.innerHTML = ''; return; }
+  const shown = problems.slice(0, 4).map(p => `<li>${escapeHTML(describeChartProblem(p))}</li>`).join('');
+  const more = problems.length > 4 ? `<li>…and ${problems.length - 4} more.</li>` : '';
+  box.innerHTML = `
+    <strong>Later screens show less of the chart than earlier ones.</strong>
+    <ul>${shown}${more}</ul>
+    <p>Each screen should keep every tab and entry from the screen before it. Restoring copies what is missing forward (a table that was changed, such as vital signs with a new column, is kept as it is).</p>
+    <button type="button" class="btn btn-secondary btn-xs" id="chart-continuity-restore">Restore missing tabs and entries</button>`;
+  box.classList.remove('hidden');
+  box.querySelector('#chart-continuity-restore').addEventListener('click', () => {
+    saveActiveTabContent();
+    const changed = restoreChartContinuity(currentCase);
+    renderEditorStep(currentStepIndex);
+    setEditorDirty(true);
+    showChartNotice(`Restored ${changed} tab${changed === 1 ? '' : 's'}. Check the screens, then save.`, 'info');
+  });
 }
 
 function saveCurrentStepData(isChangingType = false, isBackingOut = false) {
@@ -713,22 +789,7 @@ function saveCurrentStepData(isChangingType = false, isBackingOut = false) {
     const el = document.getElementById('hotspot-url-input');
     if (el) q.imageUrl = el.value;
   } else if (q.type === 'highlight' || q.type === 'highlight_2') {
-    const el = document.getElementById('highlight-tab-text-input');
-    if (el && q.highlightTabs) {
-      const activeTab = q.highlightTabs.find(t => t.id === highlightActiveTabId);
-      if (activeTab) {
-        activeTab.content = el.innerHTML;
-      }
-    }
-    const titleEl = document.getElementById('highlight-tab-title-input');
-    if (titleEl && q.highlightTabs) {
-      const activeTab = q.highlightTabs.find(t => t.id === highlightActiveTabId);
-      if (activeTab) {
-        activeTab.title = titleEl.value;
-      }
-    }
-    const maxInput = document.getElementById('highlight-max-correct-input');
-    if (maxInput) q.maxCorrectSelections = parseInt(maxInput.value) || null;
+    highlightEditorFlush(q);
   }
   
   const cIdx = caseStudies.findIndex(x => x.id === currentCase.id);
@@ -1288,8 +1349,12 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
   wrapper.innerHTML += `
     <div class="options-config-title">
       <span>Options List</span>
-      <button id="add-option-btn" class="btn btn-text btn-xs">+ Add Option</button>
+      <span class="options-config-actions">
+        <button id="shuffle-options-btn" type="button" class="btn btn-text btn-xs" title="Mix the order so a correct answer is not first; (Option N) references in the rationale are renumbered">Shuffle order</button>
+        <button id="add-option-btn" class="btn btn-text btn-xs">+ Add Option</button>
+      </span>
     </div>
+    <p id="options-order-warning" class="options-order-warning hidden"></p>
     <div id="options-config-list"></div>
   `;
   box.appendChild(wrapper);
@@ -1375,7 +1440,25 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
       
       list.appendChild(div);
     });
+    updateOrderWarning();
   };
+
+  const updateOrderWarning = () => {
+    const warn = document.getElementById('options-order-warning');
+    const first = (q.options || [])[0];
+    const show = !!(first && first.correct && q.options.some(o => !o.correct));
+    warn.textContent = show ? 'Option 1 is a correct answer, where students may spot the pattern. Use Shuffle order.' : '';
+    warn.classList.toggle('hidden', !show);
+  };
+  list.addEventListener('change', updateOrderWarning);
+
+  document.getElementById('shuffle-options-btn').addEventListener('click', () => {
+    if (!q.options || q.options.length < 2) return;
+    const order = shuffleOptionsKeepingKey(q);
+    renumberRationaleOptions(order);
+    renderRows();
+    showToast('Options shuffled' + (order.relabeled ? '; "(Option N)" references in the rationale were renumbered.' : '.'));
+  });
   
   renderRows();
   
@@ -1384,6 +1467,93 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
     q.options.push({ text: 'New Option', correct: false });
     renderRows();
   });
+}
+
+// Shuffles q.options so that, when possible, a correct answer is not listed first.
+// Returns { map: old index -> new index }.
+function shuffleOptionsKeepingKey(q) {
+  const indexed = q.options.map((o, i) => ({ o, i }));
+  let shuffled;
+  let tries = 0;
+  do { shuffled = shuffleArray(indexed); tries++; }
+  while (tries < 50 && ((shuffled[0].o.correct && shuffled.some(x => !x.o.correct)) || shuffled.every((x, k) => x.i === k)));
+  q.options = shuffled.map(x => x.o);
+  const map = {};
+  shuffled.forEach((x, k) => { map[x.i] = k; });
+  return { map };
+}
+
+// Rewrites "(Option N)" / "Option N" references in the rationale to the options' new numbers.
+function renumberRationaleOptions(order) {
+  const el = document.getElementById('question-explanation-input');
+  if (!el) return;
+  const before = el.innerHTML;
+  const after = before.replace(/\b(Options?)\s+(\d+)((?:\s*(?:,|and|&amp;|or)\s*\d+)*)/g, (whole, word, first, rest) => {
+    const renum = n => { const m = order.map[Number(n) - 1]; return m === undefined ? n : String(m + 1); };
+    return `${word} ${renum(first)}${rest.replace(/\d+/g, renum)}`;
+  });
+  if (after !== before) { el.innerHTML = after; order.relabeled = true; }
+}
+
+// Drafts the preamble sentence ("The nurse has reviewed the Nurses' Notes from 1130 and the
+// Vital Signs.") from what the chart gained since the previous screen.
+function draftPreambleFromChart() {
+  if (!currentCase || currentCase.isStandalone || currentStepIndex === 0) {
+    return { text: '', reason: 'Only screens after the first have chart changes to describe.' };
+  }
+  saveActiveTabContent();
+  const prevTabs = currentCase.screens[currentStepIndex - 1].leftContent.tabs || [];
+  const tabs = currentCase.screens[currentStepIndex].leftContent.tabs || [];
+  const labelRe = new RegExp('^\\s*(' + NOTE_LABEL_SOURCE + ')\\s*[:\\-]', 'i');
+  const parts = [];
+  tabs.forEach(tab => {
+    const prev = findChartTab(prevTabs, tab, tabs);
+    if (!prev) { parts.push(`the ${tab.title}`); return; }
+    if (prev.content === tab.content) return;
+    const oldRoot = parseChartHTML(prev.content), newRoot = parseChartHTML(tab.content);
+    const oldKeys = new Set(chartBlocks(oldRoot).map(b => b.key));
+    const times = [];
+    let changed = false;
+    chartBlocks(newRoot).forEach(b => {
+      if (oldKeys.has(b.key)) return;
+      changed = true;
+      if (b.node.nodeName === 'TABLE') {
+        const oldHeads = new Set(Array.from(oldRoot.querySelectorAll('th')).map(th => th.textContent.replace(/\s+/g, ' ').trim()));
+        b.node.querySelectorAll('th').forEach(th => {
+          const t = th.textContent.replace(/\s+/g, ' ').trim();
+          const m = t.match(/\b(\d{4})\b/);
+          if (t && !oldHeads.has(t) && m) times.push(m[1]);
+        });
+        return;
+      }
+      const label = b.node.querySelector && b.node.querySelector('.nurse-note-time');
+      const text = label ? label.textContent : b.key;
+      const m = text.match(labelRe) || (label ? [null, text.replace(/:\s*$/, '').trim()] : null);
+      if (m && m[1]) times.push(m[1].trim());
+    });
+    if (!changed) return;
+    const unique = [...new Set(times)];
+    parts.push(unique.length ? `the ${tab.title} from ${joinWithAnd(unique)}` : `the ${tab.title}`);
+  });
+  if (!parts.length) return { text: '', reason: `The chart has not changed since screen ${currentStepIndex}.` };
+  return { text: `The nurse has reviewed ${joinWithAnd(parts)}.` };
+}
+
+function joinWithAnd(list) {
+  if (list.length <= 2) return list.join(' and ');
+  return `${list.slice(0, -1).join(', ')}, and ${list[list.length - 1]}`; // serial comma, as in the bank's preambles
+}
+
+function applyDraftedPreamble() {
+  const el = document.getElementById('question-preamble-input');
+  const draft = draftPreambleFromChart();
+  if (!draft.text) { showToast(draft.reason, 'error'); return; }
+  const current = el.innerHTML;
+  const sentence = /The nurse has reviewed[^.]*\./i;
+  el.innerHTML = sentence.test(current) ? current.replace(sentence, draft.text)
+    : (current.replace(/<br>|&nbsp;/g, '').trim() ? `${draft.text} ${current}` : draft.text);
+  el.dispatchEvent(new Event('input', { bubbles: true }));
+  showToast('Preamble drafted from the chart changes. Check the wording.');
 }
 
 // 6. Bowtie Configurator
@@ -1474,14 +1644,18 @@ function renderBowtieConfigurator(q, box) {
       row.style.gap = '4px';
       row.style.marginBottom = '2px';
       row.innerHTML = `
-        <input type="checkbox" class="bowtie-correct-toggle" ${opt.correct ? 'checked' : ''} style="margin-right:2px;">
-        <input type="text" class="form-control bowtie-input" style="font-size:11px; padding:2px 4px; height:24px;" value="${escapeHTML(opt.text)}" placeholder="Option ${idx + 1}">
+        <input type="checkbox" class="bowtie-correct-toggle" ${opt.correct ? 'checked' : ''} style="margin-right:2px;" aria-label="Correct">
+        <textarea rows="1" class="form-control bowtie-input" placeholder="Option ${idx + 1}" aria-label="Option ${idx + 1}">${escapeHTML(opt.text)}</textarea>
         <button class="btn-option-delete" style="font-size:14px; padding:0 4px;">&times;</button>
       `;
       
-      row.querySelector('.bowtie-input').addEventListener('input', (e) => {
-        opt.text = e.target.value;
+      // Grows to show long options in full (it used to cut them off).
+      const input = row.querySelector('.bowtie-input');
+      input.addEventListener('input', (e) => {
+        opt.text = e.target.value.replace(/\n/g, ' ');
       });
+      input.addEventListener('keydown', e => { if (e.key === 'Enter') e.preventDefault(); });
+      autoGrowTextarea(input);
       row.querySelector('.bowtie-correct-toggle').addEventListener('change', (e) => {
         opt.correct = e.target.checked;
       });
@@ -1650,119 +1824,7 @@ function renderOrderedResponseConfigurator(q, box) {
   });
 }
 
-function renderHighlightConfigurator(q, box) {
-  if (!q.highlightTabs) {
-    q.highlightTabs = [
-      { id: 'ht_' + Date.now(), title: "Nurses' Notes", content: q.highlightText || '' }
-    ];
-  }
-  
-  if (!highlightActiveTabId || !q.highlightTabs.find(t => t.id === highlightActiveTabId)) {
-    highlightActiveTabId = q.highlightTabs[0].id;
-  }
-  
-  const activeTab = q.highlightTabs.find(t => t.id === highlightActiveTabId);
-  
-  const wrapper = document.createElement('div');
-  wrapper.className = 'highlight-tabs-editor-container';
-  wrapper.innerHTML = `
-    <div class="cloze-warning" style="margin-bottom: 12px;">
-      Wrap phrases in curly braces like: <strong>{unstable vitals|correct}</strong> for correct findings, or <strong>{temperature of 98.6 F}</strong> for incorrect findings that are click-selectable.
-    </div>
-    
-    <div class="tabs-editor-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
-      <h5 style="margin:0;">Highlight Chart Tabs</h5>
-      <button id="add-highlight-tab-btn" class="btn btn-text btn-xs">+ Add Tab</button>
-    </div>
-    
-    <div id="highlight-editor-tabs-list" class="tabs-list-horizontal" style="display:flex; gap:4px; margin-bottom:8px; border-bottom:1px solid var(--border-color); padding-bottom:4px; overflow-x:auto;">
-      ${q.highlightTabs.map(t => `
-        <div class="tab-editor-item ${t.id === highlightActiveTabId ? 'active' : ''}" data-id="${t.id}" style="padding: 6px 12px; border: 1px solid var(--border-color); border-bottom: none; border-radius: 4px 4px 0 0; cursor: pointer; font-size:13px; font-weight:500;">
-          <span>${escapeHTML(t.title)}</span>
-        </div>
-      `).join('')}
-    </div>
-    
-    <div id="highlight-tab-content-editor" class="tab-content-editor-box" style="border: 1px solid var(--border-color); padding: 12px; border-radius: 4px; background: var(--background-secondary);">
-      <div class="form-group no-margin">
-        <label style="display:block; margin-bottom: 6px; font-weight: 500; font-size:13px;">Content for "${escapeHTML(activeTab.title)}"</label>
-        <input type="text" id="highlight-tab-title-input" class="tab-title-rename" placeholder="Tab Title" value="${escapeHTML(activeTab.title)}" style="width:100%; padding:6px; border:1px solid var(--border-color); border-radius:4px; margin-bottom:10px; font-size:13px;">
-        
-        <div class="rich-editor-container" style="border:1px solid var(--border-color); border-radius:4px; overflow:hidden; background:#ffffff; margin-bottom:10px;">
-          <div class="rich-editor-toolbar" style="display:flex; flex-wrap:wrap; gap:4px; padding:6px; border-bottom:1px solid var(--border-color); background:var(--background-primary);">
-            <button type="button" class="toolbar-btn" data-cmd="bold" title="Bold"><b>B</b></button>
-            <button type="button" class="toolbar-btn" data-cmd="superscript" title="Superscript">x<sup>2</sup></button>
-            <button type="button" class="toolbar-btn" data-cmd="subscript" title="Subscript">x<sub>2</sub></button>
-            <button type="button" class="toolbar-btn btn-symbol" data-symbol="&deg;" title="Degree Symbol">&deg;</button>
-            <button type="button" class="toolbar-btn btn-symbol" data-symbol="&ge;" title="Greater Than or Equal to">&ge;</button>
-            <button type="button" class="toolbar-btn btn-symbol" data-symbol="&le;" title="Less Than or Equal to">&le;</button>
-            <button type="button" class="toolbar-btn" data-cmd="insertUnorderedList" title="Bullet List">• List</button>
-            <button type="button" class="toolbar-btn" data-cmd="insertOrderedList" title="Numbered List">1. List</button>
-            <button type="button" class="toolbar-btn table-insert-btn" title="Insert Table">
-              <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2" fill="none" style="vertical-align: middle;"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
-              Table
-            </button>
-          </div>
-          <div contenteditable="true" class="rich-text-editor" id="highlight-tab-text-input" placeholder="Enter chart text or tables here..." style="min-height: 150px; padding: 12px; outline: none; font-size:14px; line-height:1.5;">${activeTab.content || ''}</div>
-        </div>
-        
-        <div style="display:flex; justify-content:space-between; align-items:center;">
-          <button id="delete-highlight-tab-btn" class="btn btn-danger btn-xs">Delete This Tab</button>
-          <div>
-            <label for="highlight-max-correct-input" style="font-size:12px; margin-right: 6px;">Max Correct (optional):</label>
-            <input type="number" id="highlight-max-correct-input" class="form-control" style="width: 70px; display:inline-block; padding:4px;" min="1" value="${q.maxCorrectSelections || ''}">
-          </div>
-        </div>
-      </div>
-    </div>
-  `;
-  box.appendChild(wrapper);
-  
-  // Attach event listeners for highlight tabs editor
-  const titleInput = document.getElementById('highlight-tab-title-input');
-  titleInput.addEventListener('input', (e) => {
-    activeTab.title = e.target.value;
-    const tabHeader = document.querySelector(`#highlight-editor-tabs-list .tab-editor-item[data-id="${highlightActiveTabId}"] span`);
-    if (tabHeader) tabHeader.textContent = e.target.value;
-  });
-  
-  // Tab switching
-  const tabItems = wrapper.querySelectorAll('#highlight-editor-tabs-list .tab-editor-item');
-  tabItems.forEach(item => {
-    item.addEventListener('click', () => {
-      activeTab.content = document.getElementById('highlight-tab-text-input').innerHTML;
-      highlightActiveTabId = item.getAttribute('data-id');
-      renderDynamicQuestionConfigurator(q);
-    });
-  });
-  
-  // Add tab
-  document.getElementById('add-highlight-tab-btn').addEventListener('click', () => {
-    activeTab.content = document.getElementById('highlight-tab-text-input').innerHTML;
-    const newId = 'ht_' + Date.now();
-    q.highlightTabs.push({
-      id: newId,
-      title: 'New Tab',
-      content: ''
-    });
-    highlightActiveTabId = newId;
-    renderDynamicQuestionConfigurator(q);
-  });
-  
-  // Delete tab
-  document.getElementById('delete-highlight-tab-btn').addEventListener('click', () => {
-    if (q.highlightTabs.length <= 1) {
-      alert("Must keep at least one tab.");
-      return;
-    }
-    if (confirm("Delete this tab?")) {
-      const idx = q.highlightTabs.findIndex(t => t.id === highlightActiveTabId);
-      q.highlightTabs.splice(idx, 1);
-      highlightActiveTabId = q.highlightTabs[0].id;
-      renderDynamicQuestionConfigurator(q);
-    }
-  });
-}
+// renderHighlightConfigurator: see js/highlight-editor.js
 
 // 14. Grouped Multiple Response Configurator
 function renderGroupedMrConfigurator(q, box) {

@@ -6652,3 +6652,157 @@ html:not([data-theme="dark"]) .table-template-btn:focus-visible { background: #d
 .add-tab-menu button span { color: var(--text-muted); font-size: var(--fs-sm); }
 .add-tab-menu button:hover,
 .add-tab-menu button:focus-visible { background: var(--surface-sunken); outline: none; }
+
+/* ================= EDITOR: CHART CARRY-FORWARD NOTICES (js/chart-continuity.js, editor.js) ================= */
+
+.chart-notice,
+.chart-continuity-banner {
+  margin: var(--space-2) 0;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--info-border);
+  border-radius: var(--radius-md);
+  background: var(--info-bg);
+  color: var(--info-text);
+  font-size: var(--fs-sm);
+  line-height: 1.45;
+}
+
+.chart-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.chart-notice span { flex: 1; }
+
+.chart-notice.warn,
+.chart-continuity-banner {
+  border-color: var(--warning-border);
+  background: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.chart-notice-close {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: var(--fs-lg);
+  line-height: 1;
+  cursor: pointer;
+}
+
+.chart-continuity-banner ul { margin: var(--space-1) 0 var(--space-1) var(--space-5); padding: 0; }
+.chart-continuity-banner p { margin: 0 0 var(--space-2); }
+
+#delete-active-tab-btn.is-confirming { outline: 2px solid var(--danger); outline-offset: 1px; }
+
+/* ================= EDITOR: HIGHLIGHT PASSAGE (js/highlight-editor.js) ================= */
+
+.highlight-tabs-editor-container .tabs-editor-header { margin-bottom: var(--space-2); gap: var(--space-2); flex-wrap: wrap; }
+.hl-header-actions { display: flex; align-items: center; gap: var(--space-2); }
+
+.hl-copy-select,
+.hl-limit select,
+.hl-limit input {
+  min-height: 30px;
+  padding: 2px 6px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font-size: var(--fs-sm);
+}
+
+.hl-limit input { width: 64px; margin-left: 4px; }
+
+.highlight-tabs-editor-container .tab-content-editor-box { display: flex; flex-direction: column; gap: var(--space-2); }
+
+.hl-mark-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 6px var(--space-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-muted);
+}
+
+.hl-mark-label { font-size: var(--fs-sm); font-weight: 600; color: var(--text-secondary); }
+.hl-mark-hint { flex-basis: 100%; font-size: var(--fs-xs); color: var(--text-muted); }
+
+.hl-mark-btn {
+  min-height: 30px;
+  padding: 2px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 15px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hl-mark-btn:hover { background: var(--surface-sunken); }
+.hl-mark-btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+.hl-mark-btn-correct { border-color: #16a34a; color: #15803d; }
+.hl-mark-btn-option { border-color: #ca8a04; color: #a16207; border-style: dashed; }
+.hl-mark-btn-correct.active { background: #16a34a; color: #fff; }
+.hl-mark-btn-option.active { background: #ca8a04; color: #fff; border-style: solid; }
+html[data-theme="dark"] .hl-mark-btn-correct { color: #4ade80; }
+html[data-theme="dark"] .hl-mark-btn-option { color: #facc15; }
+html[data-theme="dark"] .hl-mark-btn-correct.active,
+html[data-theme="dark"] .hl-mark-btn-option.active { color: #0f172a; }
+
+@media (pointer: coarse) { .hl-mark-btn { min-height: var(--touch-target); } }
+
+.hl-mark-notice,
+.hl-where-note,
+.hl-carried-note {
+  margin: 0;
+  padding: 6px var(--space-2);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-sm);
+}
+
+.hl-mark-notice { border: 1px solid var(--warning-border); background: var(--warning-bg); color: var(--warning-text); }
+.hl-where-note { margin-top: var(--space-2); border: 1px solid var(--info-border); background: var(--info-bg); color: var(--info-text); }
+.hl-carried-note { margin-top: var(--space-3); padding: 0; color: var(--text-muted); }
+.hl-carried-note:empty { display: none; }
+
+/* Marked phrases inside the passage editor */
+.hl-passage mark.hl-mark {
+  padding: 1px 2px;
+  border-radius: 3px;
+  color: inherit;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.hl-passage mark.hl-correct { background: rgba(22, 163, 74, 0.2); box-shadow: inset 0 -2px 0 #16a34a; }
+.hl-passage mark.hl-option { background: rgba(202, 138, 4, 0.16); box-shadow: inset 0 -2px 0 #ca8a04; }
+.hl-passage .nclex-editor-table mark.hl-mark { color: #1e293b; }
+
+.hl-summary { display: flex; flex-direction: column; gap: 4px; }
+.hl-counts { display: flex; flex-wrap: wrap; gap: var(--space-3); font-size: var(--fs-sm); color: var(--text-secondary); }
+.hl-count strong { color: var(--text); }
+.hl-count-correct::before,
+.hl-count-option::before { content: ''; display: inline-block; width: 10px; height: 10px; margin-right: 5px; border-radius: 2px; vertical-align: -1px; }
+.hl-count-correct::before { background: rgba(22, 163, 74, 0.35); box-shadow: inset 0 -2px 0 #16a34a; }
+.hl-count-option::before { background: rgba(202, 138, 4, 0.3); box-shadow: inset 0 -2px 0 #ca8a04; }
+.hl-warning { margin: 0; font-size: var(--fs-sm); color: var(--warning-text); }
+.hl-warning::before { content: '! '; font-weight: 700; }
+html[data-theme="dark"] .hl-warning { color: var(--warning); }
+
+.hl-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2); }
+.hl-limit { display: flex; align-items: center; gap: 6px; margin: 0; font-size: var(--fs-sm); color: var(--text-secondary); text-transform: none; letter-spacing: 0; }
+#delete-highlight-tab-btn.is-confirming { outline: 2px solid var(--danger); outline-offset: 1px; }
+.hl-header-actions .btn { white-space: nowrap; }
+.hl-passage .nurse-note-text { text-align: left !important; }
+
+/* ================= EDITOR: SHUFFLE, PREAMBLE DRAFT, BOWTIE FIELDS ================= */
+.options-config-actions { display: inline-flex; gap: var(--space-2); }
+.options-order-warning { margin: 0 0 var(--space-2); padding: 6px var(--space-2); border: 1px solid var(--warning-border); border-radius: var(--radius-sm); background: var(--warning-bg); color: var(--warning-text); font-size: var(--fs-sm); }
+.label-with-action { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); }
+.label-with-action label { margin-bottom: 0; }
+textarea.bowtie-input { min-height: 24px; padding: 2px 4px; font-size: 11px; line-height: 1.35; resize: none; overflow: hidden; }
