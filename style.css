@@ -6802,3 +6802,19 @@ html[data-theme="dark"] .hl-warning { color: var(--warning); }
 .label-with-action { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); }
 .label-with-action label { margin-bottom: 0; }
 textarea.bowtie-input { min-height: 24px; padding: 2px 4px; font-size: 11px; line-height: 1.35; resize: none; overflow: hidden; }
+
+/* Optional bold title above a timed entry's note (js/notes-editor.js) */
+.note-entry-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.note-entry-title {
+  padding: 5px 10px;
+  border: 1px solid #334155;
+  border-radius: var(--radius-sm);
+  background: #1e293b;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  font-size: var(--fs-body-sm);
+}
+.note-entry-title:focus { border-color: var(--brand-sky); outline: none; }
+.note-entry-title-btn { width: auto; padding: 0 6px; font-size: var(--fs-xs); font-weight: 700; }
+html:not([data-theme="dark"]) #editor-view .note-entry-title { background: #ffffff; border-color: #cbd5e1; color: #1e293b; }

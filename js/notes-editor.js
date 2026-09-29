@@ -1,27 +1,43 @@
-/* Nurses' Notes entry editor for the authoring studio.
+/* Timed-entry editor for chart tabs in the authoring studio.
 
-   A notes-type chart tab (title mentions nurse / note / log / progress) is edited as a list of
-   entries, each with a time or date label ("0800", "0800 (DOL 2)", "Day 3 0800", "09/14 0800") and
-   the note text. Tab moves from the label to the text, Enter starts the next entry. The entries are
-   stored as the same <p class="nurse-note-row"> markup the player already shows, so no content
-   changes. Tabs holding tables or lists, and any tab the author prefers, use the free-text editor. */
+   Any chart tab without a table or list (Nurses' Notes, History and Physical, reports, orders, vital
+   signs or results written as text) is edited as a list of entries, each with a time or date label
+   ("0800", "0800 (DOL 2)", "Day 3 0800", "09/14 0800"), an optional title shown in bold above the
+   note, and the note text. Tab moves from the label to the text, Enter starts the next entry. The
+   entries are stored as the <p class="nurse-note-row"> markup the player already shows (the title as
+   "<b>Title</b><br>" at the start of the note), so no content changes. Tabs holding tables or lists,
+   and any tab the author prefers, use the free-text editor. */
 
 const NOTE_LABEL_MAX = 60; // longest label the player keeps as an authored row (isAuthoredNoteRow)
 
-let notesEditorState = null; // { tabId, rows: [{ time, html }], dirty }
+let notesEditorState = null; // { tabId, rows: [{ time, title, html, showTitle }], dirty }
 const notesModeChoice = {}; // tab id -> 'rows' | 'free' when the author picked one
 
 function isNotesTabTitle(title) {
   return /nurse|note|log|progress/i.test(title || '');
 }
 
-// Entries of a notes tab, or null when the content has something rows cannot hold (tables, lists…).
+// "<b>Title</b><br>note" -> { title, html: 'note' }; anything else has no title.
+function splitNoteTitle(html) {
+  const m = (html || '').match(/^\s*<(b|strong)>([^<]*)<\/\1>\s*<br\s*\/?>([\s\S]*)$/i);
+  if (!m || !m[2].trim()) return { title: '', html: html || '' };
+  const tmp = document.createElement('textarea');
+  tmp.innerHTML = m[2];
+  return { title: tmp.value.trim(), html: m[3] };
+}
+
+function noteRow(time, html) {
+  const { title, html: body } = splitNoteTitle(html);
+  return { time, title, html: body, showTitle: !!title };
+}
+
+// Entries of a chart tab, or null when the content has something rows cannot hold (tables, lists…).
 function parseNoteRows(html) {
   const doc = new DOMParser().parseFromString(`<div>${formatNursesNotes(html || '', "Nurses' Notes")}</div>`, 'text/html');
   const rows = [];
   for (const node of Array.from(doc.body.firstChild.childNodes)) {
     if (node.nodeType === Node.TEXT_NODE) {
-      if (node.textContent.trim()) rows.push({ time: '', html: escapeHTML(node.textContent.trim()) });
+      if (node.textContent.trim()) rows.push(noteRow('', escapeHTML(node.textContent.trim())));
       continue;
     }
     if (node.nodeType !== Node.ELEMENT_NODE) continue;
@@ -31,13 +47,13 @@ function parseNoteRows(html) {
       const time = node.querySelector('.nurse-note-time');
       const text = node.querySelector('.nurse-note-text');
       if (!time || !text) return null;
-      rows.push({ time: time.textContent.replace(/ /g, ' ').replace(/:\s*$/, '').trim(), html: text.innerHTML });
+      rows.push(noteRow(time.textContent.replace(/ /g, ' ').replace(/:\s*$/, '').trim(), text.innerHTML));
       continue;
     }
     if (tag === 'p' || tag === 'div') {
       if (node.querySelector('table, ul, ol, img, p, div')) return null;
       if (!hasText(node.innerHTML)) continue;
-      rows.push({ time: '', html: node.innerHTML });
+      rows.push(noteRow('', node.innerHTML));
       continue;
     }
     return null; // table, list, heading, image…
@@ -47,9 +63,11 @@ function parseNoteRows(html) {
 
 function serializeNoteRows(rows) {
   return rows
-    .filter(r => r.time.trim() || hasText(r.html))
+    .filter(r => r.time.trim() || (r.title || '').trim() || hasText(r.html))
     .map(r => {
-      const html = r.html.replace(/(<br\s*\/?>\s*)+$/i, '');
+      const title = (r.title || '').trim();
+      const body = r.html.replace(/(<br\s*\/?>\s*)+$/i, '');
+      const html = title ? `<b>${escapeHTML(title)}</b><br>${body}` : body;
       const label = r.time.trim().replace(/:\s*$/, '');
       return label
         ? `<p class="nurse-note-row"><span class="nurse-note-time">${escapeHTML(label)}:</span><span class="nurse-note-text">${html}</span></p>`
@@ -74,12 +92,13 @@ function notesEditorElements() {
 function notesEditorOpen(tab, preferredMode) {
   const { bar, rowsBox, free, tableBtn } = notesEditorElements();
   if (!bar || !rowsBox || !free) return;
-  const isNotes = tab && isNotesTabTitle(tab.title);
-  const rows = isNotes ? parseNoteRows(free.innerHTML) : null;
-  const mode = isNotes && rows && preferredMode !== 'free' ? 'rows' : 'free';
+  // Every tab can use timed entries; tabs with tables or lists stay in free text.
+  const eligible = !!tab;
+  const rows = eligible ? parseNoteRows(free.innerHTML) : null;
+  const mode = eligible && rows && preferredMode !== 'free' ? 'rows' : 'free';
 
-  bar.classList.toggle('hidden', !isNotes);
-  if (isNotes) {
+  bar.classList.toggle('hidden', !eligible);
+  if (eligible) {
     bar.querySelectorAll('[data-notes-mode]').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.notesMode === mode);
       btn.setAttribute('aria-pressed', btn.dataset.notesMode === mode ? 'true' : 'false');
@@ -88,13 +107,13 @@ function notesEditorOpen(tab, preferredMode) {
     rowsBtn.disabled = !rows;
     rowsBtn.title = rows ? 'One entry per time or date' : 'This tab has a table or list; edit it as free text';
     bar.querySelector('.notes-mode-hint').textContent = mode === 'rows'
-      ? 'Tab moves to the note, Enter adds the next entry, Shift+Enter starts a new line in a note.'
+      ? 'Tab moves to the note, Enter adds the next entry, Shift+Enter starts a new line in a note. +T adds a bold title above a note.'
       : (rows ? 'Start a line with a time and press Tab (or type "0800:") to make it a timed entry.'
               : 'This tab contains a table or list, so it is edited as free text.');
   }
 
   if (mode === 'rows') {
-    notesEditorState = { tabId: tab.id, rows: rows.length ? rows : [{ time: '', html: '' }], dirty: false };
+    notesEditorState = { tabId: tab.id, rows: rows.length ? rows : [noteRow('', '')], dirty: false };
     free.classList.add('hidden');
     rowsBox.classList.remove('hidden');
     if (tableBtn) tableBtn.classList.add('hidden');
@@ -140,15 +159,22 @@ function renderNoteRows(focusIndex, focusField) {
     el.className = 'note-entry';
     el.innerHTML = `
       <input type="text" class="note-entry-time" maxlength="${NOTE_LABEL_MAX}" placeholder="0800" aria-label="Time or date of entry ${i + 1}" value="${escapeHTML(row.time)}">
-      <div class="note-entry-text rich-text-editor" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Note for entry ${i + 1}" placeholder="Note…"></div>
+      <div class="note-entry-body">
+        <input type="text" class="note-entry-title ${row.showTitle ? '' : 'hidden'}" placeholder="Title (optional), shown in bold above the note" aria-label="Title for entry ${i + 1}" value="${escapeHTML(row.title || '')}">
+        <div class="note-entry-text rich-text-editor" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Note for entry ${i + 1}" placeholder="Note…"></div>
+      </div>
       <div class="note-entry-actions">
+        <button type="button" class="note-entry-btn note-entry-title-btn" data-act="title" tabindex="-1" title="${row.showTitle ? 'Remove the title' : 'Add a title above this note'}" aria-label="${row.showTitle ? 'Remove the title of' : 'Add a title to'} entry ${i + 1}">${row.showTitle ? '&minus;T' : '+T'}</button>
         <button type="button" class="note-entry-btn" data-act="up" tabindex="-1" title="Move up (Alt+↑)" aria-label="Move entry ${i + 1} up" ${i === 0 ? 'disabled' : ''}>&uarr;</button>
         <button type="button" class="note-entry-btn" data-act="down" tabindex="-1" title="Move down (Alt+↓)" aria-label="Move entry ${i + 1} down" ${i === state.rows.length - 1 ? 'disabled' : ''}>&darr;</button>
         <button type="button" class="note-entry-btn danger" data-act="delete" tabindex="-1" title="Delete entry" aria-label="Delete entry ${i + 1}">&times;</button>
       </div>`;
     const timeInput = el.querySelector('.note-entry-time');
+    const titleInput = el.querySelector('.note-entry-title');
     const text = el.querySelector('.note-entry-text');
     text.innerHTML = row.html;
+    titleInput.addEventListener('input', () => { row.title = titleInput.value; state.dirty = true; });
+    titleInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); placeCaretAtEnd(text); } });
 
     timeInput.addEventListener('input', () => { row.time = timeInput.value; state.dirty = true; });
     timeInput.addEventListener('keydown', e => {
@@ -163,7 +189,7 @@ function renderNoteRows(focusIndex, focusField) {
       } else if (e.key === 'Enter') {
         e.preventDefault();
         row.html = text.innerHTML;
-        state.rows.splice(i + 1, 0, { time: '', html: '' });
+        state.rows.splice(i + 1, 0, noteRow('', ''));
         state.dirty = true;
         renderNoteRows(i + 1, 'time');
       } else if (e.key === 'Backspace' && !hasText(text.innerHTML) && !row.time.trim() && state.rows.length > 1) {
@@ -179,9 +205,17 @@ function renderNoteRows(focusIndex, focusField) {
     });
     el.querySelectorAll('.note-entry-btn').forEach(btn => btn.addEventListener('click', () => {
       row.html = text.innerHTML;
+      if (btn.dataset.act === 'title') {
+        row.showTitle = !row.showTitle;
+        if (!row.showTitle && row.title) { row.title = ''; state.dirty = true; }
+        renderNoteRows();
+        const input = rowsBox.querySelectorAll('.note-entry')[i].querySelector('.note-entry-title');
+        if (row.showTitle) input.focus();
+        return;
+      }
       if (btn.dataset.act === 'delete') {
         state.rows.splice(i, 1);
-        if (!state.rows.length) state.rows.push({ time: '', html: '' });
+        if (!state.rows.length) state.rows.push(noteRow('', ''));
         state.dirty = true;
         renderNoteRows(Math.min(i, state.rows.length - 1), 'time');
       } else {
@@ -196,7 +230,7 @@ function renderNoteRows(focusIndex, focusField) {
   add.className = 'note-entry-add';
   add.textContent = '+ Add entry';
   add.addEventListener('click', () => {
-    state.rows.push({ time: '', html: '' });
+    state.rows.push(noteRow('', ''));
     state.dirty = true;
     renderNoteRows(state.rows.length - 1, 'time');
   });

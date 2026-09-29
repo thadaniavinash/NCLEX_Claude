@@ -255,6 +255,13 @@ Done (authoring, September 2026):
 - Select-all/multiple-choice options: "Shuffle order" (a correct answer is never left first; "(Option
   N)"/"Option N" in the rationale are renumbered) and a warning when option 1 is correct.
 - Bowtie option fields grow to show long text.
+- Timed entries for every chart tab without a table or list (not only Nurses' Notes): a new blank tab
+  opens as time + note entries; each entry can have an optional bold title above the note ("+T"), stored
+  as `<b>Title</b><br>` at the start of `.nurse-note-text` (`splitNoteTitle` in `js/notes-editor.js`).
+  Tabs with tables/lists stay in free text (19 of 214 distinct text tabs in September 2026).
+- Vital Signs tables leave the first header cell empty (user decision: the tab name says it). The
+  template does; the 142 existing tables with "Parameter" / "Vital Sign" / "Time" / "Parameter /
+  Assessment" there were cleared with `drafts/build_vitals_header.py` → `drafts/vitals_header_patch.json`.
 Suggested next: the guided student flow (C), inside the Practise page of the frame; the student view of
 highlight questions (clearer marking and feedback; mock-up discussed, deferred by the user).
 
