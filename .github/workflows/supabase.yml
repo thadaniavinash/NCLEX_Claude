@@ -15,7 +15,8 @@ on:
         required: false
         default: ''
   schedule:
-    # Daily read-only ping so the free-tier project is not paused for inactivity.
+    # Daily backup: reads the database (which also keeps the free-tier project from pausing) and
+    # commits cases-data.js and backup/items/ when anything changed.
     - cron: '17 6 * * *'
 
 permissions:
@@ -36,18 +37,19 @@ jobs:
           node-version: 20
       - name: Run tools/supabase.js
         env:
-          ACTION: ${{ inputs.action || 'ping' }}
+          ACTION: ${{ inputs.action || 'download' }}
           FILES: ${{ inputs.file }}
         run: node tools/supabase.js "$ACTION" $FILES
       - name: Commit the refreshed backup
-        if: ${{ inputs.action == 'download' }}
+        if: ${{ github.event_name == 'schedule' || inputs.action == 'download' }}
         run: |
-          if git diff --quiet cases-data.js; then
-            echo "cases-data.js already matches the database."
+          git add -A cases-data.js backup
+          if git diff --cached --quiet; then
+            echo "The backup already matches the database."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add cases-data.js
             git commit -m "Sync cases-data.js backup from the database"
+            git pull --rebase origin main
             git push
           fi

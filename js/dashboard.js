@@ -2,6 +2,8 @@
 
 /* ================= DASHBOARD ENGINE (FACULTY AUTHORING PORTAL) ================= */
 function initDashboardEvents() {
+  const downloadAll = document.getElementById('download-all-json-btn');
+  if (downloadAll) downloadAll.addEventListener('click', downloadAllQuestionsJSON);
   const authorToStudentBtn = document.getElementById('author-to-student-btn');
   if (authorToStudentBtn) {
     authorToStudentBtn.addEventListener('click', () => switchView('student'));
@@ -368,6 +370,40 @@ function copyStudentLink(kind, item) {
   showToast(`Copied student link for "${escapeHTML(item.title || item.id)}".`);
 }
 
+/* ---- JSON copies on the author's own computer (the database and the daily GitHub backup are the
+   real copies; see README) ---- */
+function downloadJSONFile(filename, data) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function jsonFileName(text) {
+  return (text || 'item').replace(/[^A-Za-z0-9 _-]+/g, '').trim().replace(/\s+/g, '_').slice(0, 80) || 'item';
+}
+
+function downloadItemJSON(item) {
+  downloadJSONFile(`${jsonFileName(item.title)}_${item.id}.json`, item);
+  showToast(`Downloaded "${item.title || item.id}" as JSON.`);
+}
+
+function downloadAllQuestionsJSON() {
+  const date = new Date().toISOString().slice(0, 10);
+  downloadJSONFile(`NCLEX_question_bank_${date}.json`, {
+    exportedAt: new Date().toISOString(),
+    source: isDatabaseUnavailable ? 'backup (database unreachable)' : 'database',
+    cases: caseStudies,
+    standalone: standaloneQuestions
+  });
+  showToast(`Downloaded ${caseStudies.length} case studies and ${standaloneQuestions.length} stand-alone questions.`);
+}
+
 /* ---- Row "more actions" menu (one shared popup, placed next to the clicked button) ---- */
 function closeAuthorRowMenu() {
   const menu = document.getElementById('author-row-menu');
@@ -381,7 +417,10 @@ function openAuthorRowMenu(button, kind, item) {
   if (wasOpenHere) return;
 
   const editable = canEditBank();
-  const actions = [{ label: 'Copy student link', run: () => copyStudentLink(kind, item) }];
+  const actions = [
+    { label: 'Copy student link', run: () => copyStudentLink(kind, item) },
+    { label: 'Download JSON', run: () => downloadItemJSON(item) }
+  ];
   if (editable) {
     actions.push({ label: 'Duplicate', run: () => duplicateAuthorItem(kind, item) });
     actions.push(item.draft === true

@@ -5,7 +5,7 @@
 //   node tools/supabase.js check             table exists, rows present, key can read/write
 //   node tools/supabase.js compare-original  what changed on the original live site since this copy was made
 //   node tools/supabase.js upload            cases-data.js -> this copy's database (verified)
-//   node tools/supabase.js download          this copy's database -> cases-data.js
+//   node tools/supabase.js download          this copy's database -> cases-data.js + backup/items/*/<id>.json
 //   node tools/supabase.js add <file.json>   add one new case study or stand-alone question to the database
 //   node tools/supabase.js patch <patch.json> change listed fields only ([{row, id, path, before, after}];
 //                                            refused as a whole if any field no longer holds `before`)
@@ -207,6 +207,37 @@ async function download() {
   fs.renameSync(tmp, DATA_FILE);
   console.log(`Saved ${merged.cases.length} case studies and ${merged.standalone.length} stand-alone questions to cases-data.js ` +
               `(${changed} added or edited in the database, ${removed} removed).`);
+  writeItemFiles(merged);
+}
+
+// One readable JSON file per item (backup/items/cases/<id>.json, backup/items/standalone/<id>.json), next
+// to the whole-bank cases-data.js, so each case has its own file and history. An item no longer in the
+// database is moved to backup/deleted/ rather than removed.
+const ITEMS_DIR = path.join(REPO_DIR, 'backup', 'items');
+const DELETED_DIR = path.join(REPO_DIR, 'backup', 'deleted');
+
+function writeItemFiles(bank) {
+  let written = 0, moved = 0;
+  for (const [row, items] of [['cases', bank.cases], ['standalone', bank.standalone]]) {
+    const dir = path.join(ITEMS_DIR, row);
+    fs.mkdirSync(dir, { recursive: true });
+    const keep = new Set();
+    for (const item of items) {
+      const safeId = String(item.id).replace(/[^A-Za-z0-9_-]/g, '_');
+      const file = path.join(dir, `${safeId}.json`);
+      keep.add(path.basename(file));
+      const text = JSON.stringify(item, null, 2) + '\n';
+      if (!fs.existsSync(file) || fs.readFileSync(file, 'utf8') !== text) { fs.writeFileSync(file, text, 'utf8'); written++; }
+    }
+    for (const name of fs.readdirSync(dir)) {
+      if (!name.endsWith('.json') || keep.has(name)) continue;
+      const target = path.join(DELETED_DIR, row);
+      fs.mkdirSync(target, { recursive: true });
+      fs.renameSync(path.join(dir, name), path.join(target, name));
+      moved++;
+    }
+  }
+  console.log(`Item files: ${written} written or updated in backup/items${moved ? `, ${moved} moved to backup/deleted` : ''}.`);
 }
 
 async function add() {

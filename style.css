@@ -6898,3 +6898,7 @@ html:not([data-theme="dark"]) #editor-view .editor-pane-divider:not(:hover):not(
 .note-entry-actions { opacity: 0.5; }
 .note-entry-actions .note-entry-btn { width: 24px; }
 .toolbar-sep { width: 1px; align-self: stretch; margin: 2px 2px; background: var(--border-dash); }
+
+/* Question bank heading with the "Download all (JSON)" button beside it */
+.app-page-head-with-action { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-4); flex-wrap: wrap; }
+.app-page-head-with-action .btn { display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0; }

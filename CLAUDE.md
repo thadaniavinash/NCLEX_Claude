@@ -42,8 +42,12 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
 - `supabase/setup.sql` (table), `supabase/002_admin_logins.sql` (version column + trigger, `nclex_admins`,
   `is_nclex_admin()`, admin-only update policy).
 - `server.js` + `*.bat`: optional local Windows server (`/api/save` writes `cases-data.js`).
-- `.github/workflows/supabase.yml`: runs `tools/supabase.js` from GitHub Actions (ping daily; manual:
-  check, compare-original, download (commits the backup), add, patch, upload).
+- `.github/workflows/supabase.yml`: runs `tools/supabase.js` from GitHub Actions (daily at 06:17 UTC:
+  `download`, committing `cases-data.js` and `backup/items/{cases,standalone}/<id>.json` when anything
+  changed, which also keeps the free project awake; manual: ping, check, compare-original, download, add,
+  patch, upload). Items removed from the database move to `backup/deleted/` (never deleted).
+  In the studio: "Download all (JSON)" on the Question bank page and "Download JSON" in each row's ⋯ menu
+  save copies on the author's computer (`downloadAllQuestionsJSON` / `downloadItemJSON` in dashboard.js).
   `patch <file>` changes only the listed fields (`[{row, id, path, before, after}]`, e.g.
   `drafts/content_patch.json` from `drafts/build_content_fixes.py`); it refuses the whole patch if any field
   no longer holds its `before` value. Use it (not `upload`) to fix published items from the tools.
