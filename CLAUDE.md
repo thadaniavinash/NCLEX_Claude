@@ -120,7 +120,7 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 ## Checks (serve the repo first: `python3 -m http.server 8765`)
 
 - `node tools/check.js`: every question renders, its answer key scores full marks, the editor's
-  open-and-save changes nothing. Expected: 0 failures, 3 known incomplete items. (Since the September
+  open-and-save changes nothing, no case screen drops chart content. Expected: 0 failures, 3 known incomplete items. (Since the September
   2026 content sync it also reports 2 stand-alone items whose chart tab the editor changes on save.)
 - `node tools/check-saving.js`: sign-in and saving against a simulated Supabase (13 checks).
 - Playwright is preinstalled (global npm); Chromium at `/opt/pw-browsers`. Block `*.supabase.co` in
@@ -238,10 +238,11 @@ Done (authoring, September 2026):
   by text; an edit pairs only with an entry of the same kind/time label); entries inherited from the
   previous screen that the author deletes are put back with a notice; a tab can only be deleted on the
   screen where it first appears (then from all later screens, two-click confirm). Opening and saving
-  without edits changes nothing. `chartContinuityProblems` lists gaps in older items (21 of 38 cases had
-  them in September 2026, mostly screens showing only new notes); the editor shows a banner with
-  "Restore missing tabs and entries" (`restoreChartContinuity`, the author decides per case) and the
-  preview checklist warns. Existing bank content was not changed.
+  without edits changes nothing. The 21 older cases that dropped tabs or entries (mostly screens showing
+  only new notes) were restored at the user's request with `drafts/build_chart_restore.js` →
+  `drafts/chart_restore_patch.json` (workflow `patch`; `restoreChartContinuity` keeps an earlier table
+  whose values a later screen no longer shows above the later one). There is no gap warning in the
+  editor any more (user decision); `tools/check.js` fails if a case screen drops chart content.
 - Highlight questions (`js/highlight-editor.js`): phrases are marked by selecting text (or clicking a
   table cell) and choosing Correct answer / Distractor / Unmark; they show as `mark.hl-mark` and are
   stored as `{phrase|correct}` / `{phrase}` on save (unchanged passages keep their stored HTML). Live
