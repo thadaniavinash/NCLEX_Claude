@@ -149,6 +149,8 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 - The authoring studio is for the user only, for the foreseeable future (others may author in a few years).
 - The interface is built from scratch on the app's own design system (a purchased admin template, Inspinia,
   was considered and declined).
+- Show the user mock-ups and screenshots in light mode only (their preferred theme); dark mode is still
+  checked, just not sent.
 
 ## Pending setup (user's side; check the README "Administrators" section)
 
