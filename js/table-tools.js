@@ -383,7 +383,7 @@ function fillLabReferenceRange(cell) {
   const name = cell.textContent.replace(/\s+/g, ' ').trim();
   const ref = name && findLabReference(name);
   if (!ref) return false;
-  cell.innerHTML = `<b>${escapeHTML(ref.name)}</b><br>${escapeHTML(ref.range)}`;
+  cell.innerHTML = `<b>${escapeHTML(name)}</b><br>${escapeHTML(ref.range)}`; // the author's wording, MCC's range
   notifyTableEdited(cell.closest('[contenteditable="true"]'));
   return true;
 }

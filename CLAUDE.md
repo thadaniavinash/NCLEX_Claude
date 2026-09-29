@@ -270,8 +270,11 @@ Done (authoring, September 2026):
   "after 1400" (`updateNoteTimeHints`). The table bar has "+ Reading": a new time column after the last
   reading, before a trailing Reference/Normal range column (`tableAddReading`). In a lab table, typing a
   test name in the first column and leaving the cell fills "<b>Name</b><br>range" from
-  `LAB_REFERENCE_RANGES` (`js/lab-ranges.js`, to hold the Medical Council of Canada normal lab values;
-  empty until the MCC page can be read: mcc.ca was blocked by this container's network policy).
+  `LAB_REFERENCE_RANGES` (`js/lab-ranges.js`: 127 tests from the Medical Council of Canada "Normal lab
+  values" page, SI values exactly as MCC prints them, read September 2026 and cross-checked in two
+  independent passes; the author's typed name is kept in bold; review table in
+  `drafts/lab_reference_ranges.md`). User decision: SI units only (Canada). mcc.ca blocks plain
+  downloads from this container (Cloudflare/nginx 403); the WebFetch tool reaches it.
   **No markers for new entries (user decision): on the NCLEX nothing new is highlighted; the nurse reads
   the whole chart.**
 - Vital Signs tables leave the first header cell empty (user decision: the tab name says it). The
