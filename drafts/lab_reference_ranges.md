@@ -1,6 +1,6 @@
 # Laboratory reference ranges used by the editor
 
-Source: Medical Council of Canada, Normal lab values (https://mcc.ca/examinations-assessments/resources-to-help-with-exam-prep/normal-lab-values/), SI values as printed, read September 2026. Stored in `js/lab-ranges.js`; the editor copies a range into a Laboratory Results table when the test name is typed in its first column.
+Source: Medical Council of Canada, Normal lab values (https://mcc.ca/examinations-assessments/resources-to-help-with-exam-prep/normal-lab-values/), SI values as printed, read September 2026. Reviewed and approved as final by the author, September 2026. Stored in `js/lab-ranges.js`; the editor copies a range into a Laboratory Results table when the test name is typed in its first column.
 
 Not strict SI but printed so by MCC: blood gases (mm Hg), BNP / NT-proBNP (pg/mL), CD4 (cells/µL), hepatitis B surface antibodies (mIU/mL), urinary free cortisol (µg/24 h). LDL is not listed: MCC gives risk-based treatment targets (high/intermediate risk: treat at ≥ 3.5 mmol/L, target < 2.0 mmol/L or ≥ 50% reduction; low risk: treat at ≥ 5.0 mmol/L, target ≥ 50% reduction).
 

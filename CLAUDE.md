@@ -273,7 +273,8 @@ Done (authoring, September 2026):
   `LAB_REFERENCE_RANGES` (`js/lab-ranges.js`: 127 tests from the Medical Council of Canada "Normal lab
   values" page, SI values exactly as MCC prints them, read September 2026 and cross-checked in two
   independent passes; the author's typed name is kept in bold; review table in
-  `drafts/lab_reference_ranges.md`). User decision: SI units only (Canada). mcc.ca blocks plain
+  `drafts/lab_reference_ranges.md`; reviewed and approved by the user as final). User decision: SI
+  units only (Canada); MCC's few non-SI values (blood gases mm Hg, BNP pg/mL, …) kept as MCC prints them. mcc.ca blocks plain
   downloads from this container (Cloudflare/nginx 403); the WebFetch tool reaches it.
   **No markers for new entries (user decision): on the NCLEX nothing new is highlighted; the nurse reads
   the whole chart.**
