@@ -23,11 +23,12 @@ function initEditorEvents() {
     saveCurrentCaseOrStandalone();
   });
 
+  // ⋯ menu: a JSON copy of the item as it is on the page (saving is separate).
   document.getElementById('editor-export-btn').addEventListener('click', () => {
     if (!saveCurrentStepData()) return;
-    saveCurrentCaseOrStandalone();
-    exportCaseStudy(currentCase);
+    downloadItemJSON(currentCase);
   });
+  initEditorHeader();
 
   // Question Image Configuration Event Listeners
   const chooseImgBtn = document.getElementById('choose-question-image-btn');
@@ -361,6 +362,7 @@ function startEditor(c) {
     }
   }
   
+  editorOpenedAt = new Date();
   switchView('editor');
   setEditorDirty(false);
   renderEditorStep(0);
@@ -377,13 +379,13 @@ function setEditorDirty(dirty) {
   const btn = document.getElementById('editor-save-btn');
   if (btn) {
     btn.classList.toggle('has-changes', dirty);
-    btn.textContent = dirty ? 'Save changes' : 'Save Progress';
+    btn.title = dirty ? 'Save your changes (Ctrl+S)' : 'Nothing new to save (Ctrl+S)';
   }
   renderSaveStatus();
 }
 
 // Clicks that only change what is shown, not the content.
-const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, #editor-pane-divider, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn';
+const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, #editor-pane-divider, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn, #editor-more-btn, #editor-more-menu button, #editor-desc-btn, #editor-ready-btn, #editor-ready-pop button, .editor-modal-overlay button';
 
 // The chart pane's share of the width (per browser, remembered): drag the divider, arrow keys move
 // it by 5%, double-click resets to half and half.
@@ -446,7 +448,7 @@ function initEditorPaneDivider() {
 function initEditorChangeTracking() {
   const view = document.getElementById('editor-view');
   const mark = e => {
-    if (!currentCase || e.target.closest('#editor-preview-panel, [data-theme-toggle]')) return;
+    if (!currentCase || e.target.closest('#editor-preview-panel, [data-theme-toggle], .editor-modal-overlay, #editor-more-menu, #editor-ready-pop')) return;
     if (!editorDirty) setEditorDirty(true);
   };
   view.addEventListener('input', mark);
@@ -519,6 +521,7 @@ function renderEditorStep(stepIdx) {
   updateImagePreview(q.questionImage || null);
   
   renderDynamicQuestionConfigurator(q);
+  refreshEditorHeader();
   schedulePreviewUpdate(0);
 }
 
@@ -836,21 +839,6 @@ function saveCurrentStepData(isChangingType = false, isBackingOut = false) {
     }
   }
   return true;
-}
-
-function exportCaseStudy(c) {
-  const jsonStr = JSON.stringify(c, null, 2);
-  const blob = new Blob([jsonStr], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = `${c.title.replace(/\s+/g, '_')}_NGN_Quiz.json`;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  URL.revokeObjectURL(url);
-  showToast("Quiz JSON exported successfully.");
 }
 
 /* ================= 17 DYNAMIC EDITOR RENDERERS ================= */

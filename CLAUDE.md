@@ -32,7 +32,7 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   `auth.js` (Supabase Auth admin sign-in), `dashboard.js` (authoring tables, admin login UI),
   `session-builder.js`, `rich-text.js` (text box extras), `table-tools.js` (table toolbar, templates,
   cell hints), `lab-ranges.js` (MCC reference ranges for lab tables), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
-  `editor-preview.js`, `highlight-editor.js` (highlight passage authoring), `editor.js`, `player.js`, `scoring.js`, `results.js`,
+  `editor-preview.js`, `highlight-editor.js` (highlight passage authoring), `editor-header.js` (editor top bar), `editor.js`, `player.js`, `scoring.js`, `results.js`,
   `progress.js` (My progress, browser-only results), `overview.js` (studio Overview), `calculator.js`,
   `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
@@ -294,6 +294,14 @@ Done (authoring, September 2026):
 - Vital Signs tables leave the first header cell empty (user decision: the tab name says it). The
   template does; the 142 existing tables with "Parameter" / "Vital Sign" / "Time" / "Parameter /
   Assessment" there were cleared with `drafts/build_vitals_header.py` → `drafts/vitals_header_patch.json`.
+Done (editor top bar, `js/editor-header.js`, September 2026): breadcrumb whose "Question bank" link goes
+back (saving first; no separate back arrow), borderless title, chips for Course and Unit (the real
+`<select>` sits invisibly over each chip), Description (a dialog; `#case-desc-input` is now a hidden
+input) and Ready for students (`itemProblems` on `buildPreviewItem()`, so unsaved edits count; its
+popover jumps to a screen or clears the draft flag). Right: quiet "Saved · 3 min ago" status (colour
+only for unsaved/failed/offline), ⋯ menu (Download this case (JSON), Copy student link, theme,
+Keyboard shortcuts), then Preview | Save | Launch as one group. Save is greyed while there is nothing
+new (it still works); Ctrl+S saves.
 Suggested next: the guided student flow (C), inside the Practise page of the frame; the student view of
 highlight questions (clearer marking and feedback; mock-up discussed, deferred by the user).
 

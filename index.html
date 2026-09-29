@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260929165138">
+  <link rel="stylesheet" href="style.css?v=20260929201420">
 </head>
 <body>
 
@@ -535,7 +535,7 @@
           <!-- Table Footer -->
           <div class="author-table-footer">
             <span id="author-filtered-count-text">Showing 0 of 0 Case Studies</span>
-            <span class="author-footer-note">The editor saves when you click Save Progress, Export or Launch, or go back to this list.</span>
+            <span class="author-footer-note">The editor saves when you click Save (or press Ctrl+S) or Launch, or go back to this list.</span>
           </div>
 
         </div>
@@ -608,53 +608,100 @@
   <!-- ================= CREATOR / EDITOR VIEW ================= -->
   <div id="editor-view" class="view">
     <header class="editor-header">
-      <div class="editor-header-left">
-        <button id="editor-back-btn" class="btn-icon-back" title="Save and go back to the list" aria-label="Save and go back to the list">
-          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
-        </button>
-        <div class="editor-title-container" style="display: flex; flex-direction: column; gap: 6px; flex-grow: 1;">
-          <input type="text" id="case-title-input" class="editor-title-input" placeholder="Case Study Title" aria-label="Title" style="width: 100%;">
-          <div style="display: flex; gap: 12px; align-items: center; width: 100%;">
-            <input type="text" id="case-desc-input" class="editor-desc-input" placeholder="Enter a brief case description..." aria-label="Description" style="flex-grow: 1;">
-            <div style="display: flex; gap: 8px; align-items: center;">
-              <select id="case-course-select" class="form-control" aria-label="Course" style="width: 130px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); height: 28px; font-weight: 600; cursor: pointer; outline: none;">
-                <option value="">Course: None</option>
-                <option value="NURS 1017">NURS 1017</option>
-                <option value="NURS 1021">NURS 1021</option>
-                <option value="Others">Others</option>
-              </select>
-              <select id="case-unit-select" class="form-control" aria-label="Unit" style="width: 250px; font-size: 12px; padding: 4px 8px; border-radius: var(--radius-sm); height: 28px; font-weight: 500; cursor: pointer; outline: none;">
-                <!-- Populated dynamically based on course -->
-              </select>
-              <select id="case-disorder-select" style="display: none;"></select>
-            </div>
+      <!-- Top bar (js/editor-header.js): where you are, title, course/unit/description/readiness chips,
+           save status, ⋯ menu, and Preview | Save | Launch kept together on the right. -->
+      <div class="editor-identity">
+        <div class="editor-crumb">
+          <button id="editor-back-btn" type="button" class="editor-crumb-link" title="Save and go back to the question bank">Question bank</button>
+          <span aria-hidden="true">/</span>
+          <span id="editor-crumb-kind">Case study</span>
+        </div>
+        <input type="text" id="case-title-input" class="editor-title-input" placeholder="Case Study Title" aria-label="Title">
+        <div class="editor-meta">
+          <label class="meta-chip" title="Course">
+            <span class="meta-chip-text" id="case-course-chip-text">Course</span>
+            <select id="case-course-select" aria-label="Course">
+              <option value="">Course: None</option>
+              <option value="NURS 1017">NURS 1017</option>
+              <option value="NURS 1021">NURS 1021</option>
+              <option value="Others">Others</option>
+            </select>
+          </label>
+          <label class="meta-chip" title="Unit">
+            <span class="meta-chip-text" id="case-unit-chip-text">Unit</span>
+            <select id="case-unit-select" aria-label="Unit">
+              <!-- Populated dynamically based on course -->
+            </select>
+          </label>
+          <select id="case-disorder-select" style="display: none;"></select>
+          <input type="hidden" id="case-desc-input">
+          <button type="button" id="editor-desc-btn" class="meta-chip meta-chip-btn" aria-haspopup="dialog">&#9998; Description</button>
+          <div class="editor-ready-wrap">
+            <button type="button" id="editor-ready-btn" class="meta-chip meta-chip-btn ready-chip" aria-haspopup="dialog" aria-expanded="false" aria-controls="editor-ready-pop"></button>
+            <div id="editor-ready-pop" class="editor-popover hidden" role="dialog" aria-label="Readiness for students"></div>
           </div>
         </div>
       </div>
       <div class="editor-header-right">
-        <button id="editor-theme-toggle-btn" type="button" class="theme-toggle-btn theme-toggle-editor" data-theme-toggle aria-label="Switch theme" title="Switch theme">
-            <svg class="theme-icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            <svg class="theme-icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-          </button>
         <span class="save-status-indicator editor-save-status" role="status" aria-live="polite">
           <span class="status-dot-pulse"></span>
           <span class="save-status-text"></span>
         </span>
-        <button id="editor-preview-btn" class="btn btn-secondary" aria-pressed="false" title="Show this screen as students see it">
-          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-          Preview
-        </button>
-        <button id="editor-save-btn" class="btn btn-secondary">Save Progress</button>
-        <button id="editor-export-btn" class="btn btn-secondary">
-          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
-          Export
-        </button>
-        <button id="editor-play-btn" class="btn btn-primary btn-run">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-          Launch
-        </button>
+        <div class="editor-more-wrap">
+          <button id="editor-more-btn" type="button" class="editor-icon-btn" aria-haspopup="menu" aria-expanded="false" aria-controls="editor-more-menu" aria-label="More actions" title="More actions">&#8943;</button>
+          <div id="editor-more-menu" class="editor-popover editor-menu hidden" role="menu" aria-label="More actions">
+            <button type="button" role="menuitem" id="editor-export-btn">Download this case (JSON)</button>
+            <button type="button" role="menuitem" id="editor-copy-link-btn">Copy student link</button>
+            <button type="button" role="menuitem" id="editor-theme-toggle-btn" data-theme-toggle>Switch light / dark theme</button>
+            <hr>
+            <button type="button" role="menuitem" id="editor-shortcuts-btn">Keyboard shortcuts</button>
+          </div>
+        </div>
+        <span class="editor-header-sep" aria-hidden="true"></span>
+        <div class="editor-actions" role="group" aria-label="Preview, save and launch">
+          <button id="editor-preview-btn" type="button" aria-pressed="false" title="Show this screen as students see it">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            Preview
+          </button>
+          <button id="editor-save-btn" type="button" title="Save (Ctrl+S)">Save</button>
+          <button id="editor-play-btn" type="button" class="editor-launch" title="Open this item in the exam player">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Launch
+          </button>
+        </div>
       </div>
     </header>
+
+    <!-- Case description (opened from the Description chip) and the keyboard shortcuts list -->
+    <div id="editor-desc-modal" class="editor-modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="editor-desc-title">
+      <div class="editor-modal">
+        <h3 id="editor-desc-title">Case description</h3>
+        <p>A short summary shown under the title in the studio&rsquo;s Question bank. Students don&rsquo;t see it.</p>
+        <textarea id="editor-desc-textarea" rows="4" placeholder="e.g. A 72-year-old client with herpes zoster, from the clinic through discharge planning."></textarea>
+        <div class="editor-modal-foot">
+          <span id="editor-desc-count" class="editor-modal-count"></span>
+          <button type="button" id="editor-desc-cancel" class="btn btn-secondary">Cancel</button>
+          <button type="button" id="editor-desc-done" class="btn btn-primary">Done</button>
+        </div>
+      </div>
+    </div>
+    <div id="editor-shortcuts-modal" class="editor-modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="editor-shortcuts-title">
+      <div class="editor-modal">
+        <h3 id="editor-shortcuts-title">Keyboard shortcuts</h3>
+        <dl class="shortcut-list">
+          <dt>Ctrl+S</dt><dd>Save</dd>
+          <dt>Ctrl+B / I / U</dt><dd>Bold / italic / underline</dd>
+          <dt>Ctrl+. &nbsp; Ctrl+,</dt><dd>Superscript / subscript</dd>
+          <dt>Ctrl+Shift+8 / 7</dt><dd>Bulleted / numbered list</dd>
+          <dt>Ctrl+Z / Ctrl+Y</dt><dd>Undo / redo</dd>
+          <dt>Tab / Shift+Tab</dt><dd>Next / previous table cell (Tab in the last cell adds a row)</dd>
+          <dt>Enter</dt><dd>New timed entry (Shift+Enter: new line in the same entry)</dd>
+          <dt>Alt+&uarr; / Alt+&darr;</dt><dd>Move a timed entry up / down</dd>
+          <dt>Esc</dt><dd>Close an expanded text box or this window</dd>
+        </dl>
+        <div class="editor-modal-foot"><span class="editor-modal-count"></span><button type="button" id="editor-shortcuts-close" class="btn btn-primary">Close</button></div>
+      </div>
+    </div>
 
     <div class="editor-workspace">
       <!-- Steps panel on the very left of the workspace -->
@@ -1219,28 +1266,29 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20260929165138"></script>
-  <script src="js/state.js?v=20260929165138"></script>
-  <script src="js/utils.js?v=20260929165138"></script>
-  <script src="js/data.js?v=20260929165138"></script>
-  <script src="js/auth.js?v=20260929165138"></script>
-  <script src="js/dashboard.js?v=20260929165138"></script>
-  <script src="js/session-builder.js?v=20260929165138"></script>
-  <script src="js/rich-text.js?v=20260929165138"></script>
-  <script src="js/table-tools.js?v=20260929165138"></script>
-  <script src="js/lab-ranges.js?v=20260929165138"></script>
-  <script src="js/notes-editor.js?v=20260929165138"></script>
-  <script src="js/cloze-editor.js?v=20260929165138"></script>
-  <script src="js/chart-continuity.js?v=20260929165138"></script>
-  <script src="js/editor-preview.js?v=20260929165138"></script>
-  <script src="js/highlight-editor.js?v=20260929165138"></script>
-  <script src="js/editor.js?v=20260929165138"></script>
-  <script src="js/player.js?v=20260929165138"></script>
-  <script src="js/scoring.js?v=20260929165138"></script>
-  <script src="js/results.js?v=20260929165138"></script>
-  <script src="js/progress.js?v=20260929165138"></script>
-  <script src="js/overview.js?v=20260929165138"></script>
-  <script src="js/calculator.js?v=20260929165138"></script>
-  <script src="js/main.js?v=20260929165138"></script>
+  <script src="cases-data.js?v=20260929201420"></script>
+  <script src="js/state.js?v=20260929201420"></script>
+  <script src="js/utils.js?v=20260929201420"></script>
+  <script src="js/data.js?v=20260929201420"></script>
+  <script src="js/auth.js?v=20260929201420"></script>
+  <script src="js/dashboard.js?v=20260929201420"></script>
+  <script src="js/session-builder.js?v=20260929201420"></script>
+  <script src="js/rich-text.js?v=20260929201420"></script>
+  <script src="js/table-tools.js?v=20260929201420"></script>
+  <script src="js/lab-ranges.js?v=20260929201420"></script>
+  <script src="js/notes-editor.js?v=20260929201420"></script>
+  <script src="js/cloze-editor.js?v=20260929201420"></script>
+  <script src="js/chart-continuity.js?v=20260929201420"></script>
+  <script src="js/editor-preview.js?v=20260929201420"></script>
+  <script src="js/highlight-editor.js?v=20260929201420"></script>
+  <script src="js/editor-header.js?v=20260929201420"></script>
+  <script src="js/editor.js?v=20260929201420"></script>
+  <script src="js/player.js?v=20260929201420"></script>
+  <script src="js/scoring.js?v=20260929201420"></script>
+  <script src="js/results.js?v=20260929201420"></script>
+  <script src="js/progress.js?v=20260929201420"></script>
+  <script src="js/overview.js?v=20260929201420"></script>
+  <script src="js/calculator.js?v=20260929201420"></script>
+  <script src="js/main.js?v=20260929201420"></script>
 </body>
 </html>

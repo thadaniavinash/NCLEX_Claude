@@ -199,8 +199,10 @@ function currentSaveStatus() {
 }
 
 function renderSaveStatus() {
-  const status = currentSaveStatus();
+  const base = currentSaveStatus();
   document.querySelectorAll('.save-status-indicator').forEach(el => {
+    // The editor's top bar says "Saved · 2 min ago" quietly and colours only what needs attention.
+    const status = el.classList.contains('editor-save-status') && currentCase && typeof editorSaveStatus === 'function' ? editorSaveStatus() : base;
     el.dataset.tone = status.tone;
     el.title = status.text;
     const text = el.querySelector('.save-status-text');

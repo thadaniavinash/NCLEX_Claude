@@ -370,89 +370,6 @@ html, body {
   background-color: #0f172a;
 }
 
-.editor-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 24px;
-  border-bottom: 1px solid var(--border-dash);
-  background-color: var(--bg-dash-card);
-}
-
-.editor-header-left {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex-grow: 1;
-  max-width: 60%;
-}
-
-.btn-icon-back {
-  background: transparent;
-  border: none;
-  color: var(--text-dash-secondary);
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s;
-}
-
-.btn-icon-back:hover {
-  background-color: #334155;
-  color: white;
-}
-
-.editor-title-container {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.editor-title-input {
-  background: transparent;
-  border: none;
-  font-family: var(--font-title);
-  font-size: var(--fs-xl);
-  font-weight: 700;
-  color: white;
-  outline: none;
-  width: 100%;
-}
-
-.editor-title-input::placeholder {
-  color: #475569;
-}
-
-.editor-desc-input {
-  background: transparent;
-  border: none;
-  font-size: var(--fs-body-sm);
-  color: var(--text-dash-secondary);
-  outline: none;
-  width: 100%;
-  margin-top: 4px;
-}
-
-.editor-desc-input::placeholder {
-  color: #475569;
-}
-
-.editor-header-right {
-  display: flex;
-  gap: 12px;
-}
-
-.btn-run {
-  background-color: var(--accent-green);
-}
-.btn-run:hover {
-  background-color: #059669;
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
-}
-
 /* Editor Workspace split */
 .editor-workspace {
   display: flex;
@@ -2388,27 +2305,6 @@ input::placeholder, textarea::placeholder {
 html:not([data-theme="dark"]) #editor-view {
   background-color: #f8fafc;
   color: #1e293b;
-}
-
-html:not([data-theme="dark"]) #editor-view .editor-header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #cbd5e1;
-}
-
-html:not([data-theme="dark"]) #editor-view .editor-title-input {
-  color: #1e293b;
-}
-
-html:not([data-theme="dark"]) #editor-view .editor-title-input::placeholder {
-  color: #94a3b8;
-}
-
-html:not([data-theme="dark"]) #editor-view .editor-desc-input {
-  color: #64748b;
-}
-
-html:not([data-theme="dark"]) #editor-view .editor-desc-input::placeholder {
-  color: #94a3b8;
 }
 
 html:not([data-theme="dark"]) #editor-view #case-disorder-select {
@@ -4841,20 +4737,6 @@ th[aria-sort="descending"] .th-sort-arrow::after {
 .save-status-indicator[data-tone="error"] .status-dot-pulse { background-color: #ef4444; box-shadow: none; }
 .save-status-indicator[data-tone="muted"] .status-dot-pulse { background-color: #94a3b8; box-shadow: none; }
 
-.editor-save-status {
-  font-size: var(--fs-body-sm);
-  margin-right: 4px;
-  color: #34d399;
-}
-
-.editor-save-status[data-tone="muted"] { color: var(--text-faint); }
-.editor-save-status[data-tone="warn"] { color: #fbbf24; }
-.editor-save-status[data-tone="error"] { color: #f87171; }
-html:not([data-theme="dark"]) .editor-save-status[data-tone="ok"] { color: var(--success); }
-html:not([data-theme="dark"]) .editor-save-status[data-tone="muted"] { color: var(--text-subtle); }
-html:not([data-theme="dark"]) .editor-save-status[data-tone="warn"] { color: var(--warning-text); }
-html:not([data-theme="dark"]) .editor-save-status[data-tone="error"] { color: var(--danger); }
-
 /* ================= PLAYER: ANSWER FEEDBACK ================= */
 /* The student's own choices stay clearly visible after submitting. */
 .exam-option-row input:disabled,
@@ -5142,18 +5024,6 @@ td.matrix-cell-missed {
   display: flex;
   align-items: center;
   gap: var(--space-3);
-}
-
-.theme-toggle-editor {
-  border-color: var(--border-dash);
-  background: #334155;
-  color: var(--text-dash-primary);
-}
-
-html:not([data-theme="dark"]) #editor-view .theme-toggle-editor {
-  border-color: #cbd5e1;
-  background: #ffffff;
-  color: #334155;
 }
 
 /* ================= DARK THEME: DETAILS TOKENS CANNOT REACH ================= */
@@ -5699,26 +5569,6 @@ html:not([data-theme="dark"]) .table-size-label { color: #475569; }
 html:not([data-theme="dark"]) #editor-view .rich-editor-container.is-expanded { background-color: #ffffff; }
 
 /* ================= EDITOR: PREVIEW PANEL, UNSAVED CHANGES (js/editor-preview.js, editor.js) ================= */
-#editor-save-btn.has-changes {
-  border-color: #f59e0b !important;
-  box-shadow: inset 0 0 0 1px #f59e0b;
-}
-
-#editor-save-btn.has-changes::before {
-  content: '';
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 6px;
-  border-radius: 50%;
-  background: #f59e0b;
-}
-
-#editor-preview-btn[aria-pressed="true"] {
-  border-color: var(--brand-sky);
-  color: var(--brand-sky);
-}
-
 .editor-preview-panel {
   flex: 0 0 clamp(520px, 50vw, 860px);
   display: flex;
@@ -5881,16 +5731,6 @@ html:not([data-theme="dark"]) #editor-view.with-preview .pane-left { border-bott
   font-size: var(--fs-body-sm);
   color: var(--text-subtle);
   white-space: nowrap;
-}
-
-/* Editor header: buttons stay on one line; the save status wraps instead */
-#editor-view .editor-header-right .btn {
-  white-space: nowrap;
-}
-
-#editor-view .editor-save-status {
-  max-width: 220px;
-  line-height: 1.3;
 }
 
 /* ================= APP FRAME (top bar + sidebar) ================= */
@@ -6902,3 +6742,161 @@ html:not([data-theme="dark"]) #editor-view .editor-pane-divider:not(:hover):not(
 /* Question bank heading with the "Download all (JSON)" button beside it */
 .app-page-head-with-action { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-4); flex-wrap: wrap; }
 .app-page-head-with-action .btn { display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0; }
+
+/* ================= EDITOR TOP BAR (js/editor-header.js) ================= */
+/* Left: breadcrumb (its "Question bank" link goes back), title, and chips for course, unit,
+   description and readiness. Right: a quiet save status, the ⋯ menu, and Preview | Save | Launch. */
+#editor-view .editor-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 10px var(--space-5);
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+.editor-identity { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.editor-crumb { display: flex; align-items: center; gap: 6px; font-size: var(--fs-xs); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--text-subtle); }
+.editor-crumb-link { background: none; border: 0; padding: 0; font: inherit; letter-spacing: inherit; text-transform: inherit; color: var(--brand-text); cursor: pointer; }
+.editor-crumb-link:hover { text-decoration: underline; }
+html[data-theme="dark"] .editor-crumb-link { color: var(--brand-sky); }
+#editor-view #case-title-input.editor-title-input {
+  font-family: var(--font-title);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 1px 6px;
+  margin-left: -7px;
+  width: 100%;
+  max-width: 720px;
+  outline: none;
+}
+#editor-view #case-title-input.editor-title-input:hover { border-color: var(--border); }
+#editor-view #case-title-input.editor-title-input:focus { border-color: var(--focus-ring); background: var(--surface); }
+#editor-view #case-title-input.editor-title-input::placeholder { color: var(--text-faint); }
+.editor-meta { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; min-width: 0; }
+.meta-chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 13px;
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  font-family: inherit;
+}
+.meta-chip:hover { border-color: var(--border-strong); }
+.meta-chip:focus-within, .meta-chip-btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+label.meta-chip::after { content: '\25BE'; font-size: 10px; opacity: .7; }
+/* The real <select> covers the chip, invisible, so the chip opens the normal list of choices. */
+.meta-chip select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: var(--fs-body); }
+.meta-chip.is-empty { border-style: dashed; background: transparent; color: var(--text-subtle); }
+.meta-chip .chip-ok { color: var(--success); }
+.ready-chip.is-ready { background: var(--success-bg-subtle); border-color: var(--success-border); color: var(--success-text); }
+.ready-chip.is-hidden { background: var(--warning-bg-subtle); border-color: var(--warning-border); color: var(--warning-text); }
+.editor-ready-wrap, .editor-more-wrap { position: relative; }
+.editor-popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  z-index: 60;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, .18);
+  color: var(--text);
+}
+#editor-ready-pop { left: 0; width: 340px; padding: 12px 14px; }
+.ready-pop-head { margin: 0 0 6px; font-weight: 700; font-size: var(--fs-body); color: var(--warning-text); }
+.ready-pop-head.ok { color: var(--success-text); }
+.ready-pop-list { list-style: none; margin: 0 0 8px; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: var(--fs-body-sm); }
+.ready-pop-list li { display: flex; align-items: baseline; gap: 8px; }
+.ready-pop-screen, .ready-pop-action { flex-shrink: 0; border: 1px solid var(--border); background: var(--surface-muted); color: var(--brand-text); border-radius: 6px; padding: 2px 8px; font: inherit; font-weight: 600; cursor: pointer; }
+.ready-pop-screen:hover, .ready-pop-action:hover { border-color: var(--brand); }
+.ready-pop-action { margin-left: auto; }
+.ready-pop-note { margin: 0; font-size: var(--fs-sm); color: var(--text-subtle); line-height: 1.4; }
+
+#editor-view .editor-header-right { display: flex; align-items: center; gap: var(--space-2); flex-shrink: 0; }
+#editor-view .editor-save-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 30px;
+  padding: 0 12px;
+  border-radius: 15px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  white-space: nowrap;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-subtle);
+  background: transparent;
+}
+#editor-view .editor-save-status .status-dot-pulse { display: none; }
+#editor-view .editor-save-status[data-tone="warn"] .status-dot-pulse,
+#editor-view .editor-save-status[data-tone="error"] .status-dot-pulse { display: inline-block; width: 8px; height: 8px; animation: none; }
+#editor-view .editor-save-status[data-tone="warn"] { background: var(--warning-bg); color: var(--warning-text); }
+#editor-view .editor-save-status[data-tone="error"] { background: var(--danger-bg); color: var(--danger-text); }
+#editor-view .editor-save-status[data-tone="muted"] { color: var(--text-subtle); }
+.editor-icon-btn { width: 34px; height: 34px; border-radius: 8px; border: 1px solid transparent; background: transparent; color: var(--text-secondary); font-size: 18px; line-height: 1; cursor: pointer; display: grid; place-items: center; }
+.editor-icon-btn:hover, .editor-icon-btn[aria-expanded="true"] { background: var(--surface-sunken); }
+.editor-menu { right: 0; width: 250px; padding: 6px; }
+.editor-menu button { display: block; width: 100%; text-align: left; padding: 8px 10px; border: 0; border-radius: 6px; background: transparent; color: var(--text); font: inherit; font-size: var(--fs-body-sm); cursor: pointer; }
+.editor-menu button:hover, .editor-menu button:focus-visible { background: var(--surface-sunken); outline: none; }
+.editor-menu hr { border: 0; border-top: 1px solid var(--border-subtle); margin: 4px 0; }
+.editor-header-sep { width: 1px; height: 28px; background: var(--border); margin: 0 var(--space-1); }
+.editor-actions { display: inline-flex; align-items: center; padding: 3px; gap: 2px; border-radius: 12px; background: var(--surface-sunken); border: 1px solid var(--border); }
+.editor-actions button {
+  height: 34px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--fs-body-sm);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.editor-actions button:hover { background: var(--surface-strong); }
+.editor-actions button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+#editor-preview-btn[aria-pressed="true"] { background: var(--surface); box-shadow: inset 0 0 0 1px var(--border-strong); }
+/* Save is grey while there is nothing new to save (it still works), and stands out when there is. */
+#editor-save-btn { color: var(--text-faint); }
+#editor-save-btn.has-changes { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgba(0, 0, 0, .08); }
+#editor-save-btn.has-changes::after { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--warning); }
+.editor-actions .editor-launch { background: #16a34a; color: #fff; margin-left: 3px; }
+.editor-actions .editor-launch:hover { background: #15803d; }
+
+.editor-modal-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(15, 23, 42, .45); display: grid; place-items: center; padding: var(--space-4); }
+.editor-modal-overlay.hidden { display: none; }
+.editor-modal { width: min(560px, 100%); background: var(--surface); color: var(--text); border-radius: 14px; box-shadow: 0 20px 50px rgba(0, 0, 0, .25); padding: 20px 22px 18px; }
+.editor-modal h3 { margin: 0 0 4px; font-size: 17px; color: var(--text); }
+.editor-modal p { margin: 0 0 12px; font-size: var(--fs-body-sm); color: var(--text-subtle); }
+.editor-modal textarea { width: 100%; box-sizing: border-box; min-height: 110px; border: 1px solid var(--border-strong); border-radius: 8px; padding: 10px 12px; font: inherit; font-size: var(--fs-body); line-height: 1.45; color: var(--text); background: var(--surface); resize: vertical; }
+.editor-modal textarea:focus { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+.editor-modal-foot { display: flex; align-items: center; gap: var(--space-2); margin-top: var(--space-3); }
+.editor-modal-count { flex: 1; font-size: var(--fs-sm); color: var(--text-subtle); }
+.shortcut-list { display: grid; grid-template-columns: max-content 1fr; gap: 8px 16px; margin: 12px 0 0; font-size: var(--fs-body-sm); }
+.shortcut-list dt { font-family: var(--font-mono); font-size: var(--fs-sm); color: var(--text); background: var(--surface-sunken); border: 1px solid var(--border-subtle); border-radius: 5px; padding: 1px 6px; justify-self: start; }
+.shortcut-list dd { margin: 0; color: var(--text-secondary); }
+
+#editor-view .editor-modal .btn { height: 36px; padding: 0 16px; border-radius: 8px; font-size: var(--fs-body-sm); font-weight: 600; }
+#editor-view .editor-modal .btn-primary { background: var(--brand); border: 1px solid var(--brand); color: var(--text-on-brand); }
+#editor-view .editor-modal .btn-primary:hover { background: var(--brand-hover); }
+#editor-view .editor-modal .btn-secondary { background: var(--surface); border: 1px solid var(--border); color: var(--text); }
+#editor-view .editor-modal .btn-secondary:hover { background: var(--surface-sunken); }
