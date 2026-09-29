@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783030000010",
+  "title": "Unit 3 Stand-alone 10: Teratogenic Vulnerability Window",
+  "course": "NURS 1017",
+  "unit": "Unit 3 (Genetic and Developmental Disorders)",
+  "topic": "Unit 3 (Genetic and Developmental Disorders)",
+  "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing preconception education to a client of childbearing age regarding maternal medication safety and environmental teratogens. During which gestational timeframe is an embryo at the highest risk for developing major structural congenital malformations upon teratogenic exposure?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Weeks 1 to 2 of gestation (pre-differentiation 'all-or-none' period)",
+            "correct": false
+          },
+          {
+            "text": "Weeks 3 to 8 of gestation (embryonic period of organogenesis)",
+            "correct": true
+          },
+          {
+            "text": "Weeks 16 to 24 of gestation (second-trimester fetal maturation period)",
+            "correct": false
+          },
+          {
+            "text": "Weeks 36 to 40 of gestation (late third-trimester terminal growth period)",
+            "correct": false
+          }
+        ],
+        "preamble": "The obstetrics and maternal-fetal health nurse is educating clients regarding embryonic development and drug safety during pregnancy.",
+        "explanation": "The embryonic period—extending from gestational week 3 to week 8—is the critical window of organogenesis, during which all major organ systems, tissues, and anatomical axes (neural tube, cardiac chambers, limbs, facial structures) are forming and differentiating. Exposure to potent teratogens (e.g., isotretinoin, thalidomide, methotrexate, alcohol) during this peak vulnerability period causes severe gross structural anomalies. Prior to week 3 (pre-differentiation), teratogens typically follow an 'all-or-none' rule (either embryonic death or complete recovery). After week 8 (fetal period), teratogens primarily cause functional impairment or growth restriction rather than major structural organ dysmorphology."
+      },
+      "leftContent": {
+        "intro": "A 26-year-old client with cystic acne who is actively attempting to conceive attends a women's health consultation to discuss oral isotretinoin therapy.",
+        "tabs": [
+          {
+            "id": "tab_u3_10_info",
+            "title": "Maternal Health Record",
+            "content": "<p><strong>Medication Profile:</strong> Oral isotretinoin 40 mg daily prescribed 2 months ago; iPLEDGE registration pending confirmation.<br><strong>Reproductive Goal:</strong> Discontinuation of contraception; planning conception within the next several weeks.<br><strong>Nursing Action:</strong> Immediate client education regarding teratogenic risk and mandatory washout period prior to conception.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

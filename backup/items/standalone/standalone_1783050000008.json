@@ -1,0 +1,62 @@
+{
+  "id": "standalone_1783050000008",
+  "title": "Unit 5 Stand-alone 8: Primary vs. Secondary Skin Lesions",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "For each integumentary lesion description, select its correct dermatological classification.",
+        "type": "matrix_mc",
+        "matrix": {
+          "firstColumnHeader": "Integumentary Lesion",
+          "columns": [
+            "Primary Flat Non-Palpable",
+            "Primary Solid Elevated",
+            "Primary Fluid-Filled Elevated",
+            "Secondary Depressed / Loss of Surface",
+            "Secondary Exuberant Scar"
+          ],
+          "rows": [
+            {
+              "text": "Macule (flat, circumscribed area of skin color change < 1 cm in diameter, such as a freckle).",
+              "correctIndex": 0
+            },
+            {
+              "text": "Plaque (elevated, firm, rough solid lesion with a flat top surface > 1 cm, such as psoriasis).",
+              "correctIndex": 1
+            },
+            {
+              "text": "Vesicle (elevated, circumscribed superficial lesion filled with serous fluid < 1 cm, such as varicella).",
+              "correctIndex": 2
+            },
+            {
+              "text": "Ulcer (loss of epidermis and dermis with concave, excavated tissue loss, such as a pressure injury).",
+              "correctIndex": 3
+            },
+            {
+              "text": "Keloid (hypertrophic, elevated fibrous scar tissue extending well beyond the original wound boundary).",
+              "correctIndex": 4
+            }
+          ]
+        },
+        "preamble": "The wound and ostomy nurse specialist is conducting an educational session on integumentary terminology and morphology.",
+        "explanation": "Primary skin lesions develop as direct results of the initial disease process (macule, patch, papule, plaque, nodule, tumor, vesicle, bulla, wheal, pustule). Secondary lesions result from external trauma, evolution of a primary lesion, or wound healing/scarring (scale, crust, erosion, ulcer, fissure, lichenification, atrophy, keloid). A macule is primary flat; plaque is primary solid elevated; vesicle is primary fluid-filled; ulcer is secondary depressed tissue loss; keloid is secondary excessive collagen scar formation."
+      },
+      "leftContent": {
+        "intro": "The nursing team is completing a review of dermatological terminology to ensure accurate documentation in electronic health records.",
+        "tabs": [
+          {
+            "id": "tab_u5_8_atlas",
+            "title": "Morphology Guide",
+            "content": "<p>Dermatologic lesions are classified based on whether they arise de novo from previously normal skin (primary) or evolve over time due to scratching, infection, regression, or repair (secondary).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

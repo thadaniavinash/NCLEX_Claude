@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783030000005",
+  "title": "Unit 3 Stand-alone 5: Autosomal Dominant Inheritance Risk",
+  "course": "NURS 1017",
+  "unit": "Unit 3 (Genetic and Developmental Disorders)",
+  "topic": "Unit 3 (Genetic and Developmental Disorders)",
+  "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "A 28-year-old female with genetically confirmed heterozygous Marfan syndrome is planning a pregnancy with her unaffected partner. What is the statistical probability that each biological offspring will inherit the mutated fibrillin-1 gene and develop Marfan syndrome?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "0% (the condition only manifests if both parents transmit the mutated allele)",
+            "correct": false
+          },
+          {
+            "text": "25% (autosomal recessive recurrence probability)",
+            "correct": false
+          },
+          {
+            "text": "50% (autosomal dominant transmission from a heterozygous parent)",
+            "correct": true
+          },
+          {
+            "text": "100% (all offspring will invariably be affected regardless of parentage)",
+            "correct": false
+          }
+        ],
+        "preamble": "The prenatal genetics nurse is providing preconception counseling to a couple.",
+        "explanation": "Marfan syndrome follows an autosomal dominant inheritance pattern. An individual with the condition is heterozygous (Aa), possessing one mutated FBN1 allele and one normal allele, while the unaffected partner possesses two normal alleles (aa). During meiosis, the affected parent has a 50% (1 in 2) chance of passing the dominant mutated allele (A) and a 50% chance of passing the normal allele (a) with each pregnancy, independent of gender."
+      },
+      "leftContent": {
+        "intro": "A newly married couple presents for preconception genetic counseling. The female partner was diagnosed with Marfan syndrome at age 16 and has arachnodactyly, mild aortic root dilation, and lens subluxation. Her husband has no chronic medical conditions and no family history of genetic disease.",
+        "tabs": [
+          {
+            "id": "tab_u3_5_pedigree",
+            "title": "Family Pedigree",
+            "content": "<p><strong>Client Genotype:</strong> Heterozygous FBN1 c.1249C>T pathogenic variant.<br><strong>Partner Genotype:</strong> Negative for FBN1 pathogenic variants.<br><strong>Family History:</strong> Client's father and paternal grandfather had Marfan syndrome and thoracic aortic surgery.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "standalone_1783030000006",
+  "title": "Unit 3 Stand-alone 6: Sickle Cell Vaso-Occlusive Cascade",
+  "course": "NURS 1017",
+  "unit": "Unit 3 (Genetic and Developmental Disorders)",
+  "topic": "Unit 3 (Genetic and Developmental Disorders)",
+  "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is caring for a client with sickle cell anemia who develops an acute painful vaso-occlusive crisis. Place the pathophysiologic events of the vaso-occlusive cascade in the correct chronological order.",
+        "type": "ordered_response",
+        "options": [],
+        "orderedOptions": [
+          "Triggering factor (hypoxia, dehydration, cold, or acidosis) lowers local oxygen tension in systemic capillaries",
+          "Deoxygenated sickle hemoglobin (HbS) molecules polymerize into rigid, insoluble crystalline rod-like chains",
+          "Erythrocytes deform into rigid, crescent-shaped sickle cells with increased membrane adherence",
+          "Inflexible sickled red cells adhere to vascular endothelium and aggregate, causing microvascular occlusion",
+          "Downstream tissue ischemia and cellular infarction occur, triggering intense inflammatory pain and necrosis"
+        ],
+        "preamble": "The hematology unit nurse is reviewing the pathophysiology of sickle cell crisis while planning care for an admitted client.",
+        "explanation": "In sickle cell disease (autosomal recessive point mutation substituting valine for glutamic acid at codon 6 of the beta-globin chain): (1) A triggering factor such as dehydration, hypoxia, cold, or infection lowers oxygen saturation in the microcirculation. (2) Deoxygenated HbS polymerizes into long intracellular filaments. (3) The polymer filaments distort the red blood cell into a rigid, sickle-shaped erythrocyte. (4) Rigid sickled erythrocytes clump, adhere to endothelial cells, and obstruct capillaries and venules. (5) Microvascular occlusion blocks downstream perfusion, causing tissue ischemia, cellular infarction, intense acute pain, and organ dysfunction."
+      },
+      "leftContent": {
+        "intro": "A 19-year-old client with homozygous sickle cell disease (HbSS) is admitted with severe bilateral femur and lumbar pain following a viral respiratory illness with high fever.",
+        "tabs": [
+          {
+            "id": "tab_u3_6_labs",
+            "title": "Admission Assessment",
+            "content": "<p><strong>Vitals:</strong> T 38.6 °C, P 112, RR 24, BP 114/72, SpO2 91% on room air.<br><strong>Pain Score:</strong> 9/10 excruciating deep bone pain.<br><strong>CBC:</strong> Hemoglobin 6.8 g/dL (baseline 8.5), Hematocrit 21%, Reticulocyte count 14%, Total Bilirubin 3.8 mg/dL.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

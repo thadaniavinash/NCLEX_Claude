@@ -1,0 +1,37 @@
+{
+  "id": "standalone_1783040000005",
+  "title": "Unit 4 Stand-alone 5: Superior Vena Cava Syndrome Progression",
+  "course": "NURS 1017",
+  "unit": "Unit 4 (Neoplasia)",
+  "topic": "Unit 4 (Neoplasia)",
+  "disorder": "Unit 4 (Neoplasia)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is reviewing the pathophysiology of Superior Vena Cava (SVC) syndrome in thoracic oncology. Place the clinical and pathophysiologic events in the correct chronological sequence of disease progression.",
+        "type": "ordered_response",
+        "options": [],
+        "orderedOptions": [
+          "Extrinsic compression or direct tumor invasion of the thin-walled, low-pressure superior vena cava in the mediastinum",
+          "Impedance of venous return from the head, neck, and upper extremities to the right atrium",
+          "Retrograde venous engorgement producing facial edema, periorbital puffiness, and distended collateral chest wall veins",
+          "Progressive laryngeal edema, dyspnea, stridor, and cerebral venous hypertension leading to headache and altered mental status"
+        ],
+        "preamble": "The clinical nurse specialist is conducting a clinical conference on thoracic oncologic emergencies.",
+        "explanation": "SVC syndrome occurs when an expanding intrathoracic malignancy (e.g., non-small cell lung cancer, small cell lung cancer, or lymphoma) or mediastinal lymphadenopathy compresses the thin-walled superior vena cava. This impedes venous drainage from the upper body into the right heart, driving elevated retrograde venous pressure. This results in classic facial, periorbital, and bilateral upper extremity edema, cyanosis, plethora, and engorged superficial collateral veins on the anterior chest wall. With worsening obstruction, life-threatening laryngeal edema, dyspnea, stridor, and cerebral edema with neurological compromise ensue."
+      },
+      "leftContent": {
+        "intro": "A 58-year-old client with right upper lobe lung carcinoma presents with progressive collar tightness, facial swelling upon waking, and shortness of breath that worsens when bending forward.",
+        "tabs": [
+          {
+            "id": "tab_u4_5_exam",
+            "title": "Physical Examination",
+            "content": "<p><strong>Head & Neck:</strong> Symmetrical non-pitting facial plethora; periorbital edema; prominent distended jugular veins without pulsation.<br><strong>Chest:</strong> Tortuous, engorged subcutaneous collateral veins across the anterior thoracic wall.<br><strong>Pemberton's Sign:</strong> Marked facial flushing, stridor, and dizziness upon bilateral elevation of upper extremities for 60 seconds (positive).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "standalone_1783020000010",
+  "title": "Unit 2 Stand-alone 10: Characteristics of Apoptosis vs. Necrosis",
+  "course": "NURS 1017",
+  "unit": "Unit 2 (Cellular Basis of Disease)",
+  "topic": "Unit 2 (Cellular Basis of Disease)",
+  "disorder": "Unit 2 (Cellular Basis of Disease)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing care to a client and reviewing the mechanisms of cell death. Which characteristics distinguishing programmed apoptosis from accidental necrosis should the nurse anticipate? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Apoptosis is an active, energy-dependent (ATP-requiring) process mediated by caspase proteases",
+            "correct": true
+          },
+          {
+            "text": "Apoptotic cells shrink and fragment into intact, membrane-bound apoptotic bodies without plasma membrane rupture",
+            "correct": true
+          },
+          {
+            "text": "Necrosis invariably triggers a vigorous acute inflammatory response in adjacent tissues",
+            "correct": true
+          },
+          {
+            "text": "Apoptosis results in widespread leakage of cellular enzymes (e.g., troponin, amylase) into systemic circulation",
+            "correct": false
+          },
+          {
+            "text": "Apoptotic fragments express 'eat-me' signals (such as phosphatidylserine) that facilitate rapid phagocytosis without inflammation",
+            "correct": true
+          },
+          {
+            "text": "Necrosis is characterized by early nuclear condensation followed by orderly non-random internucleosomal DNA fragmentation",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse educator is reviewing cellular pathology with graduate nurses on an acute medical unit.",
+        "explanation": "Apoptosis is programmed, gene-directed cell death requiring ATP. It involves cell condensation/shrinkage, caspase cascade activation, internucleosomal DNA cleavage, and packaging of cellular contents into intact membrane-bound apoptotic bodies displaying phosphatidylserine for phagocytic clearance without membrane rupture or inflammatory response. In contrast, necrosis is passive, accidental cell death caused by severe injury/ischemia, marked by cell swelling (oncosis), plasma membrane rupture, spilling of intracellular enzymes into systemic circulation, and induction of an intense acute inflammatory reaction."
+      },
+      "leftContent": {
+        "intro": "During clinical teaching on an acute medical floor, the nurse compares tissue recovery in a client with physiologic involution versus a client with acute myocardial infarction.",
+        "tabs": [
+          {
+            "id": "tab_u2_10_teaching",
+            "title": "Cell Death Comparison Table",
+            "content": "<table class='nclex-editor-table'><thead><tr><th>Feature</th><th>Apoptosis</th><th>Necrosis</th></tr></thead><tbody><tr><td>Cell Volume</td><td>Shrinkage / condensation</td><td>Swelling / oncosis</td></tr><tr><td>Membrane Integrity</td><td>Intact; apoptotic blebbing</td><td>Disrupted / ruptured</td></tr><tr><td>Inflammatory Reaction</td><td>None</td><td>Prominent acute inflammation</td></tr><tr><td>Energy Requirement</td><td>ATP-dependent</td><td>ATP depletion</td></tr></tbody></table>"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "standalone_1783040000007",
+  "title": "Unit 4 Stand-alone 7: Proto-Oncogenes vs. Tumor Suppressors",
+  "course": "NURS 1017",
+  "unit": "Unit 4 (Neoplasia)",
+  "topic": "Unit 4 (Neoplasia)",
+  "disorder": "Unit 4 (Neoplasia)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "For each listed cancer-associated gene, select whether it functions as a Proto-Oncogene (driving proliferation via gain-of-function mutation) or a Tumor Suppressor Gene (inhibiting transformation via loss-of-function mutation).",
+        "type": "matrix_mc",
+        "matrix": {
+          "firstColumnHeader": "Cancer-Associated Gene",
+          "columns": [
+            "Proto-Oncogene / Oncogene (Gain of Function)",
+            "Tumor Suppressor Gene (Loss of Function)"
+          ],
+          "rows": [
+            {
+              "text": "TP53 (codes for the 'guardian of the genome' protein p53 that halts cell cycle at G1/S for DNA repair or triggers apoptosis).",
+              "correctIndex": 1
+            },
+            {
+              "text": "KRAS (codes for a membrane-associated GTPase that constantly transmits mitogenic growth signals when mutated).",
+              "correctIndex": 0
+            },
+            {
+              "text": "RB1 (codes for retinoblastoma protein that binds and sequesters E2F transcription factors to restrict cell cycle entry).",
+              "correctIndex": 1
+            },
+            {
+              "text": "HER2/neu (ERBB2) (codes for a cell-surface epidermal growth factor receptor tyrosine kinase that amplifies proliferative signaling).",
+              "correctIndex": 0
+            },
+            {
+              "text": "BRCA1 / BRCA2 (codes for proteins essential for homologous recombination DNA double-strand break repair).",
+              "correctIndex": 1
+            }
+          ]
+        },
+        "preamble": "The clinical cancer genetics nurse is reviewing molecular oncology principles with graduate nursing students.",
+        "explanation": "Proto-oncogenes normally promote physiological cell growth and survival; when mutated into oncogenes via gain-of-function mutations (point mutations, amplifications, translocations), a single altered allele produces hyperactive proteins (e.g., KRAS, HER2/neu) driving autonomous cell proliferation. In contrast, tumor suppressor genes (e.g., TP53, RB1, BRCA1/BRCA2) normally serve as negative regulators of the cell cycle, DNA repair caretakers, or apoptosis triggers; cancer development typically requires loss-of-function mutations in both alleles ('two-hit hypothesis') leading to uncontrolled cell survival and genomic instability."
+      },
+      "leftContent": {
+        "intro": "The molecular pathology department provides genetic profiling for clients with suspected hereditary and somatic malignancies.",
+        "tabs": [
+          {
+            "id": "tab_u4_7_gen",
+            "title": "Molecular Genetics Reference",
+            "content": "<p>Malignant transformation requires accumulation of mutations across two primary gene classes: oncogenes (gas pedal) and tumor suppressor genes (brakes).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

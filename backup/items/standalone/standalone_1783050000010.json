@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783050000010",
+  "title": "Unit 5 Stand-alone 10: Burn Hypermetabolic State",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "A client with 35% TBSA severe burns enters the acute rehabilitation phase 5 days post-injury. The nurse notes an elevated core body temperature of 38.3 °C (101.0 °F) without identifiable infection, tachycardia, and a resting energy expenditure 180% of normal baseline. Which pathophysiologic mechanism accounts for this persistent hypermetabolic state?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Persistent autonomic sympathetic storm and surge of catecholamines, cortisol, and glucagon driving massive catabolism and futile substrate cycling",
+            "correct": true
+          },
+          {
+            "text": "Acute bacterial bacteremia causing immediate hypothalamic thermoregulatory set-point collapse",
+            "correct": false
+          },
+          {
+            "text": "Severe hypothyroidism resulting in slowed cellular substrate oxidation and secondary shivering",
+            "correct": false
+          },
+          {
+            "text": "Metastatic calcification within skeletal muscle sarcolemma halting glycogen utilization",
+            "correct": false
+          }
+        ],
+        "preamble": "The burn center clinical specialist is discussing nutritional therapy and metabolic response in the acute post-burn phase.",
+        "explanation": "Major burn injuries (> 20–30% TBSA) trigger the most extreme and prolonged hypermetabolic, catabolic stress response known in medicine. Driven by massive, persistent elevations of circulating catecholamines (epinephrine, norepinephrine), cortisol, glucagon, and pro-inflammatory cytokines, resting energy expenditure can double (up to 150–200% of baseline). This hypermetabolic state features accelerated muscle proteolysis, lipolysis, gluconeogenesis, elevated baseline core body temperature (a non-infectious hypothalamic reset), and rapid loss of lean body mass unless supported by early, high-protein, high-calorie enteral nutrition."
+      },
+      "leftContent": {
+        "intro": "A 40-year-old client with 35% TBSA burns is on Post-Burn Day 5 in the burn ICU. The nurse reviews metabolic and nutritional assessment data.",
+        "tabs": [
+          {
+            "id": "tab_u5_10_metab",
+            "title": "Metabolic Panel & Vitals",
+            "content": "<p><strong>Vitals:</strong> Core Temperature 38.3 °C, Heart Rate 112 beats/min, Blood Pressure 128/78 mmHg.<br><strong>Indirect Calorimetry:</strong> Resting energy expenditure 3,400 kcal/day (185% of predicted basal metabolic rate).<br><strong>Urinary Nitrogen:</strong> 24-hour urinary urea nitrogen demonstrates severe negative nitrogen balance (-18 g/day).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

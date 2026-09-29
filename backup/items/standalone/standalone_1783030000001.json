@@ -1,0 +1,56 @@
+{
+  "id": "standalone_1783030000001",
+  "title": "Unit 3 Stand-alone 1: Cystic Fibrosis Pathophysiology",
+  "course": "NURS 1017",
+  "unit": "Unit 3 (Genetic and Developmental Disorders)",
+  "topic": "Unit 3 (Genetic and Developmental Disorders)",
+  "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing care to a pediatric client recently diagnosed with cystic fibrosis (CF). Which multisystem clinical and pathophysiologic findings should the nurse anticipate? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Defective CFTR chloride channel causing dehydration of epithelial secretions",
+            "correct": true
+          },
+          {
+            "text": "Copious, highly viscous mucus plugging bronchioles and recurrent Pseudomonas aeruginosa infections",
+            "correct": true
+          },
+          {
+            "text": "Exocrine pancreatic insufficiency causing malabsorption of fat and fat-soluble vitamins (A, D, E, K)",
+            "correct": true
+          },
+          {
+            "text": "Elevated sweat chloride concentration on quantitative pilocarpine iontophoresis testing",
+            "correct": true
+          },
+          {
+            "text": "Increased renal excretion of calcium leading to rapid skeletal hypocalcemia",
+            "correct": false
+          },
+          {
+            "text": "Bulky, foul-smelling, fatty stools (steatorrhea) and poor weight gain",
+            "correct": true
+          }
+        ],
+        "preamble": "The pediatric pulmonary nurse is evaluating an 18-month-old toddler referred following repeated episodes of wheezing, chronic productive cough, and failure to thrive.",
+        "explanation": "Cystic fibrosis is an autosomal recessive disorder caused by mutations in the CFTR gene (commonly F508del), which codes for an epithelial cAMP-regulated chloride channel. Defective chloride transport and subsequent hyperabsorption of sodium/water result in viscous, dehydrated secretions in multiple exocrine organs. Key manifestations include recurrent lower respiratory tract infections (especially Pseudomonas), bronchiole mucus plugging, bronchiectasis, exocrine pancreatic duct blockage leading to malabsorption of fats/proteins and fat-soluble vitamins (A, D, E, K), steatorrhea, failure to thrive, and elevated sweat chloride (≥ 60 mmol/L). It does not cause direct urinary calcium wasting."
+      },
+      "leftContent": {
+        "intro": "An 18-month-old toddler presents with a chronic moist cough, frequent loose greasy stools, and weight persistently below the 3rd percentile despite an insatiable appetite.",
+        "tabs": [
+          {
+            "id": "tab_u3_1_diag",
+            "title": "Diagnostic Workup",
+            "content": "<p><strong>Sweat Chloride Test (Pilocarpine Iontophoresis):</strong> 78 mmol/L (diagnostic positive: ≥ 60 mmol/L).<br><strong>Fecal Elastase-1:</strong> 42 mcg/g stool (severe pancreatic insufficiency: < 100 mcg/g).<br><strong>Chest X-ray:</strong> Bilateral hyperinflation with peribronchial cuffing and mucus plugging.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

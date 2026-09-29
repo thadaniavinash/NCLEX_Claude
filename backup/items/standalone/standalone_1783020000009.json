@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783020000009",
+  "title": "Unit 2 Stand-alone 9: Differentiation vs. Anaplasia",
+  "course": "NURS 1017",
+  "unit": "Unit 2 (Cellular Basis of Disease)",
+  "topic": "Unit 2 (Cellular Basis of Disease)",
+  "disorder": "Unit 2 (Cellular Basis of Disease)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "A pathology report describes a malignant soft-tissue tumor as 'completely anaplastic and undifferentiated.' What does this finding indicate regarding the biologic behavior and characteristics of these tumor cells?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "The tumor cells closely resemble mature parenchymal tissue and demonstrate slow, indolent growth.",
+            "correct": false
+          },
+          {
+            "text": "The cells have lost specialized functional differentiation, display marked pleomorphism, and behave aggressively with poor prognosis.",
+            "correct": true
+          },
+          {
+            "text": "The tissue has successfully adapted to hypoxia by transforming into non-dividing fibrous scar tissue.",
+            "correct": false
+          },
+          {
+            "text": "The cells retain normal cell-cycle checkpoints and undergo uniform, organized apoptosis.",
+            "correct": false
+          }
+        ],
+        "preamble": "The surgical oncology nurse is interpreting a multidisciplinary tumor board pathology report.",
+        "explanation": "Differentiation refers to the degree to which neoplastic cells morphologically and functionally resemble mature, normal parent cells of origin. Anaplasia represents complete lack of differentiation—a hallmark of high-grade malignancy. Anaplastic cells exhibit severe cellular and nuclear pleomorphism, hyperchromasia, giant tumor cells, loss of normal organoid architecture, and numerous abnormal mitoses. Anaplasia correlates directly with aggressive local invasion, rapid proliferation, high metastatic potential, and poor clinical prognosis."
+      },
+      "leftContent": {
+        "intro": "A 59-year-old client undergoes wide local excision of an enlarging, deeply located thigh mass.",
+        "tabs": [
+          {
+            "id": "tab_u2_9_path",
+            "title": "Surgical Pathology Report",
+            "content": "<p><strong>Gross Specimen:</strong> 8.5 cm infiltrative, necrotic mass within the vastus lateralis.<br><strong>Microscopic Description:</strong> High-grade pleomorphic sarcoma. Tumor cells demonstrate complete anaplasia with bizarre multinucleated giant cells, hyperchromatic monstrous nuclei, loss of skeletal muscle striations, and > 25 atypical mitoses per 10 high-power fields.<br><strong>Tumor Grade:</strong> Grade 3 (Undifferentiated / Anaplastic).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783040000009",
+  "title": "Unit 4 Stand-alone 9: Three Stages of Carcinogenesis",
+  "course": "NURS 1017",
+  "unit": "Unit 4 (Neoplasia)",
+  "topic": "Unit 4 (Neoplasia)",
+  "disorder": "Unit 4 (Neoplasia)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is reviewing the multistep model of chemical carcinogenesis with a client discussing smoking cessation. Which statement accurately describes the <b>promotion</b> stage of carcinogenesis?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "An irreversible DNA mutation directly caused by exposure to an initiator carcinogen",
+            "correct": false
+          },
+          {
+            "text": "A prolonged, potentially reversible process where mutated cells are stimulated to divide by chemical or hormonal promoters",
+            "correct": true
+          },
+          {
+            "text": "The development of chromosomal aneuploidy and autonomous invasion across tissue barriers",
+            "correct": false
+          },
+          {
+            "text": "The immediate hematogenous dissemination of malignant cells to distant visceral organs",
+            "correct": false
+          }
+        ],
+        "preamble": "The public health oncology nurse is educating community members on primary cancer prevention and behavioral risk reduction.",
+        "explanation": "Carcinogenesis occurs in three distinct stages: (1) Initiation: an irreversible genetic alteration (mutation) in cellular DNA caused by an initiator carcinogen (e.g., radiation, chemicals). The cell remains dormant unless promoted. (2) Promotion: a prolonged, potentially reversible process during which initiated cells undergo accelerated proliferation in response to promoters (e.g., hormones, chronic inflammation, phorbol esters, continuous tobacco smoke). If the promoter is removed before autonomous clonal progression, neoplastic development can be arrested. (3) Progression: irreversible acquisition of fully malignant phenotypic behavior, genomic instability, autonomous proliferation, invasiveness, and metastasis."
+      },
+      "leftContent": {
+        "intro": "A 48-year-old client with a 25-pack-year smoking history attends a preventive health consultation to understand how tobacco smoke components drive cancer development.",
+        "tabs": [
+          {
+            "id": "tab_u4_9_chart",
+            "title": "Pathophysiology Summary",
+            "content": "<p><strong>Carcinogenesis Stages:</strong><br>1. Initiation: DNA damage / permanent somatic mutation.<br>2. Promotion: Epigenetic stimulation of clonal cell proliferation (reversible upon cessation).<br>3. Progression: Invasive, metastatic malignant transformation with genomic instability.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

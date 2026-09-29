@@ -1,0 +1,56 @@
+{
+  "id": "standalone_1783050000001",
+  "title": "Unit 5 Stand-alone 1: Burn Shock Pathophysiology",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing care to a client recently admitted with severe extensive second- and third-degree thermal burns covering 45% total body surface area (TBSA). Which acute pathophysiologic and laboratory findings should the nurse anticipate during the emergent resuscitation phase (first 24 to 48 hours)? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Profound systemic capillary hyperpermeability leading to massive third-spacing of fluid and protein into the interstitial space",
+            "correct": true
+          },
+          {
+            "text": "Hypovolemic burn shock manifested by decreased cardiac output and compensatory tachycardia",
+            "correct": true
+          },
+          {
+            "text": "Transient hyperkalemia resulting from widespread thermal cellular cytolysis and release of intracellular potassium",
+            "correct": true
+          },
+          {
+            "text": "Hemoconcentration reflected by an elevated hematocrit due to intravascular plasma volume loss",
+            "correct": true
+          },
+          {
+            "text": "Dramatic immediate expansion of intravascular circulating plasma volume",
+            "correct": false
+          },
+          {
+            "text": "Metabolic acidosis secondary to inadequate peripheral tissue perfusion and lactic acid accumulation",
+            "correct": true
+          }
+        ],
+        "preamble": "The burn intensive care unit nurse is reviewing admission pathophysiology and initial laboratory panels for an adult trauma client with extensive thermal injury.",
+        "explanation": "During the emergent phase of major burn injury (> 20% TBSA), intense systemic inflammatory mediator release (histamine, bradykinin, prostaglandins, cytokines) causes generalized capillary hyperpermeability, allowing massive leakage of plasma proteins and intravascular fluid into interstitial spaces (third-spacing). This leads to burn shock: severe intravascular hypovolemia, decreased venous return, diminished cardiac output, and lactic acidosis from tissue hypoperfusion. Cellular destruction and tissue necrosis release intracellular potassium into circulation, causing acute hyperkalemia. Relative loss of plasma water causes hemoconcentration with an elevated hematocrit. Intravascular volume is markedly depleted, not expanded."
+      },
+      "leftContent": {
+        "intro": "A 36-year-old client is admitted to the burn trauma center 90 minutes after escaping a residential fire, sustaining mixed partial- and full-thickness burns to the anterior torso and bilateral lower extremities (45% TBSA).",
+        "tabs": [
+          {
+            "id": "tab_u5_1_labs",
+            "title": "Emergent Labs & Vitals",
+            "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Result</th><th>Reference Range</th></tr></thead><tbody><tr><td>Blood Pressure</td><td><strong>86/52 mmHg</strong></td><td>100–120 / 60–80 mmHg</td></tr><tr><td>Heart Rate</td><td><strong>132 beats/min</strong></td><td>60–100 beats/min</td></tr><tr><td>Hematocrit</td><td><strong>56%</strong></td><td>38–48%</td></tr><tr><td>Serum Potassium</td><td><strong>5.9 mEq/L</strong></td><td>3.5–5.0 mEq/L</td></tr><tr><td>Serum Sodium</td><td>131 mEq/L</td><td>135–145 mEq/L</td></tr><tr><td>Arterial Lactate</td><td><strong>4.2 mmol/L</strong></td><td>0.5–2.2 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      }
+    }
+  ]
+}

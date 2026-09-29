@@ -1,0 +1,56 @@
+{
+  "id": "standalone_1783040000002",
+  "title": "Unit 4 Stand-alone 2: Cancer Cachexia Syndrome",
+  "course": "NURS 1017",
+  "unit": "Unit 4 (Neoplasia)",
+  "topic": "Unit 4 (Neoplasia)",
+  "disorder": "Unit 4 (Neoplasia)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing care to a client recently diagnosed with advanced pancreatic adenocarcinoma exhibiting cancer cachexia syndrome. Which metabolic and clinical manifestations should the nurse anticipate? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Progressive loss of skeletal muscle mass (sarcopenia) with or without loss of adipose tissue",
+            "correct": true
+          },
+          {
+            "text": "Systemic chronic inflammation mediated by pro-inflammatory cytokines such as tumor necrosis factor-alpha (TNF-alpha) and interleukin-6 (IL-6)",
+            "correct": true
+          },
+          {
+            "text": "Marked anorexia, early satiety, and elevated basal resting energy expenditure",
+            "correct": true
+          },
+          {
+            "text": "Complete reversal and restoration of lean body mass achieved solely through conventional caloric nutritional support",
+            "correct": false
+          },
+          {
+            "text": "Profound asthenia, generalized physical weakness, and anemia of chronic disease",
+            "correct": true
+          },
+          {
+            "text": "Hypertrophy of abdominal rectus muscles secondary to tumor-induced hyperinsulinemia",
+            "correct": false
+          }
+        ],
+        "preamble": "The palliative oncology nurse is conducting a comprehensive functional and nutritional assessment on a client with advanced malignancy.",
+        "explanation": "Cancer cachexia is a multifactorial paraneoplastic wasting syndrome characterized by involuntary progressive loss of skeletal muscle mass (sarcopenia), profound asthenia, anorexia, anemia, and chronic systemic inflammation driven by tumor- and host-derived cytokines (TNF-alpha/cachectin, IL-1, IL-6, interferon-gamma) and lipid-mobilizing factors. Unlike simple starvation, which conserves lean muscle by burning adipose tissue and resolves with food intake, cancer cachexia accelerates muscle protein proteolysis via the ubiquitin-proteasome pathway, elevates resting metabolic rate, and cannot be reversed by caloric intake alone."
+      },
+      "leftContent": {
+        "intro": "A 66-year-old client with metastatic pancreatic cancer is assessed in the outpatient clinic. Over the past 4 months, the client has experienced an involuntary 18 kg (22%) weight loss, temporal muscle wasting, and severe weakness.",
+        "tabs": [
+          {
+            "id": "tab_u4_2_nutr",
+            "title": "Nutritional & Clinical Assessment",
+            "content": "<p><strong>Anthropometrics:</strong> BMI 16.8 kg/m² (down from 23.4); temporal wasting, sunken clavicles, intercostal hollowing.<br><strong>Inflammatory Markers:</strong> C-reactive protein (CRP) 48 mg/L (normal < 5 mg/L); Erythrocyte sedimentation rate (ESR) 76 mm/hr.<br><strong>CBC:</strong> Hemoglobin 8.6 g/dL (normocytic, normochromic); Albumin 2.4 g/dL.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

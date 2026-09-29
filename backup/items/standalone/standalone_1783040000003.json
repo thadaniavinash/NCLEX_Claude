@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783040000003",
+  "title": "Unit 4 Stand-alone 3: Benign vs. Malignant Neoplasms",
+  "course": "NURS 1017",
+  "unit": "Unit 4 (Neoplasia)",
+  "topic": "Unit 4 (Neoplasia)",
+  "disorder": "Unit 4 (Neoplasia)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is reviewing surgical pathology reports for two clients with newly excised subcutaneous nodules. Which histological and biological characteristic distinguishes a <b>malignant</b> neoplasm from a benign neoplasm?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Slow, expansive growth enclosed within a distinct, cohesive fibrous capsule",
+            "correct": false
+          },
+          {
+            "text": "Cells that are well-differentiated and closely resemble the normal tissue of origin",
+            "correct": false
+          },
+          {
+            "text": "Local tissue infiltration with invasion across the basement membrane and capacity for distant metastasis",
+            "correct": true
+          },
+          {
+            "text": "Low mitotic index with normal nuclear-to-cytoplasmic ratio and absent necrosis",
+            "correct": false
+          }
+        ],
+        "preamble": "The ambulatory surgical oncology nurse is preparing to review pathology results with post-operative clients.",
+        "explanation": "The defining hallmark that differentiates malignant neoplasms from benign tumors is the capacity for local infiltration, invasion through surrounding normal tissue and basement membranes, and distant hematogenous or lymphatic metastasis. Benign tumors are typically slow-growing, well-differentiated, localized, encapsulated, and lack the biological capability to invade tissue borders or metastasize."
+      },
+      "leftContent": {
+        "intro": "Pathology reports are returned for two surgical specimens: Specimen A (a well-circumscribed thyroid follicular nodule) and Specimen B (an infiltrating retroperitoneal mass).",
+        "tabs": [
+          {
+            "id": "tab_u4_3_path",
+            "title": "Comparative Pathology",
+            "content": "<p><strong>Specimen A:</strong> Intact fibrous capsule; uniform glandular follicles; zero capsular or vascular invasion (Benign Follicular Adenoma).<br><strong>Specimen B:</strong> Infiltrative borders permeating adipose tissue; vascular invasion; nuclear atypia; necrotic foci (Malignant Liposarcoma).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

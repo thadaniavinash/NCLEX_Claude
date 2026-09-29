@@ -1,0 +1,38 @@
+{
+  "id": "standalone_1783050000006",
+  "title": "Unit 5 Stand-alone 6: Burn Resuscitation Bundle Sequence",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing emergent care to an adult client admitted immediately following a severe 40% TBSA thermal burn. Place the essential nursing interventions in the correct chronological priority order.",
+        "type": "ordered_response",
+        "options": [],
+        "orderedOptions": [
+          "Ensure the burning process is halted, evaluate airway patency, and provide 100% humidified oxygen via non-rebreather mask",
+          "Establish two large-bore (16- or 18-gauge) peripheral intravenous access lines and initiate warmed balanced crystalloid (Lactated Ringer's)",
+          "Insert an indwelling urinary catheter with an in-line urometer to titrate resuscitation to hourly urine output goals",
+          "Cover burn wounds with clean, dry sterile sheets and warm blankets to prevent hypothermia and cold-induced vasoconstriction",
+          "Review immunization history and administer intramuscular tetanus toxoid prophylaxis if indicated"
+        ],
+        "preamble": "The emergency trauma nurse is initiating emergent-phase care for a client with extensive thermal burn injuries.",
+        "explanation": "In major burn trauma: (1) Airway and breathing take absolute priority (ABCDE)—halt the burn source, assess inhalation injury, and administer 100% oxygen. (2) Circulation is secured next by establishing multiple large-bore IVs and starting warmed Lactated Ringer's based on standardized burn formulas. (3) An indwelling catheter with urometer must be placed immediately to monitor hourly urine output (the primary clinical benchmark for titration of fluid resuscitation). (4) Preventing hypothermia is critical, as burn clients lose epidermal thermal regulation; wounds are covered with clean dry sheets (never cold water or ice, which induce vasoconstriction and worsen ischemia). (5) Tetanus prophylaxis is administered once hemodynamic stabilization is underway."
+      },
+      "leftContent": {
+        "intro": "An adult client is transported to the trauma bay by paramedics 30 minutes after escaping a house fire, sustaining 40% TBSA flame burns across the torso and arms.",
+        "tabs": [
+          {
+            "id": "tab_u5_6_triage",
+            "title": "Trauma Bay Admission",
+            "content": "<p><strong>Primary Survey:</strong> Airway patent; singed nasal hairs; hoarse voice; spontaneous respirations at 28/min; SpO2 94% on room air; blood pressure 92/58 mmHg, pulse 124 beats/min.<br><strong>Wounds:</strong> Extensive blistering and leathery eschar across chest, abdomen, and both arms.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

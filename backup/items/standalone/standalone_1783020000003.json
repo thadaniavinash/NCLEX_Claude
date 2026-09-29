@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783020000003",
+  "title": "Unit 2 Stand-alone 3: Left Ventricular Hypertrophy",
+  "course": "NURS 1017",
+  "unit": "Unit 2 (Cellular Basis of Disease)",
+  "topic": "Unit 2 (Cellular Basis of Disease)",
+  "disorder": "Unit 2 (Cellular Basis of Disease)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "A client with a 15-year history of untreated essential hypertension undergoes echocardiography showing concentric left ventricular hypertrophy. Which cellular mechanism best explains this adaptive response in adult cardiomyocytes?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Increased rate of cardiomyocyte mitotic cell division leading to a higher total cell count",
+            "correct": false
+          },
+          {
+            "text": "Increased synthesis of sarcomeric myofilaments and structural proteins resulting in enlarged individual cell size",
+            "correct": true
+          },
+          {
+            "text": "Transformation of mature cardiac myocytes into embryonic skeletal muscle precursors",
+            "correct": false
+          },
+          {
+            "text": "Metastatic accumulation of extracellular lipid droplets within interstitial myocardial spaces",
+            "correct": false
+          }
+        ],
+        "preamble": "The cardiology clinic nurse is reviewing diagnostic imaging and educating a client regarding hypertensive heart disease.",
+        "explanation": "Adult cardiomyocytes are permanent cells with minimal to no regenerative or mitotic capacity. In response to chronic mechanical pressure overload (such as high systemic vascular resistance in hypertension), cardiomyocytes adapt via hypertrophy—enlargement of individual cell volume driven by accelerated transcription of structural genes, increased protein synthesis, and assembly of additional sarcomeric myofilaments to normalize ventricular wall tension (Laplace's Law). Hyperplasia cannot occur because mature cardiomyocytes cannot undergo mitotic replication."
+      },
+      "leftContent": {
+        "intro": "A 62-year-old client with untreated primary hypertension (office blood pressures consistently 168/98 to 174/102 mmHg) presents for cardiovascular risk evaluation.",
+        "tabs": [
+          {
+            "id": "tab_u2_3_echo",
+            "title": "Diagnostic Reports",
+            "content": "<p><strong>Transthoracic Echocardiogram:</strong> Left ventricular posterior wall thickness 15 mm (normal 6–11 mm); interventricular septal thickness 16 mm (normal 6–11 mm); concentric left ventricular hypertrophy with preserved ejection fraction (60%).<br><strong>Electrocardiogram (ECG):</strong> Voltage criteria for left ventricular hypertrophy with secondary ST-T wave changes (strain pattern) in lateral leads.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

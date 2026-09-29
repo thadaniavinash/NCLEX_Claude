@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783010000002",
+  "title": "Unit 1 Stand-alone 2: Clinical Manifestations (Signs vs. Symptoms)",
+  "course": "NURS 1017",
+  "unit": "Unit 1 (Introduction to Pathophysiology)",
+  "topic": "Unit 1 (Introduction to Pathophysiology)",
+  "disorder": "Unit 1 (Introduction to Pathophysiology)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is completing an admission assessment on a client presenting with acute pulmonary disease. Which of the following documented assessment findings represents an objective <b>clinical sign</b> rather than a subjective symptom?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Client states, 'I have felt short of breath for the past three days.'",
+            "correct": false
+          },
+          {
+            "text": "Auscultation of bilateral expiratory wheezes in both lower pulmonary lobes",
+            "correct": true
+          },
+          {
+            "text": "Client describes a sharp, stabbing retrosternal chest pain rated 7 out of 10",
+            "correct": false
+          },
+          {
+            "text": "Client reports feeling dizzy, fatigued, and nauseated after walking",
+            "correct": false
+          }
+        ],
+        "preamble": "The triage nurse is documenting physical assessment data in the electronic health record.",
+        "explanation": "A clinical sign is an objective finding that can be directly observed, measured, or verified by the healthcare provider through physical examination, diagnostic tools, or laboratory measurement (e.g., auscultated wheezes, blood pressure, fever). Subjective symptoms are personal perceptions or sensations verbalized exclusively by the client (e.g., dyspnea, nausea, fatigue, pain intensity)."
+      },
+      "leftContent": {
+        "intro": "An 64-year-old client presents to the emergency department accompanied by a spouse, reporting worsening respiratory difficulty over the last 72 hours.",
+        "tabs": [
+          {
+            "id": "tab_u1_2_triage",
+            "title": "Triage Intake",
+            "content": "<p><strong>Chief Complaint:</strong> Client reports severe shortness of breath and pleuritic chest soreness.<br><strong>Triage Vitals:</strong> T 37.8 °C, P 108, RR 26, BP 142/86, SpO2 89% on room air.<br><strong>Physical Assessment:</strong> Tachypneic with intercostal retractions; coarse expiratory wheezes audible bilaterally.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

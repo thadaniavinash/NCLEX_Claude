@@ -1,0 +1,84 @@
+{
+  "id": "standalone_1783050000005",
+  "title": "Unit 5 Stand-alone 5: Circumferential Burn Compartment Syndrome",
+  "course": "NURS 1017",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client's progress.",
+        "type": "bowtie",
+        "options": [],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Condition",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieActions": [
+          {
+            "text": "Notify the surgical provider immediately and prepare the client and equipment for bedside escharotomy",
+            "correct": true
+          },
+          {
+            "text": "Loosen any constrictive outer dressings and maintain the burned limb elevated at or slightly above heart level",
+            "correct": true
+          },
+          {
+            "text": "Apply tight elastic compression wraps around the entire circumference of the forearm",
+            "correct": false
+          },
+          {
+            "text": "Lower the extremity into a dependent position below the heart to increase gravity blood flow",
+            "correct": false
+          }
+        ],
+        "bowtieConditions": [
+          {
+            "text": "Burn-induced extremity compartment syndrome / neurovascular compromise",
+            "correct": true
+          },
+          {
+            "text": "Systemic toxic shock syndrome",
+            "correct": false
+          },
+          {
+            "text": "Severe allergic contact dermatitis",
+            "correct": false
+          }
+        ],
+        "bowtieParams": [
+          {
+            "text": "Hourly radial and ulnar Doppler pulse signals and distal capillary refill time",
+            "correct": true
+          },
+          {
+            "text": "Serial digital sensorimotor examinations (paresthesia, motor weakness) and compartment firmness",
+            "correct": true
+          },
+          {
+            "text": "Continuous central venous pressure line wave tracing",
+            "correct": false
+          },
+          {
+            "text": "Daily serum antinuclear antibody (ANA) titers",
+            "correct": false
+          }
+        ],
+        "preamble": "The burn care unit nurse is assessing an admitted client 8 hours into fluid resuscitation for extensive circumferential forearm burns.",
+        "explanation": "Full-thickness circumferential burns create a rigid, inelastic leather-like eschar. As vigorous fluid resuscitation progresses, profound interstitial edema develops within the non-yielding osteofascial compartment. When interstitial pressure exceeds capillary perfusion pressure, burn-induced compartment syndrome develops, causing microvascular collapse, tissue ischemia, necrosis of deep nerves and muscles, and eventual limb loss. The nurse must immediately recognize early neurovascular signs (loss of Doppler pulses, paresthesia, severe disproportionate pain, pallor, cold skin), notify the surgical team, prepare for emergency bedside escharotomy (incising the eschar to release constriction), loosen any dressings, and position the limb elevated. Monitoring involves hourly Doppler arterial assessments and distal neurovascular checks."
+      },
+      "leftContent": {
+        "intro": "A 42-year-old client with deep partial- and full-thickness circumferential burns to the right upper extremity is receiving crystalloid resuscitation.",
+        "tabs": [
+          {
+            "id": "tab_u5_5_neuro",
+            "title": "Neurovascular Assessment",
+            "content": "<p><strong>Hour 8 Post-Injury:</strong> Right hand is pale and cool; right radial pulse is no longer palpable and only faintly audible by ultrasonic Doppler; capillary refill > 4 seconds; client reports intense tingling, numbness in fingers, and severe throbbing deep muscular forearm pain. Forearm is tense and board-like on palpation.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

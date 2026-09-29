@@ -1,0 +1,56 @@
+{
+  "id": "standalone_1783010000009",
+  "title": "Unit 1 Stand-alone 9: Levels of Disease Prevention",
+  "course": "NURS 1017",
+  "unit": "Unit 1 (Introduction to Pathophysiology)",
+  "topic": "Unit 1 (Introduction to Pathophysiology)",
+  "disorder": "Unit 1 (Introduction to Pathophysiology)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The community health nurse is planning a cardiovascular health seminar. Which of the following interventions represent <b>primary prevention</b> strategies? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Educating adolescents on the vascular hazards of smoking and vaping to prevent initiation",
+            "correct": true
+          },
+          {
+            "text": "Administering annual influenza and pneumococcal immunizations to older adults",
+            "correct": true
+          },
+          {
+            "text": "Performing routine fasting lipid and blood pressure screenings at a community health fair",
+            "correct": false
+          },
+          {
+            "text": "Teaching a community cooking class focused on whole-food, low-sodium dietary habits",
+            "correct": true
+          },
+          {
+            "text": "Enrolling a client who survived a myocardial infarction into a supervised cardiac rehabilitation program",
+            "correct": false
+          },
+          {
+            "text": "Scheduling an annual mammogram for a 50-year-old female client",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse is classifying health interventions according to established epidemiologic levels of prevention.",
+        "explanation": "Primary prevention aims to alter susceptibility or reduce exposure to disease-causing agents before disease ever develops (e.g., smoking prevention education, immunizations, healthy diet education, exercise). Secondary prevention focuses on early detection, screening, and prompt intervention while the condition is subclinical or latent (e.g., blood pressure fairs, lipid screening, mammography, Pap tests). Tertiary prevention focuses on rehabilitation, disability limitation, and restoring optimal function after irreversible disease or organ damage has already occurred (e.g., cardiac rehabilitation post-MI, physical therapy post-stroke)."
+      },
+      "leftContent": {
+        "intro": "A public health nursing department is organizing outreach initiatives targeting cardiovascular and metabolic disease reduction across the county.",
+        "tabs": [
+          {
+            "id": "tab_u1_9_program",
+            "title": "Community Program Scope",
+            "content": "<p>The public health framework utilizes Leavell and Clark's three-tier model of prevention to allocate nursing resources across wellness education, screening clinics, and chronic disease support groups.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

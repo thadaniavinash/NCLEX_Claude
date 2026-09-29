@@ -1,0 +1,48 @@
+{
+  "id": "standalone_1783010000010",
+  "title": "Unit 1 Stand-alone 10: Dystrophic vs. Metastatic Pathologic Calcification",
+  "course": "NURS 1017",
+  "unit": "Unit 1 (Introduction to Pathophysiology)",
+  "topic": "Unit 1 (Introduction to Pathophysiology)",
+  "disorder": "Unit 1 (Introduction to Pathophysiology)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "An 82-year-old client with severe calcific aortic valve stenosis has a normal serum calcium level (2.3 mmol/L [9.2 mg/dL]). The nurse understands that this mineral deposition represents <b>dystrophic calcification</b> because it is characterized by which of the following pathophysiologic mechanisms?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Precipitation of calcium salts exclusively within previously damaged, necrotic, or degenerated tissues in the presence of normal systemic calcium levels",
+            "correct": true
+          },
+          {
+            "text": "Generalized calcium deposition in uninjured healthy tissues caused by sustained systemic hypercalcemia",
+            "correct": false
+          },
+          {
+            "text": "Massive bone demineralization caused by parathyroid adenoma oversecretion",
+            "correct": false
+          },
+          {
+            "text": "Systemic vitamin D toxicity leading to widespread vascular and renal parenchymal calcification",
+            "correct": false
+          }
+        ],
+        "preamble": "The cardiology clinic nurse is reviewing echocardiography and lab results with a resident nurse.",
+        "explanation": "Dystrophic calcification occurs locally in dying, necrotic, or chronically injured/degenerated tissues (such as scarred aortic valve leaflets, old tuberculous granulomas, or advanced atheromas) despite completely normal serum calcium metabolism and normal serum levels. In contrast, metastatic calcification occurs throughout normal, uninjured tissues (lungs, kidneys, gastric mucosa) as a result of systemic hypercalcemia (driven by primary hyperparathyroidism, extensive bone metastases, vitamin D toxicity, or chronic kidney disease)."
+      },
+      "leftContent": {
+        "intro": "An 82-year-old client undergoes evaluation for progressive exertional syncope and systolic murmur. Echocardiography demonstrates heavily calcified, rigid aortic valve cusps with a peak transvalvular gradient of 68 mmHg.",
+        "tabs": [
+          {
+            "id": "tab_u1_10_echo",
+            "title": "Echocardiogram & Labs",
+            "content": "<p><strong>Echocardiogram:</strong> Severe tricuspid aortic valve sclerosis with dense macroscopic calcification of left and non-coronary cusps; valve area 0.7 cm².<br><strong>Serum Chemistry:</strong> Total Calcium 2.30 mmol/L (normal 2.15–2.55 mmol/L); Ionized Calcium 1.20 mmol/L (normal 1.15–1.33 mmol/L); Phosphorus 1.1 mmol/L (normal 0.8–1.4 mmol/L).</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

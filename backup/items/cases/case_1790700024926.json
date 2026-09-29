@@ -1,0 +1,313 @@
+{
+  "id": "case_1790700024926",
+  "title": "New Case Study",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "explanation": ""
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_1790700024926_0",
+            "title": "Nurses' Notes",
+            "content": ""
+          },
+          {
+            "id": "vs_1790700024926_0",
+            "title": "Vital Signs",
+            "content": ""
+          }
+        ],
+        "intro": ""
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "firstColumnHeader": ""
+        },
+        "explanation": ""
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_1790700024926_1",
+            "title": "Nurses' Notes",
+            "content": ""
+          },
+          {
+            "id": "vs_1790700024926_1",
+            "title": "Vital Signs",
+            "content": ""
+          }
+        ],
+        "intro": ""
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "",
+        "type": "dyad",
+        "cloze": {
+          "text": "The client is most likely experiencing [[drop0]] as evidenced by [[drop1]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "explanation": ""
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_1790700024926_2",
+            "title": "Nurses' Notes",
+            "content": ""
+          },
+          {
+            "id": "vs_1790700024926_2",
+            "title": "Vital Signs",
+            "content": ""
+          }
+        ],
+        "intro": ""
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          },
+          {
+            "text": "",
+            "correct": false
+          }
+        ],
+        "explanation": ""
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_1790700024926_3",
+            "title": "Nurses' Notes",
+            "content": ""
+          },
+          {
+            "id": "vs_1790700024926_3",
+            "title": "Vital Signs",
+            "content": ""
+          }
+        ],
+        "intro": ""
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "firstColumnHeader": ""
+        },
+        "explanation": ""
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_1790700024926_4",
+            "title": "Nurses' Notes",
+            "content": ""
+          },
+          {
+            "id": "vs_1790700024926_4",
+            "title": "Vital Signs",
+            "content": ""
+          }
+        ],
+        "intro": ""
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The nurse should first [[drop0]] because the client [[drop1]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                },
+                {
+                  "text": "",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "explanation": ""
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_1790700024926_5",
+            "title": "Nurses' Notes",
+            "content": ""
+          },
+          {
+            "id": "vs_1790700024926_5",
+            "title": "Vital Signs",
+            "content": ""
+          }
+        ],
+        "intro": ""
+      }
+    }
+  ],
+  "description": ""
+}

@@ -1,0 +1,37 @@
+{
+  "id": "standalone_1783020000006",
+  "title": "Unit 2 Stand-alone 6: Post-Mortem Somatic Changes Sequence",
+  "course": "NURS 1017",
+  "unit": "Unit 2 (Cellular Basis of Disease)",
+  "topic": "Unit 2 (Cellular Basis of Disease)",
+  "disorder": "Unit 2 (Cellular Basis of Disease)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is reviewing the post-mortem physiological changes that occur following somatic death. Place the physiological post-mortem changes in the correct chronological sequence from earliest to latest occurrence.",
+        "type": "ordered_response",
+        "options": [],
+        "orderedOptions": [
+          "Cessation of cardiac output and respirations with gradual reduction of body temperature to ambient environmental temperature (algor mortis)",
+          "Gravitational settling of non-circulating blood into dependent cutaneous capillaries producing purple-red lividity (livor mortis)",
+          "Depletion of cellular ATP preventing actin-myosin detachment, resulting in progressive muscle stiffening (rigor mortis)",
+          "Resolution of muscular rigidity followed by generalized enzymatic autolysis and microbial decomposition (putrefaction)"
+        ],
+        "preamble": "The palliative care nurse is preparing educational materials regarding post-mortem nursing care and physiological stages after somatic death.",
+        "explanation": "Following somatic death (cessation of respiration and circulation): (1) Algor mortis begins immediately as metabolic heat production ceases and body temperature equilibrates to the ambient environment. (2) Livor mortis develops within 1 to 3 hours as blood settles into dependent microvasculature by gravity. (3) Rigor mortis develops as cellular glycogen and ATP stores are exhausted (typically starting within 2–4 hours, peaking at 12–18 hours); without ATP, actin and myosin cannot detach, causing persistent muscular rigidity. (4) Putrefaction and autolysis occur later (after 24–48 hours) as endogenous lysosomal enzymes and saprophytic intestinal microbes break down body tissues, accompanied by flaccidity."
+      },
+      "leftContent": {
+        "intro": "A hospice client with end-stage congestive heart failure passes away peacefully in the palliative care unit surrounded by family.",
+        "tabs": [
+          {
+            "id": "tab_u2_6_chart",
+            "title": "Clinical Record",
+            "content": "<p><strong>Pronouncement:</strong> Somatic death pronounced at 04:15 following absence of apical pulse, respirations, pupillary light reflex, and corneal reflexes.<br><strong>Post-Mortem Protocol:</strong> Family bereavement support facilitated; post-mortem care scheduled in accordance with cultural preferences.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

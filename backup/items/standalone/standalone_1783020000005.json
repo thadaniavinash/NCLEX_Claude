@@ -1,0 +1,62 @@
+{
+  "id": "standalone_1783020000005",
+  "title": "Unit 2 Stand-alone 5: Mechanisms of Cellular Adaptation",
+  "course": "NURS 1017",
+  "unit": "Unit 2 (Cellular Basis of Disease)",
+  "topic": "Unit 2 (Cellular Basis of Disease)",
+  "disorder": "Unit 2 (Cellular Basis of Disease)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "For each clinical scenario, select the primary cellular adaptation mechanism that is occurring.",
+        "type": "matrix_mc",
+        "matrix": {
+          "firstColumnHeader": "Clinical Scenario",
+          "columns": [
+            "Atrophy",
+            "Hypertrophy",
+            "Hyperplasia",
+            "Metaplasia",
+            "Dysplasia"
+          ],
+          "rows": [
+            {
+              "text": "Shrinkage of calf muscle fiber diameter in a paralyzed limb due to loss of motor nerve stimulation (denervation).",
+              "correctIndex": 0
+            },
+            {
+              "text": "Enlargement of skeletal muscle fibers in an athlete undergoing regular heavy resistance weight training.",
+              "correctIndex": 1
+            },
+            {
+              "text": "Rapid proliferation of uterine glandular endometrium driven by elevated estrogen during the menstrual cycle.",
+              "correctIndex": 2
+            },
+            {
+              "text": "Conversion of ciliated pseudostratified columnar bronchial epithelium to stratified squamous epithelium in a chronic tobacco smoker.",
+              "correctIndex": 3
+            },
+            {
+              "text": "Disordered cervical epithelial growth with marked variation in cellular shape, size, nuclear hyperchromatism, and architectural loss.",
+              "correctIndex": 4
+            }
+          ]
+        },
+        "preamble": "The nurse educator is reviewing cellular adaptation mechanisms and terminology with nursing students.",
+        "explanation": "Atrophy is a decrease in cell size and functional capacity due to decreased workload, denervation, ischemia, or malnutrition. Hypertrophy is an increase in individual cell size without cell division, typical of non-dividing cells like skeletal or cardiac muscle under increased workload. Hyperplasia is an increase in the number of cells in an organ capable of mitosis, driven by hormonal or compensatory stimuli. Metaplasia is a reversible phenotypic change where one adult mature cell type is replaced by another mature cell type better suited to a hostile environment. Dysplasia represents disordered growth and architectural derangement characterized by cellular pleomorphism and atypia; it is pre-neoplastic."
+      },
+      "leftContent": {
+        "intro": "The nursing team is completing a continuing education module on the cellular responses to stress, injury, and environmental demands.",
+        "tabs": [
+          {
+            "id": "tab_u2_5_ref",
+            "title": "Cellular Concepts Reference",
+            "content": "<p>Cells adapt to altered physiologic demands or sublethal pathologic stresses through modulated gene expression that alters cell size, cell number, or differentiation state.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "standalone_1783010000005",
+  "title": "Unit 1 Stand-alone 5: Acute Limb Ischemia & Reperfusion Injury Sequence",
+  "course": "NURS 1017",
+  "unit": "Unit 1 (Introduction to Pathophysiology)",
+  "topic": "Unit 1 (Introduction to Pathophysiology)",
+  "disorder": "Unit 1 (Introduction to Pathophysiology)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is caring for a client with acute lower extremity arterial occlusion who has just undergone surgical revascularization. Place the pathophysiological sequence of ischemic cell injury and reperfusion in the correct chronological order from earliest event to latest event.",
+        "type": "ordered_response",
+        "options": [],
+        "orderedOptions": [
+          "Arterial occlusion stops microvascular blood flow, causing cellular hypoxia and depletion of ATP stores",
+          "Membrane pumps fail, leading to intracellular sodium, water, and calcium accumulation",
+          "Surgical embolectomy restores blood and oxygen delivery into the previously ischemic vascular bed",
+          "Restored oxygen reacts with accumulated xanthine oxidase metabolites to generate massive toxic reactive oxygen species (free radicals)",
+          "Free radical lipid peroxidation damages cell membranes, triggering microvascular swelling and reperfusion tissue injury"
+        ],
+        "preamble": "The vascular progressive care nurse is reviewing the cellular mechanisms of reperfusion injury.",
+        "explanation": "Ischemia-reperfusion injury follows a precise chronological sequence: First, arterial occlusion prevents oxygen delivery, halting mitochondrial ATP production. Second, energetic depletion causes active ion pump failure, resulting in cellular hydropic swelling and calcium overload. Third, surgical restoration of flow re-oxygenates ischemic tissue. Fourth, reintroduced oxygen reacts with xanthine and hypoxanthine (accumulated during ischemia) in the presence of xanthine oxidase, producing a sudden burst of reactive oxygen species (superoxide, hydrogen peroxide, hydroxyl radicals). Fifth, these free radicals cause membrane lipid peroxidation, enzyme denaturation, and microvascular endothelial swelling that exacerbates tissue injury beyond the original ischemia."
+      },
+      "leftContent": {
+        "intro": "A 68-year-old client with acute right femoral-popliteal arterial thrombosis undergoes emergency balloon embolectomy with successful clot extraction and restoration of palpable pedal pulses.",
+        "tabs": [
+          {
+            "id": "tab_u1_5_op",
+            "title": "Operative Summary",
+            "content": "<p><strong>Procedure:</strong> Right femoral cutdown with Fogarty balloon thrombectomy. Large occlusive saddle thrombus extracted. Prompt return of strong brisk arterial pulsatile backbleeding. Right foot warmed and recolored pink with brisk capillary refill within 10 minutes post-restoration.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

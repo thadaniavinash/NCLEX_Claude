@@ -1,0 +1,56 @@
+{
+  "id": "standalone_1783020000002",
+  "title": "Unit 2 Stand-alone 2: Benign Prostatic Hyperplasia (BPH)",
+  "course": "NURS 1017",
+  "unit": "Unit 2 (Cellular Basis of Disease)",
+  "topic": "Unit 2 (Cellular Basis of Disease)",
+  "disorder": "Unit 2 (Cellular Basis of Disease)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing care to an older adult client recently diagnosed with benign prostatic hyperplasia (BPH). Which clinical assessment findings and cellular mechanisms should the nurse anticipate? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Increase in the total number of prostatic stromal and glandular epithelial cells",
+            "correct": true
+          },
+          {
+            "text": "Hesitancy, weak urinary stream, and post-void dribbling",
+            "correct": true
+          },
+          {
+            "text": "Increased post-void residual volume predisposing to urinary stasis and infection",
+            "correct": true
+          },
+          {
+            "text": "Hypertrophy of individual skeletal muscle fibers in the anterior abdominal wall",
+            "correct": false
+          },
+          {
+            "text": "Enlargement primarily localized to the transition zone surrounding the urethra",
+            "correct": true
+          },
+          {
+            "text": "Obligatory malignant invasion into the pelvic lymph nodes",
+            "correct": false
+          }
+        ],
+        "preamble": "The urology nurse is evaluating a 68-year-old male presenting with progressive lower urinary tract symptoms.",
+        "explanation": "BPH is characterized by pathologic hyperplasia—an increase in the total number of cells in the transition (periurethral) zone of the prostate gland, driven predominantly by dihydrotestosterone (DHT) stimulation. As the transitional tissue expands, it compresses the prostatic urethra, leading to mechanical bladder outlet obstruction, urinary hesitancy, diminished stream caliber, nocturia, post-void dribbling, and incomplete bladder emptying with elevated post-void residual volume. BPH is a benign proliferative disorder and does not represent an obligatory malignant lesion."
+      },
+      "leftContent": {
+        "intro": "A 68-year-old male presents to the outpatient urology clinic reporting progressive difficulty voiding, waking 4 to 5 times per night to urinate, and feeling that his bladder never completely empties.",
+        "tabs": [
+          {
+            "id": "tab_u2_2_uro",
+            "title": "Urological Assessment",
+            "content": "<p><strong>Digital Rectal Examination:</strong> Symmetrically enlarged, smooth, firm prostate without palpable nodules or induration.<br><strong>Bladder Ultrasound (Post-Void):</strong> Residual urine volume 240 mL (normal < 50 mL).<br><strong>Urinalysis:</strong> Trace leukocytes, negative nitrites, specific gravity 1.018.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

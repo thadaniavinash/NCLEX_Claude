@@ -1,0 +1,56 @@
+{
+  "id": "standalone_1783010000004",
+  "title": "Unit 1 Stand-alone 4: Hepatic Steatosis & Intracellular Accumulation",
+  "course": "NURS 1017",
+  "unit": "Unit 1 (Introduction to Pathophysiology)",
+  "topic": "Unit 1 (Introduction to Pathophysiology)",
+  "disorder": "Unit 1 (Introduction to Pathophysiology)",
+  "isStandalone": true,
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse is providing care to a client with chronic alcohol use disorder recently diagnosed with hepatic steatosis (intracellular fatty accumulation). Which pathophysiologic concepts and clinical findings should the nurse anticipate? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Impaired lipid metabolism resulting in accumulation of triglyceride vacuoles within hepatocytes",
+            "correct": true
+          },
+          {
+            "text": "Smooth, non-tender hepatomegaly noted upon right upper quadrant palpation",
+            "correct": true
+          },
+          {
+            "text": "Elevation in serum alanine aminotransferase (ALT) and aspartate aminotransferase (AST)",
+            "correct": true
+          },
+          {
+            "text": "Immediate irreversible cell death that cannot resolve with alcohol cessation",
+            "correct": false
+          },
+          {
+            "text": "Fatty change represents a reversible cellular response to toxic metabolic injury",
+            "correct": true
+          },
+          {
+            "text": "Total absence of intracellular lipid droplets on microscopic liver biopsy",
+            "correct": false
+          }
+        ],
+        "preamble": "The clinic nurse is reviewing health records and educating a client regarding hepatic cellular adaptations.",
+        "explanation": "Hepatic steatosis (fatty liver) occurs when toxic insult (such as alcohol metabolism producing excess NADH) deranges lipid metabolism, causing abnormal accumulation of neutral triglycerides inside hepatocyte cytoplasm. It commonly presents as asymptomatic or mild smooth hepatomegaly with transaminase elevations (AST/ALT). Crucially, fatty change is a form of reversible cellular injury; if the toxic stimulus (alcohol consumption) is removed, normal hepatocyte lipid clearance resumes and the liver can recover."
+      },
+      "leftContent": {
+        "intro": "A 44-year-old client attends an outpatient medical follow-up after an ultrasound performed for vague right-sided abdominal fullness revealed marked diffuse hepatic enlargement with increased echogenicity.",
+        "tabs": [
+          {
+            "id": "tab_u1_4_us",
+            "title": "Ultrasound Report",
+            "content": "<p><strong>Findings:</strong> Diffuse increased parenchymal echogenicity with posterior acoustic attenuation, characteristic of moderate to severe diffuse hepatic steatosis. Liver span measured at 17.5 cm (hepatomegaly). No focal mass lesions or biliary ductal dilation identified.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}
