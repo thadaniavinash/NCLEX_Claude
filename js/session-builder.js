@@ -703,9 +703,10 @@ function createNewCase() {
         step: i + 1,
         leftContent: {
           intro: '',
+          // The same tabs (same ids) on every screen, so what is written carries forward.
           tabs: [
-            { id: `nn_${stamp}_${i}`, title: "Nurses' Notes", content: '' },
-            { id: `vs_${stamp}_${i}`, title: 'Vital Signs', content: '' }
+            { id: `nn_${stamp}`, title: "Nurses' Notes", content: '' },
+            { id: `vs_${stamp}`, title: 'Vital Signs', content: templateTableHTML('vitals') + '<p><br></p>' }
           ]
         },
         question
@@ -786,6 +787,9 @@ function initRichTextEditors() {
       richCommand('insertText', symbol);
     } else if (btn.classList.contains('table-insert-btn')) {
       openTableSizePicker(btn, editor);
+      return;
+    } else if (btn.dataset.noteAct) {
+      noteToolbarAction(btn.dataset.noteAct);
       return;
     } else if (btn.classList.contains('symbol-menu-btn')) {
       openSymbolMenu(btn, editor);

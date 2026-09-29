@@ -107,7 +107,7 @@ function notesEditorOpen(tab, preferredMode) {
     rowsBtn.disabled = !rows;
     rowsBtn.title = rows ? 'One entry per time or date' : 'This tab has a table or list; edit it as free text';
     bar.querySelector('.notes-mode-hint').textContent = mode === 'rows'
-      ? 'Tab moves to the note, Enter adds the next entry, Shift+Enter starts a new line in a note. +T adds a bold title above a note.'
+      ? 'Tab moves to the note, Enter adds the next entry, Shift+Enter starts a new line in a note. T+ in the toolbar adds a bold title above the current note.'
       : (rows ? 'Start a line with a time and press Tab (or type "0800:") to make it a timed entry.'
               : 'This tab contains a table or list, so it is edited as free text.');
   }
@@ -117,9 +117,12 @@ function notesEditorOpen(tab, preferredMode) {
     free.classList.add('hidden');
     rowsBox.classList.remove('hidden');
     if (tableBtn) tableBtn.classList.remove('hidden'); // a table switches the tab to free text (tableInsertTarget)
+    noteToolsEntryIndex = 0;
+    showNoteTools(true);
     renderNoteRows();
   } else {
     notesEditorState = null;
+    showNoteTools(false);
     free.classList.remove('hidden');
     rowsBox.classList.add('hidden');
     rowsBox.innerHTML = '';
@@ -165,12 +168,13 @@ function renderNoteRows(focusIndex, focusField) {
         <p class="note-entry-warn hidden" role="status"></p>
       </div>
       <div class="note-entry-actions">
-        <button type="button" class="note-entry-btn note-entry-title-btn" data-act="title" tabindex="-1" title="${row.showTitle ? 'Remove the title' : 'Add a title above this note'}" aria-label="${row.showTitle ? 'Remove the title of' : 'Add a title to'} entry ${i + 1}">${row.showTitle ? '&minus;T' : '+T'}</button>
-        <button type="button" class="note-entry-btn" data-act="up" tabindex="-1" title="Move up (Alt+↑)" aria-label="Move entry ${i + 1} up" ${i === 0 ? 'disabled' : ''}>&uarr;</button>
-        <button type="button" class="note-entry-btn" data-act="down" tabindex="-1" title="Move down (Alt+↓)" aria-label="Move entry ${i + 1} down" ${i === state.rows.length - 1 ? 'disabled' : ''}>&darr;</button>
         <button type="button" class="note-entry-btn danger" data-act="delete" tabindex="-1" title="Delete entry" aria-label="Delete entry ${i + 1}">&times;</button>
       </div>`;
     const timeInput = el.querySelector('.note-entry-time');
+    // The time box is only as wide as its label ("0800" is short; "0800 (DOL 2)" grows).
+    const fitTime = () => { timeInput.style.width = `${Math.min(18, Math.max(6, timeInput.value.length + 2))}ch`; };
+    fitTime();
+    timeInput.addEventListener('input', fitTime);
     const titleInput = el.querySelector('.note-entry-title');
     const text = el.querySelector('.note-entry-text');
     text.innerHTML = row.html;
@@ -292,7 +296,13 @@ function handleFreeTextNotesTab(e) {
 
 function initNotesEditor() {
   const rowsBox = document.getElementById('notes-row-editor');
-  if (rowsBox) rowsBox.addEventListener('paste', handleNoteRowsPaste);
+  if (rowsBox) {
+    rowsBox.addEventListener('paste', handleNoteRowsPaste);
+    rowsBox.addEventListener('focusin', e => {
+      const entry = e.target.closest('.note-entry');
+      if (entry) noteToolsEntryIndex = Array.from(rowsBox.querySelectorAll('.note-entry')).indexOf(entry);
+    });
+  }
   const bar = document.getElementById('notes-mode-bar');
   if (bar) bar.querySelectorAll('[data-notes-mode]').forEach(btn => btn.addEventListener('click', () => switchNotesMode(btn.dataset.notesMode)));
   const title = document.getElementById('tab-title-input');
@@ -407,4 +417,62 @@ function handleNoteRowsPaste(e) {
   state.dirty = true;
   renderNoteRows((empty ? index : index + 1) + pasted.length - 1, 'text');
   showToast(`Pasted ${pasted.length} entries.`);
+}
+
+/* ---- Entry tools in the tab's formatting toolbar: Title, Move up, Move down ----
+   They act on the entry that has (or last had) the cursor, so each entry row keeps only its
+   delete button and the note gets the width. */
+
+let noteToolsEntryIndex = 0;
+
+function ensureNoteTools() {
+  const toolbar = document.querySelector('#tab-content-editor .rich-editor-toolbar');
+  if (!toolbar || toolbar.querySelector('.note-tool')) return toolbar;
+  const tools = [
+    ['title', '<b>T</b>+', 'Title: show or hide a bold title above the note of the current entry'],
+    ['up', '&uarr;', 'Move the current entry up (Alt+↑)'],
+    ['down', '&darr;', 'Move the current entry down (Alt+↓)']
+  ];
+  const sep = document.createElement('span');
+  sep.className = 'note-tool toolbar-sep';
+  const expand = toolbar.querySelector('.toolbar-expand-btn');
+  toolbar.insertBefore(sep, expand);
+  tools.forEach(([act, html, title]) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'toolbar-btn note-tool';
+    b.dataset.noteAct = act;
+    b.innerHTML = html;
+    b.title = title;
+    b.setAttribute('aria-label', title.split(':')[0]);
+    toolbar.insertBefore(b, expand);
+  });
+  return toolbar;
+}
+
+function showNoteTools(show) {
+  const toolbar = ensureNoteTools();
+  if (toolbar) toolbar.querySelectorAll('.note-tool').forEach(el => el.classList.toggle('hidden', !show));
+}
+
+function noteToolbarAction(act) {
+  const state = notesEditorState;
+  const { rowsBox } = notesEditorElements();
+  if (!state || !rowsBox) return;
+  const entries = rowsBox.querySelectorAll('.note-entry');
+  const i = Math.min(noteToolsEntryIndex, state.rows.length - 1);
+  const row = state.rows[i];
+  if (!row || !entries[i]) return;
+  row.html = entries[i].querySelector('.note-entry-text').innerHTML;
+  if (act === 'title') {
+    row.showTitle = !row.showTitle;
+    if (!row.showTitle && row.title) { row.title = ''; state.dirty = true; }
+    renderNoteRows();
+    const entry = rowsBox.querySelectorAll('.note-entry')[i];
+    if (row.showTitle) entry.querySelector('.note-entry-title').focus();
+    else placeCaretAtEnd(entry.querySelector('.note-entry-text'));
+  } else {
+    moveNoteRow(i, act === 'up' ? -1 : 1, 'text');
+    noteToolsEntryIndex = Math.max(0, Math.min(state.rows.length - 1, i + (act === 'up' ? -1 : 1)));
+  }
 }

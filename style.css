@@ -6854,3 +6854,47 @@ html:not([data-theme="dark"]) .rich-editor-container > .rich-editor-toolbar { ba
 .symbol-menu button:hover, .symbol-menu button:focus-visible { background: var(--surface-selected); border-color: var(--brand-sky); outline: none; }
 .note-entry-warn { margin: 0; font-size: var(--fs-xs); color: var(--warning-text); }
 html[data-theme="dark"] .note-entry-warn { color: var(--warning); }
+
+/* ================= EDITOR: MORE ROOM FOR CHART TEXT ================= */
+/* Narrower screen list */
+#editor-view .editor-steps-sidebar { width: 152px; padding: 12px 8px; }
+#editor-view .step-nav-item { padding-left: 8px; padding-right: 8px; }
+
+/* Drag handle between the chart and the question panes (initEditorPaneDivider) */
+.editor-pane-divider {
+  flex: 0 0 6px;
+  cursor: col-resize;
+  background: var(--border-dash);
+  position: relative;
+  touch-action: none;
+}
+.editor-pane-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  width: 4px;
+  height: 36px;
+  margin-top: -18px;
+  border-radius: 2px;
+  background: var(--text-muted);
+  opacity: 0.5;
+}
+.editor-pane-divider:hover, .editor-pane-divider.dragging, .editor-pane-divider:focus-visible { background: var(--brand-sky); outline: none; }
+html:not([data-theme="dark"]) #editor-view .editor-pane-divider:not(:hover):not(.dragging):not(:focus-visible) { background: #cbd5e1; }
+#editor-view .pane-left { border-right: none; min-width: 0; }
+#editor-view .pane-right { min-width: 0; }
+@media (max-width: 900px) { .editor-pane-divider { display: none; } }
+
+/* Less nested padding around chart tabs */
+#editor-view .pane-left .pane-body { padding: 16px; }
+#editor-view .tab-content-editor-box { padding: 10px; }
+#editor-view .notes-row-editor { padding: var(--space-2); }
+
+/* Timed entries: time (as wide as its label) | note (the rest) | delete */
+.note-entry { grid-template-columns: auto minmax(0, 1fr) 24px; gap: 6px; }
+.note-entry-time { min-width: 6ch; box-sizing: content-box; }
+.note-entry-text.rich-text-editor { min-height: 56px; }
+.note-entry-actions { opacity: 0.5; }
+.note-entry-actions .note-entry-btn { width: 24px; }
+.toolbar-sep { width: 1px; align-self: stretch; margin: 2px 2px; background: var(--border-dash); }

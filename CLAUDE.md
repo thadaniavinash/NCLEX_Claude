@@ -278,6 +278,12 @@ Done (authoring, September 2026):
   downloads from this container (Cloudflare/nginx 403); the WebFetch tool reaches it.
   **No markers for new entries (user decision): on the NCLEX nothing new is highlighted; the nurse reads
   the whole chart.**
+- More room for chart text: narrower screen list (152px); a drag handle between the chart and question
+  panes (`initEditorPaneDivider`, 30–75%, remembered per browser in `localStorage.nclex_editor_split`,
+  double-click resets, arrow keys move it); less nested padding; timed entries are time (as wide as its
+  label) | note | ×, with the entry tools in the tab's toolbar ("T+" title, ↑ ↓ move; `noteToolbarAction`,
+  acting on the entry with the cursor). A new case's default tabs share their ids across the six screens
+  and its Vital Signs tab starts as the ready-made table.
 - Vital Signs tables leave the first header cell empty (user decision: the tab name says it). The
   template does; the 142 existing tables with "Parameter" / "Vital Sign" / "Time" / "Parameter /
   Assessment" there were cleared with `drafts/build_vitals_header.py` → `drafts/vitals_header_patch.json`.

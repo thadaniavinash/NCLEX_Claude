@@ -112,6 +112,7 @@ function initEditorEvents() {
   initNotesEditor();
   initEditorPreview();
   initEditorChangeTracking();
+  initEditorPaneDivider();
 
   document.getElementById('question-type-select').addEventListener('change', (e) => {
     const prevType = currentCase.screens[currentStepIndex].question.type;
@@ -382,7 +383,65 @@ function setEditorDirty(dirty) {
 }
 
 // Clicks that only change what is shown, not the content.
-const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn';
+const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, #editor-pane-divider, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn';
+
+// The chart pane's share of the width (per browser, remembered): drag the divider, arrow keys move
+// it by 5%, double-click resets to half and half.
+const EDITOR_SPLIT_KEY = 'nclex_editor_split';
+
+function setEditorSplit(percent, remember = true) {
+  const left = document.querySelector('#editor-view .pane-left');
+  const divider = document.getElementById('editor-pane-divider');
+  if (!left || !divider) return;
+  if (percent == null) {
+    left.style.flex = '';
+    divider.setAttribute('aria-valuenow', '50');
+    if (remember) { try { localStorage.removeItem(EDITOR_SPLIT_KEY); } catch (e) {} }
+    return;
+  }
+  const p = Math.max(30, Math.min(75, percent));
+  left.style.flex = `0 0 ${p}%`;
+  divider.setAttribute('aria-valuenow', String(Math.round(p)));
+  if (remember) { try { localStorage.setItem(EDITOR_SPLIT_KEY, String(p)); } catch (e) {} }
+}
+
+function initEditorPaneDivider() {
+  const divider = document.getElementById('editor-pane-divider');
+  const split = document.querySelector('#editor-view .editor-main-split');
+  if (!divider || !split) return;
+  divider.setAttribute('aria-valuemin', '30');
+  divider.setAttribute('aria-valuemax', '75');
+  let saved = null;
+  try { saved = parseFloat(localStorage.getItem(EDITOR_SPLIT_KEY)); } catch (e) {}
+  if (saved) setEditorSplit(saved, false);
+  const current = () => {
+    const left = document.querySelector('#editor-view .pane-left');
+    return left.getBoundingClientRect().width / split.getBoundingClientRect().width * 100;
+  };
+  divider.addEventListener('pointerdown', e => {
+    e.preventDefault();
+    divider.setPointerCapture(e.pointerId);
+    divider.classList.add('dragging');
+    const move = ev => {
+      const r = split.getBoundingClientRect();
+      setEditorSplit((ev.clientX - r.left) / r.width * 100);
+    };
+    const up = () => {
+      divider.classList.remove('dragging');
+      divider.removeEventListener('pointermove', move);
+      divider.removeEventListener('pointerup', up);
+    };
+    divider.addEventListener('pointermove', move);
+    divider.addEventListener('pointerup', up);
+  });
+  divider.addEventListener('dblclick', () => setEditorSplit(null));
+  divider.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      setEditorSplit(current() + (e.key === 'ArrowRight' ? 5 : -5));
+    }
+  });
+}
 
 function initEditorChangeTracking() {
   const view = document.getElementById('editor-view');
