@@ -11,8 +11,9 @@
 
 function chartBlockKey(node) {
   const text = (node.textContent || '').replace(/\s+/g, ' ').trim();
-  if (!text) return '';
-  return node.nodeName === 'TABLE' ? `table:${text}` : text;
+  // A new table counts before anything is typed into it, so it is carried forward too.
+  if (node.nodeName === 'TABLE') return `table:${text || `(empty ${node.rows.length}x${node.rows[0] ? node.rows[0].cells.length : 0})`}`;
+  return text;
 }
 
 // Top-level pieces of a tab's content that carry text: note rows, paragraphs, lists, tables.

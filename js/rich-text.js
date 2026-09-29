@@ -179,8 +179,10 @@ function openTableSizePicker(button, editor) {
     if (!b) return;
     editor.focus();
     if (savedRange) { const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(savedRange); }
-    if (b.dataset.template) insertTableHTMLAtCursor(editor, templateTableHTML(b.dataset.template));
-    else insertTableAtCursor(editor, +b.dataset.r, +b.dataset.c);
+    // In a timed-entries tab the table goes into the tab itself, after the current entry.
+    const target = typeof tableInsertTarget === 'function' ? tableInsertTarget(editor) : editor;
+    if (b.dataset.template) insertTableHTMLAtCursor(target, templateTableHTML(b.dataset.template));
+    else insertTableAtCursor(target, +b.dataset.r, +b.dataset.c);
     closeTableSizePicker();
   });
   show(2, 2);

@@ -258,7 +258,10 @@ Done (authoring, September 2026):
 - Timed entries for every chart tab without a table or list (not only Nurses' Notes): a new blank tab
   opens as time + note entries; each entry can have an optional bold title above the note ("+T"), stored
   as `<b>Title</b><br>` at the start of `.nurse-note-text` (`splitNoteTitle` in `js/notes-editor.js`).
-  Tabs with tables/lists stay in free text (19 of 214 distinct text tabs in September 2026).
+  Tabs with tables/lists stay in free text (19 of 214 distinct text tabs in September 2026). The Table
+  button also works in a timed-entries tab (blank table or ready-made Vital signs / Laboratory results):
+  the tab switches to free text with every entry kept and the table goes after the entry with the
+  cursor (`tableInsertTarget`); new empty tables carry forward like any entry.
 - Vital Signs tables leave the first header cell empty (user decision: the tab name says it). The
   template does; the 142 existing tables with "Parameter" / "Vital Sign" / "Time" / "Parameter /
   Assessment" there were cleared with `drafts/build_vitals_header.py` → `drafts/vitals_header_patch.json`.

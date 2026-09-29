@@ -116,7 +116,7 @@ function notesEditorOpen(tab, preferredMode) {
     notesEditorState = { tabId: tab.id, rows: rows.length ? rows : [noteRow('', '')], dirty: false };
     free.classList.add('hidden');
     rowsBox.classList.remove('hidden');
-    if (tableBtn) tableBtn.classList.add('hidden');
+    if (tableBtn) tableBtn.classList.remove('hidden'); // a table switches the tab to free text (tableInsertTarget)
     renderNoteRows();
   } else {
     notesEditorState = null;
@@ -292,4 +292,28 @@ function initNotesEditor() {
   if (bar) bar.querySelectorAll('[data-notes-mode]').forEach(btn => btn.addEventListener('click', () => switchNotesMode(btn.dataset.notesMode)));
   const title = document.getElementById('tab-title-input');
   if (title) title.addEventListener('change', () => switchNotesMode(notesModeChoice[activeTabId]));
+}
+
+// The Table button in timed-entry mode: a table cannot sit inside one entry, so the tab switches to
+// free text (every entry kept) and the cursor goes after the entry that had it (or to the end).
+// Returns the free-text editor to insert into.
+function tableInsertTarget(editor) {
+  if (!editor || !editor.classList.contains('note-entry-text') || !notesEditorState) return editor;
+  const entries = Array.from(document.querySelectorAll('#notes-row-editor .note-entry-text'));
+  const index = entries.indexOf(editor);
+  const kept = notesEditorState.rows.slice(0, index + 1)
+    .filter(r => r.time.trim() || (r.title || '').trim() || hasText(r.html)).length;
+  notesEditorState.dirty = true;
+  switchNotesMode('free');
+  const { free } = notesEditorElements();
+  free.focus();
+  const blocks = Array.from(free.childNodes).filter(n => n.nodeType === Node.ELEMENT_NODE || n.textContent.trim());
+  const range = document.createRange();
+  const anchor = index >= 0 && kept > 0 ? blocks[kept - 1] : null;
+  if (anchor) range.setStartAfter(anchor); else { range.selectNodeContents(free); range.collapse(false); }
+  range.collapse(true);
+  const sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+  return free;
 }
