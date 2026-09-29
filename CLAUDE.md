@@ -134,9 +134,10 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 
 ## User decisions so far
 
-- Keep `files/ECG1.jpg`. Keep the incomplete items (two empty "New Case Study", empty "New Stand-alone
-  Question", Bowtie-Stroke without correct parameters, Case Study 1 (cardio) with a blank correct
-  drop-down option); they are hidden from students until the author finishes them.
+- Keep `files/ECG1.jpg`. The incomplete items (two empty "New Case Study", empty "New Stand-alone
+  Question", Case Study 1 (cardio), and a third "New Case Study") were deleted from the database between
+  02:45 and 16:52 UTC on 29 Sep 2026, presumably by the author in the studio (to be confirmed); their last
+  versions are kept in `backup/deleted/`. Bowtie-Stroke without correct parameters is still hidden.
 - Select-all options were shuffled and rationales relabeled "(Option N)" at the user's request.
 - The DMD case (NURS 1017 Unit 3 Case Study 4) is in the bank; its medical content still merits
   clinician review.
