@@ -1,0 +1,110 @@
+{
+  "id": "standalone_1790776800001",
+  "title": "University of Maryland - CS2 Trend",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Stand-alone trend for the Tuberculosis case (University of Maryland - CS2): changes between the first visit and the 4-week follow-up.",
+  "isStandalone": true,
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 48-year-old female client with tuberculosis is seen in the clinic at a 4-week follow-up appointment.",
+        "tabs": [
+          {
+            "id": "nn_1790776800001",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">April 25:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results. VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30. Labs and chest X-ray obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">May 25:</span><span class=\"nurse-note-text\">Client returns for a follow-up appointment 4 weeks after being diagnosed with a tuberculosis infection. Reports missing several doses of medication. Continues to have a productive cough and is tired most days. Rates pain with the cough at 3/10, but now has new abdominal pain.<br>VS: T 98.8&deg;F (37.1&deg;C), P 80, RR 22, BP 144/88, pulse oximetry reading 95% on room air. Repeat WBC 9.0 &times; 10<sup>9</sup>/L.</span></p>"
+          },
+          {
+            "id": "labs_1790776800001",
+            "title": "Laboratory and Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">April 25</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>5.0&ndash;10.0 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>150&ndash;400 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">358 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>115&ndash;155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.36&ndash;0.48 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.35 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>&lt; 5.7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.0%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>&lt; 5.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Aspartate aminotransferase (AST)</b><br>9&ndash;32 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>19&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">21 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Diagnostic Study</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">April 25</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Moderate bilateral pleural effusion</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders_1790776800001",
+            "title": "Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">April 25:</span><span class=\"nurse-note-text\">Rifapentine 1200 mg PO daily<br>Moxifloxacin 400 mg PO daily<br>Isoniazid 300 mg PO daily<br>Pyrazinamide 2000 mg PO daily</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "",
+        "stem": "For each finding, click to specify if the finding indicates the client's status has improved, declined, or is unchanged.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Improved",
+            "Declined",
+            "Unchanged"
+          ],
+          "rows": [
+            {
+              "text": "Missing several doses of medication",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Productive cough",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Blood pressure",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Temperature",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Fatigue",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "WBC count",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pain characteristics",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "The elevated blood pressure and the missed doses of medication are cause for further assessment and client education. The new abdominal pain could be a sign of a medication side effect or liver involvement.<br>The temperature is now normal, and the WBC count is within normal limits.<br>The pulse oximetry reading (95% on room air), the productive cough, and the fatigue are unchanged from the initial visit.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tuberculosis&rdquo; medical-surgical faculty case study, stand-alone trend (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

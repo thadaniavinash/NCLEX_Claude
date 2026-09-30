@@ -354,49 +354,49 @@
           ],
           "rows": [
             {
-              "text": "&ldquo;Your cholesterol is high, and we need to discuss your diet.&rdquo;",
+              "text": "“Your cholesterol is high, and we need to discuss your diet.”",
               "correctIndex": 1,
               "correctIndices": [
                 1
               ]
             },
             {
-              "text": "&ldquo;You will need to take the medications every day for at least 4 months.&rdquo;",
+              "text": "“You will need to take the medications every day for at least 4 months.”",
               "correctIndex": 0,
               "correctIndices": [
                 0
               ]
             },
             {
-              "text": "&ldquo;If you continue to cough at home, please save all of your sputum.&rdquo;",
+              "text": "“If you continue to cough at home, please save all of your sputum.”",
               "correctIndex": 2,
               "correctIndices": [
                 2
               ]
             },
             {
-              "text": "&ldquo;You will need to have regular labs to check the effects of this medication on your liver.&rdquo;",
+              "text": "“You will need to have regular labs to check the effects of this medication on your liver.”",
               "correctIndex": 0,
               "correctIndices": [
                 0
               ]
             },
             {
-              "text": "&ldquo;Try to pace your activities to preserve your energy.&rdquo;",
+              "text": "“Try to pace your activities to preserve your energy.”",
               "correctIndex": 0,
               "correctIndices": [
                 0
               ]
             },
             {
-              "text": "&ldquo;Tuberculosis is not spread by germs on dishes or linens.&rdquo;",
+              "text": "“Tuberculosis is not spread by germs on dishes or linens.”",
               "correctIndex": 0,
               "correctIndices": [
                 0
               ]
             },
             {
-              "text": "&ldquo;Your A1C is high, and you may have diabetes.&rdquo;",
+              "text": "“Your A1C is high, and you may have diabetes.”",
               "correctIndex": 1,
               "correctIndices": [
                 1

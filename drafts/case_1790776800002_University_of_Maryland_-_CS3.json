@@ -1,0 +1,382 @@
+{
+  "id": "case_1790776800002",
+  "title": "University of Maryland - CS3",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County. Acute respiratory failure (medical-surgical): a 78-year-old client in the ICU with pneumonia progresses to intubation and mechanical ventilation.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_1790776800002",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
+          },
+          {
+            "id": "labs_1790776800002",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_n",
+        "limit": 4,
+        "stem": "Select the <b>4</b> findings that are <b>most</b> urgent.",
+        "options": [
+          {
+            "text": "BP 168/90",
+            "correct": false
+          },
+          {
+            "text": "WBC 35.0 × 10⁹/L",
+            "correct": false
+          },
+          {
+            "text": "Lactate 4.5 mmol/L",
+            "correct": false
+          },
+          {
+            "text": "pH 7.20",
+            "correct": true
+          },
+          {
+            "text": "PaCO₂ 51 mm Hg",
+            "correct": true
+          },
+          {
+            "text": "PaO₂ 75 mm Hg",
+            "correct": false
+          },
+          {
+            "text": "Respiratory rate 30",
+            "correct": true
+          },
+          {
+            "text": "Blood culture: gram-negative cocci",
+            "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading 87%",
+            "correct": true
+          }
+        ],
+        "explanation": "The client has signs and symptoms of infection and respiratory failure. The most urgent findings are related to respiratory failure: a pH of 7.20 indicating an acidic state, a PaCO<sub>2</sub> above 50 mm Hg, tachypnea (RR 30), and a pulse oximetry reading of 87% on high-flow oxygen. The blood pressure is elevated but is not yet critical.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_1790776800002",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
+          },
+          {
+            "id": "labs_1790776800002",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "stem": "For each finding, click to specify if the finding is consistent with acute respiratory failure or pneumonia. Each finding may support more than one condition.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Acute Respiratory Failure",
+            "Pneumonia"
+          ],
+          "rows": [
+            {
+              "text": "Crackles in bilateral lower lobes",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading 87% on 100% oxygen",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": "PaCO₂ 51 mm Hg",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "pH 7.20",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Bilateral crackles can be associated with both conditions and are common in respiratory illnesses. A pulse oximetry reading of 87% indicates a low level of oxygen in the blood, which can be caused by either condition.<br>A PaCO<sub>2</sub> of 51 mm Hg and a pH of 7.20 indicate respiratory acidosis and are consistent with acute respiratory failure.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_1790776800002",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
+          },
+          {
+            "id": "labs_1790776800002",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "multiple_choice",
+        "stem": "What does the nurse determine is the priority for this client's care?",
+        "options": [
+          {
+            "text": "Administering corticosteroids to reduce inflammation",
+            "correct": false
+          },
+          {
+            "text": "Intubating for mechanical ventilation support",
+            "correct": true
+          },
+          {
+            "text": "Opening airways with aerosol treatments",
+            "correct": false
+          },
+          {
+            "text": "Treating infection with antibiotics",
+            "correct": false
+          }
+        ],
+        "explanation": "Acute respiratory failure is characterized by the lungs' inability to oxygenate properly. The client has had a poor response to maximum supplemental oxygen and now needs mechanical ventilation.<br>The respiratory failure was most likely caused by pneumonia; treating the pneumonia should take place next. Aerosols and corticosteroids may be incorporated into the treatment plan but are not as critical as intubation.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_1790776800002",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 14; BP 180/90; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p>"
+          },
+          {
+            "id": "labs_1790776800002",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 0930. The nurse plans care for the client after beginning mechanical ventilation.",
+        "stem": "For each potential intervention, click to specify whether the intervention is indicated or not indicated to include in the plan of care.",
+        "matrix": {
+          "firstColumnHeader": "Potential Intervention",
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "rows": [
+            {
+              "text": "Administer sedatives",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Repeat chest X-ray",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Schedule suctioning every 2 hours",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administer amiodarone",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administer IV antibiotics",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Position supine with head midline",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Obtain an electrocardiogram (ECG)",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Most intubated clients require sedation to prevent them from fighting the ventilator. A chest X-ray should be done after intubation to confirm endotracheal tube placement. Antibiotics are indicated to fight infection. The client has tachycardia and an elevated blood pressure, which makes obtaining an ECG important.<br>Suctioning can damage tracheal tissue and should be done as needed, not on a schedule. Amiodarone, an antiarrhythmic, is not indicated because no arrhythmia has been identified. Positioning the client supine is not indicated; semi-Fowler's or prone positioning is best to help with postural drainage.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_1790776800002",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 14; BP 180/90; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p>"
+          },
+          {
+            "id": "labs_1790776800002",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight_2",
+        "preamble": "The nurse has reviewed the Laboratory Results and receives orders.",
+        "stem": "Click to highlight the <b>3</b> orders the nurse should implement <b>first</b>.",
+        "maxCorrectSelections": 3,
+        "highlightTabs": [
+          {
+            "id": "ht_1790776800002",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Insert urinary catheter}<br>{Suction endotracheal tube as needed}<br>{Titrate oxygen to keep pulse oximetry reading at or above 95%}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Start IV of 0.9% sodium chloride at 75 mL/hr|correct}<br>{Amoxicillin 500 mg IVPB every 12 hours}<br>{Midazolam 2&ndash;4 mg IV push every 1 hour as needed for agitation|correct}<br>{Acetaminophen 650 mg per rectum every 8 hours as needed for T &gt; 100.8&deg;F (38.2&deg;C)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Perform 12-lead ECG}<br>{Call for chest X-ray|correct}<br>{Blood gas in 30 minutes}</td></tr></tbody></table>"
+          }
+        ],
+        "explanation": "A chest X-ray is needed after intubation to confirm optimal endotracheal tube placement. The client does not yet have venous access; this should be established immediately so medications can be given. The BP and heart rate are significantly elevated, and the client is agitated; sedation (midazolam) should be given to decrease agitation and the risk of self-extubation.<br>Next, an ECG can be done and antibiotics can be given. The oxygen level is above 95%, so adjustments are not needed, and there is no indication that suctioning is needed. The blood gas is not due yet. The urinary catheter can be placed after other treatments.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_1790776800002",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8&deg;F (37.7&deg;C); HR 110; RR 14; BP 180/90; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Chest X-ray obtained. IV placed and midazolam given. ECG shows sinus tachycardia. VS: T 99.8&deg;F (37.7&deg;C); HR 100; RR 14; BP 150/70; pulse oximetry reading 93% on FiO<sub>2</sub> 60%; drowsy, &minus;1 on sedation scale.</span></p>"
+          },
+          {
+            "id": "labs_1790776800002",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders_1790776800002",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Insert urinary catheter<br>Suction endotracheal tube as needed<br>Titrate oxygen to keep pulse oximetry reading at or above 95%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Start IV of 0.9% sodium chloride at 75 mL/hr<br>Amoxicillin 500 mg IVPB every 12 hours<br>Midazolam 2&ndash;4 mg IV push every 1 hour as needed for agitation<br>Acetaminophen 650 mg per rectum every 8 hours as needed for T &gt; 100.8&deg;F (38.2&deg;C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Perform 12-lead ECG<br>Call for chest X-ray<br>Blood gas in 30 minutes</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1000 and the Orders. The nurse reassesses the client at 1000 and compares the findings to 0930.",
+        "stem": "For each finding, click to specify if the finding indicates that the client's status has improved, declined, or is unchanged.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Improved",
+            "Declined",
+            "Unchanged"
+          ],
+          "rows": [
+            {
+              "text": "Heart rate",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Temperature",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Respiratory rate",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Blood pressure",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Agitation",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "The heart rate decreased from 110 to 100 and the blood pressure dropped from 180/90 to 150/70; both indicate improvement. The client is drowsy, showing that the agitation has decreased.<br>The temperature and respiratory rate remain unchanged. The pulse oximetry reading has declined slightly (96% to 93%); the nurse should assess the lung sounds to determine if suctioning or ventilator changes are needed.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

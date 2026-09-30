@@ -10,7 +10,8 @@ Changes from the source (flag for clinician review):
 - Isoniazid order: the source lists 1000 mg PO daily, above the 300 mg maximum daily dose; shown as
   300 mg PO daily (the dose used in the 4-month rifapentine-moxifloxacin regimen).
 - Answer keys and rationales are the author's (light punctuation only). The source's stand-alone trend
-  question is not included.
+  question is the separate item drafts/build_umd_cs2_trend.py (University of Maryland - CS2 Trend).
+- Option and matrix-row labels are plain text in the player (no HTML or entities): quotes are “ ” characters.
 
 Usage: python3 drafts/build_umd_cs2.py  ->  drafts/case_1790769567553_University_of_Maryland_-_CS2.json
 """
@@ -199,13 +200,13 @@ screens = [
         "stem": ("For each client teaching point, click to specify whether the information needs to be provided "
                  "immediately, at the time of client follow-up, or is not indicated for this client."),
         "matrix": matrix("Client Teaching Point", ["Immediately", "On Return Visit", "Not Indicated"], [
-            ("&ldquo;Your cholesterol is high, and we need to discuss your diet.&rdquo;", 1),
-            ("&ldquo;You will need to take the medications every day for at least 4 months.&rdquo;", 0),
-            ("&ldquo;If you continue to cough at home, please save all of your sputum.&rdquo;", 2),
-            ("&ldquo;You will need to have regular labs to check the effects of this medication on your liver.&rdquo;", 0),
-            ("&ldquo;Try to pace your activities to preserve your energy.&rdquo;", 0),
-            ("&ldquo;Tuberculosis is not spread by germs on dishes or linens.&rdquo;", 0),
-            ("&ldquo;Your A1C is high, and you may have diabetes.&rdquo;", 1)]),
+            ("“Your cholesterol is high, and we need to discuss your diet.”", 1),
+            ("“You will need to take the medications every day for at least 4 months.”", 0),
+            ("“If you continue to cough at home, please save all of your sputum.”", 2),
+            ("“You will need to have regular labs to check the effects of this medication on your liver.”", 0),
+            ("“Try to pace your activities to preserve your energy.”", 0),
+            ("“Tuberculosis is not spread by germs on dishes or linens.”", 0),
+            ("“Your A1C is high, and you may have diabetes.”", 1)]),
         "explanation": ("Teaching about the medication schedule and length of treatment, liver monitoring, energy "
                         "conservation, and how tuberculosis is (and is not) spread is needed immediately.<br>"
                         "The cholesterol is high and the A1C is elevated but in the prediabetes range. These should "

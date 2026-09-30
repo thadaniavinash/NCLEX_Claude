@@ -1,0 +1,107 @@
+[
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "matrix",
+   "rows",
+   0,
+   "text"
+  ],
+  "before": "&ldquo;Your cholesterol is high, and we need to discuss your diet.&rdquo;",
+  "after": "“Your cholesterol is high, and we need to discuss your diet.”"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "matrix",
+   "rows",
+   1,
+   "text"
+  ],
+  "before": "&ldquo;You will need to take the medications every day for at least 4 months.&rdquo;",
+  "after": "“You will need to take the medications every day for at least 4 months.”"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "matrix",
+   "rows",
+   2,
+   "text"
+  ],
+  "before": "&ldquo;If you continue to cough at home, please save all of your sputum.&rdquo;",
+  "after": "“If you continue to cough at home, please save all of your sputum.”"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "matrix",
+   "rows",
+   3,
+   "text"
+  ],
+  "before": "&ldquo;You will need to have regular labs to check the effects of this medication on your liver.&rdquo;",
+  "after": "“You will need to have regular labs to check the effects of this medication on your liver.”"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "matrix",
+   "rows",
+   4,
+   "text"
+  ],
+  "before": "&ldquo;Try to pace your activities to preserve your energy.&rdquo;",
+  "after": "“Try to pace your activities to preserve your energy.”"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "matrix",
+   "rows",
+   5,
+   "text"
+  ],
+  "before": "&ldquo;Tuberculosis is not spread by germs on dishes or linens.&rdquo;",
+  "after": "“Tuberculosis is not spread by germs on dishes or linens.”"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "screens",
+   4,
+   "question",
+   "matrix",
+   "rows",
+   6,
+   "text"
+  ],
+  "before": "&ldquo;Your A1C is high, and you may have diabetes.&rdquo;",
+  "after": "“Your A1C is high, and you may have diabetes.”"
+ }
+]

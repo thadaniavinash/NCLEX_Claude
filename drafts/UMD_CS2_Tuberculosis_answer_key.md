@@ -1,8 +1,8 @@
-# University of Maryland - CS2: Tuberculosis (medical-surgical) — answer key
+# University of Maryland - CS2 — answer key
 
 Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: “Tuberculosis” medical-surgical faculty case study (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.
 
-Converted from the University of Maryland School of Nursing "Tuberculosis DOCX" (Medical-Surgical faculty case studies). Course/unit: Others (same as CS1). ID: `case_1790769567553`.
+Converted from the University of Maryland School of Nursing "Tuberculosis DOCX" (Medical-Surgical faculty case studies). Course/unit: Others (same as CS1). ID: `case_1790769567553`. Added **hidden from students (draft)** until reviewed.
 
 ## For clinician review
 
@@ -10,8 +10,8 @@ Converted from the University of Maryland School of Nursing "Tuberculosis DOCX" 
 2. **Lab values converted to SI units**, keeping the author's reference ranges so the questions key as written: WBC 12,000/mm³ → 12.0 × 10⁹/L (5.0–10.0); platelets 358 × 10⁹/L (150–400); Hgb 10.8 g/dL → 108 g/L (115–155); Hct 35% → 0.35 L/L (0.36–0.48); total cholesterol 220 mg/dL → 5.7 mmol/L (< 5.2); repeat WBC 9,000 → 9.0 × 10⁹/L. These ranges differ from the MCC list used in the editor (e.g. MCC ALT 17–63 IU/L vs the source's 19–25 U/L).
 3. **HbA1c range.** The source uses < 5.7% (ADA). Diabetes Canada and MCC put the upper limit of normal at 6.0% (6.0–6.4% = prediabetes), so the client's 6.0% is at the prediabetes threshold; screen 5 keys "Your A1C is high, and you may have diabetes" as a return-visit teaching point, which still holds.
 4. **Screen 2 keys temperature, cough and pain characteristics as risk factors.** These are manifestations of TB rather than risk factors; kept as the author keyed them.
-5. **Screen 4:** "N95 face mask" (N95 respirator) protects against **airborne** transmission; the source rationale also said droplet, which was dropped.
-6. Short clarifying sentences were added to the screen 2 and screen 5 rationales (why the other rows are keyed as they are); otherwise the rationales are the author's, with light punctuation fixes. The source's stand-alone **trend** question is not included (it can be added as a separate stand-alone question).
+5. **Screen 4:** an N95 respirator protects against **airborne** transmission; the source rationale also said droplet, which was dropped.
+6. Short clarifying sentences were added to the screen 2 and screen 5 rationales; otherwise the rationales are the author's, with light punctuation fixes. The source's stand-alone trend is the separate item **University of Maryland - CS2 Trend**.
 
 ## Screen 1 · Recognize cues · `select_n`
 
