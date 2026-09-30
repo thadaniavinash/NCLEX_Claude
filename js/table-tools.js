@@ -264,9 +264,11 @@ function runTableAction(btn) {
   if (!cell || !cell.isConnected) return;
   const editor = cell.closest('[contenteditable="true"]');
   const action = btn.dataset.tableAction;
-  if (action === 'table-delete' && !btn.classList.contains('is-confirming')) {
+  // Every delete asks for a second click: what it removes cannot be brought back.
+  if (/-delete$/.test(action) && !btn.classList.contains('is-confirming')) {
+    resetTableDeleteButton();
     btn.classList.add('is-confirming');
-    btn.textContent = 'Click again to delete';
+    btn.textContent = action === 'table-delete' ? 'Click again to delete' : 'Click again';
     clearTimeout(tableToolsConfirmTimer);
     tableToolsConfirmTimer = setTimeout(() => resetTableDeleteButton(), 3000);
     return;
@@ -291,8 +293,10 @@ function runTableAction(btn) {
 
 function resetTableDeleteButton() {
   clearTimeout(tableToolsConfirmTimer);
-  const btn = document.querySelector('#table-tools-bar [data-table-action="table-delete"]');
-  if (btn) { btn.classList.remove('is-confirming'); btn.textContent = 'Delete table'; }
+  document.querySelectorAll('#table-tools-bar .is-confirming').forEach(btn => {
+    btn.classList.remove('is-confirming');
+    btn.textContent = TABLE_TOOLS_ACTIONS.find(a => a.id === btn.dataset.tableAction).label;
+  });
 }
 
 // Outlines the row, column or table the hovered toolbar button will change.

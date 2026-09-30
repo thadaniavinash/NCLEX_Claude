@@ -263,8 +263,15 @@ Done (authoring, September 2026):
   N)"/"Option N" in the rationale are renumbered) and a warning when option 1 is correct.
 - Bowtie option fields grow to show long text.
 - Timed entries for every chart tab without a table or list (not only Nurses' Notes): a new blank tab
-  opens as time + note entries; each entry can have an optional bold title above the note ("+T"), stored
-  as `<b>Title</b><br>` at the start of `.nurse-note-text` (`splitNoteTitle` in `js/notes-editor.js`).
+  opens as time + note entries; each entry can have an optional bold title on its own line above the
+  time and note ("T+"), stored as a `<p><b>Title</b></p>` paragraph just before the entry (the form older
+  cases already used; `titleParagraphText` in `js/notes-editor.js`; the old `<b>Title</b><br>` inside
+  the note is still read). In free-text tabs (tables) T+ adds a bold title line above the table or
+  paragraph with the cursor (`insertFreeTextTitle`). Deleting a timed entry, a table row or a column
+  takes a second click ("Delete?"), like Delete table (user request, 30 Sep 2026: an entry deleted on
+  the screen where it first appears is also removed from later screens and cannot be brought back in the
+  studio; the 1000 entry of NURS 1021 Unit 3 Case Study 1 was restored from the 29 Sep backup with
+  `drafts/build_restore_1021_u3c1_notes.py` → workflow `patch`).
   Tabs with tables/lists stay in free text (19 of 214 distinct text tabs in September 2026). The Table
   button also works in a timed-entries tab (blank table or ready-made Vital signs / Laboratory results):
   the tab switches to free text with every entry kept and the table goes after the entry with the

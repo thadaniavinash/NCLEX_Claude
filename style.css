@@ -6900,3 +6900,19 @@ label.meta-chip::after { content: '\25BE'; font-size: 10px; opacity: .7; }
 #editor-view .editor-modal .btn-primary:hover { background: var(--brand-hover); }
 #editor-view .editor-modal .btn-secondary { background: var(--surface); border: 1px solid var(--border); color: var(--text); }
 #editor-view .editor-modal .btn-secondary:hover { background: var(--surface-sunken); }
+
+/* Timed entries: the optional title sits on its own line above the time and note; the delete button
+   asks for a second click ("Delete?"). */
+.note-entry { grid-template-columns: auto minmax(0, 1fr) auto; }
+.note-entry > .note-entry-title { grid-column: 1 / -1; }
+.note-entry-actions:has(.is-confirming) { opacity: 1; }
+.note-entry-actions .note-entry-btn.is-confirming,
+.note-entry-btn.is-confirming {
+  width: auto;
+  padding: 0 8px;
+  background: var(--danger-bg);
+  color: var(--danger-text);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  white-space: nowrap;
+}

@@ -2,11 +2,14 @@
 
    Any chart tab without a table or list (Nurses' Notes, History and Physical, reports, orders, vital
    signs or results written as text) is edited as a list of entries, each with a time or date label
-   ("0800", "0800 (DOL 2)", "Day 3 0800", "09/14 0800"), an optional title shown in bold above the
-   note, and the note text. Tab moves from the label to the text, Enter starts the next entry. The
-   entries are stored as the <p class="nurse-note-row"> markup the player already shows (the title as
-   "<b>Title</b><br>" at the start of the note), so no content changes. Tabs holding tables or lists,
-   and any tab the author prefers, use the free-text editor. */
+   ("0800", "0800 (DOL 2)", "Day 3 0800", "09/14 0800"), an optional title shown in bold on its own
+   line above the time and note, and the note text. Tab moves from the label to the text, Enter starts
+   the next entry. The entries are stored as the <p class="nurse-note-row"> markup the player already
+   shows, each title as a bold paragraph "<p><b>Title</b></p>" just before its entry (the form older
+   cases already use, e.g. "Emergency Department" above the first note), so no content changes.
+   Tabs holding tables or lists, and any tab the author prefers, use the free-text editor; there T+
+   puts a bold title line above the table or paragraph with the cursor. Deleting an entry takes a
+   second click. */
 
 const NOTE_LABEL_MAX = 60; // longest label the player keeps as an authored row (isAuthoredNoteRow)
 
@@ -26,18 +29,32 @@ function splitNoteTitle(html) {
   return { title: tmp.value.trim(), html: m[3] };
 }
 
-function noteRow(time, html) {
+function noteRow(time, html, heading) {
   const { title, html: body } = splitNoteTitle(html);
-  return { time, title, html: body, showTitle: !!title };
+  const t = heading || title;
+  return { time, title: t, html: body, showTitle: !!t };
+}
+
+// A paragraph holding only bold text ("<p><b>Emergency Department</b></p>") is the title of the entry
+// that follows it. Returns the title text, or ''.
+function titleParagraphText(node) {
+  if (!['p', 'div'].includes(node.tagName.toLowerCase()) || node.classList.contains('nurse-note-row')) return '';
+  const kids = Array.from(node.childNodes).filter(n => !(n.nodeType === Node.TEXT_NODE && !n.textContent.trim()) && n.nodeName !== 'BR');
+  if (kids.length !== 1 || !/^(B|STRONG)$/.test(kids[0].nodeName) || kids[0].children.length) return '';
+  return kids[0].textContent.replace(/\u00a0/g, ' ').trim();
 }
 
 // Entries of a chart tab, or null when the content has something rows cannot hold (tables, lists…).
 function parseNoteRows(html) {
   const doc = new DOMParser().parseFromString(`<div>${formatNursesNotes(html || '', "Nurses' Notes")}</div>`, 'text/html');
   const rows = [];
+  let pendingTitle = '';
+  const push = (time, html) => { rows.push(noteRow(time, html, pendingTitle)); pendingTitle = ''; };
+  // A title with no entry after it stays a bold line of its own.
+  const flushTitle = () => { if (pendingTitle) { rows.push(noteRow('', `<b>${escapeHTML(pendingTitle)}</b>`)); pendingTitle = ''; } };
   for (const node of Array.from(doc.body.firstChild.childNodes)) {
     if (node.nodeType === Node.TEXT_NODE) {
-      if (node.textContent.trim()) rows.push(noteRow('', escapeHTML(node.textContent.trim())));
+      if (node.textContent.trim()) push('', escapeHTML(node.textContent.trim()));
       continue;
     }
     if (node.nodeType !== Node.ELEMENT_NODE) continue;
@@ -47,17 +64,20 @@ function parseNoteRows(html) {
       const time = node.querySelector('.nurse-note-time');
       const text = node.querySelector('.nurse-note-text');
       if (!time || !text) return null;
-      rows.push(noteRow(time.textContent.replace(/ /g, ' ').replace(/:\s*$/, '').trim(), text.innerHTML));
+      push(time.textContent.replace(/ /g, ' ').replace(/:\s*$/, '').trim(), text.innerHTML);
       continue;
     }
     if (tag === 'p' || tag === 'div') {
       if (node.querySelector('table, ul, ol, img, p, div')) return null;
       if (!hasText(node.innerHTML)) continue;
-      rows.push(noteRow('', node.innerHTML));
+      const title = titleParagraphText(node);
+      if (title) { flushTitle(); pendingTitle = title; continue; }
+      push('', node.innerHTML);
       continue;
     }
     return null; // table, list, heading, image…
   }
+  flushTitle();
   return rows;
 }
 
@@ -66,12 +86,13 @@ function serializeNoteRows(rows) {
     .filter(r => r.time.trim() || (r.title || '').trim() || hasText(r.html))
     .map(r => {
       const title = (r.title || '').trim();
-      const body = r.html.replace(/(<br\s*\/?>\s*)+$/i, '');
-      const html = title ? `<b>${escapeHTML(title)}</b><br>${body}` : body;
+      const html = r.html.replace(/(<br\s*\/?>\s*)+$/i, '');
+      const heading = title ? `<p><b>${escapeHTML(title)}</b></p>` : '';
       const label = r.time.trim().replace(/:\s*$/, '');
-      return label
+      if (!label && !hasText(html)) return heading;
+      return heading + (label
         ? `<p class="nurse-note-row"><span class="nurse-note-time">${escapeHTML(label)}:</span><span class="nurse-note-text">${html}</span></p>`
-        : `<p>${html}</p>`;
+        : `<p>${html}</p>`);
     })
     .join('');
 }
@@ -107,9 +128,9 @@ function notesEditorOpen(tab, preferredMode) {
     rowsBtn.disabled = !rows;
     rowsBtn.title = rows ? 'One entry per time or date' : 'This tab has a table or list; edit it as free text';
     bar.querySelector('.notes-mode-hint').textContent = mode === 'rows'
-      ? 'Tab moves to the note, Enter adds the next entry, Shift+Enter starts a new line in a note. T+ in the toolbar adds a bold title above the current note.'
+      ? 'Tab moves to the note, Enter adds the next entry, Shift+Enter starts a new line in a note. T+ in the toolbar adds a bold title above the current entry.'
       : (rows ? 'Start a line with a time and press Tab (or type "0800:") to make it a timed entry.'
-              : 'This tab contains a table or list, so it is edited as free text.');
+              : 'This tab contains a table or list, so it is edited as free text. T+ in the toolbar adds a bold title above the table or paragraph with the cursor.');
   }
 
   if (mode === 'rows') {
@@ -122,7 +143,7 @@ function notesEditorOpen(tab, preferredMode) {
     renderNoteRows();
   } else {
     notesEditorState = null;
-    showNoteTools(false);
+    showNoteTools('free');
     free.classList.remove('hidden');
     rowsBox.classList.add('hidden');
     rowsBox.innerHTML = '';
@@ -161,9 +182,9 @@ function renderNoteRows(focusIndex, focusField) {
     const el = document.createElement('div');
     el.className = 'note-entry';
     el.innerHTML = `
+      <input type="text" class="note-entry-title ${row.showTitle ? '' : 'hidden'}" placeholder="Title (optional), shown in bold above the time and note" aria-label="Title for entry ${i + 1}" value="${escapeHTML(row.title || '')}">
       <input type="text" class="note-entry-time" maxlength="${NOTE_LABEL_MAX}" placeholder="0800" aria-label="Time or date of entry ${i + 1}" value="${escapeHTML(row.time)}">
       <div class="note-entry-body">
-        <input type="text" class="note-entry-title ${row.showTitle ? '' : 'hidden'}" placeholder="Title (optional), shown in bold above the note" aria-label="Title for entry ${i + 1}" value="${escapeHTML(row.title || '')}">
         <div class="note-entry-text rich-text-editor" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Note for entry ${i + 1}" placeholder="Note…"></div>
         <p class="note-entry-warn hidden" role="status"></p>
       </div>
@@ -179,7 +200,7 @@ function renderNoteRows(focusIndex, focusField) {
     const text = el.querySelector('.note-entry-text');
     text.innerHTML = row.html;
     titleInput.addEventListener('input', () => { row.title = titleInput.value; state.dirty = true; });
-    titleInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); placeCaretAtEnd(text); } });
+    titleInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); timeInput.focus(); } });
 
     timeInput.addEventListener('input', () => { row.time = timeInput.value; state.dirty = true; updateNoteTimeHints(); });
     timeInput.addEventListener('keydown', e => {
@@ -197,7 +218,7 @@ function renderNoteRows(focusIndex, focusField) {
         state.rows.splice(i + 1, 0, noteRow('', ''));
         state.dirty = true;
         renderNoteRows(i + 1, 'time');
-      } else if (e.key === 'Backspace' && !hasText(text.innerHTML) && !row.time.trim() && state.rows.length > 1) {
+      } else if (e.key === 'Backspace' && !hasText(text.innerHTML) && !row.time.trim() && !(row.title || '').trim() && state.rows.length > 1) {
         e.preventDefault();
         state.rows.splice(i, 1);
         state.dirty = true;
@@ -219,6 +240,17 @@ function renderNoteRows(focusIndex, focusField) {
         return;
       }
       if (btn.dataset.act === 'delete') {
+        // An entry cannot be brought back once saved, so deleting takes a second click.
+        const empty = !row.time.trim() && !(row.title || '').trim() && !hasText(row.html);
+        if (!empty && !btn.classList.contains('is-confirming')) {
+          rowsBox.querySelectorAll('.note-entry-btn.is-confirming').forEach(resetNoteDeleteButton);
+          btn.classList.add('is-confirming');
+          btn.textContent = 'Delete?';
+          btn.title = 'Click again to delete this entry. An entry deleted on the screen where it first appears is also removed from the later screens.';
+          clearTimeout(btn.confirmTimer);
+          btn.confirmTimer = setTimeout(() => resetNoteDeleteButton(btn), 3000);
+          return;
+        }
         state.rows.splice(i, 1);
         if (!state.rows.length) state.rows.push(noteRow('', ''));
         state.dirty = true;
@@ -250,6 +282,13 @@ function renderNoteRows(focusIndex, focusField) {
       else entry.querySelector('.note-entry-time').focus();
     }
   }
+}
+
+function resetNoteDeleteButton(btn) {
+  clearTimeout(btn.confirmTimer);
+  btn.classList.remove('is-confirming');
+  btn.innerHTML = '&times;';
+  btn.title = 'Delete entry';
 }
 
 function moveNoteRow(i, delta, focusField) {
@@ -450,12 +489,54 @@ function ensureNoteTools() {
   return toolbar;
 }
 
+// show: true (timed entries: T+, ↑, ↓), 'free' (free text: only T+, which adds a title line) or false.
 function showNoteTools(show) {
   const toolbar = ensureNoteTools();
-  if (toolbar) toolbar.querySelectorAll('.note-tool').forEach(el => el.classList.toggle('hidden', !show));
+  if (!toolbar) return;
+  toolbar.querySelectorAll('.note-tool').forEach(el => {
+    const visible = show === true || (show === 'free' && (el.dataset.noteAct === 'title' || el.classList.contains('toolbar-sep')));
+    el.classList.toggle('hidden', !visible);
+  });
+  const t = toolbar.querySelector('[data-note-act="title"]');
+  if (t) t.title = show === 'free'
+    ? 'Title: add a bold title line above the table or paragraph with the cursor'
+    : 'Title: show or hide a bold title above the time and note of the current entry';
+}
+
+// Free text (tabs with tables): puts "<p><b>Title</b></p>" above the top-level block with the cursor
+// (or above the first table) and selects the word so typing replaces it.
+let freeTextLastRange = null;
+document.addEventListener('selectionchange', () => {
+  const free = document.getElementById('tab-text-input');
+  const sel = window.getSelection();
+  if (free && sel.rangeCount && free.contains(sel.getRangeAt(0).startContainer)) freeTextLastRange = sel.getRangeAt(0).cloneRange();
+});
+
+function insertFreeTextTitle() {
+  const free = document.getElementById('tab-text-input');
+  if (!free) return;
+  let block = null;
+  if (freeTextLastRange && free.contains(freeTextLastRange.startContainer)) {
+    block = freeTextLastRange.startContainer;
+    while (block && block.parentNode !== free) block = block.parentNode;
+  }
+  if (!block) block = Array.from(free.children).find(el => el.matches('table') || el.querySelector('table')) || free.firstChild;
+  const p = document.createElement('p');
+  const b = document.createElement('b');
+  b.textContent = 'Title';
+  p.appendChild(b);
+  free.insertBefore(p, block && block.parentNode === free ? block : free.firstChild);
+  free.focus();
+  const range = document.createRange();
+  range.selectNodeContents(b);
+  const sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+  free.dispatchEvent(new Event('input', { bubbles: true }));
 }
 
 function noteToolbarAction(act) {
+  if (!notesEditorState) { if (act === 'title') insertFreeTextTitle(); return; }
   const state = notesEditorState;
   const { rowsBox } = notesEditorElements();
   if (!state || !rowsBox) return;
