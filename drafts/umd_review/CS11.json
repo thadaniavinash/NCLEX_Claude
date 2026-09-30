@@ -1,0 +1,27 @@
+{
+  "cs": 11,
+  "topic": "End Stage Renal Disease and Dialysis",
+  "source": "End-Stage-Renal-Disease-and-Dialysis.docx",
+  "items": [
+    {
+      "id": "case_1790776800011",
+      "title": "University of Maryland - CS11",
+      "file": "drafts/case_1790776800011_University_of_Maryland_-_CS11.json"
+    },
+    {
+      "id": "standalone_1790776801111",
+      "title": "University of Maryland - CS11 Bowtie",
+      "file": "drafts/standalone_1790776801111_University_of_Maryland_-_CS11_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Screen 2: the source's finding rows had values that differ from the lab report (creatinine 11.7 vs 10.7 mg/dL, phosphorus 5.4 vs 5.8 mg/dL, neutrophils 89% vs 89.8%); the chart's values are used, in SI units.",
+    "Screen 4: enoxaparin keyed \"not appropriate in ESRD\". Dose-adjusted enoxaparin is sometimes used in severe CKD, though unfractionated heparin is preferred; consider \"Enoxaparin 40 mg subcutaneous daily\" wording or a clearer rationale. Vancomycin keyed not appropriate (gram-negative rods); note that empiric PD-peritonitis therapy (ISPD) covers gram-positive organisms too until cultures return.",
+    "Screen 5 uses LPN (US term); in Ontario this is the RPN. Delegation keys follow US scope; please confirm for your program.",
+    "Screen 6: \"leave the exit site open to air or covered by loose clothing\" is keyed does not understand (rationale: cover with sterile gauze). Exit-site dressing practice varies once the site is healed; please confirm with your program's PD teaching.",
+    "Dialysate WBC reference range is \"Few\" in the source; the usual peritonitis threshold is > 100 cells/µL with > 50% neutrophils. Consider adding it as the reference range.",
+    "Labs in SI with the author's ranges: urea 46 mg/dL → 16.4 mmol/L (3.6-7.1); creatinine 10.7 mg/dL → 946 µmol/L (80-124); CRP 61.5 mg/L (< 10 mg/L; source range \"< 1.0 mg/dL\"); albumin \"3.7 g/L\" (typo for 3.7 g/dL) → 37 g/L; calcium 7.9 mg/dL → 1.97 mmol/L; phosphorus 5.8 mg/dL → 1.87 mmol/L; Hgb 10.6 g/dL → 106 g/L; Hct 0.31.",
+    "Bow-tie: \"Adult respiratory distress syndrome\" now reads \"Acute respiratory distress syndrome\".",
+    "Screen 1 options were reordered so a correct answer is not listed first."
+  ]
+}

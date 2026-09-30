@@ -1,0 +1,323 @@
+{
+  "id": "case_1790776800012",
+  "title": "University of Maryland - CS12",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Gastroesophageal reflux disease: a 47-year-old client in the emergency department with epigastric pain and vomiting; focused assessment, treatment, and lifestyle teaching.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse cares for a 47-year-old client with nausea and vomiting in the emergency department.",
+        "tabs": [
+          {
+            "id": "nn_umd12",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight",
+        "stem": "Click to highlight the <b>2</b> findings that require <b>immediate</b> follow-up.",
+        "maxCorrectSelections": 2,
+        "highlightTabs": [
+          {
+            "id": "ht_umd12",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with {epigastric pain|correct}, {nausea and vomiting|correct}. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, {intermittent chest pain}, and {chronic cough} over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. {VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86}, pulse oximetry reading 97% on room air.</span></p>"
+          }
+        ],
+        "explanation": "The client&rsquo;s epigastric pain and nausea and vomiting are acute and should be followed up immediately.<br>The client has no chest pain or shortness of breath now to indicate an immediate cardiac problem, and the vital signs are normal. The cough is chronic, whereas the vomiting and epigastric pain are acute.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse cares for a 47-year-old client with nausea and vomiting in the emergency department.",
+        "tabs": [
+          {
+            "id": "nn_umd12",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "stem": "For each finding, click to specify if the finding is most consistent with gastroesophageal reflux disease, peptic ulcer, or cholecystitis. Each finding may support more than one condition.",
+        "matrix": {
+          "firstColumnHeader": "Assessment Finding",
+          "columns": [
+            "Gastroesophageal Reflux Disease",
+            "Peptic Ulcer",
+            "Cholecystitis"
+          ],
+          "rows": [
+            {
+              "text": "Epigastric pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Intermittent chest pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Vomiting",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Cough",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Epigastric pain and vomiting can be seen with all three problems. GERD and cholecystitis can cause chest pain that may mimic a heart attack.<br>GERD may cause a chronic cough after meals or when lying down at night.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse cares for a 47-year-old client with nausea and vomiting in the emergency department.",
+        "tabs": [
+          {
+            "id": "nn_umd12",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "stem": "Complete the following sentence by choosing from the list of options.",
+        "cloze": {
+          "text": "The nurse should recognize that the client is most likely experiencing [[drop0]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "cholecystitis",
+                  "correct": false
+                },
+                {
+                  "text": "gastroesophageal reflux disease",
+                  "correct": true
+                },
+                {
+                  "text": "peptic ulcer",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The client shows clinical manifestations of gastroesophageal reflux disease: epigastric pain and nausea and vomiting after eating, a chronic cough, pain that keeps him awake at night, and a history of intermittent chest pain.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse cares for a 47-year-old client with nausea and vomiting in the emergency department.",
+        "tabs": [
+          {
+            "id": "nn_umd12",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p>"
+          },
+          {
+            "id": "pn_umd12",
+            "title": "Progress Notes",
+            "content": "<p>Working diagnosis: probable gastroesophageal reflux disease.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Progress Notes. The provider makes a diagnosis of probable gastroesophageal reflux disease.",
+        "stem": "Which interventions should the nurse include in the plan of care? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Obtain stool culture",
+            "correct": false
+          },
+          {
+            "text": "Order CBC",
+            "correct": false
+          },
+          {
+            "text": "Check lab report for sodium and potassium levels",
+            "correct": true
+          },
+          {
+            "text": "Administer antiemetics",
+            "correct": true
+          },
+          {
+            "text": "Obtain abdominal CT scan",
+            "correct": false
+          },
+          {
+            "text": "Teach the client about health maintenance",
+            "correct": true
+          },
+          {
+            "text": "Administer analgesics",
+            "correct": true
+          }
+        ],
+        "explanation": "The client&rsquo;s pain, nausea, and vomiting should be treated, and the sodium and potassium levels monitored because vomiting can cause electrolyte imbalances. The client should be taught lifestyle changes, including weight management, eating the evening meal early, and not eating before going to bed.<br>The client has no diarrhea, so a stool culture is not needed, and a CBC and abdominal CT scan are not needed to manage probable GERD.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse cares for a 47-year-old client with nausea and vomiting in the emergency department.",
+        "tabs": [
+          {
+            "id": "nn_umd12",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Morphine 2 mg and ondansetron 4 mg given IV. Labs drawn.</span></p>"
+          },
+          {
+            "id": "pn_umd12",
+            "title": "Progress Notes",
+            "content": "<p>Working diagnosis: probable gastroesophageal reflux disease.</p>"
+          },
+          {
+            "id": "ord_umd12",
+            "title": "Orders",
+            "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer morphine 2 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p>"
+          },
+          {
+            "id": "labs_umd12",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 0415, the Orders, and the Laboratory Results. The nurse receives orders.",
+        "stem": "Which modifications should the nurse include in the teaching plan? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Take aspirin for intermittent pain",
+            "correct": false
+          },
+          {
+            "text": "Avoid eating large meals",
+            "correct": true
+          },
+          {
+            "text": "Avoid eating late at night",
+            "correct": true
+          },
+          {
+            "text": "Eat a low-fat diet",
+            "correct": true
+          },
+          {
+            "text": "Limit caffeinated beverages",
+            "correct": true
+          },
+          {
+            "text": "Drink carbonated beverages for nausea",
+            "correct": false
+          },
+          {
+            "text": "Sleep on your right side",
+            "correct": false
+          },
+          {
+            "text": "Maintain a healthy weight",
+            "correct": true
+          }
+        ],
+        "explanation": "The client should avoid foods and drinks that trigger reflux, typically fatty foods and caffeinated and carbonated beverages. Small meals decrease pressure on the lower esophageal sphincter, and eating close to bedtime should be avoided. Maintaining a healthy weight and sleeping with the head of the bed elevated are recommended.<br>Aspirin is contraindicated because it irritates the lining of the esophagus and stomach. Sleeping on the right side tends to worsen reflux (the left side is preferred).",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse cares for a 47-year-old client with nausea and vomiting in the emergency department.",
+        "tabs": [
+          {
+            "id": "nn_umd12",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Morphine 2 mg and ondansetron 4 mg given IV. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0445:</span><span class=\"nurse-note-text\">Client reports pain 1/10. No nausea or vomiting. Taught client about diet, positioning after eating, and weight management.</span></p>"
+          },
+          {
+            "id": "pn_umd12",
+            "title": "Progress Notes",
+            "content": "<p>Working diagnosis: probable gastroesophageal reflux disease.</p>"
+          },
+          {
+            "id": "ord_umd12",
+            "title": "Orders",
+            "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer morphine 2 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p>"
+          },
+          {
+            "id": "labs_umd12",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "multiple_choice",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 0445. The nurse educates the client about lifestyle management.",
+        "stem": "The nurse determines that the dietary teaching was successful if the client chooses which food?",
+        "options": [
+          {
+            "text": "Chocolate",
+            "correct": false
+          },
+          {
+            "text": "Coffee",
+            "correct": false
+          },
+          {
+            "text": "Nonfat milk",
+            "correct": true
+          },
+          {
+            "text": "Mint tea",
+            "correct": false
+          }
+        ],
+        "explanation": "The client should avoid foods and drinks that trigger reflux. Common triggers include fatty or fried foods, tomato sauce, alcohol, chocolate, mint, garlic, onion, and caffeine. Nonfat milk is not a trigger.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

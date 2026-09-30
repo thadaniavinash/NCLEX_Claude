@@ -1,0 +1,102 @@
+{
+  "id": "standalone_1790776801121",
+  "title": "University of Maryland - CS12 Bowtie",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS12 (GERD).",
+  "isStandalone": true,
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse cares for a 47-year-old client with epigastric pain and vomiting in the emergency department.",
+        "tabs": [
+          {
+            "id": "nn_umd12b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1&deg;C (98.9&deg;F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "bowtie",
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "explanation": "The signs of GERD are epigastric pain and nausea and vomiting after eating, along with a history of intermittent chest pain and chronic cough. The nurse administers an analgesic to relieve the pain and an antiemetic to treat the nausea and vomiting, monitors the nausea and vomiting to evaluate the medications, and monitors the electrolytes to find out whether the vomiting has caused an imbalance.",
+        "bowtieActions": [
+          {
+            "text": "Administer analgesics",
+            "correct": true
+          },
+          {
+            "text": "Assess stomach pH",
+            "correct": false
+          },
+          {
+            "text": "Encourage lying on the right side",
+            "correct": false
+          },
+          {
+            "text": "Administer antiemetic",
+            "correct": true
+          },
+          {
+            "text": "Encourage intake of low-sodium diet",
+            "correct": false
+          }
+        ],
+        "bowtieConditions": [
+          {
+            "text": "Peptic ulcer",
+            "correct": false
+          },
+          {
+            "text": "Gastroesophageal reflux disease",
+            "correct": true
+          },
+          {
+            "text": "Cholecystitis",
+            "correct": false
+          },
+          {
+            "text": "Esophageal cancer",
+            "correct": false
+          }
+        ],
+        "bowtieParams": [
+          {
+            "text": "Nausea and vomiting",
+            "correct": true
+          },
+          {
+            "text": "Blood pressure",
+            "correct": false
+          },
+          {
+            "text": "Stool for occult blood",
+            "correct": false
+          },
+          {
+            "text": "Electrolyte levels",
+            "correct": true
+          },
+          {
+            "text": "Hemoglobin level",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    }
+  ]
+}

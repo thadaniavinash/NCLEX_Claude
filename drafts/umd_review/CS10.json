@@ -1,0 +1,26 @@
+{
+  "cs": 10,
+  "topic": "Deep Vein Thrombosis II",
+  "source": "Deep-Vein-Thrombosis-II.docx",
+  "items": [
+    {
+      "id": "case_1790776800010",
+      "title": "University of Maryland - CS10",
+      "file": "drafts/case_1790776800010_University_of_Maryland_-_CS10.json"
+    },
+    {
+      "id": "standalone_1790776801101",
+      "title": "University of Maryland - CS10 Bowtie",
+      "file": "drafts/standalone_1790776801101_University_of_Maryland_-_CS10_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Screen 2: the source table's finding labels are BLANK (only the answer marks survive). The rows were rebuilt from the rationale: Edema (all 3), Decreased pedal pulse (DVT), Pain (all 3), Warmth to the calf (DVT + infection), Limited range of motion (soft tissue injury). Please confirm the labels and their order against the online version.",
+    "A weak pedal pulse is keyed as a DVT finding (screens 1 and 2). DVT is a venous problem and does not usually reduce arterial pulses; a weak pulse suggests arterial compromise. Consider revising the chart finding and key.",
+    "Screens 4-5: strict bedrest and \"ambulation contraindicated\" reflect older practice. Current guidelines (CHEST/ASH) support early ambulation once anticoagulation has started. Consider rewording (e.g. \"until anticoagulation is therapeutic\") or changing the key. Compression stockings for acute DVT are also no longer routinely recommended.",
+    "Heparin orders are weight-based (80 units/kg bolus, 18 units/kg/hr), but no weight is charted. Consider adding the client's weight.",
+    "Screen 6: \"I will eat more spinach and kale every day\" is keyed no understanding (source: avoid green leafy vegetables). Current teaching is to keep vitamin K intake consistent rather than avoid it; the rationale now says so.",
+    "Screens 3-4 of the source add \"Positive Homan's sign\" to the admission note, but screens 1, 2, 5 and 6 do not. It was left out everywhere (Homans' sign is unreliable and no longer taught as a DVT sign), so the chart does not change between screens.",
+    "Screen 1 options were reordered so a correct answer is not listed first. No laboratory values in this case."
+  ]
+}
