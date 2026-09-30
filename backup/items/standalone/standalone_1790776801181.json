@@ -1,0 +1,117 @@
+{
+  "id": "standalone_1790776801181",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS18 Bowtie",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "type": "bowtie",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Care of Client Post-Op Spine Surgery (Laminectomy)&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Mary DiBartolo, PhD, RN-BC, CNE, FAAN, and Allison Hynson, MSN, RN, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "The client has a surgical site infection, shown by the yellow drainage on the dressing, the fever, the increased pain, and the elevated WBC count. The nurse gives acetaminophen to reduce the fever and removes the dressing to assess the surgical site for other signs of infection, then monitors the temperature (response to acetaminophen) and the WBC count (improvement or worsening of the infection).<br>Reinforcing the dressing is not appropriate, because the incision needs to be assessed. Ibuprofen is avoided after spine surgery because of the bleeding risk. The JP drain has only 10 mL and does not need to be emptied. The neurologic status, respiratory rate, and blood pressure are stable.",
+        "bowtieParams": [
+          {
+            "text": "Temperature",
+            "correct": true
+          },
+          {
+            "text": "Neurologic status",
+            "correct": false
+          },
+          {
+            "text": "Respiratory rate",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure",
+            "correct": false
+          },
+          {
+            "text": "WBC count",
+            "correct": true
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Reinforce surgical dressing",
+            "correct": false
+          },
+          {
+            "text": "Administer acetaminophen",
+            "correct": true
+          },
+          {
+            "text": "Administer ibuprofen",
+            "correct": false
+          },
+          {
+            "text": "Assess surgical site",
+            "correct": true
+          },
+          {
+            "text": "Empty JP drain",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieConditions": [
+          {
+            "text": "Clotting of the JP drain",
+            "correct": false
+          },
+          {
+            "text": "Postoperative pain",
+            "correct": false
+          },
+          {
+            "text": "Surgical site infection",
+            "correct": true
+          },
+          {
+            "text": "Sepsis",
+            "correct": false
+          }
+        ],
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing"
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd18b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1200:</span><span class=\"nurse-note-text\">Admitted to the surgical unit after an L2&ndash;L4 laminectomy with Jackson-Pratt (JP) drain placement. History of type 2 diabetes and back pain for 10 years that was unrelieved with pharmacologic pain management. JP drain had 30 mL of output on arrival to the floor and was emptied. Bloodwork sent to the lab after surgery. Alert and oriented &times; 4; pupils 3 mm bilaterally; denies numbness or tingling in the extremities; 5/5 strength in all extremities. Urinary catheter removed before arrival to the floor, around 1100; she is due to void. Surgical dressing clean, dry, and intact.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Vital signs taken; client reports feeling &ldquo;lousy.&rdquo; Alert and oriented &times; 4 with full sensation in all extremities. JP drain has 10 mL of serosanguineous drainage. Surgical dressing intact with an area of yellow drainage the size of a quarter. Client reports 9/10 back pain unrelieved by oxycodone given at 0700.</span></p>"
+          },
+          {
+            "id": "vs_umd18b",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7&deg;C (98.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">38.4&deg;C (101.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">77</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">18</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/80</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">105/75</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">9/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd18b",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.30 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">17.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">200 &times; 10<sup>9</sup>/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd18b",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Times Given</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5 mg PO every 4 hours as needed for moderate pain (4&ndash;6)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mg PO every 4 hours as needed for severe pain (7&ndash;10)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 2 0700</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse is caring for a 65-year-old female client who is admitted to the surgical unit following an L2&ndash;L4 laminectomy."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS18 (spine surgery): surgical site infection.",
+  "availability": "all",
+  "isStandalone": true
+}

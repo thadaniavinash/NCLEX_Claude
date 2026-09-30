@@ -1,0 +1,396 @@
+{
+  "id": "case_1790776800021",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS21",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which <b>4</b> client findings are <b>most urgent</b>?",
+        "type": "select_n",
+        "limit": 4,
+        "options": [
+          {
+            "text": "2–3+ pulse grade",
+            "correct": false
+          },
+          {
+            "text": "Dyspnea",
+            "correct": true
+          },
+          {
+            "text": "Tachycardia",
+            "correct": true
+          },
+          {
+            "text": "Hunger",
+            "correct": false
+          },
+          {
+            "text": "Palpitations",
+            "correct": true
+          },
+          {
+            "text": "Thirst",
+            "correct": false
+          },
+          {
+            "text": "Fever",
+            "correct": true
+          },
+          {
+            "text": "Anxiety",
+            "correct": false
+          },
+          {
+            "text": "Hyperactive bowel sounds",
+            "correct": false
+          },
+          {
+            "text": "Bilateral eye protrusion",
+            "correct": false
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "All of the findings are concerning, but the physiological findings of dyspnea, tachycardia, palpitations, and fever take precedence over the less acute findings of hunger, thirst, eye protrusion, and hyperactive bowel sounds. Anxiety is acute but not physiological.<br>The pulse strength is within normal limits. Hyperactive bowel sounds are not a normal finding but do not take priority over the most urgent findings."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd21",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p>"
+          },
+          {
+            "id": "vs_umd21",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6&deg;C (103.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each assessment finding, click to specify whether the finding is helpful or not helpful in determining if the client is experiencing a thyroid problem.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Fever",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Bilateral eye protrusion",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Lung sounds",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Anxiety level",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Palpitations",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Dyspnea",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Helpful",
+            "Not Helpful"
+          ],
+          "firstColumnHeader": "Assessment Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "Fever, eye protrusion, palpitations, dyspnea, and increased anxiety are abnormal findings that help determine whether the client is experiencing a thyroid problem.<br>The lung sounds are clear, so this finding is unremarkable and does not help identify this endocrine disorder."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd21",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p>"
+          },
+          {
+            "id": "vs_umd21",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6&deg;C (103.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Drag the most appropriate choice from the list of options to fill in the blank of the following sentence.",
+        "type": "drag_drop_cloze",
+        "cloze": {
+          "text": "The nurse recognizes that the condition the client is most likely experiencing is [[drop0]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "hypothyroidism",
+                  "correct": false
+                },
+                {
+                  "text": "thyroid storm",
+                  "correct": true
+                },
+                {
+                  "text": "adrenal insufficiency",
+                  "correct": false
+                },
+                {
+                  "text": "Cushing’s syndrome",
+                  "correct": false
+                },
+                {
+                  "text": "myxedema",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "The client&rsquo;s clinical manifestations indicate a hypermetabolic state. With a history of hyperthyroidism and increasing anxiety, restlessness, fatigue, tachycardia, dyspnea, and hyperpyrexia, the client is most likely experiencing a thyroid storm."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd21",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p>"
+          },
+          {
+            "id": "vs_umd21",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6&deg;C (103.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which of the following prescriptions should the nurse anticipate? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Oral acetylsalicylic acid",
+            "correct": false
+          },
+          {
+            "text": "Humidified oxygen via nasal cannula at 2 L/min",
+            "correct": true
+          },
+          {
+            "text": "12-lead ECG",
+            "correct": true
+          },
+          {
+            "text": "Oral levothyroxine",
+            "correct": false
+          },
+          {
+            "text": "Oral acetaminophen",
+            "correct": true
+          },
+          {
+            "text": "Cooling blanket",
+            "correct": true
+          },
+          {
+            "text": "Oral methimazole",
+            "correct": true
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The client receives a working diagnosis of thyroid storm.",
+        "explanation": "Humidified oxygen is given to treat the client&rsquo;s dyspnea. The hyperthermia must be treated: the nurse anticipates acetaminophen and a cooling blanket to lower the body temperature more rapidly. The client has palpitations and tachycardia, so a 12-lead ECG is needed to assess the cardiac rate and rhythm. An antithyroid medication such as methimazole is an expected therapy for thyroid storm.<br>Acetylsalicylic acid displaces thyroid hormones from their binding proteins and can worsen the hypermetabolic state. Levothyroxine would increase thyroid hormone levels."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd21",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p>"
+          },
+          {
+            "id": "vs_umd21",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6&deg;C (103.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Click to highlight the <b>2</b> orders the nurse should implement <b>first</b>.",
+        "type": "highlight_2",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 0910, the Vital Signs, and the Orders.",
+        "explanation": "The client&rsquo;s airway, breathing, and circulation require priority intervention. Because the client is tachypneic and short of breath with palpitations, oxygen is started to support oxygenation of the heart while cardiac events are ruled out, and a 12-lead ECG is obtained to detect any life-threatening abnormality in cardiac conduction, rate, or rhythm.<br>The cooling blanket and fluid bolus can be started after the ECG. The acetaminophen can be given after the cooling blanket is applied because it takes longer to work. Artificial tears are a comfort measure given after the other interventions.",
+        "highlightTabs": [
+          {
+            "id": "ht_umd21",
+            "title": "Orders",
+            "content": "<p>1. {Admit to the hospital}</p><p>2. {Apply cooling blanket and ice packs}</p><p>3. {Acetaminophen 1 g PO &times; 1 dose now}</p><p>4. {Artificial tears (drops) to both eyes}</p><p>5. {Humidified oxygen at 2 L/min via nasal cannula|correct}</p><p>6. {12-lead ECG|correct}</p><p>7. {0.9% sodium chloride 1000 mL IV bolus}</p>"
+          }
+        ],
+        "maxCorrectSelections": 2
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd21",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0910:</span><span class=\"nurse-note-text\">Assessed by the provider. IV line established; ordered blood work collected and sent to the laboratory. Vital signs reassessed; fever is increasing.</span></p>"
+          },
+          {
+            "id": "vs_umd21",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6&deg;C (103.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.7&deg;C (103.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148/89</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd21",
+            "title": "Orders",
+            "content": "<p>1. Admit to the hospital</p><p>2. Apply cooling blanket and ice packs</p><p>3. Acetaminophen 1 g PO &times; 1 dose now</p><p>4. Artificial tears (drops) to both eyes</p><p>5. Humidified oxygen at 2 L/min via nasal cannula</p><p>6. 12-lead ECG</p><p>7. 0.9% sodium chloride 1000 mL IV bolus</p>"
+          }
+        ],
+        "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding, click to specify if the finding indicates that the client&rsquo;s status has improved or remains unchanged.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Temperature",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Anxiety level",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Respiratory rate",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Heart rate",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Oxygenation",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pain level",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Improved",
+            "Unchanged"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 0930, 1000, and 1100, the Vital Signs from 1000 and 1100, the Orders, the Diagnostic Results, and the Laboratory Results. The nurse administered the oral acetaminophen and methimazole, placed the client on oxygen, and instituted cooling measures, and now reassesses the client.",
+        "explanation": "The temperature, heart rate, and respiratory rate have all improved with humidified oxygen, acetaminophen, and cooling measures.<br>The client remains anxious because of the hypermetabolic state, and oxygenation is stable (unchanged) with an SpO<sub>2</sub> of 97%. The client has reported no pain."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd21",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0910:</span><span class=\"nurse-note-text\">Assessed by the provider. IV line established; ordered blood work collected and sent to the laboratory. Vital signs reassessed; fever is increasing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Oxygen at 2 L/min applied. ECG obtained. Fluid bolus started. Acetaminophen given. Cooling blanket applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Thyroid studies returned with critically elevated serum T3 and T4. Order received for oral methimazole.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Reassessed after cooling measures and administration of oral methimazole and acetaminophen as ordered. Sitting up on the stretcher; remains alert and cooperative but still very anxious.</span></p>"
+          },
+          {
+            "id": "vs_umd21",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6&deg;C (103.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.7&deg;C (103.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.4&deg;C (103.0&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">38.9&deg;C (102.0&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">136</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">127</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148/89</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">146/89</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137/82</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on 2 L/min oxygen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on 2 L/min oxygen</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd21",
+            "title": "Orders",
+            "content": "<p>1. Admit to the hospital</p><p>2. Apply cooling blanket and ice packs</p><p>3. Acetaminophen 1 g PO &times; 1 dose now</p><p>4. Artificial tears (drops) to both eyes</p><p>5. Humidified oxygen at 2 L/min via nasal cannula</p><p>6. 12-lead ECG</p><p>7. 0.9% sodium chloride 1000 mL IV bolus</p><p>8. Methimazole 20 mg PO every 8 hours</p>"
+          },
+          {
+            "id": "dx_umd21",
+            "title": "Diagnostic Results",
+            "content": "<p><b>12-lead ECG (0930):</b> sinus tachycardia.</p>"
+          },
+          {
+            "id": "labs_umd21",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cells (WBC)</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroid-stimulating hormone (TSH)</b><br>0.45&ndash;4.5 mU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.27 mU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Triiodothyronine (T3), total</b><br>1.2&ndash;3.1 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.1 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroxine (T4), total</b><br>57&ndash;148 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">270 nmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated April 23, 2023); Author: Suzana Jarquin, Frederick Community College. Thyroid storm: a 32-year-old client with hyperthyroidism, fever, and tachycardia; recognizing thyroid storm, priority orders, and evaluating the response to treatment.",
+  "availability": "all"
+}

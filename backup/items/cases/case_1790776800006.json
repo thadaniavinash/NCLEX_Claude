@@ -1,0 +1,464 @@
+{
+  "id": "case_1790776800006",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS6",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Select the <b>2</b> findings that are <b>most</b> significant.",
+        "type": "select_n",
+        "limit": 2,
+        "options": [
+          {
+            "text": "Cholesterol",
+            "correct": false
+          },
+          {
+            "text": "ECG",
+            "correct": true
+          },
+          {
+            "text": "Platelets",
+            "correct": false
+          },
+          {
+            "text": "White blood cell count",
+            "correct": false
+          },
+          {
+            "text": "Troponin T",
+            "correct": true
+          },
+          {
+            "text": "Creatine kinase MB",
+            "correct": false
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse reviews the diagnostic and laboratory findings.",
+        "explanation": "Sinus tachycardia with ST-segment elevation on the ECG indicates damage to the cardiac muscle and must be addressed immediately. An elevated troponin T is specific for myocardial injury.<br>Creatine kinase MB can be used as a test for myocardial cell death but is also found in other tissues, so it is not specific to the myocardium. The cholesterol is elevated but is not diagnostic of a myocardial infarction. The platelet and white blood cell counts are normal."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd06",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99&deg;F (37.2&deg;C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+          },
+          {
+            "id": "dx_umd06",
+            "title": "Diagnostic Results",
+            "content": "<p><b>ECG:</b> sinus tachycardia, rate 110. ST-segment elevation in leads V3 and V4 (anterior leads).</p>"
+          },
+          {
+            "id": "labs_umd06",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">400 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin T</b><br>0&ndash;40 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 ng/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatine kinase MB (CK-MB)</b><br>5&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170 U/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each client finding, click to specify whether the finding is consistent with ST-elevation myocardial infarction (STEMI), non-ST-elevation myocardial infarction (NSTEMI), or unstable angina. Each finding may be consistent with more than one condition.",
+        "type": "matrix_mr",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Elevated creatine kinase MB",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": "Crushing chest pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "ST elevation in leads V3 and V4",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Elevated cholesterol",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Obesity",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Elevated troponin T",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "STEMI",
+            "NSTEMI",
+            "Unstable Angina"
+          ],
+          "firstColumnHeader": "Client Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "Obesity, elevated cholesterol, and crushing chest pain are associated with all three acute coronary syndromes. Cardiac biomarkers (troponin, CK-MB) are elevated with myocardial infarction (STEMI and NSTEMI) but not with unstable angina.<br>ST elevation indicates significant cardiac damage and is the finding that defines an ST-elevation myocardial infarction (STEMI)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd06",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99&deg;F (37.2&deg;C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+          },
+          {
+            "id": "dx_umd06",
+            "title": "Diagnostic Results",
+            "content": "<p><b>ECG:</b> sinus tachycardia, rate 110. ST-segment elevation in leads V3 and V4 (anterior leads).</p>"
+          },
+          {
+            "id": "labs_umd06",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">400 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin T</b><br>0&ndash;40 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 ng/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatine kinase MB (CK-MB)</b><br>5&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170 U/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "type": "dyad",
+        "cloze": {
+          "text": "The nurse should recognize that the client is most likely experiencing a/an [[drop0]] caused by coronary artery [[drop1]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "non-ST-elevation myocardial infarction",
+                  "correct": false
+                },
+                {
+                  "text": "ST-elevation myocardial infarction",
+                  "correct": true
+                },
+                {
+                  "text": "unstable angina",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "blockage",
+                  "correct": true
+                },
+                {
+                  "text": "rupture",
+                  "correct": false
+                },
+                {
+                  "text": "spasm",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "The client&rsquo;s laboratory results and symptoms are congruent with a STEMI. A STEMI occurs when an unstable plaque in the wall of a coronary artery suddenly ruptures and a clot builds up over it. The clot totally blocks the artery, and the blood supply to that part of the heart is lost."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd06",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99&deg;F (37.2&deg;C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+          },
+          {
+            "id": "dx_umd06",
+            "title": "Diagnostic Results",
+            "content": "<p><b>ECG:</b> sinus tachycardia, rate 110. ST-segment elevation in leads V3 and V4 (anterior leads).</p>"
+          },
+          {
+            "id": "labs_umd06",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">400 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin T</b><br>0&ndash;40 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 ng/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatine kinase MB (CK-MB)</b><br>5&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170 U/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "For each potential medication order, click to specify whether the medication is indicated or not indicated to include in the plan of care.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Analgesics",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Antibiotics",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Anticoagulants",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Beta blockers",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Fluid bolus",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Fibrinolytics",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "firstColumnHeader": "Potential Medication"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The client receives a diagnosis of ST-elevation myocardial infarction.",
+        "explanation": "Acute care for a STEMI includes pain management, restoring perfusion, and limiting ischemic damage. Analgesics, typically morphine, are given for pain. Ischemia is limited by decreasing myocardial oxygen demand: beta blockers lower the heart rate and blood pressure. Reperfusion therapy can be medical or mechanical; medical therapy is a fibrinolytic to dissolve the clot blocking the artery, and anticoagulants prevent the obstruction from worsening.<br>A fluid bolus would increase the cardiac workload, and there is no evidence of infection requiring antibiotics."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd06",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99&deg;F (37.2&deg;C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+          },
+          {
+            "id": "dx_umd06",
+            "title": "Diagnostic Results",
+            "content": "<p><b>ECG:</b> sinus tachycardia, rate 110. ST-segment elevation in leads V3 and V4 (anterior leads).</p>"
+          },
+          {
+            "id": "labs_umd06",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">400 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin T</b><br>0&ndash;40 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 ng/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatine kinase MB (CK-MB)</b><br>5&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170 U/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "type": "dyad",
+        "cloze": {
+          "text": "The nurse should next give the [[drop0]], which should be given [[drop1]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "enoxaparin 100 mg SC",
+                  "correct": false
+                },
+                {
+                  "text": "metoprolol 25 mg PO",
+                  "correct": false
+                },
+                {
+                  "text": "tenecteplase 50 mg IV",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "immediately upon admission",
+                  "correct": false
+                },
+                {
+                  "text": "within 30 minutes of admission",
+                  "correct": true
+                },
+                {
+                  "text": "within 90 minutes of admission",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Orders.",
+        "explanation": "Tenecteplase is a tissue plasminogen activator that dissolves the clot blocking the coronary artery. When fibrinolysis is the reperfusion strategy for a STEMI, the standard of care is to give it within 30 minutes of arrival (door-to-needle time)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd06",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99&deg;F (37.2&deg;C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+          },
+          {
+            "id": "dx_umd06",
+            "title": "Diagnostic Results",
+            "content": "<p><b>ECG:</b> sinus tachycardia, rate 110. ST-segment elevation in leads V3 and V4 (anterior leads).</p>"
+          },
+          {
+            "id": "labs_umd06",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">400 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin T</b><br>0&ndash;40 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 ng/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatine kinase MB (CK-MB)</b><br>5&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170 U/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd06",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 100 mg SC<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding, click to specify if the finding indicates that the client&rsquo;s status has improved, declined, or is unchanged.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Pulse",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Blood pressure",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Respiratory rate",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Improved",
+            "Declined",
+            "Unchanged"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1025 and 1030. The nurse reassesses the client after initiating the chest pain protocol and giving tenecteplase.",
+        "explanation": "The blood pressure, pulse oximetry reading, and pain level have all improved after oxygen by nasal cannula, nitroglycerin, morphine, and tenecteplase.<br>The heart rate has increased (110 to 120), which could indicate the heart muscle attempting to pump more oxygenated blood to the tissues. The respiratory rate is unchanged."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd06",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99&deg;F (37.2&deg;C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1025:</span><span class=\"nurse-note-text\">Orders received. Tenecteplase given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">VS: T 99&deg;F (37.2&deg;C); HR 120; RR 22; BP 150/85; pulse oximetry reading 95% on 2 L/min via nasal cannula; pain 6/10.</span></p>"
+          },
+          {
+            "id": "dx_umd06",
+            "title": "Diagnostic Results",
+            "content": "<p><b>ECG:</b> sinus tachycardia, rate 110. ST-segment elevation in leads V3 and V4 (anterior leads).</p>"
+          },
+          {
+            "id": "labs_umd06",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">400 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin T</b><br>0&ndash;40 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 ng/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatine kinase MB (CK-MB)</b><br>5&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170 U/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd06",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 100 mg SC<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Kadriyya Clark, Community College of Baltimore County. Chest pain (MI): a 60-year-old client with an anterior STEMI; the nurse interprets the ECG and biomarkers, gives fibrinolytic therapy, and evaluates the response.",
+  "availability": "all"
+}

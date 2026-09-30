@@ -1,0 +1,107 @@
+{
+  "id": "standalone_1790776801111",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS11 Bowtie",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Based on the client information, complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, <b>2</b> actions the nurse should take to address that condition, and <b>2</b> parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "type": "bowtie",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "",
+        "explanation": "The client has evidence of an infection at the AV fistula site. The falling blood pressure and pulse oximetry reading suggest septicemia progressing to septic shock. Broad-spectrum IV antibiotics and oxygen are most needed, and the nurse monitors perfusion through the pulse oximetry reading and blood pressure.<br>Urine output is not a good measure of perfusion in a client on dialysis.",
+        "bowtieParams": [
+          {
+            "text": "Pain",
+            "correct": false
+          },
+          {
+            "text": "Urinary output",
+            "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading",
+            "correct": true
+          },
+          {
+            "text": "Blood pressure",
+            "correct": true
+          },
+          {
+            "text": "Liver enzymes",
+            "correct": false
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Administer oxygen",
+            "correct": true
+          },
+          {
+            "text": "Raise head of bed",
+            "correct": false
+          },
+          {
+            "text": "Administer broad-spectrum antibiotics IV",
+            "correct": true
+          },
+          {
+            "text": "Prepare for intubation",
+            "correct": false
+          },
+          {
+            "text": "Begin epinephrine drip",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieConditions": [
+          {
+            "text": "Cardiogenic shock",
+            "correct": false
+          },
+          {
+            "text": "Acute respiratory distress syndrome",
+            "correct": false
+          },
+          {
+            "text": "Multisystem organ failure",
+            "correct": false
+          },
+          {
+            "text": "Septicemia",
+            "correct": true
+          }
+        ],
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing"
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "adm_umd11b",
+            "title": "Admission Note",
+            "content": "<p>A 39-year-old male client came to the emergency department with shaking chills; maximum temperature reported as 101.2&deg;F (38.4&deg;C). Weight 109.1 kg (240 lb). No known drug allergies. History of end-stage renal disease secondary to heroin nephrotoxicity; on hemodialysis for approximately 7 months.</p><p><b>Current assessment:</b> left upper arm arteriovenous (AV) fistula with a positive thrill and bruit. The AV fistula is red and inflamed. Labs sent.</p>"
+          },
+          {
+            "id": "vs_umd11b",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.2&deg;C (102.6&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">40.2&deg;C (104.4&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">121</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">18</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150/92</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100/64</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain (AV fistula site)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">8/10</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 39-year-old male client with end-stage renal disease on hemodialysis is seen in the emergency department with fever."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS11 (ESRD and dialysis): septicemia in a client on hemodialysis.",
+  "availability": "all",
+  "isStandalone": true
+}

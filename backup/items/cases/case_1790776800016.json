@@ -1,0 +1,498 @@
+{
+  "id": "case_1790776800016",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS16",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Select the <b>2</b> findings that are <b>most</b> concerning.",
+        "type": "select_n",
+        "limit": 2,
+        "options": [
+          {
+            "text": "Blood pressure",
+            "correct": false
+          },
+          {
+            "text": "Urea (BUN)",
+            "correct": false
+          },
+          {
+            "text": "Neurologic assessment",
+            "correct": true
+          },
+          {
+            "text": "Peripheral edema",
+            "correct": false
+          },
+          {
+            "text": "Dyspnea",
+            "correct": true
+          },
+          {
+            "text": "Albumin level",
+            "correct": false
+          },
+          {
+            "text": "Glucose",
+            "correct": false
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse assesses the client on admission to the unit.",
+        "explanation": "The most concerning findings are the dyspnea, from ascites pressing on the diaphragm and limiting lung expansion, and the decline in neurologic function (drowsy and dozing off and on, oriented to person only, agitated).<br>The BUN is slightly elevated, likely from dehydration. A low serum albumin is expected with cirrhosis and the malnutrition of alcohol use disorder. The blood pressure is only mildly elevated."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd16",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p>"
+          },
+          {
+            "id": "vs_umd16",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.9&deg;C (98.4&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142/72</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glasgow Coma Scale (3&ndash;15)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Abdominal girth</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 cm (37.5 in)</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd16",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd16",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ammonia</b><br>6&ndash;47 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">55 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 g/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse is caring for a 67-year-old male client with a history of alcohol use disorder and cirrhosis admitted to the medical-surgical unit."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each finding, click to specify if the finding is most consistent with ascites or an elevated ammonia level.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Abdominal girth",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Agitation",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Bulging flanks",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Dozing off and on",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Dyspnea",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Peripheral edema",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Serum albumin",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Ascites",
+            "Elevated Ammonia"
+          ],
+          "firstColumnHeader": "Assessment Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "Ascites, a complication of portal hypertension and the low albumin of cirrhosis, increases the abdominal girth, causes bulging flanks and peripheral edema, and can compromise breathing (dyspnea, a low pulse oximetry reading).<br>The deterioration in neurologic status (drowsiness and agitation) results from the increased ammonia level causing hepatic encephalopathy."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd16",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p>"
+          },
+          {
+            "id": "vs_umd16",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.9&deg;C (98.4&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142/72</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glasgow Coma Scale (3&ndash;15)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Abdominal girth</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 cm (37.5 in)</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd16",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd16",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ammonia</b><br>6&ndash;47 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">55 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 g/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse is caring for a 67-year-old male client with a history of alcohol use disorder and cirrhosis admitted to the medical-surgical unit."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "type": "dyad",
+        "cloze": {
+          "text": "The client is most likely experiencing [[drop0]], as evidenced by the [[drop1]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "esophageal varices",
+                  "correct": false
+                },
+                {
+                  "text": "hepatorenal failure",
+                  "correct": false
+                },
+                {
+                  "text": "hepatic encephalopathy",
+                  "correct": true
+                },
+                {
+                  "text": "acute cholecystitis",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "vital signs",
+                  "correct": false
+                },
+                {
+                  "text": "neurologic assessment",
+                  "correct": true
+                },
+                {
+                  "text": "respiratory assessment",
+                  "correct": false
+                },
+                {
+                  "text": "glucose level",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "Hepatic encephalopathy is a common complication of cirrhosis caused by the liver&rsquo;s inability to detoxify protein by-products. The resulting increase in ammonia is toxic to the central nervous system. Abnormal neurologic findings such as confusion, lethargy, dozing off and on, restlessness, and agitation are common indicators."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd16",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p>"
+          },
+          {
+            "id": "vs_umd16",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.9&deg;C (98.4&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142/72</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glasgow Coma Scale (3&ndash;15)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Abdominal girth</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 cm (37.5 in)</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd16",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd16",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ammonia</b><br>6&ndash;47 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">55 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 g/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse is caring for a 67-year-old male client with a history of alcohol use disorder and cirrhosis admitted to the medical-surgical unit."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "For each potential intervention, click to specify whether the intervention is indicated, not indicated, or contraindicated in the plan of care.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Neuro assessment every 4 hours",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Record abdominal girth daily",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer acetaminophen 650 mg as needed for temperature above 101°F (38.3°C)",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Monitor pulse oximetry every 4 hours",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer sedative as needed for agitation",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Daily weights",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Supine position when in bed",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Low-sodium diet",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Point-of-care glucose every 6 hours",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Lactulose 30 mL every 4 hours × 3 doses",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Not Indicated",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Potential Intervention"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes and Vital Signs from Day 1 1400. The client receives the diagnosis of hepatic encephalopathy.",
+        "explanation": "Interventions focus on treating both the ascites and the hepatic encephalopathy: neuro assessments, pulse oximetry, daily weights and abdominal girth, a low-sodium diet, and lactulose to lower the ammonia level.<br>Acetaminophen (metabolized by the liver) and sedatives are contraindicated, as is placing the client flat in bed when he is dyspneic from ascites. Glucose monitoring would not harm the client but is not necessary."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd16",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Remains alert at times but confused, mumbling off and on; mild hand flap (asterixis) noted. Moderately dyspneic on 2 L/min oxygen by nasal cannula, RR 26. Bulging flanks and prominent veins around the umbilicus noted; provider notified.</span></p>"
+          },
+          {
+            "id": "vs_umd16",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.9&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">86</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142/72</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/78</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 2 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glasgow Coma Scale (3&ndash;15)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Abdominal girth</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 cm (37.5 in)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd16",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd16",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ammonia</b><br>6&ndash;47 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">55 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 g/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse is caring for a 67-year-old male client with a history of alcohol use disorder and cirrhosis admitted to the medical-surgical unit."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Click to highlight the <b>3</b> orders that the nurse should implement <b>immediately</b>.",
+        "type": "highlight_2",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "At 1430, the provider assesses the client, reviews the chart, and writes orders.",
+        "explanation": "The priorities are to reduce the ammonia level with the first dose of lactulose, to promote prompt diuresis of the excess fluid with IV furosemide, and to improve oxygenation by increasing the oxygen to keep the pulse oximetry reading at 95% or greater.<br>The other orders (routine assessments, diet, daily weight and girth, the IV, and the daily spironolactone) are carried out as scheduled.",
+        "highlightTabs": [
+          {
+            "id": "ht_umd16",
+            "title": "Orders",
+            "content": "<p>1. {VS, pulse oximetry, and neuro assessment every 4 hours and as needed}</p><p>2. {Low-sodium diet}</p><p>3. {Record weight and abdominal girth daily}</p><p>4. {Oxygen per nasal cannula to maintain pulse oximetry reading at 95% or greater|correct}</p><p>5. {IV normal saline at 30 mL/hr}</p><p>6. {Lactulose 30 mL PO every 4 hours &times; 3 doses|correct}</p><p>7. {Furosemide 20 mg IV|correct}</p><p>8. {Spironolactone 100 mg PO daily}</p>"
+          }
+        ],
+        "maxCorrectSelections": 3
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd16",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Remains alert at times but confused, mumbling off and on; mild hand flap (asterixis) noted. Moderately dyspneic on 2 L/min oxygen by nasal cannula, RR 26. Bulging flanks and prominent veins around the umbilicus noted; provider notified.</span></p>"
+          },
+          {
+            "id": "vs_umd16",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.9&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">86</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142/72</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/78</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 2 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glasgow Coma Scale (3&ndash;15)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Abdominal girth</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 cm (37.5 in)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd16",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd16",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ammonia</b><br>6&ndash;47 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">55 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 g/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse is caring for a 67-year-old male client with a history of alcohol use disorder and cirrhosis admitted to the medical-surgical unit."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dyad",
+        "cloze": {
+          "text": "The nurse determines the client&rsquo;s status is [[drop0]]. The nurse should now [[drop1]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "improving",
+                  "correct": true
+                },
+                {
+                  "text": "deteriorating",
+                  "correct": false
+                },
+                {
+                  "text": "unchanged",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "request an order for more lactulose",
+                  "correct": false
+                },
+                {
+                  "text": "apply restraints",
+                  "correct": false
+                },
+                {
+                  "text": "explore readiness to stop drinking",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1700 and Day 2 0900, the Vital Signs from Day 1 1800 and Day 2 0800, the Day 2 Laboratory Results, and the Orders. On the second day, the nurse reviews the morning vital signs, urine output, and updated ammonia level.",
+        "explanation": "The client&rsquo;s overall condition has improved. IV furosemide and sodium restriction reduced the ascites (weight and abdominal girth down, no dyspnea, pulse oximetry reading 95% on room air), and the ammonia level and neurologic status improved after the lactulose.<br>Now that the client is alert and oriented, the nurse can explore his readiness to stop drinking. More lactulose is not needed, and restraints are not indicated."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd16",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Remains alert at times but confused, mumbling off and on; mild hand flap (asterixis) noted. Moderately dyspneic on 2 L/min oxygen by nasal cannula, RR 26. Bulging flanks and prominent veins around the umbilicus noted; provider notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Pulse oximetry reading 93% on 4 L/min oxygen. Second dose of lactulose given; 2 large, loose brown stools since the first dose. Alert, coherent, and cooperative with assessment. Urine output 400 mL since 1400.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Pulse oximetry reading 95% on room air; no dyspnea. Alert and oriented &times; 3 with no signs of agitation. Urine clear yellow at 30&ndash;40 mL/hr since 0600. Weight 62.7 kg (138 lb); abdominal girth recorded. Morning medications (metoprolol and spironolactone) given. Ammonia level now 42 &micro;mol/L.</span></p>"
+          },
+          {
+            "id": "vs_umd16",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.9&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.5&deg;C (97.8&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">86</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">18</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142/72</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/78</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">139/72</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">132/64</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glasgow Coma Scale (3&ndash;15)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Abdominal girth</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 cm (37.5 in)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88 cm (34.5 in)</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd16",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd16",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ammonia</b><br>6&ndash;47 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">55 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">42 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd16",
+            "title": "Orders",
+            "content": "<p>1. VS, pulse oximetry, and neuro assessment every 4 hours and as needed</p><p>2. Low-sodium diet</p><p>3. Record weight and abdominal girth daily</p><p>4. Oxygen per nasal cannula to maintain pulse oximetry reading at 95% or greater</p><p>5. IV normal saline at 30 mL/hr</p><p>6. Lactulose 30 mL PO every 4 hours &times; 3 doses</p><p>7. Furosemide 20 mg IV</p><p>8. Spironolactone 100 mg PO daily</p>"
+          }
+        ],
+        "intro": "The nurse is caring for a 67-year-old male client with a history of alcohol use disorder and cirrhosis admitted to the medical-surgical unit."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (revised April 17, 2023); Author: Mary DiBartolo, Salisbury University. Liver failure: a 67-year-old client with alcohol use disorder, cirrhosis, ascites, and hepatic encephalopathy; priorities, orders, and response to lactulose and diuretics.",
+  "availability": "all"
+}

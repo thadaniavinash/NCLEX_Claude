@@ -1,0 +1,97 @@
+{
+  "id": "standalone_1790776801141",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS14 Trend",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "For each client finding, click to indicate if the finding reflects that the client&rsquo;s condition has improved or is unchanged.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Temperature",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Cough",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pulse",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Dyspnea",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Blood pressure",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Improved",
+            "Unchanged"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study, stand-alone trend (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "The nurse reassesses the client on day 2.",
+        "explanation": "On admission, the client&rsquo;s temperature, pulse, and respirations were elevated and the pulse oximetry reading was low. On day 2, the temperature, pulse, and pulse oximetry reading are within normal limits, the respiratory rate is lower, the cough has decreased, the client is no longer short of breath, and the pain has resolved.<br>The blood pressure has been consistently within normal limits."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd14t",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">A 25-year-old male client who has been HIV positive for 3 years is admitted with a dry cough and fever. Client has fatigue, shortness of breath, and tachypnea. Breathing is slightly labored, with a tight feeling in the chest on deep inspiration. Has been on antiretroviral medications since the diagnosis of HIV but recently stopped taking them after being laid off from his job. Symptoms not improving with over-the-counter medications for 3 days. Oxygen and antibiotics started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Client resting in bed, sleeping at intervals. Frequent dry cough. Skin warm and dry. 0.9% sodium chloride IV infusing in the right arm at 75 mL/hr.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Client is afebrile. Lungs slightly congested. No shortness of breath. 0.9% sodium chloride infusing in the right arm at 75 mL/hr. Skin warm and dry. Coughing less frequently.</span></p>"
+          },
+          {
+            "id": "flow_umd14t",
+            "title": "Flow Sheet",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">38.3&deg;C (101.0&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.2&deg;C (99.0&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.1&deg;C (98.8&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/86</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/86</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">134/80</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% on 3 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Stand-alone trend for University of Maryland - CS14 (HIV with Pneumocystis pneumonia): response to treatment by day 2.",
+  "availability": "all",
+  "isStandalone": true
+}

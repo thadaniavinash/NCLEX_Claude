@@ -1,0 +1,107 @@
+{
+  "id": "standalone_1790776801191",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS19 Bowtie",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "type": "bowtie",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study, stand-alone bow-tie (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse reviews the assessment data to determine the appropriate plan of care.",
+        "explanation": "The client is showing signs of an ischemic stroke; a combined hormonal contraceptive is a major risk factor for stroke in young adults. The nurse initiates a code stroke, which coordinates a rapid team response: an immediate CT scan to determine the type of stroke, blood work within a set time frame, and a neurology consultation, to minimize neurologic deficits. Supplemental oxygen helps prevent cell death from the lack of blood flow.<br>Airway management is a priority because the client is at risk of dysphagia, so the nurse monitors airway patency, and reassesses the level of consciousness: a decrease indicates increased intracranial pressure or poor cerebral perfusion.",
+        "bowtieParams": [
+          {
+            "text": "Blood pressure",
+            "correct": false
+          },
+          {
+            "text": "Level of consciousness",
+            "correct": true
+          },
+          {
+            "text": "Patency of airway",
+            "correct": true
+          },
+          {
+            "text": "Serum glucose",
+            "correct": false
+          },
+          {
+            "text": "Range of motion",
+            "correct": false
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Administer morphine",
+            "correct": false
+          },
+          {
+            "text": "Bolus intravenous fluids",
+            "correct": false
+          },
+          {
+            "text": "Give supplemental oxygen",
+            "correct": true
+          },
+          {
+            "text": "Initiate code stroke",
+            "correct": true
+          },
+          {
+            "text": "Initiate seizure precautions",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieConditions": [
+          {
+            "text": "Hypoperfusion syndrome",
+            "correct": false
+          },
+          {
+            "text": "Hypovolemic shock",
+            "correct": false
+          },
+          {
+            "text": "Ischemic stroke",
+            "correct": true
+          },
+          {
+            "text": "Meningitis",
+            "correct": false
+          }
+        ],
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing"
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd19b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p>"
+          },
+          {
+            "id": "labs_umd19b",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.55 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13.5 seconds</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS19 (stroke).",
+  "availability": "all",
+  "isStandalone": true
+}

@@ -1,0 +1,410 @@
+{
+  "id": "case_1790776800010",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS10",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Select the <b>4</b> findings that are <b>most</b> concerning.",
+        "type": "select_n",
+        "limit": 4,
+        "options": [
+          {
+            "text": "Positive motion of R lower extremity",
+            "correct": false
+          },
+          {
+            "text": "2+ pedal edema",
+            "correct": true
+          },
+          {
+            "text": "Pain 8/10 in right calf",
+            "correct": true
+          },
+          {
+            "text": "Warmth noted to right calf",
+            "correct": true
+          },
+          {
+            "text": "Right pedal pulse weak",
+            "correct": true
+          },
+          {
+            "text": "Right lower extremity elevated",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure 145/82",
+            "correct": false
+          },
+          {
+            "text": "HR 96",
+            "correct": false
+          },
+          {
+            "text": "Positive sensation of R lower extremity",
+            "correct": false
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "",
+        "explanation": "The nurse should recognize signs of a possible deep vein thrombosis: pedal edema, calf pain, warmth of the right calf, and a weak pedal pulse.<br>Positive motion and sensation are expected and not concerning. The blood pressure and heart rate are borderline, likely related to the pain, and not a primary concern. The elevation of the extremity and the bedrest order must be followed but are not concerning findings about the client&rsquo;s condition."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd10",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7&deg;C (98&deg;F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+          }
+        ],
+        "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each potential assessment finding, click to indicate if the finding is consistent with a deep vein thrombosis, a soft tissue injury, or an infection. Each finding may be consistent with more than one condition.",
+        "type": "matrix_mr",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Edema",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Decreased pedal pulse",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Warmth to the calf",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Limited range of motion",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Deep Vein Thrombosis",
+            "Soft Tissue Injury",
+            "Infection"
+          ],
+          "firstColumnHeader": "Potential Assessment Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "",
+        "explanation": "Edema and pain are consistent with all three problems. Warmth of the calf may be seen with infection and DVT.<br>A decreased pedal pulse is most suggestive of DVT. Limited range of motion is consistent with a soft tissue injury, but not with DVT."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd10",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7&deg;C (98&deg;F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+          }
+        ],
+        "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Drag the most appropriate choice from the list of options to fill in the blank of the following sentence.",
+        "type": "drag_drop_cloze",
+        "cloze": {
+          "text": "The nurse should recognize that the client is most likely experiencing [[drop0]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "cellulitis of the right lower extremity",
+                  "correct": false
+                },
+                {
+                  "text": "right leg deep vein thrombosis",
+                  "correct": true
+                },
+                {
+                  "text": "sprain of the right leg",
+                  "correct": false
+                },
+                {
+                  "text": "osteomyelitis of the right leg",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "",
+        "explanation": "The most likely cause of the client&rsquo;s symptoms is a right leg deep vein thrombosis (DVT). Some symptoms are consistent with other causes, such as a sprain or an infection, but the only diagnosis consistent with all of the client&rsquo;s symptoms is DVT."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd10",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7&deg;C (98&deg;F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+          }
+        ],
+        "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "For each potential intervention, click to specify whether the intervention is indicated or contraindicated in the plan of care.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Obtain partial thromboplastin times",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Begin anticoagulation therapy",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Compression stockings to bilateral lower extremities",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Ambulate client 3 times a day",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Elevate right lower extremity",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Massage right lower extremity 2 times daily",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Potential Intervention"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1010 with the radiology results.",
+        "explanation": "The nurse should anticipate anticoagulation therapy, which may include an initial bolus dose of heparin followed by a continuous infusion; heparin requires a baseline PTT and monitoring of the PTT every 6 hours per protocol. Compression stockings and elevation of the right lower extremity are indicated.<br>Ambulation is contraindicated until anticoagulation has begun, because of the risk of dislodging the thrombus. Massage is contraindicated because it can dislodge the thrombus."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd10",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7&deg;C (98&deg;F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p>"
+          }
+        ],
+        "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each order, click to specify if the nurse should implement the order immediately, within the next hour, or before the end of the shift.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Draw PT/PTT",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer heparin 80 units/kg IV bolus",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Begin heparin at 18 units/kg/hr",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Redraw PTT 6 hours after start of heparin",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Strict bedrest",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Place compression stockings on lower extremities",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Elevate right lower extremity",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Closely monitor for signs of bleeding",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Immediately",
+            "Within the Hour",
+            "Before the End of the Shift"
+          ],
+          "firstColumnHeader": "Order"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1018 and the Orders.",
+        "explanation": "The PT/PTT should be drawn immediately because it is a STAT order and the heparin cannot be started until it is done. Strict bedrest is implemented immediately, as ordered.<br>The heparin bolus and the initial infusion should begin within the hour to prevent extension of the DVT, and monitoring for bleeding begins with the bolus. The right leg should be elevated soon, but it is not the first priority.<br>The PTT is redrawn 6 hours after the infusion starts, per the orders. Compression stockings will likely need to be obtained from supply and can be applied before the end of the shift."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd10",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7&deg;C (98&deg;F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
+          },
+          {
+            "id": "ord_umd10",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Labs</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Draw prothrombin time (PT) and partial thromboplastin time (PTT) STAT.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Administer heparin 80 units/kg IV bolus now.<br>After the initial bolus, begin heparin weight-based protocol continuous IV infusion: <b>starting dose</b> 18 units/kg/hr.<br>Draw PTT 6 hours after the infusion begins, then every 6 hours. Call results.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Activity: strict bedrest.<br>Place compression stockings on bilateral lower extremities.<br>Elevate right lower extremity.<br>Closely monitor for signs of bleeding.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "Which client statements indicate the teaching was understood? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "“To relieve my stress, I should have a glass of wine before dinner.”",
+            "correct": false
+          },
+          {
+            "text": "“I will eat more spinach and kale every day.”",
+            "correct": false
+          },
+          {
+            "text": "“I will throw away my straight razor and buy an electric one.”",
+            "correct": true
+          },
+          {
+            "text": "“If I miss a dose of my medicine, I will contact my doctor.”",
+            "correct": true
+          },
+          {
+            "text": "“Controlling my blood pressure is not important.”",
+            "correct": false
+          },
+          {
+            "text": "“When I travel, I will get out and walk every 3–4 hours.”",
+            "correct": false
+          },
+          {
+            "text": "“I set an alarm so I take my medicine at the same time daily.”",
+            "correct": true
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "The nurse has reviewed the Day 3 Orders and the Progress Notes. The client is reassessed on the third day, and discharge orders are received.",
+        "explanation": "Because of the bleeding risk, the client should use an electric razor. Warfarin is taken at the same time every day, so the client should contact the provider for instructions if a dose is missed.<br>Alcohol should be avoided because it increases the effect of warfarin and the risk of bleeding. Green leafy vegetables contain vitamin K, which can decrease the effect of warfarin, so the intake should stay consistent rather than increase. The client should maintain a healthy weight and control blood pressure to reduce the risk of another DVT, and when traveling should get up and walk every 1&ndash;2 hours."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd10",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7&deg;C (98&deg;F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
+          },
+          {
+            "id": "ord_umd10",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Labs</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Draw prothrombin time (PT) and partial thromboplastin time (PTT) STAT.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Administer heparin 80 units/kg IV bolus now.<br>After the initial bolus, begin heparin weight-based protocol continuous IV infusion: <b>starting dose</b> 18 units/kg/hr.<br>Draw PTT 6 hours after the infusion begins, then every 6 hours. Call results.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Activity: strict bedrest.<br>Place compression stockings on bilateral lower extremities.<br>Elevate right lower extremity.<br>Closely monitor for signs of bleeding.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Day 3: Discharge planning</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Discharge home. Provide discharge teaching for anticoagulation therapy (warfarin) and deep vein thrombosis prevention. Follow up in 1 week.</td></tr></tbody></table>"
+          },
+          {
+            "id": "pn_umd10",
+            "title": "Progress Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1015:</span><span class=\"nurse-note-text\">Client cleared for discharge home. Heparin discontinued as ordered; warfarin started. Discharge instructions provided, including warfarin therapy, prevention of deep vein thrombosis, and risk reduction (health and weight management). Client able to state self-management of discharge teaching; clarification provided as needed. Client to follow up in 1 week. Discharged via wheelchair with all belongings.</span></p>"
+          }
+        ],
+        "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Deep vein thrombosis II: a 69-year-old client with a right leg DVT; heparin protocol, prioritizing orders, and warfarin discharge teaching.",
+  "availability": "all"
+}

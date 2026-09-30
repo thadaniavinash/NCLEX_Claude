@@ -1,0 +1,397 @@
+{
+  "id": "case_1790776800013",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS13",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Select the <b>4</b> findings that are <b>most</b> concerning.",
+        "type": "select_n",
+        "limit": 4,
+        "options": [
+          {
+            "text": "States he is anxious",
+            "correct": false
+          },
+          {
+            "text": "4+ pitting pedal and pretibial edema",
+            "correct": true
+          },
+          {
+            "text": "Crackles in bilateral lung bases",
+            "correct": true
+          },
+          {
+            "text": "Frequent urination",
+            "correct": false
+          },
+          {
+            "text": "Appetite",
+            "correct": false
+          },
+          {
+            "text": "Awakening at night with shortness of breath",
+            "correct": true
+          },
+          {
+            "text": "Weight gain",
+            "correct": true
+          },
+          {
+            "text": "Heart rate",
+            "correct": false
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "The client is showing signs of worsening heart failure (HF). Crackles in the lung bases, waking at night short of breath, and weight gain are associated with left-sided HF; lower-extremity edema is associated with right-sided HF but is still a concern.<br>Anxiety, appetite (reported as normal), and frequent urination are not priority concerns compared with the signs of worsening HF, and the heart rate is only slightly elevated."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "cn_umd13",
+            "title": "Clinic Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+          },
+          {
+            "id": "vs_umd13",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170/100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97.7 kg (215 lb)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "Select the <b>2</b> problems the client is at <b>most</b> risk for developing.",
+        "type": "select_n",
+        "limit": 2,
+        "options": [
+          {
+            "text": "Anemia",
+            "correct": false
+          },
+          {
+            "text": "Electrolyte imbalance",
+            "correct": true
+          },
+          {
+            "text": "Dehydration",
+            "correct": false
+          },
+          {
+            "text": "Heart attack",
+            "correct": false
+          },
+          {
+            "text": "Fluid volume overload",
+            "correct": true
+          },
+          {
+            "text": "Diabetes mellitus",
+            "correct": false
+          },
+          {
+            "text": "Hyperkalemia",
+            "correct": false
+          },
+          {
+            "text": "Thrombophlebitis",
+            "correct": false
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "The client has worsening heart failure and is at risk for fluid volume overload and for electrolyte imbalances from hemodilution. He also takes hydrochlorothiazide and may become hypokalemic if his diet does not include enough potassium.<br>He is at no or low risk for hyperkalemia, dehydration, anemia, heart attack, diabetes mellitus, and thrombophlebitis."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "cn_umd13",
+            "title": "Clinic Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+          },
+          {
+            "id": "vs_umd13",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170/100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97.7 kg (215 lb)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Which abnormal laboratory finding should the nurse address <b>first</b>?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Cholesterol",
+            "correct": false
+          },
+          {
+            "text": "Potassium",
+            "correct": true
+          },
+          {
+            "text": "Hematocrit",
+            "correct": false
+          },
+          {
+            "text": "Creatinine",
+            "correct": false
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Laboratory Results.",
+        "explanation": "The serum potassium must be addressed first: it is dangerously low and can precipitate digoxin toxicity.<br>The cholesterol is high but is not an urgent issue, and the hematocrit is slightly low, partly from hemodilution. The creatinine is slightly elevated, which bears watching but is not an urgent concern compared with the potassium level."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "cn_umd13",
+            "title": "Clinic Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+          },
+          {
+            "id": "vs_umd13",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170/100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97.7 kg (215 lb)</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd13",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "What should the nurse include in the teaching plan for this client? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Increase intake of oral fluids to stay hydrated.",
+            "correct": false
+          },
+          {
+            "text": "Weigh yourself every day at the same time and in the same clothes.",
+            "correct": true
+          },
+          {
+            "text": "Limit sodium in the diet to no more than 2 grams per day.",
+            "correct": true
+          },
+          {
+            "text": "Immediately report a 1-lb (0.5-kg) weight gain in 1 day or 3 lb (1.4 kg) in 1 week.",
+            "correct": false
+          },
+          {
+            "text": "Limit exercise and physical activity.",
+            "correct": false
+          },
+          {
+            "text": "Take prescribed medication every day, even if feeling better.",
+            "correct": true
+          },
+          {
+            "text": "Eat foods high in potassium.",
+            "correct": true
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "The client is having an exacerbation of heart failure and must be taught self-care: daily weights at the same time in the same clothes, limiting dietary sodium, adding potassium-rich foods, and taking medication as prescribed.<br>Increasing fluids would worsen the fluid overload. The usual teaching is to report a gain of 2&ndash;3 lb (1&ndash;1.5 kg) in a day or 5 lb (2.3 kg) in a week. Regular, tolerated activity is encouraged rather than limited."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "cn_umd13",
+            "title": "Clinic Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+          },
+          {
+            "id": "vs_umd13",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170/100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97.7 kg (215 lb)</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd13",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which actions should the nurse take in response to the change in the medical orders? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Instruct client to start the new medication today",
+            "correct": false
+          },
+          {
+            "text": "Question the new medication order",
+            "correct": true
+          },
+          {
+            "text": "Educate client about stopping digoxin",
+            "correct": true
+          },
+          {
+            "text": "Tell client to take an additional dose of diuretic today",
+            "correct": false
+          },
+          {
+            "text": "Request that the provider order a potassium supplement",
+            "correct": true
+          },
+          {
+            "text": "Ask the dietitian to meet with the client",
+            "correct": true
+          },
+          {
+            "text": "Determine if the client owns a scale",
+            "correct": true
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Clinic Notes from Day 1 1030.",
+        "explanation": "The new order for sacubitril/valsartan should be questioned because the client is already taking enalapril: an ACE inhibitor must be stopped at least 36 hours before sacubitril/valsartan is started, because the combination can cause angioedema. The client needs education about stopping digoxin, a potassium supplement for the low potassium, a dietitian consultation about the fluid restriction and potassium-rich foods, and a scale for daily weights.<br>The client should not start the new medication until the order is clarified, and an extra diuretic dose is not ordered and would worsen the hypokalemia."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "cn_umd13",
+            "title": "Clinic Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Order to discontinue digoxin and begin sacubitril/valsartan 49/51 mg PO daily, with a nutrition/dietitian consult. Begin low-sodium diet and fluid restriction to 1500 mL/24 hours; instructed to weigh himself daily and record. Return to clinic in 3 weeks for follow-up.</span></p>"
+          },
+          {
+            "id": "vs_umd13",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170/100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97.7 kg (215 lb)</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd13",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding, click to specify if the finding indicates that the client&rsquo;s status has improved, worsened, or is unchanged from his condition at the clinic visit 2 weeks earlier.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Sleeping in recliner",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Nagging cough",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pink-tinged sputum",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Difficulty catching breath",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pulse",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Lack of appetite",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Getting up at night to urinate",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Thirst",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ],
+          "columns": [
+            "Improved",
+            "Worsened",
+            "Unchanged"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Clinic Notes from Day 14 0830. On day 14, the nurse follows up with the client.",
+        "explanation": "A nagging cough, difficulty catching his breath, sleeping in a recliner (orthopnea), and pink-tinged sputum are signs of worsening left-sided HF that require immediate intervention. Lack of appetite and getting up at night to urinate also show that the heart failure is worsening.<br>The pulse is slightly improved (102 to 90) and within normal limits. Thirst is not related to the heart failure and is keyed as unchanged."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "cn_umd13",
+            "title": "Clinic Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Order to discontinue digoxin and begin sacubitril/valsartan 49/51 mg PO daily, with a nutrition/dietitian consult. Begin low-sodium diet and fluid restriction to 1500 mL/24 hours; instructed to weigh himself daily and record. Return to clinic in 3 weeks for follow-up.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 0830:</span><span class=\"nurse-note-text\">Client called the clinic to report a nagging cough, pink-tinged sputum, and difficulty &ldquo;catching&rdquo; his breath. States he is sleeping in a recliner because he cannot breathe when lying down in bed. His wife checked his pulse and it is 90. Reports lack of appetite, thirst, and getting up twice a night to urinate. States he is &ldquo;worried&rdquo; about his health. Advised client that worsening symptoms need immediate attention. Spoke with client&rsquo;s wife, who agreed to take him to the emergency department.</span></p>"
+          },
+          {
+            "id": "vs_umd13",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170/100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97.7 kg (215 lb)</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd13",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Authors: Lisa Seldomridge, Jennifer Hart, Molly Dale, Salisbury University. Heart failure: a 68-year-old client in the clinic with worsening HF and hypokalemia; a medication-order error (ACE inhibitor + ARNI), teaching, and worsening symptoms 2 weeks later.",
+  "availability": "all"
+}

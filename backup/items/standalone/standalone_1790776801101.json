@@ -1,0 +1,102 @@
+{
+  "id": "standalone_1790776801101",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS10 Bowtie",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "type": "bowtie",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "",
+        "explanation": "Pulmonary embolism is the most common serious complication of deep vein thrombosis; it presents with difficulty breathing, inspiratory chest pain, and cough. The nurse elevates the head of the bed (high-Fowler&rsquo;s position) to promote oxygenation and prepares the client for a STAT CT scan of the chest to confirm the diagnosis. Respiratory status and continuous cardiac monitoring are monitored closely.<br>Oxygen is needed, but a target saturation of 99&ndash;100% is not realistic. Antibiotics and blood cultures are not indicated. Arterial blood gases are indicated but not hourly. BP is checked frequently but not continuously, and renal function is checked before a contrast CT but is not the priority for ongoing monitoring.",
+        "bowtieParams": [
+          {
+            "text": "Hourly arterial blood gases",
+            "correct": false
+          },
+          {
+            "text": "Continuous noninvasive BP monitoring",
+            "correct": false
+          },
+          {
+            "text": "Respiratory status",
+            "correct": true
+          },
+          {
+            "text": "Renal function",
+            "correct": false
+          },
+          {
+            "text": "Continuous cardiac monitoring",
+            "correct": true
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Place client in high-Fowler’s position",
+            "correct": true
+          },
+          {
+            "text": "Titrate oxygen to maintain oxygen saturation of 99–100%",
+            "correct": false
+          },
+          {
+            "text": "Administer broad-spectrum antibiotics STAT",
+            "correct": false
+          },
+          {
+            "text": "Obtain 2 sets of blood cultures",
+            "correct": false
+          },
+          {
+            "text": "Prepare client for a STAT CT scan of the chest",
+            "correct": true
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieConditions": [
+          {
+            "text": "Pneumonia",
+            "correct": false
+          },
+          {
+            "text": "Myocardial infarction",
+            "correct": false
+          },
+          {
+            "text": "Pulmonary embolism",
+            "correct": true
+          },
+          {
+            "text": "Fat embolism",
+            "correct": false
+          }
+        ],
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing"
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd10b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1520:</span><span class=\"nurse-note-text\"><b>Emergency department triage note:</b> The client arrives by ambulance with difficulty breathing, sharp chest pain on inspiration, and cough, with onset 2 hours before arrival. Lung sounds diminished bilaterally. Client diaphoretic, tachypneic, using accessory muscles with inspiration. VS: BP 166/103, HR 122, RR 36, T 37.2&deg;C, pulse oximetry reading 88% on room air. Client immediately placed in a room. Provider called to bedside for rapid assessment.</span></p>"
+          }
+        ],
+        "intro": "A 69-year-old male client with a recent diagnosis of deep vein thrombosis is seen in the emergency department."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS10 (DVT II): pulmonary embolism.",
+  "availability": "all",
+  "isStandalone": true
+}

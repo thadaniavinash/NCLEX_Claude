@@ -1,0 +1,112 @@
+{
+  "id": "standalone_1790776801211",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS21 Bowtie",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "type": "bowtie",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse reviews the client&rsquo;s laboratory results.",
+        "explanation": "The client is experiencing a thyroid storm, which requires an antithyroid medication such as methimazole. To decrease the client&rsquo;s metabolic demands, the nurse promotes a calm, restful environment; cooling measures and IV fluids are also needed. Body temperature and serum thyroid levels are important parameters to monitor.<br>A warming blanket, levothyroxine, and fluid restriction would worsen the client&rsquo;s condition. Daily weights, the amount of sleep, and the WBC count are not effective ways to assess this client&rsquo;s progress.",
+        "bowtieParams": [
+          {
+            "text": "White blood cells",
+            "correct": false
+          },
+          {
+            "text": "Body temperature",
+            "correct": true
+          },
+          {
+            "text": "Daily weights",
+            "correct": false
+          },
+          {
+            "text": "Thyroid levels",
+            "correct": true
+          },
+          {
+            "text": "Amount of sleep",
+            "correct": false
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Provide a warming blanket",
+            "correct": false
+          },
+          {
+            "text": "Administer methimazole",
+            "correct": true
+          },
+          {
+            "text": "Promote a calm, restful environment",
+            "correct": true
+          },
+          {
+            "text": "Administer levothyroxine sodium",
+            "correct": false
+          },
+          {
+            "text": "Initiate oral fluid restriction",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieConditions": [
+          {
+            "text": "Adrenal insufficiency",
+            "correct": false
+          },
+          {
+            "text": "Hypothyroidism",
+            "correct": false
+          },
+          {
+            "text": "Thyroid storm",
+            "correct": true
+          },
+          {
+            "text": "Myxedema crisis",
+            "correct": false
+          }
+        ],
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing"
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn_umd21b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p>"
+          },
+          {
+            "id": "vs_umd21b",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6&deg;C (103.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd21b",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cells (WBC)</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroid-stimulating hormone (TSH)</b><br>0.45&ndash;4.5 mU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.27 mU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Triiodothyronine (T3), total</b><br>1.2&ndash;3.1 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.1 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroxine (T4), total</b><br>57&ndash;148 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">270 nmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS21 (thyroid storm).",
+  "availability": "all",
+  "isStandalone": true
+}

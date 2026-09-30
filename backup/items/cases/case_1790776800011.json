@@ -1,0 +1,494 @@
+{
+  "id": "case_1790776800011",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS11",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Select the <b>5</b> findings that are <b>most</b> concerning.",
+        "type": "select_n",
+        "limit": 5,
+        "options": [
+          {
+            "text": "Heart rate",
+            "correct": false
+          },
+          {
+            "text": "Temperature",
+            "correct": true
+          },
+          {
+            "text": "Respiratory rate",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure",
+            "correct": false
+          },
+          {
+            "text": "Periumbilical tenderness",
+            "correct": true
+          },
+          {
+            "text": "Peritoneal dialysis catheter exit site",
+            "correct": true
+          },
+          {
+            "text": "Urea (BUN)",
+            "correct": false
+          },
+          {
+            "text": "Creatinine",
+            "correct": false
+          },
+          {
+            "text": "Serum WBC count",
+            "correct": true
+          },
+          {
+            "text": "Dialysate WBC count",
+            "correct": true
+          }
+        ],
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "Fever, abdominal pain, and an elevated WBC count in the serum and in the dialysate effluent indicate peritonitis, a potentially life-threatening complication of peritoneal dialysis. Erythema and creamy yellow exudate around the catheter exit site indicate a possible exit-site infection, which may be the source of the peritonitis.<br>Although the urea and creatinine are high for a person without kidney failure, they are typical for a client with ESRD on peritoneal dialysis. The blood pressure and heart rate are only slightly elevated, and the respiratory rate is within the normal range for an adult."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "adm_umd11",
+            "title": "Admission Note",
+            "content": "<p>35-year-old female client diagnosed with chronic glomerulonephritis 5 years ago. Chronic kidney disease progressed to end-stage renal disease (ESRD) over the last year. Automated peritoneal dialysis started 6 months ago. Developed fever, vomiting, and abdominal pain 1 day ago.</p><p><b>Current assessment:</b> T 39.1&deg;C (102.4&deg;F), HR 104, RR 16, BP 145/87. Weight 66.8 kg (147 lb). No known drug allergies. Periumbilical tenderness with guarding and rebound. Erythema and creamy yellow exudate around the peritoneal dialysis catheter exit site. Dialysate effluent is cloudy yellow. Peritoneal effluent culture obtained. Labs sent.</p>"
+          },
+          {
+            "id": "labs_umd11",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each client finding, click to specify if the finding supports the diagnosis of peritonitis or end-stage renal disease (ESRD). Each finding may support more than one condition.",
+        "type": "matrix_mr",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Urea 16.4 mmol/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Creatinine 946 µmol/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "C-reactive protein 61.5 mg/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Potassium 5.86 mmol/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Phosphate 1.87 mmol/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Hemoglobin 106 g/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "WBC 14.22 × 10⁹/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Neutrophils 89.8%",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Peritonitis",
+            "End-Stage Renal Disease (ESRD)"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "",
+        "explanation": "C-reactive protein is an inflammatory marker that rises with infection and inflammation, and an elevated WBC count and neutrophil percentage indicate infection: these support peritonitis.<br>Elevated urea, creatinine, potassium, and phosphate are common in ESRD because the kidneys cannot excrete waste products. The low hemoglobin (anemia) results from the kidneys&rsquo; inability to produce erythropoietin."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "adm_umd11",
+            "title": "Admission Note",
+            "content": "<p>35-year-old female client diagnosed with chronic glomerulonephritis 5 years ago. Chronic kidney disease progressed to end-stage renal disease (ESRD) over the last year. Automated peritoneal dialysis started 6 months ago. Developed fever, vomiting, and abdominal pain 1 day ago.</p><p><b>Current assessment:</b> T 39.1&deg;C (102.4&deg;F), HR 104, RR 16, BP 145/87. Weight 66.8 kg (147 lb). No known drug allergies. Periumbilical tenderness with guarding and rebound. Erythema and creamy yellow exudate around the peritoneal dialysis catheter exit site. Dialysate effluent is cloudy yellow. Peritoneal effluent culture obtained. Labs sent.</p>"
+          },
+          {
+            "id": "labs_umd11",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Drag the most appropriate choice from the list of options to fill in the blank of the following sentence.",
+        "type": "drag_drop_cloze",
+        "cloze": {
+          "text": "The client is at highest risk for developing [[drop0]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "abdominal abscess",
+                  "correct": false
+                },
+                {
+                  "text": "cellulitis",
+                  "correct": false
+                },
+                {
+                  "text": "pyelonephritis",
+                  "correct": false
+                },
+                {
+                  "text": "sepsis",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The client is diagnosed with peritonitis.",
+        "explanation": "About 11% of clients with ESRD who develop peritonitis develop sepsis, the body&rsquo;s dysregulated immune response to an infection. In sepsis, inflammatory mediators impair blood flow to organs such as the brain and heart, which can lead to tissue damage and organ failure. At its most severe, the response causes dangerously low blood pressure (septic shock), with a mortality of about one third."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "adm_umd11",
+            "title": "Admission Note",
+            "content": "<p>35-year-old female client diagnosed with chronic glomerulonephritis 5 years ago. Chronic kidney disease progressed to end-stage renal disease (ESRD) over the last year. Automated peritoneal dialysis started 6 months ago. Developed fever, vomiting, and abdominal pain 1 day ago.</p><p><b>Current assessment:</b> T 39.1&deg;C (102.4&deg;F), HR 104, RR 16, BP 145/87. Weight 66.8 kg (147 lb). No known drug allergies. Periumbilical tenderness with guarding and rebound. Erythema and creamy yellow exudate around the peritoneal dialysis catheter exit site. Dialysate effluent is cloudy yellow. Peritoneal effluent culture obtained. Labs sent.</p>"
+          },
+          {
+            "id": "labs_umd11",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Based on the new laboratory data, for each potential order, click to specify whether the order is appropriate or not appropriate to include in the plan of care.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Daily weights",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Blood cultures STAT",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Peritoneal dialysis catheter care every shift",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "IV D5 ½ NS with 20 mmol/L KCl at 120 mL/hr",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Calcium carbonate with meals",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Vancomycin IV",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Gentamicin intraperitoneally daily",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Enoxaparin subcutaneous daily",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Epoetin alfa injections",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Appropriate",
+            "Not Appropriate"
+          ],
+          "firstColumnHeader": "Potential Order"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse has reviewed the Microbiology results.",
+        "explanation": "<b>Appropriate:</b> Daily weights assess for the hypervolemia of ESRD; inflammation of the peritoneum can reduce the efficacy of peritoneal dialysis. Blood cultures assess for bacteremia, which may require IV antibiotics in addition to intraperitoneal antibiotics. Catheter care treats the infection; the catheter may need to be replaced if the infection does not clear. Gentamicin is a broad-spectrum antibiotic that treats gram-negative bacteria, and intraperitoneal delivery is more effective than IV for peritonitis; the antibiotic is adjusted once sensitivities are known. Epoetin alfa treats the anemia of ESRD. Calcium carbonate, a phosphate binder, is taken with each meal to prevent absorption of phosphate from the gut, which helps keep the calcium level up.<br><b>Not appropriate:</b> IV D5 &frac12; NS with KCl at 120 mL/hr would cause hypervolemia and hyperkalemia in a client who is oliguric or anuric. Vancomycin is not effective against gram-negative organisms. Enoxaparin is cleared by the kidneys, so it accumulates in ESRD and increases the risk of bleeding."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "adm_umd11",
+            "title": "Admission Note",
+            "content": "<p>35-year-old female client diagnosed with chronic glomerulonephritis 5 years ago. Chronic kidney disease progressed to end-stage renal disease (ESRD) over the last year. Automated peritoneal dialysis started 6 months ago. Developed fever, vomiting, and abdominal pain 1 day ago.</p><p><b>Current assessment:</b> T 39.1&deg;C (102.4&deg;F), HR 104, RR 16, BP 145/87. Weight 66.8 kg (147 lb). No known drug allergies. Periumbilical tenderness with guarding and rebound. Erythema and creamy yellow exudate around the peritoneal dialysis catheter exit site. Dialysate effluent is cloudy yellow. Peritoneal effluent culture obtained. Labs sent.</p>"
+          },
+          {
+            "id": "labs_umd11",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+          },
+          {
+            "id": "micro_umd11",
+            "title": "Microbiology",
+            "content": "<p><b>Type of sample:</b> dialysate effluent.</p><p><b>Preliminary visual report:</b> gram-negative rods.</p>"
+          }
+        ],
+        "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each task, click to specify if the task should be performed by the RN, the LPN, or the UAP.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Vital signs",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Dialysate exchange",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Daily weights",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Peritoneal dialysis catheter care every shift",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Intraperitoneal gentamicin",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Peritoneal dialysis catheter care teaching",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "RN",
+            "LPN",
+            "UAP"
+          ],
+          "firstColumnHeader": "Task"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse leads a team that includes an LPN and an unlicensed assistive personnel (UAP) and plans the client&rsquo;s care based on the most effective use of the team&rsquo;s skill mix.",
+        "explanation": "The UAP provides basic care, such as hygiene, and collects limited data such as vital signs and weights. The LPN performs nursing care in routine situations, such as uncomplicated wound and catheter care.<br>The LPN cannot implement nonroutine care such as intraperitoneal antibiotics, catheter care teaching, or a dialysate exchange for this client; those tasks are done by the RN."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "adm_umd11",
+            "title": "Admission Note",
+            "content": "<p>35-year-old female client diagnosed with chronic glomerulonephritis 5 years ago. Chronic kidney disease progressed to end-stage renal disease (ESRD) over the last year. Automated peritoneal dialysis started 6 months ago. Developed fever, vomiting, and abdominal pain 1 day ago.</p><p><b>Current assessment:</b> T 39.1&deg;C (102.4&deg;F), HR 104, RR 16, BP 145/87. Weight 66.8 kg (147 lb). No known drug allergies. Periumbilical tenderness with guarding and rebound. Erythema and creamy yellow exudate around the peritoneal dialysis catheter exit site. Dialysate effluent is cloudy yellow. Peritoneal effluent culture obtained. Labs sent.</p>"
+          },
+          {
+            "id": "labs_umd11",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+          },
+          {
+            "id": "micro_umd11",
+            "title": "Microbiology",
+            "content": "<p><b>Type of sample:</b> dialysate effluent.</p><p><b>Preliminary visual report:</b> gram-negative rods.</p>"
+          }
+        ],
+        "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each client statement, click to specify whether the statement indicates the client understands or does not understand the teaching about self-care of the peritoneal dialysis catheter.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "“Before cleaning the area, I will wash my hands with soap and water and put on clean gloves.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I should remove crusts or scabs at the exit site before washing the site.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I should hold the catheter in place during cleaning to prevent injury to the skin.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I should scrub the exit site vigorously with an antiseptic solution like iodine or chlorhexidine.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I will put antibiotic cream on the skin around the catheter with a cotton-tip swab every time I change the dressing.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I will not use any creams with petroleum because they can damage the catheter.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I will leave the exit site open to air or covered by loose clothing.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Understands",
+            "Does Not Understand"
+          ],
+          "firstColumnHeader": "Statement"
+        },
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
+        "preamble": "The nurse teaches the client about peritoneal dialysis catheter care to help prevent future infections.",
+        "explanation": "Hand hygiene and clean gloves, stabilizing the catheter during cleaning, applying the prescribed antibiotic cream at each dressing change, and avoiding petroleum-based products (which can damage the catheter) all show understanding.<br>Crusts or scabs should not be picked off before washing, because this can tear the skin and increase the risk of infection. The exit site is cleaned gently with a liquid antibacterial soap and a clean cloth; vigorous scrubbing with antiseptics can dry and crack the skin. The exit site should not be left open to air; it is covered with sterile gauze, changed each time the site is cleaned."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "adm_umd11",
+            "title": "Admission Note",
+            "content": "<p>35-year-old female client diagnosed with chronic glomerulonephritis 5 years ago. Chronic kidney disease progressed to end-stage renal disease (ESRD) over the last year. Automated peritoneal dialysis started 6 months ago. Developed fever, vomiting, and abdominal pain 1 day ago.</p><p><b>Current assessment:</b> T 39.1&deg;C (102.4&deg;F), HR 104, RR 16, BP 145/87. Weight 66.8 kg (147 lb). No known drug allergies. Periumbilical tenderness with guarding and rebound. Erythema and creamy yellow exudate around the peritoneal dialysis catheter exit site. Dialysate effluent is cloudy yellow. Peritoneal effluent culture obtained. Labs sent.</p>"
+          },
+          {
+            "id": "labs_umd11",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+          },
+          {
+            "id": "micro_umd11",
+            "title": "Microbiology",
+            "content": "<p><b>Type of sample:</b> dialysate effluent.</p><p><b>Preliminary visual report:</b> gram-negative rods.</p>"
+          }
+        ],
+        "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Laura Sessions, Towson University. ESRD and dialysis: a 35-year-old client on peritoneal dialysis with peritonitis; differentiating ESRD and infection, orders, delegation, and catheter-care teaching.",
+  "availability": "all"
+}

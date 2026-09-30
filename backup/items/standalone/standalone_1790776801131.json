@@ -1,0 +1,112 @@
+{
+  "id": "standalone_1790776801131",
+  "unit": "Others",
+  "draft": true,
+  "title": "University of Maryland - CS13 Bowtie",
+  "topic": "Others",
+  "course": "Others",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "type": "bowtie",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
+        "preamble": "",
+        "explanation": "A nagging cough, pink-tinged sputum, and orthopnea are symptoms of worsening heart failure. Appropriate actions are an IV diuretic and a fluid restriction, and weight and lung sounds show whether the interventions are effective.<br>There is no indication of infection, so IV antibiotics and WBC monitoring are not appropriate. Normal saline is contraindicated because of the fluid overload. A Foley catheter is not indicated because the client is voiding. The pulse oximetry reading and heart sounds are stable.",
+        "bowtieParams": [
+          {
+            "text": "WBC count",
+            "correct": false
+          },
+          {
+            "text": "Weight",
+            "correct": true
+          },
+          {
+            "text": "Pulse oximetry reading",
+            "correct": false
+          },
+          {
+            "text": "Heart sounds",
+            "correct": false
+          },
+          {
+            "text": "Lung sounds",
+            "correct": true
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Administer IV diuretic",
+            "correct": true
+          },
+          {
+            "text": "Place Foley catheter",
+            "correct": false
+          },
+          {
+            "text": "Administer IV antibiotic",
+            "correct": false
+          },
+          {
+            "text": "Place client on fluid restriction",
+            "correct": true
+          },
+          {
+            "text": "Administer normal saline at 100 mL/hr",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieConditions": [
+          {
+            "text": "COPD exacerbation",
+            "correct": false
+          },
+          {
+            "text": "Pneumonia",
+            "correct": false
+          },
+          {
+            "text": "Urinary tract infection",
+            "correct": false
+          },
+          {
+            "text": "Heart failure",
+            "correct": true
+          }
+        ],
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing"
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "cn_umd13b",
+            "title": "Admission Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Client reports that his primary care provider sent him to the hospital after his follow-up appointment today because of a nagging cough, pink-tinged sputum, and difficulty &ldquo;catching&rdquo; his breath. States he is sleeping in a recliner because of difficulty breathing when lying down in bed. Reports lack of appetite, thirst, and getting up twice a night to urinate. States feeling &ldquo;worried&rdquo; about his health. No known drug allergies.</span></p>"
+          },
+          {
+            "id": "hp_umd13b",
+            "title": "History and Physical",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cardiac</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Regular rhythm, tachycardia; 4+ pitting pedal and pretibial edema</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Respiratory</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Unlabored; crackles in bases bilaterally</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neurologic</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oriented to time, place, person, and situation; anxious</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gastrointestinal</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Abdomen soft, nontender; bowel sounds active</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Skin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Warm, dry, intact</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Genitourinary</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Frequent urination, small amounts, clear yellow, no foul odor</td></tr></tbody></table>"
+          },
+          {
+            "id": "vs_umd13b",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37&deg;C (98.6&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">170/110</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97.7 kg (215 lb)</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse is caring for a 68-year-old client who is admitted to the medical unit from an outpatient clinic."
+      }
+    }
+  ],
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS13 (heart failure).",
+  "availability": "all",
+  "isStandalone": true
+}
