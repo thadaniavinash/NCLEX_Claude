@@ -3800,7 +3800,8 @@ html:not([data-theme="dark"]) .card-id-badge:hover {
   color: var(--text-faint);
 }
 
-.topics-search-input {
+/* "input." outranks the global dark-first input[type="text"] rule (white text), so typed text shows. */
+input.topics-search-input {
   width: 100%;
   font-size: var(--fs-body-sm);
   background: var(--surface) !important; /* User requested white background */
@@ -3813,7 +3814,7 @@ html:not([data-theme="dark"]) .card-id-badge:hover {
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.topics-search-input:focus {
+input.topics-search-input:focus {
   background: var(--surface) !important;
   border-color: #025287;
   box-shadow: 0 0 0 2px rgba(2, 82, 135, 0.1);
@@ -4229,20 +4230,21 @@ details[open] .chevron-adv {
   min-width: 260px;
 }
 
-.author-search-input {
+/* "input." outranks the global dark-first input[type="text"] rule (white text), so typed text shows. */
+input.author-search-input {
   width: 100%;
   font-size: var(--fs-sm);
   background: var(--surface) !important; /* User requested white background */
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 6px 12px 6px 32px;
+  padding: 6px 12px;
   outline: none;
   font-family: inherit;
   color: var(--text);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.author-search-input:focus {
+input.author-search-input:focus {
   background: var(--surface) !important;
   border-color: #025287;
   box-shadow: 0 0 0 2px rgba(2, 82, 135, 0.1);
