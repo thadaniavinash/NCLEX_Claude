@@ -1,0 +1,492 @@
+{
+  "id": "case_1790769567553",
+  "title": "University of Maryland - CS2",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Tuberculosis (medical-surgical): contact tracing, diagnosis, infection control, medication teaching, and 4-week follow-up.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 48-year-old female client presents to the outpatient clinic in response to contact tracing for possible tuberculosis exposure.",
+        "tabs": [
+          {
+            "id": "nn_1790769567553",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p>"
+          },
+          {
+            "id": "meds_1790769567553",
+            "title": "Home Medications",
+            "content": "<p>Hydrochlorothiazide 50 mg PO once daily for hypertension</p><p>Atorvastatin 40 mg PO once daily for hyperlipidemia</p><p>Almotriptan 12.5 mg PO as needed for migraine headache</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_n",
+        "limit": 3,
+        "stem": "Select the <b>3</b> assessment findings that are <b>most</b> concerning at this time.",
+        "options": [
+          {
+            "text": "Blood pressure",
+            "correct": false
+          },
+          {
+            "text": "Lung sounds",
+            "correct": true
+          },
+          {
+            "text": "Temperature",
+            "correct": true
+          },
+          {
+            "text": "Heart rate",
+            "correct": false
+          },
+          {
+            "text": "Pain in chest",
+            "correct": true
+          },
+          {
+            "text": "Respirations",
+            "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading",
+            "correct": false
+          }
+        ],
+        "explanation": "Lung sounds (diminished bilaterally with crackles in the bases), the elevated temperature, and the complaint of chest pain with coughing are all indicative of respiratory alterations consistent with tuberculosis.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tuberculosis&rdquo; medical-surgical faculty case study (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "A 48-year-old female client presents to the outpatient clinic in response to contact tracing for possible tuberculosis exposure.",
+        "tabs": [
+          {
+            "id": "nn_1790769567553",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p>"
+          },
+          {
+            "id": "meds_1790769567553",
+            "title": "Home Medications",
+            "content": "<p>Hydrochlorothiazide 50 mg PO once daily for hypertension</p><p>Atorvastatin 40 mg PO once daily for hyperlipidemia</p><p>Almotriptan 12.5 mg PO as needed for migraine headache</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "For each assessment finding, click to specify if the finding is a risk factor or is not a risk factor for tuberculosis infection.",
+        "matrix": {
+          "firstColumnHeader": "Assessment Finding",
+          "columns": [
+            "Risk Factor",
+            "Not a Risk Factor"
+          ],
+          "rows": [
+            {
+              "text": "Client is overweight",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Medication list",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Recent travel to Asia",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Extended travel with a group",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Temperature",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Blood pressure",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Cough",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Pain characteristics",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Asia is a high-risk area for tuberculosis, and living in close quarters with others (extended travel with a tour group) is a risk factor, as are the elevated temperature, cough, and complaints of chest pain.<br>Being overweight, the home medication list, and the blood pressure are not risk factors for tuberculosis infection.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tuberculosis&rdquo; medical-surgical faculty case study (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "A 48-year-old female client presents to the outpatient clinic in response to contact tracing for possible tuberculosis exposure.",
+        "tabs": [
+          {
+            "id": "nn_1790769567553",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+          },
+          {
+            "id": "meds_1790769567553",
+            "title": "Home Medications",
+            "content": "<p>Hydrochlorothiazide 50 mg PO once daily for hypertension</p><p>Atorvastatin 40 mg PO once daily for hyperlipidemia</p><p>Almotriptan 12.5 mg PO as needed for migraine headache</p>"
+          },
+          {
+            "id": "labs_1790769567553",
+            "title": "Laboratory and Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>5.0&ndash;10.0 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>150&ndash;400 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">358 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>115&ndash;155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.36&ndash;0.48 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.35 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>&lt; 5.7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.0%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>&lt; 5.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Aspartate aminotransferase (AST)</b><br>9&ndash;32 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>19&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">21 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Diagnostic Study</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Moderate bilateral pleural effusion</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "drag_drop_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1100 and the Laboratory and Diagnostic Results.",
+        "stem": "Drag the most appropriate word choice from the list of options to complete the following sentence.",
+        "cloze": {
+          "text": "The nurse should recognize that the client's priority problem to address at this time is [[drop0]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "Ineffective airway clearance",
+                  "correct": false
+                },
+                {
+                  "text": "Impaired gas exchange",
+                  "correct": false
+                },
+                {
+                  "text": "Alteration in tissue perfusion",
+                  "correct": false
+                },
+                {
+                  "text": "Risk for spreading infection",
+                  "correct": true
+                },
+                {
+                  "text": "Pain secondary to coughing",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "In prioritizing the client's needs, airway clearance is not the issue, and there is no evidence of decreased tissue perfusion. There is evidence of mildly altered gas exchange (the borderline low pulse oximetry reading and the auscultated lung congestion), but the risk of spreading the infection to others is the priority concern at this time.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tuberculosis&rdquo; medical-surgical faculty case study (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "A 48-year-old female client presents to the outpatient clinic in response to contact tracing for possible tuberculosis exposure.",
+        "tabs": [
+          {
+            "id": "nn_1790769567553",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+          },
+          {
+            "id": "meds_1790769567553",
+            "title": "Home Medications",
+            "content": "<p>Hydrochlorothiazide 50 mg PO once daily for hypertension</p><p>Atorvastatin 40 mg PO once daily for hyperlipidemia</p><p>Almotriptan 12.5 mg PO as needed for migraine headache</p>"
+          },
+          {
+            "id": "labs_1790769567553",
+            "title": "Laboratory and Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>5.0&ndash;10.0 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>150&ndash;400 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">358 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>115&ndash;155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.36&ndash;0.48 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.35 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>&lt; 5.7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.0%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>&lt; 5.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Aspartate aminotransferase (AST)</b><br>9&ndash;32 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>19&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">21 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Diagnostic Study</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Moderate bilateral pleural effusion</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders_1790769567553",
+            "title": "Orders",
+            "content": "<p>Rifapentine 1200 mg PO daily</p><p>Moxifloxacin 400 mg PO daily</p><p>Isoniazid 300 mg PO daily</p><p>Pyrazinamide 2000 mg PO daily</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The client is diagnosed with a tuberculosis infection, and orders for new medications are received. The nurse has reviewed the Orders.",
+        "stem": "For each potential nursing intervention, click to specify whether the intervention is appropriate or not appropriate to include in the plan of care.",
+        "matrix": {
+          "firstColumnHeader": "Potential Nursing Intervention",
+          "columns": [
+            "Appropriate",
+            "Not Appropriate"
+          ],
+          "rows": [
+            {
+              "text": "Implement a fluid restriction while taking tuberculosis medication",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Initiate a 24-hour urine collection",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Instruct the client to wear a mask when around others for the next 3 weeks",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Teach coughing and deep breathing techniques",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Alert the client's family that she has tuberculosis",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Encourage a high-carbohydrate diet",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Withhold opioid pain medication",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Apply an N95 face mask",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "An N95 respirator protects the nurse from airborne transmission of tuberculosis. Coughing and deep breathing is an important nursing intervention for this client, and the client should be encouraged to wear a face mask around others for at least the first 3 weeks of treatment.<br>While contact tracing would be done for close contacts, the nurse would not reveal the client's identity. The other interventions are not appropriate for this client.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tuberculosis&rdquo; medical-surgical faculty case study (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "A 48-year-old female client presented to the outpatient clinic in response to contact tracing for possible tuberculosis exposure and was found to be symptomatic.",
+        "tabs": [
+          {
+            "id": "nn_1790769567553",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+          },
+          {
+            "id": "meds_1790769567553",
+            "title": "Home Medications",
+            "content": "<p>Hydrochlorothiazide 50 mg PO once daily for hypertension</p><p>Atorvastatin 40 mg PO once daily for hyperlipidemia</p><p>Almotriptan 12.5 mg PO as needed for migraine headache</p>"
+          },
+          {
+            "id": "labs_1790769567553",
+            "title": "Laboratory and Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>5.0&ndash;10.0 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>150&ndash;400 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">358 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>115&ndash;155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.36&ndash;0.48 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.35 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>&lt; 5.7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.0%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>&lt; 5.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Aspartate aminotransferase (AST)</b><br>9&ndash;32 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>19&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">21 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Diagnostic Study</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Moderate bilateral pleural effusion</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders_1790769567553",
+            "title": "Orders",
+            "content": "<p>Rifapentine 1200 mg PO daily</p><p>Moxifloxacin 400 mg PO daily</p><p>Isoniazid 300 mg PO daily</p><p>Pyrazinamide 2000 mg PO daily</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "For each client teaching point, click to specify whether the information needs to be provided immediately, at the time of client follow-up, or is not indicated for this client.",
+        "matrix": {
+          "firstColumnHeader": "Client Teaching Point",
+          "columns": [
+            "Immediately",
+            "On Return Visit",
+            "Not Indicated"
+          ],
+          "rows": [
+            {
+              "text": "&ldquo;Your cholesterol is high, and we need to discuss your diet.&rdquo;",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "&ldquo;You will need to take the medications every day for at least 4 months.&rdquo;",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "&ldquo;If you continue to cough at home, please save all of your sputum.&rdquo;",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "&ldquo;You will need to have regular labs to check the effects of this medication on your liver.&rdquo;",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "&ldquo;Try to pace your activities to preserve your energy.&rdquo;",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "&ldquo;Tuberculosis is not spread by germs on dishes or linens.&rdquo;",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "&ldquo;Your A1C is high, and you may have diabetes.&rdquo;",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "Teaching about the medication schedule and length of treatment, liver monitoring, energy conservation, and how tuberculosis is (and is not) spread is needed immediately.<br>The cholesterol is high and the A1C is elevated but in the prediabetes range. These should be addressed at the follow-up visit, when the client may be more able to receive information unrelated to the presenting problem.<br>There is no need to collect sputum at home since the antibiotics have already been started.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tuberculosis&rdquo; medical-surgical faculty case study (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "A 48-year-old female client with tuberculosis is seen in the clinic at a 4-week follow-up appointment.",
+        "tabs": [
+          {
+            "id": "nn_1790769567553",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+          },
+          {
+            "id": "meds_1790769567553",
+            "title": "Home Medications",
+            "content": "<p>Hydrochlorothiazide 50 mg PO once daily for hypertension</p><p>Atorvastatin 40 mg PO once daily for hyperlipidemia</p><p>Almotriptan 12.5 mg PO as needed for migraine headache</p>"
+          },
+          {
+            "id": "labs_1790769567553",
+            "title": "Laboratory and Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>5.0&ndash;10.0 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>150&ndash;400 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">358 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>115&ndash;155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.36&ndash;0.48 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.35 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>&lt; 5.7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.0%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>&lt; 5.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Aspartate aminotransferase (AST)</b><br>9&ndash;32 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>19&ndash;25 U/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">21 U/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Diagnostic Study</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Moderate bilateral pleural effusion</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders_1790769567553",
+            "title": "Orders",
+            "content": "<p>Rifapentine 1200 mg PO daily</p><p>Moxifloxacin 400 mg PO daily</p><p>Isoniazid 300 mg PO daily</p><p>Pyrazinamide 2000 mg PO daily</p>"
+          },
+          {
+            "id": "progress_1790769567553",
+            "title": "Progress Notes",
+            "content": "<p>Client returns for a follow-up appointment 4 weeks after being diagnosed with a tuberculosis infection. Reports missing several doses of medication. Continues to have a productive cough and is tired most days. Lung sounds clear with few scattered crackles. Rates pain with the cough at 3/10. VS: T 98.8&deg;F (37.1&deg;C), P 80, RR 22, BP 144/88, pulse oximetry reading 95% on room air. Repeat WBC 9.0 &times; 10<sup>9</sup>/L. Chest X-ray shows mild pleural effusion in the right base.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "preamble": "The nurse has reviewed the Progress Notes.",
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "cloze": {
+          "text": "The nurse determines the client's status is [[drop0]]. The nurse should now [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "deteriorating",
+                  "correct": false
+                },
+                {
+                  "text": "improving",
+                  "correct": true
+                },
+                {
+                  "text": "unchanged",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "discharge the client home",
+                  "correct": false
+                },
+                {
+                  "text": "review medication teaching",
+                  "correct": true
+                },
+                {
+                  "text": "admit the client for observation",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The client's symptoms are improving: the chest X-ray has improved, the lung sounds have improved, the temperature is normal, and the WBC count is within normal limits. However, the client is not adhering strictly to the medication schedule and needs medication teaching before being sent home.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tuberculosis&rdquo; medical-surgical faculty case study (Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}
