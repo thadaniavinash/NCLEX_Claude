@@ -1,0 +1,27 @@
+{
+  "cs": 6,
+  "topic": "Chest Pain (MI)",
+  "source": "Chest-Pain-(MI).docx",
+  "items": [
+    {
+      "id": "case_1790776800006",
+      "title": "University of Maryland - CS6",
+      "file": "drafts/case_1790776800006_University_of_Maryland_-_CS6.json"
+    },
+    {
+      "id": "standalone_1790776801061",
+      "title": "University of Maryland - CS6 Bowtie",
+      "file": "drafts/standalone_1790776801061_University_of_Maryland_-_CS6_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Screen 3 has NO answer key in the source. It was keyed as ST-elevation myocardial infarction + coronary artery \"blockage\" (the rationale ends with the clot causing total blockage of the artery), but the rationale also describes plaque \"rupture\". Please confirm blockage vs rupture.",
+    "Oxygen: the case applies oxygen at SpO2 93% on room air, and the bow-tie keys \"Administer oxygen\" as a correct action (source rationale: SpO2 should be ≥ 95%). Current ACS guidelines (AHA/CCS) recommend oxygen only when SpO2 is < 90%. Consider revising the bow-tie key or the SpO2 value; the sentence about ≥ 95% was removed from the rationale.",
+    "Bow-tie: \"Administer low-dose aspirin\" is keyed incorrect (source: aspirin should be given in higher doses). Chewable aspirin 160-325 mg is standard; the option wording may confuse students. Please review.",
+    "Orders: enoxaparin 100 mg SC (client 127 kg; with fibrinolysis the usual regimen is 30 mg IV bolus + 1 mg/kg SC, max 100 mg for the first doses), tenecteplase 50 mg IV (weight ≥ 90 kg, correct), metoprolol 25 mg PO, morphine 2 mg IV every 15 min PRN. Please review the enoxaparin order.",
+    "Screen 5: \"within 30 minutes\" is the door-to-needle target for fibrinolysis; for an anterior STEMI, primary PCI within 90 minutes (door-to-balloon) is preferred when available. The question works as written; consider adding that the facility has no PCI capability.",
+    "Screen 2: the row \"ECG changes\" now reads \"ST elevation in leads V3 and V4\" (NSTEMI and unstable angina can also show ECG changes, e.g. ST depression). CK-MB and troponin rows now say \"Elevated\".",
+    "Labs in SI with the author's ranges: cholesterol 250 mg/dL → 6.5 mmol/L; magnesium 1.5 mEq/L → 0.75 mmol/L; troponin T 0.5 ng/mL → 500 ng/L (0-40); WBC/platelets × 10⁹/L; K+/Na+ mmol/L. CK-MB kept in U/L as in the source.",
+    "Screen 1 options were reordered so a correct answer is not listed first."
+  ]
+}

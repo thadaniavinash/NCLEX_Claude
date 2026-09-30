@@ -1,0 +1,29 @@
+{
+  "cs": 4,
+  "topic": "Breast Cancer",
+  "source": "Breast-Cancer.docx",
+  "items": [
+    {
+      "id": "case_1790776800004",
+      "title": "University of Maryland - CS4",
+      "file": "drafts/case_1790776800004_University_of_Maryland_-_CS4.json"
+    },
+    {
+      "id": "standalone_1790776801041",
+      "title": "University of Maryland - CS4 Trend",
+      "file": "drafts/standalone_1790776801041_University_of_Maryland_-_CS4_Trend.json"
+    }
+  ],
+  "notes": [
+    "Screen 2 (matrix, more than one answer per row): the author's key marks numbness/tingling for lymphedema AND DVT, and HR 104 for cellulitis only, but the author's rationale said numbness is \"only associated with lymphedema\" and that tachycardia \"could be associated with DVT\". The key was kept; the rationale was rewritten to match it. Please confirm the key.",
+    "Screen 2: \"Sodium 148 mmol/L\" keyed as consistent with lymphedema (rationale: hypernatremia could add to the swelling) is a weak link. Consider replacing that row.",
+    "Screen 4: amoxicillin is keyed as an anticipated order \"to treat a possible infection that triggered the lymphedema\", although the client is afebrile with no redness (cellulitis not suspected). The client is also neutropenic (WBC 1.5 × 10⁹/L). Please confirm the antibiotic order and rationale.",
+    "Discharge prescriptions (1400 note): acetaminophen 500 mg PO twice daily is an unusual frequency for pain (usually every 4-6 hours as needed). Please review.",
+    "Screen 6: the source's rationale repeated screen 5; it was rewritten for the statements actually asked (ice bag, antibiotics for a cut, aching and heaviness, resuming exercises). \"Ice bag = no understanding\" follows the usual advice to avoid temperature extremes on the affected arm; please confirm.",
+    "Screen 1: WBC 1.5 × 10⁹/L is keyed as one of the 4 most significant findings (not explained in the source rationale; a sentence was added).",
+    "Lab values converted to SI with the author's ranges: glucose 68 mg/dL → 3.8 mmol/L (< 5.5); Hgb 11 g/dL → 110 g/L; Hct 33% → 0.33 L/L; albumin 2.8 g/dL → 28 g/L (35-55); WBC/platelets × 10⁹/L; K+/Na+ mmol/L.",
+    "Screen 3: \"drag 1 condition and 1 cause\" is a drag-and-drop with both blanks scored together (1 point, \"rationale rule\" in the source).",
+    "Screen 4 options were reordered so a correct answer is not listed first.",
+    "Trend (stand-alone): uses the source's own flow sheet, where the 1200 BP is 126/72 (screen 6 of the case shows 132/72, as in the source). No question depends on it."
+  ]
+}

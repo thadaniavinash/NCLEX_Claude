@@ -1,0 +1,102 @@
+{
+  "id": "standalone_1790776801061",
+  "title": "University of Maryland - CS6 Bowtie",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS6 (chest pain, myocardial infarction).",
+  "isStandalone": true,
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 60-year-old male client is admitted to the emergency department with chest pain.",
+        "tabs": [
+          {
+            "id": "nn_umd06b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99&deg;F (37.2&deg;C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "bowtie",
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "explanation": "The actions and monitoring for a client with acute coronary syndrome help determine the next steps in treatment. Oxygen and nitroglycerin improve oxygenation and dilate the vessels to improve blood flow to the heart muscle, and improving ischemic pain indicates improved perfusion. The pulse oximetry reading shows whether oxygenation is adequate.<br>Low-dose aspirin is not the dose used for a suspected myocardial infarction (a higher, chewable dose is given). Tenecteplase may be given for a STEMI, but only after the diagnosis is confirmed by ECG. A fluid bolus would increase the cardiac workload.",
+        "bowtieActions": [
+          {
+            "text": "Administer sublingual nitroglycerin",
+            "correct": true
+          },
+          {
+            "text": "Administer low-dose aspirin",
+            "correct": false
+          },
+          {
+            "text": "Administer a normal saline fluid bolus",
+            "correct": false
+          },
+          {
+            "text": "Administer oxygen",
+            "correct": true
+          },
+          {
+            "text": "Administer tenecteplase",
+            "correct": false
+          }
+        ],
+        "bowtieConditions": [
+          {
+            "text": "Atrial fibrillation",
+            "correct": false
+          },
+          {
+            "text": "Cardiogenic shock",
+            "correct": false
+          },
+          {
+            "text": "Ischemic stroke",
+            "correct": false
+          },
+          {
+            "text": "Myocardial infarction",
+            "correct": true
+          }
+        ],
+        "bowtieParams": [
+          {
+            "text": "Pain",
+            "correct": true
+          },
+          {
+            "text": "Neuro checks",
+            "correct": false
+          },
+          {
+            "text": "Urinary output",
+            "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading",
+            "correct": true
+          },
+          {
+            "text": "Peripheral pulses",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    }
+  ]
+}

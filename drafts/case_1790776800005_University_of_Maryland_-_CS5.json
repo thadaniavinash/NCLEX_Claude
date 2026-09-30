@@ -1,0 +1,443 @@
+{
+  "id": "case_1790776800005",
+  "title": "University of Maryland - CS5",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated May 16, 2023); Author: Stacy McGrath, Salisbury University. Burns: a 55-year-old client with 2nd- and 3rd-degree burns develops burn shock during fluid resuscitation and then signs of upper airway edema.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire.",
+        "tabs": [
+          {
+            "id": "nn_umd05",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+          },
+          {
+            "id": "vs_umd05",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8&deg;C (100&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88/58</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80/54</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "io_umd05",
+            "title": "Intake and Output",
+            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_n",
+        "limit": 4,
+        "stem": "Select the <b>4</b> findings that are <b>most</b> urgent to follow up.",
+        "options": [
+          {
+            "text": "Respirations",
+            "correct": true
+          },
+          {
+            "text": "Pitting edema",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure",
+            "correct": true
+          },
+          {
+            "text": "Urine output",
+            "correct": true
+          },
+          {
+            "text": "Heart rate",
+            "correct": true
+          },
+          {
+            "text": "Temperature",
+            "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading",
+            "correct": false
+          },
+          {
+            "text": "Pain",
+            "correct": false
+          }
+        ],
+        "explanation": "The nurse needs to follow up on findings that indicate the client may be developing respiratory distress or shock: increasing respirations, a drop in blood pressure, tachycardia, and decreased urine output.<br>The pulse oximetry reading is low but not critical. A client with burns will have pitting edema as a result of fluid shifting, but it is not a priority over airway and circulation. Clients with burns have thermoregulation and pain issues, but the airway and blood pressure need to be addressed first.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire.",
+        "tabs": [
+          {
+            "id": "nn_umd05",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+          },
+          {
+            "id": "vs_umd05",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8&deg;C (100&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88/58</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80/54</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "io_umd05",
+            "title": "Intake and Output",
+            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "stem": "For each client finding, click to specify whether the finding is consistent with compartment syndrome, inhalation injury, or distributive shock. Each finding may support more than one condition.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Compartment Syndrome",
+            "Inhalation Injury",
+            "Distributive Shock"
+          ],
+          "rows": [
+            {
+              "text": "Urine output",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Tachypnea",
+              "correctIndex": 1,
+              "correctIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Blood pressure",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Peripheral edema",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "A client progressing into shock from burn injuries has a low blood pressure and an elevated heart rate and respiratory rate. Fluid shifts cause peripheral edema, and as the client becomes hypovolemic the urine output declines.<br>Clients with compartment syndrome have pain and peripheral edema. Clients with burns can develop airway obstruction at any point after the event from smoke or inhalation injury, which manifests as tachypnea, dyspnea, or changes in breath sounds.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire.",
+        "tabs": [
+          {
+            "id": "nn_umd05",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+          },
+          {
+            "id": "vs_umd05",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8&deg;C (100&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88/58</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80/54</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "io_umd05",
+            "title": "Intake and Output",
+            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "The client is at most risk for complications associated with [[drop0]]. The client care priority is to [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "compartment syndrome",
+                  "correct": false
+                },
+                {
+                  "text": "inhalation injury",
+                  "correct": false
+                },
+                {
+                  "text": "distributive shock",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "assist with intubation",
+                  "correct": false
+                },
+                {
+                  "text": "increase fluids",
+                  "correct": true
+                },
+                {
+                  "text": "relieve compression",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "Clients with major burns can go into shock because of massive fluid shifts. Signs of distributive shock include an increased heart rate and respiratory rate and a decreased blood pressure, so the priority is to increase fluids.<br>While the respiratory rate is increasing, the pulse oximetry reading is not decreasing on low-flow oxygen. Edema is seen with compartment syndrome, but the pain is typically severe and there would be other neurovascular findings.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire.",
+        "tabs": [
+          {
+            "id": "nn_umd05",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+          },
+          {
+            "id": "vs_umd05",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8&deg;C (100&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88/58</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80/54</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "io_umd05",
+            "title": "Intake and Output",
+            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse contacts the physician about the client&rsquo;s status.",
+        "stem": "What orders does the nurse anticipate including in the plan of care? For each potential order, click to specify whether the order is indicated or not indicated.",
+        "matrix": {
+          "firstColumnHeader": "Potential Order",
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "rows": [
+            {
+              "text": "Obtain a blood gas",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Double the IV infusion rate",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Monitor basic metabolic panel",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Obtain a chest X-ray",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Culture wounds",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "Aggressive fluid resuscitation is needed, but it must be done judiciously to prevent fluid overload and pulmonary complications; IV rates are typically increased by no more than 20% per hour, so doubling the rate is not indicated. A chest X-ray and blood gas should be obtained to assess pulmonary status, and monitoring the metabolic panel helps assess fluid and electrolyte imbalances.<br>It is too soon to suspect a wound infection, so wound cultures are not indicated.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire.",
+        "tabs": [
+          {
+            "id": "nn_umd05",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+          },
+          {
+            "id": "vs_umd05",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8&deg;C (100&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88/58</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80/54</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "io_umd05",
+            "title": "Intake and Output",
+            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd05",
+            "title": "Orders",
+            "content": "<p>Obtain chest X-ray, ABG, complete metabolic panel.</p><p>Oxygen per nasal cannula 2&ndash;6 L/min to maintain pulse oximetry reading at 92% or greater.</p><p>Titrate IV fluids based on urine output, up to a maximum of 2000 mL/hr:<br>&nbsp;&nbsp;&lt; 15 mL/hr: increase IV rate 20%<br>&nbsp;&nbsp;15&ndash;29 mL/hr: increase IV rate 10%<br>&nbsp;&nbsp;30&ndash;50 mL/hr: leave current rate<br>&nbsp;&nbsp;&gt; 50 mL/hr: decrease IV rate 10%</p><p>Give 500 mL 5% albumin over 2 hours as needed for systolic BP &lt; 80 mm Hg or diastolic BP &lt; 50 mm Hg.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "multiple_choice",
+        "preamble": "The nurse has reviewed the Orders. The physician assesses the client, and the nurse receives orders.",
+        "stem": "What action should the nurse take <b>first</b>?",
+        "options": [
+          {
+            "text": "Obtain a chest X-ray",
+            "correct": false
+          },
+          {
+            "text": "Obtain an ABG",
+            "correct": false
+          },
+          {
+            "text": "Increase the IV rate",
+            "correct": true
+          },
+          {
+            "text": "Give albumin",
+            "correct": false
+          }
+        ],
+        "explanation": "The most critical intervention is to increase the IV fluids: urine output was 20 mL in the last hour, and the order calls for a 10% increase for 15&ndash;29 mL/hr. The chest X-ray and blood gas can be done after the fluids are increased. The vital signs do not yet meet the parameters for albumin.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire.",
+        "tabs": [
+          {
+            "id": "nn_umd05",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\">IV rate increased. Labs drawn. Portable chest X-ray done.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2300:</span><span class=\"nurse-note-text\">Audible stridor.</span></p>"
+          },
+          {
+            "id": "vs_umd05",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8&deg;C (100&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.6&deg;C (99.7&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.6&deg;C (99.7&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">136</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">38</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88/58</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80/54</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">82/56</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">84/54</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on 4 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on 6 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "io_umd05",
+            "title": "Intake and Output",
+            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mL</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd05",
+            "title": "Orders",
+            "content": "<p>Obtain chest X-ray, ABG, complete metabolic panel.</p><p>Oxygen per nasal cannula 2&ndash;6 L/min to maintain pulse oximetry reading at 92% or greater.</p><p>Titrate IV fluids based on urine output, up to a maximum of 2000 mL/hr:<br>&nbsp;&nbsp;&lt; 15 mL/hr: increase IV rate 20%<br>&nbsp;&nbsp;15&ndash;29 mL/hr: increase IV rate 10%<br>&nbsp;&nbsp;30&ndash;50 mL/hr: leave current rate<br>&nbsp;&nbsp;&gt; 50 mL/hr: decrease IV rate 10%</p><p>Give 500 mL 5% albumin over 2 hours as needed for systolic BP &lt; 80 mm Hg or diastolic BP &lt; 50 mm Hg.</p>"
+          },
+          {
+            "id": "dx_umd05",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Chest X-ray (2200):</b> minimal inhalation injury.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 2200 and 2300, the Vital Signs and Intake and Output from 2200 and 2300, and the Diagnostic Results. The nurse reassesses the client at 2300.",
+        "stem": "For each finding, click to indicate if the finding indicates the client&rsquo;s condition has improved, declined, or is unchanged.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Improved",
+            "Declined",
+            "Unchanged"
+          ],
+          "rows": [
+            {
+              "text": "Blood pressure",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Heart rate",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Urine output",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Oxygen saturation",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Breath sounds",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Temperature",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "The client&rsquo;s hemodynamic status is stabilizing, with fairly consistent heart rate and blood pressure measurements, and the temperature has remained stable. A urine output of 50 mL in the last hour is a sign of improved renal perfusion.<br>Stridor and a decreasing pulse oximetry reading on more oxygen suggest the development of upper airway edema.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    }
+  ]
+}
