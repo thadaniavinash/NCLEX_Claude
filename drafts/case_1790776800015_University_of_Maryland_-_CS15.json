@@ -1,0 +1,423 @@
+{
+  "id": "case_1790776800015",
+  "title": "University of Maryland - CS15",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: DeNiece Bennett, University of Maryland School of Nursing. Type 2 diabetes and ketoacidosis: a 73-year-old client on an SGLT2 inhibitor with DKA; DKA vs HHS, priorities, insulin and potassium management, and response.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 73-year-old male client with a history of type 2 diabetes presents to the emergency department with a change in mental status.",
+        "tabs": [
+          {
+            "id": "nn_umd15",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p>"
+          },
+          {
+            "id": "vs_umd15",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd15",
+            "title": "Medications",
+            "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_n",
+        "limit": 4,
+        "stem": "Select the <b>4</b> findings that are <b>most</b> significant.",
+        "options": [
+          {
+            "text": "Lung sounds",
+            "correct": false
+          },
+          {
+            "text": "History of type 2 diabetes",
+            "correct": true
+          },
+          {
+            "text": "Respiratory status",
+            "correct": true
+          },
+          {
+            "text": "Circulation",
+            "correct": true
+          },
+          {
+            "text": "Pupils",
+            "correct": false
+          },
+          {
+            "text": "Temperature",
+            "correct": false
+          },
+          {
+            "text": "Mental status",
+            "correct": true
+          },
+          {
+            "text": "Medications",
+            "correct": false
+          }
+        ],
+        "explanation": "Because the client has type 2 diabetes, the nurse follows up on signs that the diabetes may be out of control: the deep, rapid respirations and fruity breath odor, and the change in mental status. The low blood pressure and tachycardia (circulation) can indicate severe hypovolemia.<br>The lung sounds are clear, the pupils are equal and reactive, and the temperature is only slightly elevated.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "A 73-year-old male client with a history of type 2 diabetes presents to the emergency department with a change in mental status.",
+        "tabs": [
+          {
+            "id": "nn_umd15",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs_umd15",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd15",
+            "title": "Medications",
+            "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+          },
+          {
+            "id": "labs_umd15",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">168 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>3.9&ndash;7.8 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ketones, urine</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.4 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes and Vital Signs from 1215 and the Laboratory Results. The nurse starts an IV and reviews the laboratory results.",
+        "stem": "For each finding, click to specify if it is consistent with ketoacidosis or hyperglycemic hyperosmolar syndrome. Each finding may support more than one condition.",
+        "matrix": {
+          "firstColumnHeader": "Laboratory Finding",
+          "columns": [
+            "Ketoacidosis",
+            "Hyperglycemic Hyperosmolar Syndrome"
+          ],
+          "rows": [
+            {
+              "text": "pH 7.20",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Blood glucose 24.2 mmol/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Serum creatinine 168 µmol/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": "Urine ketones positive",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Blood glucose in diabetic ketoacidosis ranges widely (about 14&ndash;44 mmol/L), whereas in HHS it is typically above 33 mmol/L. A low pH and ketones in the urine are seen with DKA and are typically absent in HHS.<br>Both conditions cause dehydration, which elevates the creatinine.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "A 73-year-old male client with a history of type 2 diabetes presents to the emergency department with a change in mental status.",
+        "tabs": [
+          {
+            "id": "nn_umd15",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs_umd15",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd15",
+            "title": "Medications",
+            "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+          },
+          {
+            "id": "labs_umd15",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">168 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>3.9&ndash;7.8 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ketones, urine</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.4 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "stem": "Complete the following sentence by choosing from the list of options.",
+        "cloze": {
+          "text": "The problem the nurse should address first is [[drop0]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "correcting pH",
+                  "correct": false
+                },
+                {
+                  "text": "restoring volume",
+                  "correct": true
+                },
+                {
+                  "text": "lowering glucose",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The priority is to restore volume so the client has adequate perfusion. Once the volume is improved, insulin therapy begins and brings the glucose down slowly.<br>The acidosis is monitored to see whether it is worsening; sodium bicarbonate is not given unless the pH is below 6.9.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "A 73-year-old male client with a history of type 2 diabetes presents to the emergency department with a change in mental status.",
+        "tabs": [
+          {
+            "id": "nn_umd15",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs_umd15",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd15",
+            "title": "Medications",
+            "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+          },
+          {
+            "id": "labs_umd15",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">168 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>3.9&ndash;7.8 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ketones, urine</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.4 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The client is diagnosed with ketoacidosis, and the nurse begins to plan care.",
+        "stem": "For each nursing intervention, click to specify whether the intervention is indicated, contraindicated, or nonessential.",
+        "matrix": {
+          "firstColumnHeader": "Nursing Intervention",
+          "columns": [
+            "Indicated",
+            "Contraindicated",
+            "Nonessential"
+          ],
+          "rows": [
+            {
+              "text": "Obtain glycosylated hemoglobin (A1C)",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Teach the client pursed-lip breathing",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administer insulin glargine subcutaneously",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Insert indwelling urinary catheter",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administer IV potassium",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Monitor ECG",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "IV potassium is indicated: the potassium is already low, and insulin therapy moves potassium into the cells. ECG monitoring is indicated because acidosis and potassium shifts cause dysrhythmias.<br>The deep, rapid (Kussmaul) respirations are the body&rsquo;s compensation for the metabolic acidosis, so pursed-lip breathing to slow the breathing is contraindicated. DKA is treated with IV regular insulin, which can be titrated, not subcutaneous insulin glargine. Urine output can be measured with a urinal; an indwelling catheter adds infection risk in a client with diabetes.<br>The A1C reflects glucose control over months and does not guide acute treatment, so it is nonessential now.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "A 73-year-old male client with a history of type 2 diabetes presents to the emergency department with a change in mental status.",
+        "tabs": [
+          {
+            "id": "nn_umd15",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs_umd15",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd15",
+            "title": "Medications",
+            "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+          },
+          {
+            "id": "labs_umd15",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">168 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>3.9&ndash;7.8 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ketones, urine</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.4 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd15",
+            "title": "Orders",
+            "content": "<p>Admit to ICU with a diagnosis of ketoacidosis.</p><p>Give 1000 mL 0.9% sodium chloride IV bolus over 30 minutes.</p><p>Then start 0.9% sodium chloride with 20 mmol/L KCl at 125 mL/hr.</p><p>Start regular insulin infusion at 0.1 units/kg/hr after the fluid bolus.</p><p>Fingerstick blood glucose hourly; titrate insulin infusion per ICU protocol.</p><p>Electrolytes every 2 hours.</p><p>Continuous cardiac monitoring.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Orders.",
+        "stem": "What actions should the nurse take while implementing the treatment plan? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Begin insulin after the bolus at 0.9 units/hr",
+            "correct": false
+          },
+          {
+            "text": "Anticipate holding insulin for low potassium levels",
+            "correct": true
+          },
+          {
+            "text": "Request IV fluids with dextrose when glucose levels start to normalize",
+            "correct": true
+          },
+          {
+            "text": "Allow the client to eat when status stabilizes",
+            "correct": true
+          },
+          {
+            "text": "Monitor for symptoms of fluid overload",
+            "correct": true
+          }
+        ],
+        "explanation": "Insulin therapy can cause hypokalemia; insulin is typically held if the potassium falls below 3.3 mmol/L. Dextrose is added to the IV fluids as glucose levels fall to prevent hypoglycemia while the ketosis resolves. The client can eat once the respiratory status is stable and he feels like eating. During the initial fluid resuscitation, the nurse monitors for fluid overload.<br>The client weighs 93 kg, so the ordered starting rate (0.1 units/kg/hr) is 9.3 units/hr, not 0.9 units/hr.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "A 73-year-old male client with a history of type 2 diabetes presents to the emergency department with a change in mental status.",
+        "tabs": [
+          {
+            "id": "nn_umd15",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Transferred to ICU. IV fluid bolus given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300:</span><span class=\"nurse-note-text\">Maintenance IV fluids and insulin infusion started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Capillary glucose 24.2 mmol/L. Awake, alert, oriented to person and place, talking in full sentences. Denies pain. Breath sounds clear. Voided 300 mL of clear urine.</span></p>"
+          },
+          {
+            "id": "vs_umd15",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1300</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5&deg;C (99.5&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.1&deg;C (98.9&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.1&deg;C (98.9&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">105</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">109/70</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on 2 L/min NC</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd15",
+            "title": "Medications",
+            "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+          },
+          {
+            "id": "labs_umd15",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">168 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>3.9&ndash;7.8 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ketones, urine</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.4 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd15",
+            "title": "Orders",
+            "content": "<p>Admit to ICU with a diagnosis of ketoacidosis.</p><p>Give 1000 mL 0.9% sodium chloride IV bolus over 30 minutes.</p><p>Then start 0.9% sodium chloride with 20 mmol/L KCl at 125 mL/hr.</p><p>Start regular insulin infusion at 0.1 units/kg/hr after the fluid bolus.</p><p>Fingerstick blood glucose hourly; titrate insulin infusion per ICU protocol.</p><p>Electrolytes every 2 hours.</p><p>Continuous cardiac monitoring.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1230, 1300, and 1330 and the Vital Signs from 1300 and 1330. The nurse reassesses the client after the fluid bolus and the start of the insulin infusion.",
+        "stem": "Which findings indicate the treatment plan has been effective? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Breath sounds",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure",
+            "correct": true
+          },
+          {
+            "text": "Mental status",
+            "correct": true
+          },
+          {
+            "text": "Pulse 100",
+            "correct": true
+          },
+          {
+            "text": "Capillary glucose",
+            "correct": false
+          },
+          {
+            "text": "Pain level",
+            "correct": false
+          }
+        ],
+        "explanation": "Treatment of DKA corrects the dehydration, the glucose, the electrolyte imbalances, and the acidosis. As the fluid volume is restored, the blood pressure rises and the heart rate falls, and as the cells are rehydrated and glucose moves into them, the neurological status improves.<br>Pain was not a problem, and the breath sounds were clear from the start. The blood glucose has not yet begun to decrease.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

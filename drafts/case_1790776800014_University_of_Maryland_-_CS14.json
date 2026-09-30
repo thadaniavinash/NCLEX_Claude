@@ -1,0 +1,452 @@
+{
+  "id": "case_1790776800014",
+  "title": "University of Maryland - CS14",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Denyce Watties-Daniels, Coppin State University. HIV with an opportunistic infection: a 25-year-old client who stopped antiretroviral therapy develops Pneumocystis pneumonia; priorities, orders, and prevention teaching.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_umd14",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 25-year-old male client who has been HIV positive for 3 years is admitted with a dry cough and a fever of 101.0&deg;F (38.3&deg;C). Client has fatigue, shortness of breath, a respiratory rate of 28, and a pulse oximetry reading of 90% on room air. Breathing is slightly labored, with a tight feeling in the chest on deep inspiration. Has been on antiretroviral medications since the diagnosis of HIV but recently stopped taking them after being laid off from his job. Symptoms did not improve with over-the-counter medications after 3 days. IV of 0.9% sodium chloride started in the right arm at 75 mL/hr. Labs drawn. Bronchoalveolar lavage completed; cytology report pending.</span></p>"
+          },
+          {
+            "id": "labs_umd14",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse reviews the client&rsquo;s laboratory report.",
+        "stem": "Which laboratory findings are concerning? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Hematocrit",
+            "correct": false
+          },
+          {
+            "text": "Platelets",
+            "correct": false
+          },
+          {
+            "text": "Sodium",
+            "correct": false
+          },
+          {
+            "text": "CD4 T-cell count",
+            "correct": true
+          },
+          {
+            "text": "Potassium",
+            "correct": false
+          },
+          {
+            "text": "WBC count",
+            "correct": true
+          }
+        ],
+        "explanation": "As HIV replicates, the CD4 count declines because the virus destroys CD4 T cells. When the CD4 count falls below 500 cells/&micro;L, the person becomes susceptible to opportunistic infections, and a count below 200 cells/&micro;L means the client&rsquo;s HIV infection has progressed to AIDS. The elevated WBC count indicates that the client has an infection.<br>The hematocrit, platelets, and potassium are within normal limits.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_umd14",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 25-year-old male client who has been HIV positive for 3 years is admitted with a dry cough and a fever of 101.0&deg;F (38.3&deg;C). Client has fatigue, shortness of breath, a respiratory rate of 28, and a pulse oximetry reading of 90% on room air. Breathing is slightly labored, with a tight feeling in the chest on deep inspiration. Has been on antiretroviral medications since the diagnosis of HIV but recently stopped taking them after being laid off from his job. Symptoms did not improve with over-the-counter medications after 3 days. IV of 0.9% sodium chloride started in the right arm at 75 mL/hr. Labs drawn. Bronchoalveolar lavage completed; cytology report pending.</span></p>"
+          },
+          {
+            "id": "labs_umd14",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "stem": "Which client findings are risks for an opportunistic infection? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Three-year use of antiretroviral medications",
+            "correct": false
+          },
+          {
+            "text": "History of HIV",
+            "correct": true
+          },
+          {
+            "text": "Being 25 years old",
+            "correct": false
+          },
+          {
+            "text": "Use of over-the-counter medications",
+            "correct": false
+          },
+          {
+            "text": "Stopped taking his medication",
+            "correct": true
+          },
+          {
+            "text": "Low CD4 T-cell count",
+            "correct": true
+          }
+        ],
+        "explanation": "Discontinuing HIV medications allows the viral load to increase. As the viral load increases, the CD4 T-cell count decreases, making the client vulnerable to opportunistic infections; AIDS is diagnosed when the CD4 count falls below 200 cells/&micro;L.<br>Taking antiretroviral medications, the client&rsquo;s age, and the use of over-the-counter medications are not risks for opportunistic infection.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_umd14",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 25-year-old male client who has been HIV positive for 3 years is admitted with a dry cough and a fever of 101.0&deg;F (38.3&deg;C). Client has fatigue, shortness of breath, a respiratory rate of 28, and a pulse oximetry reading of 90% on room air. Breathing is slightly labored, with a tight feeling in the chest on deep inspiration. Has been on antiretroviral medications since the diagnosis of HIV but recently stopped taking them after being laid off from his job. Symptoms did not improve with over-the-counter medications after 3 days. IV of 0.9% sodium chloride started in the right arm at 75 mL/hr. Labs drawn. Bronchoalveolar lavage completed; cytology report pending.</span></p>"
+          },
+          {
+            "id": "labs_umd14",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "preamble": "The nurse reviews the client&rsquo;s chart.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "The nurse should first address the client&rsquo;s [[drop0]]. Next, the nurse should address the client&rsquo;s [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "fever",
+                  "correct": false
+                },
+                {
+                  "text": "immunity",
+                  "correct": false
+                },
+                {
+                  "text": "infection",
+                  "correct": false
+                },
+                {
+                  "text": "oxygenation",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "fever",
+                  "correct": false
+                },
+                {
+                  "text": "immunity",
+                  "correct": false
+                },
+                {
+                  "text": "infection",
+                  "correct": true
+                },
+                {
+                  "text": "oxygenation",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The priority is the client&rsquo;s oxygenation: oxygen should be started immediately. Clients with HIV and a CD4 count below 200 cells/&micro;L are susceptible to opportunistic infections, and the next priority is to treat the infection.<br>The client will need to resume antiretroviral therapy to restore immunity, but that improvement occurs more slowly. The fever needs to be treated, but treating the infection is most important to recovery.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_umd14",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 25-year-old male client who has been HIV positive for 3 years is admitted with a dry cough and a fever of 101.0&deg;F (38.3&deg;C). Client has fatigue, shortness of breath, a respiratory rate of 28, and a pulse oximetry reading of 90% on room air. Breathing is slightly labored, with a tight feeling in the chest on deep inspiration. Has been on antiretroviral medications since the diagnosis of HIV but recently stopped taking them after being laid off from his job. Symptoms did not improve with over-the-counter medications after 3 days. IV of 0.9% sodium chloride started in the right arm at 75 mL/hr. Labs drawn. Bronchoalveolar lavage completed; cytology report pending.</span></p>"
+          },
+          {
+            "id": "labs_umd14",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd14",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Bronchoalveolar lavage:</b> specimen shows <i>Pneumocystis jirovecii</i>.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Diagnostic Results. The client is diagnosed with <i>Pneumocystis</i> pneumonia (PCP).",
+        "stem": "For each potential order, click to specify if the order is anticipated or not anticipated in the plan of care.",
+        "matrix": {
+          "firstColumnHeader": "Potential Order",
+          "columns": [
+            "Anticipated",
+            "Not Anticipated"
+          ],
+          "rows": [
+            {
+              "text": "Titrate oxygen to keep pulse oximetry reading above 95%",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer ibuprofen as needed for fever",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer trimethoprim/sulfamethoxazole",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer vancomycin",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Gargle with lidocaine solution",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Schedule a stress test in the morning",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Refer to social work",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Clinical manifestations of <i>Pneumocystis</i> pneumonia include fever, chills, and flu-like symptoms. Oxygen supports the respiratory compromise, and an antipyretic reduces the fever. Trimethoprim/sulfamethoxazole is effective against PCP. A social work consult is needed because the client is out of work, without insurance, and facing a long-term illness.<br>Vancomycin is not effective against <i>Pneumocystis</i>, a fungus. PCP does not cause a sore throat, so lidocaine gargles are not indicated, and the client has no history of cardiovascular illness, so a stress test is not indicated.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_umd14",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 25-year-old male client who has been HIV positive for 3 years is admitted with a dry cough and a fever of 101.0&deg;F (38.3&deg;C). Client has fatigue, shortness of breath, a respiratory rate of 28, and a pulse oximetry reading of 90% on room air. Breathing is slightly labored, with a tight feeling in the chest on deep inspiration. Has been on antiretroviral medications since the diagnosis of HIV but recently stopped taking them after being laid off from his job. Symptoms did not improve with over-the-counter medications after 3 days. IV of 0.9% sodium chloride started in the right arm at 75 mL/hr. Labs drawn. Bronchoalveolar lavage completed; cytology report pending.</span></p>"
+          },
+          {
+            "id": "labs_umd14",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd14",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Bronchoalveolar lavage:</b> specimen shows <i>Pneumocystis jirovecii</i>.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse teaches the client how to reduce the risk of opportunistic infections.",
+        "stem": "What should the nurse teach the client about preventing opportunistic infections? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Get an HIV test every 4 months.",
+            "correct": false
+          },
+          {
+            "text": "Wash your hands frequently.",
+            "correct": true
+          },
+          {
+            "text": "Get tested for tuberculosis.",
+            "correct": true
+          },
+          {
+            "text": "Get tested for sexually transmitted infections.",
+            "correct": true
+          },
+          {
+            "text": "Get a yearly influenza vaccine.",
+            "correct": true
+          },
+          {
+            "text": "Do not drink untreated water.",
+            "correct": true
+          },
+          {
+            "text": "Have a complete blood count every month.",
+            "correct": false
+          },
+          {
+            "text": "Have viral load testing every 4 to 6 months.",
+            "correct": true
+          },
+          {
+            "text": "Take antiretroviral medications as prescribed.",
+            "correct": true
+          }
+        ],
+        "explanation": "Hand washing is a major strategy to prevent infection, and untreated water carries waterborne diseases. Clients with HIV should be tested routinely for tuberculosis and sexually transmitted infections, and a yearly influenza vaccine is recommended for immunocompromised clients. Regular viral load testing shows how well the treatment is controlling the virus, and a daily antiretroviral regimen preserves immune function and reduces complications.<br>Repeat HIV tests are not needed once the diagnosis is made, and a monthly CBC is not needed.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "nn_umd14",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 25-year-old male client who has been HIV positive for 3 years is admitted with a dry cough and a fever of 101.0&deg;F (38.3&deg;C). Client has fatigue, shortness of breath, a respiratory rate of 28, and a pulse oximetry reading of 90% on room air. Breathing is slightly labored, with a tight feeling in the chest on deep inspiration. Has been on antiretroviral medications since the diagnosis of HIV but recently stopped taking them after being laid off from his job. Symptoms did not improve with over-the-counter medications after 3 days. IV of 0.9% sodium chloride started in the right arm at 75 mL/hr. Labs drawn. Bronchoalveolar lavage completed; cytology report pending.</span></p>"
+          },
+          {
+            "id": "labs_umd14",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd14",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Bronchoalveolar lavage:</b> specimen shows <i>Pneumocystis jirovecii</i>.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse assesses the client&rsquo;s understanding of the teaching on reducing the risk of opportunistic infections.",
+        "stem": "For each client statement, click to specify if the statement indicates understanding or no understanding of the teaching provided.",
+        "matrix": {
+          "firstColumnHeader": "Client Statement",
+          "columns": [
+            "Understanding",
+            "No Understanding"
+          ],
+          "rows": [
+            {
+              "text": "“My low CD4 count shows I am at higher risk for infection.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I should avoid crowds when possible.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“It is a good practice to keep hand sanitizer in my car and my pocket.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I can stop wearing a mask when I feel better.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“Washing my hands frequently is one of the best ways to prevent infection.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I need to keep using safe sex practices.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I will schedule an HIV test every 6 months.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I will stay current with my vaccinations.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“Eating a balanced diet and maintaining good nutrition will help improve my immune system.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“Not taking a full course of antibiotics could put me at risk for future drug-resistant infections.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "The statements showing understanding reflect behaviors that control infection and maintain health with HIV: recognizing the meaning of a low CD4 count, avoiding crowds, hand hygiene, safe sex, staying current with vaccinations, good nutrition, and completing the full course of antibiotics.<br>Protective measures such as wearing a mask in crowded settings continue while the CD4 count is low, even when the client feels better. Repeat HIV tests are not needed once HIV has been diagnosed.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "cs": 15,
+  "topic": "Type II Diabetes and Ketoacidosis",
+  "source": "Ketoacidosis.docx",
+  "items": [
+    {
+      "id": "case_1790776800015",
+      "title": "University of Maryland - CS15",
+      "file": "drafts/case_1790776800015_University_of_Maryland_-_CS15.json"
+    },
+    {
+      "id": "standalone_1790776801151",
+      "title": "University of Maryland - CS15 Bowtie",
+      "file": "drafts/standalone_1790776801151_University_of_Maryland_-_CS15_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "CORRECTED blood gas: the source's ABG (pH 7.20, PaCO2 45, HCO3 32) is not DKA (a high bicarbonate means metabolic alkalosis/compensated respiratory acidosis). Changed to PaCO2 25 mm Hg and HCO3- 10 mmol/L (metabolic acidosis with respiratory compensation; still pH 7.20). Same change in the bow-tie. Please confirm.",
+    "CORRECTED potassium order: \"0.9 NS with 20 mEq KCl/100 mL\" (= 200 mmol/L, dangerous) is now \"0.9% sodium chloride with 20 mmol/L KCl\" (20 mmol per litre). Please confirm the intended concentration.",
+    "CHANGED KEY (screen 4): \"Teach the client pursed-lip breathing\" was keyed Indicated; it is now Contraindicated, because the Kussmaul respirations compensate for the metabolic acidosis. Please confirm, or replace the row.",
+    "Screen 4 also keys insulin glargine SC and an indwelling catheter as Contraindicated; some DKA protocols give early basal insulin, and ICU care may use a catheter for hourly output. Consider \"Not indicated at this time\".",
+    "Vital signs: the source's last two columns are both labelled 1330; they are 1300 and 1330 here (matching the notes).",
+    "The 1215 note on screen 2 includes \"2 L O2 started per NC\" but screens 3-6 omit it; it is kept on every screen from screen 2 so the chart does not lose it.",
+    "SpO2 89% on room air with clear lungs and a PaO2 of 60 (bow-tie) is unusual for DKA alone; consider whether it is intended.",
+    "Home medication: sitagliptin/metformin 50/1000 mg once daily (usually twice daily). Empagliflozin (an SGLT2 inhibitor) is a useful cue for DKA in type 2 diabetes; consider mentioning it in a rationale.",
+    "Labs in SI with the author's ranges: glucose 435-440 mg/dL → 24.2-24.4 mmol/L (3.9-7.8); creatinine 1.9 mg/dL → 168 µmol/L; BUN 34 mg/dL → urea 12.1 mmol/L; K+/Na+ mmol/L; Hct 0.37; Hgb 140 g/L. The screen 2 rationale's glucose ranges were converted (300-800 mg/dL ≈ 14-44 mmol/L; > 600 mg/dL ≈ > 33 mmol/L).",
+    "Screen 6 options were reordered so a correct answer is not listed first."
+  ]
+}

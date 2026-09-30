@@ -1,0 +1,28 @@
+{
+  "cs": 13,
+  "topic": "Heart Failure",
+  "source": "Heart-Failure.docx",
+  "items": [
+    {
+      "id": "case_1790776800013",
+      "title": "University of Maryland - CS13",
+      "file": "drafts/case_1790776800013_University_of_Maryland_-_CS13.json"
+    },
+    {
+      "id": "standalone_1790776801131",
+      "title": "University of Maryland - CS13 Bowtie",
+      "file": "drafts/standalone_1790776801131_University_of_Maryland_-_CS13_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Home medications: hydrochlorothiazide 25 mg PO TWICE a day (usually once daily; a loop diuretic is more typical for HF with this degree of fluid overload). Please review.",
+    "Screen 5 key: questioning sacubitril/valsartan with enalapril is correct (ARNI + ACE inhibitor contraindicated; 36-hour washout). The rationale now states the reason (angioedema risk) and why an extra diuretic dose and starting today are wrong.",
+    "Screen 3 rationale said the creatinine was \"within normal limits\"; it is above the range (1.5 mg/dL = 133 µmol/L vs 80-124). Rationale corrected to \"slightly elevated\".",
+    "Labs: Hct 34.6% with Hgb 13.5 g/dL is physiologically inconsistent (Hgb normal, Hct low). Consider Hgb ~11.5 g/dL (115 g/L) or Hct ~40%.",
+    "Screen 2 was a two-blank drag-and-drop where either order is correct; the app scores blanks by position, so it is a Select 2 question here (same options and key).",
+    "Screen 4: weight units shown in lb and kg; a sentence was added giving the usual reporting threshold (2-3 lb/day or 5 lb/week) to explain why the 1-lb option is keyed incorrect.",
+    "Screen 6: thirst is keyed Unchanged although the Day 1 note does not mention thirst; consider rewording the row.",
+    "Labs in SI with the author's ranges: cholesterol 248 mg/dL → 6.4 mmol/L; BUN 10 mg/dL → urea 3.6 mmol/L; creatinine 1.5 mg/dL → 133 µmol/L; Hct 0.346 L/L; Hgb 135 g/L; K+/Na+/Cl- mmol/L.",
+    "Screen 3, 4 and 5 options were reordered so a correct answer is not listed first."
+  ]
+}

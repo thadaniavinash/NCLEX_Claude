@@ -1,0 +1,27 @@
+{
+  "cs": 14,
+  "topic": "HIV with an Opportunistic Infection",
+  "source": "HIV-with-Opportunistic-Infection.docx",
+  "items": [
+    {
+      "id": "case_1790776800014",
+      "title": "University of Maryland - CS14",
+      "file": "drafts/case_1790776800014_University_of_Maryland_-_CS14.json"
+    },
+    {
+      "id": "standalone_1790776801141",
+      "title": "University of Maryland - CS14 Trend",
+      "file": "drafts/standalone_1790776801141_University_of_Maryland_-_CS14_Trend.json"
+    }
+  ],
+  "notes": [
+    "Screen 4 keys \"Administer ibuprofen as needed for fever\" as anticipated; the client's creatinine is elevated (1.5 mg/dL = 133 µmol/L), where NSAIDs are usually avoided (acetaminophen preferred). Consider changing the order to acetaminophen.",
+    "PCP with hypoxemia (SpO2 90% on room air): adjunctive corticosteroids are usually given with TMP-SMX when PaO2 < 70 mm Hg. Not part of any question; consider adding to the orders/rationale.",
+    "Screen 1: sodium 148 mmol/L (above range) is not keyed as concerning. Consider keying it or changing the value.",
+    "Screen 6 keys \"I can stop wearing a mask when I feel better\" as no understanding; masks are not a standard precaution for PCP itself. The rationale now frames it as protection while the CD4 count is low; please confirm.",
+    "Screen 6: the source rationale was generic; it now explains each statement.",
+    "Source rationale said the normal CD4 count is 800-1200 cells/mm3 while the lab report range is 500-1600; the rationale no longer quotes a range.",
+    "Labs in SI with the author's ranges: BUN 22 mg/dL → urea 7.9 mmol/L; creatinine 1.5 mg/dL → 133 µmol/L; Hct 0.48 L/L; Hgb 150 g/L; WBC 15.2 × 10⁹/L (source \"15.2 mm3\"); platelets 300 × 10⁹/L; CD4 kept in cells/µL (as MCC prints it).",
+    "Screen 5 options were reordered so a correct answer is not listed first."
+  ]
+}
