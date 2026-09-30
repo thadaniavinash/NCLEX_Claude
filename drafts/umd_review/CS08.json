@@ -1,0 +1,22 @@
+{
+  "cs": 8,
+  "topic": "COPD I",
+  "source": "COPD.docx",
+  "items": [
+    {
+      "id": "case_1790776800008",
+      "title": "University of Maryland - CS8",
+      "file": "drafts/case_1790776800008_University_of_Maryland_-_CS8.json"
+    }
+  ],
+  "notes": [
+    "Oxygen: the client's SpO2 falls from 91% to 88% on ROOM AIR and no oxygen is ever started. Controlled oxygen (target 88-92%) is standard in a COPD exacerbation; consider adding low-flow oxygen to the 1015 note or orders, or explaining why it is withheld.",
+    "Screen 2 keys digital clubbing as consistent with COPD. Clubbing is not a typical feature of COPD itself (it suggests another cause, such as lung cancer or bronchiectasis). Please review this row.",
+    "Screen 4 keys \"Encourage use of incentive spirometer\" as correct during an acute exacerbation with severe dyspnea; please confirm. (Source is a grouped Nursing/Medication question; it is a Select All with the category at the start of each option.)",
+    "Medication orders: acetaminophen 500 mg PO once \"PRN for moderate to severe back pain\" (the client has no back pain, and acetaminophen is usually for mild pain/fever); please review.",
+    "Vital signs: the source labels the third column 1015 again; it is 1045 here (matching the 1045 note).",
+    "Screen 5 rationale contained leftover text (\"Albuterol was just givenfor Q4 you can make ,\"); cleaned up. The antibiotic sentence now says it can be given after the corticosteroid.",
+    "Screen 1 options were reordered so a correct answer is not listed first.",
+    "No laboratory values in this case. The document's trend repeats screen 6, so no stand-alone was added."
+  ]
+}

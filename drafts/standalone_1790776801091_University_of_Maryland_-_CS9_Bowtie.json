@@ -1,0 +1,112 @@
+{
+  "id": "standalone_1790776801091",
+  "title": "University of Maryland - CS9 Bowtie",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS9 (COPD II).",
+  "isStandalone": true,
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 63-year-old male client is admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "info_umd09b",
+            "title": "Client Information",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Name</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Roy Blue</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gender</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Male</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Age</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 lb (65 kg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Allergies</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Penicillin, aspirin, milk products</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_umd09b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4&deg;F (38.5&deg;C), P 98, RR 28, BP 140/72, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p>"
+          },
+          {
+            "id": "labs_umd09b",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.31</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "bowtie",
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "explanation": "The client is experiencing a COPD exacerbation caused by pneumonia, as shown by the shortness of breath, productive cough of rust-colored sputum, fever, and elevated WBC count. Treatment includes an IV glucocorticoid to reduce airway inflammation and an IV antibiotic; the arterial blood gases and WBC count show the response.<br>The head of the bed is not lowered for a client who is short of breath, and a cough suppressant is contraindicated because secretions need to be expelled. There is no evidence of pneumothorax, so a chest tube is not indicated.",
+        "bowtieActions": [
+          {
+            "text": "Administer cough suppressant",
+            "correct": false
+          },
+          {
+            "text": "Administer IV glucocorticoid",
+            "correct": true
+          },
+          {
+            "text": "Maintain client in supine position",
+            "correct": false
+          },
+          {
+            "text": "Administer IV antibiotic",
+            "correct": true
+          },
+          {
+            "text": "Assist with chest tube placement",
+            "correct": false
+          }
+        ],
+        "bowtieConditions": [
+          {
+            "text": "Pulmonary edema",
+            "correct": false
+          },
+          {
+            "text": "Tension pneumothorax",
+            "correct": false
+          },
+          {
+            "text": "Exacerbation of COPD",
+            "correct": true
+          },
+          {
+            "text": "Pulmonary embolism",
+            "correct": false
+          }
+        ],
+        "bowtieParams": [
+          {
+            "text": "Blood pressure",
+            "correct": false
+          },
+          {
+            "text": "Arterial blood gases",
+            "correct": true
+          },
+          {
+            "text": "WBC count",
+            "correct": true
+          },
+          {
+            "text": "Hematocrit",
+            "correct": false
+          },
+          {
+            "text": "Daily chest X-rays",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

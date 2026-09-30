@@ -1,0 +1,381 @@
+{
+  "id": "case_1790776800008",
+  "title": "University of Maryland - CS8",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Suzana Jarquin, Frederick Community College. COPD I: a 74-year-old client with a COPD exacerbation in the emergency department; differentiating COPD from other respiratory conditions, priorities, and response to treatment.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue.",
+        "tabs": [
+          {
+            "id": "nn_umd08",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+          },
+          {
+            "id": "vs_umd08",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse reviews the client&rsquo;s initial assessment.",
+        "stem": "Which priority findings require <b>immediate</b> follow-up? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Bilateral digital clubbing",
+            "correct": false
+          },
+          {
+            "text": "Accessory muscle use",
+            "correct": true
+          },
+          {
+            "text": "Coarse crackles",
+            "correct": true
+          },
+          {
+            "text": "Current tobacco smoker",
+            "correct": false
+          },
+          {
+            "text": "Green-tinged sputum",
+            "correct": true
+          },
+          {
+            "text": "Medication noncompliance",
+            "correct": false
+          },
+          {
+            "text": "Temperature 99.0°F (37.2°C)",
+            "correct": false
+          },
+          {
+            "text": "Tachypnea",
+            "correct": true
+          }
+        ],
+        "explanation": "Impaired gas exchange, shown by tachypnea, accessory muscle use, coarse crackles, and green-tinged sputum, is the priority.<br>The client is afebrile at 99.0&deg;F (37.2&deg;C). Digital clubbing reflects chronic hypoxemia, and the smoking history and medication noncompliance are less acute, nonurgent findings that do not require priority nursing intervention.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue.",
+        "tabs": [
+          {
+            "id": "nn_umd08",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+          },
+          {
+            "id": "vs_umd08",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "stem": "For each client finding, click to indicate if the finding is consistent with asthma, chronic obstructive pulmonary disease (COPD), pneumonia, or pulmonary embolism. Each finding may support more than one condition.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Asthma",
+            "COPD",
+            "Pneumonia",
+            "Pulmonary Embolism"
+          ],
+          "rows": [
+            {
+              "text": "Dyspnea",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "text": "Productive cough",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Barrel chest appearance",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Digital clubbing",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Expiratory wheezing",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "Clinical manifestations of COPD include dyspnea, cough, an increased anteroposterior diameter (barrel chest), digital clubbing, and expiratory wheezing. A barrel chest and digital clubbing are not manifestations of pneumonia, asthma, or pulmonary embolism.<br>Dyspnea occurs with all four conditions. Wheezing is rare with pulmonary embolism, and the cough is dry or blood-tinged.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue.",
+        "tabs": [
+          {
+            "id": "nn_umd08",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+          },
+          {
+            "id": "vs_umd08",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "multiple_choice",
+        "stem": "Which condition is the client most likely experiencing?",
+        "options": [
+          {
+            "text": "Acute asthma attack",
+            "correct": false
+          },
+          {
+            "text": "COPD exacerbation",
+            "correct": true
+          },
+          {
+            "text": "Pneumonia",
+            "correct": false
+          },
+          {
+            "text": "Pulmonary embolism",
+            "correct": false
+          }
+        ],
+        "explanation": "The client has a known history of COPD (emphysema), is hypoxic, uses accessory muscles to breathe, and reports worsening shortness of breath. Based on these signs, symptoms, and clinical manifestations, the client is most likely experiencing a COPD exacerbation.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue.",
+        "tabs": [
+          {
+            "id": "nn_umd08",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+          },
+          {
+            "id": "vs_umd08",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse anticipates the provider&rsquo;s orders and considers possible nursing interventions.",
+        "stem": "Which orders should the nurse include in the plan of care at this time? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Nursing: Administer oxygen via a high-flow oxygen face mask",
+            "correct": false
+          },
+          {
+            "text": "Nursing: Place client in a high-Fowler’s position",
+            "correct": true
+          },
+          {
+            "text": "Nursing: Encourage client use of incentive spirometer",
+            "correct": true
+          },
+          {
+            "text": "Medication: Ondansetron",
+            "correct": false
+          },
+          {
+            "text": "Medication: Ipratropium bromide and albuterol",
+            "correct": true
+          },
+          {
+            "text": "Medication: Methylprednisolone",
+            "correct": true
+          }
+        ],
+        "explanation": "The client is experiencing a COPD exacerbation. A high-Fowler&rsquo;s position and the incentive spirometer maximize lung expansion and improve ventilatory effort. Ipratropium bromide with albuterol and methylprednisolone relieve the airway narrowing and inflammation causing the exacerbation.<br>Uncontrolled high-flow oxygen in a client with COPD can cause carbon dioxide retention (CO<sub>2</sub> narcosis); oxygen is titrated to a target saturation instead. Ondansetron is not indicated because the client has no nausea or vomiting.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue.",
+        "tabs": [
+          {
+            "id": "nn_umd08",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">Client has increasing dyspnea and prefers to sit up in the chair. Requesting &ldquo;rescue inhaler.&rdquo; Provider notified. IV started. Ipratropium bromide and albuterol nebulizer treatment started.</span></p>"
+          },
+          {
+            "id": "vs_umd08",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">159/88</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd08",
+            "title": "Medication Orders",
+            "content": "<p><b>Provider-ordered medications (emergency department)</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Ipratropium bromide and albuterol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3 mL (ipratropium bromide 0.5 mg and albuterol 2.5 mg) by nebulizer 4 times a day; first dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Acetaminophen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 mg PO once, as needed for moderate to severe back pain</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Methylprednisolone sodium succinate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">40 mg IV push, 1 dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Amoxicillin/clavulanate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">875 mg/125 mg PO every 12 hours</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Albuterol sulfate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.5 mg/3 mL by nebulizer every 4 hours as needed</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "multiple_choice",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes and Vital Signs from 1015 and the Medication Orders. The ipratropium bromide and albuterol treatment is given.",
+        "stem": "Which medication should the nurse give next?",
+        "options": [
+          {
+            "text": "Acetaminophen",
+            "correct": false
+          },
+          {
+            "text": "Methylprednisolone sodium succinate",
+            "correct": true
+          },
+          {
+            "text": "Albuterol",
+            "correct": false
+          },
+          {
+            "text": "Amoxicillin/clavulanate",
+            "correct": false
+          }
+        ],
+        "explanation": "IV methylprednisolone is ordered now and will reduce airway inflammation to ease breathing. The antibiotic can be given after the corticosteroid.<br>Albuterol was just given with the ipratropium nebulizer; the client needs to be reassessed to determine whether another PRN dose is needed. The client reports 0/10 pain, so acetaminophen is not needed at this time.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue.",
+        "tabs": [
+          {
+            "id": "nn_umd08",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">Client has increasing dyspnea and prefers to sit up in the chair. Requesting &ldquo;rescue inhaler.&rdquo; Provider notified. IV started. Ipratropium bromide and albuterol nebulizer treatment started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1045:</span><span class=\"nurse-note-text\">Ipratropium bromide and albuterol nebulizer and IV methylprednisolone completed. Assisted client onto the bed and placed in high-Fowler&rsquo;s position. Coarse crackles in bilateral upper and lower lung fields; no expiratory wheezing. Client continues to report &ldquo;severe&rdquo; shortness of breath.</span></p>"
+          },
+          {
+            "id": "vs_umd08",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1045</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0&deg;F (37.2&deg;C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">117</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">34</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">159/88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">167/94</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd08",
+            "title": "Medication Orders",
+            "content": "<p><b>Provider-ordered medications (emergency department)</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Ipratropium bromide and albuterol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3 mL (ipratropium bromide 0.5 mg and albuterol 2.5 mg) by nebulizer 4 times a day; first dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Acetaminophen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 mg PO once, as needed for moderate to severe back pain</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Methylprednisolone sodium succinate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">40 mg IV push, 1 dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Amoxicillin/clavulanate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">875 mg/125 mg PO every 12 hours</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Albuterol sulfate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.5 mg/3 mL by nebulizer every 4 hours as needed</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes and Vital Signs from 1045. The nurse administers the ordered medications and reassesses the client at 1045.",
+        "stem": "For each client finding, click to specify if the finding indicates that the client&rsquo;s status has improved, declined, or is unchanged.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Improved",
+            "Declined",
+            "Unchanged"
+          ],
+          "rows": [
+            {
+              "text": "Respiratory rate",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Heart rate",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Blood pressure",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Wheezing",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Breath sounds",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Temperature",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "The client&rsquo;s respiratory rate, breath sounds (crackles now in the upper and lower fields), heart rate, oxygen saturation, and blood pressure have all declined despite the ordered medications. The client no longer has expiratory wheezing, and the temperature is unchanged.<br>The nurse should promptly alert the provider, as the client&rsquo;s respiratory status is rapidly deteriorating.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    }
+  ]
+}

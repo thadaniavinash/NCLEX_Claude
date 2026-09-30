@@ -1,0 +1,26 @@
+{
+  "cs": 9,
+  "topic": "COPD II",
+  "source": "COPD-II.docx",
+  "items": [
+    {
+      "id": "case_1790776800009",
+      "title": "University of Maryland - CS9",
+      "file": "drafts/case_1790776800009_University_of_Maryland_-_CS9.json"
+    },
+    {
+      "id": "standalone_1790776801091",
+      "title": "University of Maryland - CS9 Bowtie",
+      "file": "drafts/standalone_1790776801091_University_of_Maryland_-_CS9_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Discharge orders: levofloxacin 500 mg PO daily (community-acquired pneumonia is usually treated with 750 mg daily, or 500 mg in older regimens) and roflumilast 500 mcg PO daily (often started at 250 mcg for 4 weeks). Please review the antibiotic dose and duration (none given).",
+    "Screen 2: the source row \"Pulse oximeter 87%\" was changed to 85% (the admission value in the chart; 87% appears only at 1400 on screen 5). Its rationale also listed \"dyslipidemia\" as a COPD risk factor, which is not a row and is not a recognized risk factor; that phrase was removed.",
+    "Screen 2 keys clubbing as associated with COPD (as in CS8, clubbing is not typical of COPD alone). Please review.",
+    "Home inhaler: the source says salmeterol/fluticasone \"250/25\"; the product is labelled fluticasone/salmeterol 250/50 (Diskus) or salmeterol/fluticasone 25/250 (MDI). Written here as 25/250; please confirm.",
+    "Client Information shows the name \"Roy Blue\" as in the source (fictional).",
+    "Labs in SI with the author's ranges: glucose 78 mg/dL → 4.3 mmol/L (< 5.5); WBC 14.2 × 10⁹/L; HCO₃⁻, K+, Na+ in mmol/L; blood gases in mm Hg.",
+    "Screen 1 and screen 5 options were reordered so a correct answer is not listed first."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "cs": 7,
+  "topic": "Compartment Syndrome",
+  "source": "Compartment-Syndrome.docx",
+  "items": [
+    {
+      "id": "case_1790776800007",
+      "title": "University of Maryland - CS7",
+      "file": "drafts/case_1790776800007_University_of_Maryland_-_CS7.json"
+    },
+    {
+      "id": "standalone_1790776801071",
+      "title": "University of Maryland - CS7 Trend",
+      "file": "drafts/standalone_1790776801071_University_of_Maryland_-_CS7_Trend.json"
+    }
+  ],
+  "notes": [
+    "Screen 4: the source is a grouped multiple-response question (Nursing / Medication / Collaborative, \"each category may have more than one order\"). The app has no grouped type, so it is a Select All with the category at the start of each option (same key, +/- scoring).",
+    "Screen 5 (delegation): \"Obtain vital signs every hour for 4 hours\" is keyed as delegable, but the 1130 STAT order is vital signs every 15 minutes, and the client is hypotensive (BP 82/44). Consider rewording the option to match the order, and whether VS for an unstable client should be delegated.",
+    "Chart timing: the source's screen 5 flow sheet already shows the 1145 and 1245 readings (after cast removal); in the app they appear on screen 6, with the 1145/1245 notes.",
+    "Flow sheet 1245 color: the case shows N (normal) but the trend shows P (pale) for the same time. Screen 6 keys color as Improved (based on N). Please confirm.",
+    "Screen 6 key: Pain/Motion/Color improved while the limb is now cold and pulseless; the trend then asks students to call this \"deteriorating\". Consider whether screen 6 should say so in its rationale.",
+    "0830 note: RR 29 (tachypnea on admission) is not addressed anywhere; possibly a typo for 20.",
+    "Screen 3 rationale referred to abnormal vital signs and tachycardia that are not yet charted at 1115 (only in the 1115 note shown from screen 4); it was rewritten around the neurovascular findings.",
+    "Screen 1 options were reordered so a correct answer is not listed first.",
+    "No laboratory values in this case."
+  ]
+}

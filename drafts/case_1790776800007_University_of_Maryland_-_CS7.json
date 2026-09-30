@@ -1,0 +1,464 @@
+{
+  "id": "case_1790776800007",
+  "title": "University of Maryland - CS7",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Compartment syndrome: after ORIF of a tibia-fibula fracture, a 23-year-old client develops neurovascular compromise; the nurse recognizes it, anticipates orders, delegates, and evaluates after cast removal.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse is caring for a 23-year-old female client admitted to the medical-surgical unit following surgery for a compound fracture of the right tibia and fibula.",
+        "tabs": [
+          {
+            "id": "nn_umd07",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72, HR 90, RR 29, T 99&deg;F (37.2&deg;C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+          },
+          {
+            "id": "nv_umd07",
+            "title": "Neurovascular Flow Sheet",
+            "content": "<p><b>Neurovascular assessment, right lower extremity</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pain (0&ndash;10)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Motion</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Sensation</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Capillary Refill</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Color</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Warmth</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pulse</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0830</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0930</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1030</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1100</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr></tbody></table><p><b>Key:</b> Motion and Sensation: F = full, L = limited (motion) / P = partial (sensation), N = none. Capillary refill: B = brisk (&lt; 3 seconds), S = sluggish (&gt; 3 seconds). Color: N = normal, P = pale, D = dusky, C = cyanotic. Warmth: H = hot, W = warm, T = tepid, C = cold. Pulse: 4+ bounding, 3+ increased, 2+ normal, 1+ weak, 0 absent, UTA = unable to assess.</p>"
+          },
+          {
+            "id": "ord_umd07",
+            "title": "Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\"><b>Admission orders</b><br>Bedrest with right leg elevated on 2 pillows.<br>May use bedside commode with assistance; no weight bearing on R lower extremity.<br>Advance to regular diet as tolerated.<br>VS and neurovascular checks every hour for 4 hours, then every 4 hours.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse is performing a neurovascular assessment of the right lower extremity.",
+        "stem": "Which findings require <b>immediate</b> follow-up? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Unable to palpate pedal pulses on the right leg",
+            "correct": false
+          },
+          {
+            "text": "Toes on the affected extremity are cool to the touch",
+            "correct": true
+          },
+          {
+            "text": "Right toes have noticeable pallor compared with the left",
+            "correct": true
+          },
+          {
+            "text": "Client describes absent sensation of the right lower leg",
+            "correct": true
+          },
+          {
+            "text": "Capillary refill greater than 3 seconds in the right toes",
+            "correct": true
+          },
+          {
+            "text": "Client reports pain of 10/10 in the R lower extremity",
+            "correct": true
+          }
+        ],
+        "explanation": "Primary signs of compartment syndrome include the &ldquo;5 P&rsquo;s&rdquo;: pain (out of proportion or not relieved by pain medication), pallor, pulses (diminished or absent), paresthesia, and paralysis. Fullness, a cool or cold extremity, and weakness may also occur. Any of these indicates neurovascular compromise, which can result in tissue death and loss of the limb if untreated.<br>The pedal pulse cannot be assessed because of the cast, so being unable to palpate it is expected.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse is caring for a 23-year-old female client admitted to the medical-surgical unit following surgery for a compound fracture of the right tibia and fibula.",
+        "tabs": [
+          {
+            "id": "nn_umd07",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72, HR 90, RR 29, T 99&deg;F (37.2&deg;C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+          },
+          {
+            "id": "nv_umd07",
+            "title": "Neurovascular Flow Sheet",
+            "content": "<p><b>Neurovascular assessment, right lower extremity</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pain (0&ndash;10)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Motion</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Sensation</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Capillary Refill</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Color</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Warmth</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pulse</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0830</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0930</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1030</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1100</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr></tbody></table><p><b>Key:</b> Motion and Sensation: F = full, L = limited (motion) / P = partial (sensation), N = none. Capillary refill: B = brisk (&lt; 3 seconds), S = sluggish (&gt; 3 seconds). Color: N = normal, P = pale, D = dusky, C = cyanotic. Warmth: H = hot, W = warm, T = tepid, C = cold. Pulse: 4+ bounding, 3+ increased, 2+ normal, 1+ weak, 0 absent, UTA = unable to assess.</p>"
+          },
+          {
+            "id": "ord_umd07",
+            "title": "Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\"><b>Admission orders</b><br>Bedrest with right leg elevated on 2 pillows.<br>May use bedside commode with assistance; no weight bearing on R lower extremity.<br>Advance to regular diet as tolerated.<br>VS and neurovascular checks every hour for 4 hours, then every 4 hours.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse documented, &ldquo;Will monitor for signs of acute complications.&rdquo;",
+        "stem": "For each potential complication of a fracture, click to indicate if the complication is an acute complication or a chronic complication associated with fractures.",
+        "matrix": {
+          "firstColumnHeader": "Complication",
+          "columns": [
+            "Acute Complication",
+            "Chronic Complication"
+          ],
+          "rows": [
+            {
+              "text": "Venous thromboembolism",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Complex regional pain syndrome",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Avascular necrosis",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Osteomyelitis",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Delayed union",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Compartment syndrome",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Acute complications of a fracture include deep vein thrombosis or pulmonary embolism (venous thromboembolism), fat embolism, and compartment syndrome.<br>Late, or chronic, complications include complex regional pain syndrome, avascular necrosis, osteomyelitis, and delayed union.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse is caring for a 23-year-old female client admitted to the medical-surgical unit following surgery for a compound fracture of the right tibia and fibula.",
+        "tabs": [
+          {
+            "id": "nn_umd07",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72, HR 90, RR 29, T 99&deg;F (37.2&deg;C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+          },
+          {
+            "id": "nv_umd07",
+            "title": "Neurovascular Flow Sheet",
+            "content": "<p><b>Neurovascular assessment, right lower extremity</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pain (0&ndash;10)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Motion</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Sensation</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Capillary Refill</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Color</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Warmth</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pulse</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0830</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0930</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1030</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1100</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1115</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr></tbody></table><p><b>Key:</b> Motion and Sensation: F = full, L = limited (motion) / P = partial (sensation), N = none. Capillary refill: B = brisk (&lt; 3 seconds), S = sluggish (&gt; 3 seconds). Color: N = normal, P = pale, D = dusky, C = cyanotic. Warmth: H = hot, W = warm, T = tepid, C = cold. Pulse: 4+ bounding, 3+ increased, 2+ normal, 1+ weak, 0 absent, UTA = unable to assess.</p>"
+          },
+          {
+            "id": "ord_umd07",
+            "title": "Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\"><b>Admission orders</b><br>Bedrest with right leg elevated on 2 pillows.<br>May use bedside commode with assistance; no weight bearing on R lower extremity.<br>Advance to regular diet as tolerated.<br>VS and neurovascular checks every hour for 4 hours, then every 4 hours.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "preamble": "The nurse has reviewed the Neurovascular Flow Sheet from 1115.",
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "cloze": {
+          "text": "Based on the assessment findings, the client is most likely experiencing [[drop0]], as most evidenced by the [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "complex regional pain syndrome",
+                  "correct": false
+                },
+                {
+                  "text": "compartment syndrome",
+                  "correct": true
+                },
+                {
+                  "text": "delayed union",
+                  "correct": false
+                },
+                {
+                  "text": "avascular necrosis",
+                  "correct": false
+                },
+                {
+                  "text": "osteomyelitis",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "pain rating of 10/10",
+                  "correct": false
+                },
+                {
+                  "text": "neurovascular assessment",
+                  "correct": true
+                },
+                {
+                  "text": "decreased mobility",
+                  "correct": false
+                },
+                {
+                  "text": "presence of the fiberglass cast",
+                  "correct": false
+                },
+                {
+                  "text": "neurological assessment",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "Compartment syndrome is suspected based on the abnormal findings in the neurovascular assessment: severe pain, no motion or sensation, sluggish capillary refill, pallor, and a tepid extremity.<br>Pain alone, decreased mobility, or the presence of a cast does not establish the diagnosis, and a neurological assessment evaluates the brain and nerves rather than perfusion of the limb.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse is caring for a 23-year-old female client admitted to the medical-surgical unit following surgery for a compound fracture of the right tibia and fibula.",
+        "tabs": [
+          {
+            "id": "nn_umd07",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72, HR 90, RR 29, T 99&deg;F (37.2&deg;C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44, HR 112, RR 22, T 99&deg;F (37.2&deg;C). Provider notified of client changes.</span></p>"
+          },
+          {
+            "id": "nv_umd07",
+            "title": "Neurovascular Flow Sheet",
+            "content": "<p><b>Neurovascular assessment, right lower extremity</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pain (0&ndash;10)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Motion</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Sensation</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Capillary Refill</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Color</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Warmth</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pulse</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0830</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0930</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1030</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1100</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1115</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr></tbody></table><p><b>Key:</b> Motion and Sensation: F = full, L = limited (motion) / P = partial (sensation), N = none. Capillary refill: B = brisk (&lt; 3 seconds), S = sluggish (&gt; 3 seconds). Color: N = normal, P = pale, D = dusky, C = cyanotic. Warmth: H = hot, W = warm, T = tepid, C = cold. Pulse: 4+ bounding, 3+ increased, 2+ normal, 1+ weak, 0 absent, UTA = unable to assess.</p>"
+          },
+          {
+            "id": "ord_umd07",
+            "title": "Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\"><b>Admission orders</b><br>Bedrest with right leg elevated on 2 pillows.<br>May use bedside commode with assistance; no weight bearing on R lower extremity.<br>Advance to regular diet as tolerated.<br>VS and neurovascular checks every hour for 4 hours, then every 4 hours.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1115. The nurse suspects the client is developing compartment syndrome and prepares for the provider to reassess the client.",
+        "stem": "Based on the assessment findings and recent vital signs, which orders does the nurse anticipate being included in the plan of care? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Nursing: Place client in Trendelenburg position",
+            "correct": false
+          },
+          {
+            "text": "Nursing: Change diet to nothing by mouth",
+            "correct": true
+          },
+          {
+            "text": "Nursing: Cast removal saw to bedside STAT",
+            "correct": true
+          },
+          {
+            "text": "Nursing: Order compartment pressure measurement device to bedside",
+            "correct": true
+          },
+          {
+            "text": "Medication: Administer ibuprofen 400 mg by mouth STAT",
+            "correct": false
+          },
+          {
+            "text": "Medication: Administer morphine 4 mg IV push for pain",
+            "correct": true
+          },
+          {
+            "text": "Medication: Administer aspirin 325 mg by mouth every 12 hours",
+            "correct": false
+          },
+          {
+            "text": "Medication: Administer IV normal saline bolus of 500 mL over 30 minutes",
+            "correct": true
+          },
+          {
+            "text": "Collaborative: Physical therapy to instruct on crutch walking",
+            "correct": false
+          },
+          {
+            "text": "Collaborative: Initiate respiratory therapy protocol",
+            "correct": false
+          },
+          {
+            "text": "Collaborative: Case management to plan for long-term care placement",
+            "correct": false
+          },
+          {
+            "text": "Collaborative: Consult surgery team for possible fasciotomy",
+            "correct": true
+          }
+        ],
+        "explanation": "The nurse prioritizes interventions that relieve pressure within the compartment, monitor for an improving or declining condition, and treat potential life- or limb-threatening conditions: frequent neurovascular assessments and preparing to remove the cast as soon as possible (cast removal saw at the bedside). The provider is likely to measure compartment pressures. The client is kept NPO in case surgery is required, and the surgical team is consulted for a possible fasciotomy. Morphine is indicated for the pain, and because of the hypotension an IV fluid bolus is indicated.<br>Ibuprofen is not effective for pain of 10/10, and aspirin is contraindicated because of its antiplatelet effect if the client needs surgery. The Trendelenburg position is not indicated. Crutch walking waits until the compartment syndrome is resolved, and respiratory therapy and case management for long-term care are not indicated at this time.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse is caring for a 23-year-old female client admitted to the medical-surgical unit following surgery for a compound fracture of the right tibia and fibula.",
+        "tabs": [
+          {
+            "id": "nn_umd07",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72, HR 90, RR 29, T 99&deg;F (37.2&deg;C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44, HR 112, RR 22, T 99&deg;F (37.2&deg;C). Provider notified of client changes.</span></p>"
+          },
+          {
+            "id": "nv_umd07",
+            "title": "Neurovascular Flow Sheet",
+            "content": "<p><b>Neurovascular assessment, right lower extremity</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pain (0&ndash;10)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Motion</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Sensation</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Capillary Refill</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Color</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Warmth</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pulse</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0830</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0930</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1030</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1100</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1115</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1130</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">D</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr></tbody></table><p><b>Key:</b> Motion and Sensation: F = full, L = limited (motion) / P = partial (sensation), N = none. Capillary refill: B = brisk (&lt; 3 seconds), S = sluggish (&gt; 3 seconds). Color: N = normal, P = pale, D = dusky, C = cyanotic. Warmth: H = hot, W = warm, T = tepid, C = cold. Pulse: 4+ bounding, 3+ increased, 2+ normal, 1+ weak, 0 absent, UTA = unable to assess.</p>"
+          },
+          {
+            "id": "ord_umd07",
+            "title": "Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\"><b>Admission orders</b><br>Bedrest with right leg elevated on 2 pillows.<br>May use bedside commode with assistance; no weight bearing on R lower extremity.<br>Advance to regular diet as tolerated.<br>VS and neurovascular checks every hour for 4 hours, then every 4 hours.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\"><b>STAT orders</b><br>Strict bedrest; maintain R leg at the level of the heart.<br>Assist client to use bedpan; monitor intake and output.<br>Keep client NPO until cleared.<br>Document height and weight.<br>Order cast-cutting tray and compartment pressure measuring device to bedside.<br>Check neurovascular status and vital signs every 15 minutes for 2 hours.<br>IV fluid bolus of 500 mL normal saline over 30 minutes for systolic BP &lt; 100 mm Hg.<br>Complete preoperative checklist; notify the operating room to prepare for possible fasciotomy.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Orders from 1130 and the Neurovascular Flow Sheet from 1130. The nurse has reviewed the updated orders placed by the provider.",
+        "stem": "Which tasks can the nurse delegate to the unlicensed assistive personnel (UAP)? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Check neurovascular status every 15 minutes for 2 hours",
+            "correct": false
+          },
+          {
+            "text": "Obtain vital signs every hour for 4 hours",
+            "correct": true
+          },
+          {
+            "text": "Assist client to use bedpan to void",
+            "correct": true
+          },
+          {
+            "text": "Complete preoperative checklist",
+            "correct": false
+          },
+          {
+            "text": "Assist client to maintain right leg at the level of the heart",
+            "correct": true
+          },
+          {
+            "text": "Measure intake and output",
+            "correct": true
+          },
+          {
+            "text": "Document client’s height and weight",
+            "correct": true
+          }
+        ],
+        "explanation": "To accomplish all the tasks needed for this client, the nurse may delegate some tasks to the UAP. Measuring and documenting vital signs, intake and output, and height and weight may be done by the UAP, and the UAP may help the client keep the extremity in the proper position as instructed by the nurse.<br>The UAP cannot perform assessments or monitor neurovascular status. It is the nurse&rsquo;s responsibility to ensure the client is ready for surgery; the preoperative checklist is used to ensure all preoperative criteria are met.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse is caring for a 23-year-old female client admitted to the medical-surgical unit following surgery for a compound fracture of the right tibia and fibula.",
+        "tabs": [
+          {
+            "id": "nn_umd07",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72, HR 90, RR 29, T 99&deg;F (37.2&deg;C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44, HR 112, RR 22, T 99&deg;F (37.2&deg;C). Provider notified of client changes.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Cast removed at bedside; see updated flow sheet.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">VS: BP 116/70, HR 88, RR 16, T 98.8&deg;F (37.1&deg;C), pain 3/10.</span></p>"
+          },
+          {
+            "id": "nv_umd07",
+            "title": "Neurovascular Flow Sheet",
+            "content": "<p><b>Neurovascular assessment, right lower extremity</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pain (0&ndash;10)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Motion</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Sensation</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Capillary Refill</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Color</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Warmth</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Pulse</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0830</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>0930</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1030</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">F</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">B</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">W</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1100</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1115</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1130</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">D</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">UTA</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1145</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">P</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">T</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1+</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>1245</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">S</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">N</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">C</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0</td></tr></tbody></table><p><b>Key:</b> Motion and Sensation: F = full, L = limited (motion) / P = partial (sensation), N = none. Capillary refill: B = brisk (&lt; 3 seconds), S = sluggish (&gt; 3 seconds). Color: N = normal, P = pale, D = dusky, C = cyanotic. Warmth: H = hot, W = warm, T = tepid, C = cold. Pulse: 4+ bounding, 3+ increased, 2+ normal, 1+ weak, 0 absent, UTA = unable to assess.</p>"
+          },
+          {
+            "id": "ord_umd07",
+            "title": "Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\"><b>Admission orders</b><br>Bedrest with right leg elevated on 2 pillows.<br>May use bedside commode with assistance; no weight bearing on R lower extremity.<br>Advance to regular diet as tolerated.<br>VS and neurovascular checks every hour for 4 hours, then every 4 hours.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\"><b>STAT orders</b><br>Strict bedrest; maintain R leg at the level of the heart.<br>Assist client to use bedpan; monitor intake and output.<br>Keep client NPO until cleared.<br>Document height and weight.<br>Order cast-cutting tray and compartment pressure measuring device to bedside.<br>Check neurovascular status and vital signs every 15 minutes for 2 hours.<br>IV fluid bolus of 500 mL normal saline over 30 minutes for systolic BP &lt; 100 mm Hg.<br>Complete preoperative checklist; notify the operating room to prepare for possible fasciotomy.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1145 and 1245 and the Neurovascular Flow Sheet from 1145 and 1245. The nurse follows up on tasks delegated to the UAP, reviews the vital signs, and updates the neurovascular flow sheet with the most recent assessment.",
+        "stem": "For each finding, click to specify if the finding indicates that the client&rsquo;s status has improved, declined, or is unchanged since the onset of symptoms.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Improved",
+            "Declined",
+            "Unchanged"
+          ],
+          "rows": [
+            {
+              "text": "Pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Motion",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Sensation",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Capillary refill",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Color",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Warmth",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pulse",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "Since the onset of symptoms (1100), the pain rating, motion, and color have improved, as shown in the neurovascular assessment.<br>The warmth and the pulse have declined (the extremity is now cold with an absent pulse), and the sensation and capillary refill are unchanged.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies)."
+      }
+    }
+  ]
+}

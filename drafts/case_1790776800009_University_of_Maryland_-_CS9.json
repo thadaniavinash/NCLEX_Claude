@@ -1,0 +1,528 @@
+{
+  "id": "case_1790776800009",
+  "title": "University of Maryland - CS9",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Author: Mary DiBartolo, Salisbury University. COPD II: a 63-year-old client with a COPD exacerbation and left lower lobe pneumonia; risk factors, priorities, interventions, and discharge teaching.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "info_umd09",
+            "title": "Client Information",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Name</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Roy Blue</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gender</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Male</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Age</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 lb (65 kg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Allergies</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Penicillin, aspirin, milk products</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_umd09",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4&deg;F (38.5&deg;C), P 98, RR 28, BP 140/72, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p>"
+          },
+          {
+            "id": "labs_umd09",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.31</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_n",
+        "limit": 3,
+        "stem": "Select the <b>3</b> assessment findings that are <b>most</b> significant.",
+        "options": [
+          {
+            "text": "Pulse 98",
+            "correct": false
+          },
+          {
+            "text": "Temperature 101.4°F (38.5°C)",
+            "correct": true
+          },
+          {
+            "text": "BP 140/72",
+            "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading 85%",
+            "correct": true
+          },
+          {
+            "text": "Poor appetite",
+            "correct": false
+          },
+          {
+            "text": "PaCO₂ 51 mm Hg",
+            "correct": false
+          },
+          {
+            "text": "Productive cough of purulent sputum",
+            "correct": true
+          },
+          {
+            "text": "HCO₃⁻ 28 mmol/L",
+            "correct": false
+          }
+        ],
+        "explanation": "Oxygenation is compromised by the COPD exacerbation, as shown by the pulse oximetry reading of 85%. A productive cough of purulent, rust-colored sputum with a fever indicates bacterial pneumonia, which interferes with gas exchange.<br>The BP and pulse are within normal limits. The PaCO<sub>2</sub> is expected to be slightly elevated with the chronic respiratory acidosis of COPD, with a slightly elevated HCO<sub>3</sub><sup>&minus;</sup> as the compensatory response. Poor appetite is not urgent and will likely improve once the infection resolves.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "info_umd09",
+            "title": "Client Information",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Name</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Roy Blue</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gender</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Male</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Age</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 lb (65 kg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Allergies</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Penicillin, aspirin, milk products</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_umd09",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4&deg;F (38.5&deg;C), P 98, RR 28, BP 140/72, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p>"
+          },
+          {
+            "id": "labs_umd09",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.31</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "For each finding, click to specify if the finding is associated or not associated with COPD.",
+        "matrix": {
+          "firstColumnHeader": "Assessment Finding",
+          "columns": [
+            "Associated with COPD",
+            "Not Associated with COPD"
+          ],
+          "rows": [
+            {
+              "text": "Occupation",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hypertension",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pulse oximetry reading 85%",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "50 pack-year smoking history",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Productive cough",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Clubbing in fingers",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "PaCO₂ 51 mm Hg",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Vaccine status",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "His job at a chemical factory (inhaled irritants affecting lung function) and his smoking history are risk factors for COPD. The productive cough and low pulse oximetry reading are symptoms of his pneumonia and COPD exacerbation. Clubbing of the fingers is a sign of long-term hypoxia, and the PaCO<sub>2</sub> is elevated because of the chronic respiratory acidosis associated with COPD.<br>Vaccine status relates to his pneumonia risk, and hypertension is not a risk factor for COPD.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "info_umd09",
+            "title": "Client Information",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Name</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Roy Blue</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gender</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Male</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Age</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 lb (65 kg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Allergies</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Penicillin, aspirin, milk products</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_umd09",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4&deg;F (38.5&deg;C), P 98, RR 28, BP 140/72, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask.</span></p>"
+          },
+          {
+            "id": "labs_umd09",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.31</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd09",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Chest X-ray (Day 1):</b> left lower lobe pneumonia.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "drag_drop_cloze",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1315 and the Diagnostic Results. The chest X-ray results return, and the provider is notified of the client&rsquo;s status.",
+        "stem": "Drag the most appropriate word choice from the list of options to fill in the blank of the following sentence.",
+        "cloze": {
+          "text": "The top priority for this client is to [[drop0]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "reduce temperature",
+                  "correct": false
+                },
+                {
+                  "text": "improve PaCO₂",
+                  "correct": false
+                },
+                {
+                  "text": "evaluate nutritional status and food intake",
+                  "correct": false
+                },
+                {
+                  "text": "treat the pneumonia",
+                  "correct": true
+                },
+                {
+                  "text": "assess readiness to stop smoking",
+                  "correct": false
+                },
+                {
+                  "text": "address vaccination status",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The priority is to treat the pneumonia, the source of infection, which will in turn resolve the fever and improve the breathing status and pulse oximetry reading.<br>Nutrition, smoking, and vaccination status can be addressed later, once the client is stable. Although elevated, the temperature is not life-threatening.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "info_umd09",
+            "title": "Client Information",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Name</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Roy Blue</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gender</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Male</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Age</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 lb (65 kg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Allergies</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Penicillin, aspirin, milk products</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_umd09",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4&deg;F (38.5&deg;C), P 98, RR 28, BP 140/72, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p>"
+          },
+          {
+            "id": "labs_umd09",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.31</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd09",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Chest X-ray (Day 1):</b> left lower lobe pneumonia.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "For each potential nursing or collaborative intervention, click to specify whether the intervention is appropriate or not appropriate to include in the plan of care.",
+        "matrix": {
+          "firstColumnHeader": "Potential Intervention",
+          "columns": [
+            "Appropriate",
+            "Not Appropriate"
+          ],
+          "rows": [
+            {
+              "text": "Administer IV methylprednisolone",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer PO acetaminophen as needed for fever",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer oxygen to achieve pulse oximetry readings of at least 95%",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Encourage flutter valve or Acapella use every 2 hours",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer PO cough suppressant",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administer IV ampicillin/sulbactam",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Restrict PO fluids",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Encourage pursed-lip breathing",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Monitor WBC count",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Encourage milk, ice cream, and cheese as sources of protein",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "IV corticosteroids reduce inflammation, and acetaminophen reduces the fever from the pneumonia. Pursed-lip breathing and the flutter valve or Acapella increase positive expiratory pressure and help mobilize secretions with vibration. Monitoring the WBC count shows whether the antibiotic treatment is effective.<br>The usual target pulse oximetry range for a client with COPD is 88&ndash;92%. Ampicillin/sulbactam contains a penicillin and is contraindicated by his allergy. A cough suppressant is contraindicated because the goal is to cough up purulent secretions, and restricting fluids would thicken them. Milk products are contraindicated by his allergy.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "info_umd09",
+            "title": "Client Information",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Name</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Roy Blue</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gender</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Male</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Age</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 lb (65 kg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Allergies</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Penicillin, aspirin, milk products</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_umd09",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4&deg;F (38.5&deg;C), P 98, RR 28, BP 140/72, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">RR 21; pulse oximetry reading now 87%; reports mild SOB with exertion; resting comfortably in bed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">T 98.8&deg;F (37.1&deg;C) after a dose of acetaminophen, two doses of IV antibiotic, and IV methylprednisolone. RR 18; pulse oximetry reading 92% on 2 L/min oxygen via nasal cannula. ABGs checked this morning. No reports of SOB; up in chair for breakfast. Ate 75% of breakfast. Orders to discharge this afternoon.</span></p>"
+          },
+          {
+            "id": "labs_umd09",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.31</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd09",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Chest X-ray (Day 1):</b> left lower lobe pneumonia.</p>"
+          },
+          {
+            "id": "dc_umd09",
+            "title": "Discharge Orders",
+            "content": "<p><b>Discharge orders</b></p><p>Discharge this afternoon on home oxygen 2 L/min.</p><p>Levofloxacin 500 mg PO daily.</p><p>Prednisone 40 mg PO daily for 5 days.</p><p>Roflumilast 500 mcg PO daily.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1400 and Day 2 0900, the Day 2 Laboratory Results, and the Discharge Orders. The nurse prepares the client for possible discharge.",
+        "stem": "What should the nurse teach the client about the treatment plan before discharge? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "If feeling better (no SOB or fever), you can stop taking the prednisone.",
+            "correct": false
+          },
+          {
+            "text": "Continue to increase fluid intake.",
+            "correct": true
+          },
+          {
+            "text": "Continue the flutter valve or Acapella at least 3–4 times daily.",
+            "correct": true
+          },
+          {
+            "text": "Increase oxygen to 5–6 L/minute whenever short of breath.",
+            "correct": false
+          },
+          {
+            "text": "Obtain pneumococcal and influenza vaccines at the next provider visit.",
+            "correct": true
+          },
+          {
+            "text": "Eat smaller, more frequent high-calorie, high-protein meals.",
+            "correct": true
+          },
+          {
+            "text": "Avoid all exercise for at least 3 months.",
+            "correct": false
+          },
+          {
+            "text": "Consider strategies to stop smoking.",
+            "correct": true
+          }
+        ],
+        "explanation": "Increased fluids reduce the viscosity and retention of secretions. The flutter valve or Acapella continues to optimize lung expansion and gas exchange and mobilize secretions. Pneumococcal and influenza vaccines prevent future infections and exacerbations. Smaller, more frequent meals optimize nutrition. Smoking cessation is essential.<br>The client should take the entire course of prednisone as prescribed. Oxygen is kept at the lowest flow that maintains a pulse oximetry reading of 88&ndash;92%. Some mild exercise as tolerated is important.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress.",
+        "tabs": [
+          {
+            "id": "info_umd09",
+            "title": "Client Information",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Name</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Roy Blue</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Gender</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Male</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Age</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Weight</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 lb (65 kg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Allergies</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Penicillin, aspirin, milk products</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "nn_umd09",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4&deg;F (38.5&deg;C), P 98, RR 28, BP 140/72, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">RR 21; pulse oximetry reading now 87%; reports mild SOB with exertion; resting comfortably in bed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">T 98.8&deg;F (37.1&deg;C) after a dose of acetaminophen, two doses of IV antibiotic, and IV methylprednisolone. RR 18; pulse oximetry reading 92% on 2 L/min oxygen via nasal cannula. ABGs checked this morning. No reports of SOB; up in chair for breakfast. Ate 75% of breakfast. Orders to discharge this afternoon.</span></p>"
+          },
+          {
+            "id": "labs_umd09",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.2 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.31</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.32</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd09",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Chest X-ray (Day 1):</b> left lower lobe pneumonia.</p>"
+          },
+          {
+            "id": "dc_umd09",
+            "title": "Discharge Orders",
+            "content": "<p><b>Discharge orders</b></p><p>Discharge this afternoon on home oxygen 2 L/min.</p><p>Levofloxacin 500 mg PO daily.</p><p>Prednisone 40 mg PO daily for 5 days.</p><p>Roflumilast 500 mcg PO daily.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse completes the discharge teaching.",
+        "stem": "For each client statement, click to specify whether the statement indicates an understanding or no understanding of the discharge teaching provided.",
+        "matrix": {
+          "firstColumnHeader": "Client Statement",
+          "columns": [
+            "Understanding",
+            "No Understanding"
+          ],
+          "rows": [
+            {
+              "text": "“I should take the prednisone in the morning with food.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I can get back to my previous level of activity as I recover.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I can stop taking the antibiotic now that I am feeling better.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I should use a spacer with my metered-dose inhalers.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I can continue to smoke, as the damage is already done.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I should do pursed-lip breathing several times daily.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I should avoid crowds during cold and flu season.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Glucocorticoids are best taken in the morning to mimic the diurnal pattern, and with food to decrease GI upset. The client should resume activity as tolerated, use a spacer with metered-dose inhalers to optimize the dose received, continue pursed-lip breathing to prolong expiration and eliminate CO<sub>2</sub>, and avoid crowds during cold and flu season.<br>The client should take every dose of the antibiotic to clear the infection and prevent multidrug-resistant organisms, and should still attempt smoking cessation: it is never too late to quit and benefit.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}
