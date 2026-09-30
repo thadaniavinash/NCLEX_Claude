@@ -1,0 +1,412 @@
+{
+  "id": "case_1790776800019",
+  "title": "University of Maryland - CS19",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (revised April 17, 2023); Author: DeNiece Bennett, University of Maryland School of Nursing. Stroke: a 26-year-old client on a combined hormonal contraceptive with an acute ischemic stroke; risk factors, alteplase screening and post-thrombolysis care, and teaching.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities.",
+        "tabs": [
+          {
+            "id": "nn_umd19",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight",
+        "stem": "Click to highlight the findings that require <b>immediate</b> follow-up.",
+        "highlightTabs": [
+          {
+            "id": "ht_umd19",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A {26-year-old female} of Latin descent presents to the emergency department with {lightheadedness|correct}, {generalized weakness of the left lower and upper extremities|correct}, and a {sudden headache|correct} after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and {self-administered 500 mg of acetaminophen for pain}, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally {drinks 3&ndash;4 glasses of wine a week}, and {vapes with e-cigarettes daily}.<br>Continuous cardiac monitoring initiated per protocol. {Heart rate 99|correct}, {blood pressure 160/100|correct}. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+          }
+        ],
+        "explanation": "A disruption of the blood supply to areas of the brain causes a sudden loss of motor function. Like a myocardial infarction, a disruption of blood flow to the brain is a medical emergency that requires immediate intervention. Lightheadedness, weakness of the left lower and upper extremities, a sudden headache, and the heart rate and elevated blood pressure indicate poor cerebral perfusion and require immediate follow-up.<br>The client&rsquo;s age, the acetaminophen, the alcohol intake, and the vaping are not findings that need immediate follow-up.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities.",
+        "tabs": [
+          {
+            "id": "nn_umd19",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "For each finding, click to specify if the finding is a risk factor or not a risk factor for ischemic stroke.",
+        "matrix": {
+          "firstColumnHeader": "Assessment Finding",
+          "columns": [
+            "Risk Factor",
+            "Not a Risk Factor"
+          ],
+          "rows": [
+            {
+              "text": "Combined hormonal contraceptive",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Drinks 3–4 glasses of alcohol a week",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Vapes e-cigarettes daily",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Completed a 2.5-mile sprint on the treadmill",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Latin descent",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Combined hormonal contraceptives contain estrogen, which affects the coagulation system and increases the risk of blood clots, stroke, and heart attack. Vaping delivers nicotine, which further increases the risk of clots, stroke, and heart attack in a person using estrogen. Age, race, and sex are nonmodifiable risk factors; some Hispanic/Latino populations have a higher incidence of stroke and stroke mortality.<br>Physical activity and moderate alcohol consumption are part of a healthy lifestyle that reduces the risk of stroke.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities.",
+        "tabs": [
+          {
+            "id": "nn_umd19",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+          },
+          {
+            "id": "dx_umd19",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Head CT:</b> findings consistent with acute ischemic stroke; no intracranial hemorrhage.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "drag_drop_cloze",
+        "preamble": "The nurse has reviewed the Diagnostic Results. The client is diagnosed with an ischemic stroke.",
+        "stem": "Drag the most appropriate choice from the list of options to fill in the blank of the following sentence.",
+        "cloze": {
+          "text": "The top priority for this client is [[drop0]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "improving fluid and electrolytes",
+                  "correct": false
+                },
+                {
+                  "text": "restoring cerebral perfusion",
+                  "correct": true
+                },
+                {
+                  "text": "supporting proper body alignment",
+                  "correct": false
+                },
+                {
+                  "text": "promoting nutrition and dietary needs",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "An interruption of blood flow to the brain from a thrombotic or embolic event causes an ischemic stroke. The main priority is to restore cerebral perfusion to prevent further neurologic deficits, an altered level of consciousness, or death of brain cells.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities.",
+        "tabs": [
+          {
+            "id": "nn_umd19",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p>"
+          },
+          {
+            "id": "dx_umd19",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Head CT:</b> findings consistent with acute ischemic stroke; no intracranial hemorrhage.</p>"
+          },
+          {
+            "id": "labs_umd19",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.55 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13.5 seconds</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd19",
+            "title": "Orders",
+            "content": "<p>Alteplase 0.9 mg/kg (maximum dose 90 mg) IV over 60 minutes, STAT; give 10% of the dose as a bolus.</p><p>Labetalol 20 mg IV bolus over 2 minutes, then 10 mg IV to maintain systolic BP above 140 but below 185 mm Hg and diastolic BP above 80 but below 110 mm Hg.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1130, the Laboratory Results, and the Orders. The nurse reviews the orders and plans to administer alteplase.",
+        "stem": "What additional assessment data should the nurse obtain before administering alteplase? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Recent international travel",
+            "correct": false
+          },
+          {
+            "text": "No current pregnancy",
+            "correct": true
+          },
+          {
+            "text": "Blood glucose greater than 2.8 mmol/L",
+            "correct": true
+          },
+          {
+            "text": "No major surgical procedures within 14 days",
+            "correct": true
+          },
+          {
+            "text": "Serum pH greater than 7.35",
+            "correct": false
+          },
+          {
+            "text": "Confirm onset and time frame of symptoms",
+            "correct": true
+          },
+          {
+            "text": "Serum potassium greater than 3.5 mmol/L",
+            "correct": false
+          },
+          {
+            "text": "Can safely ambulate to the bathroom",
+            "correct": false
+          },
+          {
+            "text": "Client weight",
+            "correct": true
+          }
+        ],
+        "explanation": "Alteplase (recombinant tissue plasminogen activator) dissolves the clot once an ischemic stroke is confirmed, and the dose is weight-based. Starting thrombolytic therapy within the treatment window lessens the stroke&rsquo;s severity and improves outcomes. Contraindications include symptom onset outside the treatment window, a major surgical procedure within the last 14 days, current pregnancy, a blood glucose below 2.8 mmol/L, and heparin within the past 48 hours.<br>Travel history, the serum pH and potassium, and the ability to ambulate are not part of the alteplase screening.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities.",
+        "tabs": [
+          {
+            "id": "nn_umd19",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Weight 75 kg. Alteplase 67.5 mg infused over 60 minutes; 7 mg of the total dose given as a bolus per protocol.</span></p>"
+          },
+          {
+            "id": "dx_umd19",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Head CT:</b> findings consistent with acute ischemic stroke; no intracranial hemorrhage.</p>"
+          },
+          {
+            "id": "labs_umd19",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.55 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13.5 seconds</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd19",
+            "title": "Orders",
+            "content": "<p>Alteplase 0.9 mg/kg (maximum dose 90 mg) IV over 60 minutes, STAT; give 10% of the dose as a bolus.</p><p>Labetalol 20 mg IV bolus over 2 minutes, then 10 mg IV to maintain systolic BP above 140 but below 185 mm Hg and diastolic BP above 80 but below 110 mm Hg.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1200.",
+        "stem": "For each possible action, click to specify if it is indicated or not indicated after administering alteplase.",
+        "matrix": {
+          "firstColumnHeader": "Action",
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "rows": [
+            {
+              "text": "Ensure oral anticoagulants are withheld for the next 24 hours",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Arrange for an inpatient admission to the medical-surgical unit",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Assess and monitor vital signs for intracerebral hemorrhage",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Insert an indwelling catheter to record urine output accurately",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Consult with a hematologist to increase the client’s PT and INR levels",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Keep the client NPO until a speech and swallow evaluation is completed",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Monitor serum glucose level to prevent complications of a stroke",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "Clients who receive thrombolytic therapy are admitted to an intensive care unit for continuous cardiac monitoring and close observation for bleeding, and oral anticoagulants are withheld for the next 24 hours. Vital signs are checked every 15 minutes for 2 hours, every 30 minutes for the next 6 hours, and then hourly until 24 hours after treatment to detect intracerebral hemorrhage. The client stays NPO until a swallow evaluation is done. The blood glucose is kept at about 7.8&ndash;10 mmol/L while avoiding hypoglycemia; hyperglycemia is associated with poor neurologic outcomes.<br>Insertion of nasogastric tubes, urinary catheters, and arterial lines is delayed for 24 hours. Increasing the PT and INR would raise the risk of bleeding.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities.",
+        "tabs": [
+          {
+            "id": "nn_umd19",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Weight 75 kg. Alteplase 67.5 mg infused over 60 minutes; 7 mg of the total dose given as a bolus per protocol.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Transferred to the critical care unit.</span></p>"
+          },
+          {
+            "id": "dx_umd19",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Head CT:</b> findings consistent with acute ischemic stroke; no intracranial hemorrhage.</p>"
+          },
+          {
+            "id": "labs_umd19",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.55 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13.5 seconds</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd19",
+            "title": "Orders",
+            "content": "<p>Alteplase 0.9 mg/kg (maximum dose 90 mg) IV over 60 minutes, STAT; give 10% of the dose as a bolus.</p><p>Labetalol 20 mg IV bolus over 2 minutes, then 10 mg IV to maintain systolic BP above 140 but below 185 mm Hg and diastolic BP above 80 but below 110 mm Hg.</p>"
+          },
+          {
+            "id": "pn_umd19",
+            "title": "Progress Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Awake, alert, and oriented to person, place, and time. Heart rate 98, sinus rhythm; blood pressure 128/86; afebrile. Bleeding and fall precautions continued. Instructed to use the call bell for assistance with ambulation. Stroke education provided and expected outcomes after a stroke reviewed. Health risk factors, signs and symptoms, early interventions, follow-up care, and apixaban at discharge discussed. Advised of a speech and swallow test to evaluate oropharyngeal motor function. Educated on the adverse effects of alteplase and the increased risk of bleeding.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1230 and the Progress Notes. The client&rsquo;s condition has improved the next day, and the nurse evaluates the client&rsquo;s understanding of the instructions provided.",
+        "stem": "For each client statement, click to specify whether the statement indicates an understanding or no understanding of the teaching provided.",
+        "matrix": {
+          "firstColumnHeader": "Client Statement",
+          "columns": [
+            "Understanding",
+            "No Understanding"
+          ],
+          "rows": [
+            {
+              "text": "“I will use the call bell and wait for someone to help me get out of bed.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“A speech and swallow test will determine if I can drink normally again.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I will switch to an electric razor instead of a straight razor to shave.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“The physical therapist will determine my functional ability.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“At discharge, I should plan to self-administer insulin for hyperglycemia.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I will follow up with my gynecologist to determine a better contraceptive plan.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "To prevent a fall, the client calls for help to get out of bed. An ischemic stroke can cause dysphagia, so a speech and swallow evaluation determines whether she needs thickened liquids or pureed foods to prevent aspiration. Because of the bleeding risk, she uses an electric razor and a soft-bristled toothbrush. Combined hormonal contraception increases the risk of stroke, so she should explore alternatives.<br>The baseline assessment of the client&rsquo;s functional ability (motor, social, and cognitive) is completed by the nurse. The client has no diagnosis of diabetes and is not prescribed insulin; she will take apixaban, an oral anticoagulant.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

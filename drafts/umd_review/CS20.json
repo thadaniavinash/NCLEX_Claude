@@ -1,0 +1,29 @@
+{
+  "cs": 20,
+  "topic": "Tension Pneumothorax",
+  "source": "Tension-Pneumothorax.docx",
+  "items": [
+    {
+      "id": "case_1790776800020",
+      "title": "University of Maryland - CS20",
+      "file": "drafts/case_1790776800020_University_of_Maryland_-_CS20.json"
+    },
+    {
+      "id": "standalone_1790776801201",
+      "title": "University of Maryland - CS20 Bowtie",
+      "file": "drafts/standalone_1790776801201_University_of_Maryland_-_CS20_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Screen 4 option \"Assist with thoracentesis\" changed to \"Assist with needle decompression\" (a tension pneumothorax is relieved by needle decompression/thoracostomy, not thoracentesis, which drains fluid). Rationale and the 1545 note reworded to match (\"14-gauge spinal needle to aspirate air\" -> \"14-gauge needle to decompress the chest\").",
+    "Screen 4 keys \"Obtain a STAT chest X-ray\" as anticipated and the bow-tie keys it as an action. Tension pneumothorax is a clinical diagnosis and imaging must not delay decompression; the rationales say so. Consider replacing it in the bow-tie.",
+    "Screen 4 keys an indwelling urinary catheter as not anticipated; in a hypotensive, stuporous trauma client in the ICU one is often placed for output monitoring. Please confirm.",
+    "Screen 2 keys \"Muffled heart sounds\" for tension pneumothorax as well as tamponade (classically a tamponade sign, Beck's triad). The row \"Blood gas\" was renamed \"Respiratory acidosis with hypoxemia\". Please review the grid.",
+    "Screen 5 keys \"Document chest tube drainage every shift\" as indicated; after insertion drainage is usually checked/recorded hourly at first (bleeding). Consider rewording (e.g. \"Measure and record drainage hourly\").",
+    "1545 note: \"Rales heard in the right lung fields\" (the uninjured side) is unexplained; kept as \"Crackles in the right lung fields\". Also: chest tube \"connected to 20 cm wall suction\" now reads 20 cm H2O suction.",
+    "SpO2 98% on room air at 1600, 15 minutes after the chest tube: oxygen removed quickly; confirm intended.",
+    "ABG labels corrected (P02/PC02/SaP02/HC03 -> PaO2/PaCO2/SaO2/HCO3-); HCO3- 27 mEq/L -> 27 mmol/L; gases stay in mm Hg. The ABG is charted at 1530 (the source gives no time). Temperatures shown in °C with °F.",
+    "Screen 3 uses rationale scoring (1 point only if both blanks are correct), as in the source. Screen 4 options were reordered so a correct answer is not listed first.",
+    "The bow-tie uses the chart at 1530 (as in the source); it overlaps screens 2-4, so it is a separate stand-alone."
+  ]
+}

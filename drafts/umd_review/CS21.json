@@ -1,0 +1,27 @@
+{
+  "cs": 21,
+  "topic": "Thyroid Storm",
+  "source": "Thyroid-Storm.doc",
+  "items": [
+    {
+      "id": "case_1790776800021",
+      "title": "University of Maryland - CS21",
+      "file": "drafts/case_1790776800021_University_of_Maryland_-_CS21.json"
+    },
+    {
+      "id": "standalone_1790776801211",
+      "title": "University of Maryland - CS21 Bowtie",
+      "file": "drafts/standalone_1790776801211_University_of_Maryland_-_CS21_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Screen 5 answer key: the source .doc's highlighting could not be read, so the 2 orders to implement first were taken from the rationale (humidified oxygen and the 12-lead ECG). Please confirm.",
+    "Oxygen is keyed as anticipated (screen 4) and as a first priority (screen 5) although SpO2 is 97% on room air; oxygen is not routinely indicated at that saturation. Consider lowering the SpO2 or re-keying.",
+    "Treatment gaps: a beta-blocker (propranolol) is a cornerstone of thyroid storm treatment for the tachycardia and is not in the orders or options; propylthiouracil is often preferred to methimazole in thyroid storm (blocks T4-to-T3 conversion), and iodine and glucocorticoids are also usual. Consider adding propranolol to the orders/options.",
+    "Screen 5 rationale said \"Now medication orders should be implemented within 60-90 minutes\"; removed (a STAT/now order is given promptly). The order \"Admission\" was written as \"Admit to the hospital\".",
+    "Screen 6 asks about the laboratory report, which the source shows only in the bow-tie; the Laboratory Results (drawn at 0910) and the ECG report were added to screen 6's chart.",
+    "Labs in SI with the author's ranges: WBC 13 × 10⁹/L (4.5-10.5); K 5.0 mmol/L; Na 142 mmol/L; TSH 0.27 mU/L (0.45-4.5); total T3 400 ng/dL -> 6.1 nmol/L (80-200 ng/dL -> 1.2-3.1 nmol/L); T4 270 nmol/L (57-148). In thyroid storm TSH is usually suppressed (< 0.01 mU/L); 0.27 is only mildly low. Consider changing it.",
+    "Screen 1 (\"What 4 client findings are most urgent?\") is a select-4 question; anxiety is keyed not urgent. Screen 1 and screen 4 options were reordered so a correct answer is not listed first.",
+    "The source uses they/them for the client in the notes and \"female\" in the intro; kept as in the source."
+  ]
+}

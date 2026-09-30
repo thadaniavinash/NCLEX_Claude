@@ -1,0 +1,478 @@
+{
+  "id": "case_1790776800020",
+  "title": "University of Maryland - CS20",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Denyce Watties-Daniels, Coppin State University. Tension pneumothorax: a 58-year-old client with rib fractures after a motor vehicle collision; recognizing deterioration, needle decompression and chest tube care.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 58-year-old woman in a severe motor vehicle collision was admitted to the ICU with fractured ribs.",
+        "tabs": [
+          {
+            "id": "nn_umd20",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p>"
+          },
+          {
+            "id": "vs_umd20",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8&deg;C (98.4&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "stem": "Which assessment findings require <b>immediate</b> follow-up? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Heart rate of 98/min",
+            "correct": false
+          },
+          {
+            "text": "Respiratory rate of 28/min",
+            "correct": true
+          },
+          {
+            "text": "SpO₂ of 89%",
+            "correct": true
+          },
+          {
+            "text": "Blood pressure of 138/90",
+            "correct": false
+          },
+          {
+            "text": "Pain 5/10 with inspiration",
+            "correct": true
+          },
+          {
+            "text": "Temperature of 36.8°C (98.4°F)",
+            "correct": false
+          },
+          {
+            "text": "Absent breath sounds",
+            "correct": true
+          },
+          {
+            "text": "Bruising on the anterior chest",
+            "correct": false
+          },
+          {
+            "text": "Cyanosis of the lips and fingertips",
+            "correct": true
+          }
+        ],
+        "explanation": "The nurse assesses the client&rsquo;s airway, breathing, and circulation. The respiratory rate is high and the SpO<sub>2</sub> is low despite oxygen. Absent breath sounds and cyanosis indicate respiratory compromise and require immediate intervention. Pain that increases with inspiration requires further assessment and intervention.<br>The heart rate, blood pressure, and temperature are within normal limits, and the bruising from the seat belt is expected after the collision.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "A 58-year-old woman in a severe motor vehicle collision was admitted to the ICU with fractured ribs.",
+        "tabs": [
+          {
+            "id": "nn_umd20",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p>"
+          },
+          {
+            "id": "vs_umd20",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">112</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/60</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80% on 4 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd20",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.25</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">84%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>&minus;</sup></b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1530, the Vital Signs, and the Laboratory Results. The nurse reassesses the client.",
+        "stem": "For each client finding, click to specify if the finding is consistent with pulmonary contusion, cardiac tamponade, or tension pneumothorax. Each finding may be consistent with more than 1 condition. Each column must have at least 1 response option selected.",
+        "matrix": {
+          "firstColumnHeader": "Client Finding",
+          "columns": [
+            "Pulmonary Contusion",
+            "Cardiac Tamponade",
+            "Tension Pneumothorax"
+          ],
+          "rows": [
+            {
+              "text": "Absent breath sounds",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Asymmetrical chest movement",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Respiratory acidosis with hypoxemia",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Hypotension",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "History of chest trauma",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Muffled heart sounds",
+              "correctIndex": 1,
+              "correctIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Chest pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Tracheal deviation",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "Pulmonary contusion, cardiac tamponade, and pneumothorax may all result from severe chest trauma and may present with labored breathing and chest pain. All can cause tachycardia and hypotension, by different mechanisms: a pulmonary contusion is associated with bleeding that can lead to shock, while a tension pneumothorax and cardiac tamponade decrease cardiac output. Respiratory acidosis with hypoxemia is seen with pulmonary contusion and pneumothorax, but not with cardiac tamponade. Muffled heart sounds occur with cardiac tamponade and may occur with a tension pneumothorax. Asymmetrical chest movement, absent breath sounds, and tracheal deviation are signs of a tension pneumothorax.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "A 58-year-old woman in a severe motor vehicle collision was admitted to the ICU with fractured ribs.",
+        "tabs": [
+          {
+            "id": "nn_umd20",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p>"
+          },
+          {
+            "id": "vs_umd20",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">112</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/60</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80% on 4 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd20",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.25</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">84%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>&minus;</sup></b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "cloze": {
+          "text": "The client is most likely experiencing a [[drop0]], as most evidenced by the [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "cardiac tamponade",
+                  "correct": false
+                },
+                {
+                  "text": "pulmonary contusion",
+                  "correct": false
+                },
+                {
+                  "text": "tension pneumothorax",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "laboratory report",
+                  "correct": false
+                },
+                {
+                  "text": "respiratory assessment",
+                  "correct": true
+                },
+                {
+                  "text": "cardiovascular assessment",
+                  "correct": false
+                }
+              ]
+            }
+          ],
+          "scoreGroups": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "explanation": "The client is most likely experiencing a tension pneumothorax, as most evidenced by the respiratory assessment: increasing shortness of breath, hypoxemia, absent breath sounds on the left, and tracheal deviation.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "A 58-year-old woman in a severe motor vehicle collision was admitted to the ICU with fractured ribs.",
+        "tabs": [
+          {
+            "id": "nn_umd20",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p>"
+          },
+          {
+            "id": "vs_umd20",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">112</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/60</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80% on 4 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd20",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.25</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">84%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>&minus;</sup></b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse notifies the provider of the client&rsquo;s condition.",
+        "stem": "Which of the following prescriptions should the nurse anticipate? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Insert an indwelling urinary catheter",
+            "correct": false
+          },
+          {
+            "text": "Assist with needle decompression",
+            "correct": true
+          },
+          {
+            "text": "Administer pain medication",
+            "correct": true
+          },
+          {
+            "text": "Obtain a STAT chest X-ray",
+            "correct": true
+          },
+          {
+            "text": "Transfuse a unit of blood",
+            "correct": false
+          },
+          {
+            "text": "Set up a chest drainage system",
+            "correct": true
+          }
+        ],
+        "explanation": "The client is most likely experiencing a tension pneumothorax. The nurse prepares for immediate needle decompression to relieve the pressure in the chest. Treatment then includes inserting a chest tube connected to suction through a chest drainage system to re-expand the lung. A chest X-ray is done before chest tube placement if time allows; otherwise it is obtained soon after. The nurse administers pain medication before the provider decompresses the chest and inserts the chest tube.<br>Whether the client needs blood is decided if shock or evidence of internal bleeding persists after the pneumothorax is evacuated. An indwelling urinary catheter is not needed to treat the pneumothorax.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "A 58-year-old woman in a severe motor vehicle collision was admitted to the ICU with fractured ribs.",
+        "tabs": [
+          {
+            "id": "nn_umd20",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1545:</span><span class=\"nurse-note-text\">Chest X-ray obtained. Medicated with morphine. The provider used a 14-gauge needle to decompress the chest and inserted a 28 Fr chest tube in the left lower chest wall. Chest tube connected to water seal drainage with 20 cm H<sub>2</sub>O wall suction. Fluctuations noted in the water seal chamber. 20 mL of light red drainage collected in the drainage chamber. Crackles heard in the right lung fields. Diminished breath sounds on the left.</span></p>"
+          },
+          {
+            "id": "vs_umd20",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1545</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">112</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/60</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">128/70</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd20",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.25</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">84%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>&minus;</sup></b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd20",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Chest X-ray (1545):</b> fractures of the left 6th and 7th ribs; large left tension pneumothorax.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1545, the Vital Signs, and the Diagnostic Results. The client is diagnosed with a tension pneumothorax, and the provider has placed a chest tube.",
+        "stem": "For each nursing action, click to specify if the action is indicated or not indicated.",
+        "matrix": {
+          "firstColumnHeader": "Nursing Action",
+          "columns": [
+            "Indicated",
+            "Not Indicated"
+          ],
+          "rows": [
+            {
+              "text": "Administer morphine IV as needed",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Position the drainage system at heart level",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Ambulate in the hallway",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Monitor fluctuations in the water seal chamber",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Obtain a repeat chest X-ray in the morning",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Document chest tube drainage every shift",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Change the chest tube dressing every shift",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "The nurse administers pain medication before and after chest tube insertion and as needed. The nurse monitors the water seal chamber for fluctuations (tidaling), which show the system is functioning. Drainage is recorded as output. A chest X-ray in the morning documents re-expansion of the lung.<br>The drainage system is kept below the level of the chest to promote drainage. The client is stuporous and should not ambulate. An occlusive dressing at the insertion site keeps air from leaking around the tube; it is not changed routinely, to avoid air entering the chest cavity.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "A 58-year-old woman in a severe motor vehicle collision was admitted to the ICU with fractured ribs.",
+        "tabs": [
+          {
+            "id": "nn_umd20",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1545:</span><span class=\"nurse-note-text\">Chest X-ray obtained. Medicated with morphine. The provider used a 14-gauge needle to decompress the chest and inserted a 28 Fr chest tube in the left lower chest wall. Chest tube connected to water seal drainage with 20 cm H<sub>2</sub>O wall suction. Fluctuations noted in the water seal chamber. 20 mL of light red drainage collected in the drainage chamber. Crackles heard in the right lung fields. Diminished breath sounds on the left.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1600:</span><span class=\"nurse-note-text\">Resting in bed. Chest tube draining a small amount of light red drainage in the collection chamber. Symmetrical chest movement noted. Lips and fingertips are pink.</span></p>"
+          },
+          {
+            "id": "vs_umd20",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1545</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8&deg;C (98.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6&deg;C (98.0&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">112</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/60</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">128/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124/74</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd20",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.25</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">84%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>HCO<sub>3</sub><sup>&minus;</sup></b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx_umd20",
+            "title": "Diagnostic Results",
+            "content": "<p><b>Chest X-ray (1545):</b> fractures of the left 6th and 7th ribs; large left tension pneumothorax.</p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1600 and the Vital Signs. The nurse reassesses the client.",
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "cloze": {
+          "text": "The nurse determines the client’s status is [[drop0]]. The nurse should now [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "deteriorating",
+                  "correct": false
+                },
+                {
+                  "text": "improving",
+                  "correct": true
+                },
+                {
+                  "text": "unchanged",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "check for air leaks",
+                  "correct": false
+                },
+                {
+                  "text": "obtain a STAT blood gas",
+                  "correct": false
+                },
+                {
+                  "text": "monitor breath sounds",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The vital signs, SpO<sub>2</sub> on room air, symmetrical chest movement, and pink lips and fingertips show the client is improving. The nurse continues to monitor the client, including the breath sounds, for improved airflow in the affected lung.<br>A blood gas may not be needed if the client continues to improve. There is no need to check for air leaks, since the system appears to be functioning.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}
