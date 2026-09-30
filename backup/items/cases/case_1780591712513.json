@@ -1,9 +1,9 @@
 {
   "id": "case_1780591712513",
-  "unit": "Others",
+  "unit": "Unit 3 (Respiratory Disorders)",
   "title": "University of Maryland - CS1",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -633,8 +633,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 3 (Respiratory Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Authors: Angela Davis, RN, MS, CM/DN Morgan State University",
   "availability": "all",
-  "updatedAt": "2026-09-29T02:43:58.183Z"
+  "updatedAt": "2026-09-30T11:50:42.417Z"
 }
