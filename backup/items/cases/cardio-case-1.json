@@ -44,12 +44,12 @@
           {
             "id": "hp",
             "title": "History and Physical",
-            "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
           },
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "07:30 - Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -101,12 +101,12 @@
           {
             "id": "hp",
             "title": "History and Physical",
-            "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
           },
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p>07:30 - Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</p>08:00 - Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -125,6 +125,10 @@
                 {
                   "text": "",
                   "correct": true
+                },
+                {
+                  "text": "",
+                  "correct": false
                 },
                 {
                   "text": "",
@@ -164,12 +168,12 @@
           {
             "id": "hp",
             "title": "History and Physical",
-            "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
           },
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p>07:30 - Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</p><p>08:00 - Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</p>08:15 - Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO2 is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO<sub>2</sub> is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg.</span></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -229,12 +233,12 @@
           {
             "id": "hp",
             "title": "History and Physical",
-            "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
           },
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p>07:30 - Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</p><p>08:00 - Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</p><p>08:15 - Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO2 is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg.</p>08:30 - IV furosemide 40mg was administered stat. Foley catheter inserted with 150mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO<sub>2</sub> is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">IV furosemide 40mg was administered stat. Foley catheter inserted with 150 mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received.</span></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -271,17 +275,17 @@
           {
             "id": "hp",
             "title": "History and Physical",
-            "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
           },
           {
             "id": "nn_s5",
             "title": "Nurses' Notes",
-            "content": "<p>07:30 - Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</p><p>08:00 - Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</p><p>08:15 - Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO2 is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg.</p>08:30 - IV furosemide 40mg was administered stat. Foley catheter inserted with 150mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO<sub>2</sub> is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">IV furosemide 40mg was administered stat. Foley catheter inserted with 150 mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received.</span></p>"
           },
           {
-            "id": "labs",
-            "title": "Lab Results",
-            "content": "BNP: 1,250 pg/mL (Elevated)\nTroponin I: 0.02 ng/mL (Normal)\nBUN: 28 mg/dL (Elevated)\nCreatinine: 1.4 mg/dL (Slightly Elevated)\nChest X-Ray: Cardiomegaly with diffuse bilateral alveolar infiltrates consistent with pulmonary edema."
+            "id": "tab_1790765578456",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Time, e.g. 0900\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>0930</th></tr></thead><tbody><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BNP</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1250 pg/mL</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin I</b><br>≤ 45 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.02 ng/L</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea</b><br>2.1–8.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mmol/L</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L; Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124 µmol/L</td></tr></tbody></table><p><br></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -295,53 +299,53 @@
         "limit": 3,
         "options": [
           {
-            "text": "monitor for signs of fluid retention",
+            "text": "Monitor for signs of fluid retention",
             "correct": false
           },
           {
-            "text": "contact the physician if you gain more than 0.5 lbs overnight",
+            "text": "Monitor weight regularly",
+            "correct": false
+          },
+          {
+            "text": "Medications must be taken as prescribed",
+            "correct": false
+          },
+          {
+            "text": "Limit smoking to 1 cigarette a day",
             "correct": true
           },
           {
-            "text": "limit smoking to 1 cigarette a day",
+            "text": "Contact the physician if you gain more than 0.5 lbs overnight",
             "correct": true
           },
           {
-            "text": "increase fluid intake per day",
+            "text": "Consume a low sodium diet",
+            "correct": false
+          },
+          {
+            "text": "Increase fluid intake",
             "correct": true
-          },
-          {
-            "text": "consume a low sodium diet",
-            "correct": false
-          },
-          {
-            "text": "medications must be taken as prescribed",
-            "correct": false
-          },
-          {
-            "text": "monitor weight regularly",
-            "correct": false
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1200.",
-        "explanation": "1. Gaining 0.5 lbs overnight is normal fluctuation; patients are taught to report 2-3 lbs in 24 hours or 5 lbs in a week. 2. Patients must stop smoking entirely, not limit to 1 cigarette. 3. Heart failure patients require fluid restriction, not increased fluids."
+        "explanation": "1. Gaining 0.5 lbs overnight is normal fluctuation;&nbsp; clients are taught to report 2-3 lbs in 24 hours or 5 lbs in a week. 2. Client should stop smoking entirely, not limiting to 1 cigarette per day. 3. Heart failure clients require fluid restriction, not increased fluids."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "hp",
             "title": "History and Physical",
-            "content": "The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
           },
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p>07:30 - Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</p><p>08:00 - Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</p><p>08:15 - Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO2 is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg.</p><p>08:30 - IV furosemide 40mg was administered stat. Foley catheter inserted with 150mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received.</p>12:00 - Client's symptoms have significantly improved following administration of IV loop diuretics. Breathing is comfortable at 18 breaths/min on 2L nasal cannula, SpO2 96%. Plan is to transition to oral medications and discharge home with close outpatient follow-up. Discharging nurse is preparing lifestyle modification education."
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO<sub>2</sub> is 89% on 6L face mask. Heart rate is 108 bpm. Blood pressure is 172/98 mmHg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">IV furosemide 40mg was administered stat. Foley catheter inserted with 150 mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Client's symptoms have significantly improved following administration of IV loop diuretics. Breathing is comfortable at 18 breaths/min on 2L nasal cannula, SpO<sub>2</sub> 96%. Plan is to transition to oral medications and discharge home with close outpatient follow-up. Discharging nurse is preparing lifestyle modification education.</span></p>"
           },
           {
-            "id": "labs_s6",
-            "title": "Lab Results",
-            "content": "BNP: 1,250 pg/mL (Elevated)\nTroponin I: 0.02 ng/mL (Normal)\nBUN: 28 mg/dL (Elevated)\nCreatinine: 1.4 mg/dL (Slightly Elevated)\nChest X-Ray: Cardiomegaly with diffuse bilateral alveolar infiltrates consistent with pulmonary edema."
+            "id": "tab_1790765578456",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Time, e.g. 0900\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>0930</th></tr></thead><tbody><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BNP</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1250 pg/mL</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Troponin I</b><br>≤ 45 ng/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.02 ng/L</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea</b><br>2.1–8.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mmol/L</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L; Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124 µmol/L</td></tr></tbody></table><p><br></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -349,7 +353,7 @@
     }
   ],
   "disorder": "Others",
-  "updatedAt": "2026-09-29T02:25:01.517Z",
+  "updatedAt": "2026-09-30T11:14:31.791Z",
   "description": "",
   "availability": "all"
 }
