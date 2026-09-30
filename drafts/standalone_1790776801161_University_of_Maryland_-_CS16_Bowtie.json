@@ -1,0 +1,117 @@
+{
+  "id": "standalone_1790776801161",
+  "title": "University of Maryland - CS16 Bowtie",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Stand-alone bow-tie for University of Maryland - CS16 (liver failure).",
+  "isStandalone": true,
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse is caring for a 67-year-old male client with a history of alcohol use disorder and cirrhosis admitted to the medical-surgical unit.",
+        "tabs": [
+          {
+            "id": "nn_umd16b",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p>"
+          },
+          {
+            "id": "vs_umd16b",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.9&deg;C (98.4&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142/72</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glasgow Coma Scale (3&ndash;15)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">12</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Abdominal girth</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 cm (37.5 in)</td></tr></tbody></table>"
+          },
+          {
+            "id": "meds_umd16b",
+            "title": "Medications",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs_umd16b",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Ammonia</b><br>6&ndash;47 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">55 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 g/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "bowtie",
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client&rsquo;s progress.",
+        "explanation": "Based on the neurologic status (confusion and agitation) and the elevated ammonia level, the client is experiencing hepatic encephalopathy. Interventions include lactulose to lower the ammonia level and safety precautions to prevent injury until the confusion and agitation subside; the neurologic status and serum ammonia show the response.<br>Furosemide may be ordered, but its purpose is to reduce the ascites. Sedatives are contraindicated in liver failure. Education about alcohol cessation waits until the client is more stable and readiness can be assessed.",
+        "bowtieActions": [
+          {
+            "text": "Administer lactulose",
+            "correct": true
+          },
+          {
+            "text": "Request order for sedative",
+            "correct": false
+          },
+          {
+            "text": "Institute safety precautions",
+            "correct": true
+          },
+          {
+            "text": "Administer IV furosemide",
+            "correct": false
+          },
+          {
+            "text": "Educate client about alcohol cessation",
+            "correct": false
+          }
+        ],
+        "bowtieConditions": [
+          {
+            "text": "Esophageal varices",
+            "correct": false
+          },
+          {
+            "text": "Hepatic encephalopathy",
+            "correct": true
+          },
+          {
+            "text": "Acute cholecystitis",
+            "correct": false
+          },
+          {
+            "text": "Acute alcohol intoxication",
+            "correct": false
+          }
+        ],
+        "bowtieParams": [
+          {
+            "text": "Serum glucose",
+            "correct": false
+          },
+          {
+            "text": "Neurologic status",
+            "correct": true
+          },
+          {
+            "text": "Serum ammonia",
+            "correct": true
+          },
+          {
+            "text": "Serum creatinine",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure",
+            "correct": false
+          }
+        ],
+        "bowtieCol1Header": "Actions to Take",
+        "bowtieCol2Header": "Potential Conditions",
+        "bowtieCol3Header": "Parameters to Monitor",
+        "bowtieLeftPlaceholder": "Action to Take",
+        "bowtieCenterPlaceholder": "Condition Most Likely Experiencing",
+        "bowtieRightPlaceholder": "Parameter to Monitor",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study, stand-alone bow-tie (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

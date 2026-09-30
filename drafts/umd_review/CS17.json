@@ -1,0 +1,27 @@
+{
+  "cs": 17,
+  "topic": "Prostate Cancer with Prostatectomy",
+  "source": "Prostate-Cancer.docx",
+  "items": [
+    {
+      "id": "case_1790776800017",
+      "title": "University of Maryland - CS17",
+      "file": "drafts/case_1790776800017_University_of_Maryland_-_CS17.json"
+    },
+    {
+      "id": "standalone_1790776801171",
+      "title": "University of Maryland - CS17 Bowtie",
+      "file": "drafts/standalone_1790776801171_University_of_Maryland_-_CS17_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Screen 3 has NO answer key in the source. Keyed as hemorrhagic shock + \"cardiovascular assessment\" (the rationale cites low BP, tachycardia, and bleeding). Please confirm the second blank.",
+    "Ketorolac 30 mg IV is given at 1345 to a client who is bleeding after surgery (NSAIDs increase bleeding risk). Not tested; consider replacing it with an opioid or using it as a cue in a rationale.",
+    "Continuous bladder irrigation with catheter traction is standard after TURP, but uncommon after a robotic-assisted RADICAL prostatectomy (which has a urethrovesical anastomosis). Consider changing the procedure to TURP, or removing CBI/traction.",
+    "Screen 6 vital signs in the source show RR 14 at 1345 and 1415, while screens 1-5 show 20; the earlier values (20, 20) are used throughout so the chart does not change.",
+    "Screen 5 is a highlight question (question on the right, the order list as the passage; chart on the left); its key (fluid bolus, oxygen) is from the source's highlighted Key. \"Maintain traction on catheter\" is not selectable (already done by the physician).",
+    "Screen 4 stem typo fixed (\"appropriate or not appropriate\").",
+    "Labs in SI with the author's ranges: Hct 32% → 0.32 L/L; Hgb 10 g/dL → 100 g/L; transfusion threshold Hgb < 7 g/dL → < 70 g/L.",
+    "Screen 1 options were reordered so a correct answer is not listed first."
+  ]
+}

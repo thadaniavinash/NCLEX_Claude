@@ -1,0 +1,401 @@
+{
+  "id": "case_1790776800017",
+  "title": "University of Maryland - CS17",
+  "course": "Others",
+  "unit": "Others",
+  "topic": "Others",
+  "disorder": "Others",
+  "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Prostate cancer with prostatectomy: a 55-year-old client develops hemorrhagic shock after a robotic-assisted laparoscopic prostatectomy; recognition, actions, and evaluation.",
+  "availability": "all",
+  "draft": true,
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "A 55-year-old client is admitted to the surgical unit after a robotic-assisted laparoscopic radical prostatectomy for early-stage prostate cancer.",
+        "tabs": [
+          {
+            "id": "nn_umd17",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+          },
+          {
+            "id": "vs_umd17",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1315</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1345</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95/53</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "stem": "Which findings require <b>immediate</b> follow-up? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Temperature",
+            "correct": false
+          },
+          {
+            "text": "Mental status",
+            "correct": true
+          },
+          {
+            "text": "Heart rate",
+            "correct": true
+          },
+          {
+            "text": "Blood pressure",
+            "correct": true
+          },
+          {
+            "text": "Respiratory rate",
+            "correct": false
+          },
+          {
+            "text": "Pain",
+            "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading",
+            "correct": true
+          },
+          {
+            "text": "Urine",
+            "correct": true
+          }
+        ],
+        "explanation": "The trends in the heart rate, blood pressure, and pulse oximetry reading are consistent with hypovolemia, and the confusion may be a symptom of poor cerebral perfusion. The urine was only slightly red but is now bright red again, suggesting the bleeding is getting worse.<br>The temperature and respiratory rate are stable, and the pain has decreased.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "A 55-year-old client is admitted to the surgical unit after a robotic-assisted laparoscopic radical prostatectomy for early-stage prostate cancer.",
+        "tabs": [
+          {
+            "id": "nn_umd17",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+          },
+          {
+            "id": "vs_umd17",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1315</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1345</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95/53</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "stem": "For each finding, click to specify if the finding is consistent with the complication of hemorrhagic shock, fluid overload, or pulmonary embolism. Each finding may support more than one complication.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Hemorrhagic Shock",
+            "Fluid Overload",
+            "Pulmonary Embolism"
+          ],
+          "rows": [
+            {
+              "text": "Confusion",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Rapid heart rate",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Low blood pressure",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Low pulse oximetry reading",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Bright red urine",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "All three postoperative complications can cause low oxygenation. Hemorrhagic shock and pulmonary embolism both manifest as mental status changes, tachycardia, and hypotension.<br>The bright red urine indicates active bleeding and is associated with hemorrhagic shock.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "A 55-year-old client is admitted to the surgical unit after a robotic-assisted laparoscopic radical prostatectomy for early-stage prostate cancer.",
+        "tabs": [
+          {
+            "id": "nn_umd17",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+          },
+          {
+            "id": "vs_umd17",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1315</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1345</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95/53</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "cloze": {
+          "text": "The client is most likely experiencing [[drop0]], as evidenced by the [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "fluid overload",
+                  "correct": false
+                },
+                {
+                  "text": "hemorrhagic shock",
+                  "correct": true
+                },
+                {
+                  "text": "pulmonary embolism",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "cardiovascular assessment",
+                  "correct": true
+                },
+                {
+                  "text": "respiratory assessment",
+                  "correct": false
+                },
+                {
+                  "text": "neurologic assessment",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The client is experiencing hemorrhagic shock, as most evidenced by the cardiovascular assessment: low blood pressure and tachycardia, with active bleeding in the urine.",
+        "preamble": "",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "A 55-year-old client is admitted to the surgical unit after a robotic-assisted laparoscopic radical prostatectomy for early-stage prostate cancer.",
+        "tabs": [
+          {
+            "id": "nn_umd17",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
+          },
+          {
+            "id": "vs_umd17",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1315</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1345</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95/53</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1420. The nurse suspects the client is experiencing hemorrhagic shock and notifies the provider.",
+        "stem": "For each potential intervention, click to specify whether the intervention is appropriate or not appropriate to include in the plan of care for a client experiencing hemorrhagic shock after prostatectomy.",
+        "matrix": {
+          "firstColumnHeader": "Potential Intervention",
+          "columns": [
+            "Appropriate",
+            "Not Appropriate"
+          ],
+          "rows": [
+            {
+              "text": "Obtaining a hemoglobin and hematocrit",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Removing the urinary catheter",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administering a fluid bolus",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Obtaining a urine culture",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administering an enema",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Assessing urine output hourly",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Applying oxygen",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "The nurse restores perfusion by applying oxygen and giving a fluid bolus. Hemoglobin and hematocrit levels show whether blood is needed. Urine output is monitored closely to ensure the catheter is patent and renal perfusion is adequate.<br>The catheter stays in place; the provider may apply traction to put pressure on bleeding sites. A urine culture is unlikely to help, because infection is not suspected and the urine is bloody. Enemas are contraindicated because they may injure the prostatic fossa.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "A 55-year-old client is admitted to the surgical unit after a robotic-assisted laparoscopic radical prostatectomy for early-stage prostate cancer.",
+        "tabs": [
+          {
+            "id": "nn_umd17",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
+          },
+          {
+            "id": "vs_umd17",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1315</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1345</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95/53</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight_2",
+        "preamble": "The physician assesses the client, applies traction to the catheter, and writes orders.",
+        "stem": "Click to highlight <b>2</b> additional orders the nurse should implement <b>immediately</b> to manage hemorrhagic shock.",
+        "maxCorrectSelections": 2,
+        "highlightTabs": [
+          {
+            "id": "ht_umd17",
+            "title": "Orders",
+            "content": "<p>Maintain traction on catheter</p><p>{Continuous bladder irrigation: titrate to keep urine pink to clear}</p><p>{Administer 500 mL 0.9% sodium chloride IV bolus|correct}</p><p>{Administer oxygen to keep oxygen saturation above 94%|correct}</p><p>{Obtain blood for hemoglobin and hematocrit}</p><p>{Notify primary care provider promptly with laboratory results}</p><p>{Administer blood component if hemoglobin is below 70 g/L}</p>"
+          }
+        ],
+        "explanation": "The nurse immediately gives the IV fluid bolus to treat the hypovolemia and applies oxygen to improve oxygenation and perfusion.<br>The other orders (irrigation titration, blood work, reporting results, and a possible transfusion) follow.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "A 55-year-old client is admitted to the surgical unit after a robotic-assisted laparoscopic radical prostatectomy for early-stage prostate cancer.",
+        "tabs": [
+          {
+            "id": "nn_umd17",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Provider retaped catheter to client&rsquo;s leg. Oxygen and fluid bolus given. Urine light pink.</span></p>"
+          },
+          {
+            "id": "vs_umd17",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1315</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1345</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1415</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1445</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.4&deg;C (99.4&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.3&deg;C (99.2&deg;F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7&deg;C (98.2&deg;F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">102</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">145/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130/73</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/70</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95/53</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">110/55</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on 2 L/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2/10</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord_umd17",
+            "title": "Orders",
+            "content": "<p>Maintain traction on catheter</p><p>Continuous bladder irrigation: titrate to keep urine pink to clear</p><p>Administer 500 mL 0.9% sodium chloride IV bolus</p><p>Administer oxygen to keep oxygen saturation above 94%</p><p>Obtain blood for hemoglobin and hematocrit</p><p>Notify primary care provider promptly with laboratory results</p><p>Administer blood component if hemoglobin is below 70 g/L</p>"
+          },
+          {
+            "id": "labs_umd17",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1445</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.32 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 g/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dyad",
+        "preamble": "The nurse has reviewed the Nurses&rsquo; Notes and Vital Signs from 1445, the Orders, and the Laboratory Results. At 1445, the nurse reassesses the client&rsquo;s vital signs and reviews the laboratory results.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "The nurse determines the client&rsquo;s status is [[drop0]]. The nurse should now [[drop1]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "improving",
+                  "correct": true
+                },
+                {
+                  "text": "deteriorating",
+                  "correct": false
+                },
+                {
+                  "text": "unchanged",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "modify the plan of care",
+                  "correct": false
+                },
+                {
+                  "text": "continue monitoring the client’s vital signs",
+                  "correct": true
+                },
+                {
+                  "text": "prepare the client for discharge",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "The client&rsquo;s vital signs are improving, and the nurse should continue monitoring them. The current plan of care is meeting the outcome, so it does not need to be modified.<br>It is too soon to prepare for discharge: discharge planning begins at admission, but the client&rsquo;s condition deteriorated and needs to be monitored for longer.",
+        "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units."
+      }
+    }
+  ]
+}

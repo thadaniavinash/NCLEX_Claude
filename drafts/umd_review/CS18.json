@@ -1,0 +1,27 @@
+{
+  "cs": 18,
+  "topic": "Care of Client Post-Op Spine Surgery (Laminectomy)",
+  "source": "Spine-Surgery.docx",
+  "items": [
+    {
+      "id": "case_1790776800018",
+      "title": "University of Maryland - CS18",
+      "file": "drafts/case_1790776800018_University_of_Maryland_-_CS18.json"
+    },
+    {
+      "id": "standalone_1790776801181",
+      "title": "University of Maryland - CS18 Bowtie",
+      "file": "drafts/standalone_1790776801181_University_of_Maryland_-_CS18_Bowtie.json"
+    }
+  ],
+  "notes": [
+    "Nurses' notes: pupils were recorded as \"3 cm\"; changed to 3 mm.",
+    "Screen 1 listed \"Urinary retention\" twice; it appears once.",
+    "Bow-tie: a surgical site infection on postoperative day 1-2 is early (SSIs usually appear after day 3-5; early fever is more often atelectasis or inflammation). Consider moving the bow-tie to day 4-5. The source's 10-mg oxycodone line was missing its dose on the bow-tie; filled in as 10 mg.",
+    "Discharge teaching mixes \"stool softener\" (screen 5-6) with the senna order (a stimulant laxative). Consider docusate, or calling senna a laxative.",
+    "Screen 5 key: \"Check the surgical dressing in the mirror daily\" is correct; consider whether a family member should check it (hard to see a lumbar incision in a mirror).",
+    "\"Steri-strips\" (a brand name) now read \"adhesive strips\".",
+    "Labs in SI with the author's ranges: glucose 130 mg/dL → 7.2 mmol/L; Hct 0.30 L/L; Hgb 110 g/L; WBC 10.0 × 10⁹/L (bow-tie 17.0); platelets 200 × 10⁹/L; HbA1c 6.0% (< 5.7%, US range; see CS2 note).",
+    "Screen 5 options were reordered so a correct answer is not listed first."
+  ]
+}
