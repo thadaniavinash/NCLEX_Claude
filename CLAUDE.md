@@ -104,6 +104,12 @@ Both sessions push to `main`, so pull (rebase) before pushing.
    acknowledgment in each screen's `question.footnote`; they were added to the database with `draft: true`
    (hidden from students) at the user's request to put them in the app, and the user publishes them with
    "Show to students" after review.
+   All 21 medical-surgical files are converted (CS1 Asthma is in NURS 1021 Unit 3; CS2–CS21 are in Others with
+   their stand-alone trends/bow-ties, IDs `case_17907768000NN` / `standalone_1790776801NN1`, except CS2
+   `case_1790769567553` and CS2 Trend `standalone_1790776800001`). Shared helpers: `drafts/umd_common.py`
+   (SI labs with the author's ranges converted, plain-text option labels, correct answer never first).
+   Each generator's review notes go to `drafts/umd_review/CS<nn>.json`; `node drafts/build_umd_review_pdf.js`
+   writes the user's to-do list with an answer key per item (`drafts/UMD_Case_Studies_Review_Tasks.pdf`).
 3. **Publish** only after the user approves: trigger the Supabase workflow with `action: add`,
    `file: drafts/<file>.json` (needs the `SUPABASE_SECRET_KEY` secret once the admin lock-down SQL has run),
    check the job log, then trigger `action: download` so the workflow commits the refreshed

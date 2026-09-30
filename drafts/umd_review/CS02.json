@@ -1,0 +1,23 @@
+{
+  "cs": 2,
+  "topic": "Tuberculosis",
+  "source": "Tuberculosis.docx",
+  "items": [
+    {
+      "id": "case_1790769567553",
+      "title": "University of Maryland - CS2",
+      "file": "drafts/case_1790769567553_University_of_Maryland_-_CS2.json"
+    },
+    {
+      "id": "standalone_1790776800001",
+      "title": "University of Maryland - CS2 Trend",
+      "file": "drafts/standalone_1790776800001_University_of_Maryland_-_CS2_Trend.json"
+    }
+  ],
+  "notes": [
+    "Isoniazid order: the source lists 1000 mg PO daily, above the 300 mg maximum daily dose; shown as 300 mg PO daily (the dose used in the 4-month rifapentine-moxifloxacin regimen). Please confirm the regimen and dose.",
+    "Laboratory values shown in SI units with the author's reference ranges converted (not replaced), so every question keys as written.",
+    "CS2 Trend: the source's trend is a grid (improved / declined / unchanged), so it is a matrix question. Its rationale said the pulse oximetry reading \"has increased\", but it is 95% on room air at both visits and is keyed Unchanged; the rationale now says unchanged.",
+    "Quoted client statements were fixed in the database (they showed &ldquo; codes); check they read correctly."
+  ]
+}

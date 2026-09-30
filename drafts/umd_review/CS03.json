@@ -1,0 +1,22 @@
+{
+  "cs": 3,
+  "topic": "Acute Respiratory Failure",
+  "source": "Acute-Respiratory-Distress.docx",
+  "items": [
+    {
+      "id": "case_1790776800002",
+      "title": "University of Maryland - CS3",
+      "file": "drafts/case_1790776800002_University_of_Maryland_-_CS3.json"
+    }
+  ],
+  "notes": [
+    "Amoxicillin IVPB is prescribed: there is no IV amoxicillin in Canada/US, and it is a narrow choice for gram-negative bacteremia. Consider another antibiotic (e.g. piperacillin-tazobactam or ceftriaxone).",
+    "Blood culture reads \"gram-negative cocci\" (unusual; gram-negative rods are more typical). Please confirm.",
+    "0900 blood gas: SaO2 96% with PaO2 75 mm Hg is inconsistent. Please review.",
+    "Lactate 4.5 mmol/L is an urgent (sepsis) finding but is not keyed on screen 1. Consider adding it to the key or changing the value.",
+    "PEEP 5 \"mmHg\" changed to 5 cm H2O. Screen 1 option \"PCO2 50 mm Hg\" changed to 51 mm Hg (the value in the chart).",
+    "Screen 5 answer key taken from the source's highlighted Key table (IV 0.9% sodium chloride, midazolam, chest X-ray).",
+    "The source's stand-alone trend is the same question as screen 6, so it was not added separately.",
+    "Laboratory values in SI units (magnesium 1.5 mEq/L -> 0.75 mmol/L; cell counts × 10⁹/L); blood gases stay in mm Hg."
+  ]
+}
