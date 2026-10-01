@@ -136,7 +136,7 @@ function toggleExpandedEditor(container, force) {
    The toolbars are written in several places (index.html, js/highlight-editor.js); enhanceToolbar
    adds the same extra buttons to each, including toolbars created later (see initRichTextExtras). */
 
-const CLINICAL_SYMBOLS = ['°', '°C', '°F', '±', '×', '÷', '≈', '≠', '<', '>', '≤', '≥', '↑', '↓', '→', '←',
+const CLINICAL_SYMBOLS = ['°', '° C', '° F', '±', '×', '÷', '≈', '≠', '<', '>', '≤', '≥', '↑', '↓', '→', '←',
   'µ', '²', '³', '½', '¼', '¾', '%', '♀', '♂', '✓', '•', '–', '—'];
 
 function toolbarButton(html, attrs) {

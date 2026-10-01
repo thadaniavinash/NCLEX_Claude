@@ -3,8 +3,8 @@
    Any chart tab without a table or list (Nurses' Notes, History and Physical, reports, orders, vital
    signs or results written as text) is edited as a list of entries, each with a time or date label
    ("0800", "0800 (DOL 2)", "Day 3 0800", "09/14 0800"), an optional title shown in bold on its own
-   line above the time and note, and the note text. Tab moves from the label to the text, Enter starts
-   the next entry. The entries are stored as the <p class="nurse-note-row"> markup the player already
+   line above the time and note, and the note text. Tab moves from the label to the text; in the note, Enter starts a new
+   paragraph and Ctrl+Enter the next entry. The entries are stored as the <p class="nurse-note-row"> markup the player already
    shows, each title as a bold paragraph "<p><b>Title</b></p>" just before its entry (the form older
    cases already use, e.g. "Emergency Department" above the first note), so no content changes.
    Tabs holding tables or lists, and any tab the author prefers, use the free-text editor; there T+
@@ -128,7 +128,7 @@ function notesEditorOpen(tab, preferredMode) {
     rowsBtn.disabled = !rows;
     rowsBtn.title = rows ? 'One entry per time or date' : 'This tab has a table or list; edit it as free text';
     bar.querySelector('.notes-mode-hint').textContent = mode === 'rows'
-      ? 'Tab moves to the note, Enter adds the next entry, Shift+Enter starts a new line in a note. T+ in the toolbar adds a bold title above the current entry.'
+      ? 'Tab moves to the note. In a note, Enter starts a new paragraph and Shift+Enter a new line; Ctrl+Enter (or + Add entry) adds the next entry. T+ in the toolbar adds a bold title above the current entry.'
       : (rows ? 'Start a line with a time and press Tab (or type "0800:") to make it a timed entry.'
               : 'This tab contains a table or list, so it is edited as free text. T+ in the toolbar adds a bold title above the table or paragraph with the cursor.');
   }
@@ -212,7 +212,12 @@ function renderNoteRows(focusIndex, focusField) {
       if (e.key === 'Enter' && e.shiftKey) {
         e.preventDefault();
         richCommand('insertLineBreak');
-      } else if (e.key === 'Enter') {
+      } else if (e.key === 'Enter' && !(e.ctrlKey || e.metaKey)) {
+        // A new paragraph in the same note (a blank line between paragraphs, as the player shows them).
+        e.preventDefault();
+        richCommand('insertLineBreak');
+        richCommand('insertLineBreak');
+      } else if (e.key === 'Enter') { // Ctrl+Enter: the next entry
         e.preventDefault();
         row.html = text.innerHTML;
         state.rows.splice(i + 1, 0, noteRow('', ''));

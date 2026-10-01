@@ -676,6 +676,19 @@ function renderEditorTabs(tabs) {
     tabEl.className = `tab-editor-item ${t.id === activeTabId ? 'active' : ''}`;
     tabEl.setAttribute('data-id', t.id);
     tabEl.innerHTML = `<span>${escapeHTML(t.title)}</span>`;
+    // The active tab can be moved left or right (on the screen where it first appears).
+    if (t.id === activeTabId && tabs.length > 1) {
+      const i = tabs.indexOf(t);
+      const first = currentCase.isStandalone ? currentStepIndex : chartTabFirstScreen(currentCase, currentStepIndex, t);
+      const fixed = first < currentStepIndex; // moved only on the screen where it first appears
+      const tip = side => (fixed ? `This tab first appears on screen ${first + 1}; move it there` : `Move this tab ${side}`);
+      tabEl.insertAdjacentHTML('afterbegin', `<button type="button" class="tab-move-btn" data-move="-1" title="${tip('left')}" aria-label="Move tab left"${fixed || i === 0 ? ' disabled' : ''}>&#8249;</button>`);
+      tabEl.insertAdjacentHTML('beforeend', `<button type="button" class="tab-move-btn" data-move="1" title="${tip('right')}" aria-label="Move tab right"${fixed || i === tabs.length - 1 ? ' disabled' : ''}>&#8250;</button>`);
+      tabEl.querySelectorAll('.tab-move-btn').forEach(b => b.addEventListener('click', e => {
+        e.stopPropagation();
+        moveActiveTab(+b.dataset.move);
+      }));
+    }
     
     tabEl.addEventListener('click', () => {
       saveActiveTabContent();
@@ -773,6 +786,29 @@ function resetDeleteTabButton() {
 }
 
 // In-page message above the chart tabs (replaces alert()).
+// Moves the active tab one place left or right. Allowed on the screen where the tab first appears;
+// later screens get the same order for the tabs they share with this screen (their own newer tabs
+// keep their places).
+function moveActiveTab(dir) {
+  const tabs = currentCase.screens[currentStepIndex].leftContent.tabs;
+  const i = tabs.findIndex(t => t.id === activeTabId);
+  const j = i + dir;
+  if (i < 0 || j < 0 || j >= tabs.length) return;
+  const tab = tabs[i];
+  const first = currentCase.isStandalone ? currentStepIndex : chartTabFirstScreen(currentCase, currentStepIndex, tab);
+  if (first < currentStepIndex) {
+    showChartNotice(`"${tab.title}" first appears on screen ${first + 1}. Move it there; later screens follow that order.`, 'warn');
+    return;
+  }
+  saveActiveTabContent();
+  tabs.splice(i, 1);
+  tabs.splice(j, 0, tab);
+  const later = currentCase.isStandalone ? 0 : applyTabOrderToLaterScreens(currentCase, currentStepIndex);
+  renderEditorTabs(tabs);
+  setEditorDirty(true);
+  if (later) showChartNotice(`Tab order updated here and on ${later} later screen${later === 1 ? '' : 's'}.`, 'info');
+}
+
 function showChartNotice(text, level = 'info') {
   const box = document.getElementById('chart-notice');
   if (!box) return;

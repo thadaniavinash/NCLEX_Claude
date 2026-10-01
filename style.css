@@ -2403,6 +2403,21 @@ html:not([data-theme="dark"]) #editor-view .tab-editor-item {
   color: #475569;
 }
 
+/* Move the active chart tab left / right (moveActiveTab) */
+.tab-move-btn {
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: var(--fs-md, 16px);
+  line-height: 1;
+  padding: 0 4px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  opacity: 0.7;
+}
+.tab-move-btn:hover:not(:disabled), .tab-move-btn:focus-visible { opacity: 1; background: var(--surface-selected); }
+.tab-move-btn:disabled { opacity: 0.25; cursor: default; }
+
 html:not([data-theme="dark"]) #editor-view .tab-editor-item.active {
   background-color: #ffffff;
   border-bottom-color: transparent;

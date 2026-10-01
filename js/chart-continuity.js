@@ -195,6 +195,22 @@ function chartTabFirstScreen(item, stepIdx, tab) {
   return first;
 }
 
+// After tabs are reordered on screen `stepIdx`, each later screen puts the tabs it shares with that
+// screen in the same order (in the places those tabs already hold); its other tabs do not move.
+// Returns the number of later screens whose order changed.
+function applyTabOrderToLaterScreens(item, stepIdx) {
+  const order = item.screens[stepIdx].leftContent.tabs.map(t => t.id);
+  let changed = 0;
+  for (let s = stepIdx + 1; s < item.screens.length; s++) {
+    const tabs = item.screens[s].leftContent.tabs || [];
+    const shared = order.map(id => tabs.find(t => t.id === id)).filter(Boolean);
+    let k = 0;
+    const next = tabs.map(t => (order.includes(t.id) ? shared[k++] : t));
+    if (next.some((t, n) => t !== tabs[n])) { tabs.splice(0, tabs.length, ...next); changed++; }
+  }
+  return changed;
+}
+
 // Deletes a tab from screen `stepIdx` and all later screens. Only allowed on the screen where the
 // tab first appears; returns the number of screens changed.
 function removeTabFromScreens(item, stepIdx, tab) {
