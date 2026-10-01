@@ -12,6 +12,8 @@
    respiratory rows, "/min" in respiratory rows becomes "breaths/min", and "mmHg" becomes "mm Hg".
    Anything else in a cell (words, ranges with other text, "on room air") is kept as it is.
 
+3. Units in running text anywhere (added at the user's request, 1 Oct 2026): see fix_text_units.
+
 Only the text changes; markup and styles are kept, and every screen gets the same change, so the chart
 carry-forward rule still holds. Apply with the Supabase workflow's `patch` action.
 
@@ -85,7 +87,8 @@ def fix_value(kind, h):
     if kind == "p":
         if re.fullmatch(r"\d{2,3}", t):
             return append_after_last_number(h, " beats/min")
-        return re.sub(r"\bbpm\b", "beats/min", h)
+        h = re.sub(r"\bbpm\b", "beats/min", h)
+        return re.sub(r"(\d)\s*/\s*min\b", r"\1 beats/min", h)
     if kind == "rr":
         if re.fullmatch(r"\d{1,3}", t):
             return append_after_last_number(h, " breaths/min")
@@ -132,6 +135,56 @@ def fix_vitals_tables(html, changes):
     return TABLE.sub(fix_table, html)
 
 
+# ---- 3. Units in running text (notes, rationales, stems, options, passages, any cell) ----
+# "mmHg" -> "mm Hg"; "88 bpm" -> "88 beats/min" (or "breaths/min" after a respiratory label);
+# "122/min" -> beats/min or breaths/min when a label just before says which; a labelled vital sign
+# with no unit gets one: "P 128" / "HR 72" / "pulse 88" / "heart rate of 104" -> beats/min,
+# "RR 30" / "respiratory rate of 24" / "respirations 18" -> breaths/min, "BP 88/60" / "blood pressure
+# 154/96" -> mm Hg (ranges such as "HR 100–120" get the unit after the range). "P" alone counts only
+# in a list of vital signs (RR or BP within the same stretch of text).
+SEP = r"(?:\s+(?:of|is|was|at|to|from|now|remains|increased to|decreased to)\s+|\s*:\s*|\s+)"
+RANGE = r"(?:\s*(?:–|-|to)\s*\d{2,3})?"
+P_LABEL = r"\b(?:HR|[Pp]ulse(?: rate)?|[Hh]eart rate|[Aa]pical pulse|[Rr]adial pulse)"
+RR_LABEL = r"\b(?:RR|[Rr]espiratory rate|[Rr]espirations|[Rr]esp(?:iratory)? rate)"
+BP_LABEL = r"\b(?:BP|B/P|[Bb]lood pressure)"
+NO_UNIT = r"(?!\s*(?:beats|breaths|[Bb][Pp][Mm]|/|%|mm|\.\d|[–-]\s*\d|\d|s\b|x\b|×|times|°))"
+BRACE_END = r"(?=[\s,;.)|}<]|$)"
+
+
+def _ctx(s, start):
+    return re.sub(r"<[^>]+>", " ", s[max(0, start - 40):start]).lower()
+
+
+def fix_text_units(s):
+    s = re.sub(r"\bmmHg\b", "mm Hg", s)
+    s = re.sub(r"\bmm hg\b", "mm Hg", s)
+
+    def bpm(m):
+        resp = re.search(r"\b(rr|resp|respirations|respiratory)\b[^,;.]*$", _ctx(s, m.start()))
+        return m.group(1) + (" breaths/min" if resp else " beats/min")
+    s = re.sub(r"(\d)\s*bpm\b", bpm, s, flags=re.I)
+
+    def per_min(m):
+        c = _ctx(s, m.start())
+        if re.search(r"\b(rr|resp|respirations|respiratory)\b[^,;.]*$", c):
+            return m.group(1) + " breaths/min"
+        if re.search(r"\b(hr|pulse|heart rate|apical)\b[^,;.]*$", c):
+            return m.group(1) + " beats/min"
+        return m.group(0)
+    s = re.sub(r"(\d{2,3})\s*/\s*min\b", per_min, s)
+
+    s = re.sub("(" + P_LABEL + SEP + r"\d{2,3}" + RANGE + r")\b" + NO_UNIT + BRACE_END, r"\1 beats/min", s)
+    s = re.sub("(" + RR_LABEL + SEP + r"\d{1,2}" + RANGE + r")\b" + NO_UNIT + BRACE_END, r"\1 breaths/min", s)
+    s = re.sub("(" + BP_LABEL + SEP + r"\d{2,3}/\d{2,3})\b(?!\s*(?:mm|/))" + BRACE_END, r"\1 mm Hg", s)
+
+    # "P 92" only inside a list of vital signs (RR or BP nearby).
+    def p_alone(m):
+        around = re.sub(r"<[^>]+>", " ", s[max(0, m.start() - 60):m.end() + 60])
+        return m.group(1) + " beats/min" if re.search(r"\b(RR|BP)\b", around) else m.group(0)
+    s = re.sub(r"(\bP\s*:?\s+\d{2,3})\b" + NO_UNIT + BRACE_END, p_alone, s)
+    return s
+
+
 def walk(o, path=()):
     if isinstance(o, str):
         yield path, o
@@ -164,6 +217,8 @@ def main():
                     temps[re.sub(r"\d+(\.\d+)?", "N", m.group(0))] += 1
                 if path[-1] == "content" and "tabs" in path:
                     new = fix_vitals_tables(new, changes)
+                parts = re.split(r'(src="data:[^"]*")', new)
+                new = "".join(p if p.startswith('src="data:') else fix_text_units(p) for p in parts)
                 if new != s:
                     entries.append({"row": row, "id": item["id"], "path": list(path), "before": s, "after": new})
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "vitals_units_patch.json")
