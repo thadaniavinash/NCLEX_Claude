@@ -309,6 +309,10 @@ Done (authoring, September 2026):
   "142/88 mm Hg", SpO2 "94%". Recognized by the row label (or column header): T/Temp, P/HR/Pulse, RR/Resp,
   BP, SpO2/Pulse oximetry. Only a cell holding just the number changes; Ctrl+Z undoes it
   (`VITAL_UNITS`, `addVitalUnit`, `showVitalUnitHint` in `js/table-tools.js`; existing tables untouched).
+  The whole bank was brought to the same format (1 Oct 2026, `drafts/build_vitals_units.py` →
+  `drafts/vitals_units_patch.json`, workflow `patch`): every temperature in any field is written "38.2° C" /
+  "101.2° F" (NCLEX style), and vital-sign rows of chart tables carry beats/min, breaths/min, mm Hg and %
+  ("bpm" and "mmHg" replaced). Write new content in that format.
   **No markers for new entries (user decision): on the NCLEX nothing new is highlighted; the nurse reads
   the whole chart.**
 - More room for chart text: narrower screen list (152px); a drag handle between the chart and question
