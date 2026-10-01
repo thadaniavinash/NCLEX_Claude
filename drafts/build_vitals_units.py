@@ -15,7 +15,7 @@
 Only the text changes; markup and styles are kept, and every screen gets the same change, so the chart
 carry-forward rule still holds. Apply with the Supabase workflow's `patch` action.
 
-Usage: python3 drafts/build_vitals_units.py [--summary]
+Usage: python3 drafts/build_vitals_units.py [--summary] [--skip <item id> ...]  (skip items being edited in the studio)
 """
 import collections
 import json
@@ -149,8 +149,11 @@ SKIP_KEYS = {"id", "questionImage", "image", "imageUrl", "src"}
 def main():
     cases, standalone = bank.load()
     entries, changes, temps = [], collections.defaultdict(list), collections.Counter()
+    skip = {a for i, a in enumerate(sys.argv) if i and sys.argv[i - 1] == "--skip"}
     for row, items in (("cases", cases), ("standalone", standalone)):
         for item in items:
+            if item["id"] in skip:
+                continue
             for path, s in walk(item.get("screens", []), ("screens",)):
                 if not s or s.startswith("data:") or any(k in SKIP_KEYS for k in path if isinstance(k, str)):
                     continue
