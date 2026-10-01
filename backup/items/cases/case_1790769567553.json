@@ -504,7 +504,7 @@
           {
             "id": "progress_1790769567553",
             "title": "Progress Notes",
-            "content": "<p>Client returns for a follow-up appointment 4 weeks after being diagnosed with a tuberculosis infection. Reports missing several doses of medication. Continues to have a productive cough and is tired most days. Lung sounds clear with few scattered crackles. Rates pain with the cough at 3/10. VS: T 98.8&deg;F (37.1&deg;C), P 80, RR 22, BP 144/88, pulse oximetry reading 95% on room air. Repeat WBC 9.0 &times; 10<sup>9</sup>/L. Chest X-ray shows mild pleural effusion in the right base.</p>"
+            "content": "<p>Client returns for a follow-up appointment 4 weeks after being diagnosed with a tuberculosis infection. Reports missing several doses of medication. Continues to have a productive cough and is tired most days. Lung sounds clear with few scattered crackles. Rates pain with the cough at 3/10. VS: T 98.8° F (37.1° C), P 80, RR 22, BP 144/88, pulse oximetry reading 95% on room air. Repeat WBC 9.0 &times; 10<sup>9</sup>/L. Chest X-ray shows mild pleural effusion in the right base.</p>"
           },
           {
             "id": "tab_1790891389748",
@@ -519,5 +519,5 @@
   "disorder": "Others",
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Tuberculosis (medical-surgical): contact tracing, diagnosis, infection control, medication teaching, and 4-week follow-up.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:49:25.292Z"
+  "updatedAt": "2026-10-01T22:53:04.531Z"
 }
