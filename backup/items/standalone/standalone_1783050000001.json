@@ -47,10 +47,11 @@
           {
             "id": "tab_u5_1_labs",
             "title": "Emergent Labs & Vitals",
-            "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Result</th><th>Reference Range</th></tr></thead><tbody><tr><td>Blood Pressure</td><td><strong>86/52 mmHg</strong></td><td>100–120 / 60–80 mmHg</td></tr><tr><td>Heart Rate</td><td><strong>132 beats/min</strong></td><td>60–100 beats/min</td></tr><tr><td>Hematocrit</td><td><strong>56%</strong></td><td>38–48%</td></tr><tr><td>Serum Potassium</td><td><strong>5.9 mEq/L</strong></td><td>3.5–5.0 mEq/L</td></tr><tr><td>Serum Sodium</td><td>131 mEq/L</td><td>135–145 mEq/L</td></tr><tr><td>Arterial Lactate</td><td><strong>4.2 mmol/L</strong></td><td>0.5–2.2 mmol/L</td></tr></tbody></table>"
+            "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Result</th><th>Reference Range</th></tr></thead><tbody><tr><td>Blood Pressure</td><td><strong>86/52 mm Hg</strong></td><td>100–120 / 60–80 mm Hg</td></tr><tr><td>Heart Rate</td><td><strong>132 beats/min</strong></td><td>60–100 beats/min</td></tr><tr><td>Hematocrit</td><td><strong>56%</strong></td><td>38–48%</td></tr><tr><td>Serum Potassium</td><td><strong>5.9 mEq/L</strong></td><td>3.5–5.0 mEq/L</td></tr><tr><td>Serum Sodium</td><td>131 mEq/L</td><td>135–145 mEq/L</td></tr><tr><td>Arterial Lactate</td><td><strong>4.2 mmol/L</strong></td><td>0.5–2.2 mmol/L</td></tr></tbody></table>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

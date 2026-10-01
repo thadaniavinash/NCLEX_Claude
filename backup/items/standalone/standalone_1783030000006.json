@@ -29,10 +29,11 @@
           {
             "id": "tab_u3_6_labs",
             "title": "Admission Assessment",
-            "content": "<p><strong>Vitals:</strong> T 38.6 °C, P 112, RR 24, BP 114/72, SpO2 91% on room air.<br><strong>Pain Score:</strong> 9/10 excruciating deep bone pain.<br><strong>CBC:</strong> Hemoglobin 6.8 g/dL (baseline 8.5), Hematocrit 21%, Reticulocyte count 14%, Total Bilirubin 3.8 mg/dL.</p>"
+            "content": "<p><strong>Vitals:</strong> T 38.6° C, P 112, RR 24, BP 114/72, SpO2 91% on room air.<br><strong>Pain Score:</strong> 9/10 excruciating deep bone pain.<br><strong>CBC:</strong> Hemoglobin 6.8 g/dL (baseline 8.5), Hematocrit 21%, Reticulocyte count 14%, Total Bilirubin 3.8 mg/dL.</p>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

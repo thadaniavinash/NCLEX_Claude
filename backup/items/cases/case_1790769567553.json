@@ -51,7 +51,7 @@
           {
             "id": "nn_1790769567553",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100°F (37.8°C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.</span></p>"
           },
           {
             "id": "meds_1790769567553",
@@ -61,7 +61,7 @@
           {
             "id": "tab_1790891389748",
             "title": "Vital Signs",
-            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Outpatient clinic, 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">120/76 mm Hg (sitting); 118/72 mm Hg (standing)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% (room air)</td></tr></tbody></table><p><br></p>"
+            "content": "<p><br></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Outpatient clinic, 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">120/76 mm Hg (sitting); 118/72 mm Hg (standing)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% (room air)</td></tr></tbody></table>"
           }
         ],
         "intro": "A 48-year-old female client presents to the outpatient clinic in response to contact tracing for possible tuberculosis exposure."
@@ -146,7 +146,7 @@
           {
             "id": "nn_1790769567553",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.</span></p>"
           },
           {
             "id": "meds_1790769567553",
@@ -206,7 +206,7 @@
           {
             "id": "nn_1790769567553",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
           },
           {
             "id": "meds_1790769567553",
@@ -306,7 +306,7 @@
           {
             "id": "nn_1790769567553",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
           },
           {
             "id": "meds_1790769567553",
@@ -405,7 +405,7 @@
           {
             "id": "nn_1790769567553",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
           },
           {
             "id": "meds_1790769567553",
@@ -484,7 +484,7 @@
           {
             "id": "nn_1790769567553",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.<br>VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100&deg;F (37.8&deg;C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Chest X-ray and bloodwork done.</span></p>"
           },
           {
             "id": "meds_1790769567553",
@@ -519,5 +519,5 @@
   "disorder": "Others",
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Tuberculosis (medical-surgical): contact tracing, diagnosis, infection control, medication teaching, and 4-week follow-up.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:32:25.784Z"
+  "updatedAt": "2026-10-01T22:49:25.292Z"
 }

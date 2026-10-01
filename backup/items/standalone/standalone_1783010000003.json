@@ -90,7 +90,7 @@
           {
             "id": "tab_u1_3_notes",
             "title": "Nurses' Notes",
-            "content": "<p><strong>1400:</strong> Client writhing on stretcher in excruciating 10/10 abdominal pain. Abdomen is mildly distended, but soft with minimal tenderness on palpation, representing pain severely out of proportion to physical examination. Skin is pale, diaphoresis noted. Occult blood positive in dark liquid stool. Vital signs: BP 92/58 mmHg, HR 124 (atrial fibrillation), RR 28, T 38.3 °C.</p>"
+            "content": "<p><strong>1400:</strong> Client writhing on stretcher in excruciating 10/10 abdominal pain. Abdomen is mildly distended, but soft with minimal tenderness on palpation, representing pain severely out of proportion to physical examination. Skin is pale, diaphoresis noted. Occult blood positive in dark liquid stool. Vital signs: BP 92/58 mmHg, HR 124 (atrial fibrillation), RR 28, T 38.3° C.</p>"
           },
           {
             "id": "tab_u1_3_labs",
@@ -100,5 +100,6 @@
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

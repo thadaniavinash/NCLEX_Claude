@@ -47,10 +47,11 @@
           {
             "id": "tab_u5_2_derm",
             "title": "Dermatological Exam",
-            "content": "<p><strong>Perioral & Nasal Area:</strong> Multiple erythematous papules and ruptured vesicles covered with confluent, thick, sticky amber/honey-colored crusts; child actively scratches face.<br><strong>Lymph Nodes:</strong> Mild, non-tender bilateral submandibular lymphadenopathy.<br><strong>Systemic:</strong> Temperature 37.1 °C; child is alert, energetic, and playful.</p>"
+            "content": "<p><strong>Perioral & Nasal Area:</strong> Multiple erythematous papules and ruptured vesicles covered with confluent, thick, sticky amber/honey-colored crusts; child actively scratches face.<br><strong>Lymph Nodes:</strong> Mild, non-tender bilateral submandibular lymphadenopathy.<br><strong>Systemic:</strong> Temperature 37.1° C; child is alert, energetic, and playful.</p>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

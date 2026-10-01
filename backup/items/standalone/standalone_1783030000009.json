@@ -39,10 +39,11 @@
           {
             "id": "tab_u3_9_trend",
             "title": "Longitudinal Trends",
-            "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Birth</th><th>Month 1</th><th>Month 2</th><th>Month 4</th></tr></thead><tbody><tr><td>Weight Percentile</td><td>25th</td><td>20th</td><td>10th</td><td>< 3rd (Failure to thrive)</td></tr><tr><td>Respiratory Rate (/min)</td><td>42</td><td>48</td><td>56</td><td>68 (Tachypnea, retractions)</td></tr><tr><td>Liver Edge Below Margin</td><td>0.5 cm</td><td>1.0 cm</td><td>2.0 cm</td><td>3.5 cm (Hepatomegaly)</td></tr><tr><td>Serum BNP (pg/mL)</td><td>80</td><td>190</td><td>540</td><td>1,280 (Severe volume overload)</td></tr><tr><td>Echocardiogram</td><td>Large AV canal</td><td>AV canal; Qp:Qs 1.4:1</td><td>AV canal; Qp:Qs 2.1:1</td><td>Large AV canal; severe pulmonary overcirculation</td></tr></tbody></table>"
+            "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Birth</th><th>Month 1</th><th>Month 2</th><th>Month 4</th></tr></thead><tbody><tr><td>Weight Percentile</td><td>25th</td><td>20th</td><td>10th</td><td>< 3rd (Failure to thrive)</td></tr><tr><td>Respiratory Rate (/min)</td><td>42 breaths/min</td><td>48 breaths/min</td><td>56 breaths/min</td><td>68 (Tachypnea, retractions)</td></tr><tr><td>Liver Edge Below Margin</td><td>0.5 cm</td><td>1.0 cm</td><td>2.0 cm</td><td>3.5 cm (Hepatomegaly)</td></tr><tr><td>Serum BNP (pg/mL)</td><td>80</td><td>190</td><td>540</td><td>1,280 (Severe volume overload)</td></tr><tr><td>Echocardiogram</td><td>Large AV canal</td><td>AV canal; Qp:Qs 1.4:1</td><td>AV canal; Qp:Qs 2.1:1</td><td>Large AV canal; severe pulmonary overcirculation</td></tr></tbody></table>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

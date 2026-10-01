@@ -137,7 +137,7 @@
           {
             "id": "tab_1781726178809",
             "title": "Nurses' Notes",
-            "content": "<b>1215</b><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">&nbsp;</span><span class=\"nurse-note-text\">: Client presents with right-sided ptosis and facial drooping, right-sided hemiparesis, and expressive aphasia. Client’s adult child reports that the client recently had influenza. On assessment, skin is warm and dry. Lung  sounds are clear; apical pulse is irregular. Bowel sounds are active in all quadrants. Client is incontinent of urine 2 times in the ED; adult child reports that the client is typically continent of urine. Capillary refill of 3 seconds. Peripheral pulses palpable, 2+. Vital signs: T 36.4 °C, P 126, RR 18, BP 188/90, pulse oximetry reading 90% on room air.</span></p>"
+            "content": "<b>1215</b><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">&nbsp;</span><span class=\"nurse-note-text\">: Client presents with right-sided ptosis and facial drooping, right-sided hemiparesis, and expressive aphasia. Client’s adult child reports that the client recently had influenza. On assessment, skin is warm and dry. Lung  sounds are clear; apical pulse is irregular. Bowel sounds are active in all quadrants. Client is incontinent of urine 2 times in the ED; adult child reports that the client is typically continent of urine. Capillary refill of 3 seconds. Peripheral pulses palpable, 2+. Vital signs: T 36.4° C, P 126, RR 18, BP 188/90, pulse oximetry reading 90% on room air.</span></p>"
           },
           {
             "id": "tab_1781726263863",
@@ -160,5 +160,6 @@
   "topic": "Others",
   "availability": "all",
   "course": "Others",
-  "unit": "Others"
+  "unit": "Others",
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "A client with 35% TBSA severe burns enters the acute rehabilitation phase 5 days post-injury. The nurse notes an elevated core body temperature of 38.3 °C (101.0 °F) without identifiable infection, tachycardia, and a resting energy expenditure 180% of normal baseline. Which pathophysiologic mechanism accounts for this persistent hypermetabolic state?",
+        "stem": "A client with 35% TBSA severe burns enters the acute rehabilitation phase 5 days post-injury. The nurse notes an elevated core body temperature of 38.3° C (101.0° F) without identifiable infection, tachycardia, and a resting energy expenditure 180% of normal baseline. Which pathophysiologic mechanism accounts for this persistent hypermetabolic state?",
         "type": "multiple_choice",
         "options": [
           {
@@ -39,10 +39,11 @@
           {
             "id": "tab_u5_10_metab",
             "title": "Metabolic Panel & Vitals",
-            "content": "<p><strong>Vitals:</strong> Core Temperature 38.3 °C, Heart Rate 112 beats/min, Blood Pressure 128/78 mmHg.<br><strong>Indirect Calorimetry:</strong> Resting energy expenditure 3,400 kcal/day (185% of predicted basal metabolic rate).<br><strong>Urinary Nitrogen:</strong> 24-hour urinary urea nitrogen demonstrates severe negative nitrogen balance (-18 g/day).</p>"
+            "content": "<p><strong>Vitals:</strong> Core Temperature 38.3° C, Heart Rate 112 beats/min, Blood Pressure 128/78 mmHg.<br><strong>Indirect Calorimetry:</strong> Resting energy expenditure 3,400 kcal/day (185% of predicted basal metabolic rate).<br><strong>Urinary Nitrogen:</strong> 24-hour urinary urea nitrogen demonstrates severe negative nitrogen balance (-18 g/day).</p>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

@@ -39,10 +39,11 @@
           {
             "id": "tab_u5_9_trend",
             "title": "Hourly Resuscitation Flowsheet",
-            "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Hour 1</th><th>Hour 2</th><th>Hour 3</th><th>Hour 4</th></tr></thead><tbody><tr><td>Hourly Urine Output</td><td>15 mL/hr (0.21 mL/kg)</td><td>28 mL/hr (0.40 mL/kg)</td><td>45 mL/hr (0.64 mL/kg)</td><td>55 mL/hr (0.79 mL/kg)</td></tr><tr><td>Heart Rate (beats/min)</td><td>138</td><td>122</td><td>106</td><td>94</td></tr><tr><td>Mean Arterial Pressure (MAP)</td><td>58 mmHg</td><td>64 mmHg</td><td>72 mmHg</td><td>76 mmHg</td></tr><tr><td>Serum Lactate (mmol/L)</td><td>4.8</td><td>3.9</td><td>2.8</td><td>2.0</td></tr><tr><td>IV Infusion Rate (mL/hr)</td><td>700 mL/hr</td><td>700 mL/hr</td><td>600 mL/hr</td><td>550 mL/hr</td></tr></tbody></table>"
+            "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Hour 1</th><th>Hour 2</th><th>Hour 3</th><th>Hour 4</th></tr></thead><tbody><tr><td>Hourly Urine Output</td><td>15 mL/hr (0.21 mL/kg)</td><td>28 mL/hr (0.40 mL/kg)</td><td>45 mL/hr (0.64 mL/kg)</td><td>55 mL/hr (0.79 mL/kg)</td></tr><tr><td>Heart Rate (beats/min)</td><td>138 beats/min</td><td>122 beats/min</td><td>106 beats/min</td><td>94 beats/min</td></tr><tr><td>Mean Arterial Pressure (MAP)</td><td>58 mmHg</td><td>64 mmHg</td><td>72 mmHg</td><td>76 mmHg</td></tr><tr><td>Serum Lactate (mmol/L)</td><td>4.8</td><td>3.9</td><td>2.8</td><td>2.0</td></tr><tr><td>IV Infusion Rate (mL/hr)</td><td>700 mL/hr</td><td>700 mL/hr</td><td>600 mL/hr</td><td>550 mL/hr</td></tr></tbody></table>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

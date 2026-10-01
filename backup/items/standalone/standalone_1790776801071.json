@@ -59,7 +59,7 @@
           {
             "id": "nn_umd07t",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">Neurovascular assessment completed. VS: BP 82/44, HR 112, RR 22, T 99&deg;F (37.2&deg;C); pain increased to 10/10 in R lower extremity. Provider notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Cast removed at bedside; see updated flow sheet.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">VS: BP 116/70, HR 88, RR 16, T 98.8&deg;F (37.1&deg;C), pain 3/10.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">Neurovascular assessment completed. VS: BP 82/44, HR 112, RR 22, T 99° F (37.2° C); pain increased to 10/10 in R lower extremity. Provider notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Cast removed at bedside; see updated flow sheet.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">VS: BP 116/70, HR 88, RR 16, T 98.8° F (37.1° C), pain 3/10.</span></p>"
           },
           {
             "id": "nv_umd07t",
@@ -74,5 +74,6 @@
   "disorder": "Others",
   "description": "Stand-alone trend for University of Maryland - CS7 (compartment syndrome): neurovascular checks every 15 minutes after cast removal.",
   "availability": "all",
-  "isStandalone": true
+  "isStandalone": true,
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

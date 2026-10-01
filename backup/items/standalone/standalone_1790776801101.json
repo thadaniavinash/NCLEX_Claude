@@ -88,7 +88,7 @@
           {
             "id": "nn_umd10b",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1520:</span><span class=\"nurse-note-text\"><b>Emergency department triage note:</b> The client arrives by ambulance with difficulty breathing, sharp chest pain on inspiration, and cough, with onset 2 hours before arrival. Lung sounds diminished bilaterally. Client diaphoretic, tachypneic, using accessory muscles with inspiration. VS: BP 166/103, HR 122, RR 36, T 37.2&deg;C, pulse oximetry reading 88% on room air. Client immediately placed in a room. Provider called to bedside for rapid assessment.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1520:</span><span class=\"nurse-note-text\"><b>Emergency department triage note:</b> The client arrives by ambulance with difficulty breathing, sharp chest pain on inspiration, and cough, with onset 2 hours before arrival. Lung sounds diminished bilaterally. Client diaphoretic, tachypneic, using accessory muscles with inspiration. VS: BP 166/103, HR 122, RR 36, T 37.2° C, pulse oximetry reading 88% on room air. Client immediately placed in a room. Provider called to bedside for rapid assessment.</span></p>"
           }
         ],
         "intro": "A 69-year-old male client with a recent diagnosis of deep vein thrombosis is seen in the emergency department."
@@ -98,5 +98,6 @@
   "disorder": "Others",
   "description": "Stand-alone bow-tie for University of Maryland - CS10 (DVT II): pulmonary embolism.",
   "availability": "all",
-  "isStandalone": true
+  "isStandalone": true,
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }

@@ -47,7 +47,7 @@
           {
             "id": "tab_u1_7_vitals",
             "title": "Vital Signs Trend",
-            "content": "<table class='nclex-editor-table'><thead><tr><th></th><th>0800</th><th>1100</th><th>1400</th></tr></thead><tbody><tr><td>Blood Pressure (mmHg)</td><td>110/68 (MAP 82)</td><td>94/56 (MAP 69)</td><td>78/44 (MAP 55)</td></tr><tr><td>Heart Rate (bpm)</td><td>98</td><td>116</td><td>132</td></tr><tr><td>Respiratory Rate (/min)</td><td>20</td><td>24</td><td>30</td></tr><tr><td>Hourly Urine Output</td><td>45 mL/hr</td><td>28 mL/hr</td><td>12 mL/hr</td></tr></tbody></table>"
+            "content": "<table class='nclex-editor-table'><thead><tr><th></th><th>0800</th><th>1100</th><th>1400</th></tr></thead><tbody><tr><td>Blood Pressure (mmHg)</td><td>110/68 (MAP 82)</td><td>94/56 (MAP 69)</td><td>78/44 (MAP 55)</td></tr><tr><td>Heart Rate (bpm)</td><td>98 beats/min</td><td>116 beats/min</td><td>132 beats/min</td></tr><tr><td>Respiratory Rate (/min)</td><td>20 breaths/min</td><td>24 breaths/min</td><td>30 breaths/min</td></tr><tr><td>Hourly Urine Output</td><td>45 mL/hr</td><td>28 mL/hr</td><td>12 mL/hr</td></tr></tbody></table>"
           },
           {
             "id": "tab_u1_7_labs",
@@ -58,5 +58,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T02:43:58.183Z"
+  "updatedAt": "2026-10-01T22:51:17.988Z"
 }
