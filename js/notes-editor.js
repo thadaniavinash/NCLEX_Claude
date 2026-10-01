@@ -183,6 +183,7 @@ function renderNoteRows(focusIndex, focusField) {
     el.className = 'note-entry';
     el.innerHTML = `
       <input type="text" class="note-entry-title ${row.showTitle ? '' : 'hidden'}" placeholder="Title (optional), shown in bold above the time and note" aria-label="Title for entry ${i + 1}" value="${escapeHTML(row.title || '')}">
+      <button type="button" class="note-entry-btn danger note-entry-title-del ${row.showTitle ? '' : 'hidden'}" data-act="remove-title" tabindex="-1" title="Remove this title" aria-label="Remove the title of entry ${i + 1}">&times;</button>
       <input type="text" class="note-entry-time" maxlength="${NOTE_LABEL_MAX}" placeholder="0800" aria-label="Time or date of entry ${i + 1}" value="${escapeHTML(row.time)}">
       <div class="note-entry-body">
         <div class="note-entry-text rich-text-editor" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Note for entry ${i + 1}" placeholder="Note…"></div>
@@ -236,6 +237,12 @@ function renderNoteRows(focusIndex, focusField) {
     });
     el.querySelectorAll('.note-entry-btn').forEach(btn => btn.addEventListener('click', () => {
       row.html = text.innerHTML;
+      if (btn.dataset.act === 'remove-title') {
+        row.showTitle = false;
+        if (row.title) { row.title = ''; state.dirty = true; }
+        renderNoteRows(i, 'text');
+        return;
+      }
       if (btn.dataset.act === 'title') {
         row.showTitle = !row.showTitle;
         if (!row.showTitle && row.title) { row.title = ''; state.dirty = true; }

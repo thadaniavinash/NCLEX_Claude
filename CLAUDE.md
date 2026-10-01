@@ -278,7 +278,7 @@ Done (authoring, September 2026):
   opens as time + note entries; each entry can have an optional bold title on its own line above the
   time and note ("T+"), stored as a `<p><b>Title</b></p>` paragraph just before the entry (the form older
   cases already used; `titleParagraphText` in `js/notes-editor.js`; the old `<b>Title</b><br>` inside
-  the note is still read). In free-text tabs (tables) T+ adds a bold title line above the table or
+  the note is still read; the × at the right of the title box removes the title). In free-text tabs (tables) T+ adds a bold title line above the table or
   paragraph with the cursor (`insertFreeTextTitle`). Deleting a timed entry, a table row or a column
   takes a second click ("Delete?"), like Delete table (user request, 30 Sep 2026: an entry deleted on
   the screen where it first appears is also removed from later screens and cannot be brought back in the
