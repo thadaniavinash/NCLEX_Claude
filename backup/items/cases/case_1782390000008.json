@@ -516,7 +516,7 @@
           {
             "id": "c3_notes2",
             "title": "Nurses' Notes Day 3",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88/min, temperature 36.9° C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88 beats/min, temperature 36.9° C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
           },
           {
             "id": "c3_screening",
@@ -535,7 +535,7 @@
         "matrix": {
           "rows": [
             {
-              "text": "BP 124/78 mm Hg and HR 82/min, with no orthostatic change",
+              "text": "BP 124/78 mm Hg and HR 82 beats/min, with no orthostatic change",
               "correctIndex": 0
             },
             {
@@ -618,7 +618,7 @@
           {
             "id": "c3_notes2",
             "title": "Nurses' Notes Day 3",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88/min, temperature 36.9° C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Hospital Day 3:</span><span class=\"nurse-note-text\">BP 118/72 mm Hg, HR 88 beats/min, temperature 36.9° C; no orthostatic change. Potassium 3.9 mmol/L. Alcohol withdrawal scores 2&ndash;4. Dermatology plans to start infliximab (a biologic) by IV infusion today. Client states: “I stopped the methotrexate because I lost my job and my drug plan. I hate the way people look at my skin. I really do want to cut down on drinking.”</span></p>"
           },
           {
             "id": "c3_screening",
@@ -638,5 +638,5 @@
   "disorder": "Unit 5 (Integumentary Disorders and Burns)",
   "description": "A 54-year-old male client with 20 years of plaque psoriasis who progresses to generalized exfoliative dermatitis (erythroderma) after stopping methotrexate, from the emergency department through biologic therapy and discharge planning.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

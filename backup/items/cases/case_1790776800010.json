@@ -38,11 +38,11 @@
             "correct": false
           },
           {
-            "text": "Blood pressure 145/82",
+            "text": "Blood pressure 145/82 mm Hg",
             "correct": false
           },
           {
-            "text": "HR 96",
+            "text": "HR 96 beats/min",
             "correct": false
           },
           {
@@ -59,7 +59,7 @@
           {
             "id": "nn_umd10",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
           }
         ],
         "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -129,7 +129,7 @@
           {
             "id": "nn_umd10",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
           }
         ],
         "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -175,7 +175,7 @@
           {
             "id": "nn_umd10",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
           }
         ],
         "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -246,7 +246,7 @@
           {
             "id": "nn_umd10",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p>"
           }
         ],
         "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -332,7 +332,7 @@
           {
             "id": "nn_umd10",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
           },
           {
             "id": "ord_umd10",
@@ -387,7 +387,7 @@
           {
             "id": "nn_umd10",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82, HR 96, RR 16, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
           },
           {
             "id": "ord_umd10",
@@ -407,5 +407,5 @@
   "disorder": "Others",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Deep vein thrombosis II: a 69-year-old client with a right leg DVT; heparin protocol, prioritizing orders, and warfarin discharge teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

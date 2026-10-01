@@ -12,7 +12,7 @@
       "question": {
         "stem": "The nurse is reviewing the electronic health record of a client attending an annual wellness visit. Click to highlight the <b>four findings</b> in the clinical note that correspond directly to the classic American Cancer Society 'CAUTION' warning signs of occult malignancy.",
         "type": "highlight",
-        "highlightText": "A 62-year-old client presents for routine annual review. Review of systems reveals {a persistent change in bowel habits over 2 months with ribbon-like stools and alternating constipation|correct}. The client also reports {a non-healing shallow ulcer on the lower lip that has bled repeatedly for 7 weeks|correct}. On physical examination of the left breast, the nurse palpates {a firm, non-tender, immobile 2-cm thickening and lump in the upper outer quadrant|correct}. In addition, the client mentions {a nagging, dry hoarseness and coughing that has persisted for over 3 months without an antecedent viral infection|correct}. {Blood pressure is 126/78 mmHg, heart rate is 74 beats/min, and oxygen saturation is 98% on room air.} {Urine dipstick is negative for protein and glucose.} {Bilateral visual acuity is 20/20 with corrective lenses.}",
+        "highlightText": "A 62-year-old client presents for routine annual review. Review of systems reveals {a persistent change in bowel habits over 2 months with ribbon-like stools and alternating constipation|correct}. The client also reports {a non-healing shallow ulcer on the lower lip that has bled repeatedly for 7 weeks|correct}. On physical examination of the left breast, the nurse palpates {a firm, non-tender, immobile 2-cm thickening and lump in the upper outer quadrant|correct}. In addition, the client mentions {a nagging, dry hoarseness and coughing that has persisted for over 3 months without an antecedent viral infection|correct}. {Blood pressure is 126/78 mm Hg, heart rate is 74 beats/min, and oxygen saturation is 98% on room air.} {Urine dipstick is negative for protein and glucose.} {Bilateral visual acuity is 20/20 with corrective lenses.}",
         "maxCorrectSelections": 4,
         "options": [],
         "preamble": "The primary care clinic nurse is screening an adult client for early signs and symptoms of malignancy using the CAUTION mnemonic.",
@@ -21,7 +21,7 @@
           {
             "id": "ht_standalone_1783040000006_1",
             "title": "Nurses' Notes",
-            "content": "A 62-year-old client presents for routine annual review. Review of systems reveals {a persistent change in bowel habits over 2 months with ribbon-like stools and alternating constipation|correct}. The client also reports {a non-healing shallow ulcer on the lower lip that has bled repeatedly for 7 weeks|correct}. On physical examination of the left breast, the nurse palpates {a firm, non-tender, immobile 2-cm thickening and lump in the upper outer quadrant|correct}. In addition, the client mentions {a nagging, dry hoarseness and coughing that has persisted for over 3 months without an antecedent viral infection|correct}. {Blood pressure is 126/78 mmHg, heart rate is 74 beats/min, and oxygen saturation is 98% on room air.} {Urine dipstick is negative for protein and glucose.} {Bilateral visual acuity is 20/20 with corrective lenses.}"
+            "content": "A 62-year-old client presents for routine annual review. Review of systems reveals {a persistent change in bowel habits over 2 months with ribbon-like stools and alternating constipation|correct}. The client also reports {a non-healing shallow ulcer on the lower lip that has bled repeatedly for 7 weeks|correct}. On physical examination of the left breast, the nurse palpates {a firm, non-tender, immobile 2-cm thickening and lump in the upper outer quadrant|correct}. In addition, the client mentions {a nagging, dry hoarseness and coughing that has persisted for over 3 months without an antecedent viral infection|correct}. {Blood pressure is 126/78 mm Hg, heart rate is 74 beats/min, and oxygen saturation is 98% on room air.} {Urine dipstick is negative for protein and glucose.} {Bilateral visual acuity is 20/20 with corrective lenses.}"
           }
         ]
       },
@@ -36,5 +36,6 @@
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

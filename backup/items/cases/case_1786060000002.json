@@ -174,7 +174,7 @@
         ],
         "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
         "preamble": "",
-        "explanation": "The client's respiratory status is the priority using the airway-breathing-circulation framework: diminished left breath sounds, chest discomfort with deep inspiration, tachypnea (RR 24), and borderline pulse oximetry all point to a possible hemothorax compromising oxygenation, which is more immediately life-threatening than addressing abdominal pain or reviewing laboratory results, both of which are important but secondary once the airway and breathing are confirmed to be adequately supported."
+        "explanation": "The client's respiratory status is the priority using the airway-breathing-circulation framework: diminished left breath sounds, chest discomfort with deep inspiration, tachypnea (RR 24 breaths/min), and borderline pulse oximetry all point to a possible hemothorax compromising oxygenation, which is more immediately life-threatening than addressing abdominal pain or reviewing laboratory results, both of which are important but secondary once the airway and breathing are confirmed to be adequately supported."
       },
       "leftContent": {
         "tabs": [
@@ -431,5 +431,5 @@
   "disorder": "Unit 6 (Gastrointestinal Disorders)",
   "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 17-year-old male client with a splenic laceration and left-sided hemothorax from blunt trauma, from recognize cues through evaluate outcomes.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

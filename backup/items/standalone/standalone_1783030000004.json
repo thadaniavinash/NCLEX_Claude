@@ -75,10 +75,11 @@
           {
             "id": "tab_u3_4_ed",
             "title": "Emergency Presentation",
-            "content": "<p><strong>Vitals:</strong> BP Right Arm 168/96 mmHg, BP Left Arm 138/82 mmHg; P 104 regular; RR 22; SpO2 96% on room air.<br><strong>Cardiovascular:</strong> Decrescendo diastolic murmur audible at right sternal border (aortic insufficiency); right radial pulse full, left radial pulse diminished.<br><strong>Diagnostics Ordered:</strong> Stat emergent CT Angiography of chest and echocardiogram.</p>"
+            "content": "<p><strong>Vitals:</strong> BP Right Arm 168/96 mm Hg, BP Left Arm 138/82 mm Hg; P 104 beats/min regular; RR 22 breaths/min; SpO2 96% on room air.<br><strong>Cardiovascular:</strong> Decrescendo diastolic murmur audible at right sternal border (aortic insufficiency); right radial pulse full, left radial pulse diminished.<br><strong>Diagnostics Ordered:</strong> Stat emergent CT Angiography of chest and echocardiogram.</p>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

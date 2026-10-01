@@ -36,7 +36,7 @@
         ],
         "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
         "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
-        "explanation": "<b>Condition Most Likely Experiencing</b><br>Ischemic stroke: The client exhibits classic signs of a stroke (likely in the left hemisphere), including right-sided ptosis, facial drooping, right-sided hemiparesis, and expressive aphasia. The irregular apical pulse of 126 bpm strongly suggests atrial fibrillation, which is a major risk factor for embolic ischemic strokes.<br><br><b>Actions to Take</b><br>Administer oxygen at 2 L/min via nasal cannula: The client's pulse oximetry reading is 90% on room air, indicating mild hypoxia that needs to be corrected to prevent further brain tissue ischemia.<br>Insert a peripheral venous access device (VAD): Establishing IV access is a critical immediate step for suspected stroke patients to facilitate emergency lab draws, CT contrast administration, and potential thrombolytic therapy (e.g., tPA) or other medications.<br><br><b>Parameters to Monitor</b><br>Neurologic status: Continuous neuro assessments (such as the NIH Stroke Scale) are vital to track the progression or resolution of the client's deficits and to monitor for potential complications like increased intracranial pressure.<br>Electrocardiogram (ECG) rhythm: Because the client presented with an irregular, tachycardic apical pulse (126 bpm), continuous ECG monitoring is necessary to evaluate the rhythm (likely atrial fibrillation) and guide rate/rhythm control interventions.",
+        "explanation": "<b>Condition Most Likely Experiencing</b><br>Ischemic stroke: The client exhibits classic signs of a stroke (likely in the left hemisphere), including right-sided ptosis, facial drooping, right-sided hemiparesis, and expressive aphasia. The irregular apical pulse of 126 beats/min strongly suggests atrial fibrillation, which is a major risk factor for embolic ischemic strokes.<br><br><b>Actions to Take</b><br>Administer oxygen at 2 L/min via nasal cannula: The client's pulse oximetry reading is 90% on room air, indicating mild hypoxia that needs to be corrected to prevent further brain tissue ischemia.<br>Insert a peripheral venous access device (VAD): Establishing IV access is a critical immediate step for suspected stroke patients to facilitate emergency lab draws, CT contrast administration, and potential thrombolytic therapy (e.g., tPA) or other medications.<br><br><b>Parameters to Monitor</b><br>Neurologic status: Continuous neuro assessments (such as the NIH Stroke Scale) are vital to track the progression or resolution of the client's deficits and to monitor for potential complications like increased intracranial pressure.<br>Electrocardiogram (ECG) rhythm: Because the client presented with an irregular, tachycardic apical pulse (126 beats/min), continuous ECG monitoring is necessary to evaluate the rhythm (likely atrial fibrillation) and guide rate/rhythm control interventions.",
         "bowtieParams": [
           {
             "text": "urine output",
@@ -111,7 +111,7 @@
           {
             "id": "nn_1789577787012",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Client presents with right-sided ptosis and facial drooping, right-sided hemiparesis, and expressive aphasia. Client’s adult child reports that the client recently had influenza. On assessment, skin is warm and dry. Lung sounds are clear; apical pulse is irregular. Bowel sounds are active in all quadrants. Client is incontinent of urine 2 times in the ED; adult child reports that the client is typically continent of urine. Capillary refill of 3 seconds. Peripheral pulses palpable, 2+. Vital signs: T 97.5° F (36.4° C), P 126, RR 18, BP 188/90, pulse oximetry reading 90% on room air.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Client presents with right-sided ptosis and facial drooping, right-sided hemiparesis, and expressive aphasia. Client’s adult child reports that the client recently had influenza. On assessment, skin is warm and dry. Lung sounds are clear; apical pulse is irregular. Bowel sounds are active in all quadrants. Client is incontinent of urine 2 times in the ED; adult child reports that the client is typically continent of urine. Capillary refill of 3 seconds. Peripheral pulses palpable, 2+. Vital signs: T 97.5° F (36.4° C), P 126 beats/min, RR 18 breaths/min, BP 188/90 mm Hg, pulse oximetry reading 90% on room air.</span></p>"
           },
           {
             "id": "tab_1789577946502",
@@ -128,5 +128,6 @@
       }
     }
   ],
-  "availability": "all"
+  "availability": "all",
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

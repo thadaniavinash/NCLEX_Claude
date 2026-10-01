@@ -88,7 +88,7 @@
           {
             "id": "nn_umd12b",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90, RR 18, BP 130/86, pulse oximetry reading 97% on room air.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p>"
           }
         ],
         "intro": "The nurse cares for a 47-year-old client with epigastric pain and vomiting in the emergency department."
@@ -99,5 +99,5 @@
   "description": "Stand-alone bow-tie for University of Maryland - CS12 (GERD).",
   "availability": "all",
   "isStandalone": true,
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

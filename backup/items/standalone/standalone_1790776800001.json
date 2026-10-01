@@ -86,7 +86,7 @@
           {
             "id": "nn_1790776800001",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">April 25:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results. VS: BP 120/76 sitting, 118/72 standing, HR 78 beats per minute and regular, T 100° F (37.8° C) orally, RR 20, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30. Labs and chest X-ray obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">May 25:</span><span class=\"nurse-note-text\">Client returns for a follow-up appointment 4 weeks after being diagnosed with a tuberculosis infection. Reports missing several doses of medication. Continues to have a productive cough and is tired most days. Rates pain with the cough at 3/10, but now has new abdominal pain.<br>VS: T 98.8° F (37.1° C), P 80, RR 22, BP 144/88, pulse oximetry reading 95% on room air. Repeat WBC 9.0 &times; 10<sup>9</sup>/L.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">April 25:</span><span class=\"nurse-note-text\">Reports recent extended travel to Asia with a tour group. History of coughing, mild fatigue, and loss of appetite since return, 3 weeks ago. Complains of pain in chest of 4/10 on coughing. Reports taking an over-the-counter cough medication with limited results. VS: BP 120/76 mm Hg sitting, 118/72 standing, HR 78 beats per minute and regular, T 100° F (37.8° C) orally, RR 20 breaths/min, pulse oximetry reading 95% on room air. Lung sounds are diminished bilaterally with mild crackles noted in the bases. Weight 210 lb (95 kg), BMI 30. Labs and chest X-ray obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">May 25:</span><span class=\"nurse-note-text\">Client returns for a follow-up appointment 4 weeks after being diagnosed with a tuberculosis infection. Reports missing several doses of medication. Continues to have a productive cough and is tired most days. Rates pain with the cough at 3/10, but now has new abdominal pain.<br>VS: T 98.8° F (37.1° C), P 80 beats/min, RR 22 breaths/min, BP 144/88 mm Hg, pulse oximetry reading 95% on room air. Repeat WBC 9.0 &times; 10<sup>9</sup>/L.</span></p>"
           },
           {
             "id": "labs_1790776800001",
@@ -107,5 +107,5 @@
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Stand-alone trend for the Tuberculosis case (University of Maryland - CS2): changes between the first visit and the 4-week follow-up.",
   "availability": "all",
   "isStandalone": true,
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

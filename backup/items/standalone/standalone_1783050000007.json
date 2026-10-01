@@ -12,7 +12,7 @@
       "question": {
         "stem": "The nurse is reviewing the dermatology progress note for a client with a suspicious pigmented cutaneous lesion. Click to highlight the <b>four findings</b> in the clinical note that correspond directly to the classic 'ABCDE' diagnostic criteria for cutaneous malignant melanoma.",
         "type": "highlight",
-        "highlightText": "A 48-year-old fair-skinned client with extensive recreational sun exposure presents for evaluation of an abnormal back lesion. Visual inspection of the left infrascapular region reveals a pigmented lesion with {marked asymmetry between the superior and inferior hemispheres|correct}. Dermatoscopic examination identifies {irregular, notched, and scalloped peripheral borders|correct}. The internal lesion displays {prominent color variegation containing shades of jet black, deep brown, pink, and focal bluish-white depigmentation|correct}. Caliper measurement records {a maximal cross-sectional diameter of 9 millimeters|correct}. The client notes the lesion was previously uniform and small but grew and changed over the last 4 months. {The surrounding skin shows numerous non-dysplastic ephelides (freckles).} {Blood pressure is 120/80 mmHg, and heart rate is 68 beats/min.} {Review of systems is negative for bone pain, cough, or weight loss.}",
+        "highlightText": "A 48-year-old fair-skinned client with extensive recreational sun exposure presents for evaluation of an abnormal back lesion. Visual inspection of the left infrascapular region reveals a pigmented lesion with {marked asymmetry between the superior and inferior hemispheres|correct}. Dermatoscopic examination identifies {irregular, notched, and scalloped peripheral borders|correct}. The internal lesion displays {prominent color variegation containing shades of jet black, deep brown, pink, and focal bluish-white depigmentation|correct}. Caliper measurement records {a maximal cross-sectional diameter of 9 millimeters|correct}. The client notes the lesion was previously uniform and small but grew and changed over the last 4 months. {The surrounding skin shows numerous non-dysplastic ephelides (freckles).} {Blood pressure is 120/80 mm Hg, and heart rate is 68 beats/min.} {Review of systems is negative for bone pain, cough, or weight loss.}",
         "maxCorrectSelections": 4,
         "options": [],
         "preamble": "The dermatology oncology nurse is assessing a pigmented cutaneous lesion using the ABCDE screening framework.",
@@ -21,7 +21,7 @@
           {
             "id": "ht_standalone_1783050000007_1",
             "title": "Nurses' Notes",
-            "content": "A 48-year-old fair-skinned client with extensive recreational sun exposure presents for evaluation of an abnormal back lesion. Visual inspection of the left infrascapular region reveals a pigmented lesion with {marked asymmetry between the superior and inferior hemispheres|correct}. Dermatoscopic examination identifies {irregular, notched, and scalloped peripheral borders|correct}. The internal lesion displays {prominent color variegation containing shades of jet black, deep brown, pink, and focal bluish-white depigmentation|correct}. Caliper measurement records {a maximal cross-sectional diameter of 9 millimeters|correct}. The client notes the lesion was previously uniform and small but grew and changed over the last 4 months. {The surrounding skin shows numerous non-dysplastic ephelides (freckles).} {Blood pressure is 120/80 mmHg, and heart rate is 68 beats/min.} {Review of systems is negative for bone pain, cough, or weight loss.}"
+            "content": "A 48-year-old fair-skinned client with extensive recreational sun exposure presents for evaluation of an abnormal back lesion. Visual inspection of the left infrascapular region reveals a pigmented lesion with {marked asymmetry between the superior and inferior hemispheres|correct}. Dermatoscopic examination identifies {irregular, notched, and scalloped peripheral borders|correct}. The internal lesion displays {prominent color variegation containing shades of jet black, deep brown, pink, and focal bluish-white depigmentation|correct}. Caliper measurement records {a maximal cross-sectional diameter of 9 millimeters|correct}. The client notes the lesion was previously uniform and small but grew and changed over the last 4 months. {The surrounding skin shows numerous non-dysplastic ephelides (freckles).} {Blood pressure is 120/80 mm Hg, and heart rate is 68 beats/min.} {Review of systems is negative for bone pain, cough, or weight loss.}"
           }
         ]
       },
@@ -36,5 +36,6 @@
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

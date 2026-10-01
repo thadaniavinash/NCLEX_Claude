@@ -24,13 +24,13 @@
             "correct": true
           },
           {
-            "text": "with hepatic cirrhosis who has an elevated aspartate aminotransferase (AST) level and respirations of 24",
+            "text": "with hepatic cirrhosis who has an elevated aspartate aminotransferase (AST) level and respirations of 24 breaths/min",
             "correct": false
           }
         ],
         "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
         "preamble": "The nurse has become aware of the following client situations.",
-        "explanation": "Bronchial breath sounds heard over a peripheral lung field (between the scapulae, rather than over the large airways where they are normally heard) indicate lung consolidation, and combined with a high fever, this client (Option 3) shows signs of a worsening infection with risk for respiratory decompensation or sepsis, making this the priority. Urinary retention 7 hours after catheter removal (Option 1) is uncomfortable and needs intervention (such as a straight catheterization) but is not immediately life-threatening. A client 24 hours after an uncomplicated total knee replacement with no other findings reported (Option 2) is the most stable of the group. An elevated AST is an expected, chronic finding in hepatic cirrhosis rather than a new acute change, and a respiratory rate of 24 (Option 4) is only mildly elevated."
+        "explanation": "Bronchial breath sounds heard over a peripheral lung field (between the scapulae, rather than over the large airways where they are normally heard) indicate lung consolidation, and combined with a high fever, this client (Option 3) shows signs of a worsening infection with risk for respiratory decompensation or sepsis, making this the priority. Urinary retention 7 hours after catheter removal (Option 1) is uncomfortable and needs intervention (such as a straight catheterization) but is not immediately life-threatening. A client 24 hours after an uncomplicated total knee replacement with no other findings reported (Option 2) is the most stable of the group. An elevated AST is an expected, chronic finding in hepatic cirrhosis rather than a new acute change, and a respiratory rate of 24 breaths/min (Option 4) is only mildly elevated."
       },
       "leftContent": {
         "tabs": [],
@@ -39,5 +39,6 @@
     }
   ],
   "disorder": "Others",
-  "isStandalone": true
+  "isStandalone": true,
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

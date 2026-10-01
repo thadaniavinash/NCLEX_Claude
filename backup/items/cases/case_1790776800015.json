@@ -369,7 +369,7 @@
             "correct": true
           },
           {
-            "text": "Pulse 100",
+            "text": "Pulse 100 beats/min",
             "correct": true
           },
           {
@@ -420,5 +420,5 @@
   "disorder": "Others",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: DeNiece Bennett, University of Maryland School of Nursing. Type 2 diabetes and ketoacidosis: a 73-year-old client on an SGLT2 inhibitor with DKA; DKA vs HHS, priorities, insulin and potassium management, and response.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

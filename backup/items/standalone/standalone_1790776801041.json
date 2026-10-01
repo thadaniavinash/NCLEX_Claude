@@ -65,7 +65,7 @@
         },
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Breast Cancer&rdquo; medical-surgical faculty case study, stand-alone trend (Kimberly Allen, DNP, RN, CNE; Stephanie Howard, MS, CRNP, FNP-C; Lisa Seldomridge, PhD, RN, CNE; Salisbury University, May 14, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
         "preamble": "",
-        "explanation": "The vital signs have stabilized since admission (HR 104 to 86, RR 22 to 20), and the pain has improved slightly (5/10 to 3/10). The temperature and the swelling of the arm (circumference) have not changed.<br>The client&rsquo;s anxiety has increased: the client is now worried about what caused the arm swelling, numbness, tingling, and pain and is afraid of not being able to manage at home."
+        "explanation": "The vital signs have stabilized since admission (HR 104 to 86 beats/min, RR 22 to 20 breaths/min), and the pain has improved slightly (5/10 to 3/10). The temperature and the swelling of the arm (circumference) have not changed.<br>The client&rsquo;s anxiety has increased: the client is now worried about what caused the arm swelling, numbness, tingling, and pain and is afraid of not being able to manage at home."
       },
       "leftContent": {
         "tabs": [
@@ -93,5 +93,5 @@
   "description": "Stand-alone trend for University of Maryland - CS4 (breast cancer, lymphedema): changes over the 4-hour clinic visit.",
   "availability": "all",
   "isStandalone": true,
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

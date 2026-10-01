@@ -13,11 +13,11 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Heart rate of 98/min",
+            "text": "Heart rate of 98 beats/min",
             "correct": false
           },
           {
-            "text": "Respiratory rate of 28/min",
+            "text": "Respiratory rate of 28 breaths/min",
             "correct": true
           },
           {
@@ -25,7 +25,7 @@
             "correct": true
           },
           {
-            "text": "Blood pressure of 138/90",
+            "text": "Blood pressure of 138/90 mm Hg",
             "correct": false
           },
           {
@@ -475,5 +475,5 @@
   "disorder": "Others",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Denyce Watties-Daniels, Coppin State University. Tension pneumothorax: a 58-year-old client with rib fractures after a motor vehicle collision; recognizing deterioration, needle decompression and chest tube care.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

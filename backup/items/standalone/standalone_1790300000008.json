@@ -12,7 +12,7 @@
         "type": "multiple_choice",
         "options": [
           {
-            "text": "The client has a blood pressure of 84/58 mm Hg and an apical pulse of 90.",
+            "text": "The client has a blood pressure of 84/58 mm Hg and an apical pulse of 90 beats/min.",
             "correct": false
           },
           {
@@ -24,7 +24,7 @@
             "correct": false
           },
           {
-            "text": "The client has an axillary temperature of 99.0° F (37.2° C) and respirations of 24.",
+            "text": "The client has an axillary temperature of 99.0° F (37.2° C) and respirations of 24 breaths/min.",
             "correct": false
           }
         ],
@@ -39,5 +39,6 @@
     }
   ],
   "disorder": "Others",
-  "isStandalone": true
+  "isStandalone": true,
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

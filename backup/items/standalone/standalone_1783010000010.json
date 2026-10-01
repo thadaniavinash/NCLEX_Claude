@@ -34,7 +34,7 @@
         "explanation": "Dystrophic calcification occurs locally in dying, necrotic, or chronically injured/degenerated tissues (such as scarred aortic valve leaflets, old tuberculous granulomas, or advanced atheromas) despite completely normal serum calcium metabolism and normal serum levels. In contrast, metastatic calcification occurs throughout normal, uninjured tissues (lungs, kidneys, gastric mucosa) as a result of systemic hypercalcemia (driven by primary hyperparathyroidism, extensive bone metastases, vitamin D toxicity, or chronic kidney disease)."
       },
       "leftContent": {
-        "intro": "An 82-year-old client undergoes evaluation for progressive exertional syncope and systolic murmur. Echocardiography demonstrates heavily calcified, rigid aortic valve cusps with a peak transvalvular gradient of 68 mmHg.",
+        "intro": "An 82-year-old client undergoes evaluation for progressive exertional syncope and systolic murmur. Echocardiography demonstrates heavily calcified, rigid aortic valve cusps with a peak transvalvular gradient of 68 mm Hg.",
         "tabs": [
           {
             "id": "tab_u1_10_echo",
@@ -44,5 +44,6 @@
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

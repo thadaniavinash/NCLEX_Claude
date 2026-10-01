@@ -88,7 +88,7 @@
           {
             "id": "nn_umd19b",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99, blood pressure 160/100. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p>"
           },
           {
             "id": "labs_umd19b",
@@ -103,5 +103,6 @@
   "disorder": "Others",
   "description": "Stand-alone bow-tie for University of Maryland - CS19 (stroke).",
   "availability": "all",
-  "isStandalone": true
+  "isStandalone": true,
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

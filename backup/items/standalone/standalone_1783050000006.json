@@ -29,10 +29,11 @@
           {
             "id": "tab_u5_6_triage",
             "title": "Trauma Bay Admission",
-            "content": "<p><strong>Primary Survey:</strong> Airway patent; singed nasal hairs; hoarse voice; spontaneous respirations at 28/min; SpO2 94% on room air; blood pressure 92/58 mmHg, pulse 124 beats/min.<br><strong>Wounds:</strong> Extensive blistering and leathery eschar across chest, abdomen, and both arms.</p>"
+            "content": "<p><strong>Primary Survey:</strong> Airway patent; singed nasal hairs; hoarse voice; spontaneous respirations at 28 breaths/min; SpO2 94% on room air; blood pressure 92/58 mm Hg, pulse 124 beats/min.<br><strong>Wounds:</strong> Extensive blistering and leathery eschar across chest, abdomen, and both arms.</p>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

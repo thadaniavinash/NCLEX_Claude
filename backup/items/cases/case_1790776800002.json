@@ -14,7 +14,7 @@
         "limit": 4,
         "options": [
           {
-            "text": "BP 168/90",
+            "text": "BP 168/90 mm Hg",
             "correct": false
           },
           {
@@ -38,7 +38,7 @@
             "correct": false
           },
           {
-            "text": "Respiratory rate 30",
+            "text": "Respiratory rate 30 breaths/min",
             "correct": true
           },
           {
@@ -52,14 +52,14 @@
         ],
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "",
-        "explanation": "The client has signs and symptoms of infection and respiratory failure. The most urgent findings are related to respiratory failure: a pH of 7.20 indicating an acidic state, a PaCO<sub>2</sub> above 50 mm Hg, tachypnea (RR 30), and a pulse oximetry reading of 87% on high-flow oxygen. The blood pressure is elevated but is not yet critical."
+        "explanation": "The client has signs and symptoms of infection and respiratory failure. The most urgent findings are related to respiratory failure: a pH of 7.20 indicating an acidic state, a PaCO<sub>2</sub> above 50 mm Hg, tachypnea (RR 30 breaths/min), and a pulse oximetry reading of 87% on high-flow oxygen. The blood pressure is elevated but is not yet critical."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn_1790776800002",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 30 breaths/min; BP 168/90 mm Hg; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
           },
           {
             "id": "labs_1790776800002",
@@ -123,7 +123,7 @@
           {
             "id": "nn_1790776800002",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 30 breaths/min; BP 168/90 mm Hg; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
           },
           {
             "id": "labs_1790776800002",
@@ -166,7 +166,7 @@
           {
             "id": "nn_1790776800002",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 30 breaths/min; BP 168/90 mm Hg; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p>"
           },
           {
             "id": "labs_1790776800002",
@@ -249,7 +249,7 @@
           {
             "id": "nn_1790776800002",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8° F (37.7° C); HR 110; RR 14; BP 180/90; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 30 breaths/min; BP 168/90 mm Hg; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 14 breaths/min; BP 180/90 mm Hg; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p>"
           },
           {
             "id": "labs_1790776800002",
@@ -282,7 +282,7 @@
           {
             "id": "nn_1790776800002",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8° F (37.7° C); HR 110; RR 14; BP 180/90; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 30 breaths/min; BP 168/90 mm Hg; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 14 breaths/min; BP 180/90 mm Hg; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p>"
           },
           {
             "id": "labs_1790776800002",
@@ -359,7 +359,7 @@
           {
             "id": "nn_1790776800002",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110; RR 30; BP 168/90; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8° F (37.7° C); HR 110; RR 14; BP 180/90; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Chest X-ray obtained. IV placed and midazolam given. ECG shows sinus tachycardia. VS: T 99.8° F (37.7° C); HR 100; RR 14; BP 150/70; pulse oximetry reading 93% on FiO<sub>2</sub> 60%; drowsy, &minus;1 on sedation scale.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client was admitted to the ICU in respiratory distress after minimal response to high-flow oxygen for a pulse oximetry reading of 83% on room air. Crackles heard bilaterally in lower lobes with diminished breath sounds in right middle lobe; S1 S2 auscultated; bowel sounds positive in all 4 quadrants; skin warm, dry, and intact. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 30 breaths/min; BP 168/90 mm Hg; pulse oximetry reading 87% on 100% non-rebreather mask; pain 0/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client was intubated with a #6 endotracheal tube and placed on assist-control mechanical ventilation, rate 14, PEEP 5 cm H<sub>2</sub>O, FiO<sub>2</sub> 60%. VS: T 99.8° F (37.7° C); HR 110 beats/min; RR 14 breaths/min; BP 180/90 mm Hg; pulse oximetry reading 96% on FiO<sub>2</sub> 60%. Client is restless.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Chest X-ray obtained. IV placed and midazolam given. ECG shows sinus tachycardia. VS: T 99.8° F (37.7° C); HR 100 beats/min; RR 14 breaths/min; BP 150/70 mm Hg; pulse oximetry reading 93% on FiO<sub>2</sub> 60%; drowsy, &minus;1 on sedation scale.</span></p>"
           },
           {
             "id": "labs_1790776800002",
@@ -379,5 +379,5 @@
   "disorder": "Others",
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County. Acute respiratory failure (medical-surgical): a 78-year-old client in the ICU with pneumonia progresses to intubation and mechanical ventilation.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

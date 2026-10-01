@@ -34,7 +34,7 @@
         "explanation": "Adult cardiomyocytes are permanent cells with minimal to no regenerative or mitotic capacity. In response to chronic mechanical pressure overload (such as high systemic vascular resistance in hypertension), cardiomyocytes adapt via hypertrophy—enlargement of individual cell volume driven by accelerated transcription of structural genes, increased protein synthesis, and assembly of additional sarcomeric myofilaments to normalize ventricular wall tension (Laplace's Law). Hyperplasia cannot occur because mature cardiomyocytes cannot undergo mitotic replication."
       },
       "leftContent": {
-        "intro": "A 62-year-old client with untreated primary hypertension (office blood pressures consistently 168/98 to 174/102 mmHg) presents for cardiovascular risk evaluation.",
+        "intro": "A 62-year-old client with untreated primary hypertension (office blood pressures consistently 168/98 to 174/102 mm Hg) presents for cardiovascular risk evaluation.",
         "tabs": [
           {
             "id": "tab_u2_3_echo",
@@ -44,5 +44,6 @@
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

@@ -109,7 +109,7 @@
           {
             "id": "nn_1784060000007",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client admitted with increased irritability and a leaking gastrostomy feeding tube, which was placed 2 weeks ago for failure to thrive. The feeding tube insertion site, which is on the left side of the abdomen, is covered with a dressing that is saturated with old formula. On removal of the dressing, the skin surrounding the feeding tube site is erythematous and flaking, and the feeding tube is loose. At the insertion site, a small amount of thick, yellow drainage is noted. Peripheral pulses are weak. Extremities are cool to the touch. Capillary refill is 3 seconds. Client is intermittently pulling at the tube and scratching at the site. Parent reports giving the client acetaminophen last night before bedtime, but the client was still intermittently waking and irritable throughout the night. Parent attempted to feed the client through the feeding tube 8 hours ago. Vital signs: temporal T 100.6° F (38.1° C), P 171, RR 42, BP 74/62, pulse oximetry reading 97% on room air. Parent has a history of a penicillin allergy.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client admitted with increased irritability and a leaking gastrostomy feeding tube, which was placed 2 weeks ago for failure to thrive. The feeding tube insertion site, which is on the left side of the abdomen, is covered with a dressing that is saturated with old formula. On removal of the dressing, the skin surrounding the feeding tube site is erythematous and flaking, and the feeding tube is loose. At the insertion site, a small amount of thick, yellow drainage is noted. Peripheral pulses are weak. Extremities are cool to the touch. Capillary refill is 3 seconds. Client is intermittently pulling at the tube and scratching at the site. Parent reports giving the client acetaminophen last night before bedtime, but the client was still intermittently waking and irritable throughout the night. Parent attempted to feed the client through the feeding tube 8 hours ago. Vital signs: temporal T 100.6° F (38.1° C), P 171 beats/min, RR 42 breaths/min, BP 74/62 mm Hg, pulse oximetry reading 97% on room air. Parent has a history of a penicillin allergy.</span></p>"
           }
         ],
         "intro": "The nurse in the pediatric unit is caring for a 6-month-old client."
@@ -117,5 +117,6 @@
     }
   ],
   "disorder": "Unit 6 (Gastrointestinal Disorders)",
-  "isStandalone": true
+  "isStandalone": true,
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

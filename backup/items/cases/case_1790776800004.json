@@ -18,11 +18,11 @@
             "correct": false
           },
           {
-            "text": "HR 104",
+            "text": "HR 104 beats/min",
             "correct": false
           },
           {
-            "text": "BP 136/74",
+            "text": "BP 136/74 mm Hg",
             "correct": false
           },
           {
@@ -113,7 +113,7 @@
               ]
             },
             {
-              "text": "HR 104",
+              "text": "HR 104 beats/min",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -521,5 +521,5 @@
   "disorder": "Others",
   "description": "Maryland Next Gen NCLEX Test Bank Project, May 14, 2023; Authors: Kimberly Allen, Stephanie Howard, Lisa Seldomridge, Salisbury University. Breast cancer: a client with pancytopenia after chemotherapy presents with right-arm lymphedema after a radical mastectomy; cellulitis and DVT are ruled out, and the nurse plans care and discharge teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

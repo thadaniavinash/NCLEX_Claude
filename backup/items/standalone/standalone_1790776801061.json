@@ -88,7 +88,7 @@
           {
             "id": "nn_umd06b",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110; RR 22; BP 160/90; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35.</span></p>"
           }
         ],
         "intro": "A 60-year-old male client is admitted to the emergency department with chest pain."
@@ -99,5 +99,5 @@
   "description": "Stand-alone bow-tie for University of Maryland - CS6 (chest pain, myocardial infarction).",
   "availability": "all",
   "isStandalone": true,
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }

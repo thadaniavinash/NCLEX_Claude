@@ -18,7 +18,7 @@
             "correct": true
           },
           {
-            "text": "Prepare to initiate prescribed continuous norepinephrine vasopressor infusion to maintain Mean Arterial Pressure (MAP) ≥ 65 mmHg",
+            "text": "Prepare to initiate prescribed continuous norepinephrine vasopressor infusion to maintain Mean Arterial Pressure (MAP) ≥ 65 mm Hg",
             "correct": true
           },
           {
@@ -39,7 +39,7 @@
           }
         ],
         "preamble": "The rapid response team nurse is analyzing consecutive laboratory and hemodynamic values over a 6-hour interval.",
-        "explanation": "The client's trend demonstrates worsening septic shock with progressive cellular hypoxia and anaerobic metabolism: lactate has climbed from 2.4 to 6.2 mmol/L, arterial pH has dropped into severe metabolic acidosis (7.21), MAP has deteriorated to 55 mmHg, and urine output has dropped to oliguric levels (12 mL/hr). Immediate resuscitation requires aggressive IV crystalloids, broad-spectrum IV antibiotics, vasopressors (norepinephrine) to sustain MAP >= 65 mmHg, and serial lactate clearance monitoring. Oral intake is contraindicated due to shock and peritonitis, and oral potassium is contraindicated with rising potassium and renal hypoperfusion."
+        "explanation": "The client's trend demonstrates worsening septic shock with progressive cellular hypoxia and anaerobic metabolism: lactate has climbed from 2.4 to 6.2 mmol/L, arterial pH has dropped into severe metabolic acidosis (7.21), MAP has deteriorated to 55 mm Hg, and urine output has dropped to oliguric levels (12 mL/hr). Immediate resuscitation requires aggressive IV crystalloids, broad-spectrum IV antibiotics, vasopressors (norepinephrine) to sustain MAP >= 65 mm Hg, and serial lactate clearance monitoring. Oral intake is contraindicated due to shock and peritonitis, and oral potassium is contraindicated with rising potassium and renal hypoperfusion."
       },
       "leftContent": {
         "intro": "A 58-year-old client with perforated diverticulitis is monitored in the progressive care unit awaiting emergency surgical intervention.",
@@ -47,7 +47,7 @@
           {
             "id": "tab_u1_7_vitals",
             "title": "Vital Signs Trend",
-            "content": "<table class='nclex-editor-table'><thead><tr><th></th><th>0800</th><th>1100</th><th>1400</th></tr></thead><tbody><tr><td>Blood Pressure (mmHg)</td><td>110/68 (MAP 82)</td><td>94/56 (MAP 69)</td><td>78/44 (MAP 55)</td></tr><tr><td>Heart Rate (bpm)</td><td>98 beats/min</td><td>116 beats/min</td><td>132 beats/min</td></tr><tr><td>Respiratory Rate (/min)</td><td>20 breaths/min</td><td>24 breaths/min</td><td>30 breaths/min</td></tr><tr><td>Hourly Urine Output</td><td>45 mL/hr</td><td>28 mL/hr</td><td>12 mL/hr</td></tr></tbody></table>"
+            "content": "<table class='nclex-editor-table'><thead><tr><th></th><th>0800</th><th>1100</th><th>1400</th></tr></thead><tbody><tr><td>Blood Pressure (mm Hg)</td><td>110/68 (MAP 82)</td><td>94/56 (MAP 69)</td><td>78/44 (MAP 55)</td></tr><tr><td>Heart Rate (bpm)</td><td>98 beats/min</td><td>116 beats/min</td><td>132 beats/min</td></tr><tr><td>Respiratory Rate (/min)</td><td>20 breaths/min</td><td>24 breaths/min</td><td>30 breaths/min</td></tr><tr><td>Hourly Urine Output</td><td>45 mL/hr</td><td>28 mL/hr</td><td>12 mL/hr</td></tr></tbody></table>"
           },
           {
             "id": "tab_u1_7_labs",
@@ -58,5 +58,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-01T23:05:05.131Z"
 }
