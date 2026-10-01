@@ -147,7 +147,7 @@ RANGE = r"(?:\s*(?:–|-|to)\s*\d{2,3})?"
 P_LABEL = r"\b(?:HR|[Pp]ulse(?: rate)?|[Hh]eart rate|[Aa]pical pulse|[Rr]adial pulse)"
 RR_LABEL = r"\b(?:RR|[Rr]espiratory rate|[Rr]espirations|[Rr]esp(?:iratory)? rate)"
 BP_LABEL = r"\b(?:BP|B/P|[Bb]lood pressure)"
-NO_UNIT = r"(?!\s*(?:beats|breaths|[Bb][Pp][Mm]|/|%|mm|\.\d|[–-]\s*\d|\d|s\b|x\b|×|times|°))"
+NO_UNIT = r"(?!\s*(?:beats|breaths|[Bb][Pp][Mm]|/|%|mm|\.\d|[–-]\s*\d|to\s+\d|\d|s\b|x\b|×|times|°))"
 BRACE_END = r"(?=[\s,;.)|}<]|$)"
 
 
