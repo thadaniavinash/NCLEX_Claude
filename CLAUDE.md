@@ -303,6 +303,12 @@ Done (authoring, September 2026):
   `drafts/lab_reference_ranges.md`; reviewed and approved by the user as final). User decision: SI
   units only (Canada); MCC's few non-SI values (blood gases mm Hg, BNP pg/mL, …) kept as MCC prints them. mcc.ca blocks plain
   downloads from this container (Cloudflare/nginx 403); the WebFetch tool reaches it.
+  Vital Signs values (October 2026, user decision): type only the number; leaving the cell (Tab, click, or
+  leaving the text box) adds the unit, and a faint unit shows after the text while typing (editor only):
+  T "38.2° C" (user's format; Celsius values 25–45 only), P "112 beats/min", RR "24 breaths/min", BP
+  "142/88 mm Hg", SpO2 "94%". Recognized by the row label (or column header): T/Temp, P/HR/Pulse, RR/Resp,
+  BP, SpO2/Pulse oximetry. Only a cell holding just the number changes; Ctrl+Z undoes it
+  (`VITAL_UNITS`, `addVitalUnit`, `showVitalUnitHint` in `js/table-tools.js`; existing tables untouched).
   **No markers for new entries (user decision): on the NCLEX nothing new is highlighted; the nurse reads
   the whole chart.**
 - More room for chart text: narrower screen list (152px); a drag handle between the chart and question

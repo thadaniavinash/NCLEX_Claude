@@ -350,11 +350,14 @@ function updateTableTools() {
 function updateTableCellHint(cell) {
   const hint = document.getElementById('table-cell-hint');
   if (!hint) return;
+  if (showVitalUnitHint(cell, hint)) return;
   const text = cell && (cell.getAttribute('placeholder') || '').trim();
   if (!text || /^(cell|header(\s*\d+)?)$/i.test(text) || cell.textContent.trim()) {
     hint.classList.add('hidden');
     return;
   }
+  hint.classList.remove('is-unit');
+  hint.style.fontSize = hint.style.lineHeight = '';
   const rect = cell.getBoundingClientRect();
   const cs = getComputedStyle(cell);
   hint.textContent = text;
@@ -368,6 +371,94 @@ function updateTableCellHint(cell) {
 }
 
 /* ---- Keyboard: Tab / Shift+Tab between cells, Tab in the last cell adds a row, Enter = line break ---- */
+
+/* ---- Vital signs: the unit is added when the author leaves a cell holding just a number ----
+   Row (or column) labels name the vital sign; "38.2" in the T row becomes "38.2° C" (user's format),
+   "112" in P "112 beats/min", "24" in RR "24 breaths/min", "142/88" in BP "142/88 mm Hg", "94" in SpO2
+   "94%". Cells holding anything else ("38.2° C", "94% on 2 L/min", "refused") are left alone, so a unit
+   is never doubled. While the cursor is in such a cell, a faint unit shows after the text (editor only). */
+
+const VITAL_UNITS = [
+  { test: l => /spo\s*2|sp\s*o2|pulse ox|oxygen sat|o2 sat|sao2/.test(l), value: /^\d{2,3}$/, unit: '%', hint: '%' },
+  { test: l => /^(bp|blood pressure|b\/p|nibp)$/.test(l), value: /^\d{2,3}\s*\/\s*\d{2,3}$/, unit: ' mm Hg', hint: 'mm Hg' },
+  { test: l => /^(rr|r|resp|resps|respirations|respiratory rate|respiration rate)$/.test(l), value: /^\d{1,3}$/, unit: ' breaths/min', hint: 'breaths/min' },
+  { test: l => /^(p|hr|pulse|pulse rate|heart rate|apical pulse|radial pulse)$/.test(l), value: /^\d{2,3}$/, unit: ' beats/min', hint: 'beats/min' },
+  { test: l => /^(t|temp|temperature)$/.test(l), value: /^(2[5-9]|3\d|4[0-5])(\.\d{1,2})?$/, unit: '° C', hint: '° C' } // Celsius range only (98.6 is left alone)
+];
+
+function vitalLabel(cell) {
+  if (!cell) return '';
+  const text = cell.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+  return text.replace(/[.:]+$/, '').replace(/\s*\((?!.*sp\s*o).*\)$/, '').trim();
+}
+
+// The vital sign a value cell belongs to: its row's first cell, otherwise its column's header cell.
+function vitalUnitForCell(cell) {
+  if (!cell || cell.tagName !== 'TD' || cell.cellIndex < 1) return null;
+  const table = cell.closest('table');
+  if (!table || isLabTable(table)) return null;
+  const rowLabel = vitalLabel(cell.parentElement.cells[0]);
+  const colLabel = vitalLabel(table.rows[0] && table.rows[0] !== cell.parentElement ? table.rows[0].cells[cell.cellIndex] : null);
+  return VITAL_UNITS.find(v => v.test(rowLabel)) || VITAL_UNITS.find(v => v.test(colLabel)) || null;
+}
+
+function plainCellText(cell) {
+  return cell.textContent.replace(/ /g, ' ').trim();
+}
+
+// Adds the unit to a value cell the author is leaving. Returns true when it changed the cell.
+function addVitalUnit(cell) {
+  if (!cell || !cell.isConnected) return false;
+  const vital = vitalUnitForCell(cell);
+  const value = vital && plainCellText(cell);
+  if (!value || !vital.value.test(value)) return false;
+  const editor = cell.closest('[contenteditable="true"]');
+  const tidy = value.replace(/\s*\/\s*/, '/');
+  // The last text node gets the unit, so any formatting on the number is kept.
+  const walker = document.createTreeWalker(cell, NodeFilter.SHOW_TEXT);
+  let last = null;
+  for (let n = walker.nextNode(); n; n = walker.nextNode()) if (n.data.trim()) last = n;
+  if (!last) return false;
+  const sel = window.getSelection();
+  if (editor && editor.contains(document.activeElement) && sel.rangeCount && typeof richCommand === 'function'
+      && tidy === value) {
+    // Typed in at the end of the cell so Ctrl+Z takes it back; the cursor then returns where it was.
+    const back = sel.getRangeAt(0).cloneRange();
+    const r = document.createRange();
+    r.setStart(last, last.data.replace(/\s+$/, '').length);
+    r.collapse(true);
+    sel.removeAllRanges();
+    sel.addRange(r);
+    richCommand('insertText', vital.unit);
+    if (back.startContainer.isConnected) { sel.removeAllRanges(); sel.addRange(back); }
+  } else {
+    last.data = last.data.replace(value, tidy).replace(/\s+$/, '') + vital.unit;
+    notifyTableEdited(editor);
+  }
+  return true;
+}
+
+// Faint unit after the text (or at the start of an empty cell) while the cursor is in a value cell.
+function showVitalUnitHint(cell, hint) {
+  const vital = vitalUnitForCell(cell);
+  const value = vital && plainCellText(cell);
+  if (!vital || (value && !vital.value.test(value))) return false;
+  const rect = cell.getBoundingClientRect();
+  const cs = getComputedStyle(cell);
+  let left = rect.left + parseFloat(cs.paddingLeft) + 2;
+  if (value) {
+    const r = document.createRange();
+    r.selectNodeContents(cell);
+    const rects = Array.from(r.getClientRects()).filter(x => x.width > 0);
+    if (rects.length) left = rects[rects.length - 1].right + (vital.unit.startsWith(' ') ? 4 : 1);
+  }
+  hint.textContent = vital.hint;
+  hint.classList.remove('on-header');
+  hint.classList.add('is-unit');
+  Object.assign(hint.style, { left: `${left}px`, top: `${rect.top + parseFloat(cs.paddingTop)}px`, maxWidth: 'none', fontSize: cs.fontSize, lineHeight: cs.lineHeight });
+  hint.classList.remove('hidden');
+  return true;
+}
 
 /* ---- Laboratory results: reference range filled in from LAB_REFERENCE_RANGES (js/lab-ranges.js) ---- */
 
@@ -392,11 +483,18 @@ function fillLabReferenceRange(cell) {
   return true;
 }
 
+// The cell the cursor was last in; when the cursor leaves it (click, arrow keys, another box), it gets
+// its lab reference range or vital-sign unit.
 let labCellWithCursor = null;
+let leavingCell = false;
 function trackLabCell() {
+  if (leavingCell) return;
   const cell = currentEditableCell();
-  if (labCellWithCursor && labCellWithCursor !== cell && labCellWithCursor.isConnected) fillLabReferenceRange(labCellWithCursor);
-  labCellWithCursor = cell && cell.cellIndex === 0 && isLabTable(cell.closest('table')) ? cell : null;
+  if (labCellWithCursor && labCellWithCursor !== cell && labCellWithCursor.isConnected) {
+    leavingCell = true;
+    try { fillLabReferenceRange(labCellWithCursor) || addVitalUnit(labCellWithCursor); } finally { leavingCell = false; }
+  }
+  labCellWithCursor = cell && ((cell.cellIndex === 0 && isLabTable(cell.closest('table'))) || vitalUnitForCell(cell)) ? cell : null;
 }
 
 function handleTableKeydown(e) {
@@ -414,7 +512,10 @@ function handleTableKeydown(e) {
   }
   e.preventDefault();
   e.stopPropagation(); // not the free-text notes Tab handler
-  fillLabReferenceRange(cell); // leaving a lab test name: add its reference range
+  // Leaving a lab test name adds its reference range; leaving a vital-sign value adds its unit.
+  leavingCell = true;
+  try { fillLabReferenceRange(cell) || addVitalUnit(cell); } finally { leavingCell = false; }
+  labCellWithCursor = null;
   const table = cell.closest('table');
   const cells = Array.from(table.querySelectorAll('th, td')).filter(c => c.closest('table') === table);
   const i = cells.indexOf(cell);
@@ -432,6 +533,16 @@ function initTableTools() {
   ensureTableToolsElements();
   document.addEventListener('selectionchange', updateTableTools);
   document.addEventListener('selectionchange', trackLabCell);
+  // Leaving the text box: finish the cell before the editor's own blur handling redraws the tab.
+  // (blur, captured: it comes before the editor's blur handler and before focusout.)
+  document.addEventListener('blur', e => {
+    const cell = labCellWithCursor;
+    if (cell && cell.isConnected && e.target instanceof Element && e.target.contains(cell) && !e.target.contains(e.relatedTarget)) {
+      leavingCell = true;
+      try { fillLabReferenceRange(cell) || addVitalUnit(cell); } finally { leavingCell = false; }
+      labCellWithCursor = null;
+    }
+  }, true);
   document.addEventListener('focusout', () => setTimeout(trackLabCell, 0));
   document.addEventListener('input', () => updateTableTools());
   document.addEventListener('keydown', handleTableKeydown, true);

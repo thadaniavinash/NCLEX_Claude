@@ -6418,6 +6418,7 @@ html:not([data-theme="dark"]) #editor-view.with-preview .pane-left { border-bott
 }
 
 .table-cell-hint.on-header { color: rgba(255, 255, 255, 0.7); }
+.table-cell-hint.is-unit { font-style: normal; color: #94a3b8; }
 
 @media (pointer: coarse) {
   .table-tools-bar button { min-height: var(--touch-target); }
