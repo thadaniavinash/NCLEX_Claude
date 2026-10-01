@@ -6694,6 +6694,35 @@ html:not([data-theme="dark"]) .rich-editor-container > .rich-editor-toolbar { ba
   cursor: pointer;
 }
 .symbol-menu button:hover, .symbol-menu button:focus-visible { background: var(--surface-selected); border-color: var(--brand-sky); outline: none; }
+/* Lists menu (bullet / numbered), opened from the toolbar's list button (openListMenu) */
+.list-menu {
+  position: fixed;
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  padding: var(--space-1);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+}
+.list-menu button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-2) var(--space-3);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--text);
+  font-size: var(--fs-body-sm);
+  text-align: left;
+  cursor: pointer;
+}
+.list-menu button:hover, .list-menu button:focus-visible { background: var(--surface-selected); outline: none; }
+.list-menu kbd { font-family: inherit; font-size: var(--fs-xs); color: var(--text-muted); }
 .note-entry-warn { margin: 0; font-size: var(--fs-xs); color: var(--warning-text); }
 html[data-theme="dark"] .note-entry-warn { color: var(--warning); }
 

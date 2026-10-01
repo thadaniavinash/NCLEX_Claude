@@ -738,6 +738,13 @@ function updateToolbarStates(editor) {
       // queryCommandState might fail for some commands
     }
   });
+  // The lists menu button shows as active while the cursor is in a list.
+  const lists = toolbar.querySelector('.list-menu-btn');
+  if (lists) {
+    let inList = false;
+    try { inList = document.queryCommandState('insertUnorderedList') || document.queryCommandState('insertOrderedList'); } catch (e) { /* ignore */ }
+    lists.classList.toggle('active', inList);
+  }
 }
 
 function initRichTextEditors() {
@@ -793,6 +800,8 @@ function initRichTextEditors() {
       return;
     } else if (btn.classList.contains('symbol-menu-btn')) {
       openSymbolMenu(btn, editor);
+      return;} else if (btn.classList.contains('list-menu-btn')) {
+      openListMenu(btn, editor);
       return;
     }
     

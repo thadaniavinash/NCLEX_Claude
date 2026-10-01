@@ -385,7 +385,7 @@ function setEditorDirty(dirty) {
 }
 
 // Clicks that only change what is shown, not the content.
-const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, #editor-pane-divider, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn, #editor-more-btn, #editor-more-menu button, #editor-desc-btn, #editor-ready-btn, #editor-ready-pop button, .editor-modal-overlay button';
+const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, .list-menu-btn, #editor-pane-divider, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn, #editor-more-btn, #editor-more-menu button, #editor-desc-btn, #editor-ready-btn, #editor-ready-pop button, .editor-modal-overlay button';
 
 // The chart pane's share of the width (per browser, remembered): drag the divider, arrow keys move
 // it by 5%, double-click resets to half and half.

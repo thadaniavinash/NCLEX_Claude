@@ -137,7 +137,7 @@ function toggleExpandedEditor(container, force) {
    adds the same extra buttons to each, including toolbars created later (see initRichTextExtras). */
 
 const CLINICAL_SYMBOLS = ['°', '°C', '°F', '±', '×', '÷', '≈', '≠', '<', '>', '≤', '≥', '↑', '↓', '→', '←',
-  'µ', '²', '³', '½', '¼', '¾', '‰', '♀', '♂', '✓', '•', '–', '—'];
+  'µ', '²', '³', '½', '¼', '¾', '%', '♀', '♂', '✓', '•', '–', '—'];
 
 function toolbarButton(html, attrs) {
   const btn = document.createElement('button');
@@ -157,9 +157,16 @@ function enhanceToolbar(toolbar) {
     const underline = toolbarButton('<u>U</u>', { 'data-cmd': 'underline', title: 'Underline (Ctrl+U)', 'aria-label': 'Underline' });
     bold.after(italic, underline);
   }
-  const lastSymbol = Array.from(toolbar.querySelectorAll('.btn-symbol')).pop();
-  const symbols = toolbarButton('&Omega;&#9662;', { class: 'toolbar-btn symbol-menu-btn', title: 'More symbols (± × ↑ ↓ µ ² …)', 'aria-label': 'More symbols', 'aria-haspopup': 'true' });
-  if (lastSymbol) lastSymbol.after(symbols); else toolbar.appendChild(symbols);
+  const lastScript = toolbar.querySelector('[data-cmd="subscript"]');
+  const symbols = toolbarButton('&Omega;&#9662;', { class: 'toolbar-btn symbol-menu-btn', title: 'Symbols (° ≤ ≥ ± × ↑ ↓ µ ² …)', 'aria-label': 'Symbols', 'aria-haspopup': 'true' });
+  if (lastScript) lastScript.after(symbols); else toolbar.appendChild(symbols);
+  // Bullet and numbered lists share one menu button, placed where the two list buttons were.
+  const listButtons = toolbar.querySelectorAll('[data-cmd="insertUnorderedList"], [data-cmd="insertOrderedList"]');
+  if (listButtons.length) {
+    const lists = toolbarButton('&#8801;&#9662;', { class: 'toolbar-btn list-menu-btn', title: 'Lists (bullet or numbered)', 'aria-label': 'Lists', 'aria-haspopup': 'true' });
+    listButtons[0].before(lists);
+    listButtons.forEach(b => b.remove());
+  }
   const extras = [
     toolbarButton('<span aria-hidden="true">T&#x338;</span>', { 'data-cmd': 'removeFormat', title: 'Clear formatting of the selected text', 'aria-label': 'Clear formatting' }),
     toolbarButton('&#8630;', { 'data-cmd': 'undo', title: 'Undo (Ctrl+Z)', 'aria-label': 'Undo' }),
@@ -193,13 +200,46 @@ function openSymbolMenu(button, editor) {
   });
 }
 
+const LIST_MENU_ITEMS = [
+  { cmd: 'insertUnorderedList', label: '&bull;&nbsp; Bullet list', keys: 'Ctrl+Shift+8' },
+  { cmd: 'insertOrderedList', label: '1.&nbsp; Numbered list', keys: 'Ctrl+Shift+7' }
+];
+
+function openListMenu(button, editor) {
+  closeSymbolMenu();
+  const sel = window.getSelection();
+  const savedRange = sel.rangeCount && editor.contains(sel.getRangeAt(0).commonAncestorContainer) ? sel.getRangeAt(0).cloneRange() : null;
+  const menu = document.createElement('div');
+  menu.id = 'list-menu';
+  menu.className = 'list-menu';
+  menu.setAttribute('role', 'menu');
+  menu.innerHTML = LIST_MENU_ITEMS.map(i => `<button type="button" role="menuitem" data-list-cmd="${i.cmd}">${i.label}<kbd>${i.keys}</kbd></button>`).join('');
+  document.body.appendChild(menu);
+  const rect = button.getBoundingClientRect();
+  menu.style.top = `${rect.bottom + 4}px`;
+  menu.style.left = `${Math.max(8, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 8))}px`;
+  menu.addEventListener('mousedown', e => e.preventDefault());
+  menu.addEventListener('click', e => {
+    const b = e.target.closest('[data-list-cmd]');
+    if (!b) return;
+    editor.focus();
+    if (savedRange) { const s = window.getSelection(); s.removeAllRanges(); s.addRange(savedRange); }
+    richCommand(b.dataset.listCmd);
+    closeSymbolMenu();
+    if (typeof updateToolbarStates === 'function') updateToolbarStates(editor);
+  });
+  menu.querySelector('button').focus({ preventScroll: true });
+}
+
 function closeSymbolMenu() {
+  const lists = document.getElementById('list-menu');
+  if (lists) lists.remove();
   const menu = document.getElementById('symbol-menu');
   if (menu) menu.remove();
 }
 
 document.addEventListener('mousedown', e => {
-  if (!e.target.closest('#symbol-menu') && !e.target.closest('.symbol-menu-btn')) closeSymbolMenu();
+  if (!e.target.closest('#symbol-menu, #list-menu') && !e.target.closest('.symbol-menu-btn, .list-menu-btn')) closeSymbolMenu();
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSymbolMenu(); });
 

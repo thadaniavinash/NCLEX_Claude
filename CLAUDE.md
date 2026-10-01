@@ -289,7 +289,8 @@ Done (authoring, September 2026):
   the tab switches to free text with every entry kept and the table goes after the entry with the
   cursor (`tableInsertTarget`); new empty tables carry forward like any entry.
 - Tab-filling helpers: every formatting toolbar also has Italic, Underline, a clinical symbols menu
-  (± × ↑ ↓ µ ² …), Clear formatting and Undo/Redo (`enhanceToolbar` in `js/rich-text.js`, added to
+  (Ω▾: ° ≤ ≥ ± × ↑ ↓ µ ² % …; the separate °/≥/≤ buttons were removed, October 2026), one Lists menu
+  (≡▾: bullet / numbered, `openListMenu`), Clear formatting and Undo/Redo (`enhanceToolbar` in `js/rich-text.js`, added to
   toolbars created later too) and stays in view while scrolling (sticky). Pasting several "0800 text"
   lines into a timed entry makes one entry each (`handleNoteRowsPaste`). An entry whose time is earlier
   than the one above gets a gentle warning (with the "Day 2" hint), and the next time box suggests

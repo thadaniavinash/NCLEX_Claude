@@ -287,9 +287,6 @@ function renderHighlightConfigurator(q, box) {
           <button type="button" class="toolbar-btn" data-cmd="bold" title="Bold"><b>B</b></button>
           <button type="button" class="toolbar-btn" data-cmd="superscript" title="Superscript">x<sup>2</sup></button>
           <button type="button" class="toolbar-btn" data-cmd="subscript" title="Subscript">x<sub>2</sub></button>
-          <button type="button" class="toolbar-btn btn-symbol" data-symbol="&deg;" title="Degree Symbol">&deg;</button>
-          <button type="button" class="toolbar-btn btn-symbol" data-symbol="&ge;" title="Greater Than or Equal to">&ge;</button>
-          <button type="button" class="toolbar-btn btn-symbol" data-symbol="&le;" title="Less Than or Equal to">&le;</button>
           <button type="button" class="toolbar-btn" data-cmd="insertUnorderedList" title="Bullet List">&bull; List</button>
           <button type="button" class="toolbar-btn" data-cmd="insertOrderedList" title="Numbered List">1. List</button>
           <button type="button" class="toolbar-btn table-insert-btn" title="Insert Table">
