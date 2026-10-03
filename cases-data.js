@@ -27641,7 +27641,7 @@ window.NCLEX_STANDALONE = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse is providing care to a client recently admitted with severe extensive second- and third-degree thermal burns covering 45% total body surface area (TBSA). Which acute pathophysiologic and laboratory findings should the nurse anticipate during the emergent resuscitation phase (first 24 to 48 hours)? <b>Select all that apply.</b>",
+          "stem": "The nurse is providing care to a client recently admitted with severe extensive partial thickness and full thickness thermal burns covering 45% total body surface area (TBSA). Which acute pathophysiologic and laboratory findings should the nurse anticipate during the emergent resuscitation phase (first 24 to 48 hours)? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -27670,21 +27670,32 @@ window.NCLEX_STANDALONE = [
             }
           ],
           "preamble": "The burn intensive care unit nurse is reviewing admission pathophysiology and initial laboratory panels for an adult trauma client with extensive thermal injury.",
-          "explanation": "During the emergent phase of major burn injury (> 20% TBSA), intense systemic inflammatory mediator release (histamine, bradykinin, prostaglandins, cytokines) causes generalized capillary hyperpermeability, allowing massive leakage of plasma proteins and intravascular fluid into interstitial spaces (third-spacing). This leads to burn shock: severe intravascular hypovolemia, decreased venous return, diminished cardiac output, and lactic acidosis from tissue hypoperfusion. Cellular destruction and tissue necrosis release intracellular potassium into circulation, causing acute hyperkalemia. Relative loss of plasma water causes hemoconcentration with an elevated hematocrit. Intravascular volume is markedly depleted, not expanded."
+          "explanation": "During the emergent phase of major burn injury (&gt; 20% TBSA), intense systemic inflammatory mediator release (histamine, bradykinin, prostaglandins, cytokines) causes generalized capillary hyperpermeability, allowing massive leakage of plasma proteins and intravascular fluid into interstitial spaces (third-spacing). This leads to burn shock: severe intravascular hypovolemia, decreased venous return, diminished cardiac output, and lactic acidosis from tissue hypoperfusion. Cellular destruction and tissue necrosis release intracellular potassium into circulation, causing acute hyperkalemia. Relative loss of plasma water causes hemoconcentration with an elevated hematocrit. Intravascular volume is markedly depleted, not expanded."
         },
         "leftContent": {
           "intro": "A 36-year-old client is admitted to the burn trauma center 90 minutes after escaping a residential fire, sustaining mixed partial- and full-thickness burns to the anterior torso and bilateral lower extremities (45% TBSA).",
           "tabs": [
             {
+              "id": "tab_1790967719411",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">132 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">85/52 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% (100% oxygen (high-flow) via a non-rebreathing face)</td></tr></tbody></table><p><br></p>"
+            },
+            {
+              "id": "tab_1790967927483",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Time, e.g. 0900\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th></tr></thead><tbody><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.56 L/L</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.9 mmol/L</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">131 mmol/L</td></tr><tr><td placeholder=\"Test name, then Enter for the reference range\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr></tbody></table><p><br></p>"
+            },
+            {
               "id": "tab_u5_1_labs",
               "title": "Emergent Labs & Vitals",
-              "content": "<table class='nclex-editor-table'><thead><tr><th>Parameter</th><th>Result</th><th>Reference Range</th></tr></thead><tbody><tr><td>Blood Pressure</td><td><strong>86/52 mm Hg</strong></td><td>100–120 / 60–80 mm Hg</td></tr><tr><td>Heart Rate</td><td><strong>132 beats/min</strong></td><td>60–100 beats/min</td></tr><tr><td>Hematocrit</td><td><strong>56%</strong></td><td>38–48%</td></tr><tr><td>Serum Potassium</td><td><strong>5.9 mEq/L</strong></td><td>3.5–5.0 mEq/L</td></tr><tr><td>Serum Sodium</td><td>131 mEq/L</td><td>135–145 mEq/L</td></tr><tr><td>Arterial Lactate</td><td><strong>4.2 mmol/L</strong></td><td>0.5–2.2 mmol/L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\"><thead><tr><th>Parameter</th><th>Result</th><th>Reference Range</th></tr></thead><tbody><tr><td>Blood Pressure</td><td><strong>86/52 mm Hg</strong></td><td>100–120 / 60–80 mm Hg</td></tr><tr><td>Heart Rate</td><td><strong>132 beats/min</strong></td><td>60–100 beats/min</td></tr><tr><td>Hematocrit</td><td><strong>56%</strong></td><td>38–48%</td></tr><tr><td>Serum Potassium</td><td><strong>5.9 mEq/L</strong></td><td>3.5–5.0 mEq/L</td></tr><tr><td>Serum Sodium</td><td>131 mEq/L</td><td>135–145 mEq/L</td></tr><tr><td>Arterial Lactate</td><td><strong>4.2 mmol/L</strong></td><td>0.5–2.2 mmol/L</td></tr></tbody></table>"
             }
           ]
         }
       }
     ],
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-02T19:12:50.584Z",
+    "description": ""
   },
   {
     "id": "standalone_1783050000002",
