@@ -331,7 +331,7 @@ function renderAuthorTable(kind) {
         <div class="author-scenario-title">${escapeHTML(title)}</div>
         <div class="author-scenario-desc">${escapeHTML(item.description || 'No description.')}</div>
         ${readinessReasons(item)}
-        <span class="author-scenario-id card-id-badge" data-id="${escapeHTML(item.id)}" title="Click to copy direct LMS link for students"><svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-1px; margin-right:3px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>ID: ${escapeHTML(item.id)}</span>
+        <span class="author-scenario-id card-id-badge" data-id="${escapeHTML(item.id)}" title="Share with students: practice or exam link and QR code"><svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-1px; margin-right:3px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>ID: ${escapeHTML(item.id)}</span>
       </td>
       <td>${courseBadge}</td>
       <td>${unitBadge}</td>
@@ -342,6 +342,7 @@ function renderAuthorTable(kind) {
         <div class="author-actions-wrapper">
           ${editable ? `<button class="btn-author-edit" type="button">Edit</button>` : ''}
           <button class="btn-author-launch" type="button">${editable ? 'Launch' : 'Preview'}</button>
+          <button class="btn-author-share" type="button" title="Practice or exam link and QR code for students">Share</button>
           <button class="btn-author-more" type="button" aria-haspopup="menu" aria-expanded="false" aria-label="More actions for ${escapeHTML(title)}" title="More actions">&#8943;</button>
         </div>
       </td>
@@ -350,6 +351,7 @@ function renderAuthorTable(kind) {
     const editBtn = tr.querySelector('.btn-author-edit');
     if (editBtn) editBtn.addEventListener('click', () => startEditor(item));
     tr.querySelector('.btn-author-launch').addEventListener('click', () => startPlayer(item, { source: 'studio' }));
+    tr.querySelector('.btn-author-share').addEventListener('click', () => copyStudentLink(kind, item));
     tr.querySelector('.btn-author-more').addEventListener('click', (e) => {
       e.stopPropagation();
       openAuthorRowMenu(e.currentTarget, kind, item);
@@ -363,13 +365,9 @@ function renderAuthorTable(kind) {
   });
 }
 
-function copyStudentLink(kind, item) {
-  const baseUrl = window.location.protocol.startsWith('http')
-    ? (window.location.origin + window.location.pathname)
-    : 'https://thadaniavinash.github.io/NCLEX/';
-  const directUrl = `${baseUrl}?${AUTHOR_TABLES[kind].linkParam}=${encodeURIComponent(item.id)}`;
-  navigator.clipboard.writeText(directUrl);
-  showToast(`Copied student link for "${escapeHTML(item.title || item.id)}".`);
+// Practice and exam links (with QR codes) for students: js/share-link.js.
+function copyStudentLink(kind, item, opts) {
+  openShareDialog(item, opts);
 }
 
 /* ---- JSON copies on the author's own computer (the database and the daily GitHub backup are the
@@ -420,7 +418,7 @@ function openAuthorRowMenu(button, kind, item) {
 
   const editable = canEditBank();
   const actions = [
-    { label: 'Copy student link', run: () => copyStudentLink(kind, item) },
+    { label: 'Share with students…', run: () => copyStudentLink(kind, item) },
     { label: 'Download JSON', run: () => downloadItemJSON(item) }
   ];
   if (editable) {

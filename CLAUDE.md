@@ -33,7 +33,9 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   `session-builder.js`, `rich-text.js` (text box extras), `table-tools.js` (table toolbar, templates,
   cell hints), `lab-ranges.js` (MCC reference ranges for lab tables), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
   `editor-preview.js`, `highlight-editor.js` (highlight passage authoring), `editor-header.js` (editor top bar), `editor.js`, `player.js`, `scoring.js`, `results.js`,
-  `progress.js` (My progress, browser-only results), `overview.js` (studio Overview), `calculator.js`,
+  `progress.js` (My progress, browser-only results), `attempts.js` (unfinished sessions saved in the browser,
+  link sessions), `share-link.js` (studio "Share with students" dialog; lazy-loads `js/vendor/qrcode.js`,
+  MIT), `overview.js` (studio Overview), `calculator.js`,
   `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
   when the database can't be reached. Read/write it losslessly with `tools/bank.py` (Python) or
@@ -127,8 +129,10 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   `version=eq.<loaded version>` and `Prefer: return=representation`; on conflict, fetch latest, merge this
   page's changes (`mergeBankChanges`), retry. Works without the version column too.
 - Readiness (`isReadyForStudents`, `itemProblems` in `data.js`): items with missing stems, incomplete
-  answer keys or `draft: true` are hidden from students (session builder, direct links); the dashboard
-  shows them in its Status column with the reasons.
+  answer keys or `draft: true` are hidden from the student portal (session builder); the dashboard
+  shows them in its Status column with the reasons. **Links still open them** (user decision, October 2026:
+  the author shares single items with a class before the bank goes live): `?case=<id>` / `?standalone=<id>`,
+  `&mode=test` (or `exam`) for exam conditions, open any item in the bank (`startLinkSession`).
 - `canEditBank()` (`data.js`): the dashboard only offers Create/Edit/Duplicate/Delete to a signed-in admin
   (or on localhost) with the full, database-loaded bank; otherwise it shows a read-only notice.
   `renderSaveStatus()` (`dashboard.js`) shows the real save state in the dashboard and editor headers.
@@ -341,7 +345,22 @@ popover jumps to a screen or clears the draft flag). Right: quiet "Saved · 3 mi
 only for unsaved/failed/offline), ⋯ menu (Download this case (JSON), Copy student link, theme,
 Keyboard shortcuts), then Preview | Save | Launch as one group. Save is greyed while there is nothing
 new (it still works); Ctrl+S saves.
-Suggested next: the guided student flow (C), inside the Practise page of the frame; the student view of
+Done (class links, October 2026; user is not going live yet and gives students one case study link at a
+time): the studio's **Share** button (Question bank row, ⋯ menu, the ID badge, and the editor's ⋯ menu "Share
+with students…") opens a dialog with two links, Practice (default, feedback after each question) and Exam
+(`&mode=test`), Copy buttons and a QR code ("Larger for the projector"). Links always use
+`STUDENT_SITE_URL` (js/state.js) unless the studio itself runs on github.io, so copying on localhost works.
+The dialog says whether the item is hidden from the portal and warns about unfinished items and unsaved
+editor changes. Students' sessions are saved in their browser as they answer (`js/attempts.js`,
+`localStorage.nclex_attempts_v1`, item ids + answers only, dropped when an item's `updatedAt`/screen count
+changes): reopening a link asks "Continue where you left off?" (player-styled `#resume-modal`, separate for
+practice and exam), Quit in a link session goes to `#paused-view` (Continue / Start over), results of a
+link session have no "Back to Practise" (Try again, My progress, Review). Practise-page sessions show a
+"Continue your … session" banner (`#portal-resume`). Quit while reviewing answers returns to the results.
+Sessions launched from the studio or the preview are never saved or recorded.
+The full student flow (two pathways, plan + mock-up at the student-flow artifact) is deferred until the bank
+is larger (user decision).
+Suggested next: the guided student flow (C), inside the Practise page of the frame, once the bank is larger; the student view of
 highlight questions (clearer marking and feedback; mock-up discussed, deferred by the user).
 
 ### Design system (how to style new work)

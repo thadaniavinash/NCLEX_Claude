@@ -21,6 +21,10 @@ const PATHOPHYSIOLOGY_DISORDERS = [
   "Urinary Disorders"
 ];
 
+// Where students open this app (links the studio shares always point here, also when the author works on
+// localhost or a copy of the files).
+const STUDENT_SITE_URL = 'https://thadaniavinash.github.io/NCLEX_Claude/';
+
 const CURRICULUM_COURSES = {
   "NURS 1017": [
     "Unit 1 (Introduction to Pathophysiology)",

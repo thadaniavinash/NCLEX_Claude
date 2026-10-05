@@ -626,8 +626,22 @@ function generateAndStartSession() {
 }
 
 // One session from whole case studies (all their screens, in order) followed by stand-alone questions.
-// Each screen keeps where it came from (caseId/itemId, itemScreen) for My progress.
+// Each screen keeps where it came from (caseId/itemId, itemScreen) for My progress. The session is saved
+// in this browser as the student works (js/attempts.js), so the Practise page can offer to continue it.
 function startCompiledSession(selectedCaseStudies, selectedStandalone, mode) {
+  const compiledCase = buildCompiledSession(selectedCaseStudies, selectedStandalone, mode);
+  clearAttempt('portal');
+  const items = selectedCaseStudies.concat(selectedStandalone).filter(Boolean);
+  startPlayer(compiledCase, {
+    mode: mode,
+    isRemediation: false,
+    allowBacktrack: (mode === 'review'),
+    attemptKey: 'portal',
+    attemptItems: items.map(i => ({ id: i.id, fp: itemFingerprint(i) }))
+  });
+}
+
+function buildCompiledSession(selectedCaseStudies, selectedStandalone, mode) {
   const compiledCase = {
     id: 'compiled_session_' + Date.now(),
     title: mode === 'review' ? 'NCLEX Practice Session' : 'NextGen NCLEX Exam Simulation',
@@ -667,11 +681,7 @@ function startCompiledSession(selectedCaseStudies, selectedStandalone, mode) {
     }
   });
 
-  startPlayer(compiledCase, {
-    mode: mode,
-    isRemediation: false,
-    allowBacktrack: (mode === 'review')
-  });
+  return compiledCase;
 }
 
 // Question types suggested for each clinical judgment step of a new case (the author can change them).

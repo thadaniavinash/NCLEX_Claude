@@ -17,6 +17,9 @@ async function initApp() {
   initEditorEvents();
   initPlayerEvents();
   initResultsEvents();
+  initAttemptSaving();
+  renderStudentBankStatus();
+  initShareDialog();
   initProgressEvents();
   initOverviewEvents();
   initCalculator();
@@ -34,38 +37,27 @@ async function initApp() {
   const examId = urlParams.get('exam');
   const isAuthorParam = urlParams.get('author') === '1' || urlParams.get('studio') === '1';
 
-  // 1. Direct Case Study Launch (for LMS links)
+  // 1-2. A case study or question opened from a link the author shared (?case= / ?standalone=, with
+  // &mode=test for exam conditions). Hidden items open too: the author decides who gets the link.
+  const linkMode = (examMode === 'test' || examMode === 'exam') ? 'test' : 'review';
+  const findById = (list, id) => list.find(x => x.id === id || x.id.toLowerCase() === id.toLowerCase());
   if (directCaseId) {
-    const targetCase = studentCaseStudies().find(c => c.id === directCaseId || c.id.toLowerCase() === directCaseId.toLowerCase());
+    const targetCase = findById(caseStudies, directCaseId);
     if (targetCase) {
-      const targetMode = examMode === 'test' ? 'test' : 'review';
-      startPlayer(targetCase, {
-        mode: targetMode,
-        isRemediation: false,
-        allowBacktrack: targetMode !== 'test'
-      });
+      startLinkSession(targetCase, linkMode);
       return;
-    } else {
-      console.warn(`Direct launch case ID "${directCaseId}" not found in bank.`);
-      showToast(`Case Study "${directCaseId}" not found. Showing main portal.`, 'error');
     }
+    console.warn(`Direct launch case ID "${directCaseId}" not found in bank.`);
+    showToast('This case study link does not match any case study. Check the link with your instructor.', 'error');
   }
-
-  // 2. Direct Stand-alone Question Launch (for LMS links)
   if (directStandaloneId) {
-    const targetQ = studentStandaloneQuestions().find(q => q.id === directStandaloneId || q.id.toLowerCase() === directStandaloneId.toLowerCase());
+    const targetQ = findById(standaloneQuestions, directStandaloneId);
     if (targetQ) {
-      const targetMode = examMode === 'test' ? 'test' : 'review';
-      startPlayer(targetQ, {
-        mode: targetMode,
-        isRemediation: false,
-        allowBacktrack: targetMode !== 'test'
-      });
+      startLinkSession(targetQ, linkMode);
       return;
-    } else {
-      console.warn(`Direct launch question ID "${directStandaloneId}" not found in bank.`);
-      showToast(`Question "${directStandaloneId}" not found. Showing main portal.`, 'error');
     }
+    console.warn(`Direct launch question ID "${directStandaloneId}" not found in bank.`);
+    showToast('This question link does not match any question. Check the link with your instructor.', 'error');
   }
 
   // 3. Authoring or Exam Simulation Mode
@@ -90,7 +82,7 @@ if (document.readyState === 'loading') {
 
 // Screens inside the app frame (top bar + sidebar) and the area whose navigation they show.
 // The exam player and the editor fill the whole window instead.
-const SHELL_VIEWS = { student: 'student', progress: 'student', results: 'student', overview: 'studio', dashboard: 'studio' };
+const SHELL_VIEWS = { student: 'student', progress: 'student', results: 'student', paused: 'student', overview: 'studio', dashboard: 'studio' };
 
 function switchView(viewId) {
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
@@ -102,7 +94,7 @@ function switchView(viewId) {
   if (shell) {
     shell.classList.toggle('hidden', !area);
     if (area) shell.dataset.area = area;
-    const navId = viewId === 'results' ? 'student' : viewId;
+    const navId = viewId === 'results' || viewId === 'paused' ? 'student' : viewId;
     shell.querySelectorAll('[data-nav]').forEach(b => {
       if (b.dataset.nav === navId) b.setAttribute('aria-current', 'page');
       else b.removeAttribute('aria-current');
@@ -128,6 +120,15 @@ function initAppShell() {
 }
 
 function renderStudentPortal() {
+  renderStudentBankStatus();
+  renderPortalResume();
+  renderSessionTopicsList();
+  renderManualSelectionLists();
+  updateSessionCountsAndBounds();
+}
+
+// Top bar: how many items students can practise (or that the backup copy is showing).
+function renderStudentBankStatus() {
   const bankStatusEl = document.getElementById('student-bank-status-text');
   if (bankStatusEl) {
     const counts = `${studentCaseStudies().length} case studies \u2022 ${studentStandaloneQuestions().length} questions`;
@@ -140,9 +141,6 @@ function renderStudentPortal() {
         : 'Questions available to practise');
     }
   }
-  renderSessionTopicsList();
-  renderManualSelectionLists();
-  updateSessionCountsAndBounds();
 }
 
 // Table toolbar, cell navigation and template hints in the authoring text boxes (js/table-tools.js)

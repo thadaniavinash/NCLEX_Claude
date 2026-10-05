@@ -3,7 +3,9 @@
 /* ================= RESULTS VIEW (SCOREBOARD) ================= */
 function initResultsEvents() {
   document.getElementById('results-retry-btn').addEventListener('click', () => {
-    startPlayer(currentCase, { mode: sessionConfig.mode, isRemediation: false, source: sessionConfig.source });
+    const { mode, source, attemptKey, attemptItems } = sessionConfig;
+    if (attemptKey) clearAttempt(attemptKey);
+    startPlayer(currentCase, { mode, isRemediation: false, source, attemptKey, attemptItems });
   });
   
   document.getElementById('results-dashboard-btn').addEventListener('click', leaveSession);
@@ -17,10 +19,34 @@ function initResultsEvents() {
   }
 }
 
-// Where a session returns to: the question bank when the author launched it from the studio,
+// Where a session returns to: the question bank when the author launched it from the studio, a
+// "paused" page for a case study opened from a shared link (its answers stay saved for later),
 // otherwise the student portal.
 function leaveSession() {
-  switchView(sessionConfig.source === 'studio' ? 'dashboard' : 'student');
+  if (sessionConfig.source === 'studio') { switchView('dashboard'); return; }
+  if (sessionConfig.source === 'link' && !sessionConfig.progressRecorded) { showPausedLinkSession(); return; }
+  switchView('student');
+}
+
+function showPausedLinkSession() {
+  saveCurrentAttempt();
+  const item = currentCase;
+  const mode = sessionConfig.mode;
+  const saved = getAttempt(sessionConfig.attemptKey);
+  document.getElementById('paused-title').textContent = item.title || 'Case study';
+  document.getElementById('paused-text').textContent = saved && answeredCount(saved)
+    ? `You answered ${answeredCount(saved)} of ${saved.total} questions. Your answers are saved on this device: continue now, or open the same link later.`
+    : 'You have not answered any questions yet. Open the same link later, or start now.';
+  document.getElementById('paused-continue-btn').onclick = () => {
+    const again = getAttempt(linkAttemptKey(item, mode));
+    startPlayer(item, Object.assign({}, sessionConfig, { isRemediation: false, progressRecorded: false, progressSaved: false }));
+    if (again) applyAttempt(again);
+  };
+  document.getElementById('paused-restart-btn').onclick = () => {
+    clearAttempt(linkAttemptKey(item, mode));
+    startPlayer(item, Object.assign({}, sessionConfig, { isRemediation: false, progressRecorded: false, progressSaved: false }));
+  };
+  switchView('paused');
 }
 
 function startRemediationReview(jumpIdx = 0) {
@@ -120,6 +146,7 @@ function loadResultsView() {
   if (!fromStudio && !sessionConfig.progressRecorded) {
     sessionConfig.progressRecorded = true;
     sessionConfig.progressSaved = recordSessionProgress(answeredSteps);
+    clearAttempt(sessionConfig.attemptKey); // finished: nothing left to continue
   }
   const note = document.getElementById('results-progress-note');
   if (note) {
@@ -131,8 +158,14 @@ function loadResultsView() {
   }
   const progressBtn = document.getElementById('results-progress-btn');
   if (progressBtn) progressBtn.classList.toggle('hidden', fromStudio);
+  // A case study opened from a shared link ends here (no way into the rest of the bank from it).
   const backBtn = document.getElementById('results-dashboard-btn');
-  if (backBtn) backBtn.textContent = fromStudio ? 'Back to Question bank' : 'Back to Practise';
+  if (backBtn) {
+    backBtn.textContent = fromStudio ? 'Back to Question bank' : 'Back to Practise';
+    backBtn.classList.toggle('hidden', sessionConfig.source === 'link');
+  }
+  const retryBtn = document.getElementById('results-retry-btn');
+  if (retryBtn) retryBtn.textContent = sessionConfig.source === 'link' ? 'Try again' : 'Retry These Questions';
 
   switchView('results');
 }

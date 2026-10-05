@@ -229,8 +229,7 @@ function initEditorHeader() {
   });
   document.getElementById('editor-copy-link-btn').addEventListener('click', () => {
     if (!currentCase) return;
-    copyStudentLink(currentCase.isStandalone ? 'standalone' : 'cases', currentCase);
-    if (!isReadyForStudents(currentCase)) showToast('Students can open the link once this item is ready for students and saved.', 'warning');
+    copyStudentLink(currentCase.isStandalone ? 'standalone' : 'cases', currentCase, { fromEditor: true });
   });
 
   // Ready for students

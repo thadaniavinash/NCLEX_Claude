@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20261001231406">
+  <link rel="stylesheet" href="style.css?v=20261005224807">
 </head>
 <body>
 
@@ -84,6 +84,8 @@
     <!-- Student Portal Main Workspace (Scrollable) -->
     <div class="student-portal-scroll-area">
       <div class="student-portal-container">
+        <!-- Unfinished session saved in this browser (js/attempts.js) -->
+        <div id="portal-resume" class="portal-resume hidden" role="region" aria-label="Unfinished session"></div>
         
         <!-- Header Introduction Banner -->
         <div class="student-intro-banner">
@@ -566,6 +568,20 @@
     </div>
   </div>
 
+  <!-- ================= PAUSED LINK SESSION (case study opened from a shared link, left before the end) ================= -->
+  <div id="paused-view" class="view app-page">
+    <div class="app-page-inner">
+      <section class="app-card paused-card">
+        <h1 id="paused-title" class="paused-title">Case study</h1>
+        <p id="paused-text" class="paused-text"></p>
+        <div class="app-actions">
+          <button type="button" class="app-btn primary" id="paused-continue-btn">Continue</button>
+          <button type="button" class="app-btn" id="paused-restart-btn">Start over</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
   <!-- ================= RESULTS VIEW (SCOREBOARD) ================= -->
   <div id="results-view" class="view">
     <div class="results-container">
@@ -651,7 +667,7 @@
           <button id="editor-more-btn" type="button" class="editor-icon-btn" aria-haspopup="menu" aria-expanded="false" aria-controls="editor-more-menu" aria-label="More actions" title="More actions">&#8943;</button>
           <div id="editor-more-menu" class="editor-popover editor-menu hidden" role="menu" aria-label="More actions">
             <button type="button" role="menuitem" id="editor-export-btn">Download this case (JSON)</button>
-            <button type="button" role="menuitem" id="editor-copy-link-btn">Copy student link</button>
+            <button type="button" role="menuitem" id="editor-copy-link-btn">Share with students…</button>
             <button type="button" role="menuitem" id="editor-theme-toggle-btn" data-theme-toggle>Switch light / dark theme</button>
             <hr>
             <button type="button" role="menuitem" id="editor-shortcuts-btn">Keyboard shortcuts</button>
@@ -1247,33 +1263,52 @@
     </div>
   </div>
 
+  <!-- Continue a saved attempt (case study opened from a shared link; js/attempts.js) -->
+  <div id="resume-modal" class="skip-modal-overlay theme-locked-light hidden" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+    <div class="skip-modal-container">
+      <div class="skip-modal-header">
+        <span class="skip-modal-title" id="resume-modal-title">Continue where you left off?</span>
+      </div>
+      <div class="skip-modal-body">
+        <p id="resume-modal-text"></p>
+        <p>Continue with your saved answers, or start over with none.</p>
+      </div>
+      <div class="skip-modal-footer">
+        <button type="button" class="skip-modal-btn-no" id="resume-modal-restart-btn">Start over</button>
+        <button type="button" class="skip-modal-btn-yes" id="resume-modal-continue-btn">Continue</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Notification Toasts -->
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20261001231406"></script>
-  <script src="js/state.js?v=20261001231406"></script>
-  <script src="js/utils.js?v=20261001231406"></script>
-  <script src="js/data.js?v=20261001231406"></script>
-  <script src="js/auth.js?v=20261001231406"></script>
-  <script src="js/dashboard.js?v=20261001231406"></script>
-  <script src="js/session-builder.js?v=20261001231406"></script>
-  <script src="js/rich-text.js?v=20261001231406"></script>
-  <script src="js/table-tools.js?v=20261001231406"></script>
-  <script src="js/lab-ranges.js?v=20261001231406"></script>
-  <script src="js/notes-editor.js?v=20261001231406"></script>
-  <script src="js/cloze-editor.js?v=20261001231406"></script>
-  <script src="js/chart-continuity.js?v=20261001231406"></script>
-  <script src="js/editor-preview.js?v=20261001231406"></script>
-  <script src="js/highlight-editor.js?v=20261001231406"></script>
-  <script src="js/editor-header.js?v=20261001231406"></script>
-  <script src="js/editor.js?v=20261001231406"></script>
-  <script src="js/player.js?v=20261001231406"></script>
-  <script src="js/scoring.js?v=20261001231406"></script>
-  <script src="js/results.js?v=20261001231406"></script>
-  <script src="js/progress.js?v=20261001231406"></script>
-  <script src="js/overview.js?v=20261001231406"></script>
-  <script src="js/calculator.js?v=20261001231406"></script>
-  <script src="js/main.js?v=20261001231406"></script>
+  <script src="cases-data.js?v=20261005224807"></script>
+  <script src="js/state.js?v=20261005224807"></script>
+  <script src="js/utils.js?v=20261005224807"></script>
+  <script src="js/data.js?v=20261005224807"></script>
+  <script src="js/auth.js?v=20261005224807"></script>
+  <script src="js/dashboard.js?v=20261005224807"></script>
+  <script src="js/session-builder.js?v=20261005224807"></script>
+  <script src="js/rich-text.js?v=20261005224807"></script>
+  <script src="js/table-tools.js?v=20261005224807"></script>
+  <script src="js/lab-ranges.js?v=20261005224807"></script>
+  <script src="js/notes-editor.js?v=20261005224807"></script>
+  <script src="js/cloze-editor.js?v=20261005224807"></script>
+  <script src="js/chart-continuity.js?v=20261005224807"></script>
+  <script src="js/editor-preview.js?v=20261005224807"></script>
+  <script src="js/highlight-editor.js?v=20261005224807"></script>
+  <script src="js/editor-header.js?v=20261005224807"></script>
+  <script src="js/editor.js?v=20261005224807"></script>
+  <script src="js/player.js?v=20261005224807"></script>
+  <script src="js/scoring.js?v=20261005224807"></script>
+  <script src="js/results.js?v=20261005224807"></script>
+  <script src="js/progress.js?v=20261005224807"></script>
+  <script src="js/attempts.js?v=20261005224807"></script>
+  <script src="js/share-link.js?v=20261005224807"></script>
+  <script src="js/overview.js?v=20261005224807"></script>
+  <script src="js/calculator.js?v=20261005224807"></script>
+  <script src="js/main.js?v=20261005224807"></script>
 </body>
 </html>

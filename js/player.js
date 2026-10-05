@@ -3,7 +3,13 @@
 /* ================= HIGH FIDELITY NCLEX PLAYER ENGINE ================= */
 function initPlayerEvents() {
   document.getElementById('player-quit-btn').addEventListener('click', () => {
-    if (confirm("Are you sure you want to quit the quiz? Your current progress will be lost.")) {
+    // Reviewing answers after the results: back to the results page.
+    if (sessionConfig.isRemediation) { switchView('results'); return; }
+    const saved = !!sessionConfig.attemptKey;
+    if (confirm(saved
+      ? 'Leave this session? Your answers are saved on this device and you can continue later.'
+      : 'Are you sure you want to quit the quiz? Your current progress will be lost.')) {
+      if (saved) saveCurrentAttempt();
       leaveSession();
     }
   });
