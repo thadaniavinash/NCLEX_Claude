@@ -82,9 +82,15 @@ if (document.readyState === 'loading') {
 
 // Screens inside the app frame (top bar + sidebar) and the area whose navigation they show.
 // The exam player and the editor fill the whole window instead.
-const SHELL_VIEWS = { student: 'student', progress: 'student', results: 'student', paused: 'student', overview: 'studio', dashboard: 'studio' };
+const SHELL_VIEWS = { student: 'student', closed: 'student', progress: 'student', results: 'student', paused: 'student', overview: 'studio', dashboard: 'studio' };
+
+// Whether this visitor may use the Practise page (see STUDENT_PORTAL_OPEN in js/state.js).
+function studentPortalOpenForViewer() {
+  return STUDENT_PORTAL_OPEN || isAdminLoggedIn || isLocalServerHost();
+}
 
 function switchView(viewId) {
+  if (viewId === 'student' && !studentPortalOpenForViewer()) viewId = 'closed';
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   const targetView = document.getElementById(`${viewId}-view`);
   if (targetView) targetView.classList.add('active');
@@ -94,7 +100,7 @@ function switchView(viewId) {
   if (shell) {
     shell.classList.toggle('hidden', !area);
     if (area) shell.dataset.area = area;
-    const navId = viewId === 'results' || viewId === 'paused' ? 'student' : viewId;
+    const navId = ['results', 'paused', 'closed'].includes(viewId) ? 'student' : viewId;
     shell.querySelectorAll('[data-nav]').forEach(b => {
       if (b.dataset.nav === navId) b.setAttribute('aria-current', 'page');
       else b.removeAttribute('aria-current');
@@ -106,6 +112,8 @@ function switchView(viewId) {
     renderDashboard();
   } else if (viewId === 'student') {
     renderStudentPortal();
+  } else if (viewId === 'closed') {
+    renderClosedPortal();
   } else if (viewId === 'progress') {
     renderProgressView();
   } else if (viewId === 'overview') {
@@ -114,6 +122,8 @@ function switchView(viewId) {
 }
 
 function initAppShell() {
+  const closedProgress = document.getElementById('closed-progress-btn');
+  if (closedProgress) closedProgress.addEventListener('click', () => switchView('progress'));
   document.querySelectorAll('#app-shell [data-nav]').forEach(btn => {
     btn.addEventListener('click', () => switchView(btn.dataset.nav));
   });
@@ -121,10 +131,19 @@ function initAppShell() {
 
 function renderStudentPortal() {
   renderStudentBankStatus();
+  const preview = document.getElementById('portal-preview-note');
+  if (preview) preview.classList.toggle('hidden', STUDENT_PORTAL_OPEN);
   renderPortalResume();
   renderSessionTopicsList();
   renderManualSelectionLists();
   updateSessionCountsAndBounds();
+}
+
+// What students see at the site's address while the portal is closed.
+function renderClosedPortal() {
+  renderStudentBankStatus();
+  const progressBtn = document.getElementById('closed-progress-btn');
+  if (progressBtn) progressBtn.classList.toggle('hidden', !loadProgress().sessions.length);
 }
 
 // Top bar: how many items students can practise (or that the backup copy is showing).

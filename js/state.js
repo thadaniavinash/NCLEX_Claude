@@ -25,6 +25,12 @@ const PATHOPHYSIOLOGY_DISORDERS = [
 // localhost or a copy of the files).
 const STUDENT_SITE_URL = 'https://thadaniavinash.github.io/NCLEX_Claude/';
 
+// The student portal (Practise page) is closed until the bank is large enough (user decision, October
+// 2026). While false, students get only the links the author shares (?case= / ?standalone=); the site's
+// home page says it is not open yet. The author still sees the portal when signed in to the studio
+// (or on localhost). Set to true to open the site to everyone.
+const STUDENT_PORTAL_OPEN = false;
+
 const CURRICULUM_COURSES = {
   "NURS 1017": [
     "Unit 1 (Introduction to Pathophysiology)",

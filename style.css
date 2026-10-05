@@ -7149,3 +7149,15 @@ label.meta-chip::after { content: '\25BE'; font-size: 10px; opacity: .7; }
 .author-actions-wrapper .btn-author-launch,
 .author-actions-wrapper .btn-author-share { padding-left: 10px; padding-right: 10px; }
 .author-actions-wrapper { gap: 6px; }
+
+/* Practise page while the portal is closed to students: only the signed-in author sees it */
+.portal-preview-note {
+  margin-bottom: var(--space-4);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--warning-border);
+  border-radius: var(--radius-md);
+  background: var(--warning-bg-subtle);
+  color: var(--warning-text);
+  font-size: var(--fs-body-sm);
+}
+.paused-card .app-actions:not(:has(> :not(.hidden))) { display: none; }

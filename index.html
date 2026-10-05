@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20261005224807">
+  <link rel="stylesheet" href="style.css?v=20261005225459">
 </head>
 <body>
 
@@ -84,6 +84,8 @@
     <!-- Student Portal Main Workspace (Scrollable) -->
     <div class="student-portal-scroll-area">
       <div class="student-portal-container">
+        <!-- Only the author sees this page while the portal is closed (STUDENT_PORTAL_OPEN in js/state.js) -->
+        <p id="portal-preview-note" class="portal-preview-note hidden" role="note"><strong>Preview.</strong> Students cannot open this page yet: the site is closed to them, and only the links you share work. You see it because you are signed in.</p>
         <!-- Unfinished session saved in this browser (js/attempts.js) -->
         <div id="portal-resume" class="portal-resume hidden" role="region" aria-label="Unfinished session"></div>
         
@@ -565,6 +567,19 @@
         <p>The state of the question bank. Student results stay in each student's own browser, so there are no class reports.</p>
       </div>
       <div id="overview-content" class="app-page-body"></div>
+    </div>
+  </div>
+
+  <!-- ================= PORTAL CLOSED (what students see at the site address until it opens) ================= -->
+  <div id="closed-view" class="view app-page">
+    <div class="app-page-inner">
+      <section class="app-card paused-card">
+        <h1 class="paused-title">The practice site is not open yet</h1>
+        <p class="paused-text">For now, your instructor shares case studies and questions with a link. Open the link you were given to start.</p>
+        <div class="app-actions">
+          <button type="button" class="app-btn" id="closed-progress-btn" data-nav-to="progress">My progress</button>
+        </div>
+      </section>
     </div>
   </div>
 
@@ -1284,31 +1299,31 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20261005224807"></script>
-  <script src="js/state.js?v=20261005224807"></script>
-  <script src="js/utils.js?v=20261005224807"></script>
-  <script src="js/data.js?v=20261005224807"></script>
-  <script src="js/auth.js?v=20261005224807"></script>
-  <script src="js/dashboard.js?v=20261005224807"></script>
-  <script src="js/session-builder.js?v=20261005224807"></script>
-  <script src="js/rich-text.js?v=20261005224807"></script>
-  <script src="js/table-tools.js?v=20261005224807"></script>
-  <script src="js/lab-ranges.js?v=20261005224807"></script>
-  <script src="js/notes-editor.js?v=20261005224807"></script>
-  <script src="js/cloze-editor.js?v=20261005224807"></script>
-  <script src="js/chart-continuity.js?v=20261005224807"></script>
-  <script src="js/editor-preview.js?v=20261005224807"></script>
-  <script src="js/highlight-editor.js?v=20261005224807"></script>
-  <script src="js/editor-header.js?v=20261005224807"></script>
-  <script src="js/editor.js?v=20261005224807"></script>
-  <script src="js/player.js?v=20261005224807"></script>
-  <script src="js/scoring.js?v=20261005224807"></script>
-  <script src="js/results.js?v=20261005224807"></script>
-  <script src="js/progress.js?v=20261005224807"></script>
-  <script src="js/attempts.js?v=20261005224807"></script>
-  <script src="js/share-link.js?v=20261005224807"></script>
-  <script src="js/overview.js?v=20261005224807"></script>
-  <script src="js/calculator.js?v=20261005224807"></script>
-  <script src="js/main.js?v=20261005224807"></script>
+  <script src="cases-data.js?v=20261005225459"></script>
+  <script src="js/state.js?v=20261005225459"></script>
+  <script src="js/utils.js?v=20261005225459"></script>
+  <script src="js/data.js?v=20261005225459"></script>
+  <script src="js/auth.js?v=20261005225459"></script>
+  <script src="js/dashboard.js?v=20261005225459"></script>
+  <script src="js/session-builder.js?v=20261005225459"></script>
+  <script src="js/rich-text.js?v=20261005225459"></script>
+  <script src="js/table-tools.js?v=20261005225459"></script>
+  <script src="js/lab-ranges.js?v=20261005225459"></script>
+  <script src="js/notes-editor.js?v=20261005225459"></script>
+  <script src="js/cloze-editor.js?v=20261005225459"></script>
+  <script src="js/chart-continuity.js?v=20261005225459"></script>
+  <script src="js/editor-preview.js?v=20261005225459"></script>
+  <script src="js/highlight-editor.js?v=20261005225459"></script>
+  <script src="js/editor-header.js?v=20261005225459"></script>
+  <script src="js/editor.js?v=20261005225459"></script>
+  <script src="js/player.js?v=20261005225459"></script>
+  <script src="js/scoring.js?v=20261005225459"></script>
+  <script src="js/results.js?v=20261005225459"></script>
+  <script src="js/progress.js?v=20261005225459"></script>
+  <script src="js/attempts.js?v=20261005225459"></script>
+  <script src="js/share-link.js?v=20261005225459"></script>
+  <script src="js/overview.js?v=20261005225459"></script>
+  <script src="js/calculator.js?v=20261005225459"></script>
+  <script src="js/main.js?v=20261005225459"></script>
 </body>
 </html>

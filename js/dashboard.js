@@ -6,7 +6,13 @@ function initDashboardEvents() {
   if (downloadAll) downloadAll.addEventListener('click', downloadAllQuestionsJSON);
   const authorToStudentBtn = document.getElementById('author-to-student-btn');
   if (authorToStudentBtn) {
-    authorToStudentBtn.addEventListener('click', () => switchView('student'));
+    authorToStudentBtn.addEventListener('click', () => {
+      if (!studentPortalOpenForViewer()) {
+        showToast('The student portal is closed to students for now. Sign in to preview it.', 'warning');
+        return;
+      }
+      switchView('student');
+    });
   }
 
   const tabCases = document.getElementById('author-tab-cases');
@@ -672,6 +678,9 @@ function applyAdminState() {
   }
 
   renderDashboard();
+  // Signing in or out changes whether the (closed) student portal may be shown.
+  const active = document.querySelector('.view.active');
+  if (active && (active.id === 'student-view' || active.id === 'closed-view')) switchView('student');
 }
 
 function populateEditorUnitSelect(selectedCourse, selectedUnit) {

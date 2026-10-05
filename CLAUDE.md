@@ -358,6 +358,12 @@ practice and exam), Quit in a link session goes to `#paused-view` (Continue / St
 link session have no "Back to Practise" (Try again, My progress, Review). Practise-page sessions show a
 "Continue your … session" banner (`#portal-resume`). Quit while reviewing answers returns to the results.
 Sessions launched from the studio or the preview are never saved or recorded.
+**The student portal is closed to students** (user decision, October 2026, until the bank is large enough):
+`STUDENT_PORTAL_OPEN = false` in js/state.js. Students who open the site's address (or the Practise menu,
+`?mode=test`, an unknown link) get `#closed-view` ("The practice site is not open yet"; My progress if they
+have results); shared links work as usual. The author sees the portal when signed in (or on localhost),
+with a "Preview" note; the studio's "Student portal" link refuses while signed out. This is a soft gate:
+the content itself is public (cases-data.js, readable database). Set the constant to true to go live.
 The full student flow (two pathways, plan + mock-up at the student-flow artifact) is deferred until the bank
 is larger (user decision).
 Suggested next: the guided student flow (C), inside the Practise page of the frame, once the bank is larger; the student view of
