@@ -278,6 +278,13 @@ Done (authoring, September 2026):
 - Select-all/multiple-choice options: "Shuffle order" (a correct answer is never left first; "(Option
   N)"/"Option N" in the rationale are renumbered) and a warning when option 1 is correct.
 - Bowtie option fields grow to show long text.
+- Answer options (select all, multiple choice, select N, trend) and ordered-response steps are text boxes that
+  grow to show the whole text (October 2026). Enter goes to the next option/step or adds one after the last;
+  Backspace in an empty one removes it; line breaks become spaces (they are shown as plain text). An option's
+  image fields sit behind its "Image" button (open when it has an image). Ordered steps also have ↑ ↓ buttons
+  and Alt+↑/↓ to move them (`renderOptionsBaseConfigurator`, `renderOrderedResponseConfigurator`).
+- Editing a screen's introduction also updates the later screens that still had the same wording (compared as
+  text), with a note; later screens with their own introduction keep it (`carryIntroForward` in editor.js).
 - Timed entries for every chart tab without a table or list (not only Nurses' Notes): a new blank tab
   opens as time + note entries; each entry can have an optional bold title on its own line above the
   time and note ("T+"), stored as a `<p><b>Title</b></p>` paragraph just before the entry (the form older

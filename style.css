@@ -7161,3 +7161,79 @@ label.meta-chip::after { content: '\25BE'; font-size: 10px; opacity: .7; }
   font-size: var(--fs-body-sm);
 }
 .paused-card .app-actions:not(:has(> :not(.hidden))) { display: none; }
+
+/* Editor: answer options and ordered steps as text boxes that grow with their text (one line of text
+   each; Enter goes to the next option/step). The image fields sit behind the "Image" button. */
+.option-row-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.option-row-main .option-correct-toggle { margin-top: 11px; flex-shrink: 0; }
+
+textarea.option-text-input,
+textarea.step-input-field {
+  flex: 1;
+  min-width: 0;
+  min-height: 38px;
+  resize: none;
+  overflow: hidden;
+  line-height: 1.45;
+  font-family: inherit;
+  font-size: var(--fs-body);
+}
+
+.option-image-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.btn-option-image {
+  flex-shrink: 0;
+  margin-top: 6px;
+  padding: 4px 8px;
+  border: 1px solid #334155;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-dash-secondary);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-option-image.has-image { border-color: var(--brand-sky); color: var(--brand-sky); }
+.option-row-main .btn-option-delete { margin-top: 4px; }
+
+html:not([data-theme="dark"]) #editor-view .btn-option-image { border-color: #cbd5e1; color: #475569; }
+html:not([data-theme="dark"]) #editor-view .btn-option-image.has-image { border-color: #025287; color: #025287; }
+
+.options-config-hint {
+  margin: -4px 0 10px;
+  font-size: var(--fs-sm);
+  color: var(--text-dash-secondary);
+}
+
+html:not([data-theme="dark"]) #editor-view .options-config-hint { color: #64748b; }
+
+.ordered-step-row { align-items: flex-start; }
+.ordered-step-num { width: 22px; flex-shrink: 0; margin-top: 9px; font-weight: 700; color: var(--nclex-sky); }
+.ordered-step-row .btn-option-delete { margin-top: 4px; }
+
+.ordered-step-moves { display: flex; gap: 2px; flex-shrink: 0; margin-top: 4px; }
+
+.btn-step-move {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #334155;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-dash-secondary);
+  cursor: pointer;
+}
+
+.btn-step-move:disabled { opacity: 0.35; cursor: default; }
+html:not([data-theme="dark"]) #editor-view .btn-step-move { border-color: #cbd5e1; color: #475569; }

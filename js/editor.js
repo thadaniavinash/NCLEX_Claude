@@ -289,7 +289,7 @@ function initializeQuestionTypeDefaults(q) {
     }
   } else if (q.type === 'ordered_response') {
     if (!q.orderedOptions) {
-      q.orderedOptions = ['First action', 'Second action', 'Third action'];
+      q.orderedOptions = ['', '', ''];
     }
   }
   // +/- Scoring
@@ -332,6 +332,8 @@ function initializeQuestionTypeDefaults(q) {
 }
 
 function startEditor(c) {
+  const oldNotice = document.getElementById('chart-notice');
+  if (oldNotice) oldNotice.classList.add('hidden'); // a note about the previous item
   migrateCaseTypes(c);
   currentCase = c;
   currentStepIndex = 0;
@@ -819,6 +821,27 @@ function showChartNotice(text, level = 'info') {
   if (level === 'info') showChartNotice.timer = setTimeout(() => box.classList.add('hidden'), 6000);
 }
 
+// An edited screen introduction also replaces it on the later screens that still had the same
+// introduction (they were copied from this one); later screens with their own wording keep it.
+function introText(html) {
+  const div = document.createElement('div');
+  div.innerHTML = html || '';
+  return div.textContent.replace(/\s+/g, ' ').trim();
+}
+
+function carryIntroForward(stepIdx, oldHtml, newHtml) {
+  const before = introText(oldHtml);
+  if (before === introText(newHtml)) return;
+  let updated = 0;
+  currentCase.screens.slice(stepIdx + 1).forEach(s => {
+    if (s.leftContent && introText(s.leftContent.intro) === before) {
+      s.leftContent.intro = newHtml;
+      updated++;
+    }
+  });
+  if (updated) showChartNotice(`The introduction was also updated on ${updated} later screen${updated === 1 ? '' : 's'} that had the same wording.`);
+}
+
 function saveCurrentStepData(isChangingType = false, isBackingOut = false) {
   if (!currentCase || currentCase.screens.length === 0) return true;
   
@@ -842,7 +865,9 @@ function saveCurrentStepData(isChangingType = false, isBackingOut = false) {
   const step = currentCase.screens[currentStepIndex];
   if (!step) return true;
   
-  step.leftContent.intro = document.getElementById('step-intro-input').innerHTML;
+  const newIntro = document.getElementById('step-intro-input').innerHTML;
+  carryIntroForward(currentStepIndex, step.leftContent.intro || '', newIntro);
+  step.leftContent.intro = newIntro;
   saveActiveTabContent();
   
   const q = step.question;
@@ -1423,7 +1448,8 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
   }
   
   const list = document.getElementById('options-config-list');
-  const renderRows = () => {
+  // focusIdx: the option whose text box gets the cursor (atEnd: cursor after its text).
+  const renderRows = (focusIdx, atEnd) => {
     list.innerHTML = '';
     if (!q.options) q.options = [];
     
@@ -1443,13 +1469,15 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
         opt.text = '';
       }
       
+      const hasImage = !!opt.imageUrl;
       div.innerHTML = `
-        <div style="display:flex; align-items:center; gap:8px; width:100%;">
-          <input type="${isCheckbox ? 'checkbox' : 'radio'}" name="correct-option-group" class="option-correct-toggle" ${opt.correct ? 'checked' : ''}>
-          <input type="text" class="option-text-input form-control" style="flex-grow:1;" value="${escapeHTML(val)}" placeholder="${placeholderText}">
-          <button class="btn-option-delete">&times;</button>
+        <div class="option-row-main">
+          <input type="${isCheckbox ? 'checkbox' : 'radio'}" name="correct-option-group" class="option-correct-toggle" ${opt.correct ? 'checked' : ''} aria-label="Option ${idx + 1} is correct" title="Correct answer">
+          <textarea class="option-text-input form-control" rows="1" placeholder="${placeholderText}" aria-label="Option ${idx + 1}">${escapeHTML(val)}</textarea>
+          <button type="button" class="btn-option-image${hasImage ? ' has-image' : ''}" aria-pressed="${hasImage}" title="${hasImage ? 'This option has an image' : 'Add an image to this option'}">Image</button>
+          <button type="button" class="btn-option-delete" aria-label="Delete option ${idx + 1}" title="Delete option">&times;</button>
         </div>
-        <div style="display:flex; align-items:center; gap:8px; width:100%;">
+        <div class="option-image-row${hasImage ? '' : ' hidden'}">
           <span style="font-size:11px; color:#94a3b8; flex-shrink:0;">Image URL:</span>
           <input type="text" class="option-image-input form-control" style="font-size:11px; padding:4px 8px; flex-grow:1; height:24px;" value="${escapeHTML(opt.imageUrl || '')}" placeholder="Option image URL or Base64 data...">
           <button class="btn btn-secondary btn-xs select-image-file-btn" style="font-size:10px; height:24px; padding:0 8px; flex-shrink:0;">Choose File</button>
@@ -1457,11 +1485,40 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
         </div>
       `;
       
-      div.querySelector('.option-text-input').addEventListener('input', (e) => {
-        opt.text = e.target.value;
+      const textBox = div.querySelector('.option-text-input');
+      autoGrowTextarea(textBox);
+      textBox.addEventListener('input', () => {
+        // One line of text per option (students see it as plain text): line breaks become spaces.
+        if (/\n/.test(textBox.value)) textBox.value = textBox.value.replace(/\s*\n\s*/g, ' ');
+        opt.text = textBox.value;
+      });
+      textBox.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.ctrlKey && !e.metaKey) {
+          // Enter starts the next option (a new one after this, or the existing next one).
+          e.preventDefault();
+          if (idx < q.options.length - 1) {
+            list.querySelectorAll('.option-text-input')[idx + 1].focus();
+            return;
+          }
+          q.options.push({ text: '', correct: false });
+          renderRows(idx + 1);
+        } else if (e.key === 'Backspace' && !textBox.value && q.options.length > 1) {
+          // Backspace in an empty option removes it.
+          e.preventDefault();
+          q.options.splice(idx, 1);
+          renderRows(Math.max(0, idx - 1), true);
+        }
+      });
+      div.querySelector('.btn-option-image').addEventListener('click', () => {
+        const row = div.querySelector('.option-image-row');
+        row.classList.toggle('hidden');
+        if (!row.classList.contains('hidden')) row.querySelector('.option-image-input').focus();
       });
       div.querySelector('.option-image-input').addEventListener('input', (e) => {
         opt.imageUrl = e.target.value;
+        const btn = div.querySelector('.btn-option-image');
+        btn.classList.toggle('has-image', !!opt.imageUrl);
+        btn.setAttribute('aria-pressed', opt.imageUrl ? 'true' : 'false');
       });
       
       const fileInput = div.querySelector('.option-image-file-input');
@@ -1478,6 +1535,7 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
         reader.onload = (evt) => {
           opt.imageUrl = evt.target.result;
           imgInput.value = evt.target.result;
+          div.querySelector('.btn-option-image').classList.add('has-image');
           showToast("Image loaded from local computer.");
         };
         reader.readAsDataURL(file);
@@ -1498,6 +1556,10 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
       list.appendChild(div);
     });
     updateOrderWarning();
+    if (typeof focusIdx === 'number') {
+      const box = list.querySelectorAll('.option-text-input')[focusIdx];
+      if (box) { box.focus(); if (atEnd) box.setSelectionRange(box.value.length, box.value.length); }
+    }
   };
 
   const updateOrderWarning = () => {
@@ -1521,8 +1583,8 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
   
   document.getElementById('add-option-btn').addEventListener('click', () => {
     if (!q.options) q.options = [];
-    q.options.push({ text: 'New Option', correct: false });
-    renderRows();
+    q.options.push({ text: '', correct: false });
+    renderRows(q.options.length - 1);
   });
 }
 
@@ -1839,45 +1901,80 @@ function renderHotspotConfigurator(q, box) {
 
 // 10. Ordered Response Configurator
 function renderOrderedResponseConfigurator(q, box) {
-  const steps = q.orderedOptions || [];
+  if (!Array.isArray(q.orderedOptions)) q.orderedOptions = [];
+  const steps = q.orderedOptions;
   const wrapper = document.createElement('div');
   wrapper.innerHTML = `
     <div class="options-config-title">
       <span>Steps in CORRECT Order</span>
-      <button id="add-order-opt-btn" class="btn btn-text btn-xs">+ Add Step</button>
+      <button id="add-order-opt-btn" type="button" class="btn btn-text btn-xs">+ Add Step</button>
     </div>
+    <p class="options-config-hint">Students see the steps shuffled. Enter goes to the next step (or adds one after the last); Alt+↑/↓ or the arrows move a step.</p>
     <div id="ordered-items-config-list"></div>
   `;
   box.appendChild(wrapper);
-  
+
   const list = document.getElementById('ordered-items-config-list');
-  const renderSteps = () => {
+  const move = (idx, dir) => {
+    const to = idx + dir;
+    if (to < 0 || to >= steps.length) return;
+    [steps[idx], steps[to]] = [steps[to], steps[idx]];
+    renderSteps(to);
+  };
+  // focusIdx: the step whose text box gets the cursor afterwards.
+  const renderSteps = (focusIdx, atEnd) => {
     list.innerHTML = '';
     steps.forEach((step, idx) => {
       const div = document.createElement('div');
-      div.className = 'option-config-row';
+      div.className = 'option-config-row ordered-step-row';
       div.innerHTML = `
-        <span style="font-weight:bold; color:var(--nclex-sky); width:20px;">${idx + 1}.</span>
-        <input type="text" class="form-control step-input-field" value="${escapeHTML(step)}">
-        <button class="btn-option-delete">&times;</button>
+        <span class="ordered-step-num">${idx + 1}.</span>
+        <textarea class="form-control step-input-field" rows="1" placeholder="Step ${idx + 1}" aria-label="Step ${idx + 1}">${escapeHTML(step)}</textarea>
+        <span class="ordered-step-moves">
+          <button type="button" class="btn-step-move" data-dir="-1" aria-label="Move step ${idx + 1} up" title="Move up (Alt+↑)" ${idx === 0 ? 'disabled' : ''}>↑</button>
+          <button type="button" class="btn-step-move" data-dir="1" aria-label="Move step ${idx + 1} down" title="Move down (Alt+↓)" ${idx === steps.length - 1 ? 'disabled' : ''}>↓</button>
+        </span>
+        <button type="button" class="btn-option-delete" aria-label="Delete step ${idx + 1}" title="Delete step">&times;</button>
       `;
-      div.querySelector('.step-input-field').addEventListener('input', (e) => {
-        steps[idx] = e.target.value;
+      const field = div.querySelector('.step-input-field');
+      autoGrowTextarea(field);
+      field.addEventListener('input', () => {
+        if (/\n/.test(field.value)) field.value = field.value.replace(/\s*\n\s*/g, ' ');
+        steps[idx] = field.value;
       });
+      field.addEventListener('keydown', (e) => {
+        if (e.altKey && (e.key === 'ArrowUp' || e.key === 'ArrowDown')) {
+          e.preventDefault();
+          move(idx, e.key === 'ArrowUp' ? -1 : 1);
+        } else if (e.key === 'Enter' && !e.ctrlKey && !e.metaKey) {
+          e.preventDefault();
+          if (idx < steps.length - 1) { list.querySelectorAll('.step-input-field')[idx + 1].focus(); return; }
+          steps.push('');
+          renderSteps(idx + 1);
+        } else if (e.key === 'Backspace' && !field.value && steps.length > 1) {
+          e.preventDefault();
+          steps.splice(idx, 1);
+          renderSteps(Math.max(0, idx - 1), true);
+        }
+      });
+      div.querySelectorAll('.btn-step-move').forEach(btn => btn.addEventListener('click', () => move(idx, Number(btn.dataset.dir))));
       div.querySelector('.btn-option-delete').addEventListener('click', () => {
         steps.splice(idx, 1);
         renderSteps();
       });
       list.appendChild(div);
     });
+    if (typeof focusIdx === 'number') {
+      const f = list.querySelectorAll('.step-input-field')[focusIdx];
+      if (f) { f.focus(); if (atEnd) f.setSelectionRange(f.value.length, f.value.length); }
+    }
   };
-  
+
   renderSteps();
-  
+
   document.getElementById('add-order-opt-btn').addEventListener('click', () => {
-    steps.push('Next instruction step');
-    q.orderedOptions = steps;
-    renderSteps();
+    steps.push('');
+    renderSteps(steps.length - 1);
   });
 }
 
