@@ -313,6 +313,14 @@ Done (authoring, September 2026):
   "142/88 mm Hg", SpO2 "94%". Recognized by the row label (or column header): T/Temp, P/HR/Pulse, RR/Resp,
   BP, SpO2/Pulse oximetry. Only a cell holding just the number changes; Ctrl+Z undoes it
   (`VITAL_UNITS`, `addVitalUnit`, `showVitalUnitHint` in `js/table-tools.js`; existing tables untouched).
+  Lab values work the same way (October 2026, user request): in a lab table (first header cell names
+  laboratory/lab test/reference range, or a later header cell is a Reference/Normal range column), a cell
+  holding just a number gets the unit of the reference range in its row when the author leaves it
+  ("5.7" → "5.7 mmol/L"; "%", "/mm³" without a space; "28" → "28 × 10⁹/L"), with the same faint hint while
+  typing and Ctrl+Z to undo. The range is read from the row's Reference range column, otherwise from the
+  lines under the test name in the first cell (`labUnitForCell`, `unitFromRange`, `cellTextForUnits`
+  turns `10<sup>9</sup>` into 10⁹). Ranges without a unit (pH, INR, specific gravity) or without a number
+  ("Negative") add nothing; vital-sign rows keep their vital units.
   The whole bank was brought to the same format (1 Oct 2026, `drafts/build_vitals_units.py` →
   `drafts/vitals_units_patch.json`, workflow `patch`): every temperature in any field is written "38.2° C" /
   "101.2° F" (NCLEX style), and vital-sign rows of chart tables carry beats/min, breaths/min, mm Hg and %

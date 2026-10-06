@@ -402,6 +402,89 @@ function vitalUnitForCell(cell) {
   return VITAL_UNITS.find(v => v.test(rowLabel)) || VITAL_UNITS.find(v => v.test(colLabel)) || null;
 }
 
+/* ---- Laboratory results: the unit of a value comes from the reference range in the same row ----
+   "5.7" in the potassium row becomes "5.7 mmol/L" when the range there reads "3.5–5.0 mmol/L"; "28" in a
+   platelet row with "130–380 × 10⁹/L" becomes "28 × 10⁹/L"; "%" ranges give "12%". The range is read from
+   a "Reference range" / "Normal range" column of the row when the table has one, otherwise from the row's
+   first cell (the test name on the first line, the range under it, as fillLabReferenceRange writes it).
+   Ranges without a unit (pH, INR, specific gravity) or without a number ("Negative") give nothing. */
+
+const LAB_VALUE_PATTERN = /^[<>≤≥]?\s*[−-]?\d+(?:[.,]\d+)?$/;
+const RANGE_NUMBER = '[−-]?\\d+(?:[.,]\\d+)?';
+const RANGE_START = new RegExp(`(?:^|\\s)((?:[<>≤≥]\\s*)?${RANGE_NUMBER}\\s*%?\\s*(?:(?:–|—|-|to)\\s*${RANGE_NUMBER})?)\\s*(.*)$`);
+
+// The unit written after the first range in a reference-range text, or '' when there is none.
+function unitFromRange(text) {
+  let seg = String(text || '').replace(/\u00a0/g, ' ').split(/[;\n]/).map(x => x.trim()).filter(Boolean)
+    .find(x => /\d/.test(x)) || '';
+  if (seg.includes(':')) seg = seg.slice(seg.lastIndexOf(':') + 1).trim(); // "Female: …", "Age > 65 y: …"
+  const m = RANGE_START.exec(seg);
+  if (!m) return '';
+  if (/%/.test(m[1])) return '%'; // "11.5%–15.5%", "≥ 4% normal"
+  let unit = m[2].split(/\s+\(|,|;|\.\s/)[0].replace(/[.)]+$/, '').replace(/\s+/g, ' ').trim();
+  if (unit.startsWith('%')) return '%';
+  // A unit, not words or another value: short, at most three words, not starting with a number.
+  if (!unit || unit.length > 22 || unit.split(/\s+/).length > 3 || /^[\d(<>≤≥–-]/.test(unit)) return '';
+  return unit;
+}
+
+const SUPERSCRIPT_DIGITS = { 0: '⁰', 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵', 6: '⁶', 7: '⁷', 8: '⁸', 9: '⁹', '-': '⁻', '−': '⁻' };
+
+// A cell's text with line breaks kept and <sup> digits as superscript characters ("10<sup>9</sup>/L"
+// reads "10⁹/L"), so the unit can be written into a cell as plain text.
+function cellTextForUnits(cell) {
+  const copy = cell.cloneNode(true);
+  copy.querySelectorAll('sup').forEach(sup => {
+    const t = sup.textContent;
+    sup.replaceWith(/^[\d−-]+$/.test(t) ? t.split('').map(ch => SUPERSCRIPT_DIGITS[ch] || ch).join('') : t);
+  });
+  copy.querySelectorAll('br').forEach(br => br.replaceWith('\n'));
+  copy.querySelectorAll('p, div, li').forEach(el => el.append('\n'));
+  return copy.textContent;
+}
+
+// "Test | Result | Reference Range" tables: a header cell after the first names the range column.
+function hasRangeColumn(table) {
+  const header = table && table.rows[0];
+  return !!header && Array.from(header.cells).slice(1).some(isRangeHeader);
+}
+
+function isRangeHeader(cell) {
+  return !!cell && /reference|normal|range/i.test(cell.textContent);
+}
+
+// The reference-range text for a value cell of a lab table.
+function labRangeTextForCell(cell) {
+  const row = cell.parentElement;
+  const table = cell.closest('table');
+  const header = table.rows[0];
+  for (let i = 1; header && i < header.cells.length; i++) {
+    if (i !== cell.cellIndex && isRangeHeader(header.cells[i]) && row.cells[i]) return cellTextForUnits(row.cells[i]);
+  }
+  const first = row.cells[0];
+  if (!first) return '';
+  const lines = cellTextForUnits(first).split('\n').map(x => x.trim()).filter(Boolean);
+  return lines.length > 1 ? lines.slice(1).join('\n') : lines.join(' ');
+}
+
+// Unit rule for a value cell of a lab table (same shape as VITAL_UNITS entries), or null.
+function labUnitForCell(cell) {
+  if (!cell || cell.tagName !== 'TD' || cell.cellIndex < 1) return null;
+  const table = cell.closest('table');
+  const row = cell.parentElement;
+  if (!table || row === table.rows[0] || !(isLabTable(table) || hasRangeColumn(table))) return null;
+  if (isRangeHeader(table.rows[0].cells[cell.cellIndex])) return null; // the range column itself
+  const unit = unitFromRange(labRangeTextForCell(cell));
+  if (!unit) return null;
+  // A space before the unit ("5.7 mmol/L"), none before "%" or "/mm³" ("12%", "8,000/mm³").
+  return { value: LAB_VALUE_PATTERN, unit: /^[%/]/.test(unit) ? unit : ' ' + unit, hint: unit };
+}
+
+// A value cell's unit rule: vital signs by their row/column label, lab values by their reference range.
+function valueUnitForCell(cell) {
+  return vitalUnitForCell(cell) || labUnitForCell(cell);
+}
+
 function plainCellText(cell) {
   return cell.textContent.replace(/ /g, ' ').trim();
 }
@@ -409,7 +492,7 @@ function plainCellText(cell) {
 // Adds the unit to a value cell the author is leaving. Returns true when it changed the cell.
 function addVitalUnit(cell) {
   if (!cell || !cell.isConnected) return false;
-  const vital = vitalUnitForCell(cell);
+  const vital = valueUnitForCell(cell);
   const value = vital && plainCellText(cell);
   if (!value || !vital.value.test(value)) return false;
   const editor = cell.closest('[contenteditable="true"]');
@@ -440,7 +523,7 @@ function addVitalUnit(cell) {
 
 // Faint unit after the text (or at the start of an empty cell) while the cursor is in a value cell.
 function showVitalUnitHint(cell, hint) {
-  const vital = vitalUnitForCell(cell);
+  const vital = valueUnitForCell(cell);
   const value = vital && plainCellText(cell);
   if (!vital || (value && !vital.value.test(value))) return false;
   const rect = cell.getBoundingClientRect();
@@ -494,7 +577,7 @@ function trackLabCell() {
     leavingCell = true;
     try { fillLabReferenceRange(labCellWithCursor) || addVitalUnit(labCellWithCursor); } finally { leavingCell = false; }
   }
-  labCellWithCursor = cell && ((cell.cellIndex === 0 && isLabTable(cell.closest('table'))) || vitalUnitForCell(cell)) ? cell : null;
+  labCellWithCursor = cell && ((cell.cellIndex === 0 && isLabTable(cell.closest('table'))) || valueUnitForCell(cell)) ? cell : null;
 }
 
 function handleTableKeydown(e) {
