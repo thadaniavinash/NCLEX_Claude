@@ -49,8 +49,8 @@
           }
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-        "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
-        "explanation": "Impaired thermoregulation (temperature 35.6° C) results when the skin barrier is almost completely lost; the nurse monitors temperature and provides warming measures in erythroderma. Tachycardia and hypotension with an orthostatic drop reflect hemodynamic instability from fluid loss through the damaged skin -- hemodynamic stability is the priority in erythroderma. Only 100 mL of dark, concentrated urine in 8 hours (about 0.14 mL/kg/h in a 92-kg client) shows oliguria from hypovolemia. Erythema over about 90% of the body meets the chapter's definition of generalized exfoliative dermatitis (erythroderma), a life-threatening condition managed in hospital. Low potassium and magnesium are replaced; both raise dysrhythmia risk, and heavy alcohol use contributes to low magnesium. A creatinine risen from a baseline of 84 to 132 µmol/L suggests prerenal acute kidney injury from hypovolemia. An albumin of 26 g/L reflects protein loss through the shedding, inflamed skin; this explains the ankle edema and lowers oncotic pressure. A normal respiratory rate and SpO2 argue against a respiratory cause for these findings. Nail pitting is a chronic finding of nail psoriasis, not urgent. An elevated ESR is expected with psoriatic inflammation and is monitored, but does not require immediate action on its own. Mild anemia and a normal ALT are not immediately dangerous; the ALT is a useful baseline before starting systemic therapy.",
+        "preamble": "Phase 1 — Emergency Department, 2140.",
+        "explanation": "<p><b>Highlight these nine findings:</b> temperature 35.6° C; heart rate 116/min; blood pressure 96/58 lying and 80/50 mm Hg standing with dizziness; 100 mL of dark amber urine in 8 hours; erythema with scaling over about 90% of the body; potassium 3.1 mmol/L; magnesium 0.62 mmol/L; creatinine 132 µmol/L (84 three months ago); albumin 26 g/L.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/erythroderma.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/erythroderma.jpg\" alt=\"Photograph of generalized erythroderma\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Generalized exfoliative dermatitis (erythroderma), from a historical atlas: redness and scaling over almost the whole body surface. Photo: George Henry Fox, Photographic Atlas of the Diseases of the Skin (1905), <a href=\"https://commons.wikimedia.org/wiki/File:Dermatitis_exfoliativa.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, public domain.</figcaption></figure><p><b>Why these findings</b></p><ul><li><b>Temperature 35.6° C:</b> impaired thermoregulation; inflamed, dilated skin over 90% of the body loses heat. The nurse monitors temperature and provides warming measures.</li><li><b>Tachycardia; hypotension with an orthostatic drop:</b> hemodynamic instability from fluid lost through the damaged skin. Hemodynamic stability is the priority in erythroderma.</li><li><b>100 mL of urine in 8 hours:</b> about 0.14 mL/kg/h in a 92-kg client: oliguria from hypovolemia.</li><li><b>Erythema over about 90% of the body:</b> meets the definition of generalized exfoliative dermatitis (erythroderma), a life-threatening condition managed in hospital.</li><li><b>Low potassium and magnesium:</b> both raise the risk of dysrhythmias and are replaced; heavy alcohol use contributes to low magnesium.</li><li><b>Creatinine up from 84 to 132 µmol/L:</b> suggests prerenal acute kidney injury from hypovolemia.</li><li><b>Albumin 26 g/L:</b> protein lost through the shedding, inflamed skin. Low oncotic pressure explains the ankle edema.</li></ul><p><b>Why the others are not urgent</b></p><ul><li><b>RR 18/min and SpO<sub>2</sub> 97%:</b> within normal limits.</li><li><b>Nail pitting and ridging:</b> a chronic finding of nail psoriasis.</li><li><b>ESR 48 mm/h:</b> elevated ESR is expected with psoriatic inflammation; monitor.</li><li><b>Hemoglobin 124 g/L:</b> mild anemia, which can occur in erythroderma; not immediately dangerous.</li><li><b>ALT 34 U/L:</b> normal, and a useful baseline before systemic therapy.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/nail-pitting.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/nail-pitting.jpg\" alt=\"Photograph of a fingernail with pitting from psoriasis\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Nail pitting in psoriasis: small depressions in the nail plate. A long-standing finding, not an emergency. Photo: Seenms, <a href=\"https://commons.wikimedia.org/wiki/File:Luszczyca_paznokcia.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure>",
         "highlightTabs": [
           {
             "id": "c3_ht1",
@@ -87,40 +87,40 @@
             {
               "options": [
                 {
-                  "text": "fluid loss through the widely inflamed, shedding skin",
-                  "correct": true
-                },
-                {
                   "text": "cardiogenic shock",
-                  "correct": false
-                },
-                {
-                  "text": "methotrexate toxicity",
                   "correct": false
                 },
                 {
                   "text": "anaphylaxis to prednisone",
                   "correct": false
+                },
+                {
+                  "text": "fluid loss through the widely inflamed, shedding skin",
+                  "correct": true
+                },
+                {
+                  "text": "methotrexate toxicity",
+                  "correct": false
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
-                {
-                  "text": "the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output",
-                  "correct": true
-                },
-                {
-                  "text": "the nail pitting and ridging",
-                  "correct": false
-                },
                 {
                   "text": "the ESR of 48 mm/h",
                   "correct": false
                 },
                 {
+                  "text": "the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output",
+                  "correct": true
+                },
+                {
                   "text": "the SpO2 of 97%",
+                  "correct": false
+                },
+                {
+                  "text": "the nail pitting and ridging",
                   "correct": false
                 }
               ],
@@ -128,14 +128,6 @@
             },
             {
               "options": [
-                {
-                  "text": "heat loss through widespread, dilated skin blood vessels",
-                  "correct": true
-                },
-                {
-                  "text": "hypothyroidism",
-                  "correct": false
-                },
                 {
                   "text": "alcohol withdrawal",
                   "correct": false
@@ -143,26 +135,34 @@
                 {
                   "text": "a normal evening drop in body temperature",
                   "correct": false
+                },
+                {
+                  "text": "hypothyroidism",
+                  "correct": false
+                },
+                {
+                  "text": "heat loss through widespread, dilated skin blood vessels",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
-                {
-                  "text": "a low serum albumin from protein loss through the skin",
-                  "correct": true
-                },
-                {
-                  "text": "fluid overload from IV fluids",
-                  "correct": false
-                },
                 {
                   "text": "right-sided heart failure",
                   "correct": false
                 },
                 {
+                  "text": "a low serum albumin from protein loss through the skin",
+                  "correct": true
+                },
+                {
                   "text": "bilateral deep vein thrombosis",
+                  "correct": false
+                },
+                {
+                  "text": "fluid overload from IV fluids",
                   "correct": false
                 }
               ],
@@ -170,20 +170,20 @@
             },
             {
               "options": [
-                {
-                  "text": "stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress",
-                  "correct": true
-                },
-                {
-                  "text": "a new laundry detergent",
-                  "correct": false
-                },
                 {
                   "text": "a recent streptococcal throat infection",
                   "correct": false
                 },
                 {
                   "text": "too much sun exposure",
+                  "correct": false
+                },
+                {
+                  "text": "stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress",
+                  "correct": true
+                },
+                {
+                  "text": "a new laundry detergent",
                   "correct": false
                 }
               ],
@@ -221,7 +221,7 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 1 &mdash; Emergency Department, 2140. The nurse has reviewed the Nurses' Notes from 2140.",
-        "explanation": "In erythroderma the skin barrier is almost completely absent, so the patient loses fluid rapidly through the skin. The orthostatic drop, dry mucosa, and low, concentrated urine output confirm volume depletion; a normal SpO2 and clear lungs argue against a cardiopulmonary cause, and there is no allergen exposure suggesting anaphylaxis. Inflamed, vasodilated skin over 90% of the body loses heat rapidly; the chapter directs frequent temperature monitoring with warming or cooling as needed. The client has not stopped drinking long enough for significant withdrawal, and alcohol withdrawal tends to raise, not lower, temperature. An albumin of 26 g/L shows protein loss through scaling and exudation; low oncotic pressure lets fluid shift into tissues even while the client is intravascularly depleted, and IV fluids have not yet been given. The chapter lists stress and excessive alcohol as psoriasis triggers and notes psoriasis is a contributing cause of erythroderma. Abruptly stopping systemic therapy and withdrawal of systemic corticosteroids are well-recognized triggers of erythrodermic flares. A streptococcal infection classically triggers guttate psoriasis; detergents trigger contact dermatitis, not this presentation."
+        "explanation": "<p><b>Correct answer:</b> The client's hypotension and tachycardia are most likely caused by <b>fluid loss through the widely inflamed, shedding skin</b> as evidenced by <b>the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output</b>. His temperature of 35.6° C is most likely due to <b>heat loss through widespread, dilated skin blood vessels</b>. The bilateral ankle edema is most likely related to <b>a low serum albumin from protein loss through the skin</b>. The flare was most likely triggered by <b>stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress</b>.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-skin-losses.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-skin-losses.svg\" alt=\"Diagram of a body with erythroderma losing water, heat, protein and electrolytes through the skin\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">What J.M.'s skin is losing, and the findings that show it.</figcaption></figure><p><b>Why</b></p><ul><li><b>Fluid loss through the skin:</b> in erythroderma the skin barrier is almost completely absent, so fluid is lost continuously. The orthostatic drop, dry mucosa and low, concentrated urine confirm volume depletion. A normal SpO<sub>2</sub> and clear lungs argue against a cardiac cause, and there was no allergen exposure suggesting anaphylaxis. Nail pitting, the ESR and the SpO<sub>2</sub> do not show volume status.</li><li><b>Heat loss through dilated skin vessels:</b> inflamed, vasodilated skin over 90% of the body loses heat rapidly. He has not stopped drinking long enough for significant withdrawal, and alcohol withdrawal tends to raise temperature, not lower it.</li><li><b>Low albumin:</b> albumin 26 g/L shows protein lost through scaling and exudation. Low oncotic pressure lets fluid shift into the tissues even while he is intravascularly depleted. No IV fluids have been given yet, and nothing suggests heart failure or bilateral DVT.</li><li><b>Triggers:</b> stress and excessive alcohol are psoriasis triggers, and psoriasis is a contributing cause of erythroderma. Abruptly stopping systemic therapy and withdrawal of systemic corticosteroids are well-recognized triggers of erythrodermic flares. A streptococcal throat infection classically triggers guttate psoriasis, and detergents trigger contact dermatitis.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: methotrexate and corticosteroid withdrawal as triggers are standard dermatology content.</i></p>"
       },
       "leftContent": {
         "tabs": [
@@ -250,40 +250,40 @@
             {
               "options": [
                 {
-                  "text": "risk for hemodynamic instability related to fluid and electrolyte loss",
-                  "correct": true
-                },
-                {
                   "text": "impaired skin integrity",
-                  "correct": false
-                },
-                {
-                  "text": "disturbed body image",
                   "correct": false
                 },
                 {
                   "text": "deficient knowledge about medication adherence",
                   "correct": false
+                },
+                {
+                  "text": "risk for hemodynamic instability related to fluid and electrolyte loss",
+                  "correct": true
+                },
+                {
+                  "text": "disturbed body image",
+                  "correct": false
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
-                {
-                  "text": "the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat",
-                  "correct": true
-                },
                 {
                   "text": "psoriasis is an autoimmune disorder",
                   "correct": false
                 },
                 {
-                  "text": "the client stopped taking methotrexate",
-                  "correct": false
+                  "text": "the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat",
+                  "correct": true
                 },
                 {
                   "text": "the ESR is elevated",
+                  "correct": false
+                },
+                {
+                  "text": "the client stopped taking methotrexate",
                   "correct": false
                 }
               ],
@@ -292,8 +292,8 @@
             {
               "options": [
                 {
-                  "text": "impaired skin integrity",
-                  "correct": true
+                  "text": "ineffective coping",
+                  "correct": false
                 },
                 {
                   "text": "disturbed body image",
@@ -304,8 +304,8 @@
                   "correct": false
                 },
                 {
-                  "text": "ineffective coping",
-                  "correct": false
+                  "text": "impaired skin integrity",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -328,7 +328,7 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
-        "explanation": "For ordinary psoriasis, impaired skin integrity is the priority. Once the disease becomes erythroderma, the priority shifts to hemodynamic instability, because the skin barrier is almost completely absent -- this is the key clinical-judgment shift in this case. That widespread loss of the skin barrier is the mechanism that makes erythroderma life-threatening; the other options are true facts but do not explain the immediate danger. Impaired skin integrity is the next hypothesis in erythroderma. Body image, knowledge, and coping are real needs for this client (he is tearful and isolating) and are addressed once he is physiologically stable, in keeping with the priority of physiological needs."
+        "explanation": "<p><b>Correct answer:</b> The priority nursing hypothesis at this time is <b>risk for hemodynamic instability related to fluid and electrolyte loss</b> because <b>the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat</b>. Once this is addressed, the nurse's next priority is <b>impaired skin integrity</b>.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-priority-shift.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-priority-shift.svg\" alt=\"Diagram comparing nursing priorities in plaque psoriasis and in erythroderma\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">The key clinical-judgment shift in this case.</figcaption></figure><p><b>Why</b></p><ul><li><b>Hemodynamic instability first:</b> for ordinary plaque psoriasis, impaired skin integrity is the priority. Once the disease becomes erythroderma, the priority shifts to hemodynamic stability because the skin barrier is almost completely absent.</li><li><b>Loss of the skin barrier:</b> this is the mechanism that makes erythroderma life-threatening. That psoriasis is autoimmune, that he stopped methotrexate and that the ESR is raised are all true, but they do not explain the immediate danger.</li><li><b>Impaired skin integrity next:</b> the next hypothesis in erythroderma. Body image, knowledge and coping are real needs (he is tearful and isolating) and are addressed once he is physiologically stable.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/psoriasis-plaque.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/psoriasis-plaque.jpg\" alt=\"Photograph of a psoriasis plaque with silvery-white scale\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Typical plaque psoriasis: a well-defined red plaque with silvery-white scale, the form J.M. has had for 20 years. In erythroderma the redness and scaling cover almost the whole body. Photo: James Heilman, MD, <a href=\"https://commons.wikimedia.org/wiki/File:Psoriasis2010.JPG\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure>"
       },
       "leftContent": {
         "tabs": [
@@ -353,7 +353,23 @@
         "type": "select_all",
         "options": [
           {
+            "text": "Restrict oral fluids to 1 L/day to reduce the ankle edema",
+            "correct": false
+          },
+          {
+            "text": "Maintain strict intake and output and obtain a daily weight",
+            "correct": true
+          },
+          {
             "text": "Administer IV isotonic fluids as prescribed",
+            "correct": true
+          },
+          {
+            "text": "Arrange an ultraviolet phototherapy session for tomorrow",
+            "correct": false
+          },
+          {
+            "text": "Administer the prescribed oral antihistamine, preferably at bedtime",
             "correct": true
           },
           {
@@ -361,19 +377,11 @@
             "correct": true
           },
           {
-            "text": "Keep the room warm, apply warm blankets, and monitor temperature frequently",
-            "correct": true
-          },
-          {
-            "text": "Maintain strict intake and output and obtain a daily weight",
-            "correct": true
+            "text": "Use hot water and a washcloth to scrub off loose scale",
+            "correct": false
           },
           {
             "text": "Provide lukewarm oatmeal soaks followed by a bland, oil-based emollient",
-            "correct": true
-          },
-          {
-            "text": "Administer the prescribed oral antihistamine, preferably at bedtime",
             "correct": true
           },
           {
@@ -381,25 +389,17 @@
             "correct": true
           },
           {
-            "text": "Restrict oral fluids to 1 L/day to reduce the ankle edema",
-            "correct": false
-          },
-          {
             "text": "Apply coal tar ointment to all reddened skin",
             "correct": false
           },
           {
-            "text": "Arrange an ultraviolet phototherapy session for tomorrow",
-            "correct": false
-          },
-          {
-            "text": "Use hot water and a washcloth to scrub off loose scale",
-            "correct": false
+            "text": "Keep the room warm, apply warm blankets, and monitor temperature frequently",
+            "correct": true
           }
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
-        "explanation": "Adequate hydration through IV fluid replacement maintains hemodynamic stability. Potassium, magnesium, and calcium are replaced when indicated; low potassium and magnesium raise dysrhythmia risk, so cardiac monitoring is prudent. Temperature monitoring with warming measures as needed addresses impaired thermoregulation. Strict intake and output and daily weight track the response to fluid replacement and ongoing losses. Oatmeal baths are recommended for erythroderma, and oil-based emollients are recommended for psoriasis; lukewarm water avoids further vasodilation and heat loss. Oral antihistamines (for example, diphenhydramine) are listed for itching in erythroderma; bedtime dosing uses the sedating effect, with supervision for getting up because of orthostatic hypotension. He reports 6 to 8 drinks a day; withdrawal can begin within 6 to 24 hours of the last drink and worsens hemodynamic instability. The edema comes from low albumin while the client is intravascularly depleted; restricting fluids would worsen hypotension and kidney injury. Coal tar is a treatment for mild, localized psoriasis; on inflamed, broken skin over 90% of the body it is irritating and can worsen erythroderma. Ultraviolet phototherapy is used for more stable psoriasis; ultraviolet exposure to acutely inflamed skin can aggravate erythroderma, and he is unstable. Friction and heat from hot water scrubbing further damage the fragile barrier, increase heat and fluid loss, and invite infection."
+        "explanation": "<p><b>Correct answers:</b> IV isotonic fluids (Option 3); potassium and magnesium replacement with cardiac monitoring (Option 6); warm room, warm blankets and frequent temperature checks (Option 11); strict intake and output and daily weight (Option 2); lukewarm oatmeal soaks and a bland, oil-based emollient (Option 8); an oral antihistamine at bedtime (Option 5); and alcohol-withdrawal monitoring with a validated scale (Option 9).</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-skin-care.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-skin-care.svg\" alt=\"Do and do-not lists for skin care in erythroderma\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Skin care when the barrier is gone: gentle, lukewarm, moisturizing.</figcaption></figure><p><b>Why these</b></p><ul><li><b>IV isotonic fluids (Option 3):</b> adequate hydration through IV fluid replacement maintains hemodynamic stability.</li><li><b>Potassium and magnesium (Option 6):</b> potassium, magnesium and calcium are replaced when indicated; low potassium and magnesium raise the risk of dysrhythmias, so cardiac monitoring is prudent.</li><li><b>Warming (Option 11):</b> frequent temperature checks with warming measures address impaired thermoregulation.</li><li><b>Intake and output, daily weight (Option 2):</b> track the response to fluid replacement and ongoing losses.</li><li><b>Oatmeal soaks and emollient (Option 8):</b> oatmeal baths soothe erythroderma and oil-based emollients help psoriasis; lukewarm water avoids more vasodilation and heat loss.</li><li><b>Bedtime antihistamine (Option 5):</b> oral antihistamines (for example diphenhydramine) relieve itching; bedtime dosing uses the sedating effect. Supervise getting up because of the orthostatic hypotension.</li><li><b>Alcohol-withdrawal monitoring (Option 9):</b> he drinks 6 to 8 beers a day; withdrawal can begin 6 to 24 hours after the last drink and would worsen his hemodynamic instability.</li></ul><p><b>Why not the others</b></p><ul><li><b>Fluid restriction (Option 1):</b> the edema comes from low albumin while he is intravascularly depleted; restricting fluids would worsen the hypotension and kidney injury.</li><li><b>Coal tar on all reddened skin (Option 10):</b> coal tar treats mild, localized psoriasis. On inflamed, broken skin over 90% of the body it irritates and can worsen erythroderma.</li><li><b>Phototherapy (Option 4):</b> used for stable psoriasis; ultraviolet light on acutely inflamed skin can aggravate erythroderma, and he is unstable.</li><li><b>Hot water and scrubbing (Option 7):</b> friction and heat further damage the fragile barrier, increase heat and fluid loss, and invite infection.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: alcohol-withdrawal monitoring and the coal tar contraindication in erythroderma are standard content.</i></p>"
       },
       "leftContent": {
         "tabs": [
@@ -499,7 +499,7 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 2 &mdash; Medical Unit, Hospital Day 3. The nurse has reviewed the Nurses' Notes from Hospital Day 3 and the Screening Results.",
-        "explanation": "For systemic and biologic therapy (infliximab is named), the nurse monitors for serious infections such as tuberculosis and hepatitis. TNF inhibitors can reactivate latent TB and hepatitis B, so screening must be confirmed first. Infliximab can cause infusion reactions. Suppressed immunity makes infection more likely and directs teaching about worsening redness, swelling, or discharge. Live vaccines are avoided during biologic immunosuppression; needed vaccines should be given before therapy starts, per prescriber. Psoriasis is chronic with remission and relapse; the nurse reinforces adherence rather than suggesting therapy can simply be stopped once the skin clears -- stopping therapy is what precipitated this admission. Addressing the root cause of non-adherence (lost drug coverage) and the psychosocial impact matters: support groups and social work are appropriate for coping and financial concerns. Education to avoid triggers, including stress and excessive alcohol, and stress-reduction techniques are directed. Heat and prolonged water exposure dry and irritate the skin and promote heat and fluid loss; lukewarm soaks followed by emollients are appropriate instead."
+        "explanation": "<p><b>Correct answers</b></p><ul><li><b>Indicated:</b> confirm the TB and hepatitis screening before the first infusion; monitor vital signs and watch for an infusion reaction; teach him to report fever, cough, night sweats or skin infection; refer to a social worker and a psoriasis support group or counselling; teach stress reduction and support his plan to cut down on alcohol.</li><li><b>Contraindicated:</b> advising overdue live vaccines now; explaining that infusions can stop once the skin clears; encouraging long, hot showers.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-infliximab-checklist.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-infliximab-checklist.svg\" alt=\"Checklist for before, during and after an infliximab infusion\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Infliximab, a TNF inhibitor: what the nurse checks and teaches.</figcaption></figure><p><b>Why</b></p><ul><li><b>TB and hepatitis screening:</b> with systemic and biologic therapy (infliximab is one), the nurse monitors for serious infections such as tuberculosis and hepatitis. TNF inhibitors can reactivate latent TB and hepatitis B, so negative screening is confirmed first.</li><li><b>Infusion reaction:</b> infliximab can cause fever, chills, dyspnea, hives or hypotension during or after the infusion.</li><li><b>Infection warning signs:</b> suppressed immunity makes infection more likely.</li><li><b>Live vaccines (contraindicated):</b> live vaccines are avoided during biologic immunosuppression; needed vaccines are given before therapy starts, per the prescriber.</li><li><b>Stopping once the skin clears (contraindicated):</b> psoriasis is chronic, with remissions and relapses; the nurse reinforces adherence. Stopping therapy is what caused this admission.</li><li><b>Social work and support group:</b> address the root cause of his non-adherence (lost drug coverage) and the psychosocial impact of his skin disease.</li><li><b>Stress and alcohol reduction:</b> stress and excessive alcohol are psoriasis triggers.</li><li><b>Long, hot showers (contraindicated):</b> heat and prolonged water exposure dry and irritate the skin and promote heat and fluid loss; lukewarm soaks followed by emollients are used instead.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: infusion reactions and live-vaccine precautions are standard pharmacology.</i></p>"
       },
       "leftContent": {
         "tabs": [
@@ -601,7 +601,7 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 7. The nurse has reviewed the Nurses' Notes from Hospital Day 7.",
-        "explanation": "Stable blood pressure and heart rate meet the expected outcome of vital signs within normal limits without fluid imbalance. A normal temperature shows thermoregulation restored. Normal potassium and magnesium show no electrolyte disturbance. The chapter expects the skin to begin healing with decreased peeling and itching. A honey-coloured crust with surrounding redness and warmth is a classic sign of secondary bacterial infection (impetigo-like); the chapter notes yellow crusts over excoriations signal infection -- notify the provider; topical mupirocin is commonly prescribed, and infection risk is higher on a biologic. Low withdrawal scores show withdrawal was prevented or managed. Planning to skip the next infusion once the skin clears shows the adherence teaching has not been understood; the chapter directs the nurse to evaluate education and reinforce continuing treatment."
+        "explanation": "<p><b>Correct answers</b></p><ul><li><b>Effective:</b> BP 124/78 mm Hg and HR 82 beats/min with no orthostatic change; temperature 36.8° C; potassium 4.1 and magnesium 0.84 mmol/L; erythema down to about 40% with less peeling and itch 3/10; alcohol-withdrawal scores 0 to 2.</li><li><b>Not effective:</b> the honey-coloured crust with redness and warmth on the right shin; the plan to skip the next infusion.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/impetigo-honey-crust.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/impetigo-honey-crust.jpg\" alt=\"Photograph of honey-coloured crusts of impetigo on the chin\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Honey-coloured crusts: the typical look of impetigo, a superficial bacterial skin infection (Staphylococcus aureus or Streptococcus pyogenes). The same crust on J.M.'s excoriation, with redness and warmth, signals secondary infection. Photo: James Heilman, MD, <a href=\"https://commons.wikimedia.org/wiki/File:Impetigo2020.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.</figcaption></figure><p><b>Why</b></p><ul><li><b>Stable BP and HR:</b> meets the outcome of vital signs within normal limits without fluid imbalance.</li><li><b>Temperature 36.8° C:</b> thermoregulation restored.</li><li><b>Normal potassium and magnesium:</b> no electrolyte disturbance.</li><li><b>Less erythema, peeling and itch:</b> the skin is beginning to heal.</li><li><b>Honey-coloured crust with redness and warmth:</b> a classic sign of secondary bacterial infection; yellow crusts over excoriations signal infection. The nurse notifies the provider (topical mupirocin is commonly prescribed); infection risk is higher on a biologic.</li><li><b>Withdrawal scores 0 to 2:</b> withdrawal was prevented or managed.</li><li><b>\"I'll just skip the next infusion\":</b> the adherence teaching has not been understood. The nurse evaluates the education and reinforces continuing treatment.</li></ul>"
       },
       "leftContent": {
         "tabs": [
@@ -638,5 +638,5 @@
   "disorder": "Unit 5 (Integumentary Disorders and Burns)",
   "description": "A 54-year-old male client with 20 years of plaque psoriasis who progresses to generalized exfoliative dermatitis (erythroderma) after stopping methotrexate, from the emergency department through biologic therapy and discharge planning.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-08T23:35:00.008Z"
 }

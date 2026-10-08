@@ -8930,12 +8930,13 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse conducts an admission integumentary assessment for Harold. Which clinical findings should the nurse recognize as cues indicating <b>atypical, malignant cutaneous neoplasia (specifically melanoma and basal cell carcinoma)</b> rather than benign age-related skin changes? <b>Select all that apply.</b>",
+          "stem": "Which clinical findings should the nurse recognize as suspicious for&nbsp;melanoma or basal cell carcinoma&nbsp;rather than benign age-related skin changes? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
               "text": "Pearly, translucent, dome-shaped papule measuring 6 mm on the right nasal ala with prominent surface telangiectasias and rolled borders",
-              "correct": true
+              "correct": true,
+              "imageUrl": ""
             },
             {
               "text": "Asymmetrical, darkly pigmented lesion measuring 8 mm on the upper back with irregular, notched borders and variegated shades of black, brown, and pink",
@@ -8958,8 +8959,8 @@ window.NCLEX_CASES = [
               "correct": true
             }
           ],
-          "preamble": "",
-          "explanation": "Clinical cues of cutaneous malignancy include: (1) Basal Cell Carcinoma (BCC) hallmark features—pearly, translucent papule or nodule with rolled borders and telangiectasias (abnormally dilated blood vessels); (2) Malignant Melanoma hallmark ABCDE criteria—Asymmetry, Border irregularity (notched/scalloped), Color variegation (black, dark brown, red/pink), Diameter > 6 mm, and Evolution (recent change in size, shape, bleeding, or pruritus); and (3) Regional lymphadenopathy indicating potential metastatic dissemination. Conversely, senile purpura (benign dermal capillary fragility from age-related loss of collagen support) and generalized xerosis (reduced sebaceous gland sebum secretion) represent benign physiological aging changes."
+          "preamble": "The nurse conducts an admission integumentary assessment for the client.",
+          "explanation": "Clinical cues of cutaneous malignancy include: (1) Basal Cell Carcinoma (BCC) hallmark features—pearly, translucent papule or nodule with rolled borders and telangiectasias (abnormally dilated blood vessels); (2) Malignant Melanoma hallmark ABCDE criteria—Asymmetry, Border irregularity (notched/scalloped), Color variegation (black, dark brown, red/pink), Diameter &gt; 6 mm, and Evolution (recent change in size, shape, bleeding, or pruritus); and (3) Regional lymphadenopathy indicating potential metastatic dissemination. Conversely, senile purpura (benign dermal capillary fragility from age-related loss of collagen support) and generalized xerosis (reduced sebaceous gland sebum secretion) represent benign physiological aging changes."
         },
         "leftContent": {
           "intro": "The nurse in an outpatient dermatology and cutaneous oncology clinic is conducting a comprehensive skin examination for Harold Jenkins, a 74-year-old retired farmer and landscaper.",
@@ -8967,12 +8968,12 @@ window.NCLEX_CASES = [
             {
               "id": "nn_1",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Harold Jenkins, a 74-year-old male, presents for evaluation of long-standing skin changes and two 'troublesome spots'. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">A 74-year-old male client presents for evaluation of long-standing skin changes and two 'troublesome spots' at the clinic. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p>"
             },
             {
-              "id": "vs_1",
+              "id": "tab_1791498229192",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Value (0900)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C (oral)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5 – 37.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 – 100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 120/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 – 20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95 – 100%</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">134/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% (on room air)</td></tr></tbody></table><p><br></p>"
             }
           ]
         }
@@ -9043,17 +9044,17 @@ window.NCLEX_CASES = [
             {
               "id": "nn_2",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Harold Jenkins, a 74-year-old male, presents for evaluation of long-standing skin changes and two 'troublesome spots'. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p>"
-            },
-            {
-              "id": "vs_1",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Value (0900)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C (oral)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5 – 37.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 – 100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 120/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 – 20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95 – 100%</td></tr></tbody></table>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">A 74-year-old male client presents for evaluation of long-standing skin changes and two 'troublesome spots' at the clinic. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p>"
             },
             {
               "id": "dr_2",
               "title": "Dermatological Reference",
               "content": "<div style=\"margin-bottom:10px;\"><b>Dermatological Morphological Principles:</b><br>&bull; <i>Primary Lesions:</i> Macule, Patch, Papule, Plaque, Nodule, Tumor, Wheal, Vesicle, Bulla, Pustule.<br>&bull; <i>Secondary Lesions:</i> Scale, Crust, Erosion, Ulcer, Fissure, Lichenification, Atrophy, Excoriation, Scar, Keloid.</div><div><b>Age-Related Histology:</b> Thinning epidermis, flattening of dermoepidermal rete ridges (susceptibility to skin shearing/tears), decreased collagen and fragmented elastin (wrinkling/sagging), reduced dermal vascular beds with fragile capillary loops (senile purpura), and decreased sebum (xerosis).</div>"
+            },
+            {
+              "id": "tab_1791498229192",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">134/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% (on room air)</td></tr></tbody></table><p><br></p>"
             }
           ]
         }
@@ -9141,12 +9142,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_3",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Harold Jenkins, a 74-year-old male, presents for evaluation of long-standing skin changes and two 'troublesome spots'. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p>"
-            },
-            {
-              "id": "vs_1",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Value (0900)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C (oral)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5 – 37.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 – 100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 120/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 – 20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95 – 100%</td></tr></tbody></table>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">A 74-year-old male client presents for evaluation of long-standing skin changes and two 'troublesome spots' at the clinic. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p>"
             },
             {
               "id": "dr_2",
@@ -9157,6 +9153,11 @@ window.NCLEX_CASES = [
               "id": "pr_3",
               "title": "Pathology Reports",
               "content": "<div style=\"margin-bottom:10px;\"><b>Specimen A (Right Nasal Ala):</b><br>Nodular Basal Cell Carcinoma. Islands of atypical basaloid epithelial cells with peripheral palisading and clefting artifact. Stroma exhibits telangiectatic capillaries. Lateral margins clear; deep margin transects tumor. Recommendation: Mohs micrographic surgery.</div><div><b>Specimen B (Left Upper Back):</b><br>Malignant Melanoma (Superficial Spreading). Breslow depth: 1.8 mm. Ulceration: Present. Mitotic index: 3/mm². Microscopic satellite lesions: None. Vascular/lymphatic invasion: Equivocal. Margin: Positive at peripheral ink. Pathologic Stage: pT2b. Recommendation: Wide re-excision and sentinel lymph node biopsy.</div>"
+            },
+            {
+              "id": "tab_1791498229192",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">134/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% (on room air)</td></tr></tbody></table><p><br></p>"
             }
           ]
         }
@@ -9201,12 +9202,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_4",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Harold Jenkins, a 74-year-old male, presents for evaluation of long-standing skin changes and two 'troublesome spots'. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Education session conducted. Harold verbalizes surprise that his decades of farming without a shirt contributed to both his easy bruising (senile purpura) and the malignant melanoma on his back. Nurse reviews the ABCDE self-examination guide and provides photographic examples. Harold's spouse agrees to inspect his back monthly. Sun-safety strategies (sunscreen, UV-protective long-sleeved clothing, wide-brimmed hat) and gentle skin barrier hygiene reinforced.</span></p>"
-            },
-            {
-              "id": "vs_1",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Value (0900)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C (oral)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5 – 37.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 – 100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 120/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 – 20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95 – 100%</td></tr></tbody></table>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">A 74-year-old male client presents for evaluation of long-standing skin changes and two 'troublesome spots' at the clinic. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Education session conducted. Harold verbalizes surprise that his decades of farming without a shirt contributed to both his easy bruising (senile purpura) and the malignant melanoma on his back. Nurse reviews the ABCDE self-examination guide and provides photographic examples. Harold's spouse agrees to inspect his back monthly. Sun-safety strategies (sunscreen, UV-protective long-sleeved clothing, wide-brimmed hat) and gentle skin barrier hygiene reinforced.</span></p>"
             },
             {
               "id": "dr_2",
@@ -9217,6 +9213,11 @@ window.NCLEX_CASES = [
               "id": "pr_3",
               "title": "Pathology Reports",
               "content": "<div style=\"margin-bottom:10px;\"><b>Specimen A (Right Nasal Ala):</b><br>Nodular Basal Cell Carcinoma. Islands of atypical basaloid epithelial cells with peripheral palisading and clefting artifact. Stroma exhibits telangiectatic capillaries. Lateral margins clear; deep margin transects tumor. Recommendation: Mohs micrographic surgery.</div><div><b>Specimen B (Left Upper Back):</b><br>Malignant Melanoma (Superficial Spreading). Breslow depth: 1.8 mm. Ulceration: Present. Mitotic index: 3/mm². Microscopic satellite lesions: None. Vascular/lymphatic invasion: Equivocal. Margin: Positive at peripheral ink. Pathologic Stage: pT2b. Recommendation: Wide re-excision and sentinel lymph node biopsy.</div>"
+            },
+            {
+              "id": "tab_1791498229192",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">134/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% (on room air)</td></tr></tbody></table><p><br></p>"
             }
           ]
         }
@@ -9288,12 +9289,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_5",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Harold Jenkins, a 74-year-old male, presents for evaluation of long-standing skin changes and two 'troublesome spots'. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Education session conducted. Harold verbalizes surprise that his decades of farming without a shirt contributed to both his easy bruising (senile purpura) and the malignant melanoma on his back. Nurse reviews the ABCDE self-examination guide and provides photographic examples. Harold's spouse agrees to inspect his back monthly. Sun-safety strategies (sunscreen, UV-protective long-sleeved clothing, wide-brimmed hat) and gentle skin barrier hygiene reinforced.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000 (Post-Op Day 2):</span><span class=\"nurse-note-text\">Surgical incisions evaluated. Right nasal reconstruction flap is pink, viable, capillary refill &lt; 2 seconds, sutures intact without hematoma. Left back surgical wound has 6 cm linear suture line; dressing removed with gentle silicone adhesive remover; no skin tears noted on fragile surrounding skin. Incision clean, dry, well-approximated, mild erythema limited to incision margin. Pain rated 2/10 on acetaminophen. Client verbalizes restriction on heavy farm work for 2 weeks.</span></p>"
-            },
-            {
-              "id": "vs_1",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Value (0900)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C (oral)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5 – 37.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 – 100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 120/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 – 20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95 – 100%</td></tr></tbody></table>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">A 74-year-old male client presents for evaluation of long-standing skin changes and two 'troublesome spots' at the clinic. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Education session conducted. Harold verbalizes surprise that his decades of farming without a shirt contributed to both his easy bruising (senile purpura) and the malignant melanoma on his back. Nurse reviews the ABCDE self-examination guide and provides photographic examples. Harold's spouse agrees to inspect his back monthly. Sun-safety strategies (sunscreen, UV-protective long-sleeved clothing, wide-brimmed hat) and gentle skin barrier hygiene reinforced.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000 (Post-Op Day 2):</span><span class=\"nurse-note-text\">Surgical incisions evaluated. Right nasal reconstruction flap is pink, viable, capillary refill &lt; 2 seconds, sutures intact without hematoma. Left back surgical wound has 6 cm linear suture line; dressing removed with gentle silicone adhesive remover; no skin tears noted on fragile surrounding skin. Incision clean, dry, well-approximated, mild erythema limited to incision margin. Pain rated 2/10 on acetaminophen. Client verbalizes restriction on heavy farm work for 2 weeks.</span></p>"
             },
             {
               "id": "dr_2",
@@ -9304,6 +9300,11 @@ window.NCLEX_CASES = [
               "id": "pr_3",
               "title": "Pathology Reports",
               "content": "<div style=\"margin-bottom:10px;\"><b>Specimen A (Right Nasal Ala):</b><br>Nodular Basal Cell Carcinoma. Islands of atypical basaloid epithelial cells with peripheral palisading and clefting artifact. Stroma exhibits telangiectatic capillaries. Lateral margins clear; deep margin transects tumor. Recommendation: Mohs micrographic surgery.</div><div><b>Specimen B (Left Upper Back):</b><br>Malignant Melanoma (Superficial Spreading). Breslow depth: 1.8 mm. Ulceration: Present. Mitotic index: 3/mm². Microscopic satellite lesions: None. Vascular/lymphatic invasion: Equivocal. Margin: Positive at peripheral ink. Pathologic Stage: pT2b. Recommendation: Wide re-excision and sentinel lymph node biopsy.</div>"
+            },
+            {
+              "id": "tab_1791498229192",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">134/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% (on room air)</td></tr></tbody></table><p><br></p>"
             }
           ]
         }
@@ -9391,12 +9392,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_6",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Harold Jenkins, a 74-year-old male, presents for evaluation of long-standing skin changes and two 'troublesome spots'. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Education session conducted. Harold verbalizes surprise that his decades of farming without a shirt contributed to both his easy bruising (senile purpura) and the malignant melanoma on his back. Nurse reviews the ABCDE self-examination guide and provides photographic examples. Harold's spouse agrees to inspect his back monthly. Sun-safety strategies (sunscreen, UV-protective long-sleeved clothing, wide-brimmed hat) and gentle skin barrier hygiene reinforced.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000 (Post-Op Day 2):</span><span class=\"nurse-note-text\">Surgical incisions evaluated. Right nasal reconstruction flap is pink, viable, capillary refill &lt; 2 seconds, sutures intact without hematoma. Left back surgical wound has 6 cm linear suture line; dressing removed with gentle silicone adhesive remover; no skin tears noted on fragile surrounding skin. Incision clean, dry, well-approximated, mild erythema limited to incision margin. Pain rated 2/10 on acetaminophen. Client verbalizes restriction on heavy farm work for 2 weeks.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100 (Post-Op Day 10):</span><span class=\"nurse-note-text\">Sutures removed from right nose and upper back; incisions healed with clean, flat scars. Pathology of wide local re-excision: margins completely clear of melanoma (&gt; 2 cm margins). Sentinel lymph node biopsy of left axilla: 2 nodes examined, both negative for metastatic melanoma (0/2; pN0). Stage confirmed Stage IIA (pT2b N0 M0). No adjuvant therapy indicated at this time. Scheduled for dermatologic full-body skin exam every 3 months for 2 years, then every 6 months. Harold and his spouse demonstrate excellent comprehension of skin protection strategies.</span></p>"
-            },
-            {
-              "id": "vs_1",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Value (0900)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Reference Range</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Temperature</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C (oral)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5 – 37.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Heart Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 – 100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood Pressure</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 120/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Respiratory Rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 – 20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95 – 100%</td></tr></tbody></table>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">A 74-year-old male client presents for evaluation of long-standing skin changes and two 'troublesome spots' at the clinic. Occupational history: worked outdoors as an agricultural farmer and landscaper for over 50 years, rarely used sunscreen or protective clothing. Medical history: hypertension, osteoarthritis. Integumentary inspection: generalized severe photoaging with yellowed, furrowed 'weather-beaten' skin texture across face and neck. Bilateral dorsal forearms exhibit multiple flat, non-blanching violaceous patches (actinic/senile purpura) without hematoma. Lesion 1 (Nose): On the right nasal ala, there is a 6 mm discrete, pearly, translucent pinkish papule with central indentation and fine arborizing telangiectatic vessels; client states it bleeds whenever he washes his face. Lesion 2 (Upper Back): In the left infrascapular region, there is an 8 mm pigmented lesion; spouse noticed it 4 months ago and states it has darkened and expanded. Inspection reveals marked asymmetry, irregular notched margins, and mixed colors (tan, dark brown, jet black, and bluish-red foci). Palpation of the left axilla reveals a single firm, non-tender, mobile 1.5 cm lymph node. Client denies weight loss or bone pain. Vital signs stable. Biopsy planned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Dermatoscopic examination performed by dermatologist. Lesion 1 (nasal ala): shows classic arborizing telangiectatic vessels, shiny white structures, and blue-gray ovoid nests diagnostic of Basal Cell Carcinoma. Lesion 2 (upper back): dermatoscopy reveals atypical pigment network, irregular globules, and blue-white veil highly suspicious for invasive Malignant Melanoma. Shave biopsy performed on nasal lesion; complete full-thickness excisional biopsy with 2 mm clinical margins performed on upper back lesion. Client tolerated procedures well. Biopsy specimens sent for histopathology.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (4 days post-biopsy):</span><span class=\"nurse-note-text\">Pathology review: Lesion 1 (nose) confirmed Nodular Basal Cell Carcinoma; deep margin involved; scheduled for Mohs micrographic surgery for tissue preservation. Lesion 2 (upper back) confirmed Invasive Malignant Melanoma, superficial spreading subtype, Breslow depth 1.8 mm (intermediate thickness, Clark level IV), ulceration present, 3 mitoses/mm². Deep and peripheral surgical margins positive for melanoma in situ. Wide local excision with 2 cm margins and sentinel lymph node biopsy scheduled. Nurse reviews findings and care plan with Harold and his spouse.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Education session conducted. Harold verbalizes surprise that his decades of farming without a shirt contributed to both his easy bruising (senile purpura) and the malignant melanoma on his back. Nurse reviews the ABCDE self-examination guide and provides photographic examples. Harold's spouse agrees to inspect his back monthly. Sun-safety strategies (sunscreen, UV-protective long-sleeved clothing, wide-brimmed hat) and gentle skin barrier hygiene reinforced.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000 (Post-Op Day 2):</span><span class=\"nurse-note-text\">Surgical incisions evaluated. Right nasal reconstruction flap is pink, viable, capillary refill &lt; 2 seconds, sutures intact without hematoma. Left back surgical wound has 6 cm linear suture line; dressing removed with gentle silicone adhesive remover; no skin tears noted on fragile surrounding skin. Incision clean, dry, well-approximated, mild erythema limited to incision margin. Pain rated 2/10 on acetaminophen. Client verbalizes restriction on heavy farm work for 2 weeks.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100 (Post-Op Day 10):</span><span class=\"nurse-note-text\">Sutures removed from right nose and upper back; incisions healed with clean, flat scars. Pathology of wide local re-excision: margins completely clear of melanoma (&gt; 2 cm margins). Sentinel lymph node biopsy of left axilla: 2 nodes examined, both negative for metastatic melanoma (0/2; pN0). Stage confirmed Stage IIA (pT2b N0 M0). No adjuvant therapy indicated at this time. Scheduled for dermatologic full-body skin exam every 3 months for 2 years, then every 6 months. Harold and his spouse demonstrate excellent comprehension of skin protection strategies.</span></p>"
             },
             {
               "id": "dr_2",
@@ -9407,12 +9403,17 @@ window.NCLEX_CASES = [
               "id": "pr_3",
               "title": "Pathology Reports",
               "content": "<div style=\"margin-bottom:10px;\"><b>Specimen A (Right Nasal Ala):</b><br>Nodular Basal Cell Carcinoma. Islands of atypical basaloid epithelial cells with peripheral palisading and clefting artifact. Stroma exhibits telangiectatic capillaries. Lateral margins clear; deep margin transects tumor. Recommendation: Mohs micrographic surgery.</div><div><b>Specimen B (Left Upper Back):</b><br>Malignant Melanoma (Superficial Spreading). Breslow depth: 1.8 mm. Ulceration: Present. Mitotic index: 3/mm². Microscopic satellite lesions: None. Vascular/lymphatic invasion: Equivocal. Margin: Positive at peripheral ink. Pathologic Stage: pT2b. Recommendation: Wide re-excision and sentinel lymph node biopsy.</div>"
+            },
+            {
+              "id": "tab_1791498229192",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Setting and time, e.g. Campus Clinic 1000\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">134/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% (on room air)</td></tr></tbody></table><p><br></p>"
             }
           ]
         }
       }
     ],
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-08T22:53:34.936Z"
   },
   {
     "id": "case_1782390000002",
@@ -10883,7 +10884,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "1. Full-Thickness (Third-Degree) Burn: Destroys the epidermis, entire dermis, and epidermal appendages into subcutaneous fat; appears dry, leathery, charred white, brown, or black, and is insensate to pinprick because dermal sensory nerve endings are incinerated.<br>2. Compartment Syndrome in Circumferential Burns: Circumferential full-thickness eschar cannot stretch. As massive resuscitation edema expands within the rigid fascial compartments beneath the leathery eschar, interstitial pressure exceeds capillary perfusion pressure (> 30 mm Hg), cutting off arterial inflow and venous outflow. Hallmark cues include: hard, woody muscle compartments; severe deep pain on passive muscle stretch; paresthesias; coolness; and loss of distal pulses (a late, critical sign of impending gangrene and muscle necrosis). Moist weeping blisters with brisk blanching describe a second-degree superficial partial-thickness burn."
+          "explanation": "1. Full-Thickness (Third-Degree) Burn: Destroys the epidermis, entire dermis, and epidermal appendages into subcutaneous fat; appears dry, leathery, charred white, brown, or black, and is insensate to pinprick because dermal sensory nerve endings are incinerated.<br>2. Compartment Syndrome in Circumferential Burns: Circumferential full-thickness eschar cannot stretch. As massive resuscitation edema expands within the rigid fascial compartments beneath the leathery eschar, interstitial pressure exceeds capillary perfusion pressure (&gt; 30 mm Hg), cutting off arterial inflow and venous outflow. Hallmark cues include: hard, woody muscle compartments; severe deep pain on passive muscle stretch; paresthesias; coolness; and loss of distal pulses (a late, critical sign of impending gangrene and muscle necrosis). Moist weeping blisters with brisk blanching describe a second-degree superficial partial-thickness burn."
         },
         "leftContent": {
           "intro": "The nurse in the burn center acute care unit is assessing Karen Foster, a 42-year-old female chef admitted 8 hours ago after a commercial deep fryer tipped over, causing extensive boiling oil burns across her right upper and lower extremities.",
@@ -12042,12 +12043,12 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
-          "explanation": "New confusion (oriented to person only) after smoke exposure suggests cerebral hypoxia from carbon monoxide (CO) and/or impaired gas exchange. Hoarseness signals thermal injury and swelling of the larynx and upper airway; edema can progress rapidly to obstruction, so this is a red-flag cue. Black-tinged (carbonaceous) sputum shows that smoke was inhaled below the vocal cords. Singed nasal hairs and eyebrows with soot around the nose and mouth are classic external cues of smoke and heat inhalation, especially after confinement in an enclosed, smoke-filled space. Bilateral expiratory wheezes indicate bronchospasm and lower-airway irritation from inhaled smoke and chemicals. Being tearful and asking about his dog is an expected emotional response that needs support later, but is not a cue of airway or gas-exchange risk. Chest pain 9/10 comes from the partial-thickness (second-degree) burn to the anterior trunk, which is very painful because nerve endings are exposed; it needs treatment, but it is not an airway cue. The circumferential full-thickness right arm burn is a circulation concern (risk for compartment syndrome), not an airway concern in this client -- a circumferential full-thickness burn of the <i>chest</i> could restrict breathing, but the arm cannot. The ring and watch on the burned arm must be removed before swelling develops (a circulation concern), but do not indicate airway risk.",
+          "explanation": "<p><b>Highlight these five findings:</b> oriented to person only; hoarse voice with a frequent cough; black-tinged sputum; singed nasal hairs and eyebrows with soot around the nose and mouth; and expiratory wheezes.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-inhalation-cues.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-inhalation-cues.svg\" alt=\"Diagram of a head, larynx, trachea and lungs with the inhalation injury cues labelled\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Smoke inhalation injury: D.R.'s cues from the face down to the lungs.</figcaption></figure><p><b>Why these findings</b></p><ul><li><b>Hoarse voice and frequent cough:</b> heat and smoke injure the larynx. Swelling there can progress within hours to stridor and complete airway obstruction, so hoarseness is a red-flag cue.</li><li><b>Black-tinged (carbonaceous) sputum:</b> soot in the sputum shows that smoke was inhaled below the vocal cords.</li><li><b>Singed nasal hairs and eyebrows; soot around the nose and mouth:</b> classic external signs of smoke and heat inhalation, especially after being trapped in an enclosed, smoke-filled room.</li><li><b>Expiratory wheezes:</b> bronchospasm and lower-airway irritation from inhaled smoke and chemicals.</li><li><b>Oriented to person only:</b> new confusion after smoke exposure suggests cerebral hypoxia from carbon monoxide (CO) and/or impaired gas exchange. It belongs to both Breathing and Disability in the ABCDE sequence.</li></ul><p>The headache and nausea in the same note are early signs of CO poisoning, explored in the next question.</p><p><b>Why the other phrases are not airway cues</b></p><ul><li><b>Tearful, asking about his dog:</b> an expected emotional response. He will need support once he is stable.</li><li><b>Chest pain 9/10:</b> comes from the partial-thickness (second-degree) burn of the anterior trunk, which is very painful because nerve endings are exposed. It needs treatment, but it is not an airway cue.</li><li><b>Circumferential full-thickness burn of the right arm:</b> a circulation concern (risk of compartment syndrome). A circumferential full-thickness burn of the <i>chest</i> could restrict breathing; one of the arm cannot.</li><li><b>Ring and watch on the burned arm:</b> they must come off before swelling starts, but they do not signal airway risk.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/burn-partial-thickness-hand.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/burn-partial-thickness-hand.jpg\" alt=\"Photograph of a partial-thickness burn with a blister on the back of a hand\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">A partial-thickness (second-degree) burn: red, moist and blistered, and very painful, like D.R.'s chest and abdomen. Photo: Kronoman, <a href=\"https://commons.wikimedia.org/wiki/File:Hand2ndburn.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure>",
           "highlightTabs": [
             {
               "id": "c1_ht1",
               "title": "Nurses' Notes",
-              "content": "0305: Client is {tearful and repeatedly asking about his dog.} {Oriented to person only; unsure of the time or place. Reports headache and nausea.|correct} {Voice is hoarse and he has a frequent cough|correct}{producing black-tinged sputum.|correct} {Nasal hairs and eyebrows singed; soot around the nose and mouth.|correct} Face reddened and dry without blisters. {Expiratory wheezes heard bilaterally.|correct} Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; {rates chest pain 9/10.} {Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched.} {Wearing a wedding ring on the right hand and a metal watch on the right wrist.} Right radial pulse 2+; capillary refill 3 seconds."
+              "content": "0305: Client is {tearful and repeatedly asking about his dog.} {Oriented to person only; unsure of the time or place.|correct} Reports headache and nausea. {Voice is hoarse and he has a frequent cough|correct}{producing black-tinged sputum.|correct} {Nasal hairs and eyebrows singed; soot around the nose and mouth.|correct} Face reddened and dry without blisters. {Expiratory wheezes heard bilaterally.|correct} Anterior chest and abdomen bright red and moist with intact blisters of varying size; blanches with pressure; {rates chest pain 9/10.} {Entire right arm, circumferentially from shoulder to wrist, is waxy white and tan, dry, leathery, and nonblanchable; no pain when touched.} {Wearing a wedding ring on the right hand and a metal watch on the right wrist.} Right radial pulse 2+; capillary refill 3 seconds."
             }
           ],
           "maxCorrectSelections": null
@@ -12168,7 +12169,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Emergency Department, 0305. The nurse has reviewed the Nurses' Notes from 0305.",
-          "explanation": "Hoarse voice and singed nasal hairs are direct evidence of heat and smoke near the airway (upper airway/inhalation injury). Headache and nausea are early, nonspecific symptoms of CO toxicity, since CO binds hemoglobin far more tightly than oxygen, reducing oxygen delivery to tissues. Confusion (oriented to person only) can come from hypoxemia caused by airway and lung injury, and from tissue hypoxia caused by CO -- both apply. A normal-appearing SpO2 of 98% despite new confusion is falsely reassuring: standard pulse oximeters cannot tell carboxyhemoglobin from oxyhemoglobin, so the COHb level on the ABG (ordered, pending) is needed to detect CO poisoning. Burns over 20% TBSA trigger a systemic inflammatory response with fluid shifts that can lead to hypovolemic shock; tachycardia (HR 122 beats/min) with a narrowing blood pressure (104/66) is compensation for that fluid loss. A hematocrit of 53% reflects hemoconcentration: plasma leaks out of the vessels while red cells stay in, raising the hematocrit as intravascular volume falls."
+          "explanation": "<p><b>Correct answers</b></p><ul><li>Hoarse voice: upper airway (inhalation) injury</li><li>Singed nasal hairs: upper airway (inhalation) injury</li><li>Headache and nausea: carbon monoxide poisoning</li><li>Oriented to person only: upper airway (inhalation) injury <b>and</b> carbon monoxide poisoning</li><li>SpO<sub>2</sub> 98% despite new confusion: carbon monoxide poisoning</li><li>HR 122 beats/min with BP 104/66 mm Hg: hypovolemia related to the burn</li><li>Hematocrit 0.53 L/L (53%): hypovolemia related to the burn</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-co-pulse-ox.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-co-pulse-ox.svg\" alt=\"Diagram comparing oxyhemoglobin and carboxyhemoglobin, and a pulse oximeter reading with co-oximetry\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Why a normal pulse oximeter reading does not rule out carbon monoxide poisoning.</figcaption></figure><p><b>Why</b></p><ul><li><b>Hoarse voice and singed nasal hairs:</b> direct evidence that hot gas and smoke reached the airway; swelling of the larynx causes the hoarseness.</li><li><b>Headache and nausea:</b> early, nonspecific symptoms of CO toxicity. CO binds hemoglobin about 200 times more tightly than oxygen, so less oxygen reaches the tissues.</li><li><b>Oriented to person only:</b> both apply. Confusion can come from hypoxemia caused by airway and lung injury, and from tissue hypoxia caused by CO.</li><li><b>SpO<sub>2</sub> 98%:</b> falsely reassuring. A standard pulse oximeter cannot tell carboxyhemoglobin from oxyhemoglobin and counts both as saturated. The carboxyhemoglobin (COHb) level on the blood gas drawn at 0320 (pending) is needed.</li><li><b>HR 122 beats/min with BP 104/66 mm Hg:</b> burns over 20% TBSA trigger a systemic inflammatory response. Plasma leaks out of the capillaries, intravascular volume falls, and hypovolemic (burn) shock can follow. Tachycardia with a narrowing pulse pressure is compensation. Pain and anxiety contribute, but with a burn this large, volume loss is the main cause.</li><li><b>Hematocrit 53%:</b> hemoconcentration. Plasma leaves the vessels while red cells stay, so the hematocrit rises as intravascular volume falls. Hemoglobin and hematocrit are monitored for fluid status.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: CO physiology and pulse oximetry are standard content.</i></p>"
         },
         "leftContent": {
           "tabs": [
@@ -12207,19 +12208,19 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "airway obstruction from upper airway edema",
-                    "correct": true
-                  },
-                  {
                     "text": "wound infection",
                     "correct": false
                   },
                   {
-                    "text": "hypothermia",
+                    "text": "compartment syndrome of the right arm",
                     "correct": false
                   },
                   {
-                    "text": "compartment syndrome of the right arm",
+                    "text": "airway obstruction from upper airway edema",
+                    "correct": true
+                  },
+                  {
+                    "text": "hypothermia",
                     "correct": false
                   }
                 ],
@@ -12227,6 +12228,10 @@ window.NCLEX_CASES = [
               },
               {
                 "options": [
+                  {
+                    "text": "the WBC of 11.2 × 10⁹/L",
+                    "correct": false
+                  },
                   {
                     "text": "the hoarse voice and black-tinged sputum",
                     "correct": true
@@ -12238,10 +12243,6 @@ window.NCLEX_CASES = [
                   {
                     "text": "the temperature of 36.3° C",
                     "correct": false
-                  },
-                  {
-                    "text": "the WBC of 11.2 × 10⁹/L",
-                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
@@ -12249,20 +12250,20 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "hypovolemic shock",
-                    "correct": true
+                    "text": "acute pain",
+                    "correct": false
                   },
                   {
                     "text": "impaired skin integrity",
                     "correct": false
                   },
                   {
-                    "text": "acute pain",
+                    "text": "disturbed body image",
                     "correct": false
                   },
                   {
-                    "text": "disturbed body image",
-                    "correct": false
+                    "text": "hypovolemic shock",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -12270,19 +12271,19 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "HR 122 beats/min, BP 104/66 mm Hg, and hematocrit 0.53 L/L",
-                    "correct": true
-                  },
-                  {
                     "text": "the blistered anterior trunk",
                     "correct": false
                   },
                   {
-                    "text": "the pain rating of 9/10",
+                    "text": "the potassium of 5.3 mmol/L",
                     "correct": false
                   },
                   {
-                    "text": "the potassium of 5.3 mmol/L",
+                    "text": "HR 122 beats/min, BP 104/66 mm Hg, and hematocrit 0.53 L/L",
+                    "correct": true
+                  },
+                  {
+                    "text": "the pain rating of 9/10",
                     "correct": false
                   }
                 ],
@@ -12320,7 +12321,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
-          "explanation": "The nurse prioritizes with ABCDE, and for burns, ABC is followed by fluid resuscitation. After smoke inhalation, impaired gas exchange takes priority over impaired skin integrity. Upper-airway edema can worsen over hours, so early recognition (the hoarse voice and carbonaceous sputum) allows a controlled intubation before the airway is lost entirely. Circulation follows airway and breathing: with about 27% TBSA of partial- and full-thickness burns, large fluid shifts are expected, and IV access and fluid resuscitation are top priorities after the airway, evidenced by the tachycardia, low-normal blood pressure, and hemoconcentration (elevated hematocrit). Wound infection develops over days, not within this timeframe. Hypothermia is a real risk but is addressed after airway, breathing, and circulation. Compartment syndrome of the arm threatens a limb and needs frequent checks, but a threat to the airway threatens life."
+          "explanation": "<p><b>Correct answer:</b> The client is at highest risk for <b>airway obstruction from upper airway edema</b> as evidenced by <b>the hoarse voice and black-tinged sputum</b>. Once this is addressed, the nurse should next focus on the client's risk for <b>hypovolemic shock</b> as evidenced by <b>HR 122 beats/min, BP 104/66 mm Hg, and hematocrit 0.53 L/L</b>.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-abcde.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-abcde.svg\" alt=\"ABCDE table applied to this client&#x27;s findings\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">ABCDE applied to D.R.: the airway comes first, circulation (burn shock) second.</figcaption></figure><p><b>Why</b></p><ul><li><b>Airway first:</b> the nurse prioritizes with ABCDE; for burns, airway, breathing and circulation come first, followed by fluid resuscitation. After smoke inhalation, impaired gas exchange takes priority over impaired skin integrity. Upper-airway edema worsens over hours, so recognizing it early allows a controlled intubation before the airway is lost.</li><li><b>Circulation next:</b> with about 27% TBSA of partial- and full-thickness burns, large fluid shifts are expected. Tachycardia, a low-normal blood pressure and hemoconcentration show the volume loss; IV access and fluid resuscitation are the top priorities after the airway.</li></ul><p><b>Why the other choices are lower priority</b></p><ul><li><b>Wound infection</b> develops over days, not in the first hours.</li><li><b>Hypothermia</b> (Exposure in ABCDE) is a real risk, but it is managed after airway, breathing and circulation.</li><li><b>Compartment syndrome of the right arm</b> threatens a limb and needs frequent checks, but a threat to the airway threatens life.</li><li><b>Impaired skin integrity, acute pain and disturbed body image</b> are real needs, but none outranks the airway or circulation. Impaired skin integrity is the usual priority for smaller burns; it is displaced when the airway, breathing or circulation is at risk.</li><li><b>The other evidence</b> (temperature 36.3° C, WBC 11.2 × 10<sup>9</sup>/L, blistered trunk, pain 9/10, potassium 5.3 mmol/L from cell damage) needs monitoring but does not point to the most urgent risk.</li></ul>"
         },
         "leftContent": {
           "tabs": [
@@ -12422,16 +12423,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "0215 (time of injury)",
-                    "correct": true
+                    "text": "the time the IV was started",
+                    "correct": false
                   },
                   {
                     "text": "0300 (arrival in the ED)",
                     "correct": false
                   },
                   {
-                    "text": "the time the IV was started",
-                    "correct": false
+                    "text": "0215 (time of injury)",
+                    "correct": true
                   },
                   {
                     "text": "the time the order was written",
@@ -12487,7 +12488,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 2 &mdash; Emergency Department, 0340. The nurse has reviewed the Nurses' Notes from 0340, the Laboratory Results from 0335, and the Provider Orders from 0340.",
-          "explanation": "By the Rule of Nines: anterior trunk (chest + abdomen) = 18%; the entire right arm, anterior 4.5% + posterior 4.5% = 9%. Total 27%. The face is a first-degree (superficial) burn -- red, dry, no blisters -- and is <b>not</b> counted in resuscitation calculations. Using the Parkland formula, 4 mL &times; 80 kg &times; 27 = 8,640 mL over 24 hours. Half of that, 4,320 mL, is given in the first 8 hours; the remaining 4,320 mL is given over the next 16 hours. The 8-hour clock starts at the burn, not at arrival -- because 45+ minutes have already passed since 0215, the hourly rate must make up for lost time. The adult urine-output target is about 0.5 mL/kg/h: 0.5 &times; 80 kg = 40 mL/h. Urine output is the key guide for titration; output well above 1 mL/kg/h (for example, 100&ndash;160 mL/h) suggests over-resuscitation and risks edema-related complications."
+          "explanation": "<p><b>Correct answer:</b> 27%; 8,640 mL; 4,320 mL; timed from 0215 (time of injury); at least 40 mL/h.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-rule-of-nines.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-rule-of-nines.svg\" alt=\"Rule of Nines body chart, front and back, with this client&#x27;s burns shaded\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Rule of Nines: only the partial- and full-thickness burns count.</figcaption></figure><p><b>Step 1: the percentage of TBSA</b></p><ul><li>Anterior trunk (chest and abdomen) 18% + the whole right arm, front 4.5% and back 4.5% = <b>27%</b>.</li><li>The face is a superficial (first-degree) burn: red, dry, no blisters. Superficial burns are <b>not</b> counted in resuscitation calculations; adding the face gives the 31.5% distractor, and 18% leaves out the arm.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-burn-depth.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-burn-depth.svg\" alt=\"Cross-section of skin showing superficial, partial-thickness and full-thickness burn depths\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Burn depth decides what counts: D.R.'s face, chest and abdomen, and right arm.</figcaption></figure><p><b>Step 2: the volumes and the clock</b></p><ul><li><b>8,640 mL:</b> Parkland formula, 4 mL × 80 kg × 27 = 8,640 mL of Ringer's lactate over 24 hours.</li><li><b>4,320 mL:</b> half is given in the first 8 hours; the other 4,320 mL over the next 16 hours.</li><li><b>Timed from 0215:</b> the 8-hour clock starts at the time of the burn, not at arrival, when the IV is started or when the order is written. The first half must be in by 1015; because time has already passed, the hourly rate must make up for it.</li><li><b>At least 40 mL/h:</b> the adult target is about 0.5 mL/kg/h (0.5 × 80 kg). Urine output is the key guide for titrating the infusion. Output well above 1 mL/kg/h (for example 100 to 160 mL/h) suggests over-resuscitation, which worsens edema.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-parkland-timeline.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-parkland-timeline.svg\" alt=\"Timeline from 0215 showing 4,320 mL in the first 8 hours and 4,320 mL over the next 16 hours\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">The first half is due by 1015, 8 hours after the burn, whatever time the infusion starts.</figcaption></figure><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: the Parkland formula and urine-output targets are standard burn-care practice (Parkland/Baxter; American Burn Association guidance, where current protocols often start at 2 to 4 mL/kg/%TBSA and titrate to urine output). The Rule of Nines is from the chapter.</i></p>"
         },
         "leftContent": {
           "tabs": [
@@ -12619,7 +12620,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 2 &mdash; Emergency Department, 0340.",
-          "explanation": "Cool, pale fingers, delayed capillary refill, a weakening pulse, paresthesia, and a tense forearm under a circumferential full-thickness burn signal impending compartment syndrome; the provider must be notified immediately, and the expected treatment is an escharotomy (incision through the inelastic eschar). Jewelry and clothing near the burn should be removed, since once edema develops, a ring or watch acts as a tourniquet. Elevating the arm above heart level reduces edema formation. Anything constricting (a compression wrap) worsens the compartment pressure that is already compromising perfusion. A carboxyhemoglobin of 19% confirms CO poisoning; high-flow oxygen shortens the half-life of carboxyhemoglobin and continues until the airway is secured and the COHb falls. During burn shock, peripheral and muscle perfusion is poor, so IM absorption is unreliable -- little early relief, then possible delayed, excessive absorption once perfusion returns; the client's orders specify IV morphine. Ice causes vasoconstriction that can deepen the injury and, over a 27% TBSA burn, promotes hypothermia; cooling with room-temperature water or saline is used instead. The client is NPO with an NG tube ordered: intubation is imminent and large burns commonly cause paralytic ileus, so resuscitation and any fluids are IV, not oral. Range-of-motion teaching is important later, in rehabilitation, but is not the priority during an airway emergency with a compromised arm. Clean, dry coverage protects the wounds from contamination and limits heat loss, and a warm room helps prevent hypothermia."
+          "explanation": "<p><b>Correct answers</b></p><ul><li><b>Indicated:</b> notify the provider immediately about the right-hand findings; remove the ring and watch; elevate the right arm above the heart; continue 100% oxygen by non-rebreather mask; cover the burns with clean, dry dressings or sheets and keep the room warm.</li><li><b>Contraindicated:</b> a snug elastic compression wrap; morphine intramuscularly; ice packs on the chest; sips of an electrolyte drink.</li><li><b>Nonessential:</b> teaching active range-of-motion exercises for the right hand.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-escharotomy.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-escharotomy.svg\" alt=\"Cross-sections of a burned arm showing stiff eschar, swelling underneath, and escharotomy incisions\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">A circumferential full-thickness burn: the stiff eschar cannot stretch as the tissue swells.</figcaption></figure><p><b>Why</b></p><ul><li><b>Notify the provider (indicated):</b> cool, pale fingers, capillary refill of 5 seconds, a faint pulse, numbness and tingling, and a tense forearm under a circumferential full-thickness burn signal impending compartment syndrome. The expected treatment is an escharotomy, an incision through the inelastic eschar.</li><li><b>Remove the ring and watch (indicated):</b> clothing and jewelry near the burn are removed; once edema develops, a ring or watch acts as a tourniquet.</li><li><b>Elevate the arm (indicated):</b> elevation above heart level limits edema formation.</li><li><b>Compression wrap (contraindicated):</b> anything constricting raises the compartment pressure that is already compromising perfusion.</li><li><b>100% oxygen (indicated):</b> the COHb of 19% confirms CO poisoning. High-flow oxygen shortens the half-life of carboxyhemoglobin (from about 4 to 6 hours on room air to about 1 to 1½ hours) and continues until the airway is secured and the COHb falls.</li><li><b>IM morphine (contraindicated):</b> during burn shock, muscle perfusion is poor, so IM absorption is unreliable: little early relief, then possible delayed, excessive absorption once perfusion returns. Opioids are given IV, as ordered.</li><li><b>Ice packs (contraindicated):</b> ice causes vasoconstriction that can deepen the injury, and over a 27% TBSA burn it promotes hypothermia. Burns are cooled with room-temperature water or saline to stop the burning process, not with ice.</li><li><b>Electrolyte drink (contraindicated):</b> the client is NPO with a nasogastric tube ordered; intubation is imminent, and large burns commonly cause paralytic ileus. Resuscitation is IV.</li><li><b>Range-of-motion teaching (nonessential now):</b> important later, when physical and occupational therapy prevent contractures, but not during an airway emergency with a compromised arm.</li><li><b>Clean, dry coverage and a warm room (indicated):</b> protects the wounds from contamination and limits heat loss; hypothermia is a complication of severe burns.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/burn-full-thickness-foot.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/burn-full-thickness-foot.jpg\" alt=\"Photograph of a full-thickness burn with dry, leathery, yellow-white eschar\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">A full-thickness (third-degree) burn: dry, leathery eschar that does not blanch and has no sensation. Around a whole limb, this stiff eschar acts like a tourniquet as the tissue beneath swells. Photo: Craig0927, <a href=\"https://commons.wikimedia.org/wiki/File:8-day-old-3rd-degree-burn.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, public domain.</figcaption></figure><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: limb elevation, the CO half-life figures and IM absorption in shock are standard content.</i></p>"
         },
         "leftContent": {
           "tabs": [
@@ -12718,7 +12719,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 3 &mdash; Regional Burn Centre, Post-injury Day 5. The nurse has reviewed the Progress Notes from Post-injury Day 5.",
-          "explanation": "Urine output of 55 mL/h is above the 40 mL/h (0.5 mL/kg/h) target, showing adequate renal perfusion after resuscitation. A warm hand with brisk capillary refill and a palpable pulse matches the expected short-term outcome of no signs of compartment syndrome: no swelling and no decreased pulses in the affected area. SpO2 96%, clear lungs, and speaking in full sentences show that gas exchange and airway patency have been restored after extubation. Pain 3/10 during a dressing change reflects giving analgesia at least 30 minutes before burn care, with pain that is tolerable before, during, and after the dressing change. Yellow, foul-smelling discharge with increased erythema are signs of burn-wound infection; the nurse notifies the provider (a wound culture and antimicrobials are likely). The short-term goal is a WBC within normal range; fever with leukocytosis and a purulent wound suggest infection and possible sepsis, so the provider is notified and this is escalated promptly."
+          "explanation": "<p><b>Correct answers</b></p><ul><li><b>Effective:</b> urine output averaging 55 mL/h; right hand warm with capillary refill of 2 seconds and pulse 2+; SpO<sub>2</sub> 96% on 2 L/min with clear lungs and full sentences; pain 3/10 during the dressing change.</li><li><b>Not effective:</b> green-yellow, foul-smelling drainage with redness 2 cm beyond the wound edge; temperature 38.9° C with WBC 17.4 × 10<sup>9</sup>/L.</li></ul><p><b>Why</b></p><ul><li><b>Urine output 55 mL/h:</b> above the 40 mL/h (0.5 mL/kg/h) target, showing adequate renal perfusion after resuscitation.</li><li><b>Warm hand, brisk refill, palpable pulse:</b> meets the outcome of no signs of compartment syndrome (no swelling, no decreased pulses) after the escharotomy.</li><li><b>SpO<sub>2</sub> 96%, clear lungs, full sentences:</b> gas exchange and airway patency are restored after extubation.</li><li><b>Pain 3/10 during the dressing change:</b> analgesia given at least 30 minutes before burn care keeps pain tolerable before, during and after dressing changes.</li><li><b>Purulent, foul drainage with spreading redness:</b> yellow or green, foul-smelling drainage and increasing erythema are signs of burn-wound infection. The nurse notifies the provider (a wound culture and antimicrobials are likely).</li><li><b>Fever with WBC 17.4 × 10<sup>9</sup>/L:</b> the goal is a WBC within the normal range. Fever and leukocytosis with a purulent wound suggest infection and possible sepsis, so the nurse escalates promptly.</li></ul>"
         },
         "leftContent": {
           "tabs": [
@@ -12760,7 +12761,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "A 46-year-old male client with flame burns and suspected inhalation injury, from the emergency department through fluid resuscitation and early burn-centre recovery.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-08T23:35:00.008Z"
   },
   {
     "id": "case_1782390000007",
@@ -12776,32 +12777,12 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Vesicle on the tip of the nose",
-              "correct": true
-            },
-            {
-              "text": "Left-eye redness, sensitivity to light, and blurred vision",
-              "correct": true
-            },
-            {
               "text": "Lesions stop at the midline",
               "correct": false
             },
             {
-              "text": "Takes methotrexate weekly and prednisone daily",
+              "text": "Vesicle on the tip of the nose",
               "correct": true
-            },
-            {
-              "text": "Provides daytime care for her 4-month-old grandson",
-              "correct": true
-            },
-            {
-              "text": "Pain rated 8/10, burning, worse with light touch",
-              "correct": true
-            },
-            {
-              "text": "Had chickenpox as a child",
-              "correct": false
             },
             {
               "text": "Temperature 37.9° C",
@@ -12812,16 +12793,41 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
+              "text": "Provides daytime care for her 4-month-old grandson",
+              "correct": true
+            },
+            {
+              "text": "Left-eye redness, sensitivity to light, and blurred vision",
+              "correct": true
+            },
+            {
               "text": "Blood pressure 146/84 mm Hg",
               "correct": false
+            },
+            {
+              "text": "Takes methotrexate weekly and prednisone daily",
+              "correct": true
+            },
+            {
+              "text": "Had chickenpox as a child",
+              "correct": false
+            },
+            {
+              "text": "Pain rated 8/10, burning, worse with light touch",
+              "correct": true
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
-          "explanation": "A lesion on the tip or side of the nose (Hutchinson sign) shows involvement of the nasociliary branch of the ophthalmic (V1) division of the trigeminal nerve, which also supplies the eye; the provider should be informed immediately of any facial lesion, especially near the eye or ear. Eye redness, photophobia, and blurred vision are signs of ocular involvement (conjunctivitis, keratitis, uveitis) that can threaten sight and need urgent ophthalmology assessment. Methotrexate and prednisone raise the risk of severe, prolonged, or disseminated zoster, changing the treatment setting (IV antiviral), the isolation needed, and the monitoring. A young infant is too young for varicella vaccination and could develop chickenpox from contact with lesion fluid; this needs immediate teaching and exposure planning. Pain 8/10 with allodynia (pain worse with light touch) needs prompt management and is linked to a higher risk of postherpetic neuralgia. Lesions staying on one side and stopping at the midline, grouped vesicles on a red base, childhood chickenpox, and a mildly elevated temperature and blood pressure are all expected features of herpes zoster or an expected response to pain and stress; they do not require immediate follow-up on their own."
+          "preamble": "Phase 1 — Primary Care Clinic, 1030.",
+          "explanation": "<p><b>Correct answers:</b> the vesicle on the tip of the nose (Option 2), the left-eye redness, sensitivity to light and blurred vision (Option 6), methotrexate and prednisone (Option 8), daytime care of her 4-month-old grandson (Option 5), and pain 8/10 that is worse with light touch (Option 10).</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/zoster-ophthalmicus-face.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/zoster-ophthalmicus-face.jpg\" alt=\"Photograph of herpes zoster on one side of the forehead and upper eyelid\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Herpes zoster ophthalmicus (here in a child): vesicles and crusts over one side of the forehead and scalp with a swollen upper eyelid, stopping at the midline. Photo: Mohammad2018, <a href=\"https://commons.wikimedia.org/wiki/File:Herps_zoster_ophthalmicus.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.</figcaption></figure><p><b>Why these need immediate follow-up</b></p><ul><li><b>Vesicle on the tip of the nose (Option 2):</b> the Hutchinson sign. The nasociliary branch of the ophthalmic (V1) division of the trigeminal nerve supplies both the tip of the nose and the eye, so eye involvement is likely. The provider is informed immediately of any facial lesion, especially near the eye or ear.</li><li><b>Red eye, photophobia, blurred vision (Option 6):</b> signs of ocular involvement (conjunctivitis, keratitis, uveitis) that can threaten sight and need urgent ophthalmology assessment.</li><li><b>Methotrexate and prednisone (Option 8):</b> immunosuppression raises the risk of severe, prolonged or disseminated zoster. It changes the treatment setting (IV antiviral), the isolation needed and the monitoring.</li><li><b>Cares for a 4-month-old (Option 5):</b> the infant is too young for varicella vaccination and could develop chickenpox from contact with lesion fluid. This needs immediate teaching and exposure planning.</li><li><b>Pain 8/10 with allodynia (Option 10):</b> zoster pain is often moderate to severe. Severe acute pain needs prompt treatment and is linked to a higher risk of postherpetic neuralgia.</li></ul><p><b>Why the others do not</b></p><ul><li><b>Lesions stop at the midline (Option 1) and grouped vesicles on a red base (Option 4):</b> expected features of zoster: vesicular, dermatomal, on one side, never crossing the midline.</li><li><b>Childhood chickenpox (Option 9):</b> explains why zoster occurred (reactivation of latent varicella-zoster virus); no immediate action.</li><li><b>Temperature 37.9° C (Option 3):</b> low-grade fever and malaise fit the viral prodrome; continue to monitor.</li><li><b>BP 146/84 mm Hg (Option 7):</b> mildly elevated, likely from pain and stress; recheck after the pain is treated.</li></ul>"
         },
         "leftContent": {
           "tabs": [
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": ""
+            },
             {
               "id": "c2_hp",
               "title": "History and Physical",
@@ -12831,11 +12837,6 @@ window.NCLEX_CASES = [
               "id": "c2_vs",
               "title": "Vital Signs",
               "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-            },
-            {
-              "id": "c2_notes",
-              "title": "Nurses' Notes",
-              "content": ""
             }
           ],
           "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
@@ -12916,10 +12917,15 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030. The nurse has reviewed the Nurses' Notes from 1030.",
-          "explanation": "The chapter describes a viral prodrome with a burning sensation where the rash will appear several days later. Zoster follows a single dermatome and does not cross the midline. Low-grade fever and fatigue are part of the prodrome. A vesicle on the tip of the nose (Hutchinson sign) is a strong predictor of eye involvement, since the nasociliary nerve supplies both the tip of the nose and the eye. Photophobia and blurred vision suggest corneal or intraocular inflammation. Prednisone and methotrexate suppress cell-mediated immunity, which normally controls varicella-zoster virus, raising the risk of dissemination and prolonged shedding. Zoster most commonly affects older adults, and age also raises the risk of complications, including postherpetic neuralgia."
+          "explanation": "<p><b>Correct answers</b></p><ul><li><b>Expected manifestation:</b> burning, tingling pain for 3 days before the rash; lesions limited to one side, stopping at the midline; low-grade fever and fatigue.</li><li><b>Suggests ocular involvement:</b> vesicle on the tip of the nose; photophobia and blurred vision in the left eye.</li><li><b>Increases the risk of severe disease:</b> daily prednisone and weekly methotrexate; age 72.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-trigeminal-hutchinson.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-trigeminal-hutchinson.svg\" alt=\"Face diagram with the V1, V2 and V3 trigeminal dermatomes on the left side and vesicles in V1 including the nose tip\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">The three divisions of the trigeminal nerve. L.T.'s rash (forehead, scalp, upper eyelid, nose tip) is V1, the division that also supplies the eye.</figcaption></figure><p><b>Why</b></p><ul><li><b>Prodromal burning pain:</b> a burning or tingling sensation where the rash appears several days later is the typical prodrome.</li><li><b>One side, stopping at the midline:</b> zoster follows a single dermatome (the area supplied by one nerve root) and does not cross the midline.</li><li><b>Low-grade fever and fatigue:</b> part of the prodrome (feeling unwell, fever).</li><li><b>Vesicle on the nose tip:</b> the Hutchinson sign. The nasociliary nerve supplies both the nose tip and the eye, so this strongly predicts eye involvement.</li><li><b>Photophobia and blurred vision:</b> suggest corneal or intraocular inflammation.</li><li><b>Prednisone and methotrexate:</b> suppress the cell-mediated immunity that normally keeps the virus dormant, raising the risk of dissemination and prolonged viral shedding.</li><li><b>Age 72:</b> zoster most often affects older adults, and age raises the risk of complications, including postherpetic neuralgia.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/zoster-chest-dermatome.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/zoster-chest-dermatome.jpg\" alt=\"Photograph of herpes zoster in a band on one side of the chest\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">The same pattern on the trunk: clusters of vesicles on a red base in a band along one dermatome, on one side only. Photo: Fisle, <a href=\"https://commons.wikimedia.org/wiki/File:Herpes_zoster_chest.png\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: the Hutchinson sign and the immunosuppression risk are standard content.</i></p>"
         },
         "leftContent": {
           "tabs": [
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
             {
               "id": "c2_hp",
               "title": "History and Physical",
@@ -12929,11 +12935,6 @@ window.NCLEX_CASES = [
               "id": "c2_vs",
               "title": "Vital Signs",
               "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-            },
-            {
-              "id": "c2_notes",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
             }
           ],
           "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
@@ -12950,40 +12951,40 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "permanent vision loss",
-                    "correct": true
-                  },
-                  {
                     "text": "secondary bacterial skin infection",
-                    "correct": false
-                  },
-                  {
-                    "text": "scarring of the forehead",
                     "correct": false
                   },
                   {
                     "text": "hyperglycemia",
                     "correct": false
+                  },
+                  {
+                    "text": "permanent vision loss",
+                    "correct": true
+                  },
+                  {
+                    "text": "scarring of the forehead",
+                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
-                  {
-                    "text": "the virus is affecting the ophthalmic division of the trigeminal nerve",
-                    "correct": true
-                  },
                   {
                     "text": "the client is older than 65 years",
                     "correct": false
                   },
                   {
-                    "text": "the lesions are vesicular",
-                    "correct": false
+                    "text": "the virus is affecting the ophthalmic division of the trigeminal nerve",
+                    "correct": true
                   },
                   {
                     "text": "the client had chickenpox as a child",
+                    "correct": false
+                  },
+                  {
+                    "text": "the lesions are vesicular",
                     "correct": false
                   }
                 ],
@@ -12992,8 +12993,8 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "notify the provider immediately so that urgent ophthalmology assessment can be arranged",
-                    "correct": true
+                    "text": "teach the client to apply warm compresses to the eye",
+                    "correct": false
                   },
                   {
                     "text": "apply antibiotic ointment to the left eyelid",
@@ -13004,8 +13005,8 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "teach the client to apply warm compresses to the eye",
-                    "correct": false
+                    "text": "notify the provider immediately so that urgent ophthalmology assessment can be arranged",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -13013,19 +13014,19 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "acute pain",
-                    "correct": true
-                  },
-                  {
                     "text": "fluid volume excess",
                     "correct": false
                   },
                   {
-                    "text": "impaired gas exchange",
-                    "correct": false
+                    "text": "acute pain",
+                    "correct": true
                   },
                   {
                     "text": "hypothermia",
+                    "correct": false
+                  },
+                  {
+                    "text": "impaired gas exchange",
                     "correct": false
                   }
                 ],
@@ -13053,10 +13054,15 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
-          "explanation": "Herpes zoster ophthalmicus can cause keratitis, uveitis, glaucoma, and vision loss. A threat of permanent loss of function takes priority over skin integrity. The forehead, scalp, upper eyelid, and nose-tip lesions map to the V1 (ophthalmic) dermatome, explaining why the eye is at risk. This is stated directly in the chapter for facial lesions near the eye or ear. Applying ointment to the eye or warm compresses without a prescription is outside the nurse's scope, and waiting a week risks permanent damage. Pain rated 8/10 with allodynia must be addressed promptly; adequate pain control is a recognized priority in zoster care."
+          "explanation": "<p><b>Correct answer:</b> The nurse's priority is to prevent <b>permanent vision loss</b> because <b>the virus is affecting the ophthalmic division of the trigeminal nerve</b>. The nurse's immediate action should be to <b>notify the provider immediately so that urgent ophthalmology assessment can be arranged</b>. The nurse also recognizes the client's <b>acute pain</b> as a concurrent priority.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-eye-risk.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-eye-risk.svg\" alt=\"Diagram of the eye labelling cornea, iris and uvea, conjunctiva, retina and optic nerve with zoster complications\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">What herpes zoster ophthalmicus can damage, and the symptoms L.T. already has.</figcaption></figure><p><b>Why</b></p><ul><li><b>Permanent vision loss:</b> herpes zoster ophthalmicus can cause keratitis, uveitis, glaucoma and vision loss. A threat of permanent loss of function takes priority over skin integrity; zoster on facial dermatomes can affect eyesight and hearing.</li><li><b>Ophthalmic (V1) division:</b> the forehead, scalp, upper eyelid and nose-tip lesions map to V1, which explains why the eye is at risk.</li><li><b>Notify the provider immediately:</b> facial lesions near the eye or ear are reported at once. Putting ointment in or near the eye or applying warm compresses without a prescription is outside the nurse's scope and could cause harm; waiting a week risks permanent damage.</li><li><b>Acute pain:</b> pain rated 8/10 with allodynia must be treated promptly; adequate pain control is a recognized priority in zoster care.</li></ul><p><b>Why the other choices do not fit</b></p><ul><li>Secondary skin infection, scarring and hyperglycemia are possible later problems but not the most urgent threat. Her age, the vesicles and childhood chickenpox do not explain why the eye is at risk. Fluid volume excess, impaired gas exchange and hypothermia are not supported by the data.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/zoster-cornea-fluorescein.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/zoster-cornea-fluorescein.jpg\" alt=\"Photograph of an eye stained with fluorescein under cobalt-blue light\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Eye involvement in herpes zoster ophthalmicus: fluorescein dye under cobalt-blue light shows damage to the corneal surface (keratitis). Only an eye examination can find this, hence the urgent referral. Photo: James Heilman, MD, <a href=\"https://commons.wikimedia.org/wiki/File:HerpesZosterOpth.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.</figcaption></figure>"
         },
         "leftContent": {
           "tabs": [
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
             {
               "id": "c2_hp",
               "title": "History and Physical",
@@ -13066,11 +13072,6 @@ window.NCLEX_CASES = [
               "id": "c2_vs",
               "title": "Vital Signs",
               "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-            },
-            {
-              "id": "c2_notes",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
             }
           ],
           "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
@@ -13084,31 +13085,31 @@ window.NCLEX_CASES = [
           "limit": 5,
           "options": [
             {
-              "text": "Place the client in an airborne infection isolation room and use airborne and contact precautions",
-              "correct": true
-            },
-            {
-              "text": "Assign staff members with documented immunity to varicella",
-              "correct": true
+              "text": "Gently open intact vesicles to help the lesions dry faster",
+              "correct": false
             },
             {
               "text": "Infuse each acyclovir dose over at least 1 hour, maintain hydration, and keep strict intake and output",
               "correct": true
             },
             {
-              "text": "Assess left-eye symptoms and visual acuity each shift and report changes",
+              "text": "Place the client in an airborne infection isolation room and use airborne and contact precautions",
               "correct": true
             },
             {
-              "text": "Monitor the serum creatinine daily",
-              "correct": true
+              "text": "Hold the client's daily prednisone to improve her immune response",
+              "correct": false
             },
             {
               "text": "Tell the daughter she may bring the baby to visit if she wears a gown and gloves",
               "correct": false
             },
             {
-              "text": "Gently open intact vesicles to help the lesions dry faster",
+              "text": "Monitor the serum creatinine daily",
+              "correct": true
+            },
+            {
+              "text": "Give the recombinant shingles vaccine now to shorten this episode",
               "correct": false
             },
             {
@@ -13116,20 +13117,25 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Hold the client's daily prednisone to improve her immune response",
-              "correct": false
+              "text": "Assign staff members with documented immunity to varicella",
+              "correct": true
             },
             {
-              "text": "Give the recombinant shingles vaccine now to shorten this episode",
-              "correct": false
+              "text": "Assess left-eye symptoms and visual acuity each shift and report changes",
+              "correct": true
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400. The nurse has reviewed the Nurses' Notes from 1400 and the Provider Orders.",
-          "explanation": "For localized zoster in an immunocompromised client, isolation guidance calls for airborne and contact precautions until disseminated infection is ruled out. Varicella-zoster virus spreads to people who are not immune, so non-immune or pregnant staff should not provide care. IV acyclovir can precipitate as crystals in the renal tubules and cause acute kidney injury, especially with rapid infusion or dehydration, so each dose is infused slowly with adequate hydration and strict intake and output. Eye assessment follows directly from the priority of preventing vision loss; worsening vision needs prompt reporting to ophthalmology. Daily creatinine detects acyclovir-related kidney injury early. A 4-month-old is unvaccinated against varicella, and airborne precautions are in place; a gown and gloves do not protect the infant from an airborne exposure, so the visit should not be encouraged this way. Opening intact vesicles increases the risk of secondary bacterial infection and scarring; ointments are prescribed to prevent secondary infection, not to dry lesions faster. The order specifies skin lesions only -- only ophthalmic preparations may be placed in the eye. Stopping long-term corticosteroids abruptly risks adrenal insufficiency; the provider continued it, and any change needs a prescriber's order. The vaccine prevents future episodes; it does not treat active zoster, and vaccination is discussed after recovery."
+          "explanation": "<p><b>Correct answers:</b> airborne infection isolation room with airborne and contact precautions (Option 3), staff with documented immunity to varicella (Option 9), acyclovir over at least 1 hour with hydration and strict intake and output (Option 2), left-eye assessment each shift (Option 10), and daily serum creatinine (Option 6).</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-acyclovir-kidney.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-acyclovir-kidney.svg\" alt=\"Diagram of acyclovir crystals blocking a kidney tubule, and a nursing safety checklist\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">IV acyclovir can crystallize in the kidney tubules; slow infusion and good hydration prevent it.</figcaption></figure><p><b>Why these five</b></p><ul><li><b>Airborne and contact precautions (Option 3):</b> for localized zoster in an immunocompromised client, isolation guidance calls for airborne and contact precautions until disseminated infection is ruled out (matches the provider's order).</li><li><b>Immune staff (Option 9):</b> varicella-zoster virus spreads to people who are not immune; non-immune or pregnant staff should not provide care.</li><li><b>Slow acyclovir infusion, hydration, intake and output (Option 2):</b> IV acyclovir can precipitate as crystals in the renal tubules and cause acute kidney injury, especially with rapid infusion or dehydration.</li><li><b>Eye assessment (Option 10):</b> follows from the priority of preventing vision loss; worsening vision is reported promptly to ophthalmology.</li><li><b>Daily creatinine (Option 6):</b> detects acyclovir-related kidney injury early.</li></ul><p><b>Why not the others</b></p><ul><li><b>Baby visits with gown and gloves (Option 5):</b> the 4-month-old is unvaccinated against varicella and the client is on airborne precautions; a gown and gloves do not protect the infant.</li><li><b>Opening intact vesicles (Option 1):</b> increases the risk of secondary bacterial infection and scarring.</li><li><b>Mupirocin in the eye (Option 8):</b> the order is for skin lesions only. Only ophthalmic preparations go in the eye.</li><li><b>Holding prednisone (Option 4):</b> stopping long-term corticosteroids abruptly risks adrenal insufficiency; the provider continued it, and any change needs a prescriber's order.</li><li><b>Shingles vaccine now (Option 7):</b> the vaccine prevents future episodes; it does not treat active zoster. Vaccination is discussed after recovery.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: isolation details follow CDC and Public Health Agency of Canada guidance; acyclovir nephrotoxicity is standard pharmacology.</i></p>"
         },
         "leftContent": {
           "tabs": [
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
             {
               "id": "c2_hp",
               "title": "History and Physical",
@@ -13139,11 +13145,6 @@ window.NCLEX_CASES = [
               "id": "c2_vs",
               "title": "Vital Signs",
               "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-            },
-            {
-              "id": "c2_notes",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
             },
             {
               "id": "c2_notes2",
@@ -13170,11 +13171,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "fit-tested N95 respirator",
-                    "correct": true
-                  },
-                  {
-                    "text": "surgical mask",
+                    "text": "an N95 respirator on the client",
                     "correct": false
                   },
                   {
@@ -13182,7 +13179,15 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "open for close observation",
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": true
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
                     "correct": false
                   },
                   {
@@ -13190,15 +13195,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "an N95 respirator on the client",
-                    "correct": false
-                  },
-                  {
-                    "text": "covering the skin lesions with a clean dressing",
-                    "correct": false
-                  },
-                  {
-                    "text": "applying mupirocin ointment to the left eye",
+                    "text": "surgical mask",
                     "correct": false
                   },
                   {
@@ -13206,7 +13203,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "wait until the next scheduled dose to reassess pain",
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
                     "correct": false
                   }
                 ],
@@ -13215,11 +13216,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "fit-tested N95 respirator",
-                    "correct": false
-                  },
-                  {
-                    "text": "surgical mask",
+                    "text": "an N95 respirator on the client",
                     "correct": false
                   },
                   {
@@ -13227,7 +13224,15 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "open for close observation",
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
                     "correct": false
                   },
                   {
@@ -13235,15 +13240,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "an N95 respirator on the client",
-                    "correct": false
-                  },
-                  {
-                    "text": "covering the skin lesions with a clean dressing",
-                    "correct": false
-                  },
-                  {
-                    "text": "applying mupirocin ointment to the left eye",
+                    "text": "surgical mask",
                     "correct": false
                   },
                   {
@@ -13251,7 +13248,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "wait until the next scheduled dose to reassess pain",
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
                     "correct": false
                   }
                 ],
@@ -13260,11 +13261,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "fit-tested N95 respirator",
-                    "correct": false
-                  },
-                  {
-                    "text": "surgical mask",
+                    "text": "an N95 respirator on the client",
                     "correct": false
                   },
                   {
@@ -13272,7 +13269,15 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "open for close observation",
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
                     "correct": false
                   },
                   {
@@ -13280,15 +13285,7 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "an N95 respirator on the client",
-                    "correct": false
-                  },
-                  {
-                    "text": "covering the skin lesions with a clean dressing",
-                    "correct": false
-                  },
-                  {
-                    "text": "applying mupirocin ointment to the left eye",
+                    "text": "surgical mask",
                     "correct": false
                   },
                   {
@@ -13296,7 +13293,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "wait until the next scheduled dose to reassess pain",
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
                     "correct": false
                   }
                 ],
@@ -13305,11 +13306,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "fit-tested N95 respirator",
-                    "correct": false
-                  },
-                  {
-                    "text": "surgical mask",
+                    "text": "an N95 respirator on the client",
                     "correct": false
                   },
                   {
@@ -13317,7 +13314,15 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "open for close observation",
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
                     "correct": false
                   },
                   {
@@ -13325,15 +13330,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "an N95 respirator on the client",
-                    "correct": false
-                  },
-                  {
-                    "text": "covering the skin lesions with a clean dressing",
-                    "correct": true
-                  },
-                  {
-                    "text": "applying mupirocin ointment to the left eye",
+                    "text": "surgical mask",
                     "correct": false
                   },
                   {
@@ -13341,8 +13338,12 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "wait until the next scheduled dose to reassess pain",
+                    "text": "open for close observation",
                     "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -13350,11 +13351,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "fit-tested N95 respirator",
-                    "correct": false
-                  },
-                  {
-                    "text": "surgical mask",
+                    "text": "an N95 respirator on the client",
                     "correct": false
                   },
                   {
@@ -13362,7 +13359,15 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "open for close observation",
+                    "text": "applying mupirocin ointment to the left eye",
+                    "correct": false
+                  },
+                  {
+                    "text": "fit-tested N95 respirator",
+                    "correct": false
+                  },
+                  {
+                    "text": "wait until the next scheduled dose to reassess pain",
                     "correct": false
                   },
                   {
@@ -13370,15 +13375,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "an N95 respirator on the client",
-                    "correct": false
-                  },
-                  {
-                    "text": "covering the skin lesions with a clean dressing",
-                    "correct": false
-                  },
-                  {
-                    "text": "applying mupirocin ointment to the left eye",
+                    "text": "surgical mask",
                     "correct": false
                   },
                   {
@@ -13386,7 +13383,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "wait until the next scheduled dose to reassess pain",
+                    "text": "open for close observation",
+                    "correct": false
+                  },
+                  {
+                    "text": "covering the skin lesions with a clean dressing",
                     "correct": false
                   }
                 ],
@@ -13418,10 +13419,15 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400.",
-          "explanation": "Airborne precautions require a fit-tested N95 (or higher) respirator; a surgical mask does not filter airborne particles adequately. An airborne infection isolation room keeps negative pressure only with the door closed. During essential transport, the client wears a surgical mask to contain respiratory secretions; a client is not placed in an N95 (it is designed to protect the wearer, and may have an exhalation valve). Covering the skin lesions limits contact and airborne spread from vesicle fluid. Reassessing pain within the drug's peak time (about 30&ndash;60 minutes for oral opioids, per agency policy) evaluates effectiveness and sedation."
+          "explanation": "<p><b>Correct answer:</b> Before entering the client's room, the nurse performs hand hygiene and dons a gown, gloves, and a <b>fit-tested N95 respirator</b>. The door to the client's room must remain <b>closed</b>. Before the client is transported to the eye clinic for her slit-lamp examination, the nurse places <b>a surgical mask on the client</b> and prepares her by <b>covering the skin lesions with a clean dressing</b>. After administering the prescribed oxycodone for pain rated 8/10, the nurse plans to <b>reassess pain within 60 minutes</b>.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-airborne-precautions.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-airborne-precautions.svg\" alt=\"Diagram of an airborne infection isolation room with a closed door, a nurse in N95 respirator, gown and gloves, and transport steps\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Airborne and contact precautions for L.T. until disseminated zoster is ruled out.</figcaption></figure><p><b>Why</b></p><ul><li><b>Fit-tested N95 respirator:</b> airborne precautions require an N95 (or higher) respirator; a surgical mask does not filter airborne particles adequately.</li><li><b>Door closed:</b> an airborne infection isolation room keeps its negative pressure only while the door is closed. Leaving it open for observation defeats the room.</li><li><b>Surgical mask on the client:</b> during essential transport, the client wears a surgical mask to contain her respiratory secretions. An N95 is not placed on a client: it is designed to protect the wearer, and some have an exhalation valve.</li><li><b>Covering the skin lesions:</b> limits contact and airborne spread from vesicle fluid. Mupirocin is for skin lesions only, never the eye.</li><li><b>Reassess pain within 60 minutes:</b> reassessing within the drug's peak time (about 30 to 60 minutes for oral opioids, per agency policy) evaluates pain relief and sedation. Waiting until the next dose leaves uncontrolled pain unnoticed.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: transmission-based precaution details follow the CDC 2007 Guideline for Isolation Precautions; Public Health Agency of Canada guidance is consistent.</i></p>"
         },
         "leftContent": {
           "tabs": [
+            {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
             {
               "id": "c2_hp",
               "title": "History and Physical",
@@ -13431,11 +13437,6 @@ window.NCLEX_CASES = [
               "id": "c2_vs",
               "title": "Vital Signs",
               "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-            },
-            {
-              "id": "c2_notes",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
             },
             {
               "id": "c2_notes2",
@@ -13472,7 +13473,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 4. The nurse has reviewed the Hospital Day 4 Flowsheet.",
-          "explanation": "A creatinine more than doubled from the 78 µmol/L admission baseline suggests acyclovir-associated acute kidney injury; the nurse notifies the provider promptly, since the dose may need adjustment and hydration reviewed. Oliguria (a urine output under about 400 mL/24 h, or under 0.5 mL/kg/h) despite adequate intake also supports kidney injury. The client's statement that ongoing burning after the scabs are gone “doesn't mean anything” shows a misunderstanding: pain that persists after the rash heals may be postherpetic neuralgia, a treatable, reportable neurological complication, and this teaching needs reinforcement. Temperature, skin, pain, and eye findings all show expected progress: afebrile, lesions crusted without dissemination, pain controlled, and eye findings stable. A capillary glucose of 7.4 mmol/L is acceptable for a client with diabetes taking prednisone. The vaccine and hand-hygiene statements reflect accurate understanding -- the recombinant (non-live) zoster vaccine is recommended after recovery, including for people who are immunocompromised.",
+          "explanation": "<p><b>Highlight these three findings:</b> serum creatinine 163 µmol/L (admission 78 µmol/L); intake 1,600 mL with urine output 380 mL; and the statement “Once the scabs are gone, any burning that's left doesn't mean anything, so I won't bother anyone about it.”</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-creatinine-trend.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-creatinine-trend.svg\" alt=\"Bar charts of creatinine rising from 78 to 163 micromoles per litre and urine output of 380 mL against at least 720 mL expected\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Hospital day 4: creatinine has more than doubled and the urine output is far below what her intake should produce.</figcaption></figure><p><b>Why these need follow-up</b></p><ul><li><b>Creatinine more than doubled:</b> suggests acyclovir-associated acute kidney injury. The nurse notifies the provider promptly; the dose may need adjusting and hydration reviewed.</li><li><b>Urine output 380 mL in 24 hours:</b> oliguria (under about 400 mL/24 h, or under 0.5 mL/kg/h; for a 60-kg client, at least 720 mL/24 h is expected) despite an adequate intake supports kidney injury.</li><li><b>\"Any burning that's left doesn't mean anything\":</b> pain that persists after the rash heals may be postherpetic neuralgia, a treatable neurological complication that should be reported. The teaching needs reinforcing.</li></ul><p><b>Why the others show expected progress</b></p><ul><li>Temperature 37.0° C, all lesions crusted with no new lesions, pain 3/10 and a stable eye: afebrile, no dissemination, pain controlled. Once all lesions are crusted, she is no longer considered infectious.</li><li>Capillary glucose 7.4 mmol/L: acceptable for a client with diabetes taking prednisone.</li><li>The vaccine and hand-hygiene statements are accurate. The recombinant (non-live) zoster vaccine is recommended after recovery, including for people who are immunocompromised (NACI; CDC).</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: acyclovir nephrotoxicity and the vaccine recommendations are standard references.</i></p>",
           "highlightTabs": [
             {
               "id": "c2_ht6",
@@ -13485,6 +13486,11 @@ window.NCLEX_CASES = [
         "leftContent": {
           "tabs": [
             {
+              "id": "c2_notes",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+            },
+            {
               "id": "c2_hp",
               "title": "History and Physical",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
@@ -13493,11 +13499,6 @@ window.NCLEX_CASES = [
               "id": "c2_vs",
               "title": "Vital Signs",
               "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-            },
-            {
-              "id": "c2_notes",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
             },
             {
               "id": "c2_notes2",
@@ -13522,7 +13523,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "A 72-year-old immunosuppressed female client with herpes zoster involving the left forehead, scalp, and eye, from the primary care clinic through hospitalization and discharge planning.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-08T23:35:00.008Z"
   },
   {
     "id": "case_1782390000008",
@@ -13575,8 +13576,8 @@ window.NCLEX_CASES = [
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-          "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
-          "explanation": "Impaired thermoregulation (temperature 35.6° C) results when the skin barrier is almost completely lost; the nurse monitors temperature and provides warming measures in erythroderma. Tachycardia and hypotension with an orthostatic drop reflect hemodynamic instability from fluid loss through the damaged skin -- hemodynamic stability is the priority in erythroderma. Only 100 mL of dark, concentrated urine in 8 hours (about 0.14 mL/kg/h in a 92-kg client) shows oliguria from hypovolemia. Erythema over about 90% of the body meets the chapter's definition of generalized exfoliative dermatitis (erythroderma), a life-threatening condition managed in hospital. Low potassium and magnesium are replaced; both raise dysrhythmia risk, and heavy alcohol use contributes to low magnesium. A creatinine risen from a baseline of 84 to 132 µmol/L suggests prerenal acute kidney injury from hypovolemia. An albumin of 26 g/L reflects protein loss through the shedding, inflamed skin; this explains the ankle edema and lowers oncotic pressure. A normal respiratory rate and SpO2 argue against a respiratory cause for these findings. Nail pitting is a chronic finding of nail psoriasis, not urgent. An elevated ESR is expected with psoriatic inflammation and is monitored, but does not require immediate action on its own. Mild anemia and a normal ALT are not immediately dangerous; the ALT is a useful baseline before starting systemic therapy.",
+          "preamble": "Phase 1 — Emergency Department, 2140.",
+          "explanation": "<p><b>Highlight these nine findings:</b> temperature 35.6° C; heart rate 116/min; blood pressure 96/58 lying and 80/50 mm Hg standing with dizziness; 100 mL of dark amber urine in 8 hours; erythema with scaling over about 90% of the body; potassium 3.1 mmol/L; magnesium 0.62 mmol/L; creatinine 132 µmol/L (84 three months ago); albumin 26 g/L.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/erythroderma.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/erythroderma.jpg\" alt=\"Photograph of generalized erythroderma\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Generalized exfoliative dermatitis (erythroderma), from a historical atlas: redness and scaling over almost the whole body surface. Photo: George Henry Fox, Photographic Atlas of the Diseases of the Skin (1905), <a href=\"https://commons.wikimedia.org/wiki/File:Dermatitis_exfoliativa.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, public domain.</figcaption></figure><p><b>Why these findings</b></p><ul><li><b>Temperature 35.6° C:</b> impaired thermoregulation; inflamed, dilated skin over 90% of the body loses heat. The nurse monitors temperature and provides warming measures.</li><li><b>Tachycardia; hypotension with an orthostatic drop:</b> hemodynamic instability from fluid lost through the damaged skin. Hemodynamic stability is the priority in erythroderma.</li><li><b>100 mL of urine in 8 hours:</b> about 0.14 mL/kg/h in a 92-kg client: oliguria from hypovolemia.</li><li><b>Erythema over about 90% of the body:</b> meets the definition of generalized exfoliative dermatitis (erythroderma), a life-threatening condition managed in hospital.</li><li><b>Low potassium and magnesium:</b> both raise the risk of dysrhythmias and are replaced; heavy alcohol use contributes to low magnesium.</li><li><b>Creatinine up from 84 to 132 µmol/L:</b> suggests prerenal acute kidney injury from hypovolemia.</li><li><b>Albumin 26 g/L:</b> protein lost through the shedding, inflamed skin. Low oncotic pressure explains the ankle edema.</li></ul><p><b>Why the others are not urgent</b></p><ul><li><b>RR 18/min and SpO<sub>2</sub> 97%:</b> within normal limits.</li><li><b>Nail pitting and ridging:</b> a chronic finding of nail psoriasis.</li><li><b>ESR 48 mm/h:</b> elevated ESR is expected with psoriatic inflammation; monitor.</li><li><b>Hemoglobin 124 g/L:</b> mild anemia, which can occur in erythroderma; not immediately dangerous.</li><li><b>ALT 34 U/L:</b> normal, and a useful baseline before systemic therapy.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/nail-pitting.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/nail-pitting.jpg\" alt=\"Photograph of a fingernail with pitting from psoriasis\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Nail pitting in psoriasis: small depressions in the nail plate. A long-standing finding, not an emergency. Photo: Seenms, <a href=\"https://commons.wikimedia.org/wiki/File:Luszczyca_paznokcia.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure>",
           "highlightTabs": [
             {
               "id": "c3_ht1",
@@ -13613,40 +13614,40 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "fluid loss through the widely inflamed, shedding skin",
-                    "correct": true
-                  },
-                  {
                     "text": "cardiogenic shock",
-                    "correct": false
-                  },
-                  {
-                    "text": "methotrexate toxicity",
                     "correct": false
                   },
                   {
                     "text": "anaphylaxis to prednisone",
                     "correct": false
+                  },
+                  {
+                    "text": "fluid loss through the widely inflamed, shedding skin",
+                    "correct": true
+                  },
+                  {
+                    "text": "methotrexate toxicity",
+                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
-                  {
-                    "text": "the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output",
-                    "correct": true
-                  },
-                  {
-                    "text": "the nail pitting and ridging",
-                    "correct": false
-                  },
                   {
                     "text": "the ESR of 48 mm/h",
                     "correct": false
                   },
                   {
+                    "text": "the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output",
+                    "correct": true
+                  },
+                  {
                     "text": "the SpO2 of 97%",
+                    "correct": false
+                  },
+                  {
+                    "text": "the nail pitting and ridging",
                     "correct": false
                   }
                 ],
@@ -13654,14 +13655,6 @@ window.NCLEX_CASES = [
               },
               {
                 "options": [
-                  {
-                    "text": "heat loss through widespread, dilated skin blood vessels",
-                    "correct": true
-                  },
-                  {
-                    "text": "hypothyroidism",
-                    "correct": false
-                  },
                   {
                     "text": "alcohol withdrawal",
                     "correct": false
@@ -13669,26 +13662,34 @@ window.NCLEX_CASES = [
                   {
                     "text": "a normal evening drop in body temperature",
                     "correct": false
+                  },
+                  {
+                    "text": "hypothyroidism",
+                    "correct": false
+                  },
+                  {
+                    "text": "heat loss through widespread, dilated skin blood vessels",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
-                  {
-                    "text": "a low serum albumin from protein loss through the skin",
-                    "correct": true
-                  },
-                  {
-                    "text": "fluid overload from IV fluids",
-                    "correct": false
-                  },
                   {
                     "text": "right-sided heart failure",
                     "correct": false
                   },
                   {
+                    "text": "a low serum albumin from protein loss through the skin",
+                    "correct": true
+                  },
+                  {
                     "text": "bilateral deep vein thrombosis",
+                    "correct": false
+                  },
+                  {
+                    "text": "fluid overload from IV fluids",
                     "correct": false
                   }
                 ],
@@ -13696,20 +13697,20 @@ window.NCLEX_CASES = [
               },
               {
                 "options": [
-                  {
-                    "text": "stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress",
-                    "correct": true
-                  },
-                  {
-                    "text": "a new laundry detergent",
-                    "correct": false
-                  },
                   {
                     "text": "a recent streptococcal throat infection",
                     "correct": false
                   },
                   {
                     "text": "too much sun exposure",
+                    "correct": false
+                  },
+                  {
+                    "text": "stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress",
+                    "correct": true
+                  },
+                  {
+                    "text": "a new laundry detergent",
                     "correct": false
                   }
                 ],
@@ -13747,7 +13748,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Emergency Department, 2140. The nurse has reviewed the Nurses' Notes from 2140.",
-          "explanation": "In erythroderma the skin barrier is almost completely absent, so the patient loses fluid rapidly through the skin. The orthostatic drop, dry mucosa, and low, concentrated urine output confirm volume depletion; a normal SpO2 and clear lungs argue against a cardiopulmonary cause, and there is no allergen exposure suggesting anaphylaxis. Inflamed, vasodilated skin over 90% of the body loses heat rapidly; the chapter directs frequent temperature monitoring with warming or cooling as needed. The client has not stopped drinking long enough for significant withdrawal, and alcohol withdrawal tends to raise, not lower, temperature. An albumin of 26 g/L shows protein loss through scaling and exudation; low oncotic pressure lets fluid shift into tissues even while the client is intravascularly depleted, and IV fluids have not yet been given. The chapter lists stress and excessive alcohol as psoriasis triggers and notes psoriasis is a contributing cause of erythroderma. Abruptly stopping systemic therapy and withdrawal of systemic corticosteroids are well-recognized triggers of erythrodermic flares. A streptococcal infection classically triggers guttate psoriasis; detergents trigger contact dermatitis, not this presentation."
+          "explanation": "<p><b>Correct answer:</b> The client's hypotension and tachycardia are most likely caused by <b>fluid loss through the widely inflamed, shedding skin</b> as evidenced by <b>the orthostatic blood pressure drop, dry oral mucosa, and low, concentrated urine output</b>. His temperature of 35.6° C is most likely due to <b>heat loss through widespread, dilated skin blood vessels</b>. The bilateral ankle edema is most likely related to <b>a low serum albumin from protein loss through the skin</b>. The flare was most likely triggered by <b>stopping methotrexate, finishing a course of oral prednisone, heavy alcohol use, and stress</b>.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-skin-losses.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-skin-losses.svg\" alt=\"Diagram of a body with erythroderma losing water, heat, protein and electrolytes through the skin\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">What J.M.'s skin is losing, and the findings that show it.</figcaption></figure><p><b>Why</b></p><ul><li><b>Fluid loss through the skin:</b> in erythroderma the skin barrier is almost completely absent, so fluid is lost continuously. The orthostatic drop, dry mucosa and low, concentrated urine confirm volume depletion. A normal SpO<sub>2</sub> and clear lungs argue against a cardiac cause, and there was no allergen exposure suggesting anaphylaxis. Nail pitting, the ESR and the SpO<sub>2</sub> do not show volume status.</li><li><b>Heat loss through dilated skin vessels:</b> inflamed, vasodilated skin over 90% of the body loses heat rapidly. He has not stopped drinking long enough for significant withdrawal, and alcohol withdrawal tends to raise temperature, not lower it.</li><li><b>Low albumin:</b> albumin 26 g/L shows protein lost through scaling and exudation. Low oncotic pressure lets fluid shift into the tissues even while he is intravascularly depleted. No IV fluids have been given yet, and nothing suggests heart failure or bilateral DVT.</li><li><b>Triggers:</b> stress and excessive alcohol are psoriasis triggers, and psoriasis is a contributing cause of erythroderma. Abruptly stopping systemic therapy and withdrawal of systemic corticosteroids are well-recognized triggers of erythrodermic flares. A streptococcal throat infection classically triggers guttate psoriasis, and detergents trigger contact dermatitis.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: methotrexate and corticosteroid withdrawal as triggers are standard dermatology content.</i></p>"
         },
         "leftContent": {
           "tabs": [
@@ -13776,40 +13777,40 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "risk for hemodynamic instability related to fluid and electrolyte loss",
-                    "correct": true
-                  },
-                  {
                     "text": "impaired skin integrity",
-                    "correct": false
-                  },
-                  {
-                    "text": "disturbed body image",
                     "correct": false
                   },
                   {
                     "text": "deficient knowledge about medication adherence",
                     "correct": false
+                  },
+                  {
+                    "text": "risk for hemodynamic instability related to fluid and electrolyte loss",
+                    "correct": true
+                  },
+                  {
+                    "text": "disturbed body image",
+                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
-                  {
-                    "text": "the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat",
-                    "correct": true
-                  },
                   {
                     "text": "psoriasis is an autoimmune disorder",
                     "correct": false
                   },
                   {
-                    "text": "the client stopped taking methotrexate",
-                    "correct": false
+                    "text": "the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat",
+                    "correct": true
                   },
                   {
                     "text": "the ESR is elevated",
+                    "correct": false
+                  },
+                  {
+                    "text": "the client stopped taking methotrexate",
                     "correct": false
                   }
                 ],
@@ -13818,8 +13819,8 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "impaired skin integrity",
-                    "correct": true
+                    "text": "ineffective coping",
+                    "correct": false
                   },
                   {
                     "text": "disturbed body image",
@@ -13830,8 +13831,8 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "ineffective coping",
-                    "correct": false
+                    "text": "impaired skin integrity",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -13854,7 +13855,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
-          "explanation": "For ordinary psoriasis, impaired skin integrity is the priority. Once the disease becomes erythroderma, the priority shifts to hemodynamic instability, because the skin barrier is almost completely absent -- this is the key clinical-judgment shift in this case. That widespread loss of the skin barrier is the mechanism that makes erythroderma life-threatening; the other options are true facts but do not explain the immediate danger. Impaired skin integrity is the next hypothesis in erythroderma. Body image, knowledge, and coping are real needs for this client (he is tearful and isolating) and are addressed once he is physiologically stable, in keeping with the priority of physiological needs."
+          "explanation": "<p><b>Correct answer:</b> The priority nursing hypothesis at this time is <b>risk for hemodynamic instability related to fluid and electrolyte loss</b> because <b>the skin barrier is almost completely absent, allowing ongoing loss of fluid, protein, electrolytes, and heat</b>. Once this is addressed, the nurse's next priority is <b>impaired skin integrity</b>.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-priority-shift.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-priority-shift.svg\" alt=\"Diagram comparing nursing priorities in plaque psoriasis and in erythroderma\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">The key clinical-judgment shift in this case.</figcaption></figure><p><b>Why</b></p><ul><li><b>Hemodynamic instability first:</b> for ordinary plaque psoriasis, impaired skin integrity is the priority. Once the disease becomes erythroderma, the priority shifts to hemodynamic stability because the skin barrier is almost completely absent.</li><li><b>Loss of the skin barrier:</b> this is the mechanism that makes erythroderma life-threatening. That psoriasis is autoimmune, that he stopped methotrexate and that the ESR is raised are all true, but they do not explain the immediate danger.</li><li><b>Impaired skin integrity next:</b> the next hypothesis in erythroderma. Body image, knowledge and coping are real needs (he is tearful and isolating) and are addressed once he is physiologically stable.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/psoriasis-plaque.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/psoriasis-plaque.jpg\" alt=\"Photograph of a psoriasis plaque with silvery-white scale\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Typical plaque psoriasis: a well-defined red plaque with silvery-white scale, the form J.M. has had for 20 years. In erythroderma the redness and scaling cover almost the whole body. Photo: James Heilman, MD, <a href=\"https://commons.wikimedia.org/wiki/File:Psoriasis2010.JPG\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure>"
         },
         "leftContent": {
           "tabs": [
@@ -13879,7 +13880,23 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Restrict oral fluids to 1 L/day to reduce the ankle edema",
+              "correct": false
+            },
+            {
+              "text": "Maintain strict intake and output and obtain a daily weight",
+              "correct": true
+            },
+            {
               "text": "Administer IV isotonic fluids as prescribed",
+              "correct": true
+            },
+            {
+              "text": "Arrange an ultraviolet phototherapy session for tomorrow",
+              "correct": false
+            },
+            {
+              "text": "Administer the prescribed oral antihistamine, preferably at bedtime",
               "correct": true
             },
             {
@@ -13887,19 +13904,11 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Keep the room warm, apply warm blankets, and monitor temperature frequently",
-              "correct": true
-            },
-            {
-              "text": "Maintain strict intake and output and obtain a daily weight",
-              "correct": true
+              "text": "Use hot water and a washcloth to scrub off loose scale",
+              "correct": false
             },
             {
               "text": "Provide lukewarm oatmeal soaks followed by a bland, oil-based emollient",
-              "correct": true
-            },
-            {
-              "text": "Administer the prescribed oral antihistamine, preferably at bedtime",
               "correct": true
             },
             {
@@ -13907,25 +13916,17 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Restrict oral fluids to 1 L/day to reduce the ankle edema",
-              "correct": false
-            },
-            {
               "text": "Apply coal tar ointment to all reddened skin",
               "correct": false
             },
             {
-              "text": "Arrange an ultraviolet phototherapy session for tomorrow",
-              "correct": false
-            },
-            {
-              "text": "Use hot water and a washcloth to scrub off loose scale",
-              "correct": false
+              "text": "Keep the room warm, apply warm blankets, and monitor temperature frequently",
+              "correct": true
             }
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Emergency Department, 2140.",
-          "explanation": "Adequate hydration through IV fluid replacement maintains hemodynamic stability. Potassium, magnesium, and calcium are replaced when indicated; low potassium and magnesium raise dysrhythmia risk, so cardiac monitoring is prudent. Temperature monitoring with warming measures as needed addresses impaired thermoregulation. Strict intake and output and daily weight track the response to fluid replacement and ongoing losses. Oatmeal baths are recommended for erythroderma, and oil-based emollients are recommended for psoriasis; lukewarm water avoids further vasodilation and heat loss. Oral antihistamines (for example, diphenhydramine) are listed for itching in erythroderma; bedtime dosing uses the sedating effect, with supervision for getting up because of orthostatic hypotension. He reports 6 to 8 drinks a day; withdrawal can begin within 6 to 24 hours of the last drink and worsens hemodynamic instability. The edema comes from low albumin while the client is intravascularly depleted; restricting fluids would worsen hypotension and kidney injury. Coal tar is a treatment for mild, localized psoriasis; on inflamed, broken skin over 90% of the body it is irritating and can worsen erythroderma. Ultraviolet phototherapy is used for more stable psoriasis; ultraviolet exposure to acutely inflamed skin can aggravate erythroderma, and he is unstable. Friction and heat from hot water scrubbing further damage the fragile barrier, increase heat and fluid loss, and invite infection."
+          "explanation": "<p><b>Correct answers:</b> IV isotonic fluids (Option 3); potassium and magnesium replacement with cardiac monitoring (Option 6); warm room, warm blankets and frequent temperature checks (Option 11); strict intake and output and daily weight (Option 2); lukewarm oatmeal soaks and a bland, oil-based emollient (Option 8); an oral antihistamine at bedtime (Option 5); and alcohol-withdrawal monitoring with a validated scale (Option 9).</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-skin-care.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-skin-care.svg\" alt=\"Do and do-not lists for skin care in erythroderma\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Skin care when the barrier is gone: gentle, lukewarm, moisturizing.</figcaption></figure><p><b>Why these</b></p><ul><li><b>IV isotonic fluids (Option 3):</b> adequate hydration through IV fluid replacement maintains hemodynamic stability.</li><li><b>Potassium and magnesium (Option 6):</b> potassium, magnesium and calcium are replaced when indicated; low potassium and magnesium raise the risk of dysrhythmias, so cardiac monitoring is prudent.</li><li><b>Warming (Option 11):</b> frequent temperature checks with warming measures address impaired thermoregulation.</li><li><b>Intake and output, daily weight (Option 2):</b> track the response to fluid replacement and ongoing losses.</li><li><b>Oatmeal soaks and emollient (Option 8):</b> oatmeal baths soothe erythroderma and oil-based emollients help psoriasis; lukewarm water avoids more vasodilation and heat loss.</li><li><b>Bedtime antihistamine (Option 5):</b> oral antihistamines (for example diphenhydramine) relieve itching; bedtime dosing uses the sedating effect. Supervise getting up because of the orthostatic hypotension.</li><li><b>Alcohol-withdrawal monitoring (Option 9):</b> he drinks 6 to 8 beers a day; withdrawal can begin 6 to 24 hours after the last drink and would worsen his hemodynamic instability.</li></ul><p><b>Why not the others</b></p><ul><li><b>Fluid restriction (Option 1):</b> the edema comes from low albumin while he is intravascularly depleted; restricting fluids would worsen the hypotension and kidney injury.</li><li><b>Coal tar on all reddened skin (Option 10):</b> coal tar treats mild, localized psoriasis. On inflamed, broken skin over 90% of the body it irritates and can worsen erythroderma.</li><li><b>Phototherapy (Option 4):</b> used for stable psoriasis; ultraviolet light on acutely inflamed skin can aggravate erythroderma, and he is unstable.</li><li><b>Hot water and scrubbing (Option 7):</b> friction and heat further damage the fragile barrier, increase heat and fluid loss, and invite infection.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: alcohol-withdrawal monitoring and the coal tar contraindication in erythroderma are standard content.</i></p>"
         },
         "leftContent": {
           "tabs": [
@@ -14025,7 +14026,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 2 &mdash; Medical Unit, Hospital Day 3. The nurse has reviewed the Nurses' Notes from Hospital Day 3 and the Screening Results.",
-          "explanation": "For systemic and biologic therapy (infliximab is named), the nurse monitors for serious infections such as tuberculosis and hepatitis. TNF inhibitors can reactivate latent TB and hepatitis B, so screening must be confirmed first. Infliximab can cause infusion reactions. Suppressed immunity makes infection more likely and directs teaching about worsening redness, swelling, or discharge. Live vaccines are avoided during biologic immunosuppression; needed vaccines should be given before therapy starts, per prescriber. Psoriasis is chronic with remission and relapse; the nurse reinforces adherence rather than suggesting therapy can simply be stopped once the skin clears -- stopping therapy is what precipitated this admission. Addressing the root cause of non-adherence (lost drug coverage) and the psychosocial impact matters: support groups and social work are appropriate for coping and financial concerns. Education to avoid triggers, including stress and excessive alcohol, and stress-reduction techniques are directed. Heat and prolonged water exposure dry and irritate the skin and promote heat and fluid loss; lukewarm soaks followed by emollients are appropriate instead."
+          "explanation": "<p><b>Correct answers</b></p><ul><li><b>Indicated:</b> confirm the TB and hepatitis screening before the first infusion; monitor vital signs and watch for an infusion reaction; teach him to report fever, cough, night sweats or skin infection; refer to a social worker and a psoriasis support group or counselling; teach stress reduction and support his plan to cut down on alcohol.</li><li><b>Contraindicated:</b> advising overdue live vaccines now; explaining that infusions can stop once the skin clears; encouraging long, hot showers.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c8-infliximab-checklist.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c8-infliximab-checklist.svg\" alt=\"Checklist for before, during and after an infliximab infusion\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Infliximab, a TNF inhibitor: what the nurse checks and teaches.</figcaption></figure><p><b>Why</b></p><ul><li><b>TB and hepatitis screening:</b> with systemic and biologic therapy (infliximab is one), the nurse monitors for serious infections such as tuberculosis and hepatitis. TNF inhibitors can reactivate latent TB and hepatitis B, so negative screening is confirmed first.</li><li><b>Infusion reaction:</b> infliximab can cause fever, chills, dyspnea, hives or hypotension during or after the infusion.</li><li><b>Infection warning signs:</b> suppressed immunity makes infection more likely.</li><li><b>Live vaccines (contraindicated):</b> live vaccines are avoided during biologic immunosuppression; needed vaccines are given before therapy starts, per the prescriber.</li><li><b>Stopping once the skin clears (contraindicated):</b> psoriasis is chronic, with remissions and relapses; the nurse reinforces adherence. Stopping therapy is what caused this admission.</li><li><b>Social work and support group:</b> address the root cause of his non-adherence (lost drug coverage) and the psychosocial impact of his skin disease.</li><li><b>Stress and alcohol reduction:</b> stress and excessive alcohol are psoriasis triggers.</li><li><b>Long, hot showers (contraindicated):</b> heat and prolonged water exposure dry and irritate the skin and promote heat and fluid loss; lukewarm soaks followed by emollients are used instead.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: infusion reactions and live-vaccine precautions are standard pharmacology.</i></p>"
         },
         "leftContent": {
           "tabs": [
@@ -14127,7 +14128,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 7. The nurse has reviewed the Nurses' Notes from Hospital Day 7.",
-          "explanation": "Stable blood pressure and heart rate meet the expected outcome of vital signs within normal limits without fluid imbalance. A normal temperature shows thermoregulation restored. Normal potassium and magnesium show no electrolyte disturbance. The chapter expects the skin to begin healing with decreased peeling and itching. A honey-coloured crust with surrounding redness and warmth is a classic sign of secondary bacterial infection (impetigo-like); the chapter notes yellow crusts over excoriations signal infection -- notify the provider; topical mupirocin is commonly prescribed, and infection risk is higher on a biologic. Low withdrawal scores show withdrawal was prevented or managed. Planning to skip the next infusion once the skin clears shows the adherence teaching has not been understood; the chapter directs the nurse to evaluate education and reinforce continuing treatment."
+          "explanation": "<p><b>Correct answers</b></p><ul><li><b>Effective:</b> BP 124/78 mm Hg and HR 82 beats/min with no orthostatic change; temperature 36.8° C; potassium 4.1 and magnesium 0.84 mmol/L; erythema down to about 40% with less peeling and itch 3/10; alcohol-withdrawal scores 0 to 2.</li><li><b>Not effective:</b> the honey-coloured crust with redness and warmth on the right shin; the plan to skip the next infusion.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/impetigo-honey-crust.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/impetigo-honey-crust.jpg\" alt=\"Photograph of honey-coloured crusts of impetigo on the chin\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Honey-coloured crusts: the typical look of impetigo, a superficial bacterial skin infection (Staphylococcus aureus or Streptococcus pyogenes). The same crust on J.M.'s excoriation, with redness and warmth, signals secondary infection. Photo: James Heilman, MD, <a href=\"https://commons.wikimedia.org/wiki/File:Impetigo2020.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.</figcaption></figure><p><b>Why</b></p><ul><li><b>Stable BP and HR:</b> meets the outcome of vital signs within normal limits without fluid imbalance.</li><li><b>Temperature 36.8° C:</b> thermoregulation restored.</li><li><b>Normal potassium and magnesium:</b> no electrolyte disturbance.</li><li><b>Less erythema, peeling and itch:</b> the skin is beginning to heal.</li><li><b>Honey-coloured crust with redness and warmth:</b> a classic sign of secondary bacterial infection; yellow crusts over excoriations signal infection. The nurse notifies the provider (topical mupirocin is commonly prescribed); infection risk is higher on a biologic.</li><li><b>Withdrawal scores 0 to 2:</b> withdrawal was prevented or managed.</li><li><b>\"I'll just skip the next infusion\":</b> the adherence teaching has not been understood. The nurse evaluates the education and reinforces continuing treatment.</li></ul>"
         },
         "leftContent": {
           "tabs": [
@@ -14164,7 +14165,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "A 54-year-old male client with 20 years of plaque psoriasis who progresses to generalized exfoliative dermatitis (erythroderma) after stopping methotrexate, from the emergency department through biologic therapy and discharge planning.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-08T23:35:00.008Z"
   },
   {
     "id": "case_1786010000001",
@@ -16257,14 +16258,14 @@ window.NCLEX_CASES = [
         "leftContent": {
           "tabs": [
             {
-              "id": "hp",
-              "title": "History and Physical",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
-            },
-            {
               "id": "nn",
               "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
             }
           ],
           "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -16314,14 +16315,14 @@ window.NCLEX_CASES = [
         "leftContent": {
           "tabs": [
             {
-              "id": "hp",
-              "title": "History and Physical",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
-            },
-            {
               "id": "nn",
               "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
             }
           ],
           "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -16381,14 +16382,14 @@ window.NCLEX_CASES = [
         "leftContent": {
           "tabs": [
             {
-              "id": "hp",
-              "title": "History and Physical",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
-            },
-            {
               "id": "nn",
               "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO<sub>2</sub> is 89% on 6L face mask. Heart rate is 108 beats/min. Blood pressure is 172/98 mm Hg.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
             }
           ],
           "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -16446,14 +16447,14 @@ window.NCLEX_CASES = [
         "leftContent": {
           "tabs": [
             {
-              "id": "hp",
-              "title": "History and Physical",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
-            },
-            {
               "id": "nn",
               "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO<sub>2</sub> is 89% on 6L face mask. Heart rate is 108 beats/min. Blood pressure is 172/98 mm Hg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">IV furosemide 40mg was administered stat. Foley catheter inserted with 150 mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
             }
           ],
           "intro": "The nurse is caring for a 72-year-old male client in the emergency department (ED)."
@@ -16548,14 +16549,14 @@ window.NCLEX_CASES = [
         "leftContent": {
           "tabs": [
             {
-              "id": "hp",
-              "title": "History and Physical",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
-            },
-            {
               "id": "nn",
               "title": "Nurses' Notes",
               "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">Client arrived via ambulance in moderate respiratory distress. Placed on cardiac monitor showing sinus tachycardia. Respiration shallow and labored. Bilateral crackles auscultated in lower lung bases. Pitting edema (1+) noted in bilateral ankles. Daughter reports client ran out of his blood pressure medications 2 weeks ago and has had progressive shortness of breath over the last 3 days.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0800:</span><span class=\"nurse-note-text\">Client's breathing remains labored. Productive cough noted with small amounts of pink-tinged frothy sputum. Distended jugular veins observed when head of bed is elevated to 45 degrees. Abdomen appears slightly distended; client reports a feeling of fullness and bloating. Right upper quadrant tenderness noted on palpation, suspect hepatomegaly. Edema in lower extremities now assessed as 2+ pitting dependent edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0815:</span><span class=\"nurse-note-text\">Provider has examined the client and is writing admission and stabilization orders. Client is currently sitting on the edge of the stretcher gasping for breath. SpO<sub>2</sub> is 89% on 6L face mask. Heart rate is 108 beats/min. Blood pressure is 172/98 mm Hg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">IV furosemide 40mg was administered stat. Foley catheter inserted with 150 mL of concentrated amber urine returned immediately. Orders for diagnostic tests have been received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Client's symptoms have significantly improved following administration of IV loop diuretics. Breathing is comfortable at 18 breaths/min on 2L nasal cannula, SpO<sub>2</sub> 96%. Plan is to transition to oral medications and discharge home with close outpatient follow-up. Discharging nurse is preparing lifestyle modification education.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0730:</span><span class=\"nurse-note-text\">The client was brought to the ED early morning today, accompanied by his daughter. 6L oxygen via face mask was applied and peripheral IV was inserted enroute to the hospital. The client's chief complaint is shortness of breath. The client finds it difficult to complete sentences due to respiratory distress. He has a history of poorly controlled primary hypertension for 15 years due to medication non-adherence. Client also has history of myocardial infarction (MI) 5 years ago. Current medications include lisinopril. He is a smoker for over 40 years; used to smoke 5-10 cigarettes a day, but cut down to 2-3 cigarettes since his MI.</span></p>"
             },
             {
               "id": "tab_1790765578456",
@@ -16568,7 +16569,7 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Others",
-    "updatedAt": "2026-10-01T23:05:05.131Z",
+    "updatedAt": "2026-10-08T22:21:37.973Z",
     "description": "",
     "availability": "all"
   },

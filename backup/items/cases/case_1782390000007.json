@@ -12,32 +12,12 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Vesicle on the tip of the nose",
-            "correct": true
-          },
-          {
-            "text": "Left-eye redness, sensitivity to light, and blurred vision",
-            "correct": true
-          },
-          {
             "text": "Lesions stop at the midline",
             "correct": false
           },
           {
-            "text": "Takes methotrexate weekly and prednisone daily",
+            "text": "Vesicle on the tip of the nose",
             "correct": true
-          },
-          {
-            "text": "Provides daytime care for her 4-month-old grandson",
-            "correct": true
-          },
-          {
-            "text": "Pain rated 8/10, burning, worse with light touch",
-            "correct": true
-          },
-          {
-            "text": "Had chickenpox as a child",
-            "correct": false
           },
           {
             "text": "Temperature 37.9° C",
@@ -48,16 +28,41 @@
             "correct": false
           },
           {
+            "text": "Provides daytime care for her 4-month-old grandson",
+            "correct": true
+          },
+          {
+            "text": "Left-eye redness, sensitivity to light, and blurred vision",
+            "correct": true
+          },
+          {
             "text": "Blood pressure 146/84 mm Hg",
             "correct": false
+          },
+          {
+            "text": "Takes methotrexate weekly and prednisone daily",
+            "correct": true
+          },
+          {
+            "text": "Had chickenpox as a child",
+            "correct": false
+          },
+          {
+            "text": "Pain rated 8/10, burning, worse with light touch",
+            "correct": true
           }
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
-        "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
-        "explanation": "A lesion on the tip or side of the nose (Hutchinson sign) shows involvement of the nasociliary branch of the ophthalmic (V1) division of the trigeminal nerve, which also supplies the eye; the provider should be informed immediately of any facial lesion, especially near the eye or ear. Eye redness, photophobia, and blurred vision are signs of ocular involvement (conjunctivitis, keratitis, uveitis) that can threaten sight and need urgent ophthalmology assessment. Methotrexate and prednisone raise the risk of severe, prolonged, or disseminated zoster, changing the treatment setting (IV antiviral), the isolation needed, and the monitoring. A young infant is too young for varicella vaccination and could develop chickenpox from contact with lesion fluid; this needs immediate teaching and exposure planning. Pain 8/10 with allodynia (pain worse with light touch) needs prompt management and is linked to a higher risk of postherpetic neuralgia. Lesions staying on one side and stopping at the midline, grouped vesicles on a red base, childhood chickenpox, and a mildly elevated temperature and blood pressure are all expected features of herpes zoster or an expected response to pain and stress; they do not require immediate follow-up on their own."
+        "preamble": "Phase 1 — Primary Care Clinic, 1030.",
+        "explanation": "<p><b>Correct answers:</b> the vesicle on the tip of the nose (Option 2), the left-eye redness, sensitivity to light and blurred vision (Option 6), methotrexate and prednisone (Option 8), daytime care of her 4-month-old grandson (Option 5), and pain 8/10 that is worse with light touch (Option 10).</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/zoster-ophthalmicus-face.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/zoster-ophthalmicus-face.jpg\" alt=\"Photograph of herpes zoster on one side of the forehead and upper eyelid\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Herpes zoster ophthalmicus (here in a child): vesicles and crusts over one side of the forehead and scalp with a swollen upper eyelid, stopping at the midline. Photo: Mohammad2018, <a href=\"https://commons.wikimedia.org/wiki/File:Herps_zoster_ophthalmicus.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.</figcaption></figure><p><b>Why these need immediate follow-up</b></p><ul><li><b>Vesicle on the tip of the nose (Option 2):</b> the Hutchinson sign. The nasociliary branch of the ophthalmic (V1) division of the trigeminal nerve supplies both the tip of the nose and the eye, so eye involvement is likely. The provider is informed immediately of any facial lesion, especially near the eye or ear.</li><li><b>Red eye, photophobia, blurred vision (Option 6):</b> signs of ocular involvement (conjunctivitis, keratitis, uveitis) that can threaten sight and need urgent ophthalmology assessment.</li><li><b>Methotrexate and prednisone (Option 8):</b> immunosuppression raises the risk of severe, prolonged or disseminated zoster. It changes the treatment setting (IV antiviral), the isolation needed and the monitoring.</li><li><b>Cares for a 4-month-old (Option 5):</b> the infant is too young for varicella vaccination and could develop chickenpox from contact with lesion fluid. This needs immediate teaching and exposure planning.</li><li><b>Pain 8/10 with allodynia (Option 10):</b> zoster pain is often moderate to severe. Severe acute pain needs prompt treatment and is linked to a higher risk of postherpetic neuralgia.</li></ul><p><b>Why the others do not</b></p><ul><li><b>Lesions stop at the midline (Option 1) and grouped vesicles on a red base (Option 4):</b> expected features of zoster: vesicular, dermatomal, on one side, never crossing the midline.</li><li><b>Childhood chickenpox (Option 9):</b> explains why zoster occurred (reactivation of latent varicella-zoster virus); no immediate action.</li><li><b>Temperature 37.9° C (Option 3):</b> low-grade fever and malaise fit the viral prodrome; continue to monitor.</li><li><b>BP 146/84 mm Hg (Option 7):</b> mildly elevated, likely from pain and stress; recheck after the pain is treated.</li></ul>"
       },
       "leftContent": {
         "tabs": [
+          {
+            "id": "c2_notes",
+            "title": "Nurses' Notes",
+            "content": ""
+          },
           {
             "id": "c2_hp",
             "title": "History and Physical",
@@ -67,11 +72,6 @@
             "id": "c2_vs",
             "title": "Vital Signs",
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-          },
-          {
-            "id": "c2_notes",
-            "title": "Nurses' Notes",
-            "content": ""
           }
         ],
         "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
@@ -152,10 +152,15 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030. The nurse has reviewed the Nurses' Notes from 1030.",
-        "explanation": "The chapter describes a viral prodrome with a burning sensation where the rash will appear several days later. Zoster follows a single dermatome and does not cross the midline. Low-grade fever and fatigue are part of the prodrome. A vesicle on the tip of the nose (Hutchinson sign) is a strong predictor of eye involvement, since the nasociliary nerve supplies both the tip of the nose and the eye. Photophobia and blurred vision suggest corneal or intraocular inflammation. Prednisone and methotrexate suppress cell-mediated immunity, which normally controls varicella-zoster virus, raising the risk of dissemination and prolonged shedding. Zoster most commonly affects older adults, and age also raises the risk of complications, including postherpetic neuralgia."
+        "explanation": "<p><b>Correct answers</b></p><ul><li><b>Expected manifestation:</b> burning, tingling pain for 3 days before the rash; lesions limited to one side, stopping at the midline; low-grade fever and fatigue.</li><li><b>Suggests ocular involvement:</b> vesicle on the tip of the nose; photophobia and blurred vision in the left eye.</li><li><b>Increases the risk of severe disease:</b> daily prednisone and weekly methotrexate; age 72.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-trigeminal-hutchinson.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-trigeminal-hutchinson.svg\" alt=\"Face diagram with the V1, V2 and V3 trigeminal dermatomes on the left side and vesicles in V1 including the nose tip\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">The three divisions of the trigeminal nerve. L.T.'s rash (forehead, scalp, upper eyelid, nose tip) is V1, the division that also supplies the eye.</figcaption></figure><p><b>Why</b></p><ul><li><b>Prodromal burning pain:</b> a burning or tingling sensation where the rash appears several days later is the typical prodrome.</li><li><b>One side, stopping at the midline:</b> zoster follows a single dermatome (the area supplied by one nerve root) and does not cross the midline.</li><li><b>Low-grade fever and fatigue:</b> part of the prodrome (feeling unwell, fever).</li><li><b>Vesicle on the nose tip:</b> the Hutchinson sign. The nasociliary nerve supplies both the nose tip and the eye, so this strongly predicts eye involvement.</li><li><b>Photophobia and blurred vision:</b> suggest corneal or intraocular inflammation.</li><li><b>Prednisone and methotrexate:</b> suppress the cell-mediated immunity that normally keeps the virus dormant, raising the risk of dissemination and prolonged viral shedding.</li><li><b>Age 72:</b> zoster most often affects older adults, and age raises the risk of complications, including postherpetic neuralgia.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/zoster-chest-dermatome.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/zoster-chest-dermatome.jpg\" alt=\"Photograph of herpes zoster in a band on one side of the chest\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">The same pattern on the trunk: clusters of vesicles on a red base in a band along one dermatome, on one side only. Photo: Fisle, <a href=\"https://commons.wikimedia.org/wiki/File:Herpes_zoster_chest.png\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: the Hutchinson sign and the immunosuppression risk are standard content.</i></p>"
       },
       "leftContent": {
         "tabs": [
+          {
+            "id": "c2_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+          },
           {
             "id": "c2_hp",
             "title": "History and Physical",
@@ -165,11 +170,6 @@
             "id": "c2_vs",
             "title": "Vital Signs",
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-          },
-          {
-            "id": "c2_notes",
-            "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
@@ -186,40 +186,40 @@
             {
               "options": [
                 {
-                  "text": "permanent vision loss",
-                  "correct": true
-                },
-                {
                   "text": "secondary bacterial skin infection",
-                  "correct": false
-                },
-                {
-                  "text": "scarring of the forehead",
                   "correct": false
                 },
                 {
                   "text": "hyperglycemia",
                   "correct": false
+                },
+                {
+                  "text": "permanent vision loss",
+                  "correct": true
+                },
+                {
+                  "text": "scarring of the forehead",
+                  "correct": false
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
-                {
-                  "text": "the virus is affecting the ophthalmic division of the trigeminal nerve",
-                  "correct": true
-                },
                 {
                   "text": "the client is older than 65 years",
                   "correct": false
                 },
                 {
-                  "text": "the lesions are vesicular",
-                  "correct": false
+                  "text": "the virus is affecting the ophthalmic division of the trigeminal nerve",
+                  "correct": true
                 },
                 {
                   "text": "the client had chickenpox as a child",
+                  "correct": false
+                },
+                {
+                  "text": "the lesions are vesicular",
                   "correct": false
                 }
               ],
@@ -228,8 +228,8 @@
             {
               "options": [
                 {
-                  "text": "notify the provider immediately so that urgent ophthalmology assessment can be arranged",
-                  "correct": true
+                  "text": "teach the client to apply warm compresses to the eye",
+                  "correct": false
                 },
                 {
                   "text": "apply antibiotic ointment to the left eyelid",
@@ -240,8 +240,8 @@
                   "correct": false
                 },
                 {
-                  "text": "teach the client to apply warm compresses to the eye",
-                  "correct": false
+                  "text": "notify the provider immediately so that urgent ophthalmology assessment can be arranged",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -249,19 +249,19 @@
             {
               "options": [
                 {
-                  "text": "acute pain",
-                  "correct": true
-                },
-                {
                   "text": "fluid volume excess",
                   "correct": false
                 },
                 {
-                  "text": "impaired gas exchange",
-                  "correct": false
+                  "text": "acute pain",
+                  "correct": true
                 },
                 {
                   "text": "hypothermia",
+                  "correct": false
+                },
+                {
+                  "text": "impaired gas exchange",
                   "correct": false
                 }
               ],
@@ -289,10 +289,15 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 1 &mdash; Primary Care Clinic, 1030.",
-        "explanation": "Herpes zoster ophthalmicus can cause keratitis, uveitis, glaucoma, and vision loss. A threat of permanent loss of function takes priority over skin integrity. The forehead, scalp, upper eyelid, and nose-tip lesions map to the V1 (ophthalmic) dermatome, explaining why the eye is at risk. This is stated directly in the chapter for facial lesions near the eye or ear. Applying ointment to the eye or warm compresses without a prescription is outside the nurse's scope, and waiting a week risks permanent damage. Pain rated 8/10 with allodynia must be addressed promptly; adequate pain control is a recognized priority in zoster care."
+        "explanation": "<p><b>Correct answer:</b> The nurse's priority is to prevent <b>permanent vision loss</b> because <b>the virus is affecting the ophthalmic division of the trigeminal nerve</b>. The nurse's immediate action should be to <b>notify the provider immediately so that urgent ophthalmology assessment can be arranged</b>. The nurse also recognizes the client's <b>acute pain</b> as a concurrent priority.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-eye-risk.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-eye-risk.svg\" alt=\"Diagram of the eye labelling cornea, iris and uvea, conjunctiva, retina and optic nerve with zoster complications\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">What herpes zoster ophthalmicus can damage, and the symptoms L.T. already has.</figcaption></figure><p><b>Why</b></p><ul><li><b>Permanent vision loss:</b> herpes zoster ophthalmicus can cause keratitis, uveitis, glaucoma and vision loss. A threat of permanent loss of function takes priority over skin integrity; zoster on facial dermatomes can affect eyesight and hearing.</li><li><b>Ophthalmic (V1) division:</b> the forehead, scalp, upper eyelid and nose-tip lesions map to V1, which explains why the eye is at risk.</li><li><b>Notify the provider immediately:</b> facial lesions near the eye or ear are reported at once. Putting ointment in or near the eye or applying warm compresses without a prescription is outside the nurse's scope and could cause harm; waiting a week risks permanent damage.</li><li><b>Acute pain:</b> pain rated 8/10 with allodynia must be treated promptly; adequate pain control is a recognized priority in zoster care.</li></ul><p><b>Why the other choices do not fit</b></p><ul><li>Secondary skin infection, scarring and hyperglycemia are possible later problems but not the most urgent threat. Her age, the vesicles and childhood chickenpox do not explain why the eye is at risk. Fluid volume excess, impaired gas exchange and hypothermia are not supported by the data.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/zoster-cornea-fluorescein.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/zoster-cornea-fluorescein.jpg\" alt=\"Photograph of an eye stained with fluorescein under cobalt-blue light\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Eye involvement in herpes zoster ophthalmicus: fluorescein dye under cobalt-blue light shows damage to the corneal surface (keratitis). Only an eye examination can find this, hence the urgent referral. Photo: James Heilman, MD, <a href=\"https://commons.wikimedia.org/wiki/File:HerpesZosterOpth.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.</figcaption></figure>"
       },
       "leftContent": {
         "tabs": [
+          {
+            "id": "c2_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+          },
           {
             "id": "c2_hp",
             "title": "History and Physical",
@@ -302,11 +307,6 @@
             "id": "c2_vs",
             "title": "Vital Signs",
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-          },
-          {
-            "id": "c2_notes",
-            "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
           }
         ],
         "intro": "The nurse is caring for a 72-year-old female client with herpes zoster involving the left forehead, scalp, and eye."
@@ -320,31 +320,31 @@
         "limit": 5,
         "options": [
           {
-            "text": "Place the client in an airborne infection isolation room and use airborne and contact precautions",
-            "correct": true
-          },
-          {
-            "text": "Assign staff members with documented immunity to varicella",
-            "correct": true
+            "text": "Gently open intact vesicles to help the lesions dry faster",
+            "correct": false
           },
           {
             "text": "Infuse each acyclovir dose over at least 1 hour, maintain hydration, and keep strict intake and output",
             "correct": true
           },
           {
-            "text": "Assess left-eye symptoms and visual acuity each shift and report changes",
+            "text": "Place the client in an airborne infection isolation room and use airborne and contact precautions",
             "correct": true
           },
           {
-            "text": "Monitor the serum creatinine daily",
-            "correct": true
+            "text": "Hold the client's daily prednisone to improve her immune response",
+            "correct": false
           },
           {
             "text": "Tell the daughter she may bring the baby to visit if she wears a gown and gloves",
             "correct": false
           },
           {
-            "text": "Gently open intact vesicles to help the lesions dry faster",
+            "text": "Monitor the serum creatinine daily",
+            "correct": true
+          },
+          {
+            "text": "Give the recombinant shingles vaccine now to shorten this episode",
             "correct": false
           },
           {
@@ -352,20 +352,25 @@
             "correct": false
           },
           {
-            "text": "Hold the client's daily prednisone to improve her immune response",
-            "correct": false
+            "text": "Assign staff members with documented immunity to varicella",
+            "correct": true
           },
           {
-            "text": "Give the recombinant shingles vaccine now to shorten this episode",
-            "correct": false
+            "text": "Assess left-eye symptoms and visual acuity each shift and report changes",
+            "correct": true
           }
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400. The nurse has reviewed the Nurses' Notes from 1400 and the Provider Orders.",
-        "explanation": "For localized zoster in an immunocompromised client, isolation guidance calls for airborne and contact precautions until disseminated infection is ruled out. Varicella-zoster virus spreads to people who are not immune, so non-immune or pregnant staff should not provide care. IV acyclovir can precipitate as crystals in the renal tubules and cause acute kidney injury, especially with rapid infusion or dehydration, so each dose is infused slowly with adequate hydration and strict intake and output. Eye assessment follows directly from the priority of preventing vision loss; worsening vision needs prompt reporting to ophthalmology. Daily creatinine detects acyclovir-related kidney injury early. A 4-month-old is unvaccinated against varicella, and airborne precautions are in place; a gown and gloves do not protect the infant from an airborne exposure, so the visit should not be encouraged this way. Opening intact vesicles increases the risk of secondary bacterial infection and scarring; ointments are prescribed to prevent secondary infection, not to dry lesions faster. The order specifies skin lesions only -- only ophthalmic preparations may be placed in the eye. Stopping long-term corticosteroids abruptly risks adrenal insufficiency; the provider continued it, and any change needs a prescriber's order. The vaccine prevents future episodes; it does not treat active zoster, and vaccination is discussed after recovery."
+        "explanation": "<p><b>Correct answers:</b> airborne infection isolation room with airborne and contact precautions (Option 3), staff with documented immunity to varicella (Option 9), acyclovir over at least 1 hour with hydration and strict intake and output (Option 2), left-eye assessment each shift (Option 10), and daily serum creatinine (Option 6).</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-acyclovir-kidney.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-acyclovir-kidney.svg\" alt=\"Diagram of acyclovir crystals blocking a kidney tubule, and a nursing safety checklist\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">IV acyclovir can crystallize in the kidney tubules; slow infusion and good hydration prevent it.</figcaption></figure><p><b>Why these five</b></p><ul><li><b>Airborne and contact precautions (Option 3):</b> for localized zoster in an immunocompromised client, isolation guidance calls for airborne and contact precautions until disseminated infection is ruled out (matches the provider's order).</li><li><b>Immune staff (Option 9):</b> varicella-zoster virus spreads to people who are not immune; non-immune or pregnant staff should not provide care.</li><li><b>Slow acyclovir infusion, hydration, intake and output (Option 2):</b> IV acyclovir can precipitate as crystals in the renal tubules and cause acute kidney injury, especially with rapid infusion or dehydration.</li><li><b>Eye assessment (Option 10):</b> follows from the priority of preventing vision loss; worsening vision is reported promptly to ophthalmology.</li><li><b>Daily creatinine (Option 6):</b> detects acyclovir-related kidney injury early.</li></ul><p><b>Why not the others</b></p><ul><li><b>Baby visits with gown and gloves (Option 5):</b> the 4-month-old is unvaccinated against varicella and the client is on airborne precautions; a gown and gloves do not protect the infant.</li><li><b>Opening intact vesicles (Option 1):</b> increases the risk of secondary bacterial infection and scarring.</li><li><b>Mupirocin in the eye (Option 8):</b> the order is for skin lesions only. Only ophthalmic preparations go in the eye.</li><li><b>Holding prednisone (Option 4):</b> stopping long-term corticosteroids abruptly risks adrenal insufficiency; the provider continued it, and any change needs a prescriber's order.</li><li><b>Shingles vaccine now (Option 7):</b> the vaccine prevents future episodes; it does not treat active zoster. Vaccination is discussed after recovery.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: isolation details follow CDC and Public Health Agency of Canada guidance; acyclovir nephrotoxicity is standard pharmacology.</i></p>"
       },
       "leftContent": {
         "tabs": [
+          {
+            "id": "c2_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+          },
           {
             "id": "c2_hp",
             "title": "History and Physical",
@@ -375,11 +380,6 @@
             "id": "c2_vs",
             "title": "Vital Signs",
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-          },
-          {
-            "id": "c2_notes",
-            "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
           },
           {
             "id": "c2_notes2",
@@ -406,11 +406,7 @@
             {
               "options": [
                 {
-                  "text": "fit-tested N95 respirator",
-                  "correct": true
-                },
-                {
-                  "text": "surgical mask",
+                  "text": "an N95 respirator on the client",
                   "correct": false
                 },
                 {
@@ -418,7 +414,15 @@
                   "correct": false
                 },
                 {
-                  "text": "open for close observation",
+                  "text": "applying mupirocin ointment to the left eye",
+                  "correct": false
+                },
+                {
+                  "text": "fit-tested N95 respirator",
+                  "correct": true
+                },
+                {
+                  "text": "wait until the next scheduled dose to reassess pain",
                   "correct": false
                 },
                 {
@@ -426,15 +430,7 @@
                   "correct": false
                 },
                 {
-                  "text": "an N95 respirator on the client",
-                  "correct": false
-                },
-                {
-                  "text": "covering the skin lesions with a clean dressing",
-                  "correct": false
-                },
-                {
-                  "text": "applying mupirocin ointment to the left eye",
+                  "text": "surgical mask",
                   "correct": false
                 },
                 {
@@ -442,7 +438,11 @@
                   "correct": false
                 },
                 {
-                  "text": "wait until the next scheduled dose to reassess pain",
+                  "text": "open for close observation",
+                  "correct": false
+                },
+                {
+                  "text": "covering the skin lesions with a clean dressing",
                   "correct": false
                 }
               ],
@@ -451,11 +451,7 @@
             {
               "options": [
                 {
-                  "text": "fit-tested N95 respirator",
-                  "correct": false
-                },
-                {
-                  "text": "surgical mask",
+                  "text": "an N95 respirator on the client",
                   "correct": false
                 },
                 {
@@ -463,7 +459,15 @@
                   "correct": true
                 },
                 {
-                  "text": "open for close observation",
+                  "text": "applying mupirocin ointment to the left eye",
+                  "correct": false
+                },
+                {
+                  "text": "fit-tested N95 respirator",
+                  "correct": false
+                },
+                {
+                  "text": "wait until the next scheduled dose to reassess pain",
                   "correct": false
                 },
                 {
@@ -471,15 +475,7 @@
                   "correct": false
                 },
                 {
-                  "text": "an N95 respirator on the client",
-                  "correct": false
-                },
-                {
-                  "text": "covering the skin lesions with a clean dressing",
-                  "correct": false
-                },
-                {
-                  "text": "applying mupirocin ointment to the left eye",
+                  "text": "surgical mask",
                   "correct": false
                 },
                 {
@@ -487,7 +483,11 @@
                   "correct": false
                 },
                 {
-                  "text": "wait until the next scheduled dose to reassess pain",
+                  "text": "open for close observation",
+                  "correct": false
+                },
+                {
+                  "text": "covering the skin lesions with a clean dressing",
                   "correct": false
                 }
               ],
@@ -496,11 +496,7 @@
             {
               "options": [
                 {
-                  "text": "fit-tested N95 respirator",
-                  "correct": false
-                },
-                {
-                  "text": "surgical mask",
+                  "text": "an N95 respirator on the client",
                   "correct": false
                 },
                 {
@@ -508,7 +504,15 @@
                   "correct": false
                 },
                 {
-                  "text": "open for close observation",
+                  "text": "applying mupirocin ointment to the left eye",
+                  "correct": false
+                },
+                {
+                  "text": "fit-tested N95 respirator",
+                  "correct": false
+                },
+                {
+                  "text": "wait until the next scheduled dose to reassess pain",
                   "correct": false
                 },
                 {
@@ -516,15 +520,7 @@
                   "correct": true
                 },
                 {
-                  "text": "an N95 respirator on the client",
-                  "correct": false
-                },
-                {
-                  "text": "covering the skin lesions with a clean dressing",
-                  "correct": false
-                },
-                {
-                  "text": "applying mupirocin ointment to the left eye",
+                  "text": "surgical mask",
                   "correct": false
                 },
                 {
@@ -532,7 +528,11 @@
                   "correct": false
                 },
                 {
-                  "text": "wait until the next scheduled dose to reassess pain",
+                  "text": "open for close observation",
+                  "correct": false
+                },
+                {
+                  "text": "covering the skin lesions with a clean dressing",
                   "correct": false
                 }
               ],
@@ -541,11 +541,7 @@
             {
               "options": [
                 {
-                  "text": "fit-tested N95 respirator",
-                  "correct": false
-                },
-                {
-                  "text": "surgical mask",
+                  "text": "an N95 respirator on the client",
                   "correct": false
                 },
                 {
@@ -553,7 +549,15 @@
                   "correct": false
                 },
                 {
-                  "text": "open for close observation",
+                  "text": "applying mupirocin ointment to the left eye",
+                  "correct": false
+                },
+                {
+                  "text": "fit-tested N95 respirator",
+                  "correct": false
+                },
+                {
+                  "text": "wait until the next scheduled dose to reassess pain",
                   "correct": false
                 },
                 {
@@ -561,15 +565,7 @@
                   "correct": false
                 },
                 {
-                  "text": "an N95 respirator on the client",
-                  "correct": false
-                },
-                {
-                  "text": "covering the skin lesions with a clean dressing",
-                  "correct": true
-                },
-                {
-                  "text": "applying mupirocin ointment to the left eye",
+                  "text": "surgical mask",
                   "correct": false
                 },
                 {
@@ -577,8 +573,12 @@
                   "correct": false
                 },
                 {
-                  "text": "wait until the next scheduled dose to reassess pain",
+                  "text": "open for close observation",
                   "correct": false
+                },
+                {
+                  "text": "covering the skin lesions with a clean dressing",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -586,11 +586,7 @@
             {
               "options": [
                 {
-                  "text": "fit-tested N95 respirator",
-                  "correct": false
-                },
-                {
-                  "text": "surgical mask",
+                  "text": "an N95 respirator on the client",
                   "correct": false
                 },
                 {
@@ -598,7 +594,15 @@
                   "correct": false
                 },
                 {
-                  "text": "open for close observation",
+                  "text": "applying mupirocin ointment to the left eye",
+                  "correct": false
+                },
+                {
+                  "text": "fit-tested N95 respirator",
+                  "correct": false
+                },
+                {
+                  "text": "wait until the next scheduled dose to reassess pain",
                   "correct": false
                 },
                 {
@@ -606,15 +610,7 @@
                   "correct": false
                 },
                 {
-                  "text": "an N95 respirator on the client",
-                  "correct": false
-                },
-                {
-                  "text": "covering the skin lesions with a clean dressing",
-                  "correct": false
-                },
-                {
-                  "text": "applying mupirocin ointment to the left eye",
+                  "text": "surgical mask",
                   "correct": false
                 },
                 {
@@ -622,7 +618,11 @@
                   "correct": true
                 },
                 {
-                  "text": "wait until the next scheduled dose to reassess pain",
+                  "text": "open for close observation",
+                  "correct": false
+                },
+                {
+                  "text": "covering the skin lesions with a clean dressing",
                   "correct": false
                 }
               ],
@@ -654,10 +654,15 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 2 &mdash; Medical Unit, Same Day 1400.",
-        "explanation": "Airborne precautions require a fit-tested N95 (or higher) respirator; a surgical mask does not filter airborne particles adequately. An airborne infection isolation room keeps negative pressure only with the door closed. During essential transport, the client wears a surgical mask to contain respiratory secretions; a client is not placed in an N95 (it is designed to protect the wearer, and may have an exhalation valve). Covering the skin lesions limits contact and airborne spread from vesicle fluid. Reassessing pain within the drug's peak time (about 30&ndash;60 minutes for oral opioids, per agency policy) evaluates effectiveness and sedation."
+        "explanation": "<p><b>Correct answer:</b> Before entering the client's room, the nurse performs hand hygiene and dons a gown, gloves, and a <b>fit-tested N95 respirator</b>. The door to the client's room must remain <b>closed</b>. Before the client is transported to the eye clinic for her slit-lamp examination, the nurse places <b>a surgical mask on the client</b> and prepares her by <b>covering the skin lesions with a clean dressing</b>. After administering the prescribed oxycodone for pain rated 8/10, the nurse plans to <b>reassess pain within 60 minutes</b>.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-airborne-precautions.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-airborne-precautions.svg\" alt=\"Diagram of an airborne infection isolation room with a closed door, a nurse in N95 respirator, gown and gloves, and transport steps\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Airborne and contact precautions for L.T. until disseminated zoster is ruled out.</figcaption></figure><p><b>Why</b></p><ul><li><b>Fit-tested N95 respirator:</b> airborne precautions require an N95 (or higher) respirator; a surgical mask does not filter airborne particles adequately.</li><li><b>Door closed:</b> an airborne infection isolation room keeps its negative pressure only while the door is closed. Leaving it open for observation defeats the room.</li><li><b>Surgical mask on the client:</b> during essential transport, the client wears a surgical mask to contain her respiratory secretions. An N95 is not placed on a client: it is designed to protect the wearer, and some have an exhalation valve.</li><li><b>Covering the skin lesions:</b> limits contact and airborne spread from vesicle fluid. Mupirocin is for skin lesions only, never the eye.</li><li><b>Reassess pain within 60 minutes:</b> reassessing within the drug's peak time (about 30 to 60 minutes for oral opioids, per agency policy) evaluates pain relief and sedation. Waiting until the next dose leaves uncontrolled pain unnoticed.</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: transmission-based precaution details follow the CDC 2007 Guideline for Isolation Precautions; Public Health Agency of Canada guidance is consistent.</i></p>"
       },
       "leftContent": {
         "tabs": [
+          {
+            "id": "c2_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+          },
           {
             "id": "c2_hp",
             "title": "History and Physical",
@@ -667,11 +672,6 @@
             "id": "c2_vs",
             "title": "Vital Signs",
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-          },
-          {
-            "id": "c2_notes",
-            "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
           },
           {
             "id": "c2_notes2",
@@ -708,7 +708,7 @@
         ],
         "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
         "preamble": "Phase 3 &mdash; Medical Unit, Hospital Day 4. The nurse has reviewed the Hospital Day 4 Flowsheet.",
-        "explanation": "A creatinine more than doubled from the 78 µmol/L admission baseline suggests acyclovir-associated acute kidney injury; the nurse notifies the provider promptly, since the dose may need adjustment and hydration reviewed. Oliguria (a urine output under about 400 mL/24 h, or under 0.5 mL/kg/h) despite adequate intake also supports kidney injury. The client's statement that ongoing burning after the scabs are gone “doesn't mean anything” shows a misunderstanding: pain that persists after the rash heals may be postherpetic neuralgia, a treatable, reportable neurological complication, and this teaching needs reinforcement. Temperature, skin, pain, and eye findings all show expected progress: afebrile, lesions crusted without dissemination, pain controlled, and eye findings stable. A capillary glucose of 7.4 mmol/L is acceptable for a client with diabetes taking prednisone. The vaccine and hand-hygiene statements reflect accurate understanding -- the recombinant (non-live) zoster vaccine is recommended after recovery, including for people who are immunocompromised.",
+        "explanation": "<p><b>Highlight these three findings:</b> serum creatinine 163 µmol/L (admission 78 µmol/L); intake 1,600 mL with urine output 380 mL; and the statement “Once the scabs are gone, any burning that's left doesn't mean anything, so I won't bother anyone about it.”</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c7-creatinine-trend.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c7-creatinine-trend.svg\" alt=\"Bar charts of creatinine rising from 78 to 163 micromoles per litre and urine output of 380 mL against at least 720 mL expected\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Hospital day 4: creatinine has more than doubled and the urine output is far below what her intake should produce.</figcaption></figure><p><b>Why these need follow-up</b></p><ul><li><b>Creatinine more than doubled:</b> suggests acyclovir-associated acute kidney injury. The nurse notifies the provider promptly; the dose may need adjusting and hydration reviewed.</li><li><b>Urine output 380 mL in 24 hours:</b> oliguria (under about 400 mL/24 h, or under 0.5 mL/kg/h; for a 60-kg client, at least 720 mL/24 h is expected) despite an adequate intake supports kidney injury.</li><li><b>\"Any burning that's left doesn't mean anything\":</b> pain that persists after the rash heals may be postherpetic neuralgia, a treatable neurological complication that should be reported. The teaching needs reinforcing.</li></ul><p><b>Why the others show expected progress</b></p><ul><li>Temperature 37.0° C, all lesions crusted with no new lesions, pain 3/10 and a stable eye: afebrile, no dissemination, pain controlled. Once all lesions are crusted, she is no longer considered infectious.</li><li>Capillary glucose 7.4 mmol/L: acceptable for a client with diabetes taking prednisone.</li><li>The vaccine and hand-hygiene statements are accurate. The recombinant (non-live) zoster vaccine is recommended after recovery, including for people who are immunocompromised (NACI; CDC).</li></ul><p style=\"font-size: 12px; color: #64748b;\"><i>Beyond the chapter: acyclovir nephrotoxicity and the vaccine recommendations are standard references.</i></p>",
         "highlightTabs": [
           {
             "id": "c2_ht6",
@@ -721,6 +721,11 @@
       "leftContent": {
         "tabs": [
           {
+            "id": "c2_notes",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
+          },
+          {
             "id": "c2_hp",
             "title": "History and Physical",
             "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">History and Physical:</span><span class=\"nurse-note-text\">72-year-old female. Rheumatoid arthritis treated with methotrexate 15 mg PO once weekly and prednisone 7.5 mg PO daily. Type 2 diabetes (metformin). Had chickenpox as a child; has not received a shingles vaccine. Lives with her daughter, son-in-law, and 4-month-old grandson; she provides daytime childcare for the infant. Weight 60 kg.</span></p>"
@@ -729,11 +734,6 @@
             "id": "c2_vs",
             "title": "Vital Signs",
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>SpO<sub>2</sub></b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Capillary glucose</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.8 mmol/L (213 mg/dL)</td></tr></tbody></table>"
-          },
-          {
-            "id": "c2_notes",
-            "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Reports 3 days of burning, tingling pain over the left forehead and scalp, fatigue, and feeling “like I was getting the flu.” Yesterday noticed clusters of blisters. Grouped vesicles on an erythematous base over the left forehead, left scalp, and left upper eyelid; one vesicle on the tip of the nose. Lesions stop at the midline. Left eye red and tearing; client states the eye “feels gritty,” light hurts her eyes, and vision in the left eye is blurry. Rates pain 8/10, burning, worse with light touch.</span></p>"
           },
           {
             "id": "c2_notes2",
@@ -758,5 +758,5 @@
   "disorder": "Unit 5 (Integumentary Disorders and Burns)",
   "description": "A 72-year-old immunosuppressed female client with herpes zoster involving the left forehead, scalp, and eye, from the primary care clinic through hospitalization and discharge planning.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-08T23:35:00.008Z"
 }
