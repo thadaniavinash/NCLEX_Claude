@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial, Helvetica, sans-serif">
+  <title>Circumferential full-thickness burn: compartment syndrome and escharotomy</title>
+  <rect width="600" height="400" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Why a burn all the way round the arm is dangerous</text>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#1d4ed8"/></marker></defs>
+  <!-- panel 1 -->
+  <text x="110" y="48" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1e293b">1. Burn (cross-section)</text>
+  <circle cx="110" cy="140" r="66" fill="#7c2d12"/>
+  <circle cx="110" cy="140" r="58" fill="#fecaca"/>
+  <circle cx="110" cy="140" r="16" fill="#f1f5f9" stroke="#94a3b8"/>
+  <circle cx="82" cy="120" r="7" fill="#dc2626"/><circle cx="96" cy="122" r="6" fill="#2563eb"/><circle cx="140" cy="160" r="5" fill="#eab308"/>
+  <text x="110" y="226" text-anchor="middle" font-size="12" fill="#475569">Eschar: stiff, cannot stretch</text>
+  <!-- panel 2 -->
+  <text x="300" y="48" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1e293b">2. Swelling underneath</text>
+  <circle cx="300" cy="140" r="66" fill="#7c2d12"/>
+  <circle cx="300" cy="140" r="58" fill="#fca5a5"/>
+  <g fill="#93c5fd" opacity="0.8"><circle cx="276" cy="112" r="16"/><circle cx="326" cy="114" r="18"/><circle cx="324" cy="166" r="17"/><circle cx="274" cy="168" r="15"/><circle cx="300" cy="96" r="12"/></g>
+  <circle cx="300" cy="140" r="16" fill="#f1f5f9" stroke="#94a3b8"/>
+  <ellipse cx="272" cy="124" rx="7" ry="3" fill="#dc2626"/><ellipse cx="287" cy="124" rx="5" ry="2" fill="#2563eb"/><ellipse cx="330" cy="160" rx="5" ry="2.5" fill="#eab308"/>
+  <g stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#ar)"><line x1="300" y1="62" x2="300" y2="78"/><line x1="380" y1="140" x2="364" y2="140"/><line x1="220" y1="140" x2="236" y2="140"/><line x1="300" y1="218" x2="300" y2="202"/></g>
+  <text x="300" y="234" text-anchor="middle" font-size="12" fill="#475569">Eschar does not give: pressure rises,</text>
+  <text x="300" y="249" text-anchor="middle" font-size="12" fill="#475569">vessels and nerves are squeezed</text>
+  <!-- panel 3 -->
+  <text x="490" y="48" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1e293b">3. Escharotomy</text>
+  <path d="M490 74 A66 66 0 1 1 489.9 74" fill="none"/>
+  <path d="M440 97 A66 66 0 0 1 540 97" stroke="#7c2d12" stroke-width="8" fill="none"/>
+  <path d="M540 183 A66 66 0 0 1 440 183" stroke="#7c2d12" stroke-width="8" fill="none"/>
+  <path d="M432 110 A66 66 0 0 0 432 170" stroke="#7c2d12" stroke-width="8" fill="none" transform="translate(-4 0)"/>
+  <path d="M548 110 A66 66 0 0 1 548 170" stroke="#7c2d12" stroke-width="8" fill="none" transform="translate(4 0)"/>
+  <circle cx="490" cy="140" r="60" fill="#fecaca"/>
+  <circle cx="490" cy="140" r="16" fill="#f1f5f9" stroke="#94a3b8"/>
+  <circle cx="462" cy="120" r="7" fill="#dc2626"/><circle cx="476" cy="122" r="6" fill="#2563eb"/><circle cx="520" cy="160" r="5" fill="#eab308"/>
+  <g font-size="11" fill="#b91c1c" text-anchor="middle"><text x="412" y="132">cut</text><text x="568" y="132">cut</text></g>
+  <text x="490" y="226" text-anchor="middle" font-size="12" fill="#475569">Cuts through the eschar on both</text>
+  <text x="490" y="241" text-anchor="middle" font-size="12" fill="#475569">sides let the tissue expand</text>
+  <!-- legend -->
+  <g font-size="11.5" fill="#475569"><circle cx="40" cy="268" r="5" fill="#dc2626"/><text x="50" y="272">artery</text><circle cx="104" cy="268" r="5" fill="#2563eb"/><text x="114" y="272">vein</text><circle cx="160" cy="268" r="5" fill="#eab308"/><text x="170" y="272">nerve</text><circle cx="222" cy="268" r="6" fill="#f1f5f9" stroke="#94a3b8"/><text x="232" y="272">bone</text></g>
+  <rect x="20" y="288" width="560" height="100" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <g font-size="13" fill="#1e293b">
+    <text x="34" y="310" font-weight="bold">D.R. at 0340: cool, pale fingers; capillary refill 5 seconds; faint radial pulse;</text>
+    <text x="34" y="327" font-weight="bold">numbness and tingling; tense forearm.</text>
+    <text x="34" y="348">Notify the provider now. Remove the ring and watch, elevate the arm, check</text>
+    <text x="34" y="365">circulation, movement, and sensation often. Never wrap or compress the arm.</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="Arial, Helvetica, sans-serif">
+  <title>ABCDE priorities applied to this client</title>
+  <rect width="600" height="380" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Prioritizing with ABCDE: D.R. at 0305</text>
+  <g font-size="13" fill="#1e293b">
+    <!-- rows: y start 44, height 58 -->
+    <rect x="20" y="44" width="560" height="58" rx="6" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+    <circle cx="52" cy="73" r="20" fill="#dc2626"/><text x="52" y="79" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">A</text>
+    <text x="84" y="67" font-weight="bold">Airway: hoarse voice, black-tinged sputum, singed nasal hairs</text>
+    <text x="84" y="86" fill="#7f1d1d">Highest risk: upper-airway edema can close the airway. Prepare for early intubation.</text>
+    <text x="566" y="62" text-anchor="end" font-size="11" font-weight="bold" fill="#b91c1c">1st</text>
+
+    <rect x="20" y="110" width="560" height="58" rx="6" fill="#fff7ed" stroke="#fdba74"/>
+    <circle cx="52" cy="139" r="20" fill="#ea580c"/><text x="52" y="145" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">B</text>
+    <text x="84" y="133" font-weight="bold">Breathing: wheezes, RR 28 breaths/min, confusion, CO exposure</text>
+    <text x="84" y="152" fill="#7c2d12">100% oxygen by non-rebreather; COHb pending (SpO₂ is unreliable).</text>
+
+    <rect x="20" y="176" width="560" height="58" rx="6" fill="#fefce8" stroke="#facc15" stroke-width="2"/>
+    <circle cx="52" cy="205" r="20" fill="#ca8a04"/><text x="52" y="211" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">C</text>
+    <text x="84" y="199" font-weight="bold">Circulation: HR 122 beats/min, BP 104/66 mm Hg, Hct 0.53 L/L</text>
+    <text x="84" y="218" fill="#713f12">Next: hypovolemic (burn) shock. Two large-bore IVs, fluid resuscitation.</text>
+    <text x="566" y="194" text-anchor="end" font-size="11" font-weight="bold" fill="#a16207">2nd</text>
+
+    <rect x="20" y="242" width="560" height="50" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
+    <circle cx="52" cy="267" r="20" fill="#0284c7"/><text x="52" y="273" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">D</text>
+    <text x="84" y="263" font-weight="bold">Disability: oriented to person only</text>
+    <text x="84" y="281" fill="#075985">Hypoxia and CO affect the brain: reassess level of consciousness often.</text>
+
+    <rect x="20" y="300" width="560" height="50" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <circle cx="52" cy="325" r="20" fill="#16a34a"/><text x="52" y="331" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">E</text>
+    <text x="84" y="321" font-weight="bold">Exposure: T 36.3° C, ring and watch on the burned arm</text>
+    <text x="84" y="339" fill="#14532d">Remove jewelry and clothing, then cover and keep warm (hypothermia risk).</text>
+  </g>
+  <text x="300" y="370" text-anchor="middle" font-size="12" fill="#64748b">Wound infection, pain, and body image matter too, but they follow A, B, and C.</text>
+</svg>

@@ -83,6 +83,16 @@ Content conventions: on every case screen after the first whose chart gained a t
 question preamble says so ("The nurse has reviewed the Nurses' Notes from 1130 and the Diagnostic Results.");
 the player has no New/Updated markers. Never list correct answers first (shuffle options; if a rationale refers to option
 numbers, write "(Option N)" to match); don't number rationale points in a way that looks like option numbers.
+The player shows options and drop-down choices in their stored order (it shuffles only ordered-response steps).
+Rationales with figures (pilot, October 2026: NURS 1017 Unit 5 Case Studies 6–8, `drafts/build_integ_rationales.py`
+→ `drafts/integ_rationales_patch.json`; the user decides after review whether to extend it to other cases):
+structured HTML (answer, why, why not, "Beyond the chapter" note) with `<figure>` blocks whose images live in
+`files/rationale/` (served by Pages; the item stores only the relative path, opened full size on click).
+Diagrams are original SVGs (600 px wide, Arial, white background); photographs come from Wikimedia Commons
+under CC BY / CC BY-SA or public domain, resized to ≤800 px JPEG, credited in the caption (author, Commons link,
+licence; credits in the generator and `drafts/integ_photos.json`). The figure markup is written as the browser
+serializes it, so the editor's open-and-save keeps it (check.js). Commons rate-limits this container: query
+one file at a time with pauses and a User-Agent that names the project.
 
 ## Writing new case studies (draft → review → publish)
 

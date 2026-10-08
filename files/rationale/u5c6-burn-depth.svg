@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" font-family="Arial, Helvetica, sans-serif">
+  <title>Burn depth: which burns count in the TBSA for fluid resuscitation</title>
+  <rect width="600" height="430" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Burn depth: what counts in the fluid calculation</text>
+  <!-- skin layers -->
+  <g>
+    <rect x="30" y="60" width="540" height="34" fill="#fde7d7"/>
+    <rect x="30" y="94" width="540" height="96" fill="#f8c9b0"/>
+    <rect x="30" y="190" width="540" height="62" fill="#fdf3c4"/>
+    <g fill="#f5e08a" stroke="#e2c65a">
+      <circle cx="70" cy="214" r="12"/><circle cx="98" cy="232" r="11"/><circle cx="190" cy="220" r="13"/><circle cx="260" cy="234" r="11"/>
+      <circle cx="330" cy="214" r="12"/><circle cx="420" cy="230" r="12"/><circle cx="500" cy="216" r="13"/><circle cx="545" cy="236" r="10"/>
+    </g>
+    <!-- hair follicles and nerve endings -->
+    <g stroke="#7c4a2d" stroke-width="2" fill="none">
+      <path d="M120 60 L119 44"/><path d="M120 60 Q118 120 124 168"/><ellipse cx="124" cy="172" rx="6" ry="8"/>
+      <path d="M470 60 L471 44"/><path d="M470 60 Q468 120 474 168"/><ellipse cx="474" cy="172" rx="6" ry="8"/>
+    </g>
+    <g stroke="#7c3aed" stroke-width="1.6" fill="none">
+      <path d="M230 186 Q236 140 228 100"/><path d="M228 100 l-6 -5 M228 100 l6 -5"/>
+      <path d="M370 186 Q376 140 368 100"/><path d="M368 100 l-6 -5 M368 100 l6 -5"/>
+    </g>
+    <text x="566" y="82" text-anchor="end" font-size="12" fill="#7c2d12">Epidermis</text>
+    <text x="566" y="146" text-anchor="end" font-size="12" fill="#7c2d12">Dermis</text>
+    <text x="566" y="160" text-anchor="end" font-size="10.5" fill="#6d28d9">(nerve endings)</text>
+    <text x="566" y="246" text-anchor="end" font-size="12" fill="#854d0e">Subcutaneous fat</text>
+  </g>
+  <!-- depth bars -->
+  <g>
+    <rect x="48" y="56" width="22" height="40" rx="3" fill="#fca5a5" stroke="#b91c1c"/>
+    <rect x="232" y="56" width="22" height="104" rx="3" fill="#fb923c" stroke="#c2410c"/>
+    <rect x="404" y="56" width="22" height="140" rx="3" fill="#7c2d12" stroke="#431407"/>
+  </g>
+  <!-- columns -->
+  <g font-size="13" fill="#1e293b">
+    <text x="40" y="278" font-weight="bold" font-size="14" fill="#b91c1c">Superficial</text>
+    <text x="40" y="294" font-size="11.5" fill="#64748b">(first degree)</text>
+    <text x="40" y="314">Epidermis only</text>
+    <text x="40" y="331">Red, dry, no blisters</text>
+    <text x="40" y="348">Painful</text>
+    <text x="40" y="372" font-weight="bold">D.R.: face</text>
+
+    <text x="222" y="278" font-weight="bold" font-size="14" fill="#c2410c">Partial thickness</text>
+    <text x="222" y="294" font-size="11.5" fill="#64748b">(second degree)</text>
+    <text x="222" y="314">Into the dermis</text>
+    <text x="222" y="331">Moist, blisters, blanches</text>
+    <text x="222" y="348">Very painful (nerves exposed)</text>
+    <text x="222" y="372" font-weight="bold">D.R.: chest and abdomen</text>
+
+    <text x="404" y="278" font-weight="bold" font-size="14" fill="#7c2d12">Full thickness</text>
+    <text x="404" y="294" font-size="11.5" fill="#64748b">(third degree)</text>
+    <text x="404" y="314">Through the dermis</text>
+    <text x="404" y="331">Waxy white/tan, leathery,</text>
+    <text x="404" y="348">dry; does not blanch; painless</text>
+    <text x="404" y="372" font-weight="bold">D.R.: whole right arm</text>
+  </g>
+  <rect x="30" y="388" width="160" height="30" rx="5" fill="#fee2e2"/>
+  <text x="110" y="408" text-anchor="middle" font-size="13" font-weight="bold" fill="#b91c1c">Not counted</text>
+  <rect x="212" y="388" width="358" height="30" rx="5" fill="#ffedd5"/>
+  <text x="391" y="408" text-anchor="middle" font-size="13" font-weight="bold" fill="#9a3412">Counted in % TBSA for the Parkland formula</text>
+</svg>

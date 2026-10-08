@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" font-family="Arial, Helvetica, sans-serif">
+  <title>Cues of smoke inhalation injury, from the face to the lungs</title>
+  <rect width="600" height="500" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Reading the airway cues from top to bottom</text>
+  <!-- head -->
+  <ellipse cx="300" cy="100" rx="52" ry="62" fill="#fde7d7" stroke="#475569" stroke-width="1.5"/>
+  <path d="M268 78 q12 -8 24 0 M308 78 q12 -8 24 0" stroke="#57534e" stroke-width="3" fill="none" stroke-dasharray="2 2"/>
+  <circle cx="280" cy="90" r="3" fill="#334155"/><circle cx="320" cy="90" r="3" fill="#334155"/>
+  <path d="M300 96 L292 118 L308 118 Z" fill="#f8c9b0" stroke="#475569"/>
+  <g fill="#334155"><circle cx="295" cy="121" r="2.5"/><circle cx="305" cy="121" r="2.5"/><circle cx="288" cy="127" r="2"/><circle cx="312" cy="127" r="2"/><circle cx="300" cy="140" r="2"/><circle cx="291" cy="142" r="1.6"/><circle cx="309" cy="142" r="1.6"/></g>
+  <path d="M286 136 q14 8 28 0" stroke="#7f1d1d" stroke-width="2" fill="none"/>
+  <!-- neck / larynx / trachea -->
+  <rect x="284" y="160" width="32" height="40" fill="#fde7d7" stroke="#475569" stroke-width="1.5"/>
+  <rect x="288" y="196" width="24" height="34" rx="4" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+  <path d="M292 213 L300 207 L308 213" stroke="#b91c1c" stroke-width="2" fill="none"/>
+  <g stroke="#475569" stroke-width="1.5" fill="#e2e8f0">
+    <rect x="292" y="230" width="16" height="70"/>
+    <path d="M292 300 L250 350 L262 356 L300 312 L338 356 L350 350 L308 300 Z"/>
+  </g>
+  <g stroke="#94a3b8" stroke-width="1"><line x1="292" y1="240" x2="308" y2="240"/><line x1="292" y1="252" x2="308" y2="252"/><line x1="292" y1="264" x2="308" y2="264"/><line x1="292" y1="276" x2="308" y2="276"/><line x1="292" y1="288" x2="308" y2="288"/></g>
+  <g fill="#334155"><circle cx="300" cy="258" r="2.2"/><circle cx="298" cy="272" r="2"/><circle cx="302" cy="286" r="2.2"/></g>
+  <!-- lungs -->
+  <path d="M250 350 C200 340 170 380 176 420 C182 440 236 440 254 424 C262 400 262 370 250 350 Z" fill="#fbcfe8" stroke="#475569" stroke-width="1.5"/>
+  <path d="M350 350 C400 340 430 380 424 420 C418 440 364 440 346 424 C338 400 338 370 350 350 Z" fill="#fbcfe8" stroke="#475569" stroke-width="1.5"/>
+  <g stroke="#9d174d" stroke-width="1.5" fill="none"><path d="M250 360 l-16 14 M240 368 l-6 18 M350 360 l16 14 M360 368 l6 18"/></g>
+  <!-- labels -->
+  <g stroke="#64748b" stroke-width="1" fill="none">
+    <line x1="268" y1="76" x2="186" y2="62"/><line x1="292" y1="124" x2="186" y2="122"/>
+    <line x1="312" y1="212" x2="414" y2="196"/><line x1="303" y1="270" x2="414" y2="276"/>
+    <line x1="234" y1="380" x2="186" y2="364"/><line x1="350" y1="104" x2="414" y2="96"/>
+  </g>
+  <g font-size="12.5" fill="#1e293b">
+    <text x="20" y="54" font-weight="bold">Singed eyebrows and</text>
+    <text x="20" y="69" font-weight="bold">nasal hairs</text>
+    <text x="20" y="84" fill="#475569">hot gas reached the face</text>
+    <text x="20" y="116" font-weight="bold">Soot around nose</text>
+    <text x="20" y="131" font-weight="bold">and mouth</text>
+    <text x="20" y="146" fill="#475569">smoke was breathed in</text>
+
+    <text x="420" y="92" font-weight="bold">Confusion, headache,</text>
+    <text x="420" y="107" font-weight="bold">nausea</text>
+    <text x="420" y="122" fill="#475569">hypoxia; carbon monoxide</text>
+
+    <text x="420" y="186" font-weight="bold" fill="#b91c1c">Hoarse voice</text>
+    <text x="420" y="201" fill="#475569">swelling of the larynx:</text>
+    <text x="420" y="216" fill="#475569">can close the airway</text>
+    <text x="420" y="231" fill="#475569">within hours</text>
+
+    <text x="420" y="272" font-weight="bold">Black-tinged sputum</text>
+    <text x="420" y="287" fill="#475569">soot below the vocal cords</text>
+
+    <text x="20" y="354" font-weight="bold">Expiratory wheezes</text>
+    <text x="20" y="369" fill="#475569">bronchospasm from</text>
+    <text x="20" y="384" fill="#475569">irritant smoke</text>
+  </g>
+  <rect x="30" y="448" width="540" height="40" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="300" y="473" text-anchor="middle" font-size="13" fill="#7f1d1d"><tspan font-weight="bold">Watch for stridor</tspan> (a high-pitched sound on breathing in): the airway is closing.</text>
+</svg>

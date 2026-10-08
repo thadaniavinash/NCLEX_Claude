@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="Arial, Helvetica, sans-serif">
+  <title>How herpes zoster ophthalmicus threatens sight</title>
+  <rect width="600" height="380" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Herpes zoster ophthalmicus: what it can damage</text>
+  <!-- eyeball side view: cornea on left -->
+  <circle cx="320" cy="180" r="110" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <circle cx="320" cy="180" r="104" fill="none" stroke="#f87171" stroke-width="5"/>
+  <path d="M214 120 C188 150 188 210 214 240" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+  <path d="M234 132 L234 160 M234 200 L234 228" stroke="#92400e" stroke-width="7"/>
+  <ellipse cx="252" cy="180" rx="14" ry="30" fill="#e0e7ff" stroke="#6366f1" stroke-width="1.5"/>
+  <path d="M420 172 L520 168 L520 192 L420 188 Z" fill="#fde68a" stroke="#ca8a04"/>
+  <!-- labels -->
+  <g stroke="#64748b" stroke-width="1"><line x1="198" y1="150" x2="160" y2="96"/><line x1="234" y1="146" x2="170" y2="178"/><line x1="404" y1="118" x2="452" y2="82"/><line x1="226" y1="106" x2="236" y2="56"/><line x1="500" y1="186" x2="520" y2="236"/></g>
+  <g font-size="13" fill="#1e293b">
+    <text x="20" y="72" font-weight="bold" fill="#0369a1">Cornea: keratitis</text>
+    <text x="20" y="88" font-size="12" fill="#475569">pain, "gritty" feeling,</text>
+    <text x="20" y="103" font-size="12" fill="#475569">blurred vision; scarring</text>
+    <text x="20" y="182" font-weight="bold" fill="#92400e">Iris and uvea: uveitis</text>
+    <text x="20" y="198" font-size="12" fill="#475569">light hurts (photophobia);</text>
+    <text x="20" y="213" font-size="12" fill="#475569">pressure can rise</text>
+    <text x="20" y="228" font-size="12" fill="#475569">(secondary glaucoma)</text>
+    <text x="150" y="50" font-weight="bold" fill="#b91c1c">Conjunctiva: red, tearing</text>
+    <text x="440" y="56" font-weight="bold" fill="#b91c1c">Retina</text>
+    <text x="440" y="72" font-size="12" fill="#475569">retinitis (rare, severe)</text>
+    <text x="470" y="250" font-weight="bold" fill="#a16207">Optic nerve</text>
+    <text x="470" y="266" font-size="12" fill="#475569">optic neuritis (rare)</text>
+  </g>
+  <rect x="20" y="300" width="560" height="68" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+  <g font-size="13" fill="#1e293b">
+    <text x="34" y="322"><tspan font-weight="bold">L.T.:</tspan> red, tearing, gritty left eye; light hurts; blurred vision = possible</text>
+    <text x="34" y="340">keratitis or uveitis. Permanent vision loss is the threat, so the nurse reports it</text>
+    <text x="34" y="358">immediately for same-day eye assessment. Never put skin ointment in the eye.</text>
+  </g>
+</svg>

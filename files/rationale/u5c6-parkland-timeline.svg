@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" font-family="Arial, Helvetica, sans-serif">
+  <title>Parkland formula timeline for this client</title>
+  <rect width="600" height="330" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Parkland formula: the clock starts at the burn</text>
+  <rect x="30" y="42" width="540" height="40" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="300" y="68" text-anchor="middle" font-size="15" fill="#1e293b">4 mL × <tspan font-weight="bold">80 kg</tspan> × <tspan font-weight="bold">27</tspan> % TBSA = <tspan font-weight="bold" fill="#1d4ed8">8,640 mL</tspan> Ringer's lactate in 24 hours</text>
+  <!-- scale: 0215 at x=60, 24 h -> 540 px => 22.5 px/h -->
+  <rect x="60" y="130" width="180" height="46" fill="#2563eb"/>
+  <rect x="240" y="130" width="300" height="46" fill="#93c5fd"/>
+  <text x="150" y="152" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">4,320 mL</text>
+  <text x="150" y="169" text-anchor="middle" font-size="12" fill="#ffffff">first 8 hours</text>
+  <text x="390" y="152" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">4,320 mL</text>
+  <text x="390" y="169" text-anchor="middle" font-size="12" fill="#1e3a8a">next 16 hours</text>
+  <g stroke="#1e293b" stroke-width="2">
+    <line x1="60" y1="118" x2="60" y2="190"/><line x1="240" y1="118" x2="240" y2="190"/><line x1="540" y1="118" x2="540" y2="190"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#1e293b">
+    <text x="60" y="110" font-weight="bold">0215</text>
+    <text x="60" y="206">burn</text>
+    <text x="240" y="110" font-weight="bold">1015</text>
+    <text x="240" y="206">half given</text>
+    <text x="540" y="110" font-weight="bold">0215</text>
+    <text x="540" y="206">next day</text>
+  </g>
+  <!-- arrival / order markers: 0305 = 0.83 h -> x 79 ; 0340 = 1.42 h -> x 92 -->
+  <g stroke="#dc2626" stroke-width="2"><line x1="79" y1="124" x2="79" y2="182" stroke-dasharray="3 3"/><line x1="92" y1="124" x2="92" y2="182" stroke-dasharray="3 3"/></g>
+  <rect x="60" y="130" width="32" height="46" fill="#dc2626" opacity="0.35"/>
+  <path d="M92 226 L92 186" stroke="#dc2626" stroke-width="1.5" marker-end="url(#a)"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#dc2626"/></marker></defs>
+  <g font-size="13" fill="#b91c1c">
+    <text x="100" y="236">ED arrival 0305, orders at 0340: about 1½ hours of the 8 are already gone.</text>
+  </g>
+  <rect x="30" y="252" width="540" height="66" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <g font-size="13.5" fill="#1e293b">
+    <text x="44" y="274">Example: an infusion running from 0345 has 6½ hours left to 1015,</text>
+    <text x="44" y="292">so 4,320 mL ÷ 6.5 h ≈ <tspan font-weight="bold">665 mL/h</tspan>, not 540 mL/h (4,320 ÷ 8).</text>
+    <text x="44" y="310">Then titrate to urine output: at least <tspan font-weight="bold">0.5 mL/kg/h × 80 kg = 40 mL/h</tspan>.</text>
+  </g>
+</svg>

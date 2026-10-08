@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" font-family="Arial, Helvetica, sans-serif">
+  <title>How the nursing priority changes from plaque psoriasis to erythroderma</title>
+  <rect width="600" height="340" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">The priority shifts when psoriasis becomes erythroderma</text>
+  <defs><marker id="p" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#475569"/></marker></defs>
+  <text x="140" y="58" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">Plaque psoriasis (stable)</text>
+  <text x="140" y="74" text-anchor="middle" font-size="12" fill="#64748b">localized plaques, skin barrier mostly intact</text>
+  <g font-size="13">
+    <rect x="40" y="88" width="200" height="44" rx="6" fill="#fde68a"/><text x="140" y="115" text-anchor="middle" font-weight="bold" fill="#713f12">1. Impaired skin integrity</text>
+    <rect x="40" y="140" width="200" height="40" rx="6" fill="#e2e8f0"/><text x="140" y="165" text-anchor="middle" fill="#334155">Body image, coping</text>
+    <rect x="40" y="188" width="200" height="40" rx="6" fill="#e2e8f0"/><text x="140" y="213" text-anchor="middle" fill="#334155">Knowledge, adherence</text>
+  </g>
+  <line x1="262" y1="158" x2="330" y2="158" stroke="#475569" stroke-width="3" marker-end="url(#p)"/>
+  <text x="296" y="148" text-anchor="middle" font-size="11" fill="#475569">90% of</text>
+  <text x="296" y="178" text-anchor="middle" font-size="11" fill="#475569">the body</text>
+  <text x="460" y="58" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">Erythroderma (J.M. tonight)</text>
+  <text x="460" y="74" text-anchor="middle" font-size="12" fill="#64748b">barrier almost absent: life-threatening</text>
+  <g font-size="13">
+    <rect x="350" y="88" width="220" height="56" rx="6" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+    <text x="460" y="110" text-anchor="middle" font-weight="bold" fill="#7f1d1d">1. Hemodynamic instability</text>
+    <text x="460" y="128" text-anchor="middle" font-size="12" fill="#7f1d1d">fluid, electrolyte and heat loss</text>
+    <rect x="350" y="152" width="220" height="40" rx="6" fill="#fde68a"/><text x="460" y="177" text-anchor="middle" font-weight="bold" fill="#713f12">2. Impaired skin integrity</text>
+    <rect x="350" y="200" width="220" height="40" rx="6" fill="#e2e8f0"/><text x="460" y="225" text-anchor="middle" fill="#334155">3. Body image, coping, knowledge</text>
+  </g>
+  <rect x="20" y="262" width="560" height="66" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <g font-size="13" fill="#1e293b">
+    <text x="34" y="284">J.M. is tearful and has stopped leaving the house. Those needs are real and are</text>
+    <text x="34" y="302">addressed (social work, support group), but only after his circulation, temperature,</text>
+    <text x="34" y="320">and electrolytes are stable: physiological needs come first.</text>
+  </g>
+</svg>

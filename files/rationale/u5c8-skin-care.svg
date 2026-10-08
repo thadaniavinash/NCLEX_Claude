@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" font-family="Arial, Helvetica, sans-serif">
+  <title>Skin care in erythroderma: do and do not</title>
+  <rect width="600" height="330" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Caring for skin that has lost its barrier</text>
+  <rect x="20" y="44" width="275" height="274" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+  <rect x="305" y="44" width="275" height="274" rx="8" fill="#fef2f2" stroke="#fca5a5"/>
+  <circle cx="44" cy="68" r="13" fill="#16a34a"/><text x="44" y="73" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">✓</text>
+  <text x="66" y="73" font-size="14.5" font-weight="bold" fill="#14532d">Do</text>
+  <circle cx="329" cy="68" r="13" fill="#dc2626"/><text x="329" y="73" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">✕</text>
+  <text x="351" y="73" font-size="14.5" font-weight="bold" fill="#7f1d1d">Do not</text>
+  <g font-size="13" fill="#1e293b">
+    <text x="34" y="104" font-weight="bold">Lukewarm oatmeal soaks</text>
+    <text x="34" y="121" fill="#475569">soothe itch without more</text>
+    <text x="34" y="137" fill="#475569">vasodilation or heat loss</text>
+    <text x="34" y="164" font-weight="bold">Bland, oil-based emollient</text>
+    <text x="34" y="181" fill="#475569">right after soaking, to hold</text>
+    <text x="34" y="197" fill="#475569">water in the skin</text>
+    <text x="34" y="224" font-weight="bold">Warm room and blankets</text>
+    <text x="34" y="241" fill="#475569">monitor temperature often</text>
+    <text x="34" y="268" font-weight="bold">Antihistamine at bedtime</text>
+    <text x="34" y="285" fill="#475569">sedating: help him up, as he</text>
+    <text x="34" y="301" fill="#475569">is orthostatic</text>
+
+    <text x="319" y="104" font-weight="bold">Hot water or scrubbing scale</text>
+    <text x="319" y="121" fill="#475569">friction and heat tear the barrier,</text>
+    <text x="319" y="137" fill="#475569">raise heat and fluid loss</text>
+    <text x="319" y="164" font-weight="bold">Coal tar on all reddened skin</text>
+    <text x="319" y="181" fill="#475569">irritates inflamed skin; for mild,</text>
+    <text x="319" y="197" fill="#475569">localized plaques only</text>
+    <text x="319" y="224" font-weight="bold">Ultraviolet phototherapy now</text>
+    <text x="319" y="241" fill="#475569">can aggravate erythroderma</text>
+    <text x="319" y="268" font-weight="bold">Restricting fluids for edema</text>
+    <text x="319" y="285" fill="#475569">the edema is from low albumin;</text>
+    <text x="319" y="301" fill="#475569">he is volume depleted</text>
+  </g>
+</svg>

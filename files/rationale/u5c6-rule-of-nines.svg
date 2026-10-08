@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" font-family="Arial, Helvetica, sans-serif">
+  <title>Rule of Nines with this client's burns</title>
+  <rect width="600" height="470" fill="#ffffff"/>
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#fde2e2"/><line x1="0" y1="0" x2="0" y2="6" stroke="#f3a5a5" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Rule of Nines (adult): D.R.'s burns</text>
+
+  <!-- FRONT -->
+  <g stroke="#475569" stroke-width="1.5">
+    <circle cx="150" cy="72" r="26" fill="url(#hatch)"/>
+    <rect x="142" y="97" width="16" height="10" fill="#f1f5f9"/>
+    <rect x="112" y="106" width="76" height="128" rx="10" fill="#fb923c"/>
+    <rect x="84" y="108" width="24" height="122" rx="11" fill="#7c2d12"/>
+    <rect x="192" y="108" width="24" height="122" rx="11" fill="#f1f5f9"/>
+    <rect x="114" y="238" width="34" height="150" rx="12" fill="#f1f5f9"/>
+    <rect x="152" y="238" width="34" height="150" rx="12" fill="#f1f5f9"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#1e293b">
+    <text x="150" y="77" font-weight="bold">4.5%</text>
+    <text x="150" y="168" font-weight="bold" font-size="15">18%</text>
+    <text x="150" y="185" font-size="11">anterior trunk</text>
+    <text x="96" y="172" fill="#ffffff" font-weight="bold" transform="rotate(-90 96 172)">4.5%</text>
+    <text x="204" y="172" transform="rotate(-90 204 172)">4.5%</text>
+    <text x="131" y="318">9%</text>
+    <text x="169" y="318">9%</text>
+    
+    <text x="150" y="410" font-weight="bold" font-size="14">FRONT</text><text x="150" y="424" font-size="11" fill="#64748b">(perineum 1%)</text>
+    <text x="96" y="248" font-size="12" font-weight="bold">R</text>
+    <text x="204" y="248" font-size="12" font-weight="bold">L</text>
+  </g>
+
+  <!-- BACK -->
+  <g stroke="#475569" stroke-width="1.5">
+    <circle cx="460" cy="72" r="26" fill="#f1f5f9"/>
+    <rect x="452" y="97" width="16" height="10" fill="#f1f5f9"/>
+    <rect x="422" y="106" width="76" height="128" rx="10" fill="#f1f5f9"/>
+    <rect x="394" y="108" width="24" height="122" rx="11" fill="#f1f5f9"/>
+    <rect x="502" y="108" width="24" height="122" rx="11" fill="#7c2d12"/>
+    <rect x="424" y="238" width="34" height="150" rx="12" fill="#f1f5f9"/>
+    <rect x="462" y="238" width="34" height="150" rx="12" fill="#f1f5f9"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#1e293b">
+    <text x="460" y="77" font-weight="bold">4.5%</text>
+    <text x="460" y="168" font-weight="bold" font-size="15">18%</text>
+    <text x="460" y="185" font-size="11">posterior trunk</text>
+    <text x="406" y="172" transform="rotate(-90 406 172)">4.5%</text>
+    <text x="514" y="172" fill="#ffffff" font-weight="bold" transform="rotate(-90 514 172)">4.5%</text>
+    <text x="441" y="318">9%</text>
+    <text x="479" y="318">9%</text>
+    <text x="460" y="410" font-weight="bold" font-size="14">BACK</text>
+    <text x="406" y="248" font-size="12" font-weight="bold">L</text>
+    <text x="514" y="248" font-size="12" font-weight="bold">R</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="12.5" fill="#1e293b">
+    <rect x="236" y="70" width="16" height="16" fill="url(#hatch)" stroke="#475569"/>
+    <text x="258" y="83">Face: superficial</text>
+    <text x="258" y="98" fill="#b91c1c">NOT counted</text>
+    <rect x="236" y="116" width="16" height="16" fill="#fb923c" stroke="#475569"/>
+    <text x="258" y="129">Chest + abdomen:</text>
+    <text x="258" y="144">partial thickness</text>
+    <rect x="236" y="162" width="16" height="16" fill="#7c2d12" stroke="#475569"/>
+    <text x="258" y="175">Right arm, all the</text>
+    <text x="258" y="190">way round: full</text>
+    <text x="258" y="205">thickness</text>
+  </g>
+
+  <rect x="20" y="428" width="560" height="34" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="300" y="450" text-anchor="middle" font-size="14" fill="#1e293b">Anterior trunk <tspan font-weight="bold">18%</tspan> + right arm front and back <tspan font-weight="bold">4.5% + 4.5%</tspan> = <tspan font-weight="bold" fill="#c2410c">27% TBSA</tspan></text>
+</svg>

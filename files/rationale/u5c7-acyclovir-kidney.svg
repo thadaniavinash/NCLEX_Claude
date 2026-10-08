@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" font-family="Arial, Helvetica, sans-serif">
+  <title>IV acyclovir and the kidney</title>
+  <rect width="600" height="360" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">IV acyclovir: protect the kidneys</text>
+  <!-- tubule fast/dry -->
+  <text x="150" y="56" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#b91c1c">Fast infusion, low fluid</text>
+  <rect x="40" y="70" width="220" height="56" rx="28" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <g fill="#94a3b8" stroke="#334155" stroke-width="0.8">
+    <path d="M70 92 l8 -10 l4 14 z"/><path d="M96 104 l10 -12 l3 16 z"/><path d="M120 88 l9 -6 l2 14 z"/><path d="M140 100 l10 -12 l4 16 z"/><path d="M164 92 l8 -10 l5 14 z"/><path d="M184 104 l9 -12 l4 14 z"/><path d="M206 90 l8 -8 l4 14 z"/><path d="M226 100 l9 -12 l3 14 z"/><path d="M110 112 l6 -6 l3 10 z"/><path d="M200 112 l7 -8 l3 10 z"/>
+  </g>
+  <text x="150" y="146" text-anchor="middle" font-size="12" fill="#475569">Concentrated drug forms crystals</text>
+  <text x="150" y="161" text-anchor="middle" font-size="12" fill="#475569">that block the renal tubules</text>
+  <text x="150" y="180" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#b91c1c">→ acute kidney injury</text>
+  <!-- tubule slow/hydrated -->
+  <text x="450" y="56" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#15803d">Slow infusion, well hydrated</text>
+  <rect x="340" y="70" width="220" height="56" rx="28" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <g fill="#0ea5e9" opacity="0.7"><circle cx="372" cy="92" r="3"/><circle cx="398" cy="104" r="3"/><circle cx="424" cy="90" r="3"/><circle cx="450" cy="102" r="3"/><circle cx="478" cy="94" r="3"/><circle cx="506" cy="104" r="3"/><circle cx="530" cy="92" r="3"/></g>
+  <path d="M360 98 L540 98" stroke="#0369a1" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="450" y="146" text-anchor="middle" font-size="12" fill="#475569">Drug stays dissolved and</text>
+  <text x="450" y="161" text-anchor="middle" font-size="12" fill="#475569">flows out in the urine</text>
+  <!-- checklist -->
+  <rect x="20" y="196" width="560" height="152" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="34" y="220" font-size="14" font-weight="bold" fill="#14532d">Nursing safety bundle for L.T. (acyclovir 600 mg IV every 8 hours)</text>
+  <g font-size="13" fill="#1e293b">
+    <text x="40" y="246">✓ Infuse each dose over at least 1 hour (never as a rapid IV push)</text>
+    <text x="40" y="268">✓ Keep her hydrated: 0.9% sodium chloride at 75 mL/h, encourage fluids</text>
+    <text x="40" y="290">✓ Strict intake and output: expect at least 0.5 mL/kg/h (30 mL/h at 60 kg)</text>
+    <text x="40" y="312">✓ Serum creatinine daily; baseline 78 µmol/L</text>
+    <text x="40" y="334">✓ Report a rising creatinine or falling urine output: the dose may need adjusting</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" font-family="Arial, Helvetica, sans-serif">
+  <title>Before, during and after an infliximab infusion</title>
+  <rect width="600" height="360" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Infliximab (a TNF inhibitor): nursing checkpoints</text>
+  <g font-size="13" fill="#1e293b">
+    <rect x="20" y="44" width="180" height="254" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="110" y="68" text-anchor="middle" font-weight="bold" font-size="14" fill="#1e40af">Before</text>
+    <text x="32" y="94">✓ TB screen (IGRA)</text>
+    <text x="44" y="110" font-size="11.5" fill="#475569">and chest x-ray</text>
+    <text x="32" y="134">✓ Hepatitis B and C</text>
+    <text x="44" y="150" font-size="11.5" fill="#475569">TNF inhibitors can</text>
+    <text x="44" y="164" font-size="11.5" fill="#475569">reactivate latent TB</text>
+    <text x="44" y="178" font-size="11.5" fill="#475569">and hepatitis B</text>
+    <text x="32" y="202">✓ Live vaccines (MMR,</text>
+    <text x="44" y="218">varicella) given</text>
+    <text x="44" y="234" font-weight="bold">before</text>
+    <text x="44" y="250" font-size="11.5" fill="#475569">never during therapy</text>
+    <text x="32" y="274">✓ No active infection</text>
+
+    <rect x="210" y="44" width="180" height="254" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="300" y="68" text-anchor="middle" font-weight="bold" font-size="14" fill="#9a3412">During the infusion</text>
+    <text x="222" y="94">✓ Vital signs per policy</text>
+    <text x="222" y="118">✓ Watch for an</text>
+    <text x="234" y="134">infusion reaction:</text>
+    <text x="234" y="150" font-size="11.5" fill="#475569">fever, chills, dyspnea,</text>
+    <text x="234" y="164" font-size="11.5" fill="#475569">hives, low BP</text>
+    <text x="222" y="190">✓ If it occurs: stop or</text>
+    <text x="234" y="206">slow the infusion and</text>
+    <text x="234" y="222">notify the provider</text>
+
+    <rect x="400" y="44" width="180" height="254" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="490" y="68" text-anchor="middle" font-weight="bold" font-size="14" fill="#166534">After: teaching</text>
+    <text x="412" y="94">✓ Report fever, cough,</text>
+    <text x="424" y="110">night sweats, skin</text>
+    <text x="424" y="126">infection promptly</text>
+    <text x="412" y="150">✓ No live vaccines</text>
+    <text x="412" y="174">✓ Keep every infusion,</text>
+    <text x="424" y="190">even when the skin</text>
+    <text x="424" y="206">clears: psoriasis is</text>
+    <text x="424" y="222">chronic, and stopping</text>
+    <text x="424" y="238">treatment caused this</text>
+    <text x="424" y="254">admission</text>
+  </g>
+  <rect x="20" y="308" width="560" height="42" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="300" y="334" text-anchor="middle" font-size="13" fill="#1e293b">J.M.'s screening: IGRA, hepatitis B and C negative, chest x-ray clear. Safe to start.</text>
+</svg>

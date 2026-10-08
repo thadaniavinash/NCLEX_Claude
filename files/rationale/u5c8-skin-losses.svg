@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" font-family="Arial, Helvetica, sans-serif">
+  <title>What the body loses through erythrodermic skin</title>
+  <rect width="600" height="420" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Erythroderma: the skin barrier is almost gone</text>
+  <defs><marker id="o" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#475569"/></marker></defs>
+  <!-- body silhouette in red -->
+  <g fill="#f87171" stroke="#b91c1c" stroke-width="1.5">
+    <circle cx="300" cy="78" r="24"/>
+    <rect x="266" y="104" width="68" height="112" rx="10"/>
+    <rect x="240" y="106" width="22" height="104" rx="10"/><rect x="338" y="106" width="22" height="104" rx="10"/>
+    <rect x="268" y="220" width="30" height="120" rx="11"/><rect x="302" y="220" width="30" height="120" rx="11"/>
+  </g>
+  <g stroke="#fef2f2" stroke-width="1.2" fill="none" opacity="0.9">
+    <path d="M276 130 l10 4 M300 150 l12 -3 M282 182 l9 5 M316 120 l8 6 M246 150 l8 2 M346 170 l8 -2 M276 260 l8 3 M312 290 l8 -3 M318 196 l10 2"/>
+  </g>
+  <text x="300" y="362" text-anchor="middle" font-size="12" fill="#475569">about 90% of the body: red, scaling, peeling</text>
+  <!-- arrows and boxes -->
+  <g stroke="#475569" stroke-width="2" marker-end="url(#o)">
+    <line x1="238" y1="130" x2="196" y2="110"/><line x1="238" y1="190" x2="196" y2="214"/>
+    <line x1="362" y1="130" x2="404" y2="110"/><line x1="362" y1="190" x2="404" y2="214"/>
+  </g>
+  <g font-size="12.5" fill="#1e293b">
+    <rect x="16" y="52" width="180" height="96" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="28" y="72" font-weight="bold" fill="#1d4ed8">Water</text>
+    <text x="28" y="90">BP 96/58 → 80/50 mm Hg</text>
+    <text x="28" y="106">standing, HR 116, dry mouth,</text>
+    <text x="28" y="122">100 mL urine in 8 h,</text>
+    <text x="28" y="138">creatinine 84 → 132 µmol/L</text>
+
+    <rect x="16" y="168" width="180" height="96" rx="6" fill="#fdf4ff" stroke="#e9d5ff"/>
+    <text x="28" y="188" font-weight="bold" fill="#7e22ce">Protein</text>
+    <text x="28" y="206">Albumin 26 g/L: low</text>
+    <text x="28" y="222">oncotic pressure, so fluid</text>
+    <text x="28" y="238">leaks into tissues: ankle</text>
+    <text x="28" y="254">edema despite hypovolemia</text>
+
+    <rect x="404" y="52" width="180" height="96" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="416" y="72" font-weight="bold" fill="#c2410c">Heat</text>
+    <text x="416" y="90">Dilated skin vessels</text>
+    <text x="416" y="106">radiate heat:</text>
+    <text x="416" y="122">T 35.6° C, chills,</text>
+    <text x="416" y="138">"I can't get warm"</text>
+
+    <rect x="404" y="168" width="180" height="96" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="416" y="188" font-weight="bold" fill="#15803d">Electrolytes</text>
+    <text x="416" y="206">K 3.1 mmol/L,</text>
+    <text x="416" y="222">Mg 0.62 mmol/L:</text>
+    <text x="416" y="238">dysrhythmia risk</text>
+    <text x="416" y="254">(alcohol lowers Mg too)</text>
+  </g>
+  <rect x="20" y="378" width="560" height="34" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="300" y="400" text-anchor="middle" font-size="13" fill="#1e293b">Also lost: the barrier against infection. Excoriated skin is an open door for bacteria.</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" font-family="Arial, Helvetica, sans-serif">
+  <title>Airborne and contact precautions for herpes zoster in an immunocompromised client</title>
+  <rect width="600" height="420" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Airborne + contact precautions until dissemination is ruled out</text>
+  <defs><marker id="m" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#0369a1"/></marker></defs>
+  <!-- room -->
+  <rect x="30" y="50" width="300" height="230" fill="#f8fafc" stroke="#334155" stroke-width="3"/>
+  <rect x="326" y="190" width="8" height="70" fill="#334155"/>
+  <text x="180" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#0369a1">Airborne infection isolation room</text>
+  <text x="180" y="88" text-anchor="middle" font-size="11.5" fill="#475569">negative pressure: air flows in, not out</text>
+  <g stroke="#0369a1" stroke-width="2" marker-end="url(#m)"><line x1="380" y1="210" x2="342" y2="210"/><line x1="380" y1="240" x2="342" y2="240"/></g>
+  <text x="388" y="220" font-size="12" fill="#0369a1">air in</text>
+  <text x="352" y="276" font-size="12" font-weight="bold" fill="#b91c1c">Door closed</text>
+  <!-- bed + patient -->
+  <rect x="60" y="180" width="130" height="60" rx="6" fill="#e2e8f0" stroke="#64748b"/>
+  <circle cx="86" cy="196" r="14" fill="#fde7d7" stroke="#475569"/>
+  <rect x="100" y="186" width="80" height="30" rx="8" fill="#bfdbfe"/>
+  <text x="125" y="260" text-anchor="middle" font-size="12" fill="#475569">L.T.</text>
+  <!-- nurse -->
+  <circle cx="262" cy="130" r="16" fill="#fde7d7" stroke="#475569"/>
+  <path d="M250 134 q12 10 24 0 l0 6 q-12 8 -24 0 z" fill="#f8fafc" stroke="#334155"/>
+  <rect x="242" y="148" width="40" height="70" rx="8" fill="#fbbf24" stroke="#92400e"/>
+  <rect x="232" y="160" width="10" height="44" rx="5" fill="#fbbf24" stroke="#92400e"/><rect x="282" y="160" width="10" height="44" rx="5" fill="#fbbf24" stroke="#92400e"/>
+  <circle cx="237" cy="208" r="6" fill="#a78bfa"/><circle cx="287" cy="208" r="6" fill="#a78bfa"/>
+  <rect x="246" y="218" width="12" height="40" fill="#475569"/><rect x="266" y="218" width="12" height="40" fill="#475569"/>
+  <!-- PPE list -->
+  <g font-size="13" fill="#1e293b">
+    <text x="360" y="64" font-weight="bold">Nurse entering the room</text>
+    <text x="360" y="86">• Hand hygiene</text>
+    <text x="360" y="106">• <tspan font-weight="bold">Fit-tested N95</tspan> respirator</text>
+    <text x="370" y="122" font-size="11.5" fill="#64748b">(a surgical mask does not filter</text>
+    <text x="370" y="136" font-size="11.5" fill="#64748b">airborne virus)</text>
+    <text x="360" y="156">• Gown and gloves (contact)</text>
+    <text x="360" y="176">• Staff immune to varicella only</text>
+  </g>
+  <!-- transport -->
+  <rect x="30" y="296" width="540" height="112" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="44" y="318" font-size="14" font-weight="bold" fill="#1e3a8a">Leaving the room for the eye clinic (only if essential)</text>
+  <g font-size="13" fill="#1e293b">
+    <text x="44" y="342">• Client wears a <tspan font-weight="bold">surgical mask</tspan> (contains her own droplets;</text>
+    <text x="56" y="358">an N95 protects the wearer, not the people around her)</text>
+    <text x="44" y="380">• <tspan font-weight="bold">Cover the skin lesions</tspan> with a clean dressing; tell the receiving area</text>
+    <text x="44" y="400">• Infant visitors: not until she is no longer infectious (all lesions crusted)</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" font-family="Arial, Helvetica, sans-serif">
+  <title>Why the pulse oximeter reads 98% in carbon monoxide poisoning</title>
+  <rect width="600" height="440" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Carbon monoxide fools the pulse oximeter</text>
+  <!-- hemoglobin with O2 -->
+  <g>
+    <rect x="40" y="48" width="240" height="176" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="160" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#991b1b">Oxyhemoglobin</text>
+    <circle cx="160" cy="126" r="38" fill="#ef4444"/>
+    <text x="160" y="131" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="bold">Hb</text>
+    <g font-size="11" font-weight="bold" text-anchor="middle">
+      <circle cx="160" cy="80" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/><text x="160" y="84" fill="#2563eb">O₂</text>
+      <circle cx="206" cy="126" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/><text x="206" y="130" fill="#2563eb">O₂</text>
+      <circle cx="160" cy="172" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/><text x="160" y="176" fill="#2563eb">O₂</text>
+      <circle cx="114" cy="126" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/><text x="114" y="130" fill="#2563eb">O₂</text>
+    </g>
+    <text x="160" y="206" text-anchor="middle" font-size="12" fill="#475569">picks up O₂ in the lungs,</text><text x="160" y="220" text-anchor="middle" font-size="12" fill="#475569">releases it in the tissues</text>
+  </g>
+  <g>
+    <rect x="320" y="48" width="240" height="176" rx="10" fill="#fdf2f8" stroke="#fbcfe8"/>
+    <text x="440" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#9d174d">Carboxyhemoglobin (COHb)</text>
+    <circle cx="440" cy="126" r="38" fill="#f472b6"/>
+    <text x="440" y="131" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="bold">Hb</text>
+    <g font-size="11" font-weight="bold" text-anchor="middle">
+      <circle cx="440" cy="80" r="12" fill="#334155"/><text x="440" y="84" fill="#ffffff">CO</text>
+      <circle cx="486" cy="126" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/><text x="486" y="130" fill="#2563eb">O₂</text>
+      <circle cx="440" cy="172" r="12" fill="#334155"/><text x="440" y="176" fill="#ffffff">CO</text>
+      <circle cx="394" cy="126" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="2"/><text x="394" y="130" fill="#2563eb">O₂</text>
+    </g>
+    <text x="440" y="206" text-anchor="middle" font-size="12" fill="#475569">CO binds about 200× more tightly;</text><text x="440" y="220" text-anchor="middle" font-size="12" fill="#475569">less O₂ reaches the tissues</text>
+  </g>
+  <!-- comparison bars -->
+  <text x="40" y="260" font-size="14" font-weight="bold" fill="#1e293b">D.R.'s blood at 0335 (COHb 19%)</text>
+  <text x="40" y="290" font-size="12.5" fill="#1e293b">Pulse oximeter</text>
+  <rect x="160" y="276" width="400" height="22" fill="#e2e8f0"/>
+  <rect x="160" y="276" width="392" height="22" fill="#ef4444"/>
+  <text x="356" y="292" text-anchor="middle" font-size="12.5" fill="#ffffff" font-weight="bold">SpO₂ 98%: counts COHb as if it were oxygen</text>
+  <text x="40" y="328" font-size="12.5" fill="#1e293b">Co-oximetry</text>
+  <text x="40" y="342" font-size="11" fill="#64748b">(blood gas)</text>
+  <rect x="160" y="314" width="400" height="22" fill="#e2e8f0"/>
+  <rect x="160" y="314" width="316" height="22" fill="#ef4444"/>
+  <rect x="476" y="314" width="76" height="22" fill="#f472b6"/>
+  <text x="318" y="330" text-anchor="middle" font-size="12.5" fill="#ffffff" font-weight="bold">about 79% carries oxygen</text>
+  <text x="514" y="330" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="bold">19%</text>
+  <rect x="30" y="358" width="540" height="70" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <g font-size="13" fill="#1e293b">
+    <text x="44" y="380">A normal SpO₂ does not rule out CO poisoning: measure COHb.</text>
+    <text x="44" y="400">Treatment: 100% O₂ by non-rebreather shortens the COHb half-life from</text>
+    <text x="44" y="416">about 4–6 hours on room air to about 1–1½ hours.</text>
+  </g>
+</svg>

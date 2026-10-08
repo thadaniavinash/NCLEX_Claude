@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" font-family="Arial, Helvetica, sans-serif">
+  <title>Trigeminal nerve dermatomes and the Hutchinson sign</title>
+  <rect width="600" height="450" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">L.T.'s rash follows V1, the ophthalmic division</text>
+  <defs>
+    <clipPath id="half"><path d="M300 50 A110 160 0 0 1 300 370 Z"/></clipPath>
+  </defs>
+  <!-- face -->
+  <ellipse cx="300" cy="210" rx="110" ry="160" fill="#fdf4ee" stroke="#475569" stroke-width="1.5"/>
+  <g clip-path="url(#half)">
+    <polygon points="300,30 420,30 420,140 398,150 388,190 345,194 320,198 316,264 300,268" fill="#c4b5fd"/>
+    <polygon points="320,198 345,194 388,190 398,202 396,268 376,296 340,312 300,312 300,268 316,264" fill="#93c5fd"/>
+    <polygon points="420,140 398,150 388,190 398,202 396,268 376,296 340,312 300,312 300,390 420,390" fill="#86efac"/>
+  </g>
+  <ellipse cx="300" cy="210" rx="110" ry="160" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <line x1="300" y1="40" x2="300" y2="382" stroke="#334155" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <!-- features -->
+  <ellipse cx="248" cy="198" rx="20" ry="9" fill="#ffffff" stroke="#475569"/><circle cx="248" cy="198" r="5" fill="#334155"/>
+  <ellipse cx="352" cy="198" rx="20" ry="9" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/><circle cx="352" cy="198" r="5" fill="#334155"/>
+  <path d="M300 196 C292 222 284 244 286 256 C290 266 310 266 314 256 C316 244 308 222 300 196" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <path d="M272 312 Q300 324 328 312" fill="none" stroke="#475569" stroke-width="2"/>
+  <!-- vesicles -->
+  <g fill="#fef9c3" stroke="#b91c1c" stroke-width="1.3">
+    <circle cx="330" cy="86" r="5"/><circle cx="340" cy="94" r="4"/><circle cx="326" cy="98" r="4"/>
+    <circle cx="364" cy="120" r="5"/><circle cx="374" cy="128" r="4"/><circle cx="360" cy="132" r="4"/>
+    <circle cx="340" cy="150" r="4"/><circle cx="350" cy="156" r="4"/>
+    <circle cx="352" cy="62" r="4"/><circle cx="362" cy="68" r="4"/>
+    <circle cx="346" cy="184" r="3.5"/><circle cx="358" cy="183" r="3.5"/>
+    <circle cx="305" cy="257" r="4.5"/>
+  </g>
+  <!-- labels right -->
+  <g font-size="13" fill="#1e293b">
+    <rect x="430" y="80" width="16" height="16" fill="#c4b5fd"/><text x="452" y="93" font-weight="bold">V1 ophthalmic</text>
+    <text x="452" y="109" font-size="12" fill="#475569">forehead, scalp, upper</text>
+    <text x="452" y="124" font-size="12" fill="#475569">eyelid, nose to its tip,</text>
+    <text x="452" y="139" font-size="12" fill="#475569">and the eye itself</text>
+    <rect x="430" y="210" width="16" height="16" fill="#93c5fd"/><text x="452" y="223" font-weight="bold">V2 maxillary</text>
+    <text x="452" y="239" font-size="12" fill="#475569">lower eyelid, cheek,</text>
+    <text x="452" y="254" font-size="12" fill="#475569">upper lip</text>
+    <rect x="430" y="300" width="16" height="16" fill="#86efac"/><text x="452" y="313" font-weight="bold">V3 mandibular</text>
+    <text x="452" y="329" font-size="12" fill="#475569">lower lip, chin, jaw,</text>
+    <text x="452" y="344" font-size="12" fill="#475569">temple</text>
+  </g>
+  <!-- labels left -->
+  <line x1="300" y1="258" x2="170" y2="276" stroke="#b91c1c" stroke-width="1.5"/>
+  <g font-size="13" fill="#1e293b">
+    <text x="20" y="262" font-weight="bold" fill="#b91c1c">Hutchinson sign</text>
+    <text x="20" y="278" font-size="12">vesicle on the nose tip:</text>
+    <text x="20" y="293" font-size="12">the nasociliary branch of</text>
+    <text x="20" y="308" font-size="12">V1 also supplies the eye</text>
+    <text x="20" y="110" font-size="12" fill="#475569">Rash stops at</text>
+    <text x="20" y="125" font-size="12" fill="#475569">the midline</text>
+  </g>
+  <line x1="104" y1="120" x2="296" y2="128" stroke="#64748b" stroke-width="1"/>
+  <g font-size="12.5" text-anchor="middle" fill="#334155" font-weight="bold">
+    <text x="245" y="398">Client's right</text><text x="355" y="398">Client's left</text>
+  </g>
+  <rect x="30" y="410" width="540" height="32" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+  <text x="300" y="431" text-anchor="middle" font-size="13" fill="#4c1d95">Any V1 rash, and especially the nose tip, means the eye may be involved: report it now.</text>
+</svg>
