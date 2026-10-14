@@ -9,6 +9,9 @@
 //   node tools/supabase.js add <file.json>   add one new case study or stand-alone question to the database
 //   node tools/supabase.js patch <patch.json> change listed fields only ([{row, id, path, before, after}];
 //                                            refused as a whole if any field no longer holds `before`)
+//   node tools/supabase.js remove <list.json> remove the listed items ([{row, id, title}]; refused as a whole if
+//                                            an item is missing or its title differs). The next `download`
+//                                            keeps their last version in backup/deleted/.
 //
 // Needs Node 18+ (global fetch). Writes use the SUPABASE_SECRET_KEY environment variable when
 // it is set (required once supabase/002_admin_logins.sql restricts saving to admins); reads use
@@ -305,7 +308,41 @@ async function patch() {
   console.log(`Applied ${changed} changes to ${items} items; read back identical, nothing else changed.`);
 }
 
-const commands = { ping, check, 'compare-original': compareOriginal, upload, download, add, patch };
+// Removes the listed items ([{row: 'cases'|'standalone', id, title}], e.g. duplicates the author asked to
+// delete). Every item must still be in the database under the same title, otherwise nothing is removed.
+// Each changed row is written version-checked, then read back: only the listed items may be gone.
+async function remove() {
+  const file = process.argv[3];
+  if (!file) throw new Error('Usage: node tools/supabase.js remove <list.json>');
+  const entries = JSON.parse(fs.readFileSync(path.resolve(REPO_DIR, file), 'utf8'));
+  const bank = await readBank(NEW_URL, NEW_KEY);
+  if (!Array.isArray(bank.cases) || !bank.cases.length || !Array.isArray(bank.standalone)) throw new Error('The database rows are missing or empty.');
+  const problems = [];
+  const drop = { cases: new Set(), standalone: new Set() };
+  for (const e of entries) {
+    const list = bank[e.row];
+    const item = list && list.find(x => x.id === e.id);
+    if (!item) { problems.push(`${e.id}: not in ${e.row}`); continue; }
+    if ((item.title || '') !== (e.title || '')) { problems.push(`${e.id}: title is "${item.title}", expected "${e.title}"`); continue; }
+    drop[e.row].add(e.id);
+  }
+  if (problems.length) throw new Error(`Nothing was removed:\n  ${problems.join('\n  ')}`);
+  const expected = {};
+  for (const row of ['cases', 'standalone']) {
+    expected[row] = bank[row].filter(x => !drop[row].has(x.id));
+    if (drop[row].size) {
+      [...drop[row]].forEach(id => console.log(`Removing ${bank[row].find(x => x.id === id).title} [${id}] from ${row}.`));
+      await writeRow(row, expected[row], bank.versions[row]);
+    }
+  }
+  const stored = await readBank(NEW_URL, NEW_KEY);
+  for (const row of ['cases', 'standalone']) {
+    if (!same(stored[row], expected[row])) throw new Error(`The '${row}' row does not match the expected result after removing.`);
+  }
+  console.log(`Removed ${drop.cases.size + drop.standalone.size} items; read back, nothing else changed. Run "download" to keep their last version in backup/deleted/.`);
+}
+
+const commands = { ping, check, 'compare-original': compareOriginal, upload, download, add, patch, remove };
 const command = commands[process.argv[2]];
 if (!command) {
   console.error(`Usage: node tools/supabase.js <${Object.keys(commands).join('|')}>`);

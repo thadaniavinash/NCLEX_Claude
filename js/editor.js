@@ -387,7 +387,7 @@ function setEditorDirty(dirty) {
 }
 
 // Clicks that only change what is shown, not the content.
-const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, .list-menu-btn, #editor-pane-divider, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn, #editor-more-btn, #editor-more-menu button, #editor-desc-btn, #editor-ready-btn, #editor-ready-pop button, .editor-modal-overlay button';
+const EDITOR_VIEW_ONLY_CONTROLS = '#add-tab-btn, .symbol-menu-btn, .list-menu-btn, #editor-pane-divider, [data-notes-mode], [data-preview-mode], .toolbar-expand-btn, .cloze-paste-toggle, .table-insert-btn, #editor-preview-btn, #editor-preview-close, [data-theme-toggle], #editor-save-btn, #editor-export-btn, #editor-play-btn, #editor-back-btn, #editor-more-btn, #editor-more-menu button, #editor-desc-btn, #editor-ready-btn, #editor-ready-pop button, #editor-review-btn, .editor-modal-overlay button';
 
 // The chart pane's share of the width (per browser, remembered): drag the divider, arrow keys move
 // it by 5%, double-click resets to half and half.
@@ -1432,7 +1432,7 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
     <div class="options-config-title">
       <span>Options List</span>
       <span class="options-config-actions">
-        <button id="shuffle-options-btn" type="button" class="btn btn-text btn-xs" title="Mix the order so a correct answer is not first; (Option N) references in the rationale are renumbered">Shuffle order</button>
+        <button id="shuffle-options-btn" type="button" class="btn btn-text btn-xs" title="Put the options in a random order; (Option N) references in the rationale are renumbered">Shuffle order</button>
         <button id="add-option-btn" class="btn btn-text btn-xs">+ Add Option</button>
       </span>
     </div>
@@ -1562,12 +1562,10 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
     }
   };
 
+  // Answer order is random by design (user decision, October 2026): no warning when option 1 is correct.
   const updateOrderWarning = () => {
     const warn = document.getElementById('options-order-warning');
-    const first = (q.options || [])[0];
-    const show = !!(first && first.correct && q.options.some(o => !o.correct));
-    warn.textContent = show ? 'Option 1 is a correct answer, where students may spot the pattern. Use Shuffle order.' : '';
-    warn.classList.toggle('hidden', !show);
+    if (warn) { warn.textContent = ''; warn.classList.add('hidden'); }
   };
   list.addEventListener('change', updateOrderWarning);
 
@@ -1588,14 +1586,14 @@ function renderOptionsBaseConfigurator(q, box, isCheckbox, showNLimit) {
   });
 }
 
-// Shuffles q.options so that, when possible, a correct answer is not listed first.
-// Returns { map: old index -> new index }.
+// Shuffles q.options into a random order (any option may end up first, correct or not; only an
+// unchanged order is drawn again). Returns { map: old index -> new index }.
 function shuffleOptionsKeepingKey(q) {
   const indexed = q.options.map((o, i) => ({ o, i }));
   let shuffled;
   let tries = 0;
   do { shuffled = shuffleArray(indexed); tries++; }
-  while (tries < 50 && ((shuffled[0].o.correct && shuffled.some(x => !x.o.correct)) || shuffled.every((x, k) => x.i === k)));
+  while (tries < 50 && shuffled.every((x, k) => x.i === k));
   q.options = shuffled.map(x => x.o);
   const map = {};
   shuffled.forEach((x, k) => { map[x.i] = k; });

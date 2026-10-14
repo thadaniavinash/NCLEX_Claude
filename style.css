@@ -4630,6 +4630,14 @@ input.author-search-input:focus {
   cursor: help;
 }
 
+.status-pill.review-item {
+  margin-left: 4px;
+  background: var(--surface-sunken);
+  color: var(--brand-text);
+  border: 1px dashed var(--brand);
+  cursor: help;
+}
+
 .author-readiness-reasons {
   margin: 2px 0 6px;
   font-size: var(--fs-sm);
@@ -6854,7 +6862,15 @@ label.meta-chip::after { content: '\25BE'; font-size: 10px; opacity: .7; }
 .meta-chip .chip-ok { color: var(--success); }
 .ready-chip.is-ready { background: var(--success-bg-subtle); border-color: var(--success-border); color: var(--success-text); }
 .ready-chip.is-hidden { background: var(--warning-bg-subtle); border-color: var(--warning-border); color: var(--warning-text); }
-.editor-ready-wrap, .editor-more-wrap { position: relative; }
+.review-chip { border-style: dashed; border-color: var(--brand); color: var(--brand-text); background: var(--surface-sunken); }
+.editor-ready-wrap, .editor-more-wrap, .editor-review-wrap { position: relative; }
+#editor-review-pop { left: 0; width: 380px; max-height: 60vh; overflow: auto; padding: 12px 14px; }
+.review-pop-head { margin: 0 0 6px; font-weight: 700; font-size: var(--fs-body); color: var(--brand-text); }
+.review-pop-intro { margin: 0 0 4px; font-size: var(--fs-sm); color: var(--text-secondary); }
+.review-pop-list { margin: 0 0 8px; padding-left: 18px; display: grid; gap: 4px; font-size: var(--fs-sm); }
+.review-pop-done { margin-top: 8px; padding: 5px 12px; border-radius: 6px; border: 1px solid var(--brand); background: var(--brand); color: var(--text-on-brand); font: inherit; font-size: var(--fs-sm); font-weight: 600; cursor: pointer; }
+.review-pop-done:hover { background: var(--brand-hover); }
+.review-pop-done:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
 .editor-popover {
   position: absolute;
   top: calc(100% + 6px);

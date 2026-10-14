@@ -42,6 +42,7 @@ function refreshEditorHeader() {
   refreshMetaChips();
   refreshDescriptionChip();
   refreshReadyChip();
+  refreshReviewChip();
   const themeItem = document.getElementById('editor-theme-toggle-btn');
   if (themeItem) themeItem.textContent = `Switch to ${currentTheme() === 'dark' ? 'light' : 'dark'} theme`;
 }
@@ -163,6 +164,37 @@ function renderReadyPopover() {
     <p class="ready-pop-note">Checked against your edits on this page. Fix these, save, and students will see this ${noun}.</p>`;
 }
 
+/* ---- Note to the author (authorReviewNote in data.js; never shown to students) ---- */
+function refreshReviewChip() {
+  const wrap = document.getElementById('editor-review-wrap');
+  if (!wrap) return;
+  const has = !!(currentCase && authorReviewNote(currentCase));
+  wrap.classList.toggle('hidden', !has);
+  if (!has) setReviewPopover(false);
+}
+
+function renderReviewPopover() {
+  const pop = document.getElementById('editor-review-pop');
+  const note = authorReviewNote(currentCase);
+  const when = currentCase.authorReview && currentCase.authorReview.flaggedAt;
+  const lines = note.split(/\n+/).map(l => l.replace(/^[-•]\s*/, '').trim()).filter(Boolean);
+  const intro = lines.length > 1 && /:$/.test(lines[0]) ? lines.shift() : '';
+  pop.innerHTML = `<p class="review-pop-head">To check before you rely on it</p>
+    ${intro ? `<p class="review-pop-intro">${escapeHTML(intro)}</p>` : ''}
+    <ul class="review-pop-list">${lines.map(l => `<li>${escapeHTML(l)}</li>`).join('')}</ul>
+    <p class="ready-pop-note">Only you see this note (in the studio); students never do.${when ? ` Added ${escapeHTML(String(when).slice(0, 10))}.` : ''}</p>
+    <button type="button" class="review-pop-done" data-review-action="done">Mark as reviewed</button>`;
+}
+
+function setReviewPopover(open) {
+  const pop = document.getElementById('editor-review-pop');
+  const btn = document.getElementById('editor-review-btn');
+  if (!pop || !btn) return;
+  if (open) renderReviewPopover();
+  pop.classList.toggle('hidden', !open);
+  btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+
 function setReadyPopover(open) {
   const pop = document.getElementById('editor-ready-pop');
   const btn = document.getElementById('editor-ready-btn');
@@ -252,9 +284,22 @@ function initEditorHeader() {
     }
   });
 
+  // Note to the author
+  const reviewBtn = document.getElementById('editor-review-btn');
+  const reviewPop = document.getElementById('editor-review-pop');
+  reviewBtn.addEventListener('click', () => setReviewPopover(reviewPop.classList.contains('hidden')));
+  reviewPop.addEventListener('click', e => {
+    if (!e.target.closest('[data-review-action="done"]')) return;
+    delete currentCase.authorReview;
+    setEditorDirty(true);
+    refreshReviewChip();
+    showToast('Review note removed. Save to keep the change.');
+  });
+
   document.addEventListener('mousedown', e => {
     if (!e.target.closest('.editor-more-wrap')) setEditorMoreMenu(false);
     if (!e.target.closest('.editor-ready-wrap')) setReadyPopover(false);
+    if (!e.target.closest('.editor-review-wrap')) setReviewPopover(false);
   });
 
   // Edits anywhere may change readiness.
@@ -266,6 +311,7 @@ function initEditorHeader() {
       if (open) { e.preventDefault(); closeEditorModal(open.id); return; }
       if (!moreMenu.classList.contains('hidden')) { setEditorMoreMenu(false); moreBtn.focus(); }
       if (!readyPop.classList.contains('hidden')) { setReadyPopover(false); readyBtn.focus(); }
+      if (!reviewPop.classList.contains('hidden')) { setReviewPopover(false); reviewBtn.focus(); }
     }
     if ((e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey && (e.key === 's' || e.key === 'S') && isEditorOpen()) {
       e.preventDefault();

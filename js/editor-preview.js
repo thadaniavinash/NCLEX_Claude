@@ -99,15 +99,6 @@ function previewChecks(item) {
   const problem = screenProblem(q);
   if (problem) list.push({ level: 'block', text: `Hidden from students: ${problem}.` });
   if (item.draft === true) list.push({ level: 'block', text: 'Marked as a draft (hidden from students).' });
-  const options = q.options || [];
-  if (['select_all', 'trend', 'multiple_choice', 'select_n'].includes(q.type) && options.length > 1 && options[0].correct) {
-    list.push({ level: 'warn', text: 'Option 1 is a correct answer. Shuffle the options (and relabel any "(Option N)" in the rationale).' });
-  }
-  const dropdowns = (q.cloze && q.cloze.dropdowns) || [];
-  dropdowns.forEach((dd, i) => {
-    const opts = (dd && dd.options) || [];
-    if (opts.length > 1 && opts[0].correct) list.push({ level: 'warn', text: `Drop-down ${i + 1}: the correct choice is listed first.` });
-  });
   if (!hasText(q.explanation)) list.push({ level: 'warn', text: 'No rationale yet; students see "No explanation rationale provided."' });
   const tabs = step.leftContent.tabs || [];
   if (q.type !== 'highlight' && tabs.length && tabs.every(t => !hasText(t.content))) list.push({ level: 'warn', text: 'The chart tabs are empty.' });

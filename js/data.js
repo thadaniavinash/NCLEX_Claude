@@ -311,6 +311,15 @@ function screenProblem(q) {
   }
 }
 
+/* A note to the author only ("check this later"), set by the tools when they change content the
+   author has not reviewed yet: item.authorReview = { note, flaggedAt }. Shown in the studio (Question
+   bank tag and filter, editor chip); the player and student pages never read it. The editor's
+   "Mark as reviewed" removes it. */
+function authorReviewNote(item) {
+  const r = item && item.authorReview;
+  return r && typeof r.note === 'string' && r.note.trim() ? r.note.trim() : '';
+}
+
 function itemProblems(item) {
   if (!item || !Array.isArray(item.screens) || !item.screens.length) return ['no screens'];
   const problems = item.screens.map((s, i) => { const p = screenProblem(s.question); return p ? `screen ${i + 1}: ${p}` : ''; }).filter(Boolean);

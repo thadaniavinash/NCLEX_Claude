@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20261006164018">
+  <link rel="stylesheet" href="style.css?v=20261014190834">
 </head>
 <body>
 
@@ -481,6 +481,7 @@
                   <option value="ALL">All</option>
                   <option value="ready">Visible to students</option>
                   <option value="hidden">Hidden from students</option>
+                  <option value="review">Needs my review</option>
                 </select>
               </div>
             </div>
@@ -670,6 +671,10 @@
           <div class="editor-ready-wrap">
             <button type="button" id="editor-ready-btn" class="meta-chip meta-chip-btn ready-chip" aria-haspopup="dialog" aria-expanded="false" aria-controls="editor-ready-pop"></button>
             <div id="editor-ready-pop" class="editor-popover hidden" role="dialog" aria-label="Readiness for students"></div>
+          </div>
+          <div class="editor-review-wrap hidden" id="editor-review-wrap">
+            <button type="button" id="editor-review-btn" class="meta-chip meta-chip-btn review-chip" aria-haspopup="dialog" aria-expanded="false" aria-controls="editor-review-pop">&#9873; Needs your review</button>
+            <div id="editor-review-pop" class="editor-popover hidden" role="dialog" aria-label="Your review note"></div>
           </div>
         </div>
       </div>
@@ -1299,31 +1304,31 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20261006164018"></script>
-  <script src="js/state.js?v=20261006164018"></script>
-  <script src="js/utils.js?v=20261006164018"></script>
-  <script src="js/data.js?v=20261006164018"></script>
-  <script src="js/auth.js?v=20261006164018"></script>
-  <script src="js/dashboard.js?v=20261006164018"></script>
-  <script src="js/session-builder.js?v=20261006164018"></script>
-  <script src="js/rich-text.js?v=20261006164018"></script>
-  <script src="js/table-tools.js?v=20261006164018"></script>
-  <script src="js/lab-ranges.js?v=20261006164018"></script>
-  <script src="js/notes-editor.js?v=20261006164018"></script>
-  <script src="js/cloze-editor.js?v=20261006164018"></script>
-  <script src="js/chart-continuity.js?v=20261006164018"></script>
-  <script src="js/editor-preview.js?v=20261006164018"></script>
-  <script src="js/highlight-editor.js?v=20261006164018"></script>
-  <script src="js/editor-header.js?v=20261006164018"></script>
-  <script src="js/editor.js?v=20261006164018"></script>
-  <script src="js/player.js?v=20261006164018"></script>
-  <script src="js/scoring.js?v=20261006164018"></script>
-  <script src="js/results.js?v=20261006164018"></script>
-  <script src="js/progress.js?v=20261006164018"></script>
-  <script src="js/attempts.js?v=20261006164018"></script>
-  <script src="js/share-link.js?v=20261006164018"></script>
-  <script src="js/overview.js?v=20261006164018"></script>
-  <script src="js/calculator.js?v=20261006164018"></script>
-  <script src="js/main.js?v=20261006164018"></script>
+  <script src="cases-data.js?v=20261014190834"></script>
+  <script src="js/state.js?v=20261014190834"></script>
+  <script src="js/utils.js?v=20261014190834"></script>
+  <script src="js/data.js?v=20261014190834"></script>
+  <script src="js/auth.js?v=20261014190834"></script>
+  <script src="js/dashboard.js?v=20261014190834"></script>
+  <script src="js/session-builder.js?v=20261014190834"></script>
+  <script src="js/rich-text.js?v=20261014190834"></script>
+  <script src="js/table-tools.js?v=20261014190834"></script>
+  <script src="js/lab-ranges.js?v=20261014190834"></script>
+  <script src="js/notes-editor.js?v=20261014190834"></script>
+  <script src="js/cloze-editor.js?v=20261014190834"></script>
+  <script src="js/chart-continuity.js?v=20261014190834"></script>
+  <script src="js/editor-preview.js?v=20261014190834"></script>
+  <script src="js/highlight-editor.js?v=20261014190834"></script>
+  <script src="js/editor-header.js?v=20261014190834"></script>
+  <script src="js/editor.js?v=20261014190834"></script>
+  <script src="js/player.js?v=20261014190834"></script>
+  <script src="js/scoring.js?v=20261014190834"></script>
+  <script src="js/results.js?v=20261014190834"></script>
+  <script src="js/progress.js?v=20261014190834"></script>
+  <script src="js/attempts.js?v=20261014190834"></script>
+  <script src="js/share-link.js?v=20261014190834"></script>
+  <script src="js/overview.js?v=20261014190834"></script>
+  <script src="js/calculator.js?v=20261014190834"></script>
+  <script src="js/main.js?v=20261014190834"></script>
 </body>
 </html>

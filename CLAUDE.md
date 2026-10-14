@@ -53,6 +53,9 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   `patch <file>` changes only the listed fields (`[{row, id, path, before, after}]`, e.g.
   `drafts/content_patch.json` from `drafts/build_content_fixes.py`); it refuses the whole patch if any field
   no longer holds its `before` value. Use it (not `upload`) to fix published items from the tools.
+  `remove <file>` deletes the listed items (`[{row, id, title}]`, e.g. `drafts/bank_remove_oct14.json`); it
+  refuses everything if an item is missing or its title differs; the next `download` keeps their last
+  version in `backup/deleted/`. Moving an item between rows = `add` the new item, then `remove` the old one.
 
 ## Data format (one item = case study or stand-alone question)
 
@@ -81,8 +84,11 @@ Question types (`question.type`) and their answer keys:
 - `ordered_response`: `orderedOptions` in the correct order (the player shuffles)
 Content conventions: on every case screen after the first whose chart gained a tab or new entries, the
 question preamble says so ("The nurse has reviewed the Nurses' Notes from 1130 and the Diagnostic Results.");
-the player has no New/Updated markers. Never list correct answers first (shuffle options; if a rationale refers to option
-numbers, write "(Option N)" to match); don't number rationale points in a way that looks like option numbers.
+the player has no New/Updated markers. Answer order is random (user decision, 14 Oct 2026): options and drop-down
+choices are put in a random order, so a correct answer may come first, but correct answers must not sit in a
+pattern (all at the top, always in the same place). There is no "never first" rule any more (the editors' Shuffle
+order is a plain random shuffle and nothing warns about option 1). If a rationale refers to option numbers, write
+"(Option N)" to match; don't number rationale points in a way that looks like option numbers.
 The player shows options and drop-down choices in their stored order (it shuffles only ordered-response steps).
 Rationales with figures (pilot, October 2026: NURS 1017 Unit 5 Case Studies 6–8, `drafts/build_integ_rationales.py`
 → `drafts/integ_rationales_patch.json`; the user decides after review whether to extend it to other cases):
@@ -120,10 +126,18 @@ Both sessions push to `main`, so pull (rebase) before pushing.
    IDs `case_17907768000NN`, their stand-alone trends/bow-ties `standalone_1790776801NN1` (still in Others),
    except CS2 `case_1790769567553` and CS2 Trend `standalone_1790776800001`). On 14 Oct 2026 every "Others"
    case study was relabelled to a course and unit (`drafts/build_others_relabel.py` → workflow `patch`; no
-   case study is in Others now). CS2 (no open review problem) was shown to students; CS3–CS21 stay hidden
-   until their review notes are resolved; "New Case Study" and "NCSBN Case Study 2" were hidden as
-   duplicates of NURS 1021 Unit 3 Case Study 1 and Unit 6 Case Study 2. Shared helpers: `drafts/umd_common.py`
-   (SI labs with the author's ranges converted, plain-text option labels, correct answer never first).
+   case study is in Others now). Later that day (user request, `drafts/build_bank_fixes_oct14.py` → workflow
+   `patch`, `remove`, `add`): CS3–CS21's open review notes were resolved as far as possible (chart values,
+   orders, keys and rationales), all Maryland case studies were made available, and each carries an
+   `authorReview` note listing what was changed for the user to double-check; "New Case Study" and "NCSBN Case
+   Study 2" (duplicates of NURS 1021 Unit 3 Case Study 1 and Unit 6 Case Study 2) were deleted; the Unit 7
+   stroke bow-tie became stand-alone `standalone_1783070000010` (the older copy "Neurological Disorders
+   (Bowtie)", `standalone_1781726101855`, is still in Others); "Case Study 2" became "NURS 1017 Unit 11 Case
+   Study 1" and "Case Study 1" (cardio) "NURS 1021 Unit 2 Case Study 1" (flagged for review); every option
+   list or drop-down whose correct answer came first was put in a random order (rationale "(Option N)"
+   renumbered). The Maryland stand-alone trends/bow-ties were not changed (still hidden, in Others).
+   Shared helpers: `drafts/umd_common.py` (SI labs with the author's ranges converted, plain-text option
+   labels; its "correct answer never first" rule predates the random-order decision).
    Each generator's review notes go to `drafts/umd_review/CS<nn>.json`; `node drafts/build_umd_review_pdf.js`
    writes the user's to-do list with an answer key per item (`drafts/UMD_Case_Studies_Review_Tasks.pdf`).
 3. **Publish** only after the user approves: trigger the Supabase workflow with `action: add`,
@@ -231,7 +245,7 @@ note text; Tab/Enter/Shift+Enter/Alt+↑↓; labels may be times or dates such a
 "POD 2"; free-text mode still available, where a time followed by Tab becomes an entry); drop-down/dyad/
 triad questions are edited as one sentence with drop-down chips, choice cards, paste-many, shuffle and a
 live student/answer-key preview (`js/cloze-editor.js`). New blanks have no correct choice preselected and
-the editor warns when the correct choice is listed first. Keyboard answering for drag-and-drop questions
+Shuffle order puts the choices in a random order (no warning about the first choice). Keyboard answering for drag-and-drop questions
 was deliberately not added (user decision: the real exam is answered with a mouse).
 Done (authoring comfort): text boxes grow, can be resized and expanded (Esc closes); shortcuts Ctrl+B/I/U,
 Ctrl+. superscript, Ctrl+, subscript, Ctrl+Shift+7/8 lists; paste keeps bold/italic/underline/sub/sup/
@@ -289,8 +303,13 @@ Done (authoring, September 2026):
   questions), no limit, or a number (`maxCorrectSelections`). No alert()/confirm() there.
 - "Draft from chart changes" writes the preamble ("The nurse has reviewed the Nurses' Notes from 1130
   and the Vital Signs.") from what the chart gained since the previous screen (`draftPreambleFromChart`).
-- Select-all/multiple-choice options: "Shuffle order" (a correct answer is never left first; "(Option
-  N)"/"Option N" in the rationale are renumbered) and a warning when option 1 is correct.
+- Select-all/multiple-choice options: "Shuffle order" (a random order; "(Option N)"/"Option N" in the rationale
+  are renumbered). No warning when option 1 is correct (user decision: answers are randomly distributed).
+- Note to the author (October 2026): `item.authorReview = { note, flaggedAt }` marks content changed by the
+  tools that the user has not reviewed yet. The studio shows a "Review" tag in the Question bank (Status
+  column; Status filter "Needs my review") and a "Needs your review" chip in the editor top bar whose
+  popover lists the note and has "Mark as reviewed" (removes it; save to keep). Students never see it
+  (`authorReviewNote` in data.js; not used by the player). Like all content, it is in the public data.
 - Bowtie option fields grow to show long text.
 - Answer options (select all, multiple choice, select N, trend) and ordered-response steps are text boxes that
   grow to show the whole text (October 2026). Enter goes to the next option/step or adds one after the last;

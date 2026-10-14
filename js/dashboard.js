@@ -244,6 +244,13 @@ function readinessBadge(item) {
   return `<span class="status-pill hidden-item" title="${escapeHTML('Hidden from students: ' + problems.join('; '))}">${first}</span>`;
 }
 
+// "Review" tag for items with a note to the author (authorReviewNote in data.js).
+function reviewBadge(item) {
+  const note = authorReviewNote(item);
+  if (!note) return '';
+  return `<span class="status-pill review-item" title="${escapeHTML('To check: ' + note)}">Review</span>`;
+}
+
 function readinessReasons(item) {
   const problems = itemProblems(item);
   if (!problems.length) return '';
@@ -312,6 +319,7 @@ function renderAuthorTable(kind) {
     tr.dataset.title = (item.title || '').toLowerCase();
     tr.dataset.desc = (item.description || '').toLowerCase();
     tr.dataset.ready = isReadyForStudents(item) ? 'ready' : 'hidden';
+    tr.dataset.review = authorReviewNote(item) ? 'yes' : '';
     tr.dataset.order = bankIndex;
     tr.dataset.edited = item.updatedAt || '';
     tr.dataset.types = [...new Set((item.screens || []).map(s => s.question && s.question.type).filter(Boolean))].join(' ');
@@ -342,7 +350,7 @@ function renderAuthorTable(kind) {
       <td>${courseBadge}</td>
       <td>${unitBadge}</td>
       <td>${thirdColumn}</td>
-      <td>${readinessBadge(item)}</td>
+      <td>${readinessBadge(item)}${reviewBadge(item)}</td>
       <td class="author-edited-cell">${item.updatedAt ? `<time datetime="${escapeHTML(item.updatedAt)}" title="${escapeHTML(new Date(item.updatedAt).toLocaleString())}">${escapeHTML(relativeTime(item.updatedAt))}</time>` : '<span class="author-edited-unknown" title="Edited before edit dates were recorded">&mdash;</span>'}</td>
       <td class="author-actions-cell">
         <div class="author-actions-wrapper">
@@ -545,7 +553,8 @@ function applyAuthorTableFilters() {
     const rowId = (tr.dataset.id || '').toLowerCase();
     const matchesCourse = (authorCourseFilter === 'ALL' || tr.dataset.course === authorCourseFilter);
     const matchesUnit = (authorUnitFilter === 'ALL' || tr.dataset.unit === authorUnitFilter);
-    const matchesStatus = (authorStatusFilter === 'ALL' || tr.dataset.ready === authorStatusFilter);
+    const matchesStatus = authorStatusFilter === 'ALL' || tr.dataset.ready === authorStatusFilter
+      || (authorStatusFilter === 'review' && tr.dataset.review === 'yes');
     const matchesType = (authorTypeFilter === 'ALL' || tr.dataset.types.split(' ').includes(authorTypeFilter));
     const matchesSearch = (!authorSearchQuery || tr.dataset.title.includes(authorSearchQuery) || tr.dataset.desc.includes(authorSearchQuery) || rowId.includes(authorSearchQuery));
 

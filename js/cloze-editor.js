@@ -140,7 +140,7 @@ function renderClozeSentenceEditor(q, box) {
         <div class="cloze-card-actions">
           <button type="button" class="btn btn-text btn-xs cloze-add-choice">+ Add choice</button>
           <button type="button" class="btn btn-text btn-xs cloze-paste-toggle">Paste several choices</button>
-          <button type="button" class="btn btn-text btn-xs cloze-shuffle" title="Mix the order so the correct answer is not first">Shuffle order</button>
+          <button type="button" class="btn btn-text btn-xs cloze-shuffle" title="Put the choices in a random order">Shuffle order</button>
         </div>
         <div class="cloze-paste hidden">
           <textarea class="form-control cloze-paste-input" rows="4" placeholder="One choice per line"></textarea>
@@ -155,7 +155,6 @@ function renderClozeSentenceEditor(q, box) {
         let msg = '';
         if (nCorrect !== 1) msg = 'Mark exactly one correct choice.';
         else if (opts.some(o => !hasText(o.text))) msg = 'Fill in or delete the empty choices.';
-        else if (opts.length > 1 && opts[0].correct) msg = 'The correct choice is listed first, where students may spot it. Use Shuffle order.';
         warn.textContent = msg;
         warn.classList.toggle('hidden', !msg);
       };
@@ -211,8 +210,8 @@ function renderClozeSentenceEditor(q, box) {
       });
       card.querySelector('.cloze-shuffle').addEventListener('click', () => {
         if (dd.options.length < 2) return;
-        let shuffled;
-        do { shuffled = shuffleArray(dd.options); } while (shuffled[0].correct && shuffled.some(o => !o.correct));
+        let shuffled, tries = 0;
+        do { shuffled = shuffleArray(dd.options); tries++; } while (tries < 50 && shuffled.every((o, k) => o === dd.options[k]));
         dd.options = shuffled;
         renderChoices(); refresh();
       });
