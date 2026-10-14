@@ -1,0 +1,525 @@
+{
+  "id": "case_1782400000007",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "title": "NURS 1017 Unit 6 Case Study 7",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "course": "NURS 1017",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "Which findings are consistent with fibromyalgia? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "A hug or a tight waistband hurts",
+            "correct": true
+          },
+          {
+            "text": "Works as a dental hygienist",
+            "correct": false
+          },
+          {
+            "text": "Trouble concentrating and remembering",
+            "correct": true
+          },
+          {
+            "text": "Takes a multivitamin daily",
+            "correct": false
+          },
+          {
+            "text": "Wakes unrefreshed after 9 hours in bed",
+            "correct": true
+          },
+          {
+            "text": "Heart rate 82 beats/min",
+            "correct": false
+          },
+          {
+            "text": "Abdominal cramping with alternating diarrhea and constipation",
+            "correct": true
+          },
+          {
+            "text": "Tension headaches 3 to 4 times a week",
+            "correct": true
+          },
+          {
+            "text": "Blood pressure 122/76 mm Hg",
+            "correct": false
+          },
+          {
+            "text": "Pain on both sides of the body, above and below the waist, for 8 months",
+            "correct": true
+          }
+        ],
+        "preamble": "",
+        "explanation": "<b>Consistent with fibromyalgia:</b> chronic (3 months or more) <b>widespread pain</b> on both sides of the body and above and below the waist is the core feature. It is accompanied by <b>unrefreshing sleep</b>, <b>fatigue</b>, and <b>cognitive symptoms</b> (“fibro fog”). Pain from touch that should not hurt (<b>allodynia</b>, such as a hug or a waistband) reflects an oversensitive pain system. Other functional conditions are common alongside it: <b>irritable bowel syndrome</b>, <b>tension headaches</b> and migraines, temporomandibular disorder, and anxiety or depression.<br><br><b>Not cues:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The normal ESR, CRP, and CK show that the client's pain is not caused by [[drop0]]. Fibromyalgia is best explained by [[drop1]], in which [[drop2]]. Poor sleep [[drop3]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "the nervous system",
+                  "correct": false
+                },
+                {
+                  "text": "inflammation or muscle damage",
+                  "correct": true
+                },
+                {
+                  "text": "stress",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "an autoimmune attack on the joints",
+                  "correct": false
+                },
+                {
+                  "text": "infection of the muscles",
+                  "correct": false
+                },
+                {
+                  "text": "central sensitization",
+                  "correct": true
+                },
+                {
+                  "text": "degeneration of the joint cartilage",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "the joints fill with inflammatory fluid",
+                  "correct": false
+                },
+                {
+                  "text": "the brain and spinal cord amplify pain signals and dampen the body's own pain control",
+                  "correct": true
+                },
+                {
+                  "text": "the muscles release enzymes that damage nerves",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "protects her muscles from injury",
+                  "correct": false
+                },
+                {
+                  "text": "lowers the pain threshold and worsens fatigue",
+                  "correct": true
+                },
+                {
+                  "text": "has no effect on her pain",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Laboratory Results and the Nurses' Notes from Day 10 1000.",
+        "explanation": "<b>Normal tests:</b> fibromyalgia is not an inflammatory, autoimmune or degenerative disease, and it does not damage muscles or joints. Normal ESR and CRP show no inflammation, a normal CK shows no muscle damage, and a negative RF and ANA make rheumatoid arthritis and lupus unlikely. A normal TSH rules out hypothyroidism, and normal hemoglobin and ferritin rule out anemia and iron deficiency as causes of the fatigue. The diagnosis is clinical (widespread pain for 3 months or more with fatigue, unrefreshing sleep and cognitive symptoms, not better explained by another condition); tender-point counts are no longer required.<br><br><b>Central sensitization:</b> the pain is real, but it comes from how the nervous system processes signals. Pain pathways in the spinal cord and brain become overactive (more excitatory neurotransmitters such as substance P and glutamate), while the descending pathways that normally dampen pain (serotonin, norepinephrine) are less active. Ordinary sensations are felt as painful (allodynia), and painful ones hurt more than they should (hyperalgesia). Stress affects the condition but is not the cause.<br><br><b>Sleep:</b> people with fibromyalgia have less deep, restorative sleep. Poor sleep lowers the pain threshold and worsens fatigue and concentration, and more pain disturbs sleep further, creating a cycle that nursing care aims to break."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The nurse's priority concern is the client's risk for [[drop0]], as evidenced by [[drop1]]. Her long afternoon naps [[drop2]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "falls",
+                  "correct": false
+                },
+                {
+                  "text": "acute pain",
+                  "correct": false
+                },
+                {
+                  "text": "suicide",
+                  "correct": true
+                },
+                {
+                  "text": "ineffective work performance",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "her pain rating of 8/10",
+                  "correct": false
+                },
+                {
+                  "text": "the 6 missed workdays",
+                  "correct": false
+                },
+                {
+                  "text": "her statement that everyone would be better off without her and her PHQ-9 score of 17",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "are needed to restore her energy",
+                  "correct": false
+                },
+                {
+                  "text": "have no effect on her symptoms",
+                  "correct": false
+                },
+                {
+                  "text": "worsen her night-time sleep and keep the pain–sleep cycle going",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 40 1500 and the Vital Signs from Day 40.",
+        "explanation": "<b>Risk for suicide:</b> “everyone would be better off without me” is an indirect statement of suicidal thinking. With a PHQ-9 of 17, social withdrawal, the loss of her relationship, and chronic pain (which on its own raises suicide risk), safety is the priority over pain, sleep or work concerns. The nurse never dismisses such a statement.<br><br><b>Pain, missed work and isolation</b> are important and will be addressed, but they are not immediately life-threatening.<br><br><b>Daytime napping:</b> long afternoon naps reduce the drive to sleep at night, which leads to short, unrefreshing night sleep; poor sleep then lowers the pain threshold. Short naps (under 30 minutes, early afternoon) or none are better."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client at this visit.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Ask the client directly whether she is thinking about ending her life and whether she has a plan",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Promise to keep her suicidal thoughts a secret if she asks",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Report her statement and PHQ-9 score to the provider before she leaves the clinic",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Tell her that everyone feels this way sometimes and it will pass",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Give her the 9-8-8 Suicide Crisis Helpline number (call or text)",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Repeat the ESR and CRP today",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Stay with her, or make sure someone stays with her, until the assessment is complete",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Contraindicated",
+            "Nonessential"
+          ],
+          "firstColumnHeader": "Nursing Action"
+        },
+        "preamble": "",
+        "explanation": "<b>Indicated:</b> asking directly about suicidal thoughts, a plan and the means does not plant the idea; it opens the conversation and is the only way to judge the level of risk. The provider must know before she leaves so that a safety plan and mental health follow-up are arranged. Canada's 9-8-8 Suicide Crisis Helpline is available 24/7 by phone or text. A client who may be at risk is not left alone until the risk has been assessed.<br><br><b>Contraindicated:</b> the nurse cannot promise secrecy about a risk to the client's life; the information must be shared with the team. Saying “everyone feels this way” dismisses her distress and closes the conversation.<br><br><b>Nonessential:</b> her inflammatory markers were normal and repeating them does not address her current risk."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which instructions should the nurse include in the client's self-management teaching? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Pace yourself: break tasks into smaller parts and alternate activity with rest",
+            "correct": true
+          },
+          {
+            "text": "Practise relaxation, such as slow breathing or mindfulness, to manage stress",
+            "correct": true
+          },
+          {
+            "text": "Avoid caffeine after noon and screens for an hour before bed",
+            "correct": true
+          },
+          {
+            "text": "Since your tests are normal, try to ignore the pain",
+            "correct": false
+          },
+          {
+            "text": "Increase your coffee intake to fight the fatigue",
+            "correct": false
+          },
+          {
+            "text": "Go to bed and get up at the same times every day, and limit naps",
+            "correct": true
+          },
+          {
+            "text": "Avoid exercise until the pain improves",
+            "correct": false
+          },
+          {
+            "text": "Do as much as you can on good days to catch up",
+            "correct": false
+          },
+          {
+            "text": "Start with gentle aerobic exercise, such as walking or warm-water exercise, a few minutes at a time, and increase slowly",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 40 1600.",
+        "explanation": "<b>Correct:</b> regular aerobic exercise has the strongest evidence for reducing fibromyalgia pain and fatigue. It must start low and build slowly, because doing too much at once causes a flare. A regular sleep schedule, limited naps, and avoiding caffeine and screens before bed improve sleep quality (sleep hygiene). Pacing prevents the “boom-and-bust” pattern of overdoing it on good days and crashing afterward. Relaxation and stress management calm the overactive stress and pain systems.<br><br><b>Incorrect:</b> avoiding exercise leads to deconditioning and more pain. Catching up on good days triggers flares. Extra caffeine disrupts sleep. Telling her to ignore the pain dismisses a real condition and damages trust; normal tests mean no tissue damage, not that the pain is imaginary."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1600:</span><span class=\"nurse-note-text\">Client denies a plan or intent to harm herself; agreed to a safety plan with the provider and has an appointment with the mental health team in 2 days. Her sister is driving her home and will stay with her tonight. Client asks, “Is there anything I can do myself for the pain and tiredness?”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Pain 4/10, down from 8/10",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“On good days I clean the whole house, and then I'm in bed for 2 days.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Sleeps about 7 hours and wakes rested 4 nights a week",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Drinks 5 cups of coffee a day, the last around 2000",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "PHQ-9 score 6; denies thoughts of self-harm",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Walks 20 minutes, 5 days a week",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I still don't see my friends; I never know how I'll feel.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Has returned to work part-time",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Effective",
+            "Not effective"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 130 1000 and 1015 and the Vital Signs from Day 130.",
+        "explanation": "<b>Effective:</b> less pain, better sleep, regular aerobic exercise, a return to work, and a much lower depression score with no suicidal thoughts show that the plan is working. Fibromyalgia is chronic; the goal is better function and quality of life, not a cure.<br><br><b>Not effective:</b> the boom-and-bust pattern shows she is not yet pacing herself. Late, heavy caffeine intake undermines sleep. Avoiding friends increases isolation and the risk of depression. The nurse reinforces pacing and sleep hygiene, and explores ways to keep social contact (shorter visits, plans that can be changed)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1600:</span><span class=\"nurse-note-text\">Client denies a plan or intent to harm herself; agreed to a safety plan with the provider and has an appointment with the mental health team in 2 days. Her sister is driving her home and will stay with her tonight. Client asks, “Is there anything I can do myself for the pain and tiredness?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 130 1000:</span><span class=\"nurse-note-text\">Follow-up visit, 3 months later. Pain 4/10 (was 8/10). Sleeps about 7 hours and wakes rested on 4 nights a week. Walks 20 minutes, 5 days a week. Has returned to work part-time. PHQ-9 score 6; denies thoughts of self-harm; sees a counsellor every 2 weeks.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 130 1015:</span><span class=\"nurse-note-text\">Client states: “On good days I clean the whole house, and then I'm in bed for 2 days.” “I drink 5 cups of coffee a day, the last one around 8 at night.” “I still don't see my friends; I never know how I'll feel.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 130 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+      }
+    }
+  ],
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "description": "42-year-old female client with 8 months of widespread pain, unrefreshing sleep, cognitive symptoms, irritable bowel and headaches, diagnosed with fibromyalgia after normal tests; central sensitization, the pain–sleep cycle, suicide risk screening, self-management teaching, and evaluation at 3 months.",
+  "authorReview": {
+    "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3–4: the case includes an indirect suicidal statement and the Canadian 9-8-8 Suicide Crisis Helpline; consider mentioning this to the class before using it.\nScreen 2: the diagnostic criteria are described as in the ACR 2010/2016 criteria (tender points no longer required).",
+    "flaggedAt": "2026-10-14"
+  }
+}

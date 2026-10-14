@@ -25143,6 +25143,3087 @@ window.NCLEX_CASES = [
       "note": "New case written by Claude on 14 Oct 2026 for the Unit 6 review class; please review before using it with students:\nScreen 2: anti-CCP has no MCC reference range; the range used (< 20 U/mL) varies by laboratory.\nScreen 4: folic acid 1 mg daily is one common regimen (5 mg once weekly is also used in Canada); adjust to your course's reference.\nScreen 5: leucovorin dose/route and the antibiotic are examples; the key does not depend on them.\nScreen 6: osteoporosis after about 10 weeks of prednisone is attributed to several risk factors together; check the wording suits your teaching.",
       "flaggedAt": "2026-10-14"
     }
+  },
+  {
+    "id": "case_1782400000002",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 2",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that require immediate follow-up.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Require immediate follow-up:</b><br><br><b>Shortened, externally rotated, deformed right leg:</b> the classic picture of a displaced femoral shaft fracture. The limb must be immobilized (splinted or in traction) before any movement, and neurovascular status is checked often.<br><br><b>Tachycardia (116 beats/min), BP 100/62 mm Hg, and pale, cool, diaphoretic skin:</b> a closed femoral shaft fracture can hide 1 to 1.5 L of blood in the thigh. These are early signs of hypovolemic shock and must be reported now.<br><br><b>Squared-off shoulder that he cannot move:</b> the humeral head has left the joint (anterior dislocation is the most common type). A dislocation is reduced as soon as possible to protect the nerves, blood vessels and joint cartilage.<br><br><b>Numbness over the outer upper arm:</b> the axillary nerve wraps around the neck of the humerus and is the nerve most often injured by an anterior shoulder dislocation. Sensation is documented before and after reduction.<br><br><b>Do not need immediate follow-up:</b> intact skin over the fracture (a closed fracture), a warm, pink foot with strong pulses and brisk capillary refill, a strong left radial pulse, a temperature of 36.6° C, SpO₂ 97% and an RR of 22 breaths/min (expected with pain). The abrasions need cleaning but are not urgent.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1540:</span><span class=\"nurse-note-text\">Arrived by ambulance 30 minutes after a motorcycle collision; was wearing a helmet and did not lose consciousness. Alert and oriented × 4. {Right thigh swollen and deformed, with the right leg shortened and externally rotated.|correct} {Skin over the right thigh intact.} {Right foot warm and pink; pedal pulses 2+; capillary refill 2 seconds.} {Left shoulder has a squared-off contour; holds the left arm slightly away from his body and cannot move it.|correct} {Reports numbness over the outer aspect of the left upper arm.|correct} {Left radial pulse 2+.} {Abrasions on the left forearm and left knee.} {Skin pale, cool, and diaphoretic.|correct} Vital signs: {T 36.6° C}, {P 116 beats/min|correct}, {RR 22 breaths/min}, {BP 100/62 mm Hg|correct}, {SpO₂ 97% on room air}.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1540:</span><span class=\"nurse-note-text\">Arrived by ambulance 30 minutes after a motorcycle collision; was wearing a helmet and did not lose consciousness. Alert and oriented × 4. Right thigh swollen and deformed, with the right leg shortened and externally rotated. Skin over the right thigh intact. Right foot warm and pink; pedal pulses 2+; capillary refill 2 seconds. Left shoulder has a squared-off contour; holds the left arm slightly away from his body and cannot move it. Reports numbness over the outer aspect of the left upper arm. Left radial pulse 2+. Abrasions on the left forearm and left knee. Skin pale, cool, and diaphoretic. Vital signs: T 36.6° C, P 116 beats/min, RR 22 breaths/min, BP 100/62 mm Hg, SpO₂ 97% on room air.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1540</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/62 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 22-year-old male client brought to the emergency department after a motorcycle collision."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is consistent with a <b>fracture</b>, a <b>dislocation</b>, or a <b>subluxation</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Humeral head lying completely outside the glenoid cavity on X-ray",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Shortening and external rotation of the leg",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Shoulder that “popped partly out” and slid back in on its own",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Bone broken into several fragments on X-ray",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Partial loss of contact between the joint surfaces, which remain partly aligned",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Squared-off shoulder contour with loss of normal movement",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Fracture",
+              "Dislocation",
+              "Subluxation"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1620 and the Diagnostic Results.",
+          "explanation": "<b>Fracture:</b> a break in the continuity of a bone. This client's femur fracture is <b>closed</b> (skin intact) and <b>comminuted</b> (more than two fragments). Other types: <b>open</b> (bone ends break through the skin), <b>transverse</b> (straight across), <b>oblique</b> (at an angle), <b>spiral</b> (twisting around the shaft from a rotational force), <b>greenstick</b> (incomplete, on one side of a bendable child's bone), <b>compression</b> (bone crushed, as in vertebrae), <b>impacted</b> (one fragment driven into another), <b>avulsion</b> (a fragment pulled off by a tendon or ligament) and <b>pathologic</b> (through bone weakened by disease). Muscle spasm pulls the overriding femur fragments together, shortening and rotating the leg.<br><br><b>Dislocation:</b> the joint surfaces lose contact <b>completely</b>, as the X-ray shows for the left shoulder. The joint looks deformed (the shoulder is squared off because the humeral head no longer fills out the deltoid) and cannot move normally.<br><br><b>Subluxation:</b> a <b>partial</b> dislocation; the joint surfaces still touch in part. It often reduces on its own, as in his hockey injuries. Repeated subluxations stretch the capsule and ligaments, which made this full dislocation more likely."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1540:</span><span class=\"nurse-note-text\">Arrived by ambulance 30 minutes after a motorcycle collision; was wearing a helmet and did not lose consciousness. Alert and oriented × 4. Right thigh swollen and deformed, with the right leg shortened and externally rotated. Skin over the right thigh intact. Right foot warm and pink; pedal pulses 2+; capillary refill 2 seconds. Left shoulder has a squared-off contour; holds the left arm slightly away from his body and cannot move it. Reports numbness over the outer aspect of the left upper arm. Left radial pulse 2+. Abrasions on the left forearm and left knee. Skin pale, cool, and diaphoretic. Vital signs: T 36.6° C, P 116 beats/min, RR 22 breaths/min, BP 100/62 mm Hg, SpO₂ 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1620:</span><span class=\"nurse-note-text\">Right leg immobilized in a traction splint; right foot remains warm with pedal pulses 2+. The client tells the nurse that his left shoulder “popped partly out” twice while playing hockey last year and both times “slid back in on its own.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1540</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/62 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\"><b>X-ray, right femur:</b> closed, comminuted fracture of the midshaft of the femur, with displaced and overriding fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1605:</span><span class=\"nurse-note-text\"><b>X-ray, left shoulder:</b> anterior dislocation of the glenohumeral joint; the humeral head lies completely outside the glenoid cavity. No fracture.</span></p>"
+            }
+          ],
+          "intro": "The nurse is caring for a 22-year-old male client brought to the emergency department after a motorcycle collision."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client is most likely experiencing [[drop0]] as evidenced by [[drop1]]. The nurse's priority is the client's [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "hypovolemic shock",
+                    "correct": false
+                  },
+                  {
+                    "text": "alcohol withdrawal",
+                    "correct": false
+                  },
+                  {
+                    "text": "compartment syndrome",
+                    "correct": false
+                  },
+                  {
+                    "text": "fat embolism syndrome",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "a temperature of 38.4° C",
+                    "correct": false
+                  },
+                  {
+                    "text": "pain rated 4/10",
+                    "correct": false
+                  },
+                  {
+                    "text": "new confusion, hypoxemia, and petechiae 36 hours after a long-bone fracture",
+                    "correct": true
+                  },
+                  {
+                    "text": "a hemoglobin of 104 g/L after surgery",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "impaired physical mobility",
+                    "correct": false
+                  },
+                  {
+                    "text": "impaired gas exchange",
+                    "correct": true
+                  },
+                  {
+                    "text": "risk for infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute pain",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2100 and Day 3 0300, the Vital Signs from Day 3 0300, and the Laboratory Results.",
+          "explanation": "<b>Fat embolism syndrome (FES)</b> occurs most often 24 to 72 hours after a fracture of a long bone (especially the femur) or the pelvis, or after surgery on the marrow canal. Fat globules from the marrow enter torn veins and lodge in the lungs, brain and skin. Free fatty acids released from the fat damage the capillaries, causing inflammation and leaky lung capillaries.<br><br><b>The classic triad:</b> respiratory distress with hypoxemia (SpO₂ 86%, PO₂ 54 mm Hg, with a low PCO₂ from rapid breathing), neurologic changes (restlessness, confusion) and <b>petechiae</b> on the chest, axillae and conjunctivae, which usually appear last. Fever, tachycardia, a falling platelet count and anemia support the diagnosis.<br><br><b>Why not the others:</b> compartment syndrome causes severe pain and neurovascular changes in the limb, but his foot is warm with strong pulses and his pain is 4/10. His blood pressure is stable, so this is not hypovolemic shock; some fall in hemoglobin after surgery is expected. Alcohol withdrawal can cause confusion but not hypoxemia and petechiae. Fever and the hemoglobin value alone do not point to a cause.<br><br><b>Priority:</b> airway and breathing come first. The client's oxygenation is failing (impaired gas exchange), which also explains his confusion. Pain, infection risk and mobility matter but are not life-threatening now."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1540:</span><span class=\"nurse-note-text\">Arrived by ambulance 30 minutes after a motorcycle collision; was wearing a helmet and did not lose consciousness. Alert and oriented × 4. Right thigh swollen and deformed, with the right leg shortened and externally rotated. Skin over the right thigh intact. Right foot warm and pink; pedal pulses 2+; capillary refill 2 seconds. Left shoulder has a squared-off contour; holds the left arm slightly away from his body and cannot move it. Reports numbness over the outer aspect of the left upper arm. Left radial pulse 2+. Abrasions on the left forearm and left knee. Skin pale, cool, and diaphoretic. Vital signs: T 36.6° C, P 116 beats/min, RR 22 breaths/min, BP 100/62 mm Hg, SpO₂ 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1620:</span><span class=\"nurse-note-text\">Right leg immobilized in a traction splint; right foot remains warm with pedal pulses 2+. The client tells the nurse that his left shoulder “popped partly out” twice while playing hockey last year and both times “slid back in on its own.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2100:</span><span class=\"nurse-note-text\">Returned to the orthopedic unit after intramedullary nailing of the right femur. The left shoulder was reduced in the emergency department at 1700; left arm in a sling. Sensation over the outer left upper arm is decreased but improving.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Client is restless and confused, oriented to person only, and says, “I can't catch my breath.” Breathing is rapid and shallow; fine crackles in both lung bases. Pinpoint red-purple spots (petechiae) on the anterior chest, both axillae, and the conjunctivae. Right foot warm, pedal pulses 2+, right thigh dressing dry. Pain 4/10.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\"><b>X-ray, right femur:</b> closed, comminuted fracture of the midshaft of the femur, with displaced and overriding fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1605:</span><span class=\"nurse-note-text\"><b>X-ray, left shoulder:</b> anterior dislocation of the glenohumeral joint; the humeral head lies completely outside the glenoid cavity. No fracture.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0310</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">236 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH, arterial blood</b><br>7.38–7.46</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.49</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PCO₂, arterial blood</b><br>32–45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PO₂, arterial blood</b><br>83–116 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO₃), arterial blood</b><br>22–27 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">23 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 22-year-old male client brought to the emergency department after a motorcycle collision."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which actions should the nurse take at this time? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Apply oxygen according to the unit's protocol and monitor SpO₂ continuously",
+              "correct": true
+            },
+            {
+              "text": "Handle the right leg as little as possible and keep it supported in alignment",
+              "correct": true
+            },
+            {
+              "text": "Stay with the client and call the rapid response team",
+              "correct": true
+            },
+            {
+              "text": "Recheck the vital signs at the next scheduled time, 0400",
+              "correct": false
+            },
+            {
+              "text": "Lower the head of the bed and raise the legs",
+              "correct": false
+            },
+            {
+              "text": "Offer cold oral fluids to bring down the fever",
+              "correct": false
+            },
+            {
+              "text": "Reassess level of consciousness and breathing frequently",
+              "correct": true
+            },
+            {
+              "text": "Raise the head of the bed",
+              "correct": true
+            },
+            {
+              "text": "Help the client walk to the bathroom to expand his lungs",
+              "correct": false
+            },
+            {
+              "text": "Massage the right calf to improve circulation",
+              "correct": false
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Correct:</b> the client's oxygenation and level of consciousness are deteriorating, so the nurse stays with him and calls the rapid response team. Raising the head of the bed improves lung expansion and oxygenation. Oxygen is started under the unit's protocol, with continuous pulse oximetry. Frequent reassessment shows whether he is improving or needs airway support. Moving the fractured limb as little as possible limits further release of fat from the marrow.<br><br><b>Incorrect:</b> massaging the calf could dislodge a clot if a deep vein thrombosis is present and does nothing for the lungs. Lowering the head of the bed worsens breathing. A confused, hypoxemic client with a newly repaired femur must not walk. Oral fluids risk aspiration in a confused, breathless client. Waiting for the next scheduled check delays care while he deteriorates."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1540:</span><span class=\"nurse-note-text\">Arrived by ambulance 30 minutes after a motorcycle collision; was wearing a helmet and did not lose consciousness. Alert and oriented × 4. Right thigh swollen and deformed, with the right leg shortened and externally rotated. Skin over the right thigh intact. Right foot warm and pink; pedal pulses 2+; capillary refill 2 seconds. Left shoulder has a squared-off contour; holds the left arm slightly away from his body and cannot move it. Reports numbness over the outer aspect of the left upper arm. Left radial pulse 2+. Abrasions on the left forearm and left knee. Skin pale, cool, and diaphoretic. Vital signs: T 36.6° C, P 116 beats/min, RR 22 breaths/min, BP 100/62 mm Hg, SpO₂ 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1620:</span><span class=\"nurse-note-text\">Right leg immobilized in a traction splint; right foot remains warm with pedal pulses 2+. The client tells the nurse that his left shoulder “popped partly out” twice while playing hockey last year and both times “slid back in on its own.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2100:</span><span class=\"nurse-note-text\">Returned to the orthopedic unit after intramedullary nailing of the right femur. The left shoulder was reduced in the emergency department at 1700; left arm in a sling. Sensation over the outer left upper arm is decreased but improving.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Client is restless and confused, oriented to person only, and says, “I can't catch my breath.” Breathing is rapid and shallow; fine crackles in both lung bases. Pinpoint red-purple spots (petechiae) on the anterior chest, both axillae, and the conjunctivae. Right foot warm, pedal pulses 2+, right thigh dressing dry. Pain 4/10.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\"><b>X-ray, right femur:</b> closed, comminuted fracture of the midshaft of the femur, with displaced and overriding fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1605:</span><span class=\"nurse-note-text\"><b>X-ray, left shoulder:</b> anterior dislocation of the glenohumeral joint; the humeral head lies completely outside the glenoid cavity. No fracture.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0310</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">236 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH, arterial blood</b><br>7.38–7.46</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.49</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PCO₂, arterial blood</b><br>32–45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PO₂, arterial blood</b><br>83–116 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO₃), arterial blood</b><br>22–27 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">23 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 22-year-old male client brought to the emergency department after a motorcycle collision."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "The nurse uses the client's question to teach him how a fracture heals. Place the stages of bone healing in order, from the first stage to the last.",
+          "type": "ordered_response",
+          "options": [],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 6 1000 and the Vital Signs from Day 6 1000.",
+          "explanation": "<b>1. Hematoma formation (first days):</b> torn blood vessels bleed into the fracture site and a clot forms. Inflammatory cells clear debris, and the clot becomes the framework for repair.<br><br><b>2. Cellular proliferation (about days 3 to 14):</b> capillaries, fibroblasts and osteoblasts invade the clot, turning it into granulation tissue.<br><br><b>3. Callus formation (weeks 2 to 6):</b> cartilage and woven bone form a callus around and between the bone ends. The fracture is held together but is not yet strong, which is why weight bearing is limited.<br><br><b>4. Ossification (weeks 3 to 12 or more):</b> minerals are laid down and the callus becomes hard bone. On X-ray, bridging bone crosses the fracture line.<br><br><b>5. Remodeling (months to a year or more):</b> osteoclasts remove the excess callus and the bone is reshaped along the lines of stress, restoring near-normal strength.<br><br>Healing times vary with the bone, the age of the client, the blood supply and other factors. A large weight-bearing bone such as the femur typically takes several months to unite. Smoking, poor nutrition, low vitamin D, infection, diabetes, corticosteroids and movement at the fracture site all slow healing.",
+          "orderedOptions": [
+            "Hematoma formation: bleeding at the fracture forms a clot between the bone ends, and inflammation begins",
+            "Cellular proliferation: new capillaries, fibroblasts and bone-forming cells grow into the clot, forming granulation tissue",
+            "Callus formation: cartilage and immature (woven) bone form a soft callus that bridges the fracture",
+            "Ossification: the callus is mineralized into hard bone, uniting the fragments",
+            "Remodeling: osteoclasts remove excess callus and the bone regains its shape and strength"
+          ]
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1540:</span><span class=\"nurse-note-text\">Arrived by ambulance 30 minutes after a motorcycle collision; was wearing a helmet and did not lose consciousness. Alert and oriented × 4. Right thigh swollen and deformed, with the right leg shortened and externally rotated. Skin over the right thigh intact. Right foot warm and pink; pedal pulses 2+; capillary refill 2 seconds. Left shoulder has a squared-off contour; holds the left arm slightly away from his body and cannot move it. Reports numbness over the outer aspect of the left upper arm. Left radial pulse 2+. Abrasions on the left forearm and left knee. Skin pale, cool, and diaphoretic. Vital signs: T 36.6° C, P 116 beats/min, RR 22 breaths/min, BP 100/62 mm Hg, SpO₂ 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1620:</span><span class=\"nurse-note-text\">Right leg immobilized in a traction splint; right foot remains warm with pedal pulses 2+. The client tells the nurse that his left shoulder “popped partly out” twice while playing hockey last year and both times “slid back in on its own.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2100:</span><span class=\"nurse-note-text\">Returned to the orthopedic unit after intramedullary nailing of the right femur. The left shoulder was reduced in the emergency department at 1700; left arm in a sling. Sensation over the outer left upper arm is decreased but improving.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Client is restless and confused, oriented to person only, and says, “I can't catch my breath.” Breathing is rapid and shallow; fine crackles in both lung bases. Pinpoint red-purple spots (petechiae) on the anterior chest, both axillae, and the conjunctivae. Right foot warm, pedal pulses 2+, right thigh dressing dry. Pain 4/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Fat embolism syndrome resolved with supportive care; transferred back from the intensive care unit on Day 5. SpO₂ 97% on room air, alert and oriented. Walking with crutches, partial weight bearing on the right leg as prescribed. Discharge planned for tomorrow. Client asks, “How long until my leg is back to normal? What is actually happening in the bone?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 6 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\"><b>X-ray, right femur:</b> closed, comminuted fracture of the midshaft of the femur, with displaced and overriding fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1605:</span><span class=\"nurse-note-text\"><b>X-ray, left shoulder:</b> anterior dislocation of the glenohumeral joint; the humeral head lies completely outside the glenoid cavity. No fracture.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0310</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">236 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH, arterial blood</b><br>7.38–7.46</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.49</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PCO₂, arterial blood</b><br>32–45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PO₂, arterial blood</b><br>83–116 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO₃), arterial blood</b><br>22–27 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">23 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 22-year-old male client brought to the emergency department after a motorcycle collision."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding at the 6-month visit, click to specify whether it shows that an <b>expected outcome has been met</b> or that it <b>requires follow-up</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Fracture line still visible, with callus that does not bridge the fracture",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Full range of motion of the left shoulder with no further dislocations",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Smokes 10 cigarettes per day",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Normal sensation over the outer left upper arm",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Aching at the fracture site with full weight bearing, managed with ibuprofen most days",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Right foot warm with pedal pulses 2+ and no calf swelling",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Vitamin D 38 nmol/L",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Hemoglobin 146 g/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Expected outcome met",
+              "Requires follow-up"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 180 1000, the Diagnostic Results from Day 180, the Vital Signs from Day 180, and the Laboratory Results from Day 180.",
+          "explanation": "<b>Expected outcomes met:</b> the shoulder has healed without recurrence and the axillary nerve has recovered. Circulation to the right leg is normal with no signs of deep vein thrombosis. The hemoglobin has returned to normal after the blood loss.<br><br><b>Requires follow-up: delayed union.</b> By 6 months a femur would be expected to show bridging bone. A fracture that heals more slowly than expected is a <b>delayed union</b>; if healing stops altogether it becomes a <b>nonunion</b>; a fracture that heals in a poor position is a <b>malunion</b>. Pain at the fracture site with weight bearing is a sign that the bone has not united.<br><br><b>Factors slowing his healing, which the nurse reports and addresses:</b> <b>smoking</b> (nicotine constricts blood vessels and reduces oxygen delivery to the healing bone); <b>low vitamin D</b> (needed to absorb calcium for mineralizing the callus); and regular <b>NSAID</b> use (evidence suggests NSAIDs may interfere with the inflammatory phase of bone healing). The nurse reports these findings to the provider, offers smoking cessation support, and reinforces nutrition with enough protein, calcium and vitamin D."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1540:</span><span class=\"nurse-note-text\">Arrived by ambulance 30 minutes after a motorcycle collision; was wearing a helmet and did not lose consciousness. Alert and oriented × 4. Right thigh swollen and deformed, with the right leg shortened and externally rotated. Skin over the right thigh intact. Right foot warm and pink; pedal pulses 2+; capillary refill 2 seconds. Left shoulder has a squared-off contour; holds the left arm slightly away from his body and cannot move it. Reports numbness over the outer aspect of the left upper arm. Left radial pulse 2+. Abrasions on the left forearm and left knee. Skin pale, cool, and diaphoretic. Vital signs: T 36.6° C, P 116 beats/min, RR 22 breaths/min, BP 100/62 mm Hg, SpO₂ 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1620:</span><span class=\"nurse-note-text\">Right leg immobilized in a traction splint; right foot remains warm with pedal pulses 2+. The client tells the nurse that his left shoulder “popped partly out” twice while playing hockey last year and both times “slid back in on its own.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2100:</span><span class=\"nurse-note-text\">Returned to the orthopedic unit after intramedullary nailing of the right femur. The left shoulder was reduced in the emergency department at 1700; left arm in a sling. Sensation over the outer left upper arm is decreased but improving.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Client is restless and confused, oriented to person only, and says, “I can't catch my breath.” Breathing is rapid and shallow; fine crackles in both lung bases. Pinpoint red-purple spots (petechiae) on the anterior chest, both axillae, and the conjunctivae. Right foot warm, pedal pulses 2+, right thigh dressing dry. Pain 4/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Fat embolism syndrome resolved with supportive care; transferred back from the intensive care unit on Day 5. SpO₂ 97% on room air, alert and oriented. Walking with crutches, partial weight bearing on the right leg as prescribed. Discharge planned for tomorrow. Client asks, “How long until my leg is back to normal? What is actually happening in the bone?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 180 1000:</span><span class=\"nurse-note-text\">Orthopedic clinic follow-up, 6 months after injury. Left shoulder has full range of motion with no further dislocations. Sensation over the outer left upper arm is normal. Reports aching at the fracture site whenever he puts full weight on the right leg; takes ibuprofen 400 mg three times a day most days. Started smoking 10 cigarettes a day while recovering “because I was bored.” Right foot warm, pedal pulses 2+, no calf swelling or tenderness. Walking with crutches as instructed.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 6 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 180 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\"><b>X-ray, right femur:</b> closed, comminuted fracture of the midshaft of the femur, with displaced and overriding fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1605:</span><span class=\"nurse-note-text\"><b>X-ray, left shoulder:</b> anterior dislocation of the glenohumeral joint; the humeral head lies completely outside the glenoid cavity. No fracture.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 180 0930:</span><span class=\"nurse-note-text\"><b>X-ray, right femur:</b> intramedullary nail in place. Callus present, but the fracture line is still clearly visible and the callus does not bridge the fracture. Consistent with delayed union.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0310</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 180 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">236 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>pH, arterial blood</b><br>7.38–7.46</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.49</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PCO₂, arterial blood</b><br>32–45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>PO₂, arterial blood</b><br>83–116 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO₃), arterial blood</b><br>22–27 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">23 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 nmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse is caring for a 22-year-old male client brought to the emergency department after a motorcycle collision."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "22-year-old male client after a motorcycle collision with a closed comminuted femur fracture and an anterior shoulder dislocation (after earlier subluxations); fracture types, dislocation vs subluxation, fat embolism syndrome on Day 3, the five stages of bone healing, and delayed union at 6 months.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 5: the five stages of bone healing are worded hematoma, cellular proliferation, callus, ossification, remodeling; match your textbook's names.\nScreen 6: the NSAID effect on bone healing is described as possible (the evidence is mixed); timing of delayed union for the femur (no bridging at 6 months) should suit your teaching.\nScreen 3: timing of fat embolism (about 36 hours after injury) and the ABG values are illustrative.",
+      "flaggedAt": "2026-10-14"
+    }
+  },
+  {
+    "id": "case_1782400000003",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 3",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which findings require follow-up by the nurse? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Redness and swelling extending 2 cm onto the forefoot",
+              "correct": true
+            },
+            {
+              "text": "Blood pressure 136/82 mm Hg",
+              "correct": false
+            },
+            {
+              "text": "Purulent, foul-smelling drainage",
+              "correct": true
+            },
+            {
+              "text": "Husband helps with the daily dressing changes",
+              "correct": false
+            },
+            {
+              "text": "Capillary blood glucose readings of 14 to 18 mmol/L for the past week",
+              "correct": true
+            },
+            {
+              "text": "Temperature 38.1° C",
+              "correct": true
+            },
+            {
+              "text": "Walks barefoot around the house",
+              "correct": true
+            },
+            {
+              "text": "Takes metformin 1,000 mg twice daily",
+              "correct": false
+            },
+            {
+              "text": "Bone visible at the base of the ulcer",
+              "correct": true
+            },
+            {
+              "text": "Left foot skin intact with no calluses",
+              "correct": false
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b><br><br><b>Bone visible (or felt with a probe) at the base of a foot ulcer</b> strongly suggests that the infection has reached the bone (osteomyelitis).<br><br><b>Purulent, foul-smelling drainage and spreading redness and swelling</b> show active infection of the soft tissue around the ulcer. A swollen, red, “sausage-shaped” toe is typical when the bone underneath is infected.<br><br><b>Fever</b> shows a systemic response to the infection.<br><br><b>High blood glucose:</b> infection raises stress hormones (cortisol, catecholamines), which raise blood glucose. Persistent hyperglycemia in turn impairs neutrophil function and wound healing, so the two worsen each other.<br><br><b>Walking barefoot</b> on an insensate foot puts pressure and trauma on the ulcer. The client's lack of pain is not reassuring: peripheral neuropathy removes the warning sign, so infection can advance unnoticed.<br><br><b>Do not need follow-up:</b> her blood pressure is acceptable, the husband's help is a strength, metformin is her usual medication, and the left foot is intact. The weaker right dorsalis pedis pulse is worth noting as a sign of reduced blood flow."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is a <b>risk factor</b> for the client's osteomyelitis, a <b>local sign</b> of bone and soft-tissue infection, or a <b>systemic sign</b> of infection.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "HbA1c 9.4%",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Bone marrow edema on MRI",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "WBC 13.8 × 10⁹/L",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Loss of protective sensation on monofilament testing",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Cortical erosion and periosteal reaction on X-ray",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Temperature 38.1° C",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Right dorsalis pedis pulse 1+",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Purulent drainage from the ulcer",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Risk factor",
+              "Local sign",
+              "Systemic sign"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1500, the Laboratory Results and the Diagnostic Results.",
+          "explanation": "<b>Risk factors:</b> poorly controlled diabetes (HbA1c 9.4%) impairs white blood cell function and healing. Neuropathy (loss of protective sensation) lets ulcers form and worsen unnoticed. Reduced arterial blood flow (weak pedal pulse) delivers less oxygen, white blood cells and antibiotic to the tissue.<br><br><b>Local signs:</b> purulent drainage shows infection at the site. The MRI shows marrow edema early, while plain X-rays show bone destruction (cortical erosion) and new bone laid down by the periosteum only after 10 to 14 days of infection.<br><br><b>Systemic signs:</b> fever and a raised WBC count reflect the body's response to infection. ESR and CRP are also raised (ESR 92 mm/h, CRP 118 mg/L); a very high ESR in a diabetic foot ulcer suggests osteomyelitis, and both are followed to judge the response to treatment."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+            }
+          ],
+          "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Bacteria reached the client's bone by [[drop0]]. Inside the rigid bone, the inflammatory exudate [[drop1]]. Areas of dead bone, called [[drop2]], are hard for white blood cells and antibiotics to reach. The nurse's priority at this time is to monitor for [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "the bloodstream from a distant site",
+                    "correct": false
+                  },
+                  {
+                    "text": "direct inoculation during surgery",
+                    "correct": false
+                  },
+                  {
+                    "text": "direct spread from the adjacent soft-tissue infection",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "is absorbed quickly because bone has a rich lymphatic supply",
+                    "correct": false
+                  },
+                  {
+                    "text": "dissolves the bone completely within a few hours",
+                    "correct": false
+                  },
+                  {
+                    "text": "raises pressure, compresses blood vessels, and causes bone ischemia and necrosis",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "tophi",
+                    "correct": false
+                  },
+                  {
+                    "text": "sequestra",
+                    "correct": true
+                  },
+                  {
+                    "text": "involucra",
+                    "correct": false
+                  },
+                  {
+                    "text": "osteophytes",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "compartment syndrome",
+                    "correct": false
+                  },
+                  {
+                    "text": "sepsis",
+                    "correct": true
+                  },
+                  {
+                    "text": "fat embolism syndrome",
+                    "correct": false
+                  },
+                  {
+                    "text": "osteoporosis",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "",
+          "explanation": "<b>Routes of infection:</b> bacteria reach bone in three ways. (a) <b>Contiguous spread</b> from nearby infected tissue, as here from a diabetic foot ulcer or a pressure injury. (b) <b>Hematogenous spread</b> through the bloodstream, most common in children (metaphysis of long bones) and in the vertebrae of older adults. (c) <b>Direct inoculation</b> through an open fracture, surgery or a penetrating wound. <i>Staphylococcus aureus</i> is the most common organism.<br><br><b>Why bone infection is hard to cure:</b> bone cannot swell. Pus and edema inside the rigid bone raise pressure, compress the small blood vessels and cut off the blood supply, so bone dies (ischemic necrosis). Pus can lift the periosteum, stripping more blood supply.<br><br><b>Sequestrum and involucrum:</b> a <b>sequestrum</b> is a piece of dead, avascular bone that harbours bacteria out of reach of white blood cells and antibiotics. The body walls it off with new bone, the <b>involucrum</b>. This is why osteomyelitis can become chronic and why long courses of antibiotics, and sometimes removal of dead bone, are needed. Osteophytes are bone spurs of osteoarthritis; tophi are urate deposits of gout.<br><br><b>Priority:</b> the client has fever, a raised WBC count, and blood cultures pending. Spread of the infection into the bloodstream (<b>sepsis</b>) is the most immediate threat to her life. Fat embolism and compartment syndrome are complications of fractures, and osteoporosis is not an acute problem."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+            }
+          ],
+          "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "The nurse is planning care for the client. Which interventions should the nurse include in the plan of care? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Soak the right foot in warm water twice a day to soften the wound",
+              "correct": false
+            },
+            {
+              "text": "Teach the client that the antibiotic can be stopped once the fever is gone",
+              "correct": false
+            },
+            {
+              "text": "Teach the client to inspect both feet every day, including between the toes, using a mirror",
+              "correct": true
+            },
+            {
+              "text": "Check capillary blood glucose before meals and at bedtime",
+              "correct": true
+            },
+            {
+              "text": "Massage lotion between the toes to prevent dry skin",
+              "correct": false
+            },
+            {
+              "text": "Reinforce non-weight-bearing on the right foot with the offloading boot and walker",
+              "correct": true
+            },
+            {
+              "text": "Encourage meals and snacks rich in protein",
+              "correct": true
+            },
+            {
+              "text": "Assess the PICC insertion site every shift and use aseptic technique when accessing the line",
+              "correct": true
+            },
+            {
+              "text": "Apply a heating pad to the right foot to increase blood flow",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1000 and the Vital Signs from Day 3 1000.",
+          "explanation": "<b>Correct:</b> infection and hyperglycemia feed each other, so glucose is checked regularly and abnormal readings reported. Pressure on the ulcer prevents healing, so offloading (no weight on the foot) is essential. A PICC is a central line with a risk of bloodstream infection and thrombosis, so the site is assessed and accessed aseptically. Daily foot inspection is vital when sensation is lost, because the client cannot feel new injuries. Protein supports tissue repair and the immune response.<br><br><b>Incorrect:</b> soaking macerates the skin and the wound and increases the risk of infection. Heating pads can burn a foot that cannot feel heat. Antibiotic courses for osteomyelitis are long (often 6 weeks) because bone is poorly perfused; stopping when the fever goes leaves bacteria in the bone and leads to chronic infection. Moisture between the toes promotes fungal infection and skin breakdown; lotion is applied to the tops and soles, not between the toes."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1000:</span><span class=\"nurse-note-text\">Bone biopsy grew methicillin-sensitive <i>Staphylococcus aureus</i>. Blood cultures negative. Peripherally inserted central catheter (PICC) placed in the left arm for 6 weeks of IV antibiotic therapy at home. Client and husband will learn to give the infusions. Non-weight-bearing on the right foot with an offloading boot and a walker, as prescribed.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+            }
+          ],
+          "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "The nurse is preparing the client and her husband for discharge with home IV therapy. For each instruction, click to specify whether it is <b>appropriate</b> or <b>not appropriate</b> to include in the teaching.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Scrub the PICC hub with an alcohol pad for at least 15 seconds and let it dry before each connection",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Have your blood pressure taken on the left arm, where the PICC is",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Cover the PICC dressing with a waterproof cover when showering",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Report fever, chills, or redness, swelling, or pain at the PICC site or in the left arm",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Wear the offloading boot whenever you are up, and never walk barefoot",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Soak the foot in Epsom salts each evening",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Skip the infusion on days when the foot looks better",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Keep checking your blood glucose and write down the readings for your appointments",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Appropriate",
+              "Not appropriate"
+            ],
+            "firstColumnHeader": "Instruction"
+          },
+          "preamble": "",
+          "explanation": "<b>Appropriate:</b> scrubbing the hub (“scrub the hub”) removes bacteria before each access and prevents central line infection. Keeping the dressing dry protects the site. Fever, chills, or redness, swelling or pain at the site or in the arm can mean line infection or a clot and are reported at once. Offloading and protective footwear protect the healing foot. Glucose records help the team adjust diabetes management, because good control supports healing.<br><br><b>Not appropriate:</b> blood pressure cuffs, tourniquets and blood draws are avoided on the arm with the PICC (they can damage the catheter or the vein). Soaking macerates the wound. Missing doses lowers the drug level in bone and allows the infection to persist or become chronic."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1000:</span><span class=\"nurse-note-text\">Bone biopsy grew methicillin-sensitive <i>Staphylococcus aureus</i>. Blood cultures negative. Peripherally inserted central catheter (PICC) placed in the left arm for 6 weeks of IV antibiotic therapy at home. Client and husband will learn to give the infusions. Non-weight-bearing on the right foot with an offloading boot and a walker, as prescribed.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+            }
+          ],
+          "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Temperature 36.8° C and WBC 7.1 × 10⁹/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Walks to the mailbox in socks",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "CRP 12 mg/L and ESR 40 mm/h, down from 118 mg/L and 92 mm/h",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Red, swollen, tender left upper arm, 3 cm larger than the right",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Ulcer 0.8 × 0.6 cm with pink granulation tissue and no drainage",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Husband scrubs the hub for 15 seconds before connecting the infusion",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Fasting glucose readings of 6 to 8 mmol/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 42 1000, the Vital Signs from Day 42, and the Laboratory Results from Day 42.",
+          "explanation": "<b>Effective:</b> no fever and a normal WBC count; CRP and ESR falling steadily (ESR falls more slowly than CRP); a smaller, clean ulcer with healthy granulation tissue; improved glucose control; and correct line care by the husband.<br><br><b>Not effective:</b> walking in socks puts pressure on the ulcer and exposes the insensate foot to injury; the nurse reinforces wearing the offloading boot. A red, swollen, tender arm with a larger circumference on the PICC side suggests a catheter-related deep vein thrombosis or phlebitis; the nurse does not use the line until it is assessed and reports the finding to the provider promptly."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1000:</span><span class=\"nurse-note-text\">Bone biopsy grew methicillin-sensitive <i>Staphylococcus aureus</i>. Blood cultures negative. Peripherally inserted central catheter (PICC) placed in the left arm for 6 weeks of IV antibiotic therapy at home. Client and husband will learn to give the infusions. Non-weight-bearing on the right foot with an offloading boot and a walker, as prescribed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 42 1000:</span><span class=\"nurse-note-text\">Home visit, end of 6 weeks of IV antibiotics. Ulcer 0.8 × 0.6 cm with pink granulation tissue and no drainage. Redness and swelling of the toe resolved. Fasting glucose readings 6 to 8 mmol/L. Husband demonstrates scrubbing the hub for 15 seconds before connecting the infusion. Client reports she “walks to the mailbox in socks so the foot can breathe.” Left upper arm along the PICC is red, swollen, and tender; left upper arm circumference 3 cm larger than the right.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 42 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 42 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.1 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">40 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+            }
+          ],
+          "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "61-year-old female client with type 2 diabetes and peripheral neuropathy whose plantar ulcer spreads to the bone of the great toe (contiguous osteomyelitis); risk factors and local/systemic signs, sequestrum and involucrum, sepsis risk, home IV therapy via a PICC and evaluation after 6 weeks.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 5: “scrub the hub” time (15 seconds) follows common practice; your agency's policy may differ.\nScreen 6: the arm finding is keyed as a possible PICC-related thrombosis/phlebitis to report.",
+      "flaggedAt": "2026-10-14"
+    }
+  },
+  {
+    "id": "case_1782400000004",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 4",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that are risk factors for osteoporosis.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Risk factors for osteoporosis:</b><br><br><b>Early menopause (before 45):</b> estrogen restrains osteoclasts. When estrogen falls, bone resorption speeds up, and an early menopause means more years of rapid loss.<br><br><b>Long-term glucocorticoids</b> (7.5 mg/day or more of prednisone for 3 months or longer is the usual threshold): they suppress osteoblasts, increase resorption and reduce calcium absorption. This is the most common cause of secondary osteoporosis.<br><br><b>Low body weight</b> (small frame, BMI under about 20): less mechanical load on the bones and less estrogen produced by fat tissue.<br><br><b>Smoking:</b> toxic to osteoblasts and lowers estrogen levels.<br><br><b>Low calcium intake:</b> avoiding dairy without other calcium sources means the body takes calcium from bone to keep blood levels normal.<br><br><b>Parental hip fracture:</b> a strong family risk factor, reflecting inherited peak bone mass.<br><br><b>Not risk factors:</b> one glass of wine on weekends (risk rises with 3 or more drinks a day), daily walking (weight-bearing exercise protects bone) and amlodipine.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: {menopause at age 44|correct}; {takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica|correct}; {takes amlodipine for hypertension}. {Weight 48 kg, height 158 cm (BMI 19.2).|correct} {Smokes 10 cigarettes per day.|correct} {Drinks 1 glass of wine on weekends.} {Avoids milk and cheese because “dairy upsets my stomach.”|correct} {Walks her dog for 30 minutes every day.} {Her mother fractured her hip at age 75.|correct} Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client's lumbar spine T-score of −3.1 indicates [[drop0]]. Osteoporosis develops when [[drop1]]. Her normal serum calcium [[drop2]]. Her low vitamin D level contributes to bone loss because vitamin D is needed to [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "osteopenia",
+                    "correct": false
+                  },
+                  {
+                    "text": "osteoporosis",
+                    "correct": true
+                  },
+                  {
+                    "text": "normal bone density for her age",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "bone matrix is formed normally but is not mineralized",
+                    "correct": false
+                  },
+                  {
+                    "text": "bacteria destroy the bone matrix",
+                    "correct": false
+                  },
+                  {
+                    "text": "bone resorption by osteoclasts exceeds bone formation by osteoblasts",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "means she does not need calcium in her diet",
+                    "correct": false
+                  },
+                  {
+                    "text": "shows that her bones are healthy",
+                    "correct": false
+                  },
+                  {
+                    "text": "does not rule out osteoporosis, because the body keeps blood calcium normal by taking calcium from bone",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "excrete calcium in the urine",
+                    "correct": false
+                  },
+                  {
+                    "text": "produce estrogen",
+                    "correct": false
+                  },
+                  {
+                    "text": "absorb calcium from the intestine",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+          "explanation": "<b>T-score:</b> the number of standard deviations the client's bone density differs from that of a healthy young adult. −1.0 or higher is normal; between −1.0 and −2.5 is <b>osteopenia</b> (low bone mass); <b>−2.5 or lower is osteoporosis</b>. A fragility fracture (a fracture from a force that would not break a healthy bone, such as lifting a bag of soil) also indicates osteoporosis.<br><br><b>Pathophysiology:</b> bone is remodeled throughout life. In osteoporosis, resorption by osteoclasts outpaces formation by osteoblasts, so bone mass falls and the trabeculae thin and break, making the bone porous and fragile. The bone that is formed is normally mineralized; failure of mineralization is osteomalacia.<br><br><b>Serum calcium</b> is tightly controlled by parathyroid hormone, which releases calcium from bone when intake is low. A normal blood calcium therefore says nothing about bone density.<br><br><b>Vitamin D</b> increases the absorption of calcium (and phosphate) from the intestine. When it is low, less calcium is absorbed, parathyroid hormone rises and more calcium is taken from bone."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "The nurse is monitoring the client after the vertebral compression fracture. For each finding, click to specify whether it is <b>expected</b> with a stable vertebral compression fracture or <b>requires immediate follow-up</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Back pain that is worse when sitting or standing and eased by lying down",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "New weakness of both legs",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Tenderness over the T12 spinous process",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Numbness of the buttocks and inner thighs (saddle area)",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Pain that wraps around the trunk in a band at the level of the fracture",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Unable to void for 8 hours, with a distended bladder",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Increased forward curvature of the thoracic spine",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Expected",
+              "Requires immediate follow-up"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "",
+          "explanation": "<b>Expected:</b> a compression fracture causes sudden, localized back pain over the fractured vertebra that worsens with upright posture (load on the spine) and eases when lying down. Irritation of the nerve roots at that level can cause pain that wraps around the trunk in a band. Repeated wedge fractures of the front of the thoracic vertebrae increase the forward curve (kyphosis, the “dowager's hump”) and cause loss of height.<br><br><b>Require immediate follow-up:</b> new leg weakness, numbness in the saddle area, and urinary retention (or new incontinence) suggest that bone fragments or collapse are compressing the spinal cord or the cauda equina. These are emergencies; the nurse keeps the client flat, reports at once, and continues neurologic checks."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in the client's plan of care? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Use a soft, deep chair that she sinks into for comfort",
+              "correct": false
+            },
+            {
+              "text": "Encourage calcium-rich foods she tolerates, such as fortified soy beverage, canned salmon with bones, and almonds",
+              "correct": true
+            },
+            {
+              "text": "Give the prescribed analgesic about 30 minutes before physiotherapy and walking",
+              "correct": true
+            },
+            {
+              "text": "Teach the client to get out of bed by rolling onto her side and pushing up with her arms",
+              "correct": true
+            },
+            {
+              "text": "Teach sit-ups and toe-touching exercises to strengthen her back",
+              "correct": false
+            },
+            {
+              "text": "Check leg strength, sensation, and bladder function every shift",
+              "correct": true
+            },
+            {
+              "text": "Keep the bed low, the call bell in reach, and nonslip footwear on when walking",
+              "correct": true
+            },
+            {
+              "text": "Keep the client on bed rest until the pain is gone",
+              "correct": false
+            },
+            {
+              "text": "Teach her to bend at the waist with straight knees when picking up objects",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0900 and the Vital Signs from Day 2 0900.",
+          "explanation": "<b>Correct:</b> pain relief before activity allows early, safe mobilization. Rolling to the side and pushing up keeps the spine straight (no twisting or flexion). Regular neurologic and bladder checks detect cord compression early. Falls are the main cause of new fractures, so fall precautions are essential. Calcium intake matters, and lactose-free or non-dairy sources suit a client who avoids milk.<br><br><b>Incorrect:</b> bed rest speeds up bone loss and causes deconditioning, pneumonia and blood clots; walking is encouraged as soon as pain allows. Bending at the waist and flexion exercises (sit-ups, toe touches) load the front of the vertebrae and can cause new compression fractures; lifting is done with bent knees and a straight back. A deep, soft chair forces the spine into flexion and makes standing up hard; a firm chair with arms is safer."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Admitted to the medical unit for pain control and mobilization. Pain 5/10 with movement after analgesia. Strength 5/5 and sensation intact in both legs; voiding without difficulty. Physiotherapy to begin today. Client says, “I'm afraid to move. What if I break something else?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each instruction, click to specify whether it is <b>appropriate</b> or <b>not appropriate</b> to include in the client's discharge teaching.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Take alendronate first thing in the morning with a full glass of plain water, before any food, drink, or other medicine",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Lie down for a few minutes after taking alendronate if you feel dizzy",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Take the alendronate tablet with breakfast and your calcium tablet",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Stay sitting or standing upright for at least 30 minutes after taking alendronate",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Report heartburn, pain or difficulty swallowing, or chest pain",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Tell your dentist that you take alendronate before any dental surgery",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Take calcium carbonate with meals",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Remove loose rugs and use night lights between the bedroom and bathroom",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Appropriate",
+              "Not appropriate"
+            ],
+            "firstColumnHeader": "Instruction"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 4 1000.",
+          "explanation": "<b>Alendronate</b> (a bisphosphonate) slows bone resorption by osteoclasts. It is poorly absorbed and irritates the esophagus, so it is taken on an empty stomach with a full glass of plain water, at least 30 minutes before food, drinks (including coffee) or other medicines, and the client stays upright for at least 30 minutes. Lying down lets the tablet reflux and cause esophagitis or ulcers; taking it with food or calcium blocks its absorption. Heartburn, painful swallowing or chest pain can signal esophageal injury. Osteonecrosis of the jaw is a rare risk, so dentists should know before invasive dental work.<br><br><b>Calcium carbonate</b> needs stomach acid to be absorbed, so it is taken with meals, and at a different time from alendronate.<br><br><b>Fall prevention</b> at home (no loose rugs, night lights, grab bars, good lighting) prevents the falls that cause most osteoporotic fractures."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Admitted to the medical unit for pain control and mobilization. Pain 5/10 with movement after analgesia. Strength 5/5 and sensation intact in both legs; voiding without difficulty. Physiotherapy to begin today. Client says, “I'm afraid to move. What if I break something else?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">Walking in the hallway with a walker; pain 3/10. Discharge planned for tomorrow. Alendronate 70 mg PO once weekly, calcium carbonate 500 mg PO twice daily, and vitamin D₃ 2,000 IU PO daily have been prescribed. The nurse begins discharge teaching.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Pain 2/10 and walking 20 minutes most days",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I take my alendronate with my morning coffee to save time.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Vitamin D 84 nmol/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Heartburn and pain when swallowing for the past week",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I took out the hallway rugs and put in night lights.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I bend over from the waist to fill my dog's dish.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I have a fortified soy drink or canned salmon most days.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Normal strength and sensation in both legs; voiding without difficulty",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 90 1000 and 1015 and the Laboratory Results from Day 90.",
+          "explanation": "<b>Effective:</b> pain is controlled and she is walking regularly (weight-bearing exercise helps maintain bone). Her vitamin D is now in the normal range. She has made her home safer and includes calcium-rich foods she tolerates. No neurologic signs of cord compression.<br><br><b>Not effective:</b> taking alendronate with coffee blocks its absorption and suggests she may not stay upright or wait before eating; together with her new heartburn and painful swallowing this points to esophageal irritation, which the nurse reports to the provider. Bending from the waist loads the front of the vertebrae and risks another compression fracture; the nurse reteaches bending at the knees with a straight back. Her reduced smoking is progress, and continued cessation support is offered."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Admitted to the medical unit for pain control and mobilization. Pain 5/10 with movement after analgesia. Strength 5/5 and sensation intact in both legs; voiding without difficulty. Physiotherapy to begin today. Client says, “I'm afraid to move. What if I break something else?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">Walking in the hallway with a walker; pain 3/10. Discharge planned for tomorrow. Alendronate 70 mg PO once weekly, calcium carbonate 500 mg PO twice daily, and vitamin D₃ 2,000 IU PO daily have been prescribed. The nurse begins discharge teaching.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 90 1000:</span><span class=\"nurse-note-text\">Clinic follow-up, 3 months after discharge. Pain 2/10; walks 20 minutes most days. Strength and sensation normal in both legs; voiding without difficulty. Reports heartburn and pain when swallowing for the past week. Has cut down to 5 cigarettes per day.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 90 1015:</span><span class=\"nurse-note-text\">Client states: “I take my alendronate with my morning coffee to save time.” “I took out the hallway rugs and put in night lights.” “I have a fortified soy drink or canned salmon most days.” “I bend over from the waist to fill my dog's dish; it's quicker.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 90 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.34 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "72-year-old female client with a T12 vertebral compression fracture after lifting a bag of soil; osteoporosis risk factors (early menopause, long-term prednisone, low weight, smoking, low calcium intake, parental hip fracture), T-scores and pathophysiology, red flags for cord compression, safe mobilization and fall prevention, alendronate and calcium teaching, and evaluation at 3 months.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 1: the risk factors follow Osteoporosis Canada / FRAX-style criteria (glucocorticoids ≥ 7.5 mg/day for ≥ 3 months, BMI under about 20, current smoking, parental hip fracture); check that they match your textbook.\nScreen 5: alendronate instructions follow the Canadian product monograph (upright at least 30 minutes).",
+      "flaggedAt": "2026-10-14"
+    }
+  },
+  {
+    "id": "case_1782400000005",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 5",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which findings are consistent with a disorder of neuromuscular transmission? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Ptosis that worsens after 60 seconds of looking upward",
+              "correct": true
+            },
+            {
+              "text": "Blood pressure 118/74 mm Hg",
+              "correct": false
+            },
+            {
+              "text": "Drooping eyelids and double vision that worsen as the day goes on",
+              "correct": true
+            },
+            {
+              "text": "Drinks 3 cups of coffee a day",
+              "correct": false
+            },
+            {
+              "text": "Voice becomes soft and nasal during long conversations",
+              "correct": true
+            },
+            {
+              "text": "Heart rate 76 beats/min",
+              "correct": false
+            },
+            {
+              "text": "Arm weakness while blow-drying her hair that recovers after a short rest",
+              "correct": true
+            },
+            {
+              "text": "Low back pain after gardening",
+              "correct": false
+            },
+            {
+              "text": "Jaw tires while chewing, so she rests partway through meals",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Hallmark: fatigable weakness.</b> In myasthenia gravis (MG), voluntary muscles weaken with repeated use and recover with rest. Weakness is therefore least in the morning and worst later in the day or after sustained activity.<br><br><b>Ocular muscles</b> are affected first in most clients (ptosis, diplopia). Sustained upward gaze tires the eyelid muscle and brings out the ptosis.<br><br><b>Bulbar muscles</b> (chewing, swallowing, speaking) are often affected: a tiring jaw, a soft nasal voice, choking. Bulbar weakness matters because it threatens the airway.<br><br><b>Proximal limb muscles</b> tire with repeated or sustained use, such as holding the arms up.<br><br><b>Not cues:</b> back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood pressure are normal.<br><br><b>Also note what she denies:</b> MG affects only the neuromuscular junction, so sensation is normal (numbness and tingling would suggest a nerve problem) and there is no twitching (fasciculations suggest a motor neuron disease such as ALS). Weakness that is worst on waking would be the opposite of the MG pattern."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Reports 3 months of drooping eyelids and double vision that are mild in the morning and worse by late afternoon, especially after reading or working at her computer. Her jaw gets tired while chewing meat and she rests partway through meals. Her voice becomes soft and nasal during long phone calls. Her arms tire while blow-drying her hair but recover after a short rest. Denies numbness, tingling, pain, or muscle twitching. Bilateral ptosis, worse on the left after 60 seconds of looking upward. Pupils equal and reactive. Sensation intact in all limbs. Reports occasional low back pain after gardening on weekends. Drinks 3 cups of coffee a day. Works as an accountant; has two children aged 4 and 7.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a neurology clinic is caring for a 34-year-old female client with drooping eyelids and weakness."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "In myasthenia gravis, [[drop0]]. With repeated use, the muscle weakens because [[drop1]]. The ice pack improved the ptosis because cold [[drop2]]. The thymus is examined because it [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "the muscle fibers lack the protein dystrophin",
+                    "correct": false
+                  },
+                  {
+                    "text": "the motor neurons in the spinal cord degenerate",
+                    "correct": false
+                  },
+                  {
+                    "text": "the myelin around peripheral nerves is destroyed",
+                    "correct": false
+                  },
+                  {
+                    "text": "antibodies block and destroy acetylcholine receptors at the neuromuscular junction",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "lactic acid builds up and damages the muscle fibers",
+                    "correct": false
+                  },
+                  {
+                    "text": "each nerve impulse releases less acetylcholine, and too few receptors remain to respond",
+                    "correct": true
+                  },
+                  {
+                    "text": "the nerve stops conducting impulses altogether",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "reduces swelling of the eyelid",
+                    "correct": false
+                  },
+                  {
+                    "text": "slows the breakdown of acetylcholine, so more of it reaches the receptors",
+                    "correct": true
+                  },
+                  {
+                    "text": "destroys the antibodies in the eyelid",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "is often abnormal in myasthenia gravis and is thought to help produce the antibodies",
+                    "correct": true
+                  },
+                  {
+                    "text": "is where the muscle weakness begins",
+                    "correct": false
+                  },
+                  {
+                    "text": "produces acetylcholine for the muscles",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results and the Nurses' Notes from Day 14 1000.",
+          "explanation": "<b>Autoimmune mechanism:</b> MG is an antibody-mediated autoimmune disease. Antibodies against the acetylcholine (ACh) receptor on the muscle side of the neuromuscular junction block the receptors, speed their destruction, and activate complement, which damages the folds of the muscle membrane. Fewer receptors mean a weaker signal to contract. (Motor neuron degeneration is ALS; demyelination of peripheral nerves is Guillain-Barré syndrome; absent dystrophin is Duchenne muscular dystrophy.)<br><br><b>Fatigability:</b> with each repeated nerve impulse, the amount of ACh released normally falls a little. In healthy muscle there are plenty of receptors, so this does not matter; in MG there are too few, so contraction fades. This is also what repetitive nerve stimulation shows: a decreasing response.<br><br><b>Ice pack test:</b> cooling slows acetylcholinesterase, the enzyme that breaks down ACh, so more ACh is available at the receptors and the eyelid lifts. Heat has the opposite effect, which is why hot weather and hot baths worsen MG.<br><br><b>Thymus:</b> most clients with ACh receptor antibodies have an abnormal thymus (hyperplasia, or a thymoma in about 10% to 15%). The thymus is thought to help start and maintain the autoimmune response."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Reports 3 months of drooping eyelids and double vision that are mild in the morning and worse by late afternoon, especially after reading or working at her computer. Her jaw gets tired while chewing meat and she rests partway through meals. Her voice becomes soft and nasal during long phone calls. Her arms tire while blow-drying her hair but recover after a short rest. Denies numbness, tingling, pain, or muscle twitching. Bilateral ptosis, worse on the left after 60 seconds of looking upward. Pupils equal and reactive. Sensation intact in all limbs. Reports occasional low back pain after gardening on weekends. Drinks 3 cups of coffee a day. Works as an accountant; has two children aged 4 and 7.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 1000:</span><span class=\"nurse-note-text\">Client returns to discuss her results. The neurologist confirms a diagnosis of generalized myasthenia gravis. Client asks, “What is actually wrong with my muscles?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Ice pack test:</b> after an ice pack was held over the left eye for 2 minutes, the ptosis improved by 3 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 0900:</span><span class=\"nurse-note-text\"><b>Acetylcholine receptor antibodies:</b> positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 1000:</span><span class=\"nurse-note-text\"><b>Repetitive nerve stimulation:</b> progressive decrease in muscle response with repeated stimulation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1400:</span><span class=\"nurse-note-text\"><b>CT of the chest:</b> enlarged thymus (thymic hyperplasia); no mass.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a neurology clinic is caring for a 34-year-old female client with drooping eyelids and weakness."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client is most likely experiencing [[drop0]], triggered by [[drop1]]. The finding that best shows how serious her condition is, is [[drop2]]. The nurse's priority concern is [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "an anxiety attack",
+                    "correct": false
+                  },
+                  {
+                    "text": "myasthenic crisis",
+                    "correct": true
+                  },
+                  {
+                    "text": "a stroke",
+                    "correct": false
+                  },
+                  {
+                    "text": "cholinergic crisis",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the pneumonia and the missed pyridostigmine doses",
+                    "correct": true
+                  },
+                  {
+                    "text": "her anxiety",
+                    "correct": false
+                  },
+                  {
+                    "text": "the low-flow oxygen",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the temperature of 38.0° C",
+                    "correct": false
+                  },
+                  {
+                    "text": "the heart rate of 112 beats/min",
+                    "correct": false
+                  },
+                  {
+                    "text": "the SpO₂ of 93%",
+                    "correct": false
+                  },
+                  {
+                    "text": "the fall in vital capacity from 2.4 L to 1.1 L",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "dehydration from fever",
+                    "correct": false
+                  },
+                  {
+                    "text": "respiratory failure from weak breathing muscles and inability to clear secretions",
+                    "correct": true
+                  },
+                  {
+                    "text": "falls from leg weakness",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 240 1900 and Day 241 0600 and 0610, and the Vital Signs from Day 240 and Day 241.",
+          "explanation": "<b>Myasthenic crisis</b> is a sudden worsening of MG in which the breathing and bulbar muscles become too weak to maintain ventilation and protect the airway. Common triggers are infection (here, pneumonia with fever), missed or too little cholinesterase inhibitor, surgery, stress, and some medicines.<br><br><b>Why not cholinergic crisis:</b> too much cholinesterase inhibitor can also cause weakness, but with signs of excess acetylcholine (diarrhea, cramping, sweating, excessive secretions, small pupils, slow heart rate). She has missed doses and has none of these signs except pooled saliva, which here comes from being unable to swallow. The provider confirms which crisis it is.<br><br><b>Vital capacity</b> measures the strength of the breathing muscles directly and falls before oxygen saturation does. A vital capacity below about 20 mL/kg (about 1.2 L for a 60-kg client) or a negative inspiratory force weaker than −20 to −30 cm H₂O signals impending respiratory failure. Pulse oximetry stays reassuring until late because the oxygen she is receiving masks hypoventilation.<br><br><b>Priority:</b> airway and breathing. Weak respiratory muscles plus weak swallowing and coughing (aspiration risk) can lead to respiratory arrest within hours."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Reports 3 months of drooping eyelids and double vision that are mild in the morning and worse by late afternoon, especially after reading or working at her computer. Her jaw gets tired while chewing meat and she rests partway through meals. Her voice becomes soft and nasal during long phone calls. Her arms tire while blow-drying her hair but recover after a short rest. Denies numbness, tingling, pain, or muscle twitching. Bilateral ptosis, worse on the left after 60 seconds of looking upward. Pupils equal and reactive. Sensation intact in all limbs. Reports occasional low back pain after gardening on weekends. Drinks 3 cups of coffee a day. Works as an accountant; has two children aged 4 and 7.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 1000:</span><span class=\"nurse-note-text\">Client returns to discuss her results. The neurologist confirms a diagnosis of generalized myasthenia gravis. Client asks, “What is actually wrong with my muscles?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 240 1900:</span><span class=\"nurse-note-text\">Eight months later: admitted to the medical unit with community-acquired pneumonia. Takes pyridostigmine 60 mg PO four times a day; says she missed two doses yesterday because “it was hard to swallow the pills.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0600:</span><span class=\"nurse-note-text\">Client is anxious and says she cannot get her breath. Speaks 3 to 4 words at a time in a soft, nasal voice. Pooling of saliva in the mouth; coughs weakly and cannot clear secretions. Neck flexion weak; cannot lift her head off the pillow. Bilateral ptosis. Using accessory neck muscles to breathe. No diarrhea, abdominal cramping, or sweating; pupils 4 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0610:</span><span class=\"nurse-note-text\">Forced vital capacity (FVC) 1.1 L (was 2.4 L on admission); negative inspiratory force −18 cm H₂O.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 240 1900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 241 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">130/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 2 L/min by nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 2 L/min by nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Ice pack test:</b> after an ice pack was held over the left eye for 2 minutes, the ptosis improved by 3 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 0900:</span><span class=\"nurse-note-text\"><b>Acetylcholine receptor antibodies:</b> positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 1000:</span><span class=\"nurse-note-text\"><b>Repetitive nerve stimulation:</b> progressive decrease in muscle response with repeated stimulation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1400:</span><span class=\"nurse-note-text\"><b>CT of the chest:</b> enlarged thymus (thymic hyperplasia); no mass.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a neurology clinic is caring for a 34-year-old female client with drooping eyelids and weakness."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which actions should the nurse take at this time? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Measure vital capacity and negative inspiratory force as prescribed and report any further decrease",
+              "correct": true
+            },
+            {
+              "text": "Rely on pulse oximetry to detect any further decline in breathing",
+              "correct": false
+            },
+            {
+              "text": "Give thin liquids through a straw to keep her hydrated",
+              "correct": false
+            },
+            {
+              "text": "Raise the head of the bed and keep suction equipment at the bedside",
+              "correct": true
+            },
+            {
+              "text": "Encourage the client to walk in the hallway to clear lung secretions",
+              "correct": false
+            },
+            {
+              "text": "Lay the client flat to rest her breathing muscles",
+              "correct": false
+            },
+            {
+              "text": "Hold all food, fluids, and oral medications until her swallowing is assessed",
+              "correct": true
+            },
+            {
+              "text": "Notify the provider and the rapid response team of the falling vital capacity",
+              "correct": true
+            },
+            {
+              "text": "Stay with the client and reassure her while help is on the way",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Correct:</b> a vital capacity this low means she may soon need ventilatory support, so the provider and the rapid response team are called now. Head elevation helps breathing and reduces aspiration, and suction must be ready because she cannot clear her secretions. Nothing is given by mouth while bulbar weakness makes swallowing unsafe; the nurse tells the provider that oral medicines are being held so other routes can be ordered. Serial vital capacity and negative inspiratory force track her breathing muscle strength. Staying with her reduces anxiety and allows rapid response to deterioration.<br><br><b>Incorrect:</b> exertion worsens fatigable weakness and increases oxygen demand. Thin liquids are the hardest to swallow safely and are easily aspirated. Lying flat makes breathing harder and increases aspiration risk. Pulse oximetry detects respiratory failure late, especially when the client is receiving oxygen; vital capacity and the client's work of breathing are better guides."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Reports 3 months of drooping eyelids and double vision that are mild in the morning and worse by late afternoon, especially after reading or working at her computer. Her jaw gets tired while chewing meat and she rests partway through meals. Her voice becomes soft and nasal during long phone calls. Her arms tire while blow-drying her hair but recover after a short rest. Denies numbness, tingling, pain, or muscle twitching. Bilateral ptosis, worse on the left after 60 seconds of looking upward. Pupils equal and reactive. Sensation intact in all limbs. Reports occasional low back pain after gardening on weekends. Drinks 3 cups of coffee a day. Works as an accountant; has two children aged 4 and 7.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 1000:</span><span class=\"nurse-note-text\">Client returns to discuss her results. The neurologist confirms a diagnosis of generalized myasthenia gravis. Client asks, “What is actually wrong with my muscles?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 240 1900:</span><span class=\"nurse-note-text\">Eight months later: admitted to the medical unit with community-acquired pneumonia. Takes pyridostigmine 60 mg PO four times a day; says she missed two doses yesterday because “it was hard to swallow the pills.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0600:</span><span class=\"nurse-note-text\">Client is anxious and says she cannot get her breath. Speaks 3 to 4 words at a time in a soft, nasal voice. Pooling of saliva in the mouth; coughs weakly and cannot clear secretions. Neck flexion weak; cannot lift her head off the pillow. Bilateral ptosis. Using accessory neck muscles to breathe. No diarrhea, abdominal cramping, or sweating; pupils 4 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0610:</span><span class=\"nurse-note-text\">Forced vital capacity (FVC) 1.1 L (was 2.4 L on admission); negative inspiratory force −18 cm H₂O.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 240 1900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 241 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">130/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 2 L/min by nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 2 L/min by nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Ice pack test:</b> after an ice pack was held over the left eye for 2 minutes, the ptosis improved by 3 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 0900:</span><span class=\"nurse-note-text\"><b>Acetylcholine receptor antibodies:</b> positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 1000:</span><span class=\"nurse-note-text\"><b>Repetitive nerve stimulation:</b> progressive decrease in muscle response with repeated stimulation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1400:</span><span class=\"nurse-note-text\"><b>CT of the chest:</b> enlarged thymus (thymic hyperplasia); no mass.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a neurology clinic is caring for a 34-year-old female client with drooping eyelids and weakness."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each instruction, click to specify whether it is <b>appropriate</b> or <b>not appropriate</b> to include in the client's discharge teaching.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Take pyridostigmine on time, about 30 to 60 minutes before meals",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Take hot baths to relax your muscles in the evening",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Plan demanding tasks for times of the day when you feel strongest, and rest between activities",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Skip a dose of pyridostigmine on days when you feel strong",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Check with your provider or pharmacist before taking any new medicine, including antibiotics",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Wear a medical alert bracelet that says you have myasthenia gravis",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Eat your largest meal in the evening, when you are hungriest",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Seek emergency care for trouble swallowing, a weak cough, or shortness of breath",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Appropriate",
+              "Not appropriate"
+            ],
+            "firstColumnHeader": "Instruction"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 255 1000 and the Vital Signs from Day 255.",
+          "explanation": "<b>Appropriate:</b> pyridostigmine (a cholinesterase inhibitor) works for 3 to 4 hours, so doses are taken on time, and before meals so chewing and swallowing are strongest while eating. Energy conservation (doing demanding tasks when strength is best, resting between activities) works with the fatigable pattern. Many medicines can worsen MG (for example some antibiotics such as fluoroquinolones and aminoglycosides, magnesium, and beta-blockers), so new medicines are checked first. A medical alert bracelet informs emergency staff. Difficulty swallowing, a weak cough or breathlessness can signal a crisis and need emergency care.<br><br><b>Not appropriate:</b> heat worsens neuromuscular transmission (hot baths, saunas, hot weather). Missing doses can trigger a crisis, as it did before. Fatigue is worst in the evening, so large evening meals raise the risk of choking; smaller meals at times of best strength are safer."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Reports 3 months of drooping eyelids and double vision that are mild in the morning and worse by late afternoon, especially after reading or working at her computer. Her jaw gets tired while chewing meat and she rests partway through meals. Her voice becomes soft and nasal during long phone calls. Her arms tire while blow-drying her hair but recover after a short rest. Denies numbness, tingling, pain, or muscle twitching. Bilateral ptosis, worse on the left after 60 seconds of looking upward. Pupils equal and reactive. Sensation intact in all limbs. Reports occasional low back pain after gardening on weekends. Drinks 3 cups of coffee a day. Works as an accountant; has two children aged 4 and 7.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 1000:</span><span class=\"nurse-note-text\">Client returns to discuss her results. The neurologist confirms a diagnosis of generalized myasthenia gravis. Client asks, “What is actually wrong with my muscles?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 240 1900:</span><span class=\"nurse-note-text\">Eight months later: admitted to the medical unit with community-acquired pneumonia. Takes pyridostigmine 60 mg PO four times a day; says she missed two doses yesterday because “it was hard to swallow the pills.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0600:</span><span class=\"nurse-note-text\">Client is anxious and says she cannot get her breath. Speaks 3 to 4 words at a time in a soft, nasal voice. Pooling of saliva in the mouth; coughs weakly and cannot clear secretions. Neck flexion weak; cannot lift her head off the pillow. Bilateral ptosis. Using accessory neck muscles to breathe. No diarrhea, abdominal cramping, or sweating; pupils 4 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0610:</span><span class=\"nurse-note-text\">Forced vital capacity (FVC) 1.1 L (was 2.4 L on admission); negative inspiratory force −18 cm H₂O.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 255 1000:</span><span class=\"nurse-note-text\">Intubated in the intensive care unit on Day 241; extubated on Day 249 and transferred back to the medical unit. Swallowing assessment passed; eating a soft diet. Pneumonia resolved. Pyridostigmine 60 mg PO four times a day resumed. Discharge planned for tomorrow. Client says, “I never want to go through that again. What can I do?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 240 1900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 241 0600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 255 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">130/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116/72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 2 L/min by nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 2 L/min by nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Ice pack test:</b> after an ice pack was held over the left eye for 2 minutes, the ptosis improved by 3 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 0900:</span><span class=\"nurse-note-text\"><b>Acetylcholine receptor antibodies:</b> positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 1000:</span><span class=\"nurse-note-text\"><b>Repetitive nerve stimulation:</b> progressive decrease in muscle response with repeated stimulation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1400:</span><span class=\"nurse-note-text\"><b>CT of the chest:</b> enlarged thymus (thymic hyperplasia); no mass.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a neurology clinic is caring for a 34-year-old female client with drooping eyelids and weakness."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "FVC 2.6 L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I sometimes skip my bedtime dose when I feel strong.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Ptosis only late in the evening; double vision rare",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Choking on liquids at supper, with a weak voice by bedtime",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I wear my medical alert bracelet.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I started a hot yoga class to build up my strength.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I got my flu shot, and I stay away from people with colds.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 285 1000 and 1015 and the Vital Signs from Day 285.",
+          "explanation": "<b>Effective:</b> her vital capacity has recovered to a safe level, her ocular symptoms are mild and limited to the end of the day (expected in MG), and she has taken steps that reduce the risk of another crisis (medical alert bracelet, influenza vaccination with an inactivated vaccine, avoiding infection).<br><br><b>Not effective:</b> skipping doses and choking with a weak voice in the evening show that bulbar weakness is not controlled at the end of the day; this puts her at risk of aspiration and another crisis. The nurse reinforces taking every dose on time and reports the evening choking to the provider. Hot yoga exposes her to heat, which worsens neuromuscular transmission; gentle exercise in a cool environment, paced with rest, is safer."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Reports 3 months of drooping eyelids and double vision that are mild in the morning and worse by late afternoon, especially after reading or working at her computer. Her jaw gets tired while chewing meat and she rests partway through meals. Her voice becomes soft and nasal during long phone calls. Her arms tire while blow-drying her hair but recover after a short rest. Denies numbness, tingling, pain, or muscle twitching. Bilateral ptosis, worse on the left after 60 seconds of looking upward. Pupils equal and reactive. Sensation intact in all limbs. Reports occasional low back pain after gardening on weekends. Drinks 3 cups of coffee a day. Works as an accountant; has two children aged 4 and 7.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 1000:</span><span class=\"nurse-note-text\">Client returns to discuss her results. The neurologist confirms a diagnosis of generalized myasthenia gravis. Client asks, “What is actually wrong with my muscles?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 240 1900:</span><span class=\"nurse-note-text\">Eight months later: admitted to the medical unit with community-acquired pneumonia. Takes pyridostigmine 60 mg PO four times a day; says she missed two doses yesterday because “it was hard to swallow the pills.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0600:</span><span class=\"nurse-note-text\">Client is anxious and says she cannot get her breath. Speaks 3 to 4 words at a time in a soft, nasal voice. Pooling of saliva in the mouth; coughs weakly and cannot clear secretions. Neck flexion weak; cannot lift her head off the pillow. Bilateral ptosis. Using accessory neck muscles to breathe. No diarrhea, abdominal cramping, or sweating; pupils 4 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 241 0610:</span><span class=\"nurse-note-text\">Forced vital capacity (FVC) 1.1 L (was 2.4 L on admission); negative inspiratory force −18 cm H₂O.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 255 1000:</span><span class=\"nurse-note-text\">Intubated in the intensive care unit on Day 241; extubated on Day 249 and transferred back to the medical unit. Swallowing assessment passed; eating a soft diet. Pneumonia resolved. Pyridostigmine 60 mg PO four times a day resumed. Discharge planned for tomorrow. Client says, “I never want to go through that again. What can I do?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 285 1000:</span><span class=\"nurse-note-text\">Clinic follow-up, 1 month after discharge. FVC 2.6 L. Swallows thin liquids without coughing. Ptosis only late in the evening; double vision rare. Reports choking on liquids at supper on 2 evenings this week, with a weak voice by bedtime.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 285 1015:</span><span class=\"nurse-note-text\">Client states: “I wear my medical alert bracelet.” “I sometimes skip my bedtime dose when I feel strong.” “I got my flu shot, and I stay away from people with colds.” “I started a hot yoga class to build up my strength.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 240 1900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 241 0600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 255 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 285 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">130/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116/72 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 2 L/min by nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 2 L/min by nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Ice pack test:</b> after an ice pack was held over the left eye for 2 minutes, the ptosis improved by 3 mm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 0900:</span><span class=\"nurse-note-text\"><b>Acetylcholine receptor antibodies:</b> positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 1000:</span><span class=\"nurse-note-text\"><b>Repetitive nerve stimulation:</b> progressive decrease in muscle response with repeated stimulation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1400:</span><span class=\"nurse-note-text\"><b>CT of the chest:</b> enlarged thymus (thymic hyperplasia); no mass.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a neurology clinic is caring for a 34-year-old female client with drooping eyelids and weakness."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "34-year-old female client with fatigable ocular, bulbar and limb weakness diagnosed as myasthenia gravis (acetylcholine receptor antibodies, decremental response, thymic hyperplasia); autoimmune pathophysiology, myasthenic crisis triggered by pneumonia and missed doses, airway priorities, discharge teaching, and evaluation.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3: thresholds for respiratory failure (vital capacity below about 20 mL/kg, negative inspiratory force weaker than −20 to −30 cm H₂O) are commonly cited values.\nScreen 5: the list of medicines that can worsen myasthenia gravis is given as examples.",
+      "flaggedAt": "2026-10-14"
+    }
+  },
+  {
+    "id": "case_1782400000006",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 6",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that are consistent with osteoarthritis or increase the client's risk for it.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Consistent with osteoarthritis (OA):</b><br><br><b>Pain with use that eases with rest</b> and worsens through the day: the damaged joint surfaces hurt under load. In late disease pain may also occur at rest and at night.<br><br><b>Short morning stiffness</b> (usually under 30 minutes) after rest, which loosens with movement.<br><br><b>Crepitus:</b> grating from roughened cartilage and bone surfaces moving against each other.<br><br><b>Heberden nodes:</b> bony enlargements (osteophytes) of the distal interphalangeal joints; Bouchard nodes affect the proximal interphalangeal joints.<br><br><b>Risk factors:</b> obesity (more load on weight-bearing joints, plus inflammatory substances from fat tissue) and years of repeated kneeling or joint stress. Age and previous joint injury are other major risk factors.<br><br><b>Not OA cues:</b> unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, systemic arthritis such as rheumatoid arthritis. Ramipril treats his hypertension.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of {right knee pain that worsens with walking and climbing stairs and eases with rest|correct}, worse by the end of the day. {Morning stiffness in the knee lasting about 15 minutes.|correct} {Grating (crepitus) felt and heard when the right knee bends.|correct} {Hard, bony enlargements on the end joints (DIP) of both index fingers.|correct} {Weight 102 kg, BMI 33.|correct} {MCP joints and wrists not swollen or warm.} {Temperature 36.7° C.} {Reports good appetite with no weight loss.} Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. {Takes ramipril 10 mg daily for hypertension.} Lives with his wife in a two-storey house.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse is explaining the client's X-ray to him. For each finding, click to specify whether it is mainly the result of <b>loss of articular cartilage</b>, <b>bone remodeling</b>, or <b>secondary synovial inflammation</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Osteophytes at the joint margins",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Narrowing of the medial joint space",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Small, cool effusion that increases after a long walk",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Subchondral sclerosis and cysts",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Heberden nodes",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Loss of articular cartilage",
+              "Bone remodeling",
+              "Secondary synovial inflammation"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+          "explanation": "<b>Loss of articular cartilage</b> is the central change in OA. Chondrocytes fail to keep up with the breakdown of the cartilage matrix (driven by mechanical load and enzymes), so the cartilage softens, fissures and wears away. The joint space on X-ray is the cartilage, so its narrowing (here on the medial side, which carries the most load) shows cartilage loss.<br><br><b>Bone remodeling:</b> as cartilage is lost, the bone underneath takes the load. It thickens and becomes dense (subchondral sclerosis), and joint fluid forced into cracks forms cysts. At the joint margins, new bone grows as spurs (osteophytes), which limit motion and, in the fingers, form Heberden and Bouchard nodes.<br><br><b>Secondary synovial inflammation:</b> fragments of cartilage irritate the synovium, which produces a mild, cool effusion after activity. This inflammation is local and mild, so the ESR and CRP are normal and the RF is negative, unlike in rheumatoid arthritis. The normal uric acid argues against gout."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse's priority concern is the client's risk for [[drop0]], because [[drop1]]. The nurse also identifies a risk for [[drop2]] related to [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "gastrointestinal bleeding",
+                    "correct": false
+                  },
+                  {
+                    "text": "kidney stones",
+                    "correct": false
+                  },
+                  {
+                    "text": "liver injury",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "his morning stiffness lasts 15 minutes",
+                    "correct": false
+                  },
+                  {
+                    "text": "he takes about 6.6 g of acetaminophen a day, drinks alcohol daily, and his ALT is elevated",
+                    "correct": true
+                  },
+                  {
+                    "text": "his blood pressure is 144/88 mm Hg",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "pressure injury",
+                    "correct": false
+                  },
+                  {
+                    "text": "falls",
+                    "correct": true
+                  },
+                  {
+                    "text": "infection",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "his age alone",
+                    "correct": false
+                  },
+                  {
+                    "text": "the night-time cold and flu tablet",
+                    "correct": false
+                  },
+                  {
+                    "text": "knee instability and pain without a walking aid",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 60 1000, the Vital Signs from Day 60, and the Laboratory Results from Day 60.",
+          "explanation": "<b>Liver injury:</b> 2 × 500 mg six times a day (6 g) plus 650 mg at night is about 6.6 g of acetaminophen a day, well above the usual maximum of 4 g a day (lower, often 3 g or less, for older adults and people who drink alcohol regularly). Alcohol depletes glutathione, which the liver needs to detoxify an acetaminophen metabolite, so the risk of liver injury rises. His raised ALT is already a warning. Hidden acetaminophen in combination cold and flu products is a common cause of accidental overdose. The nurse reports this to the provider at once.<br><br><b>Not the priority:</b> he is not taking NSAIDs and denies dark stools, so GI bleeding is not suggested; blood pressure and stiffness need follow-up but are not urgent.<br><br><b>Falls:</b> a knee that “gives way” (from pain, quadriceps weakness and joint instability) on the stairs, without a walking aid, puts him at high risk of a fall and fracture. Age adds to the risk but is not the cause here. The cold and flu tablet may cause drowsiness, but the knee instability is the main factor."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "The nurse is planning teaching for the client. Which instructions should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Read the labels of all over-the-counter products for acetaminophen and keep the total within the daily limit your provider sets",
+              "correct": true
+            },
+            {
+              "text": "Use a cane in your right hand",
+              "correct": false
+            },
+            {
+              "text": "Rest the knee completely until the pain goes away",
+              "correct": false
+            },
+            {
+              "text": "Do low-impact exercise such as swimming or cycling, and quadriceps-strengthening exercises",
+              "correct": true
+            },
+            {
+              "text": "Sleep with a pillow under the right knee",
+              "correct": false
+            },
+            {
+              "text": "Strengthen the knee with deep squats and kneeling exercises",
+              "correct": false
+            },
+            {
+              "text": "Losing even a small amount of weight reduces the load on your knees",
+              "correct": true
+            },
+            {
+              "text": "Apply warmth before activity to ease stiffness, and a cold pack after activity if the knee swells",
+              "correct": true
+            },
+            {
+              "text": "Use a cane in your left hand",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Correct:</b> checking labels prevents hidden acetaminophen overdose. A cane is held in the hand opposite the affected knee and moved forward with it, which shifts weight off the painful knee and widens the base of support. Heat relaxes muscles and eases stiffness before activity; cold reduces swelling and pain after activity. Low-impact aerobic exercise and quadriceps strengthening stabilize the knee and reduce pain without overloading it. Every kilogram of weight lost removes about 4 kg of load from the knee with each step.<br><br><b>Incorrect:</b> a cane on the same side as the bad knee does not unload it. Complete rest causes stiffness, muscle weakness and further loss of function. Deep squats and kneeling load the damaged cartilage heavily. A pillow under the knee is comfortable but encourages a flexion contracture."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client on postoperative day 1.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Place a pillow under the right knee to relieve pain",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Assess circulation, movement, and sensation of the right foot regularly",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Encourage ankle pumps every hour while awake and keep the sequential compression devices on in bed",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Keep the client on bed rest for the first 3 days",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Give the prescribed analgesic before physiotherapy",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Arrange X-rays of both hands",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Apply the prescribed cold therapy to the right knee",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated",
+              "Nonessential"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 400 0800 and the Vital Signs from Day 400.",
+          "explanation": "<b>Indicated:</b> neurovascular checks detect nerve or vascular injury and compartment problems early. Ankle pumps and sequential compression devices promote venous return and help prevent deep vein thrombosis, a major risk after knee replacement. Pain relief before physiotherapy lets him take part in early walking and range-of-motion exercise. Cold therapy reduces swelling and pain.<br><br><b>Contraindicated:</b> a pillow under the knee holds it flexed and can cause a flexion contracture; the knee is kept straight when resting (a pillow may go under the calf and heel if the leg is elevated). Bed rest increases the risk of blood clots, pneumonia and stiffness; walking usually starts on the day of surgery or the day after.<br><br><b>Nonessential:</b> hand X-rays do not change his postoperative care."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 400 0800:</span><span class=\"nurse-note-text\">One year later, after conservative care no longer controlled his pain, the client had a right total knee arthroplasty yesterday. Postoperative day 1. Right knee dressing dry and intact; right foot warm, pedal pulses 2+, sensation and movement intact. Pain 4/10 with movement after IV analgesia. Sequential compression devices on both legs. Physiotherapy to walk him with a walker this morning.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 400 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Right knee flexion 105° with full extension",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Warm, swollen, tender right calf, 3 cm larger than the left",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Walks with a cane in his left hand, with no falls",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I still sleep with a pillow under my right knee.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Weight 96 kg, down from 102 kg",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Incision healed, with no redness or drainage",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I check labels and keep track of my acetaminophen.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 442 1000 and 1015 and the Vital Signs from Day 442.",
+          "explanation": "<b>Effective:</b> good range of motion (about 90° to 110° of flexion is a usual goal at this stage), a healed incision, safe use of the cane on the correct side with no falls, weight loss, and safe use of acetaminophen.<br><br><b>Not effective:</b> a warm, swollen, tender calf that is larger than the other suggests a deep vein thrombosis, which can lead to a pulmonary embolism. The nurse does not massage the calf, has the client rest, and reports the finding to the provider immediately. Sleeping with a pillow under the knee risks a flexion contracture and loss of the extension gained in therapy; the nurse reteaches keeping the knee straight."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 400 0800:</span><span class=\"nurse-note-text\">One year later, after conservative care no longer controlled his pain, the client had a right total knee arthroplasty yesterday. Postoperative day 1. Right knee dressing dry and intact; right foot warm, pedal pulses 2+, sensation and movement intact. Pain 4/10 with movement after IV analgesia. Sequential compression devices on both legs. Physiotherapy to walk him with a walker this morning.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 442 1000:</span><span class=\"nurse-note-text\">Clinic follow-up, 6 weeks after surgery. Right knee flexion 105° with full extension. Incision healed with no redness or drainage. Walks with a cane in his left hand; no falls. Weight 96 kg (was 102 kg). Right calf warm, swollen, and tender; right calf circumference 3 cm larger than the left. Reports the calf started aching 2 days ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 442 1015:</span><span class=\"nurse-note-text\">Client states: “I check labels and keep track of my acetaminophen.” “I still sleep with a pillow under my right knee; it feels better.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 400 0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 442 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "68-year-old male client, a retired carpenter with obesity, with osteoarthritis of the right knee and Heberden nodes; cartilage loss, bone remodeling and secondary synovitis, acetaminophen overuse and fall risk, self-management teaching, and nursing care and evaluation after a total knee arthroplasty.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3: acetaminophen maximum stated as 4 g/day, lower (often 3 g or less) for older adults and regular alcohol use; adjust to your course's reference.\nScreen 4: the “1 kg lost = about 4 kg less load on the knee” figure comes from Messier et al. (2005).\nScreen 6: knee flexion goal at 6 weeks (about 90°–110°) varies by surgeon.",
+      "flaggedAt": "2026-10-14"
+    }
+  },
+  {
+    "id": "case_1782400000007",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 7",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which findings are consistent with fibromyalgia? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "A hug or a tight waistband hurts",
+              "correct": true
+            },
+            {
+              "text": "Works as a dental hygienist",
+              "correct": false
+            },
+            {
+              "text": "Trouble concentrating and remembering",
+              "correct": true
+            },
+            {
+              "text": "Takes a multivitamin daily",
+              "correct": false
+            },
+            {
+              "text": "Wakes unrefreshed after 9 hours in bed",
+              "correct": true
+            },
+            {
+              "text": "Heart rate 82 beats/min",
+              "correct": false
+            },
+            {
+              "text": "Abdominal cramping with alternating diarrhea and constipation",
+              "correct": true
+            },
+            {
+              "text": "Tension headaches 3 to 4 times a week",
+              "correct": true
+            },
+            {
+              "text": "Blood pressure 122/76 mm Hg",
+              "correct": false
+            },
+            {
+              "text": "Pain on both sides of the body, above and below the waist, for 8 months",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Consistent with fibromyalgia:</b> chronic (3 months or more) <b>widespread pain</b> on both sides of the body and above and below the waist is the core feature. It is accompanied by <b>unrefreshing sleep</b>, <b>fatigue</b>, and <b>cognitive symptoms</b> (“fibro fog”). Pain from touch that should not hurt (<b>allodynia</b>, such as a hug or a waistband) reflects an oversensitive pain system. Other functional conditions are common alongside it: <b>irritable bowel syndrome</b>, <b>tension headaches</b> and migraines, temporomandibular disorder, and anxiety or depression.<br><br><b>Not cues:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The normal ESR, CRP, and CK show that the client's pain is not caused by [[drop0]]. Fibromyalgia is best explained by [[drop1]], in which [[drop2]]. Poor sleep [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "the nervous system",
+                    "correct": false
+                  },
+                  {
+                    "text": "inflammation or muscle damage",
+                    "correct": true
+                  },
+                  {
+                    "text": "stress",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "an autoimmune attack on the joints",
+                    "correct": false
+                  },
+                  {
+                    "text": "infection of the muscles",
+                    "correct": false
+                  },
+                  {
+                    "text": "central sensitization",
+                    "correct": true
+                  },
+                  {
+                    "text": "degeneration of the joint cartilage",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the joints fill with inflammatory fluid",
+                    "correct": false
+                  },
+                  {
+                    "text": "the brain and spinal cord amplify pain signals and dampen the body's own pain control",
+                    "correct": true
+                  },
+                  {
+                    "text": "the muscles release enzymes that damage nerves",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "protects her muscles from injury",
+                    "correct": false
+                  },
+                  {
+                    "text": "lowers the pain threshold and worsens fatigue",
+                    "correct": true
+                  },
+                  {
+                    "text": "has no effect on her pain",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Laboratory Results and the Nurses' Notes from Day 10 1000.",
+          "explanation": "<b>Normal tests:</b> fibromyalgia is not an inflammatory, autoimmune or degenerative disease, and it does not damage muscles or joints. Normal ESR and CRP show no inflammation, a normal CK shows no muscle damage, and a negative RF and ANA make rheumatoid arthritis and lupus unlikely. A normal TSH rules out hypothyroidism, and normal hemoglobin and ferritin rule out anemia and iron deficiency as causes of the fatigue. The diagnosis is clinical (widespread pain for 3 months or more with fatigue, unrefreshing sleep and cognitive symptoms, not better explained by another condition); tender-point counts are no longer required.<br><br><b>Central sensitization:</b> the pain is real, but it comes from how the nervous system processes signals. Pain pathways in the spinal cord and brain become overactive (more excitatory neurotransmitters such as substance P and glutamate), while the descending pathways that normally dampen pain (serotonin, norepinephrine) are less active. Ordinary sensations are felt as painful (allodynia), and painful ones hurt more than they should (hyperalgesia). Stress affects the condition but is not the cause.<br><br><b>Sleep:</b> people with fibromyalgia have less deep, restorative sleep. Poor sleep lowers the pain threshold and worsens fatigue and concentration, and more pain disturbs sleep further, creating a cycle that nursing care aims to break."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The nurse's priority concern is the client's risk for [[drop0]], as evidenced by [[drop1]]. Her long afternoon naps [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "falls",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute pain",
+                    "correct": false
+                  },
+                  {
+                    "text": "suicide",
+                    "correct": true
+                  },
+                  {
+                    "text": "ineffective work performance",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "her pain rating of 8/10",
+                    "correct": false
+                  },
+                  {
+                    "text": "the 6 missed workdays",
+                    "correct": false
+                  },
+                  {
+                    "text": "her statement that everyone would be better off without her and her PHQ-9 score of 17",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "are needed to restore her energy",
+                    "correct": false
+                  },
+                  {
+                    "text": "have no effect on her symptoms",
+                    "correct": false
+                  },
+                  {
+                    "text": "worsen her night-time sleep and keep the pain–sleep cycle going",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 40 1500 and the Vital Signs from Day 40.",
+          "explanation": "<b>Risk for suicide:</b> “everyone would be better off without me” is an indirect statement of suicidal thinking. With a PHQ-9 of 17, social withdrawal, the loss of her relationship, and chronic pain (which on its own raises suicide risk), safety is the priority over pain, sleep or work concerns. The nurse never dismisses such a statement.<br><br><b>Pain, missed work and isolation</b> are important and will be addressed, but they are not immediately life-threatening.<br><br><b>Daytime napping:</b> long afternoon naps reduce the drive to sleep at night, which leads to short, unrefreshing night sleep; poor sleep then lowers the pain threshold. Short naps (under 30 minutes, early afternoon) or none are better."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client at this visit.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Ask the client directly whether she is thinking about ending her life and whether she has a plan",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Promise to keep her suicidal thoughts a secret if she asks",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Report her statement and PHQ-9 score to the provider before she leaves the clinic",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Tell her that everyone feels this way sometimes and it will pass",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Give her the 9-8-8 Suicide Crisis Helpline number (call or text)",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Repeat the ESR and CRP today",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Stay with her, or make sure someone stays with her, until the assessment is complete",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated",
+              "Nonessential"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "",
+          "explanation": "<b>Indicated:</b> asking directly about suicidal thoughts, a plan and the means does not plant the idea; it opens the conversation and is the only way to judge the level of risk. The provider must know before she leaves so that a safety plan and mental health follow-up are arranged. Canada's 9-8-8 Suicide Crisis Helpline is available 24/7 by phone or text. A client who may be at risk is not left alone until the risk has been assessed.<br><br><b>Contraindicated:</b> the nurse cannot promise secrecy about a risk to the client's life; the information must be shared with the team. Saying “everyone feels this way” dismisses her distress and closes the conversation.<br><br><b>Nonessential:</b> her inflammatory markers were normal and repeating them does not address her current risk."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which instructions should the nurse include in the client's self-management teaching? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Pace yourself: break tasks into smaller parts and alternate activity with rest",
+              "correct": true
+            },
+            {
+              "text": "Practise relaxation, such as slow breathing or mindfulness, to manage stress",
+              "correct": true
+            },
+            {
+              "text": "Avoid caffeine after noon and screens for an hour before bed",
+              "correct": true
+            },
+            {
+              "text": "Since your tests are normal, try to ignore the pain",
+              "correct": false
+            },
+            {
+              "text": "Increase your coffee intake to fight the fatigue",
+              "correct": false
+            },
+            {
+              "text": "Go to bed and get up at the same times every day, and limit naps",
+              "correct": true
+            },
+            {
+              "text": "Avoid exercise until the pain improves",
+              "correct": false
+            },
+            {
+              "text": "Do as much as you can on good days to catch up",
+              "correct": false
+            },
+            {
+              "text": "Start with gentle aerobic exercise, such as walking or warm-water exercise, a few minutes at a time, and increase slowly",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 40 1600.",
+          "explanation": "<b>Correct:</b> regular aerobic exercise has the strongest evidence for reducing fibromyalgia pain and fatigue. It must start low and build slowly, because doing too much at once causes a flare. A regular sleep schedule, limited naps, and avoiding caffeine and screens before bed improve sleep quality (sleep hygiene). Pacing prevents the “boom-and-bust” pattern of overdoing it on good days and crashing afterward. Relaxation and stress management calm the overactive stress and pain systems.<br><br><b>Incorrect:</b> avoiding exercise leads to deconditioning and more pain. Catching up on good days triggers flares. Extra caffeine disrupts sleep. Telling her to ignore the pain dismisses a real condition and damages trust; normal tests mean no tissue damage, not that the pain is imaginary."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1600:</span><span class=\"nurse-note-text\">Client denies a plan or intent to harm herself; agreed to a safety plan with the provider and has an appointment with the mental health team in 2 days. Her sister is driving her home and will stay with her tonight. Client asks, “Is there anything I can do myself for the pain and tiredness?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Pain 4/10, down from 8/10",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“On good days I clean the whole house, and then I'm in bed for 2 days.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Sleeps about 7 hours and wakes rested 4 nights a week",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Drinks 5 cups of coffee a day, the last around 2000",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "PHQ-9 score 6; denies thoughts of self-harm",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Walks 20 minutes, 5 days a week",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I still don't see my friends; I never know how I'll feel.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Has returned to work part-time",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 130 1000 and 1015 and the Vital Signs from Day 130.",
+          "explanation": "<b>Effective:</b> less pain, better sleep, regular aerobic exercise, a return to work, and a much lower depression score with no suicidal thoughts show that the plan is working. Fibromyalgia is chronic; the goal is better function and quality of life, not a cure.<br><br><b>Not effective:</b> the boom-and-bust pattern shows she is not yet pacing herself. Late, heavy caffeine intake undermines sleep. Avoiding friends increases isolation and the risk of depression. The nurse reinforces pacing and sleep hygiene, and explores ways to keep social contact (shorter visits, plans that can be changed)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Reports 8 months of aching pain “all over,” on both sides of her body, above and below the waist, including her neck, shoulders, back, and hips. Wakes unrefreshed even after 9 hours in bed. Has trouble concentrating and forgets appointments at work (“brain fog”). Has abdominal cramping with alternating diarrhea and constipation, and tension headaches 3 to 4 times a week. Says a hug or a tight waistband hurts. Pain 7/10. No joint swelling or redness; full range of motion in all joints; strength 5/5 throughout. Denies fever, night sweats, or weight loss. Works as a dental hygienist; recently separated from her partner. Takes a multivitamin daily. Says, “Everyone thinks I'm making this up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Client returns for her results. The provider explains that the blood tests are normal and diagnoses fibromyalgia. Client asks, “If all my tests are normal, why do I hurt so much?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1500:</span><span class=\"nurse-note-text\">Follow-up visit. Client is tearful. Pain 8/10. Has missed 6 days of work this month and stopped going to her book club. Sleeping 4 to 5 hours a night, then napping 3 hours in the afternoon. Says, “My family thinks it's all in my head. Some days I think everyone would be better off without me.” Patient Health Questionnaire-9 (PHQ-9) score 17 (moderately severe depression).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 40 1600:</span><span class=\"nurse-note-text\">Client denies a plan or intent to harm herself; agreed to a safety plan with the provider and has an appointment with the mental health team in 2 days. Her sister is driving her home and will stay with her tonight. Client asks, “Is there anything I can do myself for the pain and tiredness?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 130 1000:</span><span class=\"nurse-note-text\">Follow-up visit, 3 months later. Pain 4/10 (was 8/10). Sleeps about 7 hours and wakes rested on 4 nights a week. Walks 20 minutes, 5 days a week. Has returned to work part-time. PHQ-9 score 6; denies thoughts of self-harm; sees a counsellor every 2 weeks.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 130 1015:</span><span class=\"nurse-note-text\">Client states: “On good days I clean the whole house, and then I'm in bed for 2 days.” “I drink 5 cups of coffee a day, the last one around 8 at night.” “I still don't see my friends; I never know how I'll feel.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 40 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 130 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (thyroid-stimulating hormone)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Female: 30–190 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 42-year-old female client with widespread pain and fatigue."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "42-year-old female client with 8 months of widespread pain, unrefreshing sleep, cognitive symptoms, irritable bowel and headaches, diagnosed with fibromyalgia after normal tests; central sensitization, the pain–sleep cycle, suicide risk screening, self-management teaching, and evaluation at 3 months.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3–4: the case includes an indirect suicidal statement and the Canadian 9-8-8 Suicide Crisis Helpline; consider mentioning this to the class before using it.\nScreen 2: the diagnostic criteria are described as in the ACR 2010/2016 criteria (tender points no longer required).",
+      "flaggedAt": "2026-10-14"
+    }
   }
 ];
 
