@@ -185,6 +185,10 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 - Select-all options were shuffled and rationales relabeled "(Option N)" at the user's request.
 - The DMD case (NURS 1017 Unit 3 Case Study 4) is in the bank; its medical content still merits
   clinician review.
+- NURS 1017 Unit 6 Case Study 1 (rheumatoid arthritis, `case_1782400000001`; Unit 6+ IDs continue the
+  scheme as `case_17824<unit-6>000000<n>`), written 14 Oct 2026 for the user's Unit 6 review class
+  (`drafts/build_unit6_case1_ra.py`; screen 2 = matrix multiple response RA vs OA vs osteomyelitis), added
+  with an `authorReview` note; the user reviews it before using it with students.
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),
