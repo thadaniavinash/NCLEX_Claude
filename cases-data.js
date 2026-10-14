@@ -24530,6 +24530,619 @@ window.NCLEX_CASES = [
       "note": "Changed by Claude on 14 Oct 2026; please double-check:\nRoom-air SpO₂ changed from 97% to 92% (0900, 0910) so oxygen is indicated; screen 6 now keys oxygenation as Improved.\nTSH changed from 0.27 to < 0.01 mU/L (suppressed, as expected in thyroid storm).\nPropranolol 60 mg PO every 4 hours added to the orders and as a correct option on screen 4.\nScreen 5 key (oxygen and the ECG first) still comes from the source rationale (its highlighting was unreadable). Please confirm.\nMethimazole kept (propylthiouracil is often preferred in thyroid storm).",
       "flaggedAt": "2026-10-14"
     }
+  },
+  {
+    "id": "case_1782400000001",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 1",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which findings should the nurse recognize as cues of an <b>inflammatory (autoimmune) arthritis</b>? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Crepitus in the right knee, which aches after long walks",
+              "correct": false
+            },
+            {
+              "text": "Morning stiffness lasting about 2 hours",
+              "correct": true
+            },
+            {
+              "text": "Blood pressure 138/84 mm Hg",
+              "correct": false
+            },
+            {
+              "text": "Swelling, warmth, and tenderness of the MCP and PIP joints of both hands and both wrists",
+              "correct": true
+            },
+            {
+              "text": "DIP joints not swollen",
+              "correct": false
+            },
+            {
+              "text": "Fatigue, temperature 37.8° C, and an unintended 3-kg weight loss",
+              "correct": true
+            },
+            {
+              "text": "Mother had arthritis of the knees in her 70s",
+              "correct": false
+            },
+            {
+              "text": "Joints feel boggy (spongy) on palpation",
+              "correct": true
+            },
+            {
+              "text": "Firm, nontender subcutaneous nodule over the right olecranon",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Cues of inflammatory (autoimmune) arthritis:</b><br><br><b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.<br><br><b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides (MCP, PIP, wrists). Warmth and tenderness show active synovitis.<br><br><b>Boggy joints:</b> a soft, spongy feel comes from thickened, inflamed synovium and joint fluid. Osteoarthritis joints feel hard and bony.<br><br><b>Systemic signs:</b> fatigue, low-grade fever and weight loss reflect circulating inflammatory cytokines (TNF-α, IL-6). RA is a systemic disease, not only a joint disease.<br><br><b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.<br><br><b>Not cues:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "ra_nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">54-year-old female client referred by her primary care provider to the rheumatology clinic. Reports 4 months of pain and swelling in both hands and wrists, with morning stiffness that lasts about 2 hours: “My hands feel like they are stuck in tight gloves until lunchtime.” Has trouble opening jars and doing up buttons. Reports fatigue, needing a nap most afternoons, feeling feverish at times, and an unintended weight loss of 3 kg. Takes ibuprofen 400 mg three times daily with partial relief. Medical history: hypertension (amlodipine 5 mg daily); menopause at age 50. Smokes 20 cigarettes per day for 30 years; drinks 1 to 2 glasses of wine most evenings. Works as a bank teller. Her mother had “arthritis in her knees” in her 70s.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0920:</span><span class=\"nurse-note-text\">Both wrists and the 2nd and 3rd metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints of both hands are swollen, warm, and tender, and feel boggy (spongy) on palpation. Distal interphalangeal (DIP) joints are not swollen. Unable to make a full fist; grip weak bilaterally. Firm, nontender, movable 1-cm subcutaneous nodule over the right olecranon. Right knee: crepitus on flexion, no warmth or effusion; client reports the knee “aches after long walks” since a soccer injury at age 30. Skin intact, no rash. Lungs clear. Pain in the hands rated 6/10.</span></p>"
+            },
+            {
+              "id": "ra_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in an outpatient rheumatology clinic is caring for a 54-year-old female client with pain and swelling in both hands."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse prepares to answer the client's question about how her condition differs from other bone and joint disorders. For each finding, click to specify whether it is consistent with <b>rheumatoid arthritis</b>, <b>osteoarthritis</b>, or <b>osteomyelitis</b>. Each finding may support more than one condition.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Morning stiffness lasting longer than 1 hour",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Stiffness lasting less than 30 minutes after rest; pain worse with use and relieved by rest",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Symmetric swelling of the MCP and PIP joints of both hands",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hard, bony enlargement of the DIP joints (Heberden nodes)",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Positive rheumatoid factor and anti-CCP antibodies",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Elevated ESR and C-reactive protein",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "text": "Elevated WBC count and a bone culture growing Staphylococcus aureus",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Joint-space narrowing on X-ray",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "Osteophytes (bone spurs) and subchondral sclerosis on X-ray",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Sequestrum (dead bone) on imaging and a draining sinus tract",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Rheumatoid arthritis",
+              "Osteoarthritis",
+              "Osteomyelitis"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1400, the Laboratory Results and the Diagnostic Results.",
+          "explanation": "<b>Rheumatoid arthritis (RA)</b> is a systemic autoimmune disease of the synovium. Long morning stiffness (over 1 hour), symmetric swelling of small joints (MCP, PIP, wrists), positive rheumatoid factor and especially <b>anti-CCP antibodies</b> (highly specific for RA) are typical. Inflammation raises the <b>ESR and CRP</b>. X-rays show periarticular osteopenia, uniform <b>joint-space narrowing</b> and marginal erosions (as in this client's hands).<br><br><b>Osteoarthritis (OA)</b> is a degenerative disease of articular cartilage, not an autoimmune one. Stiffness after rest is brief (under 30 minutes), and pain worsens with use and eases with rest. Bony enlargement of the DIP joints (<b>Heberden nodes</b>) and PIP joints (Bouchard nodes) is typical. ESR and CRP are usually normal and serology is negative. X-rays show uneven <b>joint-space narrowing</b>, <b>osteophytes</b> and subchondral sclerosis (as in this client's right knee).<br><br><b>Osteomyelitis</b> is an infection of bone, most often by <i>Staphylococcus aureus</i>, spread through the blood or from an open fracture, surgery or a nearby wound. Infection causes fever, an elevated <b>WBC count</b>, and raised <b>ESR and CRP</b> (used to follow the response to antibiotics). A bone biopsy and culture identify the organism. In chronic osteomyelitis, dead bone (<b>sequestrum</b>) is walled off by new bone (involucrum), and pus may drain through a <b>sinus tract</b> to the skin.<br><br><b>Shared findings:</b> ESR and CRP rise with inflammation from any cause (RA and osteomyelitis). Joint-space narrowing occurs in both RA and OA, because both destroy articular cartilage, by different mechanisms."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "ra_nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">54-year-old female client referred by her primary care provider to the rheumatology clinic. Reports 4 months of pain and swelling in both hands and wrists, with morning stiffness that lasts about 2 hours: “My hands feel like they are stuck in tight gloves until lunchtime.” Has trouble opening jars and doing up buttons. Reports fatigue, needing a nap most afternoons, feeling feverish at times, and an unintended weight loss of 3 kg. Takes ibuprofen 400 mg three times daily with partial relief. Medical history: hypertension (amlodipine 5 mg daily); menopause at age 50. Smokes 20 cigarettes per day for 30 years; drinks 1 to 2 glasses of wine most evenings. Works as a bank teller. Her mother had “arthritis in her knees” in her 70s.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0920:</span><span class=\"nurse-note-text\">Both wrists and the 2nd and 3rd metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints of both hands are swollen, warm, and tender, and feel boggy (spongy) on palpation. Distal interphalangeal (DIP) joints are not swollen. Unable to make a full fist; grip weak bilaterally. Firm, nontender, movable 1-cm subcutaneous nodule over the right olecranon. Right knee: crepitus on flexion, no warmth or effusion; client reports the knee “aches after long walks” since a soccer injury at age 30. Skin intact, no rash. Lungs clear. Pain in the hands rated 6/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1400:</span><span class=\"nurse-note-text\">Client returns to review her laboratory and X-ray results with the rheumatologist and the nurse. Asks, “My mother had arthritis too. Is this the same thing she had?”</span></p>"
+            },
+            {
+              "id": "ra_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">428 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Anti-cyclic citrullinated peptide (anti-CCP) antibodies</b><br>&lt; 20 U/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">210 U/mL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Female: 155–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, both hands and wrists:</b> periarticular osteopenia; symmetric, uniform joint-space narrowing of the 2nd and 3rd MCP and PIP joints and both wrists; marginal erosions at the 2nd and 3rd metacarpal heads bilaterally. No osteophytes. DIP joints normal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\"><b>X-ray, right knee:</b> narrowing of the medial joint space with osteophytes (bone spurs) at the joint margins and subchondral sclerosis. No erosions, effusion, or fracture.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an outpatient rheumatology clinic is caring for a 54-year-old female client with pain and swelling in both hands."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client's hand and wrist findings are most consistent with [[drop0]], as evidenced by [[drop1]]. Her right knee findings are most consistent with [[drop2]]. In her hands, joint destruction is caused by [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "gout",
+                    "correct": false
+                  },
+                  {
+                    "text": "osteoarthritis",
+                    "correct": false
+                  },
+                  {
+                    "text": "rheumatoid arthritis",
+                    "correct": true
+                  },
+                  {
+                    "text": "osteomyelitis",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the 30 pack-year smoking history",
+                    "correct": false
+                  },
+                  {
+                    "text": "a normal uric acid level",
+                    "correct": false
+                  },
+                  {
+                    "text": "symmetric MCP and PIP synovitis, a positive anti-CCP, and marginal erosions",
+                    "correct": true
+                  },
+                  {
+                    "text": "osteophytes and subchondral sclerosis",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "osteoarthritis",
+                    "correct": true
+                  },
+                  {
+                    "text": "rheumatoid arthritis",
+                    "correct": false
+                  },
+                  {
+                    "text": "osteomyelitis",
+                    "correct": false
+                  },
+                  {
+                    "text": "gout",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "bacterial infection spreading through the bone",
+                    "correct": false
+                  },
+                  {
+                    "text": "urate crystals deposited in the joint",
+                    "correct": false
+                  },
+                  {
+                    "text": "mechanical wear of cartilage with bone spur formation",
+                    "correct": false
+                  },
+                  {
+                    "text": "inflamed synovium forming pannus that erodes cartilage and bone",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "",
+          "explanation": "<b>Rheumatoid arthritis of the hands and wrists:</b> symmetric synovitis of the MCP and PIP joints and wrists, a strongly positive anti-CCP (210 U/mL) and rheumatoid factor, raised ESR and CRP, anemia of chronic inflammation (Hgb 108 g/L), and marginal erosions on X-ray. Smoking is a risk factor for RA but is not evidence that she has it. A normal uric acid argues against gout but does not show RA. Osteophytes and subchondral sclerosis are OA findings.<br><br><b>Osteoarthritis of the right knee:</b> one weight-bearing joint, a previous injury, pain after use, crepitus without warmth or effusion, and osteophytes with subchondral sclerosis on X-ray. A client can have both diseases; her mother's knee arthritis was most likely OA too, which answers her question.<br><br><b>How RA destroys joints:</b> autoreactive T cells and B cells (producing rheumatoid factor and anti-CCP) drive inflammation of the synovium. The synovium thickens into <b>pannus</b>, granulation tissue that releases enzymes and activates osteoclasts, eroding cartilage and the bone at the joint margins. Without early treatment this leads to permanent deformities (ulnar deviation, swan-neck and boutonnière deformities) and loss of hand function, which is why disease-modifying treatment is started promptly.<br><br><b>Why not the others:</b> mechanical wear with bone spurs is OA; urate crystals cause gout; bacterial infection of bone is osteomyelitis."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "ra_nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">54-year-old female client referred by her primary care provider to the rheumatology clinic. Reports 4 months of pain and swelling in both hands and wrists, with morning stiffness that lasts about 2 hours: “My hands feel like they are stuck in tight gloves until lunchtime.” Has trouble opening jars and doing up buttons. Reports fatigue, needing a nap most afternoons, feeling feverish at times, and an unintended weight loss of 3 kg. Takes ibuprofen 400 mg three times daily with partial relief. Medical history: hypertension (amlodipine 5 mg daily); menopause at age 50. Smokes 20 cigarettes per day for 30 years; drinks 1 to 2 glasses of wine most evenings. Works as a bank teller. Her mother had “arthritis in her knees” in her 70s.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0920:</span><span class=\"nurse-note-text\">Both wrists and the 2nd and 3rd metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints of both hands are swollen, warm, and tender, and feel boggy (spongy) on palpation. Distal interphalangeal (DIP) joints are not swollen. Unable to make a full fist; grip weak bilaterally. Firm, nontender, movable 1-cm subcutaneous nodule over the right olecranon. Right knee: crepitus on flexion, no warmth or effusion; client reports the knee “aches after long walks” since a soccer injury at age 30. Skin intact, no rash. Lungs clear. Pain in the hands rated 6/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1400:</span><span class=\"nurse-note-text\">Client returns to review her laboratory and X-ray results with the rheumatologist and the nurse. Asks, “My mother had arthritis too. Is this the same thing she had?”</span></p>"
+            },
+            {
+              "id": "ra_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">428 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Anti-cyclic citrullinated peptide (anti-CCP) antibodies</b><br>&lt; 20 U/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">210 U/mL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Female: 155–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, both hands and wrists:</b> periarticular osteopenia; symmetric, uniform joint-space narrowing of the 2nd and 3rd MCP and PIP joints and both wrists; marginal erosions at the 2nd and 3rd metacarpal heads bilaterally. No osteophytes. DIP joints normal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\"><b>X-ray, right knee:</b> narrowing of the medial joint space with osteophytes (bone spurs) at the joint margins and subchondral sclerosis. No erosions, effusion, or fracture.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an outpatient rheumatology clinic is caring for a 54-year-old female client with pain and swelling in both hands."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "The nurse plans teaching for the client. Which instructions should the nurse include? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Rest the inflamed joints in a flexed position supported by pillows",
+              "correct": false
+            },
+            {
+              "text": "Take methotrexate once a week on the same day, using a calendar or pill organizer",
+              "correct": true
+            },
+            {
+              "text": "Expect methotrexate to relieve the joint pain within 2 to 3 days",
+              "correct": false
+            },
+            {
+              "text": "Avoid alcohol while taking methotrexate",
+              "correct": true
+            },
+            {
+              "text": "Report fever, sore throat, mouth sores, unusual bruising, or a new dry cough right away",
+              "correct": true
+            },
+            {
+              "text": "Stop taking prednisone as soon as the joints feel better",
+              "correct": false
+            },
+            {
+              "text": "Take a warm shower or use warm, moist heat in the morning to ease stiffness",
+              "correct": true
+            },
+            {
+              "text": "Live vaccines are safe to receive while taking methotrexate",
+              "correct": false
+            },
+            {
+              "text": "Use large joints and assistive devices to protect the small joints of the hands, and wear the resting splints at night",
+              "correct": true
+            },
+            {
+              "text": "Stopping smoking can reduce RA activity and improve the response to treatment",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1430 and the Orders.",
+          "explanation": "<b>Weekly methotrexate:</b> for RA, methotrexate is taken <b>once a week</b>. Taking it daily by mistake is a well-known, sometimes fatal error, so a fixed day and a calendar or pill organizer are taught from the start. Folic acid reduces mouth sores, nausea and liver enzyme rises.<br><br><b>Alcohol:</b> methotrexate and alcohol are both toxic to the liver, so alcohol should be avoided (the client drinks most evenings).<br><br><b>Warning signs:</b> methotrexate can suppress the bone marrow (infection, bleeding), cause mucositis, and rarely cause pneumonitis (dry cough, shortness of breath). These are reported promptly.<br><br><b>Heat and joint protection:</b> warm, moist heat eases morning stiffness. Using larger joints (carrying a bag on the forearm), jar openers and built-up handles, and resting splints at night protect inflamed joints and keep them in a functional position. Balancing rest with gentle range-of-motion exercise maintains function.<br><br><b>Smoking:</b> smoking increases RA activity and the production of anti-CCP antibodies, and lowers the response to methotrexate. It is also a risk factor for osteoporosis.<br><br><b>Incorrect:</b> resting joints flexed on pillows leads to flexion contractures. Methotrexate takes about 6 to 12 weeks to work, which is why prednisone is used as a short bridge. Prednisone must be tapered as prescribed, never stopped suddenly (adrenal insufficiency). Live vaccines are avoided during immunosuppressive therapy; inactivated and recombinant vaccines (influenza, pneumococcal, recombinant zoster) are given."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "ra_nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">54-year-old female client referred by her primary care provider to the rheumatology clinic. Reports 4 months of pain and swelling in both hands and wrists, with morning stiffness that lasts about 2 hours: “My hands feel like they are stuck in tight gloves until lunchtime.” Has trouble opening jars and doing up buttons. Reports fatigue, needing a nap most afternoons, feeling feverish at times, and an unintended weight loss of 3 kg. Takes ibuprofen 400 mg three times daily with partial relief. Medical history: hypertension (amlodipine 5 mg daily); menopause at age 50. Smokes 20 cigarettes per day for 30 years; drinks 1 to 2 glasses of wine most evenings. Works as a bank teller. Her mother had “arthritis in her knees” in her 70s.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0920:</span><span class=\"nurse-note-text\">Both wrists and the 2nd and 3rd metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints of both hands are swollen, warm, and tender, and feel boggy (spongy) on palpation. Distal interphalangeal (DIP) joints are not swollen. Unable to make a full fist; grip weak bilaterally. Firm, nontender, movable 1-cm subcutaneous nodule over the right olecranon. Right knee: crepitus on flexion, no warmth or effusion; client reports the knee “aches after long walks” since a soccer injury at age 30. Skin intact, no rash. Lungs clear. Pain in the hands rated 6/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1400:</span><span class=\"nurse-note-text\">Client returns to review her laboratory and X-ray results with the rheumatologist and the nurse. Asks, “My mother had arthritis too. Is this the same thing she had?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1430:</span><span class=\"nurse-note-text\">The rheumatologist confirms a diagnosis of seropositive rheumatoid arthritis of the hands and wrists, and osteoarthritis of the right knee. Treatment plan discussed (see Orders). Baseline CBC, ALT, albumin, creatinine, hepatitis B and C serology and chest X-ray are normal. Client states, “I just want my hands back. I can’t afford to lose my job.”</span></p>"
+            },
+            {
+              "id": "ra_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">428 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Anti-cyclic citrullinated peptide (anti-CCP) antibodies</b><br>&lt; 20 U/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">210 U/mL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Female: 155–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, both hands and wrists:</b> periarticular osteopenia; symmetric, uniform joint-space narrowing of the 2nd and 3rd MCP and PIP joints and both wrists; marginal erosions at the 2nd and 3rd metacarpal heads bilaterally. No osteophytes. DIP joints normal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\"><b>X-ray, right knee:</b> narrowing of the medial joint space with osteophytes (bone spurs) at the joint margins and subchondral sclerosis. No erosions, effusion, or fracture.</span></p>"
+            },
+            {
+              "id": "ra_ord",
+              "title": "Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1430:</span><span class=\"nurse-note-text\">Methotrexate 15 mg PO once <b>weekly</b>, every Monday.<br>Folic acid 1 mg PO once daily.<br>Prednisone 10 mg PO once daily with breakfast for 6 weeks, then taper as directed (until methotrexate takes effect).<br>CBC, ALT, albumin and creatinine every 4 weeks for 3 months, then every 8 to 12 weeks.<br>Calcium 1,200 mg/day (diet plus supplement) and vitamin D<sub>3</sub> 1,000 IU PO daily.<br>Bone mineral density (DEXA) scan.<br>Occupational therapy (joint protection, resting wrist-hand splints) and physiotherapy referrals.<br>Smoking cessation counselling.<br>Vaccines: pneumococcal, recombinant zoster, and annual inactivated influenza.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an outpatient rheumatology clinic is caring for a 54-year-old female client with pain and swelling in both hands."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "The client is admitted to the medical unit. For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client at this time.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Measure the temperature rectally every 4 hours",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Hold all further doses of methotrexate",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Obtain the blood cultures before giving the first dose of piperacillin-tazobactam",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hold the prednisone until the infection has resolved",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Administer leucovorin (folinic acid) as prescribed",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Repeat the X-rays of both hands and wrists today",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Provide a soft toothbrush and saline mouth rinses",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Allow visitors with cold symptoms if they wear a mask",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated",
+              "Nonessential"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 26 0830, the Vital Signs and Laboratory Results from Day 26, and the Orders from Day 26.",
+          "explanation": "The client took methotrexate daily instead of weekly for 5 days and now has <b>methotrexate toxicity</b>: severe neutropenia (absolute neutrophils 0.4 × 10⁹/L), thrombocytopenia (74 × 10⁹/L), mucositis, raised ALT, and fever of 38.6° C with tachycardia (<b>febrile neutropenia</b>, a medical emergency).<br><br><b>Indicated:</b> stop the drug (hold methotrexate). Give <b>leucovorin</b>, the reduced folate that bypasses the enzyme methotrexate blocks, as the antidote. Draw <b>blood cultures before the first antibiotic dose</b> so the organism can be identified, then start the antibiotic without delay. A soft toothbrush and saline rinses reduce mucosal injury, bleeding and infection.<br><br><b>Contraindicated:</b> rectal temperatures can tear the mucosa and introduce bacteria in a neutropenic client with low platelets. Stopping long-term prednisone suddenly can cause adrenal crisis, and illness raises steroid needs; the order is to continue it. Visitors with respiratory infections should not visit a severely neutropenic client, even with a mask.<br><br><b>Nonessential:</b> repeat hand X-rays do not change the management of this emergency; joint damage is followed over months."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "ra_nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">54-year-old female client referred by her primary care provider to the rheumatology clinic. Reports 4 months of pain and swelling in both hands and wrists, with morning stiffness that lasts about 2 hours: “My hands feel like they are stuck in tight gloves until lunchtime.” Has trouble opening jars and doing up buttons. Reports fatigue, needing a nap most afternoons, feeling feverish at times, and an unintended weight loss of 3 kg. Takes ibuprofen 400 mg three times daily with partial relief. Medical history: hypertension (amlodipine 5 mg daily); menopause at age 50. Smokes 20 cigarettes per day for 30 years; drinks 1 to 2 glasses of wine most evenings. Works as a bank teller. Her mother had “arthritis in her knees” in her 70s.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0920:</span><span class=\"nurse-note-text\">Both wrists and the 2nd and 3rd metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints of both hands are swollen, warm, and tender, and feel boggy (spongy) on palpation. Distal interphalangeal (DIP) joints are not swollen. Unable to make a full fist; grip weak bilaterally. Firm, nontender, movable 1-cm subcutaneous nodule over the right olecranon. Right knee: crepitus on flexion, no warmth or effusion; client reports the knee “aches after long walks” since a soccer injury at age 30. Skin intact, no rash. Lungs clear. Pain in the hands rated 6/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1400:</span><span class=\"nurse-note-text\">Client returns to review her laboratory and X-ray results with the rheumatologist and the nurse. Asks, “My mother had arthritis too. Is this the same thing she had?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1430:</span><span class=\"nurse-note-text\">The rheumatologist confirms a diagnosis of seropositive rheumatoid arthritis of the hands and wrists, and osteoarthritis of the right knee. Treatment plan discussed (see Orders). Baseline CBC, ALT, albumin, creatinine, hepatitis B and C serology and chest X-ray are normal. Client states, “I just want my hands back. I can’t afford to lose my job.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 26 0830:</span><span class=\"nurse-note-text\">Client arrives at the clinic without an appointment, reporting a sore throat, painful mouth sores, and feeling hot and shaky since yesterday. Oral mucosa has several shallow ulcers; gums bleed easily. She brings her pill bottles: the pharmacy changed the methotrexate tablet brand, and she says she has taken methotrexate 15 mg “every morning with my prednisone” for the past 5 days. Last dose at 0700 today. Provider notified; client admitted to the medical unit (see Orders).</span></p>"
+            },
+            {
+              "id": "ra_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 26 0830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 26 0845</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">428 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Anti-cyclic citrullinated peptide (anti-CCP) antibodies</b><br>&lt; 20 U/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">210 U/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Female: 155–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, both hands and wrists:</b> periarticular osteopenia; symmetric, uniform joint-space narrowing of the 2nd and 3rd MCP and PIP joints and both wrists; marginal erosions at the 2nd and 3rd metacarpal heads bilaterally. No osteophytes. DIP joints normal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\"><b>X-ray, right knee:</b> narrowing of the medial joint space with osteophytes (bone spurs) at the joint margins and subchondral sclerosis. No erosions, effusion, or fracture.</span></p>"
+            },
+            {
+              "id": "ra_ord",
+              "title": "Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1430:</span><span class=\"nurse-note-text\">Methotrexate 15 mg PO once <b>weekly</b>, every Monday.<br>Folic acid 1 mg PO once daily.<br>Prednisone 10 mg PO once daily with breakfast for 6 weeks, then taper as directed (until methotrexate takes effect).<br>CBC, ALT, albumin and creatinine every 4 weeks for 3 months, then every 8 to 12 weeks.<br>Calcium 1,200 mg/day (diet plus supplement) and vitamin D<sub>3</sub> 1,000 IU PO daily.<br>Bone mineral density (DEXA) scan.<br>Occupational therapy (joint protection, resting wrist-hand splints) and physiotherapy referrals.<br>Smoking cessation counselling.<br>Vaccines: pneumococcal, recombinant zoster, and annual inactivated influenza.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 26 0900:</span><span class=\"nurse-note-text\">Admit to the medical unit, private room.<br>Hold methotrexate.<br>Leucovorin (folinic acid) 15 mg IV every 6 hours.<br>Blood cultures × 2, then piperacillin-tazobactam 4.5 g IV every 6 hours.<br>Continue prednisone 10 mg PO once daily.<br>0.9% sodium chloride IV at 100 mL/h.<br>CBC, ALT and creatinine daily.<br>Saline mouth rinses every 4 hours while awake.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an outpatient rheumatology clinic is caring for a 54-year-old female client with pain and swelling in both hands."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding at the 6-month follow-up, click to specify whether it shows that an <b>expected outcome has been met</b> or that it <b>requires follow-up</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Morning stiffness lasting about 15 minutes",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Lumbar spine T-score −2.6",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Swollen joint count 1, down from 10",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Smokes 10 cigarettes per day",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "CRP 4 mg/L and ESR 14 mm/h",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I’ll stop the methotrexate when I finish this bottle.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Absolute neutrophils 3.8 × 10⁹/L and ALT 28 IU/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I take my methotrexate every Monday, and the pill organizer means I can’t take it twice.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hemoglobin 128 g/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Expected outcome met",
+              "Requires follow-up"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 180 0900 and 0920, the Vital Signs and Laboratory Results from Day 180, and the Diagnostic Results from Day 180.",
+          "explanation": "<b>Expected outcomes met:</b> short morning stiffness, one swollen joint (was 10), and normal CRP and ESR show that the RA is close to remission on methotrexate. Hemoglobin has risen from 108 to 128 g/L as the anemia of chronic inflammation resolves. Normal neutrophils and ALT show that the bone marrow and liver have recovered and that weekly methotrexate is tolerated. Her statement about taking it every Monday with a pill organizer shows she understands the weekly schedule.<br><br><b>Requires follow-up:</b><br><br><b>Osteoporosis:</b> a T-score of −2.5 or lower is osteoporosis. RA itself, glucocorticoid use, postmenopausal status, smoking and alcohol all reduce bone density. The nurse reports the result so the provider can consider bone-protecting medication (for example, a bisphosphonate), and reinforces calcium, vitamin D, weight-bearing exercise and fall prevention.<br><br><b>Smoking:</b> she has halved her smoking, which is progress, but continued smoking worsens RA and bone loss. Ongoing cessation support is needed.<br><br><b>Plan to stop methotrexate:</b> RA is a chronic disease. Methotrexate controls it but does not cure it; stopping it on her own would likely cause a flare and further joint damage. Any change must be decided with the rheumatologist."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "ra_nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">54-year-old female client referred by her primary care provider to the rheumatology clinic. Reports 4 months of pain and swelling in both hands and wrists, with morning stiffness that lasts about 2 hours: “My hands feel like they are stuck in tight gloves until lunchtime.” Has trouble opening jars and doing up buttons. Reports fatigue, needing a nap most afternoons, feeling feverish at times, and an unintended weight loss of 3 kg. Takes ibuprofen 400 mg three times daily with partial relief. Medical history: hypertension (amlodipine 5 mg daily); menopause at age 50. Smokes 20 cigarettes per day for 30 years; drinks 1 to 2 glasses of wine most evenings. Works as a bank teller. Her mother had “arthritis in her knees” in her 70s.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0920:</span><span class=\"nurse-note-text\">Both wrists and the 2nd and 3rd metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints of both hands are swollen, warm, and tender, and feel boggy (spongy) on palpation. Distal interphalangeal (DIP) joints are not swollen. Unable to make a full fist; grip weak bilaterally. Firm, nontender, movable 1-cm subcutaneous nodule over the right olecranon. Right knee: crepitus on flexion, no warmth or effusion; client reports the knee “aches after long walks” since a soccer injury at age 30. Skin intact, no rash. Lungs clear. Pain in the hands rated 6/10.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1400:</span><span class=\"nurse-note-text\">Client returns to review her laboratory and X-ray results with the rheumatologist and the nurse. Asks, “My mother had arthritis too. Is this the same thing she had?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1430:</span><span class=\"nurse-note-text\">The rheumatologist confirms a diagnosis of seropositive rheumatoid arthritis of the hands and wrists, and osteoarthritis of the right knee. Treatment plan discussed (see Orders). Baseline CBC, ALT, albumin, creatinine, hepatitis B and C serology and chest X-ray are normal. Client states, “I just want my hands back. I can’t afford to lose my job.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 26 0830:</span><span class=\"nurse-note-text\">Client arrives at the clinic without an appointment, reporting a sore throat, painful mouth sores, and feeling hot and shaky since yesterday. Oral mucosa has several shallow ulcers; gums bleed easily. She brings her pill bottles: the pharmacy changed the methotrexate tablet brand, and she says she has taken methotrexate 15 mg “every morning with my prednisone” for the past 5 days. Last dose at 0700 today. Provider notified; client admitted to the medical unit (see Orders).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 180 0900:</span><span class=\"nurse-note-text\">Six-month follow-up. Methotrexate was restarted at 15 mg once weekly (Mondays) after her blood counts recovered, with pharmacist teaching and a weekly pill organizer; prednisone was tapered off. Morning stiffness now lasts about 15 minutes. Swollen joint count 1 (right 2nd MCP), was 10 on Day 1. Working full time. Reports no alcohol since Day 26. Now smokes 10 cigarettes per day. Bone mineral density results reviewed (see Diagnostic Results).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 180 0920:</span><span class=\"nurse-note-text\">Client states: “I take my methotrexate every Monday, and the pill organizer means I can’t take it twice.” Later adds: “My hands are so much better that I’ll stop the methotrexate when I finish this bottle. I don’t want to take it forever.”</span></p>"
+            },
+            {
+              "id": "ra_vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 26 0830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 180 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 26 0845</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 180 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.4 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">428 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">262 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Anti-cyclic citrullinated peptide (anti-CCP) antibodies</b><br>&lt; 20 U/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">210 U/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Female: 155–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">66 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ra_dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, both hands and wrists:</b> periarticular osteopenia; symmetric, uniform joint-space narrowing of the 2nd and 3rd MCP and PIP joints and both wrists; marginal erosions at the 2nd and 3rd metacarpal heads bilaterally. No osteophytes. DIP joints normal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\"><b>X-ray, right knee:</b> narrowing of the medial joint space with osteophytes (bone spurs) at the joint margins and subchondral sclerosis. No erosions, effusion, or fracture.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 180 0800:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −2.6; left femoral neck T-score −2.1.</span></p>"
+            },
+            {
+              "id": "ra_ord",
+              "title": "Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1430:</span><span class=\"nurse-note-text\">Methotrexate 15 mg PO once <b>weekly</b>, every Monday.<br>Folic acid 1 mg PO once daily.<br>Prednisone 10 mg PO once daily with breakfast for 6 weeks, then taper as directed (until methotrexate takes effect).<br>CBC, ALT, albumin and creatinine every 4 weeks for 3 months, then every 8 to 12 weeks.<br>Calcium 1,200 mg/day (diet plus supplement) and vitamin D<sub>3</sub> 1,000 IU PO daily.<br>Bone mineral density (DEXA) scan.<br>Occupational therapy (joint protection, resting wrist-hand splints) and physiotherapy referrals.<br>Smoking cessation counselling.<br>Vaccines: pneumococcal, recombinant zoster, and annual inactivated influenza.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 26 0900:</span><span class=\"nurse-note-text\">Admit to the medical unit, private room.<br>Hold methotrexate.<br>Leucovorin (folinic acid) 15 mg IV every 6 hours.<br>Blood cultures × 2, then piperacillin-tazobactam 4.5 g IV every 6 hours.<br>Continue prednisone 10 mg PO once daily.<br>0.9% sodium chloride IV at 100 mL/h.<br>CBC, ALT and creatinine daily.<br>Saline mouth rinses every 4 hours while awake.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an outpatient rheumatology clinic is caring for a 54-year-old female client with pain and swelling in both hands."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "54-year-old female client with symmetric hand and wrist synovitis diagnosed as seropositive rheumatoid arthritis (with osteoarthritis of the right knee), compared with osteoarthritis and osteomyelitis; methotrexate teaching, methotrexate toxicity with febrile neutropenia after daily dosing, and evaluation at 6 months including osteoporosis.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 for the Unit 6 review class; please review before using it with students:\nScreen 2: anti-CCP has no MCC reference range; the range used (< 20 U/mL) varies by laboratory.\nScreen 4: folic acid 1 mg daily is one common regimen (5 mg once weekly is also used in Canada); adjust to your course's reference.\nScreen 5: leucovorin dose/route and the antibiotic are examples; the key does not depend on them.\nScreen 6: osteoporosis after about 10 weeks of prednisone is attributed to several risk factors together; check the wording suits your teaching.",
+      "flaggedAt": "2026-10-14"
+    }
   }
 ];
 
