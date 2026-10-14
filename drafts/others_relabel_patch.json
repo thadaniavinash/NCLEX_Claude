@@ -1,0 +1,857 @@
+[
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "cardio-case-1",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782149061171",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782149061171",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782149061171",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782149061171",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782159166328",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782159166328",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782159166328",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1782159166328",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800002",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800002",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800002",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800002",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800004",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1017"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800004",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 4 (Neoplasia)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800004",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 4 (Neoplasia)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800004",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 4 (Neoplasia)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800005",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1017"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800005",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 5 (Integumentary Disorders and Burns)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800005",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 5 (Integumentary Disorders and Burns)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800005",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 5 (Integumentary Disorders and Burns)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800006",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800006",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800006",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800006",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800007",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1017"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800007",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Musculoskeletal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800007",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Musculoskeletal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800007",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Musculoskeletal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800008",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800008",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800008",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800008",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800009",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800009",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800009",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800009",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800010",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800010",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 1 (Blood Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800010",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 1 (Blood Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800010",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 1 (Blood Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800011",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800011",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 7 (Urinary Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800011",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 7 (Urinary Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800011",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 7 (Urinary Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800012",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800012",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800012",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800012",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800013",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800013",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800013",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800013",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 2 (Cardiovascular Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800014",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800014",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 4 (Inflammation and Immune Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800014",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 4 (Inflammation and Immune Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800014",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 4 (Inflammation and Immune Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800015",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1017"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800015",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 11 (Endocrine Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800015",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 11 (Endocrine Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800015",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 11 (Endocrine Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800016",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800016",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800016",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800016",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Gastrointestinal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800017",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800017",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 9 (Reproductive Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800017",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 9 (Reproductive Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800017",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 9 (Reproductive Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800018",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1017"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800018",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Musculoskeletal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800018",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Musculoskeletal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800018",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 6 (Musculoskeletal Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800019",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1017"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800019",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 7 (Neurological Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800019",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 7 (Neurological Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800019",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 7 (Neurological Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800020",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1021"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800020",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800020",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800020",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 3 (Respiratory Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800021",
+  "path": [
+   "course"
+  ],
+  "before": "Others",
+  "after": "NURS 1017"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800021",
+  "path": [
+   "unit"
+  ],
+  "before": "Others",
+  "after": "Unit 11 (Endocrine Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800021",
+  "path": [
+   "topic"
+  ],
+  "before": "Others",
+  "after": "Unit 11 (Endocrine Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790776800021",
+  "path": [
+   "disorder"
+  ],
+  "before": "Others",
+  "after": "Unit 11 (Endocrine Disorders)"
+ },
+ {
+  "row": "cases",
+  "id": "case_1790769567553",
+  "path": [
+   "draft"
+  ],
+  "before": true,
+  "after": false
+ },
+ {
+  "row": "cases",
+  "id": "case_1782149061171",
+  "path": [
+   "draft"
+  ],
+  "before": null,
+  "after": true
+ },
+ {
+  "row": "cases",
+  "id": "case_1782159166328",
+  "path": [
+   "draft"
+  ],
+  "before": null,
+  "after": true
+ }
+]
