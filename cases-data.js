@@ -28224,6 +28224,1110 @@ window.NCLEX_CASES = [
       "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3–4: the case includes an indirect suicidal statement and the Canadian 9-8-8 Suicide Crisis Helpline; consider mentioning this to the class before using it.\nScreen 2: the diagnostic criteria are described as in the ACR 2010/2016 criteria (tender points no longer required).",
       "flaggedAt": "2026-10-14"
     }
+  },
+  {
+    "id": "case_1782400000008",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 8",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which findings are consistent with acute gouty arthritis? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "No joint swelling or morning stiffness in the hands",
+              "correct": false
+            },
+            {
+              "text": "Attack began after drinking beer and eating seafood",
+              "correct": true
+            },
+            {
+              "text": "Previous attacks that went away on their own in about a week",
+              "correct": true
+            },
+            {
+              "text": "Red, hot, swollen, shiny joint at the base of the right great toe",
+              "correct": true
+            },
+            {
+              "text": "SpO₂ 97% on room air",
+              "correct": false
+            },
+            {
+              "text": "Sudden, severe pain that woke him at 0300",
+              "correct": true
+            },
+            {
+              "text": "Firm, chalky nodule on the rim of the left ear",
+              "correct": true
+            },
+            {
+              "text": "Respiratory rate 18 breaths/min",
+              "correct": false
+            },
+            {
+              "text": "Cannot tolerate the bedsheet touching the toe",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Typical of acute gout:</b> attacks start suddenly, often at night, and reach maximal pain within 12 to 24 hours. The first metatarsophalangeal joint of the big toe is the classic site (<b>podagra</b>). The joint is red, hot, swollen and shiny and so tender that even a bedsheet hurts. Untreated attacks usually settle in 1 to 2 weeks, and the client is symptom-free between attacks.<br><br><b>Triggers:</b> alcohol (especially beer, which is rich in purines) and purine-rich foods such as shellfish and organ meats raise uric acid; dehydration, fasting and surgery can also trigger attacks.<br><br><b>Tophi:</b> firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.<br><br><b>Not cues:</b> the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0730:</span><span class=\"nurse-note-text\">Woke at 0300 with severe pain in his right big toe; says even the bedsheet touching it was unbearable. Pain 9/10. The joint at the base of the right great toe is red, hot, swollen, and shiny; he cannot bear weight on the foot. Attended a wedding yesterday, where he drank 6 beers and ate shrimp and other seafood. Had two similar attacks in the left big toe in the past year that went away on their own in about a week. Firm, chalky, nontender nodule on the rim of the left ear. Medical history: hypertension (hydrochlorothiazide 25 mg daily), obesity (weight 112 kg, BMI 35), chronic kidney disease. Drinks 2 cans of regular cola most days. Hands: no joint swelling; no morning stiffness.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0730</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/94 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in an urgent care clinic is caring for a 58-year-old male client with sudden, severe pain in his right foot."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "A hot, swollen joint can be gout or a joint infection. For each finding, click to specify whether it is consistent with <b>gout</b>, <b>septic arthritis</b>, or both. Each finding may support more than one condition.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Needle-shaped, negatively birefringent crystals in the joint fluid",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Red, hot, swollen, very painful single joint",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "Bacteria seen on Gram stain of the joint fluid",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Temperature 37.9° C and WBC 11.4 × 10⁹/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "Chalky nodules (tophi) on the ear",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Earlier attacks that settled on their own within about a week",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Joint fluid culture growing Staphylococcus aureus",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Gout",
+              "Septic arthritis"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Laboratory Results and the Diagnostic Results.",
+          "explanation": "<b>Both:</b> gout and septic arthritis can both produce a single red, hot, swollen, very painful joint with fever, a raised WBC count and raised CRP. Because an infected joint can be destroyed within days, joint fluid is aspirated to tell them apart; the two can also occur together.<br><br><b>Gout:</b> the diagnostic finding is <b>monosodium urate crystals</b>, needle-shaped and negatively birefringent under polarized light, inside neutrophils in the joint fluid. Tophi and earlier attacks that resolved on their own support gout. This client's joint fluid showed urate crystals and no organisms on Gram stain; the culture is pending.<br><br><b>Septic arthritis:</b> bacteria on Gram stain or a positive culture (most often <i>Staphylococcus aureus</i>) confirm infection. Septic arthritis does not settle on its own and needs urgent treatment.<br><br><b>Note on uric acid:</b> his serum uric acid is high (528 µmol/L), but it can be normal during an acute attack, so a normal level does not rule out gout; the crystals do."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0730:</span><span class=\"nurse-note-text\">Woke at 0300 with severe pain in his right big toe; says even the bedsheet touching it was unbearable. Pain 9/10. The joint at the base of the right great toe is red, hot, swollen, and shiny; he cannot bear weight on the foot. Attended a wedding yesterday, where he drank 6 beers and ate shrimp and other seafood. Had two similar attacks in the left big toe in the past year that went away on their own in about a week. Firm, chalky, nontender nodule on the rim of the left ear. Medical history: hypertension (hydrochlorothiazide 25 mg daily), obesity (weight 112 kg, BMI 35), chronic kidney disease. Drinks 2 cans of regular cola most days. Hands: no joint swelling; no morning stiffness.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0730</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/94 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">528 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0845:</span><span class=\"nurse-note-text\"><b>Joint fluid, right first metatarsophalangeal joint (aspiration):</b> cloudy, yellow; WBC 24 × 10<sup>9</sup>/L, mostly neutrophils; <b>needle-shaped, negatively birefringent monosodium urate crystals</b> seen under polarized light. Gram stain: no organisms seen. Culture pending.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an urgent care clinic is caring for a 58-year-old male client with sudden, severe pain in his right foot."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Uric acid is the end product of the breakdown of [[drop0]]. Gout develops when [[drop1]]. The client's hydrochlorothiazide and chronic kidney disease raise his uric acid because they [[drop2]]. The nurse's priority at this time is the client's [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "glucose",
+                    "correct": false
+                  },
+                  {
+                    "text": "fatty acids",
+                    "correct": false
+                  },
+                  {
+                    "text": "amino acids",
+                    "correct": false
+                  },
+                  {
+                    "text": "purines",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "calcium deposits replace the synovium",
+                    "correct": false
+                  },
+                  {
+                    "text": "urate in body fluids exceeds its solubility and forms crystals in and around joints",
+                    "correct": true
+                  },
+                  {
+                    "text": "antibodies attack the joint cartilage",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "increase the absorption of purines from food",
+                    "correct": false
+                  },
+                  {
+                    "text": "increase the production of purines",
+                    "correct": false
+                  },
+                  {
+                    "text": "reduce the excretion of uric acid by the kidneys",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "chronic kidney disease",
+                    "correct": false
+                  },
+                  {
+                    "text": "impaired skin integrity",
+                    "correct": false
+                  },
+                  {
+                    "text": "risk for infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute pain",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "",
+          "explanation": "<b>Where uric acid comes from:</b> purines (from the body's own cell turnover and from foods such as organ meats, shellfish, some fish and beer) are broken down to uric acid, which is excreted mainly by the kidneys. About 90% of people with gout are <b>underexcreters</b> rather than overproducers.<br><br><b>Crystal formation:</b> when urate rises above its solubility (about 400 µmol/L), monosodium urate crystals form, more easily in cooler, peripheral joints such as the big toe and in acidic conditions. Shed crystals are engulfed by neutrophils and activate the inflammasome, releasing interleukin-1 and producing intense acute inflammation.<br><br><b>Contributing factors:</b> thiazide diuretics and kidney disease reduce uric acid excretion; obesity, alcohol and fructose (as in regular cola) increase uric acid.<br><br><b>Priority:</b> the attack causes severe pain (9/10) that prevents him from walking. Joint infection was made unlikely by the joint fluid (urate crystals, no organisms), his skin is intact, and his kidney disease is a long-term issue to follow up, not the immediate problem."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0730:</span><span class=\"nurse-note-text\">Woke at 0300 with severe pain in his right big toe; says even the bedsheet touching it was unbearable. Pain 9/10. The joint at the base of the right great toe is red, hot, swollen, and shiny; he cannot bear weight on the foot. Attended a wedding yesterday, where he drank 6 beers and ate shrimp and other seafood. Had two similar attacks in the left big toe in the past year that went away on their own in about a week. Firm, chalky, nontender nodule on the rim of the left ear. Medical history: hypertension (hydrochlorothiazide 25 mg daily), obesity (weight 112 kg, BMI 35), chronic kidney disease. Drinks 2 cans of regular cola most days. Hands: no joint swelling; no morning stiffness.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0730</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/94 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">528 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0845:</span><span class=\"nurse-note-text\"><b>Joint fluid, right first metatarsophalangeal joint (aspiration):</b> cloudy, yellow; WBC 24 × 10<sup>9</sup>/L, mostly neutrophils; <b>needle-shaped, negatively birefringent monosodium urate crystals</b> seen under polarized light. Gram stain: no organisms seen. Culture pending.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an urgent care clinic is caring for a 58-year-old male client with sudden, severe pain in his right foot."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which actions should the nurse include in the plan of care during the acute attack? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Massage the joint to disperse the crystals",
+              "correct": false
+            },
+            {
+              "text": "Use a bed cradle or footboard to keep the bedsheet off the toe",
+              "correct": true
+            },
+            {
+              "text": "Encourage 2 to 3 litres of fluid a day, unless the provider sets a limit",
+              "correct": true
+            },
+            {
+              "text": "Offer aspirin for the pain",
+              "correct": false
+            },
+            {
+              "text": "Rest and elevate the right foot",
+              "correct": true
+            },
+            {
+              "text": "Apply a heating pad to the toe",
+              "correct": false
+            },
+            {
+              "text": "Give the prescribed anti-inflammatory medication and reassess the pain",
+              "correct": true
+            },
+            {
+              "text": "Wrap the toe snugly in an elastic bandage",
+              "correct": false
+            },
+            {
+              "text": "Apply a cold pack wrapped in a cloth to the toe for 15 to 20 minutes at a time",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1000.",
+          "explanation": "<b>Correct:</b> rest and elevation reduce swelling and pain. Cold reduces inflammation and pain in an acute gout attack (wrapped, for limited periods to protect the skin). A bed cradle keeps the weight of the sheets off the exquisitely tender joint. Taking the prescribed medication early in the attack shortens it; the nurse reassesses pain afterward. Fluids help the kidneys excrete uric acid and reduce the risk of urate kidney stones; because he has chronic kidney disease, the nurse checks whether the provider has set a fluid limit.<br><br><b>Incorrect:</b> heat increases the inflammation of an acute attack. Massage or pressure on the joint is extremely painful and does not remove crystals. Aspirin (salicylate) can raise uric acid levels by competing with its excretion in the kidney, so it is avoided for gout pain. A snug bandage puts pressure on the swollen, tender joint."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0730:</span><span class=\"nurse-note-text\">Woke at 0300 with severe pain in his right big toe; says even the bedsheet touching it was unbearable. Pain 9/10. The joint at the base of the right great toe is red, hot, swollen, and shiny; he cannot bear weight on the foot. Attended a wedding yesterday, where he drank 6 beers and ate shrimp and other seafood. Had two similar attacks in the left big toe in the past year that went away on their own in about a week. Firm, chalky, nontender nodule on the rim of the left ear. Medical history: hypertension (hydrochlorothiazide 25 mg daily), obesity (weight 112 kg, BMI 35), chronic kidney disease. Drinks 2 cans of regular cola most days. Hands: no joint swelling; no morning stiffness.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Diagnosis of acute gout discussed with the client. The provider has prescribed an anti-inflammatory medication for the attack. Client asks what he can do at home to ease the pain.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0730</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/94 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">528 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0845:</span><span class=\"nurse-note-text\"><b>Joint fluid, right first metatarsophalangeal joint (aspiration):</b> cloudy, yellow; WBC 24 × 10<sup>9</sup>/L, mostly neutrophils; <b>needle-shaped, negatively birefringent monosodium urate crystals</b> seen under polarized light. Gram stain: no organisms seen. Culture pending.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an urgent care clinic is caring for a 58-year-old male client with sudden, severe pain in his right foot."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each instruction, click to specify whether it is <b>appropriate</b> or <b>not appropriate</b> to include in the client's teaching.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Take allopurinol every day, even when you have no pain",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Fast for a few days to lose weight quickly",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Limit beer and spirits, and avoid binge drinking",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Stop the allopurinol if your toe starts to hurt again",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Limit organ meats, shellfish, and sardines",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Replace regular cola and other sugar-sweetened drinks with water",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Stop taking allopurinol and call your provider right away if you develop a skin rash",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Avoid all milk products, because they contain purines",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Appropriate",
+              "Not appropriate"
+            ],
+            "firstColumnHeader": "Instruction"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 28 1000, the Diagnostic Results from Day 3, and the Vital Signs from Day 28.",
+          "explanation": "<b>Appropriate:</b> allopurinol lowers uric acid production and must be taken every day to prevent attacks and dissolve tophi; it does not relieve an attack. Beer and spirits raise uric acid; organ meats, shellfish and some oily fish are high in purines; fructose in sugar-sweetened drinks increases uric acid production. A rash on allopurinol can be the first sign of a rare but life-threatening hypersensitivity reaction (including Stevens-Johnson syndrome), so the drug is stopped and the rash reported at once.<br><br><b>Not appropriate:</b> fasting and crash diets raise uric acid (ketones compete with its excretion) and can trigger attacks; weight loss should be gradual. Attacks can still happen in the first months of urate-lowering therapy as crystals dissolve; stopping allopurinol during an attack makes urate levels swing and prolongs the problem, so the client calls the provider instead. Low-fat dairy products are low in purines and are associated with lower uric acid levels, so they are encouraged."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0730:</span><span class=\"nurse-note-text\">Woke at 0300 with severe pain in his right big toe; says even the bedsheet touching it was unbearable. Pain 9/10. The joint at the base of the right great toe is red, hot, swollen, and shiny; he cannot bear weight on the foot. Attended a wedding yesterday, where he drank 6 beers and ate shrimp and other seafood. Had two similar attacks in the left big toe in the past year that went away on their own in about a week. Firm, chalky, nontender nodule on the rim of the left ear. Medical history: hypertension (hydrochlorothiazide 25 mg daily), obesity (weight 112 kg, BMI 35), chronic kidney disease. Drinks 2 cans of regular cola most days. Hands: no joint swelling; no morning stiffness.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Diagnosis of acute gout discussed with the client. The provider has prescribed an anti-inflammatory medication for the attack. Client asks what he can do at home to ease the pain.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 28 1000:</span><span class=\"nurse-note-text\">Follow-up visit. The attack resolved in 5 days. The provider has started allopurinol 100 mg PO daily, to be increased gradually to lower his uric acid, and has replaced hydrochlorothiazide with another antihypertensive. The nurse begins teaching about preventing future attacks.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0730</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 28 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/94 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">528 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0845:</span><span class=\"nurse-note-text\"><b>Joint fluid, right first metatarsophalangeal joint (aspiration):</b> cloudy, yellow; WBC 24 × 10<sup>9</sup>/L, mostly neutrophils; <b>needle-shaped, negatively birefringent monosodium urate crystals</b> seen under polarized light. Gram stain: no organisms seen. Culture pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0900:</span><span class=\"nurse-note-text\"><b>Joint fluid culture:</b> no growth.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an urgent care clinic is caring for a 58-year-old male client with sudden, severe pain in his right foot."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Uric acid 352 µmol/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I still have 6 or 7 beers on Saturday nights.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "No further attacks in 3 months",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Tophus on the left ear slightly smaller",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Weight 107 kg, down from 112 kg",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I switched from cola to water and low-fat milk.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I take my allopurinol every morning.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Itchy red rash on both forearms for 2 days",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 120 1000 and 1015, the Vital Signs from Day 120, and the Laboratory Results from Day 120.",
+          "explanation": "<b>Effective:</b> a uric acid below 360 µmol/L is the usual treatment target, low enough for crystals to dissolve; the shrinking tophus shows this is happening. He has had no further attacks, is losing weight gradually, takes allopurinol daily, and has replaced sugary drinks.<br><br><b>Not effective:</b> binge drinking of beer raises uric acid and dehydrates him, and is a common trigger of attacks. The nurse reinforces limiting alcohol and explores support for cutting down. A new rash while taking allopurinol must not be ignored: as taught, the drug is held and the provider is notified the same day, because a rash can be the first sign of a serious hypersensitivity reaction. His kidney function remains reduced and continues to be monitored."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0730:</span><span class=\"nurse-note-text\">Woke at 0300 with severe pain in his right big toe; says even the bedsheet touching it was unbearable. Pain 9/10. The joint at the base of the right great toe is red, hot, swollen, and shiny; he cannot bear weight on the foot. Attended a wedding yesterday, where he drank 6 beers and ate shrimp and other seafood. Had two similar attacks in the left big toe in the past year that went away on their own in about a week. Firm, chalky, nontender nodule on the rim of the left ear. Medical history: hypertension (hydrochlorothiazide 25 mg daily), obesity (weight 112 kg, BMI 35), chronic kidney disease. Drinks 2 cans of regular cola most days. Hands: no joint swelling; no morning stiffness.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Diagnosis of acute gout discussed with the client. The provider has prescribed an anti-inflammatory medication for the attack. Client asks what he can do at home to ease the pain.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 28 1000:</span><span class=\"nurse-note-text\">Follow-up visit. The attack resolved in 5 days. The provider has started allopurinol 100 mg PO daily, to be increased gradually to lower his uric acid, and has replaced hydrochlorothiazide with another antihypertensive. The nurse begins teaching about preventing future attacks.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 120 1000:</span><span class=\"nurse-note-text\">Follow-up visit, 4 months after the first attack. No further attacks. Weight 107 kg (was 112 kg). Drinks about 2.5 L of water a day. Tophus on the left ear slightly smaller. Has had an itchy red rash on both forearms for 2 days and is still taking allopurinol.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 120 1015:</span><span class=\"nurse-note-text\">Client states: “I take my allopurinol every morning.” “I still have 6 or 7 beers on Saturday nights with my friends.” “I switched from cola to water and low-fat milk.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0730</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 28 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 120 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/94 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 120 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">528 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 µmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0845:</span><span class=\"nurse-note-text\"><b>Joint fluid, right first metatarsophalangeal joint (aspiration):</b> cloudy, yellow; WBC 24 × 10<sup>9</sup>/L, mostly neutrophils; <b>needle-shaped, negatively birefringent monosodium urate crystals</b> seen under polarized light. Gram stain: no organisms seen. Culture pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0900:</span><span class=\"nurse-note-text\"><b>Joint fluid culture:</b> no growth.</span></p>"
+            }
+          ],
+          "intro": "The nurse in an urgent care clinic is caring for a 58-year-old male client with sudden, severe pain in his right foot."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "58-year-old male client with hypertension on a thiazide, obesity and chronic kidney disease who has an acute gout attack of the right great toe after beer and seafood; gout vs septic arthritis (joint fluid crystals), purine metabolism and urate crystal formation, nursing care during the attack, prevention teaching for allopurinol and diet, and evaluation at 4 months.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nThe acute-attack medication is left generic (“an anti-inflammatory medication”) so no question depends on the provider's choice.\nScreen 4: fluids of 2 to 3 L/day are qualified by “unless the provider sets a limit” because of his kidney disease.\nScreen 6: the uric acid target (< 360 µmol/L) follows common guidelines.",
+      "flaggedAt": "2026-10-14"
+    }
+  },
+  {
+    "id": "case_1782400000009",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
+    "title": "NURS 1017 Unit 6 Case Study 9",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Which findings suggest an inflammatory cause of the client's back pain rather than a mechanical (strain) cause? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Blood pressure 124/78 mm Hg",
+              "correct": false
+            },
+            {
+              "text": "Aching deep in the buttocks that alternates between sides",
+              "correct": true
+            },
+            {
+              "text": "Pain where the Achilles tendons attach to both heels",
+              "correct": true
+            },
+            {
+              "text": "Back pain that improves with exercise and worsens with rest",
+              "correct": true
+            },
+            {
+              "text": "Wakes in the early morning hours with back pain and gets up to walk around",
+              "correct": true
+            },
+            {
+              "text": "No numbness or weakness in the legs",
+              "correct": false
+            },
+            {
+              "text": "Works in a warehouse",
+              "correct": false
+            },
+            {
+              "text": "Morning stiffness lasting about an hour that loosens with a hot shower and movement",
+              "correct": true
+            },
+            {
+              "text": "Painful, red eye with light sensitivity last year",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Inflammatory back pain</b> typically starts before age 40, comes on gradually, lasts more than 3 months, causes morning stiffness of 30 minutes or more, improves with exercise but not with rest, and wakes the person in the second half of the night. Mechanical back pain is the opposite: it worsens with activity and improves with rest.<br><br><b>Alternating buttock pain</b> points to inflammation of the sacroiliac joints (sacroiliitis), the hallmark of ankylosing spondylitis (AS).<br><br><b>Heel pain at the Achilles insertion</b> is enthesitis, inflammation where tendons and ligaments attach to bone, a key feature of the spondyloarthritis family.<br><br><b>Acute anterior uveitis</b> (painful red eye with light sensitivity) is the most common extra-articular feature of AS.<br><br><b>Not cues:</b> warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Reports 8 months of low back pain that came on gradually. His back is stiff for about an hour each morning and loosens up after a hot shower and moving around; it is worse after sitting for a long time and better with exercise. Wakes in the early morning hours with back pain and has to get up and walk around. Has aching deep in the buttocks, sometimes on the right and sometimes on the left. Pain and tenderness at the back of both heels where the Achilles tendons attach. Last year had a painful, red right eye with sensitivity to light that an eye doctor treated. Works in a warehouse; denies a back injury. No numbness or weakness in the legs; bladder and bowel function normal. Smokes 10 cigarettes a day. His father has had “a stiff back” for years. Reduced forward bending of the lower back; increase on the Schober test 2.5 cm (expected 5 cm or more). Chest expansion 4 cm.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 27-year-old male client with low back pain."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is most characteristic of <b>ankylosing spondylitis</b>, <b>rheumatoid arthritis</b>, or <b>systemic lupus erythematosus</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "HLA-B27 positive with a negative rheumatoid factor",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Antibodies to double-stranded DNA",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Symmetric swelling of the small joints of both hands with anti-CCP antibodies",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Sacroiliitis on X-ray or MRI",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Butterfly rash on the cheeks that worsens in the sun",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Vertebrae joined by bony bridges (“bamboo spine”)",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Firm nodules over the elbows with joint erosions of the hands",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Protein in the urine from immune complexes in the kidneys",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Ankylosing spondylitis",
+              "Rheumatoid arthritis",
+              "Systemic lupus erythematosus"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Laboratory Results, the Diagnostic Results, and the Nurses' Notes from Day 10 1000.",
+          "explanation": "<b>Ankylosing spondylitis (AS)</b> is a <b>seronegative spondyloarthritis</b>: rheumatoid factor and ANA are negative, and about 90% of clients carry the <b>HLA-B27</b> gene (which is also found in about 8% of healthy people, so it supports but does not prove the diagnosis). Inflammation affects the sacroiliac joints and spine; over years, new bone bridges the vertebrae (syndesmophytes), giving the “bamboo spine” on X-ray. It usually begins in young men.<br><br><b>Rheumatoid arthritis (RA)</b> is a symmetric inflammatory polyarthritis of small joints (hands, wrists, feet) with rheumatoid factor and anti-CCP antibodies, erosions, and rheumatoid nodules.<br><br><b>Systemic lupus erythematosus (SLE)</b> is a multisystem autoimmune disease, most common in young women, with ANA and anti-double-stranded DNA antibodies. Immune complexes deposit in skin (malar rash, photosensitivity), joints (non-erosive arthritis), kidneys (lupus nephritis, proteinuria), blood cells and serous membranes.<br><br>So all three are inflammatory arthritides, but they differ in the joints involved, the antibodies, and the organs affected."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Reports 8 months of low back pain that came on gradually. His back is stiff for about an hour each morning and loosens up after a hot shower and moving around; it is worse after sitting for a long time and better with exercise. Wakes in the early morning hours with back pain and has to get up and walk around. Has aching deep in the buttocks, sometimes on the right and sometimes on the left. Pain and tenderness at the back of both heels where the Achilles tendons attach. Last year had a painful, red right eye with sensitivity to light that an eye doctor treated. Works in a warehouse; denies a back injury. No numbness or weakness in the legs; bladder and bowel function normal. Smokes 10 cigarettes a day. His father has had “a stiff back” for years. Reduced forward bending of the lower back; increase on the Schober test 2.5 cm (expected 5 cm or more). Chest expansion 4 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Returns for results. The provider diagnoses ankylosing spondylitis. Client says his cousin has lupus and a friend has rheumatoid arthritis, and asks, “Is this the same kind of arthritis?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HLA-B27</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, pelvis:</b> erosions and sclerosis of both sacroiliac joints (bilateral sacroiliitis).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 5 1400:</span><span class=\"nurse-note-text\"><b>MRI, sacroiliac joints:</b> bone marrow edema on both sides of both sacroiliac joints, consistent with active sacroiliitis.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 27-year-old male client with low back pain."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "In ankylosing spondylitis, inflammation begins at the [[drop0]]. Repeated inflammation is followed by [[drop1]]. Without regular exercise and good posture, the client is at greatest risk for [[drop2]]. Involvement of the joints of the ribs can also lead to [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "cartilage of weight-bearing joints from wear and tear",
+                    "correct": false
+                  },
+                  {
+                    "text": "synovium of the small joints of the hands",
+                    "correct": false
+                  },
+                  {
+                    "text": "entheses, where ligaments and tendons attach to bone",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "complete healing with no lasting change",
+                    "correct": false
+                  },
+                  {
+                    "text": "new bone formation that can fuse the vertebrae",
+                    "correct": true
+                  },
+                  {
+                    "text": "loss of bone that makes the spine more flexible",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "osteoarthritis of the hands",
+                    "correct": false
+                  },
+                  {
+                    "text": "gout of the big toe",
+                    "correct": false
+                  },
+                  {
+                    "text": "a fused spine fixed in a stooped, forward-flexed posture",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "muscle weakness from loss of acetylcholine receptors",
+                    "correct": false
+                  },
+                  {
+                    "text": "reduced chest expansion and restricted breathing",
+                    "correct": true
+                  },
+                  {
+                    "text": "fat embolism",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "",
+          "explanation": "<b>Enthesitis:</b> AS is driven by inflammation at the entheses of the spine, sacroiliac joints and heels (cytokines such as TNF-α and IL-17 are central). This differs from RA, which begins in the synovium, and from osteoarthritis, which is degenerative.<br><br><b>Ankylosis:</b> after inflammation, the body lays down new bone. Bony bridges (syndesmophytes) gradually join the vertebrae and the sacroiliac joints fuse. The spine loses movement, and if it fuses while the client is stooped, the posture becomes fixed in flexion (kyphosis), which also limits the field of vision.<br><br><b>Chest wall:</b> inflammation and fusion of the costovertebral and costosternal joints reduce chest expansion (his is 4 cm; under about 2.5 cm is clearly reduced), which restricts breathing. Daily deep breathing and not smoking protect lung function.<br><br><b>Also:</b> a fused, osteoporotic spine breaks easily, even after a minor fall, so new neck or back pain after trauma needs urgent assessment."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Reports 8 months of low back pain that came on gradually. His back is stiff for about an hour each morning and loosens up after a hot shower and moving around; it is worse after sitting for a long time and better with exercise. Wakes in the early morning hours with back pain and has to get up and walk around. Has aching deep in the buttocks, sometimes on the right and sometimes on the left. Pain and tenderness at the back of both heels where the Achilles tendons attach. Last year had a painful, red right eye with sensitivity to light that an eye doctor treated. Works in a warehouse; denies a back injury. No numbness or weakness in the legs; bladder and bowel function normal. Smokes 10 cigarettes a day. His father has had “a stiff back” for years. Reduced forward bending of the lower back; increase on the Schober test 2.5 cm (expected 5 cm or more). Chest expansion 4 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Returns for results. The provider diagnoses ankylosing spondylitis. Client says his cousin has lupus and a friend has rheumatoid arthritis, and asks, “Is this the same kind of arthritis?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HLA-B27</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, pelvis:</b> erosions and sclerosis of both sacroiliac joints (bilateral sacroiliitis).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 5 1400:</span><span class=\"nurse-note-text\"><b>MRI, sacroiliac joints:</b> bone marrow edema on both sides of both sacroiliac joints, consistent with active sacroiliitis.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 27-year-old male client with low back pain."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which instructions should the nurse include in the client's teaching? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Sleep on a firm mattress, on your back or stomach, with a thin pillow or none",
+              "correct": true
+            },
+            {
+              "text": "Do stretching and back-extension exercises every day, including on days with pain",
+              "correct": true
+            },
+            {
+              "text": "Do deep-breathing exercises several times a day",
+              "correct": true
+            },
+            {
+              "text": "Sit in a soft, low armchair to take the strain off your back",
+              "correct": false
+            },
+            {
+              "text": "Rest in bed curled on your side with pillows under your head and knees when your back hurts",
+              "correct": false
+            },
+            {
+              "text": "Stop smoking",
+              "correct": true
+            },
+            {
+              "text": "Avoid exercise during flares until the pain is gone",
+              "correct": false
+            },
+            {
+              "text": "Take a warm shower in the morning before exercising to ease stiffness",
+              "correct": true
+            },
+            {
+              "text": "Seek care right away for new neck or back pain after even a minor fall",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 10 1030.",
+          "explanation": "<b>Correct:</b> daily exercise, especially stretching and extension exercises and activities such as swimming, is the cornerstone of AS care: it maintains spinal mobility and helps the spine stay upright if it fuses. Sleeping flat on a firm surface with little or no pillow (lying prone for periods each day) prevents flexion deformity. Deep breathing maintains chest expansion. Smoking worsens AS progression and lung function. Heat eases morning stiffness before activity. A fused spine fractures easily, so new pain after a fall must be assessed urgently.<br><br><b>Incorrect:</b> curling up with pillows under the head and knees and sitting in soft, low chairs encourage a flexed posture, and rest worsens inflammatory stiffness. In AS, activity relieves the pain, so exercise continues during flares at a gentler level."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Reports 8 months of low back pain that came on gradually. His back is stiff for about an hour each morning and loosens up after a hot shower and moving around; it is worse after sitting for a long time and better with exercise. Wakes in the early morning hours with back pain and has to get up and walk around. Has aching deep in the buttocks, sometimes on the right and sometimes on the left. Pain and tenderness at the back of both heels where the Achilles tendons attach. Last year had a painful, red right eye with sensitivity to light that an eye doctor treated. Works in a warehouse; denies a back injury. No numbness or weakness in the legs; bladder and bowel function normal. Smokes 10 cigarettes a day. His father has had “a stiff back” for years. Reduced forward bending of the lower back; increase on the Schober test 2.5 cm (expected 5 cm or more). Chest expansion 4 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Returns for results. The provider diagnoses ankylosing spondylitis. Client says his cousin has lupus and a friend has rheumatoid arthritis, and asks, “Is this the same kind of arthritis?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1030:</span><span class=\"nurse-note-text\">The provider has prescribed an anti-inflammatory medication and referred the client to physiotherapy. The nurse plans teaching for self-management. Client says, “When my back hurts I just want to curl up in bed.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HLA-B27</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, pelvis:</b> erosions and sclerosis of both sacroiliac joints (bilateral sacroiliitis).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 5 1400:</span><span class=\"nurse-note-text\"><b>MRI, sacroiliac joints:</b> bone marrow edema on both sides of both sacroiliac joints, consistent with active sacroiliitis.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 27-year-old male client with low back pain."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client at this time.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Arrange an urgent, same-day assessment by an eye specialist",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Advise him to wait a week to see whether the redness clears",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Report the reduced visual acuity in the left eye to the provider",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Suggest wearing sunglasses for comfort until he is seen",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Measure his chest expansion today",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Tell him that the eye problem is unrelated to his back condition",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Teach him that this eye problem can recur and to seek care promptly each time",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated",
+              "Nonessential"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 220 1100 and the Vital Signs from Day 220.",
+          "explanation": "These are signs of <b>acute anterior uveitis</b> (iritis): a painful red eye, light sensitivity, blurred vision and a small pupil. It affects up to about a third of people with AS and is often recurrent and on one side.<br><br><b>Indicated:</b> uveitis needs urgent assessment and treatment by an eye specialist to prevent complications such as adhesions of the iris, glaucoma and vision loss; the drop in visual acuity is reported. Sunglasses ease light sensitivity while he waits. Because attacks recur, he is taught to seek care promptly each time.<br><br><b>Contraindicated:</b> waiting risks permanent damage to the eye. Saying the eye problem is unrelated is incorrect: uveitis is a recognized extra-articular feature of AS and shares the HLA-B27 link.<br><br><b>Nonessential:</b> chest expansion is part of routine follow-up, not of this urgent visit."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Reports 8 months of low back pain that came on gradually. His back is stiff for about an hour each morning and loosens up after a hot shower and moving around; it is worse after sitting for a long time and better with exercise. Wakes in the early morning hours with back pain and has to get up and walk around. Has aching deep in the buttocks, sometimes on the right and sometimes on the left. Pain and tenderness at the back of both heels where the Achilles tendons attach. Last year had a painful, red right eye with sensitivity to light that an eye doctor treated. Works in a warehouse; denies a back injury. No numbness or weakness in the legs; bladder and bowel function normal. Smokes 10 cigarettes a day. His father has had “a stiff back” for years. Reduced forward bending of the lower back; increase on the Schober test 2.5 cm (expected 5 cm or more). Chest expansion 4 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Returns for results. The provider diagnoses ankylosing spondylitis. Client says his cousin has lupus and a friend has rheumatoid arthritis, and asks, “Is this the same kind of arthritis?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1030:</span><span class=\"nurse-note-text\">The provider has prescribed an anti-inflammatory medication and referred the client to physiotherapy. The nurse plans teaching for self-management. Client says, “When my back hurts I just want to curl up in bed.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 220 1100:</span><span class=\"nurse-note-text\">Client calls the clinic and then comes in. Since this morning his left eye has been red and painful, with blurred vision and pain in bright light. Visual acuity: right eye 20/20, left eye 20/50. Left pupil smaller than the right. No discharge. Says, “It's just like last year. I thought I'd wait and see if it clears up.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 220 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">126/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HLA-B27</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, pelvis:</b> erosions and sclerosis of both sacroiliac joints (bilateral sacroiliitis).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 5 1400:</span><span class=\"nurse-note-text\"><b>MRI, sacroiliac joints:</b> bone marrow edema on both sides of both sacroiliac joints, consistent with active sacroiliitis.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 27-year-old male client with low back pain."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Morning stiffness about 15 minutes",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I sleep with two thick pillows.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Schober test increase 3 cm, up from 2.5 cm",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Still smokes 10 cigarettes a day",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "CRP 5 mg/L and ESR 9 mm/h",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Swims twice a week and stretches most days",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“When my eye got red again, I went to the eye clinic the same day.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Chest expansion 4 cm, unchanged",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Effective",
+              "Not effective"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 365 1000 and 1015, the Vital Signs from Day 365, and the Laboratory Results from Day 365.",
+          "explanation": "<b>Effective:</b> shorter morning stiffness and normal inflammatory markers show that inflammation is controlled; spinal mobility has improved slightly and chest expansion has not declined; he exercises regularly; and he recognized a recurrence of uveitis and sought care the same day, as taught.<br><br><b>Not effective:</b> thick pillows hold the neck in flexion and promote a fixed, stooped posture; the nurse reteaches sleeping flat with a thin pillow. Continued smoking speeds spinal fusion and harms lung function in a client whose chest expansion is already limited; the nurse offers cessation support."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Reports 8 months of low back pain that came on gradually. His back is stiff for about an hour each morning and loosens up after a hot shower and moving around; it is worse after sitting for a long time and better with exercise. Wakes in the early morning hours with back pain and has to get up and walk around. Has aching deep in the buttocks, sometimes on the right and sometimes on the left. Pain and tenderness at the back of both heels where the Achilles tendons attach. Last year had a painful, red right eye with sensitivity to light that an eye doctor treated. Works in a warehouse; denies a back injury. No numbness or weakness in the legs; bladder and bowel function normal. Smokes 10 cigarettes a day. His father has had “a stiff back” for years. Reduced forward bending of the lower back; increase on the Schober test 2.5 cm (expected 5 cm or more). Chest expansion 4 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1000:</span><span class=\"nurse-note-text\">Returns for results. The provider diagnoses ankylosing spondylitis. Client says his cousin has lupus and a friend has rheumatoid arthritis, and asks, “Is this the same kind of arthritis?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 10 1030:</span><span class=\"nurse-note-text\">The provider has prescribed an anti-inflammatory medication and referred the client to physiotherapy. The nurse plans teaching for self-management. Client says, “When my back hurts I just want to curl up in bed.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 220 1100:</span><span class=\"nurse-note-text\">Client calls the clinic and then comes in. Since this morning his left eye has been red and painful, with blurred vision and pain in bright light. Visual acuity: right eye 20/20, left eye 20/50. Left pupil smaller than the right. No discharge. Says, “It's just like last year. I thought I'd wait and see if it clears up.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 365 1000:</span><span class=\"nurse-note-text\">One-year follow-up. Uveitis resolved; vision 20/20 in both eyes. Morning stiffness about 15 minutes. Increase on the Schober test 3 cm (was 2.5 cm); chest expansion 4 cm (unchanged). Swims twice a week and does his stretching programme most days. Still smokes 10 cigarettes a day.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 365 1015:</span><span class=\"nurse-note-text\">Client states: “I sleep with two thick pillows because it's more comfortable.” “When my eye got red again last month, I went to the eye clinic the same day.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 220 1100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 365 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">126/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 365 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>HLA-B27</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Antinuclear antibodies (ANA)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\"><b>X-ray, pelvis:</b> erosions and sclerosis of both sacroiliac joints (bilateral sacroiliitis).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 5 1400:</span><span class=\"nurse-note-text\"><b>MRI, sacroiliac joints:</b> bone marrow edema on both sides of both sacroiliac joints, consistent with active sacroiliitis.</span></p>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is caring for a 27-year-old male client with low back pain."
+        }
+      }
+    ],
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
+    "description": "27-year-old male client with 8 months of inflammatory back pain, alternating buttock pain, Achilles enthesitis and a past episode of uveitis, diagnosed with HLA-B27-positive ankylosing spondylitis; AS vs rheumatoid arthritis vs SLE, enthesitis and spinal fusion, exercise and posture teaching, a recurrence of acute anterior uveitis, and evaluation at 1 year.",
+    "authorReview": {
+      "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 1: Schober test normal (increase of 5 cm or more) and chest expansion values are commonly cited; check your textbook.\nScreen 2: HLA-B27 prevalence (about 90% in AS, about 8% in the general population) varies by population.\nScreen 5: the uveitis prevalence (up to about a third of clients with AS) is an approximate figure.",
+      "flaggedAt": "2026-10-14"
+    }
   }
 ];
 
