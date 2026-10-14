@@ -24541,7 +24541,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with an <b>inflammatory (autoimmune) arthritis</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings are consistent with rheumatoid arthritis?&nbsp;<b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -24561,7 +24561,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "DIP joints not swollen",
+              "text": "Pain that suddenly increases develops over a period of 24 h.",
               "correct": false
             },
             {
@@ -24582,7 +24582,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "<b>Consistent with inflammatory (autoimmune) arthritis:</b><br><br><b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.<br><br><b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides (MCP, PIP, wrists). Warmth and tenderness show active synovitis.<br><br><b>Boggy joints:</b> a soft, spongy feel comes from thickened, inflamed synovium and joint fluid. Osteoarthritis joints feel hard and bony.<br><br><b>Systemic signs:</b> fatigue, low-grade fever and weight loss reflect circulating inflammatory cytokines (TNF-α, IL-6). RA is a systemic disease, not only a joint disease.<br><br><b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.<br><br><b>Not consistent:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension."
+          "explanation": "<b>Characteristic clinical manifestations of rheumatoid arthritis:</b><br><br><b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.<br><br><b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides (MCP, PIP, wrists). Warmth and tenderness show active synovitis.<br><br><b>Boggy joints:</b> a soft, spongy feel comes from thickened, inflamed synovium and joint fluid. Osteoarthritis joints feel hard and bony.<br><br><b>Systemic signs:</b> fatigue, low-grade fever and weight loss reflect circulating inflammatory cytokines (TNF-α, IL-6). RA is a systemic disease, not only a joint disease.<br><br><b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.<br><br><b>Not cues:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s is most likely osteoarthritis. Joint pain that develops suddenly is more suggestive of infectious arthritis. The blood pressure reflects her treated hypertension."
         },
         "leftContent": {
           "tabs": [
@@ -24643,7 +24643,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Elevated ESR and C-reactive protein",
+                "text": "Elevated ESR and C-reactive protein (CRP)",
                 "correctIndex": 0,
                 "correctIndices": [
                   0,
@@ -24673,7 +24673,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Sequestrum (dead bone) on imaging and a draining sinus tract",
+                "text": "High fever and chills",
                 "correctIndex": 2,
                 "correctIndices": [
                   2
@@ -24687,8 +24687,8 @@ window.NCLEX_CASES = [
             ],
             "firstColumnHeader": "Finding"
           },
-          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1400, the Laboratory Results and the Diagnostic Results.",
-          "explanation": "<b>Rheumatoid arthritis (RA)</b> is a systemic autoimmune disease of the synovium. Long morning stiffness (over 1 hour), symmetric swelling of small joints (MCP, PIP, wrists), positive rheumatoid factor and especially <b>anti-CCP antibodies</b> (highly specific for RA) are typical. Inflammation raises the <b>ESR and CRP</b>. X-rays show periarticular osteopenia, uniform <b>joint-space narrowing</b> and marginal erosions (as in this client's hands).<br><br><b>Osteoarthritis (OA)</b> is a degenerative disease of articular cartilage, not an autoimmune one. Stiffness after rest is brief (under 30 minutes), and pain worsens with use and eases with rest. Bony enlargement of the DIP joints (<b>Heberden nodes</b>) and PIP joints (Bouchard nodes) is typical. ESR and CRP are usually normal and serology is negative. X-rays show uneven <b>joint-space narrowing</b>, <b>osteophytes</b> and subchondral sclerosis (as in this client's right knee).<br><br><b>Osteomyelitis</b> is an infection of bone, most often by <i>Staphylococcus aureus</i>, spread through the blood or from an open fracture, surgery or a nearby wound. Infection causes fever, an elevated <b>WBC count</b>, and raised <b>ESR and CRP</b> (used to follow the response to antibiotics). A bone biopsy and culture identify the organism. In chronic osteomyelitis, dead bone (<b>sequestrum</b>) is walled off by new bone (involucrum), and pus may drain through a <b>sinus tract</b> to the skin.<br><br><b>Shared findings:</b> ESR and CRP rise with inflammation from any cause (RA and osteomyelitis). Joint-space narrowing occurs in both RA and OA, because both destroy articular cartilage, by different mechanisms."
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1400, the Laboratory Results, and the Diagnostic Results.",
+          "explanation": "<b>Rheumatoid arthritis (RA)</b> is a systemic autoimmune disease of the synovium. Long morning stiffness (over 1 hour), symmetric swelling of small joints (MCP, PIP, wrists), positive rheumatoid factor and <b>a</b>nti-CCP antibodies (highly specific for RA) are typical. Inflammation raises the ESR and CRP. X-rays show periarticular osteopenia, uniform joint-space narrowing and marginal erosions (as in this client's hands).<br><br><b>Osteoarthritis (OA)</b> is a degenerative disease of articular cartilage, not an autoimmune one. Stiffness after rest is brief (under 30 minutes), and pain worsens with use and eases with rest. Bony enlargement of the DIP joints (Heberden nodes) and PIP joints (Bouchard nodes) is typical. ESR and CRP are usually normal and serology is negative. X-rays show uneven joint-space narrowing, osteophytes and subchondral sclerosis (as in this client's right knee).<br><br><b>Osteomyelitis</b> is an infection of bone, most often by <i>Staphylococcus aureus</i>, spread through the blood or from an open fracture, surgery or a nearby wound. Infection causes (typically high) fever, an elevated WBC count, and raised ESR and CRP (used to follow the response to antibiotics). A bone biopsy and culture identify the organism. In chronic osteomyelitis, dead bone (sequestrum) is walled off by new bone (involucrum), and pus may drain through a sinus tract to the skin.<br><br>Shared findings: ESR and CRP rise with inflammation from any cause (RA and osteomyelitis). Joint-space narrowing occurs in both RA and OA, because both destroy articular cartilage but by different mechanisms."
         },
         "leftContent": {
           "tabs": [
@@ -24842,7 +24842,7 @@ window.NCLEX_CASES = [
       {
         "step": 4,
         "question": {
-          "stem": "The nurse plans teaching for the client. Which instructions should the nurse include? <b>Select all that apply.</b>",
+          "stem": "The nurse plans health teaching for the client. Which instructions should the nurse include? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -24887,7 +24887,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1430 and the Orders.",
-          "explanation": "<b>Weekly methotrexate:</b> for RA, methotrexate is taken <b>once a week</b>. Taking it daily by mistake is a well-known, sometimes fatal error, so a fixed day and a calendar or pill organizer are taught from the start. Folic acid reduces mouth sores, nausea and liver enzyme rises.<br><br><b>Alcohol:</b> methotrexate and alcohol are both toxic to the liver, so alcohol should be avoided (the client drinks most evenings).<br><br><b>Warning signs:</b> methotrexate can suppress the bone marrow (infection, bleeding), cause mucositis, and rarely cause pneumonitis (dry cough, shortness of breath). These are reported promptly.<br><br><b>Heat and joint protection:</b> warm, moist heat eases morning stiffness. Using larger joints (carrying a bag on the forearm), jar openers and built-up handles, and resting splints at night protect inflamed joints and keep them in a functional position. Balancing rest with gentle range-of-motion exercise maintains function.<br><br><b>Smoking:</b> smoking increases RA activity and the production of anti-CCP antibodies, and lowers the response to methotrexate. It is also a risk factor for osteoporosis.<br><br><b>Incorrect:</b> resting joints flexed on pillows leads to flexion contractures. Methotrexate takes about 6 to 12 weeks to work, which is why prednisone is used as a short bridge. Prednisone must be tapered as prescribed, never stopped suddenly (adrenal insufficiency). Live vaccines are avoided during immunosuppressive therapy; inactivated and recombinant vaccines (influenza, pneumococcal, recombinant zoster) are given."
+          "explanation": "<b>Weekly methotrexate:</b> for RA, methotrexate is taken once a week. Taking it daily by mistake is a well-known, sometimes fatal error, so a fixed day and a calendar or pill organizer are taught from the start. Folic acid reduces mouth sores, nausea and liver enzyme rises.<br><br><b>Alcohol:</b> methotrexate and alcohol are both toxic to the liver, so alcohol should be avoided (the client drinks most evenings).<br><br><b>Warning signs:</b> methotrexate can suppress the bone marrow (infection, bleeding), cause mucositis, and rarely cause pneumonitis (dry cough, shortness of breath). These are reported promptly.<br><br><b>Heat and joint protection:</b> warm, moist heat eases morning stiffness. Using larger joints (carrying a bag on the forearm), jar openers and built-up handles, and resting splints at night protect inflamed joints and keep them in a functional position. Balancing rest with gentle range-of-motion exercise maintains function.<br><br><b>Smoking:</b> smoking increases RA activity and the production of anti-CCP antibodies, and lowers the response to methotrexate. It is also a risk factor for osteoporosis.<br><br><b>Incorrect:</b> resting joints flexed on pillows leads to flexion contractures. Methotrexate takes about 6 to 12 weeks to work, which is why prednisone is used as a short bridge. Prednisone must be tapered as prescribed, never stopped suddenly (adrenal insufficiency). Live vaccines are avoided during immunosuppressive therapy; inactivated and recombinant vaccines (influenza, pneumococcal, recombinant zoster) are given instead."
         },
         "leftContent": {
           "tabs": [
@@ -24992,7 +24992,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Nursing Action"
           },
           "preamble": "The nurse has reviewed the Nurses' Notes from Day 26 0830, the Vital Signs and Laboratory Results from Day 26, and the Orders from Day 26.",
-          "explanation": "The client took methotrexate daily instead of weekly for 5 days and now has <b>methotrexate toxicity</b>: severe neutropenia (absolute neutrophils 0.4 × 10⁹/L), thrombocytopenia (74 × 10⁹/L), mucositis, raised ALT, and fever of 38.6° C with tachycardia (<b>febrile neutropenia</b>, a medical emergency).<br><br><b>Indicated:</b> stop the drug (hold methotrexate). Give <b>leucovorin</b>, the reduced folate that bypasses the enzyme methotrexate blocks, as the antidote. Draw <b>blood cultures before the first antibiotic dose</b> so the organism can be identified, then start the antibiotic without delay. A soft toothbrush and saline rinses reduce mucosal injury, bleeding and infection.<br><br><b>Contraindicated:</b> rectal temperatures can tear the mucosa and introduce bacteria in a neutropenic client with low platelets. Stopping long-term prednisone suddenly can cause adrenal crisis, and illness raises steroid needs; the order is to continue it. Visitors with respiratory infections should not visit a severely neutropenic client, even with a mask.<br><br><b>Nonessential:</b> repeat hand X-rays do not change the management of this emergency; joint damage is followed over months."
+          "explanation": "The client took methotrexate daily instead of weekly for 5 days and now has methotrexate toxicity: severe neutropenia (absolute neutrophils 0.4 × 10⁹/L), thrombocytopenia (74 × 10⁹/L), mucositis, raised ALT, and fever of 38.6° C with tachycardia (febrile neutropenia, a medical emergency).<br><br><b>Indicated:</b> stop the drug (hold methotrexate). Give <b>leucovorin</b>, the reduced folate that bypasses the enzyme methotrexate blocks, as the antidote. Draw blood cultures before the first antibiotic dose so the organism can be identified, then start the antibiotic without delay. A soft toothbrush and saline rinses reduce mucosal injury, bleeding and infection.<br><br><b>Contraindicated:</b> rectal temperatures can tear the mucosa and introduce bacteria in a neutropenic client with low platelets. Stopping long-term prednisone suddenly can cause adrenal crisis, and illness raises steroid needs; the order is to continue it. Visitors with respiratory infections should not visit a severely neutropenic client, even with a mask.<br><br><b>Nonessential:</b> repeat hand X-rays do not change the management of this emergency; joint damage is followed over months."
         },
         "leftContent": {
           "tabs": [
@@ -25139,11 +25139,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 6 (Musculoskeletal Disorders)",
     "description": "54-year-old female client with symmetric hand and wrist synovitis diagnosed as seropositive rheumatoid arthritis (with osteoarthritis of the right knee), compared with osteoarthritis and osteomyelitis; methotrexate teaching, methotrexate toxicity with febrile neutropenia after daily dosing, and evaluation at 6 months including osteoporosis.",
-    "authorReview": {
-      "note": "New case written by Claude on 14 Oct 2026 for the Unit 6 review class; please review before using it with students:\nScreen 2: anti-CCP has no MCC reference range; the range used (< 20 U/mL) varies by laboratory.\nScreen 4: folic acid 1 mg daily is one common regimen (5 mg once weekly is also used in Canada); adjust to your course's reference.\nScreen 5: leucovorin dose/route and the antibiotic are examples; the key does not depend on them.\nScreen 6: osteoporosis after about 10 weeks of prednisone is attributed to several risk factors together; check the wording suits your teaching.",
-      "flaggedAt": "2026-10-14"
-    },
-    "updatedAt": "2026-10-14T22:42:50.340Z"
+    "updatedAt": "2026-10-14T23:01:41.888Z"
   },
   {
     "id": "case_1782400000002",
@@ -29527,7 +29523,7 @@ window.NCLEX_STANDALONE = [
               "correct": false
             }
           ],
-          "preamble": "The nurse is analyzing assessment cues for an older adult with severe acute abdominal pain out of proportion to physical exam findings.",
+          "preamble": "The nurse is reviewing the assessment findings of an older adult with severe acute abdominal pain out of proportion to physical exam findings.",
           "explanation": "The client presents with acute mesenteric ischemia, characterized by sudden, severe abdominal pain disproportionate to early physical exam findings, progressing to intestinal infarction, coagulative necrosis, and wet gangrene. Priority nursing actions include keeping the client strictly NPO with NG tube decompression to rest the bowel and infusing aggressive isotonic crystalloids to treat profound intravascular volume loss from third-spacing. Essential parameters to monitor include serial serum lactate (a primary marker of ischemic bowel necrosis and tissue hypoperfusion) and continuous surveillance for peritonitis (rigidity, rebound tenderness indicating transmural perforation)."
         },
         "leftContent": {
@@ -29547,7 +29543,7 @@ window.NCLEX_STANDALONE = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T23:05:03.603Z"
   },
   {
     "id": "standalone_1783010000004",
