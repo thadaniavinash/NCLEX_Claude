@@ -1,0 +1,14 @@
+[
+ {
+  "row": "standalone",
+  "id": "standalone_1783010000003",
+  "path": [
+   "screens",
+   0,
+   "question",
+   "preamble"
+  ],
+  "before": "The nurse is analyzing assessment cues for an older adult with severe acute abdominal pain out of proportion to physical exam findings.",
+  "after": "The nurse is reviewing the assessment findings of an older adult with severe acute abdominal pain out of proportion to physical exam findings."
+ }
+]
