@@ -40,7 +40,7 @@
           }
         ],
         "preamble": "The nurse conducts an admission integumentary assessment for the client.",
-        "explanation": "Clinical cues of cutaneous malignancy include: (1) Basal Cell Carcinoma (BCC) hallmark features—pearly, translucent papule or nodule with rolled borders and telangiectasias (abnormally dilated blood vessels); (2) Malignant Melanoma hallmark ABCDE criteria—Asymmetry, Border irregularity (notched/scalloped), Color variegation (black, dark brown, red/pink), Diameter &gt; 6 mm, and Evolution (recent change in size, shape, bleeding, or pruritus); and (3) Regional lymphadenopathy indicating potential metastatic dissemination. Conversely, senile purpura (benign dermal capillary fragility from age-related loss of collagen support) and generalized xerosis (reduced sebaceous gland sebum secretion) represent benign physiological aging changes."
+        "explanation": "Findings consistent with cutaneous malignancy include: (1) Basal Cell Carcinoma (BCC) hallmark features—pearly, translucent papule or nodule with rolled borders and telangiectasias (abnormally dilated blood vessels); (2) Malignant Melanoma hallmark ABCDE criteria—Asymmetry, Border irregularity (notched/scalloped), Color variegation (black, dark brown, red/pink), Diameter &gt; 6 mm, and Evolution (recent change in size, shape, bleeding, or pruritus); and (3) Regional lymphadenopathy indicating potential metastatic dissemination. Conversely, senile purpura (benign dermal capillary fragility from age-related loss of collagen support) and generalized xerosis (reduced sebaceous gland sebum secretion) represent benign physiological aging changes."
       },
       "leftContent": {
         "intro": "The nurse in an outpatient dermatology and cutaneous oncology clinic is conducting a comprehensive skin examination for Harold Jenkins, a 74-year-old retired farmer and landscaper.",
@@ -493,5 +493,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

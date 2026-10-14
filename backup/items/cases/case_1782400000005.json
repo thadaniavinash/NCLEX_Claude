@@ -8,7 +8,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "Which findings are consistent with a disorder of neuromuscular transmission? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>disorder of neuromuscular transmission</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -49,7 +49,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "<b>Hallmark: fatigable weakness.</b> In myasthenia gravis (MG), voluntary muscles weaken with repeated use and recover with rest. Weakness is therefore least in the morning and worst later in the day or after sustained activity.<br><br><b>Ocular muscles</b> are affected first in most clients (ptosis, diplopia). Sustained upward gaze tires the eyelid muscle and brings out the ptosis.<br><br><b>Bulbar muscles</b> (chewing, swallowing, speaking) are often affected: a tiring jaw, a soft nasal voice, choking. Bulbar weakness matters because it threatens the airway.<br><br><b>Proximal limb muscles</b> tire with repeated or sustained use, such as holding the arms up.<br><br><b>Not cues:</b> back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood pressure are normal.<br><br><b>Also note what she denies:</b> MG affects only the neuromuscular junction, so sensation is normal (numbness and tingling would suggest a nerve problem) and there is no twitching (fasciculations suggest a motor neuron disease such as ALS). Weakness that is worst on waking would be the opposite of the MG pattern."
+        "explanation": "<b>Hallmark: fatigable weakness.</b> In myasthenia gravis (MG), voluntary muscles weaken with repeated use and recover with rest. Weakness is therefore least in the morning and worst later in the day or after sustained activity.<br><br><b>Ocular muscles</b> are affected first in most clients (ptosis, diplopia). Sustained upward gaze tires the eyelid muscle and brings out the ptosis.<br><br><b>Bulbar muscles</b> (chewing, swallowing, speaking) are often affected: a tiring jaw, a soft nasal voice, choking. Bulbar weakness matters because it threatens the airway.<br><br><b>Proximal limb muscles</b> tire with repeated or sustained use, such as holding the arms up.<br><br><b>Not consistent:</b> back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood pressure are normal.<br><br><b>Also note what she denies:</b> MG affects only the neuromuscular junction, so sensation is normal (numbness and tingling would suggest a nerve problem) and there is no twitching (fasciculations suggest a motor neuron disease such as ALS). Weakness that is worst on waking would be the opposite of the MG pattern."
       },
       "leftContent": {
         "tabs": [
@@ -537,5 +537,6 @@
   "authorReview": {
     "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3: thresholds for respiratory failure (vital capacity below about 20 mL/kg, negative inspiratory force weaker than −20 to −30 cm H₂O) are commonly cited values.\nScreen 5: the list of medicines that can worsen myasthenia gravis is given as examples.",
     "flaggedAt": "2026-10-14"
-  }
+  },
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

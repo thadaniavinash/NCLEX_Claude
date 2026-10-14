@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse in the burn trauma resuscitation bay performs an immediate primary survey on Tyler. Which clinical findings should the nurse recognize as critical cues indicating <b>inhalation injury and impending airway obstruction</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>inhalation injury and impending airway obstruction</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -39,7 +39,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "Critical cues of thermal inhalation injury include: (Option 1) Fire/explosion in an enclosed, confined space; (Option 2) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 3) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
+        "explanation": "Findings consistent with thermal inhalation injury include: (Option 1) Fire/explosion in an enclosed, confined space; (Option 2) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 3) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
       },
       "leftContent": {
         "intro": "The nurse in a regional burn trauma center is admitting Tyler Brooks, a 34-year-old industrial mechanic transported by emergency medical services (EMS) following an explosion and flash fire in an enclosed auto repair garage 45 minutes ago.",
@@ -476,5 +476,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

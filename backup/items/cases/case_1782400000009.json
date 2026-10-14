@@ -8,7 +8,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "Which findings suggest an inflammatory cause of the client's back pain rather than a mechanical (strain) cause? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>inflammatory back pain</b> rather than mechanical (strain) back pain? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -49,7 +49,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "<b>Inflammatory back pain</b> typically starts before age 40, comes on gradually, lasts more than 3 months, causes morning stiffness of 30 minutes or more, improves with exercise but not with rest, and wakes the person in the second half of the night. Mechanical back pain is the opposite: it worsens with activity and improves with rest.<br><br><b>Alternating buttock pain</b> points to inflammation of the sacroiliac joints (sacroiliitis), the hallmark of ankylosing spondylitis (AS).<br><br><b>Heel pain at the Achilles insertion</b> is enthesitis, inflammation where tendons and ligaments attach to bone, a key feature of the spondyloarthritis family.<br><br><b>Acute anterior uveitis</b> (painful red eye with light sensitivity) is the most common extra-articular feature of AS.<br><br><b>Not cues:</b> warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal."
+        "explanation": "<b>Inflammatory back pain</b> typically starts before age 40, comes on gradually, lasts more than 3 months, causes morning stiffness of 30 minutes or more, improves with exercise but not with rest, and wakes the person in the second half of the night. Mechanical back pain is the opposite: it worsens with activity and improves with rest.<br><br><b>Alternating buttock pain</b> points to inflammation of the sacroiliac joints (sacroiliitis), the hallmark of ankylosing spondylitis (AS).<br><br><b>Heel pain at the Achilles insertion</b> is enthesitis, inflammation where tendons and ligaments attach to bone, a key feature of the spondyloarthritis family.<br><br><b>Acute anterior uveitis</b> (painful red eye with light sensitivity) is the most common extra-articular feature of AS.<br><br><b>Not consistent:</b> warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal."
       },
       "leftContent": {
         "tabs": [
@@ -544,5 +544,6 @@
   "authorReview": {
     "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 1: Schober test normal (increase of 5 cm or more) and chest expansion values are commonly cited; check your textbook.\nScreen 2: HLA-B27 prevalence (about 90% in AS, about 8% in the general population) varies by population.\nScreen 5: the uveitis prevalence (up to about a third of clients with AS) is an approximate figure.",
     "flaggedAt": "2026-10-14"
-  }
+  },
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

@@ -341,7 +341,7 @@
         },
         "options": [],
         "preamble": "The nurse conducts a targeted patient education and discharge counseling session with Arthur.",
-        "explanation": "1. Contraindicated: Acid suppression in Barrett's esophagus must be maintained continuously as prescribed; chemical acid exposure continues to cause DNA damage even if sensory nerve endings become desensitized.<br>2. Indicated: Progressive dysphagia, weight loss, or hematemesis are alarm cues suggesting esophageal stricture or adenocarcinoma progression, warranting immediate medical evaluation.<br>3. Indicated: Nocturnal head-of-bed elevation utilizes gravity to prevent retrograde acid flow and pooling in the esophagus.<br>4. Non-Essential: Weekly CT scans deliver unnecessary radiation and are non-essential; annual low-dose chest CT is the standard screening protocol for high-risk smokers.<br>5. Contraindicated: While metaplasia is an adaptive response that is initially non-malignant, persistent chronic injury causes genetic mutations leading to pre-malignant dysplasia and potential progression to adenocarcinoma."
+        "explanation": "1. Contraindicated: Acid suppression in Barrett's esophagus must be maintained continuously as prescribed; chemical acid exposure continues to cause DNA damage even if sensory nerve endings become desensitized.<br>2. Indicated: Progressive dysphagia, weight loss, or hematemesis are alarm signs suggesting esophageal stricture or adenocarcinoma progression, warranting immediate medical evaluation.<br>3. Indicated: Nocturnal head-of-bed elevation utilizes gravity to prevent retrograde acid flow and pooling in the esophagus.<br>4. Non-Essential: Weekly CT scans deliver unnecessary radiation and are non-essential; annual low-dose chest CT is the standard screening protocol for high-risk smokers.<br>5. Contraindicated: While metaplasia is an adaptive response that is initially non-malignant, persistent chronic injury causes genetic mutations leading to pre-malignant dysplasia and potential progression to adenocarcinoma."
       },
       "leftContent": {
         "tabs": [
@@ -453,5 +453,5 @@
   ],
   "disorder": "Unit 2 (Cellular Basis of Disease)",
   "description": "58-year-old male with chronic GERD, smoking, and hypertension presenting with Barrett's metaplasia, bronchial squamous metaplasia, and left ventricular hypertrophy.",
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

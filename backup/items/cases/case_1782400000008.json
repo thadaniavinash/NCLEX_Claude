@@ -8,7 +8,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "Which findings are consistent with acute gouty arthritis? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>acute gouty arthritis</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -49,7 +49,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "<b>Typical of acute gout:</b> attacks start suddenly, often at night, and reach maximal pain within 12 to 24 hours. The first metatarsophalangeal joint of the big toe is the classic site (<b>podagra</b>). The joint is red, hot, swollen and shiny and so tender that even a bedsheet hurts. Untreated attacks usually settle in 1 to 2 weeks, and the client is symptom-free between attacks.<br><br><b>Triggers:</b> alcohol (especially beer, which is rich in purines) and purine-rich foods such as shellfish and organ meats raise uric acid; dehydration, fasting and surgery can also trigger attacks.<br><br><b>Tophi:</b> firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.<br><br><b>Not cues:</b> the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout."
+        "explanation": "<b>Typical of acute gout:</b> attacks start suddenly, often at night, and reach maximal pain within 12 to 24 hours. The first metatarsophalangeal joint of the big toe is the classic site (<b>podagra</b>). The joint is red, hot, swollen and shiny and so tender that even a bedsheet hurts. Untreated attacks usually settle in 1 to 2 weeks, and the client is symptom-free between attacks.<br><br><b>Triggers:</b> alcohol (especially beer, which is rich in purines) and purine-rich foods such as shellfish and organ meats raise uric acid; dehydration, fasting and surgery can also trigger attacks.<br><br><b>Tophi:</b> firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.<br><br><b>Not consistent:</b> the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout."
       },
       "leftContent": {
         "tabs": [
@@ -552,5 +552,6 @@
   "authorReview": {
     "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nThe acute-attack medication is left generic (“an anti-inflammatory medication”) so no question depends on the provider's choice.\nScreen 4: fluids of 2 to 3 L/day are qualified by “unless the provider sets a limit” because of his kidney disease.\nScreen 6: the uric acid target (< 360 µmol/L) follows common guidelines.",
     "flaggedAt": "2026-10-14"
-  }
+  },
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

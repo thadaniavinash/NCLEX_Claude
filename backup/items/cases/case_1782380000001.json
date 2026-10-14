@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse reviews the clinical intake and physical examination findings for Eleanor. Which assessment cues should the nurse recognize as highly characteristic of a <b>malignant neoplasm</b> rather than a benign tumor? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>malignant neoplasm</b> rather than a benign tumor? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -497,5 +497,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

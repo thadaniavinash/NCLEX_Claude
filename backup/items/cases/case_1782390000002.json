@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse in a community family health clinic assesses 8-year-old Liam and his 21-year-old brother Marcus. Which clinical findings should the nurse recognize as hallmark cues of <b>impetigo</b> in Liam and <b>herpes zoster (shingles)</b> in Marcus? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the clients' histories and assessments. Which of the following findings would be consistent with <b>impetigo</b> in Liam and <b>herpes zoster (shingles)</b> in Marcus? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -473,5 +473,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

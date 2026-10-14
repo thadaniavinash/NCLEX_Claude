@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse conducts a focused neurovascular and wound assessment on Karen's burned right lower extremity. Which assessment cues indicate <b>circumferential third-degree full-thickness burn injury with impending compartment syndrome</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>circumferential third-degree full-thickness burn injury with impending compartment syndrome</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -39,7 +39,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "1. Full-Thickness (Third-Degree) Burn: Destroys the epidermis, entire dermis, and epidermal appendages into subcutaneous fat; appears dry, leathery, charred white, brown, or black, and is insensate to pinprick because dermal sensory nerve endings are incinerated.<br>2. Compartment Syndrome in Circumferential Burns: Circumferential full-thickness eschar cannot stretch. As massive resuscitation edema expands within the rigid fascial compartments beneath the leathery eschar, interstitial pressure exceeds capillary perfusion pressure (&gt; 30 mm Hg), cutting off arterial inflow and venous outflow. Hallmark cues include: hard, woody muscle compartments; severe deep pain on passive muscle stretch; paresthesias; coolness; and loss of distal pulses (a late, critical sign of impending gangrene and muscle necrosis). Moist weeping blisters with brisk blanching describe a second-degree superficial partial-thickness burn."
+        "explanation": "1. Full-Thickness (Third-Degree) Burn: Destroys the epidermis, entire dermis, and epidermal appendages into subcutaneous fat; appears dry, leathery, charred white, brown, or black, and is insensate to pinprick because dermal sensory nerve endings are incinerated.<br>2. Compartment Syndrome in Circumferential Burns: Circumferential full-thickness eschar cannot stretch. As massive resuscitation edema expands within the rigid fascial compartments beneath the leathery eschar, interstitial pressure exceeds capillary perfusion pressure (&gt; 30 mm Hg), cutting off arterial inflow and venous outflow. Hallmark findings include: hard, woody muscle compartments; severe deep pain on passive muscle stretch; paresthesias; coolness; and loss of distal pulses (a late, critical sign of impending gangrene and muscle necrosis). Moist weeping blisters with brisk blanching describe a second-degree superficial partial-thickness burn."
       },
       "leftContent": {
         "intro": "The nurse in the burn center acute care unit is assessing Karen Foster, a 42-year-old female chef admitted 8 hours ago after a commercial deep fryer tipped over, causing extensive boiling oil burns across her right upper and lower extremities.",
@@ -487,5 +487,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

@@ -8,7 +8,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse performs an initial physical assessment on newborn infant Noah. Which clinical findings should the nurse recognize as cues indicative of <b>prenatal teratogen exposure (such as Fetal Alcohol Syndrome and TORCH infection) or congenital developmental defects</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>prenatal teratogen exposure (such as Fetal Alcohol Syndrome and TORCH infection) or congenital developmental defects</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -45,7 +45,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (Options 8 and 3) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 1 and 2) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 7) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 4) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
+        "explanation": "Findings indicative of prenatal teratogenic insult and congenital infection include: (Options 8 and 3) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 1 and 2) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 7) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 4) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
       },
       "leftContent": {
         "tabs": [
@@ -525,5 +525,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "Newborn infant presenting with intrauterine growth restriction, microcephaly, smooth philtrum, thin vermilion border, cleft lip, and sensorineural hearing impairment, prompting nursing analysis of teratogenic timing, TORCH infections, FAS, and multifactorial inheritance.",
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

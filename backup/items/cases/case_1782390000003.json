@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse conducts an intake examination for Maya. Which assessment cues should the nurse recognize as hallmark manifestations of <b>Systemic Lupus Erythematosus (SLE)</b> and inflammatory cutaneous pathology? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Systemic Lupus Erythematosus (SLE)</b> and inflammatory cutaneous pathology? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -136,7 +136,7 @@
     {
       "step": 3,
       "question": {
-        "stem": "The nurse synthesizes Maya's clinical cues and laboratory markers to prioritize systemic risks.<br><br>Complete the following sentences by choosing from the lists of options.",
+        "stem": "The nurse reviews Maya's clinical findings and laboratory results to prioritize systemic risks.<br><br>Complete the following sentences by choosing from the lists of options.",
         "type": "dropdown_cloze",
         "options": [],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1300.",
@@ -467,5 +467,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

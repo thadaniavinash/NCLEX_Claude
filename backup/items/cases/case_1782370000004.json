@@ -8,7 +8,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse reviews Ethan's history and physical assessment. Which findings should the nurse recognize as cues of a <b>progressive inherited neuromuscular disorder</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>progressive inherited neuromuscular disorder</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -45,7 +45,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "<b>Correct cues:</b><br><br><b>Gowers sign</b> (climbing up the thighs with the hands to stand) reflects weakness of the proximal hip and thigh muscles, the first muscles affected in Duchenne muscular dystrophy (DMD).<br><br><b>Calf pseudohypertrophy:</b> the calves look large, but damaged muscle fibers are being replaced by fat and fibrous connective tissue, which makes them feel firm and rubbery. They are not stronger.<br><br><b>Family history:</b> an affected male relative on the mother's side (her brother) who died young of cardiac and respiratory failure strongly suggests an X-linked recessive disorder passed through the maternal line.<br><br><b>Waddling (Trendelenburg) gait, lumbar lordosis and trouble with stairs</b> compensate for weak hip and trunk muscles.<br><br><b>Late walking (after about 15–18 months), frequent falls and toe-walking</b> are early motor signs. Toe-walking comes from tight heel cords (Achilles contractures).<br><br><b>Not cues:</b> heart rate, respiratory rate and growth are normal for a 4-year-old. Grip and fine motor skills are usually preserved early because DMD weakens proximal muscles before distal ones."
+        "explanation": "<b>Consistent findings:</b><br><br><b>Gowers sign</b> (climbing up the thighs with the hands to stand) reflects weakness of the proximal hip and thigh muscles, the first muscles affected in Duchenne muscular dystrophy (DMD).<br><br><b>Calf pseudohypertrophy:</b> the calves look large, but damaged muscle fibers are being replaced by fat and fibrous connective tissue, which makes them feel firm and rubbery. They are not stronger.<br><br><b>Family history:</b> an affected male relative on the mother's side (her brother) who died young of cardiac and respiratory failure strongly suggests an X-linked recessive disorder passed through the maternal line.<br><br><b>Waddling (Trendelenburg) gait, lumbar lordosis and trouble with stairs</b> compensate for weak hip and trunk muscles.<br><br><b>Late walking (after about 15–18 months), frequent falls and toe-walking</b> are early motor signs. Toe-walking comes from tight heel cords (Achilles contractures).<br><br><b>Not consistent:</b> heart rate, respiratory rate and growth are normal for a 4-year-old. Grip and fine motor skills are usually preserved early because DMD weakens proximal muscles before distal ones."
       },
       "leftContent": {
         "tabs": [
@@ -536,5 +536,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes.",
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

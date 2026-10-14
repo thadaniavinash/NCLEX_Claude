@@ -37,7 +37,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "Mendelian single-gene disorders follow predictable inheritance patterns (autosomal dominant, autosomal recessive, or X-linked): (Option 5) Hemophilia A is an X-linked recessive bleeding disorder caused by deficiency of factor VIII; Maya's brother being affected means their mother is an obligate or probable carrier, placing Maya at 50% risk of being a carrier. (Option 2) Sudden aortic dissection in a tall relative with pectus excavatum strongly suggests Marfan syndrome (an autosomal dominant connective tissue disorder caused by FBN1 mutations). (Option 6) Cystic Fibrosis is an autosomal recessive disorder caused by CFTR mutations; cousins affected indicates carrier risk in parental lineages. (Option 3) David's physical findings (tall, arm span > height, joint laxity, aortic murmur) are phenotypic cues of Marfan syndrome requiring immediate cardiovascular investigation. Primary hypertension and type 2 diabetes are multifactorial/polygenic disorders, not Mendelian single-gene disorders. Seasonal allergies are immune-mediated environmental responses."
+        "explanation": "Mendelian single-gene disorders follow predictable inheritance patterns (autosomal dominant, autosomal recessive, or X-linked): (Option 5) Hemophilia A is an X-linked recessive bleeding disorder caused by deficiency of factor VIII; Maya's brother being affected means their mother is an obligate or probable carrier, placing Maya at 50% risk of being a carrier. (Option 2) Sudden aortic dissection in a tall relative with pectus excavatum strongly suggests Marfan syndrome (an autosomal dominant connective tissue disorder caused by FBN1 mutations). (Option 6) Cystic Fibrosis is an autosomal recessive disorder caused by CFTR mutations; cousins affected indicates carrier risk in parental lineages. (Option 3) David's physical findings (tall, arm span > height, joint laxity, aortic murmur) are phenotypic features of Marfan syndrome requiring immediate cardiovascular investigation. Primary hypertension and type 2 diabetes are multifactorial/polygenic disorders, not Mendelian single-gene disorders. Seasonal allergies are immune-mediated environmental responses."
       },
       "leftContent": {
         "tabs": [
@@ -505,5 +505,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "Young couple presenting for preconception genetic counseling and health assessment with complex family history of Cystic Fibrosis (autosomal recessive), Marfan syndrome (autosomal dominant), and Hemophilia A (X-linked recessive).",
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

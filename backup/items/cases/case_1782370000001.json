@@ -8,7 +8,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "Which clinical findings should the nurse recognize as cues suggestive of Down syndrome? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Down syndrome</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -505,5 +505,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "Newborn male presenting with hypotonia, low-set ears, epicanthal folds, protruding tongue, and heart murmur, prompting chromosomal karyotyping and comparative evaluation of Down, Turner, and Klinefelter syndromes.",
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

@@ -8,7 +8,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse reviews the client's history and assessment. Which findings should the nurse recognize as cues of an <b>inflammatory (autoimmune) arthritis</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with an <b>inflammatory (autoimmune) arthritis</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -49,7 +49,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "<b>Cues of inflammatory (autoimmune) arthritis:</b><br><br><b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.<br><br><b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides (MCP, PIP, wrists). Warmth and tenderness show active synovitis.<br><br><b>Boggy joints:</b> a soft, spongy feel comes from thickened, inflamed synovium and joint fluid. Osteoarthritis joints feel hard and bony.<br><br><b>Systemic signs:</b> fatigue, low-grade fever and weight loss reflect circulating inflammatory cytokines (TNF-α, IL-6). RA is a systemic disease, not only a joint disease.<br><br><b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.<br><br><b>Not cues:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension."
+        "explanation": "<b>Consistent with inflammatory (autoimmune) arthritis:</b><br><br><b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.<br><br><b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides (MCP, PIP, wrists). Warmth and tenderness show active synovitis.<br><br><b>Boggy joints:</b> a soft, spongy feel comes from thickened, inflamed synovium and joint fluid. Osteoarthritis joints feel hard and bony.<br><br><b>Systemic signs:</b> fatigue, low-grade fever and weight loss reflect circulating inflammatory cytokines (TNF-α, IL-6). RA is a systemic disease, not only a joint disease.<br><br><b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.<br><br><b>Not consistent:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension."
       },
       "leftContent": {
         "tabs": [
@@ -609,5 +609,6 @@
   "authorReview": {
     "note": "New case written by Claude on 14 Oct 2026 for the Unit 6 review class; please review before using it with students:\nScreen 2: anti-CCP has no MCC reference range; the range used (< 20 U/mL) varies by laboratory.\nScreen 4: folic acid 1 mg daily is one common regimen (5 mg once weekly is also used in Canada); adjust to your course's reference.\nScreen 5: leucovorin dose/route and the antibiotic are examples; the key does not depend on them.\nScreen 6: osteoporosis after about 10 weeks of prednisone is attributed to several risk factors together; check the wording suits your teaching.",
     "flaggedAt": "2026-10-14"
-  }
+  },
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

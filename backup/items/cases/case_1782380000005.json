@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse conducts an admission physical and neurological assessment on Raymond. Which clinical cues should the nurse recognize as indicative of <b>paraneoplastic Syndrome of Inappropriate Antidiuretic Hormone (SIADH) and severe dilutional hyponatremia</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>paraneoplastic Syndrome of Inappropriate Antidiuretic Hormone (SIADH) and severe dilutional hyponatremia</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -43,7 +43,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "Small cell lung cancer (SCLC) is a neuroendocrine malignancy that frequently secretes ectopic hormones, most commonly anti-diuretic hormone (ADH/vasopressin), producing paraneoplastic SIADH. Unregulated ectopic ADH stimulates renal aquaporin channels in collecting ducts, causing excess water reabsorption, volume expansion, and dilutional hyponatremia. The clinical cues include: severe hyponatremia (Na 116 mmol/L), low serum osmolality (< 275 mOsm/kg), inappropriately concentrated urine (specific gravity > 1.030, urine Na > 40 mmol/L), euvolemic volume status (no edema because pressure natriuresis excretes sodium while water is retained), and progressive cerebral edema manifesting as confusion, lethargy, muscle twitches, and seizure risk. Hypernatremia and massive dilute polyuria are features of diabetes insipidus, the exact opposite of SIADH."
+        "explanation": "Small cell lung cancer (SCLC) is a neuroendocrine malignancy that frequently secretes ectopic hormones, most commonly anti-diuretic hormone (ADH/vasopressin), producing paraneoplastic SIADH. Unregulated ectopic ADH stimulates renal aquaporin channels in collecting ducts, causing excess water reabsorption, volume expansion, and dilutional hyponatremia. The consistent findings include: severe hyponatremia (Na 116 mmol/L), low serum osmolality (< 275 mOsm/kg), inappropriately concentrated urine (specific gravity > 1.030, urine Na > 40 mmol/L), euvolemic volume status (no edema because pressure natriuresis excretes sodium while water is retained), and progressive cerebral edema manifesting as confusion, lethargy, muscle twitches, and seizure risk. Hypernatremia and massive dilute polyuria are features of diabetes insipidus, the exact opposite of SIADH."
       },
       "leftContent": {
         "intro": "The nurse in the medical oncology progressive care unit is admitting Raymond Miller, a 59-year-old male with extensive-stage small cell lung cancer (SCLC) presenting with altered mental status and profound electrolyte imbalance.",
@@ -474,5 +474,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

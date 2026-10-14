@@ -2643,7 +2643,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Appropriate interventions include teaching the client to identify prodromal warning cues, monitoring for iatrogenic complications from prescribed therapies, educating on precipitating factors, and supporting joint protection during convalescence. Strenuous loading on actively inflamed joints accelerates cartilage lesions and tissue trauma. Chronic autoimmune diseases enter remission rather than permanent cure, and abrupt drug cessation can precipitate a severe rebound exacerbation."
+          "explanation": "Appropriate interventions include teaching the client to identify prodromal warning signs, monitoring for iatrogenic complications from prescribed therapies, educating on precipitating factors, and supporting joint protection during convalescence. Strenuous loading on actively inflamed joints accelerates cartilage lesions and tissue trauma. Chronic autoimmune diseases enter remission rather than permanent cure, and abrupt drug cessation can precipitate a severe rebound exacerbation."
         },
         "leftContent": {
           "tabs": [
@@ -2730,7 +2730,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 1 (Introduction to Pathophysiology)",
     "description": "A case study for formative review of NURS 1017 Unit 1",
     "availability": "all",
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782360000001",
@@ -3075,7 +3075,7 @@ window.NCLEX_CASES = [
           },
           "options": [],
           "preamble": "The nurse conducts a targeted patient education and discharge counseling session with Arthur.",
-          "explanation": "1. Contraindicated: Acid suppression in Barrett's esophagus must be maintained continuously as prescribed; chemical acid exposure continues to cause DNA damage even if sensory nerve endings become desensitized.<br>2. Indicated: Progressive dysphagia, weight loss, or hematemesis are alarm cues suggesting esophageal stricture or adenocarcinoma progression, warranting immediate medical evaluation.<br>3. Indicated: Nocturnal head-of-bed elevation utilizes gravity to prevent retrograde acid flow and pooling in the esophagus.<br>4. Non-Essential: Weekly CT scans deliver unnecessary radiation and are non-essential; annual low-dose chest CT is the standard screening protocol for high-risk smokers.<br>5. Contraindicated: While metaplasia is an adaptive response that is initially non-malignant, persistent chronic injury causes genetic mutations leading to pre-malignant dysplasia and potential progression to adenocarcinoma."
+          "explanation": "1. Contraindicated: Acid suppression in Barrett's esophagus must be maintained continuously as prescribed; chemical acid exposure continues to cause DNA damage even if sensory nerve endings become desensitized.<br>2. Indicated: Progressive dysphagia, weight loss, or hematemesis are alarm signs suggesting esophageal stricture or adenocarcinoma progression, warranting immediate medical evaluation.<br>3. Indicated: Nocturnal head-of-bed elevation utilizes gravity to prevent retrograde acid flow and pooling in the esophagus.<br>4. Non-Essential: Weekly CT scans deliver unnecessary radiation and are non-essential; annual low-dose chest CT is the standard screening protocol for high-risk smokers.<br>5. Contraindicated: While metaplasia is an adaptive response that is initially non-malignant, persistent chronic injury causes genetic mutations leading to pre-malignant dysplasia and potential progression to adenocarcinoma."
         },
         "leftContent": {
           "tabs": [
@@ -3187,7 +3187,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 2 (Cellular Basis of Disease)",
     "description": "58-year-old male with chronic GERD, smoking, and hypertension presenting with Barrett's metaplasia, bronchial squamous metaplasia, and left ventricular hypertrophy.",
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782360000002",
@@ -4099,7 +4099,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "Which clinical findings should the nurse recognize as cues suggestive of Down syndrome? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Down syndrome</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -4596,7 +4596,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "Newborn male presenting with hypotonia, low-set ears, epicanthal folds, protruding tongue, and heart murmur, prompting chromosomal karyotyping and comparative evaluation of Down, Turner, and Klinefelter syndromes.",
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782370000002",
@@ -4637,7 +4637,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Mendelian single-gene disorders follow predictable inheritance patterns (autosomal dominant, autosomal recessive, or X-linked): (Option 5) Hemophilia A is an X-linked recessive bleeding disorder caused by deficiency of factor VIII; Maya's brother being affected means their mother is an obligate or probable carrier, placing Maya at 50% risk of being a carrier. (Option 2) Sudden aortic dissection in a tall relative with pectus excavatum strongly suggests Marfan syndrome (an autosomal dominant connective tissue disorder caused by FBN1 mutations). (Option 6) Cystic Fibrosis is an autosomal recessive disorder caused by CFTR mutations; cousins affected indicates carrier risk in parental lineages. (Option 3) David's physical findings (tall, arm span > height, joint laxity, aortic murmur) are phenotypic cues of Marfan syndrome requiring immediate cardiovascular investigation. Primary hypertension and type 2 diabetes are multifactorial/polygenic disorders, not Mendelian single-gene disorders. Seasonal allergies are immune-mediated environmental responses."
+          "explanation": "Mendelian single-gene disorders follow predictable inheritance patterns (autosomal dominant, autosomal recessive, or X-linked): (Option 5) Hemophilia A is an X-linked recessive bleeding disorder caused by deficiency of factor VIII; Maya's brother being affected means their mother is an obligate or probable carrier, placing Maya at 50% risk of being a carrier. (Option 2) Sudden aortic dissection in a tall relative with pectus excavatum strongly suggests Marfan syndrome (an autosomal dominant connective tissue disorder caused by FBN1 mutations). (Option 6) Cystic Fibrosis is an autosomal recessive disorder caused by CFTR mutations; cousins affected indicates carrier risk in parental lineages. (Option 3) David's physical findings (tall, arm span > height, joint laxity, aortic murmur) are phenotypic features of Marfan syndrome requiring immediate cardiovascular investigation. Primary hypertension and type 2 diabetes are multifactorial/polygenic disorders, not Mendelian single-gene disorders. Seasonal allergies are immune-mediated environmental responses."
         },
         "leftContent": {
           "tabs": [
@@ -5105,7 +5105,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "Young couple presenting for preconception genetic counseling and health assessment with complex family history of Cystic Fibrosis (autosomal recessive), Marfan syndrome (autosomal dominant), and Hemophilia A (X-linked recessive).",
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782370000003",
@@ -5117,7 +5117,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse performs an initial physical assessment on newborn infant Noah. Which clinical findings should the nurse recognize as cues indicative of <b>prenatal teratogen exposure (such as Fetal Alcohol Syndrome and TORCH infection) or congenital developmental defects</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>prenatal teratogen exposure (such as Fetal Alcohol Syndrome and TORCH infection) or congenital developmental defects</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -5154,7 +5154,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (Options 8 and 3) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 1 and 2) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 7) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 4) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
+          "explanation": "Findings indicative of prenatal teratogenic insult and congenital infection include: (Options 8 and 3) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 1 and 2) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 7) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 4) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
         },
         "leftContent": {
           "tabs": [
@@ -5634,7 +5634,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "Newborn infant presenting with intrauterine growth restriction, microcephaly, smooth philtrum, thin vermilion border, cleft lip, and sensorineural hearing impairment, prompting nursing analysis of teratogenic timing, TORCH infections, FAS, and multifactorial inheritance.",
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782380000001",
@@ -5648,7 +5648,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse reviews the clinical intake and physical examination findings for Eleanor. Which assessment cues should the nurse recognize as highly characteristic of a <b>malignant neoplasm</b> rather than a benign tumor? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>malignant neoplasm</b> rather than a benign tumor? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -6135,7 +6135,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782380000002",
@@ -6178,7 +6178,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 1) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 6 and 3) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
+          "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 1) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 6 and 3) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not signs of malignancy."
         },
         "leftContent": {
           "intro": "The nurse in an outpatient gastroenterology and endoscopy clinic is reviewing the health history of Robert Chen, a 61-year-old male presenting for diagnostic colonoscopy after abnormal screening tests.",
@@ -6605,7 +6605,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782380000003",
@@ -6619,7 +6619,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse reviews Danielle's electronic health record and intake presentation. Which clinical assessment cues alert the nurse to potential <b>bronchogenic malignancy with regional or metastatic spread</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>bronchogenic malignancy with regional or metastatic spread</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -7074,7 +7074,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782380000004",
@@ -7088,7 +7088,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse conducts an immediate emergency triage assessment on Gerald. Which clinical findings should the nurse recognize as critical cues indicating <b>bone marrow suppression (febrile neutropenia, thrombocytopenia, severe anemia) and cancer cachexia</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>bone marrow suppression (febrile neutropenia, thrombocytopenia, severe anemia) and cancer cachexia</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -7564,7 +7564,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782380000005",
@@ -7578,7 +7578,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse conducts an admission physical and neurological assessment on Raymond. Which clinical cues should the nurse recognize as indicative of <b>paraneoplastic Syndrome of Inappropriate Antidiuretic Hormone (SIADH) and severe dilutional hyponatremia</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>paraneoplastic Syndrome of Inappropriate Antidiuretic Hormone (SIADH) and severe dilutional hyponatremia</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -7611,7 +7611,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Small cell lung cancer (SCLC) is a neuroendocrine malignancy that frequently secretes ectopic hormones, most commonly anti-diuretic hormone (ADH/vasopressin), producing paraneoplastic SIADH. Unregulated ectopic ADH stimulates renal aquaporin channels in collecting ducts, causing excess water reabsorption, volume expansion, and dilutional hyponatremia. The clinical cues include: severe hyponatremia (Na 116 mmol/L), low serum osmolality (< 275 mOsm/kg), inappropriately concentrated urine (specific gravity > 1.030, urine Na > 40 mmol/L), euvolemic volume status (no edema because pressure natriuresis excretes sodium while water is retained), and progressive cerebral edema manifesting as confusion, lethargy, muscle twitches, and seizure risk. Hypernatremia and massive dilute polyuria are features of diabetes insipidus, the exact opposite of SIADH."
+          "explanation": "Small cell lung cancer (SCLC) is a neuroendocrine malignancy that frequently secretes ectopic hormones, most commonly anti-diuretic hormone (ADH/vasopressin), producing paraneoplastic SIADH. Unregulated ectopic ADH stimulates renal aquaporin channels in collecting ducts, causing excess water reabsorption, volume expansion, and dilutional hyponatremia. The consistent findings include: severe hyponatremia (Na 116 mmol/L), low serum osmolality (< 275 mOsm/kg), inappropriately concentrated urine (specific gravity > 1.030, urine Na > 40 mmol/L), euvolemic volume status (no edema because pressure natriuresis excretes sodium while water is retained), and progressive cerebral edema manifesting as confusion, lethargy, muscle twitches, and seizure risk. Hypernatremia and massive dilute polyuria are features of diabetes insipidus, the exact opposite of SIADH."
         },
         "leftContent": {
           "intro": "The nurse in the medical oncology progressive care unit is admitting Raymond Miller, a 59-year-old male with extensive-stage small cell lung cancer (SCLC) presenting with altered mental status and profound electrolyte imbalance.",
@@ -8042,7 +8042,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782390000001",
@@ -8086,7 +8086,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "The nurse conducts an admission integumentary assessment for the client.",
-          "explanation": "Clinical cues of cutaneous malignancy include: (1) Basal Cell Carcinoma (BCC) hallmark features—pearly, translucent papule or nodule with rolled borders and telangiectasias (abnormally dilated blood vessels); (2) Malignant Melanoma hallmark ABCDE criteria—Asymmetry, Border irregularity (notched/scalloped), Color variegation (black, dark brown, red/pink), Diameter &gt; 6 mm, and Evolution (recent change in size, shape, bleeding, or pruritus); and (3) Regional lymphadenopathy indicating potential metastatic dissemination. Conversely, senile purpura (benign dermal capillary fragility from age-related loss of collagen support) and generalized xerosis (reduced sebaceous gland sebum secretion) represent benign physiological aging changes."
+          "explanation": "Findings consistent with cutaneous malignancy include: (1) Basal Cell Carcinoma (BCC) hallmark features—pearly, translucent papule or nodule with rolled borders and telangiectasias (abnormally dilated blood vessels); (2) Malignant Melanoma hallmark ABCDE criteria—Asymmetry, Border irregularity (notched/scalloped), Color variegation (black, dark brown, red/pink), Diameter &gt; 6 mm, and Evolution (recent change in size, shape, bleeding, or pruritus); and (3) Regional lymphadenopathy indicating potential metastatic dissemination. Conversely, senile purpura (benign dermal capillary fragility from age-related loss of collagen support) and generalized xerosis (reduced sebaceous gland sebum secretion) represent benign physiological aging changes."
         },
         "leftContent": {
           "intro": "The nurse in an outpatient dermatology and cutaneous oncology clinic is conducting a comprehensive skin examination for Harold Jenkins, a 74-year-old retired farmer and landscaper.",
@@ -8539,7 +8539,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782390000002",
@@ -8553,7 +8553,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse in a community family health clinic assesses 8-year-old Liam and his 21-year-old brother Marcus. Which clinical findings should the nurse recognize as hallmark cues of <b>impetigo</b> in Liam and <b>herpes zoster (shingles)</b> in Marcus? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the clients' histories and assessments. Which of the following findings would be consistent with <b>impetigo</b> in Liam and <b>herpes zoster (shingles)</b> in Marcus? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -9016,7 +9016,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782390000003",
@@ -9030,7 +9030,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse conducts an intake examination for Maya. Which assessment cues should the nurse recognize as hallmark manifestations of <b>Systemic Lupus Erythematosus (SLE)</b> and inflammatory cutaneous pathology? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Systemic Lupus Erythematosus (SLE)</b> and inflammatory cutaneous pathology? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -9156,7 +9156,7 @@ window.NCLEX_CASES = [
       {
         "step": 3,
         "question": {
-          "stem": "The nurse synthesizes Maya's clinical cues and laboratory markers to prioritize systemic risks.<br><br>Complete the following sentences by choosing from the lists of options.",
+          "stem": "The nurse reviews Maya's clinical findings and laboratory results to prioritize systemic risks.<br><br>Complete the following sentences by choosing from the lists of options.",
           "type": "dropdown_cloze",
           "options": [],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1300.",
@@ -9487,7 +9487,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782390000004",
@@ -9501,7 +9501,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse in the burn trauma resuscitation bay performs an immediate primary survey on Tyler. Which clinical findings should the nurse recognize as critical cues indicating <b>inhalation injury and impending airway obstruction</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>inhalation injury and impending airway obstruction</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -9530,7 +9530,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Critical cues of thermal inhalation injury include: (Option 1) Fire/explosion in an enclosed, confined space; (Option 2) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 3) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
+          "explanation": "Findings consistent with thermal inhalation injury include: (Option 1) Fire/explosion in an enclosed, confined space; (Option 2) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 3) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
         },
         "leftContent": {
           "intro": "The nurse in a regional burn trauma center is admitting Tyler Brooks, a 34-year-old industrial mechanic transported by emergency medical services (EMS) following an explosion and flash fire in an enclosed auto repair garage 45 minutes ago.",
@@ -9967,7 +9967,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782390000005",
@@ -9981,7 +9981,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse conducts a focused neurovascular and wound assessment on Karen's burned right lower extremity. Which assessment cues indicate <b>circumferential third-degree full-thickness burn injury with impending compartment syndrome</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>circumferential third-degree full-thickness burn injury with impending compartment syndrome</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -10010,7 +10010,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "1. Full-Thickness (Third-Degree) Burn: Destroys the epidermis, entire dermis, and epidermal appendages into subcutaneous fat; appears dry, leathery, charred white, brown, or black, and is insensate to pinprick because dermal sensory nerve endings are incinerated.<br>2. Compartment Syndrome in Circumferential Burns: Circumferential full-thickness eschar cannot stretch. As massive resuscitation edema expands within the rigid fascial compartments beneath the leathery eschar, interstitial pressure exceeds capillary perfusion pressure (&gt; 30 mm Hg), cutting off arterial inflow and venous outflow. Hallmark cues include: hard, woody muscle compartments; severe deep pain on passive muscle stretch; paresthesias; coolness; and loss of distal pulses (a late, critical sign of impending gangrene and muscle necrosis). Moist weeping blisters with brisk blanching describe a second-degree superficial partial-thickness burn."
+          "explanation": "1. Full-Thickness (Third-Degree) Burn: Destroys the epidermis, entire dermis, and epidermal appendages into subcutaneous fat; appears dry, leathery, charred white, brown, or black, and is insensate to pinprick because dermal sensory nerve endings are incinerated.<br>2. Compartment Syndrome in Circumferential Burns: Circumferential full-thickness eschar cannot stretch. As massive resuscitation edema expands within the rigid fascial compartments beneath the leathery eschar, interstitial pressure exceeds capillary perfusion pressure (&gt; 30 mm Hg), cutting off arterial inflow and venous outflow. Hallmark findings include: hard, woody muscle compartments; severe deep pain on passive muscle stretch; paresthesias; coolness; and loss of distal pulses (a late, critical sign of impending gangrene and muscle necrosis). Moist weeping blisters with brisk blanching describe a second-degree superficial partial-thickness burn."
         },
         "leftContent": {
           "intro": "The nurse in the burn center acute care unit is assessing Karen Foster, a 42-year-old female chef admitted 8 hours ago after a commercial deep fryer tipped over, causing extensive boiling oil burns across her right upper and lower extremities.",
@@ -10458,7 +10458,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782370000004",
@@ -10470,7 +10470,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse reviews Ethan's history and physical assessment. Which findings should the nurse recognize as cues of a <b>progressive inherited neuromuscular disorder</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>progressive inherited neuromuscular disorder</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -10507,7 +10507,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "<b>Correct cues:</b><br><br><b>Gowers sign</b> (climbing up the thighs with the hands to stand) reflects weakness of the proximal hip and thigh muscles, the first muscles affected in Duchenne muscular dystrophy (DMD).<br><br><b>Calf pseudohypertrophy:</b> the calves look large, but damaged muscle fibers are being replaced by fat and fibrous connective tissue, which makes them feel firm and rubbery. They are not stronger.<br><br><b>Family history:</b> an affected male relative on the mother's side (her brother) who died young of cardiac and respiratory failure strongly suggests an X-linked recessive disorder passed through the maternal line.<br><br><b>Waddling (Trendelenburg) gait, lumbar lordosis and trouble with stairs</b> compensate for weak hip and trunk muscles.<br><br><b>Late walking (after about 15–18 months), frequent falls and toe-walking</b> are early motor signs. Toe-walking comes from tight heel cords (Achilles contractures).<br><br><b>Not cues:</b> heart rate, respiratory rate and growth are normal for a 4-year-old. Grip and fine motor skills are usually preserved early because DMD weakens proximal muscles before distal ones."
+          "explanation": "<b>Consistent findings:</b><br><br><b>Gowers sign</b> (climbing up the thighs with the hands to stand) reflects weakness of the proximal hip and thigh muscles, the first muscles affected in Duchenne muscular dystrophy (DMD).<br><br><b>Calf pseudohypertrophy:</b> the calves look large, but damaged muscle fibers are being replaced by fat and fibrous connective tissue, which makes them feel firm and rubbery. They are not stronger.<br><br><b>Family history:</b> an affected male relative on the mother's side (her brother) who died young of cardiac and respiratory failure strongly suggests an X-linked recessive disorder passed through the maternal line.<br><br><b>Waddling (Trendelenburg) gait, lumbar lordosis and trouble with stairs</b> compensate for weak hip and trunk muscles.<br><br><b>Late walking (after about 15–18 months), frequent falls and toe-walking</b> are early motor signs. Toe-walking comes from tight heel cords (Achilles contractures).<br><br><b>Not consistent:</b> heart rate, respiratory rate and growth are normal for a 4-year-old. Grip and fine motor skills are usually preserved early because DMD weakens proximal muscles before distal ones."
         },
         "leftContent": {
           "tabs": [
@@ -10998,7 +10998,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes.",
-    "updatedAt": "2026-10-14T19:10:07.127Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782390000006",
@@ -11036,7 +11036,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Adapted from OpenStax <i>Medical-Surgical Nursing</i> (2024), Chapter 14 &mdash; Integumentary System (CC BY-NC-SA 4.0). This derivative work is licensed CC BY-NC-SA 4.0.",
           "preamble": "Phase 1 &mdash; Emergency Department, 0305.",
-          "explanation": "<p><b>Highlight these five findings:</b> oriented to person only; hoarse voice with a frequent cough; black-tinged sputum; singed nasal hairs and eyebrows with soot around the nose and mouth; and expiratory wheezes.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-inhalation-cues.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-inhalation-cues.svg\" alt=\"Diagram of a head, larynx, trachea and lungs with the inhalation injury cues labelled\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Smoke inhalation injury: D.R.'s cues from the face down to the lungs.</figcaption></figure><p><b>Why these findings</b></p><ul><li><b>Hoarse voice and frequent cough:</b> heat and smoke injure the larynx. Swelling there can progress within hours to stridor and complete airway obstruction, so hoarseness is a red-flag cue.</li><li><b>Black-tinged (carbonaceous) sputum:</b> soot in the sputum shows that smoke was inhaled below the vocal cords.</li><li><b>Singed nasal hairs and eyebrows; soot around the nose and mouth:</b> classic external signs of smoke and heat inhalation, especially after being trapped in an enclosed, smoke-filled room.</li><li><b>Expiratory wheezes:</b> bronchospasm and lower-airway irritation from inhaled smoke and chemicals.</li><li><b>Oriented to person only:</b> new confusion after smoke exposure suggests cerebral hypoxia from carbon monoxide (CO) and/or impaired gas exchange. It belongs to both Breathing and Disability in the ABCDE sequence.</li></ul><p>The headache and nausea in the same note are early signs of CO poisoning, explored in the next question.</p><p><b>Why the other phrases are not airway cues</b></p><ul><li><b>Tearful, asking about his dog:</b> an expected emotional response. He will need support once he is stable.</li><li><b>Chest pain 9/10:</b> comes from the partial-thickness (second-degree) burn of the anterior trunk, which is very painful because nerve endings are exposed. It needs treatment, but it is not an airway cue.</li><li><b>Circumferential full-thickness burn of the right arm:</b> a circulation concern (risk of compartment syndrome). A circumferential full-thickness burn of the <i>chest</i> could restrict breathing; one of the arm cannot.</li><li><b>Ring and watch on the burned arm:</b> they must come off before swelling starts, but they do not signal airway risk.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/burn-partial-thickness-hand.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/burn-partial-thickness-hand.jpg\" alt=\"Photograph of a partial-thickness burn with a blister on the back of a hand\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">A partial-thickness (second-degree) burn: red, moist and blistered, and very painful, like D.R.'s chest and abdomen. Photo: Kronoman, <a href=\"https://commons.wikimedia.org/wiki/File:Hand2ndburn.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure>",
+          "explanation": "<p><b>Highlight these five findings:</b> oriented to person only; hoarse voice with a frequent cough; black-tinged sputum; singed nasal hairs and eyebrows with soot around the nose and mouth; and expiratory wheezes.</p><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/u5c6-inhalation-cues.svg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/u5c6-inhalation-cues.svg\" alt=\"Diagram of a head, larynx, trachea and lungs with the inhalation injury findings labelled\" style=\"max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">Smoke inhalation injury: D.R.'s findings from the face down to the lungs.</figcaption></figure><p><b>Why these findings</b></p><ul><li><b>Hoarse voice and frequent cough:</b> heat and smoke injure the larynx. Swelling there can progress within hours to stridor and complete airway obstruction, so hoarseness is a red-flag finding.</li><li><b>Black-tinged (carbonaceous) sputum:</b> soot in the sputum shows that smoke was inhaled below the vocal cords.</li><li><b>Singed nasal hairs and eyebrows; soot around the nose and mouth:</b> classic external signs of smoke and heat inhalation, especially after being trapped in an enclosed, smoke-filled room.</li><li><b>Expiratory wheezes:</b> bronchospasm and lower-airway irritation from inhaled smoke and chemicals.</li><li><b>Oriented to person only:</b> new confusion after smoke exposure suggests cerebral hypoxia from carbon monoxide (CO) and/or impaired gas exchange. It belongs to both Breathing and Disability in the ABCDE sequence.</li></ul><p>The headache and nausea in the same note are early signs of CO poisoning, explored in the next question.</p><p><b>Why the other phrases are not signs of airway compromise</b></p><ul><li><b>Tearful, asking about his dog:</b> an expected emotional response. He will need support once he is stable.</li><li><b>Chest pain 9/10:</b> comes from the partial-thickness (second-degree) burn of the anterior trunk, which is very painful because nerve endings are exposed. It needs treatment, but it is not a sign of airway compromise.</li><li><b>Circumferential full-thickness burn of the right arm:</b> a circulation concern (risk of compartment syndrome). A circumferential full-thickness burn of the <i>chest</i> could restrict breathing; one of the arm cannot.</li><li><b>Ring and watch on the burned arm:</b> they must come off before swelling starts, but they do not signal airway risk.</li></ul><figure style=\"margin: 12px 0; text-align: center;\"><a href=\"files/rationale/burn-partial-thickness-hand.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"files/rationale/burn-partial-thickness-hand.jpg\" alt=\"Photograph of a partial-thickness burn with a blister on the back of a hand\" style=\"max-width: 100%; max-height: 320px; height: auto; border: 1px solid #e2e8f0; border-radius: 6px;\"></a><figcaption style=\"font-size: 12px; color: #64748b; margin-top: 4px; text-align: left;\">A partial-thickness (second-degree) burn: red, moist and blistered, and very painful, like D.R.'s chest and abdomen. Photo: Kronoman, <a href=\"https://commons.wikimedia.org/wiki/File:Hand2ndburn.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a>.</figcaption></figure>",
           "highlightTabs": [
             {
               "id": "c1_ht1",
@@ -11754,7 +11754,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "A 46-year-old male client with flame burns and suspected inhalation injury, from the emergency department through fluid resuscitation and early burn-centre recovery.",
     "availability": "all",
-    "updatedAt": "2026-10-08T23:35:00.008Z"
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782390000007",
@@ -24541,7 +24541,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "The nurse reviews the client's history and assessment. Which findings should the nurse recognize as cues of an <b>inflammatory (autoimmune) arthritis</b>? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with an <b>inflammatory (autoimmune) arthritis</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -24582,7 +24582,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "<b>Cues of inflammatory (autoimmune) arthritis:</b><br><br><b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.<br><br><b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides (MCP, PIP, wrists). Warmth and tenderness show active synovitis.<br><br><b>Boggy joints:</b> a soft, spongy feel comes from thickened, inflamed synovium and joint fluid. Osteoarthritis joints feel hard and bony.<br><br><b>Systemic signs:</b> fatigue, low-grade fever and weight loss reflect circulating inflammatory cytokines (TNF-α, IL-6). RA is a systemic disease, not only a joint disease.<br><br><b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.<br><br><b>Not cues:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension."
+          "explanation": "<b>Consistent with inflammatory (autoimmune) arthritis:</b><br><br><b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.<br><br><b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides (MCP, PIP, wrists). Warmth and tenderness show active synovitis.<br><br><b>Boggy joints:</b> a soft, spongy feel comes from thickened, inflamed synovium and joint fluid. Osteoarthritis joints feel hard and bony.<br><br><b>Systemic signs:</b> fatigue, low-grade fever and weight loss reflect circulating inflammatory cytokines (TNF-α, IL-6). RA is a systemic disease, not only a joint disease.<br><br><b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.<br><br><b>Not consistent:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension."
         },
         "leftContent": {
           "tabs": [
@@ -25142,7 +25142,8 @@ window.NCLEX_CASES = [
     "authorReview": {
       "note": "New case written by Claude on 14 Oct 2026 for the Unit 6 review class; please review before using it with students:\nScreen 2: anti-CCP has no MCC reference range; the range used (< 20 U/mL) varies by laboratory.\nScreen 4: folic acid 1 mg daily is one common regimen (5 mg once weekly is also used in Canada); adjust to your course's reference.\nScreen 5: leucovorin dose/route and the antibiotic are examples; the key does not depend on them.\nScreen 6: osteoporosis after about 10 weeks of prednisone is attributed to several risk factors together; check the wording suits your teaching.",
       "flaggedAt": "2026-10-14"
-    }
+    },
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782400000002",
@@ -26678,7 +26679,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "Which findings are consistent with a disorder of neuromuscular transmission? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>disorder of neuromuscular transmission</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -26719,7 +26720,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "<b>Hallmark: fatigable weakness.</b> In myasthenia gravis (MG), voluntary muscles weaken with repeated use and recover with rest. Weakness is therefore least in the morning and worst later in the day or after sustained activity.<br><br><b>Ocular muscles</b> are affected first in most clients (ptosis, diplopia). Sustained upward gaze tires the eyelid muscle and brings out the ptosis.<br><br><b>Bulbar muscles</b> (chewing, swallowing, speaking) are often affected: a tiring jaw, a soft nasal voice, choking. Bulbar weakness matters because it threatens the airway.<br><br><b>Proximal limb muscles</b> tire with repeated or sustained use, such as holding the arms up.<br><br><b>Not cues:</b> back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood pressure are normal.<br><br><b>Also note what she denies:</b> MG affects only the neuromuscular junction, so sensation is normal (numbness and tingling would suggest a nerve problem) and there is no twitching (fasciculations suggest a motor neuron disease such as ALS). Weakness that is worst on waking would be the opposite of the MG pattern."
+          "explanation": "<b>Hallmark: fatigable weakness.</b> In myasthenia gravis (MG), voluntary muscles weaken with repeated use and recover with rest. Weakness is therefore least in the morning and worst later in the day or after sustained activity.<br><br><b>Ocular muscles</b> are affected first in most clients (ptosis, diplopia). Sustained upward gaze tires the eyelid muscle and brings out the ptosis.<br><br><b>Bulbar muscles</b> (chewing, swallowing, speaking) are often affected: a tiring jaw, a soft nasal voice, choking. Bulbar weakness matters because it threatens the airway.<br><br><b>Proximal limb muscles</b> tire with repeated or sustained use, such as holding the arms up.<br><br><b>Not consistent:</b> back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood pressure are normal.<br><br><b>Also note what she denies:</b> MG affects only the neuromuscular junction, so sensation is normal (numbness and tingling would suggest a nerve problem) and there is no twitching (fasciculations suggest a motor neuron disease such as ALS). Weakness that is worst on waking would be the opposite of the MG pattern."
         },
         "leftContent": {
           "tabs": [
@@ -27207,7 +27208,8 @@ window.NCLEX_CASES = [
     "authorReview": {
       "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3: thresholds for respiratory failure (vital capacity below about 20 mL/kg, negative inspiratory force weaker than −20 to −30 cm H₂O) are commonly cited values.\nScreen 5: the list of medicines that can worsen myasthenia gravis is given as examples.",
       "flaggedAt": "2026-10-14"
-    }
+    },
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782400000006",
@@ -27223,7 +27225,7 @@ window.NCLEX_CASES = [
           "type": "highlight",
           "options": [],
           "preamble": "",
-          "explanation": "<b>Consistent with osteoarthritis (OA):</b><br><br><b>Pain with use that eases with rest</b> and worsens through the day: the damaged joint surfaces hurt under load. In late disease pain may also occur at rest and at night.<br><br><b>Short morning stiffness</b> (usually under 30 minutes) after rest, which loosens with movement.<br><br><b>Crepitus:</b> grating from roughened cartilage and bone surfaces moving against each other.<br><br><b>Heberden nodes:</b> bony enlargements (osteophytes) of the distal interphalangeal joints; Bouchard nodes affect the proximal interphalangeal joints.<br><br><b>Risk factors:</b> obesity (more load on weight-bearing joints, plus inflammatory substances from fat tissue) and years of repeated kneeling or joint stress. Age and previous joint injury are other major risk factors.<br><br><b>Not OA cues:</b> unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, systemic arthritis such as rheumatoid arthritis. Ramipril treats his hypertension.",
+          "explanation": "<b>Consistent with osteoarthritis (OA):</b><br><br><b>Pain with use that eases with rest</b> and worsens through the day: the damaged joint surfaces hurt under load. In late disease pain may also occur at rest and at night.<br><br><b>Short morning stiffness</b> (usually under 30 minutes) after rest, which loosens with movement.<br><br><b>Crepitus:</b> grating from roughened cartilage and bone surfaces moving against each other.<br><br><b>Heberden nodes:</b> bony enlargements (osteophytes) of the distal interphalangeal joints; Bouchard nodes affect the proximal interphalangeal joints.<br><br><b>Risk factors:</b> obesity (more load on weight-bearing joints, plus inflammatory substances from fat tissue) and years of repeated kneeling or joint stress. Age and previous joint injury are other major risk factors.<br><br><b>Not consistent with OA:</b> unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, systemic arthritis such as rheumatoid arthritis. Ramipril treats his hypertension.",
           "highlightTabs": [
             {
               "id": "ht1",
@@ -27698,7 +27700,8 @@ window.NCLEX_CASES = [
     "authorReview": {
       "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3: acetaminophen maximum stated as 4 g/day, lower (often 3 g or less) for older adults and regular alcohol use; adjust to your course's reference.\nScreen 4: the “1 kg lost = about 4 kg less load on the knee” figure comes from Messier et al. (2005).\nScreen 6: knee flexion goal at 6 weeks (about 90°–110°) varies by surgeon.",
       "flaggedAt": "2026-10-14"
-    }
+    },
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782400000007",
@@ -27710,7 +27713,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "Which findings are consistent with fibromyalgia? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>fibromyalgia</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -27755,7 +27758,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "<b>Consistent with fibromyalgia:</b> chronic (3 months or more) <b>widespread pain</b> on both sides of the body and above and below the waist is the core feature. It is accompanied by <b>unrefreshing sleep</b>, <b>fatigue</b>, and <b>cognitive symptoms</b> (“fibro fog”). Pain from touch that should not hurt (<b>allodynia</b>, such as a hug or a waistband) reflects an oversensitive pain system. Other functional conditions are common alongside it: <b>irritable bowel syndrome</b>, <b>tension headaches</b> and migraines, temporomandibular disorder, and anxiety or depression.<br><br><b>Not cues:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis."
+          "explanation": "<b>Consistent with fibromyalgia:</b> chronic (3 months or more) <b>widespread pain</b> on both sides of the body and above and below the waist is the core feature. It is accompanied by <b>unrefreshing sleep</b>, <b>fatigue</b>, and <b>cognitive symptoms</b> (“fibro fog”). Pain from touch that should not hurt (<b>allodynia</b>, such as a hug or a waistband) reflects an oversensitive pain system. Other functional conditions are common alongside it: <b>irritable bowel syndrome</b>, <b>tension headaches</b> and migraines, temporomandibular disorder, and anxiety or depression.<br><br><b>Not consistent:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis."
         },
         "leftContent": {
           "tabs": [
@@ -28223,7 +28226,8 @@ window.NCLEX_CASES = [
     "authorReview": {
       "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3–4: the case includes an indirect suicidal statement and the Canadian 9-8-8 Suicide Crisis Helpline; consider mentioning this to the class before using it.\nScreen 2: the diagnostic criteria are described as in the ACR 2010/2016 criteria (tender points no longer required).",
       "flaggedAt": "2026-10-14"
-    }
+    },
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782400000008",
@@ -28235,7 +28239,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "Which findings are consistent with acute gouty arthritis? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>acute gouty arthritis</b>? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -28276,7 +28280,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "<b>Typical of acute gout:</b> attacks start suddenly, often at night, and reach maximal pain within 12 to 24 hours. The first metatarsophalangeal joint of the big toe is the classic site (<b>podagra</b>). The joint is red, hot, swollen and shiny and so tender that even a bedsheet hurts. Untreated attacks usually settle in 1 to 2 weeks, and the client is symptom-free between attacks.<br><br><b>Triggers:</b> alcohol (especially beer, which is rich in purines) and purine-rich foods such as shellfish and organ meats raise uric acid; dehydration, fasting and surgery can also trigger attacks.<br><br><b>Tophi:</b> firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.<br><br><b>Not cues:</b> the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout."
+          "explanation": "<b>Typical of acute gout:</b> attacks start suddenly, often at night, and reach maximal pain within 12 to 24 hours. The first metatarsophalangeal joint of the big toe is the classic site (<b>podagra</b>). The joint is red, hot, swollen and shiny and so tender that even a bedsheet hurts. Untreated attacks usually settle in 1 to 2 weeks, and the client is symptom-free between attacks.<br><br><b>Triggers:</b> alcohol (especially beer, which is rich in purines) and purine-rich foods such as shellfish and organ meats raise uric acid; dehydration, fasting and surgery can also trigger attacks.<br><br><b>Tophi:</b> firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.<br><br><b>Not consistent:</b> the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout."
         },
         "leftContent": {
           "tabs": [
@@ -28779,7 +28783,8 @@ window.NCLEX_CASES = [
     "authorReview": {
       "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nThe acute-attack medication is left generic (“an anti-inflammatory medication”) so no question depends on the provider's choice.\nScreen 4: fluids of 2 to 3 L/day are qualified by “unless the provider sets a limit” because of his kidney disease.\nScreen 6: the uric acid target (< 360 µmol/L) follows common guidelines.",
       "flaggedAt": "2026-10-14"
-    }
+    },
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   },
   {
     "id": "case_1782400000009",
@@ -28791,7 +28796,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "Which findings suggest an inflammatory cause of the client's back pain rather than a mechanical (strain) cause? <b>Select all that apply.</b>",
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>inflammatory back pain</b> rather than mechanical (strain) back pain? <b>Select all that apply.</b>",
           "type": "select_all",
           "options": [
             {
@@ -28832,7 +28837,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "<b>Inflammatory back pain</b> typically starts before age 40, comes on gradually, lasts more than 3 months, causes morning stiffness of 30 minutes or more, improves with exercise but not with rest, and wakes the person in the second half of the night. Mechanical back pain is the opposite: it worsens with activity and improves with rest.<br><br><b>Alternating buttock pain</b> points to inflammation of the sacroiliac joints (sacroiliitis), the hallmark of ankylosing spondylitis (AS).<br><br><b>Heel pain at the Achilles insertion</b> is enthesitis, inflammation where tendons and ligaments attach to bone, a key feature of the spondyloarthritis family.<br><br><b>Acute anterior uveitis</b> (painful red eye with light sensitivity) is the most common extra-articular feature of AS.<br><br><b>Not cues:</b> warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal."
+          "explanation": "<b>Inflammatory back pain</b> typically starts before age 40, comes on gradually, lasts more than 3 months, causes morning stiffness of 30 minutes or more, improves with exercise but not with rest, and wakes the person in the second half of the night. Mechanical back pain is the opposite: it worsens with activity and improves with rest.<br><br><b>Alternating buttock pain</b> points to inflammation of the sacroiliac joints (sacroiliitis), the hallmark of ankylosing spondylitis (AS).<br><br><b>Heel pain at the Achilles insertion</b> is enthesitis, inflammation where tendons and ligaments attach to bone, a key feature of the spondyloarthritis family.<br><br><b>Acute anterior uveitis</b> (painful red eye with light sensitivity) is the most common extra-articular feature of AS.<br><br><b>Not consistent:</b> warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal."
         },
         "leftContent": {
           "tabs": [
@@ -29327,7 +29332,8 @@ window.NCLEX_CASES = [
     "authorReview": {
       "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 1: Schober test normal (increase of 5 cm or more) and chest expansion values are commonly cited; check your textbook.\nScreen 2: HLA-B27 prevalence (about 90% in AS, about 8% in the general population) varies by population.\nScreen 5: the uveitis prevalence (up to about a third of clients with AS) is an approximate figure.",
       "flaggedAt": "2026-10-14"
-    }
+    },
+    "updatedAt": "2026-10-14T22:42:50.340Z"
   }
 ];
 

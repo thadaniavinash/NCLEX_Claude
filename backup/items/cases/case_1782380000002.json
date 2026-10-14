@@ -39,7 +39,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 1) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 6 and 3) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
+        "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 1) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 6 and 3) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not signs of malignancy."
       },
       "leftContent": {
         "intro": "The nurse in an outpatient gastroenterology and endoscopy clinic is reviewing the health history of Robert Chen, a 61-year-old male presenting for diagnostic colonoscopy after abnormal screening tests.",
@@ -466,5 +466,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

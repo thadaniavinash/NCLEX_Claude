@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse reviews Danielle's electronic health record and intake presentation. Which clinical assessment cues alert the nurse to potential <b>bronchogenic malignancy with regional or metastatic spread</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>bronchogenic malignancy with regional or metastatic spread</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -465,5 +465,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

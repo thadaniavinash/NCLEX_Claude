@@ -337,7 +337,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "Appropriate interventions include teaching the client to identify prodromal warning cues, monitoring for iatrogenic complications from prescribed therapies, educating on precipitating factors, and supporting joint protection during convalescence. Strenuous loading on actively inflamed joints accelerates cartilage lesions and tissue trauma. Chronic autoimmune diseases enter remission rather than permanent cure, and abrupt drug cessation can precipitate a severe rebound exacerbation."
+        "explanation": "Appropriate interventions include teaching the client to identify prodromal warning signs, monitoring for iatrogenic complications from prescribed therapies, educating on precipitating factors, and supporting joint protection during convalescence. Strenuous loading on actively inflamed joints accelerates cartilage lesions and tissue trauma. Chronic autoimmune diseases enter remission rather than permanent cure, and abrupt drug cessation can precipitate a severe rebound exacerbation."
       },
       "leftContent": {
         "tabs": [
@@ -424,5 +424,5 @@
   "disorder": "Unit 1 (Introduction to Pathophysiology)",
   "description": "A case study for formative review of NURS 1017 Unit 1",
   "availability": "all",
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }

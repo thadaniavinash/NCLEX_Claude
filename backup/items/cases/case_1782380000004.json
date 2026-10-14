@@ -10,7 +10,7 @@
     {
       "step": 1,
       "question": {
-        "stem": "The nurse conducts an immediate emergency triage assessment on Gerald. Which clinical findings should the nurse recognize as critical cues indicating <b>bone marrow suppression (febrile neutropenia, thrombocytopenia, severe anemia) and cancer cachexia</b>? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>bone marrow suppression (febrile neutropenia, thrombocytopenia, severe anemia) and cancer cachexia</b>? <b>Select all that apply.</b>",
         "type": "select_all",
         "options": [
           {
@@ -486,5 +486,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:10:07.127Z"
+  "updatedAt": "2026-10-14T22:42:50.340Z"
 }
