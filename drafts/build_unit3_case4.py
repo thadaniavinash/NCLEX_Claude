@@ -163,7 +163,7 @@ screens = [
                         "tabs": [NN_INTAKE, VS_INTAKE]},
         "question": {
             "type": "select_all",
-            "stem": "The nurse reviews Ethan's history and physical assessment. Which findings should the nurse recognize as cues of a <b>progressive inherited neuromuscular disorder</b>? <b>Select all that apply.</b>",
+            "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>progressive inherited neuromuscular disorder</b>? <b>Select all that apply.</b>",
             "preamble": "",
             "options": opts(
                 ("Uses his hands to push up on his thighs to rise from the floor, taking 7 seconds", True),
@@ -176,13 +176,13 @@ screens = [
                 ("Walked independently at 18 months, with frequent falls and toe-walking", True),
             ),
             "explanation": rationale(
-                "<b>Correct cues:</b>",
+                "<b>Consistent findings:</b>",
                 "<b>Gowers sign</b> (climbing up the thighs with the hands to stand) reflects weakness of the proximal hip and thigh muscles, the first muscles affected in Duchenne muscular dystrophy (DMD).",
                 "<b>Calf pseudohypertrophy:</b> the calves look large, but damaged muscle fibers are being replaced by fat and fibrous connective tissue, which makes them feel firm and rubbery. They are not stronger.",
                 "<b>Family history:</b> an affected male relative on the mother's side (her brother) who died young of cardiac and respiratory failure strongly suggests an X-linked recessive disorder passed through the maternal line.",
                 "<b>Waddling (Trendelenburg) gait, lumbar lordosis and trouble with stairs</b> compensate for weak hip and trunk muscles.",
                 "<b>Late walking (after about 15–18 months), frequent falls and toe-walking</b> are early motor signs. Toe-walking comes from tight heel cords (Achilles contractures).",
-                "<b>Not cues:</b> heart rate, respiratory rate and growth are normal for a 4-year-old. Grip and fine motor skills are usually preserved early because DMD weakens proximal muscles before distal ones."),
+                "<b>Not consistent:</b> heart rate, respiratory rate and growth are normal for a 4-year-old. Grip and fine motor skills are usually preserved early because DMD weakens proximal muscles before distal ones."),
         },
     },
     {  # 2 Analyze cues

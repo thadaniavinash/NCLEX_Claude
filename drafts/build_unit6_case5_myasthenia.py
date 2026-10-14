@@ -16,7 +16,7 @@ C.notes("nn", "Nurses' Notes", ("Day 1 1500",
 C.vitals("Day 1 1500", vs("36.8° C", "76 beats/min", "16 breaths/min", "118/74 mm Hg", "99% on room air"))
 s1 = screen(1, INTRO, C, {
     "type": "select_all",
-    "stem": "Which findings are consistent with a disorder of neuromuscular transmission? <b>Select all that apply.</b>",
+    "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a <b>disorder of neuromuscular transmission</b>? <b>Select all that apply.</b>",
     "options": opts(
         ("Drooping eyelids and double vision that worsen as the day goes on", True),
         ("Jaw tires while chewing, so she rests partway through meals", True),
@@ -36,7 +36,7 @@ s1 = screen(1, INTRO, C, {
         "<b>Bulbar muscles</b> (chewing, swallowing, speaking) are often affected: a tiring jaw, a soft nasal voice, choking. Bulbar "
         "weakness matters because it threatens the airway.",
         "<b>Proximal limb muscles</b> tire with repeated or sustained use, such as holding the arms up.",
-        "<b>Not cues:</b> back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood "
+        "<b>Not consistent:</b> back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood "
         "pressure are normal.",
         "<b>Also note what she denies:</b> MG affects only the neuromuscular junction, so sensation is normal (numbness and tingling would "
         "suggest a nerve problem) and there is no twitching (fasciculations suggest a motor neuron disease such as ALS). Weakness that is "

@@ -17,7 +17,7 @@ C.notes("nn", "Nurses' Notes", ("Day 1 0730",
 C.vitals("Day 1 0730", vs("37.9° C", "96 beats/min", "18 breaths/min", "152/94 mm Hg", "97% on room air"))
 s1 = screen(1, INTRO, C, {
     "type": "select_all",
-    "stem": "Which findings are consistent with acute gouty arthritis? <b>Select all that apply.</b>",
+    "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>acute gouty arthritis</b>? <b>Select all that apply.</b>",
     "options": opts(
         ("Sudden, severe pain that woke him at 0300", True),
         ("Red, hot, swollen, shiny joint at the base of the right great toe", True),
@@ -38,7 +38,7 @@ s1 = screen(1, INTRO, C, {
         "uric acid; dehydration, fasting and surgery can also trigger attacks.",
         "<b>Tophi:</b> firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate "
         "levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.",
-        "<b>Not cues:</b> the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point "
+        "<b>Not consistent:</b> the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point "
         "toward gout."),
 })
 

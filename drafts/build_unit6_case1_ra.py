@@ -181,7 +181,7 @@ screens = [
         "question": {
             "type": "select_all",
             "preamble": "",
-            "stem": "The nurse reviews the client's history and assessment. Which findings should the nurse recognize as cues of an "
+            "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with an "
                     "<b>inflammatory (autoimmune) arthritis</b>? <b>Select all that apply.</b>",
             "options": opts(
                 ("Crepitus in the right knee, which aches after long walks", False),
@@ -195,7 +195,7 @@ screens = [
                 ("Firm, nontender subcutaneous nodule over the right olecranon", True),
             ),
             "explanation": rationale(
-                "<b>Cues of inflammatory (autoimmune) arthritis:</b>",
+                "<b>Consistent with inflammatory (autoimmune) arthritis:</b>",
                 "<b>Prolonged morning stiffness:</b> stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and "
                 "inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.",
                 "<b>Symmetric small-joint swelling:</b> rheumatoid arthritis (RA) classically involves the same small joints on both sides "
@@ -206,7 +206,7 @@ screens = [
                 "systemic disease, not only a joint disease.",
                 "<b>Rheumatoid nodule:</b> a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, "
                 "seen mostly in seropositive disease.",
-                "<b>Not cues:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to "
+                "<b>Not consistent:</b> crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to "
                 "osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA "
                 "and is not a sign of disease. The blood pressure reflects her treated hypertension."),
         },

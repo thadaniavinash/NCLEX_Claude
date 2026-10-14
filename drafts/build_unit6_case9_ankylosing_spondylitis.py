@@ -18,8 +18,8 @@ C.notes("nn", "Nurses' Notes", ("Day 1 0900",
 C.vitals("Day 1 0900", vs("36.8° C", "72 beats/min", "14 breaths/min", "124/78 mm Hg", "99% on room air"))
 s1 = screen(1, INTRO, C, {
     "type": "select_all",
-    "stem": "Which findings suggest an inflammatory cause of the client's back pain rather than a mechanical (strain) cause? "
-            "<b>Select all that apply.</b>",
+    "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with "
+            "<b>inflammatory back pain</b> rather than mechanical (strain) back pain? <b>Select all that apply.</b>",
     "options": opts(
         ("Morning stiffness lasting about an hour that loosens with a hot shower and movement", True),
         ("Back pain that improves with exercise and worsens with rest", True),
@@ -40,7 +40,7 @@ s1 = screen(1, INTRO, C, {
         "<b>Heel pain at the Achilles insertion</b> is enthesitis, inflammation where tendons and ligaments attach to bone, a key feature of "
         "the spondyloarthritis family.",
         "<b>Acute anterior uveitis</b> (painful red eye with light sensitivity) is the most common extra-articular feature of AS.",
-        "<b>Not cues:</b> warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel "
+        "<b>Not consistent:</b> warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel "
         "function show no nerve compression; neither points to inflammation. His blood pressure is normal."),
 })
 

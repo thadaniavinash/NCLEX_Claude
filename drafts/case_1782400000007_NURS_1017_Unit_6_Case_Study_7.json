@@ -30,7 +30,7 @@
       },
       "question": {
         "type": "select_all",
-        "stem": "Which findings are consistent with fibromyalgia? <b>Select all that apply.</b>",
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>fibromyalgia</b>? <b>Select all that apply.</b>",
         "options": [
           {
             "text": "A hug or a tight waistband hurts",
@@ -73,7 +73,7 @@
             "correct": true
           }
         ],
-        "explanation": "<b>Consistent with fibromyalgia:</b> chronic (3 months or more) <b>widespread pain</b> on both sides of the body and above and below the waist is the core feature. It is accompanied by <b>unrefreshing sleep</b>, <b>fatigue</b>, and <b>cognitive symptoms</b> (“fibro fog”). Pain from touch that should not hurt (<b>allodynia</b>, such as a hug or a waistband) reflects an oversensitive pain system. Other functional conditions are common alongside it: <b>irritable bowel syndrome</b>, <b>tension headaches</b> and migraines, temporomandibular disorder, and anxiety or depression.<br><br><b>Not cues:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis.",
+        "explanation": "<b>Consistent with fibromyalgia:</b> chronic (3 months or more) <b>widespread pain</b> on both sides of the body and above and below the waist is the core feature. It is accompanied by <b>unrefreshing sleep</b>, <b>fatigue</b>, and <b>cognitive symptoms</b> (“fibro fog”). Pain from touch that should not hurt (<b>allodynia</b>, such as a hug or a waistband) reflects an oversensitive pain system. Other functional conditions are common alongside it: <b>irritable bowel syndrome</b>, <b>tension headaches</b> and migraines, temporomandibular disorder, and anxiety or depression.<br><br><b>Not consistent:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis.",
         "preamble": ""
       }
     },

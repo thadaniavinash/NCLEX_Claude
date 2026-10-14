@@ -90,6 +90,10 @@ pattern (all at the top, always in the same place). There is no "never first" ru
 order is a plain random shuffle and nothing warns about option 1). If a rationale refers to option numbers, write
 "(Option N)" to match; don't number rationale points in a way that looks like option numbers.
 The player shows options and drop-down choices in their stored order (it shuffles only ordered-response steps).
+Don't use the word "cues" in questions or rationales (user decision, 14 Oct 2026: not NCLEX wording). A screen 1
+multiple-response question asking which findings point to a condition reads "The nurse reviews the client's
+history and assessment. Which of the following findings would be consistent with <condition>? Select all that
+apply." (16 case studies changed with `drafts/build_cue_wording.py` → `drafts/cue_wording_patch.json`).
 Rationales with figures (pilot, October 2026: NURS 1017 Unit 5 Case Studies 6–8, `drafts/build_integ_rationales.py`
 → `drafts/integ_rationales_patch.json`; the user decides after review whether to extend it to other cases):
 structured HTML (answer, why, why not, "Beyond the chapter" note) with `<figure>` blocks whose images live in

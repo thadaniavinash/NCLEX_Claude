@@ -15,7 +15,7 @@ Written October 2026. Each case carries an author-only “Needs your review” n
 
 ### Screen 1: Recognize cues (select_all)
 
-The nurse reviews the client's history and assessment. Which findings should the nurse recognize as cues of an **inflammatory (autoimmune) arthritis**? **Select all that apply.**
+The nurse reviews the client's history and assessment. Which of the following findings would be consistent with an **inflammatory (autoimmune) arthritis**? **Select all that apply.**
 
 1. ✘ Crepitus in the right knee, which aches after long walks
 2. ✔ Morning stiffness lasting about 2 hours
@@ -29,7 +29,7 @@ The nurse reviews the client's history and assessment. Which findings should the
 
 **Rationale:**
 
-**Cues of inflammatory (autoimmune) arthritis:**
+**Consistent with inflammatory (autoimmune) arthritis:**
 
 **Prolonged morning stiffness:** stiffness lasting more than 1 hour after rest is typical of inflammatory arthritis. Fluid and inflammatory mediators build up in the inflamed synovium overnight. In osteoarthritis, stiffness usually lasts less than 30 minutes.
 
@@ -41,7 +41,7 @@ The nurse reviews the client's history and assessment. Which findings should the
 
 **Rheumatoid nodule:** a firm, nontender nodule over a pressure point such as the olecranon is an extra-articular feature of RA, seen mostly in seropositive disease.
 
-**Not cues:** crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension.
+**Not consistent:** crepitus and pain after activity in one weight-bearing joint (the right knee) after an old injury point to osteoarthritis. The mother's knee arthritis in her 70s also sounds like osteoarthritis. Sparing of the DIP joints is expected in RA and is not a sign of disease. The blood pressure reflects her treated hypertension.
 
 ### Screen 2: Analyze cues (matrix_mr)
 
@@ -630,7 +630,7 @@ For each finding, click to specify whether it indicates that the plan of care ha
 
 ### Screen 1: Recognize cues (select_all)
 
-Which findings are consistent with a disorder of neuromuscular transmission? **Select all that apply.**
+The nurse reviews the client's history and assessment. Which of the following findings would be consistent with a **disorder of neuromuscular transmission**? **Select all that apply.**
 
 1. ✔ Ptosis that worsens after 60 seconds of looking upward
 2. ✘ Blood pressure 118/74 mm Hg
@@ -652,7 +652,7 @@ Which findings are consistent with a disorder of neuromuscular transmission? **S
 
 **Proximal limb muscles** tire with repeated or sustained use, such as holding the arms up.
 
-**Not cues:** back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood pressure are normal.
+**Not consistent:** back pain after gardening is a common strain, her coffee intake is moderate, and her heart rate and blood pressure are normal.
 
 **Also note what she denies:** MG affects only the neuromuscular junction, so sensation is normal (numbness and tingling would suggest a nerve problem) and there is no twitching (fasciculations suggest a motor neuron disease such as ALS). Weakness that is worst on waking would be the opposite of the MG pattern.
 
@@ -799,7 +799,7 @@ The nurse reviews the Nurses' Notes. **Highlight** the findings that are consist
 
 **Risk factors:** obesity (more load on weight-bearing joints, plus inflammatory substances from fat tissue) and years of repeated kneeling or joint stress. Age and previous joint injury are other major risk factors.
 
-**Not OA cues:** unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, systemic arthritis such as rheumatoid arthritis. Ramipril treats his hypertension.
+**Not consistent with OA:** unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, systemic arthritis such as rheumatoid arthritis. Ramipril treats his hypertension.
 
 ### Screen 2: Analyze cues (matrix_mc)
 
@@ -914,7 +914,7 @@ For each finding, click to specify whether it indicates that the plan of care ha
 
 ### Screen 1: Recognize cues (select_all)
 
-Which findings are consistent with fibromyalgia? **Select all that apply.**
+The nurse reviews the client's history and assessment. Which of the following findings would be consistent with **fibromyalgia**? **Select all that apply.**
 
 1. ✔ A hug or a tight waistband hurts
 2. ✘ Works as a dental hygienist
@@ -931,7 +931,7 @@ Which findings are consistent with fibromyalgia? **Select all that apply.**
 
 **Consistent with fibromyalgia:** chronic (3 months or more) **widespread pain** on both sides of the body and above and below the waist is the core feature. It is accompanied by **unrefreshing sleep**, **fatigue**, and **cognitive symptoms** (“fibro fog”). Pain from touch that should not hurt (**allodynia**, such as a hug or a waistband) reflects an oversensitive pain system. Other functional conditions are common alongside it: **irritable bowel syndrome**, **tension headaches** and migraines, temporomandibular disorder, and anxiety or depression.
 
-**Not cues:** a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis.
+**Not consistent:** a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and swelling, fever, weight loss or true muscle weakness would suggest another diagnosis.
 
 ### Screen 2: Analyze cues (dropdown_cloze)
 
@@ -1047,7 +1047,7 @@ For each finding, click to specify whether it indicates that the plan of care ha
 
 ### Screen 1: Recognize cues (select_all)
 
-Which findings are consistent with acute gouty arthritis? **Select all that apply.**
+The nurse reviews the client's history and assessment. Which of the following findings would be consistent with **acute gouty arthritis**? **Select all that apply.**
 
 1. ✘ No joint swelling or morning stiffness in the hands
 2. ✔ Attack began after drinking beer and eating seafood
@@ -1067,7 +1067,7 @@ Which findings are consistent with acute gouty arthritis? **Select all that appl
 
 **Tophi:** firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.
 
-**Not cues:** the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout.
+**Not consistent:** the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout.
 
 ### Screen 2: Analyze cues (matrix_mr)
 
@@ -1189,7 +1189,7 @@ For each finding, click to specify whether it indicates that the plan of care ha
 
 ### Screen 1: Recognize cues (select_all)
 
-Which findings suggest an inflammatory cause of the client's back pain rather than a mechanical (strain) cause? **Select all that apply.**
+The nurse reviews the client's history and assessment. Which of the following findings would be consistent with **inflammatory back pain** rather than mechanical (strain) back pain? **Select all that apply.**
 
 1. ✘ Blood pressure 124/78 mm Hg
 2. ✔ Aching deep in the buttocks that alternates between sides
@@ -1211,7 +1211,7 @@ Which findings suggest an inflammatory cause of the client's back pain rather th
 
 **Acute anterior uveitis** (painful red eye with light sensitivity) is the most common extra-articular feature of AS.
 
-**Not cues:** warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal.
+**Not consistent:** warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal.
 
 ### Screen 2: Analyze cues (matrix_mc)
 

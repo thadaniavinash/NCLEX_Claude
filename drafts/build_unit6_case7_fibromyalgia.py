@@ -17,7 +17,7 @@ C.notes("nn", "Nurses' Notes", ("Day 1 1400",
 C.vitals("Day 1 1400", vs("36.7° C", "82 beats/min", "16 breaths/min", "122/76 mm Hg", "99% on room air"))
 s1 = screen(1, INTRO, C, {
     "type": "select_all",
-    "stem": "Which findings are consistent with fibromyalgia? <b>Select all that apply.</b>",
+    "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>fibromyalgia</b>? <b>Select all that apply.</b>",
     "options": opts(
         ("Pain on both sides of the body, above and below the waist, for 8 months", True),
         ("Wakes unrefreshed after 9 hours in bed", True),
@@ -36,7 +36,7 @@ s1 = screen(1, INTRO, C, {
         "symptoms</b> (“fibro fog”). Pain from touch that should not hurt (<b>allodynia</b>, such as a hug or a waistband) reflects an "
         "oversensitive pain system. Other functional conditions are common alongside it: <b>irritable bowel syndrome</b>, <b>tension "
         "headaches</b> and migraines, temporomandibular disorder, and anxiety or depression.",
-        "<b>Not cues:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint "
+        "<b>Not consistent:</b> a multivitamin, a normal heart rate and blood pressure, and her job. Note also what is absent: no joint "
         "swelling, normal strength and range of motion, and no fever or weight loss. Fibromyalgia does not damage joints or muscles, and "
         "swelling, fever, weight loss or true muscle weakness would suggest another diagnosis."),
 })

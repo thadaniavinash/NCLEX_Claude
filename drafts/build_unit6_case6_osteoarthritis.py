@@ -34,7 +34,7 @@ s1 = screen(1, INTRO, C, {
         "interphalangeal joints.",
         "<b>Risk factors:</b> obesity (more load on weight-bearing joints, plus inflammatory substances from fat tissue) and years of "
         "repeated kneeling or joint stress. Age and previous joint injury are other major risk factors.",
-        "<b>Not OA cues:</b> unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, "
+        "<b>Not consistent with OA:</b> unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, "
         "systemic arthritis such as rheumatoid arthritis. Ramipril treats his hypertension."),
 })
 
