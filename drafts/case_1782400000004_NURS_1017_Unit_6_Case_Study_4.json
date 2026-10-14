@@ -1,0 +1,517 @@
+{
+  "id": "case_1782400000004",
+  "title": "NURS 1017 Unit 6 Case Study 4",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "description": "72-year-old female client with a T12 vertebral compression fracture after lifting a bag of soil; osteoporosis risk factors (early menopause, long-term prednisone, low weight, smoking, low calcium intake, parental hip fracture), T-scores and pathophysiology, red flags for cord compression, safe mobilization and fall prevention, alendronate and calcium teaching, and evaluation at 3 months.",
+  "authorReview": {
+    "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 1: the risk factors follow Osteoporosis Canada / FRAX-style criteria (glucocorticoids ≥ 7.5 mg/day for ≥ 3 months, BMI under about 20, current smoking, parental hip fracture); check that they match your textbook.\nScreen 5: alendronate instructions follow the Canadian product monograph (upright at least 30 minutes).",
+    "flaggedAt": "2026-10-14"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight",
+        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that are risk factors for osteoporosis.",
+        "options": [],
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: {menopause at age 44|correct}; {takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica|correct}; {takes amlodipine for hypertension}. {Weight 48 kg, height 158 cm (BMI 19.2).|correct} {Smokes 10 cigarettes per day.|correct} {Drinks 1 glass of wine on weekends.} {Avoids milk and cheese because “dairy upsets my stomach.”|correct} {Walks her dog for 30 minutes every day.} {Her mother fractured her hip at age 75.|correct} Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null,
+        "explanation": "<b>Risk factors for osteoporosis:</b><br><br><b>Early menopause (before 45):</b> estrogen restrains osteoclasts. When estrogen falls, bone resorption speeds up, and an early menopause means more years of rapid loss.<br><br><b>Long-term glucocorticoids</b> (7.5 mg/day or more of prednisone for 3 months or longer is the usual threshold): they suppress osteoblasts, increase resorption and reduce calcium absorption. This is the most common cause of secondary osteoporosis.<br><br><b>Low body weight</b> (small frame, BMI under about 20): less mechanical load on the bones and less estrogen produced by fat tissue.<br><br><b>Smoking:</b> toxic to osteoblasts and lowers estrogen levels.<br><br><b>Low calcium intake:</b> avoiding dairy without other calcium sources means the body takes calcium from bone to keep blood levels normal.<br><br><b>Parental hip fracture:</b> a strong family risk factor, reflecting inherited peak bone mass.<br><br><b>Not risk factors:</b> one glass of wine on weekends (risk rises with 3 or more drinks a day), daily walking (weight-bearing exercise protects bone) and amlodipine.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "The client's lumbar spine T-score of −3.1 indicates [[drop0]]. Osteoporosis develops when [[drop1]]. Her normal serum calcium [[drop2]]. Her low vitamin D level contributes to bone loss because vitamin D is needed to [[drop3]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "osteopenia",
+                  "correct": false
+                },
+                {
+                  "text": "osteoporosis",
+                  "correct": true
+                },
+                {
+                  "text": "normal bone density for her age",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "bone matrix is formed normally but is not mineralized",
+                  "correct": false
+                },
+                {
+                  "text": "bacteria destroy the bone matrix",
+                  "correct": false
+                },
+                {
+                  "text": "bone resorption by osteoclasts exceeds bone formation by osteoblasts",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "means she does not need calcium in her diet",
+                  "correct": false
+                },
+                {
+                  "text": "shows that her bones are healthy",
+                  "correct": false
+                },
+                {
+                  "text": "does not rule out osteoporosis, because the body keeps blood calcium normal by taking calcium from bone",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "excrete calcium in the urine",
+                  "correct": false
+                },
+                {
+                  "text": "produce estrogen",
+                  "correct": false
+                },
+                {
+                  "text": "absorb calcium from the intestine",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>T-score:</b> the number of standard deviations the client's bone density differs from that of a healthy young adult. −1.0 or higher is normal; between −1.0 and −2.5 is <b>osteopenia</b> (low bone mass); <b>−2.5 or lower is osteoporosis</b>. A fragility fracture (a fracture from a force that would not break a healthy bone, such as lifting a bag of soil) also indicates osteoporosis.<br><br><b>Pathophysiology:</b> bone is remodeled throughout life. In osteoporosis, resorption by osteoclasts outpaces formation by osteoblasts, so bone mass falls and the trabeculae thin and break, making the bone porous and fragile. The bone that is formed is normally mineralized; failure of mineralization is osteomalacia.<br><br><b>Serum calcium</b> is tightly controlled by parathyroid hormone, which releases calcium from bone when intake is low. A normal blood calcium therefore says nothing about bone density.<br><br><b>Vitamin D</b> increases the absorption of calcium (and phosphate) from the intestine. When it is low, less calcium is absorbed, parathyroid hormone rises and more calcium is taken from bone."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "The nurse is monitoring the client after the vertebral compression fracture. For each finding, click to specify whether it is <b>expected</b> with a stable vertebral compression fracture or <b>requires immediate follow-up</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Expected",
+            "Requires immediate follow-up"
+          ],
+          "rows": [
+            {
+              "text": "Back pain that is worse when sitting or standing and eased by lying down",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "New weakness of both legs",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Tenderness over the T12 spinous process",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Numbness of the buttocks and inner thighs (saddle area)",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pain that wraps around the trunk in a band at the level of the fracture",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Unable to void for 8 hours, with a distended bladder",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Increased forward curvature of the thoracic spine",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Expected:</b> a compression fracture causes sudden, localized back pain over the fractured vertebra that worsens with upright posture (load on the spine) and eases when lying down. Irritation of the nerve roots at that level can cause pain that wraps around the trunk in a band. Repeated wedge fractures of the front of the thoracic vertebrae increase the forward curve (kyphosis, the “dowager's hump”) and cause loss of height.<br><br><b>Require immediate follow-up:</b> new leg weakness, numbness in the saddle area, and urinary retention (or new incontinence) suggest that bone fragments or collapse are compressing the spinal cord or the cauda equina. These are emergencies; the nurse keeps the client flat, reports at once, and continues neurologic checks.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Admitted to the medical unit for pain control and mobilization. Pain 5/10 with movement after analgesia. Strength 5/5 and sensation intact in both legs; voiding without difficulty. Physiotherapy to begin today. Client says, “I'm afraid to move. What if I break something else?”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0900 and the Vital Signs from Day 2 0900.",
+        "stem": "Which interventions should the nurse include in the client's plan of care? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Use a soft, deep chair that she sinks into for comfort",
+            "correct": false
+          },
+          {
+            "text": "Encourage calcium-rich foods she tolerates, such as fortified soy beverage, canned salmon with bones, and almonds",
+            "correct": true
+          },
+          {
+            "text": "Give the prescribed analgesic about 30 minutes before physiotherapy and walking",
+            "correct": true
+          },
+          {
+            "text": "Teach the client to get out of bed by rolling onto her side and pushing up with her arms",
+            "correct": true
+          },
+          {
+            "text": "Teach sit-ups and toe-touching exercises to strengthen her back",
+            "correct": false
+          },
+          {
+            "text": "Check leg strength, sensation, and bladder function every shift",
+            "correct": true
+          },
+          {
+            "text": "Keep the bed low, the call bell in reach, and nonslip footwear on when walking",
+            "correct": true
+          },
+          {
+            "text": "Keep the client on bed rest until the pain is gone",
+            "correct": false
+          },
+          {
+            "text": "Teach her to bend at the waist with straight knees when picking up objects",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Correct:</b> pain relief before activity allows early, safe mobilization. Rolling to the side and pushing up keeps the spine straight (no twisting or flexion). Regular neurologic and bladder checks detect cord compression early. Falls are the main cause of new fractures, so fall precautions are essential. Calcium intake matters, and lactose-free or non-dairy sources suit a client who avoids milk.<br><br><b>Incorrect:</b> bed rest speeds up bone loss and causes deconditioning, pneumonia and blood clots; walking is encouraged as soon as pain allows. Bending at the waist and flexion exercises (sit-ups, toe touches) load the front of the vertebrae and can cause new compression fractures; lifting is done with bent knees and a straight back. A deep, soft chair forces the spine into flexion and makes standing up hard; a firm chair with arms is safer."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Admitted to the medical unit for pain control and mobilization. Pain 5/10 with movement after analgesia. Strength 5/5 and sensation intact in both legs; voiding without difficulty. Physiotherapy to begin today. Client says, “I'm afraid to move. What if I break something else?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">Walking in the hallway with a walker; pain 3/10. Discharge planned for tomorrow. Alendronate 70 mg PO once weekly, calcium carbonate 500 mg PO twice daily, and vitamin D₃ 2,000 IU PO daily have been prescribed. The nurse begins discharge teaching.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 4 1000.",
+        "stem": "For each instruction, click to specify whether it is <b>appropriate</b> or <b>not appropriate</b> to include in the client's discharge teaching.",
+        "matrix": {
+          "firstColumnHeader": "Instruction",
+          "columns": [
+            "Appropriate",
+            "Not appropriate"
+          ],
+          "rows": [
+            {
+              "text": "Take alendronate first thing in the morning with a full glass of plain water, before any food, drink, or other medicine",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Lie down for a few minutes after taking alendronate if you feel dizzy",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Take the alendronate tablet with breakfast and your calcium tablet",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Stay sitting or standing upright for at least 30 minutes after taking alendronate",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Report heartburn, pain or difficulty swallowing, or chest pain",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Tell your dentist that you take alendronate before any dental surgery",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Take calcium carbonate with meals",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Remove loose rugs and use night lights between the bedroom and bathroom",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Alendronate</b> (a bisphosphonate) slows bone resorption by osteoclasts. It is poorly absorbed and irritates the esophagus, so it is taken on an empty stomach with a full glass of plain water, at least 30 minutes before food, drinks (including coffee) or other medicines, and the client stays upright for at least 30 minutes. Lying down lets the tablet reflux and cause esophagitis or ulcers; taking it with food or calcium blocks its absorption. Heartburn, painful swallowing or chest pain can signal esophageal injury. Osteonecrosis of the jaw is a rare risk, so dentists should know before invasive dental work.<br><br><b>Calcium carbonate</b> needs stomach acid to be absorbed, so it is taken with meals, and at a different time from alendronate.<br><br><b>Fall prevention</b> at home (no loose rugs, night lights, grab bars, good lighting) prevents the falls that cause most osteoporotic fractures."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 72-year-old female client with sudden mid-back pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Reports sudden, severe mid-back pain that began 2 days ago when she lifted a bag of potting soil. Pain 8/10, worse when sitting or standing and eased by lying down. History: menopause at age 44; takes prednisone 10 mg daily for the past 2 years for polymyalgia rheumatica; takes amlodipine for hypertension. Weight 48 kg, height 158 cm (BMI 19.2). Smokes 10 cigarettes per day. Drinks 1 glass of wine on weekends. Avoids milk and cheese because “dairy upsets my stomach.” Walks her dog for 30 minutes every day. Her mother fractured her hip at age 75. Tender over the lower thoracic spine; increased thoracic curvature. Strength 5/5 in both legs; sensation intact; voided without difficulty.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Admitted to the medical unit for pain control and mobilization. Pain 5/10 with movement after analgesia. Strength 5/5 and sensation intact in both legs; voiding without difficulty. Physiotherapy to begin today. Client says, “I'm afraid to move. What if I break something else?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">Walking in the hallway with a walker; pain 3/10. Discharge planned for tomorrow. Alendronate 70 mg PO once weekly, calcium carbonate 500 mg PO twice daily, and vitamin D₃ 2,000 IU PO daily have been prescribed. The nurse begins discharge teaching.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 90 1000:</span><span class=\"nurse-note-text\">Clinic follow-up, 3 months after discharge. Pain 2/10; walks 20 minutes most days. Strength and sensation normal in both legs; voiding without difficulty. Reports heartburn and pain when swallowing for the past week. Has cut down to 5 cigarettes per day.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 90 1015:</span><span class=\"nurse-note-text\">Client states: “I take my alendronate with my morning coffee to save time.” “I took out the hallway rugs and put in night lights.” “I have a fortified soy drink or canned salmon most days.” “I bend over from the waist to fill my dog's dish; it's quicker.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1115:</span><span class=\"nurse-note-text\"><b>X-ray, thoracic and lumbar spine:</b> anterior wedge compression fracture of T12 with about 30% loss of vertebral height; older wedge deformity of T8. Diffuse osteopenia. No retropulsed fragments.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>Bone mineral density (DEXA):</b> lumbar spine T-score −3.1; left femoral neck T-score −2.7.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 90 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.12–2.52 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.30 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.34 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phosphate (PO₄)</b><br>0.81–1.58 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.10 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alkaline phosphatase</b><br>50–136 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin D (25-hydroxyvitamin D)</b><br>75–250 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 90 1000 and 1015 and the Laboratory Results from Day 90.",
+        "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Effective",
+            "Not effective"
+          ],
+          "rows": [
+            {
+              "text": "Pain 2/10 and walking 20 minutes most days",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I take my alendronate with my morning coffee to save time.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Vitamin D 84 nmol/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Heartburn and pain when swallowing for the past week",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I took out the hallway rugs and put in night lights.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I bend over from the waist to fill my dog's dish.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I have a fortified soy drink or canned salmon most days.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Normal strength and sensation in both legs; voiding without difficulty",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Effective:</b> pain is controlled and she is walking regularly (weight-bearing exercise helps maintain bone). Her vitamin D is now in the normal range. She has made her home safer and includes calcium-rich foods she tolerates. No neurologic signs of cord compression.<br><br><b>Not effective:</b> taking alendronate with coffee blocks its absorption and suggests she may not stay upright or wait before eating; together with her new heartburn and painful swallowing this points to esophageal irritation, which the nurse reports to the provider. Bending from the waist loads the front of the vertebrae and risks another compression fracture; the nurse reteaches bending at the knees with a straight back. Her reduced smoking is progress, and continued cessation support is offered."
+      }
+    }
+  ]
+}

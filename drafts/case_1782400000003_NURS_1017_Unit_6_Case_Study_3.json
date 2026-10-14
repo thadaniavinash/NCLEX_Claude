@@ -1,0 +1,559 @@
+{
+  "id": "case_1782400000003",
+  "title": "NURS 1017 Unit 6 Case Study 3",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "description": "61-year-old female client with type 2 diabetes and peripheral neuropathy whose plantar ulcer spreads to the bone of the great toe (contiguous osteomyelitis); risk factors and local/systemic signs, sequestrum and involucrum, sepsis risk, home IV therapy via a PICC and evaluation after 6 weeks.",
+  "authorReview": {
+    "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 5: “scrub the hub” time (15 seconds) follows common practice; your agency's policy may differ.\nScreen 6: the arm finding is keyed as a possible PICC-related thrombosis/phlebitis to report.",
+    "flaggedAt": "2026-10-14"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "stem": "Which findings require follow-up by the nurse? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Redness and swelling extending 2 cm onto the forefoot",
+            "correct": true
+          },
+          {
+            "text": "Blood pressure 136/82 mm Hg",
+            "correct": false
+          },
+          {
+            "text": "Purulent, foul-smelling drainage",
+            "correct": true
+          },
+          {
+            "text": "Husband helps with the daily dressing changes",
+            "correct": false
+          },
+          {
+            "text": "Capillary blood glucose readings of 14 to 18 mmol/L for the past week",
+            "correct": true
+          },
+          {
+            "text": "Temperature 38.1° C",
+            "correct": true
+          },
+          {
+            "text": "Walks barefoot around the house",
+            "correct": true
+          },
+          {
+            "text": "Takes metformin 1,000 mg twice daily",
+            "correct": false
+          },
+          {
+            "text": "Bone visible at the base of the ulcer",
+            "correct": true
+          },
+          {
+            "text": "Left foot skin intact with no calluses",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Require follow-up:</b><br><br><b>Bone visible (or felt with a probe) at the base of a foot ulcer</b> strongly suggests that the infection has reached the bone (osteomyelitis).<br><br><b>Purulent, foul-smelling drainage and spreading redness and swelling</b> show active infection of the soft tissue around the ulcer. A swollen, red, “sausage-shaped” toe is typical when the bone underneath is infected.<br><br><b>Fever</b> shows a systemic response to the infection.<br><br><b>High blood glucose:</b> infection raises stress hormones (cortisol, catecholamines), which raise blood glucose. Persistent hyperglycemia in turn impairs neutrophil function and wound healing, so the two worsen each other.<br><br><b>Walking barefoot</b> on an insensate foot puts pressure and trauma on the ulcer. The client's lack of pain is not reassuring: peripheral neuropathy removes the warning sign, so infection can advance unnoticed.<br><br><b>Do not need follow-up:</b> her blood pressure is acceptable, the husband's help is a strength, metformin is her usual medication, and the left foot is intact. The weaker right dorsalis pedis pulse is worth noting as a sign of reduced blood flow.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1500, the Laboratory Results and the Diagnostic Results.",
+        "stem": "For each finding, click to specify whether it is a <b>risk factor</b> for the client's osteomyelitis, a <b>local sign</b> of bone and soft-tissue infection, or a <b>systemic sign</b> of infection.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Risk factor",
+            "Local sign",
+            "Systemic sign"
+          ],
+          "rows": [
+            {
+              "text": "HbA1c 9.4%",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Bone marrow edema on MRI",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "WBC 13.8 × 10⁹/L",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Loss of protective sensation on monofilament testing",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Cortical erosion and periosteal reaction on X-ray",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Temperature 38.1° C",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Right dorsalis pedis pulse 1+",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Purulent drainage from the ulcer",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Risk factors:</b> poorly controlled diabetes (HbA1c 9.4%) impairs white blood cell function and healing. Neuropathy (loss of protective sensation) lets ulcers form and worsen unnoticed. Reduced arterial blood flow (weak pedal pulse) delivers less oxygen, white blood cells and antibiotic to the tissue.<br><br><b>Local signs:</b> purulent drainage shows infection at the site. The MRI shows marrow edema early, while plain X-rays show bone destruction (cortical erosion) and new bone laid down by the periosteum only after 10 to 14 days of infection.<br><br><b>Systemic signs:</b> fever and a raised WBC count reflect the body's response to infection. ESR and CRP are also raised (ESR 92 mm/h, CRP 118 mg/L); a very high ESR in a diabetic foot ulcer suggests osteomyelitis, and both are followed to judge the response to treatment."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "Bacteria reached the client's bone by [[drop0]]. Inside the rigid bone, the inflammatory exudate [[drop1]]. Areas of dead bone, called [[drop2]], are hard for white blood cells and antibiotics to reach. The nurse's priority at this time is to monitor for [[drop3]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "the bloodstream from a distant site",
+                  "correct": false
+                },
+                {
+                  "text": "direct inoculation during surgery",
+                  "correct": false
+                },
+                {
+                  "text": "direct spread from the adjacent soft-tissue infection",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "is absorbed quickly because bone has a rich lymphatic supply",
+                  "correct": false
+                },
+                {
+                  "text": "dissolves the bone completely within a few hours",
+                  "correct": false
+                },
+                {
+                  "text": "raises pressure, compresses blood vessels, and causes bone ischemia and necrosis",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "tophi",
+                  "correct": false
+                },
+                {
+                  "text": "sequestra",
+                  "correct": true
+                },
+                {
+                  "text": "involucra",
+                  "correct": false
+                },
+                {
+                  "text": "osteophytes",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "compartment syndrome",
+                  "correct": false
+                },
+                {
+                  "text": "sepsis",
+                  "correct": true
+                },
+                {
+                  "text": "fat embolism syndrome",
+                  "correct": false
+                },
+                {
+                  "text": "osteoporosis",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Routes of infection:</b> bacteria reach bone in three ways. (a) <b>Contiguous spread</b> from nearby infected tissue, as here from a diabetic foot ulcer or a pressure injury. (b) <b>Hematogenous spread</b> through the bloodstream, most common in children (metaphysis of long bones) and in the vertebrae of older adults. (c) <b>Direct inoculation</b> through an open fracture, surgery or a penetrating wound. <i>Staphylococcus aureus</i> is the most common organism.<br><br><b>Why bone infection is hard to cure:</b> bone cannot swell. Pus and edema inside the rigid bone raise pressure, compress the small blood vessels and cut off the blood supply, so bone dies (ischemic necrosis). Pus can lift the periosteum, stripping more blood supply.<br><br><b>Sequestrum and involucrum:</b> a <b>sequestrum</b> is a piece of dead, avascular bone that harbours bacteria out of reach of white blood cells and antibiotics. The body walls it off with new bone, the <b>involucrum</b>. This is why osteomyelitis can become chronic and why long courses of antibiotics, and sometimes removal of dead bone, are needed. Osteophytes are bone spurs of osteoarthritis; tophi are urate deposits of gout.<br><br><b>Priority:</b> the client has fever, a raised WBC count, and blood cultures pending. Spread of the infection into the bloodstream (<b>sepsis</b>) is the most immediate threat to her life. Fat embolism and compartment syndrome are complications of fractures, and osteoporosis is not an acute problem.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1000:</span><span class=\"nurse-note-text\">Bone biopsy grew methicillin-sensitive <i>Staphylococcus aureus</i>. Blood cultures negative. Peripherally inserted central catheter (PICC) placed in the left arm for 6 weeks of IV antibiotic therapy at home. Client and husband will learn to give the infusions. Non-weight-bearing on the right foot with an offloading boot and a walker, as prescribed.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1000 and the Vital Signs from Day 3 1000.",
+        "stem": "The nurse is planning care for the client. Which interventions should the nurse include in the plan of care? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Soak the right foot in warm water twice a day to soften the wound",
+            "correct": false
+          },
+          {
+            "text": "Teach the client that the antibiotic can be stopped once the fever is gone",
+            "correct": false
+          },
+          {
+            "text": "Teach the client to inspect both feet every day, including between the toes, using a mirror",
+            "correct": true
+          },
+          {
+            "text": "Check capillary blood glucose before meals and at bedtime",
+            "correct": true
+          },
+          {
+            "text": "Massage lotion between the toes to prevent dry skin",
+            "correct": false
+          },
+          {
+            "text": "Reinforce non-weight-bearing on the right foot with the offloading boot and walker",
+            "correct": true
+          },
+          {
+            "text": "Encourage meals and snacks rich in protein",
+            "correct": true
+          },
+          {
+            "text": "Assess the PICC insertion site every shift and use aseptic technique when accessing the line",
+            "correct": true
+          },
+          {
+            "text": "Apply a heating pad to the right foot to increase blood flow",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Correct:</b> infection and hyperglycemia feed each other, so glucose is checked regularly and abnormal readings reported. Pressure on the ulcer prevents healing, so offloading (no weight on the foot) is essential. A PICC is a central line with a risk of bloodstream infection and thrombosis, so the site is assessed and accessed aseptically. Daily foot inspection is vital when sensation is lost, because the client cannot feel new injuries. Protein supports tissue repair and the immune response.<br><br><b>Incorrect:</b> soaking macerates the skin and the wound and increases the risk of infection. Heating pads can burn a foot that cannot feel heat. Antibiotic courses for osteomyelitis are long (often 6 weeks) because bone is poorly perfused; stopping when the fever goes leaves bacteria in the bone and leads to chronic infection. Moisture between the toes promotes fungal infection and skin breakdown; lotion is applied to the tops and soles, not between the toes."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1000:</span><span class=\"nurse-note-text\">Bone biopsy grew methicillin-sensitive <i>Staphylococcus aureus</i>. Blood cultures negative. Peripherally inserted central catheter (PICC) placed in the left arm for 6 weeks of IV antibiotic therapy at home. Client and husband will learn to give the infusions. Non-weight-bearing on the right foot with an offloading boot and a walker, as prescribed.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "stem": "The nurse is preparing the client and her husband for discharge with home IV therapy. For each instruction, click to specify whether it is <b>appropriate</b> or <b>not appropriate</b> to include in the teaching.",
+        "matrix": {
+          "firstColumnHeader": "Instruction",
+          "columns": [
+            "Appropriate",
+            "Not appropriate"
+          ],
+          "rows": [
+            {
+              "text": "Scrub the PICC hub with an alcohol pad for at least 15 seconds and let it dry before each connection",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Have your blood pressure taken on the left arm, where the PICC is",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Cover the PICC dressing with a waterproof cover when showering",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Report fever, chills, or redness, swelling, or pain at the PICC site or in the left arm",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Wear the offloading boot whenever you are up, and never walk barefoot",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Soak the foot in Epsom salts each evening",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Skip the infusion on days when the foot looks better",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Keep checking your blood glucose and write down the readings for your appointments",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Appropriate:</b> scrubbing the hub (“scrub the hub”) removes bacteria before each access and prevents central line infection. Keeping the dressing dry protects the site. Fever, chills, or redness, swelling or pain at the site or in the arm can mean line infection or a clot and are reported at once. Offloading and protective footwear protect the healing foot. Glucose records help the team adjust diabetes management, because good control supports healing.<br><br><b>Not appropriate:</b> blood pressure cuffs, tourniquets and blood draws are avoided on the arm with the PICC (they can damage the catheter or the vein). Soaking macerates the wound. Missing doses lowers the drug level in bone and allows the infection to persist or become chronic.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The home care nurse is visiting a 61-year-old female client with type 2 diabetes for care of a foot ulcer.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Home visit for wound care of a plantar ulcer under the right great toe, present for 7 weeks. Type 2 diabetes for 18 years (metformin 1,000 mg twice daily) with peripheral neuropathy. The ulcer measures 2.0 × 1.5 cm and is deeper than at the last visit; bone is visible at its base. Purulent, foul-smelling drainage on the dressing. Redness and swelling of the great toe extend 2 cm onto the forefoot. Client says, “It doesn't hurt at all, so I didn't think it was getting worse.” Her capillary blood glucose readings have been 14 to 18 mmol/L for the past week (usually 6 to 9 mmol/L). She has been walking barefoot around the house “to let the foot breathe.” Husband helps with the daily dressing changes. Left foot skin intact, no calluses. Right dorsalis pedis pulse 1+, left 2+.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted to the medical unit from the clinic. Right great toe red, swollen, and warm; ulcer dressed. Blood cultures drawn. Bone biopsy of the proximal phalanx scheduled.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1000:</span><span class=\"nurse-note-text\">Bone biopsy grew methicillin-sensitive <i>Staphylococcus aureus</i>. Blood cultures negative. Peripherally inserted central catheter (PICC) placed in the left arm for 6 weeks of IV antibiotic therapy at home. Client and husband will learn to give the infusions. Non-weight-bearing on the right foot with an offloading boot and a walker, as prescribed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 42 1000:</span><span class=\"nurse-note-text\">Home visit, end of 6 weeks of IV antibiotics. Ulcer 0.8 × 0.6 cm with pink granulation tissue and no drainage. Redness and swelling of the toe resolved. Fasting glucose readings 6 to 8 mmol/L. Husband demonstrates scrubbing the hub for 15 seconds before connecting the infusion. Client reports she “walks to the mailbox in socks so the foot can breathe.” Left upper arm along the PICC is red, swollen, and tender; left upper arm circumference 3 cm larger than the right.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 42 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 42 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.1 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Female: 0–20 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">40 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin A1c (HbA1c)</b><br>4.8%–6.0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.4%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">70 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\"><b>X-ray, right foot:</b> erosion of the cortex of the proximal phalanx of the great toe with periosteal reaction; soft-tissue swelling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Monofilament test:</b> no sensation at 8 of 10 sites on both feet (loss of protective sensation).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\"><b>MRI, right foot:</b> bone marrow edema of the proximal phalanx of the great toe, continuous with the plantar ulcer. Consistent with osteomyelitis.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 42 1000, the Vital Signs from Day 42, and the Laboratory Results from Day 42.",
+        "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Effective",
+            "Not effective"
+          ],
+          "rows": [
+            {
+              "text": "Temperature 36.8° C and WBC 7.1 × 10⁹/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Walks to the mailbox in socks",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "CRP 12 mg/L and ESR 40 mm/h, down from 118 mg/L and 92 mm/h",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Red, swollen, tender left upper arm, 3 cm larger than the right",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Ulcer 0.8 × 0.6 cm with pink granulation tissue and no drainage",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Husband scrubs the hub for 15 seconds before connecting the infusion",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Fasting glucose readings of 6 to 8 mmol/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Effective:</b> no fever and a normal WBC count; CRP and ESR falling steadily (ESR falls more slowly than CRP); a smaller, clean ulcer with healthy granulation tissue; improved glucose control; and correct line care by the husband.<br><br><b>Not effective:</b> walking in socks puts pressure on the ulcer and exposes the insensate foot to injury; the nurse reinforces wearing the offloading boot. A red, swollen, tender arm with a larger circumference on the PICC side suggests a catheter-related deep vein thrombosis or phlebitis; the nurse does not use the line until it is assessed and reports the finding to the provider promptly."
+      }
+    }
+  ]
+}

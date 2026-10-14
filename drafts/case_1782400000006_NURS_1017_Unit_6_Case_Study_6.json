@@ -1,0 +1,491 @@
+{
+  "id": "case_1782400000006",
+  "title": "NURS 1017 Unit 6 Case Study 6",
+  "course": "NURS 1017",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
+  "description": "68-year-old male client, a retired carpenter with obesity, with osteoarthritis of the right knee and Heberden nodes; cartilage loss, bone remodeling and secondary synovitis, acetaminophen overuse and fall risk, self-management teaching, and nursing care and evaluation after a total knee arthroplasty.",
+  "authorReview": {
+    "note": "New case written by Claude on 14 Oct 2026 to fill a Unit 6 gap; please review before using it with students:\nScreen 3: acetaminophen maximum stated as 4 g/day, lower (often 3 g or less) for older adults and regular alcohol use; adjust to your course's reference.\nScreen 4: the “1 kg lost = about 4 kg less load on the knee” figure comes from Messier et al. (2005).\nScreen 6: knee flexion goal at 6 weeks (about 90°–110°) varies by surgeon.",
+    "flaggedAt": "2026-10-14"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight",
+        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that are consistent with osteoarthritis or increase the client's risk for it.",
+        "options": [],
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of {right knee pain that worsens with walking and climbing stairs and eases with rest|correct}, worse by the end of the day. {Morning stiffness in the knee lasting about 15 minutes.|correct} {Grating (crepitus) felt and heard when the right knee bends.|correct} {Hard, bony enlargements on the end joints (DIP) of both index fingers.|correct} {Weight 102 kg, BMI 33.|correct} {MCP joints and wrists not swollen or warm.} {Temperature 36.7° C.} {Reports good appetite with no weight loss.} Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. {Takes ramipril 10 mg daily for hypertension.} Lives with his wife in a two-storey house.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null,
+        "explanation": "<b>Consistent with osteoarthritis (OA):</b><br><br><b>Pain with use that eases with rest</b> and worsens through the day: the damaged joint surfaces hurt under load. In late disease pain may also occur at rest and at night.<br><br><b>Short morning stiffness</b> (usually under 30 minutes) after rest, which loosens with movement.<br><br><b>Crepitus:</b> grating from roughened cartilage and bone surfaces moving against each other.<br><br><b>Heberden nodes:</b> bony enlargements (osteophytes) of the distal interphalangeal joints; Bouchard nodes affect the proximal interphalangeal joints.<br><br><b>Risk factors:</b> obesity (more load on weight-bearing joints, plus inflammatory substances from fat tissue) and years of repeated kneeling or joint stress. Age and previous joint injury are other major risk factors.<br><br><b>Not OA cues:</b> unswollen MCP joints and wrists, a normal temperature and no weight loss argue against an inflammatory, systemic arthritis such as rheumatoid arthritis. Ramipril treats his hypertension.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+        "stem": "The nurse is explaining the client's X-ray to him. For each finding, click to specify whether it is mainly the result of <b>loss of articular cartilage</b>, <b>bone remodeling</b>, or <b>secondary synovial inflammation</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Loss of articular cartilage",
+            "Bone remodeling",
+            "Secondary synovial inflammation"
+          ],
+          "rows": [
+            {
+              "text": "Osteophytes at the joint margins",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Narrowing of the medial joint space",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Small, cool effusion that increases after a long walk",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Subchondral sclerosis and cysts",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Heberden nodes",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Loss of articular cartilage</b> is the central change in OA. Chondrocytes fail to keep up with the breakdown of the cartilage matrix (driven by mechanical load and enzymes), so the cartilage softens, fissures and wears away. The joint space on X-ray is the cartilage, so its narrowing (here on the medial side, which carries the most load) shows cartilage loss.<br><br><b>Bone remodeling:</b> as cartilage is lost, the bone underneath takes the load. It thickens and becomes dense (subchondral sclerosis), and joint fluid forced into cracks forms cysts. At the joint margins, new bone grows as spurs (osteophytes), which limit motion and, in the fingers, form Heberden and Bouchard nodes.<br><br><b>Secondary synovial inflammation:</b> fragments of cartilage irritate the synovium, which produces a mild, cool effusion after activity. This inflammation is local and mild, so the ESR and CRP are normal and the RF is negative, unlike in rheumatoid arthritis. The normal uric acid argues against gout."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 60 1000, the Vital Signs from Day 60, and the Laboratory Results from Day 60.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "The nurse's priority concern is the client's risk for [[drop0]], because [[drop1]]. The nurse also identifies a risk for [[drop2]] related to [[drop3]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "gastrointestinal bleeding",
+                  "correct": false
+                },
+                {
+                  "text": "kidney stones",
+                  "correct": false
+                },
+                {
+                  "text": "liver injury",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "his morning stiffness lasts 15 minutes",
+                  "correct": false
+                },
+                {
+                  "text": "he takes about 6.6 g of acetaminophen a day, drinks alcohol daily, and his ALT is elevated",
+                  "correct": true
+                },
+                {
+                  "text": "his blood pressure is 144/88 mm Hg",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "pressure injury",
+                  "correct": false
+                },
+                {
+                  "text": "falls",
+                  "correct": true
+                },
+                {
+                  "text": "infection",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "his age alone",
+                  "correct": false
+                },
+                {
+                  "text": "the night-time cold and flu tablet",
+                  "correct": false
+                },
+                {
+                  "text": "knee instability and pain without a walking aid",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Liver injury:</b> 2 × 500 mg six times a day (6 g) plus 650 mg at night is about 6.6 g of acetaminophen a day, well above the usual maximum of 4 g a day (lower, often 3 g or less, for older adults and people who drink alcohol regularly). Alcohol depletes glutathione, which the liver needs to detoxify an acetaminophen metabolite, so the risk of liver injury rises. His raised ALT is already a warning. Hidden acetaminophen in combination cold and flu products is a common cause of accidental overdose. The nurse reports this to the provider at once.<br><br><b>Not the priority:</b> he is not taking NSAIDs and denies dark stools, so GI bleeding is not suggested; blood pressure and stiffness need follow-up but are not urgent.<br><br><b>Falls:</b> a knee that “gives way” (from pain, quadriceps weakness and joint instability) on the stairs, without a walking aid, puts him at high risk of a fall and fracture. Age adds to the risk but is not the cause here. The cold and flu tablet may cause drowsiness, but the knee instability is the main factor."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "stem": "The nurse is planning teaching for the client. Which instructions should the nurse include? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Read the labels of all over-the-counter products for acetaminophen and keep the total within the daily limit your provider sets",
+            "correct": true
+          },
+          {
+            "text": "Use a cane in your right hand",
+            "correct": false
+          },
+          {
+            "text": "Rest the knee completely until the pain goes away",
+            "correct": false
+          },
+          {
+            "text": "Do low-impact exercise such as swimming or cycling, and quadriceps-strengthening exercises",
+            "correct": true
+          },
+          {
+            "text": "Sleep with a pillow under the right knee",
+            "correct": false
+          },
+          {
+            "text": "Strengthen the knee with deep squats and kneeling exercises",
+            "correct": false
+          },
+          {
+            "text": "Losing even a small amount of weight reduces the load on your knees",
+            "correct": true
+          },
+          {
+            "text": "Apply warmth before activity to ease stiffness, and a cold pack after activity if the knee swells",
+            "correct": true
+          },
+          {
+            "text": "Use a cane in your left hand",
+            "correct": true
+          }
+        ],
+        "explanation": "<b>Correct:</b> checking labels prevents hidden acetaminophen overdose. A cane is held in the hand opposite the affected knee and moved forward with it, which shifts weight off the painful knee and widens the base of support. Heat relaxes muscles and eases stiffness before activity; cold reduces swelling and pain after activity. Low-impact aerobic exercise and quadriceps strengthening stabilize the knee and reduce pain without overloading it. Every kilogram of weight lost removes about 4 kg of load from the knee with each step.<br><br><b>Incorrect:</b> a cane on the same side as the bad knee does not unload it. Complete rest causes stiffness, muscle weakness and further loss of function. Deep squats and kneeling load the damaged cartilage heavily. A pillow under the knee is comfortable but encourages a flexion contracture.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 400 0800:</span><span class=\"nurse-note-text\">One year later, after conservative care no longer controlled his pain, the client had a right total knee arthroplasty yesterday. Postoperative day 1. Right knee dressing dry and intact; right foot warm, pedal pulses 2+, sensation and movement intact. Pain 4/10 with movement after IV analgesia. Sequential compression devices on both legs. Physiotherapy to walk him with a walker this morning.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 400 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 400 0800 and the Vital Signs from Day 400.",
+        "stem": "For each nursing action, click to specify whether it is <b>indicated</b>, <b>contraindicated</b>, or <b>nonessential</b> for the client on postoperative day 1.",
+        "matrix": {
+          "firstColumnHeader": "Nursing Action",
+          "columns": [
+            "Indicated",
+            "Contraindicated",
+            "Nonessential"
+          ],
+          "rows": [
+            {
+              "text": "Place a pillow under the right knee to relieve pain",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Assess circulation, movement, and sensation of the right foot regularly",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Encourage ankle pumps every hour while awake and keep the sequential compression devices on in bed",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Keep the client on bed rest for the first 3 days",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Give the prescribed analgesic before physiotherapy",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Arrange X-rays of both hands",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Apply the prescribed cold therapy to the right knee",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Indicated:</b> neurovascular checks detect nerve or vascular injury and compartment problems early. Ankle pumps and sequential compression devices promote venous return and help prevent deep vein thrombosis, a major risk after knee replacement. Pain relief before physiotherapy lets him take part in early walking and range-of-motion exercise. Cold therapy reduces swelling and pain.<br><br><b>Contraindicated:</b> a pillow under the knee holds it flexed and can cause a flexion contracture; the knee is kept straight when resting (a pillow may go under the calf and heel if the leg is elevated). Bed rest increases the risk of blood clots, pneumonia and stiffness; walking usually starts on the day of surgery or the day after.<br><br><b>Nonessential:</b> hand X-rays do not change his postoperative care."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse in a primary care clinic is caring for a 68-year-old male client with right knee pain.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Retired carpenter who knelt on job sites for 40 years. Reports 3 years of right knee pain that worsens with walking and climbing stairs and eases with rest, worse by the end of the day. Morning stiffness in the knee lasting about 15 minutes. Grating (crepitus) felt and heard when the right knee bends. Hard, bony enlargements on the end joints (DIP) of both index fingers. Weight 102 kg, BMI 33. MCP joints and wrists not swollen or warm. Temperature 36.7° C. Reports good appetite with no weight loss. Right knee slightly enlarged and bony, with a small cool effusion; flexion limited to 100°. Takes ramipril 10 mg daily for hypertension. Lives with his wife in a two-storey house.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 60 1000:</span><span class=\"nurse-note-text\">Follow-up visit. Client reports the knee “gave way” on the stairs last week and he caught the railing; he does not use a cane. He takes two 500-mg acetaminophen tablets every 4 hours while awake (six times a day) “because the label dose doesn't touch the pain,” plus a night-time cold and flu tablet that contains acetaminophen 650 mg. Drinks 3 beers most evenings. Denies abdominal pain or dark stools.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 400 0800:</span><span class=\"nurse-note-text\">One year later, after conservative care no longer controlled his pain, the client had a right total knee arthroplasty yesterday. Postoperative day 1. Right knee dressing dry and intact; right foot warm, pedal pulses 2+, sensation and movement intact. Pain 4/10 with movement after IV analgesia. Sequential compression devices on both legs. Physiotherapy to walk him with a walker this morning.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 442 1000:</span><span class=\"nurse-note-text\">Clinic follow-up, 6 weeks after surgery. Right knee flexion 105° with full extension. Incision healed with no redness or drainage. Walks with a cane in his left hand; no falls. Weight 96 kg (was 102 kg). Right calf warm, swollen, and tender; right calf circumference 3 cm larger than the left. Reports the calf started aching 2 days ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 442 1015:</span><span class=\"nurse-note-text\">Client states: “I check labels and keep track of my acetaminophen.” “I still sleep with a pillow under my right knee; it feels better.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 400 0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 442 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>X-ray, right knee (standing):</b> narrowing of the medial joint space, osteophytes at the joint margins, subchondral sclerosis, and small subchondral cysts. Small effusion.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 60 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythrocyte sedimentation rate (ESR)</b><br>Male: 0–10 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 mm/h</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>C-reactive protein (CRP)</b><br>≤ 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rheumatoid factor (RF)</b><br>≤ 20 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">&lt; 10 kIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Uric acid</b><br>Male: 208–400 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">352 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 IU/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 442 1000 and 1015 and the Vital Signs from Day 442.",
+        "stem": "For each finding, click to specify whether it indicates that the plan of care has been <b>effective</b> or <b>not effective</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Effective",
+            "Not effective"
+          ],
+          "rows": [
+            {
+              "text": "Right knee flexion 105° with full extension",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Warm, swollen, tender right calf, 3 cm larger than the left",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Walks with a cane in his left hand, with no falls",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I still sleep with a pillow under my right knee.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Weight 96 kg, down from 102 kg",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Incision healed, with no redness or drainage",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I check labels and keep track of my acetaminophen.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Effective:</b> good range of motion (about 90° to 110° of flexion is a usual goal at this stage), a healed incision, safe use of the cane on the correct side with no falls, weight loss, and safe use of acetaminophen.<br><br><b>Not effective:</b> a warm, swollen, tender calf that is larger than the other suggests a deep vein thrombosis, which can lead to a pulmonary embolism. The nurse does not massage the calf, has the client rest, and reports the finding to the provider immediately. Sleeping with a pillow under the knee risks a flexion contracture and loss of the extension gained in therapy; the nurse reteaches keeping the knee straight."
+      }
+    }
+  ]
+}

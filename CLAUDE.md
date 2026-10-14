@@ -189,6 +189,16 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   scheme as `case_17824<unit-6>000000<n>`), written 14 Oct 2026 for the user's Unit 6 review class
   (`drafts/build_unit6_case1_ra.py`; screen 2 = matrix multiple response RA vs OA vs osteomyelitis), added
   with an `authorReview` note; the user reviews it before using it with students.
+- NURS 1017 Unit 6 Case Studies 2–7 (`case_1782400000002`–`007`, user request 14 Oct 2026 to fill the Unit 6
+  gaps; nursing-focused, NCSBN model, **no treatment decisions** in the questions): 2 femur fracture +
+  shoulder dislocation/subluxation, fat embolism, 5 stages of bone healing (ordered response), delayed union;
+  3 osteomyelitis (diabetic foot, PICC); 4 osteoporosis + vertebral compression fracture; 5 myasthenia gravis
+  (crisis); 6 osteoarthritis (acetaminophen overuse, falls, care after knee arthroplasty); 7 fibromyalgia
+  (central sensitization, suicide-risk screening, 9-8-8). Generators `drafts/build_unit6_case<n>_*.py` share
+  `drafts/unit6_common.py` (Chart class: tabs only grow; seeded random answer order). Review copies:
+  `drafts/NURS_1017_Unit_6_Case_Studies_2-7_Review.pdf`, answer key `drafts/NURS_1017_Unit_6_Answer_Key.md`
+  (`drafts/build_unit6_answer_key.py`, cases 1–7). Each carries an `authorReview` note.
+  Not yet covered in Unit 6: gout (stand-alone only), ankylosing spondylitis.
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),
