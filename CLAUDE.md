@@ -198,7 +198,10 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   `drafts/unit6_common.py` (Chart class: tabs only grow; seeded random answer order). Review copies:
   `drafts/NURS_1017_Unit_6_Case_Studies_2-7_Review.pdf`, answer key `drafts/NURS_1017_Unit_6_Answer_Key.md`
   (`drafts/build_unit6_answer_key.py`, cases 1–7). Each carries an `authorReview` note.
-  Not yet covered in Unit 6: gout (stand-alone only), ankylosing spondylitis.
+  Case Studies 8 (gout: gout vs septic arthritis, urate crystals, allopurinol/diet teaching) and 9 (ankylosing
+  spondylitis vs RA vs SLE, enthesitis/ankylosis, posture/exercise teaching, uveitis) followed the same day
+  (`build_unit6_case8_gout.py`, `build_unit6_case9_ankylosing_spondylitis.py`, review copy
+  `drafts/NURS_1017_Unit_6_Case_Studies_8-9_Review.pdf`). Every Unit 6 outcome now has a case study.
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),

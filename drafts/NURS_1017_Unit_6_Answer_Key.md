@@ -1034,3 +1034,293 @@ For each finding, click to specify whether it indicates that the plan of care ha
 **Effective:** less pain, better sleep, regular aerobic exercise, a return to work, and a much lower depression score with no suicidal thoughts show that the plan is working. Fibromyalgia is chronic; the goal is better function and quality of life, not a cure.
 
 **Not effective:** the boom-and-bust pattern shows she is not yet pacing herself. Late, heavy caffeine intake undermines sleep. Avoiding friends increases isolation and the risk of depression. The nurse reinforces pacing and sleep hygiene, and explores ways to keep social contact (shorter visits, plans that can be changed).
+
+## NURS 1017 Unit 6 Case Study 8
+
+58-year-old male client with hypertension on a thiazide, obesity and chronic kidney disease who has an acute gout attack of the right great toe after beer and seafood; gout vs septic arthritis (joint fluid crystals), purine metabolism and urate crystal formation, nursing care during the attack, prevention teaching for allopurinol and diet, and evaluation at 4 months.
+
+**Points to review:**
+
+- The acute-attack medication is left generic (“an anti-inflammatory medication”) so no question depends on the provider's choice.
+- Screen 4: fluids of 2 to 3 L/day are qualified by “unless the provider sets a limit” because of his kidney disease.
+- Screen 6: the uric acid target (< 360 µmol/L) follows common guidelines.
+
+### Screen 1: Recognize cues (select_all)
+
+Which findings are consistent with acute gouty arthritis? **Select all that apply.**
+
+1. ✘ No joint swelling or morning stiffness in the hands
+2. ✔ Attack began after drinking beer and eating seafood
+3. ✔ Previous attacks that went away on their own in about a week
+4. ✔ Red, hot, swollen, shiny joint at the base of the right great toe
+5. ✘ SpO₂ 97% on room air
+6. ✔ Sudden, severe pain that woke him at 0300
+7. ✔ Firm, chalky nodule on the rim of the left ear
+8. ✘ Respiratory rate 18 breaths/min
+9. ✔ Cannot tolerate the bedsheet touching the toe
+
+**Rationale:**
+
+**Typical of acute gout:** attacks start suddenly, often at night, and reach maximal pain within 12 to 24 hours. The first metatarsophalangeal joint of the big toe is the classic site (**podagra**). The joint is red, hot, swollen and shiny and so tender that even a bedsheet hurts. Untreated attacks usually settle in 1 to 2 weeks, and the client is symptom-free between attacks.
+
+**Triggers:** alcohol (especially beer, which is rich in purines) and purine-rich foods such as shellfish and organ meats raise uric acid; dehydration, fasting and surgery can also trigger attacks.
+
+**Tophi:** firm, chalky deposits of urate crystals under the skin (ear rim, elbows, fingers) show long-standing high urate levels (chronic tophaceous gout). A low-grade fever can accompany an acute attack.
+
+**Not cues:** the absence of hand involvement and morning stiffness, and his normal breathing and oxygen saturation, do not point toward gout.
+
+### Screen 2: Analyze cues (matrix_mr)
+
+*The nurse has reviewed the Laboratory Results and the Diagnostic Results.*
+
+A hot, swollen joint can be gout or a joint infection. For each finding, click to specify whether it is consistent with **gout**, **septic arthritis**, or both. Each finding may support more than one condition.
+
+- Needle-shaped, negatively birefringent crystals in the joint fluid → **Gout**
+- Red, hot, swollen, very painful single joint → **Gout, Septic arthritis**
+- Bacteria seen on Gram stain of the joint fluid → **Septic arthritis**
+- Temperature 37.9° C and WBC 11.4 × 10⁹/L → **Gout, Septic arthritis**
+- Chalky nodules (tophi) on the ear → **Gout**
+- Earlier attacks that settled on their own within about a week → **Gout**
+- Joint fluid culture growing Staphylococcus aureus → **Septic arthritis**
+
+**Rationale:**
+
+**Both:** gout and septic arthritis can both produce a single red, hot, swollen, very painful joint with fever, a raised WBC count and raised CRP. Because an infected joint can be destroyed within days, joint fluid is aspirated to tell them apart; the two can also occur together.
+
+**Gout:** the diagnostic finding is **monosodium urate crystals**, needle-shaped and negatively birefringent under polarized light, inside neutrophils in the joint fluid. Tophi and earlier attacks that resolved on their own support gout. This client's joint fluid showed urate crystals and no organisms on Gram stain; the culture is pending.
+
+**Septic arthritis:** bacteria on Gram stain or a positive culture (most often *Staphylococcus aureus*) confirm infection. Septic arthritis does not settle on its own and needs urgent treatment.
+
+**Note on uric acid:** his serum uric acid is high (528 µmol/L), but it can be normal during an acute attack, so a normal level does not rule out gout; the crystals do.
+
+### Screen 3: Prioritize hypotheses (dropdown_cloze)
+
+Complete the following sentences by choosing from the lists of options.
+
+Sentence: Uric acid is the end product of the breakdown of [[drop0]]. Gout develops when [[drop1]]. The client's hydrochlorothiazide and chronic kidney disease raise his uric acid because they [[drop2]]. The nurse's priority at this time is the client's [[drop3]].
+- drop0: **purines** (other choices: glucose; fatty acids; amino acids)
+- drop1: **urate in body fluids exceeds its solubility and forms crystals in and around joints** (other choices: calcium deposits replace the synovium; antibodies attack the joint cartilage)
+- drop2: **reduce the excretion of uric acid by the kidneys** (other choices: increase the absorption of purines from food; increase the production of purines)
+- drop3: **acute pain** (other choices: chronic kidney disease; impaired skin integrity; risk for infection)
+
+**Rationale:**
+
+**Where uric acid comes from:** purines (from the body's own cell turnover and from foods such as organ meats, shellfish, some fish and beer) are broken down to uric acid, which is excreted mainly by the kidneys. About 90% of people with gout are **underexcreters** rather than overproducers.
+
+**Crystal formation:** when urate rises above its solubility (about 400 µmol/L), monosodium urate crystals form, more easily in cooler, peripheral joints such as the big toe and in acidic conditions. Shed crystals are engulfed by neutrophils and activate the inflammasome, releasing interleukin-1 and producing intense acute inflammation.
+
+**Contributing factors:** thiazide diuretics and kidney disease reduce uric acid excretion; obesity, alcohol and fructose (as in regular cola) increase uric acid.
+
+**Priority:** the attack causes severe pain (9/10) that prevents him from walking. Joint infection was made unlikely by the joint fluid (urate crystals, no organisms), his skin is intact, and his kidney disease is a long-term issue to follow up, not the immediate problem.
+
+### Screen 4: Generate solutions (select_all)
+
+*The nurse has reviewed the Nurses' Notes from Day 1 1000.*
+
+Which actions should the nurse include in the plan of care during the acute attack? **Select all that apply.**
+
+1. ✘ Massage the joint to disperse the crystals
+2. ✔ Use a bed cradle or footboard to keep the bedsheet off the toe
+3. ✔ Encourage 2 to 3 litres of fluid a day, unless the provider sets a limit
+4. ✘ Offer aspirin for the pain
+5. ✔ Rest and elevate the right foot
+6. ✘ Apply a heating pad to the toe
+7. ✔ Give the prescribed anti-inflammatory medication and reassess the pain
+8. ✘ Wrap the toe snugly in an elastic bandage
+9. ✔ Apply a cold pack wrapped in a cloth to the toe for 15 to 20 minutes at a time
+
+**Rationale:**
+
+**Correct:** rest and elevation reduce swelling and pain. Cold reduces inflammation and pain in an acute gout attack (wrapped, for limited periods to protect the skin). A bed cradle keeps the weight of the sheets off the exquisitely tender joint. Taking the prescribed medication early in the attack shortens it; the nurse reassesses pain afterward. Fluids help the kidneys excrete uric acid and reduce the risk of urate kidney stones; because he has chronic kidney disease, the nurse checks whether the provider has set a fluid limit.
+
+**Incorrect:** heat increases the inflammation of an acute attack. Massage or pressure on the joint is extremely painful and does not remove crystals. Aspirin (salicylate) can raise uric acid levels by competing with its excretion in the kidney, so it is avoided for gout pain. A snug bandage puts pressure on the swollen, tender joint.
+
+### Screen 5: Take action (matrix_mc)
+
+*The nurse has reviewed the Nurses' Notes from Day 28 1000, the Diagnostic Results from Day 3, and the Vital Signs from Day 28.*
+
+For each instruction, click to specify whether it is **appropriate** or **not appropriate** to include in the client's teaching.
+
+- Take allopurinol every day, even when you have no pain → **Appropriate**
+- Fast for a few days to lose weight quickly → **Not appropriate**
+- Limit beer and spirits, and avoid binge drinking → **Appropriate**
+- Stop the allopurinol if your toe starts to hurt again → **Not appropriate**
+- Limit organ meats, shellfish, and sardines → **Appropriate**
+- Replace regular cola and other sugar-sweetened drinks with water → **Appropriate**
+- Stop taking allopurinol and call your provider right away if you develop a skin rash → **Appropriate**
+- Avoid all milk products, because they contain purines → **Not appropriate**
+
+**Rationale:**
+
+**Appropriate:** allopurinol lowers uric acid production and must be taken every day to prevent attacks and dissolve tophi; it does not relieve an attack. Beer and spirits raise uric acid; organ meats, shellfish and some oily fish are high in purines; fructose in sugar-sweetened drinks increases uric acid production. A rash on allopurinol can be the first sign of a rare but life-threatening hypersensitivity reaction (including Stevens-Johnson syndrome), so the drug is stopped and the rash reported at once.
+
+**Not appropriate:** fasting and crash diets raise uric acid (ketones compete with its excretion) and can trigger attacks; weight loss should be gradual. Attacks can still happen in the first months of urate-lowering therapy as crystals dissolve; stopping allopurinol during an attack makes urate levels swing and prolongs the problem, so the client calls the provider instead. Low-fat dairy products are low in purines and are associated with lower uric acid levels, so they are encouraged.
+
+### Screen 6: Evaluate outcomes (matrix_mc)
+
+*The nurse has reviewed the Nurses' Notes from Day 120 1000 and 1015, the Vital Signs from Day 120, and the Laboratory Results from Day 120.*
+
+For each finding, click to specify whether it indicates that the plan of care has been **effective** or **not effective**.
+
+- Uric acid 352 µmol/L → **Effective**
+- “I still have 6 or 7 beers on Saturday nights.” → **Not effective**
+- No further attacks in 3 months → **Effective**
+- Tophus on the left ear slightly smaller → **Effective**
+- Weight 107 kg, down from 112 kg → **Effective**
+- “I switched from cola to water and low-fat milk.” → **Effective**
+- “I take my allopurinol every morning.” → **Effective**
+- Itchy red rash on both forearms for 2 days → **Not effective**
+
+**Rationale:**
+
+**Effective:** a uric acid below 360 µmol/L is the usual treatment target, low enough for crystals to dissolve; the shrinking tophus shows this is happening. He has had no further attacks, is losing weight gradually, takes allopurinol daily, and has replaced sugary drinks.
+
+**Not effective:** binge drinking of beer raises uric acid and dehydrates him, and is a common trigger of attacks. The nurse reinforces limiting alcohol and explores support for cutting down. A new rash while taking allopurinol must not be ignored: as taught, the drug is held and the provider is notified the same day, because a rash can be the first sign of a serious hypersensitivity reaction. His kidney function remains reduced and continues to be monitored.
+
+## NURS 1017 Unit 6 Case Study 9
+
+27-year-old male client with 8 months of inflammatory back pain, alternating buttock pain, Achilles enthesitis and a past episode of uveitis, diagnosed with HLA-B27-positive ankylosing spondylitis; AS vs rheumatoid arthritis vs SLE, enthesitis and spinal fusion, exercise and posture teaching, a recurrence of acute anterior uveitis, and evaluation at 1 year.
+
+**Points to review:**
+
+- Screen 1: Schober test normal (increase of 5 cm or more) and chest expansion values are commonly cited; check your textbook.
+- Screen 2: HLA-B27 prevalence (about 90% in AS, about 8% in the general population) varies by population.
+- Screen 5: the uveitis prevalence (up to about a third of clients with AS) is an approximate figure.
+
+### Screen 1: Recognize cues (select_all)
+
+Which findings suggest an inflammatory cause of the client's back pain rather than a mechanical (strain) cause? **Select all that apply.**
+
+1. ✘ Blood pressure 124/78 mm Hg
+2. ✔ Aching deep in the buttocks that alternates between sides
+3. ✔ Pain where the Achilles tendons attach to both heels
+4. ✔ Back pain that improves with exercise and worsens with rest
+5. ✔ Wakes in the early morning hours with back pain and gets up to walk around
+6. ✘ No numbness or weakness in the legs
+7. ✘ Works in a warehouse
+8. ✔ Morning stiffness lasting about an hour that loosens with a hot shower and movement
+9. ✔ Painful, red eye with light sensitivity last year
+
+**Rationale:**
+
+**Inflammatory back pain** typically starts before age 40, comes on gradually, lasts more than 3 months, causes morning stiffness of 30 minutes or more, improves with exercise but not with rest, and wakes the person in the second half of the night. Mechanical back pain is the opposite: it worsens with activity and improves with rest.
+
+**Alternating buttock pain** points to inflammation of the sacroiliac joints (sacroiliitis), the hallmark of ankylosing spondylitis (AS).
+
+**Heel pain at the Achilles insertion** is enthesitis, inflammation where tendons and ligaments attach to bone, a key feature of the spondyloarthritis family.
+
+**Acute anterior uveitis** (painful red eye with light sensitivity) is the most common extra-articular feature of AS.
+
+**Not cues:** warehouse work could suggest a mechanical cause, and normal leg strength and sensation with normal bladder and bowel function show no nerve compression; neither points to inflammation. His blood pressure is normal.
+
+### Screen 2: Analyze cues (matrix_mc)
+
+*The nurse has reviewed the Laboratory Results, the Diagnostic Results, and the Nurses' Notes from Day 10 1000.*
+
+For each finding, click to specify whether it is most characteristic of **ankylosing spondylitis**, **rheumatoid arthritis**, or **systemic lupus erythematosus**.
+
+- HLA-B27 positive with a negative rheumatoid factor → **Ankylosing spondylitis**
+- Antibodies to double-stranded DNA → **Systemic lupus erythematosus**
+- Symmetric swelling of the small joints of both hands with anti-CCP antibodies → **Rheumatoid arthritis**
+- Sacroiliitis on X-ray or MRI → **Ankylosing spondylitis**
+- Butterfly rash on the cheeks that worsens in the sun → **Systemic lupus erythematosus**
+- Vertebrae joined by bony bridges (“bamboo spine”) → **Ankylosing spondylitis**
+- Firm nodules over the elbows with joint erosions of the hands → **Rheumatoid arthritis**
+- Protein in the urine from immune complexes in the kidneys → **Systemic lupus erythematosus**
+
+**Rationale:**
+
+**Ankylosing spondylitis (AS)** is a **seronegative spondyloarthritis**: rheumatoid factor and ANA are negative, and about 90% of clients carry the **HLA-B27** gene (which is also found in about 8% of healthy people, so it supports but does not prove the diagnosis). Inflammation affects the sacroiliac joints and spine; over years, new bone bridges the vertebrae (syndesmophytes), giving the “bamboo spine” on X-ray. It usually begins in young men.
+
+**Rheumatoid arthritis (RA)** is a symmetric inflammatory polyarthritis of small joints (hands, wrists, feet) with rheumatoid factor and anti-CCP antibodies, erosions, and rheumatoid nodules.
+
+**Systemic lupus erythematosus (SLE)** is a multisystem autoimmune disease, most common in young women, with ANA and anti-double-stranded DNA antibodies. Immune complexes deposit in skin (malar rash, photosensitivity), joints (non-erosive arthritis), kidneys (lupus nephritis, proteinuria), blood cells and serous membranes.
+
+So all three are inflammatory arthritides, but they differ in the joints involved, the antibodies, and the organs affected.
+
+### Screen 3: Prioritize hypotheses (dropdown_cloze)
+
+Complete the following sentences by choosing from the lists of options.
+
+Sentence: In ankylosing spondylitis, inflammation begins at the [[drop0]]. Repeated inflammation is followed by [[drop1]]. Without regular exercise and good posture, the client is at greatest risk for [[drop2]]. Involvement of the joints of the ribs can also lead to [[drop3]].
+- drop0: **entheses, where ligaments and tendons attach to bone** (other choices: cartilage of weight-bearing joints from wear and tear; synovium of the small joints of the hands)
+- drop1: **new bone formation that can fuse the vertebrae** (other choices: complete healing with no lasting change; loss of bone that makes the spine more flexible)
+- drop2: **a fused spine fixed in a stooped, forward-flexed posture** (other choices: osteoarthritis of the hands; gout of the big toe)
+- drop3: **reduced chest expansion and restricted breathing** (other choices: muscle weakness from loss of acetylcholine receptors; fat embolism)
+
+**Rationale:**
+
+**Enthesitis:** AS is driven by inflammation at the entheses of the spine, sacroiliac joints and heels (cytokines such as TNF-α and IL-17 are central). This differs from RA, which begins in the synovium, and from osteoarthritis, which is degenerative.
+
+**Ankylosis:** after inflammation, the body lays down new bone. Bony bridges (syndesmophytes) gradually join the vertebrae and the sacroiliac joints fuse. The spine loses movement, and if it fuses while the client is stooped, the posture becomes fixed in flexion (kyphosis), which also limits the field of vision.
+
+**Chest wall:** inflammation and fusion of the costovertebral and costosternal joints reduce chest expansion (his is 4 cm; under about 2.5 cm is clearly reduced), which restricts breathing. Daily deep breathing and not smoking protect lung function.
+
+**Also:** a fused, osteoporotic spine breaks easily, even after a minor fall, so new neck or back pain after trauma needs urgent assessment.
+
+### Screen 4: Generate solutions (select_all)
+
+*The nurse has reviewed the Nurses' Notes from Day 10 1030.*
+
+Which instructions should the nurse include in the client's teaching? **Select all that apply.**
+
+1. ✔ Sleep on a firm mattress, on your back or stomach, with a thin pillow or none
+2. ✔ Do stretching and back-extension exercises every day, including on days with pain
+3. ✔ Do deep-breathing exercises several times a day
+4. ✘ Sit in a soft, low armchair to take the strain off your back
+5. ✘ Rest in bed curled on your side with pillows under your head and knees when your back hurts
+6. ✔ Stop smoking
+7. ✘ Avoid exercise during flares until the pain is gone
+8. ✔ Take a warm shower in the morning before exercising to ease stiffness
+9. ✔ Seek care right away for new neck or back pain after even a minor fall
+
+**Rationale:**
+
+**Correct:** daily exercise, especially stretching and extension exercises and activities such as swimming, is the cornerstone of AS care: it maintains spinal mobility and helps the spine stay upright if it fuses. Sleeping flat on a firm surface with little or no pillow (lying prone for periods each day) prevents flexion deformity. Deep breathing maintains chest expansion. Smoking worsens AS progression and lung function. Heat eases morning stiffness before activity. A fused spine fractures easily, so new pain after a fall must be assessed urgently.
+
+**Incorrect:** curling up with pillows under the head and knees and sitting in soft, low chairs encourage a flexed posture, and rest worsens inflammatory stiffness. In AS, activity relieves the pain, so exercise continues during flares at a gentler level.
+
+### Screen 5: Take action (matrix_mc)
+
+*The nurse has reviewed the Nurses' Notes from Day 220 1100 and the Vital Signs from Day 220.*
+
+For each nursing action, click to specify whether it is **indicated**, **contraindicated**, or **nonessential** for the client at this time.
+
+- Arrange an urgent, same-day assessment by an eye specialist → **Indicated**
+- Advise him to wait a week to see whether the redness clears → **Contraindicated**
+- Report the reduced visual acuity in the left eye to the provider → **Indicated**
+- Suggest wearing sunglasses for comfort until he is seen → **Indicated**
+- Measure his chest expansion today → **Nonessential**
+- Tell him that the eye problem is unrelated to his back condition → **Contraindicated**
+- Teach him that this eye problem can recur and to seek care promptly each time → **Indicated**
+
+**Rationale:**
+
+These are signs of **acute anterior uveitis** (iritis): a painful red eye, light sensitivity, blurred vision and a small pupil. It affects up to about a third of people with AS and is often recurrent and on one side.
+
+**Indicated:** uveitis needs urgent assessment and treatment by an eye specialist to prevent complications such as adhesions of the iris, glaucoma and vision loss; the drop in visual acuity is reported. Sunglasses ease light sensitivity while he waits. Because attacks recur, he is taught to seek care promptly each time.
+
+**Contraindicated:** waiting risks permanent damage to the eye. Saying the eye problem is unrelated is incorrect: uveitis is a recognized extra-articular feature of AS and shares the HLA-B27 link.
+
+**Nonessential:** chest expansion is part of routine follow-up, not of this urgent visit.
+
+### Screen 6: Evaluate outcomes (matrix_mc)
+
+*The nurse has reviewed the Nurses' Notes from Day 365 1000 and 1015, the Vital Signs from Day 365, and the Laboratory Results from Day 365.*
+
+For each finding, click to specify whether it indicates that the plan of care has been **effective** or **not effective**.
+
+- Morning stiffness about 15 minutes → **Effective**
+- “I sleep with two thick pillows.” → **Not effective**
+- Schober test increase 3 cm, up from 2.5 cm → **Effective**
+- Still smokes 10 cigarettes a day → **Not effective**
+- CRP 5 mg/L and ESR 9 mm/h → **Effective**
+- Swims twice a week and stretches most days → **Effective**
+- “When my eye got red again, I went to the eye clinic the same day.” → **Effective**
+- Chest expansion 4 cm, unchanged → **Effective**
+
+**Rationale:**
+
+**Effective:** shorter morning stiffness and normal inflammatory markers show that inflammation is controlled; spinal mobility has improved slightly and chest expansion has not declined; he exercises regularly; and he recognized a recurrence of uveitis and sought care the same day, as taught.
+
+**Not effective:** thick pillows hold the neck in flexion and promote a fixed, stooped posture; the nurse reteaches sleeping flat with a thin pillow. Continued smoking speeds spinal fusion and harms lung function in a client whose chest expansion is already limited; the nurse offers cessation support.
