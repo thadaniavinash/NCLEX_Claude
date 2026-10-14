@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800008",
-  "unit": "Others",
+  "unit": "Unit 3 (Respiratory Disorders)",
   "draft": true,
   "title": "University of Maryland - CS8",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -375,8 +375,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 3 (Respiratory Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Suzana Jarquin, Frederick Community College. COPD I: a 74-year-old client with a COPD exacerbation in the emergency department; differentiating COPD from other respiratory conditions, priorities, and response to treatment.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

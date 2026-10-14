@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800007",
-  "unit": "Others",
+  "unit": "Unit 6 (Musculoskeletal Disorders)",
   "draft": true,
   "title": "University of Maryland - CS7",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 6 (Musculoskeletal Disorders)",
+  "course": "NURS 1017",
   "screens": [
     {
       "step": 1,
@@ -458,8 +458,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 6 (Musculoskeletal Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Compartment syndrome: after ORIF of a tibia-fibula fracture, a 23-year-old client develops neurovascular compromise; the nurse recognizes it, anticipates orders, delegates, and evaluates after cast removal.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

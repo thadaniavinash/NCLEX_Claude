@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800017",
-  "unit": "Others",
+  "unit": "Unit 9 (Reproductive Disorders)",
   "draft": true,
   "title": "University of Maryland - CS17",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 9 (Reproductive Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -395,8 +395,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 9 (Reproductive Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Prostate cancer with prostatectomy: a 55-year-old client develops hemorrhagic shock after a robotic-assisted laparoscopic prostatectomy; recognition, actions, and evaluation.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800004",
-  "unit": "Others",
+  "unit": "Unit 4 (Neoplasia)",
   "draft": true,
   "title": "University of Maryland - CS4",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 4 (Neoplasia)",
+  "course": "NURS 1017",
   "screens": [
     {
       "step": 1,
@@ -518,8 +518,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 4 (Neoplasia)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, May 14, 2023; Authors: Kimberly Allen, Stephanie Howard, Lisa Seldomridge, Salisbury University. Breast cancer: a client with pancytopenia after chemotherapy presents with right-arm lymphedema after a radical mastectomy; cellulitis and DVT are ruled out, and the nurse plans care and discharge teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

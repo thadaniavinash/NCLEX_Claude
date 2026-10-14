@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800010",
-  "unit": "Others",
+  "unit": "Unit 1 (Blood Disorders)",
   "draft": true,
   "title": "University of Maryland - CS10",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 1 (Blood Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -404,8 +404,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 1 (Blood Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Deep vein thrombosis II: a 69-year-old client with a right leg DVT; heparin protocol, prioritizing orders, and warfarin discharge teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

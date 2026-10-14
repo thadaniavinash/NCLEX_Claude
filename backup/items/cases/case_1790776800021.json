@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800021",
-  "unit": "Others",
+  "unit": "Unit 11 (Endocrine Disorders)",
   "draft": true,
   "title": "University of Maryland - CS21",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 11 (Endocrine Disorders)",
+  "course": "NURS 1017",
   "screens": [
     {
       "step": 1,
@@ -390,8 +390,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 11 (Endocrine Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated April 23, 2023); Author: Suzana Jarquin, Frederick Community College. Thyroid storm: a 32-year-old client with hyperthyroidism, fever, and tachycardia; recognizing thyroid storm, priority orders, and evaluating the response to treatment.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

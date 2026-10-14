@@ -1,9 +1,9 @@
 {
   "id": "cardio-case-1",
-  "unit": "Others",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
   "title": "Case Study 1",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -352,8 +352,8 @@
       }
     }
   ],
-  "disorder": "Others",
-  "updatedAt": "2026-10-08T22:21:37.973Z",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
+  "updatedAt": "2026-10-14T18:44:52.899Z",
   "description": "",
   "availability": "all"
 }

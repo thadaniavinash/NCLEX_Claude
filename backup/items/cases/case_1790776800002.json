@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800002",
-  "unit": "Others",
+  "unit": "Unit 3 (Respiratory Disorders)",
   "draft": true,
   "title": "University of Maryland - CS3",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -376,8 +376,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 3 (Respiratory Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County. Acute respiratory failure (medical-surgical): a 78-year-old client in the ICU with pneumonia progresses to intubation and mechanical ventilation.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

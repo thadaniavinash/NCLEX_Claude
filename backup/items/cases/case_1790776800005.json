@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800005",
-  "unit": "Others",
+  "unit": "Unit 5 (Integumentary Disorders and Burns)",
   "draft": true,
   "title": "University of Maryland - CS5",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 5 (Integumentary Disorders and Burns)",
+  "course": "NURS 1017",
   "screens": [
     {
       "step": 1,
@@ -437,8 +437,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 5 (Integumentary Disorders and Burns)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated May 16, 2023); Author: Stacy McGrath, Salisbury University. Burns: a 55-year-old client with 2nd- and 3rd-degree burns develops burn shock during fluid resuscitation and then signs of upper airway edema.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

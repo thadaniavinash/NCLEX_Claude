@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800009",
-  "unit": "Others",
+  "unit": "Unit 3 (Respiratory Disorders)",
   "draft": true,
   "title": "University of Maryland - CS9",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 3 (Respiratory Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -522,8 +522,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 3 (Respiratory Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Author: Mary DiBartolo, Salisbury University. COPD II: a 63-year-old client with a COPD exacerbation and left lower lobe pneumonia; risk factors, priorities, interventions, and discharge teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

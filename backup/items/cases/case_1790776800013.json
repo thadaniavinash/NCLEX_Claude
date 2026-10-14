@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800013",
-  "unit": "Others",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
   "draft": true,
   "title": "University of Maryland - CS13",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -391,8 +391,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Authors: Lisa Seldomridge, Jennifer Hart, Molly Dale, Salisbury University. Heart failure: a 68-year-old client in the clinic with worsening HF and hypokalemia; a medication-order error (ACE inhibitor + ARNI), teaching, and worsening symptoms 2 weeks later.",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

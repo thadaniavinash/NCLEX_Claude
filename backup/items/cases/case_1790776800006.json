@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800006",
-  "unit": "Others",
+  "unit": "Unit 2 (Cardiovascular Disorders)",
   "draft": true,
   "title": "University of Maryland - CS6",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 2 (Cardiovascular Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -458,8 +458,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 2 (Cardiovascular Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Kadriyya Clark, Community College of Baltimore County. Chest pain (MI): a 60-year-old client with an anterior STEMI; the nurse interprets the ECG and biomarkers, gives fibrinolytic therapy, and evaluates the response.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

@@ -1,10 +1,10 @@
 {
   "id": "case_1790776800011",
-  "unit": "Others",
+  "unit": "Unit 7 (Urinary Disorders)",
   "draft": true,
   "title": "University of Maryland - CS11",
-  "topic": "Others",
-  "course": "Others",
+  "topic": "Unit 7 (Urinary Disorders)",
+  "course": "NURS 1021",
   "screens": [
     {
       "step": 1,
@@ -488,8 +488,8 @@
       }
     }
   ],
-  "disorder": "Others",
+  "disorder": "Unit 7 (Urinary Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Laura Sessions, Towson University. ESRD and dialysis: a 35-year-old client on peritoneal dialysis with peritonitis; differentiating ESRD and infection, orders, delegation, and catheter-care teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T18:44:52.899Z"
 }

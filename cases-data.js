@@ -1877,10 +1877,10 @@ window.NCLEX_CASES = [
   },
   {
     "id": "case_1782149061171",
-    "unit": "Others",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
     "title": "NCSBN Case Study 2",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -2317,17 +2317,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z",
+    "draft": true
   },
   {
     "id": "case_1782159166328",
-    "unit": "Others",
+    "unit": "Unit 3 (Respiratory Disorders)",
     "title": "New Case Study",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -2748,10 +2749,11 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z",
+    "draft": true
   },
   {
     "id": "case_1782350000001",
@@ -16216,10 +16218,10 @@ window.NCLEX_CASES = [
   },
   {
     "id": "cardio-case-1",
-    "unit": "Others",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
     "title": "Case Study 1",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -16568,18 +16570,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
-    "updatedAt": "2026-10-08T22:21:37.973Z",
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
+    "updatedAt": "2026-10-14T18:44:52.899Z",
     "description": "",
     "availability": "all"
   },
   {
     "id": "case_1790769567553",
-    "unit": "Others",
-    "draft": true,
+    "unit": "Unit 3 (Respiratory Disorders)",
+    "draft": false,
     "title": "University of Maryland - CS2",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -17091,18 +17093,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Tuberculosis (medical-surgical): contact tracing, diagnosis, infection control, medication teaching, and 4-week follow-up.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800002",
-    "unit": "Others",
+    "unit": "Unit 3 (Respiratory Disorders)",
     "draft": true,
     "title": "University of Maryland - CS3",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -17474,18 +17476,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County. Acute respiratory failure (medical-surgical): a 78-year-old client in the ICU with pneumonia progresses to intubation and mechanical ventilation.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800004",
-    "unit": "Others",
+    "unit": "Unit 4 (Neoplasia)",
     "draft": true,
     "title": "University of Maryland - CS4",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 4 (Neoplasia)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -17999,18 +18001,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 4 (Neoplasia)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, May 14, 2023; Authors: Kimberly Allen, Stephanie Howard, Lisa Seldomridge, Salisbury University. Breast cancer: a client with pancytopenia after chemotherapy presents with right-arm lymphedema after a radical mastectomy; cellulitis and DVT are ruled out, and the nurse plans care and discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800005",
-    "unit": "Others",
+    "unit": "Unit 5 (Integumentary Disorders and Burns)",
     "draft": true,
     "title": "University of Maryland - CS5",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 5 (Integumentary Disorders and Burns)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -18443,18 +18445,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated May 16, 2023); Author: Stacy McGrath, Salisbury University. Burns: a 55-year-old client with 2nd- and 3rd-degree burns develops burn shock during fluid resuscitation and then signs of upper airway edema.",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800006",
-    "unit": "Others",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
     "draft": true,
     "title": "University of Maryland - CS6",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -18908,18 +18910,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Kadriyya Clark, Community College of Baltimore County. Chest pain (MI): a 60-year-old client with an anterior STEMI; the nurse interprets the ECG and biomarkers, gives fibrinolytic therapy, and evaluates the response.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800007",
-    "unit": "Others",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
     "draft": true,
     "title": "University of Maryland - CS7",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -19373,18 +19375,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Compartment syndrome: after ORIF of a tibia-fibula fracture, a 23-year-old client develops neurovascular compromise; the nurse recognizes it, anticipates orders, delegates, and evaluates after cast removal.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800008",
-    "unit": "Others",
+    "unit": "Unit 3 (Respiratory Disorders)",
     "draft": true,
     "title": "University of Maryland - CS8",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -19755,18 +19757,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Suzana Jarquin, Frederick Community College. COPD I: a 74-year-old client with a COPD exacerbation in the emergency department; differentiating COPD from other respiratory conditions, priorities, and response to treatment.",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800009",
-    "unit": "Others",
+    "unit": "Unit 3 (Respiratory Disorders)",
     "draft": true,
     "title": "University of Maryland - CS9",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -20284,18 +20286,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Author: Mary DiBartolo, Salisbury University. COPD II: a 63-year-old client with a COPD exacerbation and left lower lobe pneumonia; risk factors, priorities, interventions, and discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800010",
-    "unit": "Others",
+    "unit": "Unit 1 (Blood Disorders)",
     "draft": true,
     "title": "University of Maryland - CS10",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -20695,18 +20697,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 1 (Blood Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Deep vein thrombosis II: a 69-year-old client with a right leg DVT; heparin protocol, prioritizing orders, and warfarin discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800011",
-    "unit": "Others",
+    "unit": "Unit 7 (Urinary Disorders)",
     "draft": true,
     "title": "University of Maryland - CS11",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 7 (Urinary Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -21190,18 +21192,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 7 (Urinary Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Laura Sessions, Towson University. ESRD and dialysis: a 35-year-old client on peritoneal dialysis with peritonitis; differentiating ESRD and infection, orders, delegation, and catheter-care teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800012",
-    "unit": "Others",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
     "draft": true,
     "title": "University of Maryland - CS12",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -21514,18 +21516,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Gastroesophageal reflux disease: a 47-year-old client in the emergency department with epigastric pain and vomiting; focused assessment, treatment, and lifestyle teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800013",
-    "unit": "Others",
+    "unit": "Unit 2 (Cardiovascular Disorders)",
     "draft": true,
     "title": "University of Maryland - CS13",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 2 (Cardiovascular Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -21912,18 +21914,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 2 (Cardiovascular Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Authors: Lisa Seldomridge, Jennifer Hart, Molly Dale, Salisbury University. Heart failure: a 68-year-old client in the clinic with worsening HF and hypokalemia; a medication-order error (ACE inhibitor + ARNI), teaching, and worsening symptoms 2 weeks later.",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800014",
-    "unit": "Others",
+    "unit": "Unit 4 (Inflammation and Immune Disorders)",
     "draft": true,
     "title": "University of Maryland - CS14",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 4 (Inflammation and Immune Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -22365,18 +22367,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 4 (Inflammation and Immune Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Denyce Watties-Daniels, Coppin State University. HIV with an opportunistic infection: a 25-year-old client who stopped antiretroviral therapy develops Pneumocystis pneumonia; priorities, orders, and prevention teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800015",
-    "unit": "Others",
+    "unit": "Unit 11 (Endocrine Disorders)",
     "draft": true,
     "title": "University of Maryland - CS15",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 11 (Endocrine Disorders)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -22789,18 +22791,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 11 (Endocrine Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: DeNiece Bennett, University of Maryland School of Nursing. Type 2 diabetes and ketoacidosis: a 73-year-old client on an SGLT2 inhibitor with DKA; DKA vs HHS, priorities, insulin and potassium management, and response.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800016",
-    "unit": "Others",
+    "unit": "Unit 6 (Gastrointestinal Disorders)",
     "draft": true,
     "title": "University of Maryland - CS16",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 6 (Gastrointestinal Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -23288,18 +23290,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (revised April 17, 2023); Author: Mary DiBartolo, Salisbury University. Liver failure: a 67-year-old client with alcohol use disorder, cirrhosis, ascites, and hepatic encephalopathy; priorities, orders, and response to lactulose and diuretics.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800017",
-    "unit": "Others",
+    "unit": "Unit 9 (Reproductive Disorders)",
     "draft": true,
     "title": "University of Maryland - CS17",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 9 (Reproductive Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -23690,18 +23692,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 9 (Reproductive Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Prostate cancer with prostatectomy: a 55-year-old client develops hemorrhagic shock after a robotic-assisted laparoscopic prostatectomy; recognition, actions, and evaluation.",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800018",
-    "unit": "Others",
+    "unit": "Unit 6 (Musculoskeletal Disorders)",
     "draft": true,
     "title": "University of Maryland - CS18",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 6 (Musculoskeletal Disorders)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -24155,18 +24157,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 6 (Musculoskeletal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Authors: Mary DiBartolo and Allison Hynson. Spine surgery: a 65-year-old client after an L2-L4 laminectomy with a saturated dressing and a nonfunctioning JP drain; priorities, interventions, and discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800019",
-    "unit": "Others",
+    "unit": "Unit 7 (Neurological Disorders)",
     "draft": true,
     "title": "University of Maryland - CS19",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -24568,18 +24570,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 7 (Neurological Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (revised April 17, 2023); Author: DeNiece Bennett, University of Maryland School of Nursing. Stroke: a 26-year-old client on a combined hormonal contraceptive with an acute ischemic stroke; risk factors, alteplase screening and post-thrombolysis care, and teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800020",
-    "unit": "Others",
+    "unit": "Unit 3 (Respiratory Disorders)",
     "draft": true,
     "title": "University of Maryland - CS20",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 3 (Respiratory Disorders)",
+    "course": "NURS 1021",
     "screens": [
       {
         "step": 1,
@@ -25047,18 +25049,18 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Denyce Watties-Daniels, Coppin State University. Tension pneumothorax: a 58-year-old client with rib fractures after a motor vehicle collision; recognizing deterioration, needle decompression and chest tube care.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   },
   {
     "id": "case_1790776800021",
-    "unit": "Others",
+    "unit": "Unit 11 (Endocrine Disorders)",
     "draft": true,
     "title": "University of Maryland - CS21",
-    "topic": "Others",
-    "course": "Others",
+    "topic": "Unit 11 (Endocrine Disorders)",
+    "course": "NURS 1017",
     "screens": [
       {
         "step": 1,
@@ -25444,10 +25446,10 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "disorder": "Others",
+    "disorder": "Unit 11 (Endocrine Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated April 23, 2023); Author: Suzana Jarquin, Frederick Community College. Thyroid storm: a 32-year-old client with hyperthyroidism, fever, and tachycardia; recognizing thyroid storm, priority orders, and evaluating the response to treatment.",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T18:44:52.899Z"
   }
 ];
 
