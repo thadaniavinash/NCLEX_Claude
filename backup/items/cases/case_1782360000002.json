@@ -12,11 +12,19 @@
         "type": "select_all",
         "options": [
           {
+            "text": "Dilation of the endoplasmic reticulum with ribosome detachment on electron microscopy",
+            "correct": true
+          },
+          {
             "text": "Preservation of hepatocyte plasma membrane and nuclear envelope integrity",
             "correct": true
           },
           {
-            "text": "Dilation of the endoplasmic reticulum with ribosome detachment on electron microscopy",
+            "text": "Hepatocyte hydropic swelling with expanded, pale cytoplasm and cellular enlargement (ballooning degeneration)",
+            "correct": true
+          },
+          {
+            "text": "Intracellular accumulation of macrovesicular and microvesicular lipid vacuoles within hepatocytes",
             "correct": true
           },
           {
@@ -26,18 +34,10 @@
           {
             "text": "Extensive nuclear karyorrhexis, chromatin disintegration, and plasma membrane lysis",
             "correct": false
-          },
-          {
-            "text": "Intracellular accumulation of macrovesicular and microvesicular lipid vacuoles within hepatocytes",
-            "correct": true
-          },
-          {
-            "text": "Hepatocyte hydropic swelling with expanded, pale cytoplasm and cellular enlargement (ballooning degeneration)",
-            "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "Reversible cellular injury is characterized by: (Option 6) Hydropic swelling—cellular volume expansion caused by ATP depletion and failure of the energy-dependent Na+/K+-ATPase exchange pump, causing intracellular sodium and water accumulation; (Option 5) Intracellular accumulations—in this case, hepatic steatosis (triglyceride accumulation) resulting from alcohol-induced impairment of mitochondrial lipid metabolism; and (Option 2) Ultrastructural changes including dilated endoplasmic reticulum, detachment/disaggregation of ribosomes, and mitochondrial swelling. Crucially, the cell's plasma membrane and nuclear structure remain intact. In contrast, nuclear dissolution (karyorrhexis, karyolysis) and membrane lysis indicate irreversible necrotic cell death. Saponified chalky white deposits are specific to fat necrosis (such as in acute pancreatitis)."
+        "explanation": "Reversible cellular injury is characterized by: (Option 3) Hydropic swelling—cellular volume expansion caused by ATP depletion and failure of the energy-dependent Na+/K+-ATPase exchange pump, causing intracellular sodium and water accumulation; (Option 4) Intracellular accumulations—in this case, hepatic steatosis (triglyceride accumulation) resulting from alcohol-induced impairment of mitochondrial lipid metabolism; and (Option 1) Ultrastructural changes including dilated endoplasmic reticulum, detachment/disaggregation of ribosomes, and mitochondrial swelling. Crucially, the cell's plasma membrane and nuclear structure remain intact. In contrast, nuclear dissolution (karyorrhexis, karyolysis) and membrane lysis indicate irreversible necrotic cell death. Saponified chalky white deposits are specific to fat necrosis (such as in acute pancreatitis)."
       },
       "leftContent": {
         "tabs": [
@@ -139,11 +139,11 @@
                   "correct": true
                 },
                 {
-                  "text": "glycogen stores",
+                  "text": "intracellular calcium",
                   "correct": false
                 },
                 {
-                  "text": "intracellular calcium",
+                  "text": "glycogen stores",
                   "correct": false
                 }
               ],
@@ -156,11 +156,11 @@
                   "correct": true
                 },
                 {
-                  "text": "calcium efflux channel",
+                  "text": "aquaporin water channel",
                   "correct": false
                 },
                 {
-                  "text": "aquaporin water channel",
+                  "text": "calcium efflux channel",
                   "correct": false
                 }
               ],
@@ -173,11 +173,11 @@
                   "correct": true
                 },
                 {
-                  "text": "insoluble coal dust (anthracosis)",
+                  "text": "tau protein tangles",
                   "correct": false
                 },
                 {
-                  "text": "tau protein tangles",
+                  "text": "insoluble coal dust (anthracosis)",
                   "correct": false
                 }
               ],
@@ -186,15 +186,15 @@
             {
               "options": [
                 {
+                  "text": "malignant neoplastic",
+                  "correct": false
+                },
+                {
                   "text": "reversible",
                   "correct": true
                 },
                 {
                   "text": "irreversible (necrotic)",
-                  "correct": false
-                },
-                {
-                  "text": "malignant neoplastic",
                   "correct": false
                 }
               ],
@@ -238,6 +238,10 @@
             "correct": true
           },
           {
+            "text": "Monitor serial liver enzymes (AST, ALT), total bilirubin, and coagulation studies (INR/PT) to assess hepatocellular recovery",
+            "correct": true
+          },
+          {
             "text": "Administer prescribed intravenous thiamine (vitamin B1) and high-potency multivitamins before initiating intravenous dextrose infusions",
             "correct": true
           },
@@ -246,20 +250,16 @@
             "correct": false
           },
           {
-            "text": "Implement a standardized alcohol withdrawal protocol with frequent monitoring of withdrawal symptoms and vital signs",
-            "correct": true
-          },
-          {
-            "text": "Monitor serial liver enzymes (AST, ALT), total bilirubin, and coagulation studies (INR/PT) to assess hepatocellular recovery",
-            "correct": true
-          },
-          {
             "text": "Prepare the client for an urgent surgical wedge resection of the enlarged liver lobes",
             "correct": false
+          },
+          {
+            "text": "Implement a standardized alcohol withdrawal protocol with frequent monitoring of withdrawal symptoms and vital signs",
+            "correct": true
           }
         ],
         "preamble": "The nurse develops the client's nursing plan of care focused on cellular recovery, nutritional replenishment, and safe detoxification.",
-        "explanation": "Nursing management of reversible toxic and nutritional cell injury centers on removing the injurious agent, restoring metabolic substrates, and monitoring for complications: (Option 4) Protocol-driven withdrawal monitoring detects early autonomic hyperactivity and prevents withdrawal delirium; (Option 2) Administering prescribed IV thiamine prior to glucose prevents acute Wernicke encephalopathy and provides essential coenzymes for aerobic ATP generation; (Option 1) Collaborating on nutritional repletion supplies amino acids essential for protein synthesis (such as apolipoproteins needed to export accumulated lipids out of hepatocytes); (Option 5) Serial liver enzymes and coagulation profiles evaluate whether cell membranes are stabilizing and liver synthetic function is returning. In contrast, acetaminophen is metabolized by the liver into the hepatotoxic intermediate NAPQI; in the setting of glutathione depletion from chronic alcohol use, standard doses can precipitate massive, irreversible hepatic necrosis. Surgery is contraindicated for diffuse, reversible metabolic liver injury."
+        "explanation": "Nursing management of reversible toxic and nutritional cell injury centers on removing the injurious agent, restoring metabolic substrates, and monitoring for complications: (Option 6) Protocol-driven withdrawal monitoring detects early autonomic hyperactivity and prevents withdrawal delirium; (Option 3) Administering prescribed IV thiamine prior to glucose prevents acute Wernicke encephalopathy and provides essential coenzymes for aerobic ATP generation; (Option 1) Collaborating on nutritional repletion supplies amino acids essential for protein synthesis (such as apolipoproteins needed to export accumulated lipids out of hepatocytes); (Option 2) Serial liver enzymes and coagulation profiles evaluate whether cell membranes are stabilizing and liver synthetic function is returning. In contrast, acetaminophen is metabolized by the liver into the hepatotoxic intermediate NAPQI; in the setting of glutathione depletion from chronic alcohol use, standard doses can precipitate massive, irreversible hepatic necrosis. Surgery is contraindicated for diffuse, reversible metabolic liver injury."
       },
       "leftContent": {
         "tabs": [
@@ -368,22 +368,26 @@
             {
               "options": [
                 {
-                  "text": "acute hepatocellular membrane leakage and cellular stress",
-                  "correct": true
-                },
-                {
                   "text": "irreversible coagulative necrosis",
                   "correct": false
                 },
                 {
                   "text": "primary hepatocellular carcinoma",
                   "correct": false
+                },
+                {
+                  "text": "acute hepatocellular membrane leakage and cellular stress",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
+                {
+                  "text": "anaplastic",
+                  "correct": false
+                },
                 {
                   "text": "reversible",
                   "correct": true
@@ -391,10 +395,6 @@
                 {
                   "text": "irreversible",
                   "correct": false
-                },
-                {
-                  "text": "anaplastic",
-                  "correct": false
                 }
               ],
               "placeholder": "Select..."
@@ -402,16 +402,16 @@
             {
               "options": [
                 {
-                  "text": "plasma membrane Na+/K+-ATPase pump",
-                  "correct": true
+                  "text": "nuclear pore complex",
+                  "correct": false
                 },
                 {
                   "text": "lysosomal acid hydrolases",
                   "correct": false
                 },
                 {
-                  "text": "nuclear pore complex",
-                  "correct": false
+                  "text": "plasma membrane Na+/K+-ATPase pump",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -446,5 +446,5 @@
   ],
   "disorder": "Unit 2 (Cellular Basis of Disease)",
   "description": "46-year-old female with chronic alcohol abuse and malnutrition presenting with severe hepatic steatosis, hydropic swelling, and proteasome stress.",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

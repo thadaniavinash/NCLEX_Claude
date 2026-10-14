@@ -14,32 +14,32 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Unilateral dull, aching right-sided chest pain that intensifies with deep inspiration and coughing",
-            "correct": true
-          },
-          {
-            "text": "Unintended weight loss of 7.5 kg (16.5 lb) accompanied by persistent severe fatigue",
-            "correct": true
-          },
-          {
-            "text": "Progressive hoarseness of voice developing over the past 4 weeks without pharyngitis",
-            "correct": true
+            "text": "Acute rhinorrhea, sneezing, and itchy watery eyes triggered by exposure to cat dander",
+            "correct": false
           },
           {
             "text": "History of seasonal influenza immunization 6 months ago without respiratory complaints",
             "correct": false
           },
           {
+            "text": "Progressive hoarseness of voice developing over the past 4 weeks without pharyngitis",
+            "correct": true
+          },
+          {
+            "text": "Unilateral dull, aching right-sided chest pain that intensifies with deep inspiration and coughing",
+            "correct": true
+          },
+          {
             "text": "Persistent, nagging cough for 3 months with episodes of blood-streaked sputum (hemoptysis)",
             "correct": true
           },
           {
-            "text": "Acute rhinorrhea, sneezing, and itchy watery eyes triggered by exposure to cat dander",
-            "correct": false
+            "text": "Unintended weight loss of 7.5 kg (16.5 lb) accompanied by persistent severe fatigue",
+            "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "Danielle presents with quintessential CAUTION warning signs of respiratory malignancy: (Options 3 and 5) 'N' &mdash; Nagging cough or hoarseness (cough > 3 months, hoarseness indicative of mediastinal tumor involvement and recurrent laryngeal nerve compression); (Option 5) 'U' &mdash; Unusual bleeding (hemoptysis / blood-streaked sputum from tumor erosion into bronchial vasculature); (Option 1) Local invasive signs (pleuritic chest pain from pleural or chest wall invasion); and (Option 2) Systemic hallmarks of advanced neoplasia (substantial unintentional weight loss and cancer fatigue). Allergic rhinitis and previous immunization are unrelated."
+        "explanation": "Danielle presents with quintessential CAUTION warning signs of respiratory malignancy: (Options 3 and 5) 'N' &mdash; Nagging cough or hoarseness (cough > 3 months, hoarseness indicative of mediastinal tumor involvement and recurrent laryngeal nerve compression); (Option 5) 'U' &mdash; Unusual bleeding (hemoptysis / blood-streaked sputum from tumor erosion into bronchial vasculature); (Option 4) Local invasive signs (pleuritic chest pain from pleural or chest wall invasion); and (Option 6) Systemic hallmarks of advanced neoplasia (substantial unintentional weight loss and cancer fatigue). Allergic rhinitis and previous immunization are unrelated."
       },
       "leftContent": {
         "intro": "The nurse in an outpatient thoracic oncology clinic is admitting Danielle Moreau, a 54-year-old female presenting for comprehensive diagnostic evaluation of an abnormal chest CT revealing a right hilar lung mass.",
@@ -167,11 +167,11 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "vascular endothelial growth factor (VEGF)",
-                  "correct": true
+                  "text": "acetylcholinesterase",
+                  "correct": false
                 },
                 {
-                  "text": "acetylcholinesterase",
+                  "text": "anti-diuretic hormone (ADH)",
                   "correct": false
                 },
                 {
@@ -179,8 +179,8 @@
                   "correct": false
                 },
                 {
-                  "text": "anti-diuretic hormone (ADH)",
-                  "correct": false
+                  "text": "vascular endothelial growth factor (VEGF)",
+                  "correct": true
                 }
               ]
             },
@@ -240,28 +240,28 @@
             "correct": true
           },
           {
+            "text": "Advise the client that stage IV lung cancer with bone metastases is easily cured by a simple outpatient laser surgery",
+            "correct": false
+          },
+          {
             "text": "Perform comprehensive pain assessments, evaluating both visceral chest pain and somatic L3 bone pain, and administer prescribed analgesics on a scheduled around-the-clock basis",
             "correct": true
+          },
+          {
+            "text": "Encourage vigorous high-impact spinal twisting exercises and spinal manipulation to relieve the L3 bone pain",
+            "correct": false
           },
           {
             "text": "Provide supportive communication regarding palliative care goals, symptom management, and advance care planning",
             "correct": true
           },
           {
-            "text": "Advise the client that stage IV lung cancer with bone metastases is easily cured by a simple outpatient laser surgery",
-            "correct": false
-          },
-          {
             "text": "Monitor for neurological warning signs of spinal cord compression (lower extremity weakness, paresthesias, sensory level deficit, bowel/bladder dysfunction)",
             "correct": true
-          },
-          {
-            "text": "Encourage vigorous high-impact spinal twisting exercises and spinal manipulation to relieve the L3 bone pain",
-            "correct": false
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1600.",
-        "explanation": "Appropriate nursing interventions for stage IV metastatic cancer include: (Option 2) Scheduled, round-the-clock analgesic management for combined visceral and somatic/bone pain; (Option 5) Vigilant surveillance for spinal cord compression (an oncologic emergency caused by vertebral metastasis at L3 manifesting as progressive leg weakness, sensory loss, or incontinence); (Option 1) Education on bone-modifying agents to prevent pathological fractures, including dental precautions for osteonecrosis of the jaw; and (Option 3) Early palliative integration to address symptom burden, psychological coping, and advance directives. High-impact spinal manipulation over osteolytic vertebral metastases risks catastrophic pathological fracture and cord transection. Stage IV lung cancer is incurable, managed with palliative and life-prolonging systemic therapies."
+        "explanation": "Appropriate nursing interventions for stage IV metastatic cancer include: (Option 3) Scheduled, round-the-clock analgesic management for combined visceral and somatic/bone pain; (Option 6) Vigilant surveillance for spinal cord compression (an oncologic emergency caused by vertebral metastasis at L3 manifesting as progressive leg weakness, sensory loss, or incontinence); (Option 1) Education on bone-modifying agents to prevent pathological fractures, including dental precautions for osteonecrosis of the jaw; and (Option 5) Early palliative integration to address symptom burden, psychological coping, and advance directives. High-impact spinal manipulation over osteolytic vertebral metastases risks catastrophic pathological fracture and cord transection. Stage IV lung cancer is incurable, managed with palliative and life-prolonging systemic therapies."
       },
       "leftContent": {
         "intro": "The nurse collaborates with the medical oncologist, palliative care team, and radiation oncologist to formulate Danielle's symptom management and supportive care plan.",
@@ -423,6 +423,10 @@
               "placeholder": "Select...",
               "options": [
                 {
+                  "text": "feeling sleepy after taking her evening pain medication",
+                  "correct": false
+                },
+                {
                   "text": "new difficulty walking, leg heaviness, or loss of bowel or bladder control",
                   "correct": true
                 },
@@ -432,10 +436,6 @@
                 },
                 {
                   "text": "minor bruising around the IV port dressing site",
-                  "correct": false
-                },
-                {
-                  "text": "feeling sleepy after taking her evening pain medication",
                   "correct": false
                 }
               ]
@@ -465,5 +465,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

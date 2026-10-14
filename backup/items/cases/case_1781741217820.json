@@ -300,16 +300,16 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "6 hours",
-                  "correct": true
+                  "text": "24 hours",
+                  "correct": false
                 },
                 {
                   "text": "8 hours",
                   "correct": false
                 },
                 {
-                  "text": "24 hours",
-                  "correct": false
+                  "text": "6 hours",
+                  "correct": true
                 }
               ]
             }
@@ -412,5 +412,5 @@
   "disorder": "Unit 6 (Gastrointestinal Disorders)",
   "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study 1: a 41-year-old male client with a ruptured appendix, from recognize cues through evaluate outcomes.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

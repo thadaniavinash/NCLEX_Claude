@@ -12,11 +12,15 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Unilateral cleft lip extending into the left nasal floor and primary palate",
+            "text": "Microcephaly with head circumference below the 3rd percentile for gestational age",
             "correct": true
           },
           {
-            "text": "Smooth, flattened philtrum with a thin upper lip vermilion border",
+            "text": "Symmetric intrauterine growth restriction (birth weight, length, and head circumference all < 10th percentile)",
+            "correct": true
+          },
+          {
+            "text": "Short palpebral fissures (small eye openings) with low nasal bridge",
             "correct": true
           },
           {
@@ -28,24 +32,20 @@
             "correct": false
           },
           {
-            "text": "Short palpebral fissures (small eye openings) with low nasal bridge",
-            "correct": true
-          },
-          {
-            "text": "Microcephaly with head circumference below the 3rd percentile for gestational age",
-            "correct": true
-          },
-          {
-            "text": "Symmetric intrauterine growth restriction (birth weight, length, and head circumference all < 10th percentile)",
-            "correct": true
-          },
-          {
             "text": "Normal vigorous cry, robust active tone, and birth weight at the 50th percentile",
             "correct": false
+          },
+          {
+            "text": "Unilateral cleft lip extending into the left nasal floor and primary palate",
+            "correct": true
+          },
+          {
+            "text": "Smooth, flattened philtrum with a thin upper lip vermilion border",
+            "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (Options 2 and 5) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 6 and 7) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 1) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 3) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
+        "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (Options 8 and 3) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 1 and 2) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 7) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 4) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
       },
       "leftContent": {
         "tabs": [
@@ -202,15 +202,15 @@
               "placeholder": "Select...",
               "options": [
                 {
+                  "text": "excessive hyperactive gag reflex causing projectile bile vomiting",
+                  "correct": false
+                },
+                {
                   "text": "inadequate seal leading to air swallowing, fatigue, and milk aspiration",
                   "correct": true
                 },
                 {
                   "text": "metabolic ketoacidosis from carbohydrate malabsorption",
-                  "correct": false
-                },
-                {
-                  "text": "excessive hyperactive gag reflex causing projectile bile vomiting",
                   "correct": false
                 },
                 {
@@ -525,5 +525,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "Newborn infant presenting with intrauterine growth restriction, microcephaly, smooth philtrum, thin vermilion border, cleft lip, and sensorineural hearing impairment, prompting nursing analysis of teratogenic timing, TORCH infections, FAS, and multifactorial inheritance.",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

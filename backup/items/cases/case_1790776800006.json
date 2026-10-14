@@ -1,7 +1,7 @@
 {
   "id": "case_1790776800006",
   "unit": "Unit 2 (Cardiovascular Disorders)",
-  "draft": true,
+  "draft": false,
   "title": "University of Maryland - CS6",
   "topic": "Unit 2 (Cardiovascular Disorders)",
   "course": "NURS 1021",
@@ -47,7 +47,7 @@
           {
             "id": "nn_umd06",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
           },
           {
             "id": "dx_umd06",
@@ -137,7 +137,7 @@
           {
             "id": "nn_umd06",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
           },
           {
             "id": "dx_umd06",
@@ -181,12 +181,12 @@
             {
               "options": [
                 {
-                  "text": "blockage",
-                  "correct": true
-                },
-                {
                   "text": "rupture",
                   "correct": false
+                },
+                {
+                  "text": "blockage",
+                  "correct": true
                 },
                 {
                   "text": "spasm",
@@ -199,14 +199,14 @@
         },
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "",
-        "explanation": "The client&rsquo;s laboratory results and symptoms are congruent with a STEMI. A STEMI occurs when an unstable plaque in the wall of a coronary artery suddenly ruptures and a clot builds up over it. The clot totally blocks the artery, and the blood supply to that part of the heart is lost."
+        "explanation": "The client&rsquo;s laboratory results and symptoms are congruent with a STEMI. A STEMI occurs when an unstable plaque in the wall of a coronary artery suddenly ruptures and a clot builds up over it. The clot totally blocks the artery, and the blood supply to that part of the heart is lost. It is the plaque that ruptures, not the artery, so the infarction is caused by a blockage of the coronary artery; spasm causes variant (Prinzmetal) angina."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn_umd06",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
           },
           {
             "id": "dx_umd06",
@@ -287,7 +287,7 @@
           {
             "id": "nn_umd06",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
           },
           {
             "id": "dx_umd06",
@@ -314,7 +314,7 @@
             {
               "options": [
                 {
-                  "text": "enoxaparin 100 mg SC",
+                  "text": "enoxaparin 30 mg IV and 100 mg SC",
                   "correct": false
                 },
                 {
@@ -349,14 +349,14 @@
         },
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "The nurse has reviewed the Orders.",
-        "explanation": "Tenecteplase is a tissue plasminogen activator that dissolves the clot blocking the coronary artery. When fibrinolysis is the reperfusion strategy for a STEMI, the standard of care is to give it within 30 minutes of arrival (door-to-needle time)."
+        "explanation": "Tenecteplase is a tissue plasminogen activator that dissolves the clot blocking the coronary artery. When fibrinolysis is the reperfusion strategy for a STEMI, the standard of care is to give it within 30 minutes of arrival (door-to-needle time). Primary PCI within 90 minutes is preferred when a catheterization laboratory is available; this hospital has none, so the fibrinolytic is given within 30 minutes."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn_umd06",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
           },
           {
             "id": "dx_umd06",
@@ -371,7 +371,7 @@
           {
             "id": "ord_umd06",
             "title": "Orders",
-            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 100 mg SC<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 30 mg IV bolus, then 100 mg SC every 12 hours (1 mg/kg; maximum 100 mg for the first 2 doses)<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
           }
         ],
         "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
@@ -436,7 +436,7 @@
           {
             "id": "nn_umd06",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1025:</span><span class=\"nurse-note-text\">Orders received. Tenecteplase given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">VS: T 99° F (37.2° C); HR 120 beats/min; RR 22 breaths/min; BP 150/85 mm Hg; pulse oximetry reading 95% on 2 L/min via nasal cannula; pain 6/10.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1025:</span><span class=\"nurse-note-text\">Orders received. Tenecteplase given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">VS: T 99° F (37.2° C); HR 120 beats/min; RR 22 breaths/min; BP 150/85 mm Hg; pulse oximetry reading 95% on 2 L/min via nasal cannula; pain 6/10.</span></p>"
           },
           {
             "id": "dx_umd06",
@@ -451,7 +451,7 @@
           {
             "id": "ord_umd06",
             "title": "Orders",
-            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 100 mg SC<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 30 mg IV bolus, then 100 mg SC every 12 hours (1 mg/kg; maximum 100 mg for the first 2 doses)<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
           }
         ],
         "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
@@ -461,5 +461,9 @@
   "disorder": "Unit 2 (Cardiovascular Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Kadriyya Clark, Community College of Baltimore County. Chest pain (MI): a 60-year-old client with an anterior STEMI; the nurse interprets the ECG and biomarkers, gives fibrinolytic therapy, and evaluates the response.",
   "availability": "all",
-  "updatedAt": "2026-10-14T18:44:52.899Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nRoom-air SpO₂ changed from 93% to 88%, so starting oxygen fits current ACS guidelines (oxygen when SpO₂ < 90%).\nEnoxaparin written as the fibrinolysis regimen (30 mg IV bolus, then 1 mg/kg SC, maximum 100 mg); drop-down choice updated.\nAdded that the hospital has no catheterization lab, which explains fibrinolysis within 30 minutes.\nScreen 3 key \"blockage\" kept (the source had no key); rationale now explains plaque rupture vs blockage. Please confirm.\nThe CS6 bow-tie (stand-alone, still hidden) still keys oxygen and aspirin wording; not changed.",
+    "flaggedAt": "2026-10-14"
+  }
 }

@@ -12,7 +12,19 @@
         "type": "select_all",
         "options": [
           {
+            "text": "H. pylori +",
+            "correct": true
+          },
+          {
             "text": "Worsening epigastric pain",
+            "correct": true
+          },
+          {
+            "text": "Has depression",
+            "correct": false
+          },
+          {
+            "text": "Lives in a car",
             "correct": true
           },
           {
@@ -24,20 +36,8 @@
             "correct": false
           },
           {
-            "text": "Has depression",
-            "correct": false
-          },
-          {
-            "text": "Lives in a car",
-            "correct": true
-          },
-          {
             "text": "SpO2 95% on RA",
             "correct": false
-          },
-          {
-            "text": "H. pylori +",
-            "correct": true
           }
         ],
         "preamble": "The nurse reviews the nurses’ note for a 54-year-old client who was seen in the community health clinic.",
@@ -320,8 +320,16 @@
         "limit": 5,
         "options": [
           {
-            "text": "Urinary output",
+            "text": "Pain intensity",
             "correct": true
+          },
+          {
+            "text": "Hematemesis",
+            "correct": true
+          },
+          {
+            "text": "Finger-stick blood glucose",
+            "correct": false
           },
           {
             "text": "Oxygen saturation",
@@ -336,16 +344,8 @@
             "correct": true
           },
           {
-            "text": "Hematemesis",
+            "text": "Urinary output",
             "correct": true
-          },
-          {
-            "text": "Pain intensity",
-            "correct": true
-          },
-          {
-            "text": "Finger-stick blood glucose",
-            "correct": false
           }
         ],
         "preamble": "The client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and results are reported.",
@@ -454,5 +454,5 @@
   "disorder": "Unit 6 (Gastrointestinal Disorders)",
   "description": "A 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease that progresses to a GI bleed and hypovolemia, from a community health clinic visit through ED stabilization and transfer to the medical unit.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

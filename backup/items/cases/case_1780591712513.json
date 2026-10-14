@@ -16,6 +16,18 @@
             "correct": true
           },
           {
+            "text": "Chest tightness",
+            "correct": true
+          },
+          {
+            "text": "Tenderness of chest wall",
+            "correct": false
+          },
+          {
+            "text": "Respiratory rate",
+            "correct": true
+          },
+          {
             "text": "Audible and expiratory wheezing",
             "correct": true
           },
@@ -24,27 +36,15 @@
             "correct": false
           },
           {
-            "text": "Respiratory rate",
-            "correct": true
-          },
-          {
             "text": "Speaks only a few words between breaths",
             "correct": true
           },
           {
-            "text": "Shortness of breath",
-            "correct": true
-          },
-          {
-            "text": "Tenderness of chest wall",
-            "correct": false
-          },
-          {
-            "text": "Chest tightness",
-            "correct": true
-          },
-          {
             "text": "Tripod position",
+            "correct": true
+          },
+          {
+            "text": "Shortness of breath",
             "correct": true
           }
         ],
@@ -266,6 +266,14 @@
             {
               "options": [
                 {
+                  "text": "Orthopnea",
+                  "correct": false
+                },
+                {
+                  "text": "Fatigue",
+                  "correct": false
+                },
+                {
                   "text": "sleep apnea",
                   "correct": true
                 },
@@ -279,14 +287,6 @@
                 },
                 {
                   "text": "Expiratory wheezing",
-                  "correct": false
-                },
-                {
-                  "text": "Orthopnea",
-                  "correct": false
-                },
-                {
-                  "text": "Fatigue",
                   "correct": false
                 }
               ],
@@ -356,32 +356,32 @@
             "correct": true
           },
           {
-            "text": "Administer albuterol nebulizer treatment every 4 hours as needed",
-            "correct": true
-          },
-          {
             "text": "Place the client in supine position",
             "correct": false
+          },
+          {
+            "text": "Administer albuterol nebulizer treatment every 4 hours as needed",
+            "correct": true
           },
           {
             "text": "Administer low-dose aspirin mg by mouth once a day",
             "correct": false
           },
           {
+            "text": "Administer solumedrol mg IV Stat once",
+            "correct": true
+          },
+          {
             "text": "Administer Ibuprofen by mouth every 6 hours as needed for pain",
+            "correct": false
+          },
+          {
+            "text": "Offer oral fluids by mouth",
             "correct": false
           },
           {
             "text": "Raise the head of the bed",
             "correct": true
-          },
-          {
-            "text": "Administer solumedrol mg IV Stat once",
-            "correct": true
-          },
-          {
-            "text": "Offer oral fluids by mouth",
-            "correct": false
           }
         ],
         "preamble": "The client is diagnosed with onset acute asthma.",
@@ -539,15 +539,15 @@
             {
               "options": [
                 {
+                  "text": "unchanged",
+                  "correct": false
+                },
+                {
                   "text": "improving",
                   "correct": true
                 },
                 {
                   "text": "deteriorating",
-                  "correct": false
-                },
-                {
-                  "text": "unchanged",
                   "correct": false
                 }
               ],
@@ -556,16 +556,16 @@
             {
               "options": [
                 {
-                  "text": "prepare the client for discharge home",
-                  "correct": true
+                  "text": "continue to monitor the client's breathing",
+                  "correct": false
                 },
                 {
                   "text": "resume the breathing treatment",
                   "correct": false
                 },
                 {
-                  "text": "continue to monitor the client's breathing",
-                  "correct": false
+                  "text": "prepare the client for discharge home",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -636,5 +636,5 @@
   "disorder": "Unit 3 (Respiratory Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Authors: Angela Davis, RN, MS, CM/DN Morgan State University",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

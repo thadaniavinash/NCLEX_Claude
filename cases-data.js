@@ -2,7 +2,7 @@ window.NCLEX_CASES = [
   {
     "id": "case_1780489713691",
     "unit": "Unit 11 (Endocrine Disorders)",
-    "title": "Case Study 2",
+    "title": "NURS 1017 Unit 11 Case Study 1",
     "topic": "Unit 11 (Endocrine Disorders)",
     "course": "NURS 1017",
     "screens": [
@@ -70,7 +70,7 @@ window.NCLEX_CASES = [
           "matrix": {
             "rows": [
               {
-                "text": "Polyruria",
+                "text": "Polyuria",
                 "correctIndex": 0,
                 "correctIndices": [
                   0
@@ -179,12 +179,12 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "Vital signs",
-                    "correct": true
-                  },
-                  {
                     "text": "Abdominal pain",
                     "correct": false
+                  },
+                  {
+                    "text": "Vital signs",
+                    "correct": true
                   },
                   {
                     "text": "Date of last menstrual period",
@@ -363,7 +363,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "I should drink extra fluids to stay hydrated when I am experiencing an illness.",
+              "text": "I will reduce my carbohydrate intake if I experience high blood glucose levels during an illness.",
               "correct": true
             },
             {
@@ -375,12 +375,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "I will reduce my carbohydrate intake if I experience high blood glucose levels during an illness.",
+              "text": "I should drink extra fluids to stay hydrated when I am experiencing an illness.",
               "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "When a client with diabetes mellitus experiences an infection or another illness, the release of stress hormones can cause increased insulin resistance, which increases the blood glucose level and leads the body to break down fat for energy. Ketones are produced when fat is broken down, which can lead to diabetic ketoacidosis (DKA). Interventions for managing diabetes mellitus and preventing DKA during an illness include: Monitoring the urine for ketones if blood glucose levels are persistently elevated (&gt;13.3 mmol/L) to detect impending DKA (Option 1). Increasing fluid intake to help clear ketones from the system and prevent dehydration during illness. (Option 2) Checking blood glucose levels more frequently (e.g., every 4 hr) to monitor for hyperglycemia. (Option 4) Consuming beverages that contain glucose and replacing electrolytes if nausea and vomiting are present Notifying the health care provider of persistently elevated blood glucose levels, ketones in the urine, high fever, nausea, vomiting, or diarrhea. (Options 3 and 5) Clients with type 1 diabetes mellitus should not discontinue insulin use or reduce food intake during an illness. Unlike clients with type 2 diabetes mellitus, clients with type 1 diabetes produce no insulin, so not taking insulin will precipitate DKA. The client may require more insulin than usual due to the effects of stress hormones, and reduced food intake<br>contributes to the stress response. Educational objective: Infection or another illness in a client with diabetes mellitus can lead to diabetic ketoacidosis (DKA). During an illness, clients with diabetes mellitus should frequently monitor for elevated blood glucose levels and ketones in urine, increase fluid intake, ensure adequate intake of carbohydrates and electrolytes, and contact the health care provider if signs of DKA occur."
+          "explanation": "When a client with diabetes mellitus experiences an infection or another illness, the release of stress hormones can cause increased insulin resistance, which increases the blood glucose level and leads the body to break down fat for energy. Ketones are produced when fat is broken down, which can lead to diabetic ketoacidosis (DKA). Interventions for managing diabetes mellitus and preventing DKA during an illness include: Monitoring the urine for ketones if blood glucose levels are persistently elevated (&gt;13.3 mmol/L) to detect impending DKA (Option 1). Increasing fluid intake to help clear ketones from the system and prevent dehydration during illness. (Option 5) Checking blood glucose levels more frequently (e.g., every 4 hr) to monitor for hyperglycemia. (Option 4) Consuming beverages that contain glucose and replacing electrolytes if nausea and vomiting are present Notifying the health care provider of persistently elevated blood glucose levels, ketones in the urine, high fever, nausea, vomiting, or diarrhea. (Options 3 and 2) Clients with type 1 diabetes mellitus should not discontinue insulin use or reduce food intake during an illness. Unlike clients with type 2 diabetes mellitus, clients with type 1 diabetes produce no insulin, so not taking insulin will precipitate DKA. The client may require more insulin than usual due to the effects of stress hormones, and reduced food intake<br>contributes to the stress response. Educational objective: Infection or another illness in a client with diabetes mellitus can lead to diabetic ketoacidosis (DKA). During an illness, clients with diabetes mellitus should frequently monitor for elevated blood glucose levels and ketones in urine, increase fluid intake, ensure adequate intake of carbohydrates and electrolytes, and contact the health care provider if signs of DKA occur."
         },
         "leftContent": {
           "tabs": [
@@ -405,9 +405,13 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 11 (Endocrine Disorders)",
-    "description": "Endocrine Disorders",
+    "description": "A 20-year-old female client with weeks of polydipsia and polyuria who presents with vomiting and drowsiness in diabetic ketoacidosis, from the emergency department through fluid resuscitation and insulin therapy.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nTitle made up: \"NURS 1017 Unit 11 Case Study 1\" (was \"Case Study 2\"), with a new description. Please check both.\nScreen 2 row typo \"Polyruria\" corrected.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1780591712513",
@@ -427,6 +431,18 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
+              "text": "Chest tightness",
+              "correct": true
+            },
+            {
+              "text": "Tenderness of chest wall",
+              "correct": false
+            },
+            {
+              "text": "Respiratory rate",
+              "correct": true
+            },
+            {
               "text": "Audible and expiratory wheezing",
               "correct": true
             },
@@ -435,27 +451,15 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Respiratory rate",
-              "correct": true
-            },
-            {
               "text": "Speaks only a few words between breaths",
               "correct": true
             },
             {
-              "text": "Shortness of breath",
-              "correct": true
-            },
-            {
-              "text": "Tenderness of chest wall",
-              "correct": false
-            },
-            {
-              "text": "Chest tightness",
-              "correct": true
-            },
-            {
               "text": "Tripod position",
+              "correct": true
+            },
+            {
+              "text": "Shortness of breath",
               "correct": true
             }
           ],
@@ -677,6 +681,14 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
+                    "text": "Orthopnea",
+                    "correct": false
+                  },
+                  {
+                    "text": "Fatigue",
+                    "correct": false
+                  },
+                  {
                     "text": "sleep apnea",
                     "correct": true
                   },
@@ -690,14 +702,6 @@ window.NCLEX_CASES = [
                   },
                   {
                     "text": "Expiratory wheezing",
-                    "correct": false
-                  },
-                  {
-                    "text": "Orthopnea",
-                    "correct": false
-                  },
-                  {
-                    "text": "Fatigue",
                     "correct": false
                   }
                 ],
@@ -767,32 +771,32 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Administer albuterol nebulizer treatment every 4 hours as needed",
-              "correct": true
-            },
-            {
               "text": "Place the client in supine position",
               "correct": false
+            },
+            {
+              "text": "Administer albuterol nebulizer treatment every 4 hours as needed",
+              "correct": true
             },
             {
               "text": "Administer low-dose aspirin mg by mouth once a day",
               "correct": false
             },
             {
+              "text": "Administer solumedrol mg IV Stat once",
+              "correct": true
+            },
+            {
               "text": "Administer Ibuprofen by mouth every 6 hours as needed for pain",
+              "correct": false
+            },
+            {
+              "text": "Offer oral fluids by mouth",
               "correct": false
             },
             {
               "text": "Raise the head of the bed",
               "correct": true
-            },
-            {
-              "text": "Administer solumedrol mg IV Stat once",
-              "correct": true
-            },
-            {
-              "text": "Offer oral fluids by mouth",
-              "correct": false
             }
           ],
           "preamble": "The client is diagnosed with onset acute asthma.",
@@ -950,15 +954,15 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
+                    "text": "unchanged",
+                    "correct": false
+                  },
+                  {
                     "text": "improving",
                     "correct": true
                   },
                   {
                     "text": "deteriorating",
-                    "correct": false
-                  },
-                  {
-                    "text": "unchanged",
                     "correct": false
                   }
                 ],
@@ -967,16 +971,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "prepare the client for discharge home",
-                    "correct": true
+                    "text": "continue to monitor the client's breathing",
+                    "correct": false
                   },
                   {
                     "text": "resume the breathing treatment",
                     "correct": false
                   },
                   {
-                    "text": "continue to monitor the client's breathing",
-                    "correct": false
+                    "text": "prepare the client for discharge home",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -1047,7 +1051,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Authors: Angela Davis, RN, MS, CM/DN Morgan State University",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1781534070850",
@@ -1113,22 +1117,26 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "incubation period",
-                    "correct": true
-                  },
-                  {
                     "text": "remission",
                     "correct": false
                   },
                   {
                     "text": "convalescence",
                     "correct": false
+                  },
+                  {
+                    "text": "incubation period",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
+                  {
+                    "text": "morbidity",
+                    "correct": false
+                  },
                   {
                     "text": "incidence",
                     "correct": true
@@ -1136,20 +1144,12 @@ window.NCLEX_CASES = [
                   {
                     "text": "prevalence",
                     "correct": false
-                  },
-                  {
-                    "text": "morbidity",
-                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
-                  {
-                    "text": "prevalence",
-                    "correct": true
-                  },
                   {
                     "text": "incidence",
                     "correct": false
@@ -1157,6 +1157,10 @@ window.NCLEX_CASES = [
                   {
                     "text": "mortality",
                     "correct": false
+                  },
+                  {
+                    "text": "prevalence",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -1220,15 +1224,15 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
+              "text": "A final medical diagnosis can be made from the symptom pattern alone.",
+              "correct": false
+            },
+            {
               "text": "The event is a pandemic because more than one person is affected.",
               "correct": false
             },
             {
               "text": "The reports should be treated as unrelated because the exact cause is not yet known.",
-              "correct": false
-            },
-            {
-              "text": "A final medical diagnosis can be made from the symptom pattern alone.",
               "correct": false
             }
           ],
@@ -1345,10 +1349,6 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Use a consistent case log to record the onset of clinical manifestations, residence location, and shared exposures.",
-              "correct": true
-            },
-            {
               "text": "Communicate case trends to the designated infection-prevention/public health contact according to organizational policy.",
               "correct": true
             },
@@ -1357,15 +1357,19 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Announce a final cause of the illness before the investigation is complete.",
-              "correct": false
+              "text": "Advise symptomatic students to avoid preparing food for others and to seek assessment if symptoms persist or worsen.",
+              "correct": true
             },
             {
               "text": "Provide hand-hygiene and environmental-cleaning education to the residence community.",
               "correct": true
             },
             {
-              "text": "Advise symptomatic students to avoid preparing food for others and to seek assessment if symptoms persist or worsen.",
+              "text": "Announce a final cause of the illness before the investigation is complete.",
+              "correct": false
+            },
+            {
+              "text": "Use a consistent case log to record the onset of clinical manifestations, residence location, and shared exposures.",
               "correct": true
             }
           ],
@@ -1457,7 +1461,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 1 (Introduction to Pathophysiology)",
     "description": "A case study for formative review of NURS 1017 Unit 1",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1781741217820",
@@ -1761,16 +1765,16 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "6 hours",
-                    "correct": true
+                    "text": "24 hours",
+                    "correct": false
                   },
                   {
                     "text": "8 hours",
                     "correct": false
                   },
                   {
-                    "text": "24 hours",
-                    "correct": false
+                    "text": "6 hours",
+                    "correct": true
                   }
                 ]
               }
@@ -1873,887 +1877,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study 1: a 41-year-old male client with a ruptured appendix, from recognize cues through evaluate outcomes.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
-  },
-  {
-    "id": "case_1782149061171",
-    "unit": "Unit 6 (Gastrointestinal Disorders)",
-    "title": "NCSBN Case Study 2",
-    "topic": "Unit 6 (Gastrointestinal Disorders)",
-    "course": "NURS 1021",
-    "screens": [
-      {
-        "step": 1,
-        "question": {
-          "stem": "Which\tof\tthe\tfollowing\tassessment\tfindings\trequire\t<b>immediate</b> follow-up? <b>Select all that apply.</b>",
-          "type": "select_all",
-          "options": [
-            {
-              "text": "lung sounds",
-              "correct": true
-            },
-            {
-              "text": "shoulder pain",
-              "correct": true
-            },
-            {
-              "text": "laboratory results",
-              "correct": true
-            },
-            {
-              "text": "productive cough",
-              "correct": false
-            },
-            {
-              "text": "abdominal assessment findings",
-              "correct": true
-            },
-            {
-              "text": "pulse, respirations, and blood pressure",
-              "correct": true
-            },
-            {
-              "text": "temperature and pulse oximetry reading",
-              "correct": false
-            }
-          ],
-          "preamble": "",
-          "explanation": "Left-sided diminished breath sounds after rib/LUQ trauma may indicate hemothorax. Left shoulder pain after splenic trauma suggests referred pain from diaphragmatic irritation, and abdominal guarding/dullness suggest internal bleeding. Low hemoglobin/hematocrit with tachycardia and hypotension indicates possible hemorrhage; normal temperature and oxygen saturation are not the priority, and productive cough alone is less specific."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782149061171",
-              "title": "Nurses' Notes",
-              "content": "<b>Emergency Department</b><div><b>Day 1</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted\talong\tthe\tleft\ttorso\tand\tover\tthe\tleft\tupper\tquadrant\t(LUQ)\tof the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds noted in\tthe\tleft\tlung\tfields\ton\tauscultation;\tclient\thas\ta\tproductive\tcough. Electrocardiogram\t(ECG)\tshows\tnormal\tsinus\trhythm.</span></div>"
-            },
-            {
-              "id": "tab_1782149228557",
-              "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pulmonary</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in&nbsp;the lower left side of chest when taking a deep&nbsp;breath</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gastrointestinal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is&nbsp;occasionally nauseated</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Musculoskeletal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being&nbsp;struck by a mechanically pitched baseball in a&nbsp;<br>batting cage last week; reports intermittent pain&nbsp;in\tthe\tleft\tshoulder\trated\t6/10\ton\tthe\tNumerical&nbsp;<br>Rating\tScale\tand\tfeels\tlight-headed;\tsignificant&nbsp;bruising to the shoulder; history of an orthoscopic&nbsp;repair to the left shoulder for a torn rotator cuff&nbsp;last year</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">Psychosocial</td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">client has not felt well enough to attend baseball&nbsp;practice since the injury</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149370244",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>BP</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">90/50 mm Hg</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Pulse oximetry reading</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">98% on room air</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149482143",
-              "title": "Laboratory Result",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5–10\tx\t10<sup>9</sup>/L)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">19 x 10<sup>9</sup>/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male:\t140–180\tg/L<br>Female: 120–160\tg/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90 g/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male:\t42%–52% (0.42–0.52)<br>Female:\t37%–47% (0.37–0.47)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table><p><br></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t17-year-old\tmale\tclient."
-        }
-      },
-      {
-        "step": 2,
-        "question": {
-          "stem": "Which of the following issues is the client at risk of developing? <b>Select all that apply.</b>",
-          "type": "select_all",
-          "options": [
-            {
-              "text": "stroke",
-              "correct": false
-            },
-            {
-              "text": "hemothorax",
-              "correct": true
-            },
-            {
-              "text": "bowel perforation",
-              "correct": false
-            },
-            {
-              "text": "splenic laceration",
-              "correct": true
-            },
-            {
-              "text": "pulmonary embolism",
-              "correct": false
-            },
-            {
-              "text": "abdominal aortic aneurysm",
-              "correct": false
-            }
-          ],
-          "preamble": "",
-          "explanation": "Left lower rib/LUQ trauma, left shoulder pain, bruising, abdominal tenderness/dullness, hypotension, anemia, and decreased left breath sounds point to splenic injury with possible bleeding into the abdomen and chest. Stroke, bowel perforation, pulmonary embolism, and abdominal aortic aneurysm are not best supported by the mechanism and findings."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782149061171",
-              "title": "Nurses' Notes",
-              "content": "<b>Emergency Department</b><div><b>Day 1</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted\talong\tthe\tleft\ttorso\tand\tover\tthe\tleft\tupper\tquadrant\t(LUQ)\tof the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds noted in\tthe\tleft\tlung\tfields\ton\tauscultation;\tclient\thas\ta\tproductive\tcough. Electrocardiogram\t(ECG)\tshows\tnormal\tsinus\trhythm.</span></div>"
-            },
-            {
-              "id": "tab_1782149228557",
-              "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pulmonary</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in&nbsp;the lower left side of chest when taking a deep&nbsp;breath</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gastrointestinal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is&nbsp;occasionally nauseated</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Musculoskeletal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being&nbsp;struck by a mechanically pitched baseball in a&nbsp;<br>batting cage last week; reports intermittent pain&nbsp;in\tthe\tleft\tshoulder\trated\t6/10\ton\tthe\tNumerical&nbsp;<br>Rating\tScale\tand\tfeels\tlight-headed;\tsignificant&nbsp;bruising to the shoulder; history of an orthoscopic&nbsp;repair to the left shoulder for a torn rotator cuff&nbsp;last year</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">Psychosocial</td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">client has not felt well enough to attend baseball&nbsp;practice since the injury</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149370244",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>BP</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">90/50 mm Hg</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Pulse oximetry reading</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">98% on room air</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149482143",
-              "title": "Laboratory Result",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5–10\tx\t10<sup>9</sup>/L)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">19 x 10<sup>9</sup>/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male:\t140–180\tg/L<br>Female: 120–160\tg/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90 g/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male:\t42%–52% (0.42–0.52)<br>Female:\t37%–47% (0.37–0.47)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table><p><br></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t17-year-old\tmale\tclient."
-        }
-      },
-      {
-        "step": 3,
-        "question": {
-          "stem": "Complete the following sentence by choosing from the lists of options.",
-          "type": "dropdown_cloze",
-          "cloze": {
-            "text": "The nurse should <strong>first</strong> address the client’s[[drop0]].",
-            "dropdowns": [
-              {
-                "options": [
-                  {
-                    "text": "abdominal pain",
-                    "correct": false
-                  },
-                  {
-                    "text": "respiratory status",
-                    "correct": false
-                  },
-                  {
-                    "text": "laboratory results",
-                    "correct": true
-                  }
-                ],
-                "placeholder": "Select..."
-              }
-            ]
-          },
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "",
-          "explanation": "The most urgent problem is evidence of internal hemorrhage: hemoglobin 9 g/dL and hematocrit 27% with hypotension and tachycardia. Although respiratory status and pain require monitoring, the abnormal blood counts identify a potentially life-threatening blood loss problem that must be addressed first."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782149061171",
-              "title": "Nurses' Notes",
-              "content": "<b>Emergency Department</b><div><b>Day 1</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted\talong\tthe\tleft\ttorso\tand\tover\tthe\tleft\tupper\tquadrant\t(LUQ)\tof the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds noted in\tthe\tleft\tlung\tfields\ton\tauscultation;\tclient\thas\ta\tproductive\tcough. Electrocardiogram\t(ECG)\tshows\tnormal\tsinus\trhythm.</span></div>"
-            },
-            {
-              "id": "tab_1782149228557",
-              "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pulmonary</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in&nbsp;the lower left side of chest when taking a deep&nbsp;breath</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gastrointestinal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is&nbsp;occasionally nauseated</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Musculoskeletal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being&nbsp;struck by a mechanically pitched baseball in a&nbsp;<br>batting cage last week; reports intermittent pain&nbsp;in\tthe\tleft\tshoulder\trated\t6/10\ton\tthe\tNumerical&nbsp;<br>Rating\tScale\tand\tfeels\tlight-headed;\tsignificant&nbsp;bruising to the shoulder; history of an orthoscopic&nbsp;repair to the left shoulder for a torn rotator cuff&nbsp;last year</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">Psychosocial</td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">client has not felt well enough to attend baseball&nbsp;practice since the injury</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149370244",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>BP</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">90/50 mm Hg</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Pulse oximetry reading</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">98% on room air</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149482143",
-              "title": "Laboratory Result",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5–10\tx\t10<sup>9</sup>/L)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">19 x 10<sup>9</sup>/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male:\t140–180\tg/L<br>Female: 120–160\tg/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90 g/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male:\t42%–52% (0.42–0.52)<br>Female:\t37%–47% (0.37–0.47)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table><p><br></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t17-year-old\tmale\tclient."
-        }
-      },
-      {
-        "step": 4,
-        "question": {
-          "stem": "For each potential order, click to specify whether the potential order is indicated or not indicated for the client.",
-          "type": "matrix_mc",
-          "matrix": {
-            "rows": [
-              {
-                "text": "intravenous fluids",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "serum type and screen",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "chest percussion therapy",
-                "correctIndex": 1,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "insertion of a nasogastric tube",
-                "correctIndex": 1,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "administration of prescribed pain medications",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              }
-            ],
-            "columns": [
-              "Indicated",
-              "Not Indicated"
-            ],
-            "firstColumnHeader": "Potential Orders"
-          },
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "The nurse has reviewed the Nurses’ Notes from 1000.",
-          "explanation": "Splenic laceration and hemothorax create risk for hypovolemia and transfusion need, so IV fluids and type/screen are indicated. Pain should be treated while continuing assessment. Chest percussion could worsen trauma-related bleeding/respiratory compromise, and an NG tube is not indicated for isolated splenic laceration/hemothorax."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782149061171",
-              "title": "Nurses' Notes",
-              "content": "<b>Emergency Department</b><div><b>Day 1</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted\talong\tthe\tleft\ttorso\tand\tover\tthe\tleft\tupper\tquadrant\t(LUQ)\tof the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds noted in\tthe\tleft\tlung\tfields\ton\tauscultation;\tclient\thas\ta\tproductive\tcough. Electrocardiogram\t(ECG)\tshows\tnormal\tsinus\trhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div>"
-            },
-            {
-              "id": "tab_1782149228557",
-              "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pulmonary</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in&nbsp;the lower left side of chest when taking a deep&nbsp;breath</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gastrointestinal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is&nbsp;occasionally nauseated</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Musculoskeletal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being&nbsp;struck by a mechanically pitched baseball in a&nbsp;<br>batting cage last week; reports intermittent pain&nbsp;in\tthe\tleft\tshoulder\trated\t6/10\ton\tthe\tNumerical&nbsp;<br>Rating\tScale\tand\tfeels\tlight-headed;\tsignificant&nbsp;bruising to the shoulder; history of an orthoscopic&nbsp;repair to the left shoulder for a torn rotator cuff&nbsp;last year</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">Psychosocial</td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">client has not felt well enough to attend baseball&nbsp;practice since the injury</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149370244",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>BP</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">90/50 mm Hg</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Pulse oximetry reading</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">98% on room air</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149482143",
-              "title": "Laboratory Result",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5–10\tx\t10<sup>9</sup>/L)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">19 x 10<sup>9</sup>/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male:\t140–180\tg/L<br>Female: 120–160\tg/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90 g/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male:\t42%–52% (0.42–0.52)<br>Female:\t37%–47% (0.37–0.47)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table><p><br></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t17-year-old\tmale\tclient."
-        }
-      },
-      {
-        "step": 5,
-        "question": {
-          "stem": "Which of the following actions should the nurse take? <b>Select all that apply.</b>",
-          "type": "select_all",
-          "options": [
-            {
-              "text": "Mark the surgical site.",
-              "correct": false
-            },
-            {
-              "text": "Provide the client with ice chips",
-              "correct": false
-            },
-            {
-              "text": "Perform a medication reconciliation.",
-              "correct": true
-            },
-            {
-              "text": "Obtain consent for surgery from the client.",
-              "correct": false
-            },
-            {
-              "text": "Insert a peripheral venous access device (VAD).",
-              "correct": true
-            },
-            {
-              "text": "Inform the client about the risks and benefits with surgery and anesthesia.",
-              "correct": false
-            },
-            {
-              "text": "Ask the client's parents to wait in the waiting room while the plan of care is discussed with the client.",
-              "correct": false
-            },
-            {
-              "text": "Assess the client's previous experience with surgery and anesthesia.",
-              "correct": true
-            }
-          ],
-          "preamble": "The\tnurse\thas\treviewed\tthe\tNurses’\tNotes\tfrom\t1030.",
-          "explanation": "Before urgent surgery, the nurse can complete medication reconciliation, ensure IV access, and assess anesthesia/surgical history. The surgeon/provider explains risks and benefits and marks the operative site according to facility policy; a minor’s consent generally involves the parent/guardian unless emergency exceptions apply. Ice chips are inappropriate because the client should remain NPO."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782149061171",
-              "title": "Nurses' Notes",
-              "content": "<b>Emergency Department</b><div><b>Day 1</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted\talong\tthe\tleft\ttorso\tand\tover\tthe\tleft\tupper\tquadrant\t(LUQ)\tof the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds noted in\tthe\tleft\tlung\tfields\ton\tauscultation;\tclient\thas\ta\tproductive\tcough. Electrocardiogram\t(ECG)\tshows\tnormal\tsinus\trhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Client referred for immediate surgery.</span></div>"
-            },
-            {
-              "id": "tab_1782149228557",
-              "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pulmonary</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in&nbsp;the lower left side of chest when taking a deep&nbsp;breath</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gastrointestinal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is&nbsp;occasionally nauseated</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Musculoskeletal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being&nbsp;struck by a mechanically pitched baseball in a&nbsp;<br>batting cage last week; reports intermittent pain&nbsp;in\tthe\tleft\tshoulder\trated\t6/10\ton\tthe\tNumerical&nbsp;<br>Rating\tScale\tand\tfeels\tlight-headed;\tsignificant&nbsp;bruising to the shoulder; history of an orthoscopic&nbsp;repair to the left shoulder for a torn rotator cuff&nbsp;last year</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">Psychosocial</td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">client has not felt well enough to attend baseball&nbsp;practice since the injury</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149370244",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>BP</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">90/50 mm Hg</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Pulse oximetry reading</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">98% on room air</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149482143",
-              "title": "Laboratory Result",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5–10\tx\t10<sup>9</sup>/L)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">19 x 10<sup>9</sup>/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male:\t140–180\tg/L<br>Female: 120–160\tg/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90 g/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male:\t42%–52% (0.42–0.52)<br>Female:\t37%–47% (0.37–0.47)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table><p><br></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t17-year-old\tmale\tclient."
-        }
-      },
-      {
-        "step": 6,
-        "question": {
-          "stem": "Click\tto\thighlight\tthe\tfindings\tbelow\tthat\tindicate\ta\tworsening\tof the client’s status.",
-          "type": "highlight_2",
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "The\tnurse\thas\treviewed\tthe\tProgress\tNotes\tfrom\t0800.",
-          "explanation": "Refusing incentive spirometry after splenectomy/chest trauma increases risk for atelectasis and pneumonia. Maximal PCA use with persistent nausea/vomiting suggests uncontrolled pain, opioid adverse effects, or postoperative ileus and requires follow-up. Ambulation, clear breath sounds, tidaling with inspiration, adequate urine output, and a clean/dry incision are expected findings.",
-          "highlightTabs": [
-            {
-              "id": "ht_1782155894212",
-              "title": "Progress Notes",
-              "content": "Day 3<div>0800:Client\tis\tpostoperative\tday\t3\tafter\ta\tsplenectomy\tand\tis {able\tto\tambulate\tin\tthe\tcorridor\t3\tor\t4\ttimes\tdaily with minimal assistance}. Client has clear breath sounds a left-sided chest tube in place attached to a closed-chest drainage system. {Tidaling of the water chamber noted on deep inspiration}. {Client refuses to use the incentive&nbsp; spirometer, stating it causes left-sided chest pain|correct}. {Client is\tusing\tprescribed\tpatient-controlled\tanalgesia\t(PCA)\tdevice maximally every hour|correct} and {continues to have intermittent nausea and vomiting|correct}. Adequate urine output. Abdominal surgical incision site with dressing is clean, dry, and intact with no erythema, edema, or drainage.</div>"
-            }
-          ],
-          "maxCorrectSelections": 3
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782149061171",
-              "title": "Nurses' Notes",
-              "content": "<b>Emergency Department</b><div><b>Day 1</b></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Client appears pale and slightly diaphoretic. Large amount of bruising noted\talong\tthe\tleft\ttorso\tand\tover\tthe\tleft\tupper\tquadrant\t(LUQ)\tof the abdomen. Tenderness, guarding, and dullness to percussion noted on abdominal assessment. Slightly diminished breath sounds noted in\tthe\tleft\tlung\tfields\ton\tauscultation;\tclient\thas\ta\tproductive\tcough. Electrocardiogram\t(ECG)\tshows\tnormal\tsinus\trhythm.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client diagnosed with a splenic laceration and a left-sided hemothorax per the physician.</span></div><div class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Client referred for immediate surgery.</span></div>"
-            },
-            {
-              "id": "tab_1782149228557",
-              "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pulmonary</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">denies shortness of breath; reports discomfort in&nbsp;the lower left side of chest when taking a deep&nbsp;breath</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gastrointestinal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">reports feeling abdominal fullness and is&nbsp;occasionally nauseated</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Musculoskeletal</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">sustained an injury to the left rib cage after being&nbsp;struck by a mechanically pitched baseball in a&nbsp;<br>batting cage last week; reports intermittent pain&nbsp;in\tthe\tleft\tshoulder\trated\t6/10\ton\tthe\tNumerical&nbsp;<br>Rating\tScale\tand\tfeels\tlight-headed;\tsignificant&nbsp;bruising to the shoulder; history of an orthoscopic&nbsp;repair to the left shoulder for a torn rotator cuff&nbsp;last year</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">Psychosocial</td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">client has not felt well enough to attend baseball&nbsp;practice since the injury</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149370244",
-              "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>BP</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">90/50 mm Hg</td></tr><tr><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\"><b>Pulse oximetry reading</b></td><td placeholder=\"Cell\" style=\"border: 1px solid rgb(204, 216, 224); padding: 8px; min-width: 80px; background: white; color: rgb(30, 41, 59);\">98% on room air</td></tr></tbody></table><p><br></p>"
-            },
-            {
-              "id": "tab_1782149482143",
-              "title": "Laboratory Result",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th placeholder=\"Header 1\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th placeholder=\"Header 2\" style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Emergency Department<br>Day 1<br>0900</th></tr></thead><tbody><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">white blood cell (WBC) count<br>Adult/child &gt; 2 years: 5–10\tx\t10<sup>9</sup>/L)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">19 x 10<sup>9</sup>/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hemoglobin (Hgb)<br>Male:\t140–180\tg/L<br>Female: 120–160\tg/L</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90 g/L</td></tr><tr><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">hematocrit (HCT)<br>Male:\t42%–52% (0.42–0.52)<br>Female:\t37%–47% (0.37–0.47)</td><td placeholder=\"Cell\" style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27% (0.27)</td></tr></tbody></table><p><br></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t17-year-old\tmale\tclient."
-        }
-      }
-    ],
-    "disorder": "Unit 6 (Gastrointestinal Disorders)",
-    "description": "",
-    "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z",
-    "draft": true
-  },
-  {
-    "id": "case_1782159166328",
-    "unit": "Unit 3 (Respiratory Disorders)",
-    "title": "New Case Study",
-    "topic": "Unit 3 (Respiratory Disorders)",
-    "course": "NURS 1021",
-    "screens": [
-      {
-        "step": 1,
-        "question": {
-          "stem": "Select the 4 client findings that require <b>immediate</b> follow-up.",
-          "type": "select_n",
-          "limit": 4,
-          "options": [
-            {
-              "text": "vital signs",
-              "correct": true
-            },
-            {
-              "text": "lung sounds",
-              "correct": true
-            },
-            {
-              "text": "capillary refill",
-              "correct": true
-            },
-            {
-              "text": "client orientation",
-              "correct": false
-            },
-            {
-              "text": "radial pulse characteristics",
-              "correct": false
-            },
-            {
-              "text": "characteristics of the cough",
-              "correct": true
-            }
-          ],
-          "preamble": "<br>",
-          "explanation": "Fever, tachypnea, borderline oxygenation on supplemental oxygen, coarse crackles, delayed capillary refill, and green sputum suggest pneumonia with impaired oxygenation and possible sepsis. Current orientation is normal, and the irregular pulse is known in the context of recent atrial fibrillation history, although it still requires monitoring."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782159166328",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client\twas\tbrought\tto\tthe\tED\tby\tthe\tclient’s\tadult\tchild\tdue\tto\tincreased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was\thospitalized\tfor\tissues\twith\tatrial\tfibrillation\t6\tdays\tago.\tHistory\tof hypertension.\tVital\tsigns:\tT\t101.1° F\t(38.4° C),\tP\t92 beats/min,\tRR\t22 breaths/min,\tBP\t152/86 mm Hg, pulse\toximetry\treading\t94%\ton\toxygen\tat\t2\tL/min\tvia\tnasal\tcannula. On\tassessment,\tthe\tclient’s\tbreathing\tappears slightly\tlabored,\tand\tcoarse crackles\t(rales)\tare\tnoted\tin\tthe\tbilateral\tlung\tbases.\tSkin\tslightly\tcool\tto touch\tand\tpale\tpink\tin\ttone;\tpulses\t3+\tand\tirregular.\tCapillary\trefill\tis\t3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous\taccess\tdevice\t(VAD)\tplaced\tin\tright\tforearm.</span></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t78-year-old\tfemale\tclient."
-        }
-      },
-      {
-        "step": 2,
-        "question": {
-          "stem": "For each client finding below, click to specify if the finding is consistent with the disease process of pneumonia, a urinary tract infection (UTI), or influenza . Each finding may support more than 1 disease process.",
-          "type": "matrix_mr",
-          "matrix": {
-            "rows": [
-              {
-                "text": "fever",
-                "correctIndices": [
-                  0,
-                  2,
-                  1
-                ]
-              },
-              {
-                "text": "confusion",
-                "correctIndices": [
-                  0,
-                  1
-                ]
-              },
-              {
-                "text": "body soreness",
-                "correctIndex": 0,
-                "correctIndices": [
-                  2
-                ]
-              },
-              {
-                "text": "cough and sputum",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0,
-                  2
-                ]
-              },
-              {
-                "text": "shortness of breath",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              }
-            ],
-            "columns": [
-              "Pneumonia",
-              "Urinary Tract Infection",
-              "Influenza"
-            ],
-            "firstColumnHeader": "Client Findings"
-          },
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "",
-          "explanation": "Fever is common to respiratory, urinary, and viral infections. Confusion in an older adult may occur with UTI or hypoxia/sepsis from pneumonia. Body aches are classic for influenza, while productive cough and shortness of breath most strongly support pneumonia, with cough also possible in influenza."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782159166328",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client\twas\tbrought\tto\tthe\tED\tby\tthe\tclient’s\tadult\tchild\tdue\tto\tincreased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was\thospitalized\tfor\tissues\twith\tatrial\tfibrillation\t6\tdays\tago.\tHistory\tof hypertension.\tVital\tsigns:\tT\t101.1° F\t(38.4° C),\tP\t92 beats/min,\tRR\t22 breaths/min,\tBP\t152/86 mm Hg, pulse\toximetry\treading\t94%\ton\toxygen\tat\t2\tL/min\tvia\tnasal\tcannula. On\tassessment,\tthe\tclient’s\tbreathing\tappears slightly\tlabored,\tand\tcoarse crackles\t(rales)\tare\tnoted\tin\tthe\tbilateral\tlung\tbases.\tSkin\tslightly\tcool\tto touch\tand\tpale\tpink\tin\ttone;\tpulses\t3+\tand\tirregular.\tCapillary\trefill\tis\t3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous\taccess\tdevice\t(VAD)\tplaced\tin\tright\tforearm.</span></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t78-year-old\tfemale\tclient."
-        }
-      },
-      {
-        "step": 3,
-        "question": {
-          "stem": "Complete the following sentence by choosing from the list of options.",
-          "type": "dropdown_cloze",
-          "cloze": {
-            "text": "The client is at <strong>highest</strong> risk for developing[[drop0]].",
-            "dropdowns": [
-              {
-                "options": [
-                  {
-                    "text": "stroke",
-                    "correct": false
-                  },
-                  {
-                    "text": "hypoxia",
-                    "correct": true
-                  },
-                  {
-                    "text": "dysrhythmias",
-                    "correct": false
-                  },
-                  {
-                    "text": "a pulmonary embolism",
-                    "correct": false
-                  }
-                ],
-                "placeholder": "Select..."
-              }
-            ]
-          },
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "",
-          "explanation": "The client has worsening respiratory symptoms, coarse crackles, tachypnea, decreased oxygen saturation despite supplemental oxygen, and declining level of consciousness. These findings make hypoxia the most immediate risk, more urgent than stroke, dysrhythmias, or pulmonary embolism based on the available data."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782159166328",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client\twas\tbrought\tto\tthe\tED\tby\tthe\tclient’s\tadult\tchild\tdue\tto\tincreased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was\thospitalized\tfor\tissues\twith\tatrial\tfibrillation\t6\tdays\tago.\tHistory\tof hypertension.\tVital\tsigns:\tT\t101.1° F\t(38.4° C),\tP\t92 beats/min,\tRR\t22 breaths/min,\tBP\t152/86 mm Hg, pulse\toximetry\treading\t94%\ton\toxygen\tat\t2\tL/min\tvia\tnasal\tcannula. On\tassessment,\tthe\tclient’s\tbreathing\tappears slightly\tlabored,\tand\tcoarse crackles\t(rales)\tare\tnoted\tin\tthe\tbilateral\tlung\tbases.\tSkin\tslightly\tcool\tto touch\tand\tpale\tpink\tin\ttone;\tpulses\t3+\tand\tirregular.\tCapillary\trefill\tis\t3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous\taccess\tdevice\t(VAD)\tplaced\tin\tright\tforearm.</span></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t78-year-old\tfemale\tclient."
-        }
-      },
-      {
-        "step": 4,
-        "question": {
-          "stem": "For each potential nursing intervention, click to specify whether the intervention is indicated or not indicated for the care of the client.",
-          "type": "matrix_mc",
-          "matrix": {
-            "rows": [
-              {
-                "text": "Prepare the client for defibrillation",
-                "correctIndex": 1,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "Place the client in a semi-Fowler's position.",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "Request an order to increase the oxygen flow rate",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "Request an order to insert an additional peripheral VAD.",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "Request an order to administer an intravenous fluid bolus",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              }
-            ],
-            "columns": [
-              "Indicated",
-              "Not Indicated"
-            ],
-            "firstColumnHeader": "Potential Nursing Interventions"
-          },
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "The nurse has reviewed the Nurses’ Notes from 1200.",
-          "explanation": "Semi-Fowler’s positioning and increased oxygen address hypoxia. Hypotension, tachycardia, diaphoresis, and altered arousal suggest sepsis/shock, so additional IV access and a fluid bolus are indicated. Defibrillation is used for life-threatening shockable rhythms, not sinus tachycardia or sepsis without a shockable dysrhythmia."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782159166328",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client\twas\tbrought\tto\tthe\tED\tby\tthe\tclient’s\tadult\tchild\tdue\tto\tincreased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was\thospitalized\tfor\tissues\twith\tatrial\tfibrillation\t6\tdays\tago.\tHistory\tof hypertension.\tVital\tsigns:\tT\t101.1° F\t(38.4° C),\tP\t92 beats/min,\tRR\t22 breaths/min,\tBP\t152/86 mm Hg, pulse\toximetry\treading\t94%\ton\toxygen\tat\t2\tL/min\tvia\tnasal\tcannula. On\tassessment,\tthe\tclient’s\tbreathing\tappears slightly\tlabored,\tand\tcoarse crackles\t(rales)\tare\tnoted\tin\tthe\tbilateral\tlung\tbases.\tSkin\tslightly\tcool\tto touch\tand\tpale\tpink\tin\ttone;\tpulses\t3+\tand\tirregular.\tCapillary\trefill\tis\t3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous\taccess\tdevice\t(VAD)\tplaced\tin\tright\tforearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Called to bedside by the adult child who states that the client “isn’t acting right.”\tOn\tassessment,\tclient\tis\tdifficult\tto\tarouse,\tpale,\tand\tdiaphoretic. Vital\tsigns:\tP\t112 beats/min,\tRR\t32 breaths/min,\tBP\t90/62 mm Hg,\tpulse\toximetry\treading\t91%\ton\t2\tL/min of oxygen via nasal cannula.</span></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t78-year-old\tfemale\tclient."
-        }
-      },
-      {
-        "step": 5,
-        "question": {
-          "stem": "Click to highlight the orders that the nurse should consider a priority.",
-          "type": "highlight_2",
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "The\tnurse\thas\treviewed\tthe\tOrders\tfrom\t1215.",
-          "explanation": "The client is showing possible sepsis with hypoxia and hypotension. Priority care is to obtain cultures/labs, support oxygenation/perfusion with fluids, and administer prescribed broad-spectrum antibiotics promptly. CT and urinary catheterization may be needed but should not delay immediate sepsis and oxygenation interventions.",
-          "highlightTabs": [
-            {
-              "id": "ht_1782160902340",
-              "title": "Orders",
-              "content": "<b>1215</b>:<div><ul><li>{Insert an indwelling urethral catheter}</li><li>{vancomycin 1 g, IV, every 12 hours|correct}</li><li>{computed tomograph (CT) scan of the chest}</li><li>{0.9% sodium chloride (normal saline) 500 mL, IV, once|correct}</li><li>{laboratory tests: blood culture and sensitivity (C &amp; S), complete blood count (CBC), arterial blood gas (ABG)|correct}</li></ul></div>"
-            }
-          ],
-          "maxCorrectSelections": 3
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782159166328",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client\twas\tbrought\tto\tthe\tED\tby\tthe\tclient’s\tadult\tchild\tdue\tto\tincreased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was\thospitalized\tfor\tissues\twith\tatrial\tfibrillation\t6\tdays\tago.\tHistory\tof hypertension.\tVital\tsigns:\tT\t101.1° F\t(38.4° C),\tP\t92 beats/min,\tRR\t22 breaths/min,\tBP\t152/86 mm Hg, pulse\toximetry\treading\t94%\ton\toxygen\tat\t2\tL/min\tvia\tnasal\tcannula. On\tassessment,\tthe\tclient’s\tbreathing\tappears slightly\tlabored,\tand\tcoarse crackles\t(rales)\tare\tnoted\tin\tthe\tbilateral\tlung\tbases.\tSkin\tslightly\tcool\tto touch\tand\tpale\tpink\tin\ttone;\tpulses\t3+\tand\tirregular.\tCapillary\trefill\tis\t3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous\taccess\tdevice\t(VAD)\tplaced\tin\tright\tforearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Called to bedside by the adult child who states that the client “isn’t acting right.”\tOn\tassessment,\tclient\tis\tdifficult\tto\tarouse,\tpale,\tand\tdiaphoretic. Vital\tsigns:\tP\t112 beats/min,\tRR\t32 breaths/min,\tBP\t90/62 mm Hg,\tpulse\toximetry\treading\t91%\ton\t2\tL/min of oxygen via nasal cannula.</span></p>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t78-year-old\tfemale\tclient."
-        }
-      },
-      {
-        "step": 6,
-        "question": {
-          "stem": "For each assessment finding, click to specify if the finding indicates that the client's condition has improved, not changed, or worsened.",
-          "type": "matrix_mc",
-          "matrix": {
-            "rows": [
-              {
-                "text": "pale skin tone",
-                "correctIndex": 1,
-                "correctIndices": []
-              },
-              {
-                "text": "respirations, 36",
-                "correctIndex": 2,
-                "correctIndices": []
-              },
-              {
-                "text": "blood pressure, 118/68",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "pulse oximetry reading, 91%",
-                "correctIndex": 1,
-                "correctIndices": [
-                  1
-                ]
-              },
-              {
-                "text": "client interacting with adult child at bedside",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              }
-            ],
-            "columns": [
-              "Improved",
-              "Not Changed",
-              "Worsened"
-            ],
-            "firstColumnHeader": "Assessment Finding"
-          },
-          "options": [
-            {
-              "text": "",
-              "correct": true
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "",
-          "explanation": "Compared with the 1200 assessment, pallor and oxygen saturation remain unchanged, and respirations have worsened from 32 to 36 breaths/min. Blood pressure has improved from 90/62 to 118/68, and interacting with the adult child indicates improved arousal compared with being difficult to arouse."
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1782159166328",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client\twas\tbrought\tto\tthe\tED\tby\tthe\tclient’s\tadult\tchild\tdue\tto\tincreased shortness of breath this morning. The adult child reports that the client has been running a fever for the past few days and has started to cough up greenish mucus and to complain of soreness throughout the body. Client was\thospitalized\tfor\tissues\twith\tatrial\tfibrillation\t6\tdays\tago.\tHistory\tof hypertension.\tVital\tsigns:\tT\t101.1° F\t(38.4° C),\tP\t92 beats/min,\tRR\t22 breaths/min,\tBP\t152/86 mm Hg, pulse\toximetry\treading\t94%\ton\toxygen\tat\t2\tL/min\tvia\tnasal\tcannula. On\tassessment,\tthe\tclient’s\tbreathing\tappears slightly\tlabored,\tand\tcoarse crackles\t(rales)\tare\tnoted\tin\tthe\tbilateral\tlung\tbases.\tSkin\tslightly\tcool\tto touch\tand\tpale\tpink\tin\ttone;\tpulses\t3+\tand\tirregular.\tCapillary\trefill\tis\t3 seconds. Client is alert and oriented to person, place, and time. The adult child states, “Sometimes it seems like my parent is confused.” Peripheral venous\taccess\tdevice\t(VAD)\tplaced\tin\tright\tforearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Called to bedside by the adult child who states that the client “isn’t acting right.”\tOn\tassessment,\tclient\tis\tdifficult\tto\tarouse,\tpale,\tand\tdiaphoretic. Vital\tsigns:\tP\t112 beats/min,\tRR\t32 breaths/min,\tBP\t90/62 mm Hg,\tpulse\toximetry\treading\t91%\ton\t2\tL/min of oxygen via nasal cannula.</span></p>"
-            },
-            {
-              "id": "tab_1782161985059",
-              "title": "Orders",
-              "content": "<b>1215</b>:<div><ul><li>insert an indwelling urethral catheter</li><li>vancomycin\t1\tg,\tIV,\tevery\t12\thours</li><li>computed\ttomography\t(CT)\tscan\tof\tthe\tchest</li><li>0.9%\tsodium\tchloride\t(normal\tsaline)\t500\tmL,\tIV,\tonce</li><li>laboratory\ttests:\tblood\tculture\tand\tsensitivity\t(C\t&amp;\tS),\tcomplete blood\tcount\t(CBC),\tarterial\tblood\tgas\t(ABG)</li></ul></div>"
-            }
-          ],
-          "intro": "The\tnurse\tin\tthe\temergency\tdepartment\t(ED)\tis\tcaring\tfor\ta\t78-year-old\tfemale\tclient."
-        }
-      }
-    ],
-    "disorder": "Unit 3 (Respiratory Disorders)",
-    "description": "",
-    "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z",
-    "draft": true
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782350000001",
@@ -2897,19 +2021,19 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "allostatic load",
-                    "correct": true
+                    "text": "remission",
+                    "correct": false
                   },
                   {
                     "text": "homeostasis",
                     "correct": false
                   },
                   {
-                    "text": "convalescence",
-                    "correct": false
+                    "text": "allostatic load",
+                    "correct": true
                   },
                   {
-                    "text": "remission",
+                    "text": "convalescence",
                     "correct": false
                   }
                 ],
@@ -2918,11 +2042,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "allostatic overload",
-                    "correct": true
-                  },
-                  {
-                    "text": "a pandemic",
+                    "text": "an incubation period",
                     "correct": false
                   },
                   {
@@ -2930,7 +2050,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "an incubation period",
+                    "text": "allostatic overload",
+                    "correct": true
+                  },
+                  {
+                    "text": "a pandemic",
                     "correct": false
                   }
                 ],
@@ -2939,20 +2063,20 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "iatrogenic",
-                    "correct": true
-                  },
-                  {
-                    "text": "idiopathic",
-                    "correct": false
-                  },
-                  {
                     "text": "endemic",
                     "correct": false
                   },
                   {
                     "text": "congenital",
                     "correct": false
+                  },
+                  {
+                    "text": "idiopathic",
+                    "correct": false
+                  },
+                  {
+                    "text": "iatrogenic",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -3066,18 +2190,6 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Educate the client on how chronic allostatic load leads to allostatic overload which in turn produces multisystem wear and tear on the cardiovascular, gastrointestinal, and endocrine systems.",
-              "correct": true
-            },
-            {
-              "text": "Instruct the client to immediately discontinue unprescribed high-dose ibuprofen to prevent further iatrogenic gastrointestinal mucosal injury.",
-              "correct": true
-            },
-            {
-              "text": "Teach relaxation and diaphragmatic breathing techniques to help down-regulate sympathetic overactivation and support physiological homeostasis.",
-              "correct": true
-            },
-            {
               "text": "Advise the client to abruptly eliminate all oral fluid intake to allow the body's internal set points to reset.",
               "correct": false
             },
@@ -3086,7 +2198,19 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
+              "text": "Instruct the client to immediately discontinue unprescribed high-dose ibuprofen to prevent further iatrogenic gastrointestinal mucosal injury.",
+              "correct": true
+            },
+            {
               "text": "Collaborate with the primary healthcare provider to evaluate the need for short-term gastric mucosal protection and schedule a follow-up assessment.",
+              "correct": true
+            },
+            {
+              "text": "Teach relaxation and diaphragmatic breathing techniques to help down-regulate sympathetic overactivation and support physiological homeostasis.",
+              "correct": true
+            },
+            {
+              "text": "Educate the client on how chronic allostatic load leads to allostatic overload which in turn produces multisystem wear and tear on the cardiovascular, gastrointestinal, and endocrine systems.",
               "correct": true
             }
           ],
@@ -3121,11 +2245,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "The return of blood pressure, heart rate, and blood glucose to narrow reference ranges demonstrates the restoration of physiological homeostasis.",
-              "correct": true
+              "text": "The rapid improvement indicates that Marcus has developed permanent sequelae of his gastrointestinal lining.",
+              "correct": false
             },
             {
               "text": "The complete absence of epigastric burning and tension headaches signifies a clinical remission of his acute manifestations.",
+              "correct": true
+            },
+            {
+              "text": "Marcus's overall prognosis is positive regarding the prevention of long-term cardiovascular and gastrointestinal disease.",
               "correct": true
             },
             {
@@ -3133,11 +2261,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "The rapid improvement indicates that Marcus has developed permanent sequelae of his gastrointestinal lining.",
-              "correct": false
-            },
-            {
-              "text": "Marcus's overall prognosis is positive regarding the prevention of long-term cardiovascular and gastrointestinal disease.",
+              "text": "The return of blood pressure, heart rate, and blood glucose to narrow reference ranges demonstrates the restoration of physiological homeostasis.",
               "correct": true
             },
             {
@@ -3178,7 +2302,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 1 (Introduction to Pathophysiology)",
     "description": "A case study for formative review of NURS 1017 Unit 1",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782350000002",
@@ -3194,12 +2318,12 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Morning joint stiffness lasting 2.5 hours",
-              "correct": true
-            },
-            {
               "text": "Oral body temperature of 38.1° C",
               "correct": false
+            },
+            {
+              "text": "Bilateral wrist and hand joint pain rated 8/10",
+              "correct": true
             },
             {
               "text": "Bilateral symmetrical swelling and warmth of the 2nd and 3rd MCP joints",
@@ -3210,11 +2334,11 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Bilateral wrist and hand joint pain rated 8/10",
+              "text": "Feelings of profound fatigue and malaise",
               "correct": true
             },
             {
-              "text": "Feelings of profound fatigue and malaise",
+              "text": "Morning joint stiffness lasting 2.5 hours",
               "correct": true
             }
           ],
@@ -3248,11 +2372,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "subclinical",
-                    "correct": true
-                  },
-                  {
-                    "text": "acute",
+                    "text": "sequelae",
                     "correct": false
                   },
                   {
@@ -3260,7 +2380,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "sequelae",
+                    "text": "subclinical",
+                    "correct": true
+                  },
+                  {
+                    "text": "acute",
                     "correct": false
                   }
                 ],
@@ -3273,7 +2397,7 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "latent",
+                    "text": "remission",
                     "correct": false
                   },
                   {
@@ -3281,7 +2405,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "remission",
+                    "text": "latent",
                     "correct": false
                   }
                 ],
@@ -3294,15 +2418,15 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "remission",
-                    "correct": false
-                  },
-                  {
                     "text": "convalescence",
                     "correct": false
                   },
                   {
                     "text": "incubation",
+                    "correct": false
+                  },
+                  {
+                    "text": "remission",
                     "correct": false
                   }
                 ],
@@ -3494,27 +2618,27 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Teach the client to identify prodromal symptoms (such as mild fatigue and subtle stiffness) so medical therapy can be initiated before a severe exacerbation occurs.",
-              "correct": true
-            },
-            {
-              "text": "Monitor the client for iatrogenic adverse effects of prescribed immunosuppressants and corticosteroids, including opportunistic infections and hyperglycemia.",
-              "correct": true
+              "text": "Advise the client to perform strenuous, high-resistance weight training on the actively inflamed wrist joints to prevent stiffness.",
+              "correct": false
             },
             {
               "text": "Explain that physical and emotional stressors can act as precipitating factors that trigger future disease exacerbations.",
               "correct": true
             },
             {
-              "text": "Advise the client to perform strenuous, high-resistance weight training on the actively inflamed wrist joints to prevent stiffness.",
-              "correct": false
+              "text": "Provide education on energy conservation and joint-protection techniques to preserve physical mobility during convalescence.",
+              "correct": true
             },
             {
               "text": "Inform the client that once joint swelling disappears, the disease is cured and all medications can be permanently stopped.",
               "correct": false
             },
             {
-              "text": "Provide education on energy conservation and joint-protection techniques to preserve physical mobility during convalescence.",
+              "text": "Monitor the client for iatrogenic adverse effects of prescribed immunosuppressants and corticosteroids, including opportunistic infections and hyperglycemia.",
+              "correct": true
+            },
+            {
+              "text": "Teach the client to identify prodromal symptoms (such as mild fatigue and subtle stiffness) so medical therapy can be initiated before a severe exacerbation occurs.",
               "correct": true
             }
           ],
@@ -3549,11 +2673,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "The disappearance of joint swelling, heat, and elevated inflammatory markers indicates that Evelyn is in a state of clinical <b>remission</b>.",
-              "correct": true
-            },
-            {
-              "text": "The persistent ulnar deviation and slight reduction in wrist extension represent a <b>sequela</b> resulting from the preceding inflammatory joint disease.",
+              "text": "Evelyn's functional <b>prognosis</b> is favorable based on early diagnosis, therapeutic adherence, and stable joint architecture.",
               "correct": true
             },
             {
@@ -3565,12 +2685,16 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Evelyn's functional <b>prognosis</b> is favorable based on early diagnosis, therapeutic adherence, and stable joint architecture.",
+              "text": "The development of oral thrush during corticosteroid therapy represents an idiopathic manifestation unrelated to her medical treatment.",
+              "correct": false
+            },
+            {
+              "text": "The disappearance of joint swelling, heat, and elevated inflammatory markers indicates that Evelyn is in a state of clinical <b>remission</b>.",
               "correct": true
             },
             {
-              "text": "The development of oral thrush during corticosteroid therapy represents an idiopathic manifestation unrelated to her medical treatment.",
-              "correct": false
+              "text": "The persistent ulnar deviation and slight reduction in wrist extension represent a <b>sequela</b> resulting from the preceding inflammatory joint disease.",
+              "correct": true
             }
           ],
           "preamble": "The nurse has reviewed the Follow-Up Assessment (6 Months Later).",
@@ -3606,7 +2730,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 1 (Introduction to Pathophysiology)",
     "description": "A case study for formative review of NURS 1017 Unit 1",
     "availability": "all",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782360000001",
@@ -3622,32 +2746,32 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Conversion of distal esophageal stratified squamous epithelium to columnar epithelium with goblet cells",
-              "correct": true
-            },
-            {
-              "text": "Replacement of ciliated pseudostratified columnar epithelium by stratified squamous epithelium in the mainstem bronchi",
-              "correct": true
+              "text": "Acute temperature elevation of 39.5° C with purulent sputum and marked leukocytosis",
+              "correct": false
             },
             {
               "text": "Echocardiogram demonstrating left ventricular myocardial wall thickness of 1.5 cm in response to chronic hypertension",
               "correct": true
             },
             {
-              "text": "Acute temperature elevation of 39.5° C with purulent sputum and marked leukocytosis",
-              "correct": false
-            },
-            {
-              "text": "Historical reduction in right calf muscle circumference following 10 weeks of non-weight-bearing cast immobilization",
+              "text": "Conversion of distal esophageal stratified squamous epithelium to columnar epithelium with goblet cells",
               "correct": true
             },
             {
               "text": "Profuse arterial hypotension with cardiogenic shock and pulmonary edema",
               "correct": false
+            },
+            {
+              "text": "Replacement of ciliated pseudostratified columnar epithelium by stratified squamous epithelium in the mainstem bronchi",
+              "correct": true
+            },
+            {
+              "text": "Historical reduction in right calf muscle circumference following 10 weeks of non-weight-bearing cast immobilization",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Cellular adaptations are reversible changes in cell size, number, phenotype, metabolic activity, or organization in response to altered physiological demand or chronic environmental stress. In this client, adaptations include: (Option 1) Barrett's esophagus—glandular metaplasia of esophageal stratified squamous epithelium to columnar epithelium to better tolerate acidic gastric juice; (Option 2) Squamous metaplasia of respiratory pseudostratified ciliated columnar epithelium to stratified squamous epithelium due to chronic cigarette smoke; (Option 3) Left ventricular hypertrophy—increased cardiomyocyte size in response to chronic hemodynamic afterload; and (Option 5) Disuse atrophy—shrinkage of skeletal muscle cells from decreased functional demand during casting. High fever with purulent sputum indicates acute infection/inflammation, while shock indicates cardiovascular collapse, neither of which represents an adaptive cellular response."
+          "explanation": "Cellular adaptations are reversible changes in cell size, number, phenotype, metabolic activity, or organization in response to altered physiological demand or chronic environmental stress. In this client, adaptations include: (Option 3) Barrett's esophagus—glandular metaplasia of esophageal stratified squamous epithelium to columnar epithelium to better tolerate acidic gastric juice; (Option 5) Squamous metaplasia of respiratory pseudostratified ciliated columnar epithelium to stratified squamous epithelium due to chronic cigarette smoke; (Option 2) Left ventricular hypertrophy—increased cardiomyocyte size in response to chronic hemodynamic afterload; and (Option 6) Disuse atrophy—shrinkage of skeletal muscle cells from decreased functional demand during casting. High fever with purulent sputum indicates acute infection/inflammation, while shock indicates cardiovascular collapse, neither of which represents an adaptive cellular response."
         },
         "leftContent": {
           "tabs": [
@@ -3752,16 +2876,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "reversible",
-                    "correct": true
+                    "text": "malignant",
+                    "correct": false
                   },
                   {
                     "text": "irreversible",
                     "correct": false
                   },
                   {
-                    "text": "malignant",
-                    "correct": false
+                    "text": "reversible",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -3773,11 +2897,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "cardiac contractility",
+                    "text": "alveolar surfactant production",
                     "correct": false
                   },
                   {
-                    "text": "alveolar surfactant production",
+                    "text": "cardiac contractility",
                     "correct": false
                   }
                 ],
@@ -3786,12 +2910,12 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "dysplasia",
-                    "correct": true
-                  },
-                  {
                     "text": "atrophy",
                     "correct": false
+                  },
+                  {
+                    "text": "dysplasia",
+                    "correct": true
                   },
                   {
                     "text": "hyperplasia",
@@ -3807,11 +2931,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "hypertrophy",
+                    "text": "metaplasia",
                     "correct": false
                   },
                   {
-                    "text": "metaplasia",
+                    "text": "hypertrophy",
                     "correct": false
                   }
                 ],
@@ -3989,11 +3113,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "stratified squamous",
+                    "text": "transitional",
                     "correct": false
                   },
                   {
-                    "text": "transitional",
+                    "text": "stratified squamous",
                     "correct": false
                   }
                 ],
@@ -4002,16 +3126,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "left ventricular hypertrophy",
-                    "correct": true
+                    "text": "prostatic hyperplasia",
+                    "correct": false
                   },
                   {
                     "text": "cerebral atrophy",
                     "correct": false
                   },
                   {
-                    "text": "prostatic hyperplasia",
-                    "correct": false
+                    "text": "left ventricular hypertrophy",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -4019,16 +3143,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "reversible",
-                    "correct": true
+                    "text": "permanent and irreversible",
+                    "correct": false
                   },
                   {
                     "text": "inevitably malignant",
                     "correct": false
                   },
                   {
-                    "text": "permanent and irreversible",
-                    "correct": false
+                    "text": "reversible",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -4063,7 +3187,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 2 (Cellular Basis of Disease)",
     "description": "58-year-old male with chronic GERD, smoking, and hypertension presenting with Barrett's metaplasia, bronchial squamous metaplasia, and left ventricular hypertrophy.",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782360000002",
@@ -4079,11 +3203,19 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Dilation of the endoplasmic reticulum with ribosome detachment on electron microscopy",
+              "correct": true
+            },
+            {
               "text": "Preservation of hepatocyte plasma membrane and nuclear envelope integrity",
               "correct": true
             },
             {
-              "text": "Dilation of the endoplasmic reticulum with ribosome detachment on electron microscopy",
+              "text": "Hepatocyte hydropic swelling with expanded, pale cytoplasm and cellular enlargement (ballooning degeneration)",
+              "correct": true
+            },
+            {
+              "text": "Intracellular accumulation of macrovesicular and microvesicular lipid vacuoles within hepatocytes",
               "correct": true
             },
             {
@@ -4093,18 +3225,10 @@ window.NCLEX_CASES = [
             {
               "text": "Extensive nuclear karyorrhexis, chromatin disintegration, and plasma membrane lysis",
               "correct": false
-            },
-            {
-              "text": "Intracellular accumulation of macrovesicular and microvesicular lipid vacuoles within hepatocytes",
-              "correct": true
-            },
-            {
-              "text": "Hepatocyte hydropic swelling with expanded, pale cytoplasm and cellular enlargement (ballooning degeneration)",
-              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Reversible cellular injury is characterized by: (Option 6) Hydropic swelling—cellular volume expansion caused by ATP depletion and failure of the energy-dependent Na+/K+-ATPase exchange pump, causing intracellular sodium and water accumulation; (Option 5) Intracellular accumulations—in this case, hepatic steatosis (triglyceride accumulation) resulting from alcohol-induced impairment of mitochondrial lipid metabolism; and (Option 2) Ultrastructural changes including dilated endoplasmic reticulum, detachment/disaggregation of ribosomes, and mitochondrial swelling. Crucially, the cell's plasma membrane and nuclear structure remain intact. In contrast, nuclear dissolution (karyorrhexis, karyolysis) and membrane lysis indicate irreversible necrotic cell death. Saponified chalky white deposits are specific to fat necrosis (such as in acute pancreatitis)."
+          "explanation": "Reversible cellular injury is characterized by: (Option 3) Hydropic swelling—cellular volume expansion caused by ATP depletion and failure of the energy-dependent Na+/K+-ATPase exchange pump, causing intracellular sodium and water accumulation; (Option 4) Intracellular accumulations—in this case, hepatic steatosis (triglyceride accumulation) resulting from alcohol-induced impairment of mitochondrial lipid metabolism; and (Option 1) Ultrastructural changes including dilated endoplasmic reticulum, detachment/disaggregation of ribosomes, and mitochondrial swelling. Crucially, the cell's plasma membrane and nuclear structure remain intact. In contrast, nuclear dissolution (karyorrhexis, karyolysis) and membrane lysis indicate irreversible necrotic cell death. Saponified chalky white deposits are specific to fat necrosis (such as in acute pancreatitis)."
         },
         "leftContent": {
           "tabs": [
@@ -4206,11 +3330,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "glycogen stores",
+                    "text": "intracellular calcium",
                     "correct": false
                   },
                   {
-                    "text": "intracellular calcium",
+                    "text": "glycogen stores",
                     "correct": false
                   }
                 ],
@@ -4223,11 +3347,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "calcium efflux channel",
+                    "text": "aquaporin water channel",
                     "correct": false
                   },
                   {
-                    "text": "aquaporin water channel",
+                    "text": "calcium efflux channel",
                     "correct": false
                   }
                 ],
@@ -4240,11 +3364,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "insoluble coal dust (anthracosis)",
+                    "text": "tau protein tangles",
                     "correct": false
                   },
                   {
-                    "text": "tau protein tangles",
+                    "text": "insoluble coal dust (anthracosis)",
                     "correct": false
                   }
                 ],
@@ -4253,15 +3377,15 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
+                    "text": "malignant neoplastic",
+                    "correct": false
+                  },
+                  {
                     "text": "reversible",
                     "correct": true
                   },
                   {
                     "text": "irreversible (necrotic)",
-                    "correct": false
-                  },
-                  {
-                    "text": "malignant neoplastic",
                     "correct": false
                   }
                 ],
@@ -4305,6 +3429,10 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
+              "text": "Monitor serial liver enzymes (AST, ALT), total bilirubin, and coagulation studies (INR/PT) to assess hepatocellular recovery",
+              "correct": true
+            },
+            {
               "text": "Administer prescribed intravenous thiamine (vitamin B1) and high-potency multivitamins before initiating intravenous dextrose infusions",
               "correct": true
             },
@@ -4313,20 +3441,16 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Implement a standardized alcohol withdrawal protocol with frequent monitoring of withdrawal symptoms and vital signs",
-              "correct": true
-            },
-            {
-              "text": "Monitor serial liver enzymes (AST, ALT), total bilirubin, and coagulation studies (INR/PT) to assess hepatocellular recovery",
-              "correct": true
-            },
-            {
               "text": "Prepare the client for an urgent surgical wedge resection of the enlarged liver lobes",
               "correct": false
+            },
+            {
+              "text": "Implement a standardized alcohol withdrawal protocol with frequent monitoring of withdrawal symptoms and vital signs",
+              "correct": true
             }
           ],
           "preamble": "The nurse develops the client's nursing plan of care focused on cellular recovery, nutritional replenishment, and safe detoxification.",
-          "explanation": "Nursing management of reversible toxic and nutritional cell injury centers on removing the injurious agent, restoring metabolic substrates, and monitoring for complications: (Option 4) Protocol-driven withdrawal monitoring detects early autonomic hyperactivity and prevents withdrawal delirium; (Option 2) Administering prescribed IV thiamine prior to glucose prevents acute Wernicke encephalopathy and provides essential coenzymes for aerobic ATP generation; (Option 1) Collaborating on nutritional repletion supplies amino acids essential for protein synthesis (such as apolipoproteins needed to export accumulated lipids out of hepatocytes); (Option 5) Serial liver enzymes and coagulation profiles evaluate whether cell membranes are stabilizing and liver synthetic function is returning. In contrast, acetaminophen is metabolized by the liver into the hepatotoxic intermediate NAPQI; in the setting of glutathione depletion from chronic alcohol use, standard doses can precipitate massive, irreversible hepatic necrosis. Surgery is contraindicated for diffuse, reversible metabolic liver injury."
+          "explanation": "Nursing management of reversible toxic and nutritional cell injury centers on removing the injurious agent, restoring metabolic substrates, and monitoring for complications: (Option 6) Protocol-driven withdrawal monitoring detects early autonomic hyperactivity and prevents withdrawal delirium; (Option 3) Administering prescribed IV thiamine prior to glucose prevents acute Wernicke encephalopathy and provides essential coenzymes for aerobic ATP generation; (Option 1) Collaborating on nutritional repletion supplies amino acids essential for protein synthesis (such as apolipoproteins needed to export accumulated lipids out of hepatocytes); (Option 2) Serial liver enzymes and coagulation profiles evaluate whether cell membranes are stabilizing and liver synthetic function is returning. In contrast, acetaminophen is metabolized by the liver into the hepatotoxic intermediate NAPQI; in the setting of glutathione depletion from chronic alcohol use, standard doses can precipitate massive, irreversible hepatic necrosis. Surgery is contraindicated for diffuse, reversible metabolic liver injury."
         },
         "leftContent": {
           "tabs": [
@@ -4435,22 +3559,26 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "acute hepatocellular membrane leakage and cellular stress",
-                    "correct": true
-                  },
-                  {
                     "text": "irreversible coagulative necrosis",
                     "correct": false
                   },
                   {
                     "text": "primary hepatocellular carcinoma",
                     "correct": false
+                  },
+                  {
+                    "text": "acute hepatocellular membrane leakage and cellular stress",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
+                  {
+                    "text": "anaplastic",
+                    "correct": false
+                  },
                   {
                     "text": "reversible",
                     "correct": true
@@ -4458,10 +3586,6 @@ window.NCLEX_CASES = [
                   {
                     "text": "irreversible",
                     "correct": false
-                  },
-                  {
-                    "text": "anaplastic",
-                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
@@ -4469,16 +3593,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "plasma membrane Na+/K+-ATPase pump",
-                    "correct": true
+                    "text": "nuclear pore complex",
+                    "correct": false
                   },
                   {
                     "text": "lysosomal acid hydrolases",
                     "correct": false
                   },
                   {
-                    "text": "nuclear pore complex",
-                    "correct": false
+                    "text": "plasma membrane Na+/K+-ATPase pump",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -4513,7 +3637,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 2 (Cellular Basis of Disease)",
     "description": "46-year-old female with chronic alcohol abuse and malnutrition presenting with severe hepatic steatosis, hydropic swelling, and proteasome stress.",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782360000003",
@@ -4529,16 +3653,8 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Rapid onset of foul-smelling, purulent, liquefactive drainage with tissue softening and extensive forefoot erythema",
+              "text": "Hypotension (BP 92/58 mm Hg), tachycardia (118 beats/min), high fever (38.9° C), and elevated serum lactate (4.2 mmol/L)",
               "correct": true
-            },
-            {
-              "text": "Palpable subcutaneous crepitus (crackling gas bubbles) elicited across the dorsal forefoot",
-              "correct": true
-            },
-            {
-              "text": "Strong, bounding palpable dorsalis pedis and posterior tibial arterial pulses bilaterally",
-              "correct": false
             },
             {
               "text": "Transient toe paresthesia that completely resolves with limb elevation and warm blankets",
@@ -4549,12 +3665,20 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Hypotension (BP 92/58 mm Hg), tachycardia (118 beats/min), high fever (38.9° C), and elevated serum lactate (4.2 mmol/L)",
+              "text": "Strong, bounding palpable dorsalis pedis and posterior tibial arterial pulses bilaterally",
+              "correct": false
+            },
+            {
+              "text": "Palpable subcutaneous crepitus (crackling gas bubbles) elicited across the dorsal forefoot",
+              "correct": true
+            },
+            {
+              "text": "Rapid onset of foul-smelling, purulent, liquefactive drainage with tissue softening and extensive forefoot erythema",
               "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Irreversible cell death results in necrosis and gangrene: (Option 5) Dry gangrene is a form of coagulative necrosis resulting from severe ischemia, characterized by black, dry, wrinkled, mummified tissue with a distinct line of demarcation; (Option 1) Wet gangrene occurs when necrotic tissue is superinfected by bacteria, inducing liquefactive necrosis with tissue softening, foul-smelling purulent drainage, and rapidly spreading edema; (Option 2) Gas gangrene results from anaerobic bacterial infection (e.g., Clostridium perfringens), which ferments carbohydrates and produces characteristic gas bubbles that feel like crackling crepitus under the skin; (Option 6) Systemic signs of septic shock (fever, tachycardia, hypotension, lactic acidosis from tissue hypoperfusion) reflect bacterial toxin release and systemic inflammatory response. Gangrene does not resolve with elevation or warming, and peripheral pulses are absent due to severe arterial occlusive disease."
+          "explanation": "Irreversible cell death results in necrosis and gangrene: (Option 3) Dry gangrene is a form of coagulative necrosis resulting from severe ischemia, characterized by black, dry, wrinkled, mummified tissue with a distinct line of demarcation; (Option 6) Wet gangrene occurs when necrotic tissue is superinfected by bacteria, inducing liquefactive necrosis with tissue softening, foul-smelling purulent drainage, and rapidly spreading edema; (Option 5) Gas gangrene results from anaerobic bacterial infection (e.g., Clostridium perfringens), which ferments carbohydrates and produces characteristic gas bubbles that feel like crackling crepitus under the skin; (Option 1) Systemic signs of septic shock (fever, tachycardia, hypotension, lactic acidosis from tissue hypoperfusion) reflect bacterial toxin release and systemic inflammatory response. Gangrene does not resolve with elevation or warming, and peripheral pulses are absent due to severe arterial occlusive disease."
         },
         "leftContent": {
           "tabs": [
@@ -4652,15 +3776,15 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
+                    "text": "caseous",
+                    "correct": false
+                  },
+                  {
                     "text": "coagulative",
                     "correct": true
                   },
                   {
                     "text": "liquefactive",
-                    "correct": false
-                  },
-                  {
-                    "text": "caseous",
                     "correct": false
                   }
                 ],
@@ -4668,6 +3792,10 @@ window.NCLEX_CASES = [
               },
               {
                 "options": [
+                  {
+                    "text": "caseous",
+                    "correct": false
+                  },
                   {
                     "text": "liquefactive",
                     "correct": true
@@ -4675,16 +3803,16 @@ window.NCLEX_CASES = [
                   {
                     "text": "fat",
                     "correct": false
-                  },
-                  {
-                    "text": "caseous",
-                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
               },
               {
                 "options": [
+                  {
+                    "text": "immediate neoplastic transformation",
+                    "correct": false
+                  },
                   {
                     "text": "an intense acute inflammatory response",
                     "correct": true
@@ -4692,10 +3820,6 @@ window.NCLEX_CASES = [
                   {
                     "text": "no inflammatory reaction",
                     "correct": false
-                  },
-                  {
-                    "text": "immediate neoplastic transformation",
-                    "correct": false
                   }
                 ],
                 "placeholder": "Select..."
@@ -4703,15 +3827,15 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
+                    "text": "glycogen synthetase",
+                    "correct": false
+                  },
+                  {
                     "text": "cytochrome c",
                     "correct": true
                   },
                   {
                     "text": "lactic acid",
-                    "correct": false
-                  },
-                  {
-                    "text": "glycogen synthetase",
                     "correct": false
                   }
                 ],
@@ -4885,16 +4009,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "liquefactive and gas gangrene",
-                    "correct": true
-                  },
-                  {
                     "text": "caseous granulomatous necrosis",
                     "correct": false
                   },
                   {
                     "text": "reversible hydropic swelling",
                     "correct": false
+                  },
+                  {
+                    "text": "liquefactive and gas gangrene",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -4902,16 +4026,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "acute inflammation",
-                    "correct": true
+                    "text": "anaplastic transformation",
+                    "correct": false
                   },
                   {
                     "text": "no inflammatory reaction",
                     "correct": false
                   },
                   {
-                    "text": "anaplastic transformation",
-                    "correct": false
+                    "text": "acute inflammation",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -4923,11 +4047,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "erythrocytes",
+                    "text": "cardiac myocytes",
                     "correct": false
                   },
                   {
-                    "text": "cardiac myocytes",
+                    "text": "erythrocytes",
                     "correct": false
                   }
                 ],
@@ -4963,7 +4087,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 2 (Cellular Basis of Disease)",
     "description": "72-year-old male with diabetes and PAD presenting with ischemic dry gangrene progressing to liquefactive wet/gas gangrene with septic shock.",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782370000001",
@@ -4979,19 +4103,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Marked generalized muscular hypotonia with poor head control and diminished Moro reflex",
-              "correct": true
-            },
-            {
-              "text": "Single transverse palmar crease bilaterally",
-              "correct": true
-            },
-            {
-              "text": "Grade 3/6 harsh pansystolic murmur auscultated along the lower left sternal border",
-              "correct": true
-            },
-            {
-              "text": "Low-set, small ears with folded superior helixes",
+              "text": "Protruding, large-appearing tongue (macroglossia) with narrow high-arched palate",
               "correct": true
             },
             {
@@ -4999,15 +4111,27 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Microcephaly with severe craniosynostosis and fused sagittal suture",
-              "correct": false
+              "text": "Single transverse palmar crease bilaterally",
+              "correct": true
             },
             {
-              "text": "Protruding, large-appearing tongue (macroglossia) with narrow high-arched palate",
+              "text": "Marked generalized muscular hypotonia with poor head control and diminished Moro reflex",
               "correct": true
             },
             {
               "text": "Upward slanting palpebral fissures with prominent inner epicanthal folds",
+              "correct": true
+            },
+            {
+              "text": "Grade 3/6 harsh pansystolic murmur auscultated along the lower left sternal border",
+              "correct": true
+            },
+            {
+              "text": "Microcephaly with severe craniosynostosis and fused sagittal suture",
+              "correct": false
+            },
+            {
+              "text": "Low-set, small ears with folded superior helixes",
               "correct": true
             }
           ],
@@ -5169,15 +4293,15 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
+                    "text": "excessive gastric hyperchlorhydria",
+                    "correct": false
+                  },
+                  {
                     "text": "feeding fatigue, poor latch, and milk aspiration",
                     "correct": true
                   },
                   {
                     "text": "hyperosmolar hyperglycemic syndrome",
-                    "correct": false
-                  },
-                  {
-                    "text": "excessive gastric hyperchlorhydria",
                     "correct": false
                   },
                   {
@@ -5217,19 +4341,19 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Assess respiratory rate, effort, work of breathing, and liver span for early signs of congestive heart failure",
-              "correct": true
-            },
-            {
-              "text": "Position the infant in an upright, semi-seated posture with neck supported slightly forward during feedings",
-              "correct": true
-            },
-            {
               "text": "Maintain the infant in complete neck hyperextension during bottle feedings to prevent tongue protrusion",
               "correct": false
             },
             {
+              "text": "Limit feeding sessions to a minimum of 60 consecutive minutes to force total volume ingestion regardless of tachypnea",
+              "correct": false
+            },
+            {
               "text": "Utilize a small, straight nipple or specialized cleft/hypotonic feeding bottle with frequent burping and rest periods",
+              "correct": true
+            },
+            {
+              "text": "Position the infant in an upright, semi-seated posture with neck supported slightly forward during feedings",
               "correct": true
             },
             {
@@ -5241,12 +4365,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Limit feeding sessions to a minimum of 60 consecutive minutes to force total volume ingestion regardless of tachypnea",
-              "correct": false
+              "text": "Assess respiratory rate, effort, work of breathing, and liver span for early signs of congestive heart failure",
+              "correct": true
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1600 (DOL 1) and the Cardiology Consult Note.",
-          "explanation": "Key nursing interventions for a neonate with Trisomy 21 and a congenital heart defect (ASD) include: (Option 2) Upright positioning with head and neck supported to facilitate swallowing and prevent aspiration; (Option 4) Using specialized feeding devices (e.g., Haberman or firm nipple) with small, frequent feeds (limiting feeds to 20–30 minutes to avoid excessive caloric expenditure and fatigue); (Options 1 and 5) Close monitoring for heart failure (daily weights, respiratory effort, tachypnea, hepatomegaly, diaphoresis with feeds); and (Option 6) Providing emotional support, genetic counseling referrals, and connection to infant development resources. Hyperextending the neck increases airway aspiration risk, and forcing 60-minute feeds exhausts the infant and increases cardiac work."
+          "explanation": "Key nursing interventions for a neonate with Trisomy 21 and a congenital heart defect (ASD) include: (Option 4) Upright positioning with head and neck supported to facilitate swallowing and prevent aspiration; (Option 3) Using specialized feeding devices (e.g., Haberman or firm nipple) with small, frequent feeds (limiting feeds to 20–30 minutes to avoid excessive caloric expenditure and fatigue); (Options 7 and 5) Close monitoring for heart failure (daily weights, respiratory effort, tachypnea, hepatomegaly, diaphoresis with feeds); and (Option 6) Providing emotional support, genetic counseling referrals, and connection to infant development resources. Hyperextending the neck increases airway aspiration risk, and forcing 60-minute feeds exhausts the infant and increases cardiac work."
         },
         "leftContent": {
           "tabs": [
@@ -5472,7 +4596,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "Newborn male presenting with hypotonia, low-set ears, epicanthal folds, protruding tongue, and heart murmur, prompting chromosomal karyotyping and comparative evaluation of Down, Turner, and Klinefelter syndromes.",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782370000002",
@@ -5621,11 +4745,11 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "25% (1 in 4 chance)",
-                    "correct": true
+                    "text": "0% because carriers never have affected offspring",
+                    "correct": false
                   },
                   {
-                    "text": "0% because carriers never have affected offspring",
+                    "text": "75% (3 in 4 chance)",
                     "correct": false
                   },
                   {
@@ -5633,8 +4757,8 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "75% (3 in 4 chance)",
-                    "correct": false
+                    "text": "25% (1 in 4 chance)",
+                    "correct": true
                   }
                 ]
               },
@@ -5642,16 +4766,16 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "50% (1 in 2 chance for male offspring)",
-                    "correct": true
-                  },
-                  {
                     "text": "0% because fathers transmit X chromosomes to sons",
                     "correct": false
                   },
                   {
                     "text": "100% for all male offspring",
                     "correct": false
+                  },
+                  {
+                    "text": "50% (1 in 2 chance for male offspring)",
+                    "correct": true
                   },
                   {
                     "text": "25% for male offspring",
@@ -5671,11 +4795,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "25% (1 in 4 chance)",
+                    "text": "75% (3 in 4 chance)",
                     "correct": false
                   },
                   {
-                    "text": "75% (3 in 4 chance)",
+                    "text": "25% (1 in 4 chance)",
                     "correct": false
                   }
                 ]
@@ -5716,19 +4840,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Educate David on avoiding heavy isometric weightlifting, competitive contact sports, and strenuous straining that increase aortic wall shear stress",
-              "correct": true
-            },
-            {
-              "text": "Instruct Maya that taking high-dose folic acid supplements will completely prevent single-gene mutations such as Cystic Fibrosis and Hemophilia",
-              "correct": false
-            },
-            {
-              "text": "Reassure David that aortic root dilation of 4.4 cm is a normal athletic heart adaptation requiring no physical activity restrictions",
-              "correct": false
-            },
-            {
-              "text": "Provide education on reproductive options including pre-implantation genetic diagnosis (PGD) with in vitro fertilization (IVF) and prenatal chorionic villus sampling (CVS) / amniocentesis",
+              "text": "Educate Maya that if she conceives a male fetus, early newborn screening and factor VIII assay can determine hemophilia status prior to elective procedures (e.g., circumcision)",
               "correct": true
             },
             {
@@ -5736,16 +4848,28 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Educate Maya that if she conceives a male fetus, early newborn screening and factor VIII assay can determine hemophilia status prior to elective procedures (e.g., circumcision)",
+              "text": "Educate David on avoiding heavy isometric weightlifting, competitive contact sports, and strenuous straining that increase aortic wall shear stress",
+              "correct": true
+            },
+            {
+              "text": "Provide education on reproductive options including pre-implantation genetic diagnosis (PGD) with in vitro fertilization (IVF) and prenatal chorionic villus sampling (CVS) / amniocentesis",
               "correct": true
             },
             {
               "text": "Assess the couple's psychological coping, anxiety, and provide referrals to certified genetic counselors and the Marfan Foundation",
               "correct": true
+            },
+            {
+              "text": "Reassure David that aortic root dilation of 4.4 cm is a normal athletic heart adaptation requiring no physical activity restrictions",
+              "correct": false
+            },
+            {
+              "text": "Instruct Maya that taking high-dose folic acid supplements will completely prevent single-gene mutations such as Cystic Fibrosis and Hemophilia",
+              "correct": false
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1300 and the Care Pathways.",
-          "explanation": "Appropriate nursing interventions include: (Option 5) Promptly alerting the cardiology healthcare provider regarding David's aortic root dilation (4.4 cm is significantly enlarged in Marfan syndrome, placing him at risk for fatal aortic dissection/rupture); (Option 1) Educating David on avoiding isometric resistance exercises and high-impact contact sports to prevent acute aortic wall shear stress; (Option 4) Reviewing reproductive technologies (PGD with IVF, or prenatal diagnostic amniocentesis/CVS) so the couple can make informed family planning decisions; (Option 6) Educating Maya regarding hemophilia precautions for a male newborn (deferring elective circumcisions until coagulation factor VIII status is verified to prevent life-threatening hemorrhage); and (Option 7) Providing psychological support and disease-specific foundation resources. Aortic dilation of 4.4 cm is never a benign athletic finding in someone with Marfan phenotype. Folic acid prevents neural tube defects (multifactorial developmental defect), but cannot prevent or repair Mendelian single-gene DNA mutations."
+          "explanation": "Appropriate nursing interventions include: (Option 2) Promptly alerting the cardiology healthcare provider regarding David's aortic root dilation (4.4 cm is significantly enlarged in Marfan syndrome, placing him at risk for fatal aortic dissection/rupture); (Option 3) Educating David on avoiding isometric resistance exercises and high-impact contact sports to prevent acute aortic wall shear stress; (Option 4) Reviewing reproductive technologies (PGD with IVF, or prenatal diagnostic amniocentesis/CVS) so the couple can make informed family planning decisions; (Option 1) Educating Maya regarding hemophilia precautions for a male newborn (deferring elective circumcisions until coagulation factor VIII status is verified to prevent life-threatening hemorrhage); and (Option 5) Providing psychological support and disease-specific foundation resources. Aortic dilation of 4.4 cm is never a benign athletic finding in someone with Marfan phenotype. Folic acid prevents neural tube defects (multifactorial developmental defect), but cannot prevent or repair Mendelian single-gene DNA mutations."
         },
         "leftContent": {
           "tabs": [
@@ -5981,7 +5105,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "Young couple presenting for preconception genetic counseling and health assessment with complex family history of Cystic Fibrosis (autosomal recessive), Marfan syndrome (autosomal dominant), and Hemophilia A (X-linked recessive).",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782370000003",
@@ -5997,11 +5121,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Unilateral cleft lip extending into the left nasal floor and primary palate",
+              "text": "Microcephaly with head circumference below the 3rd percentile for gestational age",
               "correct": true
             },
             {
-              "text": "Smooth, flattened philtrum with a thin upper lip vermilion border",
+              "text": "Symmetric intrauterine growth restriction (birth weight, length, and head circumference all < 10th percentile)",
+              "correct": true
+            },
+            {
+              "text": "Short palpebral fissures (small eye openings) with low nasal bridge",
               "correct": true
             },
             {
@@ -6013,24 +5141,20 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Short palpebral fissures (small eye openings) with low nasal bridge",
-              "correct": true
-            },
-            {
-              "text": "Microcephaly with head circumference below the 3rd percentile for gestational age",
-              "correct": true
-            },
-            {
-              "text": "Symmetric intrauterine growth restriction (birth weight, length, and head circumference all < 10th percentile)",
-              "correct": true
-            },
-            {
               "text": "Normal vigorous cry, robust active tone, and birth weight at the 50th percentile",
               "correct": false
+            },
+            {
+              "text": "Unilateral cleft lip extending into the left nasal floor and primary palate",
+              "correct": true
+            },
+            {
+              "text": "Smooth, flattened philtrum with a thin upper lip vermilion border",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (Options 2 and 5) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 6 and 7) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 1) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 3) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
+          "explanation": "Cues indicative of prenatal teratogenic insult and congenital infection include: (Options 8 and 3) Classic facial features of Fetal Alcohol Syndrome (FAS): smooth philtrum, thin vermilion border of the upper lip, short palpebral fissures, and low nasal bridge; (Options 1 and 2) Microcephaly and symmetric intrauterine growth restriction (IUGR) reflecting impaired neuronal proliferation and cellular growth; (Option 7) Cleft lip/palate, a multifactorial congenital defect influenced by genetic predisposition and early embryologic environmental insults; and (Option 4) Hepatosplenomegaly and petechial/purpuric 'blueberry muffin' lesions (extramedullary hematopoiesis), which are classic hallmarks of intrauterine TORCH infections (e.g., Cytomegalovirus, Rubella, Toxoplasmosis). Macrosomia is associated with maternal gestational diabetes, not teratogenic fetal growth restriction."
         },
         "leftContent": {
           "tabs": [
@@ -6187,15 +5311,15 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
+                    "text": "excessive hyperactive gag reflex causing projectile bile vomiting",
+                    "correct": false
+                  },
+                  {
                     "text": "inadequate seal leading to air swallowing, fatigue, and milk aspiration",
                     "correct": true
                   },
                   {
                     "text": "metabolic ketoacidosis from carbohydrate malabsorption",
-                    "correct": false
-                  },
-                  {
-                    "text": "excessive hyperactive gag reflex causing projectile bile vomiting",
                     "correct": false
                   },
                   {
@@ -6510,7 +5634,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "Newborn infant presenting with intrauterine growth restriction, microcephaly, smooth philtrum, thin vermilion border, cleft lip, and sensorineural hearing impairment, prompting nursing analysis of teratogenic timing, TORCH infections, FAS, and multifactorial inheritance.",
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782380000001",
@@ -6528,7 +5652,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Right breast mass that is hard, fixed to underlying pectoralis fascia, and exhibits irregular, poorly demarcated borders",
+              "text": "Gradual growth of a uterine myometrial mass over 6 years without regional tissue invasion",
+              "correct": false
+            },
+            {
+              "text": "Smooth, well-circumscribed, mobile, non-tender pelvic mass confirmed to be confined within a fibrous capsule",
+              "correct": false
+            },
+            {
+              "text": "Palpable, firm, non-tender right axillary lymphadenopathy matted to surrounding soft tissue",
               "correct": true
             },
             {
@@ -6536,16 +5668,8 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Palpable, firm, non-tender right axillary lymphadenopathy matted to surrounding soft tissue",
+              "text": "Right breast mass that is hard, fixed to underlying pectoralis fascia, and exhibits irregular, poorly demarcated borders",
               "correct": true
-            },
-            {
-              "text": "Smooth, well-circumscribed, mobile, non-tender pelvic mass confirmed to be confined within a fibrous capsule",
-              "correct": false
-            },
-            {
-              "text": "Gradual growth of a uterine myometrial mass over 6 years without regional tissue invasion",
-              "correct": false
             },
             {
               "text": "Unintended weight loss of 6 kg (13.2 lb) over the past 8 weeks accompanied by deep bone ache",
@@ -6938,20 +6062,20 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "an expected, benign side effect of isosulfan blue dye excretion by the kidneys",
-                    "correct": true
+                    "text": "an acute sign of rhabdomyolysis and renal tubular necrosis",
+                    "correct": false
                   },
                   {
                     "text": "a severe anaphylactic reaction requiring epinephrine",
                     "correct": false
                   },
                   {
-                    "text": "an acute sign of rhabdomyolysis and renal tubular necrosis",
+                    "text": "evidence of urinary tract hemorrhage requiring bladder catheterization",
                     "correct": false
                   },
                   {
-                    "text": "evidence of urinary tract hemorrhage requiring bladder catheterization",
-                    "correct": false
+                    "text": "an expected, benign side effect of isosulfan blue dye excretion by the kidneys",
+                    "correct": true
                   }
                 ]
               },
@@ -7011,7 +6135,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782380000002",
@@ -7029,11 +6153,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Persistent, progressive change in bowel habits from normal daily stools to alternating obstipation and pencil-thin stools over 4 months",
+              "correct": true
+            },
+            {
               "text": "40 pack-year history of cigarette smoking and a sedentary lifestyle with a diet high in processed red meats and low in dietary fiber",
               "correct": true
             },
             {
-              "text": "Persistent, progressive change in bowel habits from normal daily stools to alternating obstipation and pencil-thin stools over 4 months",
+              "text": "Microcytic hypochromic anemia (hemoglobin 98 g/L) reflecting occult chronic gastrointestinal blood loss",
               "correct": true
             },
             {
@@ -7047,14 +6175,10 @@ window.NCLEX_CASES = [
             {
               "text": "Unusual rectal bleeding with dark maroon blood mixed throughout the stool and a positive fecal immunochemical test (FIT)",
               "correct": true
-            },
-            {
-              "text": "Microcytic hypochromic anemia (hemoglobin 98 g/L) reflecting occult chronic gastrointestinal blood loss",
-              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 2) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 5 and 6) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
+          "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 1) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 6 and 3) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
         },
         "leftContent": {
           "intro": "The nurse in an outpatient gastroenterology and endoscopy clinic is reviewing the health history of Robert Chen, a 61-year-old male presenting for diagnostic colonoscopy after abnormal screening tests.",
@@ -7252,16 +6376,16 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Engage in regular physical activity (at least 150 minutes of moderate exercise weekly) to achieve and maintain a healthy body mass index (BMI)",
-              "correct": true
+              "text": "Advise that screening colonoscopies are unnecessary once a client reaches 50 years of age if they feel asymptomatic",
+              "correct": false
             },
             {
               "text": "Instruct Robert that taking megadoses of over-the-counter vitamin E and beta-carotene supplements can completely replace surgical resection",
               "correct": false
             },
             {
-              "text": "Advise that screening colonoscopies are unnecessary once a client reaches 50 years of age if they feel asymptomatic",
-              "correct": false
+              "text": "Recommend that Robert's first-degree biological relatives (children and siblings) initiate screening colonoscopy 10 years earlier than his age of diagnosis",
+              "correct": true
             },
             {
               "text": "Adopt a high-fiber, plant-rich diet including fruits, vegetables, and whole grains while strictly reducing processed meats and saturated fats",
@@ -7272,12 +6396,12 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Recommend that Robert's first-degree biological relatives (children and siblings) initiate screening colonoscopy 10 years earlier than his age of diagnosis",
+              "text": "Engage in regular physical activity (at least 150 minutes of moderate exercise weekly) to achieve and maintain a healthy body mass index (BMI)",
               "correct": true
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1600.",
-          "explanation": "Canadian Cancer Statistics and cancer prevention guidelines establish that approximately 4 in 10 cancer cases are preventable through modifiable lifestyle factors: (Option 5) Tobacco cessation is paramount, as smoking causes 18-25% of all cancer deaths; (Options 1 and 4) Maintaining a healthy BMI through regular exercise (at least 150 mins/week) and a high-fiber diet rich in cruciferous vegetables reduces colon cancer risk; (Option 6) First-degree relatives of individuals with colorectal cancer have double the baseline risk and must begin screening at age 40 (or 10 years before the index case's diagnosis, whichever is earlier); (Option 2) Dietary supplements do not substitute for surgical and oncologic intervention. Colorectal cancer screening in asymptomatic adults is vital because early lesions produce no symptoms."
+          "explanation": "Canadian Cancer Statistics and cancer prevention guidelines establish that approximately 4 in 10 cancer cases are preventable through modifiable lifestyle factors: (Option 5) Tobacco cessation is paramount, as smoking causes 18-25% of all cancer deaths; (Options 6 and 4) Maintaining a healthy BMI through regular exercise (at least 150 mins/week) and a high-fiber diet rich in cruciferous vegetables reduces colon cancer risk; (Option 3) First-degree relatives of individuals with colorectal cancer have double the baseline risk and must begin screening at age 40 (or 10 years before the index case's diagnosis, whichever is earlier); (Option 2) Dietary supplements do not substitute for surgical and oncologic intervention. Colorectal cancer screening in asymptomatic adults is vital because early lesions produce no symptoms."
         },
         "leftContent": {
           "intro": "The nurse coordinates with the surgical oncology clinic to plan Robert's preoperative staging and provides personalized lifestyle risk reduction education.",
@@ -7397,16 +6521,16 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "involves the prolonged proliferation of mutated cells, which can be accelerated by modifiable factors like diet, smoking, and obesity",
-                    "correct": true
+                    "text": "is entirely caused by a benign bacterial infection that antibiotics can sterilize",
+                    "correct": false
                   },
                   {
                     "text": "occurs only after distant metastases have already spread to the liver and brain",
                     "correct": false
                   },
                   {
-                    "text": "is entirely caused by a benign bacterial infection that antibiotics can sterilize",
-                    "correct": false
+                    "text": "involves the prolonged proliferation of mutated cells, which can be accelerated by modifiable factors like diet, smoking, and obesity",
+                    "correct": true
                   },
                   {
                     "text": "is an irreversible single-second event occurring during embryonic development",
@@ -7418,19 +6542,19 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "monitor surgical treatment response, detect disease recurrence, and assess surveillance trends over time",
-                    "correct": true
-                  },
-                  {
                     "text": "confer passive immunotherapy by blocking epidermal growth factor receptors",
                     "correct": false
                   },
                   {
-                    "text": "serve as a standalone screening test to diagnose cancer in healthy young individuals",
+                    "text": "function as an internal radiotracer that destroys malignant cells during radiation therapy",
                     "correct": false
                   },
                   {
-                    "text": "function as an internal radiotracer that destroys malignant cells during radiation therapy",
+                    "text": "monitor surgical treatment response, detect disease recurrence, and assess surveillance trends over time",
+                    "correct": true
+                  },
+                  {
+                    "text": "serve as a standalone screening test to diagnose cancer in healthy young individuals",
                     "correct": false
                   }
                 ]
@@ -7481,7 +6605,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782380000003",
@@ -7499,32 +6623,32 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Unilateral dull, aching right-sided chest pain that intensifies with deep inspiration and coughing",
-              "correct": true
-            },
-            {
-              "text": "Unintended weight loss of 7.5 kg (16.5 lb) accompanied by persistent severe fatigue",
-              "correct": true
-            },
-            {
-              "text": "Progressive hoarseness of voice developing over the past 4 weeks without pharyngitis",
-              "correct": true
+              "text": "Acute rhinorrhea, sneezing, and itchy watery eyes triggered by exposure to cat dander",
+              "correct": false
             },
             {
               "text": "History of seasonal influenza immunization 6 months ago without respiratory complaints",
               "correct": false
             },
             {
+              "text": "Progressive hoarseness of voice developing over the past 4 weeks without pharyngitis",
+              "correct": true
+            },
+            {
+              "text": "Unilateral dull, aching right-sided chest pain that intensifies with deep inspiration and coughing",
+              "correct": true
+            },
+            {
               "text": "Persistent, nagging cough for 3 months with episodes of blood-streaked sputum (hemoptysis)",
               "correct": true
             },
             {
-              "text": "Acute rhinorrhea, sneezing, and itchy watery eyes triggered by exposure to cat dander",
-              "correct": false
+              "text": "Unintended weight loss of 7.5 kg (16.5 lb) accompanied by persistent severe fatigue",
+              "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Danielle presents with quintessential CAUTION warning signs of respiratory malignancy: (Options 3 and 5) 'N' &mdash; Nagging cough or hoarseness (cough > 3 months, hoarseness indicative of mediastinal tumor involvement and recurrent laryngeal nerve compression); (Option 5) 'U' &mdash; Unusual bleeding (hemoptysis / blood-streaked sputum from tumor erosion into bronchial vasculature); (Option 1) Local invasive signs (pleuritic chest pain from pleural or chest wall invasion); and (Option 2) Systemic hallmarks of advanced neoplasia (substantial unintentional weight loss and cancer fatigue). Allergic rhinitis and previous immunization are unrelated."
+          "explanation": "Danielle presents with quintessential CAUTION warning signs of respiratory malignancy: (Options 3 and 5) 'N' &mdash; Nagging cough or hoarseness (cough > 3 months, hoarseness indicative of mediastinal tumor involvement and recurrent laryngeal nerve compression); (Option 5) 'U' &mdash; Unusual bleeding (hemoptysis / blood-streaked sputum from tumor erosion into bronchial vasculature); (Option 4) Local invasive signs (pleuritic chest pain from pleural or chest wall invasion); and (Option 6) Systemic hallmarks of advanced neoplasia (substantial unintentional weight loss and cancer fatigue). Allergic rhinitis and previous immunization are unrelated."
         },
         "leftContent": {
           "intro": "The nurse in an outpatient thoracic oncology clinic is admitting Danielle Moreau, a 54-year-old female presenting for comprehensive diagnostic evaluation of an abnormal chest CT revealing a right hilar lung mass.",
@@ -7652,11 +6776,11 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "vascular endothelial growth factor (VEGF)",
-                    "correct": true
+                    "text": "acetylcholinesterase",
+                    "correct": false
                   },
                   {
-                    "text": "acetylcholinesterase",
+                    "text": "anti-diuretic hormone (ADH)",
                     "correct": false
                   },
                   {
@@ -7664,8 +6788,8 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "anti-diuretic hormone (ADH)",
-                    "correct": false
+                    "text": "vascular endothelial growth factor (VEGF)",
+                    "correct": true
                   }
                 ]
               },
@@ -7725,28 +6849,28 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
+              "text": "Advise the client that stage IV lung cancer with bone metastases is easily cured by a simple outpatient laser surgery",
+              "correct": false
+            },
+            {
               "text": "Perform comprehensive pain assessments, evaluating both visceral chest pain and somatic L3 bone pain, and administer prescribed analgesics on a scheduled around-the-clock basis",
               "correct": true
+            },
+            {
+              "text": "Encourage vigorous high-impact spinal twisting exercises and spinal manipulation to relieve the L3 bone pain",
+              "correct": false
             },
             {
               "text": "Provide supportive communication regarding palliative care goals, symptom management, and advance care planning",
               "correct": true
             },
             {
-              "text": "Advise the client that stage IV lung cancer with bone metastases is easily cured by a simple outpatient laser surgery",
-              "correct": false
-            },
-            {
               "text": "Monitor for neurological warning signs of spinal cord compression (lower extremity weakness, paresthesias, sensory level deficit, bowel/bladder dysfunction)",
               "correct": true
-            },
-            {
-              "text": "Encourage vigorous high-impact spinal twisting exercises and spinal manipulation to relieve the L3 bone pain",
-              "correct": false
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1600.",
-          "explanation": "Appropriate nursing interventions for stage IV metastatic cancer include: (Option 2) Scheduled, round-the-clock analgesic management for combined visceral and somatic/bone pain; (Option 5) Vigilant surveillance for spinal cord compression (an oncologic emergency caused by vertebral metastasis at L3 manifesting as progressive leg weakness, sensory loss, or incontinence); (Option 1) Education on bone-modifying agents to prevent pathological fractures, including dental precautions for osteonecrosis of the jaw; and (Option 3) Early palliative integration to address symptom burden, psychological coping, and advance directives. High-impact spinal manipulation over osteolytic vertebral metastases risks catastrophic pathological fracture and cord transection. Stage IV lung cancer is incurable, managed with palliative and life-prolonging systemic therapies."
+          "explanation": "Appropriate nursing interventions for stage IV metastatic cancer include: (Option 3) Scheduled, round-the-clock analgesic management for combined visceral and somatic/bone pain; (Option 6) Vigilant surveillance for spinal cord compression (an oncologic emergency caused by vertebral metastasis at L3 manifesting as progressive leg weakness, sensory loss, or incontinence); (Option 1) Education on bone-modifying agents to prevent pathological fractures, including dental precautions for osteonecrosis of the jaw; and (Option 5) Early palliative integration to address symptom burden, psychological coping, and advance directives. High-impact spinal manipulation over osteolytic vertebral metastases risks catastrophic pathological fracture and cord transection. Stage IV lung cancer is incurable, managed with palliative and life-prolonging systemic therapies."
         },
         "leftContent": {
           "intro": "The nurse collaborates with the medical oncologist, palliative care team, and radiation oncologist to formulate Danielle's symptom management and supportive care plan.",
@@ -7908,6 +7032,10 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
+                    "text": "feeling sleepy after taking her evening pain medication",
+                    "correct": false
+                  },
+                  {
                     "text": "new difficulty walking, leg heaviness, or loss of bowel or bladder control",
                     "correct": true
                   },
@@ -7917,10 +7045,6 @@ window.NCLEX_CASES = [
                   },
                   {
                     "text": "minor bruising around the IV port dressing site",
-                    "correct": false
-                  },
-                  {
-                    "text": "feeling sleepy after taking her evening pain medication",
                     "correct": false
                   }
                 ]
@@ -7950,7 +7074,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782380000004",
@@ -7968,12 +7092,12 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Severe temporal muscle wasting, sunken eyes, prominent ribs, and a 14% involuntary loss of body mass over 10 weeks despite nutritional supplements",
-              "correct": true
-            },
-            {
               "text": "Normal vigorous appetite with rapid 5 kg weight gain and generalized bilateral 3+ pitting pedal edema",
               "correct": false
+            },
+            {
+              "text": "Severe pallor, resting tachycardia (114 beats/min), fatigue, and hemoglobin of 72 g/L",
+              "correct": true
             },
             {
               "text": "Extensive oral erythema, ulcerations, and white pseudomembranous plaques causing excruciating pain on swallowing",
@@ -7984,7 +7108,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Severe pallor, resting tachycardia (114 beats/min), fatigue, and hemoglobin of 72 g/L",
+              "text": "Severe temporal muscle wasting, sunken eyes, prominent ribs, and a 14% involuntary loss of body mass over 10 weeks despite nutritional supplements",
               "correct": true
             },
             {
@@ -7993,7 +7117,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "",
-          "explanation": "Gerald exhibits life-threatening complications of advanced cancer and cytotoxic chemotherapy: (Option 6) Febrile neutropenia (temp >= 38.3° C with ANC < 500/mm³)—an oncologic emergency requiring immediate broad-spectrum antibiotics within 60 minutes due to absent inflammatory response; (Option 4) Severe thrombocytopenia (platelets 28 &times; 109/L) causing spontaneous cutaneous bleeding (petechiae, ecchymoses); (Option 5) Symptomatic severe anemia (hemoglobin 72 g/L with compensatory tachycardia and pallor); (Option 3) Grade 3 oral mucositis, serving as a painful barrier breakdown and prime portal for bacteremia/sepsis; and (Option 1) Cancer cachexia (profound wasting of skeletal muscle and adipose tissue driven by tumor-derived inflammatory cytokines). Rapid weight gain with pitting edema reflects volume overload/heart failure, not cachectic wasting."
+          "explanation": "Gerald exhibits life-threatening complications of advanced cancer and cytotoxic chemotherapy: (Option 6) Febrile neutropenia (temp >= 38.3° C with ANC < 500/mm³)—an oncologic emergency requiring immediate broad-spectrum antibiotics within 60 minutes due to absent inflammatory response; (Option 4) Severe thrombocytopenia (platelets 28 &times; 109/L) causing spontaneous cutaneous bleeding (petechiae, ecchymoses); (Option 2) Symptomatic severe anemia (hemoglobin 72 g/L with compensatory tachycardia and pallor); (Option 3) Grade 3 oral mucositis, serving as a painful barrier breakdown and prime portal for bacteremia/sepsis; and (Option 5) Cancer cachexia (profound wasting of skeletal muscle and adipose tissue driven by tumor-derived inflammatory cytokines). Rapid weight gain with pitting edema reflects volume overload/heart failure, not cachectic wasting."
         },
         "leftContent": {
           "intro": "The nurse in an oncology emergency department is evaluating Gerald Kowalski, a 67-year-old male with Stage IV pancreatic adenocarcinoma who completed cycle 3 of FOLFIRINOX chemotherapy 9 days ago.",
@@ -8440,7 +7564,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782380000005",
@@ -8462,7 +7586,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Inappropriately concentrated urine with high urine specific gravity (1.032) and elevated urine sodium (> 40 mmol/L)",
+              "text": "Generalized muscle weakness, depressed deep tendon reflexes (+1), and coarse muscle twitching",
               "correct": true
             },
             {
@@ -8470,16 +7594,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Generalized muscle weakness, depressed deep tendon reflexes (+1), and coarse muscle twitching",
+              "text": "Serum sodium level of 116 mmol/L with low serum osmolality (242 mOsm/kg)",
+              "correct": true
+            },
+            {
+              "text": "Inappropriately concentrated urine with high urine specific gravity (1.032) and elevated urine sodium (> 40 mmol/L)",
               "correct": true
             },
             {
               "text": "Serum sodium level of 152 mmol/L with massive dilute polyuria exceeding 6 liters daily",
               "correct": false
-            },
-            {
-              "text": "Serum sodium level of 116 mmol/L with low serum osmolality (242 mOsm/kg)",
-              "correct": true
             },
             {
               "text": "Profound volume depletion with severe orthostatic hypotension, dry mucous membranes, and tachycardia",
@@ -8645,11 +7769,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "spontaneous intracerebral aneurysm formation",
+                    "text": "rapid massive malignant tumor lysis syndrome",
                     "correct": false
                   },
                   {
-                    "text": "rapid massive malignant tumor lysis syndrome",
+                    "text": "spontaneous intracerebral aneurysm formation",
                     "correct": false
                   }
                 ]
@@ -8918,7 +8042,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T22:51:17.988Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782390000001",
@@ -8936,11 +8060,6 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Pearly, translucent, dome-shaped papule measuring 6 mm on the right nasal ala with prominent surface telangiectasias and rolled borders",
-              "correct": true,
-              "imageUrl": ""
-            },
-            {
               "text": "Asymmetrical, darkly pigmented lesion measuring 8 mm on the upper back with irregular, notched borders and variegated shades of black, brown, and pink",
               "correct": true
             },
@@ -8949,11 +8068,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Multiple flat, non-palpable, well-demarcated purple macules (senile purpura) measuring 1 to 2 cm on bilateral sun-exposed dorsal forearms",
+              "text": "Dry, flaky, coarse skin (xerosis) with superficial fine wrinkles across the face and neck",
               "correct": false
             },
             {
-              "text": "Dry, flaky, coarse skin (xerosis) with superficial fine wrinkles across the face and neck",
+              "text": "Pearly, translucent, dome-shaped papule measuring 6 mm on the right nasal ala with prominent surface telangiectasias and rolled borders",
+              "correct": true,
+              "imageUrl": ""
+            },
+            {
+              "text": "Multiple flat, non-palpable, well-demarcated purple macules (senile purpura) measuring 1 to 2 cm on bilateral sun-exposed dorsal forearms",
               "correct": false
             },
             {
@@ -9415,7 +8539,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-08T22:53:34.936Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782390000002",
@@ -9594,20 +8718,20 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "postherpetic neuralgia (debilitating persistent neuropathic pain lasting months to years)",
-                    "correct": true
+                    "text": "acute full-thickness fourth-degree skin necrosis across the entire thorax",
+                    "correct": false
                   },
                   {
                     "text": "spontaneous malignant transformation into cutaneous squamous cell carcinoma",
                     "correct": false
                   },
                   {
-                    "text": "acute full-thickness fourth-degree skin necrosis across the entire thorax",
+                    "text": "immediate systemic aplastic anemia and bone marrow fibrosis",
                     "correct": false
                   },
                   {
-                    "text": "immediate systemic aplastic anemia and bone marrow fibrosis",
-                    "correct": false
+                    "text": "postherpetic neuralgia (debilitating persistent neuropathic pain lasting months to years)",
+                    "correct": true
                   }
                 ]
               },
@@ -9619,11 +8743,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "airborne droplet nuclei traveling across long distances through ventilation ducts",
+                    "text": "ingestion of undercooked poultry or unwashed root vegetables",
                     "correct": false
                   },
                   {
-                    "text": "ingestion of undercooked poultry or unwashed root vegetables",
+                    "text": "airborne droplet nuclei traveling across long distances through ventilation ducts",
                     "correct": false
                   },
                   {
@@ -9663,15 +8787,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Emphasize strict separate laundering of Liam's and Marcus's towels, washcloths, and bed linens, and enforce meticulous hand hygiene after touching lesions",
-              "correct": true
-            },
-            {
-              "text": "Instruct Marcus to keep his shingles vesicles completely covered with clean, non-stick dressings until all blisters have crusted over",
-              "correct": true
-            },
-            {
-              "text": "Encourage Liam to attend elementary school immediately while weeping facial crusts are open and uncovered",
+              "text": "Instruct Marcus to scratch and vigorously pop the shingles vesicles with a needle to relieve the burning nerve pain",
               "correct": false
             },
             {
@@ -9679,16 +8795,24 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Instruct Marcus to scratch and vigorously pop the shingles vesicles with a needle to relieve the burning nerve pain",
+              "text": "Emphasize strict separate laundering of Liam's and Marcus's towels, washcloths, and bed linens, and enforce meticulous hand hygiene after touching lesions",
+              "correct": true
+            },
+            {
+              "text": "Encourage Liam to attend elementary school immediately while weeping facial crusts are open and uncovered",
               "correct": false
             },
             {
               "text": "Advise Marcus to strictly avoid contact with pregnant women who have not had chickenpox, unvaccinated infants, and immunocompromised individuals",
               "correct": true
+            },
+            {
+              "text": "Instruct Marcus to keep his shingles vesicles completely covered with clean, non-stick dressings until all blisters have crusted over",
+              "correct": true
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1215.",
-          "explanation": "Appropriate nursing care plans include: (Option 4) Softening and gently removing impetigo crusts with warm compresses so topical mupirocin can penetrate directly into underlying infected tissue; (Option 1) Strict fomite isolation (separate towels, linens) and frequent handwashing; (Option 2) Keeping shingles lesions covered, which prevents transmission of VZV from vesicular fluid to susceptible people; and (Option 6) Protecting non-immune individuals (pregnant women, infants, immunocompromised) because direct contact with shingles blister fluid can cause chickenpox in those without immunity. Children with active, draining impetigo should be excluded from school/daycare until 24 hours of effective antibiotic therapy has elapsed. Popping shingles vesicles risks secondary bacterial superinfection and does not relieve neuropathic pain."
+          "explanation": "Appropriate nursing care plans include: (Option 2) Softening and gently removing impetigo crusts with warm compresses so topical mupirocin can penetrate directly into underlying infected tissue; (Option 3) Strict fomite isolation (separate towels, linens) and frequent handwashing; (Option 6) Keeping shingles lesions covered, which prevents transmission of VZV from vesicular fluid to susceptible people; and (Option 5) Protecting non-immune individuals (pregnant women, infants, immunocompromised) because direct contact with shingles blister fluid can cause chickenpox in those without immunity. Children with active, draining impetigo should be excluded from school/daycare until 24 hours of effective antibiotic therapy has elapsed. Popping shingles vesicles risks secondary bacterial superinfection and does not relieve neuropathic pain."
         },
         "leftContent": {
           "intro": "The nurse organizes outpatient medication schedules, topical wound care, and contagion control strategies for both brothers.",
@@ -9833,7 +8957,7 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "sudden severe loss of deep tendon reflexes and foot drop",
+                    "text": "acute paraneoplastic hypercalcemia and polyuria",
                     "correct": false
                   },
                   {
@@ -9841,7 +8965,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "acute paraneoplastic hypercalcemia and polyuria",
+                    "text": "sudden severe loss of deep tendon reflexes and foot drop",
                     "correct": false
                   }
                 ]
@@ -9892,7 +9016,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782390000003",
@@ -9910,11 +9034,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Marked photosensitivity with acute flare of facial erythema, burning, and malaise following 30 minutes of direct sunlight exposure",
-              "correct": true
-            },
-            {
-              "text": "Painless, superficial ulcerations on the hard palate and buccal mucosa",
+              "text": "Fixed, erythematous, flat to slightly raised 'butterfly-shaped' rash spanning symmetrically across the bilateral cheeks and nasal bridge while sparing the nasolabial folds",
               "correct": true
             },
             {
@@ -9922,7 +9042,11 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Fixed, erythematous, flat to slightly raised 'butterfly-shaped' rash spanning symmetrically across the bilateral cheeks and nasal bridge while sparing the nasolabial folds",
+              "text": "Bilateral symmetric swelling, warmth, and stiffness of the proximal interphalangeal (PIP) and metacarpophalangeal (MCP) hand joints",
+              "correct": true
+            },
+            {
+              "text": "Painless, superficial ulcerations on the hard palate and buccal mucosa",
               "correct": true
             },
             {
@@ -9930,12 +9054,12 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Bilateral symmetric swelling, warmth, and stiffness of the proximal interphalangeal (PIP) and metacarpophalangeal (MCP) hand joints",
+              "text": "Marked photosensitivity with acute flare of facial erythema, burning, and malaise following 30 minutes of direct sunlight exposure",
               "correct": true
             }
           ],
           "preamble": "",
-          "explanation": "Maya presents with classic diagnostic criteria for Systemic Lupus Erythematosus (SLE): (Option 4) Characteristic malar 'butterfly' rash (erythema over the malar eminences and bridge of the nose, classically sparing the nasolabial folds); (Option 1) Photosensitivity (cutaneous rash triggered or worsened by ultraviolet sunlight); (Option 6) Non-erosive polyarthritis affecting small joints (MCP, PIP); and (Option 2) Oral/nasopharyngeal mucosal ulcers. Well-demarcated plaques with silvery scales on extensor surfaces (elbows/knees) characterize plaque psoriasis. Lichenified pruritic plaques in flexural folds (antecubital, popliteal) with an asthma history characterize atopic dermatitis."
+          "explanation": "Maya presents with classic diagnostic criteria for Systemic Lupus Erythematosus (SLE): (Option 1) Characteristic malar 'butterfly' rash (erythema over the malar eminences and bridge of the nose, classically sparing the nasolabial folds); (Option 6) Photosensitivity (cutaneous rash triggered or worsened by ultraviolet sunlight); (Option 3) Non-erosive polyarthritis affecting small joints (MCP, PIP); and (Option 4) Oral/nasopharyngeal mucosal ulcers. Well-demarcated plaques with silvery scales on extensor surfaces (elbows/knees) characterize plaque psoriasis. Lichenified pruritic plaques in flexural folds (antecubital, popliteal) with an asthma history characterize atopic dermatitis."
         },
         "leftContent": {
           "intro": "The nurse in a rheumatology and dermatology combined clinic is evaluating Maya Al-Mansoor, a 28-year-old female presenting with a persistent facial rash and polyarthralgias.",
@@ -10065,11 +9189,7 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "a potent environmental trigger that provokes severe systemic and cutaneous flare-ups",
-                    "correct": true
-                  },
-                  {
-                    "text": "a curative therapeutic modality that permanently suppresses autoantibody formation",
+                    "text": "a benign physical stimulus that only affects hair follicles",
                     "correct": false
                   },
                   {
@@ -10077,7 +9197,11 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "a benign physical stimulus that only affects hair follicles",
+                    "text": "a potent environmental trigger that provokes severe systemic and cutaneous flare-ups",
+                    "correct": true
+                  },
+                  {
+                    "text": "a curative therapeutic modality that permanently suppresses autoantibody formation",
                     "correct": false
                   }
                 ]
@@ -10085,6 +9209,10 @@ window.NCLEX_CASES = [
               {
                 "placeholder": "Select...",
                 "options": [
+                  {
+                    "text": "acute bacterial impetigo with extensive honey-colored crusts",
+                    "correct": false
+                  },
                   {
                     "text": "lupus nephritis and progressive renal impairment",
                     "correct": true
@@ -10095,10 +9223,6 @@ window.NCLEX_CASES = [
                   },
                   {
                     "text": "rapid spontaneous rupture of coronary artery aneurysms",
-                    "correct": false
-                  },
-                  {
-                    "text": "acute bacterial impetigo with extensive honey-colored crusts",
                     "correct": false
                   }
                 ]
@@ -10134,19 +9258,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Instruct Maya to monitor for signs of renal flare, including sudden weight gain, peripheral leg swelling, or foamy/frothy urine, and report them promptly",
-              "correct": true
-            },
-            {
-              "text": "Instruct Maya to apply broad-spectrum sunscreen (SPF ≥ 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
-              "correct": true
-            },
-            {
-              "text": "Educate Maya on the importance of baseline and annual ophthalmological examinations while taking hydroxychloroquine to screen for retinal toxicity",
-              "correct": true
-            },
-            {
-              "text": "Encourage Maya to use commercial sunlamps and tanning beds during winter months to keep her skin warm and improve joint stiffness",
+              "text": "Instruct Maya to abruptly discontinue prescribed oral corticosteroids as soon as her facial rash fades",
               "correct": false
             },
             {
@@ -10154,12 +9266,24 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Instruct Maya to abruptly discontinue prescribed oral corticosteroids as soon as her facial rash fades",
+              "text": "Educate Maya on the importance of baseline and annual ophthalmological examinations while taking hydroxychloroquine to screen for retinal toxicity",
+              "correct": true
+            },
+            {
+              "text": "Instruct Maya to apply broad-spectrum sunscreen (SPF ≥ 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
+              "correct": true
+            },
+            {
+              "text": "Encourage Maya to use commercial sunlamps and tanning beds during winter months to keep her skin warm and improve joint stiffness",
               "correct": false
+            },
+            {
+              "text": "Instruct Maya to monitor for signs of renal flare, including sudden weight gain, peripheral leg swelling, or foamy/frothy urine, and report them promptly",
+              "correct": true
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1430.",
-          "explanation": "Appropriate nursing education for SLE includes: (Option 2) Rigorous photoprotection (SPF 50+, protective clothing, avoiding sun) because UV light directly triggers cutaneous and systemic flares; (Option 3) Annual dilated ophthalmology exams for hydroxychloroquine retinopathy (maculopathy/bull's-eye damage); (Option 1) Surveillance for renal impairment (foamy urine indicating proteinuria, edema, hypertension); and (Option 5) Energy conservation and pacing for lupus fatigue. Tanning beds emit intense UV radiation that can provoke catastrophic lupus flares. Corticosteroids must never be stopped abruptly due to the risk of life-threatening secondary adrenal crisis."
+          "explanation": "Appropriate nursing education for SLE includes: (Option 4) Rigorous photoprotection (SPF 50+, protective clothing, avoiding sun) because UV light directly triggers cutaneous and systemic flares; (Option 3) Annual dilated ophthalmology exams for hydroxychloroquine retinopathy (maculopathy/bull's-eye damage); (Option 6) Surveillance for renal impairment (foamy urine indicating proteinuria, edema, hypertension); and (Option 2) Energy conservation and pacing for lupus fatigue. Tanning beds emit intense UV radiation that can provoke catastrophic lupus flares. Corticosteroids must never be stopped abruptly due to the risk of life-threatening secondary adrenal crisis."
         },
         "leftContent": {
           "intro": "The nurse conducts an outpatient counseling session with Maya to review lifestyle modifications, drug safety, and flare recognition.",
@@ -10363,7 +9487,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782390000004",
@@ -10381,15 +9505,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Progressive hoarseness of voice, brassy cough, and inspiratory stridor",
+              "text": "History of being trapped in a closed, poorly ventilated garage during an explosion and fire for approximately 10 minutes",
               "correct": true
             },
             {
-              "text": "Erythema and superficial epidermal peeling over the unburned posterior lower calves",
-              "correct": false
+              "text": "Singed facial hair, scorched eyebrows, and singed nasal vibrissae",
+              "correct": true
             },
             {
-              "text": "Singed facial hair, scorched eyebrows, and singed nasal vibrissae",
+              "text": "Progressive hoarseness of voice, brassy cough, and inspiratory stridor",
               "correct": true
             },
             {
@@ -10401,12 +9525,12 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "History of being trapped in a closed, poorly ventilated garage during an explosion and fire for approximately 10 minutes",
-              "correct": true
+              "text": "Erythema and superficial epidermal peeling over the unburned posterior lower calves",
+              "correct": false
             }
           ],
           "preamble": "",
-          "explanation": "Critical cues of thermal inhalation injury include: (Option 6) Fire/explosion in an enclosed, confined space; (Option 3) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 1) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
+          "explanation": "Critical cues of thermal inhalation injury include: (Option 1) Fire/explosion in an enclosed, confined space; (Option 2) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 3) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
         },
         "leftContent": {
           "intro": "The nurse in a regional burn trauma center is admitting Tyler Brooks, a 34-year-old industrial mechanic transported by emergency medical services (EMS) following an explosion and flash fire in an enclosed auto repair garage 45 minutes ago.",
@@ -10560,15 +9684,15 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
+                    "text": "less than 10 mL/hr to conserve plasma volume",
+                    "correct": false
+                  },
+                  {
                     "text": "at least 200 to 300 mL/hr to flush out cellular debris",
                     "correct": false
                   },
                   {
                     "text": "strictly 5 mL/kg/hr to induce hypervolemia",
-                    "correct": false
-                  },
-                  {
-                    "text": "less than 10 mL/hr to conserve plasma volume",
                     "correct": false
                   }
                 ]
@@ -10754,6 +9878,10 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
+                    "text": "severe irreversible hypocalcemic crisis",
+                    "correct": false
+                  },
+                  {
                     "text": "fluid remobilization and spontaneous diuretic phase",
                     "correct": true
                   },
@@ -10763,10 +9891,6 @@ window.NCLEX_CASES = [
                   },
                   {
                     "text": "immediate permanent cessation of all urine output",
-                    "correct": false
-                  },
-                  {
-                    "text": "severe irreversible hypocalcemic crisis",
                     "correct": false
                   }
                 ]
@@ -10779,11 +9903,11 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
-                    "text": "profound hemoconcentration with hematocrit rising above 65%",
+                    "text": "severe hyperkalemia with potassium exceeding 8.5 mmol/L",
                     "correct": false
                   },
                   {
-                    "text": "severe hyperkalemia with potassium exceeding 8.5 mmol/L",
+                    "text": "profound hemoconcentration with hematocrit rising above 65%",
                     "correct": false
                   },
                   {
@@ -10796,8 +9920,8 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "adequate arterial oxygenation on low ventilator settings without stridor or wheezing",
-                    "correct": true
+                    "text": "bilateral complete pneumothorax on chest radiograph",
+                    "correct": false
                   },
                   {
                     "text": "permanent mechanical ventilator dependence with 100% FiO₂",
@@ -10808,8 +9932,8 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "bilateral complete pneumothorax on chest radiograph",
-                    "correct": false
+                    "text": "adequate arterial oxygenation on low ventilator settings without stridor or wheezing",
+                    "correct": true
                   }
                 ]
               }
@@ -10843,7 +9967,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782390000005",
@@ -10861,19 +9985,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Right calf and foot feel cool to touch, with progressive loss of palpable dorsalis pedis and posterior tibial pulses, confirmed faint on Doppler ultrasound",
-              "correct": true
-            },
-            {
               "text": "Wound surface across the right lower leg is dry, leathery, charred white and dark brown, with complete absence of sensation to pinprick (insensate)",
-              "correct": true
-            },
-            {
-              "text": "Severe, unremitting deep ache and agonizing pain elicited upon passive dorsiflexion of the right toes",
-              "correct": true
-            },
-            {
-              "text": "Right calf tissue feels tense, rock-hard, and woody to palpation underneath the rigid circumferential burn eschar",
               "correct": true
             },
             {
@@ -10882,6 +9994,18 @@ window.NCLEX_CASES = [
             },
             {
               "text": "Paresthesias and progressive numbness spreading across the right plantar and dorsal foot surfaces",
+              "correct": true
+            },
+            {
+              "text": "Right calf tissue feels tense, rock-hard, and woody to palpation underneath the rigid circumferential burn eschar",
+              "correct": true
+            },
+            {
+              "text": "Right calf and foot feel cool to touch, with progressive loss of palpable dorsalis pedis and posterior tibial pulses, confirmed faint on Doppler ultrasound",
+              "correct": true
+            },
+            {
+              "text": "Severe, unremitting deep ache and agonizing pain elicited upon passive dorsiflexion of the right toes",
               "correct": true
             }
           ],
@@ -10999,15 +10123,15 @@ window.NCLEX_CASES = [
                     "correct": true
                   },
                   {
+                    "text": "melatonin and thyroid-stimulating hormone",
+                    "correct": false
+                  },
+                  {
                     "text": "anti-diuretic hormone and aldosterone alone",
                     "correct": false
                   },
                   {
                     "text": "insulin, parathyroid hormone, and calcitonin",
-                    "correct": false
-                  },
-                  {
-                    "text": "melatonin and thyroid-stimulating hormone",
                     "correct": false
                   }
                 ]
@@ -11090,7 +10214,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Apply prescribed topical antimicrobial agents (e.g., silver sulfadiazine or mafenide acetate) to debrided burn wounds using strict aseptic technique",
+              "text": "Administer prescribed intravenous opioid analgesics approximately 20 to 30 minutes prior to scheduled wound debridement and dressing changes",
               "correct": true
             },
             {
@@ -11098,7 +10222,7 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Administer prescribed intravenous opioid analgesics approximately 20 to 30 minutes prior to scheduled wound debridement and dressing changes",
+              "text": "Monitor blood glucose levels regularly, as burn-induced cortisol and catecholamine surges induce significant stress hyperglycemia and insulin resistance",
               "correct": true
             },
             {
@@ -11106,16 +10230,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Monitor blood glucose levels regularly, as burn-induced cortisol and catecholamine surges induce significant stress hyperglycemia and insulin resistance",
-              "correct": true
-            },
-            {
               "text": "Position the right knee and right ankle in comfortable, dependent, flexed positions with pillows beneath the knees at all times",
               "correct": false
+            },
+            {
+              "text": "Apply prescribed topical antimicrobial agents (e.g., silver sulfadiazine or mafenide acetate) to debrided burn wounds using strict aseptic technique",
+              "correct": true
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1330.",
-          "explanation": "Appropriate nursing interventions include: (Option 4) Aggressive physical therapy, ROM exercises, and splinting in neutral or extended positions to combat the powerful forces of myofibroblast-mediated scar contractures across joints; (Option 3) Pre-medicating with analgesics before dressing changes, which are intensely painful; (Option 1) Aseptic application of topical antimicrobials (silver sulfadiazine, mafenide acetate) to suppress microbial colonization in avascular eschar; and (Option 5) Glycemic monitoring, as stress hormones cause severe insulin resistance. Positioning limbs in dependent flexion ('positions of comfort') is the primary cause of crippling permanent contractures (e.g., knee flexion contractures, foot drop); joints must be maintained in functional extension. Complete immobilization promotes deep vein thrombosis and permanent joint ankylosis."
+          "explanation": "Appropriate nursing interventions include: (Option 4) Aggressive physical therapy, ROM exercises, and splinting in neutral or extended positions to combat the powerful forces of myofibroblast-mediated scar contractures across joints; (Option 1) Pre-medicating with analgesics before dressing changes, which are intensely painful; (Option 6) Aseptic application of topical antimicrobials (silver sulfadiazine, mafenide acetate) to suppress microbial colonization in avascular eschar; and (Option 3) Glycemic monitoring, as stress hormones cause severe insulin resistance. Positioning limbs in dependent flexion ('positions of comfort') is the primary cause of crippling permanent contractures (e.g., knee flexion contractures, foot drop); joints must be maintained in functional extension. Complete immobilization promotes deep vein thrombosis and permanent joint ankylosis."
         },
         "leftContent": {
           "intro": "The nurse coordinates physical and occupational therapy, wound care schedules, and pain management for Karen.",
@@ -11266,19 +10390,19 @@ window.NCLEX_CASES = [
                 "placeholder": "Select...",
                 "options": [
                   {
-                    "text": "custom-fitted pressure gradient garments (e.g., Jobst garments) 23 hours a day for 12 to 18 months",
-                    "correct": true
-                  },
-                  {
                     "text": "loose-fitting wool sweaters and thick denim trousers only",
                     "correct": false
                   },
                   {
-                    "text": "heavy metal leg braces that prevent all joint motion indefinitely",
+                    "text": "tight adhesive duct tape wrapped circumferentially around the scars",
                     "correct": false
                   },
                   {
-                    "text": "tight adhesive duct tape wrapped circumferentially around the scars",
+                    "text": "custom-fitted pressure gradient garments (e.g., Jobst garments) 23 hours a day for 12 to 18 months",
+                    "correct": true
+                  },
+                  {
+                    "text": "heavy metal leg braces that prevent all joint motion indefinitely",
                     "correct": false
                   }
                 ]
@@ -11334,140 +10458,7 @@ window.NCLEX_CASES = [
         }
       }
     ],
-    "updatedAt": "2026-10-01T23:05:05.131Z"
-  },
-  {
-    "id": "case_1789577787012",
-    "title": "NURS 1017 Unit 7 Bowtie 1: Ischemic Stroke with Atrial Fibrillation",
-    "unit": "Unit 7 (Neurological Disorders)",
-    "course": "NURS 1017",
-    "topic": "Unit 7 (Neurological Disorders)",
-    "disorder": "Unit 7 (Neurological Disorders)",
-    "description": "NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie item-type example: an older adult presents with classic ischemic stroke findings and a history of atrial fibrillation.",
-    "screens": [
-      {
-        "step": 1,
-        "question": {
-          "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client’s progress.",
-          "type": "bowtie",
-          "options": [
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            },
-            {
-              "text": "",
-              "correct": false
-            }
-          ],
-          "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
-          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
-          "explanation": "<b>Condition Most Likely Experiencing</b><br>Ischemic stroke: The client exhibits classic signs of a stroke (likely in the left hemisphere), including right-sided ptosis, facial drooping, right-sided hemiparesis, and expressive aphasia. The irregular apical pulse of 126 beats/min strongly suggests atrial fibrillation, which is a major risk factor for embolic ischemic strokes.<br><br><b>Actions to Take</b><br>Administer oxygen at 2 L/min via nasal cannula: The client's pulse oximetry reading is 90% on room air, indicating mild hypoxia that needs to be corrected to prevent further brain tissue ischemia.<br>Insert a peripheral venous access device (VAD): Establishing IV access is a critical immediate step for suspected stroke patients to facilitate emergency lab draws, CT contrast administration, and potential thrombolytic therapy (e.g., tPA) or other medications.<br><br><b>Parameters to Monitor</b><br>Neurologic status: Continuous neuro assessments (such as the NIH Stroke Scale) are vital to track the progression or resolution of the client's deficits and to monitor for potential complications like increased intracranial pressure.<br>Electrocardiogram (ECG) rhythm: Because the client presented with an irregular, tachycardic apical pulse (126 beats/min), continuous ECG monitoring is necessary to evaluate the rhythm (likely atrial fibrillation) and guide rate/rhythm control interventions.",
-          "bowtieParams": [
-            {
-              "text": "urine output",
-              "correct": false
-            },
-            {
-              "text": "temperature",
-              "correct": false
-            },
-            {
-              "text": "neurologic status",
-              "correct": true
-            },
-            {
-              "text": "serum glucose level",
-              "correct": false
-            },
-            {
-              "text": "electrocardiogram (ECG) rhythm",
-              "correct": true
-            }
-          ],
-          "bowtieActions": [
-            {
-              "text": "Administer oxygen at 2 L/min via nasal cannula.",
-              "correct": true
-            },
-            {
-              "text": "Request a prescription for an oral corticosteroid.",
-              "correct": false
-            },
-            {
-              "text": "Insert a peripheral venous access device (VAD).",
-              "correct": true
-            },
-            {
-              "text": "Obtain a urine specimen for urinalysis and culture and sensitivity (C & S).",
-              "correct": false
-            },
-            {
-              "text": "Request an order for 50% dextrose in water to be administered intravenously.",
-              "correct": false
-            }
-          ],
-          "bowtieCol1Header": "Actions to Take",
-          "bowtieCol2Header": "Potential Conditions",
-          "bowtieCol3Header": "Parameters to Monitor",
-          "bowtieConditions": [
-            {
-              "text": "Bell's palsy",
-              "correct": false
-            },
-            {
-              "text": "hypoglycemia",
-              "correct": false
-            },
-            {
-              "text": "ischemic stroke",
-              "correct": true
-            },
-            {
-              "text": "urinary tract infection (UTI)",
-              "correct": false
-            }
-          ],
-          "bowtieLeftPlaceholder": "",
-          "bowtieRightPlaceholder": "",
-          "bowtieCenterPlaceholder": ""
-        },
-        "leftContent": {
-          "tabs": [
-            {
-              "id": "nn_1789577787012",
-              "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Client presents with right-sided ptosis and facial drooping, right-sided hemiparesis, and expressive aphasia. Client’s adult child reports that the client recently had influenza. On assessment, skin is warm and dry. Lung sounds are clear; apical pulse is irregular. Bowel sounds are active in all quadrants. Client is incontinent of urine 2 times in the ED; adult child reports that the client is typically continent of urine. Capillary refill of 3 seconds. Peripheral pulses palpable, 2+. Vital signs: T 97.5° F (36.4° C), P 126 beats/min, RR 18 breaths/min, BP 188/90 mm Hg, pulse oximetry reading 90% on room air.</span></p>"
-            },
-            {
-              "id": "tab_1789577946502",
-              "title": "History and Physical",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurological</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of a stroke 2 years ago</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiovascular</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of hypertension; atrial fibrillation; hyperlipidemia</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Gastrointestinal</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of gastrointestinal bleeding 2 months ago</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Endocrine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of diabetes mellitus (type 2) for 30 years</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Immunological</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">influenza 3 weeks ago</td></tr></tbody></table>"
-            },
-            {
-              "id": "tab_1789578518012",
-              "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>random serum glucose</b><br>Elderly 60-90 years: 4.6-6.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr></tbody></table>"
-            }
-          ],
-          "intro": "The nurse in the emergency department (ED) is caring for a 79-year-old female client."
-        }
-      }
-    ],
-    "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782370000004",
@@ -11483,7 +10474,19 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Waddling gait with exaggerated lumbar lordosis and difficulty climbing stairs",
+              "correct": true
+            },
+            {
               "text": "Uses his hands to push up on his thighs to rise from the floor, taking 7 seconds",
+              "correct": true
+            },
+            {
+              "text": "Walked independently at 18 months, with frequent falls and toe-walking",
+              "correct": true
+            },
+            {
+              "text": "Enlarged, firm, rubbery calf muscles bilaterally",
               "correct": true
             },
             {
@@ -11491,28 +10494,16 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Enlarged, firm, rubbery calf muscles bilaterally",
-              "correct": true
+              "text": "Age-appropriate hand grip and fine motor skills",
+              "correct": false
             },
             {
               "text": "Maternal uncle died at age 20 of heart and breathing failure from a childhood-onset muscle disease",
               "correct": true
             },
             {
-              "text": "Age-appropriate hand grip and fine motor skills",
-              "correct": false
-            },
-            {
-              "text": "Waddling gait with exaggerated lumbar lordosis and difficulty climbing stairs",
-              "correct": true
-            },
-            {
               "text": "Height at the 40th percentile and weight at the 50th percentile",
               "correct": false
-            },
-            {
-              "text": "Walked independently at 18 months, with frequent falls and toe-walking",
-              "correct": true
             }
           ],
           "preamble": "",
@@ -11722,6 +10713,22 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Recommend that Sarah, as a confirmed carrier, have periodic cardiac screening",
+              "correct": true
+            },
+            {
+              "text": "Monitor serum creatine kinase every week to measure how fast the disease is progressing",
+              "correct": false
+            },
+            {
+              "text": "Place an alert in Ethan's chart and provide a wallet card stating that succinylcholine and inhaled volatile anesthetics must be avoided",
+              "correct": true
+            },
+            {
+              "text": "Recommend a high-calorie diet to build muscle mass",
+              "correct": false
+            },
+            {
               "text": "Confirm varicella immunity and complete any outstanding immunizations before starting prednisone",
               "correct": true
             },
@@ -11730,28 +10737,12 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Teach the family a daily home stretching program for the heel cords and hips, and use night-time ankle-foot orthoses",
-              "correct": true
-            },
-            {
               "text": "Encourage swimming and tricycle riding, and avoid trampolines and repeated downhill running",
               "correct": true
             },
             {
-              "text": "Recommend a high-calorie diet to build muscle mass",
-              "correct": false
-            },
-            {
-              "text": "Place an alert in Ethan's chart and provide a wallet card stating that succinylcholine and inhaled volatile anesthetics must be avoided",
+              "text": "Teach the family a daily home stretching program for the heel cords and hips, and use night-time ankle-foot orthoses",
               "correct": true
-            },
-            {
-              "text": "Recommend that Sarah, as a confirmed carrier, have periodic cardiac screening",
-              "correct": true
-            },
-            {
-              "text": "Monitor serum creatine kinase every week to measure how fast the disease is progressing",
-              "correct": false
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1100 and the Care Plan Orders.",
@@ -12007,7 +10998,7 @@ window.NCLEX_CASES = [
     ],
     "disorder": "Unit 3 (Genetic and Developmental Disorders)",
     "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes.",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1782390000006",
@@ -14183,6 +13174,30 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "SpO2 96% on RA",
+              "correct": false
+            },
+            {
+              "text": "BP 178/92 mm Hg",
+              "correct": true
+            },
+            {
+              "text": "Unable to ambulate without leg pain",
+              "correct": true
+            },
+            {
+              "text": "DVT 10 years ago after a total knee arthroplasty",
+              "correct": false
+            },
+            {
+              "text": "Blood glucose 6.54 mmol/L (118 mg/dL)",
+              "correct": false
+            },
+            {
+              "text": "Pedal pulses in both feet 1+",
+              "correct": false
+            },
+            {
               "text": "Painful right lower leg",
               "correct": true
             },
@@ -14191,40 +13206,16 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Unable to ambulate without leg pain",
-              "correct": true
-            },
-            {
-              "text": "Pedal pulses in both feet 1+",
+              "text": "Hypercholesterolemia controlled by lovastatin",
               "correct": false
             },
             {
               "text": "H/O type 2 diabetes mellitus",
               "correct": false
-            },
-            {
-              "text": "DVT 10 years ago after a total knee arthroplasty",
-              "correct": false
-            },
-            {
-              "text": "Hypercholesterolemia controlled by lovastatin",
-              "correct": false
-            },
-            {
-              "text": "BP 178/92 mm Hg",
-              "correct": true
-            },
-            {
-              "text": "SpO2 96% on RA",
-              "correct": false
-            },
-            {
-              "text": "Blood glucose 6.54 mmol/L (118 mg/dL)",
-              "correct": false
             }
           ],
           "preamble": "The nurse reviews the 0825 nurses’ notes for a 71-year-old client who was admitted to the ED.",
-          "explanation": "The client presented to the ED with a painful, red, warm, and swollen right lower leg (Options 1, 2). The pain prevents the client from ambulating without pain (Option 3). All of these findings are of immediate concern to the nurse because the client could be experiencing a postoperative complication that could become life-threatening. The client's blood pressure is elevated (Option 8), which is also of immediate concern and needs to be addressed. The SpO2 of 96% is normal (95% and greater) and the blood glucose of 6.54 mmol/L (118 mg/dL) is within expected limits for this client and would not be of concern to the nurse. The client's history of diabetes mellitus and hypercholesterolemia are also not concerning at this time because they are being effectively managed. The client's history of DVT would be considered as a factor that could influence the treatment plan, but is not of immediate concern to the nurse. Although normal pedal pulses would be 2+ rather than 1+, the client is an older adult who has type 2 diabetes. Older adults often develop arteriosclerosis/atherosclerosis as physiological changes associated with aging. These arterial changes cause narrowing and decreased blood flow, resulting in diminished distal pulse strength. Peripheral arterial disease is a common vascular complication of diabetes that results in decreased circulation to distal extremities. Pedal pulses are 1+ bilaterally, indicating that the client's right lower leg swelling is not affecting perfusion at this time. Therefore, diminished pedal pulses are not of immediate concern to the nurse."
+          "explanation": "The client presented to the ED with a painful, red, warm, and swollen right lower leg (Options 7, 8). The pain prevents the client from ambulating without pain (Option 3). All of these findings are of immediate concern to the nurse because the client could be experiencing a postoperative complication that could become life-threatening. The client's blood pressure is elevated (Option 2), which is also of immediate concern and needs to be addressed. The SpO2 of 96% is normal (95% and greater) and the blood glucose of 6.54 mmol/L (118 mg/dL) is within expected limits for this client and would not be of concern to the nurse. The client's history of diabetes mellitus and hypercholesterolemia are also not concerning at this time because they are being effectively managed. The client's history of DVT would be considered as a factor that could influence the treatment plan, but is not of immediate concern to the nurse. Although normal pedal pulses would be 2+ rather than 1+, the client is an older adult who has type 2 diabetes. Older adults often develop arteriosclerosis/atherosclerosis as physiological changes associated with aging. These arterial changes cause narrowing and decreased blood flow, resulting in diminished distal pulse strength. Peripheral arterial disease is a common vascular complication of diabetes that results in decreased circulation to distal extremities. Pedal pulses are 1+ bilaterally, indicating that the client's right lower leg swelling is not affecting perfusion at this time. Therefore, diminished pedal pulses are not of immediate concern to the nurse."
         },
         "leftContent": {
           "tabs": [
@@ -14339,11 +13330,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "Hemorrhage",
-                    "correct": true
-                  },
-                  {
-                    "text": "Hyperkalemia",
+                    "text": "Acute kidney injury",
                     "correct": false
                   },
                   {
@@ -14351,8 +13338,12 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "Acute kidney injury",
+                    "text": "Hyperkalemia",
                     "correct": false
+                  },
+                  {
+                    "text": "Hemorrhage",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -14439,31 +13430,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "Neurological: Monitor level of consciousness.",
+              "correct": true
+            },
+            {
               "text": "Respiratory: Initiate continuous pulse oximetry monitoring.",
               "correct": true
             },
             {
-              "text": "Respiratory: Administer oxygen therapy via nasal cannula.",
-              "correct": true
-            },
-            {
-              "text": "Respiratory: Use incentive spirometry every 2 hours.",
-              "correct": false
-            },
-            {
-              "text": "Respiratory: Assess lung sounds at least every shift.",
-              "correct": false
-            },
-            {
               "text": "Respiratory: Elevate the head of the bed.",
-              "correct": true
-            },
-            {
-              "text": "Cardiovascular: Prepare to administer IV crystalloid such as lactated Ringer’s.",
-              "correct": true
-            },
-            {
-              "text": "Cardiovascular: Assess vital signs at least hourly.",
               "correct": true
             },
             {
@@ -14471,15 +13446,31 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Neurological: Monitor level of consciousness.",
-              "correct": true
+              "text": "Respiratory: Assess lung sounds at least every shift.",
+              "correct": false
             },
             {
               "text": "Neurological: Perform neurological checks every 4 hours.",
               "correct": false
             },
             {
+              "text": "Cardiovascular: Assess vital signs at least hourly.",
+              "correct": true
+            },
+            {
+              "text": "Respiratory: Use incentive spirometry every 2 hours.",
+              "correct": false
+            },
+            {
+              "text": "Cardiovascular: Prepare to administer IV crystalloid such as lactated Ringer’s.",
+              "correct": true
+            },
+            {
               "text": "Neurological: Provide reassurance to the client.",
+              "correct": true
+            },
+            {
+              "text": "Respiratory: Administer oxygen therapy via nasal cannula.",
               "correct": true
             }
           ],
@@ -14579,7 +13570,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 1 (Blood Disorders)",
     "description": "A 71-year-old client develops a right lower leg deep vein thrombosis (DVT) that progresses to a submassive pulmonary embolism, from recognize cues through evaluate outcomes.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1786030000001",
@@ -14596,11 +13587,7 @@ window.NCLEX_CASES = [
           "limit": 4,
           "options": [
             {
-              "text": "vital signs",
-              "correct": true
-            },
-            {
-              "text": "lung sounds",
+              "text": "radial pulse characteristics",
               "correct": true
             },
             {
@@ -14612,11 +13599,15 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "radial pulse characteristics",
+              "text": "lung sounds",
               "correct": true
             },
             {
               "text": "characteristics of the cough",
+              "correct": true
+            },
+            {
+              "text": "vital signs",
               "correct": true
             }
           ],
@@ -14992,7 +13983,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 78-year-old female client with pneumonia and a history of atrial fibrillation, presenting with fever, cough, and confusion, progressing toward septic shock, from recognize cues through evaluate outcomes.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1786060000002",
@@ -15012,15 +14003,11 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "shoulder pain",
-              "correct": true
-            },
-            {
               "text": "laboratory results",
               "correct": true
             },
             {
-              "text": "productive cough",
+              "text": "temperature and pulse oximetry reading",
               "correct": false
             },
             {
@@ -15028,17 +14015,21 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
+              "text": "productive cough",
+              "correct": false
+            },
+            {
               "text": "pulse, respirations, and blood pressure",
               "correct": true
             },
             {
-              "text": "temperature and pulse oximetry reading",
-              "correct": false
+              "text": "shoulder pain",
+              "correct": true
             }
           ],
           "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
           "preamble": "",
-          "explanation": "Diminished breath sounds in the left lung fields (Option 1) require follow-up, since combined with the trauma history they raise concern for a hemothorax. Left shoulder pain (Option 2) requires follow-up because it can represent Kehr's sign, referred pain from diaphragmatic irritation caused by bleeding from a splenic injury, not just the client's old rotator cuff history. The laboratory results (Option 3) require follow-up: the hemoglobin of 9 g/dL and hematocrit of 27% are well below normal, consistent with ongoing blood loss, and the WBC of 19,000/mm&sup3; reflects an acute inflammatory/traumatic response. The abdominal assessment findings (Option 5) require follow-up: LUQ bruising, tenderness, guarding, and dullness to percussion over the spleen's location are classic signs of splenic injury with possible intra-abdominal bleeding. The pulse, respirations, and blood pressure (Option 6) require follow-up because tachycardia (116), tachypnea (24), and hypotension (90/50) together are early signs of hypovolemic shock from blood loss. A productive cough (Option 4) is a nonspecific finding already reflected in the more specific lung sounds finding above, and the temperature and pulse oximetry reading (Option 7) are within normal limits and do not require follow-up."
+          "explanation": "Diminished breath sounds in the left lung fields (Option 1) require follow-up, since combined with the trauma history they raise concern for a hemothorax. Left shoulder pain (Option 7) requires follow-up because it can represent Kehr's sign, referred pain from diaphragmatic irritation caused by bleeding from a splenic injury, not just the client's old rotator cuff history. The laboratory results (Option 2) require follow-up: the hemoglobin of 9 g/dL and hematocrit of 27% are well below normal, consistent with ongoing blood loss, and the WBC of 19,000/mm&sup3; reflects an acute inflammatory/traumatic response. The abdominal assessment findings (Option 4) require follow-up: LUQ bruising, tenderness, guarding, and dullness to percussion over the spleen's location are classic signs of splenic injury with possible intra-abdominal bleeding. The pulse, respirations, and blood pressure (Option 6) require follow-up because tachycardia (116), tachypnea (24), and hypotension (90/50) together are early signs of hypovolemic shock from blood loss. A productive cough (Option 5) is a nonspecific finding already reflected in the more specific lung sounds finding above, and the temperature and pulse oximetry reading (Option 3) are within normal limits and do not require follow-up."
         },
         "leftContent": {
           "tabs": [
@@ -15291,23 +14282,15 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Mark the surgical site.",
-              "correct": true
-            },
-            {
-              "text": "Provide the client with ice chips.",
+              "text": "Ask the client's parents to wait in the waiting room while the plan of care is discussed with the client.",
               "correct": false
-            },
-            {
-              "text": "Perform a medication reconciliation.",
-              "correct": true
             },
             {
               "text": "Obtain consent for surgery from the client.",
               "correct": false
             },
             {
-              "text": "Insert a peripheral venous access device (VAD).",
+              "text": "Mark the surgical site.",
               "correct": true
             },
             {
@@ -15315,11 +14298,19 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
+              "text": "Perform a medication reconciliation.",
+              "correct": true
+            },
+            {
               "text": "Assess the client's previous experience with surgery and anesthesia.",
               "correct": true
             },
             {
-              "text": "Ask the client's parents to wait in the waiting room while the plan of care is discussed with the client.",
+              "text": "Insert a peripheral venous access device (VAD).",
+              "correct": true
+            },
+            {
+              "text": "Provide the client with ice chips.",
               "correct": false
             }
           ],
@@ -15427,7 +14418,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 17-year-old male client with a splenic laceration and left-sided hemothorax from blunt trauma, from recognize cues through evaluate outcomes.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1786060000003",
@@ -15443,7 +14434,19 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
+              "text": "H. pylori +",
+              "correct": true
+            },
+            {
               "text": "Worsening epigastric pain",
+              "correct": true
+            },
+            {
+              "text": "Has depression",
+              "correct": false
+            },
+            {
+              "text": "Lives in a car",
               "correct": true
             },
             {
@@ -15455,20 +14458,8 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Has depression",
-              "correct": false
-            },
-            {
-              "text": "Lives in a car",
-              "correct": true
-            },
-            {
               "text": "SpO2 95% on RA",
               "correct": false
-            },
-            {
-              "text": "H. pylori +",
-              "correct": true
             }
           ],
           "preamble": "The nurse reviews the nurses’ note for a 54-year-old client who was seen in the community health clinic.",
@@ -15751,8 +14742,16 @@ window.NCLEX_CASES = [
           "limit": 5,
           "options": [
             {
-              "text": "Urinary output",
+              "text": "Pain intensity",
               "correct": true
+            },
+            {
+              "text": "Hematemesis",
+              "correct": true
+            },
+            {
+              "text": "Finger-stick blood glucose",
+              "correct": false
             },
             {
               "text": "Oxygen saturation",
@@ -15767,16 +14766,8 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Hematemesis",
+              "text": "Urinary output",
               "correct": true
-            },
-            {
-              "text": "Pain intensity",
-              "correct": true
-            },
-            {
-              "text": "Finger-stick blood glucose",
-              "correct": false
             }
           ],
           "preamble": "The client is brought to the ED and following an assessment, the nurse documents in the Nurses’ Notes. Laboratory studies are prescribed and results are reported.",
@@ -15885,7 +14876,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "A 54-year-old client with H. pylori-associated gastritis/peptic ulcer disease that progresses to a GI bleed and hypovolemia, from a community health clinic visit through ED stabilization and transfer to the medical unit.",
     "availability": "all",
-    "updatedAt": "2026-10-01T23:05:05.131Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z"
   },
   {
     "id": "case_1790621568594",
@@ -16219,7 +15210,7 @@ window.NCLEX_CASES = [
   {
     "id": "cardio-case-1",
     "unit": "Unit 2 (Cardiovascular Disorders)",
-    "title": "Case Study 1",
+    "title": "NURS 1021 Unit 2 Case Study 1",
     "topic": "Unit 2 (Cardiovascular Disorders)",
     "course": "NURS 1021",
     "screens": [
@@ -16230,12 +15221,12 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "lung assessment",
-              "correct": true
+              "text": "pedal pulses",
+              "correct": false
             },
             {
-              "text": "client orientation",
-              "correct": false
+              "text": "lung assessment",
+              "correct": true
             },
             {
               "text": "capillary refill time",
@@ -16246,7 +15237,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "pedal pulses",
+              "text": "client orientation",
               "correct": false
             },
             {
@@ -16341,15 +15332,15 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "",
+                    "text": "high-Fowler’s",
                     "correct": true
                   },
                   {
-                    "text": "",
+                    "text": "Trendelenburg",
                     "correct": false
                   },
                   {
-                    "text": "",
+                    "text": "supine",
                     "correct": false
                   }
                 ],
@@ -16358,20 +15349,20 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "initiating non-rebreather mask oxygen therapy",
-                    "correct": true
+                    "text": "performing chest physiotherapy",
+                    "correct": false
                   },
                   {
                     "text": "administering a rapid IV fluid bolus",
                     "correct": false
                   },
                   {
-                    "text": "performing chest physiotherapy",
+                    "text": "preparing for immediate endotracheal intubation",
                     "correct": false
                   },
                   {
-                    "text": "preparing for immediate endotracheal intubation",
-                    "correct": false
+                    "text": "initiating non-rebreather mask oxygen therapy",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Choose..."
@@ -16469,19 +15460,19 @@ window.NCLEX_CASES = [
           "type": "multiple_choice",
           "options": [
             {
-              "text": "epinephrine",
-              "correct": true
-            },
-            {
-              "text": "ramipril",
-              "correct": false
-            },
-            {
               "text": "nitroglycerin",
               "correct": false
             },
             {
               "text": "metoprolol",
+              "correct": false
+            },
+            {
+              "text": "epinephrine",
+              "correct": true
+            },
+            {
+              "text": "ramipril",
               "correct": false
             }
           ],
@@ -16546,7 +15537,7 @@ window.NCLEX_CASES = [
             }
           ],
           "preamble": "The nurse has reviewed the Nurses' Notes from 1200.",
-          "explanation": "1. Gaining 0.5 lbs overnight is normal fluctuation;&nbsp; clients are taught to report 2-3 lbs in 24 hours or 5 lbs in a week. 2. Client should stop smoking entirely, not limiting to 1 cigarette per day. 3. Heart failure clients require fluid restriction, not increased fluids."
+          "explanation": "Gaining 0.5 lb overnight is normal fluctuation;&nbsp; clients are taught to report 2-3 lbs in 24 hours or 5 lbs in a week. The client should stop smoking entirely, not limiting to 1 cigarette per day. Clients with heart failure require fluid restriction, not increased fluids."
         },
         "leftContent": {
           "tabs": [
@@ -16571,9 +15562,13 @@ window.NCLEX_CASES = [
       }
     ],
     "disorder": "Unit 2 (Cardiovascular Disorders)",
-    "updatedAt": "2026-10-14T18:44:52.899Z",
-    "description": "",
-    "availability": "all"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "description": "A 72-year-old male client in the emergency department in respiratory distress from acute heart failure that progresses from the left to the right side, through diagnostics, medications, and discharge teaching.",
+    "availability": "all",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nTitle \"NURS 1021 Unit 2 Case Study 1\" and description made up. Please check both.\nScreen 3: the first drop-down had three empty choices; now high-Fowler’s (correct, per the rationale), supine and Trendelenburg.\nScreen 6 rationale no longer numbers its points 1–3 (they looked like option numbers).",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790769567553",
@@ -17096,12 +16091,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Tuberculosis (medical-surgical): contact tracing, diagnosis, infection control, medication teaching, and 4-week follow-up.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nIsoniazid is shown as 300 mg PO daily (the source said 1000 mg, above the maximum). Confirm the regimen and dose.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800002",
     "unit": "Unit 3 (Respiratory Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS3",
     "topic": "Unit 3 (Respiratory Disorders)",
     "course": "NURS 1021",
@@ -17122,7 +16121,7 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Lactate 4.5 mmol/L",
+              "text": "Lactate 2.4 mmol/L",
               "correct": false
             },
             {
@@ -17142,7 +16141,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Blood culture: gram-negative cocci",
+              "text": "Blood culture: gram-negative rods",
               "correct": false
             },
             {
@@ -17152,7 +16151,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Acute Respiratory Distress&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "The client has signs and symptoms of infection and respiratory failure. The most urgent findings are related to respiratory failure: a pH of 7.20 indicating an acidic state, a PaCO<sub>2</sub> above 50 mm Hg, tachypnea (RR 30 breaths/min), and a pulse oximetry reading of 87% on high-flow oxygen. The blood pressure is elevated but is not yet critical."
+          "explanation": "The client has signs and symptoms of infection and respiratory failure. The most urgent findings are related to respiratory failure: a pH of 7.20 indicating an acidic state, a PaCO<sub>2</sub> above 50 mm Hg, tachypnea (RR 30 breaths/min), and a pulse oximetry reading of 87% on high-flow oxygen. The blood pressure is elevated but is not yet critical. The WBC count, the gram-negative rods in the blood culture and the mildly raised lactate point to infection; they need follow-up and treatment, but the failing gas exchange threatens life first."
         },
         "leftContent": {
           "tabs": [
@@ -17164,7 +16163,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_1790776800002",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative rods</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress."
@@ -17228,7 +16227,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_1790776800002",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative rods</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress."
@@ -17271,7 +16270,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_1790776800002",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative rods</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress."
@@ -17354,7 +16353,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_1790776800002",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative rods</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress."
@@ -17372,7 +16371,7 @@ window.NCLEX_CASES = [
             {
               "id": "ht_1790776800002",
               "title": "Orders",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Insert urinary catheter}<br>{Suction endotracheal tube as needed}<br>{Titrate oxygen to keep pulse oximetry reading at or above 95%}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Start IV of 0.9% sodium chloride at 75 mL/hr|correct}<br>{Amoxicillin 500 mg IVPB every 12 hours}<br>{Midazolam 2&ndash;4 mg IV push every 1 hour as needed for agitation|correct}<br>{Acetaminophen 650 mg per rectum every 8 hours as needed for T &gt; 100.8° F (38.2° C)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Perform 12-lead ECG}<br>{Call for chest X-ray|correct}<br>{Blood gas in 30 minutes}</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Insert urinary catheter}<br>{Suction endotracheal tube as needed}<br>{Titrate oxygen to keep pulse oximetry reading at or above 95%}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Start IV of 0.9% sodium chloride at 75 mL/hr|correct}<br>{Piperacillin-tazobactam 4.5 g IVPB every 6 hours}<br>{Midazolam 2&ndash;4 mg IV push every 1 hour as needed for agitation|correct}<br>{Acetaminophen 650 mg per rectum every 8 hours as needed for T &gt; 100.8° F (38.2° C)}</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">{Perform 12-lead ECG}<br>{Call for chest X-ray|correct}<br>{Blood gas in 30 minutes}</td></tr></tbody></table>"
             }
           ],
           "maxCorrectSelections": 3
@@ -17387,7 +16386,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_1790776800002",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative rods</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress."
@@ -17464,12 +16463,12 @@ window.NCLEX_CASES = [
             {
               "id": "labs_1790776800002",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative cocci</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Arterial pH</b><br>7.35&ndash;7.45</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.20</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaO<sub>2</sub></b><br>75&ndash;100 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">75 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>PaCO<sub>2</sub></b><br>35&ndash;45 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">51 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>SaO<sub>2</sub></b><br>95&ndash;100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Bicarbonate (HCO<sub>3</sub><sup>&minus;</sup>)</b><br>22&ndash;26 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">35.0 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Magnesium</b><br>0.75&ndash;1.05 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.75 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5&ndash;2.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Blood culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Gram-negative rods</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sputum culture</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Pending</td></tr></tbody></table>"
             },
             {
               "id": "orders_1790776800002",
               "title": "Orders",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Insert urinary catheter<br>Suction endotracheal tube as needed<br>Titrate oxygen to keep pulse oximetry reading at or above 95%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Start IV of 0.9% sodium chloride at 75 mL/hr<br>Amoxicillin 500 mg IVPB every 12 hours<br>Midazolam 2&ndash;4 mg IV push every 1 hour as needed for agitation<br>Acetaminophen 650 mg per rectum every 8 hours as needed for T &gt; 100.8° F (38.2° C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Perform 12-lead ECG<br>Call for chest X-ray<br>Blood gas in 30 minutes</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Insert urinary catheter<br>Suction endotracheal tube as needed<br>Titrate oxygen to keep pulse oximetry reading at or above 95%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Start IV of 0.9% sodium chloride at 75 mL/hr<br>Piperacillin-tazobactam 4.5 g IVPB every 6 hours<br>Midazolam 2&ndash;4 mg IV push every 1 hour as needed for agitation<br>Acetaminophen 650 mg per rectum every 8 hours as needed for T &gt; 100.8° F (38.2° C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Perform 12-lead ECG<br>Call for chest X-ray<br>Blood gas in 30 minutes</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 78-year-old female client admitted to the medical intensive care unit in respiratory distress."
@@ -17479,12 +16478,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County. Acute respiratory failure (medical-surgical): a 78-year-old client in the ICU with pneumonia progresses to intubation and mechanical ventilation.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nIV amoxicillin (no IV form) replaced by piperacillin-tazobactam 4.5 g IVPB every 6 hours.\nBlood culture now \"gram-negative rods\" (was cocci).\nSaO₂ changed from 96% to 94% to fit the PaO₂ of 75 mm Hg.\nLactate changed from 4.5 to 2.4 mmol/L (a lactate of 4.5 would have been one of the most urgent findings on screen 1); rationale sentence added.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800004",
     "unit": "Unit 4 (Neoplasia)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS4",
     "topic": "Unit 4 (Neoplasia)",
     "course": "NURS 1017",
@@ -17603,7 +16606,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Sodium 148 mmol/L",
+                "text": "Axillary lymph node removal 45 days ago",
                 "correctIndex": 1,
                 "correctIndices": [
                   1
@@ -17626,7 +16629,7 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Breast Cancer&rdquo; medical-surgical faculty case study (Kimberly Allen, DNP, RN, CNE; Stephanie Howard, MS, CRNP, FNP-C; Lisa Seldomridge, PhD, RN, CNE; Salisbury University, May 14, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "R arm swelling can be associated with cellulitis, lymphedema, and DVT. R arm numbness and tingling can occur with postoperative lymphedema and with DVT. A temperature within the normal range could be seen with lymphedema and DVT, while an elevated temperature would be expected with cellulitis.<br>Tachycardia is not usually associated with lymphedema but can accompany the inflammatory response of cellulitis. Hypernatremia is not usually associated with cellulitis or DVT but could contribute to the swelling seen in lymphedema, and a low albumin level (reduced oncotic pressure) can also contribute to lymphedema; it is not usually a factor in DVT or cellulitis."
+          "explanation": "R arm swelling can be associated with cellulitis, lymphedema, and DVT. R arm numbness and tingling can occur with postoperative lymphedema and with DVT. A temperature within the normal range could be seen with lymphedema and DVT, while an elevated temperature would be expected with cellulitis.<br>Tachycardia is not usually associated with lymphedema but can accompany the inflammatory response of cellulitis. Removal of axillary lymph nodes interrupts lymph drainage from the arm and is the main risk factor for lymphedema after breast cancer surgery. A low albumin level (reduced oncotic pressure) can also contribute to lymphedema; it is not usually a factor in DVT or cellulitis."
         },
         "leftContent": {
           "tabs": [
@@ -17770,7 +16773,7 @@ window.NCLEX_CASES = [
             },
             {
               "text": "Amoxicillin PO",
-              "correct": true
+              "correct": false
             },
             {
               "text": "Physical therapy",
@@ -17779,7 +16782,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Breast Cancer&rdquo; medical-surgical faculty case study (Kimberly Allen, DNP, RN, CNE; Stephanie Howard, MS, CRNP, FNP-C; Lisa Seldomridge, PhD, RN, CNE; Salisbury University, May 14, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse suspects that the client has lymphedema.",
-          "explanation": "Mild pain should be treated with acetaminophen; ibuprofen should be avoided when platelets are low. Supporting the client&rsquo;s nutritional status is important, and the client can have a diet as tolerated. Oral antibiotics such as amoxicillin are indicated to treat a possible infection that may have triggered the lymphedema. Sequential pneumatic compression helps mobilize lymphatic fluid from the hand and lower arm, and physical therapists can teach techniques and exercises to reduce lymphedema swelling.<br>Anticoagulants are not indicated because the Doppler ultrasound showed no clot."
+          "explanation": "Mild pain should be treated with acetaminophen; ibuprofen should be avoided when platelets are low. Supporting the client&rsquo;s nutritional status is important, and the client can have a diet as tolerated. An antibiotic such as amoxicillin is not anticipated: the client is afebrile, and the arm has no redness or warmth, so no infection is suspected. Because she is neutropenic, she is watched closely for infection, and a fever is reported at once. Sequential pneumatic compression helps mobilize lymphatic fluid from the hand and lower arm, and physical therapists can teach techniques and exercises to reduce lymphedema swelling.<br>Anticoagulants are not indicated because the Doppler ultrasound showed no clot."
         },
         "leftContent": {
           "tabs": [
@@ -17879,7 +16882,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd04",
               "title": "Admission Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO amoxicillin and acetaminophen, sequential pneumatic compression, and physical therapy.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO acetaminophen, sequential pneumatic compression, and physical therapy.</span></p>"
             },
             {
               "id": "hp_umd04",
@@ -17979,7 +16982,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd04",
               "title": "Admission Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO amoxicillin and acetaminophen, sequential pneumatic compression, and physical therapy. PO acetaminophen and amoxicillin given with 240 mL fluids. R arm elevated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Orders received for discharge home. Prescriptions include amoxicillin 500 mg PO twice daily for 10 days; acetaminophen 500 mg PO twice daily. Consult outpatient physical therapy and home health nursing for sequential pneumatic compression device. Client states, &ldquo;I am very concerned about how my arm got like this. I am afraid I won&rsquo;t be able to manage at home.&rdquo;</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO acetaminophen, sequential pneumatic compression, and physical therapy. PO acetaminophen given with 240 mL fluids. R arm elevated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Orders received for discharge home. Prescriptions include acetaminophen 500 mg PO every 6 hours as needed for pain. Consult outpatient physical therapy and home health nursing for sequential pneumatic compression device. Client states, &ldquo;I am very concerned about how my arm got like this. I am afraid I won&rsquo;t be able to manage at home.&rdquo;</span></p>"
             },
             {
               "id": "hp_umd04",
@@ -18004,12 +17007,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 4 (Neoplasia)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, May 14, 2023; Authors: Kimberly Allen, Stephanie Howard, Lisa Seldomridge, Salisbury University. Breast cancer: a client with pancytopenia after chemotherapy presents with right-arm lymphedema after a radical mastectomy; cellulitis and DVT are ruled out, and the nurse plans care and discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 2: the author's key kept (numbness/tingling → lymphedema and DVT; HR 104 → cellulitis only). Please confirm.\nScreen 2: the weak row \"Sodium 148 mmol/L\" is now \"Axillary lymph node removal 45 days ago\" (lymphedema).\nScreen 4: amoxicillin is now NOT anticipated (no signs of infection; neutropenic client); it was removed from the 1130 orders note and the discharge prescriptions.\nDischarge acetaminophen changed from twice daily to every 6 hours as needed.\nScreen 6 \"ice bag = no understanding\" kept (avoid temperature extremes on the affected arm). Please confirm.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800005",
     "unit": "Unit 5 (Integumentary Disorders and Burns)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS5",
     "topic": "Unit 5 (Integumentary Disorders and Burns)",
     "course": "NURS 1017",
@@ -18022,20 +17029,12 @@ window.NCLEX_CASES = [
           "limit": 4,
           "options": [
             {
-              "text": "Respirations",
+              "text": "Urine output",
               "correct": true
             },
             {
               "text": "Pitting edema",
               "correct": false
-            },
-            {
-              "text": "Blood pressure",
-              "correct": true
-            },
-            {
-              "text": "Urine output",
-              "correct": true
             },
             {
               "text": "Heart rate",
@@ -18046,12 +17045,20 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Pulse oximetry reading",
-              "correct": false
+              "text": "Respirations",
+              "correct": true
             },
             {
               "text": "Pain",
               "correct": false
+            },
+            {
+              "text": "Pulse oximetry reading",
+              "correct": false
+            },
+            {
+              "text": "Blood pressure",
+              "correct": true
             }
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
@@ -18063,7 +17070,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd05",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
             },
             {
               "id": "vs_umd05",
@@ -18140,7 +17147,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd05",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
             },
             {
               "id": "vs_umd05",
@@ -18209,7 +17216,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd05",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
             },
             {
               "id": "vs_umd05",
@@ -18283,7 +17290,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd05",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
             },
             {
               "id": "vs_umd05",
@@ -18331,7 +17338,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd05",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
             },
             {
               "id": "vs_umd05",
@@ -18418,7 +17425,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd05",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\">IV rate increased. Labs drawn. Portable chest X-ray done.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2300:</span><span class=\"nurse-note-text\">Audible stridor.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\">IV rate increased. Labs drawn. Portable chest X-ray done.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2300:</span><span class=\"nurse-note-text\">Audible stridor.</span></p>"
             },
             {
               "id": "vs_umd05",
@@ -18428,7 +17435,7 @@ window.NCLEX_CASES = [
             {
               "id": "io_umd05",
               "title": "Intake and Output",
-              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mL</td></tr></tbody></table>"
+              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1584 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mL</td></tr></tbody></table>"
             },
             {
               "id": "ord_umd05",
@@ -18448,12 +17455,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated May 16, 2023); Author: Stacy McGrath, Salisbury University. Burns: a 55-year-old client with 2nd- and 3rd-degree burns develops burn shock during fluid resuscitation and then signs of upper airway edema.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nBurns now encircle both legs (front and back), so 36% TBSA (and the 14,400 mL Parkland total) matches the Rule of Nines.\nIntake and output: the 2300 IV rate is now 1584 mL/hr (+20% for the 10 mL/hr urine output at 2200, per the titration order).\nAlbumin order kept as \"systolic BP < 80 or diastolic BP < 50\". Please confirm \"or\" vs \"and\".",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800006",
     "unit": "Unit 2 (Cardiovascular Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS6",
     "topic": "Unit 2 (Cardiovascular Disorders)",
     "course": "NURS 1021",
@@ -18499,7 +17510,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd06",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
             },
             {
               "id": "dx_umd06",
@@ -18589,7 +17600,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd06",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
             },
             {
               "id": "dx_umd06",
@@ -18633,12 +17644,12 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "blockage",
-                    "correct": true
-                  },
-                  {
                     "text": "rupture",
                     "correct": false
+                  },
+                  {
+                    "text": "blockage",
+                    "correct": true
                   },
                   {
                     "text": "spasm",
@@ -18651,14 +17662,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "The client&rsquo;s laboratory results and symptoms are congruent with a STEMI. A STEMI occurs when an unstable plaque in the wall of a coronary artery suddenly ruptures and a clot builds up over it. The clot totally blocks the artery, and the blood supply to that part of the heart is lost."
+          "explanation": "The client&rsquo;s laboratory results and symptoms are congruent with a STEMI. A STEMI occurs when an unstable plaque in the wall of a coronary artery suddenly ruptures and a clot builds up over it. The clot totally blocks the artery, and the blood supply to that part of the heart is lost. It is the plaque that ruptures, not the artery, so the infarction is caused by a blockage of the coronary artery; spasm causes variant (Prinzmetal) angina."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd06",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
             },
             {
               "id": "dx_umd06",
@@ -18739,7 +17750,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd06",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
             },
             {
               "id": "dx_umd06",
@@ -18766,7 +17777,7 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "enoxaparin 100 mg SC",
+                    "text": "enoxaparin 30 mg IV and 100 mg SC",
                     "correct": false
                   },
                   {
@@ -18801,14 +17812,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chest Pain (MI)&rdquo; medical-surgical faculty case study (Kadriyya Clark, DNP, RN, CNE, Community College of Baltimore County, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Orders.",
-          "explanation": "Tenecteplase is a tissue plasminogen activator that dissolves the clot blocking the coronary artery. When fibrinolysis is the reperfusion strategy for a STEMI, the standard of care is to give it within 30 minutes of arrival (door-to-needle time)."
+          "explanation": "Tenecteplase is a tissue plasminogen activator that dissolves the clot blocking the coronary artery. When fibrinolysis is the reperfusion strategy for a STEMI, the standard of care is to give it within 30 minutes of arrival (door-to-needle time). Primary PCI within 90 minutes is preferred when a catheterization laboratory is available; this hospital has none, so the fibrinolytic is given within 30 minutes."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd06",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p>"
             },
             {
               "id": "dx_umd06",
@@ -18823,7 +17834,7 @@ window.NCLEX_CASES = [
             {
               "id": "ord_umd06",
               "title": "Orders",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 100 mg SC<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 30 mg IV bolus, then 100 mg SC every 12 hours (1 mg/kg; maximum 100 mg for the first 2 doses)<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
@@ -18888,7 +17899,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd06",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 93% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1025:</span><span class=\"nurse-note-text\">Orders received. Tenecteplase given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">VS: T 99° F (37.2° C); HR 120 beats/min; RR 22 breaths/min; BP 150/85 mm Hg; pulse oximetry reading 95% on 2 L/min via nasal cannula; pain 6/10.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">60-year-old male client admitted to the emergency department with crushing sternal pain radiating down the left arm that is worse with walking. Pain began 2 hours ago while walking outside. Client also reports shortness of breath with activity. Reports taking a regular aspirin on the way to the hospital. VS: T 99° F (37.2° C); HR 110 beats/min; RR 22 breaths/min; BP 160/90 mm Hg; pulse oximetry reading 88% on room air; chest pain 8/10. Weight reported as 280 lb (127 kg), BMI 35. This hospital has no cardiac catheterization laboratory, so fibrinolysis is the reperfusion plan. Started on unit chest pain protocol. Oxygen applied and nitroglycerin given. A peripheral IV line has been placed in the client&rsquo;s left arm. Morphine given. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1025:</span><span class=\"nurse-note-text\">Orders received. Tenecteplase given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">VS: T 99° F (37.2° C); HR 120 beats/min; RR 22 breaths/min; BP 150/85 mm Hg; pulse oximetry reading 95% on 2 L/min via nasal cannula; pain 6/10.</span></p>"
             },
             {
               "id": "dx_umd06",
@@ -18903,7 +17914,7 @@ window.NCLEX_CASES = [
             {
               "id": "ord_umd06",
               "title": "Orders",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 100 mg SC<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Enoxaparin 30 mg IV bolus, then 100 mg SC every 12 hours (1 mg/kg; maximum 100 mg for the first 2 doses)<br>Metoprolol 25 mg PO<br>Tenecteplase 50 mg IV<br>Morphine sulfate 2 mg IV every 15 minutes as needed for pain</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 60-year-old male client admitted to the emergency department with chest pain."
@@ -18913,12 +17924,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 2 (Cardiovascular Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Kadriyya Clark, Community College of Baltimore County. Chest pain (MI): a 60-year-old client with an anterior STEMI; the nurse interprets the ECG and biomarkers, gives fibrinolytic therapy, and evaluates the response.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nRoom-air SpO₂ changed from 93% to 88%, so starting oxygen fits current ACS guidelines (oxygen when SpO₂ < 90%).\nEnoxaparin written as the fibrinolysis regimen (30 mg IV bolus, then 1 mg/kg SC, maximum 100 mg); drop-down choice updated.\nAdded that the hospital has no catheterization lab, which explains fibrinolysis within 30 minutes.\nScreen 3 key \"blockage\" kept (the source had no key); rationale now explains plaque rupture vs blockage. Please confirm.\nThe CS6 bow-tie (stand-alone, still hidden) still keys oxygen and aspirin wording; not changed.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800007",
     "unit": "Unit 6 (Musculoskeletal Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS7",
     "topic": "Unit 6 (Musculoskeletal Disorders)",
     "course": "NURS 1017",
@@ -18963,7 +17978,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd07",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
             },
             {
               "id": "nv_umd07",
@@ -19044,7 +18059,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd07",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
             },
             {
               "id": "nv_umd07",
@@ -19129,7 +18144,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd07",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
             },
             {
               "id": "nv_umd07",
@@ -19209,7 +18224,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd07",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
             },
             {
               "id": "nv_umd07",
@@ -19236,8 +18251,8 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Obtain vital signs every hour for 4 hours",
-              "correct": true
+              "text": "Obtain vital signs every 15 minutes for 2 hours",
+              "correct": false
             },
             {
               "text": "Assist client to use bedpan to void",
@@ -19262,14 +18277,14 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "The nurse has reviewed the Orders from 1130 and the Neurovascular Flow Sheet from 1130. The nurse has reviewed the updated orders placed by the provider.",
-          "explanation": "To accomplish all the tasks needed for this client, the nurse may delegate some tasks to the UAP. Measuring and documenting vital signs, intake and output, and height and weight may be done by the UAP, and the UAP may help the client keep the extremity in the proper position as instructed by the nurse.<br>The UAP cannot perform assessments or monitor neurovascular status. It is the nurse&rsquo;s responsibility to ensure the client is ready for surgery; the preoperative checklist is used to ensure all preoperative criteria are met."
+          "explanation": "To accomplish all the tasks needed for this client, the nurse may delegate some tasks to the UAP. Measuring intake and output and documenting height and weight may be done by the UAP, and the UAP may help the client keep the extremity in the proper position as instructed by the nurse.<br>The UAP cannot perform assessments or monitor neurovascular status. It is the nurse&rsquo;s responsibility to ensure the client is ready for surgery; the preoperative checklist is used to ensure all preoperative criteria are met. The vital signs every 15 minutes stay with the nurse: the client has been hypotensive (BP 82/44 mm Hg) and is unstable, so each set must be interpreted together with the neurovascular checks."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd07",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
             },
             {
               "id": "nv_umd07",
@@ -19351,14 +18366,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1145 and 1245 and the Neurovascular Flow Sheet from 1145 and 1245. The nurse follows up on tasks delegated to the UAP, reviews the vital signs, and updates the neurovascular flow sheet with the most recent assessment.",
-          "explanation": "Since the onset of symptoms (1100), the pain rating, motion, and color have improved, as shown in the neurovascular assessment.<br>The warmth and the pulse have declined (the extremity is now cold with an absent pulse), and the sensation and capillary refill are unchanged."
+          "explanation": "Since the onset of symptoms (1100), the pain rating, motion, and color have improved, as shown in the neurovascular assessment.<br>The warmth and the pulse have declined (the extremity is now cold with an absent pulse), and the sensation and capillary refill are unchanged. A limb that is now cold with an absent pulse is a serious decline even though the pain is less: pain relief together with loss of the pulse can mean ongoing ischemia, so the nurse notifies the provider immediately."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd07",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Cast removed at bedside; see updated flow sheet.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">VS: BP 116/70 mm Hg, HR 88 beats/min, RR 16 breaths/min, T 98.8° F (37.1° C), pain 3/10.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Cast removed at bedside; see updated flow sheet.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">VS: BP 116/70 mm Hg, HR 88 beats/min, RR 16 breaths/min, T 98.8° F (37.1° C), pain 3/10.</span></p>"
             },
             {
               "id": "nv_umd07",
@@ -19378,12 +18393,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Musculoskeletal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Compartment syndrome: after ORIF of a tibia-fibula fracture, a 23-year-old client develops neurovascular compromise; the nurse recognizes it, anticipates orders, delegates, and evaluates after cast removal.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 5: the vital-signs task now matches the STAT order (every 15 minutes) and is not delegated (unstable client).\nScreen 6: rationale now flags the cold, pulseless limb as urgent.\nRR 29 at 0830 changed to 20 (likely typo).\nScreen 6 colour keyed Improved (flow sheet N at 1245); the CS7 trend (stand-alone) shows pale (P) for the same time. Please confirm.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800008",
     "unit": "Unit 3 (Respiratory Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS8",
     "topic": "Unit 3 (Respiratory Disorders)",
     "course": "NURS 1021",
@@ -19395,7 +18414,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Bilateral digital clubbing",
+              "text": "Barrel chest appearance",
               "correct": false
             },
             {
@@ -19429,14 +18448,14 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "The nurse reviews the client&rsquo;s initial assessment.",
-          "explanation": "Impaired gas exchange, shown by tachypnea, accessory muscle use, coarse crackles, and green-tinged sputum, is the priority.<br>The client is afebrile at 99.0° F (37.2° C). Digital clubbing reflects chronic hypoxemia, and the smoking history and medication noncompliance are less acute, nonurgent findings that do not require priority nursing intervention."
+          "explanation": "Impaired gas exchange, shown by tachypnea, accessory muscle use, coarse crackles, and green-tinged sputum, is the priority.<br>The client is afebrile at 99.0° F (37.2° C). A barrel chest reflects long-standing hyperinflation, and the smoking history and medication noncompliance are less acute, nonurgent findings that do not require priority nursing intervention."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd08",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath.</span></p>"
             },
             {
               "id": "vs_umd08",
@@ -19481,10 +18500,11 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Digital clubbing",
+                "text": "Green-tinged sputum",
                 "correctIndex": 1,
                 "correctIndices": [
-                  1
+                  1,
+                  2
                 ]
               },
               {
@@ -19507,14 +18527,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "",
-          "explanation": "Clinical manifestations of COPD include dyspnea, cough, an increased anteroposterior diameter (barrel chest), digital clubbing, and expiratory wheezing. A barrel chest and digital clubbing are not manifestations of pneumonia, asthma, or pulmonary embolism.<br>Dyspnea occurs with all four conditions. Wheezing is rare with pulmonary embolism, and the cough is dry or blood-tinged."
+          "explanation": "Clinical manifestations of COPD include dyspnea, cough, an increased anteroposterior diameter (barrel chest), and expiratory wheezing. A barrel chest is not a manifestation of pneumonia, asthma, or pulmonary embolism. Green (purulent) sputum fits a bacterial COPD exacerbation or pneumonia. Digital clubbing is not a feature of COPD itself; it suggests another cause, such as lung cancer.<br>Dyspnea occurs with all four conditions. Wheezing is rare with pulmonary embolism, and the cough is dry or blood-tinged."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd08",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath.</span></p>"
             },
             {
               "id": "vs_umd08",
@@ -19557,7 +18577,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd08",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath.</span></p>"
             },
             {
               "id": "vs_umd08",
@@ -19584,7 +18604,7 @@ window.NCLEX_CASES = [
             },
             {
               "text": "Nursing: Encourage client use of incentive spirometer",
-              "correct": true
+              "correct": false
             },
             {
               "text": "Medication: Ondansetron",
@@ -19601,14 +18621,14 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Chronic Obstructive Pulmonary Disease (COPD I)&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "The nurse anticipates the provider&rsquo;s orders and considers possible nursing interventions.",
-          "explanation": "The client is experiencing a COPD exacerbation. A high-Fowler&rsquo;s position and the incentive spirometer maximize lung expansion and improve ventilatory effort. Ipratropium bromide with albuterol and methylprednisolone relieve the airway narrowing and inflammation causing the exacerbation.<br>Uncontrolled high-flow oxygen in a client with COPD can cause carbon dioxide retention (CO<sub>2</sub> narcosis); oxygen is titrated to a target saturation instead. Ondansetron is not indicated because the client has no nausea or vomiting."
+          "explanation": "The client is experiencing a COPD exacerbation. A high-Fowler&rsquo;s position maximizes lung expansion and eases the work of breathing. An incentive spirometer is not effective while the client is in severe respiratory distress; airway clearance is reconsidered once the exacerbation settles. Ipratropium bromide with albuterol and methylprednisolone relieve the airway narrowing and inflammation causing the exacerbation.<br>Uncontrolled high-flow oxygen in a client with COPD can cause carbon dioxide retention (CO<sub>2</sub> narcosis); oxygen is titrated to a target saturation instead. Ondansetron is not indicated because the client has no nausea or vomiting."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd08",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath.</span></p>"
             },
             {
               "id": "vs_umd08",
@@ -19651,7 +18671,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd08",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">Client has increasing dyspnea and prefers to sit up in the chair. Requesting &ldquo;rescue inhaler.&rdquo; Provider notified. IV started. Ipratropium bromide and albuterol nebulizer treatment started.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">Client has increasing dyspnea and prefers to sit up in the chair. Requesting &ldquo;rescue inhaler.&rdquo; Provider notified. Oxygen 1 L/min by nasal cannula started, titrated to a pulse oximetry reading of 88&ndash;92%. IV started. Ipratropium bromide and albuterol nebulizer treatment started.</span></p>"
             },
             {
               "id": "vs_umd08",
@@ -19661,7 +18681,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd08",
               "title": "Medication Orders",
-              "content": "<p><b>Provider-ordered medications (emergency department)</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Ipratropium bromide and albuterol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3 mL (ipratropium bromide 0.5 mg and albuterol 2.5 mg) by nebulizer 4 times a day; first dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Acetaminophen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 mg PO once, as needed for moderate to severe back pain</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Methylprednisolone sodium succinate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">40 mg IV push, 1 dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Amoxicillin/clavulanate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">875 mg/125 mg PO every 12 hours</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Albuterol sulfate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.5 mg/3 mL by nebulizer every 4 hours as needed</td></tr></tbody></table>"
+              "content": "<p><b>Provider-ordered medications (emergency department)</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Ipratropium bromide and albuterol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3 mL (ipratropium bromide 0.5 mg and albuterol 2.5 mg) by nebulizer 4 times a day; first dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Acetaminophen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 mg PO every 6 hours as needed for mild pain or fever</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Methylprednisolone sodium succinate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">40 mg IV push, 1 dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Amoxicillin/clavulanate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">875 mg/125 mg PO every 12 hours</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Albuterol sulfate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.5 mg/3 mL by nebulizer every 4 hours as needed</td></tr></tbody></table>"
             }
           ],
           "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue."
@@ -19740,17 +18760,17 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd08",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath. Clubbing noted in all digits bilaterally.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">Client has increasing dyspnea and prefers to sit up in the chair. Requesting &ldquo;rescue inhaler.&rdquo; Provider notified. IV started. Ipratropium bromide and albuterol nebulizer treatment started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1045:</span><span class=\"nurse-note-text\">Ipratropium bromide and albuterol nebulizer and IV methylprednisolone completed. Assisted client onto the bed and placed in high-Fowler&rsquo;s position. Coarse crackles in bilateral upper and lower lung fields; no expiratory wheezing. Client continues to report &ldquo;severe&rdquo; shortness of breath.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Client arrives in the emergency department with worsening shortness of breath over the past week, a strong productive cough with green-tinged sputum, and fatigue. History of chronic obstructive pulmonary disease (emphysema); has been using the &ldquo;relief&rdquo; inhaler at home with no relief of symptoms. Lives independently at home and smokes approximately 1 pack of cigarettes per day. Ambulatory, alert and oriented &times; 4. Coarse crackles auscultated in bilateral lower lung fields; barrel chest appearance; using accessory muscles; expiratory wheeze on auscultation. Client states there is &ldquo;less room&rdquo; to take a deep breath.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">Client has increasing dyspnea and prefers to sit up in the chair. Requesting &ldquo;rescue inhaler.&rdquo; Provider notified. Oxygen 1 L/min by nasal cannula started, titrated to a pulse oximetry reading of 88&ndash;92%. IV started. Ipratropium bromide and albuterol nebulizer treatment started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1045:</span><span class=\"nurse-note-text\">Ipratropium bromide and albuterol nebulizer and IV methylprednisolone completed. Assisted client onto the bed and placed in high-Fowler&rsquo;s position. Coarse crackles in bilateral upper and lower lung fields; no expiratory wheezing. Client continues to report &ldquo;severe&rdquo; shortness of breath.</span></p>"
             },
             {
               "id": "vs_umd08",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1045</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0° F (37.2° C)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0° F (37.2° C)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0° F (37.2° C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">117 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">34 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">159/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">167/94 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1045</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T (oral)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0° F (37.2° C)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0° F (37.2° C)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">99.0° F (37.2° C)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">117 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">34 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">157/86 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">159/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">167/94 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">91% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">90% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">88% on 2 L/min NC</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
             },
             {
               "id": "meds_umd08",
               "title": "Medication Orders",
-              "content": "<p><b>Provider-ordered medications (emergency department)</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Ipratropium bromide and albuterol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3 mL (ipratropium bromide 0.5 mg and albuterol 2.5 mg) by nebulizer 4 times a day; first dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Acetaminophen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 mg PO once, as needed for moderate to severe back pain</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Methylprednisolone sodium succinate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">40 mg IV push, 1 dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Amoxicillin/clavulanate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">875 mg/125 mg PO every 12 hours</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Albuterol sulfate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.5 mg/3 mL by nebulizer every 4 hours as needed</td></tr></tbody></table>"
+              "content": "<p><b>Provider-ordered medications (emergency department)</b></p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Ipratropium bromide and albuterol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3 mL (ipratropium bromide 0.5 mg and albuterol 2.5 mg) by nebulizer 4 times a day; first dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Acetaminophen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 mg PO every 6 hours as needed for mild pain or fever</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Methylprednisolone sodium succinate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">40 mg IV push, 1 dose now</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Amoxicillin/clavulanate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">875 mg/125 mg PO every 12 hours</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Albuterol sulfate</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.5 mg/3 mL by nebulizer every 4 hours as needed</td></tr></tbody></table>"
             }
           ],
           "intro": "A 74-year-old female client is admitted to the emergency department with increasing dyspnea, productive cough, and fatigue."
@@ -19760,12 +18780,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Suzana Jarquin, Frederick Community College. COPD I: a 74-year-old client with a COPD exacerbation in the emergency department; differentiating COPD from other respiratory conditions, priorities, and response to treatment.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nDigital clubbing removed from the chart (not a feature of COPD); screen 1 option is now \"Barrel chest appearance\" and the screen 2 row is now \"Green-tinged sputum\" (COPD and pneumonia).\nLow-flow oxygen (1 L/min, target 88–92%) now starts at 1015; the 1045 reading is 88% on 2 L/min.\nScreen 4: incentive spirometer is now NOT included during the acute exacerbation.\nAcetaminophen order changed to every 6 hours as needed for mild pain or fever (the client had no back pain).",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800009",
     "unit": "Unit 3 (Respiratory Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS9",
     "topic": "Unit 3 (Respiratory Disorders)",
     "course": "NURS 1021",
@@ -19824,7 +18848,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd09",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes fluticasone/salmeterol 250/50 mcg dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p>"
             },
             {
               "id": "labs_umd09",
@@ -19879,9 +18903,9 @@ window.NCLEX_CASES = [
               },
               {
                 "text": "Clubbing in fingers",
-                "correctIndex": 0,
+                "correctIndex": 1,
                 "correctIndices": [
-                  0
+                  1
                 ]
               },
               {
@@ -19907,7 +18931,7 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;COPD II&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "His job at a chemical factory (inhaled irritants affecting lung function) and his smoking history are risk factors for COPD. The productive cough and low pulse oximetry reading are symptoms of his pneumonia and COPD exacerbation. Clubbing of the fingers is a sign of long-term hypoxia, and the PaCO<sub>2</sub> is elevated because of the chronic respiratory acidosis associated with COPD.<br>Vaccine status relates to his pneumonia risk, and hypertension is not a risk factor for COPD."
+          "explanation": "His job at a chemical factory (inhaled irritants affecting lung function) and his smoking history are risk factors for COPD. The productive cough and low pulse oximetry reading are symptoms of his pneumonia and COPD exacerbation. Clubbing of the fingers is not a feature of COPD itself; it suggests another cause, such as lung cancer or bronchiectasis, and should be reported. The PaCO<sub>2</sub> is elevated because of the chronic respiratory acidosis associated with COPD.<br>Vaccine status relates to his pneumonia risk, and hypertension is not a risk factor for COPD."
         },
         "leftContent": {
           "tabs": [
@@ -19919,7 +18943,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd09",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes fluticasone/salmeterol 250/50 mcg dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p>"
             },
             {
               "id": "labs_umd09",
@@ -19983,7 +19007,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd09",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes fluticasone/salmeterol 250/50 mcg dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask.</span></p>"
             },
             {
               "id": "labs_umd09",
@@ -20097,7 +19121,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd09",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes fluticasone/salmeterol 250/50 mcg dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p>"
             },
             {
               "id": "labs_umd09",
@@ -20166,7 +19190,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd09",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">RR 21 breaths/min; pulse oximetry reading now 87%; reports mild SOB with exertion; resting comfortably in bed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">T 98.8° F (37.1° C) after a dose of acetaminophen, two doses of IV antibiotic, and IV methylprednisolone. RR 18 breaths/min; pulse oximetry reading 92% on 2 L/min oxygen via nasal cannula. ABGs checked this morning. No reports of SOB; up in chair for breakfast. Ate 75% of breakfast. Orders to discharge this afternoon.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes fluticasone/salmeterol 250/50 mcg dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">RR 21 breaths/min; pulse oximetry reading now 87%; reports mild SOB with exertion; resting comfortably in bed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">T 98.8° F (37.1° C) after a dose of acetaminophen, two doses of IV antibiotic, and IV methylprednisolone. RR 18 breaths/min; pulse oximetry reading 92% on 2 L/min oxygen via nasal cannula. ABGs checked this morning. No reports of SOB; up in chair for breakfast. Ate 75% of breakfast. Orders to discharge this afternoon.</span></p>"
             },
             {
               "id": "labs_umd09",
@@ -20181,7 +19205,7 @@ window.NCLEX_CASES = [
             {
               "id": "dc_umd09",
               "title": "Discharge Orders",
-              "content": "<p><b>Discharge orders</b></p><p>Discharge this afternoon on home oxygen 2 L/min.</p><p>Levofloxacin 500 mg PO daily.</p><p>Prednisone 40 mg PO daily for 5 days.</p><p>Roflumilast 500 mcg PO daily.</p>"
+              "content": "<p><b>Discharge orders</b></p><p>Discharge this afternoon on home oxygen 2 L/min.</p><p>Levofloxacin 750 mg PO daily for 5 days.</p><p>Prednisone 40 mg PO daily for 5 days.</p><p>Roflumilast 250 mcg PO daily for 4 weeks, then 500 mcg daily.</p>"
             }
           ],
           "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress."
@@ -20264,7 +19288,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd09",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes salmeterol/fluticasone 25/250 dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">RR 21 breaths/min; pulse oximetry reading now 87%; reports mild SOB with exertion; resting comfortably in bed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">T 98.8° F (37.1° C) after a dose of acetaminophen, two doses of IV antibiotic, and IV methylprednisolone. RR 18 breaths/min; pulse oximetry reading 92% on 2 L/min oxygen via nasal cannula. ABGs checked this morning. No reports of SOB; up in chair for breakfast. Ate 75% of breakfast. Orders to discharge this afternoon.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Admitted to the medical-surgical unit from the ED with moderate shortness of breath (SOB) and a productive cough of purulent, rust-colored sputum. History of emphysema and chronic bronchitis since age 42; former 2-pack-per-day smoker for 25 years (50 pack-years) who started smoking again approximately 6 months ago. Takes fluticasone/salmeterol 250/50 mcg dry powder inhaler 1 inhalation every 12 hours and ipratropium metered-dose inhaler 2 puffs 4 times a day, as well as a &ldquo;pill for my high blood pressure, cholesterol, and reflux.&rdquo; States that until recently he has minimized the effects of his disease with his inhalers and proper rest and exercise. About a week ago he &ldquo;caught a cold,&rdquo; which worsened in the past 3 days; he started coughing up rust-colored sputum and running a low-grade fever. Appears weak and cachectic, with poor appetite, feeling too tired to eat. Mild clubbing noted in fingers. Has been unable to work at his job at a chemical factory for the past few months and is confined to home. Wants to start the pneumococcal vaccine series but has not felt up to leaving the house to get it.<br>VS: T 101.4° F (38.5° C), P 98 beats/min, RR 28 breaths/min, BP 140/72 mm Hg, pulse oximetry reading 85% on 2 L/min oxygen. Labs obtained. Chest X-ray and sputum cultures pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1315:</span><span class=\"nurse-note-text\">Chest X-ray results back. Provider notified of client status. Oxygen increased to 35% via Venturi mask. Sputum cultures obtained.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">RR 21 breaths/min; pulse oximetry reading now 87%; reports mild SOB with exertion; resting comfortably in bed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">T 98.8° F (37.1° C) after a dose of acetaminophen, two doses of IV antibiotic, and IV methylprednisolone. RR 18 breaths/min; pulse oximetry reading 92% on 2 L/min oxygen via nasal cannula. ABGs checked this morning. No reports of SOB; up in chair for breakfast. Ate 75% of breakfast. Orders to discharge this afternoon.</span></p>"
             },
             {
               "id": "labs_umd09",
@@ -20279,7 +19303,7 @@ window.NCLEX_CASES = [
             {
               "id": "dc_umd09",
               "title": "Discharge Orders",
-              "content": "<p><b>Discharge orders</b></p><p>Discharge this afternoon on home oxygen 2 L/min.</p><p>Levofloxacin 500 mg PO daily.</p><p>Prednisone 40 mg PO daily for 5 days.</p><p>Roflumilast 500 mcg PO daily.</p>"
+              "content": "<p><b>Discharge orders</b></p><p>Discharge this afternoon on home oxygen 2 L/min.</p><p>Levofloxacin 750 mg PO daily for 5 days.</p><p>Prednisone 40 mg PO daily for 5 days.</p><p>Roflumilast 250 mcg PO daily for 4 weeks, then 500 mcg daily.</p>"
             }
           ],
           "intro": "A 63-year-old male client with a history of chronic obstructive pulmonary disease (COPD) is admitted to the medical-surgical unit with respiratory distress."
@@ -20289,12 +19313,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Author: Mary DiBartolo, Salisbury University. COPD II: a 63-year-old client with a COPD exacerbation and left lower lobe pneumonia; risk factors, priorities, interventions, and discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 2: clubbing is now keyed \"Not associated with COPD\", with an explanation.\nInhaler written as fluticasone/salmeterol 250/50 mcg dry powder inhaler.\nDischarge: levofloxacin 750 mg daily for 5 days; roflumilast started at 250 mcg for 4 weeks.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800010",
     "unit": "Unit 1 (Blood Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS10",
     "topic": "Unit 1 (Blood Disorders)",
     "course": "NURS 1021",
@@ -20302,9 +19330,9 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "Select the <b>4</b> findings that are <b>most</b> concerning.",
+          "stem": "Select the <b>3</b> findings that are <b>most</b> concerning.",
           "type": "select_n",
-          "limit": 4,
+          "limit": 3,
           "options": [
             {
               "text": "Positive motion of R lower extremity",
@@ -20323,8 +19351,8 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Right pedal pulse weak",
-              "correct": true
+              "text": "Right pedal pulse 2+",
+              "correct": false
             },
             {
               "text": "Right lower extremity elevated",
@@ -20345,14 +19373,14 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "",
-          "explanation": "The nurse should recognize signs of a possible deep vein thrombosis: pedal edema, calf pain, warmth of the right calf, and a weak pedal pulse.<br>Positive motion and sensation are expected and not concerning. The blood pressure and heart rate are borderline, likely related to the pain, and not a primary concern. The elevation of the extremity and the bedrest order must be followed but are not concerning findings about the client&rsquo;s condition."
+          "explanation": "The nurse should recognize signs of a possible deep vein thrombosis: pedal edema, calf pain, and warmth of the right calf. The pedal pulse is normal: DVT obstructs a vein, so it does not usually weaken the arterial pulse.<br>Positive motion and sensation are expected and not concerning. The blood pressure and heart rate are borderline, likely related to the pain, and not a primary concern. The elevation of the extremity and the bedrest order must be followed but are not concerning findings about the client&rsquo;s condition."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd10",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Weight 80 kg (176 lb). Right pedal pulse 2+, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
             }
           ],
           "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -20375,10 +19403,10 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Decreased pedal pulse",
-                "correctIndex": 0,
+                "text": "Fever",
+                "correctIndex": 2,
                 "correctIndices": [
-                  0
+                  2
                 ]
               },
               {
@@ -20415,14 +19443,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "",
-          "explanation": "Edema and pain are consistent with all three problems. Warmth of the calf may be seen with infection and DVT.<br>A decreased pedal pulse is most suggestive of DVT. Limited range of motion is consistent with a soft tissue injury, but not with DVT."
+          "explanation": "Edema and pain are consistent with all three problems. Warmth of the calf may be seen with infection and DVT.<br>Fever suggests infection. A DVT does not usually decrease the pedal pulse, because it blocks a vein, not an artery. Limited range of motion is consistent with a soft tissue injury, but not with DVT."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd10",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Weight 80 kg (176 lb). Right pedal pulse 2+, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
             }
           ],
           "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -20468,7 +19496,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd10",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Weight 80 kg (176 lb). Right pedal pulse 2+, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p>"
             }
           ],
           "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -20496,17 +19524,17 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Compression stockings to bilateral lower extremities",
-                "correctIndex": 0,
-                "correctIndices": [
-                  0
-                ]
-              },
-              {
-                "text": "Ambulate client 3 times a day",
+                "text": "Sequential compression device on the right leg",
                 "correctIndex": 1,
                 "correctIndices": [
                   1
+                ]
+              },
+              {
+                "text": "Ambulate as tolerated once anticoagulation has started",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
                 ]
               },
               {
@@ -20532,14 +19560,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1010 with the radiology results.",
-          "explanation": "The nurse should anticipate anticoagulation therapy, which may include an initial bolus dose of heparin followed by a continuous infusion; heparin requires a baseline PTT and monitoring of the PTT every 6 hours per protocol. Compression stockings and elevation of the right lower extremity are indicated.<br>Ambulation is contraindicated until anticoagulation has begun, because of the risk of dislodging the thrombus. Massage is contraindicated because it can dislodge the thrombus."
+          "explanation": "The nurse should anticipate anticoagulation therapy, which may include an initial bolus dose of heparin followed by a continuous infusion; heparin requires a baseline PTT and monitoring of the PTT every 6 hours per protocol. Elevation of the right lower extremity is indicated. Current guidelines support walking as tolerated once anticoagulation has started; it does not increase the risk of pulmonary embolism. A sequential compression device is not applied to a leg with an acute DVT, because squeezing the leg could dislodge the thrombus. Massage is contraindicated because it can dislodge the thrombus."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd10",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Weight 80 kg (176 lb). Right pedal pulse 2+, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p>"
             }
           ],
           "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -20581,17 +19609,17 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Strict bedrest",
+                "text": "Bedrest until the heparin infusion has started",
                 "correctIndex": 0,
                 "correctIndices": [
                   0
                 ]
               },
               {
-                "text": "Place compression stockings on lower extremities",
-                "correctIndex": 2,
+                "text": "Weigh the client",
+                "correctIndex": 0,
                 "correctIndices": [
-                  2
+                  0
                 ]
               },
               {
@@ -20618,19 +19646,19 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Deep Vein Thrombosis II&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1018 and the Orders.",
-          "explanation": "The PT/PTT should be drawn immediately because it is a STAT order and the heparin cannot be started until it is done. Strict bedrest is implemented immediately, as ordered.<br>The heparin bolus and the initial infusion should begin within the hour to prevent extension of the DVT, and monitoring for bleeding begins with the bolus. The right leg should be elevated soon, but it is not the first priority.<br>The PTT is redrawn 6 hours after the infusion starts, per the orders. Compression stockings will likely need to be obtained from supply and can be applied before the end of the shift."
+          "explanation": "The PT/PTT should be drawn immediately because it is a STAT order and the heparin cannot be started until it is done. Bedrest is implemented immediately, as ordered, and the client is weighed right away because the heparin bolus and infusion are dosed by weight.<br>The heparin bolus and the initial infusion should begin within the hour to prevent extension of the DVT, and monitoring for bleeding begins with the bolus. The right leg should be elevated soon, but it is not the first priority.<br>The PTT is redrawn 6 hours after the infusion starts, per the orders."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd10",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Weight 80 kg (176 lb). Right pedal pulse 2+, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
             },
             {
               "id": "ord_umd10",
               "title": "Orders",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Labs</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Draw prothrombin time (PT) and partial thromboplastin time (PTT) STAT.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Administer heparin 80 units/kg IV bolus now.<br>After the initial bolus, begin heparin weight-based protocol continuous IV infusion: <b>starting dose</b> 18 units/kg/hr.<br>Draw PTT 6 hours after the infusion begins, then every 6 hours. Call results.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Activity: strict bedrest.<br>Place compression stockings on bilateral lower extremities.<br>Elevate right lower extremity.<br>Closely monitor for signs of bleeding.</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Labs</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Draw prothrombin time (PT) and partial thromboplastin time (PTT) STAT.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Administer heparin 80 units/kg IV bolus now.<br>After the initial bolus, begin heparin weight-based protocol continuous IV infusion: <b>starting dose</b> 18 units/kg/hr.<br>Draw PTT 6 hours after the infusion begins, then every 6 hours. Call results.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Activity: bedrest until the heparin infusion has started, then ambulate as tolerated.<br>Elevate right lower extremity.<br>Closely monitor for signs of bleeding.</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse on the medical-surgical unit is caring for a 69-year-old male client with pain and swelling of the right lower extremity."
@@ -20680,12 +19708,12 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd10",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Right pedal pulse weak, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\"><b>Admission note:</b> Client admitted from the emergency department via stretcher and transferred to bed. Alert and oriented. Saline lock IV in the R antecubital vein, patent. R lower extremity has 2+ pedal edema; pain 8/10 in the right calf. Warmth noted to right calf. Positive motion and sensation in the R lower extremity. Weight 80 kg (176 lb). Right pedal pulse 2+, palpable. R lower extremity elevated on 2 pillows. VS: BP 145/82 mm Hg, HR 96 beats/min, RR 16 breaths/min, T 36.7° C (98° F). Client ordered to be on complete bedrest; client made aware.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1010:</span><span class=\"nurse-note-text\">Radiology called results of right leg ultrasound: positive for deep vein thrombosis of the right posterior tibial vein. Provider made aware. New orders pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1018:</span><span class=\"nurse-note-text\">Orders have been entered.</span></p>"
             },
             {
               "id": "ord_umd10",
               "title": "Orders",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Labs</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Draw prothrombin time (PT) and partial thromboplastin time (PTT) STAT.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Administer heparin 80 units/kg IV bolus now.<br>After the initial bolus, begin heparin weight-based protocol continuous IV infusion: <b>starting dose</b> 18 units/kg/hr.<br>Draw PTT 6 hours after the infusion begins, then every 6 hours. Call results.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Activity: strict bedrest.<br>Place compression stockings on bilateral lower extremities.<br>Elevate right lower extremity.<br>Closely monitor for signs of bleeding.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Day 3: Discharge planning</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Discharge home. Provide discharge teaching for anticoagulation therapy (warfarin) and deep vein thrombosis prevention. Follow up in 1 week.</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Orders</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Labs</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Draw prothrombin time (PT) and partial thromboplastin time (PTT) STAT.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Medications</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Administer heparin 80 units/kg IV bolus now.<br>After the initial bolus, begin heparin weight-based protocol continuous IV infusion: <b>starting dose</b> 18 units/kg/hr.<br>Draw PTT 6 hours after the infusion begins, then every 6 hours. Call results.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Activity: bedrest until the heparin infusion has started, then ambulate as tolerated.<br>Elevate right lower extremity.<br>Closely monitor for signs of bleeding.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Day 3: Discharge planning</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Discharge home. Provide discharge teaching for anticoagulation therapy (warfarin) and deep vein thrombosis prevention. Follow up in 1 week.</td></tr></tbody></table>"
             },
             {
               "id": "pn_umd10",
@@ -20700,12 +19728,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 1 (Blood Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Deep vein thrombosis II: a 69-year-old client with a right leg DVT; heparin protocol, prioritizing orders, and warfarin discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nPedal pulse is now 2+ (a weak pulse is not a DVT sign); screen 1 is now \"select 3\"; the screen 2 row \"Decreased pedal pulse\" is now \"Fever\" (infection).\nBedrest only until heparin starts; screen 4 keys walking as tolerated once anticoagulated as indicated (CHEST/ASH).\nCompression stockings removed from the orders; screen 4 row is now a sequential compression device on the DVT leg (contraindicated); screen 5 row is now \"Weigh the client\" (immediately).\nWeight 80 kg added for the weight-based heparin.\nScreen 2 row labels were rebuilt from the source rationale (the source table was blank). Please confirm.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800011",
     "unit": "Unit 7 (Urinary Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS11",
     "topic": "Unit 7 (Urinary Disorders)",
     "course": "NURS 1021",
@@ -20772,7 +19804,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd11",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>&lt; 100 &times; 10<sup>6</sup>/L (&lt; 100 cells/&micro;L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>&lt; 50%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
             }
           ],
           "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
@@ -20862,7 +19894,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd11",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>&lt; 100 &times; 10<sup>6</sup>/L (&lt; 100 cells/&micro;L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>&lt; 50%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
             }
           ],
           "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
@@ -20913,7 +19945,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd11",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>&lt; 100 &times; 10<sup>6</sup>/L (&lt; 100 cells/&micro;L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>&lt; 50%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
             }
           ],
           "intro": "A 35-year-old female client with end-stage renal disease on peritoneal dialysis is admitted to the medical-surgical unit with abdominal pain and fever."
@@ -20962,7 +19994,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Vancomycin IV",
+                "text": "Vancomycin IV as the only antibiotic",
                 "correctIndex": 1,
                 "correctIndices": [
                   1
@@ -20998,7 +20030,7 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Microbiology results.",
-          "explanation": "<b>Appropriate:</b> Daily weights assess for the hypervolemia of ESRD; inflammation of the peritoneum can reduce the efficacy of peritoneal dialysis. Blood cultures assess for bacteremia, which may require IV antibiotics in addition to intraperitoneal antibiotics. Catheter care treats the infection; the catheter may need to be replaced if the infection does not clear. Gentamicin is a broad-spectrum antibiotic that treats gram-negative bacteria, and intraperitoneal delivery is more effective than IV for peritonitis; the antibiotic is adjusted once sensitivities are known. Epoetin alfa treats the anemia of ESRD. Calcium carbonate, a phosphate binder, is taken with each meal to prevent absorption of phosphate from the gut, which helps keep the calcium level up.<br><b>Not appropriate:</b> IV D5 &frac12; NS with KCl at 120 mL/hr would cause hypervolemia and hyperkalemia in a client who is oliguric or anuric. Vancomycin is not effective against gram-negative organisms. Enoxaparin is cleared by the kidneys, so it accumulates in ESRD and increases the risk of bleeding."
+          "explanation": "<b>Appropriate:</b> Daily weights assess for the hypervolemia of ESRD; inflammation of the peritoneum can reduce the efficacy of peritoneal dialysis. Blood cultures assess for bacteremia, which may require IV antibiotics in addition to intraperitoneal antibiotics. Catheter care treats the infection; the catheter may need to be replaced if the infection does not clear. Gentamicin is a broad-spectrum antibiotic that treats gram-negative bacteria, and intraperitoneal delivery is more effective than IV for peritonitis; the antibiotic is adjusted once sensitivities are known. Epoetin alfa treats the anemia of ESRD. Calcium carbonate, a phosphate binder, is taken with each meal to prevent absorption of phosphate from the gut, which helps keep the calcium level up.<br><b>Not appropriate:</b> IV D5 &frac12; NS with KCl at 120 mL/hr would cause hypervolemia and hyperkalemia in a client who is oliguric or anuric. Empiric treatment of peritoneal dialysis peritonitis covers both gram-positive and gram-negative organisms until cultures return; vancomycin alone does not treat the gram-negative rods seen on the Gram stain. Enoxaparin is cleared by the kidneys, so it accumulates in ESRD and increases the risk of bleeding; when anticoagulation is needed, unfractionated heparin is preferred."
         },
         "leftContent": {
           "tabs": [
@@ -21010,7 +20042,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd11",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>&lt; 100 &times; 10<sup>6</sup>/L (&lt; 100 cells/&micro;L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>&lt; 50%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
             },
             {
               "id": "micro_umd11",
@@ -21073,14 +20105,14 @@ window.NCLEX_CASES = [
             ],
             "columns": [
               "RN",
-              "LPN",
+              "LPN/RPN",
               "UAP"
             ],
             "firstColumnHeader": "Task"
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;End Stage Renal Disease and Dialysis&rdquo; medical-surgical faculty case study (Laura Sessions, PhD, MScN, RN, CNE, Towson University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
-          "preamble": "The nurse leads a team that includes an LPN and an unlicensed assistive personnel (UAP) and plans the client&rsquo;s care based on the most effective use of the team&rsquo;s skill mix.",
-          "explanation": "The UAP provides basic care, such as hygiene, and collects limited data such as vital signs and weights. The LPN performs nursing care in routine situations, such as uncomplicated wound and catheter care.<br>The LPN cannot implement nonroutine care such as intraperitoneal antibiotics, catheter care teaching, or a dialysate exchange for this client; those tasks are done by the RN."
+          "preamble": "The nurse leads a team that includes a practical nurse (LPN/RPN) and an unlicensed assistive personnel (UAP) and plans the client&rsquo;s care based on the most effective use of the team&rsquo;s skill mix.",
+          "explanation": "The UAP provides basic care, such as hygiene, and collects limited data such as vital signs and weights. The practical nurse (LPN/RPN) performs nursing care in routine situations, such as uncomplicated wound and catheter care.<br>The practical nurse cannot implement nonroutine care such as intraperitoneal antibiotics, catheter care teaching, or a dialysate exchange for this client; those tasks are done by the RN."
         },
         "leftContent": {
           "tabs": [
@@ -21092,7 +20124,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd11",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>&lt; 100 &times; 10<sup>6</sup>/L (&lt; 100 cells/&micro;L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>&lt; 50%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
             },
             {
               "id": "micro_umd11",
@@ -21180,7 +20212,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd11",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>Few</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Admission</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">16.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">946 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>C-reactive protein</b><br>&lt; 10 mg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">61.5 mg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Albumin</b><br>34&ndash;54 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.86 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Calcium, total</b><br>2.15&ndash;2.57 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.97 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Phosphate</b><br>0.90&ndash;1.45 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1.87 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">106 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.31 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count, serum</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">14.22 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Neutrophils, serum</b><br>0.55&ndash;0.70 (55&ndash;70%)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.898 (89.8%)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>WBC count, dialysate</b><br>&lt; 100 &times; 10<sup>6</sup>/L (&lt; 100 cells/&micro;L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">483 &times; 10<sup>6</sup>/L (483 cells/&micro;L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Polymorphonuclear cells, dialysate</b><br>&lt; 50%</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">63%</td></tr></tbody></table>"
             },
             {
               "id": "micro_umd11",
@@ -21195,12 +20227,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 7 (Urinary Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Laura Sessions, Towson University. ESRD and dialysis: a 35-year-old client on peritoneal dialysis with peritonitis; differentiating ESRD and infection, orders, delegation, and catheter-care teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 4 row is now \"Vancomycin IV as the only antibiotic\" (not appropriate); rationale explains empiric gram-positive and gram-negative coverage.\nEnoxaparin rationale now says unfractionated heparin is preferred in ESRD.\nDelegation uses \"practical nurse (LPN/RPN)\"; keys follow the source. Please confirm against Ontario scope.\nDialysate reference ranges added (WBC < 100 cells/µL, neutrophils < 50%).\nScreen 6 \"exit site open to air = does not understand\" kept; practice varies once the site is healed. Please confirm with your program.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800012",
     "unit": "Unit 6 (Gastrointestinal Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS12",
     "topic": "Unit 6 (Gastrointestinal Disorders)",
     "course": "NURS 1021",
@@ -21212,7 +20248,7 @@ window.NCLEX_CASES = [
           "type": "highlight",
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "The client&rsquo;s epigastric pain and nausea and vomiting are acute and should be followed up immediately.<br>The client has no chest pain or shortness of breath now to indicate an immediate cardiac problem, and the vital signs are normal. The cough is chronic, whereas the vomiting and epigastric pain are acute.",
+          "explanation": "The client&rsquo;s epigastric pain and nausea and vomiting are acute and should be followed up immediately.<br>The client has no chest pain or shortness of breath now to indicate an immediate cardiac problem, and the vital signs are normal. The cough is chronic, whereas the vomiting and epigastric pain are acute. Because the client has had intermittent chest pain, a cardiac cause is still ruled out with an ECG and troponin, which are ordered at 0415.",
           "highlightTabs": [
             {
               "id": "ht_umd12",
@@ -21369,13 +20405,13 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Administer analgesics",
+              "text": "Administer a proton pump inhibitor",
               "correct": true
             }
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Progress Notes. The provider makes a diagnosis of probable gastroesophageal reflux disease.",
-          "explanation": "The client&rsquo;s pain, nausea, and vomiting should be treated, and the sodium and potassium levels monitored because vomiting can cause electrolyte imbalances. The client should be taught lifestyle changes, including weight management, eating the evening meal early, and not eating before going to bed.<br>The client has no diarrhea, so a stool culture is not needed, and a CBC and abdominal CT scan are not needed to manage probable GERD."
+          "explanation": "The client&rsquo;s nausea and vomiting should be treated, and the reflux pain is treated by reducing stomach acid with a proton pump inhibitor (opioids are not used for reflux pain), and the sodium and potassium levels monitored because vomiting can cause electrolyte imbalances. The client should be taught lifestyle changes, including weight management, eating the evening meal early, and not eating before going to bed.<br>The client has no diarrhea, so a stool culture is not needed, and a CBC and abdominal CT scan are not needed to manage probable GERD."
         },
         "leftContent": {
           "tabs": [
@@ -21441,7 +20477,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd12",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Morphine 2 mg and ondansetron 4 mg given IV. Labs drawn.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Pantoprazole 40 mg and ondansetron 4 mg given IV. 12-lead ECG: normal sinus rhythm. Troponin within normal limits. Labs drawn.</span></p>"
             },
             {
               "id": "pn_umd12",
@@ -21451,7 +20487,7 @@ window.NCLEX_CASES = [
             {
               "id": "ord_umd12",
               "title": "Orders",
-              "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer morphine 2 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p>"
+              "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer pantoprazole 40 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p><p>7. 12-lead ECG and troponin STAT.</p><p>8. Replace potassium per protocol if below 3.5 mmol/L.</p>"
             },
             {
               "id": "labs_umd12",
@@ -21494,7 +20530,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd12",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Morphine 2 mg and ondansetron 4 mg given IV. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0445:</span><span class=\"nurse-note-text\">Client reports pain 1/10. No nausea or vomiting. Taught client about diet, positioning after eating, and weight management.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Pantoprazole 40 mg and ondansetron 4 mg given IV. 12-lead ECG: normal sinus rhythm. Troponin within normal limits. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0445:</span><span class=\"nurse-note-text\">Client reports pain 1/10. No nausea or vomiting. Potassium replacement started per protocol. Taught client about diet, positioning after eating, and weight management.</span></p>"
             },
             {
               "id": "pn_umd12",
@@ -21504,7 +20540,7 @@ window.NCLEX_CASES = [
             {
               "id": "ord_umd12",
               "title": "Orders",
-              "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer morphine 2 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p>"
+              "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer pantoprazole 40 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p><p>7. 12-lead ECG and troponin STAT.</p><p>8. Replace potassium per protocol if below 3.5 mmol/L.</p>"
             },
             {
               "id": "labs_umd12",
@@ -21519,12 +20555,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Gastroesophageal reflux disease: a 47-year-old client in the emergency department with epigastric pain and vomiting; focused assessment, treatment, and lifestyle teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nAn ECG and troponin are now ordered and documented as normal, so chest pain is ruled out before GERD is diagnosed.\nMorphine replaced by pantoprazole 40 mg IV; screen 4 option \"Administer analgesics\" is now \"Administer a proton pump inhibitor\".\nPotassium replacement ordered and started for K 3.0 mmol/L.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800013",
     "unit": "Unit 2 (Cardiovascular Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS13",
     "topic": "Unit 2 (Cardiovascular Disorders)",
     "course": "NURS 1021",
@@ -21578,7 +20618,7 @@ window.NCLEX_CASES = [
             {
               "id": "cn_umd13",
               "title": "Clinic Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, furosemide 40 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
             },
             {
               "id": "vs_umd13",
@@ -21631,14 +20671,14 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "The client has worsening heart failure and is at risk for fluid volume overload and for electrolyte imbalances from hemodilution. He also takes hydrochlorothiazide and may become hypokalemic if his diet does not include enough potassium.<br>He is at no or low risk for hyperkalemia, dehydration, anemia, heart attack, diabetes mellitus, and thrombophlebitis."
+          "explanation": "The client has worsening heart failure and is at risk for fluid volume overload and for electrolyte imbalances from hemodilution. He also takes furosemide and may become hypokalemic if his diet does not include enough potassium.<br>He is at no or low risk for hyperkalemia, dehydration, anemia, heart attack, diabetes mellitus, and thrombophlebitis."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "cn_umd13",
               "title": "Clinic Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, furosemide 40 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
             },
             {
               "id": "vs_umd13",
@@ -21681,7 +20721,7 @@ window.NCLEX_CASES = [
             {
               "id": "cn_umd13",
               "title": "Clinic Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, furosemide 40 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
             },
             {
               "id": "vs_umd13",
@@ -21691,7 +20731,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd13",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
@@ -21741,7 +20781,7 @@ window.NCLEX_CASES = [
             {
               "id": "cn_umd13",
               "title": "Clinic Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, furosemide 40 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p>"
             },
             {
               "id": "vs_umd13",
@@ -21751,7 +20791,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd13",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
@@ -21801,7 +20841,7 @@ window.NCLEX_CASES = [
             {
               "id": "cn_umd13",
               "title": "Clinic Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Order to discontinue digoxin and begin sacubitril/valsartan 49/51 mg PO daily, with a nutrition/dietitian consult. Begin low-sodium diet and fluid restriction to 1500 mL/24 hours; instructed to weigh himself daily and record. Return to clinic in 3 weeks for follow-up.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, furosemide 40 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Order to discontinue digoxin and begin sacubitril/valsartan 49/51 mg PO daily, with a nutrition/dietitian consult. Begin low-sodium diet and fluid restriction to 1500 mL/24 hours; instructed to weigh himself daily and record. Return to clinic in 3 weeks for follow-up.</span></p>"
             },
             {
               "id": "vs_umd13",
@@ -21811,7 +20851,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd13",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
@@ -21874,7 +20914,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Thirst",
+                "text": "Worry about his health",
                 "correctIndex": 2,
                 "correctIndices": [
                   2
@@ -21890,14 +20930,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Heart Failure&rdquo; medical-surgical faculty case study (Lisa Seldomridge, PhD, RN, CNE; Jennifer Hart, DNP, FNP-BC; Molly Dale, DNP, FNP-BC; Salisbury University, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Clinic Notes from Day 14 0830. On day 14, the nurse follows up with the client.",
-          "explanation": "A nagging cough, difficulty catching his breath, sleeping in a recliner (orthopnea), and pink-tinged sputum are signs of worsening left-sided HF that require immediate intervention. Lack of appetite and getting up at night to urinate also show that the heart failure is worsening.<br>The pulse is slightly improved (102 to 90) and within normal limits. Thirst is not related to the heart failure and is keyed as unchanged."
+          "explanation": "A nagging cough, difficulty catching his breath, sleeping in a recliner (orthopnea), and pink-tinged sputum are signs of worsening left-sided HF that require immediate intervention. Lack of appetite and getting up at night to urinate also show that the heart failure is worsening.<br>The pulse is slightly improved (102 to 90) and within normal limits. He was anxious about his condition on day 1 and is worried now, so his worry is unchanged."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "cn_umd13",
               "title": "Clinic Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, hydrochlorothiazide 25 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Order to discontinue digoxin and begin sacubitril/valsartan 49/51 mg PO daily, with a nutrition/dietitian consult. Begin low-sodium diet and fluid restriction to 1500 mL/24 hours; instructed to weigh himself daily and record. Return to clinic in 3 weeks for follow-up.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 0830:</span><span class=\"nurse-note-text\">Client called the clinic to report a nagging cough, pink-tinged sputum, and difficulty &ldquo;catching&rdquo; his breath. States he is sleeping in a recliner because he cannot breathe when lying down in bed. His wife checked his pulse and it is 90. Reports lack of appetite, thirst, and getting up twice a night to urinate. States he is &ldquo;worried&rdquo; about his health. Advised client that worsening symptoms need immediate attention. Spoke with client&rsquo;s wife, who agreed to take him to the emergency department.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">68-year-old male client presents for a routine clinic appointment. Reports &ldquo;tiring easily when out shopping or for walks&rdquo;; has been staying home reading and watching television. Reports difficulty sleeping and wakes with shortness of breath in the middle of the night. Reports an 8-lb (3.6-kg) weight gain over the past 2 weeks since the last appointment. States normal appetite. Denies chest pain and back pain. States he is &ldquo;anxious&rdquo; about his condition. No known allergies. Current medications: enalapril 20 mg PO twice a day, furosemide 40 mg PO twice a day, digoxin 0.125 mg PO once a day.<br><b>Assessment:</b> alert and oriented &times; 4, appears slightly anxious; HR regular at 102; 4+ pitting pedal and pretibial edema; respirations unlabored, crackles in bases bilaterally; abdomen soft, nontender, bowel sounds active; skin warm, dry, and intact; frequent urination of small amounts of clear yellow urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Order to discontinue digoxin and begin sacubitril/valsartan 49/51 mg PO daily, with a nutrition/dietitian consult. Begin low-sodium diet and fluid restriction to 1500 mL/24 hours; instructed to weigh himself daily and record. Return to clinic in 3 weeks for follow-up.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 14 0830:</span><span class=\"nurse-note-text\">Client called the clinic to report a nagging cough, pink-tinged sputum, and difficulty &ldquo;catching&rdquo; his breath. States he is sleeping in a recliner because he cannot breathe when lying down in bed. His wife checked his pulse and it is 90. Reports lack of appetite, thirst, and getting up twice a night to urinate. States he is &ldquo;worried&rdquo; about his health. Advised client that worsening symptoms need immediate attention. Spoke with client&rsquo;s wife, who agreed to take him to the emergency department.</span></p>"
             },
             {
               "id": "vs_umd13",
@@ -21907,7 +20947,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd13",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Cholesterol, total</b><br>Normal &lt; 5.2 mmol/L; borderline 5.2&ndash;6.2 mmol/L; high &ge; 6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">3.6 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.346 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">2.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">135 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Chloride</b><br>96&ndash;106 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95 mmol/L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 68-year-old male client who presents for a routine clinic appointment."
@@ -21917,12 +20957,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 2 (Cardiovascular Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Authors: Lisa Seldomridge, Jennifer Hart, Molly Dale, Salisbury University. Heart failure: a 68-year-old client in the clinic with worsening HF and hypokalemia; a medication-order error (ACE inhibitor + ARNI), teaching, and worsening symptoms 2 weeks later.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 6 row \"Thirst\" (no day-1 baseline) is now \"Worry about his health\" (unchanged).\nHemoglobin changed from 135 to 115 g/L to fit the hematocrit of 0.346.\nHydrochlorothiazide 25 mg twice daily replaced by furosemide 40 mg twice daily (loop diuretic).",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800014",
     "unit": "Unit 4 (Inflammation and Immune Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS14",
     "topic": "Unit 4 (Inflammation and Immune Disorders)",
     "course": "NURS 1021",
@@ -21960,7 +21004,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse reviews the client&rsquo;s laboratory report.",
-          "explanation": "As HIV replicates, the CD4 count declines because the virus destroys CD4 T cells. When the CD4 count falls below 500 cells/&micro;L, the person becomes susceptible to opportunistic infections, and a count below 200 cells/&micro;L means the client&rsquo;s HIV infection has progressed to AIDS. The elevated WBC count indicates that the client has an infection.<br>The hematocrit, platelets, and potassium are within normal limits."
+          "explanation": "As HIV replicates, the CD4 count declines because the virus destroys CD4 T cells. When the CD4 count falls below 500 cells/&micro;L, the person becomes susceptible to opportunistic infections, and a count below 200 cells/&micro;L means the client&rsquo;s HIV infection has progressed to AIDS. The elevated WBC count indicates that the client has an infection.<br>The hematocrit, platelets, potassium, and sodium are within normal limits."
         },
         "leftContent": {
           "tabs": [
@@ -21972,7 +21016,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd14",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress."
@@ -22023,7 +21067,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd14",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress."
@@ -22095,7 +21139,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd14",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 25-year-old male client with a history of HIV admitted to the medical-surgical unit with respiratory distress."
@@ -22116,7 +21160,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Administer ibuprofen as needed for fever",
+                "text": "Administer acetaminophen as needed for fever",
                 "correctIndex": 0,
                 "correctIndices": [
                   0
@@ -22166,7 +21210,7 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;HIV with an Opportunistic Infection&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Diagnostic Results. The client is diagnosed with <i>Pneumocystis</i> pneumonia (PCP).",
-          "explanation": "Clinical manifestations of <i>Pneumocystis</i> pneumonia include fever, chills, and flu-like symptoms. Oxygen supports the respiratory compromise, and an antipyretic reduces the fever. Trimethoprim/sulfamethoxazole is effective against PCP. A social work consult is needed because the client is out of work, without insurance, and facing a long-term illness.<br>Vancomycin is not effective against <i>Pneumocystis</i>, a fungus. PCP does not cause a sore throat, so lidocaine gargles are not indicated, and the client has no history of cardiovascular illness, so a stress test is not indicated."
+          "explanation": "Clinical manifestations of <i>Pneumocystis</i> pneumonia include fever, chills, and flu-like symptoms. Oxygen supports the respiratory compromise, and an antipyretic reduces the fever. Trimethoprim/sulfamethoxazole is effective against PCP. A social work consult is needed because the client is out of work, without insurance, and facing a long-term illness.<br>Vancomycin is not effective against <i>Pneumocystis</i>, a fungus. PCP does not cause a sore throat, so lidocaine gargles are not indicated, and the client has no history of cardiovascular illness, so a stress test is not indicated. Acetaminophen is used for the fever because the creatinine is raised, and NSAIDs such as ibuprofen can harm the kidneys. Because the client is hypoxemic, a corticosteroid (prednisone) is usually added to trimethoprim/sulfamethoxazole for moderate to severe PCP."
         },
         "leftContent": {
           "tabs": [
@@ -22178,7 +21222,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd14",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
             },
             {
               "id": "dx_umd14",
@@ -22246,7 +21290,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd14",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
             },
             {
               "id": "dx_umd14",
@@ -22355,7 +21399,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd14",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urea (BUN)</b><br>3.6&ndash;7.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">7.9 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Creatinine</b><br>80&ndash;124 &micro;mol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">133 &micro;mol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.48 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">150 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">15.2 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">300 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>20&ndash;39 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">25 seconds</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">4.5 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>CD4 T-cell count</b><br>500&ndash;1600 cells/&micro;L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">178 cells/&micro;L</td></tr></tbody></table>"
             },
             {
               "id": "dx_umd14",
@@ -22370,12 +21414,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 4 (Inflammation and Immune Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Denyce Watties-Daniels, Coppin State University. HIV with an opportunistic infection: a 25-year-old client who stopped antiretroviral therapy develops Pneumocystis pneumonia; priorities, orders, and prevention teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 4: ibuprofen replaced by acetaminophen (raised creatinine); rationale mentions adjunct corticosteroids for hypoxemic PCP.\nSodium changed from 148 to 144 mmol/L (it was not keyed as concerning).\nScreen 6 \"I can stop wearing a mask when I feel better = no understanding\" kept. Please confirm.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800015",
     "unit": "Unit 11 (Endocrine Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS15",
     "topic": "Unit 11 (Endocrine Disorders)",
     "course": "NURS 1017",
@@ -22422,7 +21470,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "Because the client has type 2 diabetes, the nurse follows up on signs that the diabetes may be out of control: the deep, rapid respirations and fruity breath odor, and the change in mental status. The low blood pressure and tachycardia (circulation) can indicate severe hypovolemia.<br>The lung sounds are clear, the pupils are equal and reactive, and the temperature is only slightly elevated."
+          "explanation": "Because the client has type 2 diabetes, the nurse follows up on signs that the diabetes may be out of control: the deep, rapid respirations and fruity breath odor, and the change in mental status. The low blood pressure and tachycardia (circulation) can indicate severe hypovolemia.<br>The lung sounds are clear, the pupils are equal and reactive, and the temperature is only slightly elevated. His medications include empagliflozin, an SGLT2 inhibitor that increases the risk of ketoacidosis in type 2 diabetes; it is important background, but it is not a finding that needs follow-up first."
         },
         "leftContent": {
           "tabs": [
@@ -22434,12 +21482,12 @@ window.NCLEX_CASES = [
             {
               "id": "vs_umd15",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
             },
             {
               "id": "meds_umd15",
               "title": "Medications",
-              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO twice daily</p><p>Valsartan 160 mg PO daily</p>"
             }
           ],
           "intro": "A 73-year-old male client with a history of type 2 diabetes presents to the emergency department with a change in mental status."
@@ -22497,17 +21545,17 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd15",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Capillary glucose 24.4 mmol/L.</span></p>"
             },
             {
               "id": "vs_umd15",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
             },
             {
               "id": "meds_umd15",
               "title": "Medications",
-              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO twice daily</p><p>Valsartan 160 mg PO daily</p>"
             },
             {
               "id": "labs_umd15",
@@ -22554,17 +21602,17 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd15",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Capillary glucose 24.4 mmol/L.</span></p>"
             },
             {
               "id": "vs_umd15",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
             },
             {
               "id": "meds_umd15",
               "title": "Medications",
-              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO twice daily</p><p>Valsartan 160 mg PO daily</p>"
             },
             {
               "id": "labs_umd15",
@@ -22598,16 +21646,16 @@ window.NCLEX_CASES = [
               },
               {
                 "text": "Administer insulin glargine subcutaneously",
-                "correctIndex": 1,
+                "correctIndex": 2,
                 "correctIndices": [
-                  1
+                  2
                 ]
               },
               {
                 "text": "Insert indwelling urinary catheter",
-                "correctIndex": 1,
+                "correctIndex": 2,
                 "correctIndices": [
-                  1
+                  2
                 ]
               },
               {
@@ -22634,24 +21682,24 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Type II Diabetes &amp; Ketoacidosis&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, University of Maryland School of Nursing, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The client is diagnosed with ketoacidosis, and the nurse begins to plan care.",
-          "explanation": "IV potassium is indicated: the potassium is already low, and insulin therapy moves potassium into the cells. ECG monitoring is indicated because acidosis and potassium shifts cause dysrhythmias.<br>The deep, rapid (Kussmaul) respirations are the body&rsquo;s compensation for the metabolic acidosis, so pursed-lip breathing to slow the breathing is contraindicated. DKA is treated with IV regular insulin, which can be titrated, not subcutaneous insulin glargine. Urine output can be measured with a urinal; an indwelling catheter adds infection risk in a client with diabetes.<br>The A1C reflects glucose control over months and does not guide acute treatment, so it is nonessential now."
+          "explanation": "IV potassium is indicated: the potassium is already low, and insulin therapy moves potassium into the cells. ECG monitoring is indicated because acidosis and potassium shifts cause dysrhythmias.<br>The deep, rapid (Kussmaul) respirations are the body&rsquo;s compensation for the metabolic acidosis, so pursed-lip breathing to slow the breathing is contraindicated. DKA is treated with IV regular insulin, which can be titrated; subcutaneous insulin glargine is not needed now (some protocols add it early, before the infusion is stopped). The client is voiding, so output can be measured with a urinal; an indwelling catheter is not needed now and adds infection risk.<br>The A1C reflects glucose control over months and does not guide acute treatment, so it is nonessential now."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd15",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Capillary glucose 24.4 mmol/L.</span></p>"
             },
             {
               "id": "vs_umd15",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
             },
             {
               "id": "meds_umd15",
               "title": "Medications",
-              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO twice daily</p><p>Valsartan 160 mg PO daily</p>"
             },
             {
               "id": "labs_umd15",
@@ -22698,17 +21746,17 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd15",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Capillary glucose 24.4 mmol/L.</span></p>"
             },
             {
               "id": "vs_umd15",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
             },
             {
               "id": "meds_umd15",
               "title": "Medications",
-              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO twice daily</p><p>Valsartan 160 mg PO daily</p>"
             },
             {
               "id": "labs_umd15",
@@ -22764,17 +21812,17 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd15",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Oxygen 2 L/min by nasal cannula started. Capillary glucose 24.4 mmol/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Transferred to ICU. IV fluid bolus given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300:</span><span class=\"nurse-note-text\">Maintenance IV fluids and insulin infusion started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Capillary glucose 24.2 mmol/L. Awake, alert, oriented to person and place, talking in full sentences. Denies pain. Breath sounds clear. Voided 300 mL of clear urine.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">73-year-old male client with a history of type 2 diabetes brought to the emergency department by his spouse for changes in mental status from his baseline. His wife reports that he woke at 0600 to complete his morning routine. At approximately 1100 he became unaware of his surroundings and began sweating profusely and slurring his words. Breath sounds clear; fruity odor on the breath; deep, rapid respirations. Sinus tachycardia on the cardiac monitor. Awake and alert; pupils equal and reactive to light. Weight 93 kg (205 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Voided 30 mL of dark amber urine, sent for urinalysis. Comprehensive metabolic panel, CBC, and ABG drawn. IV of normal saline started. Capillary glucose 24.4 mmol/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Transferred to ICU. IV fluid bolus given.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300:</span><span class=\"nurse-note-text\">Maintenance IV fluids and insulin infusion started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Capillary glucose 24.2 mmol/L. Awake, alert, oriented to person and place, talking in full sentences. Denies pain. Breath sounds clear. Voided 300 mL of clear urine.</span></p>"
             },
             {
               "id": "vs_umd15",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1300</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.1° C (98.9° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.1° C (98.9° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">105 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">109/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">94% on 2 L/min NC</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on 2 L/min NC</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1300</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1330</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.5° C (99.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.1° C (98.9° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">37.1° C (98.9° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">105 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">32 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">30 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">109/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse oximetry reading</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
             },
             {
               "id": "meds_umd15",
               "title": "Medications",
-              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO daily</p><p>Valsartan 160 mg PO daily</p>"
+              "content": "<p>Empagliflozin 10 mg PO daily</p><p>Sitagliptin/metformin 50 mg/1000 mg PO twice daily</p><p>Valsartan 160 mg PO daily</p>"
             },
             {
               "id": "labs_umd15",
@@ -22794,12 +21842,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 11 (Endocrine Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: DeNiece Bennett, University of Maryland School of Nursing. Type 2 diabetes and ketoacidosis: a 73-year-old client on an SGLT2 inhibitor with DKA; DKA vs HHS, priorities, insulin and potassium management, and response.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 4: insulin glargine and the indwelling catheter are now \"Nonessential\" (were contraindicated).\nPulse oximetry is now normal on room air and no oxygen is started (the 89% was unexplained with clear lungs).\nSitagliptin/metformin changed to twice daily; screen 1 rationale mentions empagliflozin as a DKA risk.\nThe corrected blood gas (PaCO₂ 25, HCO₃⁻ 10), the KCl concentration (20 mmol/L) and the changed key \"pursed-lip breathing = contraindicated\" from the conversion still need your confirmation.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800016",
     "unit": "Unit 6 (Gastrointestinal Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS16",
     "topic": "Unit 6 (Gastrointestinal Disorders)",
     "course": "NURS 1021",
@@ -22859,7 +21911,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd16",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Propranolol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
             },
             {
               "id": "labs_umd16",
@@ -22959,7 +22011,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd16",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Propranolol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
             },
             {
               "id": "labs_umd16",
@@ -23041,7 +22093,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd16",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Propranolol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
             },
             {
               "id": "labs_umd16",
@@ -23074,7 +22126,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Administer acetaminophen 650 mg as needed for temperature above 101° F (38.3° C)",
+                "text": "Administer ibuprofen 400 mg as needed for temperature above 101° F (38.3° C)",
                 "correctIndex": 2,
                 "correctIndices": [
                   2
@@ -23117,9 +22169,9 @@ window.NCLEX_CASES = [
               },
               {
                 "text": "Point-of-care glucose every 6 hours",
-                "correctIndex": 1,
+                "correctIndex": 0,
                 "correctIndices": [
-                  1
+                  0
                 ]
               },
               {
@@ -23139,7 +22191,7 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Liver Failure&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FGSA, FAAN, Salisbury University, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes and Vital Signs from Day 1 1400. The client receives the diagnosis of hepatic encephalopathy.",
-          "explanation": "Interventions focus on treating both the ascites and the hepatic encephalopathy: neuro assessments, pulse oximetry, daily weights and abdominal girth, a low-sodium diet, and lactulose to lower the ammonia level.<br>Acetaminophen (metabolized by the liver) and sedatives are contraindicated, as is placing the client flat in bed when he is dyspneic from ascites. Glucose monitoring would not harm the client but is not necessary."
+          "explanation": "Interventions focus on treating both the ascites and the hepatic encephalopathy: neuro assessments, pulse oximetry, daily weights and abdominal girth, a low-sodium diet, and lactulose to lower the ammonia level.<br>Ibuprofen and other NSAIDs are contraindicated in cirrhosis (they increase the risk of bleeding and kidney injury; acetaminophen up to about 2 g a day is the preferred antipyretic), sedatives are contraindicated, as is placing the client flat in bed when he is dyspneic from ascites. Point-of-care glucose checks are indicated: the client is malnourished with alcohol use disorder, so his liver cannot make enough glucose, and his fasting glucose is already 3.9 mmol/L."
         },
         "leftContent": {
           "tabs": [
@@ -23156,7 +22208,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd16",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Propranolol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
             },
             {
               "id": "labs_umd16",
@@ -23199,7 +22251,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd16",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Propranolol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
             },
             {
               "id": "labs_umd16",
@@ -23221,16 +22273,16 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "improving",
-                    "correct": true
-                  },
-                  {
                     "text": "deteriorating",
                     "correct": false
                   },
                   {
                     "text": "unchanged",
                     "correct": false
+                  },
+                  {
+                    "text": "improving",
+                    "correct": true
                   }
                 ],
                 "placeholder": "Select..."
@@ -23263,7 +22315,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd16",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Remains alert at times but confused, mumbling off and on; mild hand flap (asterixis) noted. Moderately dyspneic on 2 L/min oxygen by nasal cannula, RR 26 breaths/min. Bulging flanks and prominent veins around the umbilicus noted; provider notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Pulse oximetry reading 93% on 4 L/min oxygen. Second dose of lactulose given; 2 large, loose brown stools since the first dose. Alert, coherent, and cooperative with assessment. Urine output 400 mL since 1400.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Pulse oximetry reading 95% on room air; no dyspnea. Alert and oriented &times; 3 with no signs of agitation. Urine clear yellow at 30&ndash;40 mL/hr since 0600. Weight 62.7 kg (138 lb); abdominal girth recorded. Morning medications (metoprolol and spironolactone) given. Ammonia level now 42 &micro;mol/L.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Admitted with ascites and confusion; oriented to person only. 25-year history of alcohol use disorder, mild hypertension, and gastroesophageal reflux disease. Drowsy and dozing off and on, mildly dyspneic, appears thin and malnourished; somewhat agitated when answering questions. States he has not had a drink in a few weeks; his sister, who accompanied him, reports a recent drinking binge a week ago. Placed on oxygen 2 L/min by nasal cannula. Bulging flanks and peripheral edema noted. Bloodwork sent to the lab. Admission weight 64.5 kg (142 lb).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Remains alert at times but confused, mumbling off and on; mild hand flap (asterixis) noted. Moderately dyspneic on 2 L/min oxygen by nasal cannula, RR 26 breaths/min. Bulging flanks and prominent veins around the umbilicus noted; provider notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Pulse oximetry reading 93% on 4 L/min oxygen. Second dose of lactulose given; 2 large, loose brown stools since the first dose. Alert, coherent, and cooperative with assessment. Urine output 400 mL since 1400.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Pulse oximetry reading 95% on room air; no dyspnea. Alert and oriented &times; 3 with no signs of agitation. Urine clear yellow at 30&ndash;40 mL/hr since 0600. Weight 62.7 kg (138 lb); abdominal girth recorded. Morning medications (propranolol and spironolactone) given. Ammonia level now 42 &micro;mol/L.</span></p>"
             },
             {
               "id": "vs_umd16",
@@ -23273,7 +22325,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd16",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Metoprolol XL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mg PO daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Propranolol</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1000</td></tr></tbody></table>"
             },
             {
               "id": "labs_umd16",
@@ -23293,12 +22345,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Gastrointestinal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (revised April 17, 2023); Author: Mary DiBartolo, Salisbury University. Liver failure: a 67-year-old client with alcohol use disorder, cirrhosis, ascites, and hepatic encephalopathy; priorities, orders, and response to lactulose and diuretics.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 4: the acetaminophen row is now ibuprofen (contraindicated in cirrhosis); acetaminophen ≤ 2 g/day is preferred.\nScreen 4: point-of-care glucose is now Indicated (malnourished, glucose 3.9 mmol/L).\nMetoprolol XL replaced by propranolol 20 mg twice daily (nonselective beta-blocker for portal hypertension).\nNo creatinine is charted; consider adding one.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800017",
     "unit": "Unit 9 (Reproductive Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS17",
     "topic": "Unit 9 (Reproductive Disorders)",
     "course": "NURS 1021",
@@ -23351,7 +22407,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd17",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
             },
             {
               "id": "vs_umd17",
@@ -23426,7 +22482,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd17",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
             },
             {
               "id": "vs_umd17",
@@ -23465,12 +22521,12 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
-                    "text": "cardiovascular assessment",
-                    "correct": true
-                  },
-                  {
                     "text": "respiratory assessment",
                     "correct": false
+                  },
+                  {
+                    "text": "cardiovascular assessment",
+                    "correct": true
                   },
                   {
                     "text": "neurologic assessment",
@@ -23483,14 +22539,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "The client is experiencing hemorrhagic shock, as most evidenced by the cardiovascular assessment: low blood pressure and tachycardia, with active bleeding in the urine."
+          "explanation": "The client is experiencing hemorrhagic shock, as most evidenced by the cardiovascular assessment: low blood pressure and tachycardia, with active bleeding in the urine. The neurologic finding (confusion) and the low oxygen saturation are effects of poor perfusion; the cardiovascular findings show the cause."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd17",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
             },
             {
               "id": "vs_umd17",
@@ -23566,14 +22622,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1420. The nurse suspects the client is experiencing hemorrhagic shock and notifies the provider.",
-          "explanation": "The nurse restores perfusion by applying oxygen and giving a fluid bolus. Hemoglobin and hematocrit levels show whether blood is needed. Urine output is monitored closely to ensure the catheter is patent and renal perfusion is adequate.<br>The catheter stays in place; the provider may apply traction to put pressure on bleeding sites. A urine culture is unlikely to help, because infection is not suspected and the urine is bloody. Enemas are contraindicated because they may injure the prostatic fossa."
+          "explanation": "The nurse restores perfusion by applying oxygen and giving a fluid bolus. Hemoglobin and hematocrit levels show whether blood is needed. Urine output is monitored closely to ensure the catheter is patent and renal perfusion is adequate. The catheter stays in place to monitor the bleeding and the urine output. A urine culture is unlikely to help, because infection is not suspected and the urine is bloody. Enemas are contraindicated because they may injure the prostatic fossa."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd17",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
             },
             {
               "id": "vs_umd17",
@@ -23590,13 +22646,13 @@ window.NCLEX_CASES = [
           "stem": "Click to highlight <b>2</b> additional orders the nurse should implement <b>immediately</b> to manage hemorrhagic shock.",
           "type": "highlight_2",
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
-          "preamble": "The physician assesses the client, applies traction to the catheter, and writes orders.",
-          "explanation": "The nurse immediately gives the IV fluid bolus to treat the hypovolemia and applies oxygen to improve oxygenation and perfusion.<br>The other orders (irrigation titration, blood work, reporting results, and a possible transfusion) follow.",
+          "preamble": "The physician assesses the client and writes orders.",
+          "explanation": "The nurse immediately gives the IV fluid bolus to treat the hypovolemia and applies oxygen to improve oxygenation and perfusion.<br>The other orders (blood work, reporting results, and a possible transfusion) follow.",
           "highlightTabs": [
             {
               "id": "ht_umd17",
               "title": "Orders",
-              "content": "<p>Maintain traction on catheter</p><p>{Continuous bladder irrigation: titrate to keep urine pink to clear}</p><p>{Administer 500 mL 0.9% sodium chloride IV bolus|correct}</p><p>{Administer oxygen to keep oxygen saturation above 94%|correct}</p><p>{Obtain blood for hemoglobin and hematocrit}</p><p>{Notify primary care provider promptly with laboratory results}</p><p>{Administer blood component if hemoglobin is below 70 g/L}</p>"
+              "content": "<p>{Administer 500 mL 0.9% sodium chloride IV bolus|correct}</p><p>{Administer oxygen to keep oxygen saturation above 94%|correct}</p><p>{Obtain blood for hemoglobin and hematocrit}</p><p>{Notify primary care provider promptly with laboratory results}</p><p>{Administer blood component if hemoglobin is below 70 g/L}</p>"
             }
           ],
           "maxCorrectSelections": 2
@@ -23606,7 +22662,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd17",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
             },
             {
               "id": "vs_umd17",
@@ -23628,15 +22684,15 @@ window.NCLEX_CASES = [
               {
                 "options": [
                   {
+                    "text": "unchanged",
+                    "correct": false
+                  },
+                  {
                     "text": "improving",
                     "correct": true
                   },
                   {
                     "text": "deteriorating",
-                    "correct": false
-                  },
-                  {
-                    "text": "unchanged",
                     "correct": false
                   }
                 ],
@@ -23670,7 +22726,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd17",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Provider retaped catheter to client&rsquo;s leg. Oxygen and fluid bolus given. Urine light pink.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Provider retaped catheter to client&rsquo;s leg. Oxygen and fluid bolus given. Urine light pink.</span></p>"
             },
             {
               "id": "vs_umd17",
@@ -23680,7 +22736,7 @@ window.NCLEX_CASES = [
             {
               "id": "ord_umd17",
               "title": "Orders",
-              "content": "<p>Maintain traction on catheter</p><p>Continuous bladder irrigation: titrate to keep urine pink to clear</p><p>Administer 500 mL 0.9% sodium chloride IV bolus</p><p>Administer oxygen to keep oxygen saturation above 94%</p><p>Obtain blood for hemoglobin and hematocrit</p><p>Notify primary care provider promptly with laboratory results</p><p>Administer blood component if hemoglobin is below 70 g/L</p>"
+              "content": "<p>Administer 500 mL 0.9% sodium chloride IV bolus</p><p>Administer oxygen to keep oxygen saturation above 94%</p><p>Obtain blood for hemoglobin and hematocrit</p><p>Notify primary care provider promptly with laboratory results</p><p>Administer blood component if hemoglobin is below 70 g/L</p>"
             },
             {
               "id": "labs_umd17",
@@ -23695,12 +22751,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 9 (Reproductive Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Prostate cancer with prostatectomy: a 55-year-old client develops hemorrhagic shock after a robotic-assisted laparoscopic prostatectomy; recognition, actions, and evaluation.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nKetorolac (an NSAID, in a bleeding client) replaced by morphine 2 mg IV.\nContinuous bladder irrigation and catheter traction removed (they belong to TURP, not robotic radical prostatectomy); the screen 5 highlight passage no longer lists them.\nScreen 3 key \"cardiovascular assessment\" kept (the source had no key); rationale strengthened. Please confirm.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800018",
     "unit": "Unit 6 (Musculoskeletal Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS18",
     "topic": "Unit 6 (Musculoskeletal Disorders)",
     "course": "NURS 1017",
@@ -23944,7 +23004,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Administer senna 1 tablet PO twice daily",
+                "text": "Administer docusate sodium 100 mg PO twice daily",
                 "correctIndex": 0,
                 "correctIndices": [
                   0
@@ -23959,7 +23019,7 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Care of Client Post-Op Spine Surgery (Laminectomy)&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FAAN, and Allison Hynson, MSN, RN, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Medications.",
-          "explanation": "Because the dressing is saturated, the nurse notifies the provider. Compressing the JP drain restores the suction needed for drainage. Hemoglobin and hematocrit are drawn to monitor blood loss. Senna prevents straining during a bowel movement; the client has had no bowel movement for several days and is taking opioids, which cause constipation.<br>The pain is well controlled at 4/10, and the 10-mg oxycodone order is for pain of 7&ndash;10, so it is not the appropriate dose. An indwelling catheter is not indicated: the client has the urge to void, and it has not been 8 hours since the catheter was removed."
+          "explanation": "Because the dressing is saturated, the nurse notifies the provider. Compressing the JP drain restores the suction needed for drainage. Hemoglobin and hematocrit are drawn to monitor blood loss. Docusate, a stool softener, prevents straining during a bowel movement; the client has had no bowel movement for several days and is taking opioids, which cause constipation.<br>The pain is well controlled at 4/10, and the 10-mg oxycodone order is for pain of 7&ndash;10, so it is not the appropriate dose. An indwelling catheter is not indicated: the client has the urge to void, and it has not been 8 hours since the catheter was removed."
         },
         "leftContent": {
           "tabs": [
@@ -23981,7 +23041,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd18",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5 mg PO every 4 hours as needed for moderate pain (4&ndash;6)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1230</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mg PO every 4 hours as needed for severe pain (7&ndash;10)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Senna</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1 tablet PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5 mg PO every 4 hours as needed for moderate pain (4&ndash;6)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1230</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mg PO every 4 hours as needed for severe pain (7&ndash;10)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Docusate sodium</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse is caring for a 65-year-old female client who is admitted to the surgical unit following an L2&ndash;L4 laminectomy."
@@ -24014,7 +23074,7 @@ window.NCLEX_CASES = [
               "correct": false
             },
             {
-              "text": "Check the surgical dressing in the mirror daily.",
+              "text": "Have a family member check the surgical dressing daily.",
               "correct": true
             },
             {
@@ -24028,7 +23088,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Care of Client Post-Op Spine Surgery (Laminectomy)&rdquo; medical-surgical faculty case study (Mary DiBartolo, PhD, RN-BC, CNE, FAAN, and Allison Hynson, MSN, RN, January 25, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from Day 1 1610 and Day 2 0900, the Vital Signs from Day 2 0900, and the Medications. At 0900 on day 2, the provider comes to the bedside and places discharge orders.",
-          "explanation": "A stool softener prevents straining. Bending, lifting, and twisting are avoided after spine surgery. Fever or chills could be signs of infection and should be reported. The client should check the surgical dressing daily to monitor drainage.<br>The TLSO brace is worn when moving around or sitting, not while lying down. Adhesive strips are left alone to fall off on their own. Clients are encouraged to walk as much as possible after spine surgery rather than limit activity. Mild pain is managed with a nonopioid such as acetaminophen."
+          "explanation": "A stool softener prevents straining. Bending, lifting, and twisting are avoided after spine surgery. Fever or chills could be signs of infection and should be reported. A family member checks the dressing daily to monitor drainage, because a lumbar incision is hard to see.<br>The TLSO brace is worn when moving around or sitting, not while lying down. Adhesive strips are left alone to fall off on their own. Clients are encouraged to walk as much as possible after spine surgery rather than limit activity. Mild pain is managed with a nonopioid such as acetaminophen."
         },
         "leftContent": {
           "tabs": [
@@ -24050,7 +23110,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd18",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5 mg PO every 4 hours as needed for moderate pain (4&ndash;6)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1230</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1800</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 2 0300</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mg PO every 4 hours as needed for severe pain (7&ndash;10)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Senna</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1 tablet PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5 mg PO every 4 hours as needed for moderate pain (4&ndash;6)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1230</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1800</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 2 0300</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mg PO every 4 hours as needed for severe pain (7&ndash;10)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Docusate sodium</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse is caring for a 65-year-old female client who is admitted to the surgical unit following an L2&ndash;L4 laminectomy."
@@ -24150,7 +23210,7 @@ window.NCLEX_CASES = [
             {
               "id": "meds_umd18",
               "title": "Medications",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5 mg PO every 4 hours as needed for moderate pain (4&ndash;6)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1230</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1800</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 2 0300</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mg PO every 4 hours as needed for severe pain (7&ndash;10)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Senna</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1 tablet PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Medication</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Dose, Route, Frequency</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Given</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5 mg PO every 4 hours as needed for moderate pain (4&ndash;6)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1230</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 1 1800</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Day 2 0300</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Oxycodone</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mg PO every 4 hours as needed for severe pain (7&ndash;10)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Docusate sodium</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 mg PO twice daily</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse is caring for a 65-year-old female client who is admitted to the surgical unit following an L2&ndash;L4 laminectomy."
@@ -24160,12 +23220,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 6 (Musculoskeletal Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, January 25, 2023; Authors: Mary DiBartolo and Allison Hynson. Spine surgery: a 65-year-old client after an L2-L4 laminectomy with a saturated dressing and a nonfunctioning JP drain; priorities, interventions, and discharge teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 5: \"check the dressing in the mirror\" is now \"have a family member check the dressing daily\".\nSenna (a stimulant laxative) replaced by docusate (a stool softener), so the teaching about a stool softener is accurate.\nThe CS18 bow-tie (stand-alone, still hidden) still places a wound infection on day 1–2; not changed.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800019",
     "unit": "Unit 7 (Neurological Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS19",
     "topic": "Unit 7 (Neurological Disorders)",
     "course": "NURS 1017",
@@ -24177,12 +23241,12 @@ window.NCLEX_CASES = [
           "type": "highlight",
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "",
-          "explanation": "A disruption of the blood supply to areas of the brain causes a sudden loss of motor function. Like a myocardial infarction, a disruption of blood flow to the brain is a medical emergency that requires immediate intervention. Lightheadedness, weakness of the left lower and upper extremities, a sudden headache, and the heart rate and elevated blood pressure indicate poor cerebral perfusion and require immediate follow-up.<br>The client&rsquo;s age, the acetaminophen, the alcohol intake, and the vaping are not findings that need immediate follow-up.",
+          "explanation": "A disruption of the blood supply to areas of the brain causes a sudden loss of motor function. Like a myocardial infarction, a disruption of blood flow to the brain is a medical emergency that requires immediate intervention. Lightheadedness, weakness of the left lower and upper extremities, a sudden headache, and the raised heart rate (112 beats/min) and blood pressure indicate poor cerebral perfusion and require immediate follow-up.<br>The client&rsquo;s age, the acetaminophen, the alcohol intake, and the vaping are not findings that need immediate follow-up.",
           "highlightTabs": [
             {
               "id": "ht_umd19",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A {26-year-old female} of Latin descent presents to the emergency department with {lightheadedness|correct}, {generalized weakness of the left lower and upper extremities|correct}, and a {sudden headache|correct} after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and {self-administered 500 mg of acetaminophen for pain}, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally {drinks 3&ndash;4 glasses of wine a week}, and {vapes with e-cigarettes daily}.<br>Continuous cardiac monitoring initiated per protocol. {Heart rate 99 beats/min|correct}, {blood pressure 160/100 mm Hg|correct}. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A {26-year-old female} of Latin descent presents to the emergency department with {lightheadedness|correct}, {generalized weakness of the left lower and upper extremities|correct}, and a {sudden headache|correct} after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and {self-administered 500 mg of acetaminophen for pain}, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally {drinks 3&ndash;4 glasses of wine a week}, and {vapes with e-cigarettes daily}.<br>Continuous cardiac monitoring initiated per protocol. {Heart rate 112 beats/min|correct}, {blood pressure 160/100 mm Hg|correct}. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
             }
           ]
         },
@@ -24191,7 +23255,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd19",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 112 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
             }
           ],
           "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities."
@@ -24255,7 +23319,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd19",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 112 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
             }
           ],
           "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities."
@@ -24301,7 +23365,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd19",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 112 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p>"
             },
             {
               "id": "dx_umd19",
@@ -24364,7 +23428,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd19",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 112 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p>"
             },
             {
               "id": "dx_umd19",
@@ -24374,7 +23438,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd19",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.55 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13.5 seconds</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.40 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">11 seconds</td></tr></tbody></table>"
             },
             {
               "id": "ord_umd19",
@@ -24457,7 +23521,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd19",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Weight 75 kg. Alteplase 67.5 mg infused over 60 minutes; 7 mg of the total dose given as a bolus per protocol.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 112 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Weight 75 kg. Alteplase 67.5 mg infused over 60 minutes; 7 mg of the total dose given as a bolus per protocol.</span></p>"
             },
             {
               "id": "dx_umd19",
@@ -24467,7 +23531,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd19",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.55 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13.5 seconds</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.40 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">11 seconds</td></tr></tbody></table>"
             },
             {
               "id": "ord_umd19",
@@ -24507,7 +23571,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "“The physical therapist will determine my functional ability.”",
+                "text": "“Once I go home, I will not need any more therapy.”",
                 "correctIndex": 1,
                 "correctIndices": [
                   1
@@ -24536,14 +23600,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Stroke&rdquo; medical-surgical faculty case study (DeNiece Bennett, DNP, MSN-Ed, RN, University of Maryland School of Nursing, September 1, 2022; revised April 17, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1230 and the Progress Notes. The client&rsquo;s condition has improved the next day, and the nurse evaluates the client&rsquo;s understanding of the instructions provided.",
-          "explanation": "To prevent a fall, the client calls for help to get out of bed. An ischemic stroke can cause dysphagia, so a speech and swallow evaluation determines whether she needs thickened liquids or pureed foods to prevent aspiration. Because of the bleeding risk, she uses an electric razor and a soft-bristled toothbrush. Combined hormonal contraception increases the risk of stroke, so she should explore alternatives.<br>The baseline assessment of the client&rsquo;s functional ability (motor, social, and cognitive) is completed by the nurse. The client has no diagnosis of diabetes and is not prescribed insulin; she will take apixaban, an oral anticoagulant."
+          "explanation": "To prevent a fall, the client calls for help to get out of bed. An ischemic stroke can cause dysphagia, so a speech and swallow evaluation determines whether she needs thickened liquids or pureed foods to prevent aspiration. Because of the bleeding risk, she uses an electric razor and a soft-bristled toothbrush. Combined hormonal contraception increases the risk of stroke, so she should explore alternatives.<br>Rehabilitation (physical, occupational, and speech therapy) usually continues after discharge, so the client will still need therapy at home. The client has no diagnosis of diabetes and is not prescribed insulin; she will take an antiplatelet medication (aspirin)."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd19",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 99 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Weight 75 kg. Alteplase 67.5 mg infused over 60 minutes; 7 mg of the total dose given as a bolus per protocol.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Transferred to the critical care unit.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">A 26-year-old female of Latin descent presents to the emergency department with lightheadedness, generalized weakness of the left lower and upper extremities, and a sudden headache after completing a 2.5-mile sprint. Reports some nausea but no vomiting. Thinking she was dehydrated from her exercise, she drank about a liter of water and self-administered 500 mg of acetaminophen for pain, with no improvement. She reports the symptoms began at approximately 0900. No significant previous medical or surgical history. Takes an oral combined hormonal contraceptive. Occasionally drinks 3&ndash;4 glasses of wine a week, and vapes with e-cigarettes daily.<br>Continuous cardiac monitoring initiated per protocol. Heart rate 112 beats/min, blood pressure 160/100 mm Hg. Awake and alert and able to make her needs known. Voiding clear yellow urine; abdomen soft with bowel sounds in all quadrants. Reports increasing numbness of the left side and the left upper and lower extremities.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">20-gauge IV catheters placed in the right and left antecubital veins per protocol. Blood work drawn; results returned.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1200:</span><span class=\"nurse-note-text\">Weight 75 kg. Alteplase 67.5 mg infused over 60 minutes; 7 mg of the total dose given as a bolus per protocol.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1230:</span><span class=\"nurse-note-text\">Transferred to the critical care unit.</span></p>"
             },
             {
               "id": "dx_umd19",
@@ -24553,7 +23617,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd19",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.55 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">500 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13.5 seconds</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1130</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Glucose, fasting</b><br>&lt; 5.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10.3 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.40 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">130 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Platelet count</b><br>140&ndash;450 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">250 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>9.5&ndash;12 seconds</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">11 seconds</td></tr></tbody></table>"
             },
             {
               "id": "ord_umd19",
@@ -24563,7 +23627,7 @@ window.NCLEX_CASES = [
             {
               "id": "pn_umd19",
               "title": "Progress Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Awake, alert, and oriented to person, place, and time. Heart rate 98 beats/min, sinus rhythm; blood pressure 128/86 mm Hg; afebrile. Bleeding and fall precautions continued. Instructed to use the call bell for assistance with ambulation. Stroke education provided and expected outcomes after a stroke reviewed. Health risk factors, signs and symptoms, early interventions, follow-up care, and apixaban at discharge discussed. Advised of a speech and swallow test to evaluate oropharyngeal motor function. Educated on the adverse effects of alteplase and the increased risk of bleeding.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Awake, alert, and oriented to person, place, and time. Heart rate 98 beats/min, sinus rhythm; blood pressure 128/86 mm Hg; afebrile. Bleeding and fall precautions continued. Instructed to use the call bell for assistance with ambulation. Stroke education provided and expected outcomes after a stroke reviewed. Health risk factors, signs and symptoms, early interventions, follow-up care, and antiplatelet therapy (aspirin) at discharge discussed. Advised of a speech and swallow test to evaluate oropharyngeal motor function. Educated on the adverse effects of alteplase and the increased risk of bleeding.</span></p>"
             }
           ],
           "intro": "A 26-year-old woman presents to the emergency department with a sudden onset of lightheadedness and generalized weakness of the left lower and upper extremities."
@@ -24573,12 +23637,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 7 (Neurological Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (revised April 17, 2023); Author: DeNiece Bennett, University of Maryland School of Nursing. Stroke: a 26-year-old client on a combined hormonal contraceptive with an acute ischemic stroke; risk factors, alteplase screening and post-thrombolysis care, and teaching.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nHeart rate changed from 99 to 112 beats/min, so it is truly abnormal (it is keyed on screen 1).\nUnexplained labs normalized: Hct 0.40 L/L, platelets 250 × 10⁹/L, PT 11 seconds.\nDischarge apixaban (no atrial fibrillation) replaced by antiplatelet therapy (aspirin).\nScreen 6: the physical-therapist statement is now \"I will not need any more therapy\" (no understanding).\nThe CS19 bow-tie (stand-alone, still hidden) keys oxygen with no SpO₂ charted; not changed.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800020",
     "unit": "Unit 3 (Respiratory Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS20",
     "topic": "Unit 3 (Respiratory Disorders)",
     "course": "NURS 1021",
@@ -24694,7 +23762,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Muffled heart sounds",
+                "text": "Jugular venous distention",
                 "correctIndex": 1,
                 "correctIndices": [
                   1,
@@ -24727,14 +23795,14 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1530, the Vital Signs, and the Laboratory Results. The nurse reassesses the client.",
-          "explanation": "Pulmonary contusion, cardiac tamponade, and pneumothorax may all result from severe chest trauma and may present with labored breathing and chest pain. All can cause tachycardia and hypotension, by different mechanisms: a pulmonary contusion is associated with bleeding that can lead to shock, while a tension pneumothorax and cardiac tamponade decrease cardiac output. Respiratory acidosis with hypoxemia is seen with pulmonary contusion and pneumothorax, but not with cardiac tamponade. Muffled heart sounds occur with cardiac tamponade and may occur with a tension pneumothorax. Asymmetrical chest movement, absent breath sounds, and tracheal deviation are signs of a tension pneumothorax."
+          "explanation": "Pulmonary contusion, cardiac tamponade, and pneumothorax may all result from severe chest trauma and may present with labored breathing and chest pain. All can cause tachycardia and hypotension, by different mechanisms: a pulmonary contusion is associated with bleeding that can lead to shock, while a tension pneumothorax and cardiac tamponade decrease cardiac output. Respiratory acidosis with hypoxemia is seen with pulmonary contusion and pneumothorax, but not with cardiac tamponade. Jugular venous distention occurs with both cardiac tamponade and tension pneumothorax, because both obstruct the return of blood to the heart. Asymmetrical chest movement, absent breath sounds, and tracheal deviation are signs of a tension pneumothorax."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd20",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Jugular veins distended. Client stuporous. Tracheal deviation noted.</span></p>"
             },
             {
               "id": "vs_umd20",
@@ -24809,7 +23877,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd20",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Jugular veins distended. Client stuporous. Tracheal deviation noted.</span></p>"
             },
             {
               "id": "vs_umd20",
@@ -24832,7 +23900,7 @@ window.NCLEX_CASES = [
           "type": "select_all",
           "options": [
             {
-              "text": "Insert an indwelling urinary catheter",
+              "text": "Prepare the client for a thoracentesis",
               "correct": false
             },
             {
@@ -24844,7 +23912,7 @@ window.NCLEX_CASES = [
               "correct": true
             },
             {
-              "text": "Obtain a STAT chest X-ray",
+              "text": "Obtain a chest X-ray after the chest tube is placed",
               "correct": true
             },
             {
@@ -24858,14 +23926,14 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse notifies the provider of the client&rsquo;s condition.",
-          "explanation": "The client is most likely experiencing a tension pneumothorax. The nurse prepares for immediate needle decompression to relieve the pressure in the chest. Treatment then includes inserting a chest tube connected to suction through a chest drainage system to re-expand the lung. A chest X-ray is done before chest tube placement if time allows; otherwise it is obtained soon after. The nurse administers pain medication before the provider decompresses the chest and inserts the chest tube.<br>Whether the client needs blood is decided if shock or evidence of internal bleeding persists after the pneumothorax is evacuated. An indwelling urinary catheter is not needed to treat the pneumothorax."
+          "explanation": "The client is most likely experiencing a tension pneumothorax. The nurse prepares for immediate needle decompression to relieve the pressure in the chest. Treatment then includes inserting a chest tube connected to suction through a chest drainage system to re-expand the lung. A tension pneumothorax is a clinical diagnosis: decompression is never delayed for an X-ray, which is done after the chest tube is placed to confirm its position and the re-expansion of the lung. The nurse administers pain medication before the provider decompresses the chest and inserts the chest tube.<br>Whether the client needs blood is decided if shock or evidence of internal bleeding persists after the pneumothorax is evacuated. A thoracentesis drains fluid, not air, so it does not treat a pneumothorax."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd20",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Jugular veins distended. Client stuporous. Tracheal deviation noted.</span></p>"
             },
             {
               "id": "vs_umd20",
@@ -24924,7 +23992,7 @@ window.NCLEX_CASES = [
                 ]
               },
               {
-                "text": "Document chest tube drainage every shift",
+                "text": "Measure and record chest tube drainage hourly at first",
                 "correctIndex": 0,
                 "correctIndices": [
                   0
@@ -24953,7 +24021,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd20",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1545:</span><span class=\"nurse-note-text\">Chest X-ray obtained. Medicated with morphine. The provider used a 14-gauge needle to decompress the chest and inserted a 28 Fr chest tube in the left lower chest wall. Chest tube connected to water seal drainage with 20 cm H<sub>2</sub>O wall suction. Fluctuations noted in the water seal chamber. 20 mL of light red drainage collected in the drainage chamber. Crackles heard in the right lung fields. Diminished breath sounds on the left.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Jugular veins distended. Client stuporous. Tracheal deviation noted.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1545:</span><span class=\"nurse-note-text\">Medicated with morphine. The provider used a 14-gauge needle to decompress the chest and inserted a 28 Fr chest tube in the left lower chest wall. Chest tube connected to water seal drainage with 20 cm H<sub>2</sub>O wall suction. Fluctuations noted in the water seal chamber. Chest X-ray obtained after the chest tube was placed. 20 mL of light red drainage collected in the drainage chamber. Breath sounds clear on the right. Diminished breath sounds on the left.</span></p>"
             },
             {
               "id": "vs_umd20",
@@ -25020,19 +24088,19 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Tension Pneumothorax&rdquo; medical-surgical faculty case study (Denyce Watties-Daniels, DNP, RN, Coppin State University, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1600 and the Vital Signs. The nurse reassesses the client.",
-          "explanation": "The vital signs, SpO<sub>2</sub> on room air, symmetrical chest movement, and pink lips and fingertips show the client is improving. The nurse continues to monitor the client, including the breath sounds, for improved airflow in the affected lung.<br>A blood gas may not be needed if the client continues to improve. There is no need to check for air leaks, since the system appears to be functioning."
+          "explanation": "The vital signs, SpO<sub>2</sub> on less oxygen, symmetrical chest movement, and pink lips and fingertips show the client is improving. The nurse continues to monitor the client, including the breath sounds, for improved airflow in the affected lung.<br>A blood gas may not be needed if the client continues to improve. There is no need to check for air leaks, since the system appears to be functioning."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd20",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Muffled heart sounds. Client stuporous. Tracheal deviation noted.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1545:</span><span class=\"nurse-note-text\">Chest X-ray obtained. Medicated with morphine. The provider used a 14-gauge needle to decompress the chest and inserted a 28 Fr chest tube in the left lower chest wall. Chest tube connected to water seal drainage with 20 cm H<sub>2</sub>O wall suction. Fluctuations noted in the water seal chamber. 20 mL of light red drainage collected in the drainage chamber. Crackles heard in the right lung fields. Diminished breath sounds on the left.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1600:</span><span class=\"nurse-note-text\">Resting in bed. Chest tube draining a small amount of light red drainage in the collection chamber. Symmetrical chest movement noted. Lips and fingertips are pink.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Lethargic but easy to arouse. Has chest pain and difficulty breathing; chest pain increases to 5/10 with inspiration. Absent breath sounds on the anterior and posterior left lower chest wall. Asymmetrical chest movement, less on the left side. Cyanosis of the lips and fingertips. Bruising on the anterior chest from the seat belt. IV of 0.9% sodium chloride started at 100 mL/hr in the left arm. Oxygen started at 4 L/min per nasal cannula.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1530:</span><span class=\"nurse-note-text\">Increasing shortness of breath and labored breathing; tachycardic, with a dropping blood pressure. Jugular veins distended. Client stuporous. Tracheal deviation noted.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1545:</span><span class=\"nurse-note-text\">Medicated with morphine. The provider used a 14-gauge needle to decompress the chest and inserted a 28 Fr chest tube in the left lower chest wall. Chest tube connected to water seal drainage with 20 cm H<sub>2</sub>O wall suction. Fluctuations noted in the water seal chamber. Chest X-ray obtained after the chest tube was placed. 20 mL of light red drainage collected in the drainage chamber. Breath sounds clear on the right. Diminished breath sounds on the left.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1600:</span><span class=\"nurse-note-text\">Resting in bed. Chest tube draining a small amount of light red drainage in the collection chamber. Symmetrical chest movement noted. Lips and fingertips are pink.</span></p>"
             },
             {
               "id": "vs_umd20",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1545</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8° C (98.4° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C (98.0° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C (98.0° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C (98.0° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">128/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1530</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1545</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.8° C (98.4° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C (98.0° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C (98.0° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36.6° C (98.0° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">36 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">138/90 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">98/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">128/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">124/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">89% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">80% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on 2 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5/10</td></tr></tbody></table>"
             },
             {
               "id": "labs_umd20",
@@ -25052,12 +24120,16 @@ window.NCLEX_CASES = [
     "disorder": "Unit 3 (Respiratory Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Denyce Watties-Daniels, Coppin State University. Tension pneumothorax: a 58-year-old client with rib fractures after a motor vehicle collision; recognizing deterioration, needle decompression and chest tube care.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nChest X-ray moved to after decompression and chest tube; screen 4 option now \"Obtain a chest X-ray after the chest tube is placed\".\nScreen 4: the urinary catheter option is now \"Prepare the client for a thoracentesis\" (not anticipated).\nMuffled heart sounds (a tamponade sign) replaced by jugular venous distention in the chart and the screen 2 grid.\nScreen 5: drainage is measured hourly at first (was every shift); unexplained right-sided crackles removed; 1600 SpO₂ now 97% on 2 L/min.\nScreen 3 uses rationale scoring as in the source. The CS20 bow-tie (stand-alone, still hidden) still keys the chest X-ray as an action; not changed.",
+      "flaggedAt": "2026-10-14"
+    }
   },
   {
     "id": "case_1790776800021",
     "unit": "Unit 11 (Endocrine Disorders)",
-    "draft": true,
+    "draft": false,
     "title": "University of Maryland - CS21",
     "topic": "Unit 11 (Endocrine Disorders)",
     "course": "NURS 1017",
@@ -25124,7 +24196,7 @@ window.NCLEX_CASES = [
             {
               "id": "vs_umd21",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
             }
           ],
           "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
@@ -25200,7 +24272,7 @@ window.NCLEX_CASES = [
             {
               "id": "vs_umd21",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
             }
           ],
           "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
@@ -25255,7 +24327,7 @@ window.NCLEX_CASES = [
             {
               "id": "vs_umd21",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
             }
           ],
           "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
@@ -25294,11 +24366,15 @@ window.NCLEX_CASES = [
             {
               "text": "Oral methimazole",
               "correct": true
+            },
+            {
+              "text": "Oral propranolol",
+              "correct": true
             }
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The client receives a working diagnosis of thyroid storm.",
-          "explanation": "Humidified oxygen is given to treat the client&rsquo;s dyspnea. The hyperthermia must be treated: the nurse anticipates acetaminophen and a cooling blanket to lower the body temperature more rapidly. The client has palpitations and tachycardia, so a 12-lead ECG is needed to assess the cardiac rate and rhythm. An antithyroid medication such as methimazole is an expected therapy for thyroid storm.<br>Acetylsalicylic acid displaces thyroid hormones from their binding proteins and can worsen the hypermetabolic state. Levothyroxine would increase thyroid hormone levels."
+          "explanation": "Humidified oxygen is given to treat the client&rsquo;s dyspnea. The hyperthermia must be treated: the nurse anticipates acetaminophen and a cooling blanket to lower the body temperature more rapidly. The client has palpitations and tachycardia, so a 12-lead ECG is needed to assess the cardiac rate and rhythm. An antithyroid medication such as methimazole is an expected therapy for thyroid storm, and a beta-blocker (propranolol) controls the tachycardia and other adrenergic effects.<br>Acetylsalicylic acid displaces thyroid hormones from their binding proteins and can worsen the hypermetabolic state. Levothyroxine would increase thyroid hormone levels."
         },
         "leftContent": {
           "tabs": [
@@ -25310,7 +24386,7 @@ window.NCLEX_CASES = [
             {
               "id": "vs_umd21",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
             }
           ],
           "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
@@ -25343,7 +24419,7 @@ window.NCLEX_CASES = [
             {
               "id": "vs_umd21",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.7° C (103.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148/89 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.7° C (103.5° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148/89 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
             },
             {
               "id": "ord_umd21",
@@ -25391,9 +24467,9 @@ window.NCLEX_CASES = [
               },
               {
                 "text": "Oxygenation",
-                "correctIndex": 1,
+                "correctIndex": 0,
                 "correctIndices": [
-                  1
+                  0
                 ]
               },
               {
@@ -25412,24 +24488,24 @@ window.NCLEX_CASES = [
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Thyroid Storm&rdquo; medical-surgical faculty case study (Suzana Jarquin, MSN, RN, CNEcl, Frederick Community College, September 1, 2022; updated April 23, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
           "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 0930, 1000, and 1100, the Vital Signs from 1000 and 1100, the Orders, the Diagnostic Results, and the Laboratory Results. The nurse administered the oral acetaminophen and methimazole, placed the client on oxygen, and instituted cooling measures, and now reassesses the client.",
-          "explanation": "The temperature, heart rate, and respiratory rate have all improved with humidified oxygen, acetaminophen, and cooling measures.<br>The client remains anxious because of the hypermetabolic state, and oxygenation is stable (unchanged) with an SpO<sub>2</sub> of 97%. The client has reported no pain."
+          "explanation": "The temperature, heart rate, and respiratory rate have all improved with humidified oxygen, acetaminophen, and cooling measures.<br>The client remains anxious because of the hypermetabolic state, and oxygenation has improved, from 92% on room air to 97% on 2 L/min of oxygen. The client has reported no pain."
         },
         "leftContent": {
           "tabs": [
             {
               "id": "nn_umd21",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0910:</span><span class=\"nurse-note-text\">Assessed by the provider. IV line established; ordered blood work collected and sent to the laboratory. Vital signs reassessed; fever is increasing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Oxygen at 2 L/min applied. ECG obtained. Fluid bolus started. Acetaminophen given. Cooling blanket applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Thyroid studies returned with critically elevated serum T3 and T4. Order received for oral methimazole.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Reassessed after cooling measures and administration of oral methimazole and acetaminophen as ordered. Sitting up on the stretcher; remains alert and cooperative but still very anxious.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Accompanied by spouse; reports being short of breath and having palpitations. Placed in an ED treatment room directly from triage. Alert and oriented &times; 4; appears restless, anxious, and fatigued. Skin flushed and hot to touch. Bilateral eye protrusion noted; client states this is not their baseline and that their eyes feel &ldquo;very dry.&rdquo; Lung sounds clear to auscultation; no cough, but intermittent and worsening dyspnea. Normal S1 and S2; bilateral pulses 2&ndash;3+. Hyperactive bowel sounds in all 4 quadrants. Reports no pain. Reports excessive hunger and thirst over the past week, unrelieved by oral intake, and an unexpected weight loss of about 4 kg (8 lb) over the past week.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0910:</span><span class=\"nurse-note-text\">Assessed by the provider. IV line established; ordered blood work collected and sent to the laboratory. Vital signs reassessed; fever is increasing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Oxygen at 2 L/min applied. ECG obtained. Fluid bolus started. Acetaminophen given. Cooling blanket applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Thyroid studies returned with critically elevated serum T3 and T4. Orders received for oral methimazole and propranolol.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Reassessed after cooling measures and administration of oral methimazole, propranolol, and acetaminophen as ordered. Sitting up on the stretcher; remains alert and cooperative but still very anxious.</span></p>"
             },
             {
               "id": "vs_umd21",
               "title": "Vital Signs",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.7° C (103.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.4° C (103.0° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">38.9° C (102.0° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">136 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">127 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148/89 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">146/89 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on 2 L/min oxygen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on 2 L/min oxygen</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.6° C (103.2° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.7° C (103.5° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">39.4° C (103.0° F)</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">38.9° C (102.0° F)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">140 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">136 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">127 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">27 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">152/98 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">148/89 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">146/89 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">137/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">92% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on 2 L/min oxygen</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">97% on 2 L/min oxygen</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0/10</td></tr></tbody></table>"
             },
             {
               "id": "ord_umd21",
               "title": "Orders",
-              "content": "<p>1. Admit to the hospital</p><p>2. Apply cooling blanket and ice packs</p><p>3. Acetaminophen 1 g PO &times; 1 dose now</p><p>4. Artificial tears (drops) to both eyes</p><p>5. Humidified oxygen at 2 L/min via nasal cannula</p><p>6. 12-lead ECG</p><p>7. 0.9% sodium chloride 1000 mL IV bolus</p><p>8. Methimazole 20 mg PO every 8 hours</p>"
+              "content": "<p>1. Admit to the hospital</p><p>2. Apply cooling blanket and ice packs</p><p>3. Acetaminophen 1 g PO &times; 1 dose now</p><p>4. Artificial tears (drops) to both eyes</p><p>5. Humidified oxygen at 2 L/min via nasal cannula</p><p>6. 12-lead ECG</p><p>7. 0.9% sodium chloride 1000 mL IV bolus</p><p>8. Methimazole 20 mg PO every 8 hours</p><p>9. Propranolol 60 mg PO every 4 hours</p>"
             },
             {
               "id": "dx_umd21",
@@ -25439,7 +24515,7 @@ window.NCLEX_CASES = [
             {
               "id": "labs_umd21",
               "title": "Laboratory Results",
-              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cells (WBC)</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroid-stimulating hormone (TSH)</b><br>0.45&ndash;4.5 mU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.27 mU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Triiodothyronine (T3), total</b><br>1.2&ndash;3.1 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.1 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroxine (T4), total</b><br>57&ndash;148 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">270 nmol/L</td></tr></tbody></table>"
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>White blood cells (WBC)</b><br>4.5&ndash;10.5 &times; 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">13 &times; 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Potassium</b><br>3.5&ndash;5.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">5.0 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Sodium</b><br>135&ndash;145 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">142 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroid-stimulating hormone (TSH)</b><br>0.45&ndash;4.5 mU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">&lt; 0.01 mU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Triiodothyronine (T3), total</b><br>1.2&ndash;3.1 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">6.1 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Thyroxine (T4), total</b><br>57&ndash;148 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">270 nmol/L</td></tr></tbody></table>"
             }
           ],
           "intro": "A 32-year-old woman with a history of hyperthyroidism is brought to the emergency department by their spouse."
@@ -25449,7 +24525,11 @@ window.NCLEX_CASES = [
     "disorder": "Unit 11 (Endocrine Disorders)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated April 23, 2023); Author: Suzana Jarquin, Frederick Community College. Thyroid storm: a 32-year-old client with hyperthyroidism, fever, and tachycardia; recognizing thyroid storm, priority orders, and evaluating the response to treatment.",
     "availability": "all",
-    "updatedAt": "2026-10-14T18:44:52.899Z"
+    "updatedAt": "2026-10-14T19:10:07.127Z",
+    "authorReview": {
+      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nRoom-air SpO₂ changed from 97% to 92% (0900, 0910) so oxygen is indicated; screen 6 now keys oxygenation as Improved.\nTSH changed from 0.27 to < 0.01 mU/L (suppressed, as expected in thyroid storm).\nPropranolol 60 mg PO every 4 hours added to the orders and as a correct option on screen 4.\nScreen 5 key (oxygen and the ECG first) still comes from the source rationale (its highlighting was unreadable). Please confirm.\nMethimazole kept (propylthiouracil is often preferred in thyroid storm).",
+      "flaggedAt": "2026-10-14"
+    }
   }
 ];
 
@@ -35555,5 +34635,139 @@ window.NCLEX_STANDALONE = [
     "availability": "all",
     "isStandalone": true,
     "updatedAt": "2026-10-01T22:51:17.988Z"
+  },
+  {
+    "id": "standalone_1783070000010",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "Unit 7 Stand-alone 10: Bowtie - Ischemic Stroke with Atrial Fibrillation",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client’s progress.",
+          "type": "bowtie",
+          "options": [
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            },
+            {
+              "text": "",
+              "correct": false
+            }
+          ],
+          "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
+          "preamble": "The nurse is reviewing the client’s assessment data to prepare the client’s plan of care.",
+          "explanation": "<b>Condition Most Likely Experiencing</b><br>Ischemic stroke: The client exhibits classic signs of a stroke (likely in the left hemisphere), including right-sided ptosis, facial drooping, right-sided hemiparesis, and expressive aphasia. The irregular apical pulse of 126 beats/min strongly suggests atrial fibrillation, which is a major risk factor for embolic ischemic strokes.<br><br><b>Actions to Take</b><br>Administer oxygen at 2 L/min via nasal cannula: The client's pulse oximetry reading is 90% on room air, indicating mild hypoxia that needs to be corrected to prevent further brain tissue ischemia.<br>Insert a peripheral venous access device (VAD): Establishing IV access is a critical immediate step for suspected stroke patients to facilitate emergency lab draws, CT contrast administration, and potential thrombolytic therapy (e.g., tPA) or other medications.<br><br><b>Parameters to Monitor</b><br>Neurologic status: Continuous neuro assessments (such as the NIH Stroke Scale) are vital to track the progression or resolution of the client's deficits and to monitor for potential complications like increased intracranial pressure.<br>Electrocardiogram (ECG) rhythm: Because the client presented with an irregular, tachycardic apical pulse (126 beats/min), continuous ECG monitoring is necessary to evaluate the rhythm (likely atrial fibrillation) and guide rate/rhythm control interventions.",
+          "bowtieParams": [
+            {
+              "text": "urine output",
+              "correct": false
+            },
+            {
+              "text": "temperature",
+              "correct": false
+            },
+            {
+              "text": "neurologic status",
+              "correct": true
+            },
+            {
+              "text": "serum glucose level",
+              "correct": false
+            },
+            {
+              "text": "electrocardiogram (ECG) rhythm",
+              "correct": true
+            }
+          ],
+          "bowtieActions": [
+            {
+              "text": "Administer oxygen at 2 L/min via nasal cannula.",
+              "correct": true
+            },
+            {
+              "text": "Request a prescription for an oral corticosteroid.",
+              "correct": false
+            },
+            {
+              "text": "Insert a peripheral venous access device (VAD).",
+              "correct": true
+            },
+            {
+              "text": "Obtain a urine specimen for urinalysis and culture and sensitivity (C & S).",
+              "correct": false
+            },
+            {
+              "text": "Request an order for 50% dextrose in water to be administered intravenously.",
+              "correct": false
+            }
+          ],
+          "bowtieCol1Header": "Actions to Take",
+          "bowtieCol2Header": "Potential Conditions",
+          "bowtieCol3Header": "Parameters to Monitor",
+          "bowtieConditions": [
+            {
+              "text": "Bell's palsy",
+              "correct": false
+            },
+            {
+              "text": "hypoglycemia",
+              "correct": false
+            },
+            {
+              "text": "ischemic stroke",
+              "correct": true
+            },
+            {
+              "text": "urinary tract infection (UTI)",
+              "correct": false
+            }
+          ],
+          "bowtieLeftPlaceholder": "",
+          "bowtieRightPlaceholder": "",
+          "bowtieCenterPlaceholder": ""
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn_1789577787012",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1215:</span><span class=\"nurse-note-text\">Client presents with right-sided ptosis and facial drooping, right-sided hemiparesis, and expressive aphasia. Client’s adult child reports that the client recently had influenza. On assessment, skin is warm and dry. Lung sounds are clear; apical pulse is irregular. Bowel sounds are active in all quadrants. Client is incontinent of urine 2 times in the ED; adult child reports that the client is typically continent of urine. Capillary refill of 3 seconds. Peripheral pulses palpable, 2+. Vital signs: T 97.5° F (36.4° C), P 126 beats/min, RR 18 breaths/min, BP 188/90 mm Hg, pulse oximetry reading 90% on room air.</span></p>"
+            },
+            {
+              "id": "tab_1789577946502",
+              "title": "History and Physical",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Body System</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Findings</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurological</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of a stroke 2 years ago</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiovascular</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of hypertension; atrial fibrillation; hyperlipidemia</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Gastrointestinal</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of gastrointestinal bleeding 2 months ago</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Endocrine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">history of diabetes mellitus (type 2) for 30 years</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Immunological</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">influenza 3 weeks ago</td></tr></tbody></table>"
+            },
+            {
+              "id": "tab_1789578518012",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>random serum glucose</b><br>Elderly 60-90 years: 4.6-6.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department (ED) is caring for a 79-year-old female client."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "updatedAt": "2026-10-14T12:00:00.000Z",
+    "description": "NCSBN NCLEX-RN Next Generation Exam Preview's own bowtie item-type example: an older adult presents with classic ischemic stroke findings and a history of atrial fibrillation.",
+    "availability": "all",
+    "isStandalone": true
   }
 ];

@@ -18,7 +18,7 @@
             "correct": true
           },
           {
-            "text": "Inappropriately concentrated urine with high urine specific gravity (1.032) and elevated urine sodium (> 40 mmol/L)",
+            "text": "Generalized muscle weakness, depressed deep tendon reflexes (+1), and coarse muscle twitching",
             "correct": true
           },
           {
@@ -26,16 +26,16 @@
             "correct": true
           },
           {
-            "text": "Generalized muscle weakness, depressed deep tendon reflexes (+1), and coarse muscle twitching",
+            "text": "Serum sodium level of 116 mmol/L with low serum osmolality (242 mOsm/kg)",
+            "correct": true
+          },
+          {
+            "text": "Inappropriately concentrated urine with high urine specific gravity (1.032) and elevated urine sodium (> 40 mmol/L)",
             "correct": true
           },
           {
             "text": "Serum sodium level of 152 mmol/L with massive dilute polyuria exceeding 6 liters daily",
             "correct": false
-          },
-          {
-            "text": "Serum sodium level of 116 mmol/L with low serum osmolality (242 mOsm/kg)",
-            "correct": true
           },
           {
             "text": "Profound volume depletion with severe orthostatic hypotension, dry mucous membranes, and tachycardia",
@@ -201,11 +201,11 @@
                   "correct": false
                 },
                 {
-                  "text": "spontaneous intracerebral aneurysm formation",
+                  "text": "rapid massive malignant tumor lysis syndrome",
                   "correct": false
                 },
                 {
-                  "text": "rapid massive malignant tumor lysis syndrome",
+                  "text": "spontaneous intracerebral aneurysm formation",
                   "correct": false
                 }
               ]
@@ -474,5 +474,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

@@ -145,11 +145,11 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "25% (1 in 4 chance)",
-                  "correct": true
+                  "text": "0% because carriers never have affected offspring",
+                  "correct": false
                 },
                 {
-                  "text": "0% because carriers never have affected offspring",
+                  "text": "75% (3 in 4 chance)",
                   "correct": false
                 },
                 {
@@ -157,8 +157,8 @@
                   "correct": false
                 },
                 {
-                  "text": "75% (3 in 4 chance)",
-                  "correct": false
+                  "text": "25% (1 in 4 chance)",
+                  "correct": true
                 }
               ]
             },
@@ -166,16 +166,16 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "50% (1 in 2 chance for male offspring)",
-                  "correct": true
-                },
-                {
                   "text": "0% because fathers transmit X chromosomes to sons",
                   "correct": false
                 },
                 {
                   "text": "100% for all male offspring",
                   "correct": false
+                },
+                {
+                  "text": "50% (1 in 2 chance for male offspring)",
+                  "correct": true
                 },
                 {
                   "text": "25% for male offspring",
@@ -195,11 +195,11 @@
                   "correct": false
                 },
                 {
-                  "text": "25% (1 in 4 chance)",
+                  "text": "75% (3 in 4 chance)",
                   "correct": false
                 },
                 {
-                  "text": "75% (3 in 4 chance)",
+                  "text": "25% (1 in 4 chance)",
                   "correct": false
                 }
               ]
@@ -240,19 +240,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Educate David on avoiding heavy isometric weightlifting, competitive contact sports, and strenuous straining that increase aortic wall shear stress",
-            "correct": true
-          },
-          {
-            "text": "Instruct Maya that taking high-dose folic acid supplements will completely prevent single-gene mutations such as Cystic Fibrosis and Hemophilia",
-            "correct": false
-          },
-          {
-            "text": "Reassure David that aortic root dilation of 4.4 cm is a normal athletic heart adaptation requiring no physical activity restrictions",
-            "correct": false
-          },
-          {
-            "text": "Provide education on reproductive options including pre-implantation genetic diagnosis (PGD) with in vitro fertilization (IVF) and prenatal chorionic villus sampling (CVS) / amniocentesis",
+            "text": "Educate Maya that if she conceives a male fetus, early newborn screening and factor VIII assay can determine hemophilia status prior to elective procedures (e.g., circumcision)",
             "correct": true
           },
           {
@@ -260,16 +248,28 @@
             "correct": true
           },
           {
-            "text": "Educate Maya that if she conceives a male fetus, early newborn screening and factor VIII assay can determine hemophilia status prior to elective procedures (e.g., circumcision)",
+            "text": "Educate David on avoiding heavy isometric weightlifting, competitive contact sports, and strenuous straining that increase aortic wall shear stress",
+            "correct": true
+          },
+          {
+            "text": "Provide education on reproductive options including pre-implantation genetic diagnosis (PGD) with in vitro fertilization (IVF) and prenatal chorionic villus sampling (CVS) / amniocentesis",
             "correct": true
           },
           {
             "text": "Assess the couple's psychological coping, anxiety, and provide referrals to certified genetic counselors and the Marfan Foundation",
             "correct": true
+          },
+          {
+            "text": "Reassure David that aortic root dilation of 4.4 cm is a normal athletic heart adaptation requiring no physical activity restrictions",
+            "correct": false
+          },
+          {
+            "text": "Instruct Maya that taking high-dose folic acid supplements will completely prevent single-gene mutations such as Cystic Fibrosis and Hemophilia",
+            "correct": false
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1300 and the Care Pathways.",
-        "explanation": "Appropriate nursing interventions include: (Option 5) Promptly alerting the cardiology healthcare provider regarding David's aortic root dilation (4.4 cm is significantly enlarged in Marfan syndrome, placing him at risk for fatal aortic dissection/rupture); (Option 1) Educating David on avoiding isometric resistance exercises and high-impact contact sports to prevent acute aortic wall shear stress; (Option 4) Reviewing reproductive technologies (PGD with IVF, or prenatal diagnostic amniocentesis/CVS) so the couple can make informed family planning decisions; (Option 6) Educating Maya regarding hemophilia precautions for a male newborn (deferring elective circumcisions until coagulation factor VIII status is verified to prevent life-threatening hemorrhage); and (Option 7) Providing psychological support and disease-specific foundation resources. Aortic dilation of 4.4 cm is never a benign athletic finding in someone with Marfan phenotype. Folic acid prevents neural tube defects (multifactorial developmental defect), but cannot prevent or repair Mendelian single-gene DNA mutations."
+        "explanation": "Appropriate nursing interventions include: (Option 2) Promptly alerting the cardiology healthcare provider regarding David's aortic root dilation (4.4 cm is significantly enlarged in Marfan syndrome, placing him at risk for fatal aortic dissection/rupture); (Option 3) Educating David on avoiding isometric resistance exercises and high-impact contact sports to prevent acute aortic wall shear stress; (Option 4) Reviewing reproductive technologies (PGD with IVF, or prenatal diagnostic amniocentesis/CVS) so the couple can make informed family planning decisions; (Option 1) Educating Maya regarding hemophilia precautions for a male newborn (deferring elective circumcisions until coagulation factor VIII status is verified to prevent life-threatening hemorrhage); and (Option 5) Providing psychological support and disease-specific foundation resources. Aortic dilation of 4.4 cm is never a benign athletic finding in someone with Marfan phenotype. Folic acid prevents neural tube defects (multifactorial developmental defect), but cannot prevent or repair Mendelian single-gene DNA mutations."
       },
       "leftContent": {
         "tabs": [
@@ -505,5 +505,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "Young couple presenting for preconception genetic counseling and health assessment with complex family history of Cystic Fibrosis (autosomal recessive), Marfan syndrome (autosomal dominant), and Hemophilia A (X-linked recessive).",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

@@ -12,19 +12,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Marked generalized muscular hypotonia with poor head control and diminished Moro reflex",
-            "correct": true
-          },
-          {
-            "text": "Single transverse palmar crease bilaterally",
-            "correct": true
-          },
-          {
-            "text": "Grade 3/6 harsh pansystolic murmur auscultated along the lower left sternal border",
-            "correct": true
-          },
-          {
-            "text": "Low-set, small ears with folded superior helixes",
+            "text": "Protruding, large-appearing tongue (macroglossia) with narrow high-arched palate",
             "correct": true
           },
           {
@@ -32,15 +20,27 @@
             "correct": false
           },
           {
-            "text": "Microcephaly with severe craniosynostosis and fused sagittal suture",
-            "correct": false
+            "text": "Single transverse palmar crease bilaterally",
+            "correct": true
           },
           {
-            "text": "Protruding, large-appearing tongue (macroglossia) with narrow high-arched palate",
+            "text": "Marked generalized muscular hypotonia with poor head control and diminished Moro reflex",
             "correct": true
           },
           {
             "text": "Upward slanting palpebral fissures with prominent inner epicanthal folds",
+            "correct": true
+          },
+          {
+            "text": "Grade 3/6 harsh pansystolic murmur auscultated along the lower left sternal border",
+            "correct": true
+          },
+          {
+            "text": "Microcephaly with severe craniosynostosis and fused sagittal suture",
+            "correct": false
+          },
+          {
+            "text": "Low-set, small ears with folded superior helixes",
             "correct": true
           }
         ],
@@ -202,15 +202,15 @@
               "placeholder": "Select...",
               "options": [
                 {
+                  "text": "excessive gastric hyperchlorhydria",
+                  "correct": false
+                },
+                {
                   "text": "feeding fatigue, poor latch, and milk aspiration",
                   "correct": true
                 },
                 {
                   "text": "hyperosmolar hyperglycemic syndrome",
-                  "correct": false
-                },
-                {
-                  "text": "excessive gastric hyperchlorhydria",
                   "correct": false
                 },
                 {
@@ -250,19 +250,19 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Assess respiratory rate, effort, work of breathing, and liver span for early signs of congestive heart failure",
-            "correct": true
-          },
-          {
-            "text": "Position the infant in an upright, semi-seated posture with neck supported slightly forward during feedings",
-            "correct": true
-          },
-          {
             "text": "Maintain the infant in complete neck hyperextension during bottle feedings to prevent tongue protrusion",
             "correct": false
           },
           {
+            "text": "Limit feeding sessions to a minimum of 60 consecutive minutes to force total volume ingestion regardless of tachypnea",
+            "correct": false
+          },
+          {
             "text": "Utilize a small, straight nipple or specialized cleft/hypotonic feeding bottle with frequent burping and rest periods",
+            "correct": true
+          },
+          {
+            "text": "Position the infant in an upright, semi-seated posture with neck supported slightly forward during feedings",
             "correct": true
           },
           {
@@ -274,12 +274,12 @@
             "correct": true
           },
           {
-            "text": "Limit feeding sessions to a minimum of 60 consecutive minutes to force total volume ingestion regardless of tachypnea",
-            "correct": false
+            "text": "Assess respiratory rate, effort, work of breathing, and liver span for early signs of congestive heart failure",
+            "correct": true
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1600 (DOL 1) and the Cardiology Consult Note.",
-        "explanation": "Key nursing interventions for a neonate with Trisomy 21 and a congenital heart defect (ASD) include: (Option 2) Upright positioning with head and neck supported to facilitate swallowing and prevent aspiration; (Option 4) Using specialized feeding devices (e.g., Haberman or firm nipple) with small, frequent feeds (limiting feeds to 20–30 minutes to avoid excessive caloric expenditure and fatigue); (Options 1 and 5) Close monitoring for heart failure (daily weights, respiratory effort, tachypnea, hepatomegaly, diaphoresis with feeds); and (Option 6) Providing emotional support, genetic counseling referrals, and connection to infant development resources. Hyperextending the neck increases airway aspiration risk, and forcing 60-minute feeds exhausts the infant and increases cardiac work."
+        "explanation": "Key nursing interventions for a neonate with Trisomy 21 and a congenital heart defect (ASD) include: (Option 4) Upright positioning with head and neck supported to facilitate swallowing and prevent aspiration; (Option 3) Using specialized feeding devices (e.g., Haberman or firm nipple) with small, frequent feeds (limiting feeds to 20–30 minutes to avoid excessive caloric expenditure and fatigue); (Options 7 and 5) Close monitoring for heart failure (daily weights, respiratory effort, tachypnea, hepatomegaly, diaphoresis with feeds); and (Option 6) Providing emotional support, genetic counseling referrals, and connection to infant development resources. Hyperextending the neck increases airway aspiration risk, and forcing 60-minute feeds exhausts the infant and increases cardiac work."
       },
       "leftContent": {
         "tabs": [
@@ -505,5 +505,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "Newborn male presenting with hypotonia, low-set ears, epicanthal folds, protruding tongue, and heart murmur, prompting chromosomal karyotyping and comparative evaluation of Down, Turner, and Klinefelter syndromes.",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

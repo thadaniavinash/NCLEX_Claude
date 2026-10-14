@@ -12,7 +12,19 @@
         "type": "select_all",
         "options": [
           {
+            "text": "Waddling gait with exaggerated lumbar lordosis and difficulty climbing stairs",
+            "correct": true
+          },
+          {
             "text": "Uses his hands to push up on his thighs to rise from the floor, taking 7 seconds",
+            "correct": true
+          },
+          {
+            "text": "Walked independently at 18 months, with frequent falls and toe-walking",
+            "correct": true
+          },
+          {
+            "text": "Enlarged, firm, rubbery calf muscles bilaterally",
             "correct": true
           },
           {
@@ -20,28 +32,16 @@
             "correct": false
           },
           {
-            "text": "Enlarged, firm, rubbery calf muscles bilaterally",
-            "correct": true
+            "text": "Age-appropriate hand grip and fine motor skills",
+            "correct": false
           },
           {
             "text": "Maternal uncle died at age 20 of heart and breathing failure from a childhood-onset muscle disease",
             "correct": true
           },
           {
-            "text": "Age-appropriate hand grip and fine motor skills",
-            "correct": false
-          },
-          {
-            "text": "Waddling gait with exaggerated lumbar lordosis and difficulty climbing stairs",
-            "correct": true
-          },
-          {
             "text": "Height at the 40th percentile and weight at the 50th percentile",
             "correct": false
-          },
-          {
-            "text": "Walked independently at 18 months, with frequent falls and toe-walking",
-            "correct": true
           }
         ],
         "preamble": "",
@@ -251,6 +251,22 @@
         "type": "select_all",
         "options": [
           {
+            "text": "Recommend that Sarah, as a confirmed carrier, have periodic cardiac screening",
+            "correct": true
+          },
+          {
+            "text": "Monitor serum creatine kinase every week to measure how fast the disease is progressing",
+            "correct": false
+          },
+          {
+            "text": "Place an alert in Ethan's chart and provide a wallet card stating that succinylcholine and inhaled volatile anesthetics must be avoided",
+            "correct": true
+          },
+          {
+            "text": "Recommend a high-calorie diet to build muscle mass",
+            "correct": false
+          },
+          {
             "text": "Confirm varicella immunity and complete any outstanding immunizations before starting prednisone",
             "correct": true
           },
@@ -259,28 +275,12 @@
             "correct": false
           },
           {
-            "text": "Teach the family a daily home stretching program for the heel cords and hips, and use night-time ankle-foot orthoses",
-            "correct": true
-          },
-          {
             "text": "Encourage swimming and tricycle riding, and avoid trampolines and repeated downhill running",
             "correct": true
           },
           {
-            "text": "Recommend a high-calorie diet to build muscle mass",
-            "correct": false
-          },
-          {
-            "text": "Place an alert in Ethan's chart and provide a wallet card stating that succinylcholine and inhaled volatile anesthetics must be avoided",
+            "text": "Teach the family a daily home stretching program for the heel cords and hips, and use night-time ankle-foot orthoses",
             "correct": true
-          },
-          {
-            "text": "Recommend that Sarah, as a confirmed carrier, have periodic cardiac screening",
-            "correct": true
-          },
-          {
-            "text": "Monitor serum creatine kinase every week to measure how fast the disease is progressing",
-            "correct": false
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1100 and the Care Plan Orders.",
@@ -536,5 +536,5 @@
   ],
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "4-year-old boy with frequent falls, Gowers sign, calf pseudohypertrophy, and a maternal family history of early death from muscle disease, unfolding through genetic diagnosis of Duchenne muscular dystrophy, X-linked recessive carrier counseling, glucocorticoid therapy, anesthesia safety, and evaluation of treatment outcomes.",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

@@ -14,11 +14,6 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Pearly, translucent, dome-shaped papule measuring 6 mm on the right nasal ala with prominent surface telangiectasias and rolled borders",
-            "correct": true,
-            "imageUrl": ""
-          },
-          {
             "text": "Asymmetrical, darkly pigmented lesion measuring 8 mm on the upper back with irregular, notched borders and variegated shades of black, brown, and pink",
             "correct": true
           },
@@ -27,11 +22,16 @@
             "correct": true
           },
           {
-            "text": "Multiple flat, non-palpable, well-demarcated purple macules (senile purpura) measuring 1 to 2 cm on bilateral sun-exposed dorsal forearms",
+            "text": "Dry, flaky, coarse skin (xerosis) with superficial fine wrinkles across the face and neck",
             "correct": false
           },
           {
-            "text": "Dry, flaky, coarse skin (xerosis) with superficial fine wrinkles across the face and neck",
+            "text": "Pearly, translucent, dome-shaped papule measuring 6 mm on the right nasal ala with prominent surface telangiectasias and rolled borders",
+            "correct": true,
+            "imageUrl": ""
+          },
+          {
+            "text": "Multiple flat, non-palpable, well-demarcated purple macules (senile purpura) measuring 1 to 2 cm on bilateral sun-exposed dorsal forearms",
             "correct": false
           },
           {
@@ -493,5 +493,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T22:53:34.936Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

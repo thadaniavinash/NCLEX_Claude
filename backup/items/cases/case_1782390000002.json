@@ -175,20 +175,20 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "postherpetic neuralgia (debilitating persistent neuropathic pain lasting months to years)",
-                  "correct": true
+                  "text": "acute full-thickness fourth-degree skin necrosis across the entire thorax",
+                  "correct": false
                 },
                 {
                   "text": "spontaneous malignant transformation into cutaneous squamous cell carcinoma",
                   "correct": false
                 },
                 {
-                  "text": "acute full-thickness fourth-degree skin necrosis across the entire thorax",
+                  "text": "immediate systemic aplastic anemia and bone marrow fibrosis",
                   "correct": false
                 },
                 {
-                  "text": "immediate systemic aplastic anemia and bone marrow fibrosis",
-                  "correct": false
+                  "text": "postherpetic neuralgia (debilitating persistent neuropathic pain lasting months to years)",
+                  "correct": true
                 }
               ]
             },
@@ -200,11 +200,11 @@
                   "correct": true
                 },
                 {
-                  "text": "airborne droplet nuclei traveling across long distances through ventilation ducts",
+                  "text": "ingestion of undercooked poultry or unwashed root vegetables",
                   "correct": false
                 },
                 {
-                  "text": "ingestion of undercooked poultry or unwashed root vegetables",
+                  "text": "airborne droplet nuclei traveling across long distances through ventilation ducts",
                   "correct": false
                 },
                 {
@@ -244,15 +244,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Emphasize strict separate laundering of Liam's and Marcus's towels, washcloths, and bed linens, and enforce meticulous hand hygiene after touching lesions",
-            "correct": true
-          },
-          {
-            "text": "Instruct Marcus to keep his shingles vesicles completely covered with clean, non-stick dressings until all blisters have crusted over",
-            "correct": true
-          },
-          {
-            "text": "Encourage Liam to attend elementary school immediately while weeping facial crusts are open and uncovered",
+            "text": "Instruct Marcus to scratch and vigorously pop the shingles vesicles with a needle to relieve the burning nerve pain",
             "correct": false
           },
           {
@@ -260,16 +252,24 @@
             "correct": true
           },
           {
-            "text": "Instruct Marcus to scratch and vigorously pop the shingles vesicles with a needle to relieve the burning nerve pain",
+            "text": "Emphasize strict separate laundering of Liam's and Marcus's towels, washcloths, and bed linens, and enforce meticulous hand hygiene after touching lesions",
+            "correct": true
+          },
+          {
+            "text": "Encourage Liam to attend elementary school immediately while weeping facial crusts are open and uncovered",
             "correct": false
           },
           {
             "text": "Advise Marcus to strictly avoid contact with pregnant women who have not had chickenpox, unvaccinated infants, and immunocompromised individuals",
             "correct": true
+          },
+          {
+            "text": "Instruct Marcus to keep his shingles vesicles completely covered with clean, non-stick dressings until all blisters have crusted over",
+            "correct": true
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1215.",
-        "explanation": "Appropriate nursing care plans include: (Option 4) Softening and gently removing impetigo crusts with warm compresses so topical mupirocin can penetrate directly into underlying infected tissue; (Option 1) Strict fomite isolation (separate towels, linens) and frequent handwashing; (Option 2) Keeping shingles lesions covered, which prevents transmission of VZV from vesicular fluid to susceptible people; and (Option 6) Protecting non-immune individuals (pregnant women, infants, immunocompromised) because direct contact with shingles blister fluid can cause chickenpox in those without immunity. Children with active, draining impetigo should be excluded from school/daycare until 24 hours of effective antibiotic therapy has elapsed. Popping shingles vesicles risks secondary bacterial superinfection and does not relieve neuropathic pain."
+        "explanation": "Appropriate nursing care plans include: (Option 2) Softening and gently removing impetigo crusts with warm compresses so topical mupirocin can penetrate directly into underlying infected tissue; (Option 3) Strict fomite isolation (separate towels, linens) and frequent handwashing; (Option 6) Keeping shingles lesions covered, which prevents transmission of VZV from vesicular fluid to susceptible people; and (Option 5) Protecting non-immune individuals (pregnant women, infants, immunocompromised) because direct contact with shingles blister fluid can cause chickenpox in those without immunity. Children with active, draining impetigo should be excluded from school/daycare until 24 hours of effective antibiotic therapy has elapsed. Popping shingles vesicles risks secondary bacterial superinfection and does not relieve neuropathic pain."
       },
       "leftContent": {
         "intro": "The nurse organizes outpatient medication schedules, topical wound care, and contagion control strategies for both brothers.",
@@ -414,7 +414,7 @@
                   "correct": true
                 },
                 {
-                  "text": "sudden severe loss of deep tendon reflexes and foot drop",
+                  "text": "acute paraneoplastic hypercalcemia and polyuria",
                   "correct": false
                 },
                 {
@@ -422,7 +422,7 @@
                   "correct": false
                 },
                 {
-                  "text": "acute paraneoplastic hypercalcemia and polyuria",
+                  "text": "sudden severe loss of deep tendon reflexes and foot drop",
                   "correct": false
                 }
               ]
@@ -473,5 +473,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

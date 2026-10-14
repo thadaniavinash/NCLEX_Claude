@@ -12,32 +12,32 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Conversion of distal esophageal stratified squamous epithelium to columnar epithelium with goblet cells",
-            "correct": true
-          },
-          {
-            "text": "Replacement of ciliated pseudostratified columnar epithelium by stratified squamous epithelium in the mainstem bronchi",
-            "correct": true
+            "text": "Acute temperature elevation of 39.5° C with purulent sputum and marked leukocytosis",
+            "correct": false
           },
           {
             "text": "Echocardiogram demonstrating left ventricular myocardial wall thickness of 1.5 cm in response to chronic hypertension",
             "correct": true
           },
           {
-            "text": "Acute temperature elevation of 39.5° C with purulent sputum and marked leukocytosis",
-            "correct": false
-          },
-          {
-            "text": "Historical reduction in right calf muscle circumference following 10 weeks of non-weight-bearing cast immobilization",
+            "text": "Conversion of distal esophageal stratified squamous epithelium to columnar epithelium with goblet cells",
             "correct": true
           },
           {
             "text": "Profuse arterial hypotension with cardiogenic shock and pulmonary edema",
             "correct": false
+          },
+          {
+            "text": "Replacement of ciliated pseudostratified columnar epithelium by stratified squamous epithelium in the mainstem bronchi",
+            "correct": true
+          },
+          {
+            "text": "Historical reduction in right calf muscle circumference following 10 weeks of non-weight-bearing cast immobilization",
+            "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "Cellular adaptations are reversible changes in cell size, number, phenotype, metabolic activity, or organization in response to altered physiological demand or chronic environmental stress. In this client, adaptations include: (Option 1) Barrett's esophagus—glandular metaplasia of esophageal stratified squamous epithelium to columnar epithelium to better tolerate acidic gastric juice; (Option 2) Squamous metaplasia of respiratory pseudostratified ciliated columnar epithelium to stratified squamous epithelium due to chronic cigarette smoke; (Option 3) Left ventricular hypertrophy—increased cardiomyocyte size in response to chronic hemodynamic afterload; and (Option 5) Disuse atrophy—shrinkage of skeletal muscle cells from decreased functional demand during casting. High fever with purulent sputum indicates acute infection/inflammation, while shock indicates cardiovascular collapse, neither of which represents an adaptive cellular response."
+        "explanation": "Cellular adaptations are reversible changes in cell size, number, phenotype, metabolic activity, or organization in response to altered physiological demand or chronic environmental stress. In this client, adaptations include: (Option 3) Barrett's esophagus—glandular metaplasia of esophageal stratified squamous epithelium to columnar epithelium to better tolerate acidic gastric juice; (Option 5) Squamous metaplasia of respiratory pseudostratified ciliated columnar epithelium to stratified squamous epithelium due to chronic cigarette smoke; (Option 2) Left ventricular hypertrophy—increased cardiomyocyte size in response to chronic hemodynamic afterload; and (Option 6) Disuse atrophy—shrinkage of skeletal muscle cells from decreased functional demand during casting. High fever with purulent sputum indicates acute infection/inflammation, while shock indicates cardiovascular collapse, neither of which represents an adaptive cellular response."
       },
       "leftContent": {
         "tabs": [
@@ -142,16 +142,16 @@
             {
               "options": [
                 {
-                  "text": "reversible",
-                  "correct": true
+                  "text": "malignant",
+                  "correct": false
                 },
                 {
                   "text": "irreversible",
                   "correct": false
                 },
                 {
-                  "text": "malignant",
-                  "correct": false
+                  "text": "reversible",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -163,11 +163,11 @@
                   "correct": true
                 },
                 {
-                  "text": "cardiac contractility",
+                  "text": "alveolar surfactant production",
                   "correct": false
                 },
                 {
-                  "text": "alveolar surfactant production",
+                  "text": "cardiac contractility",
                   "correct": false
                 }
               ],
@@ -176,12 +176,12 @@
             {
               "options": [
                 {
-                  "text": "dysplasia",
-                  "correct": true
-                },
-                {
                   "text": "atrophy",
                   "correct": false
+                },
+                {
+                  "text": "dysplasia",
+                  "correct": true
                 },
                 {
                   "text": "hyperplasia",
@@ -197,11 +197,11 @@
                   "correct": true
                 },
                 {
-                  "text": "hypertrophy",
+                  "text": "metaplasia",
                   "correct": false
                 },
                 {
-                  "text": "metaplasia",
+                  "text": "hypertrophy",
                   "correct": false
                 }
               ],
@@ -379,11 +379,11 @@
                   "correct": true
                 },
                 {
-                  "text": "stratified squamous",
+                  "text": "transitional",
                   "correct": false
                 },
                 {
-                  "text": "transitional",
+                  "text": "stratified squamous",
                   "correct": false
                 }
               ],
@@ -392,16 +392,16 @@
             {
               "options": [
                 {
-                  "text": "left ventricular hypertrophy",
-                  "correct": true
+                  "text": "prostatic hyperplasia",
+                  "correct": false
                 },
                 {
                   "text": "cerebral atrophy",
                   "correct": false
                 },
                 {
-                  "text": "prostatic hyperplasia",
-                  "correct": false
+                  "text": "left ventricular hypertrophy",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -409,16 +409,16 @@
             {
               "options": [
                 {
-                  "text": "reversible",
-                  "correct": true
+                  "text": "permanent and irreversible",
+                  "correct": false
                 },
                 {
                   "text": "inevitably malignant",
                   "correct": false
                 },
                 {
-                  "text": "permanent and irreversible",
-                  "correct": false
+                  "text": "reversible",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -453,5 +453,5 @@
   ],
   "disorder": "Unit 2 (Cellular Basis of Disease)",
   "description": "58-year-old male with chronic GERD, smoking, and hypertension presenting with Barrett's metaplasia, bronchial squamous metaplasia, and left ventricular hypertrophy.",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

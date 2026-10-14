@@ -14,11 +14,15 @@
         "type": "select_all",
         "options": [
           {
+            "text": "Persistent, progressive change in bowel habits from normal daily stools to alternating obstipation and pencil-thin stools over 4 months",
+            "correct": true
+          },
+          {
             "text": "40 pack-year history of cigarette smoking and a sedentary lifestyle with a diet high in processed red meats and low in dietary fiber",
             "correct": true
           },
           {
-            "text": "Persistent, progressive change in bowel habits from normal daily stools to alternating obstipation and pencil-thin stools over 4 months",
+            "text": "Microcytic hypochromic anemia (hemoglobin 98 g/L) reflecting occult chronic gastrointestinal blood loss",
             "correct": true
           },
           {
@@ -32,14 +36,10 @@
           {
             "text": "Unusual rectal bleeding with dark maroon blood mixed throughout the stool and a positive fecal immunochemical test (FIT)",
             "correct": true
-          },
-          {
-            "text": "Microcytic hypochromic anemia (hemoglobin 98 g/L) reflecting occult chronic gastrointestinal blood loss",
-            "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 2) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 5 and 6) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
+        "explanation": "Robert exhibits classic 'CAUTION' warning signs of cancer: (Option 1) 'C' &mdash; Change in bowel or bladder habits (progressive constipation, narrowing/pencil-thin stools indicating lumen narrowing); (Options 6 and 3) 'U' &mdash; Unusual bleeding or discharge (rectal bleeding, positive FIT, and microcytic anemia from occult blood loss). Major modifiable risk factors for colorectal and systemic carcinogenesis highlighted in Canadian Cancer Statistics include chronic tobacco smoking (responsible for ~18-25% of cancer deaths), high processed meat/red meat consumption, low dietary fiber, physical inactivity, and excess body weight. Acute self-limiting foodborne diarrhea and high vegetable intake are not cues of malignancy."
       },
       "leftContent": {
         "intro": "The nurse in an outpatient gastroenterology and endoscopy clinic is reviewing the health history of Robert Chen, a 61-year-old male presenting for diagnostic colonoscopy after abnormal screening tests.",
@@ -237,16 +237,16 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Engage in regular physical activity (at least 150 minutes of moderate exercise weekly) to achieve and maintain a healthy body mass index (BMI)",
-            "correct": true
+            "text": "Advise that screening colonoscopies are unnecessary once a client reaches 50 years of age if they feel asymptomatic",
+            "correct": false
           },
           {
             "text": "Instruct Robert that taking megadoses of over-the-counter vitamin E and beta-carotene supplements can completely replace surgical resection",
             "correct": false
           },
           {
-            "text": "Advise that screening colonoscopies are unnecessary once a client reaches 50 years of age if they feel asymptomatic",
-            "correct": false
+            "text": "Recommend that Robert's first-degree biological relatives (children and siblings) initiate screening colonoscopy 10 years earlier than his age of diagnosis",
+            "correct": true
           },
           {
             "text": "Adopt a high-fiber, plant-rich diet including fruits, vegetables, and whole grains while strictly reducing processed meats and saturated fats",
@@ -257,12 +257,12 @@
             "correct": true
           },
           {
-            "text": "Recommend that Robert's first-degree biological relatives (children and siblings) initiate screening colonoscopy 10 years earlier than his age of diagnosis",
+            "text": "Engage in regular physical activity (at least 150 minutes of moderate exercise weekly) to achieve and maintain a healthy body mass index (BMI)",
             "correct": true
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1600.",
-        "explanation": "Canadian Cancer Statistics and cancer prevention guidelines establish that approximately 4 in 10 cancer cases are preventable through modifiable lifestyle factors: (Option 5) Tobacco cessation is paramount, as smoking causes 18-25% of all cancer deaths; (Options 1 and 4) Maintaining a healthy BMI through regular exercise (at least 150 mins/week) and a high-fiber diet rich in cruciferous vegetables reduces colon cancer risk; (Option 6) First-degree relatives of individuals with colorectal cancer have double the baseline risk and must begin screening at age 40 (or 10 years before the index case's diagnosis, whichever is earlier); (Option 2) Dietary supplements do not substitute for surgical and oncologic intervention. Colorectal cancer screening in asymptomatic adults is vital because early lesions produce no symptoms."
+        "explanation": "Canadian Cancer Statistics and cancer prevention guidelines establish that approximately 4 in 10 cancer cases are preventable through modifiable lifestyle factors: (Option 5) Tobacco cessation is paramount, as smoking causes 18-25% of all cancer deaths; (Options 6 and 4) Maintaining a healthy BMI through regular exercise (at least 150 mins/week) and a high-fiber diet rich in cruciferous vegetables reduces colon cancer risk; (Option 3) First-degree relatives of individuals with colorectal cancer have double the baseline risk and must begin screening at age 40 (or 10 years before the index case's diagnosis, whichever is earlier); (Option 2) Dietary supplements do not substitute for surgical and oncologic intervention. Colorectal cancer screening in asymptomatic adults is vital because early lesions produce no symptoms."
       },
       "leftContent": {
         "intro": "The nurse coordinates with the surgical oncology clinic to plan Robert's preoperative staging and provides personalized lifestyle risk reduction education.",
@@ -382,16 +382,16 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "involves the prolonged proliferation of mutated cells, which can be accelerated by modifiable factors like diet, smoking, and obesity",
-                  "correct": true
+                  "text": "is entirely caused by a benign bacterial infection that antibiotics can sterilize",
+                  "correct": false
                 },
                 {
                   "text": "occurs only after distant metastases have already spread to the liver and brain",
                   "correct": false
                 },
                 {
-                  "text": "is entirely caused by a benign bacterial infection that antibiotics can sterilize",
-                  "correct": false
+                  "text": "involves the prolonged proliferation of mutated cells, which can be accelerated by modifiable factors like diet, smoking, and obesity",
+                  "correct": true
                 },
                 {
                   "text": "is an irreversible single-second event occurring during embryonic development",
@@ -403,19 +403,19 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "monitor surgical treatment response, detect disease recurrence, and assess surveillance trends over time",
-                  "correct": true
-                },
-                {
                   "text": "confer passive immunotherapy by blocking epidermal growth factor receptors",
                   "correct": false
                 },
                 {
-                  "text": "serve as a standalone screening test to diagnose cancer in healthy young individuals",
+                  "text": "function as an internal radiotracer that destroys malignant cells during radiation therapy",
                   "correct": false
                 },
                 {
-                  "text": "function as an internal radiotracer that destroys malignant cells during radiation therapy",
+                  "text": "monitor surgical treatment response, detect disease recurrence, and assess surveillance trends over time",
+                  "correct": true
+                },
+                {
+                  "text": "serve as a standalone screening test to diagnose cancer in healthy young individuals",
                   "correct": false
                 }
               ]
@@ -466,5 +466,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

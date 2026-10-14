@@ -14,11 +14,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Marked photosensitivity with acute flare of facial erythema, burning, and malaise following 30 minutes of direct sunlight exposure",
-            "correct": true
-          },
-          {
-            "text": "Painless, superficial ulcerations on the hard palate and buccal mucosa",
+            "text": "Fixed, erythematous, flat to slightly raised 'butterfly-shaped' rash spanning symmetrically across the bilateral cheeks and nasal bridge while sparing the nasolabial folds",
             "correct": true
           },
           {
@@ -26,7 +22,11 @@
             "correct": false
           },
           {
-            "text": "Fixed, erythematous, flat to slightly raised 'butterfly-shaped' rash spanning symmetrically across the bilateral cheeks and nasal bridge while sparing the nasolabial folds",
+            "text": "Bilateral symmetric swelling, warmth, and stiffness of the proximal interphalangeal (PIP) and metacarpophalangeal (MCP) hand joints",
+            "correct": true
+          },
+          {
+            "text": "Painless, superficial ulcerations on the hard palate and buccal mucosa",
             "correct": true
           },
           {
@@ -34,12 +34,12 @@
             "correct": false
           },
           {
-            "text": "Bilateral symmetric swelling, warmth, and stiffness of the proximal interphalangeal (PIP) and metacarpophalangeal (MCP) hand joints",
+            "text": "Marked photosensitivity with acute flare of facial erythema, burning, and malaise following 30 minutes of direct sunlight exposure",
             "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "Maya presents with classic diagnostic criteria for Systemic Lupus Erythematosus (SLE): (Option 4) Characteristic malar 'butterfly' rash (erythema over the malar eminences and bridge of the nose, classically sparing the nasolabial folds); (Option 1) Photosensitivity (cutaneous rash triggered or worsened by ultraviolet sunlight); (Option 6) Non-erosive polyarthritis affecting small joints (MCP, PIP); and (Option 2) Oral/nasopharyngeal mucosal ulcers. Well-demarcated plaques with silvery scales on extensor surfaces (elbows/knees) characterize plaque psoriasis. Lichenified pruritic plaques in flexural folds (antecubital, popliteal) with an asthma history characterize atopic dermatitis."
+        "explanation": "Maya presents with classic diagnostic criteria for Systemic Lupus Erythematosus (SLE): (Option 1) Characteristic malar 'butterfly' rash (erythema over the malar eminences and bridge of the nose, classically sparing the nasolabial folds); (Option 6) Photosensitivity (cutaneous rash triggered or worsened by ultraviolet sunlight); (Option 3) Non-erosive polyarthritis affecting small joints (MCP, PIP); and (Option 4) Oral/nasopharyngeal mucosal ulcers. Well-demarcated plaques with silvery scales on extensor surfaces (elbows/knees) characterize plaque psoriasis. Lichenified pruritic plaques in flexural folds (antecubital, popliteal) with an asthma history characterize atopic dermatitis."
       },
       "leftContent": {
         "intro": "The nurse in a rheumatology and dermatology combined clinic is evaluating Maya Al-Mansoor, a 28-year-old female presenting with a persistent facial rash and polyarthralgias.",
@@ -169,11 +169,7 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "a potent environmental trigger that provokes severe systemic and cutaneous flare-ups",
-                  "correct": true
-                },
-                {
-                  "text": "a curative therapeutic modality that permanently suppresses autoantibody formation",
+                  "text": "a benign physical stimulus that only affects hair follicles",
                   "correct": false
                 },
                 {
@@ -181,7 +177,11 @@
                   "correct": false
                 },
                 {
-                  "text": "a benign physical stimulus that only affects hair follicles",
+                  "text": "a potent environmental trigger that provokes severe systemic and cutaneous flare-ups",
+                  "correct": true
+                },
+                {
+                  "text": "a curative therapeutic modality that permanently suppresses autoantibody formation",
                   "correct": false
                 }
               ]
@@ -189,6 +189,10 @@
             {
               "placeholder": "Select...",
               "options": [
+                {
+                  "text": "acute bacterial impetigo with extensive honey-colored crusts",
+                  "correct": false
+                },
                 {
                   "text": "lupus nephritis and progressive renal impairment",
                   "correct": true
@@ -199,10 +203,6 @@
                 },
                 {
                   "text": "rapid spontaneous rupture of coronary artery aneurysms",
-                  "correct": false
-                },
-                {
-                  "text": "acute bacterial impetigo with extensive honey-colored crusts",
                   "correct": false
                 }
               ]
@@ -238,19 +238,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Instruct Maya to monitor for signs of renal flare, including sudden weight gain, peripheral leg swelling, or foamy/frothy urine, and report them promptly",
-            "correct": true
-          },
-          {
-            "text": "Instruct Maya to apply broad-spectrum sunscreen (SPF ≥ 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
-            "correct": true
-          },
-          {
-            "text": "Educate Maya on the importance of baseline and annual ophthalmological examinations while taking hydroxychloroquine to screen for retinal toxicity",
-            "correct": true
-          },
-          {
-            "text": "Encourage Maya to use commercial sunlamps and tanning beds during winter months to keep her skin warm and improve joint stiffness",
+            "text": "Instruct Maya to abruptly discontinue prescribed oral corticosteroids as soon as her facial rash fades",
             "correct": false
           },
           {
@@ -258,12 +246,24 @@
             "correct": true
           },
           {
-            "text": "Instruct Maya to abruptly discontinue prescribed oral corticosteroids as soon as her facial rash fades",
+            "text": "Educate Maya on the importance of baseline and annual ophthalmological examinations while taking hydroxychloroquine to screen for retinal toxicity",
+            "correct": true
+          },
+          {
+            "text": "Instruct Maya to apply broad-spectrum sunscreen (SPF ≥ 50) daily, wear sun-protective clothing, and avoid direct midday sunlight to prevent disease flares",
+            "correct": true
+          },
+          {
+            "text": "Encourage Maya to use commercial sunlamps and tanning beds during winter months to keep her skin warm and improve joint stiffness",
             "correct": false
+          },
+          {
+            "text": "Instruct Maya to monitor for signs of renal flare, including sudden weight gain, peripheral leg swelling, or foamy/frothy urine, and report them promptly",
+            "correct": true
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1430.",
-        "explanation": "Appropriate nursing education for SLE includes: (Option 2) Rigorous photoprotection (SPF 50+, protective clothing, avoiding sun) because UV light directly triggers cutaneous and systemic flares; (Option 3) Annual dilated ophthalmology exams for hydroxychloroquine retinopathy (maculopathy/bull's-eye damage); (Option 1) Surveillance for renal impairment (foamy urine indicating proteinuria, edema, hypertension); and (Option 5) Energy conservation and pacing for lupus fatigue. Tanning beds emit intense UV radiation that can provoke catastrophic lupus flares. Corticosteroids must never be stopped abruptly due to the risk of life-threatening secondary adrenal crisis."
+        "explanation": "Appropriate nursing education for SLE includes: (Option 4) Rigorous photoprotection (SPF 50+, protective clothing, avoiding sun) because UV light directly triggers cutaneous and systemic flares; (Option 3) Annual dilated ophthalmology exams for hydroxychloroquine retinopathy (maculopathy/bull's-eye damage); (Option 6) Surveillance for renal impairment (foamy urine indicating proteinuria, edema, hypertension); and (Option 2) Energy conservation and pacing for lupus fatigue. Tanning beds emit intense UV radiation that can provoke catastrophic lupus flares. Corticosteroids must never be stopped abruptly due to the risk of life-threatening secondary adrenal crisis."
       },
       "leftContent": {
         "intro": "The nurse conducts an outpatient counseling session with Maya to review lifestyle modifications, drug safety, and flare recognition.",
@@ -467,5 +467,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

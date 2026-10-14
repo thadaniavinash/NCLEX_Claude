@@ -14,19 +14,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Right calf and foot feel cool to touch, with progressive loss of palpable dorsalis pedis and posterior tibial pulses, confirmed faint on Doppler ultrasound",
-            "correct": true
-          },
-          {
             "text": "Wound surface across the right lower leg is dry, leathery, charred white and dark brown, with complete absence of sensation to pinprick (insensate)",
-            "correct": true
-          },
-          {
-            "text": "Severe, unremitting deep ache and agonizing pain elicited upon passive dorsiflexion of the right toes",
-            "correct": true
-          },
-          {
-            "text": "Right calf tissue feels tense, rock-hard, and woody to palpation underneath the rigid circumferential burn eschar",
             "correct": true
           },
           {
@@ -35,6 +23,18 @@
           },
           {
             "text": "Paresthesias and progressive numbness spreading across the right plantar and dorsal foot surfaces",
+            "correct": true
+          },
+          {
+            "text": "Right calf tissue feels tense, rock-hard, and woody to palpation underneath the rigid circumferential burn eschar",
+            "correct": true
+          },
+          {
+            "text": "Right calf and foot feel cool to touch, with progressive loss of palpable dorsalis pedis and posterior tibial pulses, confirmed faint on Doppler ultrasound",
+            "correct": true
+          },
+          {
+            "text": "Severe, unremitting deep ache and agonizing pain elicited upon passive dorsiflexion of the right toes",
             "correct": true
           }
         ],
@@ -152,15 +152,15 @@
                   "correct": true
                 },
                 {
+                  "text": "melatonin and thyroid-stimulating hormone",
+                  "correct": false
+                },
+                {
                   "text": "anti-diuretic hormone and aldosterone alone",
                   "correct": false
                 },
                 {
                   "text": "insulin, parathyroid hormone, and calcitonin",
-                  "correct": false
-                },
-                {
-                  "text": "melatonin and thyroid-stimulating hormone",
                   "correct": false
                 }
               ]
@@ -243,7 +243,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Apply prescribed topical antimicrobial agents (e.g., silver sulfadiazine or mafenide acetate) to debrided burn wounds using strict aseptic technique",
+            "text": "Administer prescribed intravenous opioid analgesics approximately 20 to 30 minutes prior to scheduled wound debridement and dressing changes",
             "correct": true
           },
           {
@@ -251,7 +251,7 @@
             "correct": false
           },
           {
-            "text": "Administer prescribed intravenous opioid analgesics approximately 20 to 30 minutes prior to scheduled wound debridement and dressing changes",
+            "text": "Monitor blood glucose levels regularly, as burn-induced cortisol and catecholamine surges induce significant stress hyperglycemia and insulin resistance",
             "correct": true
           },
           {
@@ -259,16 +259,16 @@
             "correct": true
           },
           {
-            "text": "Monitor blood glucose levels regularly, as burn-induced cortisol and catecholamine surges induce significant stress hyperglycemia and insulin resistance",
-            "correct": true
-          },
-          {
             "text": "Position the right knee and right ankle in comfortable, dependent, flexed positions with pillows beneath the knees at all times",
             "correct": false
+          },
+          {
+            "text": "Apply prescribed topical antimicrobial agents (e.g., silver sulfadiazine or mafenide acetate) to debrided burn wounds using strict aseptic technique",
+            "correct": true
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1330.",
-        "explanation": "Appropriate nursing interventions include: (Option 4) Aggressive physical therapy, ROM exercises, and splinting in neutral or extended positions to combat the powerful forces of myofibroblast-mediated scar contractures across joints; (Option 3) Pre-medicating with analgesics before dressing changes, which are intensely painful; (Option 1) Aseptic application of topical antimicrobials (silver sulfadiazine, mafenide acetate) to suppress microbial colonization in avascular eschar; and (Option 5) Glycemic monitoring, as stress hormones cause severe insulin resistance. Positioning limbs in dependent flexion ('positions of comfort') is the primary cause of crippling permanent contractures (e.g., knee flexion contractures, foot drop); joints must be maintained in functional extension. Complete immobilization promotes deep vein thrombosis and permanent joint ankylosis."
+        "explanation": "Appropriate nursing interventions include: (Option 4) Aggressive physical therapy, ROM exercises, and splinting in neutral or extended positions to combat the powerful forces of myofibroblast-mediated scar contractures across joints; (Option 1) Pre-medicating with analgesics before dressing changes, which are intensely painful; (Option 6) Aseptic application of topical antimicrobials (silver sulfadiazine, mafenide acetate) to suppress microbial colonization in avascular eschar; and (Option 3) Glycemic monitoring, as stress hormones cause severe insulin resistance. Positioning limbs in dependent flexion ('positions of comfort') is the primary cause of crippling permanent contractures (e.g., knee flexion contractures, foot drop); joints must be maintained in functional extension. Complete immobilization promotes deep vein thrombosis and permanent joint ankylosis."
       },
       "leftContent": {
         "intro": "The nurse coordinates physical and occupational therapy, wound care schedules, and pain management for Karen.",
@@ -419,19 +419,19 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "custom-fitted pressure gradient garments (e.g., Jobst garments) 23 hours a day for 12 to 18 months",
-                  "correct": true
-                },
-                {
                   "text": "loose-fitting wool sweaters and thick denim trousers only",
                   "correct": false
                 },
                 {
-                  "text": "heavy metal leg braces that prevent all joint motion indefinitely",
+                  "text": "tight adhesive duct tape wrapped circumferentially around the scars",
                   "correct": false
                 },
                 {
-                  "text": "tight adhesive duct tape wrapped circumferentially around the scars",
+                  "text": "custom-fitted pressure gradient garments (e.g., Jobst garments) 23 hours a day for 12 to 18 months",
+                  "correct": true
+                },
+                {
+                  "text": "heavy metal leg braces that prevent all joint motion indefinitely",
                   "correct": false
                 }
               ]
@@ -487,5 +487,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

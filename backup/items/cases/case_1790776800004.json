@@ -1,7 +1,7 @@
 {
   "id": "case_1790776800004",
   "unit": "Unit 4 (Neoplasia)",
-  "draft": true,
+  "draft": false,
   "title": "University of Maryland - CS4",
   "topic": "Unit 4 (Neoplasia)",
   "course": "NURS 1017",
@@ -120,7 +120,7 @@
               ]
             },
             {
-              "text": "Sodium 148 mmol/L",
+              "text": "Axillary lymph node removal 45 days ago",
               "correctIndex": 1,
               "correctIndices": [
                 1
@@ -143,7 +143,7 @@
         },
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Breast Cancer&rdquo; medical-surgical faculty case study (Kimberly Allen, DNP, RN, CNE; Stephanie Howard, MS, CRNP, FNP-C; Lisa Seldomridge, PhD, RN, CNE; Salisbury University, May 14, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "",
-        "explanation": "R arm swelling can be associated with cellulitis, lymphedema, and DVT. R arm numbness and tingling can occur with postoperative lymphedema and with DVT. A temperature within the normal range could be seen with lymphedema and DVT, while an elevated temperature would be expected with cellulitis.<br>Tachycardia is not usually associated with lymphedema but can accompany the inflammatory response of cellulitis. Hypernatremia is not usually associated with cellulitis or DVT but could contribute to the swelling seen in lymphedema, and a low albumin level (reduced oncotic pressure) can also contribute to lymphedema; it is not usually a factor in DVT or cellulitis."
+        "explanation": "R arm swelling can be associated with cellulitis, lymphedema, and DVT. R arm numbness and tingling can occur with postoperative lymphedema and with DVT. A temperature within the normal range could be seen with lymphedema and DVT, while an elevated temperature would be expected with cellulitis.<br>Tachycardia is not usually associated with lymphedema but can accompany the inflammatory response of cellulitis. Removal of axillary lymph nodes interrupts lymph drainage from the arm and is the main risk factor for lymphedema after breast cancer surgery. A low albumin level (reduced oncotic pressure) can also contribute to lymphedema; it is not usually a factor in DVT or cellulitis."
       },
       "leftContent": {
         "tabs": [
@@ -287,7 +287,7 @@
           },
           {
             "text": "Amoxicillin PO",
-            "correct": true
+            "correct": false
           },
           {
             "text": "Physical therapy",
@@ -296,7 +296,7 @@
         ],
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Breast Cancer&rdquo; medical-surgical faculty case study (Kimberly Allen, DNP, RN, CNE; Stephanie Howard, MS, CRNP, FNP-C; Lisa Seldomridge, PhD, RN, CNE; Salisbury University, May 14, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "The nurse suspects that the client has lymphedema.",
-        "explanation": "Mild pain should be treated with acetaminophen; ibuprofen should be avoided when platelets are low. Supporting the client&rsquo;s nutritional status is important, and the client can have a diet as tolerated. Oral antibiotics such as amoxicillin are indicated to treat a possible infection that may have triggered the lymphedema. Sequential pneumatic compression helps mobilize lymphatic fluid from the hand and lower arm, and physical therapists can teach techniques and exercises to reduce lymphedema swelling.<br>Anticoagulants are not indicated because the Doppler ultrasound showed no clot."
+        "explanation": "Mild pain should be treated with acetaminophen; ibuprofen should be avoided when platelets are low. Supporting the client&rsquo;s nutritional status is important, and the client can have a diet as tolerated. An antibiotic such as amoxicillin is not anticipated: the client is afebrile, and the arm has no redness or warmth, so no infection is suspected. Because she is neutropenic, she is watched closely for infection, and a fever is reported at once. Sequential pneumatic compression helps mobilize lymphatic fluid from the hand and lower arm, and physical therapists can teach techniques and exercises to reduce lymphedema swelling.<br>Anticoagulants are not indicated because the Doppler ultrasound showed no clot."
       },
       "leftContent": {
         "tabs": [
@@ -396,7 +396,7 @@
           {
             "id": "nn_umd04",
             "title": "Admission Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO amoxicillin and acetaminophen, sequential pneumatic compression, and physical therapy.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO acetaminophen, sequential pneumatic compression, and physical therapy.</span></p>"
           },
           {
             "id": "hp_umd04",
@@ -496,7 +496,7 @@
           {
             "id": "nn_umd04",
             "title": "Admission Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO amoxicillin and acetaminophen, sequential pneumatic compression, and physical therapy. PO acetaminophen and amoxicillin given with 240 mL fluids. R arm elevated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Orders received for discharge home. Prescriptions include amoxicillin 500 mg PO twice daily for 10 days; acetaminophen 500 mg PO twice daily. Consult outpatient physical therapy and home health nursing for sequential pneumatic compression device. Client states, &ldquo;I am very concerned about how my arm got like this. I am afraid I won&rsquo;t be able to manage at home.&rdquo;</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000:</span><span class=\"nurse-note-text\">Presents with R arm weakness, numbness, tingling, and swelling for the past 48 hours. Significant history includes a right-sided radical mastectomy and removal of multiple axillary lymph nodes 45 days ago for triple-negative breast cancer. Client finished her first of six cycles of chemotherapy 10 days ago. L-side single-lumen implantable port present. Reports, &ldquo;My R arm aches and feels tight. I am really worried about what&rsquo;s wrong.&rdquo; Spouse at bedside. Right upper extremity Doppler ultrasound pending.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Doppler ultrasound shows no evidence of clots.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1130:</span><span class=\"nurse-note-text\">Client states, &ldquo;I&rsquo;m so glad that I don&rsquo;t have a blood clot, but my arm still hurts a lot and I still don&rsquo;t know what is wrong.&rdquo; Orders received for PO acetaminophen, sequential pneumatic compression, and physical therapy. PO acetaminophen given with 240 mL fluids. R arm elevated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Orders received for discharge home. Prescriptions include acetaminophen 500 mg PO every 6 hours as needed for pain. Consult outpatient physical therapy and home health nursing for sequential pneumatic compression device. Client states, &ldquo;I am very concerned about how my arm got like this. I am afraid I won&rsquo;t be able to manage at home.&rdquo;</span></p>"
           },
           {
             "id": "hp_umd04",
@@ -521,5 +521,9 @@
   "disorder": "Unit 4 (Neoplasia)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, May 14, 2023; Authors: Kimberly Allen, Stephanie Howard, Lisa Seldomridge, Salisbury University. Breast cancer: a client with pancytopenia after chemotherapy presents with right-arm lymphedema after a radical mastectomy; cellulitis and DVT are ruled out, and the nurse plans care and discharge teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-14T18:44:52.899Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 2: the author's key kept (numbness/tingling → lymphedema and DVT; HR 104 → cellulitis only). Please confirm.\nScreen 2: the weak row \"Sodium 148 mmol/L\" is now \"Axillary lymph node removal 45 days ago\" (lymphedema).\nScreen 4: amoxicillin is now NOT anticipated (no signs of infection; neutropenic client); it was removed from the 1130 orders note and the discharge prescriptions.\nDischarge acetaminophen changed from twice daily to every 6 hours as needed.\nScreen 6 \"ice bag = no understanding\" kept (avoid temperature extremes on the affected arm). Please confirm.",
+    "flaggedAt": "2026-10-14"
+  }
 }

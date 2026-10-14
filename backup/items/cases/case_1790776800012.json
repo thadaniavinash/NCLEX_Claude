@@ -1,7 +1,7 @@
 {
   "id": "case_1790776800012",
   "unit": "Unit 6 (Gastrointestinal Disorders)",
-  "draft": true,
+  "draft": false,
   "title": "University of Maryland - CS12",
   "topic": "Unit 6 (Gastrointestinal Disorders)",
   "course": "NURS 1021",
@@ -13,7 +13,7 @@
         "type": "highlight",
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "",
-        "explanation": "The client&rsquo;s epigastric pain and nausea and vomiting are acute and should be followed up immediately.<br>The client has no chest pain or shortness of breath now to indicate an immediate cardiac problem, and the vital signs are normal. The cough is chronic, whereas the vomiting and epigastric pain are acute.",
+        "explanation": "The client&rsquo;s epigastric pain and nausea and vomiting are acute and should be followed up immediately.<br>The client has no chest pain or shortness of breath now to indicate an immediate cardiac problem, and the vital signs are normal. The cough is chronic, whereas the vomiting and epigastric pain are acute. Because the client has had intermittent chest pain, a cardiac cause is still ruled out with an ECG and troponin, which are ordered at 0415.",
         "highlightTabs": [
           {
             "id": "ht_umd12",
@@ -170,13 +170,13 @@
             "correct": true
           },
           {
-            "text": "Administer analgesics",
+            "text": "Administer a proton pump inhibitor",
             "correct": true
           }
         ],
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Gastroesophageal Reflux Disease&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "The nurse has reviewed the Progress Notes. The provider makes a diagnosis of probable gastroesophageal reflux disease.",
-        "explanation": "The client&rsquo;s pain, nausea, and vomiting should be treated, and the sodium and potassium levels monitored because vomiting can cause electrolyte imbalances. The client should be taught lifestyle changes, including weight management, eating the evening meal early, and not eating before going to bed.<br>The client has no diarrhea, so a stool culture is not needed, and a CBC and abdominal CT scan are not needed to manage probable GERD."
+        "explanation": "The client&rsquo;s nausea and vomiting should be treated, and the reflux pain is treated by reducing stomach acid with a proton pump inhibitor (opioids are not used for reflux pain), and the sodium and potassium levels monitored because vomiting can cause electrolyte imbalances. The client should be taught lifestyle changes, including weight management, eating the evening meal early, and not eating before going to bed.<br>The client has no diarrhea, so a stool culture is not needed, and a CBC and abdominal CT scan are not needed to manage probable GERD."
       },
       "leftContent": {
         "tabs": [
@@ -242,7 +242,7 @@
           {
             "id": "nn_umd12",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Morphine 2 mg and ondansetron 4 mg given IV. Labs drawn.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Pantoprazole 40 mg and ondansetron 4 mg given IV. 12-lead ECG: normal sinus rhythm. Troponin within normal limits. Labs drawn.</span></p>"
           },
           {
             "id": "pn_umd12",
@@ -252,7 +252,7 @@
           {
             "id": "ord_umd12",
             "title": "Orders",
-            "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer morphine 2 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p>"
+            "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer pantoprazole 40 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p><p>7. 12-lead ECG and troponin STAT.</p><p>8. Replace potassium per protocol if below 3.5 mmol/L.</p>"
           },
           {
             "id": "labs_umd12",
@@ -295,7 +295,7 @@
           {
             "id": "nn_umd12",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Morphine 2 mg and ondansetron 4 mg given IV. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0445:</span><span class=\"nurse-note-text\">Client reports pain 1/10. No nausea or vomiting. Taught client about diet, positioning after eating, and weight management.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0345:</span><span class=\"nurse-note-text\">The client is admitted to the emergency department with epigastric pain, nausea and vomiting. Client reports pain 6/10 that started 2 hours after eating last night and has vomited 3 times before coming to the emergency department. Reports increased episodes of epigastric pain, intermittent chest pain, and chronic cough over the last several months. The pain is keeping him awake at night. Client denies diarrhea, current chest pain, or shortness of breath. VS: T 37.1° C (98.9° F), P 90 beats/min, RR 18 breaths/min, BP 130/86 mm Hg, pulse oximetry reading 97% on room air.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0415:</span><span class=\"nurse-note-text\">IV line placed; 0.9% sodium chloride started at 100 mL/hr. Pantoprazole 40 mg and ondansetron 4 mg given IV. 12-lead ECG: normal sinus rhythm. Troponin within normal limits. Labs drawn.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0445:</span><span class=\"nurse-note-text\">Client reports pain 1/10. No nausea or vomiting. Potassium replacement started per protocol. Taught client about diet, positioning after eating, and weight management.</span></p>"
           },
           {
             "id": "pn_umd12",
@@ -305,7 +305,7 @@
           {
             "id": "ord_umd12",
             "title": "Orders",
-            "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer morphine 2 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p>"
+            "content": "<p>1. Start 0.9% sodium chloride at 100 mL/hr.</p><p>2. Administer pantoprazole 40 mg IV STAT.</p><p>3. Administer ondansetron 4 mg IV STAT.</p><p>4. Blood panel for sodium and potassium.</p><p>5. Educate client about lifestyle modifications.</p><p>6. Schedule follow-up with gastroenterologist.</p><p>7. 12-lead ECG and troponin STAT.</p><p>8. Replace potassium per protocol if below 3.5 mmol/L.</p>"
           },
           {
             "id": "labs_umd12",
@@ -320,5 +320,9 @@
   "disorder": "Unit 6 (Gastrointestinal Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Gastroesophageal reflux disease: a 47-year-old client in the emergency department with epigastric pain and vomiting; focused assessment, treatment, and lifestyle teaching.",
   "availability": "all",
-  "updatedAt": "2026-10-14T18:44:52.899Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nAn ECG and troponin are now ordered and documented as normal, so chest pain is ruled out before GERD is diagnosed.\nMorphine replaced by pantoprazole 40 mg IV; screen 4 option \"Administer analgesics\" is now \"Administer a proton pump inhibitor\".\nPotassium replacement ordered and started for K 3.0 mmol/L.",
+    "flaggedAt": "2026-10-14"
+  }
 }

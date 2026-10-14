@@ -16,15 +16,11 @@
             "correct": true
           },
           {
-            "text": "shoulder pain",
-            "correct": true
-          },
-          {
             "text": "laboratory results",
             "correct": true
           },
           {
-            "text": "productive cough",
+            "text": "temperature and pulse oximetry reading",
             "correct": false
           },
           {
@@ -32,17 +28,21 @@
             "correct": true
           },
           {
+            "text": "productive cough",
+            "correct": false
+          },
+          {
             "text": "pulse, respirations, and blood pressure",
             "correct": true
           },
           {
-            "text": "temperature and pulse oximetry reading",
-            "correct": false
+            "text": "shoulder pain",
+            "correct": true
           }
         ],
         "footnote": "&copy; NCSBN. Taken from https://www.nclex.com/prepare.page; click on &#39;Download Exam Preview&#39;.",
         "preamble": "",
-        "explanation": "Diminished breath sounds in the left lung fields (Option 1) require follow-up, since combined with the trauma history they raise concern for a hemothorax. Left shoulder pain (Option 2) requires follow-up because it can represent Kehr's sign, referred pain from diaphragmatic irritation caused by bleeding from a splenic injury, not just the client's old rotator cuff history. The laboratory results (Option 3) require follow-up: the hemoglobin of 9 g/dL and hematocrit of 27% are well below normal, consistent with ongoing blood loss, and the WBC of 19,000/mm&sup3; reflects an acute inflammatory/traumatic response. The abdominal assessment findings (Option 5) require follow-up: LUQ bruising, tenderness, guarding, and dullness to percussion over the spleen's location are classic signs of splenic injury with possible intra-abdominal bleeding. The pulse, respirations, and blood pressure (Option 6) require follow-up because tachycardia (116), tachypnea (24), and hypotension (90/50) together are early signs of hypovolemic shock from blood loss. A productive cough (Option 4) is a nonspecific finding already reflected in the more specific lung sounds finding above, and the temperature and pulse oximetry reading (Option 7) are within normal limits and do not require follow-up."
+        "explanation": "Diminished breath sounds in the left lung fields (Option 1) require follow-up, since combined with the trauma history they raise concern for a hemothorax. Left shoulder pain (Option 7) requires follow-up because it can represent Kehr's sign, referred pain from diaphragmatic irritation caused by bleeding from a splenic injury, not just the client's old rotator cuff history. The laboratory results (Option 2) require follow-up: the hemoglobin of 9 g/dL and hematocrit of 27% are well below normal, consistent with ongoing blood loss, and the WBC of 19,000/mm&sup3; reflects an acute inflammatory/traumatic response. The abdominal assessment findings (Option 4) require follow-up: LUQ bruising, tenderness, guarding, and dullness to percussion over the spleen's location are classic signs of splenic injury with possible intra-abdominal bleeding. The pulse, respirations, and blood pressure (Option 6) require follow-up because tachycardia (116), tachypnea (24), and hypotension (90/50) together are early signs of hypovolemic shock from blood loss. A productive cough (Option 5) is a nonspecific finding already reflected in the more specific lung sounds finding above, and the temperature and pulse oximetry reading (Option 3) are within normal limits and do not require follow-up."
       },
       "leftContent": {
         "tabs": [
@@ -295,23 +295,15 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Mark the surgical site.",
-            "correct": true
-          },
-          {
-            "text": "Provide the client with ice chips.",
+            "text": "Ask the client's parents to wait in the waiting room while the plan of care is discussed with the client.",
             "correct": false
-          },
-          {
-            "text": "Perform a medication reconciliation.",
-            "correct": true
           },
           {
             "text": "Obtain consent for surgery from the client.",
             "correct": false
           },
           {
-            "text": "Insert a peripheral venous access device (VAD).",
+            "text": "Mark the surgical site.",
             "correct": true
           },
           {
@@ -319,11 +311,19 @@
             "correct": false
           },
           {
+            "text": "Perform a medication reconciliation.",
+            "correct": true
+          },
+          {
             "text": "Assess the client's previous experience with surgery and anesthesia.",
             "correct": true
           },
           {
-            "text": "Ask the client's parents to wait in the waiting room while the plan of care is discussed with the client.",
+            "text": "Insert a peripheral venous access device (VAD).",
+            "correct": true
+          },
+          {
+            "text": "Provide the client with ice chips.",
             "correct": false
           }
         ],
@@ -431,5 +431,5 @@
   "disorder": "Unit 6 (Gastrointestinal Disorders)",
   "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 17-year-old male client with a splenic laceration and left-sided hemothorax from blunt trauma, from recognize cues through evaluate outcomes.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

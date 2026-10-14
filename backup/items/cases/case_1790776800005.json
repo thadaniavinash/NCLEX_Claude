@@ -1,7 +1,7 @@
 {
   "id": "case_1790776800005",
   "unit": "Unit 5 (Integumentary Disorders and Burns)",
-  "draft": true,
+  "draft": false,
   "title": "University of Maryland - CS5",
   "topic": "Unit 5 (Integumentary Disorders and Burns)",
   "course": "NURS 1017",
@@ -14,20 +14,12 @@
         "limit": 4,
         "options": [
           {
-            "text": "Respirations",
+            "text": "Urine output",
             "correct": true
           },
           {
             "text": "Pitting edema",
             "correct": false
-          },
-          {
-            "text": "Blood pressure",
-            "correct": true
-          },
-          {
-            "text": "Urine output",
-            "correct": true
           },
           {
             "text": "Heart rate",
@@ -38,12 +30,20 @@
             "correct": false
           },
           {
-            "text": "Pulse oximetry reading",
-            "correct": false
+            "text": "Respirations",
+            "correct": true
           },
           {
             "text": "Pain",
             "correct": false
+          },
+          {
+            "text": "Pulse oximetry reading",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure",
+            "correct": true
           }
         ],
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
@@ -55,7 +55,7 @@
           {
             "id": "nn_umd05",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
           },
           {
             "id": "vs_umd05",
@@ -132,7 +132,7 @@
           {
             "id": "nn_umd05",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
           },
           {
             "id": "vs_umd05",
@@ -201,7 +201,7 @@
           {
             "id": "nn_umd05",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
           },
           {
             "id": "vs_umd05",
@@ -275,7 +275,7 @@
           {
             "id": "nn_umd05",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
           },
           {
             "id": "vs_umd05",
@@ -323,7 +323,7 @@
           {
             "id": "nn_umd05",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
           },
           {
             "id": "vs_umd05",
@@ -410,7 +410,7 @@
           {
             "id": "nn_umd05",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with bilateral second- and third-degree burns to the front of the lower extremities from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\">IV rate increased. Labs drawn. Portable chest X-ray done.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2300:</span><span class=\"nurse-note-text\">Audible stridor.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\">IV rate increased. Labs drawn. Portable chest X-ray done.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2300:</span><span class=\"nurse-note-text\">Audible stridor.</span></p>"
           },
           {
             "id": "vs_umd05",
@@ -420,7 +420,7 @@
           {
             "id": "io_umd05",
             "title": "Intake and Output",
-            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mL</td></tr></tbody></table>"
+            "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1584 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL LR</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1320 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">10 mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">50 mL</td></tr></tbody></table>"
           },
           {
             "id": "ord_umd05",
@@ -440,5 +440,9 @@
   "disorder": "Unit 5 (Integumentary Disorders and Burns)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated May 16, 2023); Author: Stacy McGrath, Salisbury University. Burns: a 55-year-old client with 2nd- and 3rd-degree burns develops burn shock during fluid resuscitation and then signs of upper airway edema.",
   "availability": "all",
-  "updatedAt": "2026-10-14T18:44:52.899Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nBurns now encircle both legs (front and back), so 36% TBSA (and the 14,400 mL Parkland total) matches the Rule of Nines.\nIntake and output: the 2300 IV rate is now 1584 mL/hr (+20% for the 10 mL/hr urine output at 2200, per the titration order).\nAlbumin order kept as \"systolic BP < 80 or diastolic BP < 50\". Please confirm \"or\" vs \"and\".",
+    "flaggedAt": "2026-10-14"
+  }
 }

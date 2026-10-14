@@ -14,15 +14,15 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Progressive hoarseness of voice, brassy cough, and inspiratory stridor",
+            "text": "History of being trapped in a closed, poorly ventilated garage during an explosion and fire for approximately 10 minutes",
             "correct": true
           },
           {
-            "text": "Erythema and superficial epidermal peeling over the unburned posterior lower calves",
-            "correct": false
+            "text": "Singed facial hair, scorched eyebrows, and singed nasal vibrissae",
+            "correct": true
           },
           {
-            "text": "Singed facial hair, scorched eyebrows, and singed nasal vibrissae",
+            "text": "Progressive hoarseness of voice, brassy cough, and inspiratory stridor",
             "correct": true
           },
           {
@@ -34,12 +34,12 @@
             "correct": false
           },
           {
-            "text": "History of being trapped in a closed, poorly ventilated garage during an explosion and fire for approximately 10 minutes",
-            "correct": true
+            "text": "Erythema and superficial epidermal peeling over the unburned posterior lower calves",
+            "correct": false
           }
         ],
         "preamble": "",
-        "explanation": "Critical cues of thermal inhalation injury include: (Option 6) Fire/explosion in an enclosed, confined space; (Option 3) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 1) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
+        "explanation": "Critical cues of thermal inhalation injury include: (Option 1) Fire/explosion in an enclosed, confined space; (Option 2) Singed facial hairs, eyebrows, and nasal vibrissae; (Option 4) Carbonaceous (sooty) sputum and soot deposits across the tongue, uvula, and pharynx; and (Option 3) Upper airway mucosal edema manifesting as progressive hoarseness, brassy cough, and inspiratory stridor. Upper airway swelling can rapidly progress to total glottic occlusion within hours as edema builds; early prophylactic endotracheal intubation is mandatory before airway visualization is lost."
       },
       "leftContent": {
         "intro": "The nurse in a regional burn trauma center is admitting Tyler Brooks, a 34-year-old industrial mechanic transported by emergency medical services (EMS) following an explosion and flash fire in an enclosed auto repair garage 45 minutes ago.",
@@ -193,15 +193,15 @@
                   "correct": true
                 },
                 {
+                  "text": "less than 10 mL/hr to conserve plasma volume",
+                  "correct": false
+                },
+                {
                   "text": "at least 200 to 300 mL/hr to flush out cellular debris",
                   "correct": false
                 },
                 {
                   "text": "strictly 5 mL/kg/hr to induce hypervolemia",
-                  "correct": false
-                },
-                {
-                  "text": "less than 10 mL/hr to conserve plasma volume",
                   "correct": false
                 }
               ]
@@ -387,6 +387,10 @@
               "placeholder": "Select...",
               "options": [
                 {
+                  "text": "severe irreversible hypocalcemic crisis",
+                  "correct": false
+                },
+                {
                   "text": "fluid remobilization and spontaneous diuretic phase",
                   "correct": true
                 },
@@ -396,10 +400,6 @@
                 },
                 {
                   "text": "immediate permanent cessation of all urine output",
-                  "correct": false
-                },
-                {
-                  "text": "severe irreversible hypocalcemic crisis",
                   "correct": false
                 }
               ]
@@ -412,11 +412,11 @@
                   "correct": true
                 },
                 {
-                  "text": "profound hemoconcentration with hematocrit rising above 65%",
+                  "text": "severe hyperkalemia with potassium exceeding 8.5 mmol/L",
                   "correct": false
                 },
                 {
-                  "text": "severe hyperkalemia with potassium exceeding 8.5 mmol/L",
+                  "text": "profound hemoconcentration with hematocrit rising above 65%",
                   "correct": false
                 },
                 {
@@ -429,8 +429,8 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "adequate arterial oxygenation on low ventilator settings without stridor or wheezing",
-                  "correct": true
+                  "text": "bilateral complete pneumothorax on chest radiograph",
+                  "correct": false
                 },
                 {
                   "text": "permanent mechanical ventilator dependence with 100% FiO₂",
@@ -441,8 +441,8 @@
                   "correct": false
                 },
                 {
-                  "text": "bilateral complete pneumothorax on chest radiograph",
-                  "correct": false
+                  "text": "adequate arterial oxygenation on low ventilator settings without stridor or wheezing",
+                  "correct": true
                 }
               ]
             }
@@ -476,5 +476,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

@@ -12,12 +12,12 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Morning joint stiffness lasting 2.5 hours",
-            "correct": true
-          },
-          {
             "text": "Oral body temperature of 38.1° C",
             "correct": false
+          },
+          {
+            "text": "Bilateral wrist and hand joint pain rated 8/10",
+            "correct": true
           },
           {
             "text": "Bilateral symmetrical swelling and warmth of the 2nd and 3rd MCP joints",
@@ -28,11 +28,11 @@
             "correct": false
           },
           {
-            "text": "Bilateral wrist and hand joint pain rated 8/10",
+            "text": "Feelings of profound fatigue and malaise",
             "correct": true
           },
           {
-            "text": "Feelings of profound fatigue and malaise",
+            "text": "Morning joint stiffness lasting 2.5 hours",
             "correct": true
           }
         ],
@@ -66,11 +66,7 @@
             {
               "options": [
                 {
-                  "text": "subclinical",
-                  "correct": true
-                },
-                {
-                  "text": "acute",
+                  "text": "sequelae",
                   "correct": false
                 },
                 {
@@ -78,7 +74,11 @@
                   "correct": false
                 },
                 {
-                  "text": "sequelae",
+                  "text": "subclinical",
+                  "correct": true
+                },
+                {
+                  "text": "acute",
                   "correct": false
                 }
               ],
@@ -91,7 +91,7 @@
                   "correct": true
                 },
                 {
-                  "text": "latent",
+                  "text": "remission",
                   "correct": false
                 },
                 {
@@ -99,7 +99,7 @@
                   "correct": false
                 },
                 {
-                  "text": "remission",
+                  "text": "latent",
                   "correct": false
                 }
               ],
@@ -112,15 +112,15 @@
                   "correct": true
                 },
                 {
-                  "text": "remission",
-                  "correct": false
-                },
-                {
                   "text": "convalescence",
                   "correct": false
                 },
                 {
                   "text": "incubation",
+                  "correct": false
+                },
+                {
+                  "text": "remission",
                   "correct": false
                 }
               ],
@@ -312,27 +312,27 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Teach the client to identify prodromal symptoms (such as mild fatigue and subtle stiffness) so medical therapy can be initiated before a severe exacerbation occurs.",
-            "correct": true
-          },
-          {
-            "text": "Monitor the client for iatrogenic adverse effects of prescribed immunosuppressants and corticosteroids, including opportunistic infections and hyperglycemia.",
-            "correct": true
+            "text": "Advise the client to perform strenuous, high-resistance weight training on the actively inflamed wrist joints to prevent stiffness.",
+            "correct": false
           },
           {
             "text": "Explain that physical and emotional stressors can act as precipitating factors that trigger future disease exacerbations.",
             "correct": true
           },
           {
-            "text": "Advise the client to perform strenuous, high-resistance weight training on the actively inflamed wrist joints to prevent stiffness.",
-            "correct": false
+            "text": "Provide education on energy conservation and joint-protection techniques to preserve physical mobility during convalescence.",
+            "correct": true
           },
           {
             "text": "Inform the client that once joint swelling disappears, the disease is cured and all medications can be permanently stopped.",
             "correct": false
           },
           {
-            "text": "Provide education on energy conservation and joint-protection techniques to preserve physical mobility during convalescence.",
+            "text": "Monitor the client for iatrogenic adverse effects of prescribed immunosuppressants and corticosteroids, including opportunistic infections and hyperglycemia.",
+            "correct": true
+          },
+          {
+            "text": "Teach the client to identify prodromal symptoms (such as mild fatigue and subtle stiffness) so medical therapy can be initiated before a severe exacerbation occurs.",
             "correct": true
           }
         ],
@@ -367,11 +367,7 @@
         "type": "select_all",
         "options": [
           {
-            "text": "The disappearance of joint swelling, heat, and elevated inflammatory markers indicates that Evelyn is in a state of clinical <b>remission</b>.",
-            "correct": true
-          },
-          {
-            "text": "The persistent ulnar deviation and slight reduction in wrist extension represent a <b>sequela</b> resulting from the preceding inflammatory joint disease.",
+            "text": "Evelyn's functional <b>prognosis</b> is favorable based on early diagnosis, therapeutic adherence, and stable joint architecture.",
             "correct": true
           },
           {
@@ -383,12 +379,16 @@
             "correct": false
           },
           {
-            "text": "Evelyn's functional <b>prognosis</b> is favorable based on early diagnosis, therapeutic adherence, and stable joint architecture.",
+            "text": "The development of oral thrush during corticosteroid therapy represents an idiopathic manifestation unrelated to her medical treatment.",
+            "correct": false
+          },
+          {
+            "text": "The disappearance of joint swelling, heat, and elevated inflammatory markers indicates that Evelyn is in a state of clinical <b>remission</b>.",
             "correct": true
           },
           {
-            "text": "The development of oral thrush during corticosteroid therapy represents an idiopathic manifestation unrelated to her medical treatment.",
-            "correct": false
+            "text": "The persistent ulnar deviation and slight reduction in wrist extension represent a <b>sequela</b> resulting from the preceding inflammatory joint disease.",
+            "correct": true
           }
         ],
         "preamble": "The nurse has reviewed the Follow-Up Assessment (6 Months Later).",
@@ -424,5 +424,5 @@
   "disorder": "Unit 1 (Introduction to Pathophysiology)",
   "description": "A case study for formative review of NURS 1017 Unit 1",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

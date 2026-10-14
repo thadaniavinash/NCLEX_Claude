@@ -519,5 +519,9 @@
   "disorder": "Unit 3 (Respiratory Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project September 1, 2022; Author: Elizabeth Mackessy-Lloyd, DNP, RN, CNE, Hood University. Tuberculosis (medical-surgical): contact tracing, diagnosis, infection control, medication teaching, and 4-week follow-up.",
   "availability": "all",
-  "updatedAt": "2026-10-14T18:44:52.899Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nIsoniazid is shown as 300 mg PO daily (the source said 1000 mg, above the maximum). Confirm the regimen and dose.",
+    "flaggedAt": "2026-10-14"
+  }
 }

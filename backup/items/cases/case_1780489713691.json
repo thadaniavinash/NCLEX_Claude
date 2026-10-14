@@ -1,7 +1,7 @@
 {
   "id": "case_1780489713691",
   "unit": "Unit 11 (Endocrine Disorders)",
-  "title": "Case Study 2",
+  "title": "NURS 1017 Unit 11 Case Study 1",
   "topic": "Unit 11 (Endocrine Disorders)",
   "course": "NURS 1017",
   "screens": [
@@ -69,7 +69,7 @@
         "matrix": {
           "rows": [
             {
-              "text": "Polyruria",
+              "text": "Polyuria",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -178,12 +178,12 @@
             {
               "options": [
                 {
-                  "text": "Vital signs",
-                  "correct": true
-                },
-                {
                   "text": "Abdominal pain",
                   "correct": false
+                },
+                {
+                  "text": "Vital signs",
+                  "correct": true
                 },
                 {
                   "text": "Date of last menstrual period",
@@ -362,7 +362,7 @@
             "correct": true
           },
           {
-            "text": "I should drink extra fluids to stay hydrated when I am experiencing an illness.",
+            "text": "I will reduce my carbohydrate intake if I experience high blood glucose levels during an illness.",
             "correct": true
           },
           {
@@ -374,12 +374,12 @@
             "correct": true
           },
           {
-            "text": "I will reduce my carbohydrate intake if I experience high blood glucose levels during an illness.",
+            "text": "I should drink extra fluids to stay hydrated when I am experiencing an illness.",
             "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "When a client with diabetes mellitus experiences an infection or another illness, the release of stress hormones can cause increased insulin resistance, which increases the blood glucose level and leads the body to break down fat for energy. Ketones are produced when fat is broken down, which can lead to diabetic ketoacidosis (DKA). Interventions for managing diabetes mellitus and preventing DKA during an illness include: Monitoring the urine for ketones if blood glucose levels are persistently elevated (&gt;13.3 mmol/L) to detect impending DKA (Option 1). Increasing fluid intake to help clear ketones from the system and prevent dehydration during illness. (Option 2) Checking blood glucose levels more frequently (e.g., every 4 hr) to monitor for hyperglycemia. (Option 4) Consuming beverages that contain glucose and replacing electrolytes if nausea and vomiting are present Notifying the health care provider of persistently elevated blood glucose levels, ketones in the urine, high fever, nausea, vomiting, or diarrhea. (Options 3 and 5) Clients with type 1 diabetes mellitus should not discontinue insulin use or reduce food intake during an illness. Unlike clients with type 2 diabetes mellitus, clients with type 1 diabetes produce no insulin, so not taking insulin will precipitate DKA. The client may require more insulin than usual due to the effects of stress hormones, and reduced food intake<br>contributes to the stress response. Educational objective: Infection or another illness in a client with diabetes mellitus can lead to diabetic ketoacidosis (DKA). During an illness, clients with diabetes mellitus should frequently monitor for elevated blood glucose levels and ketones in urine, increase fluid intake, ensure adequate intake of carbohydrates and electrolytes, and contact the health care provider if signs of DKA occur."
+        "explanation": "When a client with diabetes mellitus experiences an infection or another illness, the release of stress hormones can cause increased insulin resistance, which increases the blood glucose level and leads the body to break down fat for energy. Ketones are produced when fat is broken down, which can lead to diabetic ketoacidosis (DKA). Interventions for managing diabetes mellitus and preventing DKA during an illness include: Monitoring the urine for ketones if blood glucose levels are persistently elevated (&gt;13.3 mmol/L) to detect impending DKA (Option 1). Increasing fluid intake to help clear ketones from the system and prevent dehydration during illness. (Option 5) Checking blood glucose levels more frequently (e.g., every 4 hr) to monitor for hyperglycemia. (Option 4) Consuming beverages that contain glucose and replacing electrolytes if nausea and vomiting are present Notifying the health care provider of persistently elevated blood glucose levels, ketones in the urine, high fever, nausea, vomiting, or diarrhea. (Options 3 and 2) Clients with type 1 diabetes mellitus should not discontinue insulin use or reduce food intake during an illness. Unlike clients with type 2 diabetes mellitus, clients with type 1 diabetes produce no insulin, so not taking insulin will precipitate DKA. The client may require more insulin than usual due to the effects of stress hormones, and reduced food intake<br>contributes to the stress response. Educational objective: Infection or another illness in a client with diabetes mellitus can lead to diabetic ketoacidosis (DKA). During an illness, clients with diabetes mellitus should frequently monitor for elevated blood glucose levels and ketones in urine, increase fluid intake, ensure adequate intake of carbohydrates and electrolytes, and contact the health care provider if signs of DKA occur."
       },
       "leftContent": {
         "tabs": [
@@ -404,7 +404,11 @@
     }
   ],
   "disorder": "Unit 11 (Endocrine Disorders)",
-  "description": "Endocrine Disorders",
+  "description": "A 20-year-old female client with weeks of polydipsia and polyuria who presents with vomiting and drowsiness in diabetic ketoacidosis, from the emergency department through fluid resuscitation and insulin therapy.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nTitle made up: \"NURS 1017 Unit 11 Case Study 1\" (was \"Case Study 2\"), with a new description. Please check both.\nScreen 2 row typo \"Polyruria\" corrected.",
+    "flaggedAt": "2026-10-14"
+  }
 }

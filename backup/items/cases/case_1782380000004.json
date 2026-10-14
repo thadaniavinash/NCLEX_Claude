@@ -14,12 +14,12 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Severe temporal muscle wasting, sunken eyes, prominent ribs, and a 14% involuntary loss of body mass over 10 weeks despite nutritional supplements",
-            "correct": true
-          },
-          {
             "text": "Normal vigorous appetite with rapid 5 kg weight gain and generalized bilateral 3+ pitting pedal edema",
             "correct": false
+          },
+          {
+            "text": "Severe pallor, resting tachycardia (114 beats/min), fatigue, and hemoglobin of 72 g/L",
+            "correct": true
           },
           {
             "text": "Extensive oral erythema, ulcerations, and white pseudomembranous plaques causing excruciating pain on swallowing",
@@ -30,7 +30,7 @@
             "correct": true
           },
           {
-            "text": "Severe pallor, resting tachycardia (114 beats/min), fatigue, and hemoglobin of 72 g/L",
+            "text": "Severe temporal muscle wasting, sunken eyes, prominent ribs, and a 14% involuntary loss of body mass over 10 weeks despite nutritional supplements",
             "correct": true
           },
           {
@@ -39,7 +39,7 @@
           }
         ],
         "preamble": "",
-        "explanation": "Gerald exhibits life-threatening complications of advanced cancer and cytotoxic chemotherapy: (Option 6) Febrile neutropenia (temp >= 38.3° C with ANC < 500/mm³)—an oncologic emergency requiring immediate broad-spectrum antibiotics within 60 minutes due to absent inflammatory response; (Option 4) Severe thrombocytopenia (platelets 28 &times; 109/L) causing spontaneous cutaneous bleeding (petechiae, ecchymoses); (Option 5) Symptomatic severe anemia (hemoglobin 72 g/L with compensatory tachycardia and pallor); (Option 3) Grade 3 oral mucositis, serving as a painful barrier breakdown and prime portal for bacteremia/sepsis; and (Option 1) Cancer cachexia (profound wasting of skeletal muscle and adipose tissue driven by tumor-derived inflammatory cytokines). Rapid weight gain with pitting edema reflects volume overload/heart failure, not cachectic wasting."
+        "explanation": "Gerald exhibits life-threatening complications of advanced cancer and cytotoxic chemotherapy: (Option 6) Febrile neutropenia (temp >= 38.3° C with ANC < 500/mm³)—an oncologic emergency requiring immediate broad-spectrum antibiotics within 60 minutes due to absent inflammatory response; (Option 4) Severe thrombocytopenia (platelets 28 &times; 109/L) causing spontaneous cutaneous bleeding (petechiae, ecchymoses); (Option 2) Symptomatic severe anemia (hemoglobin 72 g/L with compensatory tachycardia and pallor); (Option 3) Grade 3 oral mucositis, serving as a painful barrier breakdown and prime portal for bacteremia/sepsis; and (Option 5) Cancer cachexia (profound wasting of skeletal muscle and adipose tissue driven by tumor-derived inflammatory cytokines). Rapid weight gain with pitting edema reflects volume overload/heart failure, not cachectic wasting."
       },
       "leftContent": {
         "intro": "The nurse in an oncology emergency department is evaluating Gerald Kowalski, a 67-year-old male with Stage IV pancreatic adenocarcinoma who completed cycle 3 of FOLFIRINOX chemotherapy 9 days ago.",
@@ -486,5 +486,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

@@ -13,11 +13,7 @@
         "limit": 4,
         "options": [
           {
-            "text": "vital signs",
-            "correct": true
-          },
-          {
-            "text": "lung sounds",
+            "text": "radial pulse characteristics",
             "correct": true
           },
           {
@@ -29,11 +25,15 @@
             "correct": false
           },
           {
-            "text": "radial pulse characteristics",
+            "text": "lung sounds",
             "correct": true
           },
           {
             "text": "characteristics of the cough",
+            "correct": true
+          },
+          {
+            "text": "vital signs",
             "correct": true
           }
         ],
@@ -409,5 +409,5 @@
   "disorder": "Unit 3 (Respiratory Disorders)",
   "description": "NCSBN NCLEX-RN Next Generation Exam Preview Case Study: a 78-year-old female client with pneumonia and a history of atrial fibrillation, presenting with fever, cough, and confusion, progressing toward septic shock, from recognize cues through evaluate outcomes.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

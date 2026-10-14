@@ -12,16 +12,8 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Rapid onset of foul-smelling, purulent, liquefactive drainage with tissue softening and extensive forefoot erythema",
+            "text": "Hypotension (BP 92/58 mm Hg), tachycardia (118 beats/min), high fever (38.9° C), and elevated serum lactate (4.2 mmol/L)",
             "correct": true
-          },
-          {
-            "text": "Palpable subcutaneous crepitus (crackling gas bubbles) elicited across the dorsal forefoot",
-            "correct": true
-          },
-          {
-            "text": "Strong, bounding palpable dorsalis pedis and posterior tibial arterial pulses bilaterally",
-            "correct": false
           },
           {
             "text": "Transient toe paresthesia that completely resolves with limb elevation and warm blankets",
@@ -32,12 +24,20 @@
             "correct": true
           },
           {
-            "text": "Hypotension (BP 92/58 mm Hg), tachycardia (118 beats/min), high fever (38.9° C), and elevated serum lactate (4.2 mmol/L)",
+            "text": "Strong, bounding palpable dorsalis pedis and posterior tibial arterial pulses bilaterally",
+            "correct": false
+          },
+          {
+            "text": "Palpable subcutaneous crepitus (crackling gas bubbles) elicited across the dorsal forefoot",
+            "correct": true
+          },
+          {
+            "text": "Rapid onset of foul-smelling, purulent, liquefactive drainage with tissue softening and extensive forefoot erythema",
             "correct": true
           }
         ],
         "preamble": "",
-        "explanation": "Irreversible cell death results in necrosis and gangrene: (Option 5) Dry gangrene is a form of coagulative necrosis resulting from severe ischemia, characterized by black, dry, wrinkled, mummified tissue with a distinct line of demarcation; (Option 1) Wet gangrene occurs when necrotic tissue is superinfected by bacteria, inducing liquefactive necrosis with tissue softening, foul-smelling purulent drainage, and rapidly spreading edema; (Option 2) Gas gangrene results from anaerobic bacterial infection (e.g., Clostridium perfringens), which ferments carbohydrates and produces characteristic gas bubbles that feel like crackling crepitus under the skin; (Option 6) Systemic signs of septic shock (fever, tachycardia, hypotension, lactic acidosis from tissue hypoperfusion) reflect bacterial toxin release and systemic inflammatory response. Gangrene does not resolve with elevation or warming, and peripheral pulses are absent due to severe arterial occlusive disease."
+        "explanation": "Irreversible cell death results in necrosis and gangrene: (Option 3) Dry gangrene is a form of coagulative necrosis resulting from severe ischemia, characterized by black, dry, wrinkled, mummified tissue with a distinct line of demarcation; (Option 6) Wet gangrene occurs when necrotic tissue is superinfected by bacteria, inducing liquefactive necrosis with tissue softening, foul-smelling purulent drainage, and rapidly spreading edema; (Option 5) Gas gangrene results from anaerobic bacterial infection (e.g., Clostridium perfringens), which ferments carbohydrates and produces characteristic gas bubbles that feel like crackling crepitus under the skin; (Option 1) Systemic signs of septic shock (fever, tachycardia, hypotension, lactic acidosis from tissue hypoperfusion) reflect bacterial toxin release and systemic inflammatory response. Gangrene does not resolve with elevation or warming, and peripheral pulses are absent due to severe arterial occlusive disease."
       },
       "leftContent": {
         "tabs": [
@@ -135,15 +135,15 @@
             {
               "options": [
                 {
+                  "text": "caseous",
+                  "correct": false
+                },
+                {
                   "text": "coagulative",
                   "correct": true
                 },
                 {
                   "text": "liquefactive",
-                  "correct": false
-                },
-                {
-                  "text": "caseous",
                   "correct": false
                 }
               ],
@@ -151,6 +151,10 @@
             },
             {
               "options": [
+                {
+                  "text": "caseous",
+                  "correct": false
+                },
                 {
                   "text": "liquefactive",
                   "correct": true
@@ -158,16 +162,16 @@
                 {
                   "text": "fat",
                   "correct": false
-                },
-                {
-                  "text": "caseous",
-                  "correct": false
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
+                {
+                  "text": "immediate neoplastic transformation",
+                  "correct": false
+                },
                 {
                   "text": "an intense acute inflammatory response",
                   "correct": true
@@ -175,10 +179,6 @@
                 {
                   "text": "no inflammatory reaction",
                   "correct": false
-                },
-                {
-                  "text": "immediate neoplastic transformation",
-                  "correct": false
                 }
               ],
               "placeholder": "Select..."
@@ -186,15 +186,15 @@
             {
               "options": [
                 {
+                  "text": "glycogen synthetase",
+                  "correct": false
+                },
+                {
                   "text": "cytochrome c",
                   "correct": true
                 },
                 {
                   "text": "lactic acid",
-                  "correct": false
-                },
-                {
-                  "text": "glycogen synthetase",
                   "correct": false
                 }
               ],
@@ -368,16 +368,16 @@
             {
               "options": [
                 {
-                  "text": "liquefactive and gas gangrene",
-                  "correct": true
-                },
-                {
                   "text": "caseous granulomatous necrosis",
                   "correct": false
                 },
                 {
                   "text": "reversible hydropic swelling",
                   "correct": false
+                },
+                {
+                  "text": "liquefactive and gas gangrene",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -385,16 +385,16 @@
             {
               "options": [
                 {
-                  "text": "acute inflammation",
-                  "correct": true
+                  "text": "anaplastic transformation",
+                  "correct": false
                 },
                 {
                   "text": "no inflammatory reaction",
                   "correct": false
                 },
                 {
-                  "text": "anaplastic transformation",
-                  "correct": false
+                  "text": "acute inflammation",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -406,11 +406,11 @@
                   "correct": true
                 },
                 {
-                  "text": "erythrocytes",
+                  "text": "cardiac myocytes",
                   "correct": false
                 },
                 {
-                  "text": "cardiac myocytes",
+                  "text": "erythrocytes",
                   "correct": false
                 }
               ],
@@ -446,5 +446,5 @@
   ],
   "disorder": "Unit 2 (Cellular Basis of Disease)",
   "description": "72-year-old male with diabetes and PAD presenting with ischemic dry gangrene progressing to liquefactive wet/gas gangrene with septic shock.",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

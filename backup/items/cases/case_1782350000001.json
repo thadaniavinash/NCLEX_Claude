@@ -140,19 +140,19 @@
             {
               "options": [
                 {
-                  "text": "allostatic load",
-                  "correct": true
+                  "text": "remission",
+                  "correct": false
                 },
                 {
                   "text": "homeostasis",
                   "correct": false
                 },
                 {
-                  "text": "convalescence",
-                  "correct": false
+                  "text": "allostatic load",
+                  "correct": true
                 },
                 {
-                  "text": "remission",
+                  "text": "convalescence",
                   "correct": false
                 }
               ],
@@ -161,11 +161,7 @@
             {
               "options": [
                 {
-                  "text": "allostatic overload",
-                  "correct": true
-                },
-                {
-                  "text": "a pandemic",
+                  "text": "an incubation period",
                   "correct": false
                 },
                 {
@@ -173,7 +169,11 @@
                   "correct": false
                 },
                 {
-                  "text": "an incubation period",
+                  "text": "allostatic overload",
+                  "correct": true
+                },
+                {
+                  "text": "a pandemic",
                   "correct": false
                 }
               ],
@@ -182,20 +182,20 @@
             {
               "options": [
                 {
-                  "text": "iatrogenic",
-                  "correct": true
-                },
-                {
-                  "text": "idiopathic",
-                  "correct": false
-                },
-                {
                   "text": "endemic",
                   "correct": false
                 },
                 {
                   "text": "congenital",
                   "correct": false
+                },
+                {
+                  "text": "idiopathic",
+                  "correct": false
+                },
+                {
+                  "text": "iatrogenic",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -309,18 +309,6 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Educate the client on how chronic allostatic load leads to allostatic overload which in turn produces multisystem wear and tear on the cardiovascular, gastrointestinal, and endocrine systems.",
-            "correct": true
-          },
-          {
-            "text": "Instruct the client to immediately discontinue unprescribed high-dose ibuprofen to prevent further iatrogenic gastrointestinal mucosal injury.",
-            "correct": true
-          },
-          {
-            "text": "Teach relaxation and diaphragmatic breathing techniques to help down-regulate sympathetic overactivation and support physiological homeostasis.",
-            "correct": true
-          },
-          {
             "text": "Advise the client to abruptly eliminate all oral fluid intake to allow the body's internal set points to reset.",
             "correct": false
           },
@@ -329,7 +317,19 @@
             "correct": false
           },
           {
+            "text": "Instruct the client to immediately discontinue unprescribed high-dose ibuprofen to prevent further iatrogenic gastrointestinal mucosal injury.",
+            "correct": true
+          },
+          {
             "text": "Collaborate with the primary healthcare provider to evaluate the need for short-term gastric mucosal protection and schedule a follow-up assessment.",
+            "correct": true
+          },
+          {
+            "text": "Teach relaxation and diaphragmatic breathing techniques to help down-regulate sympathetic overactivation and support physiological homeostasis.",
+            "correct": true
+          },
+          {
+            "text": "Educate the client on how chronic allostatic load leads to allostatic overload which in turn produces multisystem wear and tear on the cardiovascular, gastrointestinal, and endocrine systems.",
             "correct": true
           }
         ],
@@ -364,11 +364,15 @@
         "type": "select_all",
         "options": [
           {
-            "text": "The return of blood pressure, heart rate, and blood glucose to narrow reference ranges demonstrates the restoration of physiological homeostasis.",
-            "correct": true
+            "text": "The rapid improvement indicates that Marcus has developed permanent sequelae of his gastrointestinal lining.",
+            "correct": false
           },
           {
             "text": "The complete absence of epigastric burning and tension headaches signifies a clinical remission of his acute manifestations.",
+            "correct": true
+          },
+          {
+            "text": "Marcus's overall prognosis is positive regarding the prevention of long-term cardiovascular and gastrointestinal disease.",
             "correct": true
           },
           {
@@ -376,11 +380,7 @@
             "correct": true
           },
           {
-            "text": "The rapid improvement indicates that Marcus has developed permanent sequelae of his gastrointestinal lining.",
-            "correct": false
-          },
-          {
-            "text": "Marcus's overall prognosis is positive regarding the prevention of long-term cardiovascular and gastrointestinal disease.",
+            "text": "The return of blood pressure, heart rate, and blood glucose to narrow reference ranges demonstrates the restoration of physiological homeostasis.",
             "correct": true
           },
           {
@@ -421,5 +421,5 @@
   "disorder": "Unit 1 (Introduction to Pathophysiology)",
   "description": "A case study for formative review of NURS 1017 Unit 1",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

@@ -14,7 +14,15 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Right breast mass that is hard, fixed to underlying pectoralis fascia, and exhibits irregular, poorly demarcated borders",
+            "text": "Gradual growth of a uterine myometrial mass over 6 years without regional tissue invasion",
+            "correct": false
+          },
+          {
+            "text": "Smooth, well-circumscribed, mobile, non-tender pelvic mass confirmed to be confined within a fibrous capsule",
+            "correct": false
+          },
+          {
+            "text": "Palpable, firm, non-tender right axillary lymphadenopathy matted to surrounding soft tissue",
             "correct": true
           },
           {
@@ -22,16 +30,8 @@
             "correct": true
           },
           {
-            "text": "Palpable, firm, non-tender right axillary lymphadenopathy matted to surrounding soft tissue",
+            "text": "Right breast mass that is hard, fixed to underlying pectoralis fascia, and exhibits irregular, poorly demarcated borders",
             "correct": true
-          },
-          {
-            "text": "Smooth, well-circumscribed, mobile, non-tender pelvic mass confirmed to be confined within a fibrous capsule",
-            "correct": false
-          },
-          {
-            "text": "Gradual growth of a uterine myometrial mass over 6 years without regional tissue invasion",
-            "correct": false
           },
           {
             "text": "Unintended weight loss of 6 kg (13.2 lb) over the past 8 weeks accompanied by deep bone ache",
@@ -424,20 +424,20 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "an expected, benign side effect of isosulfan blue dye excretion by the kidneys",
-                  "correct": true
+                  "text": "an acute sign of rhabdomyolysis and renal tubular necrosis",
+                  "correct": false
                 },
                 {
                   "text": "a severe anaphylactic reaction requiring epinephrine",
                   "correct": false
                 },
                 {
-                  "text": "an acute sign of rhabdomyolysis and renal tubular necrosis",
+                  "text": "evidence of urinary tract hemorrhage requiring bladder catheterization",
                   "correct": false
                 },
                 {
-                  "text": "evidence of urinary tract hemorrhage requiring bladder catheterization",
-                  "correct": false
+                  "text": "an expected, benign side effect of isosulfan blue dye excretion by the kidneys",
+                  "correct": true
                 }
               ]
             },
@@ -497,5 +497,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

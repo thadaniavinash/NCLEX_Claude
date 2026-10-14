@@ -12,6 +12,30 @@
         "type": "select_all",
         "options": [
           {
+            "text": "SpO2 96% on RA",
+            "correct": false
+          },
+          {
+            "text": "BP 178/92 mm Hg",
+            "correct": true
+          },
+          {
+            "text": "Unable to ambulate without leg pain",
+            "correct": true
+          },
+          {
+            "text": "DVT 10 years ago after a total knee arthroplasty",
+            "correct": false
+          },
+          {
+            "text": "Blood glucose 6.54 mmol/L (118 mg/dL)",
+            "correct": false
+          },
+          {
+            "text": "Pedal pulses in both feet 1+",
+            "correct": false
+          },
+          {
             "text": "Painful right lower leg",
             "correct": true
           },
@@ -20,40 +44,16 @@
             "correct": true
           },
           {
-            "text": "Unable to ambulate without leg pain",
-            "correct": true
-          },
-          {
-            "text": "Pedal pulses in both feet 1+",
+            "text": "Hypercholesterolemia controlled by lovastatin",
             "correct": false
           },
           {
             "text": "H/O type 2 diabetes mellitus",
             "correct": false
-          },
-          {
-            "text": "DVT 10 years ago after a total knee arthroplasty",
-            "correct": false
-          },
-          {
-            "text": "Hypercholesterolemia controlled by lovastatin",
-            "correct": false
-          },
-          {
-            "text": "BP 178/92 mm Hg",
-            "correct": true
-          },
-          {
-            "text": "SpO2 96% on RA",
-            "correct": false
-          },
-          {
-            "text": "Blood glucose 6.54 mmol/L (118 mg/dL)",
-            "correct": false
           }
         ],
         "preamble": "The nurse reviews the 0825 nurses’ notes for a 71-year-old client who was admitted to the ED.",
-        "explanation": "The client presented to the ED with a painful, red, warm, and swollen right lower leg (Options 1, 2). The pain prevents the client from ambulating without pain (Option 3). All of these findings are of immediate concern to the nurse because the client could be experiencing a postoperative complication that could become life-threatening. The client's blood pressure is elevated (Option 8), which is also of immediate concern and needs to be addressed. The SpO2 of 96% is normal (95% and greater) and the blood glucose of 6.54 mmol/L (118 mg/dL) is within expected limits for this client and would not be of concern to the nurse. The client's history of diabetes mellitus and hypercholesterolemia are also not concerning at this time because they are being effectively managed. The client's history of DVT would be considered as a factor that could influence the treatment plan, but is not of immediate concern to the nurse. Although normal pedal pulses would be 2+ rather than 1+, the client is an older adult who has type 2 diabetes. Older adults often develop arteriosclerosis/atherosclerosis as physiological changes associated with aging. These arterial changes cause narrowing and decreased blood flow, resulting in diminished distal pulse strength. Peripheral arterial disease is a common vascular complication of diabetes that results in decreased circulation to distal extremities. Pedal pulses are 1+ bilaterally, indicating that the client's right lower leg swelling is not affecting perfusion at this time. Therefore, diminished pedal pulses are not of immediate concern to the nurse."
+        "explanation": "The client presented to the ED with a painful, red, warm, and swollen right lower leg (Options 7, 8). The pain prevents the client from ambulating without pain (Option 3). All of these findings are of immediate concern to the nurse because the client could be experiencing a postoperative complication that could become life-threatening. The client's blood pressure is elevated (Option 2), which is also of immediate concern and needs to be addressed. The SpO2 of 96% is normal (95% and greater) and the blood glucose of 6.54 mmol/L (118 mg/dL) is within expected limits for this client and would not be of concern to the nurse. The client's history of diabetes mellitus and hypercholesterolemia are also not concerning at this time because they are being effectively managed. The client's history of DVT would be considered as a factor that could influence the treatment plan, but is not of immediate concern to the nurse. Although normal pedal pulses would be 2+ rather than 1+, the client is an older adult who has type 2 diabetes. Older adults often develop arteriosclerosis/atherosclerosis as physiological changes associated with aging. These arterial changes cause narrowing and decreased blood flow, resulting in diminished distal pulse strength. Peripheral arterial disease is a common vascular complication of diabetes that results in decreased circulation to distal extremities. Pedal pulses are 1+ bilaterally, indicating that the client's right lower leg swelling is not affecting perfusion at this time. Therefore, diminished pedal pulses are not of immediate concern to the nurse."
       },
       "leftContent": {
         "tabs": [
@@ -168,11 +168,7 @@
             {
               "options": [
                 {
-                  "text": "Hemorrhage",
-                  "correct": true
-                },
-                {
-                  "text": "Hyperkalemia",
+                  "text": "Acute kidney injury",
                   "correct": false
                 },
                 {
@@ -180,8 +176,12 @@
                   "correct": false
                 },
                 {
-                  "text": "Acute kidney injury",
+                  "text": "Hyperkalemia",
                   "correct": false
+                },
+                {
+                  "text": "Hemorrhage",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -268,31 +268,15 @@
         "type": "select_all",
         "options": [
           {
+            "text": "Neurological: Monitor level of consciousness.",
+            "correct": true
+          },
+          {
             "text": "Respiratory: Initiate continuous pulse oximetry monitoring.",
             "correct": true
           },
           {
-            "text": "Respiratory: Administer oxygen therapy via nasal cannula.",
-            "correct": true
-          },
-          {
-            "text": "Respiratory: Use incentive spirometry every 2 hours.",
-            "correct": false
-          },
-          {
-            "text": "Respiratory: Assess lung sounds at least every shift.",
-            "correct": false
-          },
-          {
             "text": "Respiratory: Elevate the head of the bed.",
-            "correct": true
-          },
-          {
-            "text": "Cardiovascular: Prepare to administer IV crystalloid such as lactated Ringer’s.",
-            "correct": true
-          },
-          {
-            "text": "Cardiovascular: Assess vital signs at least hourly.",
             "correct": true
           },
           {
@@ -300,15 +284,31 @@
             "correct": true
           },
           {
-            "text": "Neurological: Monitor level of consciousness.",
-            "correct": true
+            "text": "Respiratory: Assess lung sounds at least every shift.",
+            "correct": false
           },
           {
             "text": "Neurological: Perform neurological checks every 4 hours.",
             "correct": false
           },
           {
+            "text": "Cardiovascular: Assess vital signs at least hourly.",
+            "correct": true
+          },
+          {
+            "text": "Respiratory: Use incentive spirometry every 2 hours.",
+            "correct": false
+          },
+          {
+            "text": "Cardiovascular: Prepare to administer IV crystalloid such as lactated Ringer’s.",
+            "correct": true
+          },
+          {
             "text": "Neurological: Provide reassurance to the client.",
+            "correct": true
+          },
+          {
+            "text": "Respiratory: Administer oxygen therapy via nasal cannula.",
             "correct": true
           }
         ],
@@ -408,5 +408,5 @@
   "disorder": "Unit 1 (Blood Disorders)",
   "description": "A 71-year-old client develops a right lower leg deep vein thrombosis (DVT) that progresses to a submassive pulmonary embolism, from recognize cues through evaluate outcomes.",
   "availability": "all",
-  "updatedAt": "2026-10-01T23:05:05.131Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

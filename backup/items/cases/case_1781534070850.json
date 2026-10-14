@@ -62,22 +62,26 @@
             {
               "options": [
                 {
-                  "text": "incubation period",
-                  "correct": true
-                },
-                {
                   "text": "remission",
                   "correct": false
                 },
                 {
                   "text": "convalescence",
                   "correct": false
+                },
+                {
+                  "text": "incubation period",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
+                {
+                  "text": "morbidity",
+                  "correct": false
+                },
                 {
                   "text": "incidence",
                   "correct": true
@@ -85,20 +89,12 @@
                 {
                   "text": "prevalence",
                   "correct": false
-                },
-                {
-                  "text": "morbidity",
-                  "correct": false
                 }
               ],
               "placeholder": "Select..."
             },
             {
               "options": [
-                {
-                  "text": "prevalence",
-                  "correct": true
-                },
                 {
                   "text": "incidence",
                   "correct": false
@@ -106,6 +102,10 @@
                 {
                   "text": "mortality",
                   "correct": false
+                },
+                {
+                  "text": "prevalence",
+                  "correct": true
                 }
               ],
               "placeholder": "Select..."
@@ -169,15 +169,15 @@
             "correct": true
           },
           {
+            "text": "A final medical diagnosis can be made from the symptom pattern alone.",
+            "correct": false
+          },
+          {
             "text": "The event is a pandemic because more than one person is affected.",
             "correct": false
           },
           {
             "text": "The reports should be treated as unrelated because the exact cause is not yet known.",
-            "correct": false
-          },
-          {
-            "text": "A final medical diagnosis can be made from the symptom pattern alone.",
             "correct": false
           }
         ],
@@ -294,10 +294,6 @@
         "type": "select_all",
         "options": [
           {
-            "text": "Use a consistent case log to record the onset of clinical manifestations, residence location, and shared exposures.",
-            "correct": true
-          },
-          {
             "text": "Communicate case trends to the designated infection-prevention/public health contact according to organizational policy.",
             "correct": true
           },
@@ -306,15 +302,19 @@
             "correct": false
           },
           {
-            "text": "Announce a final cause of the illness before the investigation is complete.",
-            "correct": false
+            "text": "Advise symptomatic students to avoid preparing food for others and to seek assessment if symptoms persist or worsen.",
+            "correct": true
           },
           {
             "text": "Provide hand-hygiene and environmental-cleaning education to the residence community.",
             "correct": true
           },
           {
-            "text": "Advise symptomatic students to avoid preparing food for others and to seek assessment if symptoms persist or worsen.",
+            "text": "Announce a final cause of the illness before the investigation is complete.",
+            "correct": false
+          },
+          {
+            "text": "Use a consistent case log to record the onset of clinical manifestations, residence location, and shared exposures.",
             "correct": true
           }
         ],
@@ -406,5 +406,5 @@
   "disorder": "Unit 1 (Introduction to Pathophysiology)",
   "description": "A case study for formative review of NURS 1017 Unit 1",
   "availability": "all",
-  "updatedAt": "2026-10-01T22:51:17.988Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z"
 }

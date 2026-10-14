@@ -1,7 +1,7 @@
 {
   "id": "case_1790776800017",
   "unit": "Unit 9 (Reproductive Disorders)",
-  "draft": true,
+  "draft": false,
   "title": "University of Maryland - CS17",
   "topic": "Unit 9 (Reproductive Disorders)",
   "course": "NURS 1021",
@@ -54,7 +54,7 @@
           {
             "id": "nn_umd17",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
           },
           {
             "id": "vs_umd17",
@@ -129,7 +129,7 @@
           {
             "id": "nn_umd17",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
           },
           {
             "id": "vs_umd17",
@@ -168,12 +168,12 @@
             {
               "options": [
                 {
-                  "text": "cardiovascular assessment",
-                  "correct": true
-                },
-                {
                   "text": "respiratory assessment",
                   "correct": false
+                },
+                {
+                  "text": "cardiovascular assessment",
+                  "correct": true
                 },
                 {
                   "text": "neurologic assessment",
@@ -186,14 +186,14 @@
         },
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "",
-        "explanation": "The client is experiencing hemorrhagic shock, as most evidenced by the cardiovascular assessment: low blood pressure and tachycardia, with active bleeding in the urine."
+        "explanation": "The client is experiencing hemorrhagic shock, as most evidenced by the cardiovascular assessment: low blood pressure and tachycardia, with active bleeding in the urine. The neurologic finding (confusion) and the low oxygen saturation are effects of poor perfusion; the cardiovascular findings show the cause."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn_umd17",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p>"
           },
           {
             "id": "vs_umd17",
@@ -269,14 +269,14 @@
         },
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
         "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1420. The nurse suspects the client is experiencing hemorrhagic shock and notifies the provider.",
-        "explanation": "The nurse restores perfusion by applying oxygen and giving a fluid bolus. Hemoglobin and hematocrit levels show whether blood is needed. Urine output is monitored closely to ensure the catheter is patent and renal perfusion is adequate.<br>The catheter stays in place; the provider may apply traction to put pressure on bleeding sites. A urine culture is unlikely to help, because infection is not suspected and the urine is bloody. Enemas are contraindicated because they may injure the prostatic fossa."
+        "explanation": "The nurse restores perfusion by applying oxygen and giving a fluid bolus. Hemoglobin and hematocrit levels show whether blood is needed. Urine output is monitored closely to ensure the catheter is patent and renal perfusion is adequate. The catheter stays in place to monitor the bleeding and the urine output. A urine culture is unlikely to help, because infection is not suspected and the urine is bloody. Enemas are contraindicated because they may injure the prostatic fossa."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn_umd17",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
           },
           {
             "id": "vs_umd17",
@@ -293,13 +293,13 @@
         "stem": "Click to highlight <b>2</b> additional orders the nurse should implement <b>immediately</b> to manage hemorrhagic shock.",
         "type": "highlight_2",
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Prostate Cancer with Prostatectomy&rdquo; medical-surgical faculty case study (Tara Sohrabi, Nursing Professor, Montgomery College, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies). Laboratory values shown in SI units.",
-        "preamble": "The physician assesses the client, applies traction to the catheter, and writes orders.",
-        "explanation": "The nurse immediately gives the IV fluid bolus to treat the hypovolemia and applies oxygen to improve oxygenation and perfusion.<br>The other orders (irrigation titration, blood work, reporting results, and a possible transfusion) follow.",
+        "preamble": "The physician assesses the client and writes orders.",
+        "explanation": "The nurse immediately gives the IV fluid bolus to treat the hypovolemia and applies oxygen to improve oxygenation and perfusion.<br>The other orders (blood work, reporting results, and a possible transfusion) follow.",
         "highlightTabs": [
           {
             "id": "ht_umd17",
             "title": "Orders",
-            "content": "<p>Maintain traction on catheter</p><p>{Continuous bladder irrigation: titrate to keep urine pink to clear}</p><p>{Administer 500 mL 0.9% sodium chloride IV bolus|correct}</p><p>{Administer oxygen to keep oxygen saturation above 94%|correct}</p><p>{Obtain blood for hemoglobin and hematocrit}</p><p>{Notify primary care provider promptly with laboratory results}</p><p>{Administer blood component if hemoglobin is below 70 g/L}</p>"
+            "content": "<p>{Administer 500 mL 0.9% sodium chloride IV bolus|correct}</p><p>{Administer oxygen to keep oxygen saturation above 94%|correct}</p><p>{Obtain blood for hemoglobin and hematocrit}</p><p>{Notify primary care provider promptly with laboratory results}</p><p>{Administer blood component if hemoglobin is below 70 g/L}</p>"
           }
         ],
         "maxCorrectSelections": 2
@@ -309,7 +309,7 @@
           {
             "id": "nn_umd17",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p>"
           },
           {
             "id": "vs_umd17",
@@ -331,15 +331,15 @@
             {
               "options": [
                 {
+                  "text": "unchanged",
+                  "correct": false
+                },
+                {
                   "text": "improving",
                   "correct": true
                 },
                 {
                   "text": "deteriorating",
-                  "correct": false
-                },
-                {
-                  "text": "unchanged",
                   "correct": false
                 }
               ],
@@ -373,7 +373,7 @@
           {
             "id": "nn_umd17",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter with continuous bladder irrigation draining clear, red-colored urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Irrigation rate increased.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Ketorolac 30 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Provider retaped catheter to client&rsquo;s leg. Oxygen and fluid bolus given. Urine light pink.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1315:</span><span class=\"nurse-note-text\">Client transferred from the postanesthesia care unit to the surgical unit after a robotic-assisted laparoscopic prostatectomy for early-stage prostate cancer. Alert and oriented &times; 4. Vital signs normal. Six small abdominal incisions with 4 &times; 4 dressings covered by clear dressings, dry and intact. Indwelling urinary catheter draining light red urine.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Dressings dry and intact; urinary catheter draining red urine. Catheter patency checked.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1345:</span><span class=\"nurse-note-text\">Dressings dry and intact. Morphine 2 mg IV push given. Urine slightly red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Pain decreased, but client is slightly confused. Urine bright red.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1420:</span><span class=\"nurse-note-text\">Provider notified of change in client status.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1445:</span><span class=\"nurse-note-text\">Provider retaped catheter to client&rsquo;s leg. Oxygen and fluid bolus given. Urine light pink.</span></p>"
           },
           {
             "id": "vs_umd17",
@@ -383,7 +383,7 @@
           {
             "id": "ord_umd17",
             "title": "Orders",
-            "content": "<p>Maintain traction on catheter</p><p>Continuous bladder irrigation: titrate to keep urine pink to clear</p><p>Administer 500 mL 0.9% sodium chloride IV bolus</p><p>Administer oxygen to keep oxygen saturation above 94%</p><p>Obtain blood for hemoglobin and hematocrit</p><p>Notify primary care provider promptly with laboratory results</p><p>Administer blood component if hemoglobin is below 70 g/L</p>"
+            "content": "<p>Administer 500 mL 0.9% sodium chloride IV bolus</p><p>Administer oxygen to keep oxygen saturation above 94%</p><p>Obtain blood for hemoglobin and hematocrit</p><p>Notify primary care provider promptly with laboratory results</p><p>Administer blood component if hemoglobin is below 70 g/L</p>"
           },
           {
             "id": "labs_umd17",
@@ -398,5 +398,9 @@
   "disorder": "Unit 9 (Reproductive Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Prostate cancer with prostatectomy: a 55-year-old client develops hemorrhagic shock after a robotic-assisted laparoscopic prostatectomy; recognition, actions, and evaluation.",
   "availability": "all",
-  "updatedAt": "2026-10-14T18:44:52.899Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nKetorolac (an NSAID, in a bleeding client) replaced by morphine 2 mg IV.\nContinuous bladder irrigation and catheter traction removed (they belong to TURP, not robotic radical prostatectomy); the screen 5 highlight passage no longer lists them.\nScreen 3 key \"cardiovascular assessment\" kept (the source had no key); rationale strengthened. Please confirm.",
+    "flaggedAt": "2026-10-14"
+  }
 }

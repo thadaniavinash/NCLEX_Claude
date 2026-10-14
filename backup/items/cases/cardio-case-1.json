@@ -1,7 +1,7 @@
 {
   "id": "cardio-case-1",
   "unit": "Unit 2 (Cardiovascular Disorders)",
-  "title": "Case Study 1",
+  "title": "NURS 1021 Unit 2 Case Study 1",
   "topic": "Unit 2 (Cardiovascular Disorders)",
   "course": "NURS 1021",
   "screens": [
@@ -12,12 +12,12 @@
         "type": "select_all",
         "options": [
           {
-            "text": "lung assessment",
-            "correct": true
+            "text": "pedal pulses",
+            "correct": false
           },
           {
-            "text": "client orientation",
-            "correct": false
+            "text": "lung assessment",
+            "correct": true
           },
           {
             "text": "capillary refill time",
@@ -28,7 +28,7 @@
             "correct": true
           },
           {
-            "text": "pedal pulses",
+            "text": "client orientation",
             "correct": false
           },
           {
@@ -123,15 +123,15 @@
             {
               "options": [
                 {
-                  "text": "",
+                  "text": "high-Fowler’s",
                   "correct": true
                 },
                 {
-                  "text": "",
+                  "text": "Trendelenburg",
                   "correct": false
                 },
                 {
-                  "text": "",
+                  "text": "supine",
                   "correct": false
                 }
               ],
@@ -140,20 +140,20 @@
             {
               "options": [
                 {
-                  "text": "initiating non-rebreather mask oxygen therapy",
-                  "correct": true
+                  "text": "performing chest physiotherapy",
+                  "correct": false
                 },
                 {
                   "text": "administering a rapid IV fluid bolus",
                   "correct": false
                 },
                 {
-                  "text": "performing chest physiotherapy",
+                  "text": "preparing for immediate endotracheal intubation",
                   "correct": false
                 },
                 {
-                  "text": "preparing for immediate endotracheal intubation",
-                  "correct": false
+                  "text": "initiating non-rebreather mask oxygen therapy",
+                  "correct": true
                 }
               ],
               "placeholder": "Choose..."
@@ -251,19 +251,19 @@
         "type": "multiple_choice",
         "options": [
           {
-            "text": "epinephrine",
-            "correct": true
-          },
-          {
-            "text": "ramipril",
-            "correct": false
-          },
-          {
             "text": "nitroglycerin",
             "correct": false
           },
           {
             "text": "metoprolol",
+            "correct": false
+          },
+          {
+            "text": "epinephrine",
+            "correct": true
+          },
+          {
+            "text": "ramipril",
             "correct": false
           }
         ],
@@ -328,7 +328,7 @@
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from 1200.",
-        "explanation": "1. Gaining 0.5 lbs overnight is normal fluctuation;&nbsp; clients are taught to report 2-3 lbs in 24 hours or 5 lbs in a week. 2. Client should stop smoking entirely, not limiting to 1 cigarette per day. 3. Heart failure clients require fluid restriction, not increased fluids."
+        "explanation": "Gaining 0.5 lb overnight is normal fluctuation;&nbsp; clients are taught to report 2-3 lbs in 24 hours or 5 lbs in a week. The client should stop smoking entirely, not limiting to 1 cigarette per day. Clients with heart failure require fluid restriction, not increased fluids."
       },
       "leftContent": {
         "tabs": [
@@ -353,7 +353,11 @@
     }
   ],
   "disorder": "Unit 2 (Cardiovascular Disorders)",
-  "updatedAt": "2026-10-14T18:44:52.899Z",
-  "description": "",
-  "availability": "all"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "description": "A 72-year-old male client in the emergency department in respiratory distress from acute heart failure that progresses from the left to the right side, through diagnostics, medications, and discharge teaching.",
+  "availability": "all",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nTitle \"NURS 1021 Unit 2 Case Study 1\" and description made up. Please check both.\nScreen 3: the first drop-down had three empty choices; now high-Fowler’s (correct, per the rationale), supine and Trendelenburg.\nScreen 6 rationale no longer numbers its points 1–3 (they looked like option numbers).",
+    "flaggedAt": "2026-10-14"
+  }
 }

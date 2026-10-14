@@ -1,7 +1,7 @@
 {
   "id": "case_1790776800007",
   "unit": "Unit 6 (Musculoskeletal Disorders)",
-  "draft": true,
+  "draft": false,
   "title": "University of Maryland - CS7",
   "topic": "Unit 6 (Musculoskeletal Disorders)",
   "course": "NURS 1017",
@@ -46,7 +46,7 @@
           {
             "id": "nn_umd07",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
           },
           {
             "id": "nv_umd07",
@@ -127,7 +127,7 @@
           {
             "id": "nn_umd07",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
           },
           {
             "id": "nv_umd07",
@@ -212,7 +212,7 @@
           {
             "id": "nn_umd07",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p>"
           },
           {
             "id": "nv_umd07",
@@ -292,7 +292,7 @@
           {
             "id": "nn_umd07",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
           },
           {
             "id": "nv_umd07",
@@ -319,8 +319,8 @@
             "correct": false
           },
           {
-            "text": "Obtain vital signs every hour for 4 hours",
-            "correct": true
+            "text": "Obtain vital signs every 15 minutes for 2 hours",
+            "correct": false
           },
           {
             "text": "Assist client to use bedpan to void",
@@ -345,14 +345,14 @@
         ],
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
         "preamble": "The nurse has reviewed the Orders from 1130 and the Neurovascular Flow Sheet from 1130. The nurse has reviewed the updated orders placed by the provider.",
-        "explanation": "To accomplish all the tasks needed for this client, the nurse may delegate some tasks to the UAP. Measuring and documenting vital signs, intake and output, and height and weight may be done by the UAP, and the UAP may help the client keep the extremity in the proper position as instructed by the nurse.<br>The UAP cannot perform assessments or monitor neurovascular status. It is the nurse&rsquo;s responsibility to ensure the client is ready for surgery; the preoperative checklist is used to ensure all preoperative criteria are met."
+        "explanation": "To accomplish all the tasks needed for this client, the nurse may delegate some tasks to the UAP. Measuring intake and output and documenting height and weight may be done by the UAP, and the UAP may help the client keep the extremity in the proper position as instructed by the nurse.<br>The UAP cannot perform assessments or monitor neurovascular status. It is the nurse&rsquo;s responsibility to ensure the client is ready for surgery; the preoperative checklist is used to ensure all preoperative criteria are met. The vital signs every 15 minutes stay with the nurse: the client has been hypotensive (BP 82/44 mm Hg) and is unstable, so each set must be interpreted together with the neurovascular checks."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn_umd07",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p>"
           },
           {
             "id": "nv_umd07",
@@ -434,14 +434,14 @@
         },
         "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Compartment Syndrome&rdquo; medical-surgical faculty case study (Dawn Leukhardt, MSN, RN, College of Southern Maryland, La Plata, Maryland, September 1, 2022). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
         "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 1145 and 1245 and the Neurovascular Flow Sheet from 1145 and 1245. The nurse follows up on tasks delegated to the UAP, reviews the vital signs, and updates the neurovascular flow sheet with the most recent assessment.",
-        "explanation": "Since the onset of symptoms (1100), the pain rating, motion, and color have improved, as shown in the neurovascular assessment.<br>The warmth and the pulse have declined (the extremity is now cold with an absent pulse), and the sensation and capillary refill are unchanged."
+        "explanation": "Since the onset of symptoms (1100), the pain rating, motion, and color have improved, as shown in the neurovascular assessment.<br>The warmth and the pulse have declined (the extremity is now cold with an absent pulse), and the sensation and capillary refill are unchanged. A limb that is now cold with an absent pulse is a serious decline even though the pain is less: pain relief together with loss of the pulse can mean ongoing ischemia, so the nurse notifies the provider immediately."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn_umd07",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 29 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Cast removed at bedside; see updated flow sheet.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">VS: BP 116/70 mm Hg, HR 88 beats/min, RR 16 breaths/min, T 98.8° F (37.1° C), pain 3/10.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0830:</span><span class=\"nurse-note-text\">Admitted from the post-anesthesia care unit following surgery to repair an open fracture with internal fixation, with application of a fiberglass cast. R lower extremity elevated. IV infusing as ordered. Client medicated for pain before transport. VS: BP 110/72 mm Hg, HR 90 beats/min, RR 20 breaths/min, T 99° F (37.2° C). Unable to assess pedal pulse on R lower extremity because of the cast. Motion of toes limited by pain and cast. Will monitor for signs of acute complications.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\">Client resting at this time. Will continue to monitor.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Client reports pain 10/10 in R lower extremity. Neurovascular checks updated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115:</span><span class=\"nurse-note-text\">VS: BP 82/44 mm Hg, HR 112 beats/min, RR 22 breaths/min, T 99° F (37.2° C). Provider notified of client changes.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Cast removed at bedside; see updated flow sheet.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1245:</span><span class=\"nurse-note-text\">VS: BP 116/70 mm Hg, HR 88 beats/min, RR 16 breaths/min, T 98.8° F (37.1° C), pain 3/10.</span></p>"
           },
           {
             "id": "nv_umd07",
@@ -461,5 +461,9 @@
   "disorder": "Unit 6 (Musculoskeletal Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Dawn Leukhardt, College of Southern Maryland. Compartment syndrome: after ORIF of a tibia-fibula fracture, a 23-year-old client develops neurovascular compromise; the nurse recognizes it, anticipates orders, delegates, and evaluates after cast removal.",
   "availability": "all",
-  "updatedAt": "2026-10-14T18:44:52.899Z"
+  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "authorReview": {
+    "note": "Changed by Claude on 14 Oct 2026; please double-check:\nScreen 5: the vital-signs task now matches the STAT order (every 15 minutes) and is not delegated (unstable client).\nScreen 6: rationale now flags the cold, pulseless limb as urgent.\nRR 29 at 0830 changed to 20 (likely typo).\nScreen 6 colour keyed Improved (flow sheet N at 1245); the CS7 trend (stand-alone) shows pale (P) for the same time. Please confirm.",
+    "flaggedAt": "2026-10-14"
+  }
 }
