@@ -17024,7 +17024,7 @@ window.NCLEX_CASES = [
       {
         "step": 1,
         "question": {
-          "stem": "Select the <b>4</b> findings that are <b>most</b> urgent to follow up.",
+          "stem": "Which of the following assessment findings require<b> immediate </b>follow-up?",
           "type": "select_n",
           "limit": 4,
           "options": [
@@ -17070,7 +17070,7 @@ window.NCLEX_CASES = [
             {
               "id": "nn_umd05",
               "title": "Nurses' Notes",
-              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer&rsquo;s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2000:</span><span class=\"nurse-note-text\">A 55-year-old female client arrives at the emergency department via ambulance with second- and third-degree burns encircling both lower extremities (front and back) from a house fire that occurred at 1800 today. Burns estimated at 36% of total body surface area. Client weighs 220 lb (100 kg). Fluid resuscitation started with lactated Ringer’s IV.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2100:</span><span class=\"nurse-note-text\">Admitted to the burn unit. Vital signs as noted. Morphine sulfate given for pain. Wound care provided by the nurse. Breath sounds clear. Bilateral +2 pitting edema noted in the lower extremities. Pedal pulses present by Doppler.</span></p>"
             },
             {
               "id": "vs_umd05",
@@ -17080,7 +17080,7 @@ window.NCLEX_CASES = [
             {
               "id": "io_umd05",
               "title": "Intake and Output",
-              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer’s × kg body weight × % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire."
@@ -17169,7 +17169,7 @@ window.NCLEX_CASES = [
           "stem": "Complete the following sentences by choosing from the lists of options.",
           "type": "dyad",
           "cloze": {
-            "text": "The client is at most risk for complications associated with [[drop0]]. The client care priority is to [[drop1]].",
+            "text": "The client is at most risk for complications associated with [[drop0]]. The client care priority is&nbsp;[[drop1]].",
             "dropdowns": [
               {
                 "options": [
@@ -17195,7 +17195,7 @@ window.NCLEX_CASES = [
                     "correct": false
                   },
                   {
-                    "text": "increase fluids",
+                    "text": "fluid resuscitation",
                     "correct": true
                   },
                   {
@@ -17282,7 +17282,7 @@ window.NCLEX_CASES = [
             "firstColumnHeader": "Potential Order"
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
-          "preamble": "The nurse contacts the physician about the client&rsquo;s status.",
+          "preamble": "The nurse contacts the physician about the client’s status.",
           "explanation": "Aggressive fluid resuscitation is needed, but it must be done judiciously to prevent fluid overload and pulmonary complications; IV rates are typically increased by no more than 20% per hour, so doubling the rate is not indicated. A chest X-ray and blood gas should be obtained to assess pulmonary status, and monitoring the metabolic panel helps assess fluid and electrolyte imbalances.<br>It is too soon to suspect a wound infection, so wound cultures are not indicated."
         },
         "leftContent": {
@@ -17300,7 +17300,7 @@ window.NCLEX_CASES = [
             {
               "id": "io_umd05",
               "title": "Intake and Output",
-              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer’s × kg body weight × % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
             }
           ],
           "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire."
@@ -17331,7 +17331,7 @@ window.NCLEX_CASES = [
           ],
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
           "preamble": "The nurse has reviewed the Orders. The physician assesses the client, and the nurse receives orders.",
-          "explanation": "The most critical intervention is to increase the IV fluids: urine output was 20 mL in the last hour, and the order calls for a 10% increase for 15&ndash;29 mL/hr. The chest X-ray and blood gas can be done after the fluids are increased. The vital signs do not yet meet the parameters for albumin."
+          "explanation": "The most critical intervention is to increase the IV fluids: urine output was 20 mL in the last hour, and the order calls for a 10% increase for 15–29 mL/hr. The chest X-ray and blood gas can be done after the fluids are increased. The vital signs do not yet meet the parameters for albumin administration."
         },
         "leftContent": {
           "tabs": [
@@ -17348,12 +17348,12 @@ window.NCLEX_CASES = [
             {
               "id": "io_umd05",
               "title": "Intake and Output",
-              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer&rsquo;s &times; kg body weight &times; % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
+              "content": "<p><b>Fluid resuscitation order:</b> 4 mL lactated Ringer’s × kg body weight × % total body surface area burned = 14,400 mL. Give half over the first 8 hours after the burn and the second half over the remaining 16 hours.</p><table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Hour</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV rate</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">1200 mL/hr</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>IV intake</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">Started</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">600 mL LR</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Urine output</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">20 mL</td></tr></tbody></table>"
             },
             {
               "id": "ord_umd05",
               "title": "Orders",
-              "content": "<p>Obtain chest X-ray, ABG, complete metabolic panel.</p><p>Oxygen per nasal cannula 2&ndash;6 L/min to maintain pulse oximetry reading at 92% or greater.</p><p>Titrate IV fluids based on urine output, up to a maximum of 2000 mL/hr:<br>&nbsp;&nbsp;&lt; 15 mL/hr: increase IV rate 20%<br>&nbsp;&nbsp;15&ndash;29 mL/hr: increase IV rate 10%<br>&nbsp;&nbsp;30&ndash;50 mL/hr: leave current rate<br>&nbsp;&nbsp;&gt; 50 mL/hr: decrease IV rate 10%</p><p>Give 500 mL 5% albumin over 2 hours as needed for systolic BP &lt; 80 mm Hg or diastolic BP &lt; 50 mm Hg.</p>"
+              "content": "<p>Obtain chest X-ray, ABG, complete metabolic panel.</p><p>Oxygen per nasal cannula 2–6 L/min to maintain pulse oximetry reading at 92% or greater.</p><p>Titrate IV fluids based on urine output, up to a maximum of 2000 mL/hr:<br>&nbsp;&nbsp;&lt; 15 mL/hr: increase IV rate 20%<br>&nbsp;&nbsp;15–29 mL/hr: increase IV rate 10%<br>&nbsp;&nbsp;30–50 mL/hr: leave current rate<br>&nbsp;&nbsp;&gt; 50 mL/hr: decrease IV rate 10%</p><p>Give 500 mL 5% albumin over 2 hours as needed for systolic BP &lt; 80 mm Hg or diastolic BP &lt; 50 mm Hg.</p>"
             }
           ],
           "intro": "The nurse cares for a 55-year-old female client admitted to the burn unit following a house fire."
@@ -17362,7 +17362,7 @@ window.NCLEX_CASES = [
       {
         "step": 6,
         "question": {
-          "stem": "For each finding, click to indicate if the finding indicates the client&rsquo;s condition has improved, declined, or is unchanged.",
+          "stem": "For each finding, click to indicate if the finding indicates the client’s condition has improved, worsened, or is unchanged.",
           "type": "matrix_mc",
           "matrix": {
             "rows": [
@@ -17411,14 +17411,14 @@ window.NCLEX_CASES = [
             ],
             "columns": [
               "Improved",
-              "Declined",
+              "Worsened",
               "Unchanged"
             ],
             "firstColumnHeader": "Finding"
           },
           "footnote": "Taken from the Maryland Next Gen NCLEX Test Bank Project, University of Maryland School of Nursing: &ldquo;Burns (2nd &amp; 3rd degree)&rdquo; medical-surgical faculty case study (Stacy McGrath, EdD, MSN, RN, Salisbury University, September 1, 2022; updated May 16, 2023). Available at https://www.nursing.umaryland.edu/mnwc/initiatives/nextgen-nclex/nextgen-nclex-library/ (Faculty Case Studies).",
-          "preamble": "The nurse has reviewed the Nurses&rsquo; Notes from 2200 and 2300, the Vital Signs and Intake and Output from 2200 and 2300, and the Diagnostic Results. The nurse reassesses the client at 2300.",
-          "explanation": "The client&rsquo;s hemodynamic status is stabilizing, with fairly consistent heart rate and blood pressure measurements, and the temperature has remained stable. A urine output of 50 mL in the last hour is a sign of improved renal perfusion.<br>Stridor and a decreasing pulse oximetry reading on more oxygen suggest the development of upper airway edema."
+          "preamble": "The nurse has reviewed the Nurses’ Notes from 2200 and 2300, the Vital Signs and Intake and Output from 2200 and 2300, and the Diagnostic Results. The nurse reassesses the client at 2300.",
+          "explanation": "The client’s hemodynamic status is stabilizing, with fairly consistent heart rate and blood pressure measurements, and the temperature has remained stable. A urine output of 50 mL in the last hour is a sign of improved renal perfusion.<br>Stridor and a decreasing pulse oximetry reading on more oxygen suggest the development of upper airway edema."
         },
         "leftContent": {
           "tabs": [
@@ -17440,7 +17440,7 @@ window.NCLEX_CASES = [
             {
               "id": "ord_umd05",
               "title": "Orders",
-              "content": "<p>Obtain chest X-ray, ABG, complete metabolic panel.</p><p>Oxygen per nasal cannula 2&ndash;6 L/min to maintain pulse oximetry reading at 92% or greater.</p><p>Titrate IV fluids based on urine output, up to a maximum of 2000 mL/hr:<br>&nbsp;&nbsp;&lt; 15 mL/hr: increase IV rate 20%<br>&nbsp;&nbsp;15&ndash;29 mL/hr: increase IV rate 10%<br>&nbsp;&nbsp;30&ndash;50 mL/hr: leave current rate<br>&nbsp;&nbsp;&gt; 50 mL/hr: decrease IV rate 10%</p><p>Give 500 mL 5% albumin over 2 hours as needed for systolic BP &lt; 80 mm Hg or diastolic BP &lt; 50 mm Hg.</p>"
+              "content": "<p>Obtain chest X-ray, ABG, complete metabolic panel.</p><p>Oxygen per nasal cannula 2–6 L/min to maintain pulse oximetry reading at 92% or greater.</p><p>Titrate IV fluids based on urine output, up to a maximum of 2000 mL/hr:<br>&nbsp;&nbsp;&lt; 15 mL/hr: increase IV rate 20%<br>&nbsp;&nbsp;15–29 mL/hr: increase IV rate 10%<br>&nbsp;&nbsp;30–50 mL/hr: leave current rate<br>&nbsp;&nbsp;&gt; 50 mL/hr: decrease IV rate 10%</p><p>Give 500 mL 5% albumin over 2 hours as needed for systolic BP &lt; 80 mm Hg or diastolic BP &lt; 50 mm Hg.</p>"
             },
             {
               "id": "dx_umd05",
@@ -17455,11 +17455,7 @@ window.NCLEX_CASES = [
     "disorder": "Unit 5 (Integumentary Disorders and Burns)",
     "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022 (updated May 16, 2023); Author: Stacy McGrath, Salisbury University. Burns: a 55-year-old client with 2nd- and 3rd-degree burns develops burn shock during fluid resuscitation and then signs of upper airway edema.",
     "availability": "all",
-    "updatedAt": "2026-10-14T19:10:07.127Z",
-    "authorReview": {
-      "note": "Changed by Claude on 14 Oct 2026; please double-check:\nBurns now encircle both legs (front and back), so 36% TBSA (and the 14,400 mL Parkland total) matches the Rule of Nines.\nIntake and output: the 2300 IV rate is now 1584 mL/hr (+20% for the 10 mL/hr urine output at 2200, per the titration order).\nAlbumin order kept as \"systolic BP < 80 or diastolic BP < 50\". Please confirm \"or\" vs \"and\".",
-      "flaggedAt": "2026-10-14"
-    }
+    "updatedAt": "2026-10-14T23:13:46.384Z"
   },
   {
     "id": "case_1790776800006",
