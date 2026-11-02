@@ -29834,6 +29834,2738 @@ window.NCLEX_CASES = [
       "note": "Your case study, converted by Claude on 2 Nov 2026; please review before using it with students:\n- Converted from your PDF \"Unfolding NGN Case Study: Acute Ischemic Stroke\" with the corrections you approved on 2 Nov 2026.\n- Screen 6: repeat CT changed to a PH1 parenchymal hematoma (was HI1), neuro ICU, update on Day 7 (was 48 hours); right arm 3/5.\n- Added: weight 82 kg, written-out alteplase dose (74 mg), CT angiography (left M1 occlusion), creatinine, thrombectomy referral.\n- Screen 1: vital signs added to the passage; BP 198/108 and the irregular pulse are correct phrases; RLE strength 4/5.\n- Screen 2: stem rewritten; row 5 now 'Diaphoresis, tremor, and hunger'; new row 6 (declining LOC with a dilated pupil).\n- Screen 4: new row (neuro checks every 15 minutes); softer wording on catheter/NG timing; tenecteplase note.\n- Screen 6: SLP dysphagia assessment added to the notes; row 3 is done by the wife.\n- Clinician review: recovery course after a symptomatic PH1 bleed with herniation signs; dysphagia diet wording.",
       "flaggedAt": "2026-11-02"
     }
+  },
+  {
+    "id": "case_1782410000002",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "NURS 1017 Unit 7 Case Study 2",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes and the Vital Signs. <b>Highlight</b> the findings that require follow-up.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b><br><br><b>Loss of consciousness, amnesia for the event, disorientation to time, and a GCS of 14:</b> signs of a traumatic brain injury (TBI) at least as severe as a concussion. Even a brief loss of consciousness after a blow to the head needs a CT scan (Canadian CT Head Rule: GCS below 15, vomiting, a dangerous mechanism, or amnesia call for imaging).<br><br><b>Headache with nausea and vomiting:</b> may be part of a concussion, but they are also early signs of rising intracranial pressure (ICP) from a bleed, so they are trended closely.<br><br><b>Boggy swelling over the right temporal area:</b> the temporal bone is the thinnest part of the skull, and the middle meningeal artery runs just beneath it. A blow here can fracture the bone and tear the artery, causing an epidural hematoma.<br><br><b>Do not require follow-up now:</b> being alert, equal and brisk pupils, equal strength, no drainage from the nose or ears (no sign of a basal skull fracture or CSF leak), and normal vital signs. These are the baseline the nurse compares with on every neurological check.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was {“knocked out for about a minute”|correct}, then woke up and was talking. Client is {alert}. {Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall|correct}. Reports a {headache rated 6/10 with nausea|correct}; {vomited once in the ambulance|correct}. {4-cm boggy swelling with an abrasion over the right temporal area|correct}. {No drainage from the nose or ears}. {Pupils equal, 3 mm, briskly reactive}. {Moves all extremities with equal strength}. Glasgow Coma Scale (GCS) {14 (E4 V4 M6)|correct}. Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p>"
+            },
+            {
+              "id": "ht2",
+              "title": "Vital Signs",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">{T 36.8° C}, {P 88 beats/min}, {RR 16 breaths/min}, {BP 128/76 mm Hg}, {SpO₂ 98% on room air}.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The client asks how his injury differs from a concussion. For each finding, click to specify whether it is consistent with a <b>concussion</b>, an <b>epidural hematoma</b>, a <b>subdural hematoma</b>, or a <b>subarachnoid hemorrhage</b>. Each finding may support more than one condition.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Bleeding from a torn middle meningeal artery, often with a temporal bone fracture",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Brief loss of consciousness with amnesia for the event and a normal CT scan",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Crescent-shaped collection from torn bridging veins that can spread across suture lines",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Headache, nausea, and vomiting",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  1,
+                  2,
+                  3
+                ]
+              },
+              {
+                "text": "Loss of consciousness, then a lucid interval, then rapid deterioration",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Sudden, severe (“worst ever”) headache with neck stiffness from blood in the space around the brain",
+                "correctIndex": 3,
+                "correctIndices": [
+                  3
+                ]
+              },
+              {
+                "text": "Symptoms that may develop slowly over weeks in older adults and clients taking anticoagulants",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Biconvex (lens-shaped) collection that stops at the suture lines",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Concussion",
+              "Epidural hematoma",
+              "Subdural hematoma",
+              "Subarachnoid hemorrhage"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results and the Nurses' Notes from 1615.",
+          "explanation": "<b>Concussion</b> is a mild diffuse TBI. Rapid acceleration and deceleration stretch axons; this causes ion shifts (potassium out of and calcium into neurons), a surge of glutamate, and an energy crisis in which the brain needs more glucose while its blood flow falls. The result is a temporary loss of function (confusion, amnesia, headache, nausea, sometimes loss of consciousness) without a structural lesion, so <b>CT and MRI are normal</b>. Older systems graded concussions (for example, grade 1: confusion without loss of consciousness, clearing within 15 minutes; grade 2: symptoms longer than 15 minutes; grade 3: any loss of consciousness). Current Canadian and international guidance has dropped the grades and manages each concussion by its symptoms, with a gradual return to activity.<br><br><b>Epidural hematoma</b>: arterial bleeding (usually the middle meningeal artery under a temporal bone fracture) between the skull and the dura. The dura is attached at the sutures, so the clot is <b>biconvex and stops at the suture lines</b>. Classic course: brief loss of consciousness, a <b>lucid interval</b> (minutes to hours), then rapid deterioration as the arterial clot expands. It is a neurosurgical emergency.<br><br><b>Subdural hematoma</b>: venous bleeding from <b>torn bridging veins</b> between the dura and the arachnoid; it is <b>crescent-shaped</b> and can cross suture lines. Acute subdurals follow severe injury; chronic subdurals develop over weeks in older adults (brain atrophy stretches the veins), people who misuse alcohol, and those taking anticoagulants.<br><br><b>Subarachnoid hemorrhage</b>: blood in the subarachnoid space (CSF space), from trauma or a ruptured aneurysm, causing a sudden severe headache and meningeal irritation (neck stiffness, photophobia).<br><br><b>All four</b> can cause headache, nausea and vomiting. This client also has a <b>contusion</b> (bruised brain tissue) of the left frontal lobe, on the opposite side from the blow: a <b>coup-contrecoup</b> (polar) injury, where the brain strikes the skull at the impact site (coup) and then rebounds against the opposite side (contrecoup)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client's deterioration is most likely caused by [[drop0]]. Because the skull cannot expand, the added [[drop1]] volume was at first offset by moving [[drop2]] out of the skull. That compensation has now failed, and the rising ICP is causing [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "a postictal state",
+                    "correct": false
+                  },
+                  {
+                    "text": "dehydration from vomiting",
+                    "correct": false
+                  },
+                  {
+                    "text": "a second concussion",
+                    "correct": false
+                  },
+                  {
+                    "text": "expansion of the epidural hematoma",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "cerebrospinal fluid",
+                    "correct": false
+                  },
+                  {
+                    "text": "blood",
+                    "correct": true
+                  },
+                  {
+                    "text": "brain tissue",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "cerebrospinal fluid and venous blood",
+                    "correct": true
+                  },
+                  {
+                    "text": "interstitial fluid into the lungs",
+                    "correct": false
+                  },
+                  {
+                    "text": "arterial blood and brain tissue",
+                    "correct": false
+                  },
+                  {
+                    "text": "brain tissue only",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "compression of the spinal cord at C1",
+                    "correct": false
+                  },
+                  {
+                    "text": "bleeding into the left frontal contusion",
+                    "correct": false
+                  },
+                  {
+                    "text": "herniation of the right temporal lobe (uncus) that compresses cranial nerve III and the brainstem",
+                    "correct": true
+                  },
+                  {
+                    "text": "herniation of the left frontal lobe under the falx",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1720 and the Vital Signs from 1720.",
+          "explanation": "<b>Expanding epidural hematoma:</b> the client had a brief loss of consciousness, a lucid interval (talking, “a bit better”), and now rapid deterioration, the classic course of an arterial epidural bleed.<br><br><b>Monro-Kellie doctrine:</b> the adult skull is a rigid box holding about 80% brain tissue, 10% blood and 10% CSF. If one volume increases (here, <b>blood</b> from the hematoma), ICP stays normal only if another decreases: CSF is pushed into the spinal subarachnoid space and absorbed faster, and venous blood is squeezed out. Once these small reserves are used up, a little more volume causes a steep rise in ICP (normal ICP is 5 to 15 mm Hg).<br><br><b>Uncal (transtentorial) herniation:</b> the expanding right temporal clot pushes the medial temporal lobe (uncus) through the tentorial notch. It compresses <b>cranial nerve III on the same side</b> (right pupil dilated and sluggish) and the brainstem motor tracts, which cross below, causing <b>weakness on the opposite side</b> (left). Falling GCS and <b>Cushing's triad</b> (BP 174/70 mm Hg with a widened pulse pressure, bradycardia of 56 beats/min, irregular respirations) are late signs that the brainstem is being compressed. This needs emergency surgical evacuation of the clot.<br><br><b>Why not the others:</b> a second concussion would not cause a unilateral dilated pupil or Cushing's triad; there was no seizure; two episodes of vomiting do not explain focal signs."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "The nurse plans care to prevent secondary brain injury. For each intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Keep the head and neck in midline alignment and avoid tight endotracheal tube ties around the neck",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hyperventilate the client routinely to keep the PaCO₂ near 25 mm Hg",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Report a systolic BP below 110 mm Hg promptly",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Position the client with the hips flexed more than 90 degrees",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Change the maintenance IV fluid to 5% dextrose in water",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Give the prescribed acetaminophen and use cooling measures for a temperature above 38° C",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hyperoxygenate before suctioning and limit each suction pass to 10 seconds or less",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Group the bath, linen change, suctioning, and repositioning into one long session",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Intervention"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 2130 and the Provider Orders.",
+          "explanation": "<b>Secondary brain injury</b> is the damage that develops in the hours and days after the primary injury (the impact, fracture and bleed). Ischemia triggers an injury cascade: glutamate release, calcium entry into cells, free radicals and inflammation. Failing cell membrane pumps let sodium and water into cells (<b>cytotoxic edema</b>), and damage to the blood-brain barrier lets plasma leak into the brain (<b>vasogenic edema</b>), both raising ICP. Hypoxia, hypotension, hypercapnia or excessive hypocapnia, fever, seizures, and high or low glucose all worsen it, so nursing care aims to prevent each one.<br><br><b>Indicated:</b> a midline head and neck and loose tube ties keep the jugular veins open for venous drainage. Low BP lowers cerebral perfusion pressure (CPP = MAP − ICP); guidelines keep SBP at or above 110 mm Hg in adults aged 15 to 49. Fever raises brain metabolism and blood flow, so it is treated promptly. Suctioning raises ICP, so it is kept brief and preceded by hyperoxygenation.<br><br><b>Contraindicated:</b> routine hyperventilation lowers PaCO₂ and constricts cerebral vessels, reducing ICP briefly but causing ischemia; it is not used to prevent ICP rises (only briefly, on order, for signs of herniation). Hip flexion above 90 degrees raises intra-abdominal and intrathoracic pressure and impedes venous return from the head. D5W becomes free water once the glucose is used and worsens cerebral edema; isotonic 0.9% sodium chloride is used. Long clusters of care cause sustained ICP rises; activities are spaced with rest periods."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Returned from the operating room after emergency right temporal craniotomy and evacuation of the epidural hematoma (bleeding middle meningeal artery coagulated). Admitted to the neurological ICU. Intubated and mechanically ventilated; sedated with propofol. Intraparenchymal ICP monitor in place: ICP 12 mm Hg. Pupils 3 mm, equal and reactive.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Head of bed 30 degrees; head and neck midline.<br>ICP and CPP monitoring: notify for ICP above 22 mm Hg or CPP below 60 mm Hg.<br>Keep SBP at or above 110 mm Hg; SpO₂ at or above 94%; PaCO₂ 35–45 mm Hg; temperature below 38° C; blood glucose 6–10 mmol/L.<br>0.9% sodium chloride IV at 80 mL/h.<br>Propofol infusion and fentanyl infusion, titrate to the sedation scale; fentanyl 25 mcg IV PRN for coughing or agitation.<br>3% sodium chloride 250 mL IV over 30 minutes PRN for ICP above 22 mm Hg for more than 5 minutes.<br>Acetaminophen 650 mg per NG tube every 6 hours PRN for temperature above 38° C.<br>Levetiracetam 500 mg IV every 12 hours for 7 days (seizure prophylaxis).</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which actions should the nurse take? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Lower the head of the bed flat to increase blood flow to the brain",
+              "correct": false
+            },
+            {
+              "text": "Complete the morning bed bath now while the client is awake",
+              "correct": false
+            },
+            {
+              "text": "Administer the prescribed 3% sodium chloride",
+              "correct": true
+            },
+            {
+              "text": "Notify the provider of the ICP and the CPP",
+              "correct": true
+            },
+            {
+              "text": "Reposition the head to midline and confirm the head of the bed is at 30 degrees",
+              "correct": true
+            },
+            {
+              "text": "Administer the prescribed PRN fentanyl",
+              "correct": true
+            },
+            {
+              "text": "Give the prescribed acetaminophen and apply cooling measures",
+              "correct": true
+            },
+            {
+              "text": "Suction the endotracheal tube every 15 minutes to prevent coughing",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0400 and the Vital Signs from Day 2 0400.",
+          "explanation": "<b>CPP = MAP − ICP = 78 − 26 = 52 mm Hg</b>, below the target of 60 to 70 mm Hg, and the ICP has been above 22 mm Hg for more than 5 minutes. Coughing against the ventilator, a head turned to one side (kinked jugular veins) and fever (38.6° C) are all raising it.<br><br><b>Correct:</b> straighten the head and keep the head of the bed at 30 degrees to improve venous drainage. Give the PRN fentanyl for coughing and agitation. Give the 3% sodium chloride as ordered: hypertonic saline draws water out of brain tissue into the blood. Treat the fever (acetaminophen, cooling) to lower brain metabolism. Notify the provider, because the ICP and CPP are outside the ordered limits.<br><br><b>Incorrect:</b> lying flat reduces venous drainage and raises ICP. Frequent routine suctioning triggers coughing and raises ICP; suction only when needed. Nonurgent care (a bed bath) is postponed while ICP is high."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Returned from the operating room after emergency right temporal craniotomy and evacuation of the epidural hematoma (bleeding middle meningeal artery coagulated). Admitted to the neurological ICU. Intubated and mechanically ventilated; sedated with propofol. Intraparenchymal ICP monitor in place: ICP 12 mm Hg. Pupils 3 mm, equal and reactive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0400:</span><span class=\"nurse-note-text\">Client coughing and pushing against the ventilator during repositioning; sedation scale shows light sedation. ICP 26 mm Hg for the last 10 minutes; MAP 78 mm Hg. Head turned to the right on the pillow. Skin warm and flushed.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min (ventilator)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/61 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% (ventilator, FiO₂ 0.40)</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Head of bed 30 degrees; head and neck midline.<br>ICP and CPP monitoring: notify for ICP above 22 mm Hg or CPP below 60 mm Hg.<br>Keep SBP at or above 110 mm Hg; SpO₂ at or above 94%; PaCO₂ 35–45 mm Hg; temperature below 38° C; blood glucose 6–10 mmol/L.<br>0.9% sodium chloride IV at 80 mL/h.<br>Propofol infusion and fentanyl infusion, titrate to the sedation scale; fentanyl 25 mcg IV PRN for coughing or agitation.<br>3% sodium chloride 250 mL IV over 30 minutes PRN for ICP above 22 mm Hg for more than 5 minutes.<br>Acetaminophen 650 mg per NG tube every 6 hours PRN for temperature above 38° C.<br>Levetiracetam 500 mg IV every 12 hours for 7 days (seizure prophylaxis).</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each statement the client makes, click to specify whether it indicates an <b>understanding</b> of the discharge teaching or a <b>need for further teaching</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "“I'll wear a certified helmet every time I ride my longboard or bike.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I can go back to playing hockey as soon as my headache is gone.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“A few beers at the party this weekend won't affect how my brain heals.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I'll drive myself to my follow-up appointment next week.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“If my headache gets much worse, I keep vomiting, or I get very sleepy or confused, I'll go to emergency.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I'll start with short periods of light activity and limit screen time, then increase slowly if my symptoms don't get worse.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Understanding",
+              "Needs further teaching"
+            ],
+            "firstColumnHeader": "Client Statement"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 9 1000 and the Vital Signs from Day 9 1000.",
+          "explanation": "<b>Understanding:</b> most TBIs are preventable (falls, motor vehicle and bicycle crashes, sports and assaults are the main causes in Canada); a certified helmet, seat belts, fall prevention and not riding or driving impaired reduce the risk. Worsening headache, repeated vomiting, drowsiness or confusion can mean a new bleed or rising ICP and need emergency care. After a brain injury, a short period of relative rest is followed by a <b>gradual</b> return to light activity and screen use, increased only if symptoms do not worsen.<br><br><b>Needs further teaching:</b> return to contact sport needs a stepwise plan and clearance by the neurosurgeon (after a craniotomy and a second brain injury, this may take months or not be advised); a further injury before recovery causes greater damage. Alcohol slows recovery, impairs judgment (raising the risk of another injury) and lowers the seizure threshold. Driving is not allowed until the provider clears him (attention, reaction time and seizure risk after a brain injury)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Returned from the operating room after emergency right temporal craniotomy and evacuation of the epidural hematoma (bleeding middle meningeal artery coagulated). Admitted to the neurological ICU. Intubated and mechanically ventilated; sedated with propofol. Intraparenchymal ICP monitor in place: ICP 12 mm Hg. Pupils 3 mm, equal and reactive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0400:</span><span class=\"nurse-note-text\">Client coughing and pushing against the ventilator during repositioning; sedation scale shows light sedation. ICP 26 mm Hg for the last 10 minutes; MAP 78 mm Hg. Head turned to the right on the pillow. Skin warm and flushed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 9 1000:</span><span class=\"nurse-note-text\">Extubated on Day 4; transferred to the neurosurgical unit on Day 5. GCS 15. Mild headache (2/10), tires easily, and says bright screens bother him. Incision healing. Discharge home with his parents today; follow-up with neurosurgery in 2 weeks. The nurse reviews the discharge teaching with the client.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 9 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min (ventilator)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/61 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% (ventilator, FiO₂ 0.40)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Head of bed 30 degrees; head and neck midline.<br>ICP and CPP monitoring: notify for ICP above 22 mm Hg or CPP below 60 mm Hg.<br>Keep SBP at or above 110 mm Hg; SpO₂ at or above 94%; PaCO₂ 35–45 mm Hg; temperature below 38° C; blood glucose 6–10 mmol/L.<br>0.9% sodium chloride IV at 80 mL/h.<br>Propofol infusion and fentanyl infusion, titrate to the sedation scale; fentanyl 25 mcg IV PRN for coughing or agitation.<br>3% sodium chloride 250 mL IV over 30 minutes PRN for ICP above 22 mm Hg for more than 5 minutes.<br>Acetaminophen 650 mg per NG tube every 6 hours PRN for temperature above 38° C.<br>Levetiracetam 500 mg IV every 12 hours for 7 days (seizure prophylaxis).</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "description": "19-year-old male client who fell from a longboard without a helmet: concussion picture, then a right temporal epidural hematoma with a lucid interval and uncal herniation (Monro-Kellie doctrine, Cushing's triad), care after craniotomy to prevent secondary brain injury (ICP, CPP), and discharge teaching on TBI prevention and graded return to activity.",
+    "authorReview": {
+      "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: TBI definition/etiology/prevention, coup-contrecoup and contusion, concussion (pathophysiology, older grades), epidural vs subdural vs subarachnoid bleeding, secondary injury, Monro-Kellie, ICP manifestations, CPP.\n- Targets follow the Brain Trauma Foundation 4th edition (SBP ≥ 110 mm Hg, ICP > 22 mm Hg, CPP 60–70 mm Hg); your course text may give other numbers (for example, ICP 20 mm Hg).\n- Clinician review: orders in the Provider Orders tab (doses) and the return-to-sport statement.",
+      "flaggedAt": "2026-11-02"
+    }
+  },
+  {
+    "id": "case_1782410000003",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "NURS 1017 Unit 7 Case Study 3",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>bacterial meningitis</b>? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Photophobia",
+              "correct": true
+            },
+            {
+              "text": "Abdomen soft and nontender",
+              "correct": false
+            },
+            {
+              "text": "Confusion and drowsiness",
+              "correct": true
+            },
+            {
+              "text": "Neck stiffness with pain on flexion",
+              "correct": true
+            },
+            {
+              "text": "Positive Kernig and Brudzinski signs",
+              "correct": true
+            },
+            {
+              "text": "Temperature 39.6° C",
+              "correct": true
+            },
+            {
+              "text": "Last menstrual period 2 weeks ago",
+              "correct": false
+            },
+            {
+              "text": "SpO₂ 96% on room air",
+              "correct": false
+            },
+            {
+              "text": "Severe headache with vomiting",
+              "correct": true
+            },
+            {
+              "text": "Pupils equal and reactive",
+              "correct": false
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Consistent with bacterial meningitis:</b> fever, a severe headache and vomiting, and <b>meningeal irritation</b>: neck stiffness (nuchal rigidity), photophobia, a positive Kernig sign (pain and resistance when the knee is extended with the hip flexed) and a positive Brudzinski sign (neck flexion causes flexion of the hips and knees). Inflamed meninges are stretched by these movements. Confusion and drowsiness reflect cerebral inflammation and rising ICP.<br><br><b>Also important:</b> a <b>nonblanching petechial rash</b>, hypotension, tachycardia and poor perfusion point to meningococcemia (<i>Neisseria meningitidis</i> in the bloodstream), which can progress to septic shock within hours.<br><br><b>Not consistent:</b> equal, reactive pupils, normal oxygen saturation, a soft abdomen and the menstrual history are expected or unrelated findings."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2200:</span><span class=\"nurse-note-text\">Roommate states the client has had a fever, a severe headache and vomiting since this morning, and has become more confused over the last 2 hours. Client says, “My neck hurts when I bend it” and covers her eyes because the room lights hurt. Lives in a university residence; a friend on her floor had a “bad cold” last week. Unsure whether she received the school meningococcal vaccine. Drowsy, opens eyes to voice, oriented to person only (GCS 13: E3 V4 M6). Neck stiff with pain on flexion; positive Kernig and Brudzinski signs. Nonblanching petechial rash on the legs and trunk. Hands and feet cool; capillary refill 4 seconds. Pupils equal, 4 mm, reactive. Lungs clear. Abdomen soft, nontender. Last menstrual period 2 weeks ago.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old female university student brought in by her roommate."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is consistent with <b>bacterial meningitis</b>, <b>viral meningitis</b>, or both. Each finding may support more than one condition.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Cloudy (turbid) CSF",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "CSF white blood cells mostly lymphocytes",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Fever, headache, and neck stiffness",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "CSF glucose much lower than normal",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Organisms seen on the CSF Gram stain",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Clear CSF with a normal glucose",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Elevated CSF protein",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "text": "CSF white blood cells mostly neutrophils",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Bacterial meningitis",
+              "Viral meningitis"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2215 and 2310, the Diagnostic Results and the Laboratory Results.",
+          "explanation": "<b>How bacterial meningitis develops:</b> <i>N. meningitidis</i> colonizes the nasopharynx and spreads by respiratory droplets and close contact (shared residences). It invades the bloodstream, crosses the blood-brain barrier (mainly at the choroid plexus) and multiplies freely in the CSF, which has few antibodies or complement. Bacterial cell wall products (endotoxin) trigger cytokines, and <b>neutrophils</b> pour into the subarachnoid space, forming a <b>purulent exudate</b> that coats the meninges and turns the CSF <b>cloudy</b>. Bacteria and white cells consume glucose and the inflamed barrier transports less, so <b>CSF glucose falls</b>; leaking plasma raises <b>CSF protein</b>. The Gram stain often shows the organism (Gram-negative diplococci = <i>N. meningitidis</i>; Gram-positive diplococci = <i>Streptococcus pneumoniae</i>).<br><br><b>Viral meningitis</b> (often enteroviruses) is usually milder and self-limiting: clear CSF, a <b>lymphocyte</b> predominance, a <b>normal glucose</b>, a mildly raised protein and no organisms on Gram stain.<br><br><b>Both</b> cause fever, headache and meningeal signs, so CSF analysis is needed to tell them apart. Because bacterial meningitis can kill within hours, blood cultures are drawn and antibiotics (with dexamethasone) are started without waiting for the CT and lumbar puncture when these will be delayed."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2200:</span><span class=\"nurse-note-text\">Roommate states the client has had a fever, a severe headache and vomiting since this morning, and has become more confused over the last 2 hours. Client says, “My neck hurts when I bend it” and covers her eyes because the room lights hurt. Lives in a university residence; a friend on her floor had a “bad cold” last week. Unsure whether she received the school meningococcal vaccine. Drowsy, opens eyes to voice, oriented to person only (GCS 13: E3 V4 M6). Neck stiff with pain on flexion; positive Kernig and Brudzinski signs. Nonblanching petechial rash on the legs and trunk. Hands and feet cool; capillary refill 4 seconds. Pupils equal, 4 mm, reactive. Lungs clear. Abdomen soft, nontender. Last menstrual period 2 weeks ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2215:</span><span class=\"nurse-note-text\">Two sets of blood cultures drawn. Dexamethasone 10 mg IV given at 2218, then ceftriaxone 2 g IV and vancomycin 1.25 g IV started at 2220. Droplet precautions in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2310:</span><span class=\"nurse-note-text\">Lumbar puncture done after the head CT; CSF sent to the laboratory.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2240:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no mass, bleeding or hydrocephalus; ventricles normal in size.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\"><b>Cerebrospinal fluid (CSF):</b> opening pressure 32 cm H₂O (reference ≤ 20 cm H₂O); appearance cloudy (reference clear, colourless); WBC 2,400 × 10⁶/L, 90% neutrophils (reference 0–5 × 10⁶/L, lymphocytes); protein 2.1 g/L (reference 0.15–0.45 g/L); glucose 1.2 mmol/L (reference 2.2–3.9 mmol/L, about 60% of the blood glucose); Gram stain: Gram-negative diplococci.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old female university student brought in by her roommate."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client is at highest risk for [[drop0]] as a result of [[drop1]]. She is also at risk for [[drop2]], as shown by [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "autonomic dysreflexia",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute ischemic stroke",
+                    "correct": false
+                  },
+                  {
+                    "text": "spinal shock",
+                    "correct": false
+                  },
+                  {
+                    "text": "increased intracranial pressure",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "obstruction by a brain tumor",
+                    "correct": false
+                  },
+                  {
+                    "text": "demyelination of the central nervous system",
+                    "correct": false
+                  },
+                  {
+                    "text": "cerebral edema from the inflammatory response",
+                    "correct": true
+                  },
+                  {
+                    "text": "a hematoma from a fall",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "anaphylaxis",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypovolemic shock from vomiting alone",
+                    "correct": false
+                  },
+                  {
+                    "text": "septic shock and disseminated intravascular coagulation",
+                    "correct": true
+                  },
+                  {
+                    "text": "neurogenic shock",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "photophobia and neck stiffness",
+                    "correct": false
+                  },
+                  {
+                    "text": "a serum sodium of 134 mmol/L",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypotension, a nonblanching rash, a high lactate, and a low platelet count",
+                    "correct": true
+                  },
+                  {
+                    "text": "a friend's recent cold",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "",
+          "explanation": "<b>Increased ICP from cerebral edema:</b> the opening pressure of 32 cm H₂O and the falling level of consciousness show raised ICP. Meningitis causes all three types of cerebral edema: <b>vasogenic</b> (inflammation makes the blood-brain barrier leaky, so plasma moves into the brain's extracellular space), <b>cytotoxic</b> (toxins and ischemia make cell membrane pumps fail, so water moves into cells), and <b>interstitial</b> (purulent exudate blocks CSF absorption, causing hydrocephalus). Raised ICP can lead to herniation.<br><br><b>Septic shock and DIC:</b> meningococcemia releases large amounts of endotoxin, causing vasodilation and capillary leak (BP 96/58 mm Hg, cool extremities, slow capillary refill, lactate 4.1 mmol/L) and widespread clotting that uses up platelets (88 × 10⁹/L) and clotting factors, causing the <b>nonblanching petechial rash</b> that can become purpura and skin necrosis.<br><br><b>Why not the others:</b> photophobia and neck stiffness are meningeal signs, not signs of sepsis; the friend's cold is an exposure clue; the sodium is only slightly low. Autonomic dysreflexia, spinal and neurogenic shock follow spinal cord injury; demyelination is multiple sclerosis."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2200:</span><span class=\"nurse-note-text\">Roommate states the client has had a fever, a severe headache and vomiting since this morning, and has become more confused over the last 2 hours. Client says, “My neck hurts when I bend it” and covers her eyes because the room lights hurt. Lives in a university residence; a friend on her floor had a “bad cold” last week. Unsure whether she received the school meningococcal vaccine. Drowsy, opens eyes to voice, oriented to person only (GCS 13: E3 V4 M6). Neck stiff with pain on flexion; positive Kernig and Brudzinski signs. Nonblanching petechial rash on the legs and trunk. Hands and feet cool; capillary refill 4 seconds. Pupils equal, 4 mm, reactive. Lungs clear. Abdomen soft, nontender. Last menstrual period 2 weeks ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2215:</span><span class=\"nurse-note-text\">Two sets of blood cultures drawn. Dexamethasone 10 mg IV given at 2218, then ceftriaxone 2 g IV and vancomycin 1.25 g IV started at 2220. Droplet precautions in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2310:</span><span class=\"nurse-note-text\">Lumbar puncture done after the head CT; CSF sent to the laboratory.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2240:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no mass, bleeding or hydrocephalus; ventricles normal in size.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\"><b>Cerebrospinal fluid (CSF):</b> opening pressure 32 cm H₂O (reference ≤ 20 cm H₂O); appearance cloudy (reference clear, colourless); WBC 2,400 × 10⁶/L, 90% neutrophils (reference 0–5 × 10⁶/L, lymphocytes); protein 2.1 g/L (reference 0.15–0.45 g/L); glucose 1.2 mmol/L (reference 2.2–3.9 mmol/L, about 60% of the blood glucose); Gram stain: Gram-negative diplococci.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old female university student brought in by her roommate."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in the client's plan of care? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Maintain droplet precautions until she has received 24 hours of effective antibiotic therapy",
+              "correct": true
+            },
+            {
+              "text": "Support the neck in flexion on two pillows to ease the neck pain",
+              "correct": false
+            },
+            {
+              "text": "Keep the room quiet and dimly lit",
+              "correct": true
+            },
+            {
+              "text": "Restrict fluids to 500 mL per day to prevent cerebral edema",
+              "correct": false
+            },
+            {
+              "text": "Implement seizure precautions",
+              "correct": true
+            },
+            {
+              "text": "Elevate the head of the bed to 30 degrees",
+              "correct": true
+            },
+            {
+              "text": "Place her in a negative-pressure room and wear an N95 respirator for all care",
+              "correct": false
+            },
+            {
+              "text": "Give the antibiotics on time to maintain therapeutic blood levels",
+              "correct": true
+            },
+            {
+              "text": "Confirm that public health has been notified so close contacts can receive preventive antibiotics",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Provider Orders.",
+          "explanation": "<b>Include:</b> <i>N. meningitidis</i> spreads by large respiratory droplets, so <b>droplet precautions</b> (surgical mask within 2 metres, private room) continue until 24 hours of effective therapy. A quiet, dim room reduces photophobia, pain and stimulation that can raise ICP. The head of the bed at 30 degrees aids venous drainage. Cortical irritation makes seizures common, so seizure precautions are in place. Antibiotics are time-critical. Meningococcal disease is reportable: public health traces close contacts (roommates, partners, people who shared drinks) and arranges chemoprophylaxis (for example, a single dose of ciprofloxacin) and vaccination. Prevention in Canada includes the MenC-ACYW vaccine in the school program and the MenB vaccine for people at higher risk.<br><br><b>Do not include:</b> airborne precautions with a negative-pressure room are for diseases such as tuberculosis or measles, not meningococcus. Fluid restriction would worsen her shock; she needs fluids to keep a normal volume and perfusion (sodium is monitored for SIADH). Neck flexion is painful and can obstruct venous outflow; the neck is kept in a neutral position."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2200:</span><span class=\"nurse-note-text\">Roommate states the client has had a fever, a severe headache and vomiting since this morning, and has become more confused over the last 2 hours. Client says, “My neck hurts when I bend it” and covers her eyes because the room lights hurt. Lives in a university residence; a friend on her floor had a “bad cold” last week. Unsure whether she received the school meningococcal vaccine. Drowsy, opens eyes to voice, oriented to person only (GCS 13: E3 V4 M6). Neck stiff with pain on flexion; positive Kernig and Brudzinski signs. Nonblanching petechial rash on the legs and trunk. Hands and feet cool; capillary refill 4 seconds. Pupils equal, 4 mm, reactive. Lungs clear. Abdomen soft, nontender. Last menstrual period 2 weeks ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2215:</span><span class=\"nurse-note-text\">Two sets of blood cultures drawn. Dexamethasone 10 mg IV given at 2218, then ceftriaxone 2 g IV and vancomycin 1.25 g IV started at 2220. Droplet precautions in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2310:</span><span class=\"nurse-note-text\">Lumbar puncture done after the head CT; CSF sent to the laboratory.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2240:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no mass, bleeding or hydrocephalus; ventricles normal in size.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\"><b>Cerebrospinal fluid (CSF):</b> opening pressure 32 cm H₂O (reference ≤ 20 cm H₂O); appearance cloudy (reference clear, colourless); WBC 2,400 × 10⁶/L, 90% neutrophils (reference 0–5 × 10⁶/L, lymphocytes); protein 2.1 g/L (reference 0.15–0.45 g/L); glucose 1.2 mmol/L (reference 2.2–3.9 mmol/L, about 60% of the blood glucose); Gram stain: Gram-negative diplococci.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2345:</span><span class=\"nurse-note-text\">Admit to the intensive care unit. Droplet precautions.<br>Ceftriaxone 2 g IV every 12 hours and vancomycin IV as dosed by pharmacy.<br>Dexamethasone 10 mg IV every 6 hours for 4 days.<br>0.9% sodium chloride 1,000 mL IV bolus, then 125 mL/h; norepinephrine infusion if MAP stays below 65 mm Hg.<br>Neurological checks and vital signs every hour.<br>Acetaminophen 650 mg PO/PR every 4 hours PRN for fever or headache.<br>Report the case to public health.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old female university student brought in by her roommate."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each action, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for the client at this time.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Turn the client onto her side and suction the mouth as needed",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Place a padded tongue blade between her teeth in case another seizure occurs",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Apply oxygen and monitor her airway and breathing closely",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Administer the levetiracetam loading dose",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Prepare her for a repeat lumbar puncture to drain CSF and lower the pressure",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Discontinue droplet precautions because she has received 8 hours of antibiotics",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Prepare her for the STAT head CT",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0545, the Vital Signs from Day 2 0600 and the Provider Orders from Day 2 0550.",
+          "explanation": "<b>Seizure classification</b> (International League Against Epilepsy): seizures are <b>focal onset</b> (starting in one hemisphere; with awareness or with impaired awareness; may spread to a <b>focal to bilateral tonic-clonic</b> seizure), <b>generalized onset</b> (both hemispheres from the start: motor, such as tonic-clonic, tonic, clonic, myoclonic and atonic, or non-motor, such as absence), or <b>unknown onset</b>. This seizure began with whole-body stiffening and jerking without focal signs, so it is described as a generalized tonic-clonic seizure. A seizure lasting 5 minutes or longer, or repeated seizures without recovery between them, is <b>status epilepticus</b>.<br><br><b>Indicated:</b> after the seizure she is postictal with snoring respirations and SpO₂ 91%: a side-lying position and suction keep the airway clear, and oxygen is given. The loading dose of levetiracetam prevents further seizures. Her worsening headache, vomiting, falling GCS and Cushing's triad (widening pulse pressure, relative bradycardia, irregular breathing) signal rising ICP, so she goes for the STAT CT.<br><br><b>Contraindicated:</b> nothing is placed in the mouth during a seizure (broken teeth, airway obstruction, bitten fingers). A lumbar puncture with suspected raised ICP can cause herniation. Droplet precautions continue until 24 hours of effective therapy."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2200:</span><span class=\"nurse-note-text\">Roommate states the client has had a fever, a severe headache and vomiting since this morning, and has become more confused over the last 2 hours. Client says, “My neck hurts when I bend it” and covers her eyes because the room lights hurt. Lives in a university residence; a friend on her floor had a “bad cold” last week. Unsure whether she received the school meningococcal vaccine. Drowsy, opens eyes to voice, oriented to person only (GCS 13: E3 V4 M6). Neck stiff with pain on flexion; positive Kernig and Brudzinski signs. Nonblanching petechial rash on the legs and trunk. Hands and feet cool; capillary refill 4 seconds. Pupils equal, 4 mm, reactive. Lungs clear. Abdomen soft, nontender. Last menstrual period 2 weeks ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2215:</span><span class=\"nurse-note-text\">Two sets of blood cultures drawn. Dexamethasone 10 mg IV given at 2218, then ceftriaxone 2 g IV and vancomycin 1.25 g IV started at 2220. Droplet precautions in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2310:</span><span class=\"nurse-note-text\">Lumbar puncture done after the head CT; CSF sent to the laboratory.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0545:</span><span class=\"nurse-note-text\">Client had a generalized tonic-clonic seizure lasting 2 minutes: sudden stiffening of the whole body, then rhythmic jerking of all four limbs; no warning or focal movements beforehand. Now postictal: snoring respirations, opens eyes to pain only (GCS 8). Reports of worsening headache and vomiting overnight. Pupils equal, 4 mm, sluggish.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/64 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">91% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2240:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no mass, bleeding or hydrocephalus; ventricles normal in size.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\"><b>Cerebrospinal fluid (CSF):</b> opening pressure 32 cm H₂O (reference ≤ 20 cm H₂O); appearance cloudy (reference clear, colourless); WBC 2,400 × 10⁶/L, 90% neutrophils (reference 0–5 × 10⁶/L, lymphocytes); protein 2.1 g/L (reference 0.15–0.45 g/L); glucose 1.2 mmol/L (reference 2.2–3.9 mmol/L, about 60% of the blood glucose); Gram stain: Gram-negative diplococci.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2215</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.2 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2345:</span><span class=\"nurse-note-text\">Admit to the intensive care unit. Droplet precautions.<br>Ceftriaxone 2 g IV every 12 hours and vancomycin IV as dosed by pharmacy.<br>Dexamethasone 10 mg IV every 6 hours for 4 days.<br>0.9% sodium chloride 1,000 mL IV bolus, then 125 mL/h; norepinephrine infusion if MAP stays below 65 mm Hg.<br>Neurological checks and vital signs every hour.<br>Acetaminophen 650 mg PO/PR every 4 hours PRN for fever or headache.<br>Report the case to public health.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0550:</span><span class=\"nurse-note-text\">Lorazepam 4 mg IV for a seizure lasting 5 minutes or longer; may repeat once.<br>Levetiracetam 60 mg/kg IV (maximum 4,500 mg) loading dose now, then 1,000 mg IV every 12 hours.<br>STAT non-contrast head CT. Neurosurgery consult.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old female university student brought in by her roommate."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it shows that an <b>expected outcome has been met</b> or that it <b>requires follow-up</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Alert and oriented, with no seizures since Day 2",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Reduced hearing in the right ear",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Normal ventricles on CT after removal of the drain",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Dark, dry areas of skin on two toes",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Platelet count 214 × 10⁹/L and lactate 1.1 mmol/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Close contacts received preventive antibiotics",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Temperature 36.9° C and WBC 8.1 × 10⁹/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Expected outcome met",
+              "Requires follow-up"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results from Day 2, the Nurses' Notes from Day 2 0730 and Day 12 1000, and the Vital Signs and Laboratory Results from Day 12.",
+          "explanation": "<b>Hydrocephalus</b> is an excess of CSF in the ventricles. In <b>non-communicating (obstructive) hydrocephalus</b>, CSF flow is blocked <b>within</b> the ventricular system (for example, aqueductal stenosis, a tumor or a clot), so only the ventricles above the block enlarge. In <b>communicating (non-obstructive) hydrocephalus</b>, CSF flows through the ventricles but is not absorbed by the arachnoid villi (granulations), as after meningitis or subarachnoid hemorrhage, so all ventricles enlarge, as in this client. <b>Normal pressure hydrocephalus</b> is a communicating type in older adults with gait disturbance, urinary incontinence and dementia. The EVD drained CSF until absorption recovered.<br><br><b>Outcomes met:</b> a normal level of consciousness without seizures, normal ventricles, a normal platelet count and lactate (DIC and shock resolved), no fever with a normal WBC (infection controlled), and close contacts treated to prevent secondary cases.<br><br><b>Require follow-up:</b> <b>sensorineural hearing loss</b> is the most common lasting complication of bacterial meningitis (inflammation of the inner ear and cranial nerve VIII); she needs an urgent audiology assessment, because early treatment, including cochlear implants, matters. Dark, dry skin on the toes suggests necrosis from the clotting in small vessels during meningococcemia and needs wound care assessment."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2200:</span><span class=\"nurse-note-text\">Roommate states the client has had a fever, a severe headache and vomiting since this morning, and has become more confused over the last 2 hours. Client says, “My neck hurts when I bend it” and covers her eyes because the room lights hurt. Lives in a university residence; a friend on her floor had a “bad cold” last week. Unsure whether she received the school meningococcal vaccine. Drowsy, opens eyes to voice, oriented to person only (GCS 13: E3 V4 M6). Neck stiff with pain on flexion; positive Kernig and Brudzinski signs. Nonblanching petechial rash on the legs and trunk. Hands and feet cool; capillary refill 4 seconds. Pupils equal, 4 mm, reactive. Lungs clear. Abdomen soft, nontender. Last menstrual period 2 weeks ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2215:</span><span class=\"nurse-note-text\">Two sets of blood cultures drawn. Dexamethasone 10 mg IV given at 2218, then ceftriaxone 2 g IV and vancomycin 1.25 g IV started at 2220. Droplet precautions in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2310:</span><span class=\"nurse-note-text\">Lumbar puncture done after the head CT; CSF sent to the laboratory.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0545:</span><span class=\"nurse-note-text\">Client had a generalized tonic-clonic seizure lasting 2 minutes: sudden stiffening of the whole body, then rhythmic jerking of all four limbs; no warning or focal movements beforehand. Now postictal: snoring respirations, opens eyes to pain only (GCS 8). Reports of worsening headache and vomiting overnight. Pupils equal, 4 mm, sluggish.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0730:</span><span class=\"nurse-note-text\">External ventricular drain (EVD) inserted by neurosurgery; opening ICP 28 mm Hg. Draining clear, slightly cloudy CSF.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 12 1000:</span><span class=\"nurse-note-text\">EVD removed on Day 8; repeat CT shows normal ventricles. Client alert and oriented, ambulating. No seizures since Day 2. Reports she “can't hear well” in her right ear. Dark, dry areas of skin on two toes of the left foot. Roommates and her boyfriend received ciprofloxacin on Day 2. Discharge planned for Day 14.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 12 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/64 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">91% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2240:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no mass, bleeding or hydrocephalus; ventricles normal in size.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\"><b>Cerebrospinal fluid (CSF):</b> opening pressure 32 cm H₂O (reference ≤ 20 cm H₂O); appearance cloudy (reference clear, colourless); WBC 2,400 × 10⁶/L, 90% neutrophils (reference 0–5 × 10⁶/L, lymphocytes); protein 2.1 g/L (reference 0.15–0.45 g/L); glucose 1.2 mmol/L (reference 2.2–3.9 mmol/L, about 60% of the blood glucose); Gram stain: Gram-negative diplococci.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0640:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> enlargement of the lateral, third and fourth ventricles with no obstructing lesion, consistent with communicating hydrocephalus. Diffuse cerebral edema.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 2200:</span><span class=\"nurse-note-text\"><b>Blood and CSF cultures:</b> <i>Neisseria meningitidis</i>, serogroup B, sensitive to ceftriaxone.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2215</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 12 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22.4 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8.1 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">214 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.2 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2345:</span><span class=\"nurse-note-text\">Admit to the intensive care unit. Droplet precautions.<br>Ceftriaxone 2 g IV every 12 hours and vancomycin IV as dosed by pharmacy.<br>Dexamethasone 10 mg IV every 6 hours for 4 days.<br>0.9% sodium chloride 1,000 mL IV bolus, then 125 mL/h; norepinephrine infusion if MAP stays below 65 mm Hg.<br>Neurological checks and vital signs every hour.<br>Acetaminophen 650 mg PO/PR every 4 hours PRN for fever or headache.<br>Report the case to public health.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0550:</span><span class=\"nurse-note-text\">Lorazepam 4 mg IV for a seizure lasting 5 minutes or longer; may repeat once.<br>Levetiracetam 60 mg/kg IV (maximum 4,500 mg) loading dose now, then 1,000 mg IV every 12 hours.<br>STAT non-contrast head CT. Neurosurgery consult.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 19-year-old female university student brought in by her roommate."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "description": "19-year-old university student with meningococcal meningitis and early sepsis: meningeal signs, bacterial vs viral CSF findings, increased ICP and the types of cerebral edema, droplet precautions and public health follow-up, a generalized tonic-clonic seizure (seizure classification), communicating hydrocephalus with an external ventricular drain, and evaluation of complications.",
+    "authorReview": {
+      "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: pathophysiology of bacterial meningitis, increased ICP and the types of cerebral edema, seizure classification, communicating vs non-communicating hydrocephalus.\n- CSF reference values are common textbook values (not in the MCC list): please check them against your course text.\n- Clinician review: antibiotic, dexamethasone and levetiracetam orders; chemoprophylaxis wording (ciprofloxacin).",
+      "flaggedAt": "2026-11-02"
+    }
+  },
+  {
+    "id": "case_1782410000004",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "NURS 1017 Unit 7 Case Study 4",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes and the Vital Signs. <b>Highlight</b> the findings that suggest increased intracranial pressure (ICP).",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Suggest increased ICP:</b><br><br><b>Headache worst on waking and with coughing or bending:</b> lying flat overnight and mild CO₂ retention during sleep increase cerebral blood volume; coughing and bending raise intrathoracic pressure and reduce venous drainage from the head.<br><br><b>Vomiting on waking without nausea</b> (often projectile): pressure on the vomiting centre in the medulla.<br><br><b>Bilateral papilledema:</b> swelling of the optic discs because raised CSF pressure is transmitted along the optic nerve sheaths; a reliable sign of sustained raised ICP.<br><br><b>Not signs of increased ICP:</b> staring, lip smacking, tongue biting and urinary incontinence are features of the seizure; the glucose rules out hypoglycemia as the cause of the seizure. The vital signs are not those of Cushing's triad (a late sign). Her drowsiness may be postictal or due to ICP, and the personality change, word-finding difficulty and right-hand weakness are focal deficits from the lesion itself; the nurse trends all of them.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she {suddenly stopped talking and stared straight ahead}, {smacking her lips}, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. {Bit her tongue}; {incontinent of urine}. Over the past 6 weeks she has had {headaches that are worst when she wakes up and when she coughs or bends over|correct}, and she {vomited on waking twice this week without feeling nauseated|correct}. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: {bilateral papilledema|correct}. {Point-of-care glucose 6.1 mmol/L}.</span></p>"
+            },
+            {
+              "id": "ht2",
+              "title": "Vital Signs",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">{T 37.0° C}, {P 92 beats/min}, {RR 18 breaths/min}, {BP 142/86 mm Hg}, {SpO₂ 97% on room air}.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The client's husband asks what kind of tumor this might be. For each feature, click to specify whether it is typical of a <b>glioblastoma</b>, a <b>meningioma</b>, or a <b>brain metastasis</b>. Each feature may apply to more than one tumor.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Arises from the meninges (arachnoid cells), outside the brain tissue",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Arises from glial cells (astrocytes) within the brain tissue",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Spreads to the brain through the blood from cancers such as lung, breast, or melanoma",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Can cause seizures, headache, and focal neurological deficits",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  1,
+                  2
+                ]
+              },
+              {
+                "text": "Usually benign and slow-growing; often cured by complete removal",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Ring-enhancing lesion with surrounding edema on MRI",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "text": "Infiltrates the surrounding brain, so complete removal is rarely possible",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Most common malignant primary brain tumor in adults",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Glioblastoma",
+              "Meningioma",
+              "Brain metastasis"
+            ],
+            "firstColumnHeader": "Feature"
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results.",
+          "explanation": "<b>Gliomas</b> arise from the glial (supporting) cells of the brain: astrocytomas, oligodendrogliomas and ependymomas. <b>Glioblastoma</b> (grade 4 astrocytoma) is the most common malignant primary brain tumor in adults. It grows quickly, has a necrotic centre with ring enhancement, and sends cells along white matter tracts, so it cannot be removed completely and usually recurs; treatment is surgery, then radiation with temozolomide chemotherapy.<br><br><b>Meningiomas</b> arise from arachnoid cells of the meninges and press on the brain from outside (extra-axial, dural-based). They are the most common primary intracranial tumor, are usually benign and slow-growing, and are often cured by complete removal, but their location can still cause seizures, headache and deficits. Other tumor types include pituitary adenomas and vestibular schwannomas (acoustic neuromas).<br><br><b>Brain metastases</b> are the most common brain tumors overall in adults. Cancer cells reach the brain through the blood (most often from lung, breast, melanoma, kidney and colon) and are often multiple, at the grey-white matter junction, with ring enhancement and edema; that is why her chest, abdomen and pelvis were scanned.<br><br>Any brain tumor can raise ICP (mass and edema), irritate the cortex (seizures) and cause deficits according to its location."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The seizure the husband described is best classified as a [[drop0]]. The client's signs of increased ICP are mainly caused by [[drop1]], which results from [[drop2]] and is expected to improve with [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "generalized absence seizure",
+                    "correct": false
+                  },
+                  {
+                    "text": "generalized-onset tonic-clonic seizure",
+                    "correct": false
+                  },
+                  {
+                    "text": "focal aware motor seizure",
+                    "correct": false
+                  },
+                  {
+                    "text": "focal impaired awareness seizure that progressed to a bilateral tonic-clonic seizure",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "interstitial edema from hydrocephalus",
+                    "correct": false
+                  },
+                  {
+                    "text": "cytotoxic edema",
+                    "correct": false
+                  },
+                  {
+                    "text": "bleeding into the tumor",
+                    "correct": false
+                  },
+                  {
+                    "text": "vasogenic edema",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "failure of the sodium-potassium pump in oxygen-deprived brain cells",
+                    "correct": false
+                  },
+                  {
+                    "text": "abnormal tumor blood vessels that let plasma leak through a damaged blood-brain barrier",
+                    "correct": true
+                  },
+                  {
+                    "text": "a low serum albumin",
+                    "correct": false
+                  },
+                  {
+                    "text": "blocked CSF absorption at the arachnoid villi",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "dexamethasone",
+                    "correct": true
+                  },
+                  {
+                    "text": "levetiracetam",
+                    "correct": false
+                  },
+                  {
+                    "text": "a hypotonic IV fluid",
+                    "correct": false
+                  },
+                  {
+                    "text": "acetaminophen",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "",
+          "explanation": "<b>Seizure type:</b> the seizure began in one hemisphere (the left temporal lobe near the tumor): staring and unresponsiveness (impaired awareness) with automatisms (lip smacking, picking at clothing with the right hand) is a <b>focal impaired awareness seizure</b> (formerly complex partial). It then spread to both hemispheres: a <b>focal to bilateral tonic-clonic seizure</b> (formerly secondarily generalized). A generalized-onset seizure involves both hemispheres from the start, without a focal beginning; an absence seizure is a brief stare without convulsions; in a focal aware seizure the person stays aware. A new seizure starting in adulthood always needs a search for a structural cause such as a tumor.<br><br><b>Vasogenic edema:</b> the tumor makes new, abnormal blood vessels whose walls lack normal tight junctions, so the blood-brain barrier leaks plasma proteins and water into the extracellular space, mostly in the white matter around the tumor. Corticosteroids (<b>dexamethasone</b>) stabilize the barrier and reduce this edema within hours to days.<br><br><b>Cytotoxic edema</b> is different: oxygen-deprived cells (ischemia, hypoxia, prolonged seizures) cannot run the sodium-potassium pump, so sodium and water enter the cells and they swell, in grey and white matter; it does <b>not</b> respond to corticosteroids. Levetiracetam prevents seizures but does not reduce edema; hypotonic fluids worsen edema."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "The nurse plans care to keep the client's ICP from rising further. For each factor, click to specify which intracranial volume it increases: <b>brain tissue</b>, <b>blood</b>, or <b>cerebrospinal fluid (CSF)</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Vasogenic edema around the tumor",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hypoventilation from oversedation, raising the PaCO₂",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "A tumor blocking the cerebral aqueduct (non-communicating hydrocephalus)",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Neck flexion or rotation that compresses the jugular veins",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Cytotoxic edema after a prolonged seizure with hypoxia",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Scarring of the arachnoid villi that impairs CSF absorption (communicating hydrocephalus)",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Fever, which increases brain metabolism",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Brain tissue",
+              "Blood",
+              "CSF"
+            ],
+            "firstColumnHeader": "Factor"
+          },
+          "preamble": "The nurse has reviewed the Provider Orders.",
+          "explanation": "<b>Monro-Kellie doctrine:</b> the skull holds brain tissue (about 80%), blood (about 10%) and CSF (about 10%). An increase in any one must be offset by a decrease in another, or ICP rises. The nurse plans care around all three.<br><br><b>Brain tissue:</b> the tumor mass and edema. Vasogenic edema is treated with dexamethasone; cytotoxic edema after a long seizure with hypoxia is prevented by stopping seizures quickly and keeping oxygenation normal (seizure precautions, levetiracetam on time).<br><br><b>Blood:</b> CO₂ is a strong cerebral vasodilator, so hypoventilation (oversedation, opioids) raises cerebral blood volume; sedation is monitored. A flexed or rotated neck obstructs jugular venous outflow; the head is kept midline with the head of the bed at 30 degrees. Fever and seizures increase metabolism and therefore cerebral blood flow; fever is treated promptly.<br><br><b>CSF:</b> CSF builds up if its flow is blocked inside the ventricular system (<b>non-communicating</b> or obstructive hydrocephalus, for example a tumor at the cerebral aqueduct or fourth ventricle) or if it is not absorbed by the arachnoid villi (<b>communicating</b> hydrocephalus, after meningitis or subarachnoid hemorrhage). Her ventricles are not enlarged now, but headache, vomiting and drowsiness after surgery could signal hydrocephalus and are reported."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2345:</span><span class=\"nurse-note-text\">Admit to the neurosurgical unit. Head of bed 30 degrees. Seizure precautions.<br>Dexamethasone 4 mg IV every 6 hours.<br>Pantoprazole 40 mg PO daily.<br>Levetiracetam 500 mg PO every 12 hours.<br>Capillary blood glucose before meals and at bedtime.<br>Neurological checks every 2 hours.<br>Craniotomy for tumor resection planned for Day 3.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which actions should the nurse take now? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Call for help and notify the provider",
+              "correct": true
+            },
+            {
+              "text": "Apply oxygen and have suction ready",
+              "correct": true
+            },
+            {
+              "text": "Withhold medication until the seizure has lasted 15 minutes",
+              "correct": false
+            },
+            {
+              "text": "Insert a padded tongue blade between her teeth",
+              "correct": false
+            },
+            {
+              "text": "Administer the prescribed IV lorazepam",
+              "correct": true
+            },
+            {
+              "text": "Check her capillary blood glucose",
+              "correct": true
+            },
+            {
+              "text": "Turn the client onto her side",
+              "correct": true
+            },
+            {
+              "text": "Restrain her arms and legs to prevent injury",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1500 and Day 4 0710 and the Provider Orders from Day 3 1500.",
+          "explanation": "The seizure has lasted more than 5 minutes: this is <b>status epilepticus</b>, a medical emergency. The longer it lasts, the less likely it is to stop on its own, and continuous neuronal firing causes hypoxia, excitotoxic (cytotoxic) brain injury and rising ICP.<br><br><b>Correct:</b> a side-lying position lets saliva drain and keeps the tongue from blocking the airway. Lorazepam is the first-line drug and is given at 5 minutes, as ordered. Oxygen and suction treat the hypoxia (dusky lips). Hypoglycemia can cause or prolong seizures, and dexamethasone affects glucose, so the glucose is checked. Help is needed to manage the airway, drugs and monitoring, and the provider must be notified.<br><br><b>Incorrect:</b> restraints can cause fractures and soft tissue injury; nearby objects are moved and the head is protected instead. Nothing is put in the mouth. Waiting to treat lets the seizure become harder to stop and the brain injury worse."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Returned from craniotomy and subtotal resection of the left frontotemporal tumor. Awake, oriented, mild word-finding difficulty unchanged from before surgery. Dressing dry.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0710:</span><span class=\"nurse-note-text\">Called to the room by a nursing assistant: client is having a generalized tonic-clonic seizure that started at 0705 and is still continuing. Lips dusky; frothy saliva. Side rails up and padded; IV saline lock patent.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2345:</span><span class=\"nurse-note-text\">Admit to the neurosurgical unit. Head of bed 30 degrees. Seizure precautions.<br>Dexamethasone 4 mg IV every 6 hours.<br>Pantoprazole 40 mg PO daily.<br>Levetiracetam 500 mg PO every 12 hours.<br>Capillary blood glucose before meals and at bedtime.<br>Neurological checks every 2 hours.<br>Craniotomy for tumor resection planned for Day 3.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Lorazepam 4 mg IV for a seizure lasting 5 minutes or longer; may repeat once in 5 minutes. Notify provider for any seizure.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it shows that an <b>expected outcome has been met</b> or that it <b>requires follow-up</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "No seizures since Day 4",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Capillary glucose 14.8 mmol/L before supper",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Headache 2/10 with no vomiting",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I'll stop the dexamethasone once my headaches are gone.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "White patches on the tongue and inner cheeks",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I won't drive until my doctor tells me it's safe.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Husband's plan for managing a seizure at home",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Incision clean and dry, staples intact",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Expected outcome met",
+              "Requires follow-up"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results from Day 5, the Nurses' Notes from Day 9 1000 and 1030, and the Laboratory Results.",
+          "explanation": "<b>Outcomes met:</b> no further seizures on the increased levetiracetam dose; less headache and no vomiting (edema and ICP reduced after resection and dexamethasone); a healing incision. In Canada, a seizure leads to a period without driving set by provincial rules and the provider, and she understands this. The husband's plan is correct: protect, side-lying, time the seizure, and call 911 at 5 minutes.<br><br><b>Require follow-up:</b> <b>dexamethasone-induced hyperglycemia</b> (glucocorticoids raise hepatic glucose production and insulin resistance) needs to be reported for treatment. White patches that do not wipe off suggest <b>oral candidiasis</b> (thrush) from corticosteroid immunosuppression. Stopping dexamethasone suddenly can cause adrenal insufficiency and rebound cerebral edema: it must be <b>tapered</b> as prescribed, so this statement needs further teaching."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Returned from craniotomy and subtotal resection of the left frontotemporal tumor. Awake, oriented, mild word-finding difficulty unchanged from before surgery. Dressing dry.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0710:</span><span class=\"nurse-note-text\">Called to the room by a nursing assistant: client is having a generalized tonic-clonic seizure that started at 0705 and is still continuing. Lips dusky; frothy saliva. Side rails up and padded; IV saline lock patent.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 9 1000:</span><span class=\"nurse-note-text\">No further seizures since Day 4 (levetiracetam increased to 1,000 mg every 12 hours). Headache 2/10, no vomiting. Incision clean and dry, staples intact. White patches on the tongue and inner cheeks that do not wipe off easily. Dexamethasone now 4 mg PO twice daily with a planned taper. Referred to the cancer centre for radiation and temozolomide. The nurse reviews the discharge teaching.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 9 1030:</span><span class=\"nurse-note-text\">Client states: “I'll stop the dexamethasone once my headaches are gone.” Also states: “I won't drive until my doctor tells me it's safe.” Husband states: “If she has a seizure, I'll turn her on her side, time it, and call 911 if it lasts 5 minutes.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 5 1400:</span><span class=\"nurse-note-text\"><b>Pathology:</b> glioblastoma, IDH-wildtype (WHO grade 4).</span></p>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2345:</span><span class=\"nurse-note-text\">Admit to the neurosurgical unit. Head of bed 30 degrees. Seizure precautions.<br>Dexamethasone 4 mg IV every 6 hours.<br>Pantoprazole 40 mg PO daily.<br>Levetiracetam 500 mg PO every 12 hours.<br>Capillary blood glucose before meals and at bedtime.<br>Neurological checks every 2 hours.<br>Craniotomy for tumor resection planned for Day 3.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Lorazepam 4 mg IV for a seizure lasting 5 minutes or longer; may repeat once in 5 minutes. Notify provider for any seizure.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 9 1630</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, capillary (before supper)</b><br>4.0–7.0 mmol/L before meals</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14.8 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "description": "57-year-old female client with a first seizure in adulthood from a left frontotemporal glioblastoma: signs of increased ICP, glioblastoma vs meningioma vs brain metastasis, focal impaired awareness to bilateral tonic-clonic seizure, vasogenic vs cytotoxic edema, Monro-Kellie components and hydrocephalus types, status epilepticus after craniotomy, and corticosteroid complications at discharge.",
+    "authorReview": {
+      "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: brain tumour types, seizure classification, vasogenic vs cytotoxic edema, Monro-Kellie components and causes of increased ICP, non-communicating vs communicating hydrocephalus.\n- Screen 4 is a knowledge matrix framed as care planning (which volume each factor increases); please confirm it fits your Generate Solutions expectations.\n- The capillary glucose target (4.0–7.0 mmol/L before meals) is the Diabetes Canada target, not an MCC laboratory range.\n- Clinician review: dexamethasone, levetiracetam and lorazepam doses.",
+      "flaggedAt": "2026-11-02"
+    }
+  },
+  {
+    "id": "case_1782410000005",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "NURS 1017 Unit 7 Case Study 5",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes and the Vital Signs. <b>Highlight</b> the findings that require immediate follow-up.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Require immediate follow-up:</b><br><br><b>Breathing (the first priority):</b> diaphragmatic breathing, short sentences, a weak cough, shallow breathing at 26 breaths/min and SpO₂ 93% show that the intercostal and abdominal muscles are paralyzed and the diaphragm is doing all the work. Fatigue and cord swelling can lead to respiratory failure.<br><br><b>BP 82/48 mm Hg with a heart rate of 48 beats/min:</b> hypotension with bradycardia after a cervical injury suggests <b>neurogenic shock</b>. Low BP reduces blood flow to the injured cord and worsens the secondary injury.<br><br><b>Expected or not urgent:</b> the motor and sensory loss is the injury itself and is documented as the baseline; warm, dry skin fits neurogenic shock (loss of sympathetic tone) rather than being a separate problem; the friends kept his head in line, which was correct; being alert and oriented is reassuring; the abrasion and temperature need no immediate action.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. {Friends pulled him out of the water, keeping his head in line with his body}. Arrived by ambulance with a cervical collar and spinal motion restriction. {Alert and oriented × 4}. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. {Breathing is diaphragmatic: the abdomen rises while the chest barely moves|correct}; {speaks in short sentences|correct}; {weak cough|correct}. {Skin warm, dry and pink below the injury}. {3-cm abrasion on the forehead}.</span></p>"
+            },
+            {
+              "id": "ht2",
+              "title": "Vital Signs",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">{T 36.4° C}, {P 48 beats/min|correct}, {RR 26 breaths/min, shallow|correct}, {BP 82/48 mm Hg|correct}, {SpO₂ 93% on room air|correct}.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is consistent with <b>spinal shock</b>, <b>neurogenic shock</b>, or <b>hypovolemic shock</b>. Each finding may support more than one condition.",
+          "type": "matrix_mr",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Flaccid paralysis and absent reflexes below the level of injury",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hypotension",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "text": "Bradycardia",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Cool, clammy skin",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Loss of sympathetic nervous system outflow from an injury at T6 or above",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Warm, dry skin below the injury",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Tachycardia",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Loss of bladder and bowel reflexes, including anal sphincter tone",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Spinal shock",
+              "Neurogenic shock",
+              "Hypovolemic shock"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+          "explanation": "A <b>spinal cord injury</b> is damage to the cord from trauma (in Canada, mostly falls and motor vehicle crashes, then sports and recreation, such as diving into shallow water) or from disease. The primary injury (compression, contusion, laceration) is followed by a secondary injury (ischemia, edema, inflammation) that can extend the damage over hours to days.<br><br><b>Spinal shock</b> is a <b>neurological</b> state: a temporary loss of all reflex activity below the injury (flaccid paralysis, no reflexes, no anal tone, bladder and bowel retention). It lasts days to weeks; its end is marked by the return of reflexes (for example, the bulbocavernosus reflex), followed by spasticity.<br><br><b>Neurogenic shock</b> is a <b>hemodynamic</b> state, a type of distributive shock: an injury at <b>T6 or above</b> cuts the sympathetic outflow (which leaves the cord from T1 to L2), leaving the vagus nerve unopposed. Vessels dilate (hypotension, warm, dry skin, poor temperature control) and the heart slows (bradycardia).<br><br><b>Hypovolemic shock</b> from bleeding causes hypotension with <b>tachycardia</b> and cool, clammy skin, because the sympathetic response is intact. This client's normal hemoglobin and lactate and the scans without bleeding make hypovolemia unlikely, but bleeding is always ruled out in trauma, because a cervical injury can hide abdominal pain."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client's priority problem is [[drop0]]. His injury spares [[drop1]] but paralyzes [[drop2]]. His breathing may get worse over the next few days because [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "impaired skin integrity",
+                    "correct": false
+                  },
+                  {
+                    "text": "autonomic dysreflexia",
+                    "correct": false
+                  },
+                  {
+                    "text": "risk for respiratory failure",
+                    "correct": true
+                  },
+                  {
+                    "text": "hypothermia",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the phrenic nerve (C3–C5), which controls the diaphragm",
+                    "correct": true
+                  },
+                  {
+                    "text": "the vagus nerve",
+                    "correct": false
+                  },
+                  {
+                    "text": "the T1 nerve roots",
+                    "correct": false
+                  },
+                  {
+                    "text": "the spinal accessory nerve",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the muscles of the face",
+                    "correct": false
+                  },
+                  {
+                    "text": "the intercostal and abdominal muscles",
+                    "correct": true
+                  },
+                  {
+                    "text": "the sternocleidomastoid and trapezius muscles",
+                    "correct": false
+                  },
+                  {
+                    "text": "the diaphragm",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "spinal shock will end",
+                    "correct": false
+                  },
+                  {
+                    "text": "autonomic dysreflexia will begin",
+                    "correct": false
+                  },
+                  {
+                    "text": "edema of the spinal cord can extend upward toward C3–C5",
+                    "correct": true
+                  },
+                  {
+                    "text": "his heart rate will rise",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1630 and the Vital Signs from Day 1 1630.",
+          "explanation": "<b>Risk for respiratory failure</b> is the priority: airway and breathing come first. A vital capacity of 1.1 L (about 23% of predicted), use of accessory neck muscles, fatigue and rising respiratory rate signal that he may need intubation and ventilation (a vital capacity below about 15 mL/kg, or one that keeps falling, is reported).<br><br><b>Why:</b> “C3, 4 and 5 keep the diaphragm alive”: the <b>phrenic nerve</b> is spared in a C6 injury, so the diaphragm still works, but the <b>intercostal and abdominal muscles</b> (thoracic nerves) are paralyzed. He cannot expand the chest fully or cough effectively, so secretions collect (atelectasis, pneumonia). Cord edema peaks in the first days and can climb to C3–C5, weakening the diaphragm as well.<br><br><b>Why not the others:</b> autonomic dysreflexia begins after spinal shock resolves (usually weeks later). The sternocleidomastoid and trapezius (spinal accessory nerve, cranial nerve XI) and the face (cranial nerves) are not affected; he is using his neck muscles to help him breathe."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for the client.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Logroll the client with a second nurse holding the head in line with the body",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Suction the airway for longer than 15 seconds to clear thick secretions",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Measure the vital capacity and assess cough strength as ordered",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Raise the head of the bed quickly to 90 degrees to ease his breathing",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Titrate the norepinephrine to keep the MAP at 85–90 mm Hg",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Remove the cervical collar to wash his neck while he lies alone",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Turn him at least every 2 hours and inspect the skin over bony prominences",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Monitor urine output through the indwelling catheter",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Intervention"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0800 and the Provider Orders.",
+          "explanation": "<b>Indicated:</b> logrolling with a person at the head keeps the spine aligned after fusion. Vital capacity and cough strength show early respiratory decline. Keeping the MAP at 85–90 mm Hg improves blood flow to the injured cord and limits secondary injury. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does not empty (urinary retention), so the catheter drains it and urine output shows perfusion.<br><br><b>Contraindicated:</b> long suctioning causes hypoxia and stimulates the vagus nerve, which, with no sympathetic opposition, can cause severe bradycardia or asystole; suctioning is brief, with hyperoxygenation, and atropine is at hand. A quick move to sitting causes severe orthostatic hypotension (no sympathetic vasoconstriction); the head is raised gradually with the spine protected. The collar stays on; neck care is done with a second person holding the head."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Underwent anterior cervical decompression and fusion of C5–C6 overnight; in a hard cervical collar. Remains on 4 L/min oxygen; vital capacity 1.3 L. Admitted to the ICU.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Keep MAP 85–90 mm Hg for 7 days: 0.9% sodium chloride, then norepinephrine infusion titrated to MAP.<br>Atropine 0.5 mg IV PRN for heart rate below 40 beats/min with hypotension.<br>Vital capacity and cough strength every 4 hours; notify for vital capacity below 1 L.<br>Hard cervical collar at all times; logroll with 2 staff.<br>Indwelling urinary catheter; nasogastric tube to low suction.<br>Enoxaparin 30 mg subcut every 12 hours starting Day 3; sequential compression devices.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Place the nurse's actions in the order in which they should be performed. Arrange from first to last.",
+          "type": "ordered_response",
+          "options": [],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Week 5 1400 and the Vital Signs from Week 5 1400.",
+          "explanation": "This is <b>autonomic dysreflexia</b>, a life-threatening emergency in clients with an injury at <b>T6 or above</b> once spinal shock has resolved. A stimulus below the injury (most often a <b>full bladder</b>, then constipation or impaction, pressure injuries, tight clothing or ingrown toenails) triggers a massive sympathetic reflex below the injury: vasoconstriction causes severe hypertension (a rise of 20 to 40 mm Hg or more above the client's usual BP), pale cool skin and goosebumps below the injury. The brain detects the high BP through the baroreceptors, but its inhibitory signals cannot pass the injury, so only the body above the injury responds: vagal bradycardia, flushing, sweating, nasal stuffiness and a pounding headache. It can cause seizures, stroke and death.<br><br><b>Order:</b> (1) Sit him up and lower his legs, so blood pools in the legs and the BP falls. (2) Loosen anything tight. (3) Look for the most common cause, the bladder: check the tubing for kinks. (4) If urine still does not drain, replace the catheter, using lidocaine jelly to reduce further stimulation. (5) The BP is checked every 2 to 5 minutes; if it stays high (systolic 150 mm Hg or more) after the bladder is emptied, the provider is notified for a fast-acting antihypertensive and the bowel is checked next for stool.",
+          "orderedOptions": [
+            "Sit the client upright and lower his legs",
+            "Loosen the abdominal binder and the leg straps",
+            "Check the catheter tubing for kinks or blockage",
+            "If urine does not drain, replace the catheter using lidocaine jelly",
+            "If the BP stays high after the bladder is emptied, notify the provider"
+          ]
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Underwent anterior cervical decompression and fusion of C5–C6 overnight; in a hard cervical collar. Remains on 4 L/min oxygen; vital capacity 1.3 L. Admitted to the ICU.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 5 1400:</span><span class=\"nurse-note-text\">Rehabilitation unit. Spinal shock resolved in Week 3; reflexes and spasticity in the legs have returned. Client lying in bed, reports a sudden pounding headache and blurred vision. Face and neck flushed and sweating; skin below the clavicles pale and cool with goosebumps. Nasal stuffiness. Wearing an abdominal binder and leg straps for the urine drainage bag. Indwelling catheter bag has had no new urine for 3 hours.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 5 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">50 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg (usual 98/60 mm Hg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Keep MAP 85–90 mm Hg for 7 days: 0.9% sodium chloride, then norepinephrine infusion titrated to MAP.<br>Atropine 0.5 mg IV PRN for heart rate below 40 beats/min with hypotension.<br>Vital capacity and cough strength every 4 hours; notify for vital capacity below 1 L.<br>Hard cervical collar at all times; logroll with 2 staff.<br>Indwelling urinary catheter; nasogastric tube to low suction.<br>Enoxaparin 30 mg subcut every 12 hours starting Day 3; sequential compression devices.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each statement, click to specify whether it indicates an <b>understanding</b> of the teaching or a <b>need for further teaching</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Client: “If I get a pounding headache and my face flushes, I'll sit up right away and check my catheter.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Brother: “When his blood pressure goes up, he should lie down flat.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Client: “Autonomic dysreflexia only happens in the first few months after an injury.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Client: “I'll carry my autonomic dysreflexia wallet card and show it to staff if I go to emergency.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Client: “I'll do my bowel program at the same time every day.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Brother: “Since he can't feel his legs, we don't need to check his skin.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Brother: “Next summer, everyone will check the water depth and go in feet first the first time.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Understanding",
+              "Needs further teaching"
+            ],
+            "firstColumnHeader": "Statement"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Week 5 1420 and Week 10 1000.",
+          "explanation": "<b>Understanding:</b> sitting up and finding the trigger (bladder first) are the first steps. A wallet card helps emergency staff who may not recognize autonomic dysreflexia. A regular bowel program prevents constipation and impaction, a common trigger. Most spinal cord injuries are preventable: checking water depth and entering feet first, seat belts, not driving impaired, fall prevention and safe sport (for example, no checking from behind in hockey).<br><br><b>Needs further teaching:</b> lying flat raises the BP further; the client sits up. Autonomic dysreflexia is a <b>lifelong</b> risk for injuries at T6 or above. Loss of sensation means he cannot feel pressure or injury, so the skin must be inspected at least daily (a pressure injury can also trigger autonomic dysreflexia)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Underwent anterior cervical decompression and fusion of C5–C6 overnight; in a hard cervical collar. Remains on 4 L/min oxygen; vital capacity 1.3 L. Admitted to the ICU.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 5 1400:</span><span class=\"nurse-note-text\">Rehabilitation unit. Spinal shock resolved in Week 3; reflexes and spasticity in the legs have returned. Client lying in bed, reports a sudden pounding headache and blurred vision. Face and neck flushed and sweating; skin below the clavicles pale and cool with goosebumps. Nasal stuffiness. Wearing an abdominal binder and leg straps for the urine drainage bag. Indwelling catheter bag has had no new urine for 3 hours.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 5 1420:</span><span class=\"nurse-note-text\">Tubing kinked under his thigh; straightened, 900 mL of urine drained. BP 128/76 mm Hg at 1415, 104/64 mm Hg at 1425. Headache resolving.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 10 1000:</span><span class=\"nurse-note-text\">Discharge planning. The nurse reviews teaching with the client and his brother, who will help with his care at home.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 5 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">50 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg (usual 98/60 mm Hg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Keep MAP 85–90 mm Hg for 7 days: 0.9% sodium chloride, then norepinephrine infusion titrated to MAP.<br>Atropine 0.5 mg IV PRN for heart rate below 40 beats/min with hypotension.<br>Vital capacity and cough strength every 4 hours; notify for vital capacity below 1 L.<br>Hard cervical collar at all times; logroll with 2 staff.<br>Indwelling urinary catheter; nasogastric tube to low suction.<br>Enoxaparin 30 mg subcut every 12 hours starting Day 3; sequential compression devices.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "description": "22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: neurogenic vs spinal vs hypovolemic shock, respiratory risk (phrenic nerve, vital capacity), acute care after fusion, autonomic dysreflexia in rehabilitation, and teaching on prevention and lifelong self-care.",
+    "authorReview": {
+      "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: SCI definition, etiology and prevention; spinal shock, neurogenic shock, respiratory compromise, autonomic dysreflexia.\n- Screen 5 is an ordered response (sit up, loosen, check tubing, recatheterize, notify); please confirm the order matches your course text.\n- Clinician review: MAP target (85–90 mm Hg for 7 days), atropine and enoxaparin orders, sensory level description.",
+      "flaggedAt": "2026-11-02"
+    }
+  },
+  {
+    "id": "case_1782410000006",
+    "unit": "Unit 7 (Neurological Disorders)",
+    "title": "NURS 1017 Unit 7 Case Study 6",
+    "topic": "Unit 7 (Neurological Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Parkinson disease</b>? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "New weakness of the left arm with a downward drift",
+              "correct": false
+            },
+            {
+              "text": "Inability to name the days of the week backward",
+              "correct": false
+            },
+            {
+              "text": "Muscle twitching (fasciculations) and wasting",
+              "correct": false
+            },
+            {
+              "text": "Masklike face and a soft, monotone voice",
+              "correct": true
+            },
+            {
+              "text": "Resting tremor of the hand that stops with purposeful movement",
+              "correct": true
+            },
+            {
+              "text": "Shuffling gait with reduced arm swing",
+              "correct": true
+            },
+            {
+              "text": "A drop in BP from 138/78 mm Hg lying to 108/66 mm Hg standing",
+              "correct": true
+            },
+            {
+              "text": "Cogwheel rigidity",
+              "correct": true
+            },
+            {
+              "text": "Slow, small movements (bradykinesia)",
+              "correct": true
+            },
+            {
+              "text": "Tremor that worsens as the hand approaches a target",
+              "correct": false
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Parkinson disease</b> is a progressive neurodegenerative disease. Dopamine-producing neurons of the <b>substantia nigra</b> degenerate, and many contain <b>Lewy bodies</b> (clumps of misfolded alpha-synuclein). Less dopamine reaches the basal ganglia (striatum), leaving acetylcholine relatively unopposed. Motor signs appear only after about 60% to 80% of these neurons are lost.<br><br><b>Consistent:</b> the four cardinal signs are a <b>resting tremor</b> (pill-rolling, decreasing with purposeful movement), <b>rigidity</b> (cogwheel), <b>bradykinesia</b> and <b>postural instability</b> (shuffling, festinating gait with reduced arm swing, falls). Reduced automatic movement gives a masklike face and a soft, monotone voice. Autonomic involvement causes <b>orthostatic hypotension</b> (a drop of 20 mm Hg or more systolic on standing; here 30 mm Hg) and constipation.<br><br><b>Not consistent:</b> fasciculations and muscle wasting are signs of lower motor neuron loss, as in <b>amyotrophic lateral sclerosis (ALS)</b>, which destroys upper and lower motor neurons (weakness, atrophy, spasticity, eventually respiratory failure) while sensation is spared. A tremor that worsens near a target is an <b>intention tremor</b> from cerebellar disease, as in <b>multiple sclerosis</b> (autoimmune demyelination of the central nervous system). Inattention and the new one-sided weakness point to a new problem."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The client's wife asks whether her husband is “getting dementia.” For each feature, click to specify whether it is more consistent with <b>delirium</b> or <b>dementia</b> (major neurocognitive disorder).",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Develops over hours to days",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Gradual, progressive decline over months to years",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Inattention, such as being unable to name the days of the week backward",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Alert, with attention preserved until the late stages",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Level of consciousness and confusion fluctuate during the day",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Caused by the progressive loss of neurons, as in Alzheimer disease",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Often reversible when the underlying cause is treated",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Delirium",
+              "Dementia"
+            ],
+            "firstColumnHeader": "Feature"
+          },
+          "preamble": "",
+          "explanation": "<b>Delirium</b> is an acute disturbance of attention and awareness caused by a medical problem (infection, drugs, metabolic changes, hypoxia, a brain lesion). It starts over hours to days, <b>fluctuates</b> during the day, impairs <b>attention</b> (cannot name days or months backward) and often the level of consciousness (drowsy or agitated), and is often reversible when the cause is found and treated. It is a medical emergency. This client's 10-day course, fluctuation and inattention point to delirium.<br><br><b>Dementia</b> (major neurocognitive disorder) is a gradual, progressive decline in memory and other cognitive functions severe enough to interfere with daily life, caused by the loss of neurons. Attention and alertness are preserved until late stages. People with dementia (or Parkinson disease) are at higher risk of delirium, and the two can coexist.<br><br><b>Types of dementia:</b> <b>Alzheimer disease</b> (about 60% or more: beta-amyloid plaques, neurofibrillary tangles of tau, loss of acetylcholine neurons, starting with memory loss). <b>Vascular dementia</b> (multiple infarcts or small-vessel disease; often a stepwise decline). <b>Lewy body dementia</b> (Lewy bodies in the cortex: fluctuating cognition, visual hallucinations, parkinsonism and severe sensitivity to antipsychotics). <b>Parkinson disease dementia</b> (develops a year or more after established Parkinson motor symptoms). <b>Frontotemporal dementia</b> (often before age 65; personality, behaviour or language change before memory loss)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The client's acute confusion is most likely [[drop0]] caused by [[drop1]]. This type of bleed comes from [[drop2]], and his risk was increased by [[drop3]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "delirium",
+                    "correct": true
+                  },
+                  {
+                    "text": "progression of Parkinson disease dementia",
+                    "correct": false
+                  },
+                  {
+                    "text": "depression",
+                    "correct": false
+                  },
+                  {
+                    "text": "Alzheimer disease",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "a urinary tract infection",
+                    "correct": false
+                  },
+                  {
+                    "text": "an epidural hematoma",
+                    "correct": false
+                  },
+                  {
+                    "text": "an acute ischemic stroke",
+                    "correct": false
+                  },
+                  {
+                    "text": "a chronic subdural hematoma",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "a bleeding brain tumor",
+                    "correct": false
+                  },
+                  {
+                    "text": "torn bridging veins",
+                    "correct": true
+                  },
+                  {
+                    "text": "a ruptured berry aneurysm",
+                    "correct": false
+                  },
+                  {
+                    "text": "a torn middle meningeal artery",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "brain atrophy, frequent falls, and anticoagulant therapy",
+                    "correct": true
+                  },
+                  {
+                    "text": "his cataract surgery",
+                    "correct": false
+                  },
+                  {
+                    "text": "a high fluid intake",
+                    "correct": false
+                  },
+                  {
+                    "text": "his levodopa therapy",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+          "explanation": "<b>Delirium caused by a chronic subdural hematoma:</b> the CT shows a crescent-shaped collection over the right hemisphere with a midline shift, which explains the confusion, drowsiness, headaches and the <b>left</b> (opposite-side) arm weakness. The normal urinalysis, sodium, glucose and WBC make infection or a metabolic cause unlikely.<br><br><b>How it develops:</b> <b>bridging veins</b> cross from the brain surface to the dural sinuses. With age the brain shrinks (<b>atrophy</b>), stretching these veins, so a minor blow, such as his fall 4 weeks ago, can tear them. Low-pressure venous bleeding collects slowly between the dura and the arachnoid; the clot breaks down and may rebleed (the new blood on CT), and symptoms appear weeks later. <b>Anticoagulants</b> (apixaban) and <b>falls</b> (Parkinson disease, orthostatic hypotension) greatly raise the risk.<br><br><b>Why not the others:</b> an arterial (middle meningeal) bleed causes an epidural hematoma with rapid deterioration; a ruptured aneurysm causes a subarachnoid hemorrhage. Alzheimer disease and Parkinson disease dementia progress over years, not days."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for the client.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Give the carbidopa-levodopa at the exact scheduled times, including while he is NPO",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give the PRN haloperidol if he becomes agitated",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Reorient him with a clock and calendar, his glasses and hearing aids, and his wife's presence",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Apply wrist restraints at night so he does not get out of bed",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Have him sit and dangle his legs before standing, with assistance",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Keep the room brightly lit and the television on all night to keep him oriented",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Perform the ordered neurological checks, including pupils and arm strength",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Intervention"
+          },
+          "preamble": "The nurse has reviewed the Provider Orders.",
+          "explanation": "<b>Indicated:</b> levodopa has a short half-life; late or missed doses quickly cause severe rigidity, immobility, swallowing problems and falls, so Parkinson medications are given <b>on time</b>, even when NPO (with sips of water, as ordered). Non-drug delirium measures come first: reorientation, sensory aids, family presence, a normal sleep-wake cycle, mobility and hydration. Dangling before standing reduces falls from orthostatic hypotension. Neurological checks detect expansion of the hematoma (falling level of consciousness, a dilated pupil, worsening left-sided weakness).<br><br><b>Contraindicated:</b> <b>haloperidol</b> and other dopamine-blocking drugs (for example, metoclopramide) worsen Parkinson disease and can cause severe, even fatal, reactions in Lewy body disease; the nurse questions the order. Restraints increase agitation, delirium, injury and falls. Bright light and noise all night disrupt sleep and worsen delirium."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Admit to neurosurgery. Hold apixaban. Burr-hole drainage of the subdural hematoma planned for Day 2 at 0800; NPO after midnight except medications with sips of water.<br>Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900.<br>Neurological checks every 2 hours. Fall precautions; bed alarm.<br>Haloperidol 0.5 mg IV every 4 hours PRN for agitation.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which actions should the nurse take? <b>Select all that apply.</b>",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Ask the provider how to give the carbidopa-levodopa now (for example, by nasogastric tube)",
+              "correct": true
+            },
+            {
+              "text": "Give the PRN haloperidol for the increased confusion",
+              "correct": false
+            },
+            {
+              "text": "Apply cooling measures",
+              "correct": true
+            },
+            {
+              "text": "Encourage him to drink water to cool down",
+              "correct": false
+            },
+            {
+              "text": "Monitor urine output and colour",
+              "correct": true
+            },
+            {
+              "text": "Notify the provider of the missed doses and the client's condition",
+              "correct": true
+            },
+            {
+              "text": "Continue to hold the carbidopa-levodopa until after surgery",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1400, the Vital Signs from Day 2 1400 and the Laboratory Results from Day 2 1415.",
+          "explanation": "Missing two levodopa doses has caused <b>parkinsonism-hyperpyrexia syndrome</b> (acute levodopa withdrawal), which resembles neuroleptic malignant syndrome: severe rigidity, fever, tachycardia, labile BP, sweating, confusion and a high <b>creatine kinase</b> from muscle breakdown (rhabdomyolysis, which can cause acute kidney injury). It can be fatal.<br><br><b>Correct:</b> notify the provider at once. Restarting dopaminergic therapy is the key treatment; because he cannot swallow safely, the provider may order the tablets crushed through a nasogastric tube. Cool him (fever raises brain metabolism and ICP). Watch urine output and colour (tea-coloured urine suggests myoglobin) and give IV fluids as ordered.<br><br><b>Incorrect:</b> haloperidol blocks dopamine and would worsen the syndrome. Continuing to hold levodopa prolongs it; NPO orders for surgery allow Parkinson medications with sips of water or another route. He cannot swallow his saliva safely, so drinking water would risk aspiration."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">Surgery postponed to 1600 because of an emergency case. The 0700 and 1100 carbidopa-levodopa doses were not given because the client was NPO. Client now rigid throughout and unable to turn in bed or swallow his saliva well; more confused; skin hot and sweaty. Pupils equal and reactive; left arm drift unchanged.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">162/90 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,850 IU/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Admit to neurosurgery. Hold apixaban. Burr-hole drainage of the subdural hematoma planned for Day 2 at 0800; NPO after midnight except medications with sips of water.<br>Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900.<br>Neurological checks every 2 hours. Fall precautions; bed alarm.<br>Haloperidol 0.5 mg IV every 4 hours PRN for agitation.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each statement, click to specify whether it indicates an <b>understanding</b> of the teaching or a <b>need for further teaching</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Wife: “His confusion cleared once the blood was drained, so it was delirium, not dementia.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Client: “I'll take my levodopa with my high-protein breakfast to settle my stomach.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Wife: “If he gets a new headache or becomes sleepy or confused again, I'll take him to emergency.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Client: “Now that my head is better, I can restart my apixaban tonight.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Wife: “His mother had Alzheimer disease, so his confusion means he has it too.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Wife: “I'll remove the throw rugs and keep a night light on.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Wife: “If he is in hospital again, I'll ask that his Parkinson pills be given on time.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Understanding",
+              "Needs further teaching"
+            ],
+            "firstColumnHeader": "Statement"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 0900 and Day 8 1000 and the Vital Signs from Day 8 1000.",
+          "explanation": "<b>Understanding:</b> the confusion was delirium from the hematoma, and it resolved when the cause was treated. A chronic subdural hematoma can recur (in about 1 in 10 clients), so new headache, drowsiness, confusion or weakness need prompt assessment. Removing rugs and using a night light reduce falls. Insisting that Parkinson medications are given on time in hospital prevents the problem that occurred on Day 2.<br><br><b>Needs further teaching:</b> dietary protein (amino acids) competes with levodopa for absorption and transport into the brain; levodopa is best taken about 30 minutes before meals, or with a low-protein snack if it causes nausea, and protein is spread through the day. Apixaban is restarted only when neurosurgery says it is safe. Delirium does not mean Alzheimer disease; a family history raises risk slightly, but his cognition has returned to normal."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">Surgery postponed to 1600 because of an emergency case. The 0700 and 1100 carbidopa-levodopa doses were not given because the client was NPO. Client now rigid throughout and unable to turn in bed or swallow his saliva well; more confused; skin hot and sweaty. Pupils equal and reactive; left arm drift unchanged.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0900:</span><span class=\"nurse-note-text\">Levodopa restarted by NG tube at 1530 on Day 2; rigidity and fever settled overnight. Burr-hole drainage of the subdural hematoma done at 0730 today. CK falling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 1000:</span><span class=\"nurse-note-text\">Alert, oriented, attentive (names the months backward). Headache gone; left arm strength equal to the right. Taking carbidopa-levodopa on time by mouth. Discharge home tomorrow with a home care referral. Apixaban to stay on hold until the neurosurgery follow-up. The nurse reviews the discharge teaching with the client and his wife.</span></p>"
+            },
+            {
+              "id": "hp",
+              "title": "History and Physical",
+              "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 8 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">162/90 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,850 IU/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "ord",
+              "title": "Provider Orders",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Admit to neurosurgery. Hold apixaban. Burr-hole drainage of the subdural hematoma planned for Day 2 at 0800; NPO after midnight except medications with sips of water.<br>Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900.<br>Neurological checks every 2 hours. Fall precautions; bed alarm.<br>Haloperidol 0.5 mg IV every 4 hours PRN for agitation.</span></p>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+        }
+      }
+    ],
+    "disorder": "Unit 7 (Neurological Disorders)",
+    "description": "76-year-old male client with Parkinson disease taking apixaban who develops delirium from a chronic subdural hematoma weeks after a fall: Parkinson disease vs ALS and MS findings, delirium vs dementia and the types of dementia, bridging-vein bleeding, delirium-safe care, levodopa withdrawal (parkinsonism-hyperpyrexia syndrome), and discharge teaching.",
+    "authorReview": {
+      "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: Parkinson disease pathophysiology (ALS and MS as contrasts), delirium vs dementia, types of dementia, subdural hematoma.\n- Screen 5 tests parkinsonism-hyperpyrexia syndrome (levodopa withdrawal); please confirm this depth suits the course.\n- Clinician review: haloperidol order used as an unsafe order to question; recurrence rate of chronic subdural hematoma.",
+      "flaggedAt": "2026-11-02"
+    }
   }
 ];
 

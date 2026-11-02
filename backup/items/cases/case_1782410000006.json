@@ -1,0 +1,579 @@
+{
+  "id": "case_1782410000006",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "title": "NURS 1017 Unit 7 Case Study 6",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "course": "NURS 1017",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Parkinson disease</b>? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "New weakness of the left arm with a downward drift",
+            "correct": false
+          },
+          {
+            "text": "Inability to name the days of the week backward",
+            "correct": false
+          },
+          {
+            "text": "Muscle twitching (fasciculations) and wasting",
+            "correct": false
+          },
+          {
+            "text": "Masklike face and a soft, monotone voice",
+            "correct": true
+          },
+          {
+            "text": "Resting tremor of the hand that stops with purposeful movement",
+            "correct": true
+          },
+          {
+            "text": "Shuffling gait with reduced arm swing",
+            "correct": true
+          },
+          {
+            "text": "A drop in BP from 138/78 mm Hg lying to 108/66 mm Hg standing",
+            "correct": true
+          },
+          {
+            "text": "Cogwheel rigidity",
+            "correct": true
+          },
+          {
+            "text": "Slow, small movements (bradykinesia)",
+            "correct": true
+          },
+          {
+            "text": "Tremor that worsens as the hand approaches a target",
+            "correct": false
+          }
+        ],
+        "preamble": "",
+        "explanation": "<b>Parkinson disease</b> is a progressive neurodegenerative disease. Dopamine-producing neurons of the <b>substantia nigra</b> degenerate, and many contain <b>Lewy bodies</b> (clumps of misfolded alpha-synuclein). Less dopamine reaches the basal ganglia (striatum), leaving acetylcholine relatively unopposed. Motor signs appear only after about 60% to 80% of these neurons are lost.<br><br><b>Consistent:</b> the four cardinal signs are a <b>resting tremor</b> (pill-rolling, decreasing with purposeful movement), <b>rigidity</b> (cogwheel), <b>bradykinesia</b> and <b>postural instability</b> (shuffling, festinating gait with reduced arm swing, falls). Reduced automatic movement gives a masklike face and a soft, monotone voice. Autonomic involvement causes <b>orthostatic hypotension</b> (a drop of 20 mm Hg or more systolic on standing; here 30 mm Hg) and constipation.<br><br><b>Not consistent:</b> fasciculations and muscle wasting are signs of lower motor neuron loss, as in <b>amyotrophic lateral sclerosis (ALS)</b>, which destroys upper and lower motor neurons (weakness, atrophy, spasticity, eventually respiratory failure) while sensation is spared. A tremor that worsens near a target is an <b>intention tremor</b> from cerebellar disease, as in <b>multiple sclerosis</b> (autoimmune demyelination of the central nervous system). Inattention and the new one-sided weakness point to a new problem."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "The client's wife asks whether her husband is “getting dementia.” For each feature, click to specify whether it is more consistent with <b>delirium</b> or <b>dementia</b> (major neurocognitive disorder).",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Develops over hours to days",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Gradual, progressive decline over months to years",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Inattention, such as being unable to name the days of the week backward",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Alert, with attention preserved until the late stages",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Level of consciousness and confusion fluctuate during the day",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Caused by the progressive loss of neurons, as in Alzheimer disease",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Often reversible when the underlying cause is treated",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Delirium",
+            "Dementia"
+          ],
+          "firstColumnHeader": "Feature"
+        },
+        "preamble": "",
+        "explanation": "<b>Delirium</b> is an acute disturbance of attention and awareness caused by a medical problem (infection, drugs, metabolic changes, hypoxia, a brain lesion). It starts over hours to days, <b>fluctuates</b> during the day, impairs <b>attention</b> (cannot name days or months backward) and often the level of consciousness (drowsy or agitated), and is often reversible when the cause is found and treated. It is a medical emergency. This client's 10-day course, fluctuation and inattention point to delirium.<br><br><b>Dementia</b> (major neurocognitive disorder) is a gradual, progressive decline in memory and other cognitive functions severe enough to interfere with daily life, caused by the loss of neurons. Attention and alertness are preserved until late stages. People with dementia (or Parkinson disease) are at higher risk of delirium, and the two can coexist.<br><br><b>Types of dementia:</b> <b>Alzheimer disease</b> (about 60% or more: beta-amyloid plaques, neurofibrillary tangles of tau, loss of acetylcholine neurons, starting with memory loss). <b>Vascular dementia</b> (multiple infarcts or small-vessel disease; often a stepwise decline). <b>Lewy body dementia</b> (Lewy bodies in the cortex: fluctuating cognition, visual hallucinations, parkinsonism and severe sensitivity to antipsychotics). <b>Parkinson disease dementia</b> (develops a year or more after established Parkinson motor symptoms). <b>Frontotemporal dementia</b> (often before age 65; personality, behaviour or language change before memory loss)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The client's acute confusion is most likely [[drop0]] caused by [[drop1]]. This type of bleed comes from [[drop2]], and his risk was increased by [[drop3]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "delirium",
+                  "correct": true
+                },
+                {
+                  "text": "progression of Parkinson disease dementia",
+                  "correct": false
+                },
+                {
+                  "text": "depression",
+                  "correct": false
+                },
+                {
+                  "text": "Alzheimer disease",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "a urinary tract infection",
+                  "correct": false
+                },
+                {
+                  "text": "an epidural hematoma",
+                  "correct": false
+                },
+                {
+                  "text": "an acute ischemic stroke",
+                  "correct": false
+                },
+                {
+                  "text": "a chronic subdural hematoma",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "a bleeding brain tumor",
+                  "correct": false
+                },
+                {
+                  "text": "torn bridging veins",
+                  "correct": true
+                },
+                {
+                  "text": "a ruptured berry aneurysm",
+                  "correct": false
+                },
+                {
+                  "text": "a torn middle meningeal artery",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "brain atrophy, frequent falls, and anticoagulant therapy",
+                  "correct": true
+                },
+                {
+                  "text": "his cataract surgery",
+                  "correct": false
+                },
+                {
+                  "text": "a high fluid intake",
+                  "correct": false
+                },
+                {
+                  "text": "his levodopa therapy",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+        "explanation": "<b>Delirium caused by a chronic subdural hematoma:</b> the CT shows a crescent-shaped collection over the right hemisphere with a midline shift, which explains the confusion, drowsiness, headaches and the <b>left</b> (opposite-side) arm weakness. The normal urinalysis, sodium, glucose and WBC make infection or a metabolic cause unlikely.<br><br><b>How it develops:</b> <b>bridging veins</b> cross from the brain surface to the dural sinuses. With age the brain shrinks (<b>atrophy</b>), stretching these veins, so a minor blow, such as his fall 4 weeks ago, can tear them. Low-pressure venous bleeding collects slowly between the dura and the arachnoid; the clot breaks down and may rebleed (the new blood on CT), and symptoms appear weeks later. <b>Anticoagulants</b> (apixaban) and <b>falls</b> (Parkinson disease, orthostatic hypotension) greatly raise the risk.<br><br><b>Why not the others:</b> an arterial (middle meningeal) bleed causes an epidural hematoma with rapid deterioration; a ruptured aneurysm causes a subarachnoid hemorrhage. Alzheimer disease and Parkinson disease dementia progress over years, not days."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "For each intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for the client.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Give the carbidopa-levodopa at the exact scheduled times, including while he is NPO",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Give the PRN haloperidol if he becomes agitated",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Reorient him with a clock and calendar, his glasses and hearing aids, and his wife's presence",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Apply wrist restraints at night so he does not get out of bed",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Have him sit and dangle his legs before standing, with assistance",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Keep the room brightly lit and the television on all night to keep him oriented",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Perform the ordered neurological checks, including pupils and arm strength",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Intervention"
+        },
+        "preamble": "The nurse has reviewed the Provider Orders.",
+        "explanation": "<b>Indicated:</b> levodopa has a short half-life; late or missed doses quickly cause severe rigidity, immobility, swallowing problems and falls, so Parkinson medications are given <b>on time</b>, even when NPO (with sips of water, as ordered). Non-drug delirium measures come first: reorientation, sensory aids, family presence, a normal sleep-wake cycle, mobility and hydration. Dangling before standing reduces falls from orthostatic hypotension. Neurological checks detect expansion of the hematoma (falling level of consciousness, a dilated pupil, worsening left-sided weakness).<br><br><b>Contraindicated:</b> <b>haloperidol</b> and other dopamine-blocking drugs (for example, metoclopramide) worsen Parkinson disease and can cause severe, even fatal, reactions in Lewy body disease; the nurse questions the order. Restraints increase agitation, delirium, injury and falls. Bright light and noise all night disrupt sleep and worsen delirium."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Admit to neurosurgery. Hold apixaban. Burr-hole drainage of the subdural hematoma planned for Day 2 at 0800; NPO after midnight except medications with sips of water.<br>Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900.<br>Neurological checks every 2 hours. Fall precautions; bed alarm.<br>Haloperidol 0.5 mg IV every 4 hours PRN for agitation.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which actions should the nurse take? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Ask the provider how to give the carbidopa-levodopa now (for example, by nasogastric tube)",
+            "correct": true
+          },
+          {
+            "text": "Give the PRN haloperidol for the increased confusion",
+            "correct": false
+          },
+          {
+            "text": "Apply cooling measures",
+            "correct": true
+          },
+          {
+            "text": "Encourage him to drink water to cool down",
+            "correct": false
+          },
+          {
+            "text": "Monitor urine output and colour",
+            "correct": true
+          },
+          {
+            "text": "Notify the provider of the missed doses and the client's condition",
+            "correct": true
+          },
+          {
+            "text": "Continue to hold the carbidopa-levodopa until after surgery",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1400, the Vital Signs from Day 2 1400 and the Laboratory Results from Day 2 1415.",
+        "explanation": "Missing two levodopa doses has caused <b>parkinsonism-hyperpyrexia syndrome</b> (acute levodopa withdrawal), which resembles neuroleptic malignant syndrome: severe rigidity, fever, tachycardia, labile BP, sweating, confusion and a high <b>creatine kinase</b> from muscle breakdown (rhabdomyolysis, which can cause acute kidney injury). It can be fatal.<br><br><b>Correct:</b> notify the provider at once. Restarting dopaminergic therapy is the key treatment; because he cannot swallow safely, the provider may order the tablets crushed through a nasogastric tube. Cool him (fever raises brain metabolism and ICP). Watch urine output and colour (tea-coloured urine suggests myoglobin) and give IV fluids as ordered.<br><br><b>Incorrect:</b> haloperidol blocks dopamine and would worsen the syndrome. Continuing to hold levodopa prolongs it; NPO orders for surgery allow Parkinson medications with sips of water or another route. He cannot swallow his saliva safely, so drinking water would risk aspiration."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">Surgery postponed to 1600 because of an emergency case. The 0700 and 1100 carbidopa-levodopa doses were not given because the client was NPO. Client now rigid throughout and unable to turn in bed or swallow his saliva well; more confused; skin hot and sweaty. Pupils equal and reactive; left arm drift unchanged.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">162/90 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,850 IU/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Admit to neurosurgery. Hold apixaban. Burr-hole drainage of the subdural hematoma planned for Day 2 at 0800; NPO after midnight except medications with sips of water.<br>Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900.<br>Neurological checks every 2 hours. Fall precautions; bed alarm.<br>Haloperidol 0.5 mg IV every 4 hours PRN for agitation.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each statement, click to specify whether it indicates an <b>understanding</b> of the teaching or a <b>need for further teaching</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Wife: “His confusion cleared once the blood was drained, so it was delirium, not dementia.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Client: “I'll take my levodopa with my high-protein breakfast to settle my stomach.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Wife: “If he gets a new headache or becomes sleepy or confused again, I'll take him to emergency.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Client: “Now that my head is better, I can restart my apixaban tonight.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Wife: “His mother had Alzheimer disease, so his confusion means he has it too.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Wife: “I'll remove the throw rugs and keep a night light on.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Wife: “If he is in hospital again, I'll ask that his Parkinson pills be given on time.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Understanding",
+            "Needs further teaching"
+          ],
+          "firstColumnHeader": "Statement"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 0900 and Day 8 1000 and the Vital Signs from Day 8 1000.",
+        "explanation": "<b>Understanding:</b> the confusion was delirium from the hematoma, and it resolved when the cause was treated. A chronic subdural hematoma can recur (in about 1 in 10 clients), so new headache, drowsiness, confusion or weakness need prompt assessment. Removing rugs and using a night light reduce falls. Insisting that Parkinson medications are given on time in hospital prevents the problem that occurred on Day 2.<br><br><b>Needs further teaching:</b> dietary protein (amino acids) competes with levodopa for absorption and transport into the brain; levodopa is best taken about 30 minutes before meals, or with a low-protein snack if it causes nausea, and protein is spread through the day. Apixaban is restarted only when neurosurgery says it is safe. Delirium does not mean Alzheimer disease; a family history raises risk slightly, but his cognition has returned to normal."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Wife states that over the last 10 days he has become increasingly confused and sleepy and has had daily headaches. “Some hours he's his usual self, and other times he doesn't know where he is.” Up at night, pulling at his clothes. Four weeks ago he fell in the kitchen and hit his head on a cupboard door, without losing consciousness. Before this he managed his own medications and finances. Assessment: drowsy, easily distracted, cannot name the days of the week backward; oriented to person only. Resting tremor of the right hand (“pill-rolling”) that stops when he reaches for a cup; cogwheel rigidity in both arms; slow, small movements; shuffling gait with reduced arm swing (uses a walker); masklike face; soft, monotone voice. New mild weakness of the left arm with a downward drift. No muscle twitching or wasting. Last bowel movement 4 days ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">Surgery postponed to 1600 because of an emergency case. The 0700 and 1100 carbidopa-levodopa doses were not given because the client was NPO. Client now rigid throughout and unable to turn in bed or swallow his saliva well; more confused; skin hot and sweaty. Pupils equal and reactive; left arm drift unchanged.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0900:</span><span class=\"nurse-note-text\">Levodopa restarted by NG tube at 1530 on Day 2; rigidity and fever settled overnight. Burr-hole drainage of the subdural hematoma done at 0730 today. CK falling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 8 1000:</span><span class=\"nurse-note-text\">Alert, oriented, attentive (names the months backward). Headache gone; left arm strength equal to the right. Taking carbidopa-levodopa on time by mouth. Discharge home tomorrow with a home care referral. Apixaban to stay on hold until the neurosurgery follow-up. The nurse reviews the discharge teaching with the client and his wife.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Parkinson disease (diagnosed 9 years ago), atrial fibrillation, benign prostatic hyperplasia, cataract surgery.</p><p><b>Home medications:</b> Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900; apixaban 5 mg PO twice daily; polyethylene glycol 17 g PO daily.</p><p><b>Social history:</b> Retired engineer; lives with his wife in a two-storey house. His mother had Alzheimer disease.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 8 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Lying 138/78 mm Hg; standing 108/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">162/90 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\"><b>Urinalysis:</b> negative for nitrites and leukocyte esterase.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> right frontoparietal crescent-shaped collection, 18 mm thick, mostly low density with a small area of new blood, consistent with a chronic subdural hematoma with an acute component; 7-mm midline shift to the left. Generalized brain atrophy.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Sodium (Na)</b><br>136–146 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">139 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">144 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.1 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.2 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">131 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatine kinase (CK)</b><br>Male: 30–250 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">180 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,850 IU/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Admit to neurosurgery. Hold apixaban. Burr-hole drainage of the subdural hematoma planned for Day 2 at 0800; NPO after midnight except medications with sips of water.<br>Carbidopa-levodopa 25/100 mg, 2 tablets PO at 0700, 1100, 1500 and 1900.<br>Neurological checks every 2 hours. Fall precautions; bed alarm.<br>Haloperidol 0.5 mg IV every 4 hours PRN for agitation.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 76-year-old male client with Parkinson disease brought in by his wife."
+      }
+    }
+  ],
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "76-year-old male client with Parkinson disease taking apixaban who develops delirium from a chronic subdural hematoma weeks after a fall: Parkinson disease vs ALS and MS findings, delirium vs dementia and the types of dementia, bridging-vein bleeding, delirium-safe care, levodopa withdrawal (parkinsonism-hyperpyrexia syndrome), and discharge teaching.",
+  "authorReview": {
+    "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: Parkinson disease pathophysiology (ALS and MS as contrasts), delirium vs dementia, types of dementia, subdural hematoma.\n- Screen 5 tests parkinsonism-hyperpyrexia syndrome (levodopa withdrawal); please confirm this depth suits the course.\n- Clinician review: haloperidol order used as an unsafe order to question; recurrence rate of chronic subdural hematoma.",
+    "flaggedAt": "2026-11-02"
+  }
+}

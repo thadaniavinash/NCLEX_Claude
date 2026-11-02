@@ -1,0 +1,525 @@
+{
+  "id": "case_1782410000005",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "title": "NURS 1017 Unit 7 Case Study 5",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "course": "NURS 1017",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the Nurses' Notes and the Vital Signs. <b>Highlight</b> the findings that require immediate follow-up.",
+        "type": "highlight",
+        "options": [],
+        "preamble": "",
+        "explanation": "<b>Require immediate follow-up:</b><br><br><b>Breathing (the first priority):</b> diaphragmatic breathing, short sentences, a weak cough, shallow breathing at 26 breaths/min and SpO₂ 93% show that the intercostal and abdominal muscles are paralyzed and the diaphragm is doing all the work. Fatigue and cord swelling can lead to respiratory failure.<br><br><b>BP 82/48 mm Hg with a heart rate of 48 beats/min:</b> hypotension with bradycardia after a cervical injury suggests <b>neurogenic shock</b>. Low BP reduces blood flow to the injured cord and worsens the secondary injury.<br><br><b>Expected or not urgent:</b> the motor and sensory loss is the injury itself and is documented as the baseline; warm, dry skin fits neurogenic shock (loss of sympathetic tone) rather than being a separate problem; the friends kept his head in line, which was correct; being alert and oriented is reassuring; the abrasion and temperature need no immediate action.",
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. {Friends pulled him out of the water, keeping his head in line with his body}. Arrived by ambulance with a cervical collar and spinal motion restriction. {Alert and oriented × 4}. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. {Breathing is diaphragmatic: the abdomen rises while the chest barely moves|correct}; {speaks in short sentences|correct}; {weak cough|correct}. {Skin warm, dry and pink below the injury}. {3-cm abrasion on the forehead}.</span></p>"
+          },
+          {
+            "id": "ht2",
+            "title": "Vital Signs",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">{T 36.4° C}, {P 48 beats/min|correct}, {RR 26 breaths/min, shallow|correct}, {BP 82/48 mm Hg|correct}, {SpO₂ 93% on room air|correct}.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each finding, click to specify whether it is consistent with <b>spinal shock</b>, <b>neurogenic shock</b>, or <b>hypovolemic shock</b>. Each finding may support more than one condition.",
+        "type": "matrix_mr",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Flaccid paralysis and absent reflexes below the level of injury",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hypotension",
+              "correctIndex": 1,
+              "correctIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Bradycardia",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Cool, clammy skin",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Loss of sympathetic nervous system outflow from an injury at T6 or above",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Warm, dry skin below the injury",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Tachycardia",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Loss of bladder and bowel reflexes, including anal sphincter tone",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Spinal shock",
+            "Neurogenic shock",
+            "Hypovolemic shock"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+        "explanation": "A <b>spinal cord injury</b> is damage to the cord from trauma (in Canada, mostly falls and motor vehicle crashes, then sports and recreation, such as diving into shallow water) or from disease. The primary injury (compression, contusion, laceration) is followed by a secondary injury (ischemia, edema, inflammation) that can extend the damage over hours to days.<br><br><b>Spinal shock</b> is a <b>neurological</b> state: a temporary loss of all reflex activity below the injury (flaccid paralysis, no reflexes, no anal tone, bladder and bowel retention). It lasts days to weeks; its end is marked by the return of reflexes (for example, the bulbocavernosus reflex), followed by spasticity.<br><br><b>Neurogenic shock</b> is a <b>hemodynamic</b> state, a type of distributive shock: an injury at <b>T6 or above</b> cuts the sympathetic outflow (which leaves the cord from T1 to L2), leaving the vagus nerve unopposed. Vessels dilate (hypotension, warm, dry skin, poor temperature control) and the heart slows (bradycardia).<br><br><b>Hypovolemic shock</b> from bleeding causes hypotension with <b>tachycardia</b> and cool, clammy skin, because the sympathetic response is intact. This client's normal hemoglobin and lactate and the scans without bleeding make hypovolemia unlikely, but bleeding is always ruled out in trauma, because a cervical injury can hide abdominal pain."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The client's priority problem is [[drop0]]. His injury spares [[drop1]] but paralyzes [[drop2]]. His breathing may get worse over the next few days because [[drop3]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "impaired skin integrity",
+                  "correct": false
+                },
+                {
+                  "text": "autonomic dysreflexia",
+                  "correct": false
+                },
+                {
+                  "text": "risk for respiratory failure",
+                  "correct": true
+                },
+                {
+                  "text": "hypothermia",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "the phrenic nerve (C3–C5), which controls the diaphragm",
+                  "correct": true
+                },
+                {
+                  "text": "the vagus nerve",
+                  "correct": false
+                },
+                {
+                  "text": "the T1 nerve roots",
+                  "correct": false
+                },
+                {
+                  "text": "the spinal accessory nerve",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "the muscles of the face",
+                  "correct": false
+                },
+                {
+                  "text": "the intercostal and abdominal muscles",
+                  "correct": true
+                },
+                {
+                  "text": "the sternocleidomastoid and trapezius muscles",
+                  "correct": false
+                },
+                {
+                  "text": "the diaphragm",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "spinal shock will end",
+                  "correct": false
+                },
+                {
+                  "text": "autonomic dysreflexia will begin",
+                  "correct": false
+                },
+                {
+                  "text": "edema of the spinal cord can extend upward toward C3–C5",
+                  "correct": true
+                },
+                {
+                  "text": "his heart rate will rise",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1630 and the Vital Signs from Day 1 1630.",
+        "explanation": "<b>Risk for respiratory failure</b> is the priority: airway and breathing come first. A vital capacity of 1.1 L (about 23% of predicted), use of accessory neck muscles, fatigue and rising respiratory rate signal that he may need intubation and ventilation (a vital capacity below about 15 mL/kg, or one that keeps falling, is reported).<br><br><b>Why:</b> “C3, 4 and 5 keep the diaphragm alive”: the <b>phrenic nerve</b> is spared in a C6 injury, so the diaphragm still works, but the <b>intercostal and abdominal muscles</b> (thoracic nerves) are paralyzed. He cannot expand the chest fully or cough effectively, so secretions collect (atelectasis, pneumonia). Cord edema peaks in the first days and can climb to C3–C5, weakening the diaphragm as well.<br><br><b>Why not the others:</b> autonomic dysreflexia begins after spinal shock resolves (usually weeks later). The sternocleidomastoid and trapezius (spinal accessory nerve, cranial nerve XI) and the face (cranial nerves) are not affected; he is using his neck muscles to help him breathe."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "For each intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for the client.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Logroll the client with a second nurse holding the head in line with the body",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Suction the airway for longer than 15 seconds to clear thick secretions",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Measure the vital capacity and assess cough strength as ordered",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Raise the head of the bed quickly to 90 degrees to ease his breathing",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Titrate the norepinephrine to keep the MAP at 85–90 mm Hg",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Remove the cervical collar to wash his neck while he lies alone",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Turn him at least every 2 hours and inspect the skin over bony prominences",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Monitor urine output through the indwelling catheter",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Intervention"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0800 and the Provider Orders.",
+        "explanation": "<b>Indicated:</b> logrolling with a person at the head keeps the spine aligned after fusion. Vital capacity and cough strength show early respiratory decline. Keeping the MAP at 85–90 mm Hg improves blood flow to the injured cord and limits secondary injury. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does not empty (urinary retention), so the catheter drains it and urine output shows perfusion.<br><br><b>Contraindicated:</b> long suctioning causes hypoxia and stimulates the vagus nerve, which, with no sympathetic opposition, can cause severe bradycardia or asystole; suctioning is brief, with hyperoxygenation, and atropine is at hand. A quick move to sitting causes severe orthostatic hypotension (no sympathetic vasoconstriction); the head is raised gradually with the spine protected. The collar stays on; neck care is done with a second person holding the head."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Underwent anterior cervical decompression and fusion of C5–C6 overnight; in a hard cervical collar. Remains on 4 L/min oxygen; vital capacity 1.3 L. Admitted to the ICU.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Keep MAP 85–90 mm Hg for 7 days: 0.9% sodium chloride, then norepinephrine infusion titrated to MAP.<br>Atropine 0.5 mg IV PRN for heart rate below 40 beats/min with hypotension.<br>Vital capacity and cough strength every 4 hours; notify for vital capacity below 1 L.<br>Hard cervical collar at all times; logroll with 2 staff.<br>Indwelling urinary catheter; nasogastric tube to low suction.<br>Enoxaparin 30 mg subcut every 12 hours starting Day 3; sequential compression devices.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Place the nurse's actions in the order in which they should be performed. Arrange from first to last.",
+        "type": "ordered_response",
+        "options": [],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 5 1400 and the Vital Signs from Week 5 1400.",
+        "explanation": "This is <b>autonomic dysreflexia</b>, a life-threatening emergency in clients with an injury at <b>T6 or above</b> once spinal shock has resolved. A stimulus below the injury (most often a <b>full bladder</b>, then constipation or impaction, pressure injuries, tight clothing or ingrown toenails) triggers a massive sympathetic reflex below the injury: vasoconstriction causes severe hypertension (a rise of 20 to 40 mm Hg or more above the client's usual BP), pale cool skin and goosebumps below the injury. The brain detects the high BP through the baroreceptors, but its inhibitory signals cannot pass the injury, so only the body above the injury responds: vagal bradycardia, flushing, sweating, nasal stuffiness and a pounding headache. It can cause seizures, stroke and death.<br><br><b>Order:</b> (1) Sit him up and lower his legs, so blood pools in the legs and the BP falls. (2) Loosen anything tight. (3) Look for the most common cause, the bladder: check the tubing for kinks. (4) If urine still does not drain, replace the catheter, using lidocaine jelly to reduce further stimulation. (5) The BP is checked every 2 to 5 minutes; if it stays high (systolic 150 mm Hg or more) after the bladder is emptied, the provider is notified for a fast-acting antihypertensive and the bowel is checked next for stool.",
+        "orderedOptions": [
+          "Sit the client upright and lower his legs",
+          "Loosen the abdominal binder and the leg straps",
+          "Check the catheter tubing for kinks or blockage",
+          "If urine does not drain, replace the catheter using lidocaine jelly",
+          "If the BP stays high after the bladder is emptied, notify the provider"
+        ]
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Underwent anterior cervical decompression and fusion of C5–C6 overnight; in a hard cervical collar. Remains on 4 L/min oxygen; vital capacity 1.3 L. Admitted to the ICU.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 5 1400:</span><span class=\"nurse-note-text\">Rehabilitation unit. Spinal shock resolved in Week 3; reflexes and spasticity in the legs have returned. Client lying in bed, reports a sudden pounding headache and blurred vision. Face and neck flushed and sweating; skin below the clavicles pale and cool with goosebumps. Nasal stuffiness. Wearing an abdominal binder and leg straps for the urine drainage bag. Indwelling catheter bag has had no new urine for 3 hours.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 5 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">50 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg (usual 98/60 mm Hg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Keep MAP 85–90 mm Hg for 7 days: 0.9% sodium chloride, then norepinephrine infusion titrated to MAP.<br>Atropine 0.5 mg IV PRN for heart rate below 40 beats/min with hypotension.<br>Vital capacity and cough strength every 4 hours; notify for vital capacity below 1 L.<br>Hard cervical collar at all times; logroll with 2 staff.<br>Indwelling urinary catheter; nasogastric tube to low suction.<br>Enoxaparin 30 mg subcut every 12 hours starting Day 3; sequential compression devices.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each statement, click to specify whether it indicates an <b>understanding</b> of the teaching or a <b>need for further teaching</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Client: “If I get a pounding headache and my face flushes, I'll sit up right away and check my catheter.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Brother: “When his blood pressure goes up, he should lie down flat.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Client: “Autonomic dysreflexia only happens in the first few months after an injury.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Client: “I'll carry my autonomic dysreflexia wallet card and show it to staff if I go to emergency.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Client: “I'll do my bowel program at the same time every day.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Brother: “Since he can't feel his legs, we don't need to check his skin.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Brother: “Next summer, everyone will check the water depth and go in feet first the first time.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Understanding",
+            "Needs further teaching"
+          ],
+          "firstColumnHeader": "Statement"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 5 1420 and Week 10 1000.",
+        "explanation": "<b>Understanding:</b> sitting up and finding the trigger (bladder first) are the first steps. A wallet card helps emergency staff who may not recognize autonomic dysreflexia. A regular bowel program prevents constipation and impaction, a common trigger. Most spinal cord injuries are preventable: checking water depth and entering feet first, seat belts, not driving impaired, fall prevention and safe sport (for example, no checking from behind in hockey).<br><br><b>Needs further teaching:</b> lying flat raises the BP further; the client sits up. Autonomic dysreflexia is a <b>lifelong</b> risk for injuries at T6 or above. Loss of sensation means he cannot feel pressure or injury, so the skin must be inspected at least daily (a pressure injury can also trigger autonomic dysreflexia)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1430:</span><span class=\"nurse-note-text\">Dove headfirst off a dock into about 1 metre of water at 1340 and struck his head on the bottom. Friends pulled him out of the water, keeping his head in line with his body. Arrived by ambulance with a cervical collar and spinal motion restriction. Alert and oriented × 4. States, “I can't feel or move my legs.” Can shrug his shoulders and bend his elbows; cannot straighten his elbows or move his fingers. No sensation below the clavicles or in the arms and hands except the outer arms and thumbs. Legs flaccid with no reflexes; no anal sphincter tone. Breathing is diaphragmatic: the abdomen rises while the chest barely moves; speaks in short sentences; weak cough. Skin warm, dry and pink below the injury. 3-cm abrasion on the forehead.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1630:</span><span class=\"nurse-note-text\">Vital capacity 1.1 L (predicted 4.8 L). Using neck muscles to breathe; says he feels “tired of breathing.” Oxygen 4 L/min by nasal cannula applied.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Underwent anterior cervical decompression and fusion of C5–C6 overnight; in a hard cervical collar. Remains on 4 L/min oxygen; vital capacity 1.3 L. Admitted to the ICU.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 5 1400:</span><span class=\"nurse-note-text\">Rehabilitation unit. Spinal shock resolved in Week 3; reflexes and spasticity in the legs have returned. Client lying in bed, reports a sudden pounding headache and blurred vision. Face and neck flushed and sweating; skin below the clavicles pale and cool with goosebumps. Nasal stuffiness. Wearing an abdominal binder and leg straps for the urine drainage bag. Indwelling catheter bag has had no new urine for 3 hours.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 5 1420:</span><span class=\"nurse-note-text\">Tubing kinked under his thigh; straightened, 900 mL of urine drained. BP 128/76 mm Hg at 1415, 104/64 mm Hg at 1425. Headache resolving.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 10 1000:</span><span class=\"nurse-note-text\">Discharge planning. The nurse reviews teaching with the client and his brother, who will help with his care at home.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1430</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1630</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 5 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">50 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/52 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg (usual 98/60 mm Hg)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1520:</span><span class=\"nurse-note-text\"><b>CT cervical spine:</b> fracture-dislocation of C5 on C6 with narrowing of the spinal canal.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1545:</span><span class=\"nurse-note-text\"><b>MRI cervical spine:</b> compression and edema of the spinal cord from C5 to C7. Neurological level C6, complete injury (ASIA Impairment Scale A).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1550:</span><span class=\"nurse-note-text\"><b>FAST ultrasound and CT chest/abdomen:</b> no free fluid or internal bleeding.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">148 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Keep MAP 85–90 mm Hg for 7 days: 0.9% sodium chloride, then norepinephrine infusion titrated to MAP.<br>Atropine 0.5 mg IV PRN for heart rate below 40 beats/min with hypotension.<br>Vital capacity and cough strength every 4 hours; notify for vital capacity below 1 L.<br>Hard cervical collar at all times; logroll with 2 staff.<br>Indwelling urinary catheter; nasogastric tube to low suction.<br>Enoxaparin 30 mg subcut every 12 hours starting Day 3; sequential compression devices.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client who dove into shallow water at a lake."
+      }
+    }
+  ],
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: neurogenic vs spinal vs hypovolemic shock, respiratory risk (phrenic nerve, vital capacity), acute care after fusion, autonomic dysreflexia in rehabilitation, and teaching on prevention and lifelong self-care.",
+  "authorReview": {
+    "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: SCI definition, etiology and prevention; spinal shock, neurogenic shock, respiratory compromise, autonomic dysreflexia.\n- Screen 5 is an ordered response (sit up, loosen, check tubing, recatheterize, notify); please confirm the order matches your course text.\n- Clinician review: MAP target (85–90 mm Hg for 7 days), atropine and enoxaparin orders, sensory level description.",
+    "flaggedAt": "2026-11-02"
+  }
+}
