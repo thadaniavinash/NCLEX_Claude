@@ -1,0 +1,443 @@
+{
+  "id": "case_1782410000011",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "title": "NURS 1017 Unit 7 Case Study 11",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "course": "NURS 1017",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that require follow-up.",
+        "type": "highlight",
+        "options": [],
+        "preamble": "",
+        "explanation": "<b>Require follow-up:</b> a shuffling, wide-based, “magnetic” gait, two falls and a Timed Up and Go of 28 seconds (high fall risk, especially living alone on two floors); new urinary urgency and incontinence; and slowed thinking, apathy and forgetfulness. Together these are the classic <b>triad of normal pressure hydrocephalus</b>: gait disturbance, urinary incontinence and cognitive decline.<br><br><b>Do not require follow-up now:</b> hearing aids and past cataract surgery are part of her history (the nurse checks that they are working, since poor hearing and vision add to fall risk). No resting tremor and no headache are pertinent negatives: they make Parkinson disease and a raised-pressure problem less likely.",
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Daughter reports that over the past 8 months her mother has {started walking with short, shuffling steps, feet wide apart, “as if her feet are stuck to the floor”|correct}, and has {fallen twice at home|correct}. She has {urgency and has wet herself several times; now wears pads|correct}. She has become {slower to answer and less interested in her usual activities, and forgets appointments|correct}. Client is alert and oriented × 3. {Wears hearing aids in both ears}. {Had cataract surgery 3 years ago}. {No tremor at rest}. {Reports no headache}. Timed Up and Go test: {28 seconds|correct} (more than 12 seconds indicates a high fall risk). Lives alone in a two-storey house; daughter visits daily.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Daughter reports that over the past 8 months her mother has started walking with short, shuffling steps, feet wide apart, “as if her feet are stuck to the floor”, and has fallen twice at home. She has urgency and has wet herself several times; now wears pads. She has become slower to answer and less interested in her usual activities, and forgets appointments. Client is alert and oriented × 3. Wears hearing aids in both ears. Had cataract surgery 3 years ago. No tremor at rest. Reports no headache. Timed Up and Go test: 28 seconds (more than 12 seconds indicates a high fall risk). Lives alone in a two-storey house; daughter visits daily.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a neurology clinic is caring for a 74-year-old female client who is accompanied by her daughter."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "The daughter asks whether her mother has dementia or Parkinson disease. For each finding, click to specify whether it is most consistent with <b>normal pressure hydrocephalus</b>, <b>Alzheimer disease</b>, or <b>Parkinson disease</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Walking improves after some CSF is removed by lumbar puncture",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Memory loss is the first problem; walking stays normal until late in the disease",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Resting tremor, rigidity, and slow movement",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Wide-based, “magnetic” gait with urinary incontinence early in the illness",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Enlarged ventricles with no blockage of CSF flow",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Gradual loss of recent memory, getting lost in familiar places, and repeating questions",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Normal pressure hydrocephalus",
+            "Alzheimer disease",
+            "Parkinson disease"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Diagnostic Results.",
+        "explanation": "<b>Normal pressure hydrocephalus (NPH):</b> CSF builds up in the ventricles because it is not absorbed well, but the pressure measured by lumbar puncture is normal or only slightly raised. The enlarged ventricles stretch the nerve fibres that run past them to the legs and bladder and frontal lobes, causing the gait, bladder and thinking changes. Improvement after removing CSF (tap test) suggests she will benefit from a shunt. NPH is one of the few <b>treatable</b> causes of cognitive decline, which is why recognizing it matters.<br><br><b>Alzheimer disease</b> begins with memory loss; gait and continence stay normal until late. <b>Parkinson disease</b> causes a resting tremor, rigidity, bradykinesia and a shuffling, narrow-based gait.<br><br><b>Types of hydrocephalus:</b> <b>non-communicating (obstructive)</b>, when CSF flow is blocked inside the ventricular system (for example, a narrowed cerebral aqueduct or a tumour); <b>communicating (non-obstructive)</b>, when CSF flows freely but is not absorbed by the arachnoid villi (for example, after meningitis or a subarachnoid hemorrhage); and <b>normal pressure hydrocephalus</b>, a form of communicating hydrocephalus in older adults."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Daughter reports that over the past 8 months her mother has started walking with short, shuffling steps, feet wide apart, “as if her feet are stuck to the floor”, and has fallen twice at home. She has urgency and has wet herself several times; now wears pads. She has become slower to answer and less interested in her usual activities, and forgets appointments. Client is alert and oriented × 3. Wears hearing aids in both ears. Had cataract surgery 3 years ago. No tremor at rest. Reports no headache. Timed Up and Go test: 28 seconds (more than 12 seconds indicates a high fall risk). Lives alone in a two-storey house; daughter visits daily.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>MRI brain:</b> enlarged lateral and third ventricles, out of proportion to the mild brain atrophy; no blockage of CSF flow. Consistent with normal pressure hydrocephalus.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\"><b>Lumbar tap test:</b> opening pressure 14 cm H₂O; 40 mL of CSF removed. Timed Up and Go 3 hours later: 17 seconds (was 28 seconds); steps longer and more confident.</span></p>"
+          }
+        ],
+        "intro": "The nurse in a neurology clinic is caring for a 74-year-old female client who is accompanied by her daughter."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "Until her shunt surgery, the nurse's priority problem for the client is [[drop0]], because she [[drop1]]. The nurse also addresses [[drop2]], which can increase her risk of falling at night.",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "disturbed sensory perception",
+                  "correct": false
+                },
+                {
+                  "text": "risk for infection",
+                  "correct": false
+                },
+                {
+                  "text": "social isolation",
+                  "correct": false
+                },
+                {
+                  "text": "risk for falls",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "has a magnetic gait, has fallen twice, and lives alone on two floors",
+                  "correct": true
+                },
+                {
+                  "text": "has a normal blood pressure",
+                  "correct": false
+                },
+                {
+                  "text": "had cataract surgery",
+                  "correct": false
+                },
+                {
+                  "text": "wears hearing aids",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "her lack of headache",
+                  "correct": false
+                },
+                {
+                  "text": "her hearing aids",
+                  "correct": false
+                },
+                {
+                  "text": "her urinary urgency",
+                  "correct": true
+                },
+                {
+                  "text": "her daughter's daily visits",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "",
+        "explanation": "<b>Risk for falls</b> is the priority: a fall could cause a hip fracture or head injury (and older adults with enlarged ventricles are at risk of subdural bleeding). Her gait, two recent falls, a slow Timed Up and Go and living alone on two floors make a fall likely.<br><br><b>Urinary urgency</b> sends her rushing to the bathroom, often at night, which is a common time for falls. A toileting schedule, a night light, a commode near the bed and grab bars reduce both incontinence and falls. Her slowed thinking makes it harder for her to remember safety measures, so her daughter is included in the plan."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Daughter reports that over the past 8 months her mother has started walking with short, shuffling steps, feet wide apart, “as if her feet are stuck to the floor”, and has fallen twice at home. She has urgency and has wet herself several times; now wears pads. She has become slower to answer and less interested in her usual activities, and forgets appointments. Client is alert and oriented × 3. Wears hearing aids in both ears. Had cataract surgery 3 years ago. No tremor at rest. Reports no headache. Timed Up and Go test: 28 seconds (more than 12 seconds indicates a high fall risk). Lives alone in a two-storey house; daughter visits daily.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>MRI brain:</b> enlarged lateral and third ventricles, out of proportion to the mild brain atrophy; no blockage of CSF flow. Consistent with normal pressure hydrocephalus.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\"><b>Lumbar tap test:</b> opening pressure 14 cm H₂O; 40 mL of CSF removed. Timed Up and Go 3 hours later: 17 seconds (was 28 seconds); steps longer and more confident.</span></p>"
+          }
+        ],
+        "intro": "The nurse in a neurology clinic is caring for a 74-year-old female client who is accompanied by her daughter."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which interventions should the nurse include in the client's plan of care after shunt insertion? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Press the shunt valve behind her ear every hour to keep it working",
+            "correct": false
+          },
+          {
+            "text": "Assess the abdomen for pain, distension and bowel sounds",
+            "correct": true
+          },
+          {
+            "text": "Have her lie on her right side so the valve stays warm",
+            "correct": false
+          },
+          {
+            "text": "Walk with her using a gait belt, and offer the toilet every 2 hours",
+            "correct": true
+          },
+          {
+            "text": "Restrict her fluid intake to reduce CSF production",
+            "correct": false
+          },
+          {
+            "text": "Compare each neurological check with her baseline before surgery",
+            "correct": true
+          },
+          {
+            "text": "Inspect the head and abdominal incisions and the skin along the shunt tract for redness, swelling or drainage",
+            "correct": true
+          },
+          {
+            "text": "Include her daughter in teaching about the shunt",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 15 1500 and the Provider Orders.",
+        "explanation": "<b>Include:</b> comparing neurological checks with her baseline detects early problems (bleeding, shunt malfunction). The incisions and the tunnelled path of the tubing under the skin (head, neck, chest, abdomen) are checked for infection or CSF leakage. The lower end of the shunt drains into the peritoneal cavity, so abdominal pain, distension or absent bowel sounds are reported. Early, assisted walking and scheduled toileting address her fall risk and urgency. Her daughter will help watch for problems at home.<br><br><b>Do not include:</b> the valve is pumped only if the neurosurgeon orders it. Lying on the valve side puts pressure on the incision and valve; she is positioned off the operative side as ordered. Fluid restriction does not change CSF production and risks dehydration, constipation and delirium."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Daughter reports that over the past 8 months her mother has started walking with short, shuffling steps, feet wide apart, “as if her feet are stuck to the floor”, and has fallen twice at home. She has urgency and has wet herself several times; now wears pads. She has become slower to answer and less interested in her usual activities, and forgets appointments. Client is alert and oriented × 3. Wears hearing aids in both ears. Had cataract surgery 3 years ago. No tremor at rest. Reports no headache. Timed Up and Go test: 28 seconds (more than 12 seconds indicates a high fall risk). Lives alone in a two-storey house; daughter visits daily.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 15 1500:</span><span class=\"nurse-note-text\">Admitted to the neurosurgical unit after insertion of a right ventriculoperitoneal (VP) shunt with a programmable valve behind the right ear. Small incisions on the right side of the head and on the abdomen. Alert and oriented × 3; pupils equal and reactive; moves all limbs equally.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>MRI brain:</b> enlarged lateral and third ventricles, out of proportion to the mild brain atrophy; no blockage of CSF flow. Consistent with normal pressure hydrocephalus.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\"><b>Lumbar tap test:</b> opening pressure 14 cm H₂O; 40 mL of CSF removed. Timed Up and Go 3 hours later: 17 seconds (was 28 seconds); steps longer and more confident.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 15 1500:</span><span class=\"nurse-note-text\">Neurological checks every 2 hours for 24 hours, then every 4 hours.<br>Head of bed 30 degrees for 24 hours, then as tolerated.<br>Up with assistance this evening; physiotherapy Day 16.<br>Do not pump the shunt valve.<br>Acetaminophen 650 mg PO every 6 hours PRN for pain.</span></p>"
+          }
+        ],
+        "intro": "The nurse in a neurology clinic is caring for a 74-year-old female client who is accompanied by her daughter."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which actions should the nurse take? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Give her a large meal to settle her stomach before she leaves",
+            "correct": false
+          },
+          {
+            "text": "Perform and document a full neurological assessment",
+            "correct": true
+          },
+          {
+            "text": "Tell the daughter to watch her mother and call if she is not better in a few days",
+            "correct": false
+          },
+          {
+            "text": "Tell the emergency team about the recent MRI and the programmable valve",
+            "correct": true
+          },
+          {
+            "text": "Keep her lying down with the head of the bed raised and stay with her until transport arrives",
+            "correct": true
+          },
+          {
+            "text": "Contact the neurosurgery team now and arrange urgent transport to the emergency department",
+            "correct": true
+          },
+          {
+            "text": "Press the shunt valve several times to restart the drainage",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 6 1100 and the Vital Signs from Week 6 1100.",
+        "explanation": "Return of her gait, bladder and thinking problems with new drowsiness, headache, vomiting, a slower pulse and a higher BP suggests <b>shunt malfunction</b> with rising pressure. Here the MRI may have changed the setting of her programmable valve (the magnet of an MRI scanner can reset some valves).<br><br><b>Correct:</b> shunt malfunction is urgent: the neurosurgery team is contacted and she is assessed in hospital (valve setting check, imaging). The nurse reports the MRI and the valve type. A full neurological assessment gives a baseline for the emergency team. Keeping her in bed with the head raised and staying with her prevents falls and aspiration if she vomits.<br><br><b>Incorrect:</b> waiting risks a serious decline. She is vomiting and drowsy, so she is not given food (aspiration risk, and she may need a procedure). The nurse does not pump the valve without an order."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Daughter reports that over the past 8 months her mother has started walking with short, shuffling steps, feet wide apart, “as if her feet are stuck to the floor”, and has fallen twice at home. She has urgency and has wet herself several times; now wears pads. She has become slower to answer and less interested in her usual activities, and forgets appointments. Client is alert and oriented × 3. Wears hearing aids in both ears. Had cataract surgery 3 years ago. No tremor at rest. Reports no headache. Timed Up and Go test: 28 seconds (more than 12 seconds indicates a high fall risk). Lives alone in a two-storey house; daughter visits daily.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 15 1500:</span><span class=\"nurse-note-text\">Admitted to the neurosurgical unit after insertion of a right ventriculoperitoneal (VP) shunt with a programmable valve behind the right ear. Small incisions on the right side of the head and on the abdomen. Alert and oriented × 3; pupils equal and reactive; moves all limbs equally.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 6 1100:</span><span class=\"nurse-note-text\">Home care visit. Daughter says her mother walked much better for the first 4 weeks after surgery, but over the last 3 days she has been sleepy, has vomited twice this morning, has a headache, and is shuffling again and incontinent. Today she is drowsy but rousable and oriented to person only. Pupils equal and reactive. Incisions healed, no redness. Two days ago she had an MRI of her knee at the hospital; daughter is not sure whether the shunt valve was checked afterwards.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>MRI brain:</b> enlarged lateral and third ventricles, out of proportion to the mild brain atrophy; no blockage of CSF flow. Consistent with normal pressure hydrocephalus.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\"><b>Lumbar tap test:</b> opening pressure 14 cm H₂O; 40 mL of CSF removed. Timed Up and Go 3 hours later: 17 seconds (was 28 seconds); steps longer and more confident.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 15 1500:</span><span class=\"nurse-note-text\">Neurological checks every 2 hours for 24 hours, then every 4 hours.<br>Head of bed 30 degrees for 24 hours, then as tolerated.<br>Up with assistance this evening; physiotherapy Day 16.<br>Do not pump the shunt valve.<br>Acetaminophen 650 mg PO every 6 hours PRN for pain.</span></p>"
+          }
+        ],
+        "intro": "The nurse in a neurology clinic is caring for a 74-year-old female client who is accompanied by her daughter."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each statement, click to specify whether it indicates an <b>understanding</b> of the teaching or a <b>need for further teaching</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Daughter: “Before any MRI, we'll tell the staff she has a programmable shunt so the setting can be checked afterwards.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Client: “Now that I have the shunt, I don't need my walker or the grab bars any more.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Daughter: “If she gets sleepy, has headaches or vomiting, or her walking gets worse again, we'll call neurosurgery right away.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Daughter: “Redness or fluid along the tubing, a fever, or pain in her belly needs to be reported.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Client: “The shunt is permanent, so I won't need any more check-ups.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Client: “I'll carry the card that says what kind of shunt valve I have.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Understanding",
+            "Needs further teaching"
+          ],
+          "firstColumnHeader": "Statement"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 6 1700 and Month 3 1000.",
+        "explanation": "<b>Understanding:</b> programmable valves can be changed by strong magnets (MRI, some magnetic toys or devices held to the head), so staff must know and the setting is checked after an MRI. Return of NPH symptoms, drowsiness, headache or vomiting can mean shunt malfunction; fever, redness or fluid along the tubing, or abdominal pain can mean infection. A shunt card gives emergency staff the valve details.<br><br><b>Needs further teaching:</b> her walking has improved, but she should keep using her walker and home safety measures until physiotherapy advises otherwise; falls remain a risk. A shunt needs lifelong follow-up because it can block, break, become infected or drain too much or too little."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Daughter reports that over the past 8 months her mother has started walking with short, shuffling steps, feet wide apart, “as if her feet are stuck to the floor”, and has fallen twice at home. She has urgency and has wet herself several times; now wears pads. She has become slower to answer and less interested in her usual activities, and forgets appointments. Client is alert and oriented × 3. Wears hearing aids in both ears. Had cataract surgery 3 years ago. No tremor at rest. Reports no headache. Timed Up and Go test: 28 seconds (more than 12 seconds indicates a high fall risk). Lives alone in a two-storey house; daughter visits daily.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 15 1500:</span><span class=\"nurse-note-text\">Admitted to the neurosurgical unit after insertion of a right ventriculoperitoneal (VP) shunt with a programmable valve behind the right ear. Small incisions on the right side of the head and on the abdomen. Alert and oriented × 3; pupils equal and reactive; moves all limbs equally.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 6 1100:</span><span class=\"nurse-note-text\">Home care visit. Daughter says her mother walked much better for the first 4 weeks after surgery, but over the last 3 days she has been sleepy, has vomited twice this morning, has a headache, and is shuffling again and incontinent. Today she is drowsy but rousable and oriented to person only. Pupils equal and reactive. Incisions healed, no redness. Two days ago she had an MRI of her knee at the hospital; daughter is not sure whether the shunt valve was checked afterwards.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 6 1700:</span><span class=\"nurse-note-text\">In the emergency department, the valve setting was found to have changed after the MRI; it was reset by the neurosurgeon. Drowsiness, headache and vomiting resolved overnight.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Month 3 1000:</span><span class=\"nurse-note-text\">Clinic follow-up. Timed Up and Go 14 seconds; no falls since surgery. Continent with a toileting schedule. Daughter says her mother is “more like herself” and has started her book club again. The nurse reviews the teaching with the client and her daughter.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 1100</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">152/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\"><b>MRI brain:</b> enlarged lateral and third ventricles, out of proportion to the mild brain atrophy; no blockage of CSF flow. Consistent with normal pressure hydrocephalus.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\"><b>Lumbar tap test:</b> opening pressure 14 cm H₂O; 40 mL of CSF removed. Timed Up and Go 3 hours later: 17 seconds (was 28 seconds); steps longer and more confident.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 15 1500:</span><span class=\"nurse-note-text\">Neurological checks every 2 hours for 24 hours, then every 4 hours.<br>Head of bed 30 degrees for 24 hours, then as tolerated.<br>Up with assistance this evening; physiotherapy Day 16.<br>Do not pump the shunt valve.<br>Acetaminophen 650 mg PO every 6 hours PRN for pain.</span></p>"
+          }
+        ],
+        "intro": "The nurse in a neurology clinic is caring for a 74-year-old female client who is accompanied by her daughter."
+      }
+    }
+  ],
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "74-year-old female client with normal pressure hydrocephalus: recognizing the gait, continence and thinking changes, telling them apart from Alzheimer and Parkinson disease, the types of hydrocephalus, falls and continence priorities, care after a ventriculoperitoneal shunt, recognizing shunt malfunction at home after an MRI, and teaching about a programmable valve.",
+  "authorReview": {
+    "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Nursing-focused case (falls, continence, shunt care and teaching); covers the hydrocephalus learning outcome.\n- Clinician review: shunt positioning orders, the MRI and programmable-valve scenario, Timed Up and Go cut-off (12 seconds).",
+    "flaggedAt": "2026-11-02"
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "id": "case_1782410000010",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "title": "NURS 1017 Unit 7 Case Study 10",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "course": "NURS 1017",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the assessment. Which findings require follow-up? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Morning headaches and daytime sleepiness",
+            "correct": true
+          },
+          {
+            "text": "SpO₂ 93% with shallow breathing at 22 breaths/min",
+            "correct": true
+          },
+          {
+            "text": "Twitching of the forearm muscles",
+            "correct": false
+          },
+          {
+            "text": "Sleeps in a recliner because he is short of breath lying flat",
+            "correct": true
+          },
+          {
+            "text": "Weight loss of 4 kg in 2 months",
+            "correct": true
+          },
+          {
+            "text": "Wife has not slept a full night in weeks",
+            "correct": true
+          },
+          {
+            "text": "Sensation intact",
+            "correct": false
+          },
+          {
+            "text": "Does the crossword daily",
+            "correct": false
+          },
+          {
+            "text": "Coughing during most meals and a wet, gurgly voice after drinking",
+            "correct": true
+          }
+        ],
+        "preamble": "",
+        "explanation": "<b>Require follow-up:</b> coughing during meals and a wet voice are signs of <b>dysphagia</b> with aspiration. Losing 4 kg in 2 months shows he is not meeting his nutritional needs (long, tiring meals). Shortness of breath lying flat (orthopnea), morning headaches, daytime sleepiness, shallow breathing and a low SpO₂ suggest <b>weakening breathing muscles</b>, with carbon dioxide building up during sleep. His wife's exhaustion and fear signal <b>caregiver strain</b>, which affects them both.<br><br><b>Expected:</b> twitching muscles (fasciculations) are typical of ALS. Sensation and thinking are usually preserved, as here.<br><br><b>Why:</b> ALS is a progressive disease that destroys <b>upper and lower motor neurons</b> in the brain and spinal cord. Without nerve input, muscles weaken, waste and twitch; weakness spreads to the muscles of speech, swallowing and breathing. Most people live 2 to 5 years after diagnosis, and respiratory failure is the usual cause of death."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 1 1000:</span><span class=\"nurse-note-text\">Home visit. Lives with his wife in a bungalow; retired electrician. Uses a power wheelchair; hands weak, needs help with buttons and cutting food. Wife reports he coughs and clears his throat during most meals, and meals now take about an hour; he often stops eating because he is tired. Voice sounds wet and gurgly after drinking water. Weight 64 kg (68 kg two months ago). Sleeps in his recliner because he is short of breath lying flat; wakes with headaches and dozes during the day. Weak cough. Twitching visible in both forearms and the tongue. Speech slow and slurred but understandable; alert, does the crossword daily. Sensation intact. Wife says, “I haven't slept a full night in weeks; I'm afraid he'll choke when I'm asleep.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The home care nurse is visiting a 58-year-old male client who was diagnosed with amyotrophic lateral sclerosis (ALS) 14 months ago."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each finding, click to specify the nursing problem or problems it relates to: <b>risk for aspiration</b>, <b>ineffective breathing pattern</b>, or <b>imbalanced nutrition: less than body requirements</b>. Each finding may relate to more than one problem.",
+        "type": "matrix_mr",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Wet, gurgly voice after drinking",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Weight loss of 4 kg in 2 months",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Weak cough",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": "Short of breath lying flat",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Meals take an hour, and he stops eating because he is tired",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Morning headaches and daytime sleepiness",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Risk for aspiration",
+            "Ineffective breathing pattern",
+            "Imbalanced nutrition"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "",
+        "explanation": "<b>Risk for aspiration:</b> weak tongue, throat and swallowing muscles let food and fluid enter the airway (wet voice, coughing during meals). A weak cough cannot clear what is aspirated, and fatigue late in a long meal makes swallowing less safe.<br><br><b>Ineffective breathing pattern:</b> weak diaphragm and chest muscles cause shallow breathing and shortness of breath lying flat (the abdominal contents push up on a weak diaphragm). Breathing becomes shallower during sleep, CO₂ rises, and he wakes with headaches and is sleepy during the day. A weak cough also reflects weak breathing muscles.<br><br><b>Imbalanced nutrition:</b> long, tiring meals and fear of choking reduce intake; weight loss also comes from muscle wasting and the extra work of breathing."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 1 1000:</span><span class=\"nurse-note-text\">Home visit. Lives with his wife in a bungalow; retired electrician. Uses a power wheelchair; hands weak, needs help with buttons and cutting food. Wife reports he coughs and clears his throat during most meals, and meals now take about an hour; he often stops eating because he is tired. Voice sounds wet and gurgly after drinking water. Weight 64 kg (68 kg two months ago). Sleeps in his recliner because he is short of breath lying flat; wakes with headaches and dozes during the day. Weak cough. Twitching visible in both forearms and the tongue. Speech slow and slurred but understandable; alert, does the crossword daily. Sensation intact. Wife says, “I haven't slept a full night in weeks; I'm afraid he'll choke when I'm asleep.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The home care nurse is visiting a 58-year-old male client who was diagnosed with amyotrophic lateral sclerosis (ALS) 14 months ago."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The nurse's highest priority is the client's [[drop0]], followed by his [[drop1]]. Because his [[drop2]] are usually preserved in ALS, the nurse involves him directly in decisions about his care.",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "weakening breathing",
+                  "correct": true
+                },
+                {
+                  "text": "weak hands",
+                  "correct": false
+                },
+                {
+                  "text": "muscle twitching",
+                  "correct": false
+                },
+                {
+                  "text": "slurred speech",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "hobby of doing crosswords",
+                  "correct": false
+                },
+                {
+                  "text": "normal blood pressure",
+                  "correct": false
+                },
+                {
+                  "text": "risk for aspiration during meals",
+                  "correct": true
+                },
+                {
+                  "text": "use of a power wheelchair",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "thinking and sensation",
+                  "correct": true
+                },
+                {
+                  "text": "speech and voice",
+                  "correct": false
+                },
+                {
+                  "text": "walking and hand strength",
+                  "correct": false
+                },
+                {
+                  "text": "swallowing and breathing",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "",
+        "explanation": "<b>Breathing first, then swallowing:</b> in ALS, problems with life-sustaining functions (breathing and eating) take priority. Signs of nighttime hypoventilation and a low SpO₂ come first, because respiratory failure is the main threat to life. Aspiration is next, because it can cause pneumonia and choking.<br><br><b>Involving him in decisions:</b> ALS usually spares thinking, sensation, bladder and bowel control and eye movements. He can make his own decisions about breathing support, a feeding tube and end-of-life care, and these conversations should happen early, while he can still speak."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 1 1000:</span><span class=\"nurse-note-text\">Home visit. Lives with his wife in a bungalow; retired electrician. Uses a power wheelchair; hands weak, needs help with buttons and cutting food. Wife reports he coughs and clears his throat during most meals, and meals now take about an hour; he often stops eating because he is tired. Voice sounds wet and gurgly after drinking water. Weight 64 kg (68 kg two months ago). Sleeps in his recliner because he is short of breath lying flat; wakes with headaches and dozes during the day. Weak cough. Twitching visible in both forearms and the tongue. Speech slow and slurred but understandable; alert, does the crossword daily. Sensation intact. Wife says, “I haven't slept a full night in weeks; I'm afraid he'll choke when I'm asleep.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The home care nurse is visiting a 58-year-old male client who was diagnosed with amyotrophic lateral sclerosis (ALS) 14 months ago."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "The nurse plans care with the client, his wife and the ALS clinic team. Which interventions should the nurse include? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Arrange respite care and connect his wife with the ALS Society support program",
+            "correct": true
+          },
+          {
+            "text": "Discuss with the team a trial of noninvasive ventilation (BiPAP) at night",
+            "correct": true
+          },
+          {
+            "text": "Offer small, frequent, high-calorie meals and a dietitian referral",
+            "correct": true
+          },
+          {
+            "text": "Have him drink thin liquids through a straw so they go down faster",
+            "correct": false
+          },
+          {
+            "text": "Avoid talking about future care so he does not become upset",
+            "correct": false
+          },
+          {
+            "text": "Encourage vigorous strength training to rebuild his muscles",
+            "correct": false
+          },
+          {
+            "text": "Request a speech-language pathology swallowing assessment",
+            "correct": true
+          },
+          {
+            "text": "Introduce a communication device now, while his speech is still understandable",
+            "correct": true
+          },
+          {
+            "text": "Sit him fully upright for meals and for 30 minutes afterwards",
+            "correct": true
+          }
+        ],
+        "preamble": "",
+        "explanation": "<b>Include:</b> an upright position (with a chin-tuck if the speech-language pathologist recommends it) protects the airway. The speech-language pathologist recommends safe food textures (often thickened liquids) and techniques; the dietitian plans calorie-dense meals and, if weight loss continues, a discussion of a feeding tube (gastrostomy). Noninvasive ventilation at night relieves hypoventilation, morning headaches and fatigue. Communication devices (including voice banking and eye-gaze devices) are easier to learn before speech is lost. Respite and support (ALS Canada and provincial ALS societies) reduce caregiver strain.<br><br><b>Do not include:</b> straws deliver liquid quickly to the back of the throat and raise aspiration risk. Vigorous exercise causes fatigue; gentle range-of-motion and stretching are used to keep joints mobile. Avoiding conversations about future care takes away his chance to plan; advance care planning is started early and revisited."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 1 1000:</span><span class=\"nurse-note-text\">Home visit. Lives with his wife in a bungalow; retired electrician. Uses a power wheelchair; hands weak, needs help with buttons and cutting food. Wife reports he coughs and clears his throat during most meals, and meals now take about an hour; he often stops eating because he is tired. Voice sounds wet and gurgly after drinking water. Weight 64 kg (68 kg two months ago). Sleeps in his recliner because he is short of breath lying flat; wakes with headaches and dozes during the day. Weak cough. Twitching visible in both forearms and the tongue. Speech slow and slurred but understandable; alert, does the crossword daily. Sensation intact. Wife says, “I haven't slept a full night in weeks; I'm afraid he'll choke when I'm asleep.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The home care nurse is visiting a 58-year-old male client who was diagnosed with amyotrophic lateral sclerosis (ALS) 14 months ago."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which actions should the nurse take? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Apply his BiPAP mask",
+            "correct": true
+          },
+          {
+            "text": "Have his wife call 9-1-1 and ask for intubation",
+            "correct": false
+          },
+          {
+            "text": "Suction the saliva from his mouth with the oral suction device",
+            "correct": true
+          },
+          {
+            "text": "Lay him flat to rest",
+            "correct": false
+          },
+          {
+            "text": "Stay with him and explain each action in a calm voice",
+            "correct": true
+          },
+          {
+            "text": "Give him a glass of water to loosen the secretions",
+            "correct": false
+          },
+          {
+            "text": "Reposition him upright with his head supported",
+            "correct": true
+          },
+          {
+            "text": "Contact the provider and the palliative care team about the change",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 10 1400 and the Vital Signs from Week 10 1400.",
+        "explanation": "He is in respiratory distress, likely from aspiration pneumonia (fever, crackles on the right, SpO₂ 86%), on top of weak breathing muscles.<br><br><b>Correct:</b> sitting upright with the head supported eases breathing and protects the airway. Clearing pooled saliva reduces further aspiration. His BiPAP supports ventilation and is within his stated wishes. The provider and palliative care team decide on treatment that matches his goals (for example, antibiotics, oxygen, medications that ease breathlessness and secretions). Staying with him and explaining what is happening reduces fear, which worsens breathlessness.<br><br><b>Incorrect:</b> intubation is against his advance directive; the nurse respects his documented wishes (emergency services can be called for transport only if that fits his goals). Lying flat worsens breathing and aspiration. He cannot swallow safely, so oral fluids would cause more aspiration."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 1 1000:</span><span class=\"nurse-note-text\">Home visit. Lives with his wife in a bungalow; retired electrician. Uses a power wheelchair; hands weak, needs help with buttons and cutting food. Wife reports he coughs and clears his throat during most meals, and meals now take about an hour; he often stops eating because he is tired. Voice sounds wet and gurgly after drinking water. Weight 64 kg (68 kg two months ago). Sleeps in his recliner because he is short of breath lying flat; wakes with headaches and dozes during the day. Weak cough. Twitching visible in both forearms and the tongue. Speech slow and slurred but understandable; alert, does the crossword daily. Sensation intact. Wife says, “I haven't slept a full night in weeks; I'm afraid he'll choke when I'm asleep.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 10 1400:</span><span class=\"nurse-note-text\">Uses BiPAP at night; gastrostomy tube placed in Week 6. Advance directive completed: he wants noninvasive ventilation and comfort care, and does not want intubation or CPR. Today the wife calls the nurse to the bedroom: client sitting slumped in his recliner, breathing fast and shallow, using his neck muscles, saliva pooling in his mouth, says in a whisper “can't breathe.” Anxious. Lungs: coarse crackles on the right.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 10 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 breaths/min, shallow</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The home care nurse is visiting a 58-year-old male client who was diagnosed with amyotrophic lateral sclerosis (ALS) 14 months ago."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding, click to specify whether it shows that an <b>expected outcome has been met</b> or that it <b>requires follow-up</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Sleeps 6 hours with BiPAP without morning headaches",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Wife gives tube feedings while he lies flat",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Weight stable for 4 weeks",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Red area over the sacrum that does not blanch",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Uses an eye-gaze device to make choices and talk with family",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Respite worker visits 2 afternoons a week",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Expected outcome met",
+            "Requires follow-up"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 12 1000 and the Vital Signs from Week 12 1000.",
+        "explanation": "<b>Outcomes met:</b> nighttime ventilation is working (restful sleep, no CO₂ headaches); his weight is stable; he communicates and takes part in decisions and family life; his wife has regular respite. These match the OpenStax goals for ALS: symptoms controlled, quality of life and as much independence as possible.<br><br><b>Require follow-up:</b> tube feedings are given with the head of the bed (or recliner) raised at least 30 to 45 degrees and kept up for 30 to 60 minutes afterwards, to prevent reflux and aspiration; the nurse reteaches his wife. Non-blanching redness is a stage 1 pressure injury: he needs a pressure-redistributing cushion and mattress, regular repositioning and skin checks."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 1 1000:</span><span class=\"nurse-note-text\">Home visit. Lives with his wife in a bungalow; retired electrician. Uses a power wheelchair; hands weak, needs help with buttons and cutting food. Wife reports he coughs and clears his throat during most meals, and meals now take about an hour; he often stops eating because he is tired. Voice sounds wet and gurgly after drinking water. Weight 64 kg (68 kg two months ago). Sleeps in his recliner because he is short of breath lying flat; wakes with headaches and dozes during the day. Weak cough. Twitching visible in both forearms and the tongue. Speech slow and slurred but understandable; alert, does the crossword daily. Sensation intact. Wife says, “I haven't slept a full night in weeks; I'm afraid he'll choke when I'm asleep.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 10 1400:</span><span class=\"nurse-note-text\">Uses BiPAP at night; gastrostomy tube placed in Week 6. Advance directive completed: he wants noninvasive ventilation and comfort care, and does not want intubation or CPR. Today the wife calls the nurse to the bedroom: client sitting slumped in his recliner, breathing fast and shallow, using his neck muscles, saliva pooling in his mouth, says in a whisper “can't breathe.” Anxious. Lungs: coarse crackles on the right.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 12 1000:</span><span class=\"nurse-note-text\">Treated at home with antibiotics through the gastrostomy tube; fever resolved. Home visit: sleeps 6 hours with BiPAP and no longer wakes with headaches. Weight 64 kg, stable for 4 weeks on gastrostomy feeds. Uses an eye-gaze communication device to choose activities and talk with his grandchildren. A respite worker comes 2 afternoons a week. Wife gives the tube feeding with him lying flat “so he can nap.” Red area over the sacrum that does not blanch.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 10 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 12 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">30 breaths/min, shallow</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The home care nurse is visiting a 58-year-old male client who was diagnosed with amyotrophic lateral sclerosis (ALS) 14 months ago."
+      }
+    }
+  ],
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "58-year-old male client with ALS cared for at home: recognizing dysphagia, nighttime hypoventilation, weight loss and caregiver strain; linking findings to nursing problems; prioritizing breathing and swallowing; an interprofessional plan (SLP, dietitian, BiPAP, communication device, respite, advance care planning); respiratory distress managed within his advance directive; and evaluation of outcomes.",
+  "authorReview": {
+    "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Nursing-focused case following OpenStax 17.4 (nursing care of the patient with ALS), including palliative care and advance care planning.\n- Screen 5 tests respecting an advance directive (no intubation); please confirm this suits your course.\n- Clinician review: wording about BiPAP, tube-feeding position and the respiratory distress scenario.",
+    "flaggedAt": "2026-11-02"
+  }
+}

@@ -303,7 +303,7 @@
               ]
             },
             {
-              "text": "Titrate the norepinephrine to keep the MAP at 85–90 mm Hg",
+              "text": "Check the norepinephrine IV site often for swelling, coolness, or pale skin",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -329,6 +329,13 @@
               "correctIndices": [
                 0
               ]
+            },
+            {
+              "text": "Watch for bleeding gums, blood in the urine, and bruising at injection sites once enoxaparin starts",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
             }
           ],
           "columns": [
@@ -338,7 +345,7 @@
           "firstColumnHeader": "Intervention"
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0800 and the Provider Orders.",
-        "explanation": "<b>Indicated:</b> logrolling with a person at the head keeps the spine aligned after fusion. Vital capacity and cough strength show early respiratory decline. Keeping the MAP at 85–90 mm Hg improves blood flow to the injured cord and limits secondary injury. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does not empty (urinary retention), so the catheter drains it and urine output shows perfusion.<br><br><b>Contraindicated:</b> long suctioning causes hypoxia and stimulates the vagus nerve, which, with no sympathetic opposition, can cause severe bradycardia or asystole; suctioning is brief, with hyperoxygenation, and atropine is at hand. A quick move to sitting causes severe orthostatic hypotension (no sympathetic vasoconstriction); the head is raised gradually with the spine protected. The collar stays on; neck care is done with a second person holding the head."
+        "explanation": "<b>Indicated:</b> logrolling with a person at the head keeps the spine aligned after fusion. Vital capacity and cough strength show early respiratory decline. Keeping the BP in the ordered range improves blood flow to the injured cord and limits secondary injury; norepinephrine can leak out of the vein and damage tissue (extravasation: swelling, coolness, blanching), so the IV site is checked often and a leak is treated as an emergency. Enoxaparin prevents deep vein thrombosis (high risk with paralysis); its main adverse effect is bleeding. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does not empty (urinary retention), so the catheter drains it and urine output shows perfusion.<br><br><b>Contraindicated:</b> long suctioning causes hypoxia and stimulates the vagus nerve, which, with no sympathetic opposition, can cause severe bradycardia or asystole; suctioning is brief, with hyperoxygenation, and atropine is at hand. A quick move to sitting causes severe orthostatic hypotension (no sympathetic vasoconstriction); the head is raised gradually with the spine protected. The collar stays on; neck care is done with a second person holding the head."
       },
       "leftContent": {
         "tabs": [
@@ -378,7 +385,7 @@
         "type": "ordered_response",
         "options": [],
         "preamble": "The nurse has reviewed the Nurses' Notes from Week 5 1400 and the Vital Signs from Week 5 1400.",
-        "explanation": "This is <b>autonomic dysreflexia</b>, a life-threatening emergency in clients with an injury at <b>T6 or above</b> once spinal shock has resolved. A stimulus below the injury (most often a <b>full bladder</b>, then constipation or impaction, pressure injuries, tight clothing or ingrown toenails) triggers a massive sympathetic reflex below the injury: vasoconstriction causes severe hypertension (a rise of 20 to 40 mm Hg or more above the client's usual BP), pale cool skin and goosebumps below the injury. The brain detects the high BP through the baroreceptors, but its inhibitory signals cannot pass the injury, so only the body above the injury responds: vagal bradycardia, flushing, sweating, nasal stuffiness and a pounding headache. It can cause seizures, stroke and death.<br><br><b>Order:</b> (1) Sit him up and lower his legs, so blood pools in the legs and the BP falls. (2) Loosen anything tight. (3) Look for the most common cause, the bladder: check the tubing for kinks. (4) If urine still does not drain, replace the catheter, using lidocaine jelly to reduce further stimulation. (5) The BP is checked every 2 to 5 minutes; if it stays high (systolic 150 mm Hg or more) after the bladder is emptied, the provider is notified for a fast-acting antihypertensive and the bowel is checked next for stool.",
+        "explanation": "This is <b>autonomic dysreflexia</b>, a life-threatening emergency in clients with an injury at <b>T6 or above</b> once spinal shock has resolved. A stimulus below the injury (most often a <b>full bladder</b>, then constipation or impaction, pressure injuries, tight clothing or ingrown toenails) triggers a massive sympathetic reflex below the injury: vasoconstriction causes severe hypertension (a rise of 20 to 40 mm Hg or more above the client's usual BP), pale cool skin and goosebumps below the injury. The brain detects the high BP through the baroreceptors, but its inhibitory signals cannot pass the injury, so only the body above the injury responds: vagal bradycardia, flushing, sweating, nasal stuffiness and a pounding headache. It can cause seizures, stroke and death.<br><br><b>Order:</b> (1) Sit him up and lower his legs, so blood pools in the legs and the BP falls. (2) Loosen anything tight. (3) Look for the most common cause, the bladder: check the tubing for kinks. (4) If urine still does not drain, replace the catheter, using lidocaine jelly to reduce further stimulation. (5) The BP is checked every 2 to 5 minutes; if it stays high after the bladder is emptied, the provider is notified (a fast-acting antihypertensive may be ordered, and the nurse then watches for a sudden drop in BP) and the bowel is checked next for stool.",
         "orderedOptions": [
           "Sit the client upright and lower his legs",
           "Loosen the abdominal binder and the leg straps",
@@ -517,9 +524,10 @@
     }
   ],
   "disorder": "Unit 7 (Neurological Disorders)",
-  "description": "22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: neurogenic vs spinal vs hypovolemic shock, respiratory risk (phrenic nerve, vital capacity), acute care after fusion, autonomic dysreflexia in rehabilitation, and teaching on prevention and lifelong self-care.",
+  "description": "22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: recognizing breathing problems and neurogenic shock, spinal vs neurogenic vs hypovolemic shock, respiratory priority, nursing care after fusion (logrolling, suctioning, skin, bladder, vasopressor and anticoagulant monitoring), autonomic dysreflexia in rehabilitation, and teaching on prevention and lifelong self-care.",
   "authorReview": {
-    "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: SCI definition, etiology and prevention; spinal shock, neurogenic shock, respiratory compromise, autonomic dysreflexia.\n- Screen 5 is an ordered response (sit up, loosen, check tubing, recatheterize, notify); please confirm the order matches your course text.\n- Clinician review: MAP target (85–90 mm Hg for 7 days), atropine and enoxaparin orders, sensory level description.",
+    "note": "Case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes and revised the same day to be more nursing-focused; please review before using it with students:\n- Revised 2 Nov 2026 to the nursing-focused rules: screen 4 now asks about checking the vasopressor IV site and watching for bleeding on enoxaparin (no MAP target in the question); treatment thresholds removed from the rationales.\n- Screen 5 is an ordered response (sit up, loosen, check tubing, recatheterize, notify); please confirm the order matches your course text.\n- Clinician review: provider orders, sensory level description.",
     "flaggedAt": "2026-11-02"
-  }
+  },
+  "updatedAt": "2026-11-02T16:03:45.623Z"
 }
