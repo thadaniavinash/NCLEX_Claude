@@ -1,5 +1,8 @@
-"""Writes drafts/NURS_1017_Unit_7_Answer_Key.md (answer key with full rationales) from the Unit 7 case study JSON files."""
-import glob, html, json, os, re
+"""Writes an answer key with full rationales from Unit 7 case study JSON files.
+
+Usage: python3 drafts/build_unit7_answer_key.py [first last out.md]   (default: cases 2-6 -> NURS_1017_Unit_7_Answer_Key.md)
+"""
+import glob, html, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STEPS = {1: "Recognize", 2: "Analyze", 3: "Prioritize hypotheses", 4: "Generate solutions", 5: "Take action",
@@ -39,15 +42,20 @@ def answers(q):
         for tab in q["highlightTabs"]:
             for m in re.finditer(r"\{([^{|}]+)(\|correct)?\}", tab["content"]):
                 out.append(f"- [{tab['title']}] {'**✓** ' if m.group(2) else ''}{text(m.group(1))}")
+    elif t == "bowtie":
+        for label, key in (("Condition", "bowtieConditions"), ("Actions", "bowtieActions"), ("Parameters", "bowtieParams")):
+            out.append(f"- {label}: " + "; ".join(("**✓ " + o["text"] + "**") if o["correct"] else o["text"] for o in q[key]))
     elif t == "ordered_response":
         out += [f"{i}. {s}" for i, s in enumerate(q["orderedOptions"], 1)]
     return "\n".join(out)
 
 
-md = ["# NURS 1017 Unit 7 Case Studies 2–6: Answer Key", "",
-      "Drafts written on 2 Nov 2026 for the Unit 7 (Neurological Disorders) learning outcomes. ✓ marks a correct answer. "
+FIRST, LAST, OUT = (int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]) if len(sys.argv) > 3 else (2, 6, "NURS_1017_Unit_7_Answer_Key.md")
+md = [f"# NURS 1017 Unit 7 Case Studies {FIRST}–{LAST}: Answer Key", "",
+      "Written on 2 Nov 2026 for the Unit 7 (Neurological Disorders) learning outcomes. ✓ marks a correct answer. "
       "Each case also carries a “Needs your review” note in the studio.", ""]
-for f in sorted(glob.glob(os.path.join(HERE, "case_178241000000[2-9]_*.json"))):
+files = [glob.glob(os.path.join(HERE, f"case_178241{n:07d}_*.json"))[0] for n in range(FIRST, LAST + 1)]
+for f in files:
     c = json.load(open(f))
     md += [f"## {c['title']}", "", c["description"], "", "**Notes for review:**", "", c["authorReview"]["note"].split("\n", 1)[1], ""]
     for i, s in enumerate(c["screens"], 1):
@@ -56,6 +64,6 @@ for f in sorted(glob.glob(os.path.join(HERE, "case_178241000000[2-9]_*.json"))):
         if q.get("preamble"):
             md += [f"*{text(q['preamble'])}*", ""]
         md += [text(q["stem"]), "", answers(q), "", "**Rationale**", "", text(q["explanation"]).replace("\n\n", "\n\n"), ""]
-out = os.path.join(HERE, "NURS_1017_Unit_7_Answer_Key.md")
+out = os.path.join(HERE, OUT)
 open(out, "w").write("\n".join(md))
 print("wrote", out)

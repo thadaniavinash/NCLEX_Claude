@@ -223,6 +223,18 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   review PDF `drafts/NURS_1017_Unit_7_Case_Studies_2-6_Review.pdf` (`drafts/build_unit7_review_pdf.js`, works for any case ids
   on a served copy whose cases-data.js includes the drafts), answer key `drafts/NURS_1017_Unit_7_Answer_Key.md`
   (`drafts/build_unit7_answer_key.py`).
+- NURS 1017 Unit 7 Case Studies 7–11 (`case_1782410000007`–`011`, drafts 2 Nov 2026; **not yet published, awaiting the user's
+  review**). User feedback on 2–6: too medically oriented; new cases must be **nursing-focused for baccalaureate RN students**,
+  following the OpenStax Medical-Surgical Nursing "Nursing Care of the Patient with ..." sections (focused assessment, priorities
+  by safety and function, interprofessional plan, nursing actions, teaching, evaluation as independence/quality of life;
+  pathophysiology only in rationales; few labs and orders). 7 TIA at a community clinic (risk factors, same-day referral, FAST,
+  apixaban teaching); 8 MS relapse (falls, retention/UTI, fatigue/heat, mood and suicide question during steroids, self-cath);
+  9 epilepsy (triggers, seizure types from witness accounts, precautions, bow-tie during a seizure, self-management); 10 ALS at
+  home (aspiration, hypoventilation/BiPAP, nutrition, communication, caregiver strain, advance directive); 11 normal pressure
+  hydrocephalus + VP shunt (falls, continence, hydrocephalus types, shunt care, malfunction after MRI, programmable valve).
+  `write_case` now takes any case number (`case_178241{n:07d}`); `bowtie()` helper in unit7_common. Review PDF
+  `drafts/NURS_1017_Unit_7_Case_Studies_7-11_Review.pdf`, answer key `drafts/NURS_1017_Unit_7_Answer_Key_Cases_7-11.md`
+  (`build_unit7_answer_key.py 7 11 <out>`).
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),

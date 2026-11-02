@@ -43,8 +43,18 @@ def ordered(*steps):
     return list(steps)
 
 
-def write_case(n, description, screens, review_lines, slug):
-    case_id = f"case_178241000000{n}"
+def bowtie(conditions, actions, params, seed):
+    """Bow-tie question fields: lists of (text, correct); 1 correct condition, 2 actions, 2 parameters."""
+    from unit6_common import shuffle
+    mk = lambda pairs, s: shuffle([{"text": t, "correct": c} for t, c in pairs], seed + s)
+    return {"bowtieConditions": mk(conditions, "c"), "bowtieActions": mk(actions, "a"), "bowtieParams": mk(params, "p"),
+            "bowtieCol1Header": "Actions to Take", "bowtieCol2Header": "Potential Condition",
+            "bowtieCol3Header": "Parameters to Monitor", "bowtieLeftPlaceholder": "",
+            "bowtieCenterPlaceholder": "", "bowtieRightPlaceholder": ""}
+
+
+def write_case(n, description, screens, review_lines, slug, intro_note=None):
+    case_id = f"case_178241{n:07d}"
     case = {
         "id": case_id,
         "title": f"NURS 1017 Unit 7 Case Study {n}",
@@ -54,8 +64,8 @@ def write_case(n, description, screens, review_lines, slug):
         "disorder": UNIT,
         "description": description,
         "authorReview": {
-            "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with "
-                    "students:\n" + "\n".join(review_lines),
+            "note": (intro_note or "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before "
+                     "using it with students:") + "\n" + "\n".join(review_lines),
             "flaggedAt": "2026-11-02",
         },
         "screens": screens,

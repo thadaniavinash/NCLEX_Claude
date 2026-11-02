@@ -1,6 +1,6 @@
 # NURS 1017 Unit 7 Case Studies 2–6: Answer Key
 
-Drafts written on 2 Nov 2026 for the Unit 7 (Neurological Disorders) learning outcomes. ✓ marks a correct answer. Each case also carries a “Needs your review” note in the studio.
+Written on 2 Nov 2026 for the Unit 7 (Neurological Disorders) learning outcomes. ✓ marks a correct answer. Each case also carries a “Needs your review” note in the studio.
 
 ## NURS 1017 Unit 7 Case Study 2
 
