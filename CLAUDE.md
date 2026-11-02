@@ -208,6 +208,10 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   spondylitis vs RA vs SLE, enthesitis/ankylosis, posture/exercise teaching, uveitis) followed the same day
   (`build_unit6_case8_gout.py`, `build_unit6_case9_ankylosing_spondylitis.py`, review copy
   `drafts/NURS_1017_Unit_6_Case_Studies_8-9_Review.pdf`). Every Unit 6 outcome now has a case study.
+- NURS 1017 Unit 7 Case Study 1 (acute ischemic stroke with symptomatic hemorrhage during alteplase,
+  `case_1782410000001`; Unit 7 IDs `case_17824100000<n>`), 2 Nov 2026: the user's own case (PDF) converted with
+  the corrections they approved (`drafts/build_unit7_case1_stroke.py`, reuses `drafts/unit6_common.py`); carries
+  an `authorReview` note. More Unit 7 (neurological) case studies are planned.
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),
