@@ -1,0 +1,508 @@
+{
+  "id": "case_1782410000001",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "title": "NURS 1017 Unit 7 Case Study 1",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "course": "NURS 1017",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the Nurses' Notes, the History and Physical, and the Vital Signs. <b>Highlight</b> the findings that are directly relevant to identifying the client's acute condition and his eligibility for time-sensitive reperfusion therapy.",
+        "type": "highlight",
+        "options": [],
+        "preamble": "",
+        "explanation": "<b>Relevant findings:</b><br><br><b>Time of onset:</b> his wife saw him at his usual baseline until the sudden onset at 0800, so his <b>last known well is 0800</b> (not bedtime at 2200, which would apply only if he had woken up with the deficits). Intravenous thrombolysis (alteplase or tenecteplase) can be considered up to <b>4.5 hours from last known well</b>, so the exact time is the most important piece of history.<br><br><b>Non-fluent (Broca's) aphasia with intact comprehension, right facial droop, and right-sided weakness (arm weaker than leg):</b> a sudden focal deficit that localizes to the dominant (left) hemisphere, in the territory of the left middle cerebral artery (MCA). The MCA supplies the face and arm more than the leg.<br><br><b>Irregularly irregular pulse and apixaban stopped 3 months ago:</b> untreated atrial fibrillation lets thrombus form in the left atrial appendage and embolize to the brain (cardioembolic stroke). It also means he has taken no direct oral anticoagulant in the last 48 hours, which would otherwise be a contraindication to thrombolysis.<br><br><b>BP 198/108 mm Hg:</b> blood pressure must be below 185/110 mm Hg before thrombolysis can start, so it must be treated first.<br><br><b>Not directly relevant now:</b> bedtime at 2200, full strength on the left side, GERD, the cholecystectomy, his former occupation, the temperature, RR and SpO₂. The weak cough matters for aspiration risk and the swallowing screen, but it does not identify the acute condition or decide reperfusion eligibility.",
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Arrived in the emergency department by ambulance with his wife. Wife states he {went to bed feeling fine at 2200 last night}. He {woke up at 0730 at his usual baseline and was eating breakfast with her at 0800 when he suddenly dropped his coffee mug and could not get his words out clearly|correct}.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Rapid neurological assessment started. Client is awake and appears frustrated when trying to speak. {Speech is halting, effortful, and non-fluent, though he follows 1-step commands|correct} (“squeeze my hand,” “close your eyes”). {Flattening of the right nasolabial fold with an asymmetrical smile|correct}. {Right upper extremity (RUE) drifts down to the bed within 3 seconds when held extended; right lower extremity (RLE) drifts but does not touch the bed within 5 seconds (strength 4/5)|correct}. {Left upper and lower extremities have full strength (5/5)}. {Cough is weak when clearing his throat}. National Institutes of Health Stroke Scale (NIHSS) score 11. Code Stroke activated.</span></p>"
+          },
+          {
+            "id": "ht2",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Hypertension (diagnosed 12 years ago), paroxysmal atrial fibrillation, hyperlipidemia, type 2 diabetes mellitus, {gastroesophageal reflux disease (GERD)}.</p><p><b>Surgical history:</b> {Laparoscopic cholecystectomy 8 years ago}.</p><p><b>Social history:</b> {Retired accountant}; lives with his wife; former smoker (quit 10 years ago).</p><p><b>Weight:</b> 82 kg.</p><p><b>Home medications:</b> Lisinopril 20 mg PO daily, metoprolol succinate 50 mg PO daily, atorvastatin 40 mg PO daily, metformin 1,000 mg PO BID, pantoprazole 40 mg PO daily. Wife reports he {stopped taking his prescribed apixaban 3 months ago because of out-of-pocket costs|correct}.</p>"
+          },
+          {
+            "id": "ht3",
+            "title": "Vital Signs",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">{T 37.1° C}, {P 114 beats/min, irregularly irregular|correct}, {RR 18 breaths/min, even and unlabored}, {BP 198/108 mm Hg|correct}, {SpO₂ 96% on room air}.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Arrived in the emergency department by ambulance with his wife. Wife states he went to bed feeling fine at 2200 last night. He woke up at 0730 at his usual baseline and was eating breakfast with her at 0800 when he suddenly dropped his coffee mug and could not get his words out clearly.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Rapid neurological assessment started. Client is awake and appears frustrated when trying to speak. Speech is halting, effortful, and non-fluent, though he follows 1-step commands (“squeeze my hand,” “close your eyes”). Flattening of the right nasolabial fold with an asymmetrical smile. Right upper extremity (RUE) drifts down to the bed within 3 seconds when held extended; right lower extremity (RLE) drifts but does not touch the bed within 5 seconds (strength 4/5). Left upper and lower extremities have full strength (5/5). Cough is weak when clearing his throat. National Institutes of Health Stroke Scale (NIHSS) score 11. Code Stroke activated.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Hypertension (diagnosed 12 years ago), paroxysmal atrial fibrillation, hyperlipidemia, type 2 diabetes mellitus, gastroesophageal reflux disease (GERD).</p><p><b>Surgical history:</b> Laparoscopic cholecystectomy 8 years ago.</p><p><b>Social history:</b> Retired accountant; lives with his wife; former smoker (quit 10 years ago).</p><p><b>Weight:</b> 82 kg.</p><p><b>Home medications:</b> Lisinopril 20 mg PO daily, metoprolol succinate 50 mg PO daily, atorvastatin 40 mg PO daily, metformin 1,000 mg PO BID, pantoprazole 40 mg PO daily. Wife reports he stopped taking his prescribed apixaban 3 months ago because of out-of-pocket costs.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0915</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114 beats/min, irregularly irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 68-year-old male client who arrived by ambulance with sudden difficulty speaking."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "The nurse considers conditions that could explain sudden neurological changes. For each finding, click to specify the condition that the finding is most consistent with. Each row has one answer.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Expressive (non-fluent) aphasia",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Diaphoresis, tremor, and hunger",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Right-sided weakness and facial droop",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Cushing's triad (bradycardia, widened pulse pressure, irregular respirations)",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Irregularly irregular pulse of 114 beats/min",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Declining level of consciousness with one dilated, sluggish pupil",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ],
+          "columns": [
+            "Left hemisphere ischemic stroke",
+            "Hypoglycemia",
+            "Increased intracranial pressure (ICP)"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "",
+        "explanation": "<b>Left hemisphere ischemic stroke:</b> Broca's area lies in the left frontal lobe in most people, so ischemia there causes <b>expressive aphasia</b> while comprehension stays largely intact. The motor tracts cross in the medulla, so a left hemisphere lesion causes <b>right-sided weakness and facial droop</b>. An <b>irregularly irregular pulse</b> suggests atrial fibrillation, a leading cause of cardioembolic ischemic stroke.<br><br><b>Hypoglycemia:</b> diaphoresis, tremor and hunger are adrenergic (sympathetic) responses to low blood glucose. Hypoglycemia is a well-known stroke mimic and can even cause focal weakness or speech changes, which is why a point-of-care glucose is checked before imaging or thrombolysis.<br><br><b>Increased ICP:</b> Cushing's triad is a late sign of severely raised ICP with brainstem compression. A falling level of consciousness with one dilated, sluggish pupil (pressure on the oculomotor nerve, cranial nerve III) signals herniation. Neither is a typical early finding of an uncomplicated ischemic stroke; both must be reported immediately."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Arrived in the emergency department by ambulance with his wife. Wife states he went to bed feeling fine at 2200 last night. He woke up at 0730 at his usual baseline and was eating breakfast with her at 0800 when he suddenly dropped his coffee mug and could not get his words out clearly.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Rapid neurological assessment started. Client is awake and appears frustrated when trying to speak. Speech is halting, effortful, and non-fluent, though he follows 1-step commands (“squeeze my hand,” “close your eyes”). Flattening of the right nasolabial fold with an asymmetrical smile. Right upper extremity (RUE) drifts down to the bed within 3 seconds when held extended; right lower extremity (RLE) drifts but does not touch the bed within 5 seconds (strength 4/5). Left upper and lower extremities have full strength (5/5). Cough is weak when clearing his throat. National Institutes of Health Stroke Scale (NIHSS) score 11. Code Stroke activated.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Hypertension (diagnosed 12 years ago), paroxysmal atrial fibrillation, hyperlipidemia, type 2 diabetes mellitus, gastroesophageal reflux disease (GERD).</p><p><b>Surgical history:</b> Laparoscopic cholecystectomy 8 years ago.</p><p><b>Social history:</b> Retired accountant; lives with his wife; former smoker (quit 10 years ago).</p><p><b>Weight:</b> 82 kg.</p><p><b>Home medications:</b> Lisinopril 20 mg PO daily, metoprolol succinate 50 mg PO daily, atorvastatin 40 mg PO daily, metformin 1,000 mg PO BID, pantoprazole 40 mg PO daily. Wife reports he stopped taking his prescribed apixaban 3 months ago because of out-of-pocket costs.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0915</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114 beats/min, irregularly irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 68-year-old male client who arrived by ambulance with sudden difficulty speaking."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentence by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The client's highest priority problem is [[drop0]] secondary to [[drop1]], which places the client at immediate risk for [[drop2]] if his blood pressure is not reduced before fibrinolytic therapy.",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "acute confusion",
+                  "correct": false
+                },
+                {
+                  "text": "ineffective cerebral tissue perfusion",
+                  "correct": true
+                },
+                {
+                  "text": "impaired verbal communication",
+                  "correct": false
+                },
+                {
+                  "text": "risk for unilateral neglect",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "a ruptured cerebral aneurysm",
+                  "correct": false
+                },
+                {
+                  "text": "left middle cerebral artery thromboembolism",
+                  "correct": true
+                },
+                {
+                  "text": "hypertensive encephalopathy",
+                  "correct": false
+                },
+                {
+                  "text": "carotid artery dissection",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "intracerebral hemorrhage",
+                  "correct": true
+                },
+                {
+                  "text": "neurogenic shock",
+                  "correct": false
+                },
+                {
+                  "text": "autonomic dysreflexia",
+                  "correct": false
+                },
+                {
+                  "text": "watershed infarction",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Vital Signs from 0935, the Diagnostic Results and the Laboratory Results.",
+        "explanation": "<b>Ineffective cerebral tissue perfusion:</b> the priority is to restore blood flow to the <b>ischemic penumbra</b>, the reversibly injured brain tissue around the infarct core, before it dies. Impaired verbal communication is real but is a consequence of the ischemia, not the priority.<br><br><b>Left MCA thromboembolism:</b> the non-contrast CT rules out hemorrhage and shows early left MCA ischemia, and the CT angiogram shows the clot in the left M1 segment. With untreated atrial fibrillation, the clot most likely came from the heart. A ruptured aneurysm would show blood on CT; there is no sign of hypertensive encephalopathy or dissection.<br><br><b>Intracerebral hemorrhage:</b> he is within 4.5 hours of last known well (0800) and has no contraindication on the laboratory results (glucose 7.7 mmol/L, platelets 245 × 10⁹/L, INR 1.0). His BP of 196/106 mm Hg must be lowered below 185/110 mm Hg before the fibrinolytic is started, because a high BP greatly increases the risk of hemorrhagic transformation. Lowering it too far or too fast could instead cause watershed infarction; neurogenic shock and autonomic dysreflexia are complications of spinal cord injury.<br><br><b>Large-vessel occlusion:</b> because the CT angiogram shows a proximal MCA occlusion, the client is also a candidate for endovascular thrombectomy, which is offered in addition to thrombolysis."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Arrived in the emergency department by ambulance with his wife. Wife states he went to bed feeling fine at 2200 last night. He woke up at 0730 at his usual baseline and was eating breakfast with her at 0800 when he suddenly dropped his coffee mug and could not get his words out clearly.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Rapid neurological assessment started. Client is awake and appears frustrated when trying to speak. Speech is halting, effortful, and non-fluent, though he follows 1-step commands (“squeeze my hand,” “close your eyes”). Flattening of the right nasolabial fold with an asymmetrical smile. Right upper extremity (RUE) drifts down to the bed within 3 seconds when held extended; right lower extremity (RLE) drifts but does not touch the bed within 5 seconds (strength 4/5). Left upper and lower extremities have full strength (5/5). Cough is weak when clearing his throat. National Institutes of Health Stroke Scale (NIHSS) score 11. Code Stroke activated.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Hypertension (diagnosed 12 years ago), paroxysmal atrial fibrillation, hyperlipidemia, type 2 diabetes mellitus, gastroesophageal reflux disease (GERD).</p><p><b>Surgical history:</b> Laparoscopic cholecystectomy 8 years ago.</p><p><b>Social history:</b> Retired accountant; lives with his wife; former smoker (quit 10 years ago).</p><p><b>Weight:</b> 82 kg.</p><p><b>Home medications:</b> Lisinopril 20 mg PO daily, metoprolol succinate 50 mg PO daily, atorvastatin 40 mg PO daily, metformin 1,000 mg PO BID, pantoprazole 40 mg PO daily. Wife reports he stopped taking his prescribed apixaban 3 months ago because of out-of-pocket costs.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0915</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114 beats/min, irregularly irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">196/106 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\"><b>12-lead ECG:</b> atrial fibrillation with a rapid ventricular response, rate 112 beats/min. No acute ST-segment elevation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0932:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no acute intracranial hemorrhage or mass effect. Early loss of gray-white matter differentiation in the left insular ribbon, consistent with acute ischemia in the left middle cerebral artery (MCA) territory.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0934:</span><span class=\"nurse-note-text\"><b>CT angiography, head and neck:</b> occlusion of the proximal left MCA (M1 segment).</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random (point-of-care)</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 µmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 68-year-old male client who arrived by ambulance with sudden difficulty speaking."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "The nurse plans care for the client before and during the alteplase infusion. For each intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Insert an indwelling urinary catheter and a nasogastric tube 15 minutes after the alteplase bolus",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Administer prescribed IV labetalol to lower the BP below 185/110 mm Hg before starting alteplase",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Keep the client NPO until a bedside swallowing screen is passed",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Administer aspirin 325 mg with the alteplase infusion to prevent reocclusion",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Assess neurological status and vital signs every 15 minutes during the infusion and for 2 hours after it",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Insert two peripheral IV lines before starting the alteplase",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Intervention"
+        },
+        "preamble": "The nurse has reviewed the Provider Orders.",
+        "explanation": "<b>Indicated:</b><br><br><b>Lower the BP first:</b> stroke guidelines (AHA/ASA and Canadian Stroke Best Practice Recommendations) require a BP below 185/110 mm Hg before an IV fibrinolytic is given (labetalol, nicardipine or clevidipine), then below 180/105 mm Hg for 24 hours after it. (In Canada, tenecteplase 0.25 mg/kg as a single bolus is an accepted alternative to alteplase; the BP limits are the same.)<br><br><b>NPO until the swallowing screen:</b> dysphagia is common after stroke (this client has a weak cough), and aspiration pneumonia is a leading complication. Nothing is given by mouth, including medications, until a validated screen is passed.<br><br><b>Neurological checks and vital signs every 15 minutes</b> during the infusion and for 2 hours after it (then every 30 minutes for 6 hours and every hour until 24 hours) detect bleeding, angioedema and BP above the limit early. A new headache, nausea, vomiting, a drop in level of consciousness or worsening weakness means stopping the infusion and calling the provider.<br><br><b>Two peripheral IV lines before the infusion:</b> needle sticks are done before thrombolysis, and a separate line lets antihypertensives or fluids run without interrupting the alteplase.<br><br><b>Contraindicated:</b><br><br><b>Urinary catheter and nasogastric tube after the bolus:</b> invasive procedures during and after thrombolysis can cause bleeding that cannot be compressed. Guidelines say to delay them if the client can be safely managed without them (many protocols: for 24 hours); if one is truly needed, it is placed before the infusion starts.<br><br><b>Aspirin with alteplase:</b> antiplatelet agents and anticoagulants (aspirin, clopidogrel, heparin) are withheld for 24 hours after IV thrombolysis, until a follow-up CT shows no hemorrhage, because they greatly increase the risk of bleeding."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Arrived in the emergency department by ambulance with his wife. Wife states he went to bed feeling fine at 2200 last night. He woke up at 0730 at his usual baseline and was eating breakfast with her at 0800 when he suddenly dropped his coffee mug and could not get his words out clearly.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Rapid neurological assessment started. Client is awake and appears frustrated when trying to speak. Speech is halting, effortful, and non-fluent, though he follows 1-step commands (“squeeze my hand,” “close your eyes”). Flattening of the right nasolabial fold with an asymmetrical smile. Right upper extremity (RUE) drifts down to the bed within 3 seconds when held extended; right lower extremity (RLE) drifts but does not touch the bed within 5 seconds (strength 4/5). Left upper and lower extremities have full strength (5/5). Cough is weak when clearing his throat. National Institutes of Health Stroke Scale (NIHSS) score 11. Code Stroke activated.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Hypertension (diagnosed 12 years ago), paroxysmal atrial fibrillation, hyperlipidemia, type 2 diabetes mellitus, gastroesophageal reflux disease (GERD).</p><p><b>Surgical history:</b> Laparoscopic cholecystectomy 8 years ago.</p><p><b>Social history:</b> Retired accountant; lives with his wife; former smoker (quit 10 years ago).</p><p><b>Weight:</b> 82 kg.</p><p><b>Home medications:</b> Lisinopril 20 mg PO daily, metoprolol succinate 50 mg PO daily, atorvastatin 40 mg PO daily, metformin 1,000 mg PO BID, pantoprazole 40 mg PO daily. Wife reports he stopped taking his prescribed apixaban 3 months ago because of out-of-pocket costs.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0915</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114 beats/min, irregularly irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">196/106 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\"><b>12-lead ECG:</b> atrial fibrillation with a rapid ventricular response, rate 112 beats/min. No acute ST-segment elevation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0932:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no acute intracranial hemorrhage or mass effect. Early loss of gray-white matter differentiation in the left insular ribbon, consistent with acute ischemia in the left middle cerebral artery (MCA) territory.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0934:</span><span class=\"nurse-note-text\"><b>CT angiography, head and neck:</b> occlusion of the proximal left MCA (M1 segment).</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random (point-of-care)</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 µmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0940:</span><span class=\"nurse-note-text\">Client is a candidate for IV thrombolysis.<br>Alteplase 0.9 mg/kg IV (weight 82 kg): total dose 74 mg. Give 7.4 mg (10%) IV bolus over 1 minute, then 66.6 mg (90%) by infusion over 60 minutes.<br>Neurointerventional team consulted for endovascular thrombectomy.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 68-year-old male client who arrived by ambulance with sudden difficulty speaking."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which actions should the nurse take <b>immediately</b>? <b>Select all that apply.</b>",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Stop the alteplase infusion",
+            "correct": true
+          },
+          {
+            "text": "Position the client supine with the head of the bed flat to maximize cerebral perfusion",
+            "correct": false
+          },
+          {
+            "text": "Administer a bolus of 5% dextrose in water (D5W) IV to treat cerebral edema",
+            "correct": false
+          },
+          {
+            "text": "Notify the stroke team and anticipate orders for cryoprecipitate or tranexamic acid",
+            "correct": true
+          },
+          {
+            "text": "Elevate the head of the bed to 30 degrees with the head and neck in a neutral, midline position",
+            "correct": true
+          },
+          {
+            "text": "Prepare the client for an emergency non-contrast head CT",
+            "correct": true
+          },
+          {
+            "text": "Draw STAT blood work: CBC, fibrinogen, PT/INR, aPTT, and type and crossmatch",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from 0950 and 1015 and the Vital Signs from 1015.",
+        "explanation": "A sudden severe headache, vomiting, a drop in Glasgow Coma Scale score from 14 to 9, a dilated, sluggish left pupil, and Cushing's triad (BP 218/116 mm Hg with a widened pulse pressure, heart rate 56 beats/min, irregular respirations) during an alteplase infusion are the classic picture of <b>symptomatic intracerebral hemorrhage</b> (hemorrhagic transformation) with rising ICP and signs of herniation on the side of the stroke.<br><br><b>Stop the alteplase infusion:</b> the first action, to stop further fibrinolysis.<br><br><b>Head of the bed at 30 degrees, head and neck midline:</b> promotes venous drainage through the jugular veins, lowers ICP, and reduces aspiration risk while he is vomiting. Lying flat raises ICP and aspiration risk, so it is incorrect here.<br><br><b>Emergency non-contrast head CT, stroke team, STAT blood work:</b> suspected hemorrhage after thrombolysis needs immediate provider notification, a CT to confirm it, and a CBC, fibrinogen level, coagulation studies, and type and crossmatch. Reversal usually includes cryoprecipitate (10 units, to replace fibrinogen) or an antifibrinolytic (tranexamic acid or aminocaproic acid).<br><br><b>D5W is incorrect:</b> once the glucose is metabolized, D5W acts as free water (hypotonic). Free water moves into the brain and worsens cerebral edema and ICP. Isotonic 0.9% sodium chloride is used after brain injury."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Arrived in the emergency department by ambulance with his wife. Wife states he went to bed feeling fine at 2200 last night. He woke up at 0730 at his usual baseline and was eating breakfast with her at 0800 when he suddenly dropped his coffee mug and could not get his words out clearly.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Rapid neurological assessment started. Client is awake and appears frustrated when trying to speak. Speech is halting, effortful, and non-fluent, though he follows 1-step commands (“squeeze my hand,” “close your eyes”). Flattening of the right nasolabial fold with an asymmetrical smile. Right upper extremity (RUE) drifts down to the bed within 3 seconds when held extended; right lower extremity (RLE) drifts but does not touch the bed within 5 seconds (strength 4/5). Left upper and lower extremities have full strength (5/5). Cough is weak when clearing his throat. National Institutes of Health Stroke Scale (NIHSS) score 11. Code Stroke activated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0950:</span><span class=\"nurse-note-text\">BP 176/98 mm Hg after labetalol 10 mg IV at 0945. Alteplase 7.4 mg IV bolus given at 0952, followed by the 60-minute infusion on a dedicated line. Neurological checks and vital signs every 15 minutes.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">23 minutes into the infusion, the client suddenly becomes restless, groans, and clutches the left side of his head with his left hand. Does not open his eyes to voice; opens them to painful stimuli, localizes to painful stimuli, and makes incomprehensible sounds (Glasgow Coma Scale 9, was 14). Vomited 150 mL of clear fluid. Left pupil 6 mm and sluggish to light; right pupil 3 mm and brisk. Respirations irregular.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Hypertension (diagnosed 12 years ago), paroxysmal atrial fibrillation, hyperlipidemia, type 2 diabetes mellitus, gastroesophageal reflux disease (GERD).</p><p><b>Surgical history:</b> Laparoscopic cholecystectomy 8 years ago.</p><p><b>Social history:</b> Retired accountant; lives with his wife; former smoker (quit 10 years ago).</p><p><b>Weight:</b> 82 kg.</p><p><b>Home medications:</b> Lisinopril 20 mg PO daily, metoprolol succinate 50 mg PO daily, atorvastatin 40 mg PO daily, metformin 1,000 mg PO BID, pantoprazole 40 mg PO daily. Wife reports he stopped taking his prescribed apixaban 3 months ago because of out-of-pocket costs.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0915</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114 beats/min, irregularly irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">196/106 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">218/116 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\"><b>12-lead ECG:</b> atrial fibrillation with a rapid ventricular response, rate 112 beats/min. No acute ST-segment elevation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0932:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no acute intracranial hemorrhage or mass effect. Early loss of gray-white matter differentiation in the left insular ribbon, consistent with acute ischemia in the left middle cerebral artery (MCA) territory.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0934:</span><span class=\"nurse-note-text\"><b>CT angiography, head and neck:</b> occlusion of the proximal left MCA (M1 segment).</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random (point-of-care)</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 µmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0940:</span><span class=\"nurse-note-text\">Client is a candidate for IV thrombolysis.<br>Alteplase 0.9 mg/kg IV (weight 82 kg): total dose 74 mg. Give 7.4 mg (10%) IV bolus over 1 minute, then 66.6 mg (90%) by infusion over 60 minutes.<br>Neurointerventional team consulted for endovascular thrombectomy.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 68-year-old male client who arrived by ambulance with sudden difficulty speaking."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "The nurse observes the unlicensed assistive personnel (UAP) and the client's wife caring for the client. For each action, click to specify whether it is <b>effective</b> or <b>ineffective</b> in carrying out the plan of care.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "The wife approaches the client from his left side and places the call light and his personal items within reach of his left hand",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "The UAP offers the client thin liquids through a straw to help him swallow more easily",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "The wife asks the client yes/no questions, gives him extra time to respond, and uses a picture communication board",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "The UAP helps the client from the bed to the chair by pulling upward under his right arm and axilla",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "During meals, the client sits upright at 90 degrees and the UAP reminds him to turn his head to the right to scan his whole tray",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Effective",
+            "Ineffective"
+          ],
+          "firstColumnHeader": "Observed Action"
+        },
+        "preamble": "The nurse has reviewed the Diagnostic Results from 1025, the Nurses' Notes from 1030 and Day 7 0800, and the Vital Signs from Day 7 0800.",
+        "explanation": "<b>Effective:</b><br><br><b>Approaching from the left, call light at the left hand:</b> with a right homonymous hemianopsia and right-sided weakness, approaching from the intact (left) side avoids startling him, and he can see and reach the call light with his stronger hand.<br><br><b>Yes/no questions, extra time, picture board:</b> in expressive (Broca's) aphasia, comprehension is relatively preserved but speech production is impaired. Simple questions, not rushing or finishing his sentences, and a communication board reduce frustration.<br><br><b>Upright at 90 degrees, turning the head to the right to scan the tray:</b> sitting upright lowers aspiration risk, and teaching the client to turn his head toward the blind field (visual scanning) compensates for the hemianopsia so he sees all his food.<br><br><b>Ineffective:</b><br><br><b>Thin liquids through a straw:</b> the swallowing assessment prescribed mildly thick liquids, because thin liquids are the easiest to aspirate. Straws send liquid quickly to the back of the throat before the swallow is triggered, which further raises the risk of aspiration.<br><br><b>Pulling under the weak arm:</b> pulling on a weak or flaccid arm can cause shoulder (glenohumeral) subluxation and brachial plexus injury. A gait belt is used, and the weak arm is supported (sling or pillow)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0915:</span><span class=\"nurse-note-text\">Arrived in the emergency department by ambulance with his wife. Wife states he went to bed feeling fine at 2200 last night. He woke up at 0730 at his usual baseline and was eating breakfast with her at 0800 when he suddenly dropped his coffee mug and could not get his words out clearly.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Rapid neurological assessment started. Client is awake and appears frustrated when trying to speak. Speech is halting, effortful, and non-fluent, though he follows 1-step commands (“squeeze my hand,” “close your eyes”). Flattening of the right nasolabial fold with an asymmetrical smile. Right upper extremity (RUE) drifts down to the bed within 3 seconds when held extended; right lower extremity (RLE) drifts but does not touch the bed within 5 seconds (strength 4/5). Left upper and lower extremities have full strength (5/5). Cough is weak when clearing his throat. National Institutes of Health Stroke Scale (NIHSS) score 11. Code Stroke activated.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0950:</span><span class=\"nurse-note-text\">BP 176/98 mm Hg after labetalol 10 mg IV at 0945. Alteplase 7.4 mg IV bolus given at 0952, followed by the 60-minute infusion on a dedicated line. Neurological checks and vital signs every 15 minutes.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015:</span><span class=\"nurse-note-text\">23 minutes into the infusion, the client suddenly becomes restless, groans, and clutches the left side of his head with his left hand. Does not open his eyes to voice; opens them to painful stimuli, localizes to painful stimuli, and makes incomprehensible sounds (Glasgow Coma Scale 9, was 14). Vomited 150 mL of clear fluid. Left pupil 6 mm and sluggish to light; right pupil 3 mm and brisk. Respirations irregular.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030:</span><span class=\"nurse-note-text\">Alteplase stopped at 1016 (about 40 mg given). Cryoprecipitate 10 units and tranexamic acid 1 g IV given. Hypertonic saline and an IV antihypertensive infusion started as prescribed. Thrombectomy cancelled. Transferred to the neurological intensive care unit.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 7 0800:</span><span class=\"nurse-note-text\">Transferred from the neurological ICU to the stroke unit on Day 5. Neurologically stable for 72 hours; alert, follows commands. Residual right-sided weakness (right arm 3/5, right leg 4/5), right homonymous hemianopsia, and expressive aphasia that is slowly improving. Speech-language pathology swallowing assessment (Day 6): oropharyngeal dysphagia; soft diet with mildly thick liquids. Wife at the bedside, eager to help with his care. Rehabilitation plan of care in progress.</span></p>"
+          },
+          {
+            "id": "hp",
+            "title": "History and Physical",
+            "content": "<p><b>Medical history:</b> Hypertension (diagnosed 12 years ago), paroxysmal atrial fibrillation, hyperlipidemia, type 2 diabetes mellitus, gastroesophageal reflux disease (GERD).</p><p><b>Surgical history:</b> Laparoscopic cholecystectomy 8 years ago.</p><p><b>Social history:</b> Retired accountant; lives with his wife; former smoker (quit 10 years ago).</p><p><b>Weight:</b> 82 kg.</p><p><b>Home medications:</b> Lisinopril 20 mg PO daily, metoprolol succinate 50 mg PO daily, atorvastatin 40 mg PO daily, metformin 1,000 mg PO BID, pantoprazole 40 mg PO daily. Wife reports he stopped taking his prescribed apixaban 3 months ago because of out-of-pocket costs.</p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0915</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 7 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114 beats/min, irregularly irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198/108 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">196/106 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">218/116 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">95% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930:</span><span class=\"nurse-note-text\"><b>12-lead ECG:</b> atrial fibrillation with a rapid ventricular response, rate 112 beats/min. No acute ST-segment elevation.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0932:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> no acute intracranial hemorrhage or mass effect. Early loss of gray-white matter differentiation in the left insular ribbon, consistent with acute ischemia in the left middle cerebral artery (MCA) territory.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0934:</span><span class=\"nurse-note-text\"><b>CT angiography, head and neck:</b> occlusion of the proximal left MCA (M1 segment).</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1025:</span><span class=\"nurse-note-text\"><b>Repeat non-contrast head CT:</b> parenchymal hematoma (PH1) within the left MCA infarct, with surrounding edema and mild mass effect. No intraventricular extension.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0935</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, random (point-of-care)</b><br>4.0–11.0 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.7 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 µmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0940:</span><span class=\"nurse-note-text\">Client is a candidate for IV thrombolysis.<br>Alteplase 0.9 mg/kg IV (weight 82 kg): total dose 74 mg. Give 7.4 mg (10%) IV bolus over 1 minute, then 66.6 mg (90%) by infusion over 60 minutes.<br>Neurointerventional team consulted for endovascular thrombectomy.</span></p>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for a 68-year-old male client who arrived by ambulance with sudden difficulty speaking."
+      }
+    }
+  ],
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "68-year-old male client with atrial fibrillation who stopped apixaban presents with sudden expressive aphasia and right-sided weakness (left MCA ischemic stroke); thrombolysis eligibility, BP control, care during alteplase, symptomatic intracerebral hemorrhage during the infusion, and rehabilitation safety (dysphagia, hemianopsia, aphasia, transfers).",
+  "authorReview": {
+    "note": "Your case study, converted by Claude on 2 Nov 2026; please review before using it with students:\n- Converted from your PDF \"Unfolding NGN Case Study: Acute Ischemic Stroke\" with the corrections you approved on 2 Nov 2026.\n- Screen 6: repeat CT changed to a PH1 parenchymal hematoma (was HI1), neuro ICU, update on Day 7 (was 48 hours); right arm 3/5.\n- Added: weight 82 kg, written-out alteplase dose (74 mg), CT angiography (left M1 occlusion), creatinine, thrombectomy referral.\n- Screen 1: vital signs added to the passage; BP 198/108 and the irregular pulse are correct phrases; RLE strength 4/5.\n- Screen 2: stem rewritten; row 5 now 'Diaphoresis, tremor, and hunger'; new row 6 (declining LOC with a dilated pupil).\n- Screen 4: new row (neuro checks every 15 minutes); softer wording on catheter/NG timing; tenecteplase note.\n- Screen 6: SLP dysphagia assessment added to the notes; row 3 is done by the wife.\n- Clinician review: recovery course after a symptomatic PH1 bleed with herniation signs; dysphagia diet wording.",
+    "flaggedAt": "2026-11-02"
+  }
+}
