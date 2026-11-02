@@ -248,11 +248,11 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   Revised the same day to the content rules above (user request): screen 2 of Cases 2–4 rewritten (early vs late ICP signs;
   meningeal irritation vs ICP vs sepsis; tumor location vs ICP vs seizure), Case 4 screens 3–4 and Case 2 screens 3–6 reworked,
   medication adverse effects added (sedation, hypertonic saline, levetiracetam, vancomycin, dexamethasone, lorazepam,
-  norepinephrine, enoxaparin, levodopa), thresholds removed from questions. The database still holds the first version until
-  `drafts/unit7_cases2-6_revision_patch.json` (`drafts/build_unit7_revision_patch.js`, "before" values from cases-data.js) is
-  applied with the workflow's `patch` action.
-- NURS 1017 Unit 7 Case Studies 7–11 (`case_1782410000007`–`011`, drafts 2 Nov 2026; **not yet published, awaiting the user's
-  review**). User feedback on 2–6: too medically oriented; new cases must be **nursing-focused for baccalaureate RN students**,
+  norepinephrine, enoxaparin, levodopa), thresholds removed from questions. Published 2 Nov 2026 (user approval) with
+  `drafts/unit7_cases2-6_revision_patch.json` (`drafts/build_unit7_revision_patch.js`, "before" values from cases-data.js)
+  through the workflow's `patch` action.
+- NURS 1017 Unit 7 Case Studies 7–11 (`case_1782410000007`–`011`, 2 Nov 2026; published the same day at the user's request with
+  `add`, each with an `authorReview` note). User feedback on 2–6: too medically oriented; new cases must be **nursing-focused for baccalaureate RN students**,
   following the OpenStax Medical-Surgical Nursing "Nursing Care of the Patient with ..." sections (focused assessment, priorities
   by safety and function, interprofessional plan, nursing actions, teaching, evaluation as independence/quality of life;
   pathophysiology only in rationales; few labs and orders). 7 TIA at a community clinic (risk factors, same-day referral, FAST,
