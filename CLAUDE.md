@@ -213,7 +213,7 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   the corrections they approved (`drafts/build_unit7_case1_stroke.py`, reuses `drafts/unit6_common.py`); carries
   an `authorReview` note.
 - NURS 1017 Unit 7 Case Studies 2–6 (`case_1782410000002`–`006`, drafts 2 Nov 2026, user request to cover the Unit 7
-  learning outcomes without duplicating existing items; **not yet published, awaiting the user's review**): 2 TBI
+  learning outcomes without duplicating existing items; published 2 Nov 2026 at the user's request before their review, each with an `authorReview` note): 2 TBI
   (concussion, epidural hematoma with lucid interval, Monro-Kellie, secondary injury, ICP/CPP, prevention); 3 meningococcal
   meningitis (CSF bacterial vs viral, edema types, seizure classification, communicating hydrocephalus/EVD); 4 glioblastoma
   (tumour types, focal-to-bilateral seizure, vasogenic vs cytotoxic edema, ICP components, status epilepticus); 5 C6 spinal
