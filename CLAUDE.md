@@ -106,6 +106,28 @@ licence; credits in the generator and `drafts/integ_photos.json`). The figure ma
 serializes it, so the editor's open-and-save keeps it (check.js). Commons rate-limits this container: query
 one file at a time with pauses and a User-Agent that names the project.
 
+## Case study content rules (user decisions, 2 Nov 2026; apply to every new or revised case study)
+
+Audience: **baccalaureate RN students** (not medical students). Every case follows the NCSBN clinical judgment model the way
+the OpenStax Medical-Surgical Nursing "Nursing Care of the Patient with …" sections do (e.g. 17.4 Parkinson disease, ALS;
+17.3 MS; 17.5 seizures; 15.2 stroke/TIA):
+1. **Nursing-centred, built on safety, function and quality of life.** Questions ask what the nurse notices, which nursing
+   problems the findings point to, what comes first (airway/breathing, safety such as falls/aspiration/injury, then function),
+   the interprofessional plan (PT, OT, SLP, dietitian, social work, palliative care, family/caregiver), what the nurse does
+   now, what to teach, and whether outcomes are met (independence, safety, symptom control, quality of life, coping).
+2. **Hallmark clinical manifestations must always be tested**: the nurse's ability to recognize the key signs and symptoms of
+   the condition (and of its complications) is the core of every case (usually screens 1–2, and again when the client changes).
+3. **Pathophysiology is not ignored**: it explains the "why" in the rationales and may be the basis of an analyze/prioritize
+   question when it helps the nurse recognize or anticipate findings; it is not the focus of the case.
+4. **Laboratory and diagnostic results are included** (realistic, SI units, MCC ranges where listed) and used by the nurse, but a
+   case is not built around interpreting them.
+5. **Medication adverse effects**: include what the nurse monitors for and teaches after giving a medication (for example
+   hyperglycemia and mood/insomnia with corticosteroids, respiratory depression with benzodiazepines, bleeding with
+   anticoagulants, extravasation with vasopressors, orthostatic hypotension/dyskinesia with levodopa).
+6. **Do not emphasize exact doses** (they may appear in the Provider Orders tab; a question uses them only for a dose
+   calculation from the orders) and **do not test the criteria for giving a treatment** (thresholds such as "give at 5 minutes"
+   or "keep MAP 85–90" belong in the orders; questions ask the nurse to follow the orders, monitor, and report).
+
 ## Writing new case studies (draft → review → publish)
 
 New content is developed in its own session, separate from UI/UX work. That session only touches
@@ -223,6 +245,12 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   review PDF `drafts/NURS_1017_Unit_7_Case_Studies_2-6_Review.pdf` (`drafts/build_unit7_review_pdf.js`, works for any case ids
   on a served copy whose cases-data.js includes the drafts), answer key `drafts/NURS_1017_Unit_7_Answer_Key.md`
   (`drafts/build_unit7_answer_key.py`).
+  Revised the same day to the content rules above (user request): screen 2 of Cases 2–4 rewritten (early vs late ICP signs;
+  meningeal irritation vs ICP vs sepsis; tumor location vs ICP vs seizure), Case 4 screens 3–4 and Case 2 screens 3–6 reworked,
+  medication adverse effects added (sedation, hypertonic saline, levetiracetam, vancomycin, dexamethasone, lorazepam,
+  norepinephrine, enoxaparin, levodopa), thresholds removed from questions. The database still holds the first version until
+  `drafts/unit7_cases2-6_revision_patch.json` (`drafts/build_unit7_revision_patch.js`, "before" values from cases-data.js) is
+  applied with the workflow's `patch` action.
 - NURS 1017 Unit 7 Case Studies 7–11 (`case_1782410000007`–`011`, drafts 2 Nov 2026; **not yet published, awaiting the user's
   review**). User feedback on 2–6: too medically oriented; new cases must be **nursing-focused for baccalaureate RN students**,
   following the OpenStax Medical-Surgical Nursing "Nursing Care of the Patient with ..." sections (focused assessment, priorities

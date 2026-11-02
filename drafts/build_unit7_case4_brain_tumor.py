@@ -45,39 +45,44 @@ s1 = screen(1, INTRO, C, {
 
 # ---------------------------------------------------------------- Screen 2: matrix multiple response (analyze)
 C.notes("dx", "Diagnostic Results",
-    ("2200", "<b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic "
-     "centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline "
-     "shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma "
-     "(glioblastoma); metastasis less likely (single lesion). No dural-based mass."),
+    ("2200", "<b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with ring enhancement and a necrotic centre, "
+     "infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right. Most "
+     "consistent with a high-grade glioma (glioblastoma)."),
     ("2330", "<b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere."))
+C.labs("1915", [
+    (lab("Sodium (Na)", "136–146 mmol/L"), "139 mmol/L"),
+    (lab("Glucose, random", "4.0–11.0 mmol/L"), "6.1 mmol/L"),
+    (lab("White blood cell (WBC) count", "3.5–10.5 × 10<sup>9</sup>/L"), "8.4 × 10<sup>9</sup>/L"),
+    (lab("Creatinine", "Female: 22–75 µmol/L"), "61 µmol/L"),
+])
 s2 = screen(2, INTRO, C, {
     "type": "matrix_mr",
-    "preamble": "The nurse has reviewed the Diagnostic Results.",
-    "stem": "The client's husband asks what kind of tumor this might be. For each feature, click to specify whether it is typical of a "
-            "<b>glioblastoma</b>, a <b>meningioma</b>, or a <b>brain metastasis</b>. Each feature may apply to more than one tumor.",
-    "matrix": matrix_mr("Feature", ["Glioblastoma", "Meningioma", "Brain metastasis"], [
-        ("Arises from the meninges (arachnoid cells), outside the brain tissue", [1]),
-        ("Arises from glial cells (astrocytes) within the brain tissue", [0]),
-        ("Spreads to the brain through the blood from cancers such as lung, breast, or melanoma", [2]),
-        ("Can cause seizures, headache, and focal neurological deficits", [0, 1, 2]),
-        ("Usually benign and slow-growing; often cured by complete removal", [1]),
-        ("Ring-enhancing lesion with surrounding edema on MRI", [0, 2]),
-        ("Infiltrates the surrounding brain, so complete removal is rarely possible", [0]),
-        ("Most common malignant primary brain tumor in adults", [0]),
+    "preamble": "The nurse has reviewed the Diagnostic Results and the Laboratory Results.",
+    "stem": "For each finding, click to specify whether it is related to the <b>tumor's location</b> (a focal deficit), to <b>increased "
+            "intracranial pressure (ICP)</b>, or to the <b>seizure</b>. Each finding may be related to more than one cause.",
+    "matrix": matrix_mr("Finding", ["Tumor's location", "Increased ICP", "Seizure"], [
+        ("Trouble finding words", [0]),
+        ("Headaches worst on waking and with coughing or bending", [1]),
+        ("Bitten tongue and urinary incontinence", [2]),
+        ("Weaker grip in the right hand", [0]),
+        ("Bilateral papilledema", [1]),
+        ("Irritable and forgetful, “not herself”", [0]),
+        ("Drowsy and slow to answer in the emergency department", [1, 2]),
     ]),
     "explanation": rationale(
-        "<b>Gliomas</b> arise from the glial (supporting) cells of the brain: astrocytomas, oligodendrogliomas and ependymomas. "
-        "<b>Glioblastoma</b> (grade 4 astrocytoma) is the most common malignant primary brain tumor in adults. It grows quickly, has a "
-        "necrotic centre with ring enhancement, and sends cells along white matter tracts, so it cannot be removed completely and "
-        "usually recurs; treatment is surgery, then radiation with temozolomide chemotherapy.",
-        "<b>Meningiomas</b> arise from arachnoid cells of the meninges and press on the brain from outside (extra-axial, dural-based). "
-        "They are the most common primary intracranial tumor, are usually benign and slow-growing, and are often cured by complete "
-        "removal, but their location can still cause seizures, headache and deficits. Other tumor types include pituitary adenomas and "
-        "vestibular schwannomas (acoustic neuromas).",
-        "<b>Brain metastases</b> are the most common brain tumors overall in adults. Cancer cells reach the brain through the blood "
-        "(most often from lung, breast, melanoma, kidney and colon) and are often multiple, at the grey-white matter junction, with "
-        "ring enhancement and edema; that is why her chest, abdomen and pelvis were scanned.",
-        "Any brain tumor can raise ICP (mass and edema), irritate the cortex (seizures) and cause deficits according to its location."),
+        "<b>Tumor location (focal deficits):</b> a left frontotemporal tumor affects language (word-finding difficulty), movement of "
+        "the opposite (right) side, and the frontal lobe's control of personality and memory. The nurse documents these as her baseline "
+        "and watches for change.",
+        "<b>Increased ICP:</b> the tumor and the swelling around it take up space (Monro-Kellie doctrine: the skull holds brain tissue, "
+        "blood and CSF, and when one increases, ICP rises once the others can no longer make room). Morning headache, headache with "
+        "coughing or bending, vomiting and papilledema are its hallmark signs.",
+        "<b>Seizure:</b> tongue biting and incontinence happen during a tonic-clonic seizure. Drowsiness can be <b>postictal</b> or a "
+        "sign of increased ICP, so the nurse checks whether it improves over the next hour; if it does not, or worsens, it is reported.",
+        "<b>Types of brain tumors:</b> <b>gliomas</b> arise from the brain's supporting (glial) cells; <b>glioblastoma</b> is the most "
+        "common malignant primary brain tumor in adults, grows quickly and infiltrates surrounding brain. <b>Meningiomas</b> arise from "
+        "the meninges, are usually benign and slow-growing, and press on the brain from outside. <b>Metastases</b> from cancers such as "
+        "lung, breast and melanoma are the most common brain tumors overall (which is why her chest, abdomen and pelvis were scanned). "
+        "Any of them can cause headache, seizures and focal deficits."),
 })
 
 # ---------------------------------------------------------------- Screen 3: drop-down cloze (prioritize)
@@ -85,73 +90,71 @@ s3 = screen(3, INTRO, C, {
     "type": "dropdown_cloze",
     "stem": "Complete the following sentences by choosing from the lists of options.",
     "cloze": {
-        "text": "The seizure the husband described is best classified as a [[drop0]]. The client's signs of increased ICP are mainly caused "
-                "by [[drop1]], which results from [[drop2]] and is expected to improve with [[drop3]].",
+        "text": "The nurse documents the seizure the husband described as a [[drop0]]. The client's signs of increased ICP are mainly "
+                "caused by [[drop1]], which is expected to improve with [[drop2]], so the nurse monitors her for [[drop3]].",
         "dropdowns": [
             dropdown(("generalized-onset tonic-clonic seizure", False), ("generalized absence seizure", False),
                      ("focal impaired awareness seizure that progressed to a bilateral tonic-clonic seizure", True),
                      ("focal aware motor seizure", False), seed="u7c4-d0"),
             dropdown(("cytotoxic edema", False), ("vasogenic edema", True), ("interstitial edema from hydrocephalus", False),
                      ("bleeding into the tumor", False), seed="u7c4-d1"),
-            dropdown(("failure of the sodium-potassium pump in oxygen-deprived brain cells", False),
-                     ("blocked CSF absorption at the arachnoid villi", False),
-                     ("abnormal tumor blood vessels that let plasma leak through a damaged blood-brain barrier", True),
-                     ("a low serum albumin", False), seed="u7c4-d2"),
             dropdown(("levetiracetam", False), ("dexamethasone", True), ("a hypotonic IV fluid", False), ("acetaminophen", False),
+                     seed="u7c4-d2"),
+            dropdown(("hypoglycemia", False), ("bradycardia", False), ("hyperglycemia", True), ("hypotension", False),
                      seed="u7c4-d3"),
         ],
     },
     "explanation": rationale(
-        "<b>Seizure type:</b> the seizure began in one hemisphere (the left temporal lobe near the tumor): staring and unresponsiveness "
-        "(impaired awareness) with automatisms (lip smacking, picking at clothing with the right hand) is a <b>focal impaired awareness "
-        "seizure</b> (formerly complex partial). It then spread to both hemispheres: a <b>focal to bilateral tonic-clonic seizure</b> "
-        "(formerly secondarily generalized). A generalized-onset seizure involves both hemispheres from the start, without a focal "
-        "beginning; an absence seizure is a brief stare without convulsions; in a focal aware seizure the person stays aware. A new "
-        "seizure starting in adulthood always needs a search for a structural cause such as a tumor.",
-        "<b>Vasogenic edema:</b> the tumor makes new, abnormal blood vessels whose walls lack normal tight junctions, so the blood-brain "
-        "barrier leaks plasma proteins and water into the extracellular space, mostly in the white matter around the tumor. "
-        "Corticosteroids (<b>dexamethasone</b>) stabilize the barrier and reduce this edema within hours to days.",
-        "<b>Cytotoxic edema</b> is different: oxygen-deprived cells (ischemia, hypoxia, prolonged seizures) cannot run the "
-        "sodium-potassium pump, so sodium and water enter the cells and they swell, in grey and white matter; it does <b>not</b> respond "
-        "to corticosteroids. Levetiracetam prevents seizures but does not reduce edema; hypotonic fluids worsen edema."),
+        "<b>Seizure type:</b> staring and not answering (impaired awareness) with lip smacking and picking at her clothing "
+        "(automatisms) is a <b>focal impaired awareness seizure</b>; it then spread to both sides of the brain (stiffening and jerking "
+        "of the whole body), a <b>focal to bilateral tonic-clonic seizure</b>. Describing the start of a seizure accurately helps the "
+        "team classify it. A first seizure in adulthood always prompts a search for a cause such as a tumor.",
+        "<b>Vasogenic edema:</b> the tumor's abnormal blood vessels leak fluid through a damaged blood-brain barrier into the "
+        "surrounding white matter. Corticosteroids (dexamethasone) stabilize the barrier and reduce this swelling. <b>Cytotoxic "
+        "edema</b> is different: brain cells swell when they lack oxygen (ischemia, a prolonged seizure) and corticosteroids do not "
+        "help it.",
+        "<b>Adverse effects of dexamethasone:</b> high blood glucose (the most common), stomach irritation (given with food, often "
+        "with a stomach-protecting drug), insomnia, mood changes, infection risk and, over time, thrush and muscle weakness. Glucose is "
+        "checked as ordered and high readings are reported."),
 })
 
-# ---------------------------------------------------------------- Screen 4: matrix (generate solutions)
+# ---------------------------------------------------------------- Screen 4: matrix indicated / contraindicated (generate solutions)
 C.notes("ord", "Provider Orders",
     ("2345", "Admit to the neurosurgical unit. Head of bed 30 degrees. Seizure precautions.<br>"
      "Dexamethasone 4 mg IV every 6 hours.<br>"
      "Pantoprazole 40 mg PO daily.<br>"
      "Levetiracetam 500 mg PO every 12 hours.<br>"
+     "Docusate 100 mg PO twice daily.<br>"
      "Capillary blood glucose before meals and at bedtime.<br>"
      "Neurological checks every 2 hours.<br>"
      "Craniotomy for tumor resection planned for Day 3."))
 s4 = screen(4, INTRO, C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Provider Orders.",
-    "stem": "The nurse plans care to keep the client's ICP from rising further. For each factor, click to specify which intracranial "
-            "volume it increases: <b>brain tissue</b>, <b>blood</b>, or <b>cerebrospinal fluid (CSF)</b>.",
-    "matrix": matrix_mc("Factor", ["Brain tissue", "Blood", "CSF"], [
-        ("Vasogenic edema around the tumor", 0),
-        ("Hypoventilation from oversedation, raising the PaCO₂", 1),
-        ("A tumor blocking the cerebral aqueduct (non-communicating hydrocephalus)", 2),
-        ("Neck flexion or rotation that compresses the jugular veins", 1),
-        ("Cytotoxic edema after a prolonged seizure with hypoxia", 0),
-        ("Scarring of the arachnoid villi that impairs CSF absorption (communicating hydrocephalus)", 2),
-        ("Fever, which increases brain metabolism", 1),
+    "stem": "The nurse plans care to keep the client safe and prevent increases in ICP before surgery. For each intervention, click to "
+            "specify whether it is <b>indicated</b> or <b>contraindicated</b>.",
+    "matrix": matrix_mc("Intervention", ["Indicated", "Contraindicated"], [
+        ("Keep the head of the bed at 30 degrees with her head in line with her body", 0),
+        ("Encourage her to cough forcefully every hour to keep her lungs clear", 1),
+        ("Give the stool softener and teach her not to strain or hold her breath during bowel movements", 0),
+        ("Keep the bed low with the side rails padded and up", 0),
+        ("Check her capillary glucose as ordered and report high readings", 0),
+        ("Lay her flat with her legs raised when she has a headache", 1),
+        ("Watch for drowsiness, dizziness, and mood changes after starting levetiracetam", 0),
+        ("Apply wrist restraints if she becomes restless", 1),
     ]),
     "explanation": rationale(
-        "<b>Monro-Kellie doctrine:</b> the skull holds brain tissue (about 80%), blood (about 10%) and CSF (about 10%). An increase in "
-        "any one must be offset by a decrease in another, or ICP rises. The nurse plans care around all three.",
-        "<b>Brain tissue:</b> the tumor mass and edema. Vasogenic edema is treated with dexamethasone; cytotoxic edema after a long "
-        "seizure with hypoxia is prevented by stopping seizures quickly and keeping oxygenation normal (seizure precautions, "
-        "levetiracetam on time).",
-        "<b>Blood:</b> CO₂ is a strong cerebral vasodilator, so hypoventilation (oversedation, opioids) raises cerebral blood volume; "
-        "sedation is monitored. A flexed or rotated neck obstructs jugular venous outflow; the head is kept midline with the head of the "
-        "bed at 30 degrees. Fever and seizures increase metabolism and therefore cerebral blood flow; fever is treated promptly.",
-        "<b>CSF:</b> CSF builds up if its flow is blocked inside the ventricular system (<b>non-communicating</b> or obstructive "
-        "hydrocephalus, for example a tumor at the cerebral aqueduct or fourth ventricle) or if it is not absorbed by the arachnoid villi "
-        "(<b>communicating</b> hydrocephalus, after meningitis or subarachnoid hemorrhage). Her ventricles are not enlarged now, but "
-        "headache, vomiting and drowsiness after surgery could signal hydrocephalus and are reported."),
+        "<b>Indicated:</b> the head of the bed at 30 degrees with the head aligned helps venous blood drain from the brain. Straining "
+        "and breath-holding (the Valsalva manoeuvre) raise pressure in the chest and head, so a stool softener and teaching prevent it. "
+        "A low bed with padded rails protects her if she has another seizure. Dexamethasone raises blood glucose, so glucose is "
+        "checked and high values are reported. Levetiracetam commonly causes drowsiness and dizziness (fall risk) and can cause "
+        "irritability or low mood, which can be mistaken for tumor effects, so the nurse watches and reports.",
+        "<b>Contraindicated:</b> forceful coughing raises ICP; deep breathing and gentle coughing are used instead. Lying flat with the "
+        "legs raised reduces venous drainage from the head and raises ICP. Restraints increase agitation and ICP and can cause injury.",
+        "<b>Linking the plan to the Monro-Kellie doctrine:</b> each measure limits an increase in one of the three volumes in the skull: "
+        "brain tissue (swelling; reduced with dexamethasone), blood (venous drainage, avoiding straining, fever and too much sedation, "
+        "since high CO₂ widens brain blood vessels) and CSF (watching for headache, vomiting and drowsiness that could mean blocked CSF "
+        "flow, called non-communicating or obstructive hydrocephalus)."),
 })
 
 # ---------------------------------------------------------------- Screen 5: select all (take action)
@@ -176,13 +179,15 @@ s5 = screen(5, INTRO, C, {
         ("Withhold medication until the seizure has lasted 15 minutes", False),
         ("Check her capillary blood glucose", True),
         ("Call for help and notify the provider", True),
+        ("Monitor her breathing and level of sedation after the lorazepam is given", True),
         seed="u7c4-s5"),
     "explanation": rationale(
         "The seizure has lasted more than 5 minutes: this is <b>status epilepticus</b>, a medical emergency. The longer it lasts, the "
         "less likely it is to stop on its own, and continuous neuronal firing causes hypoxia, excitotoxic (cytotoxic) brain injury and "
         "rising ICP.",
-        "<b>Correct:</b> a side-lying position lets saliva drain and keeps the tongue from blocking the airway. Lorazepam is the "
-        "first-line drug and is given at 5 minutes, as ordered. Oxygen and suction treat the hypoxia (dusky lips). Hypoglycemia can "
+        "<b>Correct:</b> a side-lying position lets saliva drain and keeps the tongue from blocking the airway. Lorazepam is "
+        "given as ordered; it can depress breathing and cause deep sedation, so the nurse watches her breathing and level of "
+        "consciousness afterwards. Oxygen and suction treat the hypoxia (dusky lips). Hypoglycemia can "
         "cause or prolong seizures, and dexamethasone affects glucose, so the glucose is checked. Help is needed to manage the airway, "
         "drugs and monitoring, and the provider must be notified.",
         "<b>Incorrect:</b> restraints can cause fractures and soft tissue injury; nearby objects are moved and the head is protected "
@@ -229,15 +234,15 @@ s6 = screen(6, INTRO, C, {
 })
 
 write_case(4,
-    "57-year-old female client with a first seizure in adulthood from a left frontotemporal glioblastoma: signs of increased ICP, "
-    "glioblastoma vs meningioma vs brain metastasis, focal impaired awareness to bilateral tonic-clonic seizure, vasogenic vs "
-    "cytotoxic edema, Monro-Kellie components and hydrocephalus types, status epilepticus after craniotomy, and corticosteroid "
-    "complications at discharge.",
+    "57-year-old female client with a first seizure in adulthood from a glioblastoma: recognizing signs of increased ICP, focal "
+    "deficits and seizure features, documenting the seizure type, vasogenic edema and dexamethasone adverse effects, a care plan "
+    "that keeps her safe and prevents rises in ICP, status epilepticus after craniotomy, and corticosteroid effects at discharge.",
     [s1, s2, s3, s4, s5, s6],
-    ["- Learning outcomes: brain tumour types, seizure classification, vasogenic vs cytotoxic edema, Monro-Kellie components and causes "
-     "of increased ICP, non-communicating vs communicating hydrocephalus.",
-     "- Screen 4 is a knowledge matrix framed as care planning (which volume each factor increases); please confirm it fits your "
-     "Generate Solutions expectations.",
+    ["- Revised 2 Nov 2026 to the nursing-focused rules: screen 2 now sorts findings into tumor location, increased ICP and seizure "
+     "(tumor types in the rationale); screen 3 adds the dexamethasone adverse effect; screen 4 is a nursing care plan (Monro-Kellie "
+     "and hydrocephalus in the rationale); screen 5 adds monitoring after lorazepam.",
      "- The capillary glucose target (4.0–7.0 mmol/L before meals) is the Diabetes Canada target, not an MCC laboratory range.",
-     "- Clinician review: dexamethasone, levetiracetam and lorazepam doses."],
-    "Brain_Tumour")
+     "- Clinician review: dexamethasone, levetiracetam and lorazepam orders."],
+    "Brain_Tumour",
+    intro_note="Case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes and revised the same day to be more "
+               "nursing-focused; please review before using it with students:")

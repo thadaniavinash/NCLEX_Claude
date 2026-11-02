@@ -4,13 +4,13 @@ Written on 2 Nov 2026 for the Unit 7 (Neurological Disorders) learning outcomes.
 
 ## NURS 1017 Unit 7 Case Study 2
 
-19-year-old male client who fell from a longboard without a helmet: concussion picture, then a right temporal epidural hematoma with a lucid interval and uncal herniation (Monro-Kellie doctrine, Cushing's triad), care after craniotomy to prevent secondary brain injury (ICP, CPP), and discharge teaching on TBI prevention and graded return to activity.
+19-year-old male client who fell from a longboard without a helmet: recognizing a head injury, early and late signs of increased ICP during neurological checks (epidural hematoma with a lucid interval), the nurse's response to deterioration, nursing care to prevent secondary brain injury after craniotomy (positioning, suctioning, fever, sedation and hypertonic saline monitoring), and discharge teaching on medication effects, graded return to activity and TBI prevention.
 
 **Notes for review:**
 
-- Learning outcomes: TBI definition/etiology/prevention, coup-contrecoup and contusion, concussion (pathophysiology, older grades), epidural vs subdural vs subarachnoid bleeding, secondary injury, Monro-Kellie, ICP manifestations, CPP.
-- Targets follow the Brain Trauma Foundation 4th edition (SBP ≥ 110 mm Hg, ICP > 22 mm Hg, CPP 60–70 mm Hg); your course text may give other numbers (for example, ICP 20 mm Hg).
-- Clinician review: orders in the Provider Orders tab (doses) and the return-to-sport statement.
+- Revised 2 Nov 2026 to the nursing-focused rules (safety, function, quality of life; hallmark manifestations; labs and medication adverse effects included; no emphasis on doses or treatment criteria).
+- Screen 2 is now early vs late signs of increased ICP; concussion, contusion, coup-contrecoup and the hematoma types are in its rationale.
+- Clinician review: provider orders (doses), the sodium result after hypertonic saline, the return-to-sport statement.
 
 ### Screen 1: Recognize (highlight)
 
@@ -44,32 +44,32 @@ The nurse reviews the Nurses' Notes and the Vital Signs. **Highlight** the findi
 
 **Do not require follow-up now:** being alert, equal and brisk pupils, equal strength, no drainage from the nose or ears (no sign of a basal skull fracture or CSF leak), and normal vital signs. These are the baseline the nurse compares with on every neurological check.
 
-### Screen 2: Analyze (matrix_mr)
+### Screen 2: Analyze (matrix_mc)
 
-*The nurse has reviewed the Diagnostic Results and the Nurses' Notes from 1615.*
+*The nurse has reviewed the Diagnostic Results, the Laboratory Results and the Nurses' Notes from 1615.*
 
-The client asks how his injury differs from a concussion. For each finding, click to specify whether it is consistent with a **concussion**, an **epidural hematoma**, a **subdural hematoma**, or a **subarachnoid hemorrhage**. Each finding may support more than one condition.
+The nurse is performing neurological checks every 15 minutes. For each finding, click to specify whether it would be an **early sign** of increased intracranial pressure (ICP), a **late sign** of increased ICP, or **not a sign** of increased ICP.
 
-- Bleeding from a torn middle meningeal artery, often with a temporal bone fracture → **Epidural hematoma**
-- Brief loss of consciousness with amnesia for the event and a normal CT scan → **Concussion**
-- Crescent-shaped collection from torn bridging veins that can spread across suture lines → **Subdural hematoma**
-- Headache, nausea, and vomiting → **Concussion, Epidural hematoma, Subdural hematoma, Subarachnoid hemorrhage**
-- Loss of consciousness, then a lucid interval, then rapid deterioration → **Epidural hematoma**
-- Sudden, severe (“worst ever”) headache with neck stiffness from blood in the space around the brain → **Subarachnoid hemorrhage**
-- Symptoms that may develop slowly over weeks in older adults and clients taking anticoagulants → **Subdural hematoma**
-- Biconvex (lens-shaped) collection that stops at the suture lines → **Epidural hematoma**
+- New restlessness, irritability, or confusion → **Early sign**
+- One pupil dilated and not reacting to light → **Late sign**
+- Headache that is getting worse, with vomiting → **Early sign**
+- Abrasion over the right temple → **Not a sign**
+- Rising systolic BP with a widening pulse pressure, a slowing pulse, and irregular breathing → **Late sign**
+- Takes longer to answer, or needs a louder voice or a touch to stay awake → **Early sign**
+- Abnormal flexion or extension of the arms in response to a painful stimulus → **Late sign**
+- Pupils equal, round, and briskly reactive → **Not a sign**
 
 **Rationale**
 
-**Concussion** is a mild diffuse TBI. Rapid acceleration and deceleration stretch axons; this causes ion shifts (potassium out of and calcium into neurons), a surge of glutamate, and an energy crisis in which the brain needs more glucose while its blood flow falls. The result is a temporary loss of function (confusion, amnesia, headache, nausea, sometimes loss of consciousness) without a structural lesion, so **CT and MRI are normal**. Older systems graded concussions (for example, grade 1: confusion without loss of consciousness, clearing within 15 minutes; grade 2: symptoms longer than 15 minutes; grade 3: any loss of consciousness). Current Canadian and international guidance has dropped the grades and manages each concussion by its symptoms, with a gradual return to activity.
+**Why this client is watched so closely:** his CT shows a small **epidural hematoma**: arterial bleeding from the middle meningeal artery, under a temporal bone fracture, between the skull and the dura. A typical course is a brief loss of consciousness, then a **lucid interval** in which the client seems well (as he does now, asking to go home), then rapid deterioration as the arterial clot grows. The skull cannot expand: according to the **Monro-Kellie doctrine**, its contents (brain tissue about 80%, blood about 10%, CSF about 10%) keep ICP normal only while CSF and venous blood can be pushed out to make room. Once that reserve is used up, ICP rises quickly.
 
-**Epidural hematoma**: arterial bleeding (usually the middle meningeal artery under a temporal bone fracture) between the skull and the dura. The dura is attached at the sutures, so the clot is **biconvex and stops at the suture lines**. Classic course: brief loss of consciousness, a **lucid interval** (minutes to hours), then rapid deterioration as the arterial clot expands. It is a neurosurgical emergency.
+**Early signs** (report promptly): a change in level of consciousness is the earliest and most sensitive sign: restlessness, irritability, new confusion, slower responses, needing more stimulation to stay awake. Worsening headache and vomiting also occur early.
 
-**Subdural hematoma**: venous bleeding from **torn bridging veins** between the dura and the arachnoid; it is **crescent-shaped** and can cross suture lines. Acute subdurals follow severe injury; chronic subdurals develop over weeks in older adults (brain atrophy stretches the veins), people who misuse alcohol, and those taking anticoagulants.
+**Late signs** (an emergency): a dilated, nonreactive pupil (pressure on cranial nerve III), abnormal posturing (decorticate flexion or decerebrate extension), and **Cushing's triad** (rising systolic BP with a widening pulse pressure, bradycardia, irregular respirations), which means the brainstem is being compressed.
 
-**Subarachnoid hemorrhage**: blood in the subarachnoid space (CSF space), from trauma or a ruptured aneurysm, causing a sudden severe headache and meningeal irritation (neck stiffness, photophobia).
+**Not signs of increased ICP:** the abrasion and equal, brisk pupils (the baseline the nurse compares with).
 
-**All four** can cause headache, nausea and vomiting. This client also has a **contusion** (bruised brain tissue) of the left frontal lobe, on the opposite side from the blow: a **coup-contrecoup** (polar) injury, where the brain strikes the skull at the impact site (coup) and then rebounds against the opposite side (contrecoup).
+**Other injury types:** a **concussion** is a temporary disturbance of brain function from acceleration-deceleration forces (stretched axons, ion shifts, an energy crisis) with a normal CT; older systems graded it (grade 1: confusion without loss of consciousness, clearing within 15 minutes; grade 2: longer than 15 minutes; grade 3: any loss of consciousness), but current guidance manages each concussion by its symptoms. A **contusion** is bruised brain tissue; his left frontal contusion, opposite the blow, is a **coup-contrecoup** injury. A **subdural hematoma** is venous bleeding from torn bridging veins (crescent-shaped, may develop slowly in older adults or people on anticoagulants), and a **subarachnoid hemorrhage** is blood in the CSF space (sudden severe headache, neck stiffness). His normal platelets and INR mean no bleeding disorder is adding to the risk.
 
 ### Screen 3: Prioritize hypotheses (dropdown_cloze)
 
@@ -77,22 +77,19 @@ The client asks how his injury differs from a concussion. For each finding, clic
 
 Complete the following sentences by choosing from the lists of options.
 
-The client's deterioration is most likely caused by **[expansion of the epidural hematoma]**. Because the skull cannot expand, the added **[blood]** volume was at first offset by moving **[cerebrospinal fluid and venous blood]** out of the skull. That compensation has now failed, and the rising ICP is causing **[herniation of the right temporal lobe (uncus) that compresses cranial nerve III and the brainstem]**.
+The client's findings indicate **[rapidly rising ICP from the expanding epidural hematoma]**, as shown by **[a falling GCS, a dilated right pupil, left-sided weakness, and Cushing's triad]**. The nurse's first action is to **[notify the provider immediately and prepare him for emergency surgery]**.
 
-- Drop-down 1: **expansion of the epidural hematoma** (other choices: a postictal state; dehydration from vomiting; a second concussion)
-- Drop-down 2: **blood** (other choices: cerebrospinal fluid; brain tissue)
-- Drop-down 3: **cerebrospinal fluid and venous blood** (other choices: interstitial fluid into the lungs; arterial blood and brain tissue; brain tissue only)
-- Drop-down 4: **herniation of the right temporal lobe (uncus) that compresses cranial nerve III and the brainstem** (other choices: compression of the spinal cord at C1; bleeding into the left frontal contusion; herniation of the left frontal lobe under the falx)
+- Drop-down 1: **rapidly rising ICP from the expanding epidural hematoma** (other choices: a postictal state after an unwitnessed seizure; dehydration from vomiting; a second concussion)
+- Drop-down 2: **a falling GCS, a dilated right pupil, left-sided weakness, and Cushing's triad** (other choices: an SpO₂ of 94%; a temperature of 37.0° C; the abrasion over his right temple)
+- Drop-down 3: **notify the provider immediately and prepare him for emergency surgery** (other choices: lower the head of the bed flat; recheck his neurological status in 15 minutes; give him an antiemetic and let him sleep)
 
 **Rationale**
 
-**Expanding epidural hematoma:** the client had a brief loss of consciousness, a lucid interval (talking, “a bit better”), and now rapid deterioration, the classic course of an arterial epidural bleed.
+**Rapidly rising ICP from the expanding hematoma:** after the lucid interval, his level of consciousness has fallen (GCS 14 to 10), and he now has late signs: a dilated, sluggish pupil on the **same side** as the bleed (the swelling temporal lobe pushes on cranial nerve III), weakness on the **opposite side** (the motor tracts cross in the brainstem), and Cushing's triad (BP 174/70 mm Hg with a widened pulse pressure, pulse 56 beats/min, irregular respirations). These mean the brain is about to herniate.
 
-**Monro-Kellie doctrine:** the adult skull is a rigid box holding about 80% brain tissue, 10% blood and 10% CSF. If one volume increases (here, **blood** from the hematoma), ICP stays normal only if another decreases: CSF is pushed into the spinal subarachnoid space and absorbed faster, and venous blood is squeezed out. Once these small reserves are used up, a little more volume causes a steep rise in ICP (normal ICP is 5 to 15 mm Hg).
+**First action:** this is a neurosurgical emergency; the provider is notified at once and the client is prepared for emergency evacuation of the clot (the nurse also protects the airway, raises the head of the bed to 30 degrees with the head midline, and stays with him). Waiting 15 minutes, sedating him, or lying him flat would delay treatment or raise ICP further.
 
-**Uncal (transtentorial) herniation:** the expanding right temporal clot pushes the medial temporal lobe (uncus) through the tentorial notch. It compresses **cranial nerve III on the same side** (right pupil dilated and sluggish) and the brainstem motor tracts, which cross below, causing **weakness on the opposite side** (left). Falling GCS and **Cushing's triad** (BP 174/70 mm Hg with a widened pulse pressure, bradycardia of 56 beats/min, irregular respirations) are late signs that the brainstem is being compressed. This needs emergency surgical evacuation of the clot.
-
-**Why not the others:** a second concussion would not cause a unilateral dilated pupil or Cushing's triad; there was no seizure; two episodes of vomiting do not explain focal signs.
+**Why not the others:** a concussion, a postictal state or dehydration would not cause a one-sided dilated pupil or Cushing's triad.
 
 ### Screen 4: Generate solutions (matrix_mc)
 
@@ -101,42 +98,42 @@ The client's deterioration is most likely caused by **[expansion of the epidural
 The nurse plans care to prevent secondary brain injury. For each intervention, click to specify whether it is **indicated** or **contraindicated**.
 
 - Keep the head and neck in midline alignment and avoid tight endotracheal tube ties around the neck → **Indicated**
-- Hyperventilate the client routinely to keep the PaCO₂ near 25 mm Hg → **Contraindicated**
-- Report a systolic BP below 110 mm Hg promptly → **Indicated**
 - Position the client with the hips flexed more than 90 degrees → **Contraindicated**
+- Compare each neurological check with the previous one and report any decline → **Indicated**
 - Change the maintenance IV fluid to 5% dextrose in water → **Contraindicated**
-- Give the prescribed acetaminophen and use cooling measures for a temperature above 38° C → **Indicated**
+- Monitor the BP, respirations and sedation level closely while the propofol and fentanyl infusions run → **Indicated**
 - Hyperoxygenate before suctioning and limit each suction pass to 10 seconds or less → **Indicated**
 - Group the bath, linen change, suctioning, and repositioning into one long session → **Contraindicated**
+- Turn the client every 2 hours, keeping the head in line with the body → **Indicated**
 
 **Rationale**
 
-**Secondary brain injury** is the damage that develops in the hours and days after the primary injury (the impact, fracture and bleed). Ischemia triggers an injury cascade: glutamate release, calcium entry into cells, free radicals and inflammation. Failing cell membrane pumps let sodium and water into cells (**cytotoxic edema**), and damage to the blood-brain barrier lets plasma leak into the brain (**vasogenic edema**), both raising ICP. Hypoxia, hypotension, hypercapnia or excessive hypocapnia, fever, seizures, and high or low glucose all worsen it, so nursing care aims to prevent each one.
+**Secondary brain injury** is damage that develops in the hours and days after the primary injury. Low oxygen and low blood flow trigger a chain of events (glutamate release, calcium entry into cells, inflammation) that causes two kinds of swelling: **cytotoxic edema** (cells swell when their membrane pumps fail) and **vasogenic edema** (a leaky blood-brain barrier lets fluid into the tissue). Hypoxia, hypotension, fever, seizures and high or low glucose all make it worse; nursing care aims to prevent each one.
 
-**Indicated:** a midline head and neck and loose tube ties keep the jugular veins open for venous drainage. Low BP lowers cerebral perfusion pressure (CPP = MAP − ICP); guidelines keep SBP at or above 110 mm Hg in adults aged 15 to 49. Fever raises brain metabolism and blood flow, so it is treated promptly. Suctioning raises ICP, so it is kept brief and preceded by hyperoxygenation.
+**Indicated:** a midline head and loose tube ties keep the jugular veins open so blood drains from the brain. Comparing each neurological check with the last one detects decline early. Propofol and opioids can lower BP and depress breathing (adverse effects that reduce blood flow to the brain), so BP and sedation are monitored. Suctioning raises ICP, so it is brief and preceded by extra oxygen. Regular turning with the head aligned prevents pressure injuries and pneumonia without raising ICP.
 
-**Contraindicated:** routine hyperventilation lowers PaCO₂ and constricts cerebral vessels, reducing ICP briefly but causing ischemia; it is not used to prevent ICP rises (only briefly, on order, for signs of herniation). Hip flexion above 90 degrees raises intra-abdominal and intrathoracic pressure and impedes venous return from the head. D5W becomes free water once the glucose is used and worsens cerebral edema; isotonic 0.9% sodium chloride is used. Long clusters of care cause sustained ICP rises; activities are spaced with rest periods.
+**Contraindicated:** hip flexion above 90 degrees raises abdominal and chest pressure and slows venous drainage from the head. D5W acts as free water once the glucose is used, and worsens brain swelling; isotonic fluids are used. Long clusters of care cause sustained rises in ICP; activities are spaced with rest periods.
 
 ### Screen 5: Take action (select_all)
 
-*The nurse has reviewed the Nurses' Notes from Day 2 0400 and the Vital Signs from Day 2 0400.*
+*The nurse has reviewed the Nurses' Notes from Day 2 0400, the Vital Signs from Day 2 0400 and the Laboratory Results from Day 2 0200.*
 
 Which actions should the nurse take? **Select all that apply.**
 
 1. Lower the head of the bed flat to increase blood flow to the brain
-2. Complete the morning bed bath now while the client is awake
-3. **✓** Administer the prescribed 3% sodium chloride
-4. **✓** Notify the provider of the ICP and the CPP
+2. **✓** Check the IV site of the hypertonic saline for redness, swelling or pain
+3. **✓** Give the prescribed acetaminophen and apply cooling measures
+4. Complete the morning bed bath now while the client is awake
 5. **✓** Reposition the head to midline and confirm the head of the bed is at 30 degrees
 6. **✓** Administer the prescribed PRN fentanyl
-7. **✓** Give the prescribed acetaminophen and apply cooling measures
-8. Suction the endotracheal tube every 15 minutes to prevent coughing
+7. Suction the endotracheal tube every 15 minutes to prevent coughing
+8. **✓** Notify the provider of the ICP and CPP and the latest sodium result
 
 **Rationale**
 
-**CPP = MAP − ICP = 78 − 26 = 52 mm Hg**, below the target of 60 to 70 mm Hg, and the ICP has been above 22 mm Hg for more than 5 minutes. Coughing against the ventilator, a head turned to one side (kinked jugular veins) and fever (38.6° C) are all raising it.
+**CPP = MAP − ICP = 78 − 26 = 52 mm Hg**, below the ordered limit of 60 mm Hg, and the ICP has been above the ordered limit for 10 minutes. Coughing against the ventilator, a head turned to one side (kinked jugular veins) and fever are raising it.
 
-**Correct:** straighten the head and keep the head of the bed at 30 degrees to improve venous drainage. Give the PRN fentanyl for coughing and agitation. Give the 3% sodium chloride as ordered: hypertonic saline draws water out of brain tissue into the blood. Treat the fever (acetaminophen, cooling) to lower brain metabolism. Notify the provider, because the ICP and CPP are outside the ordered limits.
+**Correct:** straighten the head and keep the head of the bed at 30 degrees to improve venous drainage. Give the PRN fentanyl for coughing and agitation, as ordered. Treat the fever, which raises brain metabolism and blood flow. Notify the provider: the ICP and CPP are outside the ordered limits, and the sodium has risen to 149 mmol/L after two doses of hypertonic saline (it draws water out of the brain into the blood, so sodium is monitored; a high sodium is an expected effect, but the provider decides whether another dose is safe). Hypertonic solutions irritate veins and damage tissue if they leak, so the IV site is checked.
 
 **Incorrect:** lying flat reduces venous drainage and raises ICP. Frequent routine suctioning triggers coughing and raises ICP; suction only when needed. Nonurgent care (a bed bath) is postponed while ICP is high.
 
@@ -148,6 +145,7 @@ For each statement the client makes, click to specify whether it indicates an **
 
 - “I'll wear a certified helmet every time I ride my longboard or bike.” → **Understanding**
 - “I can go back to playing hockey as soon as my headache is gone.” → **Needs further teaching**
+- “If I feel unusually irritable, down, or very sleepy on the levetiracetam, I'll tell my doctor.” → **Understanding**
 - “A few beers at the party this weekend won't affect how my brain heals.” → **Needs further teaching**
 - “I'll drive myself to my follow-up appointment next week.” → **Needs further teaching**
 - “If my headache gets much worse, I keep vomiting, or I get very sleepy or confused, I'll go to emergency.” → **Understanding**
@@ -155,19 +153,19 @@ For each statement the client makes, click to specify whether it indicates an **
 
 **Rationale**
 
-**Understanding:** most TBIs are preventable (falls, motor vehicle and bicycle crashes, sports and assaults are the main causes in Canada); a certified helmet, seat belts, fall prevention and not riding or driving impaired reduce the risk. Worsening headache, repeated vomiting, drowsiness or confusion can mean a new bleed or rising ICP and need emergency care. After a brain injury, a short period of relative rest is followed by a **gradual** return to light activity and screen use, increased only if symptoms do not worsen.
+**Understanding:** most traumatic brain injuries are preventable (falls, motor vehicle and bicycle crashes, sports and assaults are the main causes); a certified helmet, seat belts, fall prevention and not riding or driving impaired reduce the risk. Levetiracetam commonly causes drowsiness and can cause irritability, mood changes and, rarely, depression or suicidal thoughts, which he reports. Worsening headache, repeated vomiting, drowsiness or confusion can mean bleeding or rising pressure and need emergency care. After a brain injury, a short period of relative rest is followed by a **gradual** return to light activity and screen use, increased only if symptoms do not worsen.
 
-**Needs further teaching:** return to contact sport needs a stepwise plan and clearance by the neurosurgeon (after a craniotomy and a second brain injury, this may take months or not be advised); a further injury before recovery causes greater damage. Alcohol slows recovery, impairs judgment (raising the risk of another injury) and lowers the seizure threshold. Driving is not allowed until the provider clears him (attention, reaction time and seizure risk after a brain injury).
+**Needs further teaching:** return to contact sport follows a stepwise plan and needs clearance by the neurosurgeon; another injury before recovery causes greater damage. Alcohol slows recovery, impairs judgment (raising the risk of another injury), adds to the drowsiness from levetiracetam and lowers the seizure threshold. Driving is not allowed until the provider clears him.
 
 ## NURS 1017 Unit 7 Case Study 3
 
-19-year-old university student with meningococcal meningitis and early sepsis: meningeal signs, bacterial vs viral CSF findings, increased ICP and the types of cerebral edema, droplet precautions and public health follow-up, a generalized tonic-clonic seizure (seizure classification), communicating hydrocephalus with an external ventricular drain, and evaluation of complications.
+19-year-old university student with meningococcal meningitis and early sepsis: recognizing the hallmark signs of meningeal irritation, increased ICP and sepsis (including the nonblanching rash), nursing priorities, droplet precautions, a quiet environment, seizure precautions and public health follow-up, monitoring for vancomycin and dexamethasone adverse effects, care during and after a seizure, communicating hydrocephalus, and evaluation of complications such as hearing loss.
 
 **Notes for review:**
 
-- Learning outcomes: pathophysiology of bacterial meningitis, increased ICP and the types of cerebral edema, seizure classification, communicating vs non-communicating hydrocephalus.
+- Revised 2 Nov 2026 to the nursing-focused rules: screen 2 now sorts findings into meningeal irritation, increased ICP and sepsis (CSF results stay in the chart and rationale); screen 4 adds monitoring for vancomycin and dexamethasone adverse effects.
 - CSF reference values are common textbook values (not in the MCC list): please check them against your course text.
-- Clinician review: antibiotic, dexamethasone and levetiracetam orders; chemoprophylaxis wording (ciprofloxacin).
+- Clinician review: antibiotic, dexamethasone and levetiracetam orders; chemoprophylaxis wording.
 
 ### Screen 1: Recognize (select_all)
 
@@ -196,24 +194,26 @@ The nurse reviews the client's history and assessment. Which of the following fi
 
 *The nurse has reviewed the Nurses' Notes from Day 1 2215 and 2310, the Diagnostic Results and the Laboratory Results.*
 
-For each finding, click to specify whether it is consistent with **bacterial meningitis**, **viral meningitis**, or both. Each finding may support more than one condition.
+For each finding, click to specify whether it is a sign of **meningeal irritation**, **increased intracranial pressure (ICP)**, or **sepsis**. Each finding may be a sign of more than one problem.
 
-- Cloudy (turbid) CSF → **Bacterial meningitis**
-- CSF white blood cells mostly lymphocytes → **Viral meningitis**
-- Fever, headache, and neck stiffness → **Bacterial meningitis, Viral meningitis**
-- CSF glucose much lower than normal → **Bacterial meningitis**
-- Organisms seen on the CSF Gram stain → **Bacterial meningitis**
-- Clear CSF with a normal glucose → **Viral meningitis**
-- Elevated CSF protein → **Bacterial meningitis, Viral meningitis**
-- CSF white blood cells mostly neutrophils → **Bacterial meningitis**
+- Neck stiffness with pain on flexion → **Meningeal irritation**
+- Drowsy and oriented to person only → **Increased ICP, Sepsis**
+- Nonblanching petechial rash on the legs and trunk → **Sepsis**
+- Positive Kernig and Brudzinski signs → **Meningeal irritation**
+- BP 96/58 mm Hg, cool hands and feet, and a capillary refill of 4 seconds → **Sepsis**
+- Photophobia → **Meningeal irritation**
+- CSF opening pressure of 32 cm H₂O → **Increased ICP**
+- Lactate 4.1 mmol/L → **Sepsis**
 
 **Rationale**
 
-**How bacterial meningitis develops:** *N. meningitidis* colonizes the nasopharynx and spreads by respiratory droplets and close contact (shared residences). It invades the bloodstream, crosses the blood-brain barrier (mainly at the choroid plexus) and multiplies freely in the CSF, which has few antibodies or complement. Bacterial cell wall products (endotoxin) trigger cytokines, and **neutrophils** pour into the subarachnoid space, forming a **purulent exudate** that coats the meninges and turns the CSF **cloudy**. Bacteria and white cells consume glucose and the inflamed barrier transports less, so **CSF glucose falls**; leaking plasma raises **CSF protein**. The Gram stain often shows the organism (Gram-negative diplococci = *N. meningitidis*; Gram-positive diplococci = *Streptococcus pneumoniae*).
+**How bacterial meningitis develops:** *Neisseria meningitidis* spreads by respiratory droplets and close contact (shared residences). It colonizes the nasopharynx, enters the bloodstream, crosses the blood-brain barrier and multiplies in the CSF. The body's inflammatory response fills the space around the brain with white cells and pus (the cloudy CSF with neutrophils, high protein and low glucose on her results), irritates the meninges, and makes the brain swell.
 
-**Viral meningitis** (often enteroviruses) is usually milder and self-limiting: clear CSF, a **lymphocyte** predominance, a **normal glucose**, a mildly raised protein and no organisms on Gram stain.
+**Meningeal irritation** (hallmark signs): neck stiffness, photophobia, and positive **Kernig** (pain and resistance when the knee is straightened with the hip flexed) and **Brudzinski** (bending the neck makes the hips and knees flex) signs, because these movements stretch the inflamed meninges.
 
-**Both** cause fever, headache and meningeal signs, so CSF analysis is needed to tell them apart. Because bacterial meningitis can kill within hours, blood cultures are drawn and antibiotics (with dexamethasone) are started without waiting for the CT and lumbar puncture when these will be delayed.
+**Increased ICP:** a falling level of consciousness is the earliest sign; the high CSF opening pressure confirms it. Swelling comes from leaky vessels (vasogenic edema), injured cells (cytotoxic edema) and blocked CSF absorption.
+
+**Sepsis:** meningococcal bacteria in the blood cause low BP, poor perfusion (cool skin, slow capillary refill), a high lactate, and a **nonblanching petechial or purpuric rash** from bleeding into the skin as clotting factors and platelets are used up (platelets 88 × 10⁹/L). Drowsiness can come from both raised ICP and poor brain perfusion. The rash is a hallmark of meningococcal disease and must be reported at once.
 
 ### Screen 3: Prioritize hypotheses (dropdown_cloze)
 
@@ -241,20 +241,25 @@ The client is at highest risk for **[increased intracranial pressure]** as a res
 Which interventions should the nurse include in the client's plan of care? **Select all that apply.**
 
 1. **✓** Maintain droplet precautions until she has received 24 hours of effective antibiotic therapy
-2. Support the neck in flexion on two pillows to ease the neck pain
+2. **✓** Watch for flushing, itching and low BP during the vancomycin infusion
 3. **✓** Keep the room quiet and dimly lit
 4. Restrict fluids to 500 mL per day to prevent cerebral edema
-5. **✓** Implement seizure precautions
+5. Support the neck in flexion on two pillows to ease the neck pain
 6. **✓** Elevate the head of the bed to 30 degrees
 7. Place her in a negative-pressure room and wear an N95 respirator for all care
-8. **✓** Give the antibiotics on time to maintain therapeutic blood levels
+8. **✓** Implement seizure precautions
 9. **✓** Confirm that public health has been notified so close contacts can receive preventive antibiotics
+10. **✓** Check her capillary glucose while she receives dexamethasone
 
 **Rationale**
 
-**Include:** *N. meningitidis* spreads by large respiratory droplets, so **droplet precautions** (surgical mask within 2 metres, private room) continue until 24 hours of effective therapy. A quiet, dim room reduces photophobia, pain and stimulation that can raise ICP. The head of the bed at 30 degrees aids venous drainage. Cortical irritation makes seizures common, so seizure precautions are in place. Antibiotics are time-critical. Meningococcal disease is reportable: public health traces close contacts (roommates, partners, people who shared drinks) and arranges chemoprophylaxis (for example, a single dose of ciprofloxacin) and vaccination. Prevention in Canada includes the MenC-ACYW vaccine in the school program and the MenB vaccine for people at higher risk.
+**Include:** *N. meningitidis* spreads by large respiratory droplets, so **droplet precautions** (surgical mask within 2 metres, private room) continue until 24 hours of effective therapy. A quiet, dim room eases photophobia and headache and avoids stimulation that can raise ICP. The head of the bed at 30 degrees aids venous drainage. Irritation of the brain surface makes seizures common, so seizure precautions are in place. Meningococcal disease is reportable: public health traces close contacts (roommates, partners, people who shared drinks) and arranges preventive antibiotics and vaccination.
 
-**Do not include:** airborne precautions with a negative-pressure room are for diseases such as tuberculosis or measles, not meningococcus. Fluid restriction would worsen her shock; she needs fluids to keep a normal volume and perfusion (sodium is monitored for SIADH). Neck flexion is painful and can obstruct venous outflow; the neck is kept in a neutral position.
+**Medication adverse effects:** vancomycin infused too quickly can cause a **vancomycin infusion reaction** (flushing and itching of the face, neck and upper body, sometimes low BP); the nurse slows or stops the infusion and reports it. Vancomycin can also harm the kidneys, so creatinine and trough levels are followed. Dexamethasone raises blood glucose (and can cause gastric irritation, mood change and insomnia), so glucose is monitored.
+
+**Do not include:** airborne precautions with a negative-pressure room are for diseases such as tuberculosis or measles, not meningococcus. Fluid restriction would worsen her shock; she needs fluids to maintain perfusion (sodium is monitored, because meningitis can cause water retention). Neck flexion is painful and can obstruct venous outflow from the head; the neck is kept in a neutral position.
+
+**Prevention:** in Canada, the MenC-ACYW vaccine is given in the school program and the MenB vaccine to people at higher risk; both are part of the nurse's teaching for students in shared housing.
 
 ### Screen 5: Take action (matrix_mc)
 
@@ -302,14 +307,13 @@ For each finding, click to specify whether it shows that an **expected outcome h
 
 ## NURS 1017 Unit 7 Case Study 4
 
-57-year-old female client with a first seizure in adulthood from a left frontotemporal glioblastoma: signs of increased ICP, glioblastoma vs meningioma vs brain metastasis, focal impaired awareness to bilateral tonic-clonic seizure, vasogenic vs cytotoxic edema, Monro-Kellie components and hydrocephalus types, status epilepticus after craniotomy, and corticosteroid complications at discharge.
+57-year-old female client with a first seizure in adulthood from a glioblastoma: recognizing signs of increased ICP, focal deficits and seizure features, documenting the seizure type, vasogenic edema and dexamethasone adverse effects, a care plan that keeps her safe and prevents rises in ICP, status epilepticus after craniotomy, and corticosteroid effects at discharge.
 
 **Notes for review:**
 
-- Learning outcomes: brain tumour types, seizure classification, vasogenic vs cytotoxic edema, Monro-Kellie components and causes of increased ICP, non-communicating vs communicating hydrocephalus.
-- Screen 4 is a knowledge matrix framed as care planning (which volume each factor increases); please confirm it fits your Generate Solutions expectations.
+- Revised 2 Nov 2026 to the nursing-focused rules: screen 2 now sorts findings into tumor location, increased ICP and seizure (tumor types in the rationale); screen 3 adds the dexamethasone adverse effect; screen 4 is a nursing care plan (Monro-Kellie and hydrocephalus in the rationale); screen 5 adds monitoring after lorazepam.
 - The capillary glucose target (4.0–7.0 mmol/L before meals) is the Diabetes Canada target, not an MCC laboratory range.
-- Clinician review: dexamethasone, levetiracetam and lorazepam doses.
+- Clinician review: dexamethasone, levetiracetam and lorazepam orders.
 
 ### Screen 1: Recognize (highlight)
 
@@ -343,71 +347,69 @@ The nurse reviews the Nurses' Notes and the Vital Signs. **Highlight** the findi
 
 ### Screen 2: Analyze (matrix_mr)
 
-*The nurse has reviewed the Diagnostic Results.*
+*The nurse has reviewed the Diagnostic Results and the Laboratory Results.*
 
-The client's husband asks what kind of tumor this might be. For each feature, click to specify whether it is typical of a **glioblastoma**, a **meningioma**, or a **brain metastasis**. Each feature may apply to more than one tumor.
+For each finding, click to specify whether it is related to the **tumor's location** (a focal deficit), to **increased intracranial pressure (ICP)**, or to the **seizure**. Each finding may be related to more than one cause.
 
-- Arises from the meninges (arachnoid cells), outside the brain tissue → **Meningioma**
-- Arises from glial cells (astrocytes) within the brain tissue → **Glioblastoma**
-- Spreads to the brain through the blood from cancers such as lung, breast, or melanoma → **Brain metastasis**
-- Can cause seizures, headache, and focal neurological deficits → **Glioblastoma, Meningioma, Brain metastasis**
-- Usually benign and slow-growing; often cured by complete removal → **Meningioma**
-- Ring-enhancing lesion with surrounding edema on MRI → **Glioblastoma, Brain metastasis**
-- Infiltrates the surrounding brain, so complete removal is rarely possible → **Glioblastoma**
-- Most common malignant primary brain tumor in adults → **Glioblastoma**
+- Trouble finding words → **Tumor's location**
+- Headaches worst on waking and with coughing or bending → **Increased ICP**
+- Bitten tongue and urinary incontinence → **Seizure**
+- Weaker grip in the right hand → **Tumor's location**
+- Bilateral papilledema → **Increased ICP**
+- Irritable and forgetful, “not herself” → **Tumor's location**
+- Drowsy and slow to answer in the emergency department → **Increased ICP, Seizure**
 
 **Rationale**
 
-**Gliomas** arise from the glial (supporting) cells of the brain: astrocytomas, oligodendrogliomas and ependymomas. **Glioblastoma** (grade 4 astrocytoma) is the most common malignant primary brain tumor in adults. It grows quickly, has a necrotic centre with ring enhancement, and sends cells along white matter tracts, so it cannot be removed completely and usually recurs; treatment is surgery, then radiation with temozolomide chemotherapy.
+**Tumor location (focal deficits):** a left frontotemporal tumor affects language (word-finding difficulty), movement of the opposite (right) side, and the frontal lobe's control of personality and memory. The nurse documents these as her baseline and watches for change.
 
-**Meningiomas** arise from arachnoid cells of the meninges and press on the brain from outside (extra-axial, dural-based). They are the most common primary intracranial tumor, are usually benign and slow-growing, and are often cured by complete removal, but their location can still cause seizures, headache and deficits. Other tumor types include pituitary adenomas and vestibular schwannomas (acoustic neuromas).
+**Increased ICP:** the tumor and the swelling around it take up space (Monro-Kellie doctrine: the skull holds brain tissue, blood and CSF, and when one increases, ICP rises once the others can no longer make room). Morning headache, headache with coughing or bending, vomiting and papilledema are its hallmark signs.
 
-**Brain metastases** are the most common brain tumors overall in adults. Cancer cells reach the brain through the blood (most often from lung, breast, melanoma, kidney and colon) and are often multiple, at the grey-white matter junction, with ring enhancement and edema; that is why her chest, abdomen and pelvis were scanned.
+**Seizure:** tongue biting and incontinence happen during a tonic-clonic seizure. Drowsiness can be **postictal** or a sign of increased ICP, so the nurse checks whether it improves over the next hour; if it does not, or worsens, it is reported.
 
-Any brain tumor can raise ICP (mass and edema), irritate the cortex (seizures) and cause deficits according to its location.
+**Types of brain tumors:** **gliomas** arise from the brain's supporting (glial) cells; **glioblastoma** is the most common malignant primary brain tumor in adults, grows quickly and infiltrates surrounding brain. **Meningiomas** arise from the meninges, are usually benign and slow-growing, and press on the brain from outside. **Metastases** from cancers such as lung, breast and melanoma are the most common brain tumors overall (which is why her chest, abdomen and pelvis were scanned). Any of them can cause headache, seizures and focal deficits.
 
 ### Screen 3: Prioritize hypotheses (dropdown_cloze)
 
 Complete the following sentences by choosing from the lists of options.
 
-The seizure the husband described is best classified as a **[focal impaired awareness seizure that progressed to a bilateral tonic-clonic seizure]**. The client's signs of increased ICP are mainly caused by **[vasogenic edema]**, which results from **[abnormal tumor blood vessels that let plasma leak through a damaged blood-brain barrier]** and is expected to improve with **[dexamethasone]**.
+The nurse documents the seizure the husband described as a **[focal impaired awareness seizure that progressed to a bilateral tonic-clonic seizure]**. The client's signs of increased ICP are mainly caused by **[vasogenic edema]**, which is expected to improve with **[dexamethasone]**, so the nurse monitors her for **[hyperglycemia]**.
 
 - Drop-down 1: **focal impaired awareness seizure that progressed to a bilateral tonic-clonic seizure** (other choices: generalized absence seizure; generalized-onset tonic-clonic seizure; focal aware motor seizure)
 - Drop-down 2: **vasogenic edema** (other choices: interstitial edema from hydrocephalus; cytotoxic edema; bleeding into the tumor)
-- Drop-down 3: **abnormal tumor blood vessels that let plasma leak through a damaged blood-brain barrier** (other choices: failure of the sodium-potassium pump in oxygen-deprived brain cells; a low serum albumin; blocked CSF absorption at the arachnoid villi)
-- Drop-down 4: **dexamethasone** (other choices: levetiracetam; a hypotonic IV fluid; acetaminophen)
+- Drop-down 3: **dexamethasone** (other choices: levetiracetam; a hypotonic IV fluid; acetaminophen)
+- Drop-down 4: **hyperglycemia** (other choices: bradycardia; hypoglycemia; hypotension)
 
 **Rationale**
 
-**Seizure type:** the seizure began in one hemisphere (the left temporal lobe near the tumor): staring and unresponsiveness (impaired awareness) with automatisms (lip smacking, picking at clothing with the right hand) is a **focal impaired awareness seizure** (formerly complex partial). It then spread to both hemispheres: a **focal to bilateral tonic-clonic seizure** (formerly secondarily generalized). A generalized-onset seizure involves both hemispheres from the start, without a focal beginning; an absence seizure is a brief stare without convulsions; in a focal aware seizure the person stays aware. A new seizure starting in adulthood always needs a search for a structural cause such as a tumor.
+**Seizure type:** staring and not answering (impaired awareness) with lip smacking and picking at her clothing (automatisms) is a **focal impaired awareness seizure**; it then spread to both sides of the brain (stiffening and jerking of the whole body), a **focal to bilateral tonic-clonic seizure**. Describing the start of a seizure accurately helps the team classify it. A first seizure in adulthood always prompts a search for a cause such as a tumor.
 
-**Vasogenic edema:** the tumor makes new, abnormal blood vessels whose walls lack normal tight junctions, so the blood-brain barrier leaks plasma proteins and water into the extracellular space, mostly in the white matter around the tumor. Corticosteroids (**dexamethasone**) stabilize the barrier and reduce this edema within hours to days.
+**Vasogenic edema:** the tumor's abnormal blood vessels leak fluid through a damaged blood-brain barrier into the surrounding white matter. Corticosteroids (dexamethasone) stabilize the barrier and reduce this swelling. **Cytotoxic edema** is different: brain cells swell when they lack oxygen (ischemia, a prolonged seizure) and corticosteroids do not help it.
 
-**Cytotoxic edema** is different: oxygen-deprived cells (ischemia, hypoxia, prolonged seizures) cannot run the sodium-potassium pump, so sodium and water enter the cells and they swell, in grey and white matter; it does **not** respond to corticosteroids. Levetiracetam prevents seizures but does not reduce edema; hypotonic fluids worsen edema.
+**Adverse effects of dexamethasone:** high blood glucose (the most common), stomach irritation (given with food, often with a stomach-protecting drug), insomnia, mood changes, infection risk and, over time, thrush and muscle weakness. Glucose is checked as ordered and high readings are reported.
 
 ### Screen 4: Generate solutions (matrix_mc)
 
 *The nurse has reviewed the Provider Orders.*
 
-The nurse plans care to keep the client's ICP from rising further. For each factor, click to specify which intracranial volume it increases: **brain tissue**, **blood**, or **cerebrospinal fluid (CSF)**.
+The nurse plans care to keep the client safe and prevent increases in ICP before surgery. For each intervention, click to specify whether it is **indicated** or **contraindicated**.
 
-- Vasogenic edema around the tumor → **Brain tissue**
-- Hypoventilation from oversedation, raising the PaCO₂ → **Blood**
-- A tumor blocking the cerebral aqueduct (non-communicating hydrocephalus) → **CSF**
-- Neck flexion or rotation that compresses the jugular veins → **Blood**
-- Cytotoxic edema after a prolonged seizure with hypoxia → **Brain tissue**
-- Scarring of the arachnoid villi that impairs CSF absorption (communicating hydrocephalus) → **CSF**
-- Fever, which increases brain metabolism → **Blood**
+- Keep the head of the bed at 30 degrees with her head in line with her body → **Indicated**
+- Encourage her to cough forcefully every hour to keep her lungs clear → **Contraindicated**
+- Give the stool softener and teach her not to strain or hold her breath during bowel movements → **Indicated**
+- Keep the bed low with the side rails padded and up → **Indicated**
+- Check her capillary glucose as ordered and report high readings → **Indicated**
+- Lay her flat with her legs raised when she has a headache → **Contraindicated**
+- Watch for drowsiness, dizziness, and mood changes after starting levetiracetam → **Indicated**
+- Apply wrist restraints if she becomes restless → **Contraindicated**
 
 **Rationale**
 
-**Monro-Kellie doctrine:** the skull holds brain tissue (about 80%), blood (about 10%) and CSF (about 10%). An increase in any one must be offset by a decrease in another, or ICP rises. The nurse plans care around all three.
+**Indicated:** the head of the bed at 30 degrees with the head aligned helps venous blood drain from the brain. Straining and breath-holding (the Valsalva manoeuvre) raise pressure in the chest and head, so a stool softener and teaching prevent it. A low bed with padded rails protects her if she has another seizure. Dexamethasone raises blood glucose, so glucose is checked and high values are reported. Levetiracetam commonly causes drowsiness and dizziness (fall risk) and can cause irritability or low mood, which can be mistaken for tumor effects, so the nurse watches and reports.
 
-**Brain tissue:** the tumor mass and edema. Vasogenic edema is treated with dexamethasone; cytotoxic edema after a long seizure with hypoxia is prevented by stopping seizures quickly and keeping oxygenation normal (seizure precautions, levetiracetam on time).
+**Contraindicated:** forceful coughing raises ICP; deep breathing and gentle coughing are used instead. Lying flat with the legs raised reduces venous drainage from the head and raises ICP. Restraints increase agitation and ICP and can cause injury.
 
-**Blood:** CO₂ is a strong cerebral vasodilator, so hypoventilation (oversedation, opioids) raises cerebral blood volume; sedation is monitored. A flexed or rotated neck obstructs jugular venous outflow; the head is kept midline with the head of the bed at 30 degrees. Fever and seizures increase metabolism and therefore cerebral blood flow; fever is treated promptly.
-
-**CSF:** CSF builds up if its flow is blocked inside the ventricular system (**non-communicating** or obstructive hydrocephalus, for example a tumor at the cerebral aqueduct or fourth ventricle) or if it is not absorbed by the arachnoid villi (**communicating** hydrocephalus, after meningitis or subarachnoid hemorrhage). Her ventricles are not enlarged now, but headache, vomiting and drowsiness after surgery could signal hydrocephalus and are reported.
+**Linking the plan to the Monro-Kellie doctrine:** each measure limits an increase in one of the three volumes in the skull: brain tissue (swelling; reduced with dexamethasone), blood (venous drainage, avoiding straining, fever and too much sedation, since high CO₂ widens brain blood vessels) and CSF (watching for headache, vomiting and drowsiness that could mean blocked CSF flow, called non-communicating or obstructive hydrocephalus).
 
 ### Screen 5: Take action (select_all)
 
@@ -415,20 +417,21 @@ The nurse plans care to keep the client's ICP from rising further. For each fact
 
 Which actions should the nurse take now? **Select all that apply.**
 
-1. **✓** Call for help and notify the provider
+1. Withhold medication until the seizure has lasted 15 minutes
 2. **✓** Apply oxygen and have suction ready
-3. Withhold medication until the seizure has lasted 15 minutes
-4. Insert a padded tongue blade between her teeth
-5. **✓** Administer the prescribed IV lorazepam
-6. **✓** Check her capillary blood glucose
-7. **✓** Turn the client onto her side
-8. Restrain her arms and legs to prevent injury
+3. **✓** Check her capillary blood glucose
+4. **✓** Monitor her breathing and level of sedation after the lorazepam is given
+5. Insert a padded tongue blade between her teeth
+6. **✓** Administer the prescribed IV lorazepam
+7. **✓** Call for help and notify the provider
+8. **✓** Turn the client onto her side
+9. Restrain her arms and legs to prevent injury
 
 **Rationale**
 
 The seizure has lasted more than 5 minutes: this is **status epilepticus**, a medical emergency. The longer it lasts, the less likely it is to stop on its own, and continuous neuronal firing causes hypoxia, excitotoxic (cytotoxic) brain injury and rising ICP.
 
-**Correct:** a side-lying position lets saliva drain and keeps the tongue from blocking the airway. Lorazepam is the first-line drug and is given at 5 minutes, as ordered. Oxygen and suction treat the hypoxia (dusky lips). Hypoglycemia can cause or prolong seizures, and dexamethasone affects glucose, so the glucose is checked. Help is needed to manage the airway, drugs and monitoring, and the provider must be notified.
+**Correct:** a side-lying position lets saliva drain and keeps the tongue from blocking the airway. Lorazepam is given as ordered; it can depress breathing and cause deep sedation, so the nurse watches her breathing and level of consciousness afterwards. Oxygen and suction treat the hypoxia (dusky lips). Hypoglycemia can cause or prolong seizures, and dexamethasone affects glucose, so the glucose is checked. Help is needed to manage the airway, drugs and monitoring, and the provider must be notified.
 
 **Incorrect:** restraints can cause fractures and soft tissue injury; nearby objects are moved and the head is protected instead. Nothing is put in the mouth. Waiting to treat lets the seizure become harder to stop and the brain injury worse.
 
@@ -455,13 +458,13 @@ For each finding, click to specify whether it shows that an **expected outcome h
 
 ## NURS 1017 Unit 7 Case Study 5
 
-22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: neurogenic vs spinal vs hypovolemic shock, respiratory risk (phrenic nerve, vital capacity), acute care after fusion, autonomic dysreflexia in rehabilitation, and teaching on prevention and lifelong self-care.
+22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: recognizing breathing problems and neurogenic shock, spinal vs neurogenic vs hypovolemic shock, respiratory priority, nursing care after fusion (logrolling, suctioning, skin, bladder, vasopressor and anticoagulant monitoring), autonomic dysreflexia in rehabilitation, and teaching on prevention and lifelong self-care.
 
 **Notes for review:**
 
-- Learning outcomes: SCI definition, etiology and prevention; spinal shock, neurogenic shock, respiratory compromise, autonomic dysreflexia.
+- Revised 2 Nov 2026 to the nursing-focused rules: screen 4 now asks about checking the vasopressor IV site and watching for bleeding on enoxaparin (no MAP target in the question); treatment thresholds removed from the rationales.
 - Screen 5 is an ordered response (sit up, loosen, check tubing, recatheterize, notify); please confirm the order matches your course text.
-- Clinician review: MAP target (85–90 mm Hg for 7 days), atropine and enoxaparin orders, sensory level description.
+- Clinician review: provider orders, sensory level description.
 
 ### Screen 1: Recognize (highlight)
 
@@ -546,14 +549,15 @@ For each intervention, click to specify whether it is **indicated** or **contrai
 - Suction the airway for longer than 15 seconds to clear thick secretions → **Contraindicated**
 - Measure the vital capacity and assess cough strength as ordered → **Indicated**
 - Raise the head of the bed quickly to 90 degrees to ease his breathing → **Contraindicated**
-- Titrate the norepinephrine to keep the MAP at 85–90 mm Hg → **Indicated**
+- Check the norepinephrine IV site often for swelling, coolness, or pale skin → **Indicated**
 - Remove the cervical collar to wash his neck while he lies alone → **Contraindicated**
 - Turn him at least every 2 hours and inspect the skin over bony prominences → **Indicated**
 - Monitor urine output through the indwelling catheter → **Indicated**
+- Watch for bleeding gums, blood in the urine, and bruising at injection sites once enoxaparin starts → **Indicated**
 
 **Rationale**
 
-**Indicated:** logrolling with a person at the head keeps the spine aligned after fusion. Vital capacity and cough strength show early respiratory decline. Keeping the MAP at 85–90 mm Hg improves blood flow to the injured cord and limits secondary injury. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does not empty (urinary retention), so the catheter drains it and urine output shows perfusion.
+**Indicated:** logrolling with a person at the head keeps the spine aligned after fusion. Vital capacity and cough strength show early respiratory decline. Keeping the BP in the ordered range improves blood flow to the injured cord and limits secondary injury; norepinephrine can leak out of the vein and damage tissue (extravasation: swelling, coolness, blanching), so the IV site is checked often and a leak is treated as an emergency. Enoxaparin prevents deep vein thrombosis (high risk with paralysis); its main adverse effect is bleeding. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does not empty (urinary retention), so the catheter drains it and urine output shows perfusion.
 
 **Contraindicated:** long suctioning causes hypoxia and stimulates the vagus nerve, which, with no sympathetic opposition, can cause severe bradycardia or asystole; suctioning is brief, with hyperoxygenation, and atropine is at hand. A quick move to sitting causes severe orthostatic hypotension (no sympathetic vasoconstriction); the head is raised gradually with the spine protected. The collar stays on; neck care is done with a second person holding the head.
 
@@ -573,7 +577,7 @@ Place the nurse's actions in the order in which they should be performed. Arrang
 
 This is **autonomic dysreflexia**, a life-threatening emergency in clients with an injury at **T6 or above** once spinal shock has resolved. A stimulus below the injury (most often a **full bladder**, then constipation or impaction, pressure injuries, tight clothing or ingrown toenails) triggers a massive sympathetic reflex below the injury: vasoconstriction causes severe hypertension (a rise of 20 to 40 mm Hg or more above the client's usual BP), pale cool skin and goosebumps below the injury. The brain detects the high BP through the baroreceptors, but its inhibitory signals cannot pass the injury, so only the body above the injury responds: vagal bradycardia, flushing, sweating, nasal stuffiness and a pounding headache. It can cause seizures, stroke and death.
 
-**Order:** (1) Sit him up and lower his legs, so blood pools in the legs and the BP falls. (2) Loosen anything tight. (3) Look for the most common cause, the bladder: check the tubing for kinks. (4) If urine still does not drain, replace the catheter, using lidocaine jelly to reduce further stimulation. (5) The BP is checked every 2 to 5 minutes; if it stays high (systolic 150 mm Hg or more) after the bladder is emptied, the provider is notified for a fast-acting antihypertensive and the bowel is checked next for stool.
+**Order:** (1) Sit him up and lower his legs, so blood pools in the legs and the BP falls. (2) Loosen anything tight. (3) Look for the most common cause, the bladder: check the tubing for kinks. (4) If urine still does not drain, replace the catheter, using lidocaine jelly to reduce further stimulation. (5) The BP is checked every 2 to 5 minutes; if it stays high after the bladder is emptied, the provider is notified (a fast-acting antihypertensive may be ordered, and the nurse then watches for a sudden drop in BP) and the bowel is checked next for stool.
 
 ### Screen 6: Evaluate outcomes (matrix_mc)
 
@@ -597,11 +601,11 @@ For each statement, click to specify whether it indicates an **understanding** o
 
 ## NURS 1017 Unit 7 Case Study 6
 
-76-year-old male client with Parkinson disease taking apixaban who develops delirium from a chronic subdural hematoma weeks after a fall: Parkinson disease vs ALS and MS findings, delirium vs dementia and the types of dementia, bridging-vein bleeding, delirium-safe care, levodopa withdrawal (parkinsonism-hyperpyrexia syndrome), and discharge teaching.
+76-year-old male client with Parkinson disease taking apixaban who develops delirium from a chronic subdural hematoma weeks after a fall: recognizing the hallmark signs of Parkinson disease (with ALS and MS as contrasts), delirium vs dementia and the types of dementia, delirium-safe and fall-safe nursing care, missed levodopa doses (parkinsonism-hyperpyrexia syndrome), and discharge teaching including levodopa adverse effects.
 
 **Notes for review:**
 
-- Learning outcomes: Parkinson disease pathophysiology (ALS and MS as contrasts), delirium vs dementia, types of dementia, subdural hematoma.
+- Revised 2 Nov 2026 to the nursing-focused rules: discharge teaching now includes carbidopa-levodopa adverse effects (dyskinesias, hallucinations, orthostatic hypotension).
 - Screen 5 tests parkinsonism-hyperpyrexia syndrome (levodopa withdrawal); please confirm this depth suits the course.
 - Clinician review: haloperidol order used as an unsafe order to question; recurrence rate of chronic subdural hematoma.
 
@@ -723,10 +727,11 @@ For each statement, click to specify whether it indicates an **understanding** o
 - Client: “Now that my head is better, I can restart my apixaban tonight.” → **Needs further teaching**
 - Wife: “His mother had Alzheimer disease, so his confusion means he has it too.” → **Needs further teaching**
 - Wife: “I'll remove the throw rugs and keep a night light on.” → **Understanding**
+- Wife: “If he gets new jerky or writhing movements, sees things that aren't there, or gets dizzy when he stands, I'll tell his doctor.” → **Understanding**
 - Wife: “If he is in hospital again, I'll ask that his Parkinson pills be given on time.” → **Understanding**
 
 **Rationale**
 
-**Understanding:** the confusion was delirium from the hematoma, and it resolved when the cause was treated. A chronic subdural hematoma can recur (in about 1 in 10 clients), so new headache, drowsiness, confusion or weakness need prompt assessment. Removing rugs and using a night light reduce falls. Insisting that Parkinson medications are given on time in hospital prevents the problem that occurred on Day 2.
+**Understanding:** the confusion was delirium from the hematoma, and it resolved when the cause was treated. A chronic subdural hematoma can recur (in about 1 in 10 clients), so new headache, drowsiness, confusion or weakness need prompt assessment. Removing rugs and using a night light reduce falls. Insisting that Parkinson medications are given on time in hospital prevents the problem that occurred on Day 2. Carbidopa-levodopa can cause involuntary writhing or jerky movements (dyskinesias), hallucinations or confusion, nausea and orthostatic hypotension; these are reported, because the dose or timing may need adjusting (he also rises slowly and sits on the edge of the bed first).
 
 **Needs further teaching:** dietary protein (amino acids) competes with levodopa for absorption and transport into the brain; levodopa is best taken about 30 minutes before meals, or with a low-protein snack if it causes nausea, and protein is spread through the day. Apixaban is restarted only when neurosurgery says it is safe. Delirium does not mean Alzheimer disease; a family history raises risk slightly, but his cognition has returned to normal.

@@ -50,8 +50,8 @@ s1 = screen(1, INTRO, C, {
 
 # ---------------------------------------------------------------- Screen 2: matrix multiple response (analyze)
 C.notes("nn", "Nurses' Notes",
-    ("Day 1 2215", "Two sets of blood cultures drawn. Dexamethasone 10 mg IV given at 2218, then ceftriaxone 2 g IV and vancomycin "
-     "1.25 g IV started at 2220. Droplet precautions in place."),
+    ("Day 1 2215", "Two sets of blood cultures drawn. Dexamethasone IV given at 2218, then ceftriaxone IV and vancomycin IV started at "
+     "2220. Droplet precautions in place."),
     ("Day 1 2310", "Lumbar puncture done after the head CT; CSF sent to the laboratory."))
 C.notes("dx", "Diagnostic Results",
     ("Day 1 2240", "<b>Non-contrast head CT:</b> no mass, bleeding or hydrocephalus; ventricles normal in size."),
@@ -65,35 +65,37 @@ C.labs("Day 1 2215", [
     (lab("Lactate", "0.5–2.5 mmol/L"), "4.1 mmol/L"),
     (lab("Glucose, random", "4.0–11.0 mmol/L"), "6.2 mmol/L"),
     (lab("Sodium (Na)", "136–146 mmol/L"), "134 mmol/L"),
+    (lab("Creatinine", "Female: 22–75 µmol/L"), "68 µmol/L"),
 ])
 s2 = screen(2, INTRO, C, {
     "type": "matrix_mr",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2215 and 2310, the Diagnostic Results and the Laboratory Results.",
-    "stem": "For each finding, click to specify whether it is consistent with <b>bacterial meningitis</b>, <b>viral meningitis</b>, or "
-            "both. Each finding may support more than one condition.",
-    "matrix": matrix_mr("Finding", ["Bacterial meningitis", "Viral meningitis"], [
-        ("Cloudy (turbid) CSF", [0]),
-        ("CSF white blood cells mostly lymphocytes", [1]),
-        ("Fever, headache, and neck stiffness", [0, 1]),
-        ("CSF glucose much lower than normal", [0]),
-        ("Organisms seen on the CSF Gram stain", [0]),
-        ("Clear CSF with a normal glucose", [1]),
-        ("Elevated CSF protein", [0, 1]),
-        ("CSF white blood cells mostly neutrophils", [0]),
+    "stem": "For each finding, click to specify whether it is a sign of <b>meningeal irritation</b>, <b>increased intracranial pressure "
+            "(ICP)</b>, or <b>sepsis</b>. Each finding may be a sign of more than one problem.",
+    "matrix": matrix_mr("Finding", ["Meningeal irritation", "Increased ICP", "Sepsis"], [
+        ("Neck stiffness with pain on flexion", [0]),
+        ("Drowsy and oriented to person only", [1, 2]),
+        ("Nonblanching petechial rash on the legs and trunk", [2]),
+        ("Positive Kernig and Brudzinski signs", [0]),
+        ("BP 96/58 mm Hg, cool hands and feet, and a capillary refill of 4 seconds", [2]),
+        ("Photophobia", [0]),
+        ("CSF opening pressure of 32 cm H₂O", [1]),
+        ("Lactate 4.1 mmol/L", [2]),
     ]),
     "explanation": rationale(
-        "<b>How bacterial meningitis develops:</b> <i>N. meningitidis</i> colonizes the nasopharynx and spreads by respiratory droplets "
-        "and close contact (shared residences). It invades the bloodstream, crosses the blood-brain barrier (mainly at the choroid "
-        "plexus) and multiplies freely in the CSF, which has few antibodies or complement. Bacterial cell wall products (endotoxin) "
-        "trigger cytokines, and <b>neutrophils</b> pour into the subarachnoid space, forming a <b>purulent exudate</b> that coats the "
-        "meninges and turns the CSF <b>cloudy</b>. Bacteria and white cells consume glucose and the inflamed barrier transports less, so "
-        "<b>CSF glucose falls</b>; leaking plasma raises <b>CSF protein</b>. The Gram stain often shows the organism (Gram-negative "
-        "diplococci = <i>N. meningitidis</i>; Gram-positive diplococci = <i>Streptococcus pneumoniae</i>).",
-        "<b>Viral meningitis</b> (often enteroviruses) is usually milder and self-limiting: clear CSF, a <b>lymphocyte</b> "
-        "predominance, a <b>normal glucose</b>, a mildly raised protein and no organisms on Gram stain.",
-        "<b>Both</b> cause fever, headache and meningeal signs, so CSF analysis is needed to tell them apart. Because bacterial meningitis "
-        "can kill within hours, blood cultures are drawn and antibiotics (with dexamethasone) are started without waiting for the CT and "
-        "lumbar puncture when these will be delayed."),
+        "<b>How bacterial meningitis develops:</b> <i>Neisseria meningitidis</i> spreads by respiratory droplets and close contact "
+        "(shared residences). It colonizes the nasopharynx, enters the bloodstream, crosses the blood-brain barrier and multiplies in "
+        "the CSF. The body's inflammatory response fills the space around the brain with white cells and pus (the cloudy CSF with "
+        "neutrophils, high protein and low glucose on her results), irritates the meninges, and makes the brain swell.",
+        "<b>Meningeal irritation</b> (hallmark signs): neck stiffness, photophobia, and positive <b>Kernig</b> (pain and resistance "
+        "when the knee is straightened with the hip flexed) and <b>Brudzinski</b> (bending the neck makes the hips and knees flex) "
+        "signs, because these movements stretch the inflamed meninges.",
+        "<b>Increased ICP:</b> a falling level of consciousness is the earliest sign; the high CSF opening pressure confirms it. "
+        "Swelling comes from leaky vessels (vasogenic edema), injured cells (cytotoxic edema) and blocked CSF absorption.",
+        "<b>Sepsis:</b> meningococcal bacteria in the blood cause low BP, poor perfusion (cool skin, slow capillary refill), a high "
+        "lactate, and a <b>nonblanching petechial or purpuric rash</b> from bleeding into the skin as clotting factors and platelets "
+        "are used up (platelets 88 × 10⁹/L). Drowsiness can come from both raised ICP and poor brain perfusion. The rash is a "
+        "hallmark of meningococcal disease and must be reported at once."),
 })
 
 # ---------------------------------------------------------------- Screen 3: drop-down cloze (prioritize)
@@ -132,8 +134,8 @@ s3 = screen(3, INTRO, C, {
 # ---------------------------------------------------------------- Screen 4: select all (generate solutions)
 C.notes("ord", "Provider Orders",
     ("Day 1 2345", "Admit to the intensive care unit. Droplet precautions.<br>"
-     "Ceftriaxone 2 g IV every 12 hours and vancomycin IV as dosed by pharmacy.<br>"
-     "Dexamethasone 10 mg IV every 6 hours for 4 days.<br>"
+     "Ceftriaxone 2 g IV every 12 hours; vancomycin IV as dosed by pharmacy, with trough levels and creatinine.<br>"
+     "Dexamethasone 10 mg IV every 6 hours for 4 days; capillary glucose every 6 hours.<br>"
      "0.9% sodium chloride 1,000 mL IV bolus, then 125 mL/h; norepinephrine infusion if MAP stays below 65 mm Hg.<br>"
      "Neurological checks and vital signs every hour.<br>"
      "Acetaminophen 650 mg PO/PR every 4 hours PRN for fever or headache.<br>"
@@ -148,22 +150,28 @@ s4 = screen(4, INTRO, C, {
         ("Keep the room quiet and dimly lit", True),
         ("Restrict fluids to 500 mL per day to prevent cerebral edema", False),
         ("Elevate the head of the bed to 30 degrees", True),
+        ("Watch for flushing, itching and low BP during the vancomycin infusion", True),
         ("Support the neck in flexion on two pillows to ease the neck pain", False),
         ("Implement seizure precautions", True),
-        ("Give the antibiotics on time to maintain therapeutic blood levels", True),
+        ("Check her capillary glucose while she receives dexamethasone", True),
         ("Confirm that public health has been notified so close contacts can receive preventive antibiotics", True),
         seed="u7c3-s4"),
     "explanation": rationale(
         "<b>Include:</b> <i>N. meningitidis</i> spreads by large respiratory droplets, so <b>droplet precautions</b> (surgical mask "
-        "within 2 metres, private room) continue until 24 hours of effective therapy. A quiet, dim room reduces photophobia, pain and "
-        "stimulation that can raise ICP. The head of the bed at 30 degrees aids venous drainage. Cortical irritation makes seizures "
-        "common, so seizure precautions are in place. Antibiotics are time-critical. Meningococcal disease is reportable: public health "
-        "traces close contacts (roommates, partners, people who shared drinks) and arranges chemoprophylaxis (for example, a single dose "
-        "of ciprofloxacin) and vaccination. Prevention in Canada includes the MenC-ACYW vaccine in the school program and the MenB "
-        "vaccine for people at higher risk.",
+        "within 2 metres, private room) continue until 24 hours of effective therapy. A quiet, dim room eases photophobia and headache "
+        "and avoids stimulation that can raise ICP. The head of the bed at 30 degrees aids venous drainage. Irritation of the brain "
+        "surface makes seizures common, so seizure precautions are in place. Meningococcal disease is reportable: public health traces "
+        "close contacts (roommates, partners, people who shared drinks) and arranges preventive antibiotics and vaccination.",
+        "<b>Medication adverse effects:</b> vancomycin infused too quickly can cause a <b>vancomycin infusion reaction</b> (flushing and "
+        "itching of the face, neck and upper body, sometimes low BP); the nurse slows or stops the infusion and reports it. Vancomycin "
+        "can also harm the kidneys, so creatinine and trough levels are followed. Dexamethasone raises blood glucose (and can cause "
+        "gastric irritation, mood change and insomnia), so glucose is monitored.",
         "<b>Do not include:</b> airborne precautions with a negative-pressure room are for diseases such as tuberculosis or measles, "
-        "not meningococcus. Fluid restriction would worsen her shock; she needs fluids to keep a normal volume and perfusion (sodium is "
-        "monitored for SIADH). Neck flexion is painful and can obstruct venous outflow; the neck is kept in a neutral position."),
+        "not meningococcus. Fluid restriction would worsen her shock; she needs fluids to maintain perfusion (sodium is monitored, "
+        "because meningitis can cause water retention). Neck flexion is painful and can obstruct venous outflow from the head; the "
+        "neck is kept in a neutral position.",
+        "<b>Prevention:</b> in Canada, the MenC-ACYW vaccine is given in the school program and the MenB vaccine to people at higher "
+        "risk; both are part of the nurse's teaching for students in shared housing."),
 })
 
 # ---------------------------------------------------------------- Screen 5: matrix indicated / contraindicated (take action)
@@ -256,12 +264,15 @@ s6 = screen(6, INTRO, C, {
 })
 
 write_case(3,
-    "19-year-old university student with meningococcal meningitis and early sepsis: meningeal signs, bacterial vs viral CSF findings, "
-    "increased ICP and the types of cerebral edema, droplet precautions and public health follow-up, a generalized tonic-clonic seizure "
-    "(seizure classification), communicating hydrocephalus with an external ventricular drain, and evaluation of complications.",
+    "19-year-old university student with meningococcal meningitis and early sepsis: recognizing the hallmark signs of meningeal "
+    "irritation, increased ICP and sepsis (including the nonblanching rash), nursing priorities, droplet precautions, a quiet "
+    "environment, seizure precautions and public health follow-up, monitoring for vancomycin and dexamethasone adverse effects, "
+    "care during and after a seizure, communicating hydrocephalus, and evaluation of complications such as hearing loss.",
     [s1, s2, s3, s4, s5, s6],
-    ["- Learning outcomes: pathophysiology of bacterial meningitis, increased ICP and the types of cerebral edema, seizure "
-     "classification, communicating vs non-communicating hydrocephalus.",
+    ["- Revised 2 Nov 2026 to the nursing-focused rules: screen 2 now sorts findings into meningeal irritation, increased ICP and "
+     "sepsis (CSF results stay in the chart and rationale); screen 4 adds monitoring for vancomycin and dexamethasone adverse effects.",
      "- CSF reference values are common textbook values (not in the MCC list): please check them against your course text.",
-     "- Clinician review: antibiotic, dexamethasone and levetiracetam orders; chemoprophylaxis wording (ciprofloxacin)."],
-    "Meningitis")
+     "- Clinician review: antibiotic, dexamethasone and levetiracetam orders; chemoprophylaxis wording."],
+    "Meningitis",
+    intro_note="Case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes and revised the same day to be more "
+               "nursing-focused; please review before using it with students:")

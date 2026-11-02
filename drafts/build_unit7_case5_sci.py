@@ -137,15 +137,18 @@ s4 = screen(4, INTRO, C, {
         ("Suction the airway for longer than 15 seconds to clear thick secretions", 1),
         ("Measure the vital capacity and assess cough strength as ordered", 0),
         ("Raise the head of the bed quickly to 90 degrees to ease his breathing", 1),
-        ("Titrate the norepinephrine to keep the MAP at 85–90 mm Hg", 0),
+        ("Check the norepinephrine IV site often for swelling, coolness, or pale skin", 0),
         ("Remove the cervical collar to wash his neck while he lies alone", 1),
         ("Turn him at least every 2 hours and inspect the skin over bony prominences", 0),
         ("Monitor urine output through the indwelling catheter", 0),
+        ("Watch for bleeding gums, blood in the urine, and bruising at injection sites once enoxaparin starts", 0),
     ]),
     "explanation": rationale(
         "<b>Indicated:</b> logrolling with a person at the head keeps the spine aligned after fusion. Vital capacity and cough strength "
-        "show early respiratory decline. Keeping the MAP at 85–90 mm Hg improves blood flow to the injured cord and limits secondary "
-        "injury. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does "
+        "show early respiratory decline. Keeping the BP in the ordered range improves blood flow to the injured cord and limits secondary "
+        "injury; norepinephrine can leak out of the vein and damage tissue (extravasation: swelling, coolness, blanching), so the "
+        "IV site is checked often and a leak is treated as an emergency. Enoxaparin prevents deep vein thrombosis (high risk with "
+        "paralysis); its main adverse effect is bleeding. He cannot feel pressure or move, so turning and skin checks prevent pressure injuries. In spinal shock the bladder does "
         "not empty (urinary retention), so the catheter drains it and urine output shows perfusion.",
         "<b>Contraindicated:</b> long suctioning causes hypoxia and stimulates the vagus nerve, which, with no sympathetic opposition, "
         "can cause severe bradycardia or asystole; suctioning is brief, with hyperoxygenation, and atropine is at hand. A quick move to "
@@ -183,8 +186,8 @@ s5 = screen(5, INTRO, C, {
         "<b>Order:</b> (1) Sit him up and lower his legs, so blood pools in the legs and the BP falls. (2) Loosen anything tight. "
         "(3) Look for the most common cause, the bladder: check the tubing for kinks. (4) If urine still does not drain, replace the "
         "catheter, using lidocaine jelly to reduce further stimulation. (5) The BP is checked every 2 to 5 minutes; if it stays high "
-        "(systolic 150 mm Hg or more) after the bladder is emptied, the provider is notified for a fast-acting antihypertensive and the "
-        "bowel is checked next for stool."),
+        "after the bladder is emptied, the provider is notified (a fast-acting antihypertensive may be ordered, and the nurse then "
+        "watches for a sudden drop in BP) and the bowel is checked next for stool."),
 })
 
 # ---------------------------------------------------------------- Screen 6: matrix (evaluate)
@@ -217,13 +220,16 @@ s6 = screen(6, INTRO, C, {
 })
 
 write_case(5,
-    "22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: neurogenic vs spinal vs hypovolemic "
-    "shock, respiratory risk (phrenic nerve, vital capacity), acute care after fusion, autonomic dysreflexia in rehabilitation, and "
-    "teaching on prevention and lifelong self-care.",
+    "22-year-old male client with a complete C6 spinal cord injury after diving into shallow water: recognizing breathing problems "
+    "and neurogenic shock, spinal vs neurogenic vs hypovolemic shock, respiratory priority, nursing care after fusion (logrolling, "
+    "suctioning, skin, bladder, vasopressor and anticoagulant monitoring), autonomic dysreflexia in rehabilitation, and teaching on "
+    "prevention and lifelong self-care.",
     [s1, s2, s3, s4, s5, s6],
-    ["- Learning outcomes: SCI definition, etiology and prevention; spinal shock, neurogenic shock, respiratory compromise, autonomic "
-     "dysreflexia.",
+    ["- Revised 2 Nov 2026 to the nursing-focused rules: screen 4 now asks about checking the vasopressor IV site and watching for "
+     "bleeding on enoxaparin (no MAP target in the question); treatment thresholds removed from the rationales.",
      "- Screen 5 is an ordered response (sit up, loosen, check tubing, recatheterize, notify); please confirm the order matches your "
      "course text.",
-     "- Clinician review: MAP target (85–90 mm Hg for 7 days), atropine and enoxaparin orders, sensory level description."],
-    "Spinal_Cord_Injury")
+     "- Clinician review: provider orders, sensory level description."],
+    "Spinal_Cord_Injury",
+    intro_note="Case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes and revised the same day to be more "
+               "nursing-focused; please review before using it with students:")

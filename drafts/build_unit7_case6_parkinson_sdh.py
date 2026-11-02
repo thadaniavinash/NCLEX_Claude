@@ -227,13 +227,17 @@ s6 = screen(6, INTRO, C, {
         ("Client: “Now that my head is better, I can restart my apixaban tonight.”", 1),
         ("Wife: “His mother had Alzheimer disease, so his confusion means he has it too.”", 1),
         ("Wife: “I'll remove the throw rugs and keep a night light on.”", 0),
+        ("Wife: “If he gets new jerky or writhing movements, sees things that aren't there, or gets dizzy when he stands, I'll tell "
+         "his doctor.”", 0),
         ("Wife: “If he is in hospital again, I'll ask that his Parkinson pills be given on time.”", 0),
     ]),
     "explanation": rationale(
         "<b>Understanding:</b> the confusion was delirium from the hematoma, and it resolved when the cause was treated. A chronic "
         "subdural hematoma can recur (in about 1 in 10 clients), so new headache, drowsiness, confusion or weakness need prompt "
         "assessment. Removing rugs and using a night light reduce falls. Insisting that Parkinson medications are given on time in "
-        "hospital prevents the problem that occurred on Day 2.",
+        "hospital prevents the problem that occurred on Day 2. Carbidopa-levodopa can cause involuntary writhing or jerky movements "
+        "(dyskinesias), hallucinations or confusion, nausea and orthostatic hypotension; these are reported, because the dose or "
+        "timing may need adjusting (he also rises slowly and sits on the edge of the bed first).",
         "<b>Needs further teaching:</b> dietary protein (amino acids) competes with levodopa for absorption and transport into the brain; "
         "levodopa is best taken about 30 minutes before meals, or with a low-protein snack if it causes nausea, and protein is spread "
         "through the day. Apixaban is restarted only when neurosurgery says it is safe. Delirium does not mean Alzheimer disease; a "
@@ -242,11 +246,14 @@ s6 = screen(6, INTRO, C, {
 
 write_case(6,
     "76-year-old male client with Parkinson disease taking apixaban who develops delirium from a chronic subdural hematoma weeks after a "
-    "fall: Parkinson disease vs ALS and MS findings, delirium vs dementia and the types of dementia, bridging-vein bleeding, "
-    "delirium-safe care, levodopa withdrawal (parkinsonism-hyperpyrexia syndrome), and discharge teaching.",
+    "fall: recognizing the hallmark signs of Parkinson disease (with ALS and MS as contrasts), delirium vs dementia and the types of "
+    "dementia, delirium-safe and fall-safe nursing care, missed levodopa doses (parkinsonism-hyperpyrexia syndrome), and discharge "
+    "teaching including levodopa adverse effects.",
     [s1, s2, s3, s4, s5, s6],
-    ["- Learning outcomes: Parkinson disease pathophysiology (ALS and MS as contrasts), delirium vs dementia, types of dementia, "
-     "subdural hematoma.",
+    ["- Revised 2 Nov 2026 to the nursing-focused rules: discharge teaching now includes carbidopa-levodopa adverse effects "
+     "(dyskinesias, hallucinations, orthostatic hypotension).",
      "- Screen 5 tests parkinsonism-hyperpyrexia syndrome (levodopa withdrawal); please confirm this depth suits the course.",
      "- Clinician review: haloperidol order used as an unsafe order to question; recurrence rate of chronic subdural hematoma."],
-    "Parkinson_Subdural")
+    "Parkinson_Subdural",
+    intro_note="Case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes and revised the same day to be more "
+               "nursing-focused; please review before using it with students:")
