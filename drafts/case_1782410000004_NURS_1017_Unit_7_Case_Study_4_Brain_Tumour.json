@@ -1,0 +1,534 @@
+{
+  "id": "case_1782410000004",
+  "title": "NURS 1017 Unit 7 Case Study 4",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "57-year-old female client with a first seizure in adulthood from a left frontotemporal glioblastoma: signs of increased ICP, glioblastoma vs meningioma vs brain metastasis, focal impaired awareness to bilateral tonic-clonic seizure, vasogenic vs cytotoxic edema, Monro-Kellie components and hydrocephalus types, status epilepticus after craniotomy, and corticosteroid complications at discharge.",
+  "authorReview": {
+    "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: brain tumour types, seizure classification, vasogenic vs cytotoxic edema, Monro-Kellie components and causes of increased ICP, non-communicating vs communicating hydrocephalus.\n- Screen 4 is a knowledge matrix framed as care planning (which volume each factor increases); please confirm it fits your Generate Solutions expectations.\n- The capillary glucose target (4.0–7.0 mmol/L before meals) is the Diabetes Canada target, not an MCC laboratory range.\n- Clinician review: dexamethasone, levetiracetam and lorazepam doses.",
+    "flaggedAt": "2026-11-02"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight",
+        "stem": "The nurse reviews the Nurses' Notes and the Vital Signs. <b>Highlight</b> the findings that suggest increased intracranial pressure (ICP).",
+        "options": [],
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she {suddenly stopped talking and stared straight ahead}, {smacking her lips}, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. {Bit her tongue}; {incontinent of urine}. Over the past 6 weeks she has had {headaches that are worst when she wakes up and when she coughs or bends over|correct}, and she {vomited on waking twice this week without feeling nauseated|correct}. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: {bilateral papilledema|correct}. {Point-of-care glucose 6.1 mmol/L}.</span></p>"
+          },
+          {
+            "id": "ht2",
+            "title": "Vital Signs",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">{T 37.0° C}, {P 92 beats/min}, {RR 18 breaths/min}, {BP 142/86 mm Hg}, {SpO₂ 97% on room air}.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null,
+        "explanation": "<b>Suggest increased ICP:</b><br><br><b>Headache worst on waking and with coughing or bending:</b> lying flat overnight and mild CO₂ retention during sleep increase cerebral blood volume; coughing and bending raise intrathoracic pressure and reduce venous drainage from the head.<br><br><b>Vomiting on waking without nausea</b> (often projectile): pressure on the vomiting centre in the medulla.<br><br><b>Bilateral papilledema:</b> swelling of the optic discs because raised CSF pressure is transmitted along the optic nerve sheaths; a reliable sign of sustained raised ICP.<br><br><b>Not signs of increased ICP:</b> staring, lip smacking, tongue biting and urinary incontinence are features of the seizure; the glucose rules out hypoglycemia as the cause of the seizure. The vital signs are not those of Cushing's triad (a late sign). Her drowsiness may be postictal or due to ICP, and the personality change, word-finding difficulty and right-hand weakness are focal deficits from the lesion itself; the nurse trends all of them.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "preamble": "The nurse has reviewed the Diagnostic Results.",
+        "stem": "The client's husband asks what kind of tumor this might be. For each feature, click to specify whether it is typical of a <b>glioblastoma</b>, a <b>meningioma</b>, or a <b>brain metastasis</b>. Each feature may apply to more than one tumor.",
+        "matrix": {
+          "firstColumnHeader": "Feature",
+          "columns": [
+            "Glioblastoma",
+            "Meningioma",
+            "Brain metastasis"
+          ],
+          "rows": [
+            {
+              "text": "Arises from the meninges (arachnoid cells), outside the brain tissue",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Arises from glial cells (astrocytes) within the brain tissue",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Spreads to the brain through the blood from cancers such as lung, breast, or melanoma",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Can cause seizures, headache, and focal neurological deficits",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "text": "Usually benign and slow-growing; often cured by complete removal",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Ring-enhancing lesion with surrounding edema on MRI",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "text": "Infiltrates the surrounding brain, so complete removal is rarely possible",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Most common malignant primary brain tumor in adults",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Gliomas</b> arise from the glial (supporting) cells of the brain: astrocytomas, oligodendrogliomas and ependymomas. <b>Glioblastoma</b> (grade 4 astrocytoma) is the most common malignant primary brain tumor in adults. It grows quickly, has a necrotic centre with ring enhancement, and sends cells along white matter tracts, so it cannot be removed completely and usually recurs; treatment is surgery, then radiation with temozolomide chemotherapy.<br><br><b>Meningiomas</b> arise from arachnoid cells of the meninges and press on the brain from outside (extra-axial, dural-based). They are the most common primary intracranial tumor, are usually benign and slow-growing, and are often cured by complete removal, but their location can still cause seizures, headache and deficits. Other tumor types include pituitary adenomas and vestibular schwannomas (acoustic neuromas).<br><br><b>Brain metastases</b> are the most common brain tumors overall in adults. Cancer cells reach the brain through the blood (most often from lung, breast, melanoma, kidney and colon) and are often multiple, at the grey-white matter junction, with ring enhancement and edema; that is why her chest, abdomen and pelvis were scanned.<br><br>Any brain tumor can raise ICP (mass and edema), irritate the cortex (seizures) and cause deficits according to its location."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "The seizure the husband described is best classified as a [[drop0]]. The client's signs of increased ICP are mainly caused by [[drop1]], which results from [[drop2]] and is expected to improve with [[drop3]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "generalized absence seizure",
+                  "correct": false
+                },
+                {
+                  "text": "generalized-onset tonic-clonic seizure",
+                  "correct": false
+                },
+                {
+                  "text": "focal aware motor seizure",
+                  "correct": false
+                },
+                {
+                  "text": "focal impaired awareness seizure that progressed to a bilateral tonic-clonic seizure",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "interstitial edema from hydrocephalus",
+                  "correct": false
+                },
+                {
+                  "text": "cytotoxic edema",
+                  "correct": false
+                },
+                {
+                  "text": "bleeding into the tumor",
+                  "correct": false
+                },
+                {
+                  "text": "vasogenic edema",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "failure of the sodium-potassium pump in oxygen-deprived brain cells",
+                  "correct": false
+                },
+                {
+                  "text": "abnormal tumor blood vessels that let plasma leak through a damaged blood-brain barrier",
+                  "correct": true
+                },
+                {
+                  "text": "a low serum albumin",
+                  "correct": false
+                },
+                {
+                  "text": "blocked CSF absorption at the arachnoid villi",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "dexamethasone",
+                  "correct": true
+                },
+                {
+                  "text": "levetiracetam",
+                  "correct": false
+                },
+                {
+                  "text": "a hypotonic IV fluid",
+                  "correct": false
+                },
+                {
+                  "text": "acetaminophen",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Seizure type:</b> the seizure began in one hemisphere (the left temporal lobe near the tumor): staring and unresponsiveness (impaired awareness) with automatisms (lip smacking, picking at clothing with the right hand) is a <b>focal impaired awareness seizure</b> (formerly complex partial). It then spread to both hemispheres: a <b>focal to bilateral tonic-clonic seizure</b> (formerly secondarily generalized). A generalized-onset seizure involves both hemispheres from the start, without a focal beginning; an absence seizure is a brief stare without convulsions; in a focal aware seizure the person stays aware. A new seizure starting in adulthood always needs a search for a structural cause such as a tumor.<br><br><b>Vasogenic edema:</b> the tumor makes new, abnormal blood vessels whose walls lack normal tight junctions, so the blood-brain barrier leaks plasma proteins and water into the extracellular space, mostly in the white matter around the tumor. Corticosteroids (<b>dexamethasone</b>) stabilize the barrier and reduce this edema within hours to days.<br><br><b>Cytotoxic edema</b> is different: oxygen-deprived cells (ischemia, hypoxia, prolonged seizures) cannot run the sodium-potassium pump, so sodium and water enter the cells and they swell, in grey and white matter; it does <b>not</b> respond to corticosteroids. Levetiracetam prevents seizures but does not reduce edema; hypotonic fluids worsen edema.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2345:</span><span class=\"nurse-note-text\">Admit to the neurosurgical unit. Head of bed 30 degrees. Seizure precautions.<br>Dexamethasone 4 mg IV every 6 hours.<br>Pantoprazole 40 mg PO daily.<br>Levetiracetam 500 mg PO every 12 hours.<br>Capillary blood glucose before meals and at bedtime.<br>Neurological checks every 2 hours.<br>Craniotomy for tumor resection planned for Day 3.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Provider Orders.",
+        "stem": "The nurse plans care to keep the client's ICP from rising further. For each factor, click to specify which intracranial volume it increases: <b>brain tissue</b>, <b>blood</b>, or <b>cerebrospinal fluid (CSF)</b>.",
+        "matrix": {
+          "firstColumnHeader": "Factor",
+          "columns": [
+            "Brain tissue",
+            "Blood",
+            "CSF"
+          ],
+          "rows": [
+            {
+              "text": "Vasogenic edema around the tumor",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hypoventilation from oversedation, raising the PaCO₂",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "A tumor blocking the cerebral aqueduct (non-communicating hydrocephalus)",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Neck flexion or rotation that compresses the jugular veins",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Cytotoxic edema after a prolonged seizure with hypoxia",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Scarring of the arachnoid villi that impairs CSF absorption (communicating hydrocephalus)",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Fever, which increases brain metabolism",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Monro-Kellie doctrine:</b> the skull holds brain tissue (about 80%), blood (about 10%) and CSF (about 10%). An increase in any one must be offset by a decrease in another, or ICP rises. The nurse plans care around all three.<br><br><b>Brain tissue:</b> the tumor mass and edema. Vasogenic edema is treated with dexamethasone; cytotoxic edema after a long seizure with hypoxia is prevented by stopping seizures quickly and keeping oxygenation normal (seizure precautions, levetiracetam on time).<br><br><b>Blood:</b> CO₂ is a strong cerebral vasodilator, so hypoventilation (oversedation, opioids) raises cerebral blood volume; sedation is monitored. A flexed or rotated neck obstructs jugular venous outflow; the head is kept midline with the head of the bed at 30 degrees. Fever and seizures increase metabolism and therefore cerebral blood flow; fever is treated promptly.<br><br><b>CSF:</b> CSF builds up if its flow is blocked inside the ventricular system (<b>non-communicating</b> or obstructive hydrocephalus, for example a tumor at the cerebral aqueduct or fourth ventricle) or if it is not absorbed by the arachnoid villi (<b>communicating</b> hydrocephalus, after meningitis or subarachnoid hemorrhage). Her ventricles are not enlarged now, but headache, vomiting and drowsiness after surgery could signal hydrocephalus and are reported."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Returned from craniotomy and subtotal resection of the left frontotemporal tumor. Awake, oriented, mild word-finding difficulty unchanged from before surgery. Dressing dry.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0710:</span><span class=\"nurse-note-text\">Called to the room by a nursing assistant: client is having a generalized tonic-clonic seizure that started at 0705 and is still continuing. Lips dusky; frothy saliva. Side rails up and padded; IV saline lock patent.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2345:</span><span class=\"nurse-note-text\">Admit to the neurosurgical unit. Head of bed 30 degrees. Seizure precautions.<br>Dexamethasone 4 mg IV every 6 hours.<br>Pantoprazole 40 mg PO daily.<br>Levetiracetam 500 mg PO every 12 hours.<br>Capillary blood glucose before meals and at bedtime.<br>Neurological checks every 2 hours.<br>Craniotomy for tumor resection planned for Day 3.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Lorazepam 4 mg IV for a seizure lasting 5 minutes or longer; may repeat once in 5 minutes. Notify provider for any seizure.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1500 and Day 4 0710 and the Provider Orders from Day 3 1500.",
+        "stem": "Which actions should the nurse take now? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Call for help and notify the provider",
+            "correct": true
+          },
+          {
+            "text": "Apply oxygen and have suction ready",
+            "correct": true
+          },
+          {
+            "text": "Withhold medication until the seizure has lasted 15 minutes",
+            "correct": false
+          },
+          {
+            "text": "Insert a padded tongue blade between her teeth",
+            "correct": false
+          },
+          {
+            "text": "Administer the prescribed IV lorazepam",
+            "correct": true
+          },
+          {
+            "text": "Check her capillary blood glucose",
+            "correct": true
+          },
+          {
+            "text": "Turn the client onto her side",
+            "correct": true
+          },
+          {
+            "text": "Restrain her arms and legs to prevent injury",
+            "correct": false
+          }
+        ],
+        "explanation": "The seizure has lasted more than 5 minutes: this is <b>status epilepticus</b>, a medical emergency. The longer it lasts, the less likely it is to stop on its own, and continuous neuronal firing causes hypoxia, excitotoxic (cytotoxic) brain injury and rising ICP.<br><br><b>Correct:</b> a side-lying position lets saliva drain and keeps the tongue from blocking the airway. Lorazepam is the first-line drug and is given at 5 minutes, as ordered. Oxygen and suction treat the hypoxia (dusky lips). Hypoglycemia can cause or prolong seizures, and dexamethasone affects glucose, so the glucose is checked. Help is needed to manage the airway, drugs and monitoring, and the provider must be notified.<br><br><b>Incorrect:</b> restraints can cause fractures and soft tissue injury; nearby objects are moved and the head is protected instead. Nothing is put in the mouth. Waiting to treat lets the seizure become harder to stop and the brain injury worse."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 57-year-old female client brought in by her husband after a seizure at home.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1910:</span><span class=\"nurse-note-text\">Husband states they were watching television when she suddenly stopped talking and stared straight ahead, smacking her lips, with her right hand picking at her shirt; she did not answer him. About a minute later her whole body stiffened and then jerked for about 2 minutes. Bit her tongue; incontinent of urine. Over the past 6 weeks she has had headaches that are worst when she wakes up and when she coughs or bends over, and she vomited on waking twice this week without feeling nauseated. He says she has been “irritable and forgetful, not herself,” and has trouble finding words. Now drowsy but rousable, oriented to person and place, slow to answer. Right hand grip slightly weaker than the left (4/5). Fundoscopic examination by the ED physician: bilateral papilledema. Point-of-care glucose 6.1 mmol/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Returned from craniotomy and subtotal resection of the left frontotemporal tumor. Awake, oriented, mild word-finding difficulty unchanged from before surgery. Dressing dry.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0710:</span><span class=\"nurse-note-text\">Called to the room by a nursing assistant: client is having a generalized tonic-clonic seizure that started at 0705 and is still continuing. Lips dusky; frothy saliva. Side rails up and padded; IV saline lock patent.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 9 1000:</span><span class=\"nurse-note-text\">No further seizures since Day 4 (levetiracetam increased to 1,000 mg every 12 hours). Headache 2/10, no vomiting. Incision clean and dry, staples intact. White patches on the tongue and inner cheeks that do not wipe off easily. Dexamethasone now 4 mg PO twice daily with a planned taper. Referred to the cancer centre for radiation and temozolomide. The nurse reviews the discharge teaching.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 9 1030:</span><span class=\"nurse-note-text\">Client states: “I'll stop the dexamethasone once my headaches are gone.” Also states: “I won't drive until my doctor tells me it's safe.” Husband states: “If she has a seizure, I'll turn her on her side, time it, and call 911 if it lasts 5 minutes.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1910</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\"><b>MRI brain with contrast:</b> 4.8-cm mass in the left frontotemporal lobe with irregular ring enhancement, a necrotic centre and poorly defined margins infiltrating the surrounding white matter. Extensive surrounding vasogenic edema; 6-mm midline shift to the right; left lateral ventricle compressed. Ventricles not enlarged. Most consistent with a high-grade glioma (glioblastoma); metastasis less likely (single lesion). No dural-based mass.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2330:</span><span class=\"nurse-note-text\"><b>CT chest, abdomen and pelvis:</b> no primary tumor elsewhere.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 5 1400:</span><span class=\"nurse-note-text\"><b>Pathology:</b> glioblastoma, IDH-wildtype (WHO grade 4).</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2345:</span><span class=\"nurse-note-text\">Admit to the neurosurgical unit. Head of bed 30 degrees. Seizure precautions.<br>Dexamethasone 4 mg IV every 6 hours.<br>Pantoprazole 40 mg PO daily.<br>Levetiracetam 500 mg PO every 12 hours.<br>Capillary blood glucose before meals and at bedtime.<br>Neurological checks every 2 hours.<br>Craniotomy for tumor resection planned for Day 3.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1500:</span><span class=\"nurse-note-text\">Lorazepam 4 mg IV for a seizure lasting 5 minutes or longer; may repeat once in 5 minutes. Notify provider for any seizure.</span></p>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 9 1630</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose, capillary (before supper)</b><br>4.0–7.0 mmol/L before meals</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14.8 mmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Diagnostic Results from Day 5, the Nurses' Notes from Day 9 1000 and 1030, and the Laboratory Results.",
+        "stem": "For each finding, click to specify whether it shows that an <b>expected outcome has been met</b> or that it <b>requires follow-up</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Expected outcome met",
+            "Requires follow-up"
+          ],
+          "rows": [
+            {
+              "text": "No seizures since Day 4",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Capillary glucose 14.8 mmol/L before supper",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Headache 2/10 with no vomiting",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I'll stop the dexamethasone once my headaches are gone.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "White patches on the tongue and inner cheeks",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I won't drive until my doctor tells me it's safe.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Husband's plan for managing a seizure at home",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Incision clean and dry, staples intact",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Outcomes met:</b> no further seizures on the increased levetiracetam dose; less headache and no vomiting (edema and ICP reduced after resection and dexamethasone); a healing incision. In Canada, a seizure leads to a period without driving set by provincial rules and the provider, and she understands this. The husband's plan is correct: protect, side-lying, time the seizure, and call 911 at 5 minutes.<br><br><b>Require follow-up:</b> <b>dexamethasone-induced hyperglycemia</b> (glucocorticoids raise hepatic glucose production and insulin resistance) needs to be reported for treatment. White patches that do not wipe off suggest <b>oral candidiasis</b> (thrush) from corticosteroid immunosuppression. Stopping dexamethasone suddenly can cause adrenal insufficiency and rebound cerebral edema: it must be <b>tapered</b> as prescribed, so this statement needs further teaching."
+      }
+    }
+  ]
+}

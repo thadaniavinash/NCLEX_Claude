@@ -211,7 +211,18 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 - NURS 1017 Unit 7 Case Study 1 (acute ischemic stroke with symptomatic hemorrhage during alteplase,
   `case_1782410000001`; Unit 7 IDs `case_17824100000<n>`), 2 Nov 2026: the user's own case (PDF) converted with
   the corrections they approved (`drafts/build_unit7_case1_stroke.py`, reuses `drafts/unit6_common.py`); carries
-  an `authorReview` note. More Unit 7 (neurological) case studies are planned.
+  an `authorReview` note.
+- NURS 1017 Unit 7 Case Studies 2–6 (`case_1782410000002`–`006`, drafts 2 Nov 2026, user request to cover the Unit 7
+  learning outcomes without duplicating existing items; **not yet published, awaiting the user's review**): 2 TBI
+  (concussion, epidural hematoma with lucid interval, Monro-Kellie, secondary injury, ICP/CPP, prevention); 3 meningococcal
+  meningitis (CSF bacterial vs viral, edema types, seizure classification, communicating hydrocephalus/EVD); 4 glioblastoma
+  (tumour types, focal-to-bilateral seizure, vasogenic vs cytotoxic edema, ICP components, status epilepticus); 5 C6 spinal
+  cord injury (spinal vs neurogenic shock, phrenic nerve, autonomic dysreflexia ordered response, prevention); 6 Parkinson
+  disease + chronic subdural hematoma (PD vs ALS/MS, delirium vs dementia, dementia types, levodopa withdrawal).
+  Generators `drafts/build_unit7_case<n>_*.py` share `drafts/unit7_common.py` (wraps unit6_common, adds free-text tabs);
+  review PDF `drafts/NURS_1017_Unit_7_Case_Studies_2-6_Review.pdf` (`drafts/build_unit7_review_pdf.js`, works for any case ids
+  on a served copy whose cases-data.js includes the drafts), answer key `drafts/NURS_1017_Unit_7_Answer_Key.md`
+  (`drafts/build_unit7_answer_key.py`).
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),

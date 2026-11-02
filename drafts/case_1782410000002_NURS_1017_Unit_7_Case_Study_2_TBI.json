@@ -1,0 +1,518 @@
+{
+  "id": "case_1782410000002",
+  "title": "NURS 1017 Unit 7 Case Study 2",
+  "course": "NURS 1017",
+  "unit": "Unit 7 (Neurological Disorders)",
+  "topic": "Unit 7 (Neurological Disorders)",
+  "disorder": "Unit 7 (Neurological Disorders)",
+  "description": "19-year-old male client who fell from a longboard without a helmet: concussion picture, then a right temporal epidural hematoma with a lucid interval and uncal herniation (Monro-Kellie doctrine, Cushing's triad), care after craniotomy to prevent secondary brain injury (ICP, CPP), and discharge teaching on TBI prevention and graded return to activity.",
+  "authorReview": {
+    "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Learning outcomes: TBI definition/etiology/prevention, coup-contrecoup and contusion, concussion (pathophysiology, older grades), epidural vs subdural vs subarachnoid bleeding, secondary injury, Monro-Kellie, ICP manifestations, CPP.\n- Targets follow the Brain Trauma Foundation 4th edition (SBP ≥ 110 mm Hg, ICP > 22 mm Hg, CPP 60–70 mm Hg); your course text may give other numbers (for example, ICP 20 mm Hg).\n- Clinician review: orders in the Provider Orders tab (doses) and the return-to-sport statement.",
+    "flaggedAt": "2026-11-02"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "highlight",
+        "stem": "The nurse reviews the Nurses' Notes and the Vital Signs. <b>Highlight</b> the findings that require follow-up.",
+        "options": [],
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was {“knocked out for about a minute”|correct}, then woke up and was talking. Client is {alert}. {Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall|correct}. Reports a {headache rated 6/10 with nausea|correct}; {vomited once in the ambulance|correct}. {4-cm boggy swelling with an abrasion over the right temporal area|correct}. {No drainage from the nose or ears}. {Pupils equal, 3 mm, briskly reactive}. {Moves all extremities with equal strength}. Glasgow Coma Scale (GCS) {14 (E4 V4 M6)|correct}. Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p>"
+          },
+          {
+            "id": "ht2",
+            "title": "Vital Signs",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">{T 36.8° C}, {P 88 beats/min}, {RR 16 breaths/min}, {BP 128/76 mm Hg}, {SpO₂ 98% on room air}.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null,
+        "explanation": "<b>Require follow-up:</b><br><br><b>Loss of consciousness, amnesia for the event, disorientation to time, and a GCS of 14:</b> signs of a traumatic brain injury (TBI) at least as severe as a concussion. Even a brief loss of consciousness after a blow to the head needs a CT scan (Canadian CT Head Rule: GCS below 15, vomiting, a dangerous mechanism, or amnesia call for imaging).<br><br><b>Headache with nausea and vomiting:</b> may be part of a concussion, but they are also early signs of rising intracranial pressure (ICP) from a bleed, so they are trended closely.<br><br><b>Boggy swelling over the right temporal area:</b> the temporal bone is the thinnest part of the skull, and the middle meningeal artery runs just beneath it. A blow here can fracture the bone and tear the artery, causing an epidural hematoma.<br><br><b>Do not require follow-up now:</b> being alert, equal and brisk pupils, equal strength, no drainage from the nose or ears (no sign of a basal skull fracture or CSF leak), and normal vital signs. These are the baseline the nurse compares with on every neurological check.",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mr",
+        "preamble": "The nurse has reviewed the Diagnostic Results and the Nurses' Notes from 1615.",
+        "stem": "The client asks how his injury differs from a concussion. For each finding, click to specify whether it is consistent with a <b>concussion</b>, an <b>epidural hematoma</b>, a <b>subdural hematoma</b>, or a <b>subarachnoid hemorrhage</b>. Each finding may support more than one condition.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Concussion",
+            "Epidural hematoma",
+            "Subdural hematoma",
+            "Subarachnoid hemorrhage"
+          ],
+          "rows": [
+            {
+              "text": "Bleeding from a torn middle meningeal artery, often with a temporal bone fracture",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Brief loss of consciousness with amnesia for the event and a normal CT scan",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Crescent-shaped collection from torn bridging veins that can spread across suture lines",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Headache, nausea, and vomiting",
+              "correctIndex": 0,
+              "correctIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "text": "Loss of consciousness, then a lucid interval, then rapid deterioration",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Sudden, severe (“worst ever”) headache with neck stiffness from blood in the space around the brain",
+              "correctIndex": 3,
+              "correctIndices": [
+                3
+              ]
+            },
+            {
+              "text": "Symptoms that may develop slowly over weeks in older adults and clients taking anticoagulants",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Biconvex (lens-shaped) collection that stops at the suture lines",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Concussion</b> is a mild diffuse TBI. Rapid acceleration and deceleration stretch axons; this causes ion shifts (potassium out of and calcium into neurons), a surge of glutamate, and an energy crisis in which the brain needs more glucose while its blood flow falls. The result is a temporary loss of function (confusion, amnesia, headache, nausea, sometimes loss of consciousness) without a structural lesion, so <b>CT and MRI are normal</b>. Older systems graded concussions (for example, grade 1: confusion without loss of consciousness, clearing within 15 minutes; grade 2: symptoms longer than 15 minutes; grade 3: any loss of consciousness). Current Canadian and international guidance has dropped the grades and manages each concussion by its symptoms, with a gradual return to activity.<br><br><b>Epidural hematoma</b>: arterial bleeding (usually the middle meningeal artery under a temporal bone fracture) between the skull and the dura. The dura is attached at the sutures, so the clot is <b>biconvex and stops at the suture lines</b>. Classic course: brief loss of consciousness, a <b>lucid interval</b> (minutes to hours), then rapid deterioration as the arterial clot expands. It is a neurosurgical emergency.<br><br><b>Subdural hematoma</b>: venous bleeding from <b>torn bridging veins</b> between the dura and the arachnoid; it is <b>crescent-shaped</b> and can cross suture lines. Acute subdurals follow severe injury; chronic subdurals develop over weeks in older adults (brain atrophy stretches the veins), people who misuse alcohol, and those taking anticoagulants.<br><br><b>Subarachnoid hemorrhage</b>: blood in the subarachnoid space (CSF space), from trauma or a ruptured aneurysm, causing a sudden severe headache and meningeal irritation (neck stiffness, photophobia).<br><br><b>All four</b> can cause headache, nausea and vomiting. This client also has a <b>contusion</b> (bruised brain tissue) of the left frontal lobe, on the opposite side from the blow: a <b>coup-contrecoup</b> (polar) injury, where the brain strikes the skull at the impact site (coup) and then rebounds against the opposite side (contrecoup)."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1720 and the Vital Signs from 1720.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "The client's deterioration is most likely caused by [[drop0]]. Because the skull cannot expand, the added [[drop1]] volume was at first offset by moving [[drop2]] out of the skull. That compensation has now failed, and the rising ICP is causing [[drop3]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "a postictal state",
+                  "correct": false
+                },
+                {
+                  "text": "dehydration from vomiting",
+                  "correct": false
+                },
+                {
+                  "text": "a second concussion",
+                  "correct": false
+                },
+                {
+                  "text": "expansion of the epidural hematoma",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "cerebrospinal fluid",
+                  "correct": false
+                },
+                {
+                  "text": "blood",
+                  "correct": true
+                },
+                {
+                  "text": "brain tissue",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "cerebrospinal fluid and venous blood",
+                  "correct": true
+                },
+                {
+                  "text": "interstitial fluid into the lungs",
+                  "correct": false
+                },
+                {
+                  "text": "arterial blood and brain tissue",
+                  "correct": false
+                },
+                {
+                  "text": "brain tissue only",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "compression of the spinal cord at C1",
+                  "correct": false
+                },
+                {
+                  "text": "bleeding into the left frontal contusion",
+                  "correct": false
+                },
+                {
+                  "text": "herniation of the right temporal lobe (uncus) that compresses cranial nerve III and the brainstem",
+                  "correct": true
+                },
+                {
+                  "text": "herniation of the left frontal lobe under the falx",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Expanding epidural hematoma:</b> the client had a brief loss of consciousness, a lucid interval (talking, “a bit better”), and now rapid deterioration, the classic course of an arterial epidural bleed.<br><br><b>Monro-Kellie doctrine:</b> the adult skull is a rigid box holding about 80% brain tissue, 10% blood and 10% CSF. If one volume increases (here, <b>blood</b> from the hematoma), ICP stays normal only if another decreases: CSF is pushed into the spinal subarachnoid space and absorbed faster, and venous blood is squeezed out. Once these small reserves are used up, a little more volume causes a steep rise in ICP (normal ICP is 5 to 15 mm Hg).<br><br><b>Uncal (transtentorial) herniation:</b> the expanding right temporal clot pushes the medial temporal lobe (uncus) through the tentorial notch. It compresses <b>cranial nerve III on the same side</b> (right pupil dilated and sluggish) and the brainstem motor tracts, which cross below, causing <b>weakness on the opposite side</b> (left). Falling GCS and <b>Cushing's triad</b> (BP 174/70 mm Hg with a widened pulse pressure, bradycardia of 56 beats/min, irregular respirations) are late signs that the brainstem is being compressed. This needs emergency surgical evacuation of the clot.<br><br><b>Why not the others:</b> a second concussion would not cause a unilateral dilated pupil or Cushing's triad; there was no seizure; two episodes of vomiting do not explain focal signs."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Returned from the operating room after emergency right temporal craniotomy and evacuation of the epidural hematoma (bleeding middle meningeal artery coagulated). Admitted to the neurological ICU. Intubated and mechanically ventilated; sedated with propofol. Intraparenchymal ICP monitor in place: ICP 12 mm Hg. Pupils 3 mm, equal and reactive.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Head of bed 30 degrees; head and neck midline.<br>ICP and CPP monitoring: notify for ICP above 22 mm Hg or CPP below 60 mm Hg.<br>Keep SBP at or above 110 mm Hg; SpO₂ at or above 94%; PaCO₂ 35–45 mm Hg; temperature below 38° C; blood glucose 6–10 mmol/L.<br>0.9% sodium chloride IV at 80 mL/h.<br>Propofol infusion and fentanyl infusion, titrate to the sedation scale; fentanyl 25 mcg IV PRN for coughing or agitation.<br>3% sodium chloride 250 mL IV over 30 minutes PRN for ICP above 22 mm Hg for more than 5 minutes.<br>Acetaminophen 650 mg per NG tube every 6 hours PRN for temperature above 38° C.<br>Levetiracetam 500 mg IV every 12 hours for 7 days (seizure prophylaxis).</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 2130 and the Provider Orders.",
+        "stem": "The nurse plans care to prevent secondary brain injury. For each intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b>.",
+        "matrix": {
+          "firstColumnHeader": "Intervention",
+          "columns": [
+            "Indicated",
+            "Contraindicated"
+          ],
+          "rows": [
+            {
+              "text": "Keep the head and neck in midline alignment and avoid tight endotracheal tube ties around the neck",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hyperventilate the client routinely to keep the PaCO₂ near 25 mm Hg",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Report a systolic BP below 110 mm Hg promptly",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Position the client with the hips flexed more than 90 degrees",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Change the maintenance IV fluid to 5% dextrose in water",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Give the prescribed acetaminophen and use cooling measures for a temperature above 38° C",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hyperoxygenate before suctioning and limit each suction pass to 10 seconds or less",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Group the bath, linen change, suctioning, and repositioning into one long session",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Secondary brain injury</b> is the damage that develops in the hours and days after the primary injury (the impact, fracture and bleed). Ischemia triggers an injury cascade: glutamate release, calcium entry into cells, free radicals and inflammation. Failing cell membrane pumps let sodium and water into cells (<b>cytotoxic edema</b>), and damage to the blood-brain barrier lets plasma leak into the brain (<b>vasogenic edema</b>), both raising ICP. Hypoxia, hypotension, hypercapnia or excessive hypocapnia, fever, seizures, and high or low glucose all worsen it, so nursing care aims to prevent each one.<br><br><b>Indicated:</b> a midline head and neck and loose tube ties keep the jugular veins open for venous drainage. Low BP lowers cerebral perfusion pressure (CPP = MAP − ICP); guidelines keep SBP at or above 110 mm Hg in adults aged 15 to 49. Fever raises brain metabolism and blood flow, so it is treated promptly. Suctioning raises ICP, so it is kept brief and preceded by hyperoxygenation.<br><br><b>Contraindicated:</b> routine hyperventilation lowers PaCO₂ and constricts cerebral vessels, reducing ICP briefly but causing ischemia; it is not used to prevent ICP rises (only briefly, on order, for signs of herniation). Hip flexion above 90 degrees raises intra-abdominal and intrathoracic pressure and impedes venous return from the head. D5W becomes free water once the glucose is used and worsens cerebral edema; isotonic 0.9% sodium chloride is used. Long clusters of care cause sustained ICP rises; activities are spaced with rest periods."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Returned from the operating room after emergency right temporal craniotomy and evacuation of the epidural hematoma (bleeding middle meningeal artery coagulated). Admitted to the neurological ICU. Intubated and mechanically ventilated; sedated with propofol. Intraparenchymal ICP monitor in place: ICP 12 mm Hg. Pupils 3 mm, equal and reactive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0400:</span><span class=\"nurse-note-text\">Client coughing and pushing against the ventilator during repositioning; sedation scale shows light sedation. ICP 26 mm Hg for the last 10 minutes; MAP 78 mm Hg. Head turned to the right on the pillow. Skin warm and flushed.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min (ventilator)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/61 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% (ventilator, FiO₂ 0.40)</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Head of bed 30 degrees; head and neck midline.<br>ICP and CPP monitoring: notify for ICP above 22 mm Hg or CPP below 60 mm Hg.<br>Keep SBP at or above 110 mm Hg; SpO₂ at or above 94%; PaCO₂ 35–45 mm Hg; temperature below 38° C; blood glucose 6–10 mmol/L.<br>0.9% sodium chloride IV at 80 mL/h.<br>Propofol infusion and fentanyl infusion, titrate to the sedation scale; fentanyl 25 mcg IV PRN for coughing or agitation.<br>3% sodium chloride 250 mL IV over 30 minutes PRN for ICP above 22 mm Hg for more than 5 minutes.<br>Acetaminophen 650 mg per NG tube every 6 hours PRN for temperature above 38° C.<br>Levetiracetam 500 mg IV every 12 hours for 7 days (seizure prophylaxis).</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "select_all",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0400 and the Vital Signs from Day 2 0400.",
+        "stem": "Which actions should the nurse take? <b>Select all that apply.</b>",
+        "options": [
+          {
+            "text": "Lower the head of the bed flat to increase blood flow to the brain",
+            "correct": false
+          },
+          {
+            "text": "Complete the morning bed bath now while the client is awake",
+            "correct": false
+          },
+          {
+            "text": "Administer the prescribed 3% sodium chloride",
+            "correct": true
+          },
+          {
+            "text": "Notify the provider of the ICP and the CPP",
+            "correct": true
+          },
+          {
+            "text": "Reposition the head to midline and confirm the head of the bed is at 30 degrees",
+            "correct": true
+          },
+          {
+            "text": "Administer the prescribed PRN fentanyl",
+            "correct": true
+          },
+          {
+            "text": "Give the prescribed acetaminophen and apply cooling measures",
+            "correct": true
+          },
+          {
+            "text": "Suction the endotracheal tube every 15 minutes to prevent coughing",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>CPP = MAP − ICP = 78 − 26 = 52 mm Hg</b>, below the target of 60 to 70 mm Hg, and the ICP has been above 22 mm Hg for more than 5 minutes. Coughing against the ventilator, a head turned to one side (kinked jugular veins) and fever (38.6° C) are all raising it.<br><br><b>Correct:</b> straighten the head and keep the head of the bed at 30 degrees to improve venous drainage. Give the PRN fentanyl for coughing and agitation. Give the 3% sodium chloride as ordered: hypertonic saline draws water out of brain tissue into the blood. Treat the fever (acetaminophen, cooling) to lower brain metabolism. Notify the provider, because the ICP and CPP are outside the ordered limits.<br><br><b>Incorrect:</b> lying flat reduces venous drainage and raises ICP. Frequent routine suctioning triggers coughing and raises ICP; suction only when needed. Nonurgent care (a bed bath) is postponed while ICP is high."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for a 19-year-old male client who fell from a longboard and struck his head.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1540:</span><span class=\"nurse-note-text\">Arrived by ambulance after falling from his longboard at about 1500 and striking the right side of his head on a curb. He was not wearing a helmet. His friend states he was “knocked out for about a minute”, then woke up and was talking. Client is alert. Oriented to person and place but not to time; repeatedly asks “What happened?” and cannot remember the fall. Reports a headache rated 6/10 with nausea; vomited once in the ambulance. 4-cm boggy swelling with an abrasion over the right temporal area. No drainage from the nose or ears. Pupils equal, 3 mm, briskly reactive. Moves all extremities with equal strength. Glasgow Coma Scale (GCS) 14 (E4 V4 M6). Neck nontender with full range of motion; cervical collar removed by the ED physician. Plays recreational hockey; had a concussion last winter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1615:</span><span class=\"nurse-note-text\">Neurosurgery consulted; plan is observation with neurological checks every 15 minutes and a repeat CT in 4 hours. Client states his headache is “a bit better” and asks to go home.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1720:</span><span class=\"nurse-note-text\">Client difficult to rouse: opens eyes only to a painful stimulus, speaks in confused, inappropriate words, and localizes pain (GCS 10, E2 V3 M5). Vomited twice since 1700. Right pupil 6 mm and sluggish; left pupil 3 mm and brisk. Left arm and leg weaker than the right (3/5). Respirations irregular.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Returned from the operating room after emergency right temporal craniotomy and evacuation of the epidural hematoma (bleeding middle meningeal artery coagulated). Admitted to the neurological ICU. Intubated and mechanically ventilated; sedated with propofol. Intraparenchymal ICP monitor in place: ICP 12 mm Hg. Pupils 3 mm, equal and reactive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0400:</span><span class=\"nurse-note-text\">Client coughing and pushing against the ventilator during repositioning; sedation scale shows light sedation. ICP 26 mm Hg for the last 10 minutes; MAP 78 mm Hg. Head turned to the right on the pillow. Skin warm and flushed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 9 1000:</span><span class=\"nurse-note-text\">Extubated on Day 4; transferred to the neurosurgical unit on Day 5. GCS 15. Mild headache (2/10), tires easily, and says bright screens bother him. Incision healing. Discharge home with his parents today; follow-up with neurosurgery in 2 weeks. The nurse reviews the discharge teaching with the client.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1540</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1720</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 9 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 breaths/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min (ventilator)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/61 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% (ventilator, FiO₂ 0.40)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1610:</span><span class=\"nurse-note-text\"><b>Non-contrast head CT:</b> nondisplaced linear fracture of the right temporal bone crossing the groove of the middle meningeal artery. Thin (6 mm) biconvex (lens-shaped) hyperdense collection between the skull and the dura over the right temporal lobe, consistent with a small acute epidural hematoma. Small contusion of the left frontal lobe. No midline shift.</span></p>"
+          },
+          {
+            "id": "ord",
+            "title": "Provider Orders",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2130:</span><span class=\"nurse-note-text\">Head of bed 30 degrees; head and neck midline.<br>ICP and CPP monitoring: notify for ICP above 22 mm Hg or CPP below 60 mm Hg.<br>Keep SBP at or above 110 mm Hg; SpO₂ at or above 94%; PaCO₂ 35–45 mm Hg; temperature below 38° C; blood glucose 6–10 mmol/L.<br>0.9% sodium chloride IV at 80 mL/h.<br>Propofol infusion and fentanyl infusion, titrate to the sedation scale; fentanyl 25 mcg IV PRN for coughing or agitation.<br>3% sodium chloride 250 mL IV over 30 minutes PRN for ICP above 22 mm Hg for more than 5 minutes.<br>Acetaminophen 650 mg per NG tube every 6 hours PRN for temperature above 38° C.<br>Levetiracetam 500 mg IV every 12 hours for 7 days (seizure prophylaxis).</span></p>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 9 1000 and the Vital Signs from Day 9 1000.",
+        "stem": "For each statement the client makes, click to specify whether it indicates an <b>understanding</b> of the discharge teaching or a <b>need for further teaching</b>.",
+        "matrix": {
+          "firstColumnHeader": "Client Statement",
+          "columns": [
+            "Understanding",
+            "Needs further teaching"
+          ],
+          "rows": [
+            {
+              "text": "“I'll wear a certified helmet every time I ride my longboard or bike.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I can go back to playing hockey as soon as my headache is gone.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“A few beers at the party this weekend won't affect how my brain heals.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“I'll drive myself to my follow-up appointment next week.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“If my headache gets much worse, I keep vomiting, or I get very sleepy or confused, I'll go to emergency.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“I'll start with short periods of light activity and limit screen time, then increase slowly if my symptoms don't get worse.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Understanding:</b> most TBIs are preventable (falls, motor vehicle and bicycle crashes, sports and assaults are the main causes in Canada); a certified helmet, seat belts, fall prevention and not riding or driving impaired reduce the risk. Worsening headache, repeated vomiting, drowsiness or confusion can mean a new bleed or rising ICP and need emergency care. After a brain injury, a short period of relative rest is followed by a <b>gradual</b> return to light activity and screen use, increased only if symptoms do not worsen.<br><br><b>Needs further teaching:</b> return to contact sport needs a stepwise plan and clearance by the neurosurgeon (after a craniotomy and a second brain injury, this may take months or not be advised); a further injury before recovery causes greater damage. Alcohol slows recovery, impairs judgment (raising the risk of another injury) and lowers the seizure threshold. Driving is not allowed until the provider clears him (attention, reaction time and seizure risk after a brain injury)."
+      }
+    }
+  ]
+}
