@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 cases-data.js.tmp
+
+# Case study PDFs from drafts/build_casebook_pdf.js (author reference only, holds answer keys)
+*_Case_Studies.pdf

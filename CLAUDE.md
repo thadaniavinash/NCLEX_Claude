@@ -41,6 +41,9 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   when the database can't be reached. Read/write it losslessly with `tools/bank.py` (Python) or
   `tools/supabase.js` (Node). Keep it in sync via the workflow's `download` action.
 - `drafts/`: case studies being written (the DMD case's generator `build_unit3_case4.py` lives here).
+  `node drafts/build_casebook_pdf.js "NURS 1017" 3 [--standalone] [out.pdf]` writes a reference PDF of a
+  unit (chart, question, answer key, rationale per screen) for the user only; `*_Case_Studies.pdf` is
+  git-ignored, never commit it (user decision, Nov 2026: answer keys must not be in the public repo).
 - `supabase/setup.sql` (table), `supabase/002_admin_logins.sql` (version column + trigger, `nclex_admins`,
   `is_nclex_admin()`, admin-only update policy).
 - `server.js` + `*.bat`: optional local Windows server (`/api/save` writes `cases-data.js`).
