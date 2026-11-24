@@ -6,6 +6,7 @@
   "topic": "Unit 1 (Blood Disorders)",
   "disorder": "Unit 1 (Blood Disorders)",
   "description": "22-year-old male with severe hemophilia A and an acute knee hemarthrosis after missed prophylaxis, then a minor head injury: coagulation tests (PT/INR, aPTT, mixing study, factor assays), hemophilia A versus B, factor replacement.",
+  "draft": true,
   "authorReview": {
     "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (Hemophilia, Jul 2025). Please review: fibrinogen (2.0–4.0 g/L) and factor VIII/IX activity (50%–150%) reference ranges (not in the MCC list); factor VIII doses (50 units/kg, then 25 units/kg every 12 hours); ice for hemarthrosis (standard nursing teaching; some guidelines are less firm).",
     "flaggedAt": "2026-11-24"

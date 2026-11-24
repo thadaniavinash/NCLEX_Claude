@@ -6,6 +6,7 @@
   "topic": "Unit 1 (Blood Disorders)",
   "disorder": "Unit 1 (Blood Disorders)",
   "description": "58-year-old female in septic shock from pyelonephritis who develops acute disseminated intravascular coagulation: manifestations, pathogenesis (clotting, consumption, fibrinolysis), coagulation tests, bleeding precautions and blood product administration.",
+  "draft": true,
   "authorReview": {
     "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (DIC, Jul 2025). Please review: fibrinogen reference range (2.0–4.0 g/L, not in the MCC list); transfusion steps against your hospital's blood administration policy (order of baseline vital signs and product pickup; 15 minutes with the client); platelet and cryoprecipitate doses as Canadian adult doses.",
     "flaggedAt": "2026-11-24"

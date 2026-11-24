@@ -220,10 +220,12 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   question on clinical manifestations; validate against med-surg textbooks, Merck Manual Professional, Medscape).
   Unit 1 plan (outcomes: hemostasis/coagulation tests, hemophilia A/B, DIC, aplastic anemia, anemia of CKD,
   B12/folate, iron deficiency, thalassemia, sickle cell, hemolytic disease of the newborn): Case Studies 2 hemophilia,
-  3 DIC, 4 iron deficiency (batch 1), 5 aplastic anemia, 6 anemia of CKD, 7 B12/folate (batch 2, 25 Nov) (drafts: `drafts/build_1021_unit1_case<n>_*.py`, shared
-  `drafts/nurs1021_common.py`, ids `case_17860<unit><n:07d>`); still to write:
-  thalassemia, sickle cell (adult; NURS 1017 Unit 3 CS6 is pediatric), HDN (Unit 1 would then have 11 with the 2 DVT
-  cases). Review PDF: `build_casebook_pdf.js --from` (scratchpad only, never committed).
+  3 DIC, 4 iron deficiency, 5 aplastic anemia, 6 anemia of CKD, 7 B12/folate, 8 thalassemia major (cardiac iron
+  overload, chelation), 9 adult sickle cell (VOC, priapism, acute chest syndrome, PCA oversedation), 10 Rh hemolytic
+  disease of the newborn (24-25 Nov 2026; `drafts/build_1021_unit1_case<n>_*.py`, shared `drafts/nurs1021_common.py`,
+  ids `case_17860<unit><n:07d>`, written with `draft: true` + `authorReview`). All nine added to the database hidden
+  from students on 25 Nov 2026 at the user's request; the user reviews them in the studio and uses "Show to students".
+  Unit 1 now has 11 case studies (with the 2 DVT cases). Review PDF: `build_casebook_pdf.js --from` (scratchpad only).
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),

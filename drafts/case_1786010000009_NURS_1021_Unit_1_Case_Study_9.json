@@ -1,0 +1,498 @@
+{
+  "id": "case_1786010000009",
+  "title": "NURS 1021 Unit 1 Case Study 9",
+  "course": "NURS 1021",
+  "unit": "Unit 1 (Blood Disorders)",
+  "topic": "Unit 1 (Blood Disorders)",
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "26-year-old male with sickle cell anemia: vaso-occlusive crisis with priapism after dehydration, then acute chest syndrome, exchange transfusion, PCA oversedation and hydroxyurea teaching.",
+  "draft": true,
+  "authorReview": {
+    "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 3); checked against Merck Manual Professional (Sickle Cell Disease, Apr 2026). Please review (standard practice, not on the Merck page): oxygen target 95% or higher, IV fluid rate, PCA settings and naloxone dose (0.04 mg increments), fever threshold 38.5° C for adults; urology aspiration for priapism.",
+    "flaggedAt": "2026-11-24"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS).",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "stem": "The nurse reviews the client's history and assessment. Which findings require follow-up? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Slightly yellow sclerae, normal for him",
+            "correct": false
+          },
+          {
+            "text": "Vomiting with dry mucous membranes after drinking little while skiing",
+            "correct": true
+          },
+          {
+            "text": "Lower back and thigh pain rated 9/10, unrelieved by hydromorphone",
+            "correct": true
+          },
+          {
+            "text": "Painful erection for 3 hours",
+            "correct": true
+          },
+          {
+            "text": "Spleen not palpable",
+            "correct": false
+          },
+          {
+            "text": "SpO₂ 97% on room air with clear lungs",
+            "correct": false
+          },
+          {
+            "text": "Heart rate of 116 beats/min",
+            "correct": true
+          }
+        ],
+        "explanation": "<b>Require follow-up:</b> when HbS gives up oxygen it polymerizes; red cells become rigid and sickled, stick to the endothelium and block small vessels, causing ischemic pain in bones, back and joints: a <b>vaso-occlusive crisis</b>, the most common crisis (Option 3). It needs rapid, generous analgesia, usually IV opioids. <b>Priapism</b> is vaso-occlusion in the penis; an erection lasting hours is an emergency that can cause permanent erectile dysfunction, so it is reported at once (Option 4). Dehydration (vomiting, little fluid, cold and altitude) concentrates the blood and triggers sickling (Option 2). Tachycardia reflects pain, dehydration and anemia (Option 7).<br><br><b>Expected:</b> mild jaundice from ongoing hemolysis is usual for him (Option 1). In adults with HbSS the spleen has shrunk from repeated infarctions (functional asplenia), so it is not palpable; this is also why fever is dangerous (Option 5). Normal SpO₂ and clear lungs show no sign of acute chest syndrome yet, but they are rechecked regularly (Option 6).",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS).",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 0800 and the Laboratory Results.",
+        "stem": "For each finding, click to specify whether it is most consistent with a <b>vaso-occlusive crisis</b>, <b>acute chest syndrome</b>, or an <b>aplastic crisis</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Vaso-Occlusive Crisis",
+            "Acute Chest Syndrome",
+            "Aplastic Crisis"
+          ],
+          "rows": [
+            {
+              "text": "Fever, chest pain and a new infiltrate on chest X-ray",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Severe pain in the long bones and back with a normal chest X-ray",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Reticulocytes below 1% with hemoglobin well below the usual level",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Falling SpO₂ with crackles and a rising respiratory rate",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Recent parvovirus B19 infection",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Reticulocytes about 11% with hemoglobin slightly below the usual level",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Vaso-occlusive crisis (Jordan now):</b> ischemic pain from blocked small vessels, often in bones, back and joints, with a clear chest X-ray. Ongoing hemolysis keeps the reticulocyte count high (about 11%), bilirubin and LDH raised, and hemoglobin near his usual level. The white cell count often rises without infection.<br><br><b>Acute chest syndrome:</b> sickling in the lung vessels (often with infection or fat embolism) causes fever, chest pain, cough, tachypnea, crackles, falling SpO₂ and a <b>new pulmonary infiltrate</b>. It is a leading cause of death and often develops 1 to 3 days into a pain crisis.<br><br><b>Aplastic crisis:</b> parvovirus B19 infects red cell precursors and stops red cell production for about a week. Because sickle cells survive only 10 to 20 days, hemoglobin falls fast, and reticulocytes drop below 1%. It often needs transfusion."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS).",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "bowtie",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1400, the Vital Signs, and the Laboratory Results.",
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client's progress.",
+        "bowtieConditions": [
+          {
+            "text": "Acute chest syndrome",
+            "correct": true
+          },
+          {
+            "text": "Splenic sequestration",
+            "correct": false
+          },
+          {
+            "text": "Aplastic crisis",
+            "correct": false
+          },
+          {
+            "text": "Uncomplicated vaso-occlusive crisis",
+            "correct": false
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Give a 2 L IV fluid bolus to flush the lungs",
+            "correct": false
+          },
+          {
+            "text": "Give the prescribed IV antibiotics without delay",
+            "correct": true
+          },
+          {
+            "text": "Give meperidine for the chest pain",
+            "correct": false
+          },
+          {
+            "text": "Give oxygen to keep SpO₂ at 95% or higher",
+            "correct": true
+          },
+          {
+            "text": "Keep him flat in bed to reduce oxygen demand",
+            "correct": false
+          }
+        ],
+        "bowtieParams": [
+          {
+            "text": "INR",
+            "correct": false
+          },
+          {
+            "text": "Oxygen saturation and respiratory rate",
+            "correct": true
+          },
+          {
+            "text": "Serum amylase",
+            "correct": false
+          },
+          {
+            "text": "Hemoglobin level",
+            "correct": true
+          },
+          {
+            "text": "Blood glucose",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Condition:</b> fever, chest pain, cough, tachypnea, hypoxemia (89%) and a new infiltrate during a pain crisis define acute chest syndrome. Reticulocytes remain high (not aplastic crisis), and the spleen in an adult with HbSS is atrophied (sequestration is mainly a childhood crisis).<br><br><b>Actions:</b> hypoxemia increases sickling, so oxygen is given; broad-spectrum antibiotics are started at once because infection often triggers or complicates the syndrome. Hematology is called for transfusion (often exchange transfusion to lower the HbS percentage). Meperidine's metabolite can cause seizures; large fluid boluses can cause pulmonary edema and worsen the syndrome; lying flat worsens atelectasis: he sits upright and uses the incentive spirometer.<br><br><b>Parameters:</b> SpO₂ and respiratory rate show whether lung involvement is improving; hemoglobin, which has fallen from 74 to 63 g/L, guides transfusion."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS).",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1500:</span><span class=\"nurse-note-text\">Hematology at the bedside: exchange transfusion planned tonight. Consent signed. Orders received.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 1 g IV every 24 hours and azithromycin 500 mg IV every 24 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Red cell exchange transfusion tonight; leukoreduced, sickle-negative, phenotype-matched red cells.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hydromorphone PCA: 0.2 mg per dose, 10-minute lockout, no basal rate. Sedation score and RR every hour.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.45% NaCl IV at 100 mL/h. Strict intake and output.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1500 and the Orders.",
+        "stem": "Which interventions should the nurse include in Jordan's plan of care? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Coach incentive spirometry every 2 hours while he is awake",
+            "correct": true
+          },
+          {
+            "text": "Assess sedation and respiratory rate every hour while he uses the PCA",
+            "correct": true
+          },
+          {
+            "text": "Keep him sitting upright and help him walk as tolerated",
+            "correct": true
+          },
+          {
+            "text": "Increase the IV rate to 250 mL/h to reverse sickling faster",
+            "correct": false
+          },
+          {
+            "text": "Run the IV fluid at the ordered rate and monitor intake, output and lung sounds",
+            "correct": true
+          },
+          {
+            "text": "Encourage him to push the PCA button before every breath to stay pain-free",
+            "correct": false
+          },
+          {
+            "text": "Check that the red cells for the exchange are leukoreduced and phenotype-matched",
+            "correct": true
+          },
+          {
+            "text": "Apply cool cloths and a fan to bring his temperature down",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Include:</b> incentive spirometry and sitting upright expand the lung bases and reduce atelectasis, which worsens acute chest syndrome (Options 1 and 3). Opioids are needed for chest and bone pain, but sedation comes before respiratory depression, which would worsen hypoxemia (Option 2). Fluids maintain hydration without overload, which can cause pulmonary edema (Option 5). Clients with sickle cell disease receive many transfusions and often form antibodies against red cell antigens; phenotype-matched, leukoreduced, sickle-negative cells reduce reactions (Option 7).<br><br><b>Do not include:</b> cold causes vasoconstriction and sickling; fever is treated with acetaminophen (Option 8). Only the client presses the PCA button, when he needs it; pressing it constantly risks oversedation (Option 6). Overhydration can trigger pulmonary edema and worsen acute chest syndrome (Option 4)."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS).",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1500:</span><span class=\"nurse-note-text\">Hematology at the bedside: exchange transfusion planned tonight. Consent signed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Exchange transfusion completed at 2300. At 0300 Jordan is difficult to rouse; falls asleep mid-sentence. Respirations shallow. His mother says she has been pressing the PCA button “so he won't wake up in pain.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on 4 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">unable to rate</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 1 g IV every 24 hours and azithromycin 500 mg IV every 24 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Red cell exchange transfusion tonight; leukoreduced, sickle-negative, phenotype-matched red cells.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hydromorphone PCA: 0.2 mg per dose, 10-minute lockout, no basal rate. Sedation score and RR every hour.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.45% NaCl IV at 100 mL/h. Strict intake and output.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 0300 and the Vital Signs.",
+        "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+        "matrix": {
+          "firstColumnHeader": "Nursing Action",
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "rows": [
+            {
+              "text": "Stop the PCA infusion",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Give a PCA dose so he does not wake in pain",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Stimulate him, support his airway and give the prescribed naloxone",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Remove the oxygen to measure his SpO₂ on room air",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Explain to his mother why only Jordan may press the PCA button",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Request a repeat hemoglobin electrophoresis",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Indicated:</b> a respiratory rate of 8 breaths/min, SpO₂ 86% and increasing sedation mean opioid-induced respiratory depression. The opioid is stopped, he is roused and his airway supported, and naloxone is given as prescribed (diluted and titrated, so his pain does not return all at once); hypoventilation also increases sickling. PCA by proxy defeats the safety of PCA: a sleeping client cannot press the button, so the family is taught not to.<br><br><b>Contraindicated:</b> more opioid worsens the respiratory depression; removing oxygen from a hypoxemic client is unsafe.<br><br><b>Non-Essential:</b> electrophoresis after the exchange shows the HbS percentage but does nothing for the emergency."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS).",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1500:</span><span class=\"nurse-note-text\">Hematology at the bedside: exchange transfusion planned tonight. Consent signed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Exchange transfusion completed at 2300. At 0300 Jordan is difficult to rouse; falls asleep mid-sentence. Respirations shallow. His mother says she has been pressing the PCA button “so he won't wake up in pain.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0315:</span><span class=\"nurse-note-text\">Naloxone 0.04 mg IV given twice; RR 14 breaths/min, SpO₂ 95%, rousable to voice.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 7 1000:</span><span class=\"nurse-note-text\">Afebrile 72 hours. SpO₂ 97% on room air; walking the hallway. Pain 2/10 on oral analgesics. Hemoglobin 92 g/L; HbS 28% after the exchange. Hematology restarts hydroxyurea; the nurse completes discharge teaching.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 7 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">unable to rate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 1 g IV every 24 hours and azithromycin 500 mg IV every 24 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Red cell exchange transfusion tonight; leukoreduced, sickle-negative, phenotype-matched red cells.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hydromorphone PCA: 0.2 mg per dose, 10-minute lockout, no basal rate. Sedation score and RR every hour.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.45% NaCl IV at 100 mL/h. Strict intake and output.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 0315 and Day 7 1000 and the Vital Signs.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "Jordan shows that he understands his teaching when he says that hydroxyurea prevents crises by [[drop0]], that he needs [[drop1]] while taking it, and that he will go to the emergency department for [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "replacing the sickle cell gene",
+                  "correct": false
+                },
+                {
+                  "text": "thinning his blood",
+                  "correct": false
+                },
+                {
+                  "text": "strengthening his spleen",
+                  "correct": false
+                },
+                {
+                  "text": "raising fetal hemoglobin, which does not sickle",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "regular blood counts, because it can lower white cells and platelets",
+                  "correct": true
+                },
+                {
+                  "text": "a low-iron diet",
+                  "correct": false
+                },
+                {
+                  "text": "to stop folic acid",
+                  "correct": false
+                },
+                {
+                  "text": "monthly chest X-rays",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "pain that settles with fluids, rest and his usual tablets",
+                  "correct": false
+                },
+                {
+                  "text": "tiredness after a long day",
+                  "correct": false
+                },
+                {
+                  "text": "a temperature of 38.5° C or higher, chest pain or shortness of breath, or an erection that will not go away",
+                  "correct": true
+                },
+                {
+                  "text": "his usual slight yellowing of the eyes",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Hydroxyurea:</b> it increases fetal hemoglobin (HbF), which does not polymerize and dilutes HbS in each cell, so cells sickle less. It reduces painful crises by about 45% and lowers acute chest syndrome and transfusion needs. It does not change the gene. It suppresses the marrow (neutropenia, thrombocytopenia), so blood counts are checked regularly and the dose adjusted; it should not be used during pregnancy or when planning one.<br><br><b>Emergency signs:</b> fever (risk of sepsis without a functioning spleen), chest pain or dyspnea (acute chest syndrome), priapism, sudden weakness, numbness or speech change (stroke) and pain not controlled at home. Pain that settles at home, his usual mild jaundice and ordinary tiredness do not need emergency care.<br><br><b>Also taught:</b> drink plenty of fluids, avoid cold, altitude and overexertion, take folic acid, keep pneumococcal, meningococcal, influenza and COVID-19 vaccines up to date, and use the incentive spirometer at home when ill."
+      }
+    }
+  ]
+}

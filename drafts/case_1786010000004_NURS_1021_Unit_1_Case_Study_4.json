@@ -6,6 +6,7 @@
   "topic": "Unit 1 (Blood Disorders)",
   "disorder": "Unit 1 (Blood Disorders)",
   "description": "34-year-old female with fatigue, pica and koilonychia from heavy menstrual bleeding (fibroids) and a vegan diet: iron deficiency anemia, iron studies compared with thalassemia trait and anemia of chronic disease, oral iron teaching and IV iron sucrose.",
+  "draft": true,
   "authorReview": {
     "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (Iron Deficiency Anemia, Mar 2025). Please review: ferrous sulfate 300 mg (60 mg elemental) every other day (Merck's alternate-day dosing; many Canadian prescribers still use daily dosing); iron sucrose 200 mg IV weekly × 5 and the 30-minute observation (check against your agency's policy).",
     "flaggedAt": "2026-11-24"

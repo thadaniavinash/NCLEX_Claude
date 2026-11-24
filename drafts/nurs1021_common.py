@@ -2,7 +2,8 @@
 
 Builds on unit6_common (Chart: tabs only grow; seeded random answer order). Adds tabs whose table grows
 by rows, select-all questions whose rationale numbers options after shuffling ("{A}" -> "(Option 3)"),
-drop-downs, and write_case() for NURS 1021 ids (case_17860<unit>000000<n>).
+drop-downs, and write_case() for NURS 1021 ids (case_17860<unit><n:07d>). Items are written with
+draft: true (hidden from students) so the author reviews them in the studio and uses "Show to students".
 """
 import json, os, re
 from unit6_common import Chart, table, note_rows, shuffle, matrix_mc, matrix_mr, rationale, lab, highlight_tab, HERE
@@ -79,7 +80,7 @@ def write_case(unit, n, description, screens, review):
     case_id = f"case_17860{unit}{n:07d}"
     title = f"NURS 1021 Unit {unit} Case Study {n}"
     case = {"id": case_id, "title": title, "course": "NURS 1021", "unit": UNITS[unit], "topic": UNITS[unit],
-            "disorder": UNITS[unit], "description": description,
+            "disorder": UNITS[unit], "description": description, "draft": True,
             "authorReview": {"note": review, "flaggedAt": "2026-11-24"}, "screens": screens}
     out = os.path.join(HERE, f"{case_id}_{title.replace(' ', '_')}.json")
     with open(out, "w") as f:

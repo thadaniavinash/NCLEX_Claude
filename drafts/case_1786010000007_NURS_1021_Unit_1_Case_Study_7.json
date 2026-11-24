@@ -6,6 +6,7 @@
   "topic": "Unit 1 (Blood Disorders)",
   "disorder": "Unit 1 (Blood Disorders)",
   "description": "61-year-old female with pernicious anemia (plus metformin and omeprazole) presenting with falls, paresthesias and glossitis: megaloblastic anemia, vitamin B12 versus folate deficiency (methylmalonic acid, homocysteine), IM cyanocobalamin and why folate alone is unsafe.",
+  "draft": true,
   "authorReview": {
     "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Vitamin B12 Deficiency, Jun 2026; Folate Deficiency, Nov 2026; Megaloblastic Macrocytic Anemias, Mar 2025). Please review: methylmalonic acid (< 0.40 µmol/L) and homocysteine (5–15 µmol/L) reference ranges (not in the MCC list); the cyanocobalamin schedule (daily × 7, weekly × 4, then monthly; Merck gives 1 mg IM 1–4 times a week, then monthly); outpatient gastroscopy at diagnosis of pernicious anemia.",
     "flaggedAt": "2026-11-24"

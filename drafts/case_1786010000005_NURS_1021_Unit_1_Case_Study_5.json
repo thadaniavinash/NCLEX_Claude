@@ -6,6 +6,7 @@
   "topic": "Unit 1 (Blood Disorders)",
   "disorder": "Unit 1 (Blood Disorders)",
   "description": "24-year-old male with severe aplastic anemia after benzene solvent exposure: pancytopenia (anemia, neutropenia, thrombocytopenia), febrile neutropenia, neutropenic and bleeding precautions, antithymocyte globulin and cyclosporine.",
+  "draft": true,
   "authorReview": {
     "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Aplastic Anemia, Mar 2025). Please review: irradiated/leukoreduced products and avoiding family-donor blood (standard hematology practice, not on the Merck page); excluding flowers and plants (agency policies vary); ATG infusion details (premedication, in-line filter, at least 4 hours) against the product monograph and your agency.",
     "flaggedAt": "2026-11-24"

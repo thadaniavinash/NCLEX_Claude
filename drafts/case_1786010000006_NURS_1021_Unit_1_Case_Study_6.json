@@ -6,6 +6,7 @@
   "topic": "Unit 1 (Blood Disorders)",
   "disorder": "Unit 1 (Blood Disorders)",
   "description": "67-year-old female with diabetic nephropathy (stage 4 chronic kidney disease) and anemia: erythropoietin deficiency, anemia versus uremic manifestations, IV iron, darbepoetin alfa teaching, hold criteria and target hemoglobin.",
+  "draft": true,
   "authorReview": {
     "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Anemia of Renal Disease, Mar 2025; Chronic Kidney Disease, Feb 2026). Please review: darbepoetin 30 mcg every 2 weeks (about 0.45 mcg/kg) and the clinic hold criteria (example protocol); ESA-induced hypertension (product monograph, not on the Merck pages); folate reference range ≥ 10.0 nmol/L (MCC).",
     "flaggedAt": "2026-11-24"
