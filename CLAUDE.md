@@ -215,6 +215,15 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   sickle cell disease + AD/AR/XLR inheritance; teratogens isotretinoin/rubella/valproic acid + multifactorial NTDs),
   revised by Claude and published 24 Nov 2026 (visible, with an `authorReview` note). At the user's request the
   generator, draft JSON and review PDF were then deleted; the database and `cases-data.js` are the only copies.
+- NURS 1021 build-up (user teaches NURS 1021 from Jan 2027; goal 10 case studies per unit, batchwise, accuracy over
+  speed; nursing-focused, clinical judgment model, varied question types fitted to what is assessed, at least one
+  question on clinical manifestations; validate against med-surg textbooks, Merck Manual Professional, Medscape).
+  Unit 1 plan (outcomes: hemostasis/coagulation tests, hemophilia A/B, DIC, aplastic anemia, anemia of CKD,
+  B12/folate, iron deficiency, thalassemia, sickle cell, hemolytic disease of the newborn): Case Studies 2 hemophilia,
+  3 DIC, 4 iron deficiency (batch 1, drafts, 24 Nov 2026: `drafts/build_1021_unit1_case<n>_*.py`, shared
+  `drafts/nurs1021_common.py`, ids `case_17860<unit><n:07d>`); still to write: aplastic, CKD anemia, B12/folate,
+  thalassemia, sickle cell (adult; NURS 1017 Unit 3 CS6 is pediatric), HDN (Unit 1 would then have 11 with the 2 DVT
+  cases). Review PDF: `build_casebook_pdf.js --from` (scratchpad only, never committed).
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),

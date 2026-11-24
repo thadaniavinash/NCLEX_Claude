@@ -1,0 +1,457 @@
+{
+  "id": "case_1786010000003",
+  "title": "NURS 1021 Unit 1 Case Study 3",
+  "course": "NURS 1021",
+  "unit": "Unit 1 (Blood Disorders)",
+  "topic": "Unit 1 (Blood Disorders)",
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "58-year-old female in septic shock from pyelonephritis who develops acute disseminated intravascular coagulation: manifestations, pathogenesis (clotting, consumption, fibrinolysis), coagulation tests, bleeding precautions and blood product administration.",
+  "authorReview": {
+    "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (DIC, Jul 2025). Please review: fibrinogen reference range (2.0–4.0 g/L, not in the MCC list); transfusion steps against your hospital's blood administration policy (order of baseline vital signs and product pickup; 15 minutes with the client); platelet and cryoprecipitate doses as Canadian adult doses.",
+    "flaggedAt": "2026-11-24"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>disseminated intravascular coagulation (DIC)</b>? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Right flank pain with costovertebral angle tenderness",
+            "correct": false
+          },
+          {
+            "text": "Three days of symptoms before admission",
+            "correct": false
+          },
+          {
+            "text": "Petechiae on the chest and ecchymoses under the BP cuff",
+            "correct": true
+          },
+          {
+            "text": "Pink-tinged urine in the catheter bag",
+            "correct": true
+          },
+          {
+            "text": "Blood oozing from the IV site and venipuncture sites",
+            "correct": true
+          },
+          {
+            "text": "Temperature of 39.4° C with chills",
+            "correct": false
+          },
+          {
+            "text": "Gums that bleed during mouth care",
+            "correct": true
+          },
+          {
+            "text": "Cool, mottled, dusky fingertips",
+            "correct": true
+          }
+        ],
+        "explanation": "<b>Consistent with DIC:</b> in acute DIC, platelets and clotting factors are used up faster than the body can replace them, so the client bleeds from many sites at once. Typical signs are persistent oozing from IV, arterial and venipuncture sites (Option 5), petechiae and bruising where pressure is applied (Option 3), bleeding gums (Option 7) and hematuria (Option 4); gastrointestinal bleeding is also common. At the same time, tiny clots block small vessels: cool, mottled, dusky fingertips (acrocyanosis) reflect microvascular thrombosis, made worse by shock (Option 8).<br><br><b>Not DIC:</b> fever and chills are signs of the infection (Option 6), and flank pain with costovertebral angle tenderness points to pyelonephritis (Option 1). These describe the <b>cause</b> (gram-negative sepsis), not DIC itself. How long she was ill before admission does not describe a manifestation of DIC (Option 2).",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1000 and the Laboratory Results.",
+        "stem": "For each finding, click to specify whether it is mainly the result of <b>clots forming in small blood vessels</b>, <b>consumption of platelets and clotting factors</b>, or <b>breakdown of fibrin (fibrinolysis)</b>.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Clots in Small Vessels",
+            "Consumption of Platelets and Factors",
+            "Fibrinolysis"
+          ],
+          "rows": [
+            {
+              "text": "Platelet count 18 × 10⁹/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Schistocytes on the blood smear",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "D-dimer 8,500 µg/L",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Fibrinogen 0.8 g/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Cool, mottled, dusky fingertips",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "PT 22 seconds and aPTT 54 seconds",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>How DIC develops:</b> bacterial endotoxin and tissue injury expose <b>tissue factor</b> to the blood. Clotting is switched on throughout the circulation instead of only at a wound, so thrombin forms fibrin clots in small vessels everywhere.<br><br><b>Clots in small vessels:</b> microthrombi block blood flow to the fingers (acrocyanosis), kidneys (falling urine output, rising creatinine), brain (confusion) and other organs, causing multi-organ dysfunction. Red cells forced through fibrin strands are cut into fragments, seen as <b>schistocytes</b>.<br><br><b>Consumption:</b> the widespread clotting uses up platelets, fibrinogen and other clotting factors. The platelet count and fibrinogen fall and the PT, INR and aPTT are prolonged, so the client bleeds.<br><br><b>Fibrinolysis:</b> the body breaks the clots down with plasmin. Breaking down cross-linked fibrin releases <b>D-dimer</b>, which is very high. Fibrin degradation products also interfere with platelet function, adding to the bleeding. Clotting and bleeding therefore happen at the same time, which answers the daughter's question."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "bowtie",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1030 and the Vital Signs.",
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client's progress.",
+        "bowtieConditions": [
+          {
+            "text": "Hemophilia A",
+            "correct": false
+          },
+          {
+            "text": "Disseminated intravascular coagulation",
+            "correct": true
+          },
+          {
+            "text": "Immune thrombocytopenia",
+            "correct": false
+          },
+          {
+            "text": "Thrombotic thrombocytopenic purpura",
+            "correct": false
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Give the prescribed vitamin K by IM injection",
+            "correct": false
+          },
+          {
+            "text": "Start a continuous heparin infusion",
+            "correct": false
+          },
+          {
+            "text": "Give the prescribed antibiotic doses on time",
+            "correct": true
+          },
+          {
+            "text": "Give the prescribed platelets and cryoprecipitate",
+            "correct": true
+          },
+          {
+            "text": "Hold the antibiotics until the bleeding stops",
+            "correct": false
+          }
+        ],
+        "bowtieParams": [
+          {
+            "text": "Factor VIII inhibitor level",
+            "correct": false
+          },
+          {
+            "text": "Hemoglobin A1C",
+            "correct": false
+          },
+          {
+            "text": "Platelet count and fibrinogen level",
+            "correct": true
+          },
+          {
+            "text": "Bleeding from puncture sites, mouth and urine",
+            "correct": true
+          },
+          {
+            "text": "Serum potassium",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Condition: DIC.</b> Low platelets with a prolonged PT and aPTT, low fibrinogen, a very high D-dimer and schistocytes in a client with gram-negative sepsis fit acute DIC. Immune thrombocytopenia lowers platelets but leaves the PT, aPTT and fibrinogen normal. Thrombotic thrombocytopenic purpura causes low platelets and schistocytes, but clotting factors are not consumed, so the PT, aPTT and fibrinogen are usually normal. Hemophilia A prolongs only the aPTT.<br><br><b>Actions:</b> the most important treatment of DIC is treating its cause, so antibiotics are given on time and without interruption (with fluids and vasopressors for shock). Because she is bleeding with platelets of 18 × 10⁹/L and fibrinogen of 0.8 g/L, platelets and cryoprecipitate (which replaces fibrinogen) are given. Heparin is usually not used in acute DIC with bleeding; it is reserved for slowly developing DIC with thrombosis. Intramuscular injections cause hematomas and are avoided; vitamin K corrects vitamin K deficiency, not consumption.<br><br><b>Parameters:</b> serial platelet counts and fibrinogen show whether consumption is slowing, and bleeding sites show whether replacement is working. Hemoglobin A1C, potassium and factor VIII inhibitors do not track DIC."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Circulation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Norepinephrine infusion titrated to MAP 65 mm Hg or higher. Lactated Ringer's 500 mL IV bolus now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now. Cryoprecipitate 10 units IV now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">CBC, PT/INR, aPTT and fibrinogen every 6 hours. Hourly urine output.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No intramuscular injections. Acetaminophen for fever; no aspirin or NSAIDs.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1100 and the Orders.",
+        "stem": "For each nursing intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for Rosa.",
+        "matrix": {
+          "firstColumnHeader": "Nursing Intervention",
+          "columns": [
+            "Indicated",
+            "Contraindicated"
+          ],
+          "rows": [
+            {
+              "text": "Measure the temperature by the rectal route for accuracy",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Hold firm pressure on puncture sites for at least 5 minutes",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Use foam swabs instead of a toothbrush for mouth care",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Give the prescribed opioid for pain by intramuscular injection",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Turn and reposition Rosa gently using a lift sheet",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Check stool, urine and gastric secretions for blood",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Indicated:</b> prolonged firm pressure lets a clot form at puncture sites despite low platelets. Foam swabs avoid injuring bleeding gums. Gentle turning with a lift sheet avoids friction and shearing that cause bruising and bleeding. Checking stool, urine and gastric contents detects hidden (occult) bleeding early.<br><br><b>Contraindicated:</b> a rectal thermometer can injure the rectal mucosa and cause bleeding; oral, tympanic or temporal routes are used. Intramuscular injections cause hematomas in a client with low platelets and clotting factors; medications are given IV or by mouth."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">Platelets ready in the blood bank. Informed consent for blood products signed by Rosa's daughter as substitute decision-maker. Blood administration set primed with 0.9% sodium chloride.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Circulation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Norepinephrine infusion titrated to MAP 65 mm Hg or higher. Lactated Ringer's 500 mL IV bolus now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now. Cryoprecipitate 10 units IV now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">CBC, PT/INR, aPTT and fibrinogen every 6 hours. Hourly urine output.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No intramuscular injections. Acetaminophen for fever; no aspirin or NSAIDs.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "ordered_response",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1150.",
+        "stem": "The nurse prepares to give the platelets. Place the nurse's actions in the order in which they should be performed.",
+        "options": [],
+        "orderedOptions": [
+          "Confirm the prescription and that informed consent is documented",
+          "Take baseline vital signs, including temperature",
+          "Pick up the platelets from the blood bank",
+          "Check the client's identity and the product label at the bedside with a second qualified person",
+          "Start the platelets slowly and stay with the client for the first 15 minutes"
+        ],
+        "explanation": "<b>Order:</b> (1) The prescription and consent are confirmed before any product is requested, so that nothing is issued that cannot be given. (2) Baseline vital signs are taken before the product arrives; any change during the transfusion is compared with them (a fever already present, as here, must be documented). (3) The product is then picked up; platelets are kept at room temperature and never refrigerated. (4) At the bedside, two qualified people match the client's identity (two identifiers) and the product label against the prescription. (5) The infusion starts slowly through a blood administration set primed with 0.9% sodium chloride, and the nurse stays with the client for the first 15 minutes, when severe reactions usually appear, then rechecks vital signs.<br><br>Platelets are given within 4 hours of leaving the blood bank. Nothing else is added to the blood line."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">Platelets ready in the blood bank. Informed consent for blood products signed by Rosa's daughter as substitute decision-maker. Blood administration set primed with 0.9% sodium chloride.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Platelets and cryoprecipitate given without reaction.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0800:</span><span class=\"nurse-note-text\">Alert and oriented × 3. Norepinephrine stopped at 0200. Blood cultures growing Escherichia coli sensitive to the current antibiotic. No oozing from puncture sites; gums no longer bleeding; urine yellow. Fingertips warm and pink. New petechiae noted on both lower legs. Urine output 45 to 60 mL/hour over the past 12 hours.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">81 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">46 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">15 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.3</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3,200 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Occasional schistocytes</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12.4 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Circulation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Norepinephrine infusion titrated to MAP 65 mm Hg or higher. Lactated Ringer's 500 mL IV bolus now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now. Cryoprecipitate 10 units IV now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">CBC, PT/INR, aPTT and fibrinogen every 6 hours. Hourly urine output.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No intramuscular injections. Acetaminophen for fever; no aspirin or NSAIDs.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1300 and Day 3 0800, the Vital Signs, and the Laboratory Results.",
+        "stem": "For each finding, click to specify whether Rosa's condition has <b>improved</b> or <b>not improved</b> since Day 1.",
+        "matrix": {
+          "firstColumnHeader": "Finding",
+          "columns": [
+            "Improved",
+            "Not Improved"
+          ],
+          "rows": [
+            {
+              "text": "Fibrinogen",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hemoglobin",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Urine output",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Skin of the lower legs",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Platelet count",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Mental status",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Improved:</b> with the infection treated, consumption is slowing: fibrinogen rose from 0.8 to 1.6 g/L, platelets from 18 to 46 × 10⁹/L, and the PT, aPTT and D-dimer are falling. Better perfusion and fewer microthrombi show in a urine output of 45 to 60 mL/hour (creatinine 212 to 118 µmol/L), warm fingertips and a clear mind (alert and oriented, lactate 1.8 mmol/L).<br><br><b>Not improved:</b> hemoglobin fell further, from 94 to 86 g/L, from blood lost through bleeding and hemolysis; it is followed and red cells are given if prescribed. New petechiae on the legs show that the platelet count is still low enough for small-vessel bleeding, so bleeding precautions continue until it recovers."
+      }
+    }
+  ]
+}
