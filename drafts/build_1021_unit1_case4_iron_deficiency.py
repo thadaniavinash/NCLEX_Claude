@@ -13,7 +13,7 @@ from nurs1021_common import *
 INTRO = ("The nurse in a primary care clinic is assessing Amara, a 34-year-old female client who reports increasing "
          "tiredness over the past 4 months.")
 C = Chart2()
-C.notes("nn", "Nurses' Notes", ("0930",
+C.notes("nn", "Nurses' Notes", ("Day 1 0930",
     "Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become "
     "heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes "
     "large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an "
@@ -28,7 +28,7 @@ def vitals(col, *v):
     C.column("vs", "Vital Signs", "", col, list(zip(VS, v)))
 
 
-vitals("0930", "36.8° C", "108 beats/min", "20 breaths/min", "108/68 mm Hg", "98% on room air")
+vitals("Day 1 0930", "36.8° C", "108 beats/min", "20 breaths/min", "108/68 mm Hg", "98% on room air")
 s1 = screen(1, INTRO, C, select_all(411, [
     ("A", "Tiredness and shortness of breath on one flight of stairs", True),
     ("B", "Craving and chewing ice", True),

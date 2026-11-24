@@ -12,7 +12,7 @@ INTRO = ("The nurse in the emergency department is caring for Daniel, a 22-year-
          "who arrives with right knee pain.")
 C = Chart2()
 
-S1_NOTE = [("1830",
+S1_NOTE = [("Day 1 1830",
     "Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. "
     "Says the knee first felt “tingly and warm” and then became painful and stiff. {Has missed his last two "
     "prophylactic factor VIII infusions|correct} during exams. {Took ibuprofen 400 mg twice at home for the pain.|correct} "
@@ -28,7 +28,7 @@ def vitals(col, *v):
     C.column("vs", "Vital Signs", "", col, list(zip(VS, v)))
 
 
-vitals("1830", "37.4° C", "102 beats/min", "18 breaths/min", "132/78 mm Hg", "98% on room air", "8")
+vitals("Day 1 1830", "37.4° C", "102 beats/min", "18 breaths/min", "132/78 mm Hg", "98% on room air", "8")
 s1 = screen(1, INTRO, C, {
     "type": "highlight",
     "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that require follow-up.",
@@ -49,7 +49,7 @@ s1 = screen(1, INTRO, C, {
 })
 
 # Screen 2
-C.notes("nn", "Nurses' Notes", ("1915",
+C.notes("nn", "Nurses' Notes", ("Day 1 1915",
     "Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the "
     "hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses."))
 LAB = [lab("Hemoglobin (Hgb)", "Male: 125–170 g/L"), lab("Platelet count", "130–380 × 10<sup>9</sup>/L"),
@@ -57,11 +57,11 @@ LAB = [lab("Hemoglobin (Hgb)", "Male: 125–170 g/L"), lab("Platelet count", "13
        lab("Activated partial thromboplastin time (aPTT)", "22–30 s"), lab("Fibrinogen", "2.0–4.0 g/L"),
        lab("aPTT mixing study (1:1 with normal plasma)", "Corrects to the reference range"),
        lab("Factor VIII activity", "50%–150%"), lab("Factor IX activity", "50%–150%")]
-C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "1850", list(zip(LAB, [
+C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Day 1 1850", list(zip(LAB, [
     "138 g/L", "245 × 10<sup>9</sup>/L", "12 s", "1.0", "68 s", "3.1 g/L", "Corrects to 29 s", "less than 1%", "94%"])))
 s2 = screen(2, INTRO, C, {
     "type": "matrix_mc",
-    "preamble": "The nurse has reviewed the Nurses' Notes from 1915 and the Laboratory Results.",
+    "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1915 and the Laboratory Results.",
     "stem": "The nurse answers Daniel's questions. For each statement, click to specify whether it applies to "
             "<b>hemophilia A</b>, <b>hemophilia B</b>, or <b>both</b>.",
     "matrix": matrix_mc("Statement", ["Hemophilia A", "Hemophilia B", "Both"], [
@@ -86,13 +86,13 @@ s2 = screen(2, INTRO, C, {
 })
 
 # Screen 3
-C.notes("nn", "Nurses' Notes", ("1940",
+C.notes("nn", "Nurses' Notes", ("Day 1 1940",
     "Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by "
     "phone and will enter orders."))
-vitals("1940", "37.4° C", "104 beats/min", "18 breaths/min", "134/80 mm Hg", "98% on room air", "8")
+vitals("Day 1 1940", "37.4° C", "104 beats/min", "18 breaths/min", "134/80 mm Hg", "98% on room air", "8")
 s3 = screen(3, INTRO, C, {
     "type": "dropdown_cloze",
-    "preamble": "The nurse has reviewed the Nurses' Notes from 1940 and the Vital Signs.",
+    "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1940 and the Vital Signs.",
     "stem": "Complete the following sentences by choosing from the lists of options.",
     "cloze": {"text": "A prolonged aPTT with a normal PT, INR and platelet count points to a defect in the [[drop0]]. "
                       "Because the aPTT corrects when Daniel's plasma is mixed with normal plasma, the cause is [[drop1]]. "
@@ -119,7 +119,7 @@ s3 = screen(3, INTRO, C, {
 })
 
 # Screen 4
-C.notes("nn", "Nurses' Notes", ("2000", "Hematology orders received. IV access established in the left forearm."))
+C.notes("nn", "Nurses' Notes", ("Day 1 2000", "Hematology orders received. IV access established in the left forearm."))
 C.rows("orders", "Orders", ["Category", "Order"], [
     ["<b>Factor replacement</b>", "Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every "
                                   "12 hours. Factor VIII activity 30 minutes after the first dose."],
@@ -147,12 +147,12 @@ s4 = screen(4, INTRO, C, select_all(241, [
         "<b>Do not include:</b> NSAIDs and aspirin inhibit platelet function and increase bleeding {F}. Active exercise "
         "while the joint is still bleeding causes more bleeding; physiotherapy starts once pain and swelling settle {G}. "
         "Heat dilates blood vessels and increases bleeding {H}."),
-    preamble="The nurse has reviewed the Nurses' Notes from 2000 and the Orders.",
+    preamble="The nurse has reviewed the Nurses' Notes from Day 1 2000 and the Orders.",
     stem="Which interventions should the nurse include in Daniel's plan of care? Select all that apply."))
 
 # Screen 5
 C.notes("nn", "Nurses' Notes",
-    ("2045", "Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm."),
+    ("Day 1 2045", "Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm."),
     ("Day 2 0610", "Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of "
      "his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and "
      "reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent "

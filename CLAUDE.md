@@ -220,8 +220,8 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   question on clinical manifestations; validate against med-surg textbooks, Merck Manual Professional, Medscape).
   Unit 1 plan (outcomes: hemostasis/coagulation tests, hemophilia A/B, DIC, aplastic anemia, anemia of CKD,
   B12/folate, iron deficiency, thalassemia, sickle cell, hemolytic disease of the newborn): Case Studies 2 hemophilia,
-  3 DIC, 4 iron deficiency (batch 1, drafts, 24 Nov 2026: `drafts/build_1021_unit1_case<n>_*.py`, shared
-  `drafts/nurs1021_common.py`, ids `case_17860<unit><n:07d>`); still to write: aplastic, CKD anemia, B12/folate,
+  3 DIC, 4 iron deficiency (batch 1), 5 aplastic anemia, 6 anemia of CKD, 7 B12/folate (batch 2, 25 Nov) (drafts: `drafts/build_1021_unit1_case<n>_*.py`, shared
+  `drafts/nurs1021_common.py`, ids `case_17860<unit><n:07d>`); still to write:
   thalassemia, sickle cell (adult; NURS 1017 Unit 3 CS6 is pediatric), HDN (Unit 1 would then have 11 with the 2 DVT
   cases). Review PDF: `build_casebook_pdf.js --from` (scratchpad only, never committed).
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
