@@ -212,10 +212,9 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   (`build_unit6_case8_gout.py`, `build_unit6_case9_ankylosing_spondylitis.py`, review copy
   `drafts/NURS_1017_Unit_6_Case_Studies_8-9_Review.pdf`). Every Unit 6 outcome now has a case study.
 - NURS 1017 Unit 3 Case Studies 5–7 (`case_1782370000005`–`007`, Nov 2026): the user's own drafts (Turner syndrome;
-  sickle cell disease + AD/AR/XLR inheritance; teratogens isotretinoin/rubella/valproic acid + multifactorial NTDs)
-  revised by `drafts/build_unit3_new_cases.py` (shuffled answers, plausible distractors, SI units, raw chart data,
-  non-cueing matrix rows, content fixes; `draft: true`, `authorReview`). Not published; review copy via
-  `build_casebook_pdf.js --from <json,...> --title "..."`.
+  sickle cell disease + AD/AR/XLR inheritance; teratogens isotretinoin/rubella/valproic acid + multifactorial NTDs),
+  revised by Claude and published 24 Nov 2026 (visible, with an `authorReview` note). At the user's request the
+  generator, draft JSON and review PDF were then deleted; the database and `cases-data.js` are the only copies.
 - UI/UX work was deliberately deferred until the code fixes were done; it is the next phase.
 - No student logins for now (no permission to store student data). Students get the GitHub Pages link;
   their progress is kept only in their own browser (`localStorage` `nclex_progress_v1`, see `js/progress.js`),
