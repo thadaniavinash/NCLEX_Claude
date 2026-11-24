@@ -64,7 +64,7 @@ def screen(step, intro, chart, question):
 
 def write_case(case_id, n, description, screens, review):
     case = {"id": case_id, "title": f"NURS 1017 Unit 3 Case Study {n}", "course": "NURS 1017", "unit": UNIT,
-            "topic": UNIT, "disorder": UNIT, "description": description, "draft": True,
+            "topic": UNIT, "disorder": UNIT, "description": description,
             "authorReview": {"note": review, "flaggedAt": "2026-11-24"}, "screens": screens}
     out = os.path.join(HERE, f"{case_id}_NURS_1017_Unit_3_Case_Study_{n}.json")
     with open(out, "w") as f:

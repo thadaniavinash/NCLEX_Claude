@@ -6,7 +6,6 @@
   "topic": "Unit 3 (Genetic and Developmental Disorders)",
   "disorder": "Unit 3 (Genetic and Developmental Disorders)",
   "description": "6-year-old boy with sickle cell disease (HbSS) in a vaso-occlusive crisis with fever; carrier parents and a family history of Huntington disease and hemophilia B, comparing autosomal recessive, autosomal dominant and X-linked recessive inheritance.",
-  "draft": true,
   "authorReview": {
     "note": "Revised by Claude on 24 Nov 2026 from the author's draft (New Case Study 2). Please check: pediatric reference ranges (hemoglobin 115–145 g/L, WBC 5.0–14.5 × 10⁹/L, vital signs for age 6); fluid rate 1.25 × maintenance and fever threshold 38.5° C against local sickle cell protocols; hydroxyurea started at discharge after earlier refusal.",
     "flaggedAt": "2026-11-24"
