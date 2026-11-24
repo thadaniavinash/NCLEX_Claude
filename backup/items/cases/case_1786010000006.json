@@ -1,0 +1,485 @@
+{
+  "id": "case_1786010000006",
+  "unit": "Unit 1 (Blood Disorders)",
+  "draft": true,
+  "title": "NURS 1021 Unit 1 Case Study 6",
+  "topic": "Unit 1 (Blood Disorders)",
+  "course": "NURS 1021",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>anemia</b>? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Heart rate of 104 beats/min",
+            "correct": true
+          },
+          {
+            "text": "1+ pitting edema of both ankles",
+            "correct": false
+          },
+          {
+            "text": "Itching with scratch marks on the forearms",
+            "correct": false
+          },
+          {
+            "text": "Tiredness and shortness of breath walking up the driveway",
+            "correct": true
+          },
+          {
+            "text": "Feeling cold even indoors",
+            "correct": true
+          },
+          {
+            "text": "Pale conjunctivae and nail beds",
+            "correct": true
+          },
+          {
+            "text": "Blood pressure of 158/92 mm Hg",
+            "correct": false
+          },
+          {
+            "text": "Metallic taste and poor appetite",
+            "correct": false
+          }
+        ],
+        "preamble": "",
+        "explanation": "<b>Consistent with anemia:</b> reduced oxygen delivery causes fatigue and dyspnea on exertion (Option 4), pallor of the conjunctivae and nail beds (Option 6), cold intolerance from reduced tissue oxygenation and vasoconstriction (Option 5), and a compensatory tachycardia (Option 1).<br><br><b>Not anemia:</b> these are manifestations of chronic kidney disease itself. Itching (uremic pruritus) (Option 3) and a metallic taste with anorexia (Option 8) come from retained uremic waste products. Ankle edema reflects sodium and water retention (Option 2), and hypertension is present in over 80% of clients with advanced chronic kidney disease (Option 7). The nurse separates them because they are treated differently."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a nephrology clinic is assessing Margaret, a 67-year-old female client with type 2 diabetes, hypertension and stage 4 chronic kidney disease, who reports increasing tiredness."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "Margaret's damaged kidneys make too little [[drop0]], so her bone marrow produces fewer red cells. This is shown by [[drop1]]. Her ferritin and transferrin saturation show [[drop2]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "erythropoietin",
+                  "correct": true
+                },
+                {
+                  "text": "renin",
+                  "correct": false
+                },
+                {
+                  "text": "thrombopoietin",
+                  "correct": false
+                },
+                {
+                  "text": "intrinsic factor",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "a high reticulocyte count with a raised bilirubin",
+                  "correct": false
+                },
+                {
+                  "text": "small, pale red cells with a high platelet count",
+                  "correct": false
+                },
+                {
+                  "text": "normal-sized red cells with a low reticulocyte count",
+                  "correct": true
+                },
+                {
+                  "text": "large red cells with hypersegmented neutrophils",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "normal iron stores that need no treatment",
+                  "correct": false
+                },
+                {
+                  "text": "a deficiency of vitamin B12",
+                  "correct": false
+                },
+                {
+                  "text": "iron overload from earlier transfusions",
+                  "correct": false
+                },
+                {
+                  "text": "iron deficiency that must be corrected for treatment to work",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1100 and the Laboratory Results.",
+        "explanation": "<b>Erythropoietin:</b> cells in the kidney's interstitium sense oxygen delivery and release erythropoietin, which stimulates the marrow to make red cells. As kidney tissue is lost (anemia usually appears once clearance falls below about 45 mL/min, stage 3 or worse), erythropoietin falls. Uremia also shortens red cell survival, and blood is lost through platelet dysfunction and blood draws. Renin raises blood pressure; intrinsic factor is needed for vitamin B12 absorption; thrombopoietin regulates platelets.<br><br><b>Pattern:</b> the anemia is <b>normocytic and normochromic</b> (MCV 88 fL) with a reticulocyte count that is inappropriately low for the degree of anemia: the marrow is not being told to make more cells. Small cells with high platelets suggest iron deficiency; large cells with hypersegmented neutrophils suggest B12 or folate deficiency (both normal here); a high reticulocyte count with raised bilirubin suggests hemolysis.<br><br><b>Iron:</b> in chronic kidney disease, hepcidin rises and traps iron in stores, and erythropoiesis-stimulating agents (ESAs) use iron quickly. Her ferritin of 64 µg/L and transferrin saturation of 0.16 show iron deficiency; without enough iron, an ESA will not work. Her negative fecal immunochemical test makes bleeding from the bowel less likely."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Margaret returns to review her blood work."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client's progress.",
+        "type": "bowtie",
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1130 and the Orders.",
+        "explanation": "<b>Condition:</b> normocytic anemia with a low reticulocyte count in stage 4 chronic kidney disease is anemia of chronic kidney disease, with iron deficiency adding to it. The fecal immunochemical test is negative, vitamin B12 and folate are normal, and only the red cell line is low (not aplastic anemia).<br><br><b>Actions:</b> iron is replaced first, then the ESA (darbepoetin) replaces the missing erythropoietin. The target hemoglobin is 100 to 115 g/L, not normal: raising it above 120 to 130 g/L increases venous thromboembolism, myocardial infarction, stroke and death. Restricting iron would worsen the deficiency; B12 is not deficient.<br><br><b>Parameters:</b> hemoglobin shows the response (and protects against overshooting the target); ESAs raise blood pressure, which is already high in chronic kidney disease, so BP is checked before each dose.",
+        "bowtieParams": [
+          {
+            "text": "INR",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure",
+            "correct": true
+          },
+          {
+            "text": "Absolute neutrophil count",
+            "correct": false
+          },
+          {
+            "text": "Serum amylase",
+            "correct": false
+          },
+          {
+            "text": "Hemoglobin level",
+            "correct": true
+          }
+        ],
+        "bowtieActions": [
+          {
+            "text": "Restrict dietary iron to protect the kidneys",
+            "correct": false
+          },
+          {
+            "text": "Give the IV iron sucrose as prescribed",
+            "correct": true
+          },
+          {
+            "text": "Give vitamin B12 by intramuscular injection",
+            "correct": false
+          },
+          {
+            "text": "Give the darbepoetin as prescribed once iron is replaced",
+            "correct": true
+          },
+          {
+            "text": "Give darbepoetin to raise hemoglobin to 140 g/L",
+            "correct": false
+          }
+        ],
+        "bowtieConditions": [
+          {
+            "text": "Aplastic anemia",
+            "correct": false
+          },
+          {
+            "text": "Anemia of chronic kidney disease",
+            "correct": true
+          },
+          {
+            "text": "Iron deficiency anemia from bowel bleeding",
+            "correct": false
+          },
+          {
+            "text": "Vitamin B12 deficiency anemia",
+            "correct": false
+          }
+        ]
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Margaret returns to review her blood work."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which instructions should the nurse include in Margaret's teaching? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "You can stop taking amlodipine because your energy will improve",
+            "correct": false
+          },
+          {
+            "text": "Keep your blood test appointments every 2 weeks so the dose can be adjusted",
+            "correct": true
+          },
+          {
+            "text": "Report a severe headache, chest pain, sudden weakness or a painful, swollen leg right away",
+            "correct": true
+          },
+          {
+            "text": "Store the pre-filled syringes in the refrigerator and do not shake them",
+            "correct": true
+          },
+          {
+            "text": "Double the next dose if you miss one",
+            "correct": false
+          },
+          {
+            "text": "The goal is a hemoglobin in the normal range, about 130 g/L",
+            "correct": false
+          },
+          {
+            "text": "Check and record your blood pressure at home every day and bring the record to each visit",
+            "correct": true
+          },
+          {
+            "text": "Expect your energy to improve gradually over several weeks",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 3 1000, the Vital Signs, and the Laboratory Results.",
+        "explanation": "<b>Include:</b> ESAs raise blood pressure, so home monitoring is essential (Option 7). A rapid rise in hemoglobin increases the risk of stroke, myocardial infarction and venous thrombosis; their warning signs are reported at once (Option 3). Hemoglobin is checked often so the dose can be lowered or held if it rises too fast (Option 2). Darbepoetin is a protein: it is kept refrigerated and not shaken, which can damage it (Option 4). The marrow needs weeks to respond; the maximum response takes 8 to 12 weeks (Option 8).<br><br><b>Do not include:</b> the target is 100 to 115 g/L, not normal, because higher values increase cardiovascular events and death (Option 6). Antihypertensives are needed even more on an ESA (Option 1). Doubling a dose risks an excessive rise; a missed dose is discussed with the clinic (Option 5)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Three weeks later, Margaret returns to the clinic."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Give today's scheduled darbepoetin dose",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Hold the dose and notify the nephrologist",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Recheck the BP after 5 minutes of rest and assess for neurologic changes",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Review her home BP record and whether she is taking her antihypertensives",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Request a repeat vitamin B12 level",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Tell Margaret to take an extra amlodipine tablet tonight",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Nursing Action"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 9 1000, the Vital Signs, and the Laboratory Results.",
+        "explanation": "<b>Contraindicated:</b> her hemoglobin is 121 g/L, above the 115 g/L hold limit, it rose 19 g/L in 2 weeks, and her BP is above 160/100 mm Hg, so all three hold criteria are met; giving the dose would raise the risk of stroke and thrombosis. The nurse does not change antihypertensive doses without a prescription.<br><br><b>Indicated:</b> the dose is held and the nephrologist notified to adjust the ESA and her BP treatment. A headache with a BP of 174/98 mm Hg needs a repeat reading and a neurologic check (speech, strength, vision) to exclude hypertensive emergency or stroke. Missed antihypertensive doses are a common, correctable cause of high BP.<br><br><b>Non-Essential:</b> her vitamin B12 was normal, and B12 deficiency does not explain a rising hemoglobin."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">Visit for her scheduled darbepoetin dose. Reports a throbbing headache for 2 days and that her home BP readings have been 165 to 175 systolic. No chest pain; no weakness or numbness; speech clear. Says she has “more energy than in years.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 7</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "At week 9, Margaret returns to the clinic."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "Based on the trends in the client's chart, which findings indicate that the treatment of the anemia is meeting its goals? Select all that apply.",
+        "type": "trend",
+        "options": [
+          {
+            "text": "Creatinine of 214 µmol/L",
+            "correct": false
+          },
+          {
+            "text": "Hemoglobin of 108 g/L at week 16",
+            "correct": true
+          },
+          {
+            "text": "Ferritin of 254 µg/L and transferrin saturation of 0.27",
+            "correct": true
+          },
+          {
+            "text": "Potassium of 5.4 mmol/L",
+            "correct": false
+          },
+          {
+            "text": "Blood pressure of 138/84 mm Hg",
+            "correct": true
+          },
+          {
+            "text": "Shops without needing to sit down",
+            "correct": true
+          },
+          {
+            "text": "Hemoglobin of 121 g/L at week 9",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 16 1000, the Vital Signs, and the Laboratory Results.",
+        "explanation": "<b>Goals met:</b> her hemoglobin is within the 100 to 115 g/L target (Option 2); iron stores are replete (transferrin saturation above 0.20 and ferritin above 100 µg/L), so the ESA can work (Option 3); BP is controlled after the dose adjustment (Option 5); and her exercise tolerance has improved, the aim of treating the anemia (Option 6).<br><br><b>Not evidence of goals met:</b> a hemoglobin of 121 g/L was above target and led to the dose being held (Option 7). Creatinine and potassium reflect kidney function, which ESAs and iron do not improve; her slowly rising creatinine and high-normal potassium are followed by the nephrologist (Options 1 and 4)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">Visit for her scheduled darbepoetin dose. Reports a throbbing headache for 2 days and that her home BP readings have been 165 to 175 systolic. No chest pain; no weakness or numbness; speech clear. Says she has “more energy than in years.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 16 1000:</span><span class=\"nurse-note-text\">Darbepoetin was held for 2 weeks, then restarted at 20 mcg every 2 weeks; amlodipine was increased. No headaches. Walks to the grocery store and shops without needing to sit down.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 16 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/98 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 7</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 16</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">254 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.27</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">214 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 mL/min/1.73 m²</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.4 mmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "At week 16, Margaret returns for follow-up."
+      }
+    }
+  ],
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "67-year-old female with diabetic nephropathy (stage 4 chronic kidney disease) and anemia: erythropoietin deficiency, anemia versus uremic manifestations, IV iron, darbepoetin alfa teaching, hold criteria and target hemoglobin.",
+  "authorReview": {
+    "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Anemia of Renal Disease, Mar 2025; Chronic Kidney Disease, Feb 2026). Please review: darbepoetin 30 mcg every 2 weeks (about 0.45 mcg/kg) and the clinic hold criteria (example protocol); ESA-induced hypertension (product monograph, not on the Merck pages); folate reference range ≥ 10.0 nmol/L (MCC).",
+    "flaggedAt": "2026-11-24"
+  }
+}

@@ -36488,6 +36488,4202 @@ window.NCLEX_CASES = [
       "note": "Revised by Claude on 24 Nov 2026 from the author's draft (New Case Study 3). Clinician review needed: switching from valproic acid to levetiracetam at 10 weeks of gestation (practice varies once organogenesis is largely over; kept from the author's draft, framed as the neurologist's decision); folic acid 4 mg daily for clients on antiseizure medicines (Canadian guidance); the CT rationale (single diagnostic CT below the 50 mGy threshold).",
       "flaggedAt": "2026-11-24"
     }
+  },
+  {
+    "id": "case_1786010000002",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 2",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that require follow-up.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b> a swollen, warm, tense knee held in flexion, with severe pain and a 5 cm difference in circumference, is an acute <b>hemarthrosis</b> (bleeding into the joint), the most common bleed in severe hemophilia. Blood in the joint space raises pressure and the client holds the knee bent because that is the position of greatest joint volume. A tingling or warm feeling often comes before swelling, so pain is an early sign.<br><br>Missing two prophylactic factor VIII infusions left him with almost no factor VIII, so a minor collision caused a major bleed. Ibuprofen inhibits platelet function and adds to the bleeding; clients with hemophilia avoid aspirin and NSAIDs. A third bleed into the same joint this year makes the right knee a <b>target joint</b>: repeated bleeds inflame the synovium (synovitis), which bleeds more easily and leads to hemophilic arthropathy.<br><br><b>Do not require follow-up:</b> strong pedal pulses, brisk capillary refill and normal sensation show that blood flow and nerves below the knee are intact. He is alert and oriented.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. {Has missed his last two prophylactic factor VIII infusions|correct} during exams. {Took ibuprofen 400 mg twice at home for the pain.|correct} {Right knee swollen, warm and tense|correct}; {holds the knee bent at about 30° and cannot straighten it|correct}. {Rates pain 8/10.|correct} {Right knee circumference 42 cm; left 37 cm.|correct} {Right pedal pulses 2+}, {capillary refill less than 2 seconds}, {sensation in the right foot intact}. {Third bleed into the right knee this year.|correct} {Alert and oriented × 4.} Weight 70 kg.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse answers Daniel's questions. For each statement, click to specify whether it applies to <b>hemophilia A</b>, <b>hemophilia B</b>, or <b>both</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Caused by a deficiency of factor IX (also called Christmas disease)",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Inherited as an X-linked recessive disorder, so it occurs mainly in males",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Caused by a deficiency of factor VIII and accounts for about 80% of cases",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Prolonged aPTT with a normal PT and platelet count",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Mild forms may be treated with desmopressin, which releases stored factor",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Repeated bleeding into a joint can lead to chronic synovitis and arthropathy",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Hemophilia A",
+              "Hemophilia B",
+              "Both"
+            ],
+            "firstColumnHeader": "Statement"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1915 and the Laboratory Results.",
+          "explanation": "<b>Hemophilia A</b> is a deficiency of factor VIII and makes up about 80% of cases. Desmopressin (DDAVP) releases factor VIII and von Willebrand factor stored in endothelial cells, so it can raise the level about two- to threefold in <b>mild</b> hemophilia A (factor VIII 5% or higher) in clients who have been shown to respond. It cannot help when there is no factor VIII to release, as in Daniel's severe disease (less than 1%), or in hemophilia B.<br><br><b>Hemophilia B</b> (Christmas disease) is a deficiency of factor IX.<br><br><b>Both</b> are X-linked recessive, so males are mainly affected and the daughters of an affected male are carriers. Factors VIII and IX both belong to the intrinsic pathway, so both prolong the aPTT while the PT (extrinsic pathway) and platelet count stay normal; only factor assays tell them apart. Both cause the same bleeding: hemarthroses, muscle hematomas and, after even minor head trauma, intracranial hemorrhage. Severity depends on the factor level: below 1% severe (spontaneous bleeding), 1% to 5% moderate (bleeding after minor trauma), 5% to 49% mild (bleeding after surgery or dental extraction)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "A prolonged aPTT with a normal PT, INR and platelet count points to a defect in the [[drop0]]. Because the aPTT corrects when Daniel's plasma is mixed with normal plasma, the cause is [[drop1]]. The nurse's priority is [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "formation of the platelet plug",
+                    "correct": false
+                  },
+                  {
+                    "text": "extrinsic pathway of coagulation",
+                    "correct": false
+                  },
+                  {
+                    "text": "breakdown of clots by fibrinolysis",
+                    "correct": false
+                  },
+                  {
+                    "text": "intrinsic pathway of coagulation",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "an antibody that inhibits factor VIII",
+                    "correct": false
+                  },
+                  {
+                    "text": "consumption of clotting factors",
+                    "correct": false
+                  },
+                  {
+                    "text": "a missing clotting factor",
+                    "correct": true
+                  },
+                  {
+                    "text": "a lack of vitamin K",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "teaching about the inheritance of hemophilia",
+                    "correct": false
+                  },
+                  {
+                    "text": "stopping the bleeding into the knee",
+                    "correct": true
+                  },
+                  {
+                    "text": "restoring knee range of motion",
+                    "correct": false
+                  },
+                  {
+                    "text": "preventing infection in the knee",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1940 and the Vital Signs.",
+          "explanation": "<b>Reading the tests:</b> the aPTT measures the intrinsic and common pathways (factors XII, XI, IX, VIII, then X, V, II and fibrinogen); the PT and INR measure the extrinsic and common pathways (factor VII, then X, V, II, fibrinogen). A normal platelet count and fibrinogen with a prolonged aPTT and normal PT localize the problem to the intrinsic factors, which include VIII and IX.<br><br><b>Mixing study:</b> normal plasma supplies the missing factor, so a factor <b>deficiency</b> corrects. An <b>inhibitor</b> (an antibody against factor VIII, which develops in about 30% of clients with severe hemophilia A treated with factor) would also block the factor in the normal plasma, so the aPTT would stay prolonged. Vitamin K deficiency and consumption of factors (as in DIC) prolong the PT as well.<br><br><b>Priority:</b> the knee is still bleeding (circumference 42 to 43 cm, pain 8/10, rising heart rate). Ongoing bleeding threatens the joint now and increases blood loss; it is stopped by replacing factor VIII. Range of motion, infection risk and genetics teaching come after the bleeding is controlled."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in Daniel's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Give hydromorphone IV or acetaminophen PO for pain as prescribed",
+              "correct": true
+            },
+            {
+              "text": "Measure the knee circumference and check pulses and sensation in the foot regularly",
+              "correct": true
+            },
+            {
+              "text": "Start active range-of-motion exercises of the knee tonight to prevent stiffness",
+              "correct": false
+            },
+            {
+              "text": "Apply a warm compress to the knee to relax the surrounding muscles",
+              "correct": false
+            },
+            {
+              "text": "Give the factor VIII infusion as soon as possible",
+              "correct": true
+            },
+            {
+              "text": "Give ibuprofen PO, since it eases both pain and joint inflammation",
+              "correct": false
+            },
+            {
+              "text": "Apply the wrapped ice pack to the knee for 15 to 20 minutes at a time",
+              "correct": true
+            },
+            {
+              "text": "Keep the right knee at rest in the splint and elevated",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2000 and the Orders.",
+          "explanation": "<b>Include:</b> factor VIII replacement is the treatment that stops the bleeding, and it is given as early as possible; a dose of 50 units/kg raises factor VIII to about 100%, since each unit/kg raises it about 2% (Option 5). Rest, splinting and elevation limit further bleeding and pain (Option 8). Cold causes local vasoconstriction and eases pain (Option 7). Acetaminophen and opioids relieve pain without affecting platelets; hydromorphone is given IV, never IM (Option 1). Circumference, pain and neurovascular checks show whether the bleeding is controlled and detect compression of nerves or vessels (Option 2).<br><br><b>Do not include:</b> NSAIDs and aspirin inhibit platelet function and increase bleeding (Option 6). Active exercise while the joint is still bleeding causes more bleeding; physiotherapy starts once pain and swelling settle (Option 3). Heat dilates blood vessels and increases bleeding (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor replacement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every 12 hours. Factor VIII activity 30 minutes after the first dose.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Acetaminophen 1 g PO every 6 hours as needed (maximum 4 g/day). Hydromorphone 1 mg IV every 3 hours as needed for severe pain.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bed rest with the right knee splinted and elevated. Ice pack, wrapped in a towel, 15 to 20 minutes every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No aspirin or NSAIDs. No intramuscular injections.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which action should the nurse take <b>first</b>?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "text": "Give acetaminophen for the headache and recheck his neurologic status in 1 hour",
+              "correct": false
+            },
+            {
+              "text": "Transport Daniel to CT first, since factor VIII is needed only if a bleed is confirmed",
+              "correct": false
+            },
+            {
+              "text": "Anticipate a prescription for a factor VIII dose to be given immediately, before the CT scan",
+              "correct": true
+            },
+            {
+              "text": "Apply an ice pack to the left temple and keep Daniel on bed rest",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0610 and the Vital Signs.",
+          "explanation": "<b>Correct (Option 3):</b> in a person with hemophilia, “even a trivial blow to the head” can cause intracranial hemorrhage, and a headache after head trauma is treated as a possible bleed. Factor replacement to about 100% begins <b>immediately, before</b> the CT scan or any other test is completed; waiting for imaging lets a bleed expand. His factor VIII level is falling since last night's dose, so a new dose is needed now.<br><br><b>Incorrect:</b> delaying factor until the CT confirms a bleed risks a fatal hemorrhage (Option 2). Treating the headache and waiting an hour misses the window to treat; a normal Glasgow Coma Scale now does not rule out a slowly expanding bleed (Option 1). Ice and rest do nothing to stop an intracranial bleed (Option 4). The nurse continues frequent neurologic checks once factor is given."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent head CT requested.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0615</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6 (head)</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor replacement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every 12 hours. Factor VIII activity 30 minutes after the first dose.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Acetaminophen 1 g PO every 6 hours as needed (maximum 4 g/day). Hydromorphone 1 mg IV every 3 hours as needed for severe pain.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bed rest with the right knee splinted and elevated. Ice pack, wrapped in a towel, 15 to 20 minutes every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No aspirin or NSAIDs. No intramuscular injections.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether Daniel's condition has <b>improved</b> or <b>not improved</b> compared with his admission.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Right knee circumference",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hemoglobin",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Pain rating",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "aPTT",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Knee extension",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Factor VIII activity",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Improved",
+              "Not Improved"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0800 and Day 4 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Improved:</b> knee circumference fell from 42 to 38 cm (right) as blood in the joint is reabsorbed; pain fell from 8/10 to 2/10; he now lacks only 10° of extension instead of 30°. Factor VIII replacement corrected the aPTT (68 s to 31 s) and the trough factor VIII is 62%, within the 50% to 80% target for a severe joint bleed.<br><br><b>Not improved:</b> hemoglobin fell from 138 to 121 g/L, reflecting the blood lost into the knee. It is now stable, but it is lower than on admission and is rechecked; a further fall would suggest another bleed.<br><br><b>Before discharge:</b> the nurse reinforces regular prophylaxis (missed doses caused this bleed), treating any bleed early with home factor, avoiding aspirin and NSAIDs, wearing medical identification, regular dental care, and seeking care at once for headache, vomiting or drowsiness after any head injury."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent head CT requested.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Factor VIII given at 0625. Head CT at 0700: no intracranial hemorrhage.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">Headache resolved; neurologic checks normal. Right knee pain 2/10; circumference 38 cm; lacks 10° of full extension. Walking with crutches. Hematology and the physiotherapist reviewed home prophylaxis, a graded exercise plan and a factor dose for any new bleed.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0615</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 4 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6 (head)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 4 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">31 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62% (trough before dose)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor replacement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every 12 hours. Factor VIII activity 30 minutes after the first dose.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Acetaminophen 1 g PO every 6 hours as needed (maximum 4 g/day). Hydromorphone 1 mg IV every 3 hours as needed for severe pain.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bed rest with the right knee splinted and elevated. Ice pack, wrapped in a towel, 15 to 20 minutes every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No aspirin or NSAIDs. No intramuscular injections.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "22-year-old male with severe hemophilia A and an acute knee hemarthrosis after missed prophylaxis, then a minor head injury: coagulation tests (PT/INR, aPTT, mixing study, factor assays), hemophilia A versus B, factor replacement.",
+    "authorReview": {
+      "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (Hemophilia, Jul 2025). Please review: fibrinogen (2.0–4.0 g/L) and factor VIII/IX activity (50%–150%) reference ranges (not in the MCC list); factor VIII doses (50 units/kg, then 25 units/kg every 12 hours); ice for hemarthrosis (standard nursing teaching; some guidelines are less firm).",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000003",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 3",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>disseminated intravascular coagulation (DIC)</b>? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Right flank pain with costovertebral angle tenderness",
+              "correct": false
+            },
+            {
+              "text": "Three days of symptoms before admission",
+              "correct": false
+            },
+            {
+              "text": "Petechiae on the chest and ecchymoses under the BP cuff",
+              "correct": true
+            },
+            {
+              "text": "Pink-tinged urine in the catheter bag",
+              "correct": true
+            },
+            {
+              "text": "Blood oozing from the IV site and venipuncture sites",
+              "correct": true
+            },
+            {
+              "text": "Temperature of 39.4° C with chills",
+              "correct": false
+            },
+            {
+              "text": "Gums that bleed during mouth care",
+              "correct": true
+            },
+            {
+              "text": "Cool, mottled, dusky fingertips",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Consistent with DIC:</b> in acute DIC, platelets and clotting factors are used up faster than the body can replace them, so the client bleeds from many sites at once. Typical signs are persistent oozing from IV, arterial and venipuncture sites (Option 5), petechiae and bruising where pressure is applied (Option 3), bleeding gums (Option 7) and hematuria (Option 4); gastrointestinal bleeding is also common. At the same time, tiny clots block small vessels: cool, mottled, dusky fingertips (acrocyanosis) reflect microvascular thrombosis, made worse by shock (Option 8).<br><br><b>Not DIC:</b> fever and chills are signs of the infection (Option 6), and flank pain with costovertebral angle tenderness points to pyelonephritis (Option 1). These describe the <b>cause</b> (gram-negative sepsis), not DIC itself. How long she was ill before admission does not describe a manifestation of DIC (Option 2)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is mainly the result of <b>clots forming in small blood vessels</b>, <b>consumption of platelets and clotting factors</b>, or <b>breakdown of fibrin (fibrinolysis)</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Platelet count 18 × 10⁹/L",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Schistocytes on the blood smear",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "D-dimer 8,500 µg/L",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Fibrinogen 0.8 g/L",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Cool, mottled, dusky fingertips",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "PT 22 seconds and aPTT 54 seconds",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Clots in Small Vessels",
+              "Consumption of Platelets and Factors",
+              "Fibrinolysis"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1000 and the Laboratory Results.",
+          "explanation": "<b>How DIC develops:</b> bacterial endotoxin and tissue injury expose <b>tissue factor</b> to the blood. Clotting is switched on throughout the circulation instead of only at a wound, so thrombin forms fibrin clots in small vessels everywhere.<br><br><b>Clots in small vessels:</b> microthrombi block blood flow to the fingers (acrocyanosis), kidneys (falling urine output, rising creatinine), brain (confusion) and other organs, causing multi-organ dysfunction. Red cells forced through fibrin strands are cut into fragments, seen as <b>schistocytes</b>.<br><br><b>Consumption:</b> the widespread clotting uses up platelets, fibrinogen and other clotting factors. The platelet count and fibrinogen fall and the PT, INR and aPTT are prolonged, so the client bleeds.<br><br><b>Fibrinolysis:</b> the body breaks the clots down with plasmin. Breaking down cross-linked fibrin releases <b>D-dimer</b>, which is very high. Fibrin degradation products also interfere with platelet function, adding to the bleeding. Clotting and bleeding therefore happen at the same time, which answers the daughter's question."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client's progress.",
+          "type": "bowtie",
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1030 and the Vital Signs.",
+          "explanation": "<b>Condition: DIC.</b> Low platelets with a prolonged PT and aPTT, low fibrinogen, a very high D-dimer and schistocytes in a client with gram-negative sepsis fit acute DIC. Immune thrombocytopenia lowers platelets but leaves the PT, aPTT and fibrinogen normal. Thrombotic thrombocytopenic purpura causes low platelets and schistocytes, but clotting factors are not consumed, so the PT, aPTT and fibrinogen are usually normal. Hemophilia A prolongs only the aPTT.<br><br><b>Actions:</b> the most important treatment of DIC is treating its cause, so antibiotics are given on time and without interruption (with fluids and vasopressors for shock). Because she is bleeding with platelets of 18 × 10⁹/L and fibrinogen of 0.8 g/L, platelets and cryoprecipitate (which replaces fibrinogen) are given. Heparin is usually not used in acute DIC with bleeding; it is reserved for slowly developing DIC with thrombosis. Intramuscular injections cause hematomas and are avoided; vitamin K corrects vitamin K deficiency, not consumption.<br><br><b>Parameters:</b> serial platelet counts and fibrinogen show whether consumption is slowing, and bleeding sites show whether replacement is working. Hemoglobin A1C, potassium and factor VIII inhibitors do not track DIC.",
+          "bowtieParams": [
+            {
+              "text": "Factor VIII inhibitor level",
+              "correct": false
+            },
+            {
+              "text": "Hemoglobin A1C",
+              "correct": false
+            },
+            {
+              "text": "Platelet count and fibrinogen level",
+              "correct": true
+            },
+            {
+              "text": "Bleeding from puncture sites, mouth and urine",
+              "correct": true
+            },
+            {
+              "text": "Serum potassium",
+              "correct": false
+            }
+          ],
+          "bowtieActions": [
+            {
+              "text": "Give the prescribed vitamin K by IM injection",
+              "correct": false
+            },
+            {
+              "text": "Start a continuous heparin infusion",
+              "correct": false
+            },
+            {
+              "text": "Give the prescribed antibiotic doses on time",
+              "correct": true
+            },
+            {
+              "text": "Give the prescribed platelets and cryoprecipitate",
+              "correct": true
+            },
+            {
+              "text": "Hold the antibiotics until the bleeding stops",
+              "correct": false
+            }
+          ],
+          "bowtieConditions": [
+            {
+              "text": "Hemophilia A",
+              "correct": false
+            },
+            {
+              "text": "Disseminated intravascular coagulation",
+              "correct": true
+            },
+            {
+              "text": "Immune thrombocytopenia",
+              "correct": false
+            },
+            {
+              "text": "Thrombotic thrombocytopenic purpura",
+              "correct": false
+            }
+          ]
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each nursing intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for Rosa.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Measure the temperature by the rectal route for accuracy",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Hold firm pressure on puncture sites for at least 5 minutes",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Use foam swabs instead of a toothbrush for mouth care",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give the prescribed opioid for pain by intramuscular injection",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Turn and reposition Rosa gently using a lift sheet",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Check stool, urine and gastric secretions for blood",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Intervention"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1100 and the Orders.",
+          "explanation": "<b>Indicated:</b> prolonged firm pressure lets a clot form at puncture sites despite low platelets. Foam swabs avoid injuring bleeding gums. Gentle turning with a lift sheet avoids friction and shearing that cause bruising and bleeding. Checking stool, urine and gastric contents detects hidden (occult) bleeding early.<br><br><b>Contraindicated:</b> a rectal thermometer can injure the rectal mucosa and cause bleeding; oral, tympanic or temporal routes are used. Intramuscular injections cause hematomas in a client with low platelets and clotting factors; medications are given IV or by mouth."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Circulation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Norepinephrine infusion titrated to MAP 65 mm Hg or higher. Lactated Ringer's 500 mL IV bolus now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now. Cryoprecipitate 10 units IV now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">CBC, PT/INR, aPTT and fibrinogen every 6 hours. Hourly urine output.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No intramuscular injections. Acetaminophen for fever; no aspirin or NSAIDs.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "The nurse prepares to give the platelets. Place the nurse's actions in the order in which they should be performed.",
+          "type": "ordered_response",
+          "options": [],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1150.",
+          "explanation": "<b>Order:</b> (1) The prescription and consent are confirmed before any product is requested, so that nothing is issued that cannot be given. (2) Baseline vital signs are taken before the product arrives; any change during the transfusion is compared with them (a fever already present, as here, must be documented). (3) The product is then picked up; platelets are kept at room temperature and never refrigerated. (4) At the bedside, two qualified people match the client's identity (two identifiers) and the product label against the prescription. (5) The infusion starts slowly through a blood administration set primed with 0.9% sodium chloride, and the nurse stays with the client for the first 15 minutes, when severe reactions usually appear, then rechecks vital signs.<br><br>Platelets are given within 4 hours of leaving the blood bank. Nothing else is added to the blood line.",
+          "orderedOptions": [
+            "Confirm the prescription and that informed consent is documented",
+            "Take baseline vital signs, including temperature",
+            "Pick up the platelets from the blood bank",
+            "Check the client's identity and the product label at the bedside with a second qualified person",
+            "Start the platelets slowly and stay with the client for the first 15 minutes"
+          ]
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">Platelets ready in the blood bank. Informed consent for blood products signed by Rosa's daughter as substitute decision-maker. Blood administration set primed with 0.9% sodium chloride.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Circulation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Norepinephrine infusion titrated to MAP 65 mm Hg or higher. Lactated Ringer's 500 mL IV bolus now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now. Cryoprecipitate 10 units IV now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">CBC, PT/INR, aPTT and fibrinogen every 6 hours. Hourly urine output.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No intramuscular injections. Acetaminophen for fever; no aspirin or NSAIDs.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether Rosa's condition has <b>improved</b> or <b>not improved</b> since Day 1.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Fibrinogen",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hemoglobin",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Urine output",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Skin of the lower legs",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Platelet count",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Mental status",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Improved",
+              "Not Improved"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1300 and Day 3 0800, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Improved:</b> with the infection treated, consumption is slowing: fibrinogen rose from 0.8 to 1.6 g/L, platelets from 18 to 46 × 10⁹/L, and the PT, aPTT and D-dimer are falling. Better perfusion and fewer microthrombi show in a urine output of 45 to 60 mL/hour (creatinine 212 to 118 µmol/L), warm fingertips and a clear mind (alert and oriented, lactate 1.8 mmol/L).<br><br><b>Not improved:</b> hemoglobin fell further, from 94 to 86 g/L, from blood lost through bleeding and hemolysis; it is followed and red cells are given if prescribed. New petechiae on the legs show that the platelet count is still low enough for small-vessel bleeding, so bleeding precautions continue until it recovers."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">Platelets ready in the blood bank. Informed consent for blood products signed by Rosa's daughter as substitute decision-maker. Blood administration set primed with 0.9% sodium chloride.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Platelets and cryoprecipitate given without reaction.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0800:</span><span class=\"nurse-note-text\">Alert and oriented × 3. Norepinephrine stopped at 0200. Blood cultures growing Escherichia coli sensitive to the current antibiotic. No oozing from puncture sites; gums no longer bleeding; urine yellow. Fingertips warm and pink. New petechiae noted on both lower legs. Urine output 45 to 60 mL/hour over the past 12 hours.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1030</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">39.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88/50 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84/48 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean arterial pressure (MAP)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">81 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">46 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">15 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.3</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.6 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>D-dimer</b><br>less than 600 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8,500 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3,200 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Schistocytes present</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Occasional schistocytes</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">212 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate</b><br>0.5–2.5 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.8 mmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12.4 × 10<sup>9</sup>/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Circulation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Norepinephrine infusion titrated to MAP 65 mm Hg or higher. Lactated Ringer's 500 mL IV bolus now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now. Cryoprecipitate 10 units IV now.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">CBC, PT/INR, aPTT and fibrinogen every 6 hours. Hourly urine output.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No intramuscular injections. Acetaminophen for fever; no aspirin or NSAIDs.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "58-year-old female in septic shock from pyelonephritis who develops acute disseminated intravascular coagulation: manifestations, pathogenesis (clotting, consumption, fibrinolysis), coagulation tests, bleeding precautions and blood product administration.",
+    "authorReview": {
+      "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (DIC, Jul 2025). Please review: fibrinogen reference range (2.0–4.0 g/L, not in the MCC list); transfusion steps against your hospital's blood administration policy (order of baseline vital signs and product pickup; 15 minutes with the client); platelet and cryoprecipitate doses as Canadian adult doses.",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000004",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 4",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>iron deficiency anemia</b>? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Urge to move the legs when lying in bed at night",
+              "correct": true
+            },
+            {
+              "text": "Seasonal allergies treated with loratadine",
+              "correct": false
+            },
+            {
+              "text": "No numbness or tingling in the hands or feet",
+              "correct": false
+            },
+            {
+              "text": "Pale conjunctivae with a heart rate of 108 beats/min",
+              "correct": true
+            },
+            {
+              "text": "Craving and chewing ice",
+              "correct": true
+            },
+            {
+              "text": "Thin, spoon-shaped fingernails",
+              "correct": true
+            },
+            {
+              "text": "Tiredness and shortness of breath on one flight of stairs",
+              "correct": true
+            },
+            {
+              "text": "Cracks at the corners of the mouth and a smooth, sore tongue",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Consistent with iron deficiency anemia:</b> with less hemoglobin, the blood carries less oxygen, causing tiredness and dyspnea on exertion (Option 7), pallor, and a faster heart rate (with a flow murmur) as the heart compensates (Option 4). Severe iron deficiency also causes <b>pica</b>, a craving for non-food items, most often ice (pagophagia) (Option 5); <b>koilonychia</b>, thin spoon-shaped nails (Option 6); <b>angular cheilitis</b> and <b>glossitis</b> (Option 8); and restless legs syndrome, an unpleasant urge to move the legs at rest (Option 1).<br><br><b>Not consistent:</b> the absence of numbness and tingling is a relevant negative: neurologic symptoms with anemia suggest vitamin B12 deficiency, not iron deficiency (Option 3). Seasonal allergies are unrelated (Option 2)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a primary care clinic is assessing Amara, a 34-year-old female client who reports increasing tiredness over the past 4 months."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse explains how microcytic anemias are told apart. For each finding, click to specify whether it is most consistent with <b>iron deficiency anemia</b>, <b>beta-thalassemia trait</b>, or <b>anemia of chronic disease</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Raised hemoglobin A2 on hemoglobin electrophoresis",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Ferritin below 30 µg/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Low serum iron with normal or low TIBC and normal or high ferritin, in a client with rheumatoid arthritis",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Total iron-binding capacity above the reference range",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Marked microcytosis with a normal RDW and a normal or high red cell count",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Mild anemia with normal-sized red cells that develops over months of chronic inflammation",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Iron Deficiency Anemia",
+              "Beta-Thalassemia Trait",
+              "Anemia of Chronic Disease"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1100 and the Laboratory Results.",
+          "explanation": "<b>Iron deficiency anemia:</b> iron stores are used up first, so <b>ferritin</b> (stored iron) falls; a ferritin below 30 µg/L is specific for iron deficiency. The liver makes more transferrin to capture what iron there is, so the TIBC rises while serum iron and transferrin saturation fall. Only then are red cells made small and pale, with a wide range of sizes (high RDW). Amara has all of these: ferritin 4 µg/L, TIBC 88 µmol/L, saturation 0.05, MCV 68 fL, RDW 19.8%. The low reticulocyte count shows the marrow cannot respond without iron, and a raised platelet count is common in iron deficiency.<br><br><b>Beta-thalassemia trait:</b> reduced beta-globin chain production makes small cells even though iron is normal, so ferritin is normal. Cells are uniformly small (normal RDW) and the marrow makes more of them, so the red cell count is normal or high. Hemoglobin electrophoresis shows a raised HbA2. Her low ferritin and high RDW point to iron deficiency; thalassemia trait can coexist and is checked once iron is replaced if microcytosis persists.<br><br><b>Anemia of chronic disease:</b> inflammation raises hepcidin, which traps iron in stores. Serum iron is low but ferritin is normal or high and the TIBC normal or low. The anemia is usually mild and normocytic."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Amara returns the next day to review her blood work."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Amara's anemia is caused by [[drop0]], so her marrow makes small, pale red cells with too little hemoglobin. The main reason her iron stores are depleted is [[drop1]]. The nurse's priority concern is [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "too little vitamin B12 to make DNA",
+                    "correct": false
+                  },
+                  {
+                    "text": "failure of the bone marrow stem cells",
+                    "correct": false
+                  },
+                  {
+                    "text": "too little iron to make hemoglobin",
+                    "correct": true
+                  },
+                  {
+                    "text": "early destruction of red cells",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "loratadine blocking iron absorption",
+                    "correct": false
+                  },
+                  {
+                    "text": "a vegan diet that contains no iron",
+                    "correct": false
+                  },
+                  {
+                    "text": "ongoing blood loss from heavy menstrual bleeding",
+                    "correct": true
+                  },
+                  {
+                    "text": "an inherited defect in globin chains",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "a risk of falls from dizziness and reduced oxygen delivery",
+                    "correct": true
+                  },
+                  {
+                    "text": "an altered body image from nail changes",
+                    "correct": false
+                  },
+                  {
+                    "text": "nerve damage from vitamin deficiency",
+                    "correct": false
+                  },
+                  {
+                    "text": "a risk of bleeding from a low platelet count",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1130 and the Vital Signs.",
+          "explanation": "<b>Pathogenesis:</b> iron is needed to build heme. Without it, red cell precursors keep dividing while they wait for hemoglobin, so the cells end up small (microcytic) and pale (hypochromic). Vitamin B12 deficiency impairs DNA synthesis and makes large cells; hemolysis and marrow failure have other laboratory patterns.<br><br><b>Cause:</b> in a premenopausal woman, menstrual loss is the most common cause; each 1 mL of blood holds about 0.5 mg of iron, and heavy bleeding (here from fibroids) loses several times the normal amount every cycle. Her vegan diet adds to the problem because plant (non-heme) iron is absorbed less well than iron from meat, but plant foods do contain iron. Iron therapy without finding the source of loss is poor practice, so the fibroids are referred to gynecology. Loratadine does not affect iron absorption; her ferritin rules out thalassemia as the cause.<br><br><b>Priority:</b> her heart rate rises 16 beats/min on standing, she has had dizziness, and she climbs ladders at work: reduced oxygen-carrying capacity puts her at risk of falls and injury. Her platelet count is high, not low, and she has no neurologic signs."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Amara returns the next day to review her blood work."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which instructions should the nurse include in Amara's teaching? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Take two tablets the next day if you miss a dose",
+              "correct": false
+            },
+            {
+              "text": "Take the iron tablet 30 minutes before a meal, with a glass of orange juice",
+              "correct": true
+            },
+            {
+              "text": "Take the tablet with a glass of milk to prevent an upset stomach",
+              "correct": false
+            },
+            {
+              "text": "Take the tablet at least 2 hours apart from milk, tea, coffee and antacids",
+              "correct": true
+            },
+            {
+              "text": "Drink more fluids and eat more fibre if you become constipated",
+              "correct": true
+            },
+            {
+              "text": "Eat beans, lentils, tofu and iron-fortified cereals with foods rich in vitamin C",
+              "correct": true
+            },
+            {
+              "text": "Stop taking the iron once you no longer feel tired",
+              "correct": false
+            },
+            {
+              "text": "Expect your stools to turn dark green or black while taking iron",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1145.",
+          "explanation": "<b>Include:</b> iron is absorbed best on an empty stomach, about 30 minutes before meals; vitamin C (orange juice or a 500 mg tablet) keeps iron in the absorbable ferrous form (Option 2). Calcium in milk, tannins in tea, polyphenols in coffee, antacids and some antibiotics bind iron, so they are separated from the dose (Option 4). Dark green or black stools are an expected, harmless effect; tarry stools with abdominal pain or dizziness are reported (Option 8). A vegan diet can supply enough iron if non-heme sources are eaten with vitamin C (Option 6). Constipation is the most common adverse effect (Option 5).<br><br><b>Do not include:</b> milk reduces absorption (Option 3). Feeling better comes before the stores are refilled; iron continues for about 6 months after the hemoglobin is normal (Option 7). Doubling a dose increases nausea and constipation and is not absorbed well; every-other-day dosing is used because each dose raises hepcidin, which blocks the absorption of the next one for about a day (Option 1)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1145:</span><span class=\"nurse-note-text\">Nurse practitioner prescribes ferrous sulfate 300 mg (60 mg elemental iron) PO every other day and a referral to gynecology. Amara asks how to take the tablets and which foods will help.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Amara returns the next day to review her blood work."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b> for the IV iron infusion.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Take vital signs before the infusion and monitor during it",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Check the IV site for patency and leakage during the infusion",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give the iron by intramuscular injection if the IV insertion is difficult",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Give a test dose of iron sucrose before the first full dose",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Observe Amara for at least 30 minutes after the infusion",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Tell Amara to take her iron tablets on infusion days for a faster response",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Week 4 1000 and the Vital Signs.",
+          "explanation": "<b>Indicated:</b> IV iron can cause hypersensitivity reactions (flushing, chest tightness, dyspnea, hypotension), so vital signs are taken before and during the infusion and the client is observed for at least 30 minutes after; the infusion is stopped and help called at the first sign of a reaction. Leakage of iron into the tissues causes pain and long-lasting brown staining of the skin, so the site is checked throughout.<br><br><b>Non-Essential:</b> current iron sucrose products do not need a test dose; test doses were used with the old high-molecular-weight iron dextran.<br><br><b>Contraindicated:</b> iron sucrose is given only IV; intramuscular iron is painful, stains the skin and is no longer used. Oral iron is not combined with IV iron; IV iron raises hepcidin, so oral iron would be poorly absorbed and would only add adverse effects."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1145:</span><span class=\"nurse-note-text\">Nurse practitioner prescribes ferrous sulfate 300 mg (60 mg elemental iron) PO every other day and a referral to gynecology. Amara asks how to take the tablets and which foods will help.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 4 1000:</span><span class=\"nurse-note-text\">Amara stopped the iron tablets after 10 days because of nausea and constipation. Periods remain heavy; gynecology appointment in 6 weeks. Hemoglobin today 88 g/L. The nurse practitioner prescribes iron sucrose 200 mg IV over 15 minutes, once a week for 5 doses, starting today in the clinic.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 4 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Four weeks later, Amara returns for follow-up."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "<b>Highlight</b> the findings that indicate that the treatment of Amara's anemia has been effective.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Week 12 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Effective:</b> more energy and climbing stairs without stopping show better oxygen delivery, as do a heart rate down from 108 to 82 beats/min. Hemoglobin rose from 86 to 121 g/L and ferritin from 4 to 142 µg/L, showing that the stores are refilled (with IV iron, ferritin rises quickly). Pica, restless legs and angular cheilitis resolve as iron is replaced.<br><br><b>Not yet evidence of effect:</b> nails take months to grow out, so spoon-shaped nails persist for some time. The MCV (79 fL) is still slightly low because cells made before treatment are still circulating; it normalizes as they are replaced over about 120 days. Ongoing heavy bleeding is the <b>cause</b>, which iron does not treat: without gynecologic treatment of the fibroids, she will become iron deficient again.",
+          "highlightTabs": [
+            {
+              "id": "ht6",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 12 1000:</span><span class=\"nurse-note-text\">Received all 5 doses of iron sucrose without reaction. {Says she has “far more energy” and climbs stairs at work without stopping.|correct} {No longer craves ice.|correct} {Legs no longer restless at night.|correct} {Corners of the mouth healed.|correct} {Nails still thin and spoon-shaped.} {Periods still heavy, with clots; gynecology visit next week.} {Heart rate 82 beats/min.|correct} {Hemoglobin 121 g/L|correct} and {ferritin 142 µg/L.|correct} {MCV 79 fL.}</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1145:</span><span class=\"nurse-note-text\">Nurse practitioner prescribes ferrous sulfate 300 mg (60 mg elemental iron) PO every other day and a referral to gynecology. Amara asks how to take the tablets and which foods will help.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 4 1000:</span><span class=\"nurse-note-text\">Amara stopped the iron tablets after 10 days because of nausea and constipation. Periods remain heavy; gynecology appointment in 6 weeks. Hemoglobin today 88 g/L. The nurse practitioner prescribes iron sucrose 200 mg IV over 15 minutes, once a week for 5 doses, starting today in the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 12 1000:</span><span class=\"nurse-note-text\">Received all 5 doses of iron sucrose without reaction. Says she has “far more energy” and climbs stairs at work without stopping. No longer craves ice. Legs no longer restless at night. Corners of the mouth healed. Nails still thin and spoon-shaped. Periods still heavy, with clots; gynecology visit next week. Heart rate 82 beats/min. Hemoglobin 121 g/L and ferritin 142 µg/L. MCV 79 fL.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 4 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 12 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 12 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">79 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">17.2%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.2%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.26</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Twelve weeks after her first visit, Amara returns for follow-up."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "34-year-old female with fatigue, pica and koilonychia from heavy menstrual bleeding (fibroids) and a vegan diet: iron deficiency anemia, iron studies compared with thalassemia trait and anemia of chronic disease, oral iron teaching and IV iron sucrose.",
+    "authorReview": {
+      "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (Iron Deficiency Anemia, Mar 2025). Please review: ferrous sulfate 300 mg (60 mg elemental) every other day (Merck's alternate-day dosing; many Canadian prescribers still use daily dosing); iron sucrose 200 mg IV weekly × 5 and the 30-minute observation (check against your agency's policy).",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000005",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 5",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. <b>Select the 4 findings</b> that require follow-up.",
+          "type": "select_n",
+          "limit": 4,
+          "options": [
+            {
+              "text": "Petechiae on both lower legs and unexplained bruises",
+              "correct": true
+            },
+            {
+              "text": "Liver and spleen not palpable",
+              "correct": false
+            },
+            {
+              "text": "Takes no regular medications",
+              "correct": false
+            },
+            {
+              "text": "No enlarged lymph nodes",
+              "correct": false
+            },
+            {
+              "text": "Lungs clear on auscultation",
+              "correct": false
+            },
+            {
+              "text": "Temperature of 38.6° C with chills",
+              "correct": true
+            },
+            {
+              "text": "Heart rate of 118 beats/min with shortness of breath on stairs",
+              "correct": true
+            },
+            {
+              "text": "Nosebleed lasting 40 minutes and bleeding gums",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b> fever with chills may be the first sign of a serious infection when white cells are low (Option 6). Prolonged nosebleeds, bleeding gums (Option 8), petechiae and unexplained bruising (Option 1) point to a low platelet count. Tachycardia with exertional dyspnea and pallor reflect anemia: the heart beats faster to deliver oxygen with less hemoglobin (Option 7). Together, signs of anemia, infection and bleeding suggest that all three cell lines are low (<b>pancytopenia</b>), the picture of bone marrow failure.<br><br><b>Do not require follow-up:</b> the absence of enlarged lymph nodes, liver and spleen is a helpful negative: aplastic anemia does not enlarge the spleen, whereas leukemia and lymphoma often enlarge nodes, liver or spleen (Options 2 and 4). Taking no medications (Option 3) and clear lungs (Option 5) need no action; medication and chemical exposures are still recorded as possible causes."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is mainly caused by <b>anemia</b>, <b>neutropenia</b>, or <b>thrombocytopenia</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Tiredness and shortness of breath on exertion",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Painful mouth ulcers and sore throat",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Bleeding gums and a prolonged nosebleed",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Fever with chills",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Petechiae on the lower legs",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Pale conjunctivae and nail beds",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Anemia",
+              "Neutropenia",
+              "Thrombocytopenia"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1530 and the Laboratory Results.",
+          "explanation": "<b>Why all three:</b> in aplastic anemia the hematopoietic stem cells are lost, usually through an immune attack that may be triggered by a toxin (benzene), a drug, radiation or a virus. The marrow becomes empty and fatty, so it makes too few red cells, white cells and platelets. His results show severe disease: neutrophils 0.3 × 10⁹/L, platelets 9 × 10⁹/L and absolute reticulocytes 12 × 10⁹/L. The smear has no blasts (unlike leukemia), and the PT and aPTT are normal (unlike DIC).<br><br><b>Anemia:</b> less hemoglobin means less oxygen delivery: fatigue, dyspnea on exertion, pallor and tachycardia. The low reticulocyte count shows the marrow is not responding.<br><br><b>Neutropenia:</b> without neutrophils, bacteria and fungi invade mucous membranes, causing mouth ulcers, sore throat and fever. Infections can be life-threatening, and the usual signs (pus, swelling) may be absent.<br><br><b>Thrombocytopenia:</b> platelets form the first plug in small vessels; when they are very low, the client has petechiae, bruising and mucosal bleeding (gums, nose)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.3 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Few cells of all types; no blasts; no abnormal cells</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27 s</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Kevin's results are most consistent with [[drop0]]. The most likely cause is [[drop1]]. The nurse's priority is [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "iron deficiency anemia",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute leukemia",
+                    "correct": false
+                  },
+                  {
+                    "text": "severe aplastic anemia",
+                    "correct": true
+                  },
+                  {
+                    "text": "disseminated intravascular coagulation",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "an enlarged spleen trapping blood cells",
+                    "correct": false
+                  },
+                  {
+                    "text": "repeated skin contact with a benzene solvent",
+                    "correct": true
+                  },
+                  {
+                    "text": "an inherited deficiency of factor VIII",
+                    "correct": false
+                  },
+                  {
+                    "text": "a diet low in iron and folate",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "activity intolerance from anemia",
+                    "correct": false
+                  },
+                  {
+                    "text": "a spontaneous bleed from the low platelet count",
+                    "correct": false
+                  },
+                  {
+                    "text": "sepsis from fever with a very low neutrophil count",
+                    "correct": true
+                  },
+                  {
+                    "text": "anxiety about the diagnosis",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1600 and the Vital Signs.",
+          "explanation": "<b>Severe aplastic anemia:</b> pancytopenia with a hypocellular marrow (about 10%, replaced by fat) and no abnormal cells. It is severe because cellularity is below 25% and at least two of these are present: neutrophils below 0.5 × 10⁹/L, absolute reticulocytes below 60 × 10⁹/L, platelets below 20 × 10⁹/L. Leukemia fills the marrow with blasts; DIC prolongs the PT and aPTT.<br><br><b>Cause:</b> benzene is a well-known marrow toxin, absorbed through the skin and lungs; about half of cases have no cause found. Diet causes deficiency anemias, not pancytopenia with an empty marrow; aplastic anemia does not enlarge the spleen.<br><br><b>Priority:</b> fever with neutrophils below 0.5 × 10⁹/L is <b>febrile neutropenia</b>, a medical emergency: infection can progress to septic shock within hours, and his heart rate is rising and BP falling. Blood cultures are drawn and broad-spectrum IV antibiotics are started within 60 minutes. Bleeding risk is high and is managed with precautions and platelets, but untreated sepsis is the more immediate threat to life."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/62 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.3 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Few cells of all types; no blasts; no abnormal cells</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27 s</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in Kevin's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Provide a soft toothbrush or foam swabs and an electric razor",
+              "correct": true
+            },
+            {
+              "text": "Keep fresh flowers and potted plants out of the room",
+              "correct": true
+            },
+            {
+              "text": "Arrange for his brother to donate platelets for him",
+              "correct": false
+            },
+            {
+              "text": "Check his temperature every 4 hours and report 38.0° C or higher at once",
+              "correct": true
+            },
+            {
+              "text": "Give ibuprofen for his mouth pain",
+              "correct": false
+            },
+            {
+              "text": "Check that every blood product is labelled irradiated and leukoreduced",
+              "correct": true
+            },
+            {
+              "text": "Perform hand hygiene before and after every contact with Kevin",
+              "correct": true
+            },
+            {
+              "text": "Give a glycerin suppository if he becomes constipated",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1700 and the Orders.",
+          "explanation": "<b>Include:</b> hand hygiene is the most effective way to prevent infection in a neutropenic client (Option 7). Fever may be the only sign of infection when neutrophils are absent, so it is reported at once (Option 4). Soft brushes, swabs and electric razors prevent bleeding from gums and skin (Option 1). Irradiation prevents transfusion-associated graft-versus-host disease in clients receiving antithymocyte globulin, and leukoreduction lowers the risk of sensitization to donor cells and of cytomegalovirus transmission (Option 6). Flowers, plants and standing water can carry bacteria and fungi such as Aspergillus (Option 2).<br><br><b>Do not include:</b> suppositories, enemas and rectal temperatures can injure the rectal mucosa, causing bleeding and a portal for bacteria (Option 8). Blood from relatives is avoided in clients who may need a stem cell transplant, because it can sensitize them to a family donor's tissue antigens (Option 3). NSAIDs inhibit platelet function (Option 5)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures drawn from two sites at 1615; piperacillin-tazobactam IV started at 1630. Moved to a private room. Hematology plans immunosuppressive therapy because Kevin's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/62 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.3 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Few cells of all types; no blasts; no abnormal cells</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27 s</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours. Report temperature 38.0° C or higher. Private room; neutropenic precautions.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now and for platelets below 10 × 10<sup>9</sup>/L or bleeding. Red blood cells 1 unit for hemoglobin below 70 g/L. All blood products irradiated and leukoreduced. No blood from family members.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No rectal medications or temperatures. No intramuscular injections. No aspirin or NSAIDs.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b> for the first ATG infusion.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Give the prescribed premedications (acetaminophen, an antihistamine and a corticosteroid) before the infusion",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give the ATG as a rapid IV push to shorten the time he is exposed to it",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Infuse the ATG through an in-line filter over at least 4 hours",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Keep epinephrine and resuscitation equipment at the bedside",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Weigh Kevin before each dose of ATG",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Stop the infusion and call for help if he develops wheezing, hypotension or throat tightness",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 4 0800 and the Vital Signs.",
+          "explanation": "<b>Indicated:</b> ATG is an animal (horse) antibody against human T cells; it removes the T cells that attack the stem cells. Because it is a foreign protein, infusion reactions (fever, chills, rash) and anaphylaxis can occur, so premedication is given, the infusion runs slowly through an in-line filter over at least 4 hours, emergency drugs and equipment are at hand, and the infusion is stopped at the first sign of anaphylaxis. Serum sickness (fever, rash, joint pain) can follow 1 to 2 weeks later.<br><br><b>Contraindicated:</b> a rapid IV push greatly increases the risk of a severe reaction.<br><br><b>Non-Essential:</b> the ATG dose is calculated from his weight on admission; weighing before each daily dose adds nothing to safety."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures drawn from two sites at 1615; piperacillin-tazobactam IV started at 1630. Moved to a private room. Hematology plans immunosuppressive therapy because Kevin's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0800:</span><span class=\"nurse-note-text\">Afebrile for 48 hours; blood cultures negative. Platelets 18 × 10<sup>9</sup>/L after transfusion. Kevin starts equine antithymocyte globulin (ATG) today, daily for 4 days, with cyclosporine PO twice daily and eltrombopag PO daily. Central venous catheter in place.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 4 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.3 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Few cells of all types; no blasts; no abnormal cells</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27 s</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours. Report temperature 38.0° C or higher. Private room; neutropenic precautions.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now and for platelets below 10 × 10<sup>9</sup>/L or bleeding. Red blood cells 1 unit for hemoglobin below 70 g/L. All blood products irradiated and leukoreduced. No blood from family members.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No rectal medications or temperatures. No intramuscular injections. No aspirin or NSAIDs.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each statement Kevin makes, click to specify whether it shows that the teaching was <b>understood</b> or that he <b>needs further teaching</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "“I'll go to the emergency department if my temperature is 38.0° C or higher.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“My counts are coming up, so I can stop the cyclosporine once I feel well.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I'll keep my blood tests and check my blood pressure, because cyclosporine can affect my kidneys and blood pressure.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“I'll go back to cleaning parts with the solvent, but I'll wear gloves.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“I'll avoid grapefruit and check with the pharmacist before taking any new medicine.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“It may take several months for my blood counts to recover.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Understood",
+              "Needs Further Teaching"
+            ],
+            "firstColumnHeader": "Client Statement"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Month 3 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Response so far:</b> neutrophils (0.3 to 1.1 × 10⁹/L), platelets (9 to 38 × 10⁹/L) and reticulocytes are rising and he needs fewer transfusions: a partial response. About 60% to 70% of clients respond to ATG and cyclosporine, usually over 3 to 6 months, so treatment continues.<br><br><b>Understood:</b> fever is still an emergency while neutrophils are low. Cyclosporine is nephrotoxic and raises blood pressure (134/86 mm Hg today), so creatinine, cyclosporine levels and BP are checked. Grapefruit and many drugs raise cyclosporine levels. Recovery takes months.<br><br><b>Needs further teaching:</b> stopping cyclosporine early risks relapse; it is tapered only on the hematologist's instruction. Benzene is a marrow toxin absorbed through the skin and by inhalation; gloves alone do not remove the exposure, so he should not return to that work and should discuss it with occupational health."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures drawn from two sites at 1615; piperacillin-tazobactam IV started at 1630. Moved to a private room. Hematology plans immunosuppressive therapy because Kevin's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0800:</span><span class=\"nurse-note-text\">Afebrile for 48 hours; blood cultures negative. Platelets 18 × 10<sup>9</sup>/L after transfusion. Kevin starts equine antithymocyte globulin (ATG) today, daily for 4 days, with cyclosporine PO twice daily and eltrombopag PO daily. Central venous catheter in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Month 3 1000:</span><span class=\"nurse-note-text\">Clinic visit 3 months after ATG. Needed 2 platelet transfusions in the past month (6 in the first month). Takes cyclosporine and eltrombopag. Has not returned to work. Nurse reviews his teaching.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 4 0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/72 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/86 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 3 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">48 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.4 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.3 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.1 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Few cells of all types; no blasts; no abnormal cells</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours. Report temperature 38.0° C or higher. Private room; neutropenic precautions.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now and for platelets below 10 × 10<sup>9</sup>/L or bleeding. Red blood cells 1 unit for hemoglobin below 70 g/L. All blood products irradiated and leukoreduced. No blood from family members.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No rectal medications or temperatures. No intramuscular injections. No aspirin or NSAIDs.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "24-year-old male with severe aplastic anemia after benzene solvent exposure: pancytopenia (anemia, neutropenia, thrombocytopenia), febrile neutropenia, neutropenic and bleeding precautions, antithymocyte globulin and cyclosporine.",
+    "authorReview": {
+      "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Aplastic Anemia, Mar 2025). Please review: irradiated/leukoreduced products and avoiding family-donor blood (standard hematology practice, not on the Merck page); excluding flowers and plants (agency policies vary); ATG infusion details (premedication, in-line filter, at least 4 hours) against the product monograph and your agency.",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000006",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 6",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>anemia</b>? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Heart rate of 104 beats/min",
+              "correct": true
+            },
+            {
+              "text": "1+ pitting edema of both ankles",
+              "correct": false
+            },
+            {
+              "text": "Itching with scratch marks on the forearms",
+              "correct": false
+            },
+            {
+              "text": "Tiredness and shortness of breath walking up the driveway",
+              "correct": true
+            },
+            {
+              "text": "Feeling cold even indoors",
+              "correct": true
+            },
+            {
+              "text": "Pale conjunctivae and nail beds",
+              "correct": true
+            },
+            {
+              "text": "Blood pressure of 158/92 mm Hg",
+              "correct": false
+            },
+            {
+              "text": "Metallic taste and poor appetite",
+              "correct": false
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Consistent with anemia:</b> reduced oxygen delivery causes fatigue and dyspnea on exertion (Option 4), pallor of the conjunctivae and nail beds (Option 6), cold intolerance from reduced tissue oxygenation and vasoconstriction (Option 5), and a compensatory tachycardia (Option 1).<br><br><b>Not anemia:</b> these are manifestations of chronic kidney disease itself. Itching (uremic pruritus) (Option 3) and a metallic taste with anorexia (Option 8) come from retained uremic waste products. Ankle edema reflects sodium and water retention (Option 2), and hypertension is present in over 80% of clients with advanced chronic kidney disease (Option 7). The nurse separates them because they are treated differently."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a nephrology clinic is assessing Margaret, a 67-year-old female client with type 2 diabetes, hypertension and stage 4 chronic kidney disease, who reports increasing tiredness."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Margaret's damaged kidneys make too little [[drop0]], so her bone marrow produces fewer red cells. This is shown by [[drop1]]. Her ferritin and transferrin saturation show [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "erythropoietin",
+                    "correct": true
+                  },
+                  {
+                    "text": "renin",
+                    "correct": false
+                  },
+                  {
+                    "text": "thrombopoietin",
+                    "correct": false
+                  },
+                  {
+                    "text": "intrinsic factor",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "a high reticulocyte count with a raised bilirubin",
+                    "correct": false
+                  },
+                  {
+                    "text": "small, pale red cells with a high platelet count",
+                    "correct": false
+                  },
+                  {
+                    "text": "normal-sized red cells with a low reticulocyte count",
+                    "correct": true
+                  },
+                  {
+                    "text": "large red cells with hypersegmented neutrophils",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "normal iron stores that need no treatment",
+                    "correct": false
+                  },
+                  {
+                    "text": "a deficiency of vitamin B12",
+                    "correct": false
+                  },
+                  {
+                    "text": "iron overload from earlier transfusions",
+                    "correct": false
+                  },
+                  {
+                    "text": "iron deficiency that must be corrected for treatment to work",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1100 and the Laboratory Results.",
+          "explanation": "<b>Erythropoietin:</b> cells in the kidney's interstitium sense oxygen delivery and release erythropoietin, which stimulates the marrow to make red cells. As kidney tissue is lost (anemia usually appears once clearance falls below about 45 mL/min, stage 3 or worse), erythropoietin falls. Uremia also shortens red cell survival, and blood is lost through platelet dysfunction and blood draws. Renin raises blood pressure; intrinsic factor is needed for vitamin B12 absorption; thrombopoietin regulates platelets.<br><br><b>Pattern:</b> the anemia is <b>normocytic and normochromic</b> (MCV 88 fL) with a reticulocyte count that is inappropriately low for the degree of anemia: the marrow is not being told to make more cells. Small cells with high platelets suggest iron deficiency; large cells with hypersegmented neutrophils suggest B12 or folate deficiency (both normal here); a high reticulocyte count with raised bilirubin suggests hemolysis.<br><br><b>Iron:</b> in chronic kidney disease, hepcidin rises and traps iron in stores, and erythropoiesis-stimulating agents (ESAs) use iron quickly. Her ferritin of 64 µg/L and transferrin saturation of 0.16 show iron deficiency; without enough iron, an ESA will not work. Her negative fecal immunochemical test makes bleeding from the bowel less likely."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Margaret returns to review her blood work."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client's progress.",
+          "type": "bowtie",
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1130 and the Orders.",
+          "explanation": "<b>Condition:</b> normocytic anemia with a low reticulocyte count in stage 4 chronic kidney disease is anemia of chronic kidney disease, with iron deficiency adding to it. The fecal immunochemical test is negative, vitamin B12 and folate are normal, and only the red cell line is low (not aplastic anemia).<br><br><b>Actions:</b> iron is replaced first, then the ESA (darbepoetin) replaces the missing erythropoietin. The target hemoglobin is 100 to 115 g/L, not normal: raising it above 120 to 130 g/L increases venous thromboembolism, myocardial infarction, stroke and death. Restricting iron would worsen the deficiency; B12 is not deficient.<br><br><b>Parameters:</b> hemoglobin shows the response (and protects against overshooting the target); ESAs raise blood pressure, which is already high in chronic kidney disease, so BP is checked before each dose.",
+          "bowtieParams": [
+            {
+              "text": "INR",
+              "correct": false
+            },
+            {
+              "text": "Blood pressure",
+              "correct": true
+            },
+            {
+              "text": "Absolute neutrophil count",
+              "correct": false
+            },
+            {
+              "text": "Serum amylase",
+              "correct": false
+            },
+            {
+              "text": "Hemoglobin level",
+              "correct": true
+            }
+          ],
+          "bowtieActions": [
+            {
+              "text": "Restrict dietary iron to protect the kidneys",
+              "correct": false
+            },
+            {
+              "text": "Give the IV iron sucrose as prescribed",
+              "correct": true
+            },
+            {
+              "text": "Give vitamin B12 by intramuscular injection",
+              "correct": false
+            },
+            {
+              "text": "Give the darbepoetin as prescribed once iron is replaced",
+              "correct": true
+            },
+            {
+              "text": "Give darbepoetin to raise hemoglobin to 140 g/L",
+              "correct": false
+            }
+          ],
+          "bowtieConditions": [
+            {
+              "text": "Aplastic anemia",
+              "correct": false
+            },
+            {
+              "text": "Anemia of chronic kidney disease",
+              "correct": true
+            },
+            {
+              "text": "Iron deficiency anemia from bowel bleeding",
+              "correct": false
+            },
+            {
+              "text": "Vitamin B12 deficiency anemia",
+              "correct": false
+            }
+          ]
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Margaret returns to review her blood work."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which instructions should the nurse include in Margaret's teaching? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "You can stop taking amlodipine because your energy will improve",
+              "correct": false
+            },
+            {
+              "text": "Keep your blood test appointments every 2 weeks so the dose can be adjusted",
+              "correct": true
+            },
+            {
+              "text": "Report a severe headache, chest pain, sudden weakness or a painful, swollen leg right away",
+              "correct": true
+            },
+            {
+              "text": "Store the pre-filled syringes in the refrigerator and do not shake them",
+              "correct": true
+            },
+            {
+              "text": "Double the next dose if you miss one",
+              "correct": false
+            },
+            {
+              "text": "The goal is a hemoglobin in the normal range, about 130 g/L",
+              "correct": false
+            },
+            {
+              "text": "Check and record your blood pressure at home every day and bring the record to each visit",
+              "correct": true
+            },
+            {
+              "text": "Expect your energy to improve gradually over several weeks",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Week 3 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Include:</b> ESAs raise blood pressure, so home monitoring is essential (Option 7). A rapid rise in hemoglobin increases the risk of stroke, myocardial infarction and venous thrombosis; their warning signs are reported at once (Option 3). Hemoglobin is checked often so the dose can be lowered or held if it rises too fast (Option 2). Darbepoetin is a protein: it is kept refrigerated and not shaken, which can damage it (Option 4). The marrow needs weeks to respond; the maximum response takes 8 to 12 weeks (Option 8).<br><br><b>Do not include:</b> the target is 100 to 115 g/L, not normal, because higher values increase cardiovascular events and death (Option 6). Antihypertensives are needed even more on an ESA (Option 1). Doubling a dose risks an excessive rise; a missed dose is discussed with the clinic (Option 5)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/88 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Three weeks later, Margaret returns to the clinic."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Give today's scheduled darbepoetin dose",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Hold the dose and notify the nephrologist",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Recheck the BP after 5 minutes of rest and assess for neurologic changes",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Review her home BP record and whether she is taking her antihypertensives",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Request a repeat vitamin B12 level",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Tell Margaret to take an extra amlodipine tablet tonight",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Week 9 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Contraindicated:</b> her hemoglobin is 121 g/L, above the 115 g/L hold limit, it rose 19 g/L in 2 weeks, and her BP is above 160/100 mm Hg, so all three hold criteria are met; giving the dose would raise the risk of stroke and thrombosis. The nurse does not change antihypertensive doses without a prescription.<br><br><b>Indicated:</b> the dose is held and the nephrologist notified to adjust the ESA and her BP treatment. A headache with a BP of 174/98 mm Hg needs a repeat reading and a neurologic check (speech, strength, vision) to exclude hypertensive emergency or stroke. Missed antihypertensive doses are a common, correctable cause of high BP.<br><br><b>Non-Essential:</b> her vitamin B12 was normal, and B12 deficiency does not explain a rising hemoglobin."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">Visit for her scheduled darbepoetin dose. Reports a throbbing headache for 2 days and that her home BP readings have been 165 to 175 systolic. No chest pain; no weakness or numbness; speech clear. Says she has “more energy than in years.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/98 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 7</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "At week 9, Margaret returns to the clinic."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Based on the trends in the client's chart, which findings indicate that the treatment of the anemia is meeting its goals? Select all that apply.",
+          "type": "trend",
+          "options": [
+            {
+              "text": "Creatinine of 214 µmol/L",
+              "correct": false
+            },
+            {
+              "text": "Hemoglobin of 108 g/L at week 16",
+              "correct": true
+            },
+            {
+              "text": "Ferritin of 254 µg/L and transferrin saturation of 0.27",
+              "correct": true
+            },
+            {
+              "text": "Potassium of 5.4 mmol/L",
+              "correct": false
+            },
+            {
+              "text": "Blood pressure of 138/84 mm Hg",
+              "correct": true
+            },
+            {
+              "text": "Shops without needing to sit down",
+              "correct": true
+            },
+            {
+              "text": "Hemoglobin of 121 g/L at week 9",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Week 16 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Goals met:</b> her hemoglobin is within the 100 to 115 g/L target (Option 2); iron stores are replete (transferrin saturation above 0.20 and ferritin above 100 µg/L), so the ESA can work (Option 3); BP is controlled after the dose adjustment (Option 5); and her exercise tolerance has improved, the aim of treating the anemia (Option 6).<br><br><b>Not evidence of goals met:</b> a hemoglobin of 121 g/L was above target and led to the dose being held (Option 7). Creatinine and potassium reflect kidney function, which ESAs and iron do not improve; her slowly rising creatinine and high-normal potassium are followed by the nephrologist (Options 1 and 4)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">Visit for her scheduled darbepoetin dose. Reports a throbbing headache for 2 days and that her home BP readings have been 165 to 175 systolic. No chest pain; no weakness or numbness; speech clear. Says she has “more energy than in years.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 16 1000:</span><span class=\"nurse-note-text\">Darbepoetin was held for 2 weeks, then restarted at 20 mcg every 2 weeks; amlodipine was increased. No headaches. Walks to the grocery store and shops without needing to sit down.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 16 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.5° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">158/92 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">146/88 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">174/98 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 3</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 7</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 9</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 16</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">286 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">254 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.16</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.27</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">24 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">214 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estimated glomerular filtration rate (eGFR)</b><br>≥ 60 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 mL/min/1.73 m²</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 mL/min/1.73 m²</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Potassium (K)</b><br>3.5–5.1 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.3 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.4 mmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Erythropoiesis-stimulating agent</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. Hold the dose and notify the nephrologist if hemoglobin is above 115 g/L, rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP before each dose.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "At week 16, Margaret returns for follow-up."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "67-year-old female with diabetic nephropathy (stage 4 chronic kidney disease) and anemia: erythropoietin deficiency, anemia versus uremic manifestations, IV iron, darbepoetin alfa teaching, hold criteria and target hemoglobin.",
+    "authorReview": {
+      "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Anemia of Renal Disease, Mar 2025; Chronic Kidney Disease, Feb 2026). Please review: darbepoetin 30 mcg every 2 weeks (about 0.45 mcg/kg) and the clinic hold criteria (example protocol); ESA-induced hypertension (product monograph, not on the Merck pages); folate reference range ≥ 10.0 nmol/L (MCC).",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000007",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 7",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that are consistent with vitamin B12 deficiency.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Anemia:</b> tiredness and pallor; the slight yellow tinge comes from pallor combined with mild jaundice, because abnormal red cell precursors are destroyed in the marrow (ineffective erythropoiesis) and release bilirubin.<br><br><b>Glossitis:</b> a red, smooth, burning tongue, because rapidly dividing cells of the tongue also need B12 to make DNA.<br><br><b>Neurologic findings (unique to B12 deficiency):</b> B12 is needed to maintain myelin. Damage to the dorsal columns of the spinal cord and peripheral nerves causes numbness and tingling in a stocking distribution, loss of vibration and position sense, a positive Romberg test, and an unsteady gait that is worse in the dark, when the client cannot use vision to make up for lost position sense; hence falls at night. Cognitive and mood changes (forgetfulness, irritability, depression) also occur. These can appear before the anemia and become permanent if treatment is delayed.<br><br><b>Not consistent:</b> pain and temperature sensation are usually spared in B12 deficiency. A diet with meat, eggs and dairy supplies B12, so the cause is poor absorption, not intake. No black or bloody stools makes blood loss unlikely.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. {Fell twice in the past month, both times at night.|correct} {Numbness and tingling in both feet for 4 months, “like wearing thick socks.”|correct} {Unsteady when walking in the dark.|correct} {Tongue red, smooth and burning.|correct} {Tired for months.|correct} Daughter reports {that Linda has become forgetful and irritable.|correct} {Skin pale with a slight yellow tinge.|correct} {Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down.|correct} {Romberg test positive.|correct} {Pain and temperature sensation in the feet intact.} {Eats meat, eggs and dairy daily.} {No black or bloody stools.} History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse explains the differences between the two vitamin deficiencies. For each finding, click to specify whether it occurs in <b>vitamin B12 deficiency</b>, <b>folate deficiency</b>, or <b>both</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "MCV above 100 fL with hypersegmented neutrophils",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Loss of vibration and position sense with an unsteady gait",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Raised methylmalonic acid",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Raised homocysteine",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Common in alcohol use disorder and in pregnancy without supplements",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Caused by a lack of intrinsic factor",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Vitamin B12 Deficiency",
+              "Folate Deficiency",
+              "Both"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1730 and the Laboratory Results.",
+          "explanation": "<b>Both:</b> B12 and folate are both needed to make DNA. Without either, cells keep growing (RNA and protein synthesis continue) but divide poorly, so red cells are large (megaloblastic, MCV above 100 fL) and neutrophils have extra nuclear lobes. Folate needs B12 to be recycled, and both are needed to convert homocysteine to methionine, so homocysteine rises in both.<br><br><b>Vitamin B12 only:</b> B12 is also needed to convert methylmalonyl-CoA, so methylmalonic acid rises only in B12 deficiency; Linda's MMA of 1.9 µmol/L with a B12 of 98 pmol/L and normal folate confirm B12 deficiency. Neurologic damage occurs only in B12 deficiency. Intrinsic factor, made by gastric parietal cells, is needed to absorb B12 in the terminal ileum.<br><br><b>Folate only:</b> folate stores last only months, so deficiency develops with poor intake (alcohol use disorder), increased need (pregnancy) or drugs such as methotrexate and phenytoin.<br><br><b>Folic acid alone:</b> it could improve her blood count while her nerve damage progresses, so the nurse advises her not to take it unless prescribed."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Linda's red cells are large because [[drop0]]. Her deficiency is mainly caused by [[drop1]]. The nurse's priority is [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "too little iron is available to make hemoglobin",
+                    "correct": false
+                  },
+                  {
+                    "text": "the spleen releases young red cells early",
+                    "correct": false
+                  },
+                  {
+                    "text": "the cells swell from too much water inside them",
+                    "correct": false
+                  },
+                  {
+                    "text": "DNA synthesis is impaired, so precursor cells grow but divide too few times",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "blood loss from the stomach",
+                    "correct": false
+                  },
+                  {
+                    "text": "too little folate in her diet",
+                    "correct": false
+                  },
+                  {
+                    "text": "too little vitamin B12 in her diet",
+                    "correct": false
+                  },
+                  {
+                    "text": "antibodies that block intrinsic factor (pernicious anemia)",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "teaching her how to give injections",
+                    "correct": false
+                  },
+                  {
+                    "text": "preventing falls caused by loss of position sense",
+                    "correct": true
+                  },
+                  {
+                    "text": "relieving the burning tongue",
+                    "correct": false
+                  },
+                  {
+                    "text": "preventing infection from a low white cell count",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0900 and the Laboratory Results.",
+          "explanation": "<b>Large cells:</b> without B12, DNA synthesis is impaired while RNA and protein synthesis continue, so precursors grow large but divide fewer times; many die in the marrow (ineffective erythropoiesis), raising LDH and bilirubin. Iron deficiency makes cells small.<br><br><b>Cause:</b> in pernicious anemia, autoimmune gastritis destroys parietal cells, and antibodies block intrinsic factor, so B12 cannot be absorbed in the ileum. It is often associated with other autoimmune diseases such as autoimmune thyroid disease. Metformin and reduced stomach acid (omeprazole) add to poor absorption. Her diet contains B12, and folate is normal.<br><br><b>Priority:</b> she has already fallen twice, has lost position sense and gets up alone at night: injury from falls is the most immediate risk. Her white cell count is only mildly low; glossitis and teaching follow."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in Linda's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Teach her that eating more meat and dairy will correct her deficiency",
+              "correct": false
+            },
+            {
+              "text": "Inspect her feet daily for injuries she may not feel",
+              "correct": true
+            },
+            {
+              "text": "Keep her on bed rest until her hemoglobin is normal",
+              "correct": false
+            },
+            {
+              "text": "Offer soft, bland foods and mouth care with a soft toothbrush",
+              "correct": true
+            },
+            {
+              "text": "Give the cyanocobalamin injections as prescribed",
+              "correct": true
+            },
+            {
+              "text": "Give folic acid tablets instead of injections, since they are easier to take",
+              "correct": false
+            },
+            {
+              "text": "Keep the bed low, the call bell in reach and a night light on, and assist her when she walks",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1000 and the Orders.",
+          "explanation": "<b>Include:</b> in pernicious anemia the oral B12 in food cannot be absorbed, so B12 is given by injection (Option 5). Fall precautions protect her while position sense is lost (Option 7). Loss of sensation in the feet means injuries can go unnoticed (Option 2). Glossitis makes spicy, hot and acidic foods painful (Option 4).<br><br><b>Do not include:</b> folic acid can correct the anemia but not the nerve damage, which can progress (Option 6). Without intrinsic factor, dietary B12 is not absorbed (Option 1). Bed rest increases weakness and deconditioning; she walks with assistance and physiotherapy (Option 3)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Cyanocobalamin 1,000 mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for life.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Safety</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Fall precautions. Physiotherapy for gait and balance.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Diet</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Soft diet as tolerated.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Reticulocyte count and CBC on day 7. Gastroscopy as an outpatient.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Contact the internist to clarify the message before changing the treatment",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give folic acid 5 mg PO daily and hold the cyanocobalamin",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Give today's cyanocobalamin dose into the deltoid muscle",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give the cyanocobalamin as an IV push to avoid an injection",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Request a bone marrow biopsy to confirm the diagnosis",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Walk with Linda using a gait belt when she goes to the bathroom",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1100.",
+          "explanation": "<b>Contraindicated:</b> giving folate alone to a client with B12 deficiency can improve the blood count while the neurologic damage continues, and holding B12 delays treatment that should start at once; gastroscopy does not require it to be held. Cyanocobalamin is given IM (or deep subcutaneously); given IV, most of it is lost in the urine before it can be used.<br><br><b>Indicated:</b> an order that conflicts with the diagnosis and the existing plan is clarified with the prescriber before acting. The prescribed IM dose is given. A gait belt and assistance protect her from falls.<br><br><b>Non-Essential:</b> low B12, high methylmalonic acid and positive intrinsic factor antibodies already confirm the diagnosis; a bone marrow biopsy is not needed."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician leaves a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” Linda's daughter asks whether the injection could be given into the IV to save Linda a needle.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Cyanocobalamin 1,000 mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for life.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Safety</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Fall precautions. Physiotherapy for gait and balance.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Diet</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Soft diet as tolerated.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Reticulocyte count and CBC on day 7. Gastroscopy as an outpatient.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Which statements by Linda indicate that she understands the teaching? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "“I will need B12 injections every month for the rest of my life.”",
+              "correct": true
+            },
+            {
+              "text": "“I'll tell my doctor if the tingling gets worse or my balance changes.”",
+              "correct": true
+            },
+            {
+              "text": "“Now that my blood count is normal, I can stop the injections.”",
+              "correct": false
+            },
+            {
+              "text": "“I'll check my feet every day, because I may not feel a cut or blister.”",
+              "correct": true
+            },
+            {
+              "text": "“Eating liver once a week will keep my B12 up.”",
+              "correct": false
+            },
+            {
+              "text": "“I can switch to my neighbour's folic acid tablets instead of the injections.”",
+              "correct": false
+            },
+            {
+              "text": "“The numbness in my feet may take months to improve and might not go away completely.”",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1200 and Week 6 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Response:</b> reticulocytes rose sharply by day 7 (14 to 198 × 10⁹/L), the expected first sign of response, and by week 6 hemoglobin, MCV, white cells and platelets have returned to normal. Neurologic recovery is slower.<br><br><b>Understood:</b> the cause, loss of intrinsic factor, is permanent, so B12 is given for life (Option 1). Nerve recovery takes months and may be incomplete, especially when symptoms were present for a long time (Option 7). Reduced sensation means daily foot checks (Option 4). Worsening neurologic symptoms suggest inadequate treatment (Option 2).<br><br><b>Needs more teaching:</b> stopping injections leads to relapse (Option 3). Folic acid does not treat B12 deficiency and can hide it while nerve damage progresses (Option 6). Dietary B12 cannot be absorbed without intrinsic factor (Option 5)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician leaves a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” Linda's daughter asks whether the injection could be given into the IV to save Linda a needle.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1200:</span><span class=\"nurse-note-text\">Internist confirmed the original plan; cyanocobalamin given IM.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 6 1000:</span><span class=\"nurse-note-text\">Clinic visit. Energy improved; tongue no longer sore. Tingling in the feet less, still present. Walking with a cane; no further falls. The nurse reviews Linda's understanding of her condition.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 7</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">214 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Cyanocobalamin 1,000 mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for life.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Safety</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Fall precautions. Physiotherapy for gait and balance.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Diet</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Soft diet as tolerated.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Reticulocyte count and CBC on day 7. Gastroscopy as an outpatient.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Six weeks later, Linda returns to the clinic."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "61-year-old female with pernicious anemia (plus metformin and omeprazole) presenting with falls, paresthesias and glossitis: megaloblastic anemia, vitamin B12 versus folate deficiency (methylmalonic acid, homocysteine), IM cyanocobalamin and why folate alone is unsafe.",
+    "authorReview": {
+      "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Vitamin B12 Deficiency, Jun 2026; Folate Deficiency, Nov 2026; Megaloblastic Macrocytic Anemias, Mar 2025). Please review: methylmalonic acid (< 0.40 µmol/L) and homocysteine (5–15 µmol/L) reference ranges (not in the MCC list); the cyanocobalamin schedule (daily × 7, weekly × 4, then monthly; Merck gives 1 mg IM 1–4 times a week, then monthly); outpatient gastroscopy at diagnosis of pernicious anemia.",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000008",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 8",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which findings require follow-up? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Height of 152 cm",
+              "correct": false
+            },
+            {
+              "text": "Fine crackles at both lung bases and 2+ ankle edema",
+              "correct": true
+            },
+            {
+              "text": "Shortness of breath on one flight of stairs and needing two pillows to sleep",
+              "correct": true
+            },
+            {
+              "text": "Stopped taking her deferasirox 8 months ago",
+              "correct": true
+            },
+            {
+              "text": "Prominent cheekbones and forehead",
+              "correct": false
+            },
+            {
+              "text": "Grey-bronze skin and a liver edge 4 cm below the costal margin",
+              "correct": true
+            },
+            {
+              "text": "Well-healed splenectomy scar",
+              "correct": false
+            },
+            {
+              "text": "Irregular pulse of 112 beats/min with a “racing and skipping” heart",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b> each unit of red cells adds about 200 mg of iron, which the body cannot excrete, and thalassemia also increases iron absorption from the gut. Without chelation (Option 4), iron builds up in the heart, liver and endocrine glands. Iron in heart muscle causes cardiomyopathy: dyspnea on exertion and orthopnea (Option 3), arrhythmias (Option 8), and crackles and edema from heart failure (Option 2). Heart failure is the leading cause of death in thalassemia major. Bronze skin and an enlarged liver reflect iron deposited in skin and liver (hepatic siderosis), which can progress to cirrhosis (Option 6).<br><br><b>Long-standing, not new:</b> marrow expansion to compensate for ineffective erythropoiesis thickens the facial and skull bones in childhood (Option 5), and severe anemia with iron overload of the pituitary and gonads limits growth and puberty (Option 1). Her spleen was removed because enlarged spleens trap and destroy transfused cells (Option 7). These need no urgent action, although her asplenia raises her risk of severe infection."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse answers the partner's question. For each statement, click to specify whether it describes <b>beta-thalassemia major</b>, <b>beta-thalassemia trait (minor)</b>, or <b>both</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Two altered beta-globin genes, one inherited from each parent",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Small (microcytic) red blood cells",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Usually no symptoms and no treatment needed",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Severe anemia by age 1 to 2 years, needing regular transfusions",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "One altered beta-globin gene; the other is normal",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Marrow expansion that thickens the skull and facial bones",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Beta-Thalassemia Major",
+              "Beta-Thalassemia Trait",
+              "Both"
+            ],
+            "firstColumnHeader": "Statement"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1000 and the Laboratory Results.",
+          "explanation": "<b>Pathogenesis:</b> beta-thalassemia is an inherited defect in making beta-globin chains (gene on chromosome 11). With too few beta chains, excess alpha chains have no partner; they precipitate inside red cell precursors, which die in the marrow (ineffective erythropoiesis) or are destroyed in the spleen (hemolysis). Cells that survive are small and pale with target cells; nucleated red cells appear in the blood. It is common in people of Mediterranean, Middle Eastern, South Asian and Southeast Asian ancestry.<br><br><b>Major:</b> both beta genes are affected (autosomal recessive), so beta-chain production is very low. Severe anemia appears once fetal hemoglobin falls, by age 1 to 2; without transfusion, the marrow expands (thick skull and malar bones, fractures), the spleen enlarges and growth fails. HbF may be up to 90%.<br><br><b>Trait (minor):</b> one gene is affected; there is mild microcytic anemia, usually without symptoms, and no treatment. HbA2 above 3.5% to 4% on electrophoresis is diagnostic; it is often mistaken for iron deficiency.<br><br><b>Both</b> make small cells. If the partner has beta-thalassemia trait, each pregnancy has a 50% chance of a child with thalassemia major (Priya passes one affected gene to every child) and a 50% chance of a child with trait; genetic counselling is offered."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0845</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">71 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale red cells; target cells; nucleated red cells; Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,840 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Brain-type natriuretic peptide (BNP)</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">640 pg/mL</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Priya's red cells are small because [[drop0]]. Her body has accumulated iron mainly because [[drop1]]. The nurse's priority is [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "too few beta-globin chains are made, so cells contain too little hemoglobin",
+                    "correct": true
+                  },
+                  {
+                    "text": "her red cells are destroyed by antibodies",
+                    "correct": false
+                  },
+                  {
+                    "text": "she lacks vitamin B12 to make DNA",
+                    "correct": false
+                  },
+                  {
+                    "text": "she lacks iron to make heme",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "she eats a diet high in red meat",
+                    "correct": false
+                  },
+                  {
+                    "text": "every transfusion adds iron that the body cannot excrete",
+                    "correct": true
+                  },
+                  {
+                    "text": "her spleen was removed",
+                    "correct": false
+                  },
+                  {
+                    "text": "her kidneys cannot excrete iron",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "body image concerns about her bones",
+                    "correct": false
+                  },
+                  {
+                    "text": "heart failure and arrhythmias from iron in the heart muscle",
+                    "correct": true
+                  },
+                  {
+                    "text": "liver damage from iron deposits",
+                    "correct": false
+                  },
+                  {
+                    "text": "infection after splenectomy",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1530.",
+          "explanation": "<b>Small cells:</b> hemoglobin is built from globin chains plus heme; with too few beta chains, each cell holds less hemoglobin, so cells are microcytic and hypochromic even though iron is plentiful (ferritin 2,840 µg/L). Giving iron would be harmful.<br><br><b>Iron overload:</b> about 200 mg of iron enters with every unit transfused, and humans have no way to excrete extra iron; ineffective erythropoiesis also increases absorption from the gut. Chelation is started once ferritin exceeds about 1,000 µg/L or after 1 to 2 years of transfusions, and must be taken continuously.<br><br><b>Priority:</b> severe cardiac iron (T2* 7 ms), a falling ejection fraction, crackles, edema and an irregular pulse put her at risk of fatal heart failure and arrhythmias. Liver iron, infection risk and body image matter, but the threat to her circulation comes first."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0845</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">71 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale red cells; target cells; nucleated red cells; Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,840 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Brain-type natriuretic peptide (BNP)</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">640 pg/mL</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Infuse each unit over 3 to 4 hours and give the furosemide between units",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give oral ferrous sulfate to help her make more hemoglobin",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Tell Priya that her urine may turn orange-red during the deferoxamine infusion",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give the deferoxamine as a rapid IV bolus to remove iron faster",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Request a hemoglobin electrophoresis before each transfusion",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Check the absolute neutrophil count every week while she takes deferiprone",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1700 and the Orders.",
+          "explanation": "<b>Indicated:</b> with heart failure, red cells are given slowly with a diuretic between units to prevent fluid overload. Deferoxamine binds iron to form ferrioxamine, excreted in urine and bile, which turns urine orange-red: an expected, harmless effect. Deferiprone can cause agranulocytosis, so the neutrophil count is checked every week and fever or sore throat is reported at once.<br><br><b>Contraindicated:</b> she has iron overload; iron supplements add to the damage. Rapid IV deferoxamine causes flushing, hypotension and shock; it is given by slow continuous infusion.<br><br><b>Non-Essential:</b> her diagnosis is established; electrophoresis does not change before each transfusion. A type and screen (crossmatch) is what each transfusion needs."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Admitted to the medical unit. Implanted port accessed. Orders received.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0845</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">71 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale red cells; target cells; nucleated red cells; Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,840 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Brain-type natriuretic peptide (BNP)</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">640 pg/mL</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 units of leukoreduced, phenotype-matched red blood cells, each over 3 to 4 hours. Furosemide 20 mg IV between units. Pre-transfusion hemoglobin goal 95–105 g/L.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chelation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Deferoxamine 50 mg/kg/day by continuous IV infusion through the port. Deferiprone 25 mg/kg PO three times a day. Absolute neutrophil count weekly.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiac</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Continuous cardiac monitoring. Daily weight. Fluid intake 1.5 L/day.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "Which instructions should the nurse include in Priya's discharge teaching? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Skip deferiprone on the nights you use the deferoxamine pump",
+              "correct": false
+            },
+            {
+              "text": "Do not take iron supplements or multivitamins that contain iron",
+              "correct": true
+            },
+            {
+              "text": "Have your neutrophil count checked every week",
+              "correct": true
+            },
+            {
+              "text": "Report any change in your hearing or vision",
+              "correct": true
+            },
+            {
+              "text": "Go to the emergency department for a fever or sore throat, even if you feel well otherwise",
+              "correct": true
+            },
+            {
+              "text": "You can stop the chelation once your transfusions are spaced further apart",
+              "correct": false
+            },
+            {
+              "text": "Take a vitamin C 1,000 mg tablet each day to boost your energy",
+              "correct": false
+            },
+            {
+              "text": "Carry information that you have no spleen and keep your vaccines up to date",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 6 1000 and the Vital Signs.",
+          "explanation": "<b>Include:</b> deferiprone can cause agranulocytosis, and without a spleen she is at risk of overwhelming infection with encapsulated bacteria; fever or sore throat needs urgent assessment and a neutrophil count (Options 3 and 5). Deferoxamine can damage hearing and vision (ototoxicity, retinopathy), so these are checked yearly and changes reported (Option 4). Extra iron worsens overload (Option 2). After splenectomy, pneumococcal, meningococcal and Haemophilus vaccines and medical identification are recommended (Option 8).<br><br><b>Do not include:</b> vitamin C increases iron absorption and, in iron overload, can increase iron toxicity to the heart; it is taken only if the hematologist prescribes it with deferoxamine (Option 7). Iron keeps accumulating as long as transfusions continue, so chelation is lifelong (Option 6). The two chelators are prescribed together for heavy cardiac iron; skipping one reduces iron removal (Option 1)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Admitted to the medical unit. Implanted port accessed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Breathing easier; sleeps flat; ankle edema 1+. Pulse regular. Will go home on deferiprone three times a day and deferoxamine by subcutaneous pump overnight 5 nights a week. Priya says she wants to “do it properly this time.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 6 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min, regular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0845</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">71 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale red cells; target cells; nucleated red cells; Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,840 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Brain-type natriuretic peptide (BNP)</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">640 pg/mL</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 units of leukoreduced, phenotype-matched red blood cells, each over 3 to 4 hours. Furosemide 20 mg IV between units. Pre-transfusion hemoglobin goal 95–105 g/L.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chelation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Deferoxamine 50 mg/kg/day by continuous IV infusion through the port. Deferiprone 25 mg/kg PO three times a day. Absolute neutrophil count weekly.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiac</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Continuous cardiac monitoring. Daily weight. Fluid intake 1.5 L/day.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each finding, click to specify whether it shows that Priya's condition has <b>improved</b> or <b>not improved</b> since admission.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Ferritin",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Absolute neutrophil count",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Cardiac MRI T2*",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Ankle edema",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Pre-transfusion hemoglobin",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "BNP",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Improved",
+              "Not Improved"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Month 6 1000, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Improved:</b> ferritin fell from 2,840 to 1,640 µg/L and cardiac T2* rose from 7 to 11 ms (above 10 ms, less severe), showing iron is leaving the heart; BNP has normalized and edema has resolved as heart failure improved. Pre-transfusion hemoglobin is now within the 95 to 105 g/L goal, which also suppresses the marrow expansion that drives extra iron absorption.<br><br><b>Not improved:</b> a neutrophil count of 0.8 × 10⁹/L (below 1.0, severe below 0.5) with a sore throat in a client on deferiprone without a spleen needs urgent action: the nurse notifies the hematologist at once; deferiprone is usually held and the client is assessed for infection."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Admitted to the medical unit. Implanted port accessed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Breathing easier; sleeps flat; ankle edema 1+. Pulse regular. Will go home on deferiprone three times a day and deferoxamine by subcutaneous pump overnight 5 nights a week. Priya says she wants to “do it properly this time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Month 6 1000:</span><span class=\"nurse-note-text\">Clinic visit. Takes deferiprone daily and uses the pump 5 nights a week; no missed doses. Walks 30 minutes without breathlessness. No ankle edema. Repeat cardiac MRI: T2* 11 ms. Reports a sore throat since yesterday; no fever.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 6 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 6 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.3° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min, irregular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min, regular</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min, regular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0845</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 6 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">71 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale red cells; target cells; nucleated red cells; Howell-Jolly bodies</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,840 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1,640 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">52 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Brain-type natriuretic peptide (BNP)</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">640 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">42 pg/mL</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 units of leukoreduced, phenotype-matched red blood cells, each over 3 to 4 hours. Furosemide 20 mg IV between units. Pre-transfusion hemoglobin goal 95–105 g/L.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chelation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Deferoxamine 50 mg/kg/day by continuous IV infusion through the port. Deferiprone 25 mg/kg PO three times a day. Absolute neutrophil count weekly.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiac</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Continuous cardiac monitoring. Daily weight. Fluid intake 1.5 L/day.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "24-year-old female with transfusion-dependent beta-thalassemia major and cardiac iron overload after stopping chelation: pathogenesis, thalassemia major versus trait, transfusion with heart failure, deferoxamine and deferiprone.",
+    "authorReview": {
+      "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 3); checked against Merck Manual Professional (Thalassemias, Apr 2026). Please review (from standard references, not the Merck page): chelation regimen (deferoxamine IV/SC, deferiprone 25 mg/kg three times a day with weekly ANC); cardiac T2* thresholds (< 10 ms severe); pre-transfusion Hb goal 95–105 g/L (TIF; Merck says about 90–100 g/L); vitamin C advice; BNP (pg/mL, as MCC prints it).",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000009",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 9",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which findings require follow-up? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Slightly yellow sclerae, normal for him",
+              "correct": false
+            },
+            {
+              "text": "Vomiting with dry mucous membranes after drinking little while skiing",
+              "correct": true
+            },
+            {
+              "text": "Lower back and thigh pain rated 9/10, unrelieved by hydromorphone",
+              "correct": true
+            },
+            {
+              "text": "Painful erection for 3 hours",
+              "correct": true
+            },
+            {
+              "text": "Spleen not palpable",
+              "correct": false
+            },
+            {
+              "text": "SpO₂ 97% on room air with clear lungs",
+              "correct": false
+            },
+            {
+              "text": "Heart rate of 116 beats/min",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b> when HbS gives up oxygen it polymerizes; red cells become rigid and sickled, stick to the endothelium and block small vessels, causing ischemic pain in bones, back and joints: a <b>vaso-occlusive crisis</b>, the most common crisis (Option 3). It needs rapid, generous analgesia, usually IV opioids. <b>Priapism</b> is vaso-occlusion in the penis; an erection lasting hours is an emergency that can cause permanent erectile dysfunction, so it is reported at once (Option 4). Dehydration (vomiting, little fluid, cold and altitude) concentrates the blood and triggers sickling (Option 2). Tachycardia reflects pain, dehydration and anemia (Option 7).<br><br><b>Expected:</b> mild jaundice from ongoing hemolysis is usual for him (Option 1). In adults with HbSS the spleen has shrunk from repeated infarctions (functional asplenia), so it is not palpable; this is also why fever is dangerous (Option 5). Normal SpO₂ and clear lungs show no sign of acute chest syndrome yet, but they are rechecked regularly (Option 6)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS)."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is most consistent with a <b>vaso-occlusive crisis</b>, <b>acute chest syndrome</b>, or an <b>aplastic crisis</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Fever, chest pain and a new infiltrate on chest X-ray",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Severe pain in the long bones and back with a normal chest X-ray",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Reticulocytes below 1% with hemoglobin well below the usual level",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Falling SpO₂ with crackles and a rising respiratory rate",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Recent parvovirus B19 infection",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Reticulocytes about 11% with hemoglobin slightly below the usual level",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Vaso-Occlusive Crisis",
+              "Acute Chest Syndrome",
+              "Aplastic Crisis"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 0800 and the Laboratory Results.",
+          "explanation": "<b>Vaso-occlusive crisis (Jordan now):</b> ischemic pain from blocked small vessels, often in bones, back and joints, with a clear chest X-ray. Ongoing hemolysis keeps the reticulocyte count high (about 11%), bilirubin and LDH raised, and hemoglobin near his usual level. The white cell count often rises without infection.<br><br><b>Acute chest syndrome:</b> sickling in the lung vessels (often with infection or fat embolism) causes fever, chest pain, cough, tachypnea, crackles, falling SpO₂ and a <b>new pulmonary infiltrate</b>. It is a leading cause of death and often develops 1 to 3 days into a pain crisis.<br><br><b>Aplastic crisis:</b> parvovirus B19 infects red cell precursors and stops red cell production for about a week. Because sickle cells survive only 10 to 20 days, hemoglobin falls fast, and reticulocytes drop below 1%. It often needs transfusion."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS)."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely experiencing, 2 actions the nurse should take to address that condition, and 2 parameters the nurse should monitor to assess the client's progress.",
+          "type": "bowtie",
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1400, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Condition:</b> fever, chest pain, cough, tachypnea, hypoxemia (89%) and a new infiltrate during a pain crisis define acute chest syndrome. Reticulocytes remain high (not aplastic crisis), and the spleen in an adult with HbSS is atrophied (sequestration is mainly a childhood crisis).<br><br><b>Actions:</b> hypoxemia increases sickling, so oxygen is given; broad-spectrum antibiotics are started at once because infection often triggers or complicates the syndrome. Hematology is called for transfusion (often exchange transfusion to lower the HbS percentage). Meperidine's metabolite can cause seizures; large fluid boluses can cause pulmonary edema and worsen the syndrome; lying flat worsens atelectasis: he sits upright and uses the incentive spirometer.<br><br><b>Parameters:</b> SpO₂ and respiratory rate show whether lung involvement is improving; hemoglobin, which has fallen from 74 to 63 g/L, guides transfusion.",
+          "bowtieParams": [
+            {
+              "text": "INR",
+              "correct": false
+            },
+            {
+              "text": "Oxygen saturation and respiratory rate",
+              "correct": true
+            },
+            {
+              "text": "Serum amylase",
+              "correct": false
+            },
+            {
+              "text": "Hemoglobin level",
+              "correct": true
+            },
+            {
+              "text": "Blood glucose",
+              "correct": false
+            }
+          ],
+          "bowtieActions": [
+            {
+              "text": "Give a 2 L IV fluid bolus to flush the lungs",
+              "correct": false
+            },
+            {
+              "text": "Give the prescribed IV antibiotics without delay",
+              "correct": true
+            },
+            {
+              "text": "Give meperidine for the chest pain",
+              "correct": false
+            },
+            {
+              "text": "Give oxygen to keep SpO₂ at 95% or higher",
+              "correct": true
+            },
+            {
+              "text": "Keep him flat in bed to reduce oxygen demand",
+              "correct": false
+            }
+          ],
+          "bowtieConditions": [
+            {
+              "text": "Acute chest syndrome",
+              "correct": true
+            },
+            {
+              "text": "Splenic sequestration",
+              "correct": false
+            },
+            {
+              "text": "Aplastic crisis",
+              "correct": false
+            },
+            {
+              "text": "Uncomplicated vaso-occlusive crisis",
+              "correct": false
+            }
+          ]
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS)."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in Jordan's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Coach incentive spirometry every 2 hours while he is awake",
+              "correct": true
+            },
+            {
+              "text": "Assess sedation and respiratory rate every hour while he uses the PCA",
+              "correct": true
+            },
+            {
+              "text": "Keep him sitting upright and help him walk as tolerated",
+              "correct": true
+            },
+            {
+              "text": "Increase the IV rate to 250 mL/h to reverse sickling faster",
+              "correct": false
+            },
+            {
+              "text": "Run the IV fluid at the ordered rate and monitor intake, output and lung sounds",
+              "correct": true
+            },
+            {
+              "text": "Encourage him to push the PCA button before every breath to stay pain-free",
+              "correct": false
+            },
+            {
+              "text": "Check that the red cells for the exchange are leukoreduced and phenotype-matched",
+              "correct": true
+            },
+            {
+              "text": "Apply cool cloths and a fan to bring his temperature down",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1500 and the Orders.",
+          "explanation": "<b>Include:</b> incentive spirometry and sitting upright expand the lung bases and reduce atelectasis, which worsens acute chest syndrome (Options 1 and 3). Opioids are needed for chest and bone pain, but sedation comes before respiratory depression, which would worsen hypoxemia (Option 2). Fluids maintain hydration without overload, which can cause pulmonary edema (Option 5). Clients with sickle cell disease receive many transfusions and often form antibodies against red cell antigens; phenotype-matched, leukoreduced, sickle-negative cells reduce reactions (Option 7).<br><br><b>Do not include:</b> cold causes vasoconstriction and sickling; fever is treated with acetaminophen (Option 8). Only the client presses the PCA button, when he needs it; pressing it constantly risks oversedation (Option 6). Overhydration can trigger pulmonary edema and worsen acute chest syndrome (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1500:</span><span class=\"nurse-note-text\">Hematology at the bedside: exchange transfusion planned tonight. Consent signed. Orders received.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 1 g IV every 24 hours and azithromycin 500 mg IV every 24 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Red cell exchange transfusion tonight; leukoreduced, sickle-negative, phenotype-matched red cells.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hydromorphone PCA: 0.2 mg per dose, 10-minute lockout, no basal rate. Sedation score and RR every hour.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.45% NaCl IV at 100 mL/h. Strict intake and output.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS)."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Stop the PCA infusion",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give a PCA dose so he does not wake in pain",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Stimulate him, support his airway and give the prescribed naloxone",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Remove the oxygen to measure his SpO₂ on room air",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Explain to his mother why only Jordan may press the PCA button",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Request a repeat hemoglobin electrophoresis",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 0300 and the Vital Signs.",
+          "explanation": "<b>Indicated:</b> a respiratory rate of 8 breaths/min, SpO₂ 86% and increasing sedation mean opioid-induced respiratory depression. The opioid is stopped, he is roused and his airway supported, and naloxone is given as prescribed (diluted and titrated, so his pain does not return all at once); hypoventilation also increases sickling. PCA by proxy defeats the safety of PCA: a sleeping client cannot press the button, so the family is taught not to.<br><br><b>Contraindicated:</b> more opioid worsens the respiratory depression; removing oxygen from a hypoxemic client is unsafe.<br><br><b>Non-Essential:</b> electrophoresis after the exchange shows the HbS percentage but does nothing for the emergency."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1500:</span><span class=\"nurse-note-text\">Hematology at the bedside: exchange transfusion planned tonight. Consent signed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Exchange transfusion completed at 2300. At 0300 Jordan is difficult to rouse; falls asleep mid-sentence. Respirations shallow. His mother says she has been pressing the PCA button “so he won't wake up in pain.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on 4 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">unable to rate</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 1 g IV every 24 hours and azithromycin 500 mg IV every 24 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Red cell exchange transfusion tonight; leukoreduced, sickle-negative, phenotype-matched red cells.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hydromorphone PCA: 0.2 mg per dose, 10-minute lockout, no basal rate. Sedation score and RR every hour.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.45% NaCl IV at 100 mL/h. Strict intake and output.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS)."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Jordan shows that he understands his teaching when he says that hydroxyurea prevents crises by [[drop0]], that he needs [[drop1]] while taking it, and that he will go to the emergency department for [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "replacing the sickle cell gene",
+                    "correct": false
+                  },
+                  {
+                    "text": "thinning his blood",
+                    "correct": false
+                  },
+                  {
+                    "text": "strengthening his spleen",
+                    "correct": false
+                  },
+                  {
+                    "text": "raising fetal hemoglobin, which does not sickle",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "regular blood counts, because it can lower white cells and platelets",
+                    "correct": true
+                  },
+                  {
+                    "text": "a low-iron diet",
+                    "correct": false
+                  },
+                  {
+                    "text": "to stop folic acid",
+                    "correct": false
+                  },
+                  {
+                    "text": "monthly chest X-rays",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "pain that settles with fluids, rest and his usual tablets",
+                    "correct": false
+                  },
+                  {
+                    "text": "tiredness after a long day",
+                    "correct": false
+                  },
+                  {
+                    "text": "a temperature of 38.5° C or higher, chest pain or shortness of breath, or an erection that will not go away",
+                    "correct": true
+                  },
+                  {
+                    "text": "his usual slight yellowing of the eyes",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 0315 and Day 7 1000 and the Vital Signs.",
+          "explanation": "<b>Hydroxyurea:</b> it increases fetal hemoglobin (HbF), which does not polymerize and dilutes HbS in each cell, so cells sickle less. It reduces painful crises by about 45% and lowers acute chest syndrome and transfusion needs. It does not change the gene. It suppresses the marrow (neutropenia, thrombocytopenia), so blood counts are checked regularly and the dose adjusted; it should not be used during pregnancy or when planning one.<br><br><b>Emergency signs:</b> fever (risk of sepsis without a functioning spleen), chest pain or dyspnea (acute chest syndrome), priapism, sudden weakness, numbness or speech change (stroke) and pain not controlled at home. Pain that settles at home, his usual mild jaundice and ordinary tiredness do not need emergency care.<br><br><b>Also taught:</b> drink plenty of fluids, avoid cold, altitude and overexertion, take folic acid, keep pneumococcal, meningococcal, influenza and COVID-19 vaccines up to date, and use the incentive spirometer at home when ill."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0700:</span><span class=\"nurse-note-text\">Spent yesterday skiing; drank little and has vomited twice since midnight. Severe, throbbing pain in his lower back and both thighs since 0300, rated 9/10; took two tablets of hydromorphone at home without relief. Also reports a painful erection that began at 0400 and has not gone away. Says this pain “feels like my usual crises.” Sclerae slightly yellow, which he says is normal for him. Mucous membranes dry. Lungs clear; no chest pain. Spleen not palpable. Takes folic acid 1 mg daily; stopped hydroxyurea a year ago.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0800:</span><span class=\"nurse-note-text\">Hydromorphone IV given at 0720 (within 30 minutes of arrival); pain 6/10. Urology aspirated the penis at 0745; erection resolved. Admitted to the medical unit. Jordan asks how this crisis differs from the time he had “parvovirus and needed blood” and from when his friend with sickle cell had “a chest crisis.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1400:</span><span class=\"nurse-note-text\">New sharp right-sided chest pain worse on deep breathing, and a cough. Crackles at the right lung base. Using the PCA pump frequently. Has not used his incentive spirometer since the morning. Chest X-ray: new right lower lobe infiltrate.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1500:</span><span class=\"nurse-note-text\">Hematology at the bedside: exchange transfusion planned tonight. Consent signed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0300:</span><span class=\"nurse-note-text\">Exchange transfusion completed at 2300. At 0300 Jordan is difficult to rouse; falls asleep mid-sentence. Respirations shallow. His mother says she has been pressing the PCA button “so he won't wake up in pain.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0315:</span><span class=\"nurse-note-text\">Naloxone 0.04 mg IV given twice; RR 14 breaths/min, SpO₂ 95%, rousable to voice.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 7 1000:</span><span class=\"nurse-note-text\">Afebrile 72 hours. SpO₂ 97% on room air; walking the hallway. Pain 2/10 on oral analgesics. Hemoglobin 92 g/L; HbS 28% after the exchange. Hematology restarts hydroxyurea; the nurse completes discharge teaching.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0300</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 7 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128/76 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">89% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86% on 4 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 (chest)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">unable to rate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0715</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1415</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 g/L (his usual: 82 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">63 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.8 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">412 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">190 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">520 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Male: 49–93 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">64 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chest X-ray</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Clear lungs; no infiltrate</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">New right lower lobe infiltrate</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 1 g IV every 24 hours and azithromycin 500 mg IV every 24 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Red cell exchange transfusion tonight; leukoreduced, sickle-negative, phenotype-matched red cells.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hydromorphone PCA: 0.2 mg per dose, 10-minute lockout, no basal rate. Sedation score and RR every hour.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.45% NaCl IV at 100 mL/h. Strict intake and output.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the emergency department is caring for Jordan, a 26-year-old male client with sickle cell anemia (HbSS)."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "26-year-old male with sickle cell anemia: vaso-occlusive crisis with priapism after dehydration, then acute chest syndrome, exchange transfusion, PCA oversedation and hydroxyurea teaching.",
+    "authorReview": {
+      "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 3); checked against Merck Manual Professional (Sickle Cell Disease, Apr 2026). Please review (standard practice, not on the Merck page): oxygen target 95% or higher, IV fluid rate, PCA settings and naloxone dose (0.04 mg increments), fever threshold 38.5° C for adults; urology aspiration for priapism.",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1786010000010",
+    "unit": "Unit 1 (Blood Disorders)",
+    "draft": true,
+    "title": "NURS 1021 Unit 1 Case Study 10",
+    "topic": "Unit 1 (Blood Disorders)",
+    "course": "NURS 1021",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the newborn findings that require follow-up.",
+          "type": "highlight",
+          "options": [],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b> jaundice that appears in the <b>first 24 hours</b> is pathologic until proven otherwise; physiologic jaundice appears after the first day. Here maternal antibodies are destroying the baby's red cells (hemolysis), releasing unconjugated bilirubin faster than the immature liver can conjugate it. Pallor reflects anemia from hemolysis. The liver and spleen enlarge as they remove damaged cells and make new ones (extramedullary hematopoiesis). Sleepiness, poor feeding and a weak suck can be early signs of bilirubin affecting the brain (acute bilirubin encephalopathy) and need urgent assessment.<br><br><b>Expected newborn findings:</b> bluish hands and feet with a pink trunk (acrocyanosis) in the first day, erythema toxicum (white papules on a red base), congenital dermal melanocytosis over the lower back, and molding of the head after vaginal birth.<br><br><b>History:</b> an Rh-negative mother, an Rh-positive father, no Rho(D) immune globulin after the first birth and an anti-D titer of 1:64 (critical titers are usually 1:8 to 1:32) explain the findings.",
+          "highlightTabs": [
+            {
+              "id": "ht1",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. {Skin of the face, chest and abdomen yellow; sclerae yellow.|correct} {Skin and mucous membranes pale under the jaundice.|correct} {Liver edge 3 cm below the right costal margin; spleen tip palpable.|correct} {Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck.|correct} {Hands and feet slightly bluish; trunk pink.} {Small white papules on a red base over the chest.} {Bluish-grey patch over the lower back.} {Head slightly elongated from molding.} Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p>"
+            }
+          ],
+          "maxCorrectSelections": null
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is <b>expected</b> for a healthy newborn or <b>supports hemolytic disease of the newborn</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Positive direct antiglobulin (Coombs) test",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Glucose 3.4 mmol/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Hemoglobin 118 g/L",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Direct (conjugated) bilirubin 8 µmol/L",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Reticulocytes 14%",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Total bilirubin 176 µmol/L at 10 hours of age",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Expected for a Healthy Newborn",
+              "Supports Hemolytic Disease of the Newborn"
+            ],
+            "firstColumnHeader": "Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1745 and the Laboratory Results.",
+          "explanation": "<b>Pathogenesis (answering Grace):</b> during her first delivery, some of the baby's Rh-positive red cells entered her circulation. Her immune system made anti-D antibodies; the first baby was born before that response developed and was not affected. In this pregnancy, her IgG anti-D crossed the placenta, coated the baby's Rh-positive red cells and caused their destruction. A dose of Rho(D) immune globulin within 72 hours of the first birth would most likely have prevented the sensitization.<br><br><b>Supports hemolytic disease:</b> a positive DAT shows maternal antibody on the baby's red cells. Hemoglobin of 118 g/L is low for a newborn (anemia from hemolysis), and 14% reticulocytes show the marrow trying to replace the cells. A total bilirubin of 176 µmol/L at 10 hours is far above expected for that age and, with a known hemolytic cause, is above the phototherapy threshold.<br><br><b>Expected:</b> direct bilirubin is normal: the problem is overproduction of <b>unconjugated</b> bilirubin, not liver or bile duct disease. Glucose is normal."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The baby's bilirubin rose by about [[drop0]] over 6 hours, which shows [[drop1]]. The nurse's priority is preventing [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "20 µmol/L per hour",
+                    "correct": false
+                  },
+                  {
+                    "text": "2 µmol/L per hour",
+                    "correct": false
+                  },
+                  {
+                    "text": "0.5 µmol/L per hour",
+                    "correct": false
+                  },
+                  {
+                    "text": "8 µmol/L per hour",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "jaundice from breastfeeding",
+                    "correct": false
+                  },
+                  {
+                    "text": "rapid, ongoing hemolysis",
+                    "correct": true
+                  },
+                  {
+                    "text": "an obstruction of the bile ducts",
+                    "correct": false
+                  },
+                  {
+                    "text": "normal physiologic jaundice",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "brain damage from unconjugated bilirubin (kernicterus)",
+                    "correct": true
+                  },
+                  {
+                    "text": "infection of the umbilical cord",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypothermia",
+                    "correct": false
+                  },
+                  {
+                    "text": "hypoglycemia",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2300 and the Laboratory Results.",
+          "explanation": "<b>Rate of rise:</b> 176 to 224 µmol/L in 6 hours is 48 µmol/L, or 8 µmol/L per hour. A rise faster than about 5 µmol/L per hour in the first 24 hours is a red flag for hemolysis.<br><br><b>Meaning:</b> physiologic jaundice begins after 24 hours and rises slowly; breastfeeding jaundice appears in the first week with poor intake (this baby is formula-fed); bile duct obstruction raises <b>conjugated</b> bilirubin, which is normal here.<br><br><b>Priority:</b> unconjugated bilirubin is fat-soluble; when it exceeds the binding capacity of albumin it crosses the blood-brain barrier and deposits in the basal ganglia and brainstem. Early signs are lethargy and poor feeding, progressing to high-pitched cry, hypotonia then hypertonia and arching, seizures and permanent damage (kernicterus: cerebral palsy, hearing loss). Late-preterm birth (37 weeks) and hemolysis increase the risk."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in the baby's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Give glucose water between feeds to flush out the bilirubin",
+              "correct": false
+            },
+            {
+              "text": "Check the baby's temperature at least every 3 to 4 hours",
+              "correct": true
+            },
+            {
+              "text": "Protect each bilirubin sample from light",
+              "correct": true
+            },
+            {
+              "text": "Cover the baby's eyes with eye shields while the lights are on",
+              "correct": true
+            },
+            {
+              "text": "Apply lotion to the skin to prevent drying under the lights",
+              "correct": false
+            },
+            {
+              "text": "Feed every 3 hours and record wet diapers and stools",
+              "correct": true
+            },
+            {
+              "text": "Undress the baby except for a diaper to expose as much skin as possible",
+              "correct": true
+            },
+            {
+              "text": "Judge the response by how yellow the baby's skin looks",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2330 and the Orders.",
+          "explanation": "<b>Include:</b> blue-green light changes bilirubin in the skin into water-soluble forms excreted in bile and urine without conjugation. Eyes are shielded to protect the retina (Option 4). Maximal skin exposure increases the dose of light (Option 7). Phototherapy can cause overheating or heat loss, so temperature is monitored (Option 2). Feeding promotes stooling (bilirubin leaves in stool) and replaces increased insensible water loss; loose green stools are expected (Option 6). Bilirubin breaks down in light, so samples are shielded to avoid falsely low results (Option 3).<br><br><b>Do not include:</b> lotions and oils can cause burns under the lights (Option 5). Water or dextrose does not lower bilirubin and displaces milk, which is needed for stooling (Option 1). Phototherapy bleaches the skin while serum bilirubin can remain high, so the response is judged by serum bilirubin, not skin color (Option 8)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\">Pediatrician orders intensive phototherapy and transfer to the neonatal intensive care unit. Grace asks how she can help care for her baby.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phototherapy</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Intensive LED phototherapy, continuous. Interrupt only briefly for feeds.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Serum total bilirubin every 4 hours. Exchange transfusion if bilirubin reaches the exchange threshold on the hour-specific chart or signs of encephalopathy appear.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Feeding</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Formula 30 to 45 mL every 3 hours. Strict intake and output; weigh daily.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood bank</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Crossmatch O Rh-negative red cells, compatible with the mother's plasma, for possible exchange transfusion.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b> while the exchange transfusion is prepared.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Continue intensive phototherapy until the exchange transfusion begins",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Turn off the phototherapy to observe the baby's skin color",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Report the high-pitched cry and difficulty rousing to the neonatologist at once",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Place the baby on a cardiorespiratory monitor and keep him warm under a radiant warmer",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Give the baby Rho(D) immune globulin",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Repeat the direct antiglobulin test before the exchange",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0700, the Vital Signs, and the Laboratory Results.",
+          "explanation": "<b>Indicated:</b> phototherapy continues to lower bilirubin while blood is prepared. A high-pitched cry, poor suck and difficulty rousing are signs of acute bilirubin encephalopathy: urgent exchange transfusion can prevent permanent damage. An exchange transfusion replaces about twice the baby's blood volume in small aliquots, removing bilirubin and antibody-coated cells and correcting anemia; heart rate, breathing, temperature, glucose and calcium are monitored closely.<br><br><b>Contraindicated:</b> stopping phototherapy lets bilirubin rise further; skin color does not reflect serum bilirubin. Rho(D) immune globulin is given to Rh-negative <b>mothers</b> to prevent sensitization; it is never given to an Rh-positive baby, whose red cells it would destroy.<br><br><b>Non-Essential:</b> the DAT is already positive and will not change management."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\">Pediatrician orders intensive phototherapy and transfer to the neonatal intensive care unit. Grace asks how she can help care for her baby.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0700:</span><span class=\"nurse-note-text\">Baby in the NICU under intensive phototherapy. Bilirubin still rising. Difficult to rouse; poor suck. High-pitched cry when handled. Neonatologist plans an exchange transfusion through an umbilical venous catheter.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">172 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0300 (20 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700 (24 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">262 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">294 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phototherapy</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Intensive LED phototherapy, continuous. Interrupt only briefly for feeds.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Serum total bilirubin every 4 hours. Exchange transfusion if bilirubin reaches the exchange threshold on the hour-specific chart or signs of encephalopathy appear.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Feeding</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Formula 30 to 45 mL every 3 hours. Strict intake and output; weigh daily.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood bank</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Crossmatch O Rh-negative red cells, compatible with the mother's plasma, for possible exchange transfusion.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "For each statement Grace makes, click to specify whether it shows that the teaching was <b>understood</b> or that she <b>needs further teaching</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "“Rho(D) immune globulin won't help me now, because I already have the antibodies.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“In my next pregnancy, I'll have antibody tests and ultrasounds to check the baby for anemia.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“Our next baby will be fine, because the problem came from this pregnancy.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“The baby needs blood tests over the next few weeks, because he can still become anemic.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "“If my baby turns yellow again, we'll just put him in the sunlight at home.”",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "“My sister is Rh-negative too, so she should ask about the immune globulin in her pregnancy.”",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Understood",
+              "Needs Further Teaching"
+            ],
+            "firstColumnHeader": "Client Statement"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1300 and Day 6 1000 and the Laboratory Results.",
+          "explanation": "<b>Understood:</b> Rho(D) immune globulin prevents sensitization (given at 28 weeks and within 72 hours after the birth of an Rh-positive baby, and after bleeding, trauma, amniocentesis, miscarriage or ectopic pregnancy); once antibodies exist, it cannot remove them. In later pregnancies the antibody titer is followed and, above the critical titer, middle cerebral artery Doppler ultrasound detects fetal anemia, which can be treated with intrauterine transfusion. Maternal antibodies keep destroying the baby's cells for weeks, so late anemia is watched for. An unsensitized Rh-negative relative benefits from prophylaxis.<br><br><b>Needs further teaching:</b> sensitization is permanent and the disease usually becomes more severe with each Rh-positive pregnancy. Sunlight is not a safe or measurable treatment and can burn or overheat a baby; returning jaundice, poor feeding or sleepiness need prompt assessment."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\">Pediatrician orders intensive phototherapy and transfer to the neonatal intensive care unit. Grace asks how she can help care for her baby.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0700:</span><span class=\"nurse-note-text\">Baby in the NICU under intensive phototherapy. Bilirubin still rising. Difficult to rouse; poor suck. High-pitched cry when handled. Neonatologist plans an exchange transfusion through an umbilical venous catheter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1300:</span><span class=\"nurse-note-text\">Exchange transfusion completed without complications. Bilirubin 158 µmol/L; hemoglobin 148 g/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Phototherapy stopped on day 4; bilirubin stable. Alert, feeding well, normal tone and cry. Hearing screen (automated brainstem response) passed. The nurse reviews discharge and future-pregnancy teaching with Grace.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">172 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0300 (20 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700 (24 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 6 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">262 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">294 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phototherapy</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Intensive LED phototherapy, continuous. Interrupt only briefly for feeds.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Serum total bilirubin every 4 hours. Exchange transfusion if bilirubin reaches the exchange threshold on the hour-specific chart or signs of encephalopathy appear.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Feeding</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Formula 30 to 45 mL every 3 hours. Strict intake and output; weigh daily.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood bank</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Crossmatch O Rh-negative red cells, compatible with the mother's plasma, for possible exchange transfusion.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+        }
+      }
+    ],
+    "disorder": "Unit 1 (Blood Disorders)",
+    "description": "Newborn with Rh(D) hemolytic disease (mother sensitized after her first birth without Rho(D) immune globulin): early jaundice, anemia, rising bilirubin, phototherapy, signs of bilirubin encephalopathy, exchange transfusion and prevention.",
+    "authorReview": {
+      "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 3); checked against Merck Manual Professional (Hemolytic Disease of the Fetus and Neonate, Apr 2024; Neonatal Hyperbilirubinemia, Nov 2026). Please review: newborn reference ranges (hemoglobin 140–220 g/L, reticulocytes 3%–7%, glucose ≥ 2.6 mmol/L, vital signs); bilirubin values against the hour-specific phototherapy/exchange chart your program uses (no thresholds are quoted in the case); phototherapy nursing points (standard practice); this is a maternal-newborn topic within a med-surg unit.",
+      "flaggedAt": "2026-11-24"
+    }
   }
 ];
 

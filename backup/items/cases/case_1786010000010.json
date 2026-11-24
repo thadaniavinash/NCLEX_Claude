@@ -1,0 +1,465 @@
+{
+  "id": "case_1786010000010",
+  "unit": "Unit 1 (Blood Disorders)",
+  "draft": true,
+  "title": "NURS 1021 Unit 1 Case Study 10",
+  "topic": "Unit 1 (Blood Disorders)",
+  "course": "NURS 1021",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the newborn findings that require follow-up.",
+        "type": "highlight",
+        "options": [],
+        "preamble": "",
+        "explanation": "<b>Require follow-up:</b> jaundice that appears in the <b>first 24 hours</b> is pathologic until proven otherwise; physiologic jaundice appears after the first day. Here maternal antibodies are destroying the baby's red cells (hemolysis), releasing unconjugated bilirubin faster than the immature liver can conjugate it. Pallor reflects anemia from hemolysis. The liver and spleen enlarge as they remove damaged cells and make new ones (extramedullary hematopoiesis). Sleepiness, poor feeding and a weak suck can be early signs of bilirubin affecting the brain (acute bilirubin encephalopathy) and need urgent assessment.<br><br><b>Expected newborn findings:</b> bluish hands and feet with a pink trunk (acrocyanosis) in the first day, erythema toxicum (white papules on a red base), congenital dermal melanocytosis over the lower back, and molding of the head after vaginal birth.<br><br><b>History:</b> an Rh-negative mother, an Rh-positive father, no Rho(D) immune globulin after the first birth and an anti-D titer of 1:64 (critical titers are usually 1:8 to 1:32) explain the findings.",
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. {Skin of the face, chest and abdomen yellow; sclerae yellow.|correct} {Skin and mucous membranes pale under the jaundice.|correct} {Liver edge 3 cm below the right costal margin; spleen tip palpable.|correct} {Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck.|correct} {Hands and feet slightly bluish; trunk pink.} {Small white papules on a red base over the chest.} {Bluish-grey patch over the lower back.} {Head slightly elongated from molding.} Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "For each finding, click to specify whether it is <b>expected</b> for a healthy newborn or <b>supports hemolytic disease of the newborn</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Positive direct antiglobulin (Coombs) test",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Glucose 3.4 mmol/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hemoglobin 118 g/L",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Direct (conjugated) bilirubin 8 µmol/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Reticulocytes 14%",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Total bilirubin 176 µmol/L at 10 hours of age",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Expected for a Healthy Newborn",
+            "Supports Hemolytic Disease of the Newborn"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1745 and the Laboratory Results.",
+        "explanation": "<b>Pathogenesis (answering Grace):</b> during her first delivery, some of the baby's Rh-positive red cells entered her circulation. Her immune system made anti-D antibodies; the first baby was born before that response developed and was not affected. In this pregnancy, her IgG anti-D crossed the placenta, coated the baby's Rh-positive red cells and caused their destruction. A dose of Rho(D) immune globulin within 72 hours of the first birth would most likely have prevented the sensitization.<br><br><b>Supports hemolytic disease:</b> a positive DAT shows maternal antibody on the baby's red cells. Hemoglobin of 118 g/L is low for a newborn (anemia from hemolysis), and 14% reticulocytes show the marrow trying to replace the cells. A total bilirubin of 176 µmol/L at 10 hours is far above expected for that age and, with a known hemolytic cause, is above the phototherapy threshold.<br><br><b>Expected:</b> direct bilirubin is normal: the problem is overproduction of <b>unconjugated</b> bilirubin, not liver or bile duct disease. Glucose is normal."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "The baby's bilirubin rose by about [[drop0]] over 6 hours, which shows [[drop1]]. The nurse's priority is preventing [[drop2]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "20 µmol/L per hour",
+                  "correct": false
+                },
+                {
+                  "text": "2 µmol/L per hour",
+                  "correct": false
+                },
+                {
+                  "text": "0.5 µmol/L per hour",
+                  "correct": false
+                },
+                {
+                  "text": "8 µmol/L per hour",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "jaundice from breastfeeding",
+                  "correct": false
+                },
+                {
+                  "text": "rapid, ongoing hemolysis",
+                  "correct": true
+                },
+                {
+                  "text": "an obstruction of the bile ducts",
+                  "correct": false
+                },
+                {
+                  "text": "normal physiologic jaundice",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "brain damage from unconjugated bilirubin (kernicterus)",
+                  "correct": true
+                },
+                {
+                  "text": "infection of the umbilical cord",
+                  "correct": false
+                },
+                {
+                  "text": "hypothermia",
+                  "correct": false
+                },
+                {
+                  "text": "hypoglycemia",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2300 and the Laboratory Results.",
+        "explanation": "<b>Rate of rise:</b> 176 to 224 µmol/L in 6 hours is 48 µmol/L, or 8 µmol/L per hour. A rise faster than about 5 µmol/L per hour in the first 24 hours is a red flag for hemolysis.<br><br><b>Meaning:</b> physiologic jaundice begins after 24 hours and rises slowly; breastfeeding jaundice appears in the first week with poor intake (this baby is formula-fed); bile duct obstruction raises <b>conjugated</b> bilirubin, which is normal here.<br><br><b>Priority:</b> unconjugated bilirubin is fat-soluble; when it exceeds the binding capacity of albumin it crosses the blood-brain barrier and deposits in the basal ganglia and brainstem. Early signs are lethargy and poor feeding, progressing to high-pitched cry, hypotonia then hypertonia and arching, seizures and permanent damage (kernicterus: cerebral palsy, hearing loss). Late-preterm birth (37 weeks) and hemolysis increase the risk."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which interventions should the nurse include in the baby's plan of care? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Give glucose water between feeds to flush out the bilirubin",
+            "correct": false
+          },
+          {
+            "text": "Check the baby's temperature at least every 3 to 4 hours",
+            "correct": true
+          },
+          {
+            "text": "Protect each bilirubin sample from light",
+            "correct": true
+          },
+          {
+            "text": "Cover the baby's eyes with eye shields while the lights are on",
+            "correct": true
+          },
+          {
+            "text": "Apply lotion to the skin to prevent drying under the lights",
+            "correct": false
+          },
+          {
+            "text": "Feed every 3 hours and record wet diapers and stools",
+            "correct": true
+          },
+          {
+            "text": "Undress the baby except for a diaper to expose as much skin as possible",
+            "correct": true
+          },
+          {
+            "text": "Judge the response by how yellow the baby's skin looks",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2330 and the Orders.",
+        "explanation": "<b>Include:</b> blue-green light changes bilirubin in the skin into water-soluble forms excreted in bile and urine without conjugation. Eyes are shielded to protect the retina (Option 4). Maximal skin exposure increases the dose of light (Option 7). Phototherapy can cause overheating or heat loss, so temperature is monitored (Option 2). Feeding promotes stooling (bilirubin leaves in stool) and replaces increased insensible water loss; loose green stools are expected (Option 6). Bilirubin breaks down in light, so samples are shielded to avoid falsely low results (Option 3).<br><br><b>Do not include:</b> lotions and oils can cause burns under the lights (Option 5). Water or dextrose does not lower bilirubin and displaces milk, which is needed for stooling (Option 1). Phototherapy bleaches the skin while serum bilirubin can remain high, so the response is judged by serum bilirubin, not skin color (Option 8)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\">Pediatrician orders intensive phototherapy and transfer to the neonatal intensive care unit. Grace asks how she can help care for her baby.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phototherapy</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Intensive LED phototherapy, continuous. Interrupt only briefly for feeds.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Serum total bilirubin every 4 hours. Exchange transfusion if bilirubin reaches the exchange threshold on the hour-specific chart or signs of encephalopathy appear.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Feeding</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Formula 30 to 45 mL every 3 hours. Strict intake and output; weigh daily.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood bank</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Crossmatch O Rh-negative red cells, compatible with the mother's plasma, for possible exchange transfusion.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b> while the exchange transfusion is prepared.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Continue intensive phototherapy until the exchange transfusion begins",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Turn off the phototherapy to observe the baby's skin color",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Report the high-pitched cry and difficulty rousing to the neonatologist at once",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Place the baby on a cardiorespiratory monitor and keep him warm under a radiant warmer",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Give the baby Rho(D) immune globulin",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Repeat the direct antiglobulin test before the exchange",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Nursing Action"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0700, the Vital Signs, and the Laboratory Results.",
+        "explanation": "<b>Indicated:</b> phototherapy continues to lower bilirubin while blood is prepared. A high-pitched cry, poor suck and difficulty rousing are signs of acute bilirubin encephalopathy: urgent exchange transfusion can prevent permanent damage. An exchange transfusion replaces about twice the baby's blood volume in small aliquots, removing bilirubin and antibody-coated cells and correcting anemia; heart rate, breathing, temperature, glucose and calcium are monitored closely.<br><br><b>Contraindicated:</b> stopping phototherapy lets bilirubin rise further; skin color does not reflect serum bilirubin. Rho(D) immune globulin is given to Rh-negative <b>mothers</b> to prevent sensitization; it is never given to an Rh-positive baby, whose red cells it would destroy.<br><br><b>Non-Essential:</b> the DAT is already positive and will not change management."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\">Pediatrician orders intensive phototherapy and transfer to the neonatal intensive care unit. Grace asks how she can help care for her baby.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0700:</span><span class=\"nurse-note-text\">Baby in the NICU under intensive phototherapy. Bilirubin still rising. Difficult to rouse; poor suck. High-pitched cry when handled. Neonatologist plans an exchange transfusion through an umbilical venous catheter.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">172 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0300 (20 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700 (24 h)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">262 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">294 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phototherapy</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Intensive LED phototherapy, continuous. Interrupt only briefly for feeds.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Serum total bilirubin every 4 hours. Exchange transfusion if bilirubin reaches the exchange threshold on the hour-specific chart or signs of encephalopathy appear.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Feeding</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Formula 30 to 45 mL every 3 hours. Strict intake and output; weigh daily.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood bank</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Crossmatch O Rh-negative red cells, compatible with the mother's plasma, for possible exchange transfusion.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each statement Grace makes, click to specify whether it shows that the teaching was <b>understood</b> or that she <b>needs further teaching</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "“Rho(D) immune globulin won't help me now, because I already have the antibodies.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“In my next pregnancy, I'll have antibody tests and ultrasounds to check the baby for anemia.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“Our next baby will be fine, because the problem came from this pregnancy.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“The baby needs blood tests over the next few weeks, because he can still become anemic.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "“If my baby turns yellow again, we'll just put him in the sunlight at home.”",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "“My sister is Rh-negative too, so she should ask about the immune globulin in her pregnancy.”",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Understood",
+            "Needs Further Teaching"
+          ],
+          "firstColumnHeader": "Client Statement"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1300 and Day 6 1000 and the Laboratory Results.",
+        "explanation": "<b>Understood:</b> Rho(D) immune globulin prevents sensitization (given at 28 weeks and within 72 hours after the birth of an Rh-positive baby, and after bleeding, trauma, amniocentesis, miscarriage or ectopic pregnancy); once antibodies exist, it cannot remove them. In later pregnancies the antibody titer is followed and, above the critical titer, middle cerebral artery Doppler ultrasound detects fetal anemia, which can be treated with intrauterine transfusion. Maternal antibodies keep destroying the baby's cells for weeks, so late anemia is watched for. An unsensitized Rh-negative relative benefits from prophylaxis.<br><br><b>Needs further teaching:</b> sensitization is permanent and the disease usually becomes more severe with each Rh-positive pregnancy. Sunlight is not a safe or measurable treatment and can burn or overheat a baby; returning jaundice, poor feeding or sleepiness need prompt assessment."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Newborn assessment at 10 hours of age. Skin of the face, chest and abdomen yellow; sclerae yellow. Skin and mucous membranes pale under the jaundice. Liver edge 3 cm below the right costal margin; spleen tip palpable. Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck. Hands and feet slightly bluish; trunk pink. Small white papules on a red base over the chest. Bluish-grey patch over the lower back. Head slightly elongated from molding. Mother's chart: blood group O, Rh-negative; first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1745:</span><span class=\"nurse-note-text\">Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2300:</span><span class=\"nurse-note-text\">Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2330:</span><span class=\"nurse-note-text\">Pediatrician orders intensive phototherapy and transfer to the neonatal intensive care unit. Grace asks how she can help care for her baby.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0700:</span><span class=\"nurse-note-text\">Baby in the NICU under intensive phototherapy. Bilirubin still rising. Difficult to rouse; poor suck. High-pitched cry when handled. Neonatologist plans an exchange transfusion through an umbilical venous catheter.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1300:</span><span class=\"nurse-note-text\">Exchange transfusion completed without complications. Bilirubin 158 µmol/L; hemoglobin 148 g/L.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Phototherapy stopped on day 4; bilirubin stable. Alert, feeding well, normal tone and cry. Hearing screen (automated brainstem response) passed. The nurse reviews discharge and future-pregnancy teaching with Grace.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1700</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T (axillary)</b><br>Newborn: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.1° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Newborn: 110–160 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">164 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">172 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Newborn: 30–60 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">56 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">58 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1715 (10 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 2300 (16 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0300 (20 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0700 (24 h)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 6 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood group (newborn)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">O, Rh-positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Direct antiglobulin test (DAT, direct Coombs)</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Newborn: 140–220 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>Newborn: 3%–7%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>See hour-specific chart</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">176 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">224 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">262 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">294 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Glucose</b><br>Newborn: 2.6 mmol/L or higher</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.4 mmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Phototherapy</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Intensive LED phototherapy, continuous. Interrupt only briefly for feeds.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Serum total bilirubin every 4 hours. Exchange transfusion if bilirubin reaches the exchange threshold on the hour-specific chart or signs of encephalopathy appear.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Feeding</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Formula 30 to 45 mL every 3 hours. Strict intake and output; weigh daily.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood bank</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Crossmatch O Rh-negative red cells, compatible with the mother's plasma, for possible exchange transfusion.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client."
+      }
+    }
+  ],
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "Newborn with Rh(D) hemolytic disease (mother sensitized after her first birth without Rho(D) immune globulin): early jaundice, anemia, rising bilirubin, phototherapy, signs of bilirubin encephalopathy, exchange transfusion and prevention.",
+  "authorReview": {
+    "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 3); checked against Merck Manual Professional (Hemolytic Disease of the Fetus and Neonate, Apr 2024; Neonatal Hyperbilirubinemia, Nov 2026). Please review: newborn reference ranges (hemoglobin 140–220 g/L, reticulocytes 3%–7%, glucose ≥ 2.6 mmol/L, vital signs); bilirubin values against the hour-specific phototherapy/exchange chart your program uses (no thresholds are quoted in the case); phototherapy nursing points (standard practice); this is a maternal-newborn topic within a med-surg unit.",
+    "flaggedAt": "2026-11-24"
+  }
+}

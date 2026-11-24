@@ -1,0 +1,432 @@
+{
+  "id": "case_1786010000002",
+  "unit": "Unit 1 (Blood Disorders)",
+  "draft": true,
+  "title": "NURS 1021 Unit 1 Case Study 2",
+  "topic": "Unit 1 (Blood Disorders)",
+  "course": "NURS 1021",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that require follow-up.",
+        "type": "highlight",
+        "options": [],
+        "preamble": "",
+        "explanation": "<b>Require follow-up:</b> a swollen, warm, tense knee held in flexion, with severe pain and a 5 cm difference in circumference, is an acute <b>hemarthrosis</b> (bleeding into the joint), the most common bleed in severe hemophilia. Blood in the joint space raises pressure and the client holds the knee bent because that is the position of greatest joint volume. A tingling or warm feeling often comes before swelling, so pain is an early sign.<br><br>Missing two prophylactic factor VIII infusions left him with almost no factor VIII, so a minor collision caused a major bleed. Ibuprofen inhibits platelet function and adds to the bleeding; clients with hemophilia avoid aspirin and NSAIDs. A third bleed into the same joint this year makes the right knee a <b>target joint</b>: repeated bleeds inflame the synovium (synovitis), which bleeds more easily and leads to hemophilic arthropathy.<br><br><b>Do not require follow-up:</b> strong pedal pulses, brisk capillary refill and normal sensation show that blood flow and nerves below the knee are intact. He is alert and oriented.",
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. {Has missed his last two prophylactic factor VIII infusions|correct} during exams. {Took ibuprofen 400 mg twice at home for the pain.|correct} {Right knee swollen, warm and tense|correct}; {holds the knee bent at about 30° and cannot straighten it|correct}. {Rates pain 8/10.|correct} {Right knee circumference 42 cm; left 37 cm.|correct} {Right pedal pulses 2+}, {capillary refill less than 2 seconds}, {sensation in the right foot intact}. {Third bleed into the right knee this year.|correct} {Alert and oriented × 4.} Weight 70 kg.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "The nurse answers Daniel's questions. For each statement, click to specify whether it applies to <b>hemophilia A</b>, <b>hemophilia B</b>, or <b>both</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Caused by a deficiency of factor IX (also called Christmas disease)",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Inherited as an X-linked recessive disorder, so it occurs mainly in males",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Caused by a deficiency of factor VIII and accounts for about 80% of cases",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Prolonged aPTT with a normal PT and platelet count",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Mild forms may be treated with desmopressin, which releases stored factor",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Repeated bleeding into a joint can lead to chronic synovitis and arthropathy",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ],
+          "columns": [
+            "Hemophilia A",
+            "Hemophilia B",
+            "Both"
+          ],
+          "firstColumnHeader": "Statement"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1915 and the Laboratory Results.",
+        "explanation": "<b>Hemophilia A</b> is a deficiency of factor VIII and makes up about 80% of cases. Desmopressin (DDAVP) releases factor VIII and von Willebrand factor stored in endothelial cells, so it can raise the level about two- to threefold in <b>mild</b> hemophilia A (factor VIII 5% or higher) in clients who have been shown to respond. It cannot help when there is no factor VIII to release, as in Daniel's severe disease (less than 1%), or in hemophilia B.<br><br><b>Hemophilia B</b> (Christmas disease) is a deficiency of factor IX.<br><br><b>Both</b> are X-linked recessive, so males are mainly affected and the daughters of an affected male are carriers. Factors VIII and IX both belong to the intrinsic pathway, so both prolong the aPTT while the PT (extrinsic pathway) and platelet count stay normal; only factor assays tell them apart. Both cause the same bleeding: hemarthroses, muscle hematomas and, after even minor head trauma, intracranial hemorrhage. Severity depends on the factor level: below 1% severe (spontaneous bleeding), 1% to 5% moderate (bleeding after minor trauma), 5% to 49% mild (bleeding after surgery or dental extraction)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "A prolonged aPTT with a normal PT, INR and platelet count points to a defect in the [[drop0]]. Because the aPTT corrects when Daniel's plasma is mixed with normal plasma, the cause is [[drop1]]. The nurse's priority is [[drop2]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "formation of the platelet plug",
+                  "correct": false
+                },
+                {
+                  "text": "extrinsic pathway of coagulation",
+                  "correct": false
+                },
+                {
+                  "text": "breakdown of clots by fibrinolysis",
+                  "correct": false
+                },
+                {
+                  "text": "intrinsic pathway of coagulation",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "an antibody that inhibits factor VIII",
+                  "correct": false
+                },
+                {
+                  "text": "consumption of clotting factors",
+                  "correct": false
+                },
+                {
+                  "text": "a missing clotting factor",
+                  "correct": true
+                },
+                {
+                  "text": "a lack of vitamin K",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "teaching about the inheritance of hemophilia",
+                  "correct": false
+                },
+                {
+                  "text": "stopping the bleeding into the knee",
+                  "correct": true
+                },
+                {
+                  "text": "restoring knee range of motion",
+                  "correct": false
+                },
+                {
+                  "text": "preventing infection in the knee",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1940 and the Vital Signs.",
+        "explanation": "<b>Reading the tests:</b> the aPTT measures the intrinsic and common pathways (factors XII, XI, IX, VIII, then X, V, II and fibrinogen); the PT and INR measure the extrinsic and common pathways (factor VII, then X, V, II, fibrinogen). A normal platelet count and fibrinogen with a prolonged aPTT and normal PT localize the problem to the intrinsic factors, which include VIII and IX.<br><br><b>Mixing study:</b> normal plasma supplies the missing factor, so a factor <b>deficiency</b> corrects. An <b>inhibitor</b> (an antibody against factor VIII, which develops in about 30% of clients with severe hemophilia A treated with factor) would also block the factor in the normal plasma, so the aPTT would stay prolonged. Vitamin K deficiency and consumption of factors (as in DIC) prolong the PT as well.<br><br><b>Priority:</b> the knee is still bleeding (circumference 42 to 43 cm, pain 8/10, rising heart rate). Ongoing bleeding threatens the joint now and increases blood loss; it is stopped by replacing factor VIII. Range of motion, infection risk and genetics teaching come after the bleeding is controlled."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which interventions should the nurse include in Daniel's plan of care? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Give hydromorphone IV or acetaminophen PO for pain as prescribed",
+            "correct": true
+          },
+          {
+            "text": "Measure the knee circumference and check pulses and sensation in the foot regularly",
+            "correct": true
+          },
+          {
+            "text": "Start active range-of-motion exercises of the knee tonight to prevent stiffness",
+            "correct": false
+          },
+          {
+            "text": "Apply a warm compress to the knee to relax the surrounding muscles",
+            "correct": false
+          },
+          {
+            "text": "Give the factor VIII infusion as soon as possible",
+            "correct": true
+          },
+          {
+            "text": "Give ibuprofen PO, since it eases both pain and joint inflammation",
+            "correct": false
+          },
+          {
+            "text": "Apply the wrapped ice pack to the knee for 15 to 20 minutes at a time",
+            "correct": true
+          },
+          {
+            "text": "Keep the right knee at rest in the splint and elevated",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2000 and the Orders.",
+        "explanation": "<b>Include:</b> factor VIII replacement is the treatment that stops the bleeding, and it is given as early as possible; a dose of 50 units/kg raises factor VIII to about 100%, since each unit/kg raises it about 2% (Option 5). Rest, splinting and elevation limit further bleeding and pain (Option 8). Cold causes local vasoconstriction and eases pain (Option 7). Acetaminophen and opioids relieve pain without affecting platelets; hydromorphone is given IV, never IM (Option 1). Circumference, pain and neurovascular checks show whether the bleeding is controlled and detect compression of nerves or vessels (Option 2).<br><br><b>Do not include:</b> NSAIDs and aspirin inhibit platelet function and increase bleeding (Option 6). Active exercise while the joint is still bleeding causes more bleeding; physiotherapy starts once pain and swelling settle (Option 3). Heat dilates blood vessels and increases bleeding (Option 4)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor replacement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every 12 hours. Factor VIII activity 30 minutes after the first dose.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Acetaminophen 1 g PO every 6 hours as needed (maximum 4 g/day). Hydromorphone 1 mg IV every 3 hours as needed for severe pain.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bed rest with the right knee splinted and elevated. Ice pack, wrapped in a towel, 15 to 20 minutes every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No aspirin or NSAIDs. No intramuscular injections.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "Which action should the nurse take <b>first</b>?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "text": "Give acetaminophen for the headache and recheck his neurologic status in 1 hour",
+            "correct": false
+          },
+          {
+            "text": "Transport Daniel to CT first, since factor VIII is needed only if a bleed is confirmed",
+            "correct": false
+          },
+          {
+            "text": "Anticipate a prescription for a factor VIII dose to be given immediately, before the CT scan",
+            "correct": true
+          },
+          {
+            "text": "Apply an ice pack to the left temple and keep Daniel on bed rest",
+            "correct": false
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0610 and the Vital Signs.",
+        "explanation": "<b>Correct (Option 3):</b> in a person with hemophilia, “even a trivial blow to the head” can cause intracranial hemorrhage, and a headache after head trauma is treated as a possible bleed. Factor replacement to about 100% begins <b>immediately, before</b> the CT scan or any other test is completed; waiting for imaging lets a bleed expand. His factor VIII level is falling since last night's dose, so a new dose is needed now.<br><br><b>Incorrect:</b> delaying factor until the CT confirms a bleed risks a fatal hemorrhage (Option 2). Treating the headache and waiting an hour misses the window to treat; a normal Glasgow Coma Scale now does not rule out a slowly expanding bleed (Option 1). Ice and rest do nothing to stop an intracranial bleed (Option 4). The nurse continues frequent neurologic checks once factor is given."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent head CT requested.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0615</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6 (head)</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor replacement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every 12 hours. Factor VIII activity 30 minutes after the first dose.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Acetaminophen 1 g PO every 6 hours as needed (maximum 4 g/day). Hydromorphone 1 mg IV every 3 hours as needed for severe pain.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bed rest with the right knee splinted and elevated. Ice pack, wrapped in a towel, 15 to 20 minutes every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No aspirin or NSAIDs. No intramuscular injections.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "For each finding, click to specify whether Daniel's condition has <b>improved</b> or <b>not improved</b> compared with his admission.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Right knee circumference",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Hemoglobin",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Pain rating",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "aPTT",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Knee extension",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Factor VIII activity",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Improved",
+            "Not Improved"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0800 and Day 4 1000, the Vital Signs, and the Laboratory Results.",
+        "explanation": "<b>Improved:</b> knee circumference fell from 42 to 38 cm (right) as blood in the joint is reabsorbed; pain fell from 8/10 to 2/10; he now lacks only 10° of extension instead of 30°. Factor VIII replacement corrected the aPTT (68 s to 31 s) and the trough factor VIII is 62%, within the 50% to 80% target for a severe joint bleed.<br><br><b>Not improved:</b> hemoglobin fell from 138 to 121 g/L, reflecting the blood lost into the knee. It is now stable, but it is lower than on admission and is rechecked; a further fall would suggest another bleed.<br><br><b>Before discharge:</b> the nurse reinforces regular prophylaxis (missed doses caused this bleed), treating any bleed early with home factor, avoiding aspirin and NSAIDs, wearing medical identification, regular dental care, and seeking care at once for headache, vomiting or drowsiness after any head injury."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent head CT requested.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Factor VIII given at 0625. Head CT at 0700: no intracranial hemorrhage.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">Headache resolved; neurologic checks normal. Right knee pain 2/10; circumference 38 cm; lacks 10° of full extension. Walking with crutches. Hematology and the physiotherapist reviewed home prophylaxis, a graded exercise plan and a factor dose for any new bleed.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1830</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1940</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0615</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 4 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.4° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.0° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">76 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">132/78 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6 (head)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1850</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 4 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">245 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>International normalized ratio (INR)</b><br>0.9–1.2</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.0</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">31 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fibrinogen</b><br>2.0–4.0 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.1 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>aPTT mixing study (1:1 with normal plasma)</b><br>Corrects to the reference range</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Corrects to 29 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor VIII activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 1%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62% (trough before dose)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor IX activity</b><br>50%–150%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Factor replacement</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every 12 hours. Factor VIII activity 30 minutes after the first dose.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Acetaminophen 1 g PO every 6 hours as needed (maximum 4 g/day). Hydromorphone 1 mg IV every 3 hours as needed for severe pain.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bed rest with the right knee splinted and elevated. Ice pack, wrapped in a towel, 15 to 20 minutes every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No aspirin or NSAIDs. No intramuscular injections.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain."
+      }
+    }
+  ],
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "22-year-old male with severe hemophilia A and an acute knee hemarthrosis after missed prophylaxis, then a minor head injury: coagulation tests (PT/INR, aPTT, mixing study, factor assays), hemophilia A versus B, factor replacement.",
+  "authorReview": {
+    "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (Hemophilia, Jul 2025). Please review: fibrinogen (2.0–4.0 g/L) and factor VIII/IX activity (50%–150%) reference ranges (not in the MCC list); factor VIII doses (50 units/kg, then 25 units/kg every 12 hours); ice for hemarthrosis (standard nursing teaching; some guidelines are less firm).",
+    "flaggedAt": "2026-11-24"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "id": "case_1786010000004",
+  "unit": "Unit 1 (Blood Disorders)",
+  "draft": true,
+  "title": "NURS 1021 Unit 1 Case Study 4",
+  "topic": "Unit 1 (Blood Disorders)",
+  "course": "NURS 1021",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>iron deficiency anemia</b>? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Urge to move the legs when lying in bed at night",
+            "correct": true
+          },
+          {
+            "text": "Seasonal allergies treated with loratadine",
+            "correct": false
+          },
+          {
+            "text": "No numbness or tingling in the hands or feet",
+            "correct": false
+          },
+          {
+            "text": "Pale conjunctivae with a heart rate of 108 beats/min",
+            "correct": true
+          },
+          {
+            "text": "Craving and chewing ice",
+            "correct": true
+          },
+          {
+            "text": "Thin, spoon-shaped fingernails",
+            "correct": true
+          },
+          {
+            "text": "Tiredness and shortness of breath on one flight of stairs",
+            "correct": true
+          },
+          {
+            "text": "Cracks at the corners of the mouth and a smooth, sore tongue",
+            "correct": true
+          }
+        ],
+        "preamble": "",
+        "explanation": "<b>Consistent with iron deficiency anemia:</b> with less hemoglobin, the blood carries less oxygen, causing tiredness and dyspnea on exertion (Option 7), pallor, and a faster heart rate (with a flow murmur) as the heart compensates (Option 4). Severe iron deficiency also causes <b>pica</b>, a craving for non-food items, most often ice (pagophagia) (Option 5); <b>koilonychia</b>, thin spoon-shaped nails (Option 6); <b>angular cheilitis</b> and <b>glossitis</b> (Option 8); and restless legs syndrome, an unpleasant urge to move the legs at rest (Option 1).<br><br><b>Not consistent:</b> the absence of numbness and tingling is a relevant negative: neurologic symptoms with anemia suggest vitamin B12 deficiency, not iron deficiency (Option 3). Seasonal allergies are unrelated (Option 2)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse in a primary care clinic is assessing Amara, a 34-year-old female client who reports increasing tiredness over the past 4 months."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "The nurse explains how microcytic anemias are told apart. For each finding, click to specify whether it is most consistent with <b>iron deficiency anemia</b>, <b>beta-thalassemia trait</b>, or <b>anemia of chronic disease</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Raised hemoglobin A2 on hemoglobin electrophoresis",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Ferritin below 30 µg/L",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Low serum iron with normal or low TIBC and normal or high ferritin, in a client with rheumatoid arthritis",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Total iron-binding capacity above the reference range",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Marked microcytosis with a normal RDW and a normal or high red cell count",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Mild anemia with normal-sized red cells that develops over months of chronic inflammation",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ],
+          "columns": [
+            "Iron Deficiency Anemia",
+            "Beta-Thalassemia Trait",
+            "Anemia of Chronic Disease"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1100 and the Laboratory Results.",
+        "explanation": "<b>Iron deficiency anemia:</b> iron stores are used up first, so <b>ferritin</b> (stored iron) falls; a ferritin below 30 µg/L is specific for iron deficiency. The liver makes more transferrin to capture what iron there is, so the TIBC rises while serum iron and transferrin saturation fall. Only then are red cells made small and pale, with a wide range of sizes (high RDW). Amara has all of these: ferritin 4 µg/L, TIBC 88 µmol/L, saturation 0.05, MCV 68 fL, RDW 19.8%. The low reticulocyte count shows the marrow cannot respond without iron, and a raised platelet count is common in iron deficiency.<br><br><b>Beta-thalassemia trait:</b> reduced beta-globin chain production makes small cells even though iron is normal, so ferritin is normal. Cells are uniformly small (normal RDW) and the marrow makes more of them, so the red cell count is normal or high. Hemoglobin electrophoresis shows a raised HbA2. Her low ferritin and high RDW point to iron deficiency; thalassemia trait can coexist and is checked once iron is replaced if microcytosis persists.<br><br><b>Anemia of chronic disease:</b> inflammation raises hepcidin, which traps iron in stores. Serum iron is low but ferritin is normal or high and the TIBC normal or low. The anemia is usually mild and normocytic."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Amara returns the next day to review her blood work."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "Amara's anemia is caused by [[drop0]], so her marrow makes small, pale red cells with too little hemoglobin. The main reason her iron stores are depleted is [[drop1]]. The nurse's priority concern is [[drop2]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "too little vitamin B12 to make DNA",
+                  "correct": false
+                },
+                {
+                  "text": "failure of the bone marrow stem cells",
+                  "correct": false
+                },
+                {
+                  "text": "too little iron to make hemoglobin",
+                  "correct": true
+                },
+                {
+                  "text": "early destruction of red cells",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "loratadine blocking iron absorption",
+                  "correct": false
+                },
+                {
+                  "text": "a vegan diet that contains no iron",
+                  "correct": false
+                },
+                {
+                  "text": "ongoing blood loss from heavy menstrual bleeding",
+                  "correct": true
+                },
+                {
+                  "text": "an inherited defect in globin chains",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "a risk of falls from dizziness and reduced oxygen delivery",
+                  "correct": true
+                },
+                {
+                  "text": "an altered body image from nail changes",
+                  "correct": false
+                },
+                {
+                  "text": "nerve damage from vitamin deficiency",
+                  "correct": false
+                },
+                {
+                  "text": "a risk of bleeding from a low platelet count",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1130 and the Vital Signs.",
+        "explanation": "<b>Pathogenesis:</b> iron is needed to build heme. Without it, red cell precursors keep dividing while they wait for hemoglobin, so the cells end up small (microcytic) and pale (hypochromic). Vitamin B12 deficiency impairs DNA synthesis and makes large cells; hemolysis and marrow failure have other laboratory patterns.<br><br><b>Cause:</b> in a premenopausal woman, menstrual loss is the most common cause; each 1 mL of blood holds about 0.5 mg of iron, and heavy bleeding (here from fibroids) loses several times the normal amount every cycle. Her vegan diet adds to the problem because plant (non-heme) iron is absorbed less well than iron from meat, but plant foods do contain iron. Iron therapy without finding the source of loss is poor practice, so the fibroids are referred to gynecology. Loratadine does not affect iron absorption; her ferritin rules out thalassemia as the cause.<br><br><b>Priority:</b> her heart rate rises 16 beats/min on standing, she has had dizziness, and she climbs ladders at work: reduced oxygen-carrying capacity puts her at risk of falls and injury. Her platelet count is high, not low, and she has no neurologic signs."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Amara returns the next day to review her blood work."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which instructions should the nurse include in Amara's teaching? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Take two tablets the next day if you miss a dose",
+            "correct": false
+          },
+          {
+            "text": "Take the iron tablet 30 minutes before a meal, with a glass of orange juice",
+            "correct": true
+          },
+          {
+            "text": "Take the tablet with a glass of milk to prevent an upset stomach",
+            "correct": false
+          },
+          {
+            "text": "Take the tablet at least 2 hours apart from milk, tea, coffee and antacids",
+            "correct": true
+          },
+          {
+            "text": "Drink more fluids and eat more fibre if you become constipated",
+            "correct": true
+          },
+          {
+            "text": "Eat beans, lentils, tofu and iron-fortified cereals with foods rich in vitamin C",
+            "correct": true
+          },
+          {
+            "text": "Stop taking the iron once you no longer feel tired",
+            "correct": false
+          },
+          {
+            "text": "Expect your stools to turn dark green or black while taking iron",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1145.",
+        "explanation": "<b>Include:</b> iron is absorbed best on an empty stomach, about 30 minutes before meals; vitamin C (orange juice or a 500 mg tablet) keeps iron in the absorbable ferrous form (Option 2). Calcium in milk, tannins in tea, polyphenols in coffee, antacids and some antibiotics bind iron, so they are separated from the dose (Option 4). Dark green or black stools are an expected, harmless effect; tarry stools with abdominal pain or dizziness are reported (Option 8). A vegan diet can supply enough iron if non-heme sources are eaten with vitamin C (Option 6). Constipation is the most common adverse effect (Option 5).<br><br><b>Do not include:</b> milk reduces absorption (Option 3). Feeling better comes before the stores are refilled; iron continues for about 6 months after the hemoglobin is normal (Option 7). Doubling a dose increases nausea and constipation and is not absorbed well; every-other-day dosing is used because each dose raises hepcidin, which blocks the absorption of the next one for about a day (Option 1)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1145:</span><span class=\"nurse-note-text\">Nurse practitioner prescribes ferrous sulfate 300 mg (60 mg elemental iron) PO every other day and a referral to gynecology. Amara asks how to take the tablets and which foods will help.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Amara returns the next day to review her blood work."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b> for the IV iron infusion.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Take vital signs before the infusion and monitor during it",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Check the IV site for patency and leakage during the infusion",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Give the iron by intramuscular injection if the IV insertion is difficult",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Give a test dose of iron sucrose before the first full dose",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Observe Amara for at least 30 minutes after the infusion",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Tell Amara to take her iron tablets on infusion days for a faster response",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Nursing Action"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 4 1000 and the Vital Signs.",
+        "explanation": "<b>Indicated:</b> IV iron can cause hypersensitivity reactions (flushing, chest tightness, dyspnea, hypotension), so vital signs are taken before and during the infusion and the client is observed for at least 30 minutes after; the infusion is stopped and help called at the first sign of a reaction. Leakage of iron into the tissues causes pain and long-lasting brown staining of the skin, so the site is checked throughout.<br><br><b>Non-Essential:</b> current iron sucrose products do not need a test dose; test doses were used with the old high-molecular-weight iron dextran.<br><br><b>Contraindicated:</b> iron sucrose is given only IV; intramuscular iron is painful, stains the skin and is no longer used. Oral iron is not combined with IV iron; IV iron raises hepcidin, so oral iron would be poorly absorbed and would only add adverse effects."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1145:</span><span class=\"nurse-note-text\">Nurse practitioner prescribes ferrous sulfate 300 mg (60 mg elemental iron) PO every other day and a referral to gynecology. Amara asks how to take the tablets and which foods will help.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 4 1000:</span><span class=\"nurse-note-text\">Amara stopped the iron tablets after 10 days because of nausea and constipation. Periods remain heavy; gynecology appointment in 6 weeks. Hemoglobin today 88 g/L. The nurse practitioner prescribes iron sucrose 200 mg IV over 15 minutes, once a week for 5 doses, starting today in the clinic.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 4 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Four weeks later, Amara returns for follow-up."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "<b>Highlight</b> the findings that indicate that the treatment of Amara's anemia has been effective.",
+        "type": "highlight",
+        "options": [],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Week 12 1000, the Vital Signs, and the Laboratory Results.",
+        "explanation": "<b>Effective:</b> more energy and climbing stairs without stopping show better oxygen delivery, as do a heart rate down from 108 to 82 beats/min. Hemoglobin rose from 86 to 121 g/L and ferritin from 4 to 142 µg/L, showing that the stores are refilled (with IV iron, ferritin rises quickly). Pica, restless legs and angular cheilitis resolve as iron is replaced.<br><br><b>Not yet evidence of effect:</b> nails take months to grow out, so spoon-shaped nails persist for some time. The MCV (79 fL) is still slightly low because cells made before treatment are still circulating; it normalizes as they are replaced over about 120 days. Ongoing heavy bleeding is the <b>cause</b>, which iron does not treat: without gynecologic treatment of the fibroids, she will become iron deficient again.",
+        "highlightTabs": [
+          {
+            "id": "ht6",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 12 1000:</span><span class=\"nurse-note-text\">Received all 5 doses of iron sucrose without reaction. {Says she has “far more energy” and climbs stairs at work without stopping.|correct} {No longer craves ice.|correct} {Legs no longer restless at night.|correct} {Corners of the mouth healed.|correct} {Nails still thin and spoon-shaped.} {Periods still heavy, with clots; gynecology visit next week.} {Heart rate 82 beats/min.|correct} {Hemoglobin 121 g/L|correct} and {ferritin 142 µg/L.|correct} {MCV 79 fL.}</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0930:</span><span class=\"nurse-note-text\">Reports being “exhausted all the time” and short of breath climbing one flight of stairs. Periods have become heavier over the past year: lasts 8 days, changes a soaked pad every 1 to 2 hours on the heaviest days, passes large clots. Follows a vegan diet for 3 years. Says she has been craving and chewing ice “all day.” Has an uncomfortable urge to move her legs when lying in bed at night. Conjunctivae and palms pale. Fingernails thin and spoon-shaped. Cracks at both corners of the mouth; tongue smooth, red and sore. Soft systolic murmur at the left sternal border. No numbness or tingling in the hands or feet; gait steady. No jaundice. Seasonal allergies treated with loratadine. BMI 22.4 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed by the nurse practitioner. Amara says her sister was told she has thalassemia trait and asks whether she could have the same thing.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1130:</span><span class=\"nurse-note-text\">Pelvic ultrasound last month (ordered by her family physician for heavy periods) showed two uterine fibroids. Amara works 12-hour shifts as a warehouse supervisor, climbing stairs and ladders. Says she felt dizzy on standing twice this week. Orthostatic vital signs taken.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1145:</span><span class=\"nurse-note-text\">Nurse practitioner prescribes ferrous sulfate 300 mg (60 mg elemental iron) PO every other day and a referral to gynecology. Amara asks how to take the tablets and which foods will help.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 4 1000:</span><span class=\"nurse-note-text\">Amara stopped the iron tablets after 10 days because of nausea and constipation. Periods remain heavy; gynecology appointment in 6 weeks. Hemoglobin today 88 g/L. The nurse practitioner prescribes iron sucrose 200 mg IV over 15 minutes, once a week for 5 doses, starting today in the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 12 1000:</span><span class=\"nurse-note-text\">Received all 5 doses of iron sucrose without reaction. Says she has “far more energy” and climbs stairs at work without stopping. No longer craves ice. Legs no longer restless at night. Corners of the mouth healed. Nails still thin and spoon-shaped. Periods still heavy, with clots; gynecology visit next week. Heart rate 82 beats/min. Hemoglobin 121 g/L and ferritin 142 µg/L. MCV 79 fL.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1130 (lying)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 1133 (standing)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 4 1000</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 12 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/68 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106/66 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1015</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 12 0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">86 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.29 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red blood cell (RBC) count</b><br>Female: 3.50–5.00 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.62 × 10<sup>12</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">68 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">79 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Red cell distribution width (RDW)</b><br>11.5%–15.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">19.8%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">17.2%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.6%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.2%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">452 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron</b><br>Female: 9–30 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Iron-binding capacity, total (TIBC)</b><br>45–81 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transferrin saturation</b><br>0.20–0.50</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.05</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.26</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale (microcytic, hypochromic) red cells of varying size; pencil cells</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Twelve weeks after her first visit, Amara returns for follow-up."
+      }
+    }
+  ],
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "34-year-old female with fatigue, pica and koilonychia from heavy menstrual bleeding (fibroids) and a vegan diet: iron deficiency anemia, iron studies compared with thalassemia trait and anemia of chronic disease, oral iron teaching and IV iron sucrose.",
+  "authorReview": {
+    "note": "New case written by Claude on 24 Nov 2026 (NURS 1021 Unit 1, batch 1); checked against Merck Manual Professional (Iron Deficiency Anemia, Mar 2025). Please review: ferrous sulfate 300 mg (60 mg elemental) every other day (Merck's alternate-day dosing; many Canadian prescribers still use daily dosing); iron sucrose 200 mg IV weekly × 5 and the 30-minute observation (check against your agency's policy).",
+    "flaggedAt": "2026-11-24"
+  }
+}

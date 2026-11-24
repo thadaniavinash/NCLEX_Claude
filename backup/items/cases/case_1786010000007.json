@@ -1,0 +1,441 @@
+{
+  "id": "case_1786010000007",
+  "unit": "Unit 1 (Blood Disorders)",
+  "draft": true,
+  "title": "NURS 1021 Unit 1 Case Study 7",
+  "topic": "Unit 1 (Blood Disorders)",
+  "course": "NURS 1021",
+  "screens": [
+    {
+      "step": 1,
+      "question": {
+        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that are consistent with vitamin B12 deficiency.",
+        "type": "highlight",
+        "options": [],
+        "preamble": "",
+        "explanation": "<b>Anemia:</b> tiredness and pallor; the slight yellow tinge comes from pallor combined with mild jaundice, because abnormal red cell precursors are destroyed in the marrow (ineffective erythropoiesis) and release bilirubin.<br><br><b>Glossitis:</b> a red, smooth, burning tongue, because rapidly dividing cells of the tongue also need B12 to make DNA.<br><br><b>Neurologic findings (unique to B12 deficiency):</b> B12 is needed to maintain myelin. Damage to the dorsal columns of the spinal cord and peripheral nerves causes numbness and tingling in a stocking distribution, loss of vibration and position sense, a positive Romberg test, and an unsteady gait that is worse in the dark, when the client cannot use vision to make up for lost position sense; hence falls at night. Cognitive and mood changes (forgetfulness, irritability, depression) also occur. These can appear before the anemia and become permanent if treatment is delayed.<br><br><b>Not consistent:</b> pain and temperature sensation are usually spared in B12 deficiency. A diet with meat, eggs and dairy supplies B12, so the cause is poor absorption, not intake. No black or bloody stools makes blood loss unlikely.",
+        "highlightTabs": [
+          {
+            "id": "ht1",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. {Fell twice in the past month, both times at night.|correct} {Numbness and tingling in both feet for 4 months, “like wearing thick socks.”|correct} {Unsteady when walking in the dark.|correct} {Tongue red, smooth and burning.|correct} {Tired for months.|correct} Daughter reports {that Linda has become forgetful and irritable.|correct} {Skin pale with a slight yellow tinge.|correct} {Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down.|correct} {Romberg test positive.|correct} {Pain and temperature sensation in the feet intact.} {Eats meat, eggs and dairy daily.} {No black or bloody stools.} History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p>"
+          }
+        ],
+        "maxCorrectSelections": null
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+      }
+    },
+    {
+      "step": 2,
+      "question": {
+        "stem": "The nurse explains the differences between the two vitamin deficiencies. For each finding, click to specify whether it occurs in <b>vitamin B12 deficiency</b>, <b>folate deficiency</b>, or <b>both</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "MCV above 100 fL with hypersegmented neutrophils",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Loss of vibration and position sense with an unsteady gait",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Raised methylmalonic acid",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Raised homocysteine",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Common in alcohol use disorder and in pregnancy without supplements",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Caused by a lack of intrinsic factor",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Vitamin B12 Deficiency",
+            "Folate Deficiency",
+            "Both"
+          ],
+          "firstColumnHeader": "Finding"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1730 and the Laboratory Results.",
+        "explanation": "<b>Both:</b> B12 and folate are both needed to make DNA. Without either, cells keep growing (RNA and protein synthesis continue) but divide poorly, so red cells are large (megaloblastic, MCV above 100 fL) and neutrophils have extra nuclear lobes. Folate needs B12 to be recycled, and both are needed to convert homocysteine to methionine, so homocysteine rises in both.<br><br><b>Vitamin B12 only:</b> B12 is also needed to convert methylmalonyl-CoA, so methylmalonic acid rises only in B12 deficiency; Linda's MMA of 1.9 µmol/L with a B12 of 98 pmol/L and normal folate confirm B12 deficiency. Neurologic damage occurs only in B12 deficiency. Intrinsic factor, made by gastric parietal cells, is needed to absorb B12 in the terminal ileum.<br><br><b>Folate only:</b> folate stores last only months, so deficiency develops with poor intake (alcohol use disorder), increased need (pregnancy) or drugs such as methotrexate and phenytoin.<br><br><b>Folic acid alone:</b> it could improve her blood count while her nerve damage progresses, so the nurse advises her not to take it unless prescribed."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+      }
+    },
+    {
+      "step": 3,
+      "question": {
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "type": "dropdown_cloze",
+        "cloze": {
+          "text": "Linda's red cells are large because [[drop0]]. Her deficiency is mainly caused by [[drop1]]. The nurse's priority is [[drop2]].",
+          "dropdowns": [
+            {
+              "options": [
+                {
+                  "text": "too little iron is available to make hemoglobin",
+                  "correct": false
+                },
+                {
+                  "text": "the spleen releases young red cells early",
+                  "correct": false
+                },
+                {
+                  "text": "the cells swell from too much water inside them",
+                  "correct": false
+                },
+                {
+                  "text": "DNA synthesis is impaired, so precursor cells grow but divide too few times",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "blood loss from the stomach",
+                  "correct": false
+                },
+                {
+                  "text": "too little folate in her diet",
+                  "correct": false
+                },
+                {
+                  "text": "too little vitamin B12 in her diet",
+                  "correct": false
+                },
+                {
+                  "text": "antibodies that block intrinsic factor (pernicious anemia)",
+                  "correct": true
+                }
+              ],
+              "placeholder": "Select..."
+            },
+            {
+              "options": [
+                {
+                  "text": "teaching her how to give injections",
+                  "correct": false
+                },
+                {
+                  "text": "preventing falls caused by loss of position sense",
+                  "correct": true
+                },
+                {
+                  "text": "relieving the burning tongue",
+                  "correct": false
+                },
+                {
+                  "text": "preventing infection from a low white cell count",
+                  "correct": false
+                }
+              ],
+              "placeholder": "Select..."
+            }
+          ]
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0900 and the Laboratory Results.",
+        "explanation": "<b>Large cells:</b> without B12, DNA synthesis is impaired while RNA and protein synthesis continue, so precursors grow large but divide fewer times; many die in the marrow (ineffective erythropoiesis), raising LDH and bilirubin. Iron deficiency makes cells small.<br><br><b>Cause:</b> in pernicious anemia, autoimmune gastritis destroys parietal cells, and antibodies block intrinsic factor, so B12 cannot be absorbed in the ileum. It is often associated with other autoimmune diseases such as autoimmune thyroid disease. Metformin and reduced stomach acid (omeprazole) add to poor absorption. Her diet contains B12, and folate is normal.<br><br><b>Priority:</b> she has already fallen twice, has lost position sense and gets up alone at night: injury from falls is the most immediate risk. Her white cell count is only mildly low; glossitis and teaching follow."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+      }
+    },
+    {
+      "step": 4,
+      "question": {
+        "stem": "Which interventions should the nurse include in Linda's plan of care? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Teach her that eating more meat and dairy will correct her deficiency",
+            "correct": false
+          },
+          {
+            "text": "Inspect her feet daily for injuries she may not feel",
+            "correct": true
+          },
+          {
+            "text": "Keep her on bed rest until her hemoglobin is normal",
+            "correct": false
+          },
+          {
+            "text": "Offer soft, bland foods and mouth care with a soft toothbrush",
+            "correct": true
+          },
+          {
+            "text": "Give the cyanocobalamin injections as prescribed",
+            "correct": true
+          },
+          {
+            "text": "Give folic acid tablets instead of injections, since they are easier to take",
+            "correct": false
+          },
+          {
+            "text": "Keep the bed low, the call bell in reach and a night light on, and assist her when she walks",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1000 and the Orders.",
+        "explanation": "<b>Include:</b> in pernicious anemia the oral B12 in food cannot be absorbed, so B12 is given by injection (Option 5). Fall precautions protect her while position sense is lost (Option 7). Loss of sensation in the feet means injuries can go unnoticed (Option 2). Glossitis makes spicy, hot and acidic foods painful (Option 4).<br><br><b>Do not include:</b> folic acid can correct the anemia but not the nerve damage, which can progress (Option 6). Without intrinsic factor, dietary B12 is not absorbed (Option 1). Bed rest increases weakness and deconditioning; she walks with assistance and physiotherapy (Option 3)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Cyanocobalamin 1,000 mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for life.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Safety</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Fall precautions. Physiotherapy for gait and balance.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Diet</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Soft diet as tolerated.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Reticulocyte count and CBC on day 7. Gastroscopy as an outpatient.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+      }
+    },
+    {
+      "step": 5,
+      "question": {
+        "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+        "type": "matrix_mc",
+        "matrix": {
+          "rows": [
+            {
+              "text": "Contact the internist to clarify the message before changing the treatment",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Give folic acid 5 mg PO daily and hold the cyanocobalamin",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Give today's cyanocobalamin dose into the deltoid muscle",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Give the cyanocobalamin as an IV push to avoid an injection",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Request a bone marrow biopsy to confirm the diagnosis",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Walk with Linda using a gait belt when she goes to the bathroom",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ],
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "firstColumnHeader": "Nursing Action"
+        },
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1100.",
+        "explanation": "<b>Contraindicated:</b> giving folate alone to a client with B12 deficiency can improve the blood count while the neurologic damage continues, and holding B12 delays treatment that should start at once; gastroscopy does not require it to be held. Cyanocobalamin is given IM (or deep subcutaneously); given IV, most of it is lost in the urine before it can be used.<br><br><b>Indicated:</b> an order that conflicts with the diagnosis and the existing plan is clarified with the prescriber before acting. The prescribed IM dose is given. A gait belt and assistance protect her from falls.<br><br><b>Non-Essential:</b> low B12, high methylmalonic acid and positive intrinsic factor antibodies already confirm the diagnosis; a bone marrow biopsy is not needed."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician leaves a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” Linda's daughter asks whether the injection could be given into the IV to save Linda a needle.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Cyanocobalamin 1,000 mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for life.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Safety</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Fall precautions. Physiotherapy for gait and balance.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Diet</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Soft diet as tolerated.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Reticulocyte count and CBC on day 7. Gastroscopy as an outpatient.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home."
+      }
+    },
+    {
+      "step": 6,
+      "question": {
+        "stem": "Which statements by Linda indicate that she understands the teaching? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "“I will need B12 injections every month for the rest of my life.”",
+            "correct": true
+          },
+          {
+            "text": "“I'll tell my doctor if the tingling gets worse or my balance changes.”",
+            "correct": true
+          },
+          {
+            "text": "“Now that my blood count is normal, I can stop the injections.”",
+            "correct": false
+          },
+          {
+            "text": "“I'll check my feet every day, because I may not feel a cut or blister.”",
+            "correct": true
+          },
+          {
+            "text": "“Eating liver once a week will keep my B12 up.”",
+            "correct": false
+          },
+          {
+            "text": "“I can switch to my neighbour's folic acid tablets instead of the injections.”",
+            "correct": false
+          },
+          {
+            "text": "“The numbness in my feet may take months to improve and might not go away completely.”",
+            "correct": true
+          }
+        ],
+        "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1200 and Week 6 1000, the Vital Signs, and the Laboratory Results.",
+        "explanation": "<b>Response:</b> reticulocytes rose sharply by day 7 (14 to 198 × 10⁹/L), the expected first sign of response, and by week 6 hemoglobin, MCV, white cells and platelets have returned to normal. Neurologic recovery is slower.<br><br><b>Understood:</b> the cause, loss of intrinsic factor, is permanent, so B12 is given for life (Option 1). Nerve recovery takes months and may be incomplete, especially when symptoms were present for a long time (Option 7). Reduced sensation means daily foot checks (Option 4). Worsening neurologic symptoms suggest inadequate treatment (Option 2).<br><br><b>Needs more teaching:</b> stopping injections leads to relapse (Option 3). Folic acid does not treat B12 deficiency and can hide it while nerve damage progresses (Option 6). Dietary B12 cannot be absorbed without intrinsic factor (Option 5)."
+      },
+      "leftContent": {
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician leaves a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” Linda's daughter asks whether the injection could be given into the IV to save Linda a needle.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1200:</span><span class=\"nurse-note-text\">Internist confirmed the original plan; cyanocobalamin given IM.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 6 1000:</span><span class=\"nurse-note-text\">Clinic visit. Energy improved; tongue no longer sore. Tingling in the feet less, still present. Walking with a cane; no further falls. The nurse reviews Linda's understanding of her condition.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1500</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">106 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">122/74 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">124/76 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 2 0800</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 7</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">84 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">121 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">116 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">198 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">3.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">5.8 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">128 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">214 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Large oval red cells (macro-ovalocytes); hypersegmented neutrophils</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b><br>133–675 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">21 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Methylmalonic acid (MMA)</b><br>less than 0.40 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Homocysteine</b><br>5–15 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">32 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Lactate dehydrogenase (LDH)</b><br>100–205 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">860 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Intrinsic factor antibodies</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+          },
+          {
+            "id": "orders",
+            "title": "Orders",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Vitamin B12</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Cyanocobalamin 1,000 mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for life.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Safety</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Fall precautions. Physiotherapy for gait and balance.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Diet</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Soft diet as tolerated.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Reticulocyte count and CBC on day 7. Gastroscopy as an outpatient.</td></tr></tbody></table>"
+          }
+        ],
+        "intro": "Six weeks later, Linda returns to the clinic."
+      }
+    }
+  ],
+  "disorder": "Unit 1 (Blood Disorders)",
+  "description": "61-year-old female with pernicious anemia (plus metformin and omeprazole) presenting with falls, paresthesias and glossitis: megaloblastic anemia, vitamin B12 versus folate deficiency (methylmalonic acid, homocysteine), IM cyanocobalamin and why folate alone is unsafe.",
+  "authorReview": {
+    "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Vitamin B12 Deficiency, Jun 2026; Folate Deficiency, Nov 2026; Megaloblastic Macrocytic Anemias, Mar 2025). Please review: methylmalonic acid (< 0.40 µmol/L) and homocysteine (5–15 µmol/L) reference ranges (not in the MCC list); the cyanocobalamin schedule (daily × 7, weekly × 4, then monthly; Merck gives 1 mg IM 1–4 times a week, then monthly); outpatient gastroscopy at diagnosis of pernicious anemia.",
+    "flaggedAt": "2026-11-24"
+  }
+}
