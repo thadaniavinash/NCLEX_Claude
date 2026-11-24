@@ -34939,6 +34939,1555 @@ window.NCLEX_CASES = [
       "note": "New case written by Claude on 2 Nov 2026 for the Unit 7 learning outcomes; please review before using it with students:\n- Nursing-focused case (falls, continence, shunt care and teaching); covers the hydrocephalus learning outcome.\n- Clinician review: shunt positioning orders, the MRI and programmable-valve scenario, Timed Up and Go cut-off (12 seconds).",
       "flaggedAt": "2026-11-02"
     }
+  },
+  {
+    "id": "case_1782370000005",
+    "unit": "Unit 3 (Genetic and Developmental Disorders)",
+    "title": "NURS 1017 Unit 3 Case Study 5",
+    "topic": "Unit 3 (Genetic and Developmental Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Turner syndrome</b>? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Temperature 36.7° C and SpO₂ 99% on room air",
+              "correct": false
+            },
+            {
+              "text": "Webbed neck, low posterior hairline, and broad chest with widely spaced nipples",
+              "correct": true
+            },
+            {
+              "text": "Height of 142 cm, below the 3rd percentile for age",
+              "correct": true
+            },
+            {
+              "text": "No breast development (Tanner stage 1) and no menstrual periods at age 15",
+              "correct": true
+            },
+            {
+              "text": "Tanner stage 2 pubic hair",
+              "correct": false
+            },
+            {
+              "text": "Difficulty with visual-spatial math despite strong overall grades",
+              "correct": true
+            },
+            {
+              "text": "No history of headaches or changes in vision",
+              "correct": false
+            },
+            {
+              "text": "Right arm BP 138/84 mm Hg, right thigh BP 98/60 mm Hg, and weak, delayed femoral pulses",
+              "correct": true
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Consistent with Turner syndrome (45,X):</b> short stature is the most constant feature (Option 3). Streak ovaries make too little estrogen, so breasts do not develop and menstruation does not begin (Option 4). Lymphatic swelling before birth leaves a webbed neck and low hairline, with a broad, shield-like chest (Option 2).<br><br>Higher blood pressure in the arms than in the legs, with weak, delayed femoral pulses, points to <b>coarctation of the aorta</b>, a heart defect common in Turner syndrome (Option 8). Normally, thigh BP is equal to or higher than arm BP.<br><br>Intelligence is usually normal, but many girls with Turner syndrome have a specific difficulty with visual-spatial tasks such as geometry (Option 6).<br><br><b>Not consistent:</b> pubic hair comes from adrenal androgens (adrenarche), which Turner syndrome does not affect, so Tanner stage 2 pubic hair does not point to it (Option 5). No headaches or vision changes makes a pituitary tumor less likely as a cause of delayed puberty, but says nothing for or against Turner syndrome (Option 7). Temperature and SpO₂ are normal (Option 1)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a pediatric endocrinology clinic is assessing Chloe, a 15-year-old female client referred by her primary care provider for short stature and no menstrual periods."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse prepares teaching that compares sex chromosome disorders. For each characteristic, click to specify whether it applies to <b>Turner syndrome (45,X)</b>, <b>Klinefelter syndrome (47,XXY)</b>, or <b>both</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "45 chromosomes; short stature and webbed neck",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Primary gonadal failure with high FSH and LH, and infertility in most affected individuals",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "47 chromosomes; tall stature, small firm testes, and gynecomastia",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Coarctation of the aorta, bicuspid aortic valve, and horseshoe kidney",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Usually arises by chance from an error in chromosome separation, not from an inherited single-gene mutation",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Low testosterone, sparse facial and body hair, and language-based learning difficulties",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              }
+            ],
+            "columns": [
+              "Turner Syndrome (45,X)",
+              "Klinefelter Syndrome (47,XXY)",
+              "Both"
+            ],
+            "firstColumnHeader": "Characteristic"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1030 (Week 2) and the Diagnostic Results.",
+          "explanation": "<b>Turner syndrome (45,X):</b> one X chromosome is missing (monosomy X), so cells have 45 chromosomes. Loss of genes on the second X causes short stature, a webbed neck, a shield chest, streak ovaries, a horseshoe kidney, and heart defects (coarctation of the aorta, bicuspid aortic valve).<br><br><b>Klinefelter syndrome (47,XXY):</b> a male with an extra X chromosome (47 chromosomes). The testes become small and firm and make little testosterone, causing tall stature with long legs, gynecomastia, sparse body hair, infertility, and language-based learning difficulties.<br><br><b>Both:</b> each is a sex chromosome aneuploidy that usually arises by chance, from nondisjunction during gamete formation (or, in Turner syndrome, loss of an X chromosome in early cell divisions, which explains mosaic forms). Down syndrome (47,XX,+21 or 47,XY,+21) arises the same way, but involves an autosome (chromosome 21), not a sex chromosome. Both conditions cause primary gonadal failure: the gonads do not respond, so the pituitary releases more FSH and LH, and most affected people are infertile. The parents did not pass on a faulty gene."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Two weeks later, Chloe and her mother return to review the karyotype, hormone levels, pelvic ultrasound and echocardiogram."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Chloe's karyotype shows [[drop0]], which usually arises by chance. The nurse's priority is [[drop1]]. Her absent breast development and menstrual periods are caused by [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "trisomy of chromosome 21",
+                    "correct": false
+                  },
+                  {
+                    "text": "a single-gene mutation inherited from a carrier parent",
+                    "correct": false
+                  },
+                  {
+                    "text": "an extra X chromosome (47,XXY)",
+                    "correct": false
+                  },
+                  {
+                    "text": "monosomy X (45 chromosomes)",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "disturbed body image related to her short stature",
+                    "correct": false
+                  },
+                  {
+                    "text": "high blood pressure in the arms from coarctation of the aorta",
+                    "correct": true
+                  },
+                  {
+                    "text": "the limited time left for growth before the growth plates close",
+                    "correct": false
+                  },
+                  {
+                    "text": "the risk of kidney injury from the horseshoe kidney",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "an absent uterus from abnormal development",
+                    "correct": false
+                  },
+                  {
+                    "text": "a pituitary gland that releases too little FSH and LH",
+                    "correct": false
+                  },
+                  {
+                    "text": "streak ovaries that make little estrogen, so FSH and LH rise",
+                    "correct": true
+                  },
+                  {
+                    "text": "low body weight suppressing the hypothalamus",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1115 (Week 2).",
+          "explanation": "<b>Monosomy X:</b> normal cells have 46 chromosomes (22 pairs of autosomes and one pair of sex chromosomes). In Turner syndrome one X is missing, leaving 45. An extra X (47,XXY) is Klinefelter syndrome, and trisomy 21 is Down syndrome.<br><br><b>Priority:</b> coarctation makes the left ventricle pump against a narrowed aorta. Her arm BP is rising (140/86 mm Hg) and her legs tire with exertion. Untreated, it leads to left ventricular hypertrophy, heart failure, and, with a bicuspid valve, aortic dilation and dissection. The horseshoe kidney (normal creatinine), her growth window and her body image all matter, but they are not a threat to her circulation now.<br><br><b>Cause of absent puberty:</b> high FSH and LH with low estradiol mean the problem lies in the ovaries (primary or hypergonadotropic hypogonadism): the pituitary is signalling hard and the streak ovaries cannot respond. A pituitary problem would give low FSH and LH. The ultrasound shows a uterus, and her weight (15th percentile) and lack of strenuous training do not suggest hypothalamic suppression."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse reviews Chloe's results with the endocrinologist and cardiologist to set care priorities."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in Chloe's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Arrange cardiology follow-up and teach the family that the aorta and heart valve need lifelong monitoring",
+              "correct": true
+            },
+            {
+              "text": "Schedule screening for hypothyroidism, hearing loss, and celiac disease",
+              "correct": true
+            },
+            {
+              "text": "Teach Chloe how to give testosterone injections to speed up her growth",
+              "correct": false
+            },
+            {
+              "text": "Explain that low-dose estrogen, increased slowly, will promote breast development and protect bone density",
+              "correct": true
+            },
+            {
+              "text": "Acknowledge Chloe's feelings about fertility and offer a Turner syndrome peer support group",
+              "correct": true
+            },
+            {
+              "text": "Tell Chloe that once estrogen therapy starts, her ovaries will begin releasing eggs",
+              "correct": false
+            },
+            {
+              "text": "Teach Chloe and her mother how to give the daily subcutaneous growth hormone injection",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1300 (Week 2) and the Care Plan.",
+          "explanation": "<b>Include:</b> coarctation and a bicuspid aortic valve need lifelong cardiology follow-up, even after repair (Option 1). Growth hormone works only while the growth plates are open, so daily injections start now; the nurse teaches the technique and site rotation (Option 7). Estrogen started at a low dose and increased slowly brings on breast development and protects bone without closing the growth plates too early (Option 4). Chloe is grieving the likely loss of fertility; acknowledging it and offering peer support helps her cope, and egg donation can be discussed later (Option 5). Turner syndrome raises the lifetime risk of autoimmune thyroid disease, hearing loss and celiac disease (Option 2).<br><br><b>Do not include:</b> estrogen replaces the hormone the ovaries cannot make, but it does not create egg follicles, so it does not restore fertility (Option 6). Testosterone treats the hormone deficit of males with Klinefelter syndrome; it has no place in Turner syndrome (Option 3)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300 (Week 2):</span><span class=\"nurse-note-text\">Interprofessional care conference. Cardiology plans transcatheter treatment of the coarctation and lifelong follow-up of the bicuspid aortic valve. Endocrinology plans daily growth hormone injections while the growth plates are open, then low-dose estrogen increased slowly over about 2 years, with a progestin added later. Chloe is quiet and tearful after hearing that she will most likely not be able to become pregnant with her own eggs.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+            },
+            {
+              "id": "plan",
+              "title": "Care Plan",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric cardiology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Transcatheter treatment of the coarctation (balloon angioplasty or stent). Echocardiogram or cardiac MRI at regular intervals for the bicuspid valve and aortic root.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric endocrinology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant human growth hormone (rhGH) subcutaneously every evening. Low-dose transdermal estradiol, increased slowly; cyclic progestin added after breakthrough bleeding or about 2 years of estrogen.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Primary care</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Yearly TSH and free T4; hearing tests; celiac disease screening; bone mineral density scan.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Psychosocial and genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Counselling for body image and loss of fertility; genetic counselling about the sporadic cause and future options for having children.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse works with cardiology, endocrinology and psychosocial services on Chloe's plan of care."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Measure BP in all four limbs and compare the radial and femoral pulses",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Tell Chloe that estrogen alone, without a progestin, can be taken long term",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Explain that estrogen starts at a low dose and is increased slowly to protect her final height",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Request a sweat chloride test to look for another cause of her short stature",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Explain that Turner syndrome usually occurs by chance and is not caused by a gene her sister could carry",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Tell Chloe that cardiology follow-up can stop once the coarctation is repaired",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 0930 (Week 6) and the Vital Signs.",
+          "explanation": "<b>Measure BP in all four limbs (Indicated):</b> the arm-to-leg gradient (40 mm Hg today) and femoral pulses show how severe the coarctation is and give a baseline for judging the repair.<br><br><b>Estrogen alone long term (Contraindicated):</b> in anyone with a uterus, estrogen without a progestin causes endometrial hyperplasia and raises the risk of endometrial cancer. A cyclic progestin is added after breakthrough bleeding or about 2 years of estrogen.<br><br><b>Low dose, increased slowly (Indicated):</b> full adult doses early would close the growth plates quickly and cut short the height gained with growth hormone; a slow increase also gives more natural breast development.<br><br><b>Sweat chloride test (Non-Essential):</b> it diagnoses cystic fibrosis. Her short stature is explained by the 45,X karyotype; the test adds nothing.<br><br><b>Explain the sporadic cause (Indicated):</b> 45,X Turner syndrome is a chance error in chromosome separation, not a Mendelian gene, so her sister's risk is not increased and she does not need testing because of Chloe's diagnosis.<br><br><b>Stop cardiology follow-up after repair (Contraindicated):</b> after repair, people with Turner syndrome and a bicuspid valve remain at risk of re-narrowing, high blood pressure, and aortic dilation and dissection, so follow-up is lifelong."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300 (Week 2):</span><span class=\"nurse-note-text\">Interprofessional care conference. Cardiology plans transcatheter treatment of the coarctation and lifelong follow-up of the bicuspid aortic valve. Endocrinology plans daily growth hormone injections while the growth plates are open, then low-dose estrogen increased slowly over about 2 years, with a progestin added later. Chloe is quiet and tearful after hearing that she will most likely not be able to become pregnant with her own eggs.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930 (Week 6):</span><span class=\"nurse-note-text\">Chloe returns to start endocrine therapy and for teaching before her coarctation procedure next week. Alert and cooperative. Mother asks whether Chloe can start “full adult-strength estrogen right away so she can catch up with her friends,” and whether Chloe's 11-year-old sister needs testing to see if she “carries the Turner gene.”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+            },
+            {
+              "id": "plan",
+              "title": "Care Plan",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric cardiology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Transcatheter treatment of the coarctation (balloon angioplasty or stent). Echocardiogram or cardiac MRI at regular intervals for the bicuspid valve and aortic root.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric endocrinology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant human growth hormone (rhGH) subcutaneously every evening. Low-dose transdermal estradiol, increased slowly; cyclic progestin added after breakthrough bleeding or about 2 years of estrogen.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Primary care</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Yearly TSH and free T4; hearing tests; celiac disease screening; bone mineral density scan.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Psychosocial and genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Counselling for body image and loss of fertility; genetic counselling about the sporadic cause and future options for having children.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Four weeks later, Chloe returns to the clinic."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Chloe's growth velocity of 7.5 cm/year, equal arm and leg blood pressures, and Tanner stage 2 breast development show [[drop0]]. When Chloe explains that her 45,X chromosome makeup is her [[drop1]] and her short stature is her phenotype, she shows understanding. Before she moves to adult care, the nurse confirms she understands that she needs [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "persistent coarctation that needs a repeat procedure",
+                    "correct": false
+                  },
+                  {
+                    "text": "that growth hormone can now be stopped because she has reached adult height",
+                    "correct": false
+                  },
+                  {
+                    "text": "a positive response to the coarctation repair and hormone therapy",
+                    "correct": true
+                  },
+                  {
+                    "text": "a normal growth spurt that would have happened without treatment",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "phenotype",
+                    "correct": false
+                  },
+                  {
+                    "text": "genotype",
+                    "correct": true
+                  },
+                  {
+                    "text": "mutation",
+                    "correct": false
+                  },
+                  {
+                    "text": "allele",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "cardiology follow-up only until the stent has healed",
+                    "correct": false
+                  },
+                  {
+                    "text": "lifelong cardiology and endocrine follow-up",
+                    "correct": true
+                  },
+                  {
+                    "text": "follow-up only if she plans a pregnancy",
+                    "correct": false
+                  },
+                  {
+                    "text": "endocrine follow-up only, since her heart is repaired",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1000 (Month 12), the Vital Signs, and the Follow-Up Results.",
+          "explanation": "<b>Response to treatment:</b> growth velocity rose from 2.1 to 7.5 cm/year on growth hormone, the arm-to-leg BP gradient is gone (thigh BP now above arm BP, as expected), and estrogen has started breast development. Without treatment, girls with Turner syndrome do not have a pubertal growth spurt. She is still growing, so growth hormone continues until growth slows and the growth plates close. Treatment does not change the karyotype.<br><br><b>Genotype and phenotype:</b> the genotype is the genetic (here chromosomal) makeup, 45,X. The phenotype is what can be observed: short stature, webbed neck, streak ovaries.<br><br><b>Lifelong follow-up:</b> even after a good repair, she remains at risk of re-narrowing, hypertension and aortic dilation or dissection (higher in pregnancy), and needs ongoing estrogen and progestin, thyroid, hearing and bone monitoring as an adult."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300 (Week 2):</span><span class=\"nurse-note-text\">Interprofessional care conference. Cardiology plans transcatheter treatment of the coarctation and lifelong follow-up of the bicuspid aortic valve. Endocrinology plans daily growth hormone injections while the growth plates are open, then low-dose estrogen increased slowly over about 2 years, with a progestin added later. Chloe is quiet and tearful after hearing that she will most likely not be able to become pregnant with her own eggs.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930 (Week 6):</span><span class=\"nurse-note-text\">Chloe returns to start endocrine therapy and for teaching before her coarctation procedure next week. Alert and cooperative. Mother asks whether Chloe can start “full adult-strength estrogen right away so she can catch up with her friends,” and whether Chloe's 11-year-old sister needs testing to see if she “carries the Turner gene.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000 (Month 12):</span><span class=\"nurse-note-text\">Twelve-month follow-up after transcatheter stent placement for the coarctation, 12 months of growth hormone and 6 months of low-dose transdermal estradiol. Chloe smiles and says she joined a Turner syndrome teen group. Gives her own rhGH injection each evening, rotating sites; no skin changes at injection sites. Chloe says she wants to understand her diagnosis before she moves to adult care.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 12 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "dx",
+              "title": "Diagnostic Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+            },
+            {
+              "id": "plan",
+              "title": "Care Plan",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric cardiology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Transcatheter treatment of the coarctation (balloon angioplasty or stent). Echocardiogram or cardiac MRI at regular intervals for the bicuspid valve and aortic root.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric endocrinology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant human growth hormone (rhGH) subcutaneously every evening. Low-dose transdermal estradiol, increased slowly; cyclic progestin added after breakthrough bleeding or about 2 years of estrogen.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Primary care</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Yearly TSH and free T4; hearing tests; celiac disease screening; bone mineral density scan.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Psychosocial and genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Counselling for body image and loss of fertility; genetic counselling about the sporadic cause and future options for having children.</td></tr></tbody></table>"
+            },
+            {
+              "id": "fu",
+              "title": "Follow-Up Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Measure</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Baseline (age 15)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 12 (age 16)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Height</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142.0 cm</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">149.5 cm</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Growth velocity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 cm/year</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.5 cm/year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breast development</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Tanner stage 1</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Tanner stage 2</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.4 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.8 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyroxine, free (FT4)</b><br>7.0–17.0 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.1 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12.6 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Coarctation, peak gradient 38 mm Hg; bicuspid aortic valve</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Stent in place, residual gradient 8 mm Hg; bicuspid aortic valve unchanged; aortic root normal</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Twelve months later, Chloe (now 16 years old) returns to the clinic."
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+    "description": "15-year-old female with short stature, no puberty, webbed neck and an arm-to-leg BP gradient: Turner syndrome (45,X) with coarctation of the aorta, compared with Klinefelter and Down syndromes, through endocrine and cardiac care.",
+    "authorReview": {
+      "note": "Revised by Claude on 24 Nov 2026 from the author's draft (New Case Study 1). Please check: SI lab values and adult reference ranges for FSH, LH and estradiol; growth hormone started at a bone age of 12.5 years alongside estrogen; Tanner stage 2 pubic hair used as a distractor (adrenarche is normal in Turner syndrome).",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1782370000006",
+    "unit": "Unit 3 (Genetic and Developmental Disorders)",
+    "title": "NURS 1017 Unit 3 Case Study 6",
+    "topic": "Unit 3 (Genetic and Developmental Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which findings require follow-up? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Thigh, knee and lower-back pain rated 8/10, refusing to walk",
+              "correct": true
+            },
+            {
+              "text": "Heart rate 134 beats/min",
+              "correct": true
+            },
+            {
+              "text": "Lungs clear to auscultation with no chest pain",
+              "correct": false
+            },
+            {
+              "text": "SpO₂ 93% on room air with RR 26 breaths/min",
+              "correct": true
+            },
+            {
+              "text": "Spleen not palpable",
+              "correct": false
+            },
+            {
+              "text": "Dry oral mucous membranes, capillary refill 3 seconds, and little fluid intake for 2 days",
+              "correct": true
+            },
+            {
+              "text": "Temperature 38.3° C",
+              "correct": true
+            },
+            {
+              "text": "BP 102/62 mm Hg with no focal neurologic deficits",
+              "correct": false
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Require follow-up:</b> deep bone and joint pain that stops a child walking is the hallmark of a <b>vaso-occlusive crisis</b>: sickled red cells block small vessels and the tissue becomes ischemic (Option 1). A temperature of 38.3° C is urgent in sickle cell disease: repeated splenic infarcts leave the spleen unable to clear encapsulated bacteria (functional asplenia), so fever can mean life-threatening bacteremia (Option 7). Low SpO₂ with a fast RR increases sickling and can be the start of acute chest syndrome (Option 4). Tachycardia reflects pain, fever, dehydration and anemia (Option 2). Dehydration raises blood viscosity and, with the viral illness, likely triggered this crisis (Option 6).<br><br><b>Do not require follow-up now:</b> clear lungs without chest pain make acute chest syndrome less likely at this moment, though it can develop later (Option 3). By school age, most children with HbSS have a small, scarred spleen that cannot be felt; a newly enlarged spleen would suggest splenic sequestration (Option 5). Normal BP and no focal deficits are reassuring; a sudden deficit would suggest a stroke (Option 8). The mild icterus and pallor are his usual signs of chronic hemolysis; his hemoglobin will be compared with his baseline."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Marcus (diagnosed with sickle cell disease on newborn screening) arrives with his mother and father. Runny nose and mild cough for 2 days; has been drinking very little. Over the past 12 hours, worsening deep, throbbing pain in both thighs, knees and lower back; rates pain 8/10 on the FACES scale and refuses to walk. Irritable, guarding both legs. Mild scleral icterus and pale conjunctivae, which his mother says are “how his eyes usually look.” Oral mucous membranes dry; capillary refill 3 seconds. Lungs clear to auscultation bilaterally; no chest pain. Abdomen soft and non-tender; spleen not palpable. No focal neurologic deficits.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Family history: both parents are healthy and have sickle cell trait (HbAS). Marcus's mother says her 44-year-old brother was recently diagnosed with Huntington disease and asks whether Marcus could get it too. Marcus's father says his sister's 9-year-old son has hemophilia B. Pediatrician and hematology notified.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Age 6: 75–115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Age 6: 18–25 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b><br>Age 6: 90–110/55–75 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102/62 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (FACES, 0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in the pediatric emergency department is assessing Marcus, a 6-year-old boy with sickle cell disease (HbSS), brought in by his parents for severe leg and lower-back pain."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "For each finding, click to specify whether it is consistent with <b>autosomal dominant</b>, <b>autosomal recessive</b>, or <b>X-linked recessive</b> inheritance.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Marcus has sickle cell disease although both of his parents are healthy",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Marcus's maternal grandmother and her son both developed a movement disorder in adulthood",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Marcus's father's sister is healthy, but her son has hemophilia B",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Each of Marcus's parents has one HbS allele and no symptoms",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Symptoms may not begin until mid-adulthood, often after the person has had children",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "The disorder occurs almost only in males, who inherit the gene from their mothers",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Autosomal Dominant",
+              "Autosomal Recessive",
+              "X-Linked Recessive"
+            ],
+            "firstColumnHeader": "Family History Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1500, the Laboratory Results, and the Family History.",
+          "explanation": "<b>Autosomal recessive (sickle cell disease):</b> disease appears only with two mutated alleles (homozygous HbSS). Carriers (heterozygous HbAS) are healthy, so an affected child often has two unaffected parents. Marcus's results show active hemolysis: hemoglobin below his usual level, high reticulocytes (the marrow compensating) and high indirect bilirubin. Howell-Jolly bodies on the smear mean the spleen no longer filters the blood.<br><br><b>Autosomal dominant (Huntington disease):</b> one mutated allele causes the disease, so it appears in every generation (grandmother, then her son) and affects males and females alike. Because symptoms usually start between 30 and 50, people often have children before they know they carry it. Marcus's mother has a 50% chance of carrying the gene, so Marcus's own risk is 25% at present; predictive testing of children is not recommended and is left for him to decide as an adult.<br><br><b>X-linked recessive (hemophilia B):</b> the gene is on the X chromosome. Males have one X, so one mutated copy causes disease; females with one normal X are usually healthy carriers who pass it to half their sons. The paternal aunt is a carrier. Marcus's father is an unaffected male, so he does not carry the gene and cannot pass it to Marcus."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Marcus (diagnosed with sickle cell disease on newborn screening) arrives with his mother and father. Runny nose and mild cough for 2 days; has been drinking very little. Over the past 12 hours, worsening deep, throbbing pain in both thighs, knees and lower back; rates pain 8/10 on the FACES scale and refuses to walk. Irritable, guarding both legs. Mild scleral icterus and pale conjunctivae, which his mother says are “how his eyes usually look.” Oral mucous membranes dry; capillary refill 3 seconds. Lungs clear to auscultation bilaterally; no chest pain. Abdomen soft and non-tender; spleen not palpable. No focal neurologic deficits.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Family history: both parents are healthy and have sickle cell trait (HbAS). Marcus's mother says her 44-year-old brother was recently diagnosed with Huntington disease and asks whether Marcus could get it too. Marcus's father says his sister's 9-year-old son has hemophilia B. Pediatrician and hematology notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Laboratory results reviewed with hematology. Admitted to the pediatric unit for IV fluids, pain management and fever monitoring. Parents ask how sickle cell disease is inherited differently from Huntington disease and hemophilia B.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Age 6: 75–115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Age 6: 18–25 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b><br>Age 6: 90–110/55–75 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102/62 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (FACES, 0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Age 6–11 years: 115–145 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L (his usual: 86 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>Age 6 years: 5.0–14.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Sickled red blood cells, target cells, Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin electrophoresis</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">At age 2: HbS 88%, HbF 10%, HbA<sub>2</sub> 2%, HbA 0%</td></tr></tbody></table>"
+            },
+            {
+              "id": "fh",
+              "title": "Family History",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Relative</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">History</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mother (34)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Father (36)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal grandmother</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Died at 58; involuntary movements and memory loss from her late 40s.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal uncle (44)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Huntington disease, diagnosed this year.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt (38)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy; no bleeding problems.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt's son (9)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemophilia B (factor IX deficiency).</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Laboratory results return and the nurse reviews Marcus's family history with his parents."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Sickle cell disease is caused by a [[drop0]] in the beta-globin (HBB) gene. Given Marcus's temperature, SpO₂ and respiratory rate, the nurse's priority is to prevent [[drop1]]. Because both parents are carriers (HbAS), each future pregnancy has a [[drop2]] chance of a child with sickle cell disease.",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "trinucleotide repeat expansion",
+                    "correct": false
+                  },
+                  {
+                    "text": "nondisjunction of chromosome 11",
+                    "correct": false
+                  },
+                  {
+                    "text": "point mutation (one base substituted)",
+                    "correct": true
+                  },
+                  {
+                    "text": "teratogenic exposure before birth",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "splenic sequestration crisis",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute kidney injury from dehydration",
+                    "correct": false
+                  },
+                  {
+                    "text": "acute chest syndrome and sepsis",
+                    "correct": true
+                  },
+                  {
+                    "text": "ischemic stroke",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "75% (3 in 4)",
+                    "correct": false
+                  },
+                  {
+                    "text": "67% (2 in 3)",
+                    "correct": false
+                  },
+                  {
+                    "text": "50% (1 in 2)",
+                    "correct": false
+                  },
+                  {
+                    "text": "25% (1 in 4)",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1600 and the Vital Signs.",
+          "explanation": "<b>Point mutation:</b> a single base change in HBB puts valine in place of glutamic acid in beta-globin, creating the HbS allele. A trinucleotide (CAG) repeat expansion causes Huntington disease; nondisjunction causes aneuploidy such as Down syndrome; a teratogen damages development without changing the genes.<br><br><b>Priority:</b> fever of 38.6° C in a child without a working spleen can progress to overwhelming sepsis within hours, and falling SpO₂ (92%) with a rising RR (28 breaths/min) increases sickling in the lungs, the path to acute chest syndrome, the leading cause of death in sickle cell disease. A non-palpable spleen and normal neurologic findings do not point to sequestration or stroke now; dehydration is being treated with IV fluids.<br><br><b>25%:</b> HbAS × HbAS gives, with each pregnancy, 25% HbAA (unaffected, not a carrier), 50% HbAS (carrier) and 25% HbSS (affected). 50% is the chance of a carrier child, 75% the chance of an unaffected child, and 2 in 3 the chance that an unaffected sibling is a carrier."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Marcus (diagnosed with sickle cell disease on newborn screening) arrives with his mother and father. Runny nose and mild cough for 2 days; has been drinking very little. Over the past 12 hours, worsening deep, throbbing pain in both thighs, knees and lower back; rates pain 8/10 on the FACES scale and refuses to walk. Irritable, guarding both legs. Mild scleral icterus and pale conjunctivae, which his mother says are “how his eyes usually look.” Oral mucous membranes dry; capillary refill 3 seconds. Lungs clear to auscultation bilaterally; no chest pain. Abdomen soft and non-tender; spleen not palpable. No focal neurologic deficits.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Family history: both parents are healthy and have sickle cell trait (HbAS). Marcus's mother says her 44-year-old brother was recently diagnosed with Huntington disease and asks whether Marcus could get it too. Marcus's father says his sister's 9-year-old son has hemophilia B. Pediatrician and hematology notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Laboratory results reviewed with hematology. Admitted to the pediatric unit for IV fluids, pain management and fever monitoring. Parents ask how sickle cell disease is inherited differently from Huntington disease and hemophilia B.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1600:</span><span class=\"nurse-note-text\">Transferred to the pediatric unit. Pain 8/10 despite acetaminophen given at home this morning. No chest pain; lungs clear. Spleen not palpable. Blood cultures drawn and IV access established. Parents ask, “Since we both carry the trait, what is the chance another baby would have sickle cell disease like Marcus?”</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Age 6: 75–115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Age 6: 18–25 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b><br>Age 6: 90–110/55–75 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (FACES, 0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Age 6–11 years: 115–145 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L (his usual: 86 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>Age 6 years: 5.0–14.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Sickled red blood cells, target cells, Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin electrophoresis</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">At age 2: HbS 88%, HbF 10%, HbA<sub>2</sub> 2%, HbA 0%</td></tr></tbody></table>"
+            },
+            {
+              "id": "fh",
+              "title": "Family History",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Relative</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">History</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mother (34)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Father (36)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal grandmother</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Died at 58; involuntary movements and memory loss from her late 40s.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal uncle (44)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Huntington disease, diagnosed this year.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt (38)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy; no bleeding problems.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt's son (9)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemophilia B (factor IX deficiency).</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Marcus is admitted to the pediatric unit."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in Marcus's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Give the scheduled morphine and ketorolac and reassess pain with the FACES scale",
+              "correct": true
+            },
+            {
+              "text": "Cover Marcus with a warm blanket and keep the room comfortably warm",
+              "correct": true
+            },
+            {
+              "text": "Apply ice packs to the painful knees and lower back for 20 minutes every hour",
+              "correct": false
+            },
+            {
+              "text": "Request IV fluid boluses at twice the maintenance rate to flush out the sickled cells",
+              "correct": false
+            },
+            {
+              "text": "Give the first dose of ceftriaxone without delay now that blood cultures are drawn",
+              "correct": true
+            },
+            {
+              "text": "Run the IV fluids at the ordered rate and offer oral fluids often",
+              "correct": true
+            },
+            {
+              "text": "Give oxygen to keep SpO₂ at 95% or higher and coach incentive spirometry every 2 hours while awake",
+              "correct": true
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1630 and the Orders.",
+          "explanation": "<b>Include:</b> hydration lowers blood viscosity and slows sickling (Option 6). Vaso-occlusive pain is severe ischemic pain; scheduled opioid plus NSAID with regular reassessment controls it better than waiting for the child to ask (Option 1). Oxygen corrects hypoxemia, and incentive spirometry prevents the atelectasis that leads to acute chest syndrome, especially when opioids and splinting make breathing shallow (Option 7). With functional asplenia, a febrile child receives IV antibiotics promptly once cultures are drawn (Option 5). Warmth dilates vessels and eases pain (Option 2).<br><br><b>Do not include:</b> cold causes vasoconstriction, which slows blood flow and worsens sickling (Option 3). Fluids are given at about 1 to 1.5 times maintenance once dehydration is corrected; overhydration can cause pulmonary edema and trigger acute chest syndrome (Option 4)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Marcus (diagnosed with sickle cell disease on newborn screening) arrives with his mother and father. Runny nose and mild cough for 2 days; has been drinking very little. Over the past 12 hours, worsening deep, throbbing pain in both thighs, knees and lower back; rates pain 8/10 on the FACES scale and refuses to walk. Irritable, guarding both legs. Mild scleral icterus and pale conjunctivae, which his mother says are “how his eyes usually look.” Oral mucous membranes dry; capillary refill 3 seconds. Lungs clear to auscultation bilaterally; no chest pain. Abdomen soft and non-tender; spleen not palpable. No focal neurologic deficits.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Family history: both parents are healthy and have sickle cell trait (HbAS). Marcus's mother says her 44-year-old brother was recently diagnosed with Huntington disease and asks whether Marcus could get it too. Marcus's father says his sister's 9-year-old son has hemophilia B. Pediatrician and hematology notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Laboratory results reviewed with hematology. Admitted to the pediatric unit for IV fluids, pain management and fever monitoring. Parents ask how sickle cell disease is inherited differently from Huntington disease and hemophilia B.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1600:</span><span class=\"nurse-note-text\">Transferred to the pediatric unit. Pain 8/10 despite acetaminophen given at home this morning. No chest pain; lungs clear. Spleen not palpable. Blood cultures drawn and IV access established. Parents ask, “Since we both carry the trait, what is the chance another baby would have sickle cell disease like Marcus?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1630:</span><span class=\"nurse-note-text\">Hematology admission orders received. Chest X-ray clear, no infiltrates. Marcus cries when his legs are moved and asks for a warm blanket.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Age 6: 75–115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Age 6: 18–25 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b><br>Age 6: 90–110/55–75 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (FACES, 0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Age 6–11 years: 115–145 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L (his usual: 86 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>Age 6 years: 5.0–14.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Sickled red blood cells, target cells, Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin electrophoresis</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">At age 2: HbS 88%, HbF 10%, HbA<sub>2</sub> 2%, HbA 0%</td></tr></tbody></table>"
+            },
+            {
+              "id": "fh",
+              "title": "Family History",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Relative</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">History</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mother (34)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Father (36)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal grandmother</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Died at 58; involuntary movements and memory loss from her late 40s.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal uncle (44)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Huntington disease, diagnosed this year.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt (38)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy; no bleeding problems.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt's son (9)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemophilia B (factor IX deficiency).</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">D5 0.45% NaCl IV at 1.25 times the maintenance rate. Encourage oral fluids.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Morphine 0.1 mg/kg IV every 3 hours (scheduled). Ketorolac 0.5 mg/kg IV every 6 hours for up to 48 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen by nasal cannula to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection and fever</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 75 mg/kg IV every 24 hours (blood cultures drawn). Acetaminophen 15 mg/kg PO every 6 hours as needed for fever.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Vital signs, SpO<sub>2</sub>, pain and sedation score every 2 hours. Spleen size every shift. CBC and reticulocyte count every morning.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse plans Marcus's care with the pediatric hospitalist and hematology team."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Request IV meperidine for breakthrough pain",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Monitor for new chest pain, cough, fast breathing or falling SpO₂",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Request a repeat hemoglobin electrophoresis each morning",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Check the spleen size and watch for sudden pallor or a drop in hemoglobin",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Place ice packs on the thighs and lower back between morphine doses",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Assess respiratory rate and sedation level before and after each morphine dose",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 2200 and the Vital Signs.",
+          "explanation": "<b>Meperidine (Contraindicated):</b> its metabolite normeperidine accumulates with repeated doses and lowers the seizure threshold; it is not used for sickle cell pain.<br><br><b>Watch for acute chest syndrome (Indicated):</b> it often develops 24 to 72 hours into an admission for a pain crisis: new chest pain, cough, fever, tachypnea, falling SpO₂ and a new infiltrate on X-ray.<br><br><b>Daily electrophoresis (Non-Essential):</b> his HbSS genotype does not change; the daily CBC and reticulocyte count track the anemia.<br><br><b>Spleen and pallor (Indicated):</b> splenic sequestration (sudden spleen enlargement trapping blood) and aplastic crisis (often after parvovirus B19) both cause a rapid fall in hemoglobin and need emergency care.<br><br><b>Ice packs (Contraindicated):</b> cold causes vasoconstriction and more sickling.<br><br><b>Respiratory rate and sedation (Indicated):</b> opioid-induced hypoventilation would worsen hypoxemia and sickling; increasing sedation comes before respiratory depression."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Marcus (diagnosed with sickle cell disease on newborn screening) arrives with his mother and father. Runny nose and mild cough for 2 days; has been drinking very little. Over the past 12 hours, worsening deep, throbbing pain in both thighs, knees and lower back; rates pain 8/10 on the FACES scale and refuses to walk. Irritable, guarding both legs. Mild scleral icterus and pale conjunctivae, which his mother says are “how his eyes usually look.” Oral mucous membranes dry; capillary refill 3 seconds. Lungs clear to auscultation bilaterally; no chest pain. Abdomen soft and non-tender; spleen not palpable. No focal neurologic deficits.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Family history: both parents are healthy and have sickle cell trait (HbAS). Marcus's mother says her 44-year-old brother was recently diagnosed with Huntington disease and asks whether Marcus could get it too. Marcus's father says his sister's 9-year-old son has hemophilia B. Pediatrician and hematology notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Laboratory results reviewed with hematology. Admitted to the pediatric unit for IV fluids, pain management and fever monitoring. Parents ask how sickle cell disease is inherited differently from Huntington disease and hemophilia B.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1600:</span><span class=\"nurse-note-text\">Transferred to the pediatric unit. Pain 8/10 despite acetaminophen given at home this morning. No chest pain; lungs clear. Spleen not palpable. Blood cultures drawn and IV access established. Parents ask, “Since we both carry the trait, what is the chance another baby would have sickle cell disease like Marcus?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1630:</span><span class=\"nurse-note-text\">Hematology admission orders received. Chest X-ray clear, no infiltrates. Marcus cries when his legs are moved and asks for a warm blanket.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\">Pain 4/10 (FACES); resting with a warm blanket. Oxygen 1 L/min by nasal cannula. Completed 10 incentive spirometer breaths with coaching. Urine output 1.8 mL/kg/hour. Lungs clear; no chest pain; no sudden pallor. Sedation score: awake and alert.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Age 6: 75–115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Age 6: 18–25 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b><br>Age 6: 90–110/55–75 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/58 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on 1 L/min nasal cannula</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (FACES, 0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Age 6–11 years: 115–145 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L (his usual: 86 g/L)</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>Age 6 years: 5.0–14.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.6 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Sickled red blood cells, target cells, Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin electrophoresis</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">At age 2: HbS 88%, HbF 10%, HbA<sub>2</sub> 2%, HbA 0%</td></tr></tbody></table>"
+            },
+            {
+              "id": "fh",
+              "title": "Family History",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Relative</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">History</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mother (34)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Father (36)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal grandmother</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Died at 58; involuntary movements and memory loss from her late 40s.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal uncle (44)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Huntington disease, diagnosed this year.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt (38)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy; no bleeding problems.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt's son (9)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemophilia B (factor IX deficiency).</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">D5 0.45% NaCl IV at 1.25 times the maintenance rate. Encourage oral fluids.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Morphine 0.1 mg/kg IV every 3 hours (scheduled). Ketorolac 0.5 mg/kg IV every 6 hours for up to 48 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen by nasal cannula to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection and fever</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 75 mg/kg IV every 24 hours (blood cultures drawn). Acetaminophen 15 mg/kg PO every 6 hours as needed for fever.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Vital signs, SpO<sub>2</sub>, pain and sedation score every 2 hours. Spleen size every shift. CBC and reticulocyte count every morning.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "It is 2200. Marcus has received IV fluids, ceftriaxone and scheduled morphine."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "The parents show understanding when they say they will bring Marcus to the emergency department for [[drop0]]. They understand that hydroxyurea prevents crises by [[drop1]]. Marcus's mother understands that if she carries the Huntington disease gene, each of her children has [[drop2]] of inheriting it.",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "a temperature of 38.5° C or higher, chest pain, fast breathing or sudden pallor",
+                    "correct": true
+                  },
+                  {
+                    "text": "a runny nose with a normal temperature",
+                    "correct": false
+                  },
+                  {
+                    "text": "yellow-tinged eyes that look the same as usual",
+                    "correct": false
+                  },
+                  {
+                    "text": "leg pain of 3/10 that eases with fluids, rest and ibuprofen",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "replacing the HbS allele with a normal beta-globin allele",
+                    "correct": false
+                  },
+                  {
+                    "text": "thinning the blood the way an anticoagulant does",
+                    "correct": false
+                  },
+                  {
+                    "text": "restoring the spleen's ability to filter bacteria",
+                    "correct": false
+                  },
+                  {
+                    "text": "raising fetal hemoglobin (HbF), which keeps HbS from polymerizing",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "a 50% chance for sons and no chance for daughters",
+                    "correct": false
+                  },
+                  {
+                    "text": "no chance unless she develops symptoms herself",
+                    "correct": false
+                  },
+                  {
+                    "text": "a 25% chance, the same as sickle cell disease",
+                    "correct": false
+                  },
+                  {
+                    "text": "a 50% chance, whether the child is a boy or a girl",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1000, the Vital Signs, the Laboratory Results, and the Discharge Plan.",
+          "explanation": "<b>When to come to the emergency department:</b> fever of 38.5° C or higher (sepsis risk without a working spleen), chest pain, cough or fast breathing (acute chest syndrome), sudden pallor, weakness or an enlarging abdomen (splenic sequestration or aplastic crisis), any neurologic change (stroke), priapism, or pain not relieved at home. Mild pain that settles with home measures, a cold without fever, and his usual mild icterus can be managed at home.<br><br><b>Hydroxyurea:</b> it raises fetal hemoglobin (HbF), which does not polymerize and dilutes HbS inside the red cell, so cells sickle less; crises, acute chest syndrome and transfusions become less frequent. It does not change his genes. It can lower blood counts, so CBCs are monitored.<br><br><b>Autosomal dominant inheritance:</b> one mutated allele is enough, so a parent who carries the gene passes it to each child with a 50% chance, regardless of sex. Carriers develop symptoms later in life, so not yet having symptoms does not rule it out. 25% applies to two carriers of a recessive condition; sex-limited risk applies to X-linked conditions."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400:</span><span class=\"nurse-note-text\">Marcus (diagnosed with sickle cell disease on newborn screening) arrives with his mother and father. Runny nose and mild cough for 2 days; has been drinking very little. Over the past 12 hours, worsening deep, throbbing pain in both thighs, knees and lower back; rates pain 8/10 on the FACES scale and refuses to walk. Irritable, guarding both legs. Mild scleral icterus and pale conjunctivae, which his mother says are “how his eyes usually look.” Oral mucous membranes dry; capillary refill 3 seconds. Lungs clear to auscultation bilaterally; no chest pain. Abdomen soft and non-tender; spleen not palpable. No focal neurologic deficits.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1415:</span><span class=\"nurse-note-text\">Family history: both parents are healthy and have sickle cell trait (HbAS). Marcus's mother says her 44-year-old brother was recently diagnosed with Huntington disease and asks whether Marcus could get it too. Marcus's father says his sister's 9-year-old son has hemophilia B. Pediatrician and hematology notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1500:</span><span class=\"nurse-note-text\">Laboratory results reviewed with hematology. Admitted to the pediatric unit for IV fluids, pain management and fever monitoring. Parents ask how sickle cell disease is inherited differently from Huntington disease and hemophilia B.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1600:</span><span class=\"nurse-note-text\">Transferred to the pediatric unit. Pain 8/10 despite acetaminophen given at home this morning. No chest pain; lungs clear. Spleen not palpable. Blood cultures drawn and IV access established. Parents ask, “Since we both carry the trait, what is the chance another baby would have sickle cell disease like Marcus?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1630:</span><span class=\"nurse-note-text\">Hematology admission orders received. Chest X-ray clear, no infiltrates. Marcus cries when his legs are moved and asks for a warm blanket.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">2200:</span><span class=\"nurse-note-text\">Pain 4/10 (FACES); resting with a warm blanket. Oxygen 1 L/min by nasal cannula. Completed 10 incentive spirometer breaths with coaching. Urine output 1.8 mL/kg/hour. Lungs clear; no chest pain; no sudden pallor. Sedation score: awake and alert.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1000:</span><span class=\"nurse-note-text\">Walking in the hallway without guarding; pain 1/10 on oral ibuprofen. Afebrile for 24 hours; blood cultures negative at 48 hours. Hematology recommends starting daily oral hydroxyurea, which the parents declined last year; they now agree. Discharge home today with hematology follow-up in 2 weeks. The nurse reviews the discharge plan with the parents.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1400</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1600</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">2200</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.3° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">37.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Age 6: 75–115 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">134 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">108 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Age 6: 18–25 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">26 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">28 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">20 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b><br>Age 6: 90–110/55–75 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">102/62 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/58 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">100/62 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">93% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">92% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on 1 L/min nasal cannula</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98% on room air</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain (FACES, 0–10)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">8</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1440</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 3 0600</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Age 6–11 years: 115–145 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L (his usual: 86 g/L)</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">83 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte percentage</b><br>0.5%–1.5%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.4%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.2%</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, direct (conjugated)</b><br>2–9 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">6 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>Age 6 years: 5.0–14.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">18.6 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">11.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Sickled red blood cells, target cells, Howell-Jolly bodies</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin electrophoresis</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">At age 2: HbS 88%, HbF 10%, HbA<sub>2</sub> 2%, HbA 0%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"></td></tr></tbody></table>"
+            },
+            {
+              "id": "fh",
+              "title": "Family History",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Relative</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">History</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mother (34)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Father (36)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy. Sickle cell trait (HbAS).</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal grandmother</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Died at 58; involuntary movements and memory loss from her late 40s.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal uncle (44)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Huntington disease, diagnosed this year.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt (38)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Healthy; no bleeding problems.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Paternal aunt's son (9)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Hemophilia B (factor IX deficiency).</td></tr></tbody></table>"
+            },
+            {
+              "id": "orders",
+              "title": "Orders",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fluids</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">D5 0.45% NaCl IV at 1.25 times the maintenance rate. Encourage oral fluids.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pain</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Morphine 0.1 mg/kg IV every 3 hours (scheduled). Ketorolac 0.5 mg/kg IV every 6 hours for up to 48 hours.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breathing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Oxygen by nasal cannula to keep SpO<sub>2</sub> 95% or higher. Incentive spirometry 10 breaths every 2 hours while awake.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection and fever</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Ceftriaxone 75 mg/kg IV every 24 hours (blood cultures drawn). Acetaminophen 15 mg/kg PO every 6 hours as needed for fever.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Monitoring</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Vital signs, SpO<sub>2</sub>, pain and sedation score every 2 hours. Spleen size every shift. CBC and reticulocyte count every morning.</td></tr></tbody></table>"
+            },
+            {
+              "id": "dc",
+              "title": "Discharge Plan",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Area</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hydroxyurea</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Once daily by mouth. CBC every 4 weeks at first (the dose is adjusted to blood counts). Handle capsules with gloves or wash hands after.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pneumococcal, meningococcal and yearly influenza vaccines up to date. Go to the emergency department for a temperature of 38.5° C or higher.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Preventing crises</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Plenty of fluids every day; avoid getting cold or overheated; dress warmly; rest when tired.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Genetic counselling offered to the parents about future pregnancies and to Marcus's mother about Huntington disease in her family.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "On hospital day 3, Marcus is ready for discharge."
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+    "description": "6-year-old boy with sickle cell disease (HbSS) in a vaso-occlusive crisis with fever; carrier parents and a family history of Huntington disease and hemophilia B, comparing autosomal recessive, autosomal dominant and X-linked recessive inheritance.",
+    "authorReview": {
+      "note": "Revised by Claude on 24 Nov 2026 from the author's draft (New Case Study 2). Please check: pediatric reference ranges (hemoglobin 115–145 g/L, WBC 5.0–14.5 × 10⁹/L, vital signs for age 6); fluid rate 1.25 × maintenance and fever threshold 38.5° C against local sickle cell protocols; hydroxyurea started at discharge after earlier refusal.",
+      "flaggedAt": "2026-11-24"
+    }
+  },
+  {
+    "id": "case_1782370000007",
+    "unit": "Unit 3 (Genetic and Developmental Disorders)",
+    "title": "NURS 1017 Unit 3 Case Study 7",
+    "topic": "Unit 3 (Genetic and Developmental Disorders)",
+    "course": "NURS 1017",
+    "screens": [
+      {
+        "step": 1,
+        "question": {
+          "stem": "The nurse reviews the client's history and assessment. Which findings are risk factors for a congenital anomaly in this pregnancy? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "No MMR vaccine, with fever, rash and swollen nodes behind the ears at 5 weeks of gestation",
+              "correct": true
+            },
+            {
+              "text": "No folic acid before conception",
+              "correct": true
+            },
+            {
+              "text": "Started a prenatal vitamin with iron at 10 weeks",
+              "correct": false
+            },
+            {
+              "text": "Valproic acid 500 mg twice daily throughout early pregnancy",
+              "correct": true
+            },
+            {
+              "text": "Isotretinoin 40 mg daily until 6 weeks of gestation",
+              "correct": true
+            },
+            {
+              "text": "BP 114/70 mm Hg and BMI 23.2 kg/m²",
+              "correct": false
+            },
+            {
+              "text": "Partner's sister's son was born with spina bifida",
+              "correct": true
+            },
+            {
+              "text": "Age 28 years, first pregnancy",
+              "correct": false
+            }
+          ],
+          "preamble": "",
+          "explanation": "<b>Risk factors:</b> isotretinoin (a vitamin A derivative) is one of the most potent known teratogens (Option 5). Rubella infection in early pregnancy can cross the placenta and cause congenital rubella syndrome; the rash, fever and posterior auricular nodes during an outbreak in a non-immune client suggest primary infection (Option 1). Valproic acid raises the risk of neural tube defects and other malformations and impairs brain development (Option 4). Folic acid taken before conception lowers the risk of neural tube defects; she had none, while taking a folate antagonist (Option 2). Neural tube defects are multifactorial: a relative with spina bifida (here, a cousin of the baby) adds some genetic susceptibility (Option 7).<br><br><b>Timing:</b> gestational age is counted from the last menstrual period, about 2 weeks before conception. The embryonic period, when organs form, runs from about 3 to 8 weeks after conception, or about 5 to 10 weeks of gestation. Her rubella infection, isotretinoin and valproic acid all overlapped it.<br><br><b>Not risk factors:</b> age 28 does not raise the risk of chromosomal conditions the way maternal age over 35 does (Option 8). BP and BMI are normal (Option 6). Starting a prenatal vitamin is healthy, though too late to prevent a neural tube defect (Option 3)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse in a maternal-fetal medicine clinic is completing a first prenatal visit for Elena, a 28-year-old client (G1P0) at 10 weeks and 2 days of gestation."
+        }
+      },
+      {
+        "step": 2,
+        "question": {
+          "stem": "The nurse prepares teaching about the possible effects of each exposure. For each fetal or newborn finding, click to specify whether it is most closely associated with <b>isotretinoin</b>, <b>rubella virus</b>, or <b>valproic acid</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Lumbosacral myelomeningocele",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Cataracts and sensorineural hearing loss",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Small or absent external ears and a small jaw",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Patent ductus arteriosus and purple “blueberry muffin” skin lesions",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Conotruncal heart defect with a small thymus",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Lower IQ and higher rates of autism spectrum disorder in childhood",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              }
+            ],
+            "columns": [
+              "Isotretinoin",
+              "Rubella Virus",
+              "Valproic Acid"
+            ],
+            "firstColumnHeader": "Fetal or Newborn Finding"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1100 and the Laboratory Results.",
+          "explanation": "<b>Isotretinoin:</b> a retinoid that disrupts neural crest cells, which form much of the face, ears, thymus and the heart's outflow tract. Typical findings are small or absent ears (microtia, anotia), a small jaw, conotruncal heart defects (such as tetralogy of Fallot), thymic hypoplasia and brain malformations.<br><br><b>Rubella virus:</b> a TORCH infection. Positive IgM with low-avidity IgG confirms a recent primary infection. Infection in the first trimester can cause congenital rubella syndrome: cataracts, sensorineural hearing loss and heart defects (especially patent ductus arteriosus), with growth restriction, microcephaly and purpuric skin lesions in the newborn.<br><br><b>Valproic acid:</b> antagonizes folate and disrupts neural tube closure, raising the risk of spina bifida (myelomeningocele) about tenfold; it also impairs brain development throughout pregnancy, lowering IQ and increasing autism spectrum disorder. Her level is therapeutic and her folate is low."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "Elena's prenatal laboratory results return."
+        }
+      },
+      {
+        "step": 3,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Isotretinoin, rubella virus and valproic acid are each a [[drop0]]: an outside agent that disrupts development without changing the genes the child will pass on. Because Elena's exposures occurred during [[drop1]], the main risk is a structural malformation. The nurse's priority regarding valproic acid is [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "mutagen",
+                    "correct": false
+                  },
+                  {
+                    "text": "allele",
+                    "correct": false
+                  },
+                  {
+                    "text": "mutation",
+                    "correct": false
+                  },
+                  {
+                    "text": "teratogen",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "the fetal period (from 9 weeks after conception)",
+                    "correct": false
+                  },
+                  {
+                    "text": "the third trimester",
+                    "correct": false
+                  },
+                  {
+                    "text": "the pre-implantation period (first 2 weeks after conception)",
+                    "correct": false
+                  },
+                  {
+                    "text": "the embryonic period (3 to 8 weeks after conception)",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "reassuring her that the risk ended once the neural tube closed",
+                    "correct": false
+                  },
+                  {
+                    "text": "advising her not to stop it on her own and arranging a prompt neurology review",
+                    "correct": true
+                  },
+                  {
+                    "text": "advising her to skip doses on days she feels well to lower fetal exposure",
+                    "correct": false
+                  },
+                  {
+                    "text": "advising her to stop it tonight because it is a known teratogen",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1145.",
+          "explanation": "<b>Teratogen:</b> an outside agent (medicine, infection, alcohol, radiation) that causes a congenital anomaly by disrupting development. The child's genes are unchanged, so the anomaly is not passed on to the child's own children. A mutagen changes DNA, and a mutation is a change in DNA.<br><br><b>Embryonic period:</b> about 3 to 8 weeks after conception (5 to 10 weeks of gestation), when the organs form, so exposures cause major structural malformations. Exposures in the first 2 weeks tend to have an all-or-none effect (pregnancy loss or no harm); in the fetal period they mainly affect growth and function, including brain development.<br><br><b>Valproic acid:</b> stopping an antiseizure medicine abruptly can cause seizures or status epilepticus, with maternal and fetal hypoxia, injury or pregnancy loss. Skipping doses has the same danger. The neural tube closes about 28 days after conception, but valproic acid still affects the developing brain, so its use is reviewed promptly by neurology. Any change is directed and supervised by the neurologist."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse responds to Elena's questions."
+        }
+      },
+      {
+        "step": 4,
+        "question": {
+          "stem": "Which interventions should the nurse include in Elena's plan of care? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "text": "Give the MMR vaccine today to protect the fetus from further rubella effects",
+              "correct": false
+            },
+            {
+              "text": "Teach Elena to take folic acid 4 mg daily and keep her MSAFP, anatomy ultrasound and fetal echocardiogram appointments",
+              "correct": true
+            },
+            {
+              "text": "Reinforce that Elena follows the neurologist's medication change plan rather than stopping on her own",
+              "correct": true
+            },
+            {
+              "text": "Confirm that Elena has stopped isotretinoin and returns any remaining capsules to the pharmacy",
+              "correct": true
+            },
+            {
+              "text": "Teach Elena to avoid alcohol, tobacco, and unnecessary X-rays or CT scans for the rest of the pregnancy",
+              "correct": true
+            },
+            {
+              "text": "Offer non-directive emotional support and confirm the genetic counselling appointment",
+              "correct": true
+            },
+            {
+              "text": "Tell Elena to stop all seizure medicines until after the baby is born",
+              "correct": false
+            }
+          ],
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1330 and the Care Plan.",
+          "explanation": "<b>Include:</b> confirming that isotretinoin has stopped prevents further exposure (Option 4). Following the neurologist's supervised plan protects mother and fetus from seizures (Option 3). Folic acid 4 mg daily is recommended in pregnancy for clients taking antiseizure medicines; it can no longer prevent a neural tube defect that would already have formed, so MSAFP and the anatomy ultrasound check for one, and the fetal echocardiogram checks the heart (Option 2). Non-directive counselling supports Elena while respecting her own decisions (Option 6). Avoiding alcohol (fetal alcohol spectrum disorder), tobacco (growth restriction) and unnecessary radiation prevents further harm (Option 5).<br><br><b>Do not include:</b> MMR is a live vaccine and is not given in pregnancy; it cannot treat an infection that has already occurred. A non-immune client receives it after delivery (Option 1). Stopping antiseizure medicine risks life-threatening seizures (Option 7)."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Neurology consultation completed: the neurologist begins a supervised change from valproic acid to levetiracetam, with seizure precautions and close follow-up. The maternal-fetal medicine specialist prescribes folic acid 4 mg PO daily and plans maternal serum alpha-fetoprotein (MSAFP) at 16 weeks and a detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks. A genetic counsellor will meet Elena and her partner.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "plan",
+              "title": "Care Plan",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal-fetal medicine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Confirm isotretinoin stopped and remaining capsules returned to the pharmacy. Folic acid 4 mg PO daily. MSAFP at 16 weeks; detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Supervised change from valproic acid to levetiracetam; seizure precautions; follow-up every 4 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetic counselling</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Non-directive counselling about the risks for this pregnancy, testing options and support.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prenatal nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Teaching on avoiding further teratogens (alcohol, tobacco, unnecessary radiation). MMR vaccine after delivery.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "The nurse works with maternal-fetal medicine, neurology and genetic counselling on Elena's plan of care."
+        }
+      },
+      {
+        "step": 5,
+        "question": {
+          "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+          "type": "matrix_mc",
+          "matrix": {
+            "rows": [
+              {
+                "text": "Give the MMR vaccine today so Elena becomes immune to rubella",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Reinforce taking levetiracetam as prescribed and reporting any seizure activity",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Request a maternal karyotype to check whether isotretinoin changed Elena's chromosomes",
+                "correctIndex": 1,
+                "correctIndices": [
+                  1
+                ]
+              },
+              {
+                "text": "Request an abdominal CT scan to give Elena a clearer picture of the baby",
+                "correctIndex": 2,
+                "correctIndices": [
+                  2
+                ]
+              },
+              {
+                "text": "Confirm the dates of the MSAFP, detailed anatomy ultrasound and fetal echocardiogram",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              },
+              {
+                "text": "Document a reminder to give the MMR vaccine after delivery",
+                "correctIndex": 0,
+                "correctIndices": [
+                  0
+                ]
+              }
+            ],
+            "columns": [
+              "Indicated",
+              "Non-Essential",
+              "Contraindicated"
+            ],
+            "firstColumnHeader": "Nursing Action"
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1015 (14 weeks) and the Vital Signs.",
+          "explanation": "<b>MMR today (Contraindicated):</b> live vaccines (MMR, varicella) are not given in pregnancy because of the theoretical risk to the fetus.<br><br><b>Seizure control (Indicated):</b> stable seizure control during and after the medication change prevents maternal and fetal hypoxia and injury.<br><br><b>Maternal karyotype (Non-Essential):</b> isotretinoin is a teratogen: it disrupts the embryo's development and does not change the mother's chromosomes. A karyotype would add nothing.<br><br><b>CT for a clearer picture (Contraindicated):</b> CT exposes the fetus to ionizing radiation, a physical teratogen, without any benefit here. Fetal anatomy is assessed with ultrasound (and MRI without gadolinium if needed). A single diagnostic CT is below the dose linked to malformations, so it is not withheld when truly needed, but it is never done for a picture of the baby.<br><br><b>Screening dates (Indicated):</b> MSAFP screens for open neural tube defects; the detailed anatomy ultrasound and fetal echocardiogram look for structural and heart defects.<br><br><b>MMR after delivery (Indicated):</b> it is safe during breastfeeding and protects future pregnancies from congenital rubella."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Neurology consultation completed: the neurologist begins a supervised change from valproic acid to levetiracetam, with seizure precautions and close follow-up. The maternal-fetal medicine specialist prescribes folic acid 4 mg PO daily and plans maternal serum alpha-fetoprotein (MSAFP) at 16 weeks and a detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks. A genetic counsellor will meet Elena and her partner.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015 (14 weeks):</span><span class=\"nurse-note-text\">Seizure-free during the change to levetiracetam; taking folic acid 4 mg daily. Fetal heart rate 152 beats/min by Doppler. Elena asks whether she could have “a CT scan for a clearer picture of the baby,” and whether her own chromosomes should be tested to see if the isotretinoin damaged them.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015 (14 weeks)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "plan",
+              "title": "Care Plan",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal-fetal medicine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Confirm isotretinoin stopped and remaining capsules returned to the pharmacy. Folic acid 4 mg PO daily. MSAFP at 16 weeks; detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Supervised change from valproic acid to levetiracetam; seizure precautions; follow-up every 4 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetic counselling</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Non-directive counselling about the risks for this pregnancy, testing options and support.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prenatal nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Teaching on avoiding further teratogens (alcohol, tobacco, unnecessary radiation). MMR vaccine after delivery.</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "At 14 weeks of gestation, Elena returns for prenatal follow-up."
+        }
+      },
+      {
+        "step": 6,
+        "question": {
+          "stem": "Complete the following sentences by choosing from the lists of options.",
+          "type": "dropdown_cloze",
+          "cloze": {
+            "text": "Elena shows understanding of her partner's family history when she describes spina bifida as [[drop0]]. To lower the risk of a congenital anomaly in a future pregnancy, Elena states she will [[drop1]]. She correctly explains that an anomaly caused by a teratogen [[drop2]].",
+            "dropdowns": [
+              {
+                "options": [
+                  {
+                    "text": "autosomal recessive: both parents must be carriers",
+                    "correct": false
+                  },
+                  {
+                    "text": "X-linked recessive: passed from carrier mothers to sons",
+                    "correct": false
+                  },
+                  {
+                    "text": "chromosomal: caused by an extra chromosome",
+                    "correct": false
+                  },
+                  {
+                    "text": "multifactorial: several genes interacting with factors such as folate",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "rely on an early ultrasound in her next pregnancy to prevent birth defects",
+                    "correct": false
+                  },
+                  {
+                    "text": "stop her seizure medicine as soon as she has a positive pregnancy test",
+                    "correct": false
+                  },
+                  {
+                    "text": "take folic acid and review her seizure medicine with neurology before trying to conceive",
+                    "correct": true
+                  },
+                  {
+                    "text": "get the MMR vaccine early in her next pregnancy, once it is confirmed",
+                    "correct": false
+                  }
+                ],
+                "placeholder": "Select..."
+              },
+              {
+                "options": [
+                  {
+                    "text": "will happen again in each of her future pregnancies",
+                    "correct": false
+                  },
+                  {
+                    "text": "changes the child's karyotype",
+                    "correct": false
+                  },
+                  {
+                    "text": "is passed on to half of the child's children",
+                    "correct": false
+                  },
+                  {
+                    "text": "is not passed on to the child's own children",
+                    "correct": true
+                  }
+                ],
+                "placeholder": "Select..."
+              }
+            ]
+          },
+          "preamble": "The nurse has reviewed the Nurses' Notes from 1400 (20 weeks) and the Diagnostic Results.",
+          "explanation": "<b>Multifactorial:</b> neural tube defects, cleft lip and palate and many heart defects come from several genes plus environmental factors (low folate, valproic acid, maternal diabetes). They do not follow Mendelian ratios; the risk rises modestly with each affected relative. Normal MSAFP and an intact spine on ultrasound make a neural tube defect very unlikely in this pregnancy.<br><br><b>Before the next pregnancy:</b> organs form 3 to 8 weeks after conception, often before a pregnancy is known, so prevention starts before conception: folic acid, a neurology review of antiseizure medicines, confirmed rubella immunity (MMR at least 4 weeks before conceiving, never during pregnancy), two forms of contraception during any isotretinoin treatment, and no alcohol. Stopping medicine abruptly is dangerous, and ultrasound detects anomalies but cannot prevent them.<br><br><b>Not inherited:</b> a teratogen changes development, not the child's genes, so the anomaly is not passed to the next generation. It recurs in a later pregnancy only if the exposure recurs. The ventricular septal defect and mild growth lag may relate to rubella or isotretinoin; the newborn will be assessed at birth."
+        },
+        "leftContent": {
+          "tabs": [
+            {
+              "id": "nn",
+              "title": "Nurses' Notes",
+              "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Neurology consultation completed: the neurologist begins a supervised change from valproic acid to levetiracetam, with seizure precautions and close follow-up. The maternal-fetal medicine specialist prescribes folic acid 4 mg PO daily and plans maternal serum alpha-fetoprotein (MSAFP) at 16 weeks and a detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks. A genetic counsellor will meet Elena and her partner.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015 (14 weeks):</span><span class=\"nurse-note-text\">Seizure-free during the change to levetiracetam; taking folic acid 4 mg daily. Fetal heart rate 152 beats/min by Doppler. Elena asks whether she could have “a CT scan for a clearer picture of the baby,” and whether her own chromosomes should be tested to see if the isotretinoin damaged them.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (20 weeks):</span><span class=\"nurse-note-text\">Results reviewed with Elena and her partner. Elena remains seizure-free on levetiracetam. The nurse reviews what Elena has learned about the causes of congenital anomalies and planning for a future pregnancy.</span></p>"
+            },
+            {
+              "id": "vs",
+              "title": "Vital Signs",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015 (14 weeks)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+            },
+            {
+              "id": "labs",
+              "title": "Laboratory Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+            },
+            {
+              "id": "plan",
+              "title": "Care Plan",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal-fetal medicine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Confirm isotretinoin stopped and remaining capsules returned to the pharmacy. Folic acid 4 mg PO daily. MSAFP at 16 weeks; detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Supervised change from valproic acid to levetiracetam; seizure precautions; follow-up every 4 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetic counselling</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Non-directive counselling about the risks for this pregnancy, testing options and support.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prenatal nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Teaching on avoiding further teratogens (alcohol, tobacco, unnecessary radiation). MMR vaccine after delivery.</td></tr></tbody></table>"
+            },
+            {
+              "id": "mfm",
+              "title": "Diagnostic Results",
+              "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>MSAFP (16 weeks)</b><br>Below 2.5 MoM</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.1 MoM</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">None</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Detailed anatomy ultrasound (19 weeks)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Spine and skull intact. Estimated fetal weight at the 12th percentile, symmetric.</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Growth ultrasound every 4 weeks</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fetal echocardiogram (19 weeks)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small muscular ventricular septal defect; normal outflow tracts.</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pediatric cardiology assessment after birth</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Newborn plan</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">First-trimester maternal rubella</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Newborn rubella PCR and IgM, hearing test and eye examination at birth</td></tr></tbody></table>"
+            }
+          ],
+          "intro": "At 20 weeks of gestation, Elena returns to review her test results."
+        }
+      }
+    ],
+    "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+    "description": "28-year-old client at 10 weeks of gestation exposed to isotretinoin, primary rubella and valproic acid, with a family history of spina bifida: teratogens versus mutations, timing of exposure, multifactorial disorders and preconception prevention.",
+    "authorReview": {
+      "note": "Revised by Claude on 24 Nov 2026 from the author's draft (New Case Study 3). Clinician review needed: switching from valproic acid to levetiracetam at 10 weeks of gestation (practice varies once organogenesis is largely over; kept from the author's draft, framed as the neurologist's decision); folic acid 4 mg daily for clients on antiseizure medicines (Canadian guidance); the CT rationale (single diagnostic CT below the 50 mGy threshold).",
+      "flaggedAt": "2026-11-24"
+    }
   }
 ];
 
