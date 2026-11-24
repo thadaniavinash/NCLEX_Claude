@@ -3,6 +3,8 @@
 // PDF is git-ignored, don't commit it (it holds the answer keys).
 // Usage: node drafts/build_casebook_pdf.js "NURS 1017" 3 [--standalone] [output.pdf]
 //   --standalone  also adds the unit's stand-alone questions after the case studies.
+//   --from a.json,b.json  uses these draft items (one item or an array per file) instead of cases-data.js.
+//   --title "..."  replaces the cover title.
 //   Default output: <Course>_Unit_<n>_Case_Studies.pdf in the current folder.
 // The chart only grows from screen to screen, so screen 1 shows it in full and later
 // screens show the tabs (matched by title; ids differ in older cases) and entries that are new or changed (the rest is listed by name).
@@ -15,12 +17,16 @@ try { playwright = require('playwright'); } catch {
 const ROOT = path.resolve(__dirname, '..');
 const args = process.argv.slice(2);
 const WITH_STANDALONE = args.includes('--standalone');
+const optValue = name => { const i = args.indexOf(name); if (i < 0) return null; const v = args[i + 1]; args.splice(i, 2); return v; };
+const FROM = optValue('--from');
+const TITLE = optValue('--title');
+const FROM_ITEMS = FROM ? FROM.split(',').flatMap(f => [].concat(JSON.parse(require('fs').readFileSync(f, 'utf8')))) : null;
 const [COURSE, UNIT, outArg] = args.filter(a => a !== '--standalone');
 if (!COURSE || !/^\d+$/.test(UNIT || '')) {
   console.error('Usage: node drafts/build_casebook_pdf.js "NURS 1017" 3 [--standalone] [output.pdf]');
   process.exit(1);
 }
-const LABEL = `${COURSE} Unit ${UNIT} Case Studies`;
+const LABEL = TITLE || `${COURSE} Unit ${UNIT} Case Studies`;
 const OUT = path.resolve(outArg || `${COURSE.replace(/\s+/g, '_')}_Unit_${UNIT}_Case_Studies.pdf`);
 
 const CSS = `
@@ -80,7 +86,13 @@ const STEPS = ['Recognize cues', 'Analyze cues', 'Prioritize hypotheses', 'Gener
   const browser = await playwright.chromium.launch();
   const page = await browser.newPage();
   await page.setContent('<!doctype html><html><head><meta charset="utf-8"></head><body></body></html>');
-  await page.addScriptTag({ path: path.join(ROOT, 'cases-data.js') });
+  if (FROM_ITEMS) {
+    await page.evaluate(items => {
+      window.NCLEX_CASES = items.filter(i => !i.isStandalone);
+      window.NCLEX_STANDALONE = items.filter(i => i.isStandalone);
+      window.CASEBOOK_SOURCE = 'draft files';
+    }, FROM_ITEMS);
+  } else await page.addScriptTag({ path: path.join(ROOT, 'cases-data.js') });
   const found = await page.evaluate(({ CSS, TYPE_NAMES, STEPS, COURSE, UNIT, LABEL, WITH_STANDALONE }) => {
     const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const inUnit = c => c.course === COURSE && new RegExp(`^Unit ${UNIT}\\b`).test(c.unit || '');
@@ -157,7 +169,7 @@ const STEPS = ['Recognize cues', 'Analyze cues', 'Prioritize hypotheses', 'Gener
       Each screen shows the chart, the question as students see it, the answer key and the rationale. The chart only grows
       as a case unfolds: screen 1 shows it in full; later screens show the tabs and entries that are new or changed, and
       list the tabs that are unchanged.</p><ol>${all.map(c => `<li>${esc(c.title)}<br><span class="muted" style="font-size:10pt">${esc(c.description || '')}</span></li>`).join('')}</ol>
-      <p class="muted" style="font-size:9pt">Source: question bank backup (cases-data.js), ${new Date().toISOString().slice(0, 10)}.</p></div>`;
+      <p class="muted" style="font-size:9pt">Source: ${window.CASEBOOK_SOURCE || 'question bank backup (cases-data.js)'}, ${new Date().toISOString().slice(0, 10)}.</p></div>`;
 
     all.forEach(c => {
       html += `<section class="case"><h2>${esc(c.title)}</h2><div class="case-meta">${esc(c.description || '')}</div>`;

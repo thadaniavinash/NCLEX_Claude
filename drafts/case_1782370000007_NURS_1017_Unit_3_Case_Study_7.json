@@ -1,0 +1,509 @@
+{
+  "id": "case_1782370000007",
+  "title": "NURS 1017 Unit 3 Case Study 7",
+  "course": "NURS 1017",
+  "unit": "Unit 3 (Genetic and Developmental Disorders)",
+  "topic": "Unit 3 (Genetic and Developmental Disorders)",
+  "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+  "description": "28-year-old client at 10 weeks of gestation exposed to isotretinoin, primary rubella and valproic acid, with a family history of spina bifida: teratogens versus mutations, timing of exposure, multifactorial disorders and preconception prevention.",
+  "draft": true,
+  "authorReview": {
+    "note": "Revised by Claude on 24 Nov 2026 from the author's draft (New Case Study 3). Clinician review needed: switching from valproic acid to levetiracetam at 10 weeks of gestation (practice varies once organogenesis is largely over; kept from the author's draft, framed as the neurologist's decision); folic acid 4 mg daily for clients on antiseizure medicines (Canadian guidance); the CT rationale (single diagnostic CT below the 50 mGy threshold).",
+    "flaggedAt": "2026-11-24"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in a maternal-fetal medicine clinic is completing a first prenatal visit for Elena, a 28-year-old client (G1P0) at 10 weeks and 2 days of gestation.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "stem": "The nurse reviews the client's history and assessment. Which findings are risk factors for a congenital anomaly in this pregnancy? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "No MMR vaccine, with fever, rash and swollen nodes behind the ears at 5 weeks of gestation",
+            "correct": true
+          },
+          {
+            "text": "No folic acid before conception",
+            "correct": true
+          },
+          {
+            "text": "Started a prenatal vitamin with iron at 10 weeks",
+            "correct": false
+          },
+          {
+            "text": "Valproic acid 500 mg twice daily throughout early pregnancy",
+            "correct": true
+          },
+          {
+            "text": "Isotretinoin 40 mg daily until 6 weeks of gestation",
+            "correct": true
+          },
+          {
+            "text": "BP 114/70 mm Hg and BMI 23.2 kg/m²",
+            "correct": false
+          },
+          {
+            "text": "Partner's sister's son was born with spina bifida",
+            "correct": true
+          },
+          {
+            "text": "Age 28 years, first pregnancy",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Risk factors:</b> isotretinoin (a vitamin A derivative) is one of the most potent known teratogens (Option 5). Rubella infection in early pregnancy can cross the placenta and cause congenital rubella syndrome; the rash, fever and posterior auricular nodes during an outbreak in a non-immune client suggest primary infection (Option 1). Valproic acid raises the risk of neural tube defects and other malformations and impairs brain development (Option 4). Folic acid taken before conception lowers the risk of neural tube defects; she had none, while taking a folate antagonist (Option 2). Neural tube defects are multifactorial: a relative with spina bifida (here, a cousin of the baby) adds some genetic susceptibility (Option 7).<br><br><b>Timing:</b> gestational age is counted from the last menstrual period, about 2 weeks before conception. The embryonic period, when organs form, runs from about 3 to 8 weeks after conception, or about 5 to 10 weeks of gestation. Her rubella infection, isotretinoin and valproic acid all overlapped it.<br><br><b>Not risk factors:</b> age 28 does not raise the risk of chromosomal conditions the way maternal age over 35 does (Option 8). BP and BMI are normal (Option 6). Starting a prenatal vitamin is healthy, though too late to prevent a neural tube defect (Option 3).",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "Elena's prenatal laboratory results return.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1100 and the Laboratory Results.",
+        "stem": "The nurse prepares teaching about the possible effects of each exposure. For each fetal or newborn finding, click to specify whether it is most closely associated with <b>isotretinoin</b>, <b>rubella virus</b>, or <b>valproic acid</b>.",
+        "matrix": {
+          "firstColumnHeader": "Fetal or Newborn Finding",
+          "columns": [
+            "Isotretinoin",
+            "Rubella Virus",
+            "Valproic Acid"
+          ],
+          "rows": [
+            {
+              "text": "Lumbosacral myelomeningocele",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Cataracts and sensorineural hearing loss",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Small or absent external ears and a small jaw",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Patent ductus arteriosus and purple “blueberry muffin” skin lesions",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Conotruncal heart defect with a small thymus",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Lower IQ and higher rates of autism spectrum disorder in childhood",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Isotretinoin:</b> a retinoid that disrupts neural crest cells, which form much of the face, ears, thymus and the heart's outflow tract. Typical findings are small or absent ears (microtia, anotia), a small jaw, conotruncal heart defects (such as tetralogy of Fallot), thymic hypoplasia and brain malformations.<br><br><b>Rubella virus:</b> a TORCH infection. Positive IgM with low-avidity IgG confirms a recent primary infection. Infection in the first trimester can cause congenital rubella syndrome: cataracts, sensorineural hearing loss and heart defects (especially patent ductus arteriosus), with growth restriction, microcephaly and purpuric skin lesions in the newborn.<br><br><b>Valproic acid:</b> antagonizes folate and disrupts neural tube closure, raising the risk of spina bifida (myelomeningocele) about tenfold; it also impairs brain development throughout pregnancy, lowering IQ and increasing autism spectrum disorder. Her level is therapeutic and her folate is low."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse responds to Elena's questions.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1145.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "Isotretinoin, rubella virus and valproic acid are each a [[drop0]]: an outside agent that disrupts development without changing the genes the child will pass on. Because Elena's exposures occurred during [[drop1]], the main risk is a structural malformation. The nurse's priority regarding valproic acid is [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "mutagen",
+                  "correct": false
+                },
+                {
+                  "text": "allele",
+                  "correct": false
+                },
+                {
+                  "text": "mutation",
+                  "correct": false
+                },
+                {
+                  "text": "teratogen",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "the fetal period (from 9 weeks after conception)",
+                  "correct": false
+                },
+                {
+                  "text": "the third trimester",
+                  "correct": false
+                },
+                {
+                  "text": "the pre-implantation period (first 2 weeks after conception)",
+                  "correct": false
+                },
+                {
+                  "text": "the embryonic period (3 to 8 weeks after conception)",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "reassuring her that the risk ended once the neural tube closed",
+                  "correct": false
+                },
+                {
+                  "text": "advising her not to stop it on her own and arranging a prompt neurology review",
+                  "correct": true
+                },
+                {
+                  "text": "advising her to skip doses on days she feels well to lower fetal exposure",
+                  "correct": false
+                },
+                {
+                  "text": "advising her to stop it tonight because it is a known teratogen",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Teratogen:</b> an outside agent (medicine, infection, alcohol, radiation) that causes a congenital anomaly by disrupting development. The child's genes are unchanged, so the anomaly is not passed on to the child's own children. A mutagen changes DNA, and a mutation is a change in DNA.<br><br><b>Embryonic period:</b> about 3 to 8 weeks after conception (5 to 10 weeks of gestation), when the organs form, so exposures cause major structural malformations. Exposures in the first 2 weeks tend to have an all-or-none effect (pregnancy loss or no harm); in the fetal period they mainly affect growth and function, including brain development.<br><br><b>Valproic acid:</b> stopping an antiseizure medicine abruptly can cause seizures or status epilepticus, with maternal and fetal hypoxia, injury or pregnancy loss. Skipping doses has the same danger. The neural tube closes about 28 days after conception, but valproic acid still affects the developing brain, so its use is reviewed promptly by neurology. Any change is directed and supervised by the neurologist."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse works with maternal-fetal medicine, neurology and genetic counselling on Elena's plan of care.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Neurology consultation completed: the neurologist begins a supervised change from valproic acid to levetiracetam, with seizure precautions and close follow-up. The maternal-fetal medicine specialist prescribes folic acid 4 mg PO daily and plans maternal serum alpha-fetoprotein (MSAFP) at 16 weeks and a detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks. A genetic counsellor will meet Elena and her partner.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "plan",
+            "title": "Care Plan",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal-fetal medicine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Confirm isotretinoin stopped and remaining capsules returned to the pharmacy. Folic acid 4 mg PO daily. MSAFP at 16 weeks; detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Supervised change from valproic acid to levetiracetam; seizure precautions; follow-up every 4 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetic counselling</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Non-directive counselling about the risks for this pregnancy, testing options and support.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prenatal nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Teaching on avoiding further teratogens (alcohol, tobacco, unnecessary radiation). MMR vaccine after delivery.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1330 and the Care Plan.",
+        "stem": "Which interventions should the nurse include in Elena's plan of care? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Give the MMR vaccine today to protect the fetus from further rubella effects",
+            "correct": false
+          },
+          {
+            "text": "Teach Elena to take folic acid 4 mg daily and keep her MSAFP, anatomy ultrasound and fetal echocardiogram appointments",
+            "correct": true
+          },
+          {
+            "text": "Reinforce that Elena follows the neurologist's medication change plan rather than stopping on her own",
+            "correct": true
+          },
+          {
+            "text": "Confirm that Elena has stopped isotretinoin and returns any remaining capsules to the pharmacy",
+            "correct": true
+          },
+          {
+            "text": "Teach Elena to avoid alcohol, tobacco, and unnecessary X-rays or CT scans for the rest of the pregnancy",
+            "correct": true
+          },
+          {
+            "text": "Offer non-directive emotional support and confirm the genetic counselling appointment",
+            "correct": true
+          },
+          {
+            "text": "Tell Elena to stop all seizure medicines until after the baby is born",
+            "correct": false
+          }
+        ],
+        "explanation": "<b>Include:</b> confirming that isotretinoin has stopped prevents further exposure (Option 4). Following the neurologist's supervised plan protects mother and fetus from seizures (Option 3). Folic acid 4 mg daily is recommended in pregnancy for clients taking antiseizure medicines; it can no longer prevent a neural tube defect that would already have formed, so MSAFP and the anatomy ultrasound check for one, and the fetal echocardiogram checks the heart (Option 2). Non-directive counselling supports Elena while respecting her own decisions (Option 6). Avoiding alcohol (fetal alcohol spectrum disorder), tobacco (growth restriction) and unnecessary radiation prevents further harm (Option 5).<br><br><b>Do not include:</b> MMR is a live vaccine and is not given in pregnancy; it cannot treat an infection that has already occurred. A non-immune client receives it after delivery (Option 1). Stopping antiseizure medicine risks life-threatening seizures (Option 7)."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "At 14 weeks of gestation, Elena returns for prenatal follow-up.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Neurology consultation completed: the neurologist begins a supervised change from valproic acid to levetiracetam, with seizure precautions and close follow-up. The maternal-fetal medicine specialist prescribes folic acid 4 mg PO daily and plans maternal serum alpha-fetoprotein (MSAFP) at 16 weeks and a detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks. A genetic counsellor will meet Elena and her partner.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015 (14 weeks):</span><span class=\"nurse-note-text\">Seizure-free during the change to levetiracetam; taking folic acid 4 mg daily. Fetal heart rate 152 beats/min by Doppler. Elena asks whether she could have “a CT scan for a clearer picture of the baby,” and whether her own chromosomes should be tested to see if the isotretinoin damaged them.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015 (14 weeks)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "plan",
+            "title": "Care Plan",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal-fetal medicine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Confirm isotretinoin stopped and remaining capsules returned to the pharmacy. Folic acid 4 mg PO daily. MSAFP at 16 weeks; detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Supervised change from valproic acid to levetiracetam; seizure precautions; follow-up every 4 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetic counselling</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Non-directive counselling about the risks for this pregnancy, testing options and support.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prenatal nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Teaching on avoiding further teratogens (alcohol, tobacco, unnecessary radiation). MMR vaccine after delivery.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1015 (14 weeks) and the Vital Signs.",
+        "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+        "matrix": {
+          "firstColumnHeader": "Nursing Action",
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "rows": [
+            {
+              "text": "Give the MMR vaccine today so Elena becomes immune to rubella",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Reinforce taking levetiracetam as prescribed and reporting any seizure activity",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Request a maternal karyotype to check whether isotretinoin changed Elena's chromosomes",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Request an abdominal CT scan to give Elena a clearer picture of the baby",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Confirm the dates of the MSAFP, detailed anatomy ultrasound and fetal echocardiogram",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Document a reminder to give the MMR vaccine after delivery",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>MMR today (Contraindicated):</b> live vaccines (MMR, varicella) are not given in pregnancy because of the theoretical risk to the fetus.<br><br><b>Seizure control (Indicated):</b> stable seizure control during and after the medication change prevents maternal and fetal hypoxia and injury.<br><br><b>Maternal karyotype (Non-Essential):</b> isotretinoin is a teratogen: it disrupts the embryo's development and does not change the mother's chromosomes. A karyotype would add nothing.<br><br><b>CT for a clearer picture (Contraindicated):</b> CT exposes the fetus to ionizing radiation, a physical teratogen, without any benefit here. Fetal anatomy is assessed with ultrasound (and MRI without gadolinium if needed). A single diagnostic CT is below the dose linked to malformations, so it is not withheld when truly needed, but it is never done for a picture of the baby.<br><br><b>Screening dates (Indicated):</b> MSAFP screens for open neural tube defects; the detailed anatomy ultrasound and fetal echocardiogram look for structural and heart defects.<br><br><b>MMR after delivery (Indicated):</b> it is safe during breastfeeding and protects future pregnancies from congenital rubella."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "At 20 weeks of gestation, Elena returns to review her test results.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">First prenatal visit; positive home pregnancy test 4 weeks ago. Dating ultrasound this morning: single live intrauterine pregnancy, 10 weeks 2 days. Juvenile myoclonic epilepsy controlled with valproic acid 500 mg PO twice daily; seizure-free for 2 years. Did not take folic acid before conception. Took isotretinoin 40 mg PO daily for severe cystic acne until 6 weeks of gestation, stopping when her pregnancy test was positive. Works at a preschool; never received the MMR vaccine. At 5 weeks of gestation, during a confirmed rubella outbreak at work, she had 3 days of low-grade fever, swollen lymph nodes behind her ears and a fine pink rash. Started a prenatal vitamin with iron at 10 weeks. Denies alcohol, tobacco and drug use. BMI 23.2 kg/m<sup>2</sup>.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0920:</span><span class=\"nurse-note-text\">Family history: her partner's sister's son was born with spina bifida. Elena is anxious and asks, “Did these medicines and that rash change my baby's DNA? Should I stop my seizure pills right now?” Maternal-fetal medicine specialist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1100:</span><span class=\"nurse-note-text\">Prenatal laboratory results reviewed with the maternal-fetal medicine specialist, who explains the possible effects of each exposure and plans detailed fetal assessment. Elena has had no seizures.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1145:</span><span class=\"nurse-note-text\">Elena is tearful: “Should I throw away my valproic acid tonight so I don't hurt the baby any more? And if the baby has a birth defect from the acne pills or the rubella, will the baby pass it on to their own children?” The nurse stays with Elena and answers her questions.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1330:</span><span class=\"nurse-note-text\">Neurology consultation completed: the neurologist begins a supervised change from valproic acid to levetiracetam, with seizure precautions and close follow-up. The maternal-fetal medicine specialist prescribes folic acid 4 mg PO daily and plans maternal serum alpha-fetoprotein (MSAFP) at 16 weeks and a detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks. A genetic counsellor will meet Elena and her partner.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1015 (14 weeks):</span><span class=\"nurse-note-text\">Seizure-free during the change to levetiracetam; taking folic acid 4 mg daily. Fetal heart rate 152 beats/min by Doppler. Elena asks whether she could have “a CT scan for a clearer picture of the baby,” and whether her own chromosomes should be tested to see if the isotretinoin damaged them.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1400 (20 weeks):</span><span class=\"nurse-note-text\">Results reviewed with Elena and her partner. Elena remains seizure-free on levetiracetam. The nurse reviews what Elena has learned about the causes of congenital anomalies and planning for a future pregnancy.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1015 (14 weeks)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">110/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "labs",
+            "title": "Laboratory Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgM</b><br>Negative</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Positive</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Rubella IgG avidity</b><br>High avidity: past infection or immunization</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Low avidity</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Valproic acid</b><br>350–700 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">471 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Folate (folic acid)</b><br>≥ 10.0 nmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9.5 nmol/L</td></tr></tbody></table>"
+          },
+          {
+            "id": "plan",
+            "title": "Care Plan",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Maternal-fetal medicine</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Confirm isotretinoin stopped and remaining capsules returned to the pharmacy. Folic acid 4 mg PO daily. MSAFP at 16 weeks; detailed anatomy ultrasound and fetal echocardiogram at 18 to 20 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neurology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Supervised change from valproic acid to levetiracetam; seizure precautions; follow-up every 4 weeks.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Genetic counselling</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Non-directive counselling about the risks for this pregnancy, testing options and support.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prenatal nursing</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Teaching on avoiding further teratogens (alcohol, tobacco, unnecessary radiation). MMR vaccine after delivery.</td></tr></tbody></table>"
+          },
+          {
+            "id": "mfm",
+            "title": "Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>MSAFP (16 weeks)</b><br>Below 2.5 MoM</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.1 MoM</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">None</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Detailed anatomy ultrasound (19 weeks)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Spine and skull intact. Estimated fetal weight at the 12th percentile, symmetric.</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Growth ultrasound every 4 weeks</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Fetal echocardiogram (19 weeks)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small muscular ventricular septal defect; normal outflow tracts.</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Pediatric cardiology assessment after birth</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Newborn plan</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">First-trimester maternal rubella</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Newborn rubella PCR and IgM, hearing test and eye examination at birth</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1400 (20 weeks) and the Diagnostic Results.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "Elena shows understanding of her partner's family history when she describes spina bifida as [[drop0]]. To lower the risk of a congenital anomaly in a future pregnancy, Elena states she will [[drop1]]. She correctly explains that an anomaly caused by a teratogen [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "autosomal recessive: both parents must be carriers",
+                  "correct": false
+                },
+                {
+                  "text": "X-linked recessive: passed from carrier mothers to sons",
+                  "correct": false
+                },
+                {
+                  "text": "chromosomal: caused by an extra chromosome",
+                  "correct": false
+                },
+                {
+                  "text": "multifactorial: several genes interacting with factors such as folate",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "rely on an early ultrasound in her next pregnancy to prevent birth defects",
+                  "correct": false
+                },
+                {
+                  "text": "stop her seizure medicine as soon as she has a positive pregnancy test",
+                  "correct": false
+                },
+                {
+                  "text": "take folic acid and review her seizure medicine with neurology before trying to conceive",
+                  "correct": true
+                },
+                {
+                  "text": "get the MMR vaccine early in her next pregnancy, once it is confirmed",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "will happen again in each of her future pregnancies",
+                  "correct": false
+                },
+                {
+                  "text": "changes the child's karyotype",
+                  "correct": false
+                },
+                {
+                  "text": "is passed on to half of the child's children",
+                  "correct": false
+                },
+                {
+                  "text": "is not passed on to the child's own children",
+                  "correct": true
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Multifactorial:</b> neural tube defects, cleft lip and palate and many heart defects come from several genes plus environmental factors (low folate, valproic acid, maternal diabetes). They do not follow Mendelian ratios; the risk rises modestly with each affected relative. Normal MSAFP and an intact spine on ultrasound make a neural tube defect very unlikely in this pregnancy.<br><br><b>Before the next pregnancy:</b> organs form 3 to 8 weeks after conception, often before a pregnancy is known, so prevention starts before conception: folic acid, a neurology review of antiseizure medicines, confirmed rubella immunity (MMR at least 4 weeks before conceiving, never during pregnancy), two forms of contraception during any isotretinoin treatment, and no alcohol. Stopping medicine abruptly is dangerous, and ultrasound detects anomalies but cannot prevent them.<br><br><b>Not inherited:</b> a teratogen changes development, not the child's genes, so the anomaly is not passed to the next generation. It recurs in a later pregnancy only if the exposure recurs. The ventricular septal defect and mild growth lag may relate to rubella or isotretinoin; the newborn will be assessed at birth."
+      }
+    }
+  ]
+}

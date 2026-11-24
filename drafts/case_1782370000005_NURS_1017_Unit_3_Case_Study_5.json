@@ -1,0 +1,509 @@
+{
+  "id": "case_1782370000005",
+  "title": "NURS 1017 Unit 3 Case Study 5",
+  "course": "NURS 1017",
+  "unit": "Unit 3 (Genetic and Developmental Disorders)",
+  "topic": "Unit 3 (Genetic and Developmental Disorders)",
+  "disorder": "Unit 3 (Genetic and Developmental Disorders)",
+  "description": "15-year-old female with short stature, no puberty, webbed neck and an arm-to-leg BP gradient: Turner syndrome (45,X) with coarctation of the aorta, compared with Klinefelter and Down syndromes, through endocrine and cardiac care.",
+  "draft": true,
+  "authorReview": {
+    "note": "Revised by Claude on 24 Nov 2026 from the author's draft (New Case Study 1). Please check: SI lab values and adult reference ranges for FSH, LH and estradiol; growth hormone started at a bone age of 12.5 years alongside estrogen; Tanner stage 2 pubic hair used as a distractor (adrenarche is normal in Turner syndrome).",
+    "flaggedAt": "2026-11-24"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "leftContent": {
+        "intro": "The nurse in a pediatric endocrinology clinic is assessing Chloe, a 15-year-old female client referred by her primary care provider for short stature and no menstrual periods.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "stem": "The nurse reviews the client's history and assessment. Which of the following findings would be consistent with <b>Turner syndrome</b>? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Temperature 36.7° C and SpO₂ 99% on room air",
+            "correct": false
+          },
+          {
+            "text": "Webbed neck, low posterior hairline, and broad chest with widely spaced nipples",
+            "correct": true
+          },
+          {
+            "text": "Height of 142 cm, below the 3rd percentile for age",
+            "correct": true
+          },
+          {
+            "text": "No breast development (Tanner stage 1) and no menstrual periods at age 15",
+            "correct": true
+          },
+          {
+            "text": "Tanner stage 2 pubic hair",
+            "correct": false
+          },
+          {
+            "text": "Difficulty with visual-spatial math despite strong overall grades",
+            "correct": true
+          },
+          {
+            "text": "No history of headaches or changes in vision",
+            "correct": false
+          },
+          {
+            "text": "Right arm BP 138/84 mm Hg, right thigh BP 98/60 mm Hg, and weak, delayed femoral pulses",
+            "correct": true
+          }
+        ],
+        "explanation": "<b>Consistent with Turner syndrome (45,X):</b> short stature is the most constant feature (Option 3). Streak ovaries make too little estrogen, so breasts do not develop and menstruation does not begin (Option 4). Lymphatic swelling before birth leaves a webbed neck and low hairline, with a broad, shield-like chest (Option 2).<br><br>Higher blood pressure in the arms than in the legs, with weak, delayed femoral pulses, points to <b>coarctation of the aorta</b>, a heart defect common in Turner syndrome (Option 8). Normally, thigh BP is equal to or higher than arm BP.<br><br>Intelligence is usually normal, but many girls with Turner syndrome have a specific difficulty with visual-spatial tasks such as geometry (Option 6).<br><br><b>Not consistent:</b> pubic hair comes from adrenal androgens (adrenarche), which Turner syndrome does not affect, so Tanner stage 2 pubic hair does not point to it (Option 5). No headaches or vision changes makes a pituitary tumor less likely as a cause of delayed puberty, but says nothing for or against Turner syndrome (Option 7). Temperature and SpO₂ are normal (Option 1).",
+        "preamble": ""
+      }
+    },
+    {
+      "step": 2,
+      "leftContent": {
+        "intro": "Two weeks later, Chloe and her mother return to review the karyotype, hormone levels, pelvic ultrasound and echocardiogram.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1030 (Week 2) and the Diagnostic Results.",
+        "stem": "The nurse prepares teaching that compares sex chromosome disorders. For each characteristic, click to specify whether it applies to <b>Turner syndrome (45,X)</b>, <b>Klinefelter syndrome (47,XXY)</b>, or <b>both</b>.",
+        "matrix": {
+          "firstColumnHeader": "Characteristic",
+          "columns": [
+            "Turner Syndrome (45,X)",
+            "Klinefelter Syndrome (47,XXY)",
+            "Both"
+          ],
+          "rows": [
+            {
+              "text": "45 chromosomes; short stature and webbed neck",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Primary gonadal failure with high FSH and LH, and infertility in most affected individuals",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "47 chromosomes; tall stature, small firm testes, and gynecomastia",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Coarctation of the aorta, bicuspid aortic valve, and horseshoe kidney",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Usually arises by chance from an error in chromosome separation, not from an inherited single-gene mutation",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Low testosterone, sparse facial and body hair, and language-based learning difficulties",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Turner syndrome (45,X):</b> one X chromosome is missing (monosomy X), so cells have 45 chromosomes. Loss of genes on the second X causes short stature, a webbed neck, a shield chest, streak ovaries, a horseshoe kidney, and heart defects (coarctation of the aorta, bicuspid aortic valve).<br><br><b>Klinefelter syndrome (47,XXY):</b> a male with an extra X chromosome (47 chromosomes). The testes become small and firm and make little testosterone, causing tall stature with long legs, gynecomastia, sparse body hair, infertility, and language-based learning difficulties.<br><br><b>Both:</b> each is a sex chromosome aneuploidy that usually arises by chance, from nondisjunction during gamete formation (or, in Turner syndrome, loss of an X chromosome in early cell divisions, which explains mosaic forms). Down syndrome (47,XX,+21 or 47,XY,+21) arises the same way, but involves an autosome (chromosome 21), not a sex chromosome. Both conditions cause primary gonadal failure: the gonads do not respond, so the pituitary releases more FSH and LH, and most affected people are infertile. The parents did not pass on a faulty gene."
+      }
+    },
+    {
+      "step": 3,
+      "leftContent": {
+        "intro": "The nurse reviews Chloe's results with the endocrinologist and cardiologist to set care priorities.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1115 (Week 2).",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "Chloe's karyotype shows [[drop0]], which usually arises by chance. The nurse's priority is [[drop1]]. Her absent breast development and menstrual periods are caused by [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "trisomy of chromosome 21",
+                  "correct": false
+                },
+                {
+                  "text": "a single-gene mutation inherited from a carrier parent",
+                  "correct": false
+                },
+                {
+                  "text": "an extra X chromosome (47,XXY)",
+                  "correct": false
+                },
+                {
+                  "text": "monosomy X (45 chromosomes)",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "disturbed body image related to her short stature",
+                  "correct": false
+                },
+                {
+                  "text": "high blood pressure in the arms from coarctation of the aorta",
+                  "correct": true
+                },
+                {
+                  "text": "the limited time left for growth before the growth plates close",
+                  "correct": false
+                },
+                {
+                  "text": "the risk of kidney injury from the horseshoe kidney",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "an absent uterus from abnormal development",
+                  "correct": false
+                },
+                {
+                  "text": "a pituitary gland that releases too little FSH and LH",
+                  "correct": false
+                },
+                {
+                  "text": "streak ovaries that make little estrogen, so FSH and LH rise",
+                  "correct": true
+                },
+                {
+                  "text": "low body weight suppressing the hypothalamus",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Monosomy X:</b> normal cells have 46 chromosomes (22 pairs of autosomes and one pair of sex chromosomes). In Turner syndrome one X is missing, leaving 45. An extra X (47,XXY) is Klinefelter syndrome, and trisomy 21 is Down syndrome.<br><br><b>Priority:</b> coarctation makes the left ventricle pump against a narrowed aorta. Her arm BP is rising (140/86 mm Hg) and her legs tire with exertion. Untreated, it leads to left ventricular hypertrophy, heart failure, and, with a bicuspid valve, aortic dilation and dissection. The horseshoe kidney (normal creatinine), her growth window and her body image all matter, but they are not a threat to her circulation now.<br><br><b>Cause of absent puberty:</b> high FSH and LH with low estradiol mean the problem lies in the ovaries (primary or hypergonadotropic hypogonadism): the pituitary is signalling hard and the streak ovaries cannot respond. A pituitary problem would give low FSH and LH. The ultrasound shows a uterus, and her weight (15th percentile) and lack of strenuous training do not suggest hypothalamic suppression."
+      }
+    },
+    {
+      "step": 4,
+      "leftContent": {
+        "intro": "The nurse works with cardiology, endocrinology and psychosocial services on Chloe's plan of care.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300 (Week 2):</span><span class=\"nurse-note-text\">Interprofessional care conference. Cardiology plans transcatheter treatment of the coarctation and lifelong follow-up of the bicuspid aortic valve. Endocrinology plans daily growth hormone injections while the growth plates are open, then low-dose estrogen increased slowly over about 2 years, with a progestin added later. Chloe is quiet and tearful after hearing that she will most likely not be able to become pregnant with her own eggs.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+          },
+          {
+            "id": "plan",
+            "title": "Care Plan",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric cardiology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Transcatheter treatment of the coarctation (balloon angioplasty or stent). Echocardiogram or cardiac MRI at regular intervals for the bicuspid valve and aortic root.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric endocrinology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant human growth hormone (rhGH) subcutaneously every evening. Low-dose transdermal estradiol, increased slowly; cyclic progestin added after breakthrough bleeding or about 2 years of estrogen.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Primary care</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Yearly TSH and free T4; hearing tests; celiac disease screening; bone mineral density scan.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Psychosocial and genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Counselling for body image and loss of fertility; genetic counselling about the sporadic cause and future options for having children.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1300 (Week 2) and the Care Plan.",
+        "stem": "Which interventions should the nurse include in Chloe's plan of care? Select all that apply.",
+        "type": "select_all",
+        "options": [
+          {
+            "text": "Arrange cardiology follow-up and teach the family that the aorta and heart valve need lifelong monitoring",
+            "correct": true
+          },
+          {
+            "text": "Schedule screening for hypothyroidism, hearing loss, and celiac disease",
+            "correct": true
+          },
+          {
+            "text": "Teach Chloe how to give testosterone injections to speed up her growth",
+            "correct": false
+          },
+          {
+            "text": "Explain that low-dose estrogen, increased slowly, will promote breast development and protect bone density",
+            "correct": true
+          },
+          {
+            "text": "Acknowledge Chloe's feelings about fertility and offer a Turner syndrome peer support group",
+            "correct": true
+          },
+          {
+            "text": "Tell Chloe that once estrogen therapy starts, her ovaries will begin releasing eggs",
+            "correct": false
+          },
+          {
+            "text": "Teach Chloe and her mother how to give the daily subcutaneous growth hormone injection",
+            "correct": true
+          }
+        ],
+        "explanation": "<b>Include:</b> coarctation and a bicuspid aortic valve need lifelong cardiology follow-up, even after repair (Option 1). Growth hormone works only while the growth plates are open, so daily injections start now; the nurse teaches the technique and site rotation (Option 7). Estrogen started at a low dose and increased slowly brings on breast development and protects bone without closing the growth plates too early (Option 4). Chloe is grieving the likely loss of fertility; acknowledging it and offering peer support helps her cope, and egg donation can be discussed later (Option 5). Turner syndrome raises the lifetime risk of autoimmune thyroid disease, hearing loss and celiac disease (Option 2).<br><br><b>Do not include:</b> estrogen replaces the hormone the ovaries cannot make, but it does not create egg follicles, so it does not restore fertility (Option 6). Testosterone treats the hormone deficit of males with Klinefelter syndrome; it has no place in Turner syndrome (Option 3)."
+      }
+    },
+    {
+      "step": 5,
+      "leftContent": {
+        "intro": "Four weeks later, Chloe returns to the clinic.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300 (Week 2):</span><span class=\"nurse-note-text\">Interprofessional care conference. Cardiology plans transcatheter treatment of the coarctation and lifelong follow-up of the bicuspid aortic valve. Endocrinology plans daily growth hormone injections while the growth plates are open, then low-dose estrogen increased slowly over about 2 years, with a progestin added later. Chloe is quiet and tearful after hearing that she will most likely not be able to become pregnant with her own eggs.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930 (Week 6):</span><span class=\"nurse-note-text\">Chloe returns to start endocrine therapy and for teaching before her coarctation procedure next week. Alert and cooperative. Mother asks whether Chloe can start “full adult-strength estrogen right away so she can catch up with her friends,” and whether Chloe's 11-year-old sister needs testing to see if she “carries the Turner gene.”</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 0930</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+          },
+          {
+            "id": "plan",
+            "title": "Care Plan",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric cardiology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Transcatheter treatment of the coarctation (balloon angioplasty or stent). Echocardiogram or cardiac MRI at regular intervals for the bicuspid valve and aortic root.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric endocrinology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant human growth hormone (rhGH) subcutaneously every evening. Low-dose transdermal estradiol, increased slowly; cyclic progestin added after breakthrough bleeding or about 2 years of estrogen.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Primary care</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Yearly TSH and free T4; hearing tests; celiac disease screening; bone mineral density scan.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Psychosocial and genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Counselling for body image and loss of fertility; genetic counselling about the sporadic cause and future options for having children.</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "matrix_mc",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 0930 (Week 6) and the Vital Signs.",
+        "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or <b>Contraindicated</b>.",
+        "matrix": {
+          "firstColumnHeader": "Nursing Action",
+          "columns": [
+            "Indicated",
+            "Non-Essential",
+            "Contraindicated"
+          ],
+          "rows": [
+            {
+              "text": "Measure BP in all four limbs and compare the radial and femoral pulses",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Tell Chloe that estrogen alone, without a progestin, can be taken long term",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            },
+            {
+              "text": "Explain that estrogen starts at a low dose and is increased slowly to protect her final height",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Request a sweat chloride test to look for another cause of her short stature",
+              "correctIndex": 1,
+              "correctIndices": [
+                1
+              ]
+            },
+            {
+              "text": "Explain that Turner syndrome usually occurs by chance and is not caused by a gene her sister could carry",
+              "correctIndex": 0,
+              "correctIndices": [
+                0
+              ]
+            },
+            {
+              "text": "Tell Chloe that cardiology follow-up can stop once the coarctation is repaired",
+              "correctIndex": 2,
+              "correctIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Measure BP in all four limbs (Indicated):</b> the arm-to-leg gradient (40 mm Hg today) and femoral pulses show how severe the coarctation is and give a baseline for judging the repair.<br><br><b>Estrogen alone long term (Contraindicated):</b> in anyone with a uterus, estrogen without a progestin causes endometrial hyperplasia and raises the risk of endometrial cancer. A cyclic progestin is added after breakthrough bleeding or about 2 years of estrogen.<br><br><b>Low dose, increased slowly (Indicated):</b> full adult doses early would close the growth plates quickly and cut short the height gained with growth hormone; a slow increase also gives more natural breast development.<br><br><b>Sweat chloride test (Non-Essential):</b> it diagnoses cystic fibrosis. Her short stature is explained by the 45,X karyotype; the test adds nothing.<br><br><b>Explain the sporadic cause (Indicated):</b> 45,X Turner syndrome is a chance error in chromosome separation, not a Mendelian gene, so her sister's risk is not increased and she does not need testing because of Chloe's diagnosis.<br><br><b>Stop cardiology follow-up after repair (Contraindicated):</b> after repair, people with Turner syndrome and a bicuspid valve remain at risk of re-narrowing, high blood pressure, and aortic dilation and dissection, so follow-up is lifelong."
+      }
+    },
+    {
+      "step": 6,
+      "leftContent": {
+        "intro": "Twelve months later, Chloe (now 16 years old) returns to the clinic.",
+        "tabs": [
+          {
+            "id": "nn",
+            "title": "Nurses' Notes",
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0900:</span><span class=\"nurse-note-text\">Arrived with her mother for an endocrine evaluation. Mother reports that Chloe has always been the shortest student in her class and has not had a menstrual period or any breast development. Chloe is a strong student; she mentions difficulty with geometry and other visual-spatial math problems. No history of headaches, changes in vision, eating concerns or strenuous athletic training. Height 142 cm (below the 3rd percentile); weight 44 kg (15th percentile). Short, broad neck with bilateral webbing and a low posterior hairline. Broad chest with widely spaced nipples. Increased carrying angle at both elbows (cubitus valgus). Sexual maturity rating: Tanner stage 1 breasts, Tanner stage 2 pubic hair. Grade 2/6 systolic ejection murmur at the upper left sternal border, also heard between the scapulae. Brachial pulses 3+; femoral pulses 1+ bilaterally and delayed compared with the radial pulses. Pediatric endocrinologist notified.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1030 (Week 2):</span><span class=\"nurse-note-text\">Follow-up visit with Chloe and her mother to review test results. The endocrinologist explains that the karyotype confirms Turner syndrome and that the echocardiogram shows a narrowing of the aorta and a bicuspid aortic valve. Mother asks, “How is Chloe's missing X different from conditions like Klinefelter syndrome? Did my husband or I pass a bad gene to her?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1115 (Week 2):</span><span class=\"nurse-note-text\">Pediatric cardiology reviewed the echocardiogram: moderate coarctation of the aorta with a bicuspid aortic valve. Repeat right arm BP 140/86 mm Hg. Chloe reports that her legs get tired when she climbs stairs. Bone age X-ray: 12.5 years, with open growth plates. Chloe asks quietly whether she will ever be able to have children.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1300 (Week 2):</span><span class=\"nurse-note-text\">Interprofessional care conference. Cardiology plans transcatheter treatment of the coarctation and lifelong follow-up of the bicuspid aortic valve. Endocrinology plans daily growth hormone injections while the growth plates are open, then low-dose estrogen increased slowly over about 2 years, with a progestin added later. Chloe is quiet and tearful after hearing that she will most likely not be able to become pregnant with her own eggs.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">0930 (Week 6):</span><span class=\"nurse-note-text\">Chloe returns to start endocrine therapy and for teaching before her coarctation procedure next week. Alert and cooperative. Mother asks whether Chloe can start “full adult-strength estrogen right away so she can catch up with her friends,” and whether Chloe's 11-year-old sister needs testing to see if she “carries the Turner gene.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">1000 (Month 12):</span><span class=\"nurse-note-text\">Twelve-month follow-up after transcatheter stent placement for the coarctation, 12 months of growth hormone and 6 months of low-dose transdermal estradiol. Chloe smiles and says she joined a Turner syndrome teen group. Gives her own rhGH injection each evening, rotating sites; no skin changes at injection sites. Chloe says she wants to understand her diagnosis before she moves to adult care.</span></p>"
+          },
+          {
+            "id": "vs",
+            "title": "Vital Signs",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">0900</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Week 6 0930</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 12 1000</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b><br>Expected: 36.5–37.5° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.7° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.8° C</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b><br>Expected: 60–100 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">82 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">80 beats/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">74 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b><br>Expected: 12–20 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">16 breaths/min</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">14 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right arm</b><br>Expected: below 120/80 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">138/84 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">136/82 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">114/70 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP, right thigh</b><br>Expected: equal to or 10–20 mm Hg above arm BP</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98/60 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">96/58 mm Hg</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118/72 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b><br>Expected: 95%–100%</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">99% on room air</td></tr></tbody></table>"
+          },
+          {
+            "id": "dx",
+            "title": "Diagnostic Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Test</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Result (Week 2)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Karyotype, peripheral blood</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">45,X in 20 of 20 cells counted</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Follicle-stimulating hormone (FSH)</b><br>Female, midfollicular phase: 3.9–8.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Luteinizing hormone (LH)</b><br>Female, midfollicular phase: 2.1–10.8 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">34 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Estradiol (E2)</b><br>Female, follicular phase: 50–100 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">less than 37 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">54 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pelvic ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, prepubertal uterus. Bilateral streak gonads with no visible follicles.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Discrete juxtaductal coarctation of the aorta, peak gradient 38 mm Hg. Bicuspid aortic valve. Aortic root diameter normal for body size.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Renal ultrasound</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Horseshoe kidney with normal renal parenchyma.</td></tr></tbody></table>"
+          },
+          {
+            "id": "plan",
+            "title": "Care Plan",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Team</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Plan</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric cardiology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Transcatheter treatment of the coarctation (balloon angioplasty or stent). Echocardiogram or cardiac MRI at regular intervals for the bicuspid valve and aortic root.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pediatric endocrinology</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Recombinant human growth hormone (rhGH) subcutaneously every evening. Low-dose transdermal estradiol, increased slowly; cyclic progestin added after breakthrough bleeding or about 2 years of estrogen.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Primary care</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Yearly TSH and free T4; hearing tests; celiac disease screening; bone mineral density scan.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Psychosocial and genetics</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Counselling for body image and loss of fertility; genetic counselling about the sporadic cause and future options for having children.</td></tr></tbody></table>"
+          },
+          {
+            "id": "fu",
+            "title": "Follow-Up Results",
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Measure</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Baseline (age 15)</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Month 12 (age 16)</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Height</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">142.0 cm</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">149.5 cm</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Growth velocity</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.1 cm/year</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">7.5 cm/year</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Breast development</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Tanner stage 1</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Tanner stage 2</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyrotropin (TSH)</b><br>0.34–5.60 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.4 mIU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2.8 mIU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Thyroxine, free (FT4)</b><br>7.0–17.0 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">13.1 pmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12.6 pmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Echocardiogram</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Coarctation, peak gradient 38 mm Hg; bicuspid aortic valve</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Stent in place, residual gradient 8 mm Hg; bicuspid aortic valve unchanged; aortic root normal</td></tr></tbody></table>"
+          }
+        ]
+      },
+      "question": {
+        "type": "dropdown_cloze",
+        "preamble": "The nurse has reviewed the Nurses' Notes from 1000 (Month 12), the Vital Signs, and the Follow-Up Results.",
+        "stem": "Complete the following sentences by choosing from the lists of options.",
+        "cloze": {
+          "text": "Chloe's growth velocity of 7.5 cm/year, equal arm and leg blood pressures, and Tanner stage 2 breast development show [[drop0]]. When Chloe explains that her 45,X chromosome makeup is her [[drop1]] and her short stature is her phenotype, she shows understanding. Before she moves to adult care, the nurse confirms she understands that she needs [[drop2]].",
+          "dropdowns": [
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "persistent coarctation that needs a repeat procedure",
+                  "correct": false
+                },
+                {
+                  "text": "that growth hormone can now be stopped because she has reached adult height",
+                  "correct": false
+                },
+                {
+                  "text": "a positive response to the coarctation repair and hormone therapy",
+                  "correct": true
+                },
+                {
+                  "text": "a normal growth spurt that would have happened without treatment",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "phenotype",
+                  "correct": false
+                },
+                {
+                  "text": "genotype",
+                  "correct": true
+                },
+                {
+                  "text": "mutation",
+                  "correct": false
+                },
+                {
+                  "text": "allele",
+                  "correct": false
+                }
+              ]
+            },
+            {
+              "placeholder": "Select...",
+              "options": [
+                {
+                  "text": "cardiology follow-up only until the stent has healed",
+                  "correct": false
+                },
+                {
+                  "text": "lifelong cardiology and endocrine follow-up",
+                  "correct": true
+                },
+                {
+                  "text": "follow-up only if she plans a pregnancy",
+                  "correct": false
+                },
+                {
+                  "text": "endocrine follow-up only, since her heart is repaired",
+                  "correct": false
+                }
+              ]
+            }
+          ]
+        },
+        "explanation": "<b>Response to treatment:</b> growth velocity rose from 2.1 to 7.5 cm/year on growth hormone, the arm-to-leg BP gradient is gone (thigh BP now above arm BP, as expected), and estrogen has started breast development. Without treatment, girls with Turner syndrome do not have a pubertal growth spurt. She is still growing, so growth hormone continues until growth slows and the growth plates close. Treatment does not change the karyotype.<br><br><b>Genotype and phenotype:</b> the genotype is the genetic (here chromosomal) makeup, 45,X. The phenotype is what can be observed: short stature, webbed neck, streak ovaries.<br><br><b>Lifelong follow-up:</b> even after a good repair, she remains at risk of re-narrowing, hypertension and aortic dilation or dissection (higher in pregnancy), and needs ongoing estrogen and progestin, thyroid, hearing and bone monitoring as an adult."
+      }
+    }
+  ]
+}
