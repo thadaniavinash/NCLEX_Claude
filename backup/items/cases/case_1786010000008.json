@@ -25,7 +25,7 @@
             "correct": true
           },
           {
-            "text": "Stopped taking her deferasirox 8 months ago",
+            "text": "Stopped taking deferasirox 8 months ago",
             "correct": true
           },
           {
@@ -46,14 +46,24 @@
           }
         ],
         "preamble": "",
-        "explanation": "<b>Require follow-up:</b> each unit of red cells adds about 200 mg of iron, which the body cannot excrete, and thalassemia also increases iron absorption from the gut. Without chelation (Option 4), iron builds up in the heart, liver and endocrine glands. Iron in heart muscle causes cardiomyopathy: dyspnea on exertion and orthopnea (Option 3), arrhythmias (Option 8), and crackles and edema from heart failure (Option 2). Heart failure is the leading cause of death in thalassemia major. Bronze skin and an enlarged liver reflect iron deposited in skin and liver (hepatic siderosis), which can progress to cirrhosis (Option 6).<br><br><b>Long-standing, not new:</b> marrow expansion to compensate for ineffective erythropoiesis thickens the facial and skull bones in childhood (Option 5), and severe anemia with iron overload of the pituitary and gonads limits growth and puberty (Option 1). Her spleen was removed because enlarged spleens trap and destroy transfused cells (Option 7). These need no urgent action, although her asplenia raises her risk of severe infection."
+        "explanation": "<b>Require follow-up:</b> each unit of red cells adds about 200 mg of iron, which the body cannot excrete, and thalassemia also increases iron absorption from the gut. Without chelation (Option 4), iron builds up in the heart, liver and endocrine glands. Iron in heart muscle causes cardiomyopathy: dyspnea on exertion and orthopnea (Option 3), arrhythmias (Option 8), and crackles and edema from heart failure (Option 2). Heart failure is the leading cause of death in thalassemia major. Bronze skin and an enlarged liver reflect iron deposited in skin and liver (hepatic siderosis), which can progress to cirrhosis (Option 6).<br><br><b>Long-standing, not new:</b> marrow expansion to compensate for ineffective erythropoiesis thickens the facial and skull bones in childhood (Option 5), and severe anemia with iron overload of the pituitary and gonads limits growth and puberty (Option 1). Her spleen was removed because enlarged spleens trap and destroy transfused cells (Option 7). These need no urgent action, although asplenia raises the client's risk of severe infection."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">The client arrived at the hematology day unit for a scheduled red blood cell transfusion and reports increasing tiredness and new shortness of breath over the past 2 weeks. The health history and physical assessment were completed. Blood work was drawn at 0845.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Scheduled red blood cell transfusion. Over the past 2 weeks, the client reports shortness of breath when climbing one flight of stairs, needing two pillows to sleep, and a heart that is “racing and skipping.”</p><p><b>Medical history:</b> Beta-thalassemia major, transfused every 3 to 4 weeks since age 1. Splenectomy at age 12.</p><p><b>Medications:</b> Deferasirox PO daily for iron chelation; the client states having stopped taking it about 8 months ago because of stomach upset.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>General:</b> Height 152 cm. The cheekbones and forehead are prominent.</p><p><b>Skin:</b> The skin has a grey-bronze tint. The sclerae are slightly yellow.</p><p><b>Cardiovascular:</b> The pulse is irregular. 2+ pitting edema is present in both ankles.</p><p><b>Respiratory:</b> Fine crackles are heard at both lung bases.</p><p><b>Abdomen:</b> The liver edge is palpable 4 cm below the right costal margin. A well-healed splenectomy scar is present.</p>"
           },
           {
             "id": "vs",
@@ -61,7 +71,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0830</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">36.9° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112 beats/min, irregular</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">104/66 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">94% on room air</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        "intro": "The nurse in a hematology day unit is caring for a 24-year-old female client with beta-thalassemia major who has come for a scheduled red blood cell transfusion."
       }
     },
     {
@@ -122,14 +132,24 @@
           "firstColumnHeader": "Statement"
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1000 and the Laboratory Results.",
-        "explanation": "<b>Pathogenesis:</b> beta-thalassemia is an inherited defect in making beta-globin chains (gene on chromosome 11). With too few beta chains, excess alpha chains have no partner; they precipitate inside red cell precursors, which die in the marrow (ineffective erythropoiesis) or are destroyed in the spleen (hemolysis). Cells that survive are small and pale with target cells; nucleated red cells appear in the blood. It is common in people of Mediterranean, Middle Eastern, South Asian and Southeast Asian ancestry.<br><br><b>Major:</b> both beta genes are affected (autosomal recessive), so beta-chain production is very low. Severe anemia appears once fetal hemoglobin falls, by age 1 to 2; without transfusion, the marrow expands (thick skull and malar bones, fractures), the spleen enlarges and growth fails. HbF may be up to 90%.<br><br><b>Trait (minor):</b> one gene is affected; there is mild microcytic anemia, usually without symptoms, and no treatment. HbA2 above 3.5% to 4% on electrophoresis is diagnostic; it is often mistaken for iron deficiency.<br><br><b>Both</b> make small cells. If the partner has beta-thalassemia trait, each pregnancy has a 50% chance of a child with thalassemia major (Priya passes one affected gene to every child) and a 50% chance of a child with trait; genetic counselling is offered."
+        "explanation": "<b>Pathogenesis:</b> beta-thalassemia is an inherited defect in making beta-globin chains (gene on chromosome 11). With too few beta chains, excess alpha chains have no partner; they precipitate inside red cell precursors, which die in the marrow (ineffective erythropoiesis) or are destroyed in the spleen (hemolysis). Cells that survive are small and pale with target cells; nucleated red cells appear in the blood. It is common in people of Mediterranean, Middle Eastern, South Asian and Southeast Asian ancestry.<br><br><b>Major:</b> both beta genes are affected (autosomal recessive), so beta-chain production is very low. Severe anemia appears once fetal hemoglobin falls, by age 1 to 2; without transfusion, the marrow expands (thick skull and malar bones, fractures), the spleen enlarges and growth fails. HbF may be up to 90%.<br><br><b>Trait (minor):</b> one gene is affected; there is mild microcytic anemia, usually without symptoms, and no treatment. HbA2 above 3.5% to 4% on electrophoresis is diagnostic; it is often mistaken for iron deficiency.<br><br><b>Both</b> make small cells. If the partner has beta-thalassemia trait, each pregnancy has a 50% chance of a child with thalassemia major (the client passes one affected gene to every child) and a 50% chance of a child with trait; genetic counselling is offered."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">The client arrived at the hematology day unit for a scheduled red blood cell transfusion and reports increasing tiredness and new shortness of breath over the past 2 weeks. The health history and physical assessment were completed. Blood work was drawn at 0845.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the hematologist, and an echocardiogram and cardiac MRI were booked for this afternoon. The client's partner, who was told years ago of having thalassemia trait, asks whether their future children could have thalassemia.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Scheduled red blood cell transfusion. Over the past 2 weeks, the client reports shortness of breath when climbing one flight of stairs, needing two pillows to sleep, and a heart that is “racing and skipping.”</p><p><b>Medical history:</b> Beta-thalassemia major, transfused every 3 to 4 weeks since age 1. Splenectomy at age 12.</p><p><b>Medications:</b> Deferasirox PO daily for iron chelation; the client states having stopped taking it about 8 months ago because of stomach upset.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>General:</b> Height 152 cm. The cheekbones and forehead are prominent.</p><p><b>Skin:</b> The skin has a grey-bronze tint. The sclerae are slightly yellow.</p><p><b>Cardiovascular:</b> The pulse is irregular. 2+ pitting edema is present in both ankles.</p><p><b>Respiratory:</b> Fine crackles are heard at both lung bases.</p><p><b>Abdomen:</b> The liver edge is palpable 4 cm below the right costal margin. A well-healed splenectomy scar is present.</p>"
           },
           {
             "id": "vs",
@@ -142,7 +162,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0845</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">71 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale red cells; target cells; nucleated red cells; Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,840 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Brain-type natriuretic peptide (BNP)</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">640 pg/mL</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        "intro": "The nurse in a hematology day unit is caring for a 24-year-old female client with beta-thalassemia major who has come for a scheduled red blood cell transfusion."
       }
     },
     {
@@ -151,7 +171,7 @@
         "stem": "Complete the following sentences by choosing from the lists of options.",
         "type": "dropdown_cloze",
         "cloze": {
-          "text": "Priya's red cells are small because [[drop0]]. Her body has accumulated iron mainly because [[drop1]]. The nurse's priority is [[drop2]].",
+          "text": "The client's red cells are small because [[drop0]]. The client's body has accumulated iron mainly because [[drop1]]. The nurse's priority is [[drop2]].",
           "dropdowns": [
             {
               "options": [
@@ -160,15 +180,15 @@
                   "correct": true
                 },
                 {
-                  "text": "her red cells are destroyed by antibodies",
+                  "text": "the red cells are destroyed by antibodies",
                   "correct": false
                 },
                 {
-                  "text": "she lacks vitamin B12 to make DNA",
+                  "text": "the client lacks vitamin B12 to make DNA",
                   "correct": false
                 },
                 {
-                  "text": "she lacks iron to make heme",
+                  "text": "the client lacks iron to make heme",
                   "correct": false
                 }
               ],
@@ -177,7 +197,7 @@
             {
               "options": [
                 {
-                  "text": "she eats a diet high in red meat",
+                  "text": "the client eats a diet high in red meat",
                   "correct": false
                 },
                 {
@@ -185,11 +205,11 @@
                   "correct": true
                 },
                 {
-                  "text": "her spleen was removed",
+                  "text": "the spleen was removed",
                   "correct": false
                 },
                 {
-                  "text": "her kidneys cannot excrete iron",
+                  "text": "the kidneys cannot excrete iron",
                   "correct": false
                 }
               ],
@@ -198,7 +218,7 @@
             {
               "options": [
                 {
-                  "text": "body image concerns about her bones",
+                  "text": "body image concerns about the bones",
                   "correct": false
                 },
                 {
@@ -219,14 +239,24 @@
           ]
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1530.",
-        "explanation": "<b>Small cells:</b> hemoglobin is built from globin chains plus heme; with too few beta chains, each cell holds less hemoglobin, so cells are microcytic and hypochromic even though iron is plentiful (ferritin 2,840 µg/L). Giving iron would be harmful.<br><br><b>Iron overload:</b> about 200 mg of iron enters with every unit transfused, and humans have no way to excrete extra iron; ineffective erythropoiesis also increases absorption from the gut. Chelation is started once ferritin exceeds about 1,000 µg/L or after 1 to 2 years of transfusions, and must be taken continuously.<br><br><b>Priority:</b> severe cardiac iron (T2* 7 ms), a falling ejection fraction, crackles, edema and an irregular pulse put her at risk of fatal heart failure and arrhythmias. Liver iron, infection risk and body image matter, but the threat to her circulation comes first."
+        "explanation": "<b>Small cells:</b> hemoglobin is built from globin chains plus heme; with too few beta chains, each cell holds less hemoglobin, so cells are microcytic and hypochromic even though iron is plentiful (ferritin 2,840 µg/L). Giving iron would be harmful.<br><br><b>Iron overload:</b> about 200 mg of iron enters with every unit transfused, and humans have no way to excrete extra iron; ineffective erythropoiesis also increases absorption from the gut. Chelation is started once ferritin exceeds about 1,000 µg/L or after 1 to 2 years of transfusions, and must be taken continuously.<br><br><b>Priority:</b> severe cardiac iron (T2* 7 ms), a falling ejection fraction, crackles, edema and an irregular pulse put the client at risk of fatal heart failure and arrhythmias. Liver iron, infection risk and body image matter, but the threat to the client's circulation comes first."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">The client arrived at the hematology day unit for a scheduled red blood cell transfusion and reports increasing tiredness and new shortness of breath over the past 2 weeks. The health history and physical assessment were completed. Blood work was drawn at 0845.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the hematologist, and an echocardiogram and cardiac MRI were booked for this afternoon. The client's partner, who was told years ago of having thalassemia trait, asks whether their future children could have thalassemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms), and the echocardiogram shows a left ventricular ejection fraction of 45%. The hematologist plans admission for intensified chelation and a slower transfusion.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Scheduled red blood cell transfusion. Over the past 2 weeks, the client reports shortness of breath when climbing one flight of stairs, needing two pillows to sleep, and a heart that is “racing and skipping.”</p><p><b>Medical history:</b> Beta-thalassemia major, transfused every 3 to 4 weeks since age 1. Splenectomy at age 12.</p><p><b>Medications:</b> Deferasirox PO daily for iron chelation; the client states having stopped taking it about 8 months ago because of stomach upset.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>General:</b> Height 152 cm. The cheekbones and forehead are prominent.</p><p><b>Skin:</b> The skin has a grey-bronze tint. The sclerae are slightly yellow.</p><p><b>Cardiovascular:</b> The pulse is irregular. 2+ pitting edema is present in both ankles.</p><p><b>Respiratory:</b> Fine crackles are heard at both lung bases.</p><p><b>Abdomen:</b> The liver edge is palpable 4 cm below the right costal margin. A well-healed splenectomy scar is present.</p>"
           },
           {
             "id": "vs",
@@ -239,7 +269,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 0845</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">78 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">71 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Small, pale red cells; target cells; nucleated red cells; Howell-Jolly bodies</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Ferritin</b><br>Female: 11–307 µg/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2,840 µg/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Alanine aminotransferase (ALT)</b><br>17–63 IU/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">88 IU/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Bilirubin, total</b><br>3–17 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">41 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Creatinine</b><br>Female: 22–75 µmol/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">62 µmol/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">4.2 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Brain-type natriuretic peptide (BNP)</b><br>≤ 50 pg/mL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">640 pg/mL</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        "intro": "The nurse in a hematology day unit is caring for a 24-year-old female client with beta-thalassemia major who has come for a scheduled red blood cell transfusion."
       }
     },
     {
@@ -257,14 +287,14 @@
               ]
             },
             {
-              "text": "Give oral ferrous sulfate to help her make more hemoglobin",
+              "text": "Give oral ferrous sulfate to help the client make more hemoglobin",
               "correctIndex": 2,
               "correctIndices": [
                 2
               ]
             },
             {
-              "text": "Tell Priya that her urine may turn orange-red during the deferoxamine infusion",
+              "text": "Tell the client that the urine may turn orange-red during the deferoxamine infusion",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -285,7 +315,7 @@
               ]
             },
             {
-              "text": "Check the absolute neutrophil count every week while she takes deferiprone",
+              "text": "Check the absolute neutrophil count every week while the client takes deferiprone",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -300,14 +330,24 @@
           "firstColumnHeader": "Nursing Action"
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1700 and the Orders.",
-        "explanation": "<b>Indicated:</b> with heart failure, red cells are given slowly with a diuretic between units to prevent fluid overload. Deferoxamine binds iron to form ferrioxamine, excreted in urine and bile, which turns urine orange-red: an expected, harmless effect. Deferiprone can cause agranulocytosis, so the neutrophil count is checked every week and fever or sore throat is reported at once.<br><br><b>Contraindicated:</b> she has iron overload; iron supplements add to the damage. Rapid IV deferoxamine causes flushing, hypotension and shock; it is given by slow continuous infusion.<br><br><b>Non-Essential:</b> her diagnosis is established; electrophoresis does not change before each transfusion. A type and screen (crossmatch) is what each transfusion needs."
+        "explanation": "<b>Indicated:</b> with heart failure, red cells are given slowly with a diuretic between units to prevent fluid overload. Deferoxamine binds iron to form ferrioxamine, excreted in urine and bile, which turns urine orange-red: an expected, harmless effect. Deferiprone can cause agranulocytosis, so the neutrophil count is checked every week and fever or sore throat is reported at once.<br><br><b>Contraindicated:</b> the client has iron overload; iron supplements add to the damage. Rapid IV deferoxamine causes flushing, hypotension and shock; it is given by slow continuous infusion.<br><br><b>Non-Essential:</b> the diagnosis is established; electrophoresis does not change before each transfusion. A type and screen (crossmatch) is what each transfusion needs."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Admitted to the medical unit. Implanted port accessed. Orders received.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">The client arrived at the hematology day unit for a scheduled red blood cell transfusion and reports increasing tiredness and new shortness of breath over the past 2 weeks. The health history and physical assessment were completed. Blood work was drawn at 0845.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the hematologist, and an echocardiogram and cardiac MRI were booked for this afternoon. The client's partner, who was told years ago of having thalassemia trait, asks whether their future children could have thalassemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms), and the echocardiogram shows a left ventricular ejection fraction of 45%. The hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit. The implanted port was accessed, and orders were received.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Scheduled red blood cell transfusion. Over the past 2 weeks, the client reports shortness of breath when climbing one flight of stairs, needing two pillows to sleep, and a heart that is “racing and skipping.”</p><p><b>Medical history:</b> Beta-thalassemia major, transfused every 3 to 4 weeks since age 1. Splenectomy at age 12.</p><p><b>Medications:</b> Deferasirox PO daily for iron chelation; the client states having stopped taking it about 8 months ago because of stomach upset.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>General:</b> Height 152 cm. The cheekbones and forehead are prominent.</p><p><b>Skin:</b> The skin has a grey-bronze tint. The sclerae are slightly yellow.</p><p><b>Cardiovascular:</b> The pulse is irregular. 2+ pitting edema is present in both ankles.</p><p><b>Respiratory:</b> Fine crackles are heard at both lung bases.</p><p><b>Abdomen:</b> The liver edge is palpable 4 cm below the right costal margin. A well-healed splenectomy scar is present.</p>"
           },
           {
             "id": "vs",
@@ -325,13 +365,13 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 units of leukoreduced, phenotype-matched red blood cells, each over 3 to 4 hours. Furosemide 20 mg IV between units. Pre-transfusion hemoglobin goal 95–105 g/L.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chelation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Deferoxamine 50 mg/kg/day by continuous IV infusion through the port. Deferiprone 25 mg/kg PO three times a day. Absolute neutrophil count weekly.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiac</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Continuous cardiac monitoring. Daily weight. Fluid intake 1.5 L/day.</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        "intro": "The nurse in a hematology day unit is caring for a 24-year-old female client with beta-thalassemia major who has come for a scheduled red blood cell transfusion."
       }
     },
     {
       "step": 5,
       "question": {
-        "stem": "Which instructions should the nurse include in Priya's discharge teaching? Select all that apply.",
+        "stem": "Which instructions should the nurse include in the client's discharge teaching? Select all that apply.",
         "type": "select_all",
         "options": [
           {
@@ -368,14 +408,24 @@
           }
         ],
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 6 1000 and the Vital Signs.",
-        "explanation": "<b>Include:</b> deferiprone can cause agranulocytosis, and without a spleen she is at risk of overwhelming infection with encapsulated bacteria; fever or sore throat needs urgent assessment and a neutrophil count (Options 3 and 5). Deferoxamine can damage hearing and vision (ototoxicity, retinopathy), so these are checked yearly and changes reported (Option 4). Extra iron worsens overload (Option 2). After splenectomy, pneumococcal, meningococcal and Haemophilus vaccines and medical identification are recommended (Option 8).<br><br><b>Do not include:</b> vitamin C increases iron absorption and, in iron overload, can increase iron toxicity to the heart; it is taken only if the hematologist prescribes it with deferoxamine (Option 7). Iron keeps accumulating as long as transfusions continue, so chelation is lifelong (Option 6). The two chelators are prescribed together for heavy cardiac iron; skipping one reduces iron removal (Option 1)."
+        "explanation": "<b>Include:</b> deferiprone can cause agranulocytosis, and without a spleen the client is at risk of overwhelming infection with encapsulated bacteria; fever or sore throat needs urgent assessment and a neutrophil count (Options 3 and 5). Deferoxamine can damage hearing and vision (ototoxicity, retinopathy), so these are checked yearly and changes reported (Option 4). Extra iron worsens overload (Option 2). After splenectomy, pneumococcal, meningococcal and Haemophilus vaccines and medical identification are recommended (Option 8).<br><br><b>Do not include:</b> vitamin C increases iron absorption and, in iron overload, can increase iron toxicity to the heart; it is taken only if the hematologist prescribes it with deferoxamine (Option 7). Iron keeps accumulating as long as transfusions continue, so chelation is lifelong (Option 6). The two chelators are prescribed together for heavy cardiac iron; skipping one reduces iron removal (Option 1)."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Admitted to the medical unit. Implanted port accessed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Breathing easier; sleeps flat; ankle edema 1+. Pulse regular. Will go home on deferiprone three times a day and deferoxamine by subcutaneous pump overnight 5 nights a week. Priya says she wants to “do it properly this time.”</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">The client arrived at the hematology day unit for a scheduled red blood cell transfusion and reports increasing tiredness and new shortness of breath over the past 2 weeks. The health history and physical assessment were completed. Blood work was drawn at 0845.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the hematologist, and an echocardiogram and cardiac MRI were booked for this afternoon. The client's partner, who was told years ago of having thalassemia trait, asks whether their future children could have thalassemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms), and the echocardiogram shows a left ventricular ejection fraction of 45%. The hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit. The implanted port was accessed, and orders were received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">The client reports breathing more easily and now sleeps flat. Ankle edema is 1+, and the pulse is regular. The client will go home on deferiprone three times a day and deferoxamine by subcutaneous pump overnight 5 nights a week. The client states, “I want to do it properly this time.”</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Scheduled red blood cell transfusion. Over the past 2 weeks, the client reports shortness of breath when climbing one flight of stairs, needing two pillows to sleep, and a heart that is “racing and skipping.”</p><p><b>Medical history:</b> Beta-thalassemia major, transfused every 3 to 4 weeks since age 1. Splenectomy at age 12.</p><p><b>Medications:</b> Deferasirox PO daily for iron chelation; the client states having stopped taking it about 8 months ago because of stomach upset.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>General:</b> Height 152 cm. The cheekbones and forehead are prominent.</p><p><b>Skin:</b> The skin has a grey-bronze tint. The sclerae are slightly yellow.</p><p><b>Cardiovascular:</b> The pulse is irregular. 2+ pitting edema is present in both ankles.</p><p><b>Respiratory:</b> Fine crackles are heard at both lung bases.</p><p><b>Abdomen:</b> The liver edge is palpable 4 cm below the right costal margin. A well-healed splenectomy scar is present.</p>"
           },
           {
             "id": "vs",
@@ -393,13 +443,13 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 units of leukoreduced, phenotype-matched red blood cells, each over 3 to 4 hours. Furosemide 20 mg IV between units. Pre-transfusion hemoglobin goal 95–105 g/L.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chelation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Deferoxamine 50 mg/kg/day by continuous IV infusion through the port. Deferiprone 25 mg/kg PO three times a day. Absolute neutrophil count weekly.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiac</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Continuous cardiac monitoring. Daily weight. Fluid intake 1.5 L/day.</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        "intro": "The nurse in a hematology day unit is caring for a 24-year-old female client with beta-thalassemia major who has come for a scheduled red blood cell transfusion."
       }
     },
     {
       "step": 6,
       "question": {
-        "stem": "For each finding, click to specify whether it shows that Priya's condition has <b>improved</b> or <b>not improved</b> since admission.",
+        "stem": "For each finding, click to specify whether it shows that the client's condition has <b>improved</b> or <b>not improved</b> since admission.",
         "type": "matrix_mc",
         "matrix": {
           "rows": [
@@ -460,7 +510,17 @@
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height 152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal margin; well-healed splenectomy scar.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Admitted to the medical unit. Implanted port accessed. Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">Breathing easier; sleeps flat; ankle edema 1+. Pulse regular. Will go home on deferiprone three times a day and deferoxamine by subcutaneous pump overnight 5 nights a week. Priya says she wants to “do it properly this time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Month 6 1000:</span><span class=\"nurse-note-text\">Clinic visit. Takes deferiprone daily and uses the pump 5 nights a week; no missed doses. Walks 30 minutes without breathlessness. No ankle edema. Repeat cardiac MRI: T2* 11 ms. Reports a sore throat since yesterday; no fever.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0830:</span><span class=\"nurse-note-text\">The client arrived at the hematology day unit for a scheduled red blood cell transfusion and reports increasing tiredness and new shortness of breath over the past 2 weeks. The health history and physical assessment were completed. Blood work was drawn at 0845.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the hematologist, and an echocardiogram and cardiac MRI were booked for this afternoon. The client's partner, who was told years ago of having thalassemia trait, asks whether their future children could have thalassemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms), and the echocardiogram shows a left ventricular ejection fraction of 45%. The hematologist plans admission for intensified chelation and a slower transfusion.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit. The implanted port was accessed, and orders were received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 6 1000:</span><span class=\"nurse-note-text\">The client reports breathing more easily and now sleeps flat. Ankle edema is 1+, and the pulse is regular. The client will go home on deferiprone three times a day and deferoxamine by subcutaneous pump overnight 5 nights a week. The client states, “I want to do it properly this time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Month 6 1000:</span><span class=\"nurse-note-text\">The client attends a clinic visit and reports taking deferiprone daily and using the pump 5 nights a week with no missed doses. The client walks 30 minutes without breathlessness, and there is no ankle edema. The repeat cardiac MRI shows a T2* of 11 ms. The client reports a sore throat since yesterday and denies fever.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Scheduled red blood cell transfusion. Over the past 2 weeks, the client reports shortness of breath when climbing one flight of stairs, needing two pillows to sleep, and a heart that is “racing and skipping.”</p><p><b>Medical history:</b> Beta-thalassemia major, transfused every 3 to 4 weeks since age 1. Splenectomy at age 12.</p><p><b>Medications:</b> Deferasirox PO daily for iron chelation; the client states having stopped taking it about 8 months ago because of stomach upset.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>General:</b> Height 152 cm. The cheekbones and forehead are prominent.</p><p><b>Skin:</b> The skin has a grey-bronze tint. The sclerae are slightly yellow.</p><p><b>Cardiovascular:</b> The pulse is irregular. 2+ pitting edema is present in both ankles.</p><p><b>Respiratory:</b> Fine crackles are heard at both lung bases.</p><p><b>Abdomen:</b> The liver edge is palpable 4 cm below the right costal margin. A well-healed splenectomy scar is present.</p>"
           },
           {
             "id": "vs",
@@ -478,7 +538,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Transfusion</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">2 units of leukoreduced, phenotype-matched red blood cells, each over 3 to 4 hours. Furosemide 20 mg IV between units. Pre-transfusion hemoglobin goal 95–105 g/L.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Chelation</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Deferoxamine 50 mg/kg/day by continuous IV infusion through the port. Deferiprone 25 mg/kg PO three times a day. Absolute neutrophil count weekly.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Cardiac</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Continuous cardiac monitoring. Daily weight. Fluid intake 1.5 L/day.</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia major who has come for her scheduled red blood cell transfusion."
+        "intro": "The nurse in a hematology day unit is caring for a 24-year-old female client with beta-thalassemia major who has come for a scheduled red blood cell transfusion."
       }
     }
   ],
@@ -487,5 +547,6 @@
   "authorReview": {
     "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 3); checked against Merck Manual Professional (Thalassemias, Apr 2026). Please review (from standard references, not the Merck page): chelation regimen (deferoxamine IV/SC, deferiprone 25 mg/kg three times a day with weekly ANC); cardiac T2* thresholds (< 10 ms severe); pre-transfusion Hb goal 95–105 g/L (TIF; Merck says about 90–100 g/L); vitamin C advice; BNP (pg/mL, as MCC prints it).",
     "flaggedAt": "2026-11-24"
-  }
+  },
+  "updatedAt": "2026-11-25T02:01:14.202Z"
 }

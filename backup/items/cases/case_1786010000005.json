@@ -54,7 +54,17 @@
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit from the emergency department with fever, bruising and nosebleeds. The health history and physical assessment were completed. The client is anxious about the cause of the symptoms.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Increasing tiredness and shortness of breath when climbing stairs for 6 weeks. Sore throat and painful mouth ulcers for 1 week. Fever and chills since last night. A nosebleed this morning lasted 40 minutes, and the gums bleed when the client brushes the teeth.</p><p><b>Occupational history:</b> The client works as a maintenance mechanic at a petrochemical plant and cleans machine parts with a benzene-containing solvent, often without gloves.</p><p><b>Medications:</b> No regular medications.</p><p><b>Weight:</b> 78 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. Petechiae are present over both lower legs. Several bruises are present on the arms, which the client cannot explain.</p><p><b>Mouth:</b> Two shallow ulcers are present on the inner cheek.</p><p><b>Lymph nodes:</b> No enlarged lymph nodes are palpable.</p><p><b>Respiratory:</b> The lungs are clear on auscultation.</p><p><b>Abdomen:</b> The liver and spleen are not palpable.</p>"
           },
           {
             "id": "vs",
@@ -62,7 +72,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\"></th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1400</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>T</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">38.6° C</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>P</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">118 beats/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>RR</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">22 breaths/min</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>BP</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">112/68 mm Hg</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Pulse Oximetry Reading (SpO<sub>2</sub>)</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">97% on room air</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        "intro": "The nurse on a medical unit is caring for a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
       }
     },
     {
@@ -123,14 +133,24 @@
           "firstColumnHeader": "Finding"
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1530 and the Laboratory Results.",
-        "explanation": "<b>Why all three:</b> in aplastic anemia the hematopoietic stem cells are lost, usually through an immune attack that may be triggered by a toxin (benzene), a drug, radiation or a virus. The marrow becomes empty and fatty, so it makes too few red cells, white cells and platelets. His results show severe disease: neutrophils 0.3 × 10⁹/L, platelets 9 × 10⁹/L and absolute reticulocytes 12 × 10⁹/L. The smear has no blasts (unlike leukemia), and the PT and aPTT are normal (unlike DIC).<br><br><b>Anemia:</b> less hemoglobin means less oxygen delivery: fatigue, dyspnea on exertion, pallor and tachycardia. The low reticulocyte count shows the marrow is not responding.<br><br><b>Neutropenia:</b> without neutrophils, bacteria and fungi invade mucous membranes, causing mouth ulcers, sore throat and fever. Infections can be life-threatening, and the usual signs (pus, swelling) may be absent.<br><br><b>Thrombocytopenia:</b> platelets form the first plug in small vessels; when they are very low, the client has petechiae, bruising and mucosal bleeding (gums, nose)."
+        "explanation": "<b>Why all three:</b> in aplastic anemia the hematopoietic stem cells are lost, usually through an immune attack that may be triggered by a toxin (benzene), a drug, radiation or a virus. The marrow becomes empty and fatty, so it makes too few red cells, white cells and platelets. The client's results show severe disease: neutrophils 0.3 × 10⁹/L, platelets 9 × 10⁹/L and absolute reticulocytes 12 × 10⁹/L. The smear has no blasts (unlike leukemia), and the PT and aPTT are normal (unlike DIC).<br><br><b>Anemia:</b> less hemoglobin means less oxygen delivery: fatigue, dyspnea on exertion, pallor and tachycardia. The low reticulocyte count shows the marrow is not responding.<br><br><b>Neutropenia:</b> without neutrophils, bacteria and fungi invade mucous membranes, causing mouth ulcers, sore throat and fever. Infections can be life-threatening, and the usual signs (pus, swelling) may be absent.<br><br><b>Thrombocytopenia:</b> platelets form the first plug in small vessels; when they are very low, the client has petechiae, bruising and mucosal bleeding (gums, nose)."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit from the emergency department with fever, bruising and nosebleeds. The health history and physical assessment were completed. The client is anxious about the cause of the symptoms.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The hematology service was consulted, and a bone marrow biopsy was performed at the bedside. A pressure dressing is in place over the right posterior iliac crest, with no bleeding. The client asks, “Why do I have mouth sores, bleeding and no energy all at the same time?”</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Increasing tiredness and shortness of breath when climbing stairs for 6 weeks. Sore throat and painful mouth ulcers for 1 week. Fever and chills since last night. A nosebleed this morning lasted 40 minutes, and the gums bleed when the client brushes the teeth.</p><p><b>Occupational history:</b> The client works as a maintenance mechanic at a petrochemical plant and cleans machine parts with a benzene-containing solvent, often without gloves.</p><p><b>Medications:</b> No regular medications.</p><p><b>Weight:</b> 78 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. Petechiae are present over both lower legs. Several bruises are present on the arms, which the client cannot explain.</p><p><b>Mouth:</b> Two shallow ulcers are present on the inner cheek.</p><p><b>Lymph nodes:</b> No enlarged lymph nodes are palpable.</p><p><b>Respiratory:</b> The lungs are clear on auscultation.</p><p><b>Abdomen:</b> The liver and spleen are not palpable.</p>"
           },
           {
             "id": "vs",
@@ -143,7 +163,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.3 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Few cells of all types; no blasts; no abnormal cells</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27 s</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        "intro": "The nurse on a medical unit is caring for a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
       }
     },
     {
@@ -152,7 +172,7 @@
         "stem": "Complete the following sentences by choosing from the lists of options.",
         "type": "dropdown_cloze",
         "cloze": {
-          "text": "Kevin's results are most consistent with [[drop0]]. The most likely cause is [[drop1]]. The nurse's priority is [[drop2]].",
+          "text": "The client's results are most consistent with [[drop0]]. The most likely cause is [[drop1]]. The nurse's priority is [[drop2]].",
           "dropdowns": [
             {
               "options": [
@@ -220,14 +240,24 @@
           ]
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1600 and the Vital Signs.",
-        "explanation": "<b>Severe aplastic anemia:</b> pancytopenia with a hypocellular marrow (about 10%, replaced by fat) and no abnormal cells. It is severe because cellularity is below 25% and at least two of these are present: neutrophils below 0.5 × 10⁹/L, absolute reticulocytes below 60 × 10⁹/L, platelets below 20 × 10⁹/L. Leukemia fills the marrow with blasts; DIC prolongs the PT and aPTT.<br><br><b>Cause:</b> benzene is a well-known marrow toxin, absorbed through the skin and lungs; about half of cases have no cause found. Diet causes deficiency anemias, not pancytopenia with an empty marrow; aplastic anemia does not enlarge the spleen.<br><br><b>Priority:</b> fever with neutrophils below 0.5 × 10⁹/L is <b>febrile neutropenia</b>, a medical emergency: infection can progress to septic shock within hours, and his heart rate is rising and BP falling. Blood cultures are drawn and broad-spectrum IV antibiotics are started within 60 minutes. Bleeding risk is high and is managed with precautions and platelets, but untreated sepsis is the more immediate threat to life."
+        "explanation": "<b>Severe aplastic anemia:</b> pancytopenia with a hypocellular marrow (about 10%, replaced by fat) and no abnormal cells. It is severe because cellularity is below 25% and at least two of these are present: neutrophils below 0.5 × 10⁹/L, absolute reticulocytes below 60 × 10⁹/L, platelets below 20 × 10⁹/L. Leukemia fills the marrow with blasts; DIC prolongs the PT and aPTT.<br><br><b>Cause:</b> benzene is a well-known marrow toxin, absorbed through the skin and lungs; about half of cases have no cause found. Diet causes deficiency anemias, not pancytopenia with an empty marrow; aplastic anemia does not enlarge the spleen.<br><br><b>Priority:</b> fever with neutrophils below 0.5 × 10⁹/L is <b>febrile neutropenia</b>, a medical emergency: infection can progress to septic shock within hours, and the client's heart rate is rising and BP is falling. Blood cultures are drawn and broad-spectrum IV antibiotics are started within 60 minutes. Bleeding risk is high and is managed with precautions and platelets, but untreated sepsis is the more immediate threat to life."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit from the emergency department with fever, bruising and nosebleeds. The health history and physical assessment were completed. The client is anxious about the cause of the symptoms.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The hematology service was consulted, and a bone marrow biopsy was performed at the bedside. A pressure dressing is in place over the right posterior iliac crest, with no bleeding. The client asks, “Why do I have mouth sores, bleeding and no energy all at the same time?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">The preliminary bone marrow report shows a marrow cellularity of about 10%, replaced by fat, with no blasts. The client's temperature is 38.9° C, with rigors. Blood cultures have not yet been drawn, and no antibiotic has been prescribed. The client is anxious and asks whether this is leukemia.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Increasing tiredness and shortness of breath when climbing stairs for 6 weeks. Sore throat and painful mouth ulcers for 1 week. Fever and chills since last night. A nosebleed this morning lasted 40 minutes, and the gums bleed when the client brushes the teeth.</p><p><b>Occupational history:</b> The client works as a maintenance mechanic at a petrochemical plant and cleans machine parts with a benzene-containing solvent, often without gloves.</p><p><b>Medications:</b> No regular medications.</p><p><b>Weight:</b> 78 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. Petechiae are present over both lower legs. Several bruises are present on the arms, which the client cannot explain.</p><p><b>Mouth:</b> Two shallow ulcers are present on the inner cheek.</p><p><b>Lymph nodes:</b> No enlarged lymph nodes are palpable.</p><p><b>Respiratory:</b> The lungs are clear on auscultation.</p><p><b>Abdomen:</b> The liver and spleen are not palpable.</p>"
           },
           {
             "id": "vs",
@@ -240,13 +270,13 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Day 1 1440</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">72 g/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Mean corpuscular volume (MCV)</b><br>80–100 fL</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">98 fL</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Reticulocyte count, absolute</b><br>23–90 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>White blood cell (WBC) count</b><br>3.5–10.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">1.4 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Neutrophils, absolute</b><br>2.0–7.5 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">0.3 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Platelet count</b><br>130–380 × 10<sup>9</sup>/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">9 × 10<sup>9</sup>/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Peripheral blood smear</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Few cells of all types; no blasts; no abnormal cells</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Prothrombin time (PT)</b><br>10–14 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">12 s</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Activated partial thromboplastin time (aPTT)</b><br>22–30 s</td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">27 s</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        "intro": "The nurse on a medical unit is caring for a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
       }
     },
     {
       "step": 4,
       "question": {
-        "stem": "Which interventions should the nurse include in Kevin's plan of care? Select all that apply.",
+        "stem": "Which interventions should the nurse include in the client's plan of care? Select all that apply.",
         "type": "select_all",
         "options": [
           {
@@ -258,15 +288,15 @@
             "correct": true
           },
           {
-            "text": "Arrange for his brother to donate platelets for him",
+            "text": "Arrange for the client's brother to donate platelets",
             "correct": false
           },
           {
-            "text": "Check his temperature every 4 hours and report 38.0° C or higher at once",
+            "text": "Check the client's temperature every 4 hours and report 38.0° C or higher at once",
             "correct": true
           },
           {
-            "text": "Give ibuprofen for his mouth pain",
+            "text": "Give ibuprofen for the mouth pain",
             "correct": false
           },
           {
@@ -274,11 +304,11 @@
             "correct": true
           },
           {
-            "text": "Perform hand hygiene before and after every contact with Kevin",
+            "text": "Perform hand hygiene before and after every contact with the client",
             "correct": true
           },
           {
-            "text": "Give a glycerin suppository if he becomes constipated",
+            "text": "Give a glycerin suppository if the client becomes constipated",
             "correct": false
           }
         ],
@@ -290,7 +320,17 @@
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures drawn from two sites at 1615; piperacillin-tazobactam IV started at 1630. Moved to a private room. Hematology plans immunosuppressive therapy because Kevin's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit from the emergency department with fever, bruising and nosebleeds. The health history and physical assessment were completed. The client is anxious about the cause of the symptoms.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The hematology service was consulted, and a bone marrow biopsy was performed at the bedside. A pressure dressing is in place over the right posterior iliac crest, with no bleeding. The client asks, “Why do I have mouth sores, bleeding and no energy all at the same time?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">The preliminary bone marrow report shows a marrow cellularity of about 10%, replaced by fat, with no blasts. The client's temperature is 38.9° C, with rigors. Blood cultures have not yet been drawn, and no antibiotic has been prescribed. The client is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures were drawn from two sites at 1615, and IV piperacillin-tazobactam was started at 1630. The client was moved to a private room. The hematologist plans immunosuppressive therapy because the client's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Increasing tiredness and shortness of breath when climbing stairs for 6 weeks. Sore throat and painful mouth ulcers for 1 week. Fever and chills since last night. A nosebleed this morning lasted 40 minutes, and the gums bleed when the client brushes the teeth.</p><p><b>Occupational history:</b> The client works as a maintenance mechanic at a petrochemical plant and cleans machine parts with a benzene-containing solvent, often without gloves.</p><p><b>Medications:</b> No regular medications.</p><p><b>Weight:</b> 78 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. Petechiae are present over both lower legs. Several bruises are present on the arms, which the client cannot explain.</p><p><b>Mouth:</b> Two shallow ulcers are present on the inner cheek.</p><p><b>Lymph nodes:</b> No enlarged lymph nodes are palpable.</p><p><b>Respiratory:</b> The lungs are clear on auscultation.</p><p><b>Abdomen:</b> The liver and spleen are not palpable.</p>"
           },
           {
             "id": "vs",
@@ -308,7 +348,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours. Report temperature 38.0° C or higher. Private room; neutropenic precautions.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now and for platelets below 10 × 10<sup>9</sup>/L or bleeding. Red blood cells 1 unit for hemoglobin below 70 g/L. All blood products irradiated and leukoreduced. No blood from family members.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No rectal medications or temperatures. No intramuscular injections. No aspirin or NSAIDs.</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        "intro": "The nurse on a medical unit is caring for a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
       }
     },
     {
@@ -326,7 +366,7 @@
               ]
             },
             {
-              "text": "Give the ATG as a rapid IV push to shorten the time he is exposed to it",
+              "text": "Give the ATG as a rapid IV push to shorten the time the client is exposed to it",
               "correctIndex": 2,
               "correctIndices": [
                 2
@@ -347,14 +387,14 @@
               ]
             },
             {
-              "text": "Weigh Kevin before each dose of ATG",
+              "text": "Weigh the client before each dose of ATG",
               "correctIndex": 1,
               "correctIndices": [
                 1
               ]
             },
             {
-              "text": "Stop the infusion and call for help if he develops wheezing, hypotension or throat tightness",
+              "text": "Stop the infusion and call for help if the client develops wheezing, hypotension or throat tightness",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -369,14 +409,24 @@
           "firstColumnHeader": "Nursing Action"
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 4 0800 and the Vital Signs.",
-        "explanation": "<b>Indicated:</b> ATG is an animal (horse) antibody against human T cells; it removes the T cells that attack the stem cells. Because it is a foreign protein, infusion reactions (fever, chills, rash) and anaphylaxis can occur, so premedication is given, the infusion runs slowly through an in-line filter over at least 4 hours, emergency drugs and equipment are at hand, and the infusion is stopped at the first sign of anaphylaxis. Serum sickness (fever, rash, joint pain) can follow 1 to 2 weeks later.<br><br><b>Contraindicated:</b> a rapid IV push greatly increases the risk of a severe reaction.<br><br><b>Non-Essential:</b> the ATG dose is calculated from his weight on admission; weighing before each daily dose adds nothing to safety."
+        "explanation": "<b>Indicated:</b> ATG is an animal (horse) antibody against human T cells; it removes the T cells that attack the stem cells. Because it is a foreign protein, infusion reactions (fever, chills, rash) and anaphylaxis can occur, so premedication is given, the infusion runs slowly through an in-line filter over at least 4 hours, emergency drugs and equipment are at hand, and the infusion is stopped at the first sign of anaphylaxis. Serum sickness (fever, rash, joint pain) can follow 1 to 2 weeks later.<br><br><b>Contraindicated:</b> a rapid IV push greatly increases the risk of a severe reaction.<br><br><b>Non-Essential:</b> the ATG dose is calculated from the client's weight on admission; weighing before each daily dose adds nothing to safety."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures drawn from two sites at 1615; piperacillin-tazobactam IV started at 1630. Moved to a private room. Hematology plans immunosuppressive therapy because Kevin's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0800:</span><span class=\"nurse-note-text\">Afebrile for 48 hours; blood cultures negative. Platelets 18 × 10<sup>9</sup>/L after transfusion. Kevin starts equine antithymocyte globulin (ATG) today, daily for 4 days, with cyclosporine PO twice daily and eltrombopag PO daily. Central venous catheter in place.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit from the emergency department with fever, bruising and nosebleeds. The health history and physical assessment were completed. The client is anxious about the cause of the symptoms.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The hematology service was consulted, and a bone marrow biopsy was performed at the bedside. A pressure dressing is in place over the right posterior iliac crest, with no bleeding. The client asks, “Why do I have mouth sores, bleeding and no energy all at the same time?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">The preliminary bone marrow report shows a marrow cellularity of about 10%, replaced by fat, with no blasts. The client's temperature is 38.9° C, with rigors. Blood cultures have not yet been drawn, and no antibiotic has been prescribed. The client is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures were drawn from two sites at 1615, and IV piperacillin-tazobactam was started at 1630. The client was moved to a private room. The hematologist plans immunosuppressive therapy because the client's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0800:</span><span class=\"nurse-note-text\">The client has been afebrile for 48 hours, and blood cultures are negative. The platelet count is 18 × 10<sup>9</sup>/L after transfusion. The client starts equine antithymocyte globulin (ATG) today, daily for 4 days, with cyclosporine PO twice daily and eltrombopag PO daily. A central venous catheter is in place.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Increasing tiredness and shortness of breath when climbing stairs for 6 weeks. Sore throat and painful mouth ulcers for 1 week. Fever and chills since last night. A nosebleed this morning lasted 40 minutes, and the gums bleed when the client brushes the teeth.</p><p><b>Occupational history:</b> The client works as a maintenance mechanic at a petrochemical plant and cleans machine parts with a benzene-containing solvent, often without gloves.</p><p><b>Medications:</b> No regular medications.</p><p><b>Weight:</b> 78 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. Petechiae are present over both lower legs. Several bruises are present on the arms, which the client cannot explain.</p><p><b>Mouth:</b> Two shallow ulcers are present on the inner cheek.</p><p><b>Lymph nodes:</b> No enlarged lymph nodes are palpable.</p><p><b>Respiratory:</b> The lungs are clear on auscultation.</p><p><b>Abdomen:</b> The liver and spleen are not palpable.</p>"
           },
           {
             "id": "vs",
@@ -394,13 +444,13 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours. Report temperature 38.0° C or higher. Private room; neutropenic precautions.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now and for platelets below 10 × 10<sup>9</sup>/L or bleeding. Red blood cells 1 unit for hemoglobin below 70 g/L. All blood products irradiated and leukoreduced. No blood from family members.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No rectal medications or temperatures. No intramuscular injections. No aspirin or NSAIDs.</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        "intro": "The nurse on a medical unit is caring for a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
       }
     },
     {
       "step": 6,
       "question": {
-        "stem": "For each statement Kevin makes, click to specify whether it shows that the teaching was <b>understood</b> or that he <b>needs further teaching</b>.",
+        "stem": "For each statement the client makes, click to specify whether it shows that the teaching was <b>understood</b> or that the client <b>needs further teaching</b>.",
         "type": "matrix_mc",
         "matrix": {
           "rows": [
@@ -454,14 +504,24 @@
           "firstColumnHeader": "Client Statement"
         },
         "preamble": "The nurse has reviewed the Nurses' Notes from Month 3 1000, the Vital Signs, and the Laboratory Results.",
-        "explanation": "<b>Response so far:</b> neutrophils (0.3 to 1.1 × 10⁹/L), platelets (9 to 38 × 10⁹/L) and reticulocytes are rising and he needs fewer transfusions: a partial response. About 60% to 70% of clients respond to ATG and cyclosporine, usually over 3 to 6 months, so treatment continues.<br><br><b>Understood:</b> fever is still an emergency while neutrophils are low. Cyclosporine is nephrotoxic and raises blood pressure (134/86 mm Hg today), so creatinine, cyclosporine levels and BP are checked. Grapefruit and many drugs raise cyclosporine levels. Recovery takes months.<br><br><b>Needs further teaching:</b> stopping cyclosporine early risks relapse; it is tapered only on the hematologist's instruction. Benzene is a marrow toxin absorbed through the skin and by inhalation; gloves alone do not remove the exposure, so he should not return to that work and should discuss it with occupational health."
+        "explanation": "<b>Response so far:</b> neutrophils (0.3 to 1.1 × 10⁹/L), platelets (9 to 38 × 10⁹/L) and reticulocytes are rising and the client needs fewer transfusions: a partial response. About 60% to 70% of clients respond to ATG and cyclosporine, usually over 3 to 6 months, so treatment continues.<br><br><b>Understood:</b> fever is still an emergency while neutrophils are low. Cyclosporine is nephrotoxic and raises blood pressure (134/86 mm Hg today), so creatinine, cyclosporine levels and BP are checked. Grapefruit and many drugs raise cyclosporine levels. Recovery takes months.<br><br><b>Needs further teaching:</b> stopping cyclosporine early risks relapse; it is tapered only on the hematologist's instruction. Benzene is a marrow toxin absorbed through the skin and by inhalation; gloves alone do not remove the exposure, so the client should not return to that work and should discuss it with occupational health."
       },
       "leftContent": {
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">Admitted from the emergency department. Reports 6 weeks of increasing tiredness and shortness of breath when climbing stairs; for the past week, sore throat and painful mouth ulcers. Nosebleed this morning lasted 40 minutes. Gums bleed when he brushes his teeth. Fever and chills since last night. Works as a maintenance mechanic at a petrochemical plant; cleans machine parts with a benzene-containing solvent, often without gloves. Takes no regular medications. Conjunctivae and nail beds pale. Petechiae over both lower legs; several bruises on the arms he cannot explain. Two shallow ulcers on the inner cheek. No enlarged lymph nodes. Liver and spleen not palpable. Lungs clear. Weight 78 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">Hematology consulted. Bone marrow biopsy done at the bedside; pressure dressing over the right posterior iliac crest, no bleeding. Kevin asks why he has “mouth sores, bleeding and no energy all at the same time.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">Preliminary bone marrow report: marrow cellularity about 10%, replaced by fat; no blasts. Temperature 38.9° C with rigors. Blood cultures not yet drawn; no antibiotic prescribed yet. Kevin is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures drawn from two sites at 1615; piperacillin-tazobactam IV started at 1630. Moved to a private room. Hematology plans immunosuppressive therapy because Kevin's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0800:</span><span class=\"nurse-note-text\">Afebrile for 48 hours; blood cultures negative. Platelets 18 × 10<sup>9</sup>/L after transfusion. Kevin starts equine antithymocyte globulin (ATG) today, daily for 4 days, with cyclosporine PO twice daily and eltrombopag PO daily. Central venous catheter in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Month 3 1000:</span><span class=\"nurse-note-text\">Clinic visit 3 months after ATG. Needed 2 platelet transfusions in the past month (6 in the first month). Takes cyclosporine and eltrombopag. Has not returned to work. Nurse reviews his teaching.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1400:</span><span class=\"nurse-note-text\">The client was admitted to the medical unit from the emergency department with fever, bruising and nosebleeds. The health history and physical assessment were completed. The client is anxious about the cause of the symptoms.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1530:</span><span class=\"nurse-note-text\">The hematology service was consulted, and a bone marrow biopsy was performed at the bedside. A pressure dressing is in place over the right posterior iliac crest, with no bleeding. The client asks, “Why do I have mouth sores, bleeding and no energy all at the same time?”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1600:</span><span class=\"nurse-note-text\">The preliminary bone marrow report shows a marrow cellularity of about 10%, replaced by fat, with no blasts. The client's temperature is 38.9° C, with rigors. Blood cultures have not yet been drawn, and no antibiotic has been prescribed. The client is anxious and asks whether this is leukemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1700:</span><span class=\"nurse-note-text\">Blood cultures were drawn from two sites at 1615, and IV piperacillin-tazobactam was started at 1630. The client was moved to a private room. The hematologist plans immunosuppressive therapy because the client's only sibling is not a tissue match; a search for an unrelated donor has started.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 0800:</span><span class=\"nurse-note-text\">The client has been afebrile for 48 hours, and blood cultures are negative. The platelet count is 18 × 10<sup>9</sup>/L after transfusion. The client starts equine antithymocyte globulin (ATG) today, daily for 4 days, with cyclosporine PO twice daily and eltrombopag PO daily. A central venous catheter is in place.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Month 3 1000:</span><span class=\"nurse-note-text\">The client attends a clinic visit 3 months after ATG. The client needed 2 platelet transfusions in the past month, compared with 6 in the first month. The client takes cyclosporine and eltrombopag and has not returned to work. The nurse reviews the client's teaching.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Increasing tiredness and shortness of breath when climbing stairs for 6 weeks. Sore throat and painful mouth ulcers for 1 week. Fever and chills since last night. A nosebleed this morning lasted 40 minutes, and the gums bleed when the client brushes the teeth.</p><p><b>Occupational history:</b> The client works as a maintenance mechanic at a petrochemical plant and cleans machine parts with a benzene-containing solvent, often without gloves.</p><p><b>Medications:</b> No regular medications.</p><p><b>Weight:</b> 78 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. Petechiae are present over both lower legs. Several bruises are present on the arms, which the client cannot explain.</p><p><b>Mouth:</b> Two shallow ulcers are present on the inner cheek.</p><p><b>Lymph nodes:</b> No enlarged lymph nodes are palpable.</p><p><b>Respiratory:</b> The lungs are clear on auscultation.</p><p><b>Abdomen:</b> The liver and spleen are not palpable.</p>"
           },
           {
             "id": "vs",
@@ -479,7 +539,7 @@
             "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Category</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Order</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Infection</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Piperacillin-tazobactam 4.5 g IV every 6 hours. Report temperature 38.0° C or higher. Private room; neutropenic precautions.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Blood products</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Platelets 1 adult dose IV now and for platelets below 10 × 10<sup>9</sup>/L or bleeding. Red blood cells 1 unit for hemoglobin below 70 g/L. All blood products irradiated and leukoreduced. No blood from family members.</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\"><b>Precautions</b></td><td style=\"border:1px solid #ccd8e0; padding:8px; background:white; color:#1e293b;\">Bleeding precautions. No rectal medications or temperatures. No intramuscular injections. No aspirin or NSAIDs.</td></tr></tbody></table>"
           }
         ],
-        "intro": "The nurse on a medical unit is caring for Kevin, a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
+        "intro": "The nurse on a medical unit is caring for a 24-year-old male client admitted from the emergency department with fever, bruising and nosebleeds."
       }
     }
   ],
@@ -488,5 +548,6 @@
   "authorReview": {
     "note": "New case written by Claude on 25 Nov 2026 (NURS 1021 Unit 1, batch 2); checked against Merck Manual Professional (Aplastic Anemia, Mar 2025). Please review: irradiated/leukoreduced products and avoiding family-donor blood (standard hematology practice, not on the Merck page); excluding flowers and plants (agency policies vary); ATG infusion details (premedication, in-line filter, at least 4 hours) against the product monograph and your agency.",
     "flaggedAt": "2026-11-24"
-  }
+  },
+  "updatedAt": "2026-11-25T02:01:14.202Z"
 }
