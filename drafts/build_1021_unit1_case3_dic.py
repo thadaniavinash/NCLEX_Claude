@@ -10,17 +10,26 @@ treatment = correct the cause; platelets for <10-20 x 10^9/L or rapid fall with 
 fibrinogen <1.0 g/L (100 mg/dL) or falling rapidly; FFP; heparin usually not indicated in acute DIC with bleeding."""
 from nurs1021_common import *
 
-INTRO = ("The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the "
-         "emergency department with septic shock from pyelonephritis.")
+INTRO = ("The nurse in the intensive care unit is caring for a 58-year-old female client admitted from the emergency "
+         "department with septic shock from pyelonephritis.")
 C = Chart2()
-C.notes("nn", "Nurses' Notes",
-    ("Day 1 0900", "Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; "
-     "right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV "
-     "piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central "
-     "line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two "
-     "venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right "
-     "arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine "
-     "in the catheter bag; 15 mL over the past hour."))
+C.notes("nn", "Nurses' Notes", ("Day 1 0900",
+    "The client was admitted to the ICU from the emergency department with septic shock from pyelonephritis. Blood and "
+    "urine cultures were drawn in the emergency department at 0640, IV piperacillin-tazobactam was started at 0710, and "
+    "2 L of IV crystalloid was given. Norepinephrine is infusing through a central venous catheter. The admission assessment was "
+    "completed, and the client's daughter is at the bedside."))
+C.doc("hx", "Health History",
+    sec("Reason for admission", "Fever, chills and right flank pain for 3 days; septic shock from pyelonephritis."),
+    sec("Medical history", "Recurrent urinary tract infections. No known bleeding disorder."),
+    sec("Substitute decision-maker", "Daughter."))
+C.doc("pa", "Physical Assessment",
+    sec("Neurological", "The client is confused and restless and is oriented to person only."),
+    sec("Skin", "Petechiae are present across the chest. Ecchymoses are present under the BP cuff on the right arm. "
+        "Blood is oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings."),
+    sec("Peripheral circulation", "The fingertips of both hands are cool, mottled and dusky."),
+    sec("Mouth", "The gums bleed during mouth care."),
+    sec("Renal", "Right costovertebral angle tenderness is present. The urine in the catheter bag is pink-tinged; urine "
+        "output was 15 mL over the past hour."))
 VS = [vrow("T"), vrow("P"), vrow("RR"), vrow("BP"), vrow("Mean arterial pressure (MAP)"), vrow(SPO2)]
 
 
@@ -46,14 +55,14 @@ s1 = screen(1, INTRO, C, select_all(311, [
         "fingertips (acrocyanosis) reflect microvascular thrombosis, made worse by shock {E}.",
         "<b>Not DIC:</b> fever and chills are signs of the infection {F}, and flank pain with costovertebral angle "
         "tenderness points to pyelonephritis {G}. These describe the <b>cause</b> (gram-negative sepsis), not DIC itself. "
-        "How long she was ill before admission does not describe a manifestation of DIC {H}."),
+        "How long the client was ill before admission does not describe a manifestation of DIC {H}."),
     stem="The nurse reviews the client's history and assessment. Which of the following findings would be consistent "
          "with <b>disseminated intravascular coagulation (DIC)</b>? Select all that apply."))
 
 # Screen 2
 C.notes("nn", "Nurses' Notes", ("Day 1 1000",
-    "Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection "
-    "can make her mother bleed and form clots at the same time."))
+    "The laboratory results were reported to the ICU physician. Urine output was 10 mL over the past hour. The client's "
+    "daughter asked how an infection can cause bleeding and clotting at the same time."))
 LAB = [lab("Hemoglobin (Hgb)", "Female: 115–155 g/L"), lab("Platelet count", "130–380 × 10<sup>9</sup>/L"),
        lab("Prothrombin time (PT)", "10–14 s"), lab("International normalized ratio (INR)", "0.9–1.2"),
        lab("Activated partial thromboplastin time (aPTT)", "22–30 s"), lab("Fibrinogen", "2.0–4.0 g/L"),
@@ -91,8 +100,8 @@ s2 = screen(2, INTRO, C, {
 
 # Screen 3
 C.notes("nn", "Nurses' Notes", ("Day 1 1030",
-    "Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine "
-    "output 8 mL over the past half-hour. Remains confused. Physician at the bedside."))
+    "Oozing continues from all puncture sites. A small amount of bright red blood was suctioned from the mouth. Urine "
+    "output was 8 mL over the past 30 minutes. The client remains confused. The physician is at the bedside."))
 vitals("Day 1 1030", "39.0° C", "128 beats/min", "28 breaths/min", "84/48 mm Hg", "60 mm Hg", "92% on 4 L/min nasal cannula")
 s3 = screen(3, INTRO, C, {
     "type": "bowtie",
@@ -121,7 +130,7 @@ s3 = screen(3, INTRO, C, {
         "schistocytes, but clotting factors are not consumed, so the PT, aPTT and fibrinogen are usually normal. Hemophilia "
         "A prolongs only the aPTT.",
         "<b>Actions:</b> the most important treatment of DIC is treating its cause, so antibiotics are given on time and "
-        "without interruption (with fluids and vasopressors for shock). Because she is bleeding with platelets of "
+        "without interruption (with fluids and vasopressors for shock). Because the client is bleeding with platelets of "
         "18 × 10⁹/L and fibrinogen of 0.8 g/L, platelets and cryoprecipitate (which replaces fibrinogen) are given. Heparin "
         "is usually not used in acute DIC with bleeding; it is reserved for slowly developing DIC with thrombosis. "
         "Intramuscular injections cause hematomas and are avoided; vitamin K corrects vitamin K deficiency, not "
@@ -132,8 +141,8 @@ s3 = screen(3, INTRO, C, {
 
 # Screen 4
 C.notes("nn", "Nurses' Notes", ("Day 1 1100",
-    "Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. "
-    "The nurse plans care to protect Rosa from further bleeding."))
+    "Physician orders were received. One adult dose of platelets and 10 units of cryoprecipitate were requested from the "
+    "blood bank. The nurse is planning care to protect the client from further bleeding."))
 C.rows("orders", "Orders", ["Category", "Order"], [
     ["<b>Infection</b>", "Piperacillin-tazobactam 4.5 g IV every 6 hours."],
     ["<b>Circulation</b>", "Norepinephrine infusion titrated to MAP 65 mm Hg or higher. Lactated Ringer's 500 mL IV bolus now."],
@@ -145,13 +154,13 @@ s4 = screen(4, INTRO, C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1100 and the Orders.",
     "stem": "For each nursing intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> "
-            "for Rosa.",
+            "for this client.",
     "matrix": matrix_mc("Nursing Intervention", ["Indicated", "Contraindicated"], [
         ("Measure the temperature by the rectal route for accuracy", 1),
         ("Hold firm pressure on puncture sites for at least 5 minutes", 0),
         ("Use foam swabs instead of a toothbrush for mouth care", 0),
         ("Give the prescribed opioid for pain by intramuscular injection", 1),
-        ("Turn and reposition Rosa gently using a lift sheet", 0),
+        ("Turn and reposition the client gently using a lift sheet", 0),
         ("Check stool, urine and gastric secretions for blood", 0)]),
     "explanation": rationale(
         "<b>Indicated:</b> prolonged firm pressure lets a clot form at puncture sites despite low platelets. Foam swabs "
@@ -164,8 +173,8 @@ s4 = screen(4, INTRO, C, {
 
 # Screen 5
 C.notes("nn", "Nurses' Notes", ("Day 1 1150",
-    "Platelets ready in the blood bank. Informed consent for blood products signed by Rosa's daughter as substitute "
-    "decision-maker. Blood administration set primed with 0.9% sodium chloride."))
+    "The blood bank reports that the platelets are ready. Informed consent for blood products was signed by the client's "
+    "daughter as substitute decision-maker. A blood administration set was primed with 0.9% sodium chloride."))
 s5 = screen(5, INTRO, C, {
     "type": "ordered_response",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1150.",
@@ -191,10 +200,11 @@ s5 = screen(5, INTRO, C, {
 
 # Screen 6
 C.notes("nn", "Nurses' Notes",
-    ("Day 1 1300", "Platelets and cryoprecipitate given without reaction."),
-    ("Day 3 0800", "Alert and oriented × 3. Norepinephrine stopped at 0200. Blood cultures growing Escherichia coli "
-     "sensitive to the current antibiotic. No oozing from puncture sites; gums no longer bleeding; urine yellow. Fingertips "
-     "warm and pink. New petechiae noted on both lower legs. Urine output 45 to 60 mL/hour over the past 12 hours."))
+    ("Day 1 1300", "Platelets and cryoprecipitate were given without reaction."),
+    ("Day 3 0800", "The client is alert and oriented × 3. Norepinephrine was discontinued at 0200. Blood cultures are "
+     "growing Escherichia coli sensitive to the current antibiotic. There is no oozing from puncture sites, the gums are no "
+     "longer bleeding, and the urine is yellow. The fingertips are warm and pink. New petechiae are noted on both lower "
+     "legs. Urine output has been 45 to 60 mL/hour over the past 12 hours."))
 vitals("Day 3 0800", "37.6° C", "96 beats/min", "20 breaths/min", "112/66 mm Hg", "81 mm Hg", "96% on room air")
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Day 3 0600", list(zip(LAB, [
     "86 g/L", "46 × 10<sup>9</sup>/L", "15 s", "1.3", "36 s", "1.6 g/L", "3,200 µg/L", "Occasional schistocytes",
@@ -203,7 +213,7 @@ s6 = screen(6, INTRO, C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1300 and Day 3 0800, the Vital Signs, and the "
                 "Laboratory Results.",
-    "stem": "For each finding, click to specify whether Rosa's condition has <b>improved</b> or <b>not improved</b> "
+    "stem": "For each finding, click to specify whether the client's condition has <b>improved</b> or <b>not improved</b> "
             "since Day 1.",
     "matrix": matrix_mc("Finding", ["Improved", "Not Improved"], [
         ("Fibrinogen", 0),

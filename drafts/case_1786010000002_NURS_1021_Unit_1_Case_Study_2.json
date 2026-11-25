@@ -15,12 +15,22 @@
     {
       "step": 1,
       "leftContent": {
-        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain.",
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client with severe hemophilia A who arrived with right knee pain.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">The client arrived at the emergency department with a roommate, reporting right knee pain that began after a collision during a basketball game 6 hours ago. The client states that the knee “felt tingly and warm” before it became painful and stiff. The health history and physical assessment were completed.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Right knee pain and swelling after a collision during a basketball game 6 hours ago.</p><p><b>Medical history:</b> Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. This is the third bleed into the right knee this year.</p><p><b>Medications:</b> Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. The client has missed the last two prophylactic factor VIII infusions during university examinations. The client took ibuprofen 400 mg PO twice at home today for the pain.</p><p><b>Weight:</b> 70 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is alert and oriented × 4.</p><p><b>Musculoskeletal:</b> The right knee is swollen, warm and tense. The client holds the right knee flexed at about 30° and cannot extend it fully. The right knee circumference is 42 cm; the left knee circumference is 37 cm.</p><p><b>Neurovascular, right foot:</b> Pedal pulses are 2+. Capillary refill is less than 2 seconds. Sensation is intact.</p><p><b>Pain:</b> The client rates the right knee pain at 8/10.</p>"
           },
           {
             "id": "vs",
@@ -31,29 +41,44 @@
       },
       "question": {
         "type": "highlight",
-        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that require follow-up.",
+        "stem": "The nurse reviews the Health History and the Physical Assessment. <b>Highlight</b> the findings that require follow-up.",
         "options": [],
         "highlightTabs": [
           {
             "id": "ht1",
-            "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. {Has missed his last two prophylactic factor VIII infusions|correct} during exams. {Took ibuprofen 400 mg twice at home for the pain.|correct} {Right knee swollen, warm and tense|correct}; {holds the knee bent at about 30° and cannot straighten it|correct}. {Rates pain 8/10.|correct} {Right knee circumference 42 cm; left 37 cm.|correct} {Right pedal pulses 2+}, {capillary refill less than 2 seconds}, {sensation in the right foot intact}. {Third bleed into the right knee this year.|correct} {Alert and oriented × 4.} Weight 70 kg.</span></p>"
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Right knee pain and swelling after a collision during a basketball game 6 hours ago.</p><p><b>Medical history:</b> Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. {This is the third bleed into the right knee this year.|correct}</p><p><b>Medications:</b> Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. {The client has missed the last two prophylactic factor VIII infusions during university examinations.|correct} {The client took ibuprofen 400 mg PO twice at home today for the pain.|correct}</p><p><b>Weight:</b> 70 kg.</p>"
+          },
+          {
+            "id": "ht2",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> {The client is alert and oriented × 4.}</p><p><b>Musculoskeletal:</b> {The right knee is swollen, warm and tense.|correct} {The client holds the right knee flexed at about 30° and cannot extend it fully.|correct} {The right knee circumference is 42 cm; the left knee circumference is 37 cm.|correct}</p><p><b>Neurovascular, right foot:</b> {Pedal pulses are 2+.} {Capillary refill is less than 2 seconds.} {Sensation is intact.}</p><p><b>Pain:</b> {The client rates the right knee pain at 8/10.|correct}</p>"
           }
         ],
         "maxCorrectSelections": null,
-        "explanation": "<b>Require follow-up:</b> a swollen, warm, tense knee held in flexion, with severe pain and a 5 cm difference in circumference, is an acute <b>hemarthrosis</b> (bleeding into the joint), the most common bleed in severe hemophilia. Blood in the joint space raises pressure and the client holds the knee bent because that is the position of greatest joint volume. A tingling or warm feeling often comes before swelling, so pain is an early sign.<br><br>Missing two prophylactic factor VIII infusions left him with almost no factor VIII, so a minor collision caused a major bleed. Ibuprofen inhibits platelet function and adds to the bleeding; clients with hemophilia avoid aspirin and NSAIDs. A third bleed into the same joint this year makes the right knee a <b>target joint</b>: repeated bleeds inflame the synovium (synovitis), which bleeds more easily and leads to hemophilic arthropathy.<br><br><b>Do not require follow-up:</b> strong pedal pulses, brisk capillary refill and normal sensation show that blood flow and nerves below the knee are intact. He is alert and oriented.",
+        "explanation": "<b>Require follow-up:</b> a swollen, warm, tense knee held in flexion, with severe pain and a 5 cm difference in circumference, is an acute <b>hemarthrosis</b> (bleeding into the joint), the most common bleed in severe hemophilia. Blood in the joint space raises pressure and the client holds the knee bent because that is the position of greatest joint volume. A tingling or warm feeling often comes before swelling, so pain is an early sign.<br><br>Missing two prophylactic factor VIII infusions left the client with almost no factor VIII, so a minor collision caused a major bleed. Ibuprofen inhibits platelet function and adds to the bleeding; clients with hemophilia avoid aspirin and NSAIDs. A third bleed into the same joint this year makes the right knee a <b>target joint</b>: repeated bleeds inflame the synovium (synovitis), which bleeds more easily and leads to hemophilic arthropathy.<br><br><b>Do not require follow-up:</b> strong pedal pulses, brisk capillary refill and normal sensation show that blood flow and nerves below the knee are intact. The client is alert and oriented.",
         "preamble": ""
       }
     },
     {
       "step": 2,
       "leftContent": {
-        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain.",
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client with severe hemophilia A who arrived with right knee pain.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">The client arrived at the emergency department with a roommate, reporting right knee pain that began after a collision during a basketball game 6 hours ago. The client states that the knee “felt tingly and warm” before it became painful and stiff. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">The hematology service was paged. The right knee was splinted and elevated on pillows. The client asked how hemophilia A differs from the hemophilia B that a cousin has, and why the desmopressin nasal spray that an uncle with mild hemophilia uses cannot be used.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Right knee pain and swelling after a collision during a basketball game 6 hours ago.</p><p><b>Medical history:</b> Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. This is the third bleed into the right knee this year.</p><p><b>Medications:</b> Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. The client has missed the last two prophylactic factor VIII infusions during university examinations. The client took ibuprofen 400 mg PO twice at home today for the pain.</p><p><b>Weight:</b> 70 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is alert and oriented × 4.</p><p><b>Musculoskeletal:</b> The right knee is swollen, warm and tense. The client holds the right knee flexed at about 30° and cannot extend it fully. The right knee circumference is 42 cm; the left knee circumference is 37 cm.</p><p><b>Neurovascular, right foot:</b> Pedal pulses are 2+. Capillary refill is less than 2 seconds. Sensation is intact.</p><p><b>Pain:</b> The client rates the right knee pain at 8/10.</p>"
           },
           {
             "id": "vs",
@@ -70,7 +95,7 @@
       "question": {
         "type": "matrix_mc",
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1915 and the Laboratory Results.",
-        "stem": "The nurse answers Daniel's questions. For each statement, click to specify whether it applies to <b>hemophilia A</b>, <b>hemophilia B</b>, or <b>both</b>.",
+        "stem": "The nurse answers the client's questions. For each statement, click to specify whether it applies to <b>hemophilia A</b>, <b>hemophilia B</b>, or <b>both</b>.",
         "matrix": {
           "firstColumnHeader": "Statement",
           "columns": [
@@ -123,18 +148,28 @@
             }
           ]
         },
-        "explanation": "<b>Hemophilia A</b> is a deficiency of factor VIII and makes up about 80% of cases. Desmopressin (DDAVP) releases factor VIII and von Willebrand factor stored in endothelial cells, so it can raise the level about two- to threefold in <b>mild</b> hemophilia A (factor VIII 5% or higher) in clients who have been shown to respond. It cannot help when there is no factor VIII to release, as in Daniel's severe disease (less than 1%), or in hemophilia B.<br><br><b>Hemophilia B</b> (Christmas disease) is a deficiency of factor IX.<br><br><b>Both</b> are X-linked recessive, so males are mainly affected and the daughters of an affected male are carriers. Factors VIII and IX both belong to the intrinsic pathway, so both prolong the aPTT while the PT (extrinsic pathway) and platelet count stay normal; only factor assays tell them apart. Both cause the same bleeding: hemarthroses, muscle hematomas and, after even minor head trauma, intracranial hemorrhage. Severity depends on the factor level: below 1% severe (spontaneous bleeding), 1% to 5% moderate (bleeding after minor trauma), 5% to 49% mild (bleeding after surgery or dental extraction)."
+        "explanation": "<b>Hemophilia A</b> is a deficiency of factor VIII and makes up about 80% of cases. Desmopressin (DDAVP) releases factor VIII and von Willebrand factor stored in endothelial cells, so it can raise the level about two- to threefold in <b>mild</b> hemophilia A (factor VIII 5% or higher) in clients who have been shown to respond. It cannot help when there is no factor VIII to release, as in this client's severe disease (less than 1%), or in hemophilia B.<br><br><b>Hemophilia B</b> (Christmas disease) is a deficiency of factor IX.<br><br><b>Both</b> are X-linked recessive, so males are mainly affected and the daughters of an affected male are carriers. Factors VIII and IX both belong to the intrinsic pathway, so both prolong the aPTT while the PT (extrinsic pathway) and platelet count stay normal; only factor assays tell them apart. Both cause the same bleeding: hemarthroses, muscle hematomas and, after even minor head trauma, intracranial hemorrhage. Severity depends on the factor level: below 1% severe (spontaneous bleeding), 1% to 5% moderate (bleeding after minor trauma), 5% to 49% mild (bleeding after surgery or dental extraction)."
       }
     },
     {
       "step": 3,
       "leftContent": {
-        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain.",
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client with severe hemophilia A who arrived with right knee pain.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">The client arrived at the emergency department with a roommate, reporting right knee pain that began after a collision during a basketball game 6 hours ago. The client states that the knee “felt tingly and warm” before it became painful and stiff. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">The hematology service was paged. The right knee was splinted and elevated on pillows. The client asked how hemophilia A differs from the hemophilia B that a cousin has, and why the desmopressin nasal spray that an uncle with mild hemophilia uses cannot be used.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">The client rates the right knee pain at 8/10. The right knee circumference is now 43 cm. The right foot is warm, with 2+ pedal pulses. The hematologist reviewed the laboratory results by telephone and will enter orders.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Right knee pain and swelling after a collision during a basketball game 6 hours ago.</p><p><b>Medical history:</b> Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. This is the third bleed into the right knee this year.</p><p><b>Medications:</b> Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. The client has missed the last two prophylactic factor VIII infusions during university examinations. The client took ibuprofen 400 mg PO twice at home today for the pain.</p><p><b>Weight:</b> 70 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is alert and oriented × 4.</p><p><b>Musculoskeletal:</b> The right knee is swollen, warm and tense. The client holds the right knee flexed at about 30° and cannot extend it fully. The right knee circumference is 42 cm; the left knee circumference is 37 cm.</p><p><b>Neurovascular, right foot:</b> Pedal pulses are 2+. Capillary refill is less than 2 seconds. Sensation is intact.</p><p><b>Pain:</b> The client rates the right knee pain at 8/10.</p>"
           },
           {
             "id": "vs",
@@ -153,7 +188,7 @@
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1940 and the Vital Signs.",
         "stem": "Complete the following sentences by choosing from the lists of options.",
         "cloze": {
-          "text": "A prolonged aPTT with a normal PT, INR and platelet count points to a defect in the [[drop0]]. Because the aPTT corrects when Daniel's plasma is mixed with normal plasma, the cause is [[drop1]]. The nurse's priority is [[drop2]].",
+          "text": "A prolonged aPTT with a normal PT, INR and platelet count points to a defect in the [[drop0]]. Because the aPTT corrects when the client's plasma is mixed with normal plasma, the cause is [[drop1]]. The nurse's priority is [[drop2]].",
           "dropdowns": [
             {
               "placeholder": "Select...",
@@ -226,12 +261,22 @@
     {
       "step": 4,
       "leftContent": {
-        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain.",
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client with severe hemophilia A who arrived with right knee pain.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">The client arrived at the emergency department with a roommate, reporting right knee pain that began after a collision during a basketball game 6 hours ago. The client states that the knee “felt tingly and warm” before it became painful and stiff. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">The hematology service was paged. The right knee was splinted and elevated on pillows. The client asked how hemophilia A differs from the hemophilia B that a cousin has, and why the desmopressin nasal spray that an uncle with mild hemophilia uses cannot be used.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">The client rates the right knee pain at 8/10. The right knee circumference is now 43 cm. The right foot is warm, with 2+ pedal pulses. The hematologist reviewed the laboratory results by telephone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders were received. A peripheral IV catheter was inserted in the left forearm.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Right knee pain and swelling after a collision during a basketball game 6 hours ago.</p><p><b>Medical history:</b> Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. This is the third bleed into the right knee this year.</p><p><b>Medications:</b> Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. The client has missed the last two prophylactic factor VIII infusions during university examinations. The client took ibuprofen 400 mg PO twice at home today for the pain.</p><p><b>Weight:</b> 70 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is alert and oriented × 4.</p><p><b>Musculoskeletal:</b> The right knee is swollen, warm and tense. The client holds the right knee flexed at about 30° and cannot extend it fully. The right knee circumference is 42 cm; the left knee circumference is 37 cm.</p><p><b>Neurovascular, right foot:</b> Pedal pulses are 2+. Capillary refill is less than 2 seconds. Sensation is intact.</p><p><b>Pain:</b> The client rates the right knee pain at 8/10.</p>"
           },
           {
             "id": "vs",
@@ -252,7 +297,7 @@
       },
       "question": {
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2000 and the Orders.",
-        "stem": "Which interventions should the nurse include in Daniel's plan of care? Select all that apply.",
+        "stem": "Which interventions should the nurse include in the client's plan of care? Select all that apply.",
         "type": "select_all",
         "options": [
           {
@@ -294,12 +339,22 @@
     {
       "step": 5,
       "leftContent": {
-        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain.",
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client with severe hemophilia A who arrived with right knee pain.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent head CT requested.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">The client arrived at the emergency department with a roommate, reporting right knee pain that began after a collision during a basketball game 6 hours ago. The client states that the knee “felt tingly and warm” before it became painful and stiff. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">The hematology service was paged. The right knee was splinted and elevated on pillows. The client asked how hemophilia A differs from the hemophilia B that a cousin has, and why the desmopressin nasal spray that an uncle with mild hemophilia uses cannot be used.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">The client rates the right knee pain at 8/10. The right knee circumference is now 43 cm. The right foot is warm, with 2+ pedal pulses. The hematologist reviewed the laboratory results by telephone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders were received. A peripheral IV catheter was inserted in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">The factor VIII infusion was completed without reaction. The client rates the knee pain at 5/10. The right knee circumference is 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">The client was found sitting on the bathroom floor and states having slipped while using crutches and struck the left side of the head on the sink. The client did not lose consciousness. The client is alert and oriented × 4, with a Glasgow Coma Scale score of 15, and pupils are equal and reactive to light. The client reports a headache rated 6/10 and mild nausea. A small swelling is present over the left temple. The provider was notified, and an urgent head CT was requested.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Right knee pain and swelling after a collision during a basketball game 6 hours ago.</p><p><b>Medical history:</b> Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. This is the third bleed into the right knee this year.</p><p><b>Medications:</b> Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. The client has missed the last two prophylactic factor VIII infusions during university examinations. The client took ibuprofen 400 mg PO twice at home today for the pain.</p><p><b>Weight:</b> 70 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is alert and oriented × 4.</p><p><b>Musculoskeletal:</b> The right knee is swollen, warm and tense. The client holds the right knee flexed at about 30° and cannot extend it fully. The right knee circumference is 42 cm; the left knee circumference is 37 cm.</p><p><b>Neurovascular, right foot:</b> Pedal pulses are 2+. Capillary refill is less than 2 seconds. Sensation is intact.</p><p><b>Pain:</b> The client rates the right knee pain at 8/10.</p>"
           },
           {
             "id": "vs",
@@ -324,11 +379,11 @@
         "type": "multiple_choice",
         "options": [
           {
-            "text": "Give acetaminophen for the headache and recheck his neurologic status in 1 hour",
+            "text": "Give acetaminophen for the headache and recheck the neurologic status in 1 hour",
             "correct": false
           },
           {
-            "text": "Transport Daniel to CT first, since factor VIII is needed only if a bleed is confirmed",
+            "text": "Transport the client to CT first, since factor VIII is needed only if a bleed is confirmed",
             "correct": false
           },
           {
@@ -336,22 +391,32 @@
             "correct": true
           },
           {
-            "text": "Apply an ice pack to the left temple and keep Daniel on bed rest",
+            "text": "Apply an ice pack to the left temple and keep the client on bed rest",
             "correct": false
           }
         ],
-        "explanation": "<b>Correct (Option 3):</b> in a person with hemophilia, “even a trivial blow to the head” can cause intracranial hemorrhage, and a headache after head trauma is treated as a possible bleed. Factor replacement to about 100% begins <b>immediately, before</b> the CT scan or any other test is completed; waiting for imaging lets a bleed expand. His factor VIII level is falling since last night's dose, so a new dose is needed now.<br><br><b>Incorrect:</b> delaying factor until the CT confirms a bleed risks a fatal hemorrhage (Option 2). Treating the headache and waiting an hour misses the window to treat; a normal Glasgow Coma Scale now does not rule out a slowly expanding bleed (Option 1). Ice and rest do nothing to stop an intracranial bleed (Option 4). The nurse continues frequent neurologic checks once factor is given."
+        "explanation": "<b>Correct (Option 3):</b> in a person with hemophilia, “even a trivial blow to the head” can cause intracranial hemorrhage, and a headache after head trauma is treated as a possible bleed. Factor replacement to about 100% begins <b>immediately, before</b> the CT scan or any other test is completed; waiting for imaging lets a bleed expand. The client's factor VIII level is falling since last night's dose, so a new dose is needed now.<br><br><b>Incorrect:</b> delaying factor until the CT confirms a bleed risks a fatal hemorrhage (Option 2). Treating the headache and waiting an hour misses the window to treat; a normal Glasgow Coma Scale now does not rule out a slowly expanding bleed (Option 1). Ice and rest do nothing to stop an intracranial bleed (Option 4). The nurse continues frequent neurologic checks once factor is given."
       }
     },
     {
       "step": 6,
       "leftContent": {
-        "intro": "The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A who arrives with right knee pain.",
+        "intro": "The nurse in the emergency department is caring for a 22-year-old male client with severe hemophilia A who arrived with right knee pain.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. Says the knee first felt “tingly and warm” and then became painful and stiff. Has missed his last two prophylactic factor VIII infusions during exams. Took ibuprofen 400 mg twice at home for the pain. Right knee swollen, warm and tense; holds the knee bent at about 30° and cannot straighten it. Rates pain 8/10. Right knee circumference 42 cm; left 37 cm. Right pedal pulses 2+, capillary refill less than 2 seconds, sensation in the right foot intact. Third bleed into the right knee this year. Alert and oriented × 4. Weight 70 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by phone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders received. IV access established in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent head CT requested.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Factor VIII given at 0625. Head CT at 0700: no intracranial hemorrhage.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">Headache resolved; neurologic checks normal. Right knee pain 2/10; circumference 38 cm; lacks 10° of full extension. Walking with crutches. Hematology and the physiotherapist reviewed home prophylaxis, a graded exercise plan and a factor dose for any new bleed.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1830:</span><span class=\"nurse-note-text\">The client arrived at the emergency department with a roommate, reporting right knee pain that began after a collision during a basketball game 6 hours ago. The client states that the knee “felt tingly and warm” before it became painful and stiff. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1915:</span><span class=\"nurse-note-text\">The hematology service was paged. The right knee was splinted and elevated on pillows. The client asked how hemophilia A differs from the hemophilia B that a cousin has, and why the desmopressin nasal spray that an uncle with mild hemophilia uses cannot be used.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1940:</span><span class=\"nurse-note-text\">The client rates the right knee pain at 8/10. The right knee circumference is now 43 cm. The right foot is warm, with 2+ pedal pulses. The hematologist reviewed the laboratory results by telephone and will enter orders.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2000:</span><span class=\"nurse-note-text\">Hematology orders were received. A peripheral IV catheter was inserted in the left forearm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 2045:</span><span class=\"nurse-note-text\">The factor VIII infusion was completed without reaction. The client rates the knee pain at 5/10. The right knee circumference is 43 cm.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0610:</span><span class=\"nurse-note-text\">The client was found sitting on the bathroom floor and states having slipped while using crutches and struck the left side of the head on the sink. The client did not lose consciousness. The client is alert and oriented × 4, with a Glasgow Coma Scale score of 15, and pupils are equal and reactive to light. The client reports a headache rated 6/10 and mild nausea. A small swelling is present over the left temple. The provider was notified, and an urgent head CT was requested.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0800:</span><span class=\"nurse-note-text\">Factor VIII was given at 0625. The head CT at 0700 showed no intracranial hemorrhage.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 4 1000:</span><span class=\"nurse-note-text\">The client's headache has resolved, and neurologic checks are within normal limits. The client rates the right knee pain at 2/10. The right knee circumference is 38 cm, and the knee lacks 10° of full extension. The client is walking with crutches. The hematologist and the physiotherapist reviewed home prophylaxis, a graded exercise plan and a factor dose for any new bleed.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Right knee pain and swelling after a collision during a basketball game 6 hours ago.</p><p><b>Medical history:</b> Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. This is the third bleed into the right knee this year.</p><p><b>Medications:</b> Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. The client has missed the last two prophylactic factor VIII infusions during university examinations. The client took ibuprofen 400 mg PO twice at home today for the pain.</p><p><b>Weight:</b> 70 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is alert and oriented × 4.</p><p><b>Musculoskeletal:</b> The right knee is swollen, warm and tense. The client holds the right knee flexed at about 30° and cannot extend it fully. The right knee circumference is 42 cm; the left knee circumference is 37 cm.</p><p><b>Neurovascular, right foot:</b> Pedal pulses are 2+. Capillary refill is less than 2 seconds. Sensation is intact.</p><p><b>Pain:</b> The client rates the right knee pain at 8/10.</p>"
           },
           {
             "id": "vs",
@@ -373,7 +438,7 @@
       "question": {
         "type": "matrix_mc",
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0800 and Day 4 1000, the Vital Signs, and the Laboratory Results.",
-        "stem": "For each finding, click to specify whether Daniel's condition has <b>improved</b> or <b>not improved</b> compared with his admission.",
+        "stem": "For each finding, click to specify whether the client's condition has <b>improved</b> or <b>not improved</b> compared with admission.",
         "matrix": {
           "firstColumnHeader": "Finding",
           "columns": [
@@ -425,7 +490,7 @@
             }
           ]
         },
-        "explanation": "<b>Improved:</b> knee circumference fell from 42 to 38 cm (right) as blood in the joint is reabsorbed; pain fell from 8/10 to 2/10; he now lacks only 10° of extension instead of 30°. Factor VIII replacement corrected the aPTT (68 s to 31 s) and the trough factor VIII is 62%, within the 50% to 80% target for a severe joint bleed.<br><br><b>Not improved:</b> hemoglobin fell from 138 to 121 g/L, reflecting the blood lost into the knee. It is now stable, but it is lower than on admission and is rechecked; a further fall would suggest another bleed.<br><br><b>Before discharge:</b> the nurse reinforces regular prophylaxis (missed doses caused this bleed), treating any bleed early with home factor, avoiding aspirin and NSAIDs, wearing medical identification, regular dental care, and seeking care at once for headache, vomiting or drowsiness after any head injury."
+        "explanation": "<b>Improved:</b> knee circumference fell from 42 to 38 cm (right) as blood in the joint is reabsorbed; pain fell from 8/10 to 2/10; the knee now lacks only 10° of extension instead of 30°. Factor VIII replacement corrected the aPTT (68 s to 31 s) and the trough factor VIII is 62%, within the 50% to 80% target for a severe joint bleed.<br><br><b>Not improved:</b> hemoglobin fell from 138 to 121 g/L, reflecting the blood lost into the knee. It is now stable, but it is lower than on admission and is rechecked; a further fall would suggest another bleed.<br><br><b>Before discharge:</b> the nurse reinforces regular prophylaxis (missed doses caused this bleed), treating any bleed early with home factor, avoiding aspirin and NSAIDs, wearing medical identification, regular dental care, and seeking care at once for headache, vomiting or drowsiness after any head injury."
       }
     }
   ]

@@ -15,12 +15,22 @@
     {
       "step": 1,
       "leftContent": {
-        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "intro": "The nurse in the intensive care unit is caring for a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">The client was admitted to the ICU from the emergency department with septic shock from pyelonephritis. Blood and urine cultures were drawn in the emergency department at 0640, IV piperacillin-tazobactam was started at 0710, and 2 L of IV crystalloid was given. Norepinephrine is infusing through a central venous catheter. The admission assessment was completed, and the client's daughter is at the bedside.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Fever, chills and right flank pain for 3 days; septic shock from pyelonephritis.</p><p><b>Medical history:</b> Recurrent urinary tract infections. No known bleeding disorder.</p><p><b>Substitute decision-maker:</b> Daughter.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is confused and restless and is oriented to person only.</p><p><b>Skin:</b> Petechiae are present across the chest. Ecchymoses are present under the BP cuff on the right arm. Blood is oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings.</p><p><b>Peripheral circulation:</b> The fingertips of both hands are cool, mottled and dusky.</p><p><b>Mouth:</b> The gums bleed during mouth care.</p><p><b>Renal:</b> Right costovertebral angle tenderness is present. The urine in the catheter bag is pink-tinged; urine output was 15 mL over the past hour.</p>"
           },
           {
             "id": "vs",
@@ -66,19 +76,29 @@
             "correct": true
           }
         ],
-        "explanation": "<b>Consistent with DIC:</b> in acute DIC, platelets and clotting factors are used up faster than the body can replace them, so the client bleeds from many sites at once. Typical signs are persistent oozing from IV, arterial and venipuncture sites (Option 5), petechiae and bruising where pressure is applied (Option 3), bleeding gums (Option 7) and hematuria (Option 4); gastrointestinal bleeding is also common. At the same time, tiny clots block small vessels: cool, mottled, dusky fingertips (acrocyanosis) reflect microvascular thrombosis, made worse by shock (Option 8).<br><br><b>Not DIC:</b> fever and chills are signs of the infection (Option 6), and flank pain with costovertebral angle tenderness points to pyelonephritis (Option 1). These describe the <b>cause</b> (gram-negative sepsis), not DIC itself. How long she was ill before admission does not describe a manifestation of DIC (Option 2).",
+        "explanation": "<b>Consistent with DIC:</b> in acute DIC, platelets and clotting factors are used up faster than the body can replace them, so the client bleeds from many sites at once. Typical signs are persistent oozing from IV, arterial and venipuncture sites (Option 5), petechiae and bruising where pressure is applied (Option 3), bleeding gums (Option 7) and hematuria (Option 4); gastrointestinal bleeding is also common. At the same time, tiny clots block small vessels: cool, mottled, dusky fingertips (acrocyanosis) reflect microvascular thrombosis, made worse by shock (Option 8).<br><br><b>Not DIC:</b> fever and chills are signs of the infection (Option 6), and flank pain with costovertebral angle tenderness points to pyelonephritis (Option 1). These describe the <b>cause</b> (gram-negative sepsis), not DIC itself. How long the client was ill before admission does not describe a manifestation of DIC (Option 2).",
         "preamble": ""
       }
     },
     {
       "step": 2,
       "leftContent": {
-        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "intro": "The nurse in the intensive care unit is caring for a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">The client was admitted to the ICU from the emergency department with septic shock from pyelonephritis. Blood and urine cultures were drawn in the emergency department at 0640, IV piperacillin-tazobactam was started at 0710, and 2 L of IV crystalloid was given. Norepinephrine is infusing through a central venous catheter. The admission assessment was completed, and the client's daughter is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reported to the ICU physician. Urine output was 10 mL over the past hour. The client's daughter asked how an infection can cause bleeding and clotting at the same time.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Fever, chills and right flank pain for 3 days; septic shock from pyelonephritis.</p><p><b>Medical history:</b> Recurrent urinary tract infections. No known bleeding disorder.</p><p><b>Substitute decision-maker:</b> Daughter.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is confused and restless and is oriented to person only.</p><p><b>Skin:</b> Petechiae are present across the chest. Ecchymoses are present under the BP cuff on the right arm. Blood is oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings.</p><p><b>Peripheral circulation:</b> The fingertips of both hands are cool, mottled and dusky.</p><p><b>Mouth:</b> The gums bleed during mouth care.</p><p><b>Renal:</b> Right costovertebral angle tenderness is present. The urine in the catheter bag is pink-tinged; urine output was 15 mL over the past hour.</p>"
           },
           {
             "id": "vs",
@@ -154,12 +174,22 @@
     {
       "step": 3,
       "leftContent": {
-        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "intro": "The nurse in the intensive care unit is caring for a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">The client was admitted to the ICU from the emergency department with septic shock from pyelonephritis. Blood and urine cultures were drawn in the emergency department at 0640, IV piperacillin-tazobactam was started at 0710, and 2 L of IV crystalloid was given. Norepinephrine is infusing through a central venous catheter. The admission assessment was completed, and the client's daughter is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reported to the ICU physician. Urine output was 10 mL over the past hour. The client's daughter asked how an infection can cause bleeding and clotting at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. A small amount of bright red blood was suctioned from the mouth. Urine output was 8 mL over the past 30 minutes. The client remains confused. The physician is at the bedside.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Fever, chills and right flank pain for 3 days; septic shock from pyelonephritis.</p><p><b>Medical history:</b> Recurrent urinary tract infections. No known bleeding disorder.</p><p><b>Substitute decision-maker:</b> Daughter.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is confused and restless and is oriented to person only.</p><p><b>Skin:</b> Petechiae are present across the chest. Ecchymoses are present under the BP cuff on the right arm. Blood is oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings.</p><p><b>Peripheral circulation:</b> The fingertips of both hands are cool, mottled and dusky.</p><p><b>Mouth:</b> The gums bleed during mouth care.</p><p><b>Renal:</b> Right costovertebral angle tenderness is present. The urine in the catheter bag is pink-tinged; urine output was 15 mL over the past hour.</p>"
           },
           {
             "id": "vs",
@@ -239,18 +269,28 @@
             "correct": false
           }
         ],
-        "explanation": "<b>Condition: DIC.</b> Low platelets with a prolonged PT and aPTT, low fibrinogen, a very high D-dimer and schistocytes in a client with gram-negative sepsis fit acute DIC. Immune thrombocytopenia lowers platelets but leaves the PT, aPTT and fibrinogen normal. Thrombotic thrombocytopenic purpura causes low platelets and schistocytes, but clotting factors are not consumed, so the PT, aPTT and fibrinogen are usually normal. Hemophilia A prolongs only the aPTT.<br><br><b>Actions:</b> the most important treatment of DIC is treating its cause, so antibiotics are given on time and without interruption (with fluids and vasopressors for shock). Because she is bleeding with platelets of 18 × 10⁹/L and fibrinogen of 0.8 g/L, platelets and cryoprecipitate (which replaces fibrinogen) are given. Heparin is usually not used in acute DIC with bleeding; it is reserved for slowly developing DIC with thrombosis. Intramuscular injections cause hematomas and are avoided; vitamin K corrects vitamin K deficiency, not consumption.<br><br><b>Parameters:</b> serial platelet counts and fibrinogen show whether consumption is slowing, and bleeding sites show whether replacement is working. Hemoglobin A1C, potassium and factor VIII inhibitors do not track DIC."
+        "explanation": "<b>Condition: DIC.</b> Low platelets with a prolonged PT and aPTT, low fibrinogen, a very high D-dimer and schistocytes in a client with gram-negative sepsis fit acute DIC. Immune thrombocytopenia lowers platelets but leaves the PT, aPTT and fibrinogen normal. Thrombotic thrombocytopenic purpura causes low platelets and schistocytes, but clotting factors are not consumed, so the PT, aPTT and fibrinogen are usually normal. Hemophilia A prolongs only the aPTT.<br><br><b>Actions:</b> the most important treatment of DIC is treating its cause, so antibiotics are given on time and without interruption (with fluids and vasopressors for shock). Because the client is bleeding with platelets of 18 × 10⁹/L and fibrinogen of 0.8 g/L, platelets and cryoprecipitate (which replaces fibrinogen) are given. Heparin is usually not used in acute DIC with bleeding; it is reserved for slowly developing DIC with thrombosis. Intramuscular injections cause hematomas and are avoided; vitamin K corrects vitamin K deficiency, not consumption.<br><br><b>Parameters:</b> serial platelet counts and fibrinogen show whether consumption is slowing, and bleeding sites show whether replacement is working. Hemoglobin A1C, potassium and factor VIII inhibitors do not track DIC."
       }
     },
     {
       "step": 4,
       "leftContent": {
-        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "intro": "The nurse in the intensive care unit is caring for a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">The client was admitted to the ICU from the emergency department with septic shock from pyelonephritis. Blood and urine cultures were drawn in the emergency department at 0640, IV piperacillin-tazobactam was started at 0710, and 2 L of IV crystalloid was given. Norepinephrine is infusing through a central venous catheter. The admission assessment was completed, and the client's daughter is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reported to the ICU physician. Urine output was 10 mL over the past hour. The client's daughter asked how an infection can cause bleeding and clotting at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. A small amount of bright red blood was suctioned from the mouth. Urine output was 8 mL over the past 30 minutes. The client remains confused. The physician is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders were received. One adult dose of platelets and 10 units of cryoprecipitate were requested from the blood bank. The nurse is planning care to protect the client from further bleeding.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Fever, chills and right flank pain for 3 days; septic shock from pyelonephritis.</p><p><b>Medical history:</b> Recurrent urinary tract infections. No known bleeding disorder.</p><p><b>Substitute decision-maker:</b> Daughter.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is confused and restless and is oriented to person only.</p><p><b>Skin:</b> Petechiae are present across the chest. Ecchymoses are present under the BP cuff on the right arm. Blood is oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings.</p><p><b>Peripheral circulation:</b> The fingertips of both hands are cool, mottled and dusky.</p><p><b>Mouth:</b> The gums bleed during mouth care.</p><p><b>Renal:</b> Right costovertebral angle tenderness is present. The urine in the catheter bag is pink-tinged; urine output was 15 mL over the past hour.</p>"
           },
           {
             "id": "vs",
@@ -272,7 +312,7 @@
       "question": {
         "type": "matrix_mc",
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1100 and the Orders.",
-        "stem": "For each nursing intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for Rosa.",
+        "stem": "For each nursing intervention, click to specify whether it is <b>indicated</b> or <b>contraindicated</b> for this client.",
         "matrix": {
           "firstColumnHeader": "Nursing Intervention",
           "columns": [
@@ -309,7 +349,7 @@
               ]
             },
             {
-              "text": "Turn and reposition Rosa gently using a lift sheet",
+              "text": "Turn and reposition the client gently using a lift sheet",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -330,12 +370,22 @@
     {
       "step": 5,
       "leftContent": {
-        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "intro": "The nurse in the intensive care unit is caring for a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">Platelets ready in the blood bank. Informed consent for blood products signed by Rosa's daughter as substitute decision-maker. Blood administration set primed with 0.9% sodium chloride.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">The client was admitted to the ICU from the emergency department with septic shock from pyelonephritis. Blood and urine cultures were drawn in the emergency department at 0640, IV piperacillin-tazobactam was started at 0710, and 2 L of IV crystalloid was given. Norepinephrine is infusing through a central venous catheter. The admission assessment was completed, and the client's daughter is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reported to the ICU physician. Urine output was 10 mL over the past hour. The client's daughter asked how an infection can cause bleeding and clotting at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. A small amount of bright red blood was suctioned from the mouth. Urine output was 8 mL over the past 30 minutes. The client remains confused. The physician is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders were received. One adult dose of platelets and 10 units of cryoprecipitate were requested from the blood bank. The nurse is planning care to protect the client from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">The blood bank reports that the platelets are ready. Informed consent for blood products was signed by the client's daughter as substitute decision-maker. A blood administration set was primed with 0.9% sodium chloride.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Fever, chills and right flank pain for 3 days; septic shock from pyelonephritis.</p><p><b>Medical history:</b> Recurrent urinary tract infections. No known bleeding disorder.</p><p><b>Substitute decision-maker:</b> Daughter.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is confused and restless and is oriented to person only.</p><p><b>Skin:</b> Petechiae are present across the chest. Ecchymoses are present under the BP cuff on the right arm. Blood is oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings.</p><p><b>Peripheral circulation:</b> The fingertips of both hands are cool, mottled and dusky.</p><p><b>Mouth:</b> The gums bleed during mouth care.</p><p><b>Renal:</b> Right costovertebral angle tenderness is present. The urine in the catheter bag is pink-tinged; urine output was 15 mL over the past hour.</p>"
           },
           {
             "id": "vs",
@@ -372,12 +422,22 @@
     {
       "step": 6,
       "leftContent": {
-        "intro": "The nurse in the intensive care unit is caring for Rosa, a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
+        "intro": "The nurse in the intensive care unit is caring for a 58-year-old female client admitted from the emergency department with septic shock from pyelonephritis.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">Admitted to the ICU from the emergency department. Three days of fever, chills and right flank pain; right costovertebral angle tenderness. Blood and urine cultures drawn in the emergency department at 0640; IV piperacillin-tazobactam started at 0710; 2 L of IV crystalloid given. Norepinephrine infusing through a central line. Confused and restless, oriented to person only. Blood oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings. Petechiae across the chest; ecchymoses under the BP cuff on the right arm. Gums bleed when she is given mouth care. Fingertips of both hands cool, mottled and dusky. Pink-tinged urine in the catheter bag; 15 mL over the past hour.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Laboratory results called to the ICU physician. Urine output 10 mL over the past hour. Daughter asks how an infection can make her mother bleed and form clots at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. Small amount of bright red blood in the mouth after suctioning. Urine output 8 mL over the past half-hour. Remains confused. Physician at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders received; 1 adult dose of platelets and 10 units of cryoprecipitate requested from the blood bank. The nurse plans care to protect Rosa from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">Platelets ready in the blood bank. Informed consent for blood products signed by Rosa's daughter as substitute decision-maker. Blood administration set primed with 0.9% sodium chloride.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Platelets and cryoprecipitate given without reaction.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0800:</span><span class=\"nurse-note-text\">Alert and oriented × 3. Norepinephrine stopped at 0200. Blood cultures growing Escherichia coli sensitive to the current antibiotic. No oozing from puncture sites; gums no longer bleeding; urine yellow. Fingertips warm and pink. New petechiae noted on both lower legs. Urine output 45 to 60 mL/hour over the past 12 hours.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 0900:</span><span class=\"nurse-note-text\">The client was admitted to the ICU from the emergency department with septic shock from pyelonephritis. Blood and urine cultures were drawn in the emergency department at 0640, IV piperacillin-tazobactam was started at 0710, and 2 L of IV crystalloid was given. Norepinephrine is infusing through a central venous catheter. The admission assessment was completed, and the client's daughter is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The laboratory results were reported to the ICU physician. Urine output was 10 mL over the past hour. The client's daughter asked how an infection can cause bleeding and clotting at the same time.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1030:</span><span class=\"nurse-note-text\">Oozing continues from all puncture sites. A small amount of bright red blood was suctioned from the mouth. Urine output was 8 mL over the past 30 minutes. The client remains confused. The physician is at the bedside.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1100:</span><span class=\"nurse-note-text\">Physician orders were received. One adult dose of platelets and 10 units of cryoprecipitate were requested from the blood bank. The nurse is planning care to protect the client from further bleeding.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1150:</span><span class=\"nurse-note-text\">The blood bank reports that the platelets are ready. Informed consent for blood products was signed by the client's daughter as substitute decision-maker. A blood administration set was primed with 0.9% sodium chloride.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1300:</span><span class=\"nurse-note-text\">Platelets and cryoprecipitate were given without reaction.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 0800:</span><span class=\"nurse-note-text\">The client is alert and oriented × 3. Norepinephrine was discontinued at 0200. Blood cultures are growing Escherichia coli sensitive to the current antibiotic. There is no oozing from puncture sites, the gums are no longer bleeding, and the urine is yellow. The fingertips are warm and pink. New petechiae are noted on both lower legs. Urine output has been 45 to 60 mL/hour over the past 12 hours.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> Fever, chills and right flank pain for 3 days; septic shock from pyelonephritis.</p><p><b>Medical history:</b> Recurrent urinary tract infections. No known bleeding disorder.</p><p><b>Substitute decision-maker:</b> Daughter.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Neurological:</b> The client is confused and restless and is oriented to person only.</p><p><b>Skin:</b> Petechiae are present across the chest. Ecchymoses are present under the BP cuff on the right arm. Blood is oozing from the left antecubital IV site and from two venipuncture sites despite pressure dressings.</p><p><b>Peripheral circulation:</b> The fingertips of both hands are cool, mottled and dusky.</p><p><b>Mouth:</b> The gums bleed during mouth care.</p><p><b>Renal:</b> Right costovertebral angle tenderness is present. The urine in the catheter bag is pink-tinged; urine output was 15 mL over the past hour.</p>"
           },
           {
             "id": "vs",
@@ -399,7 +459,7 @@
       "question": {
         "type": "matrix_mc",
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1300 and Day 3 0800, the Vital Signs, and the Laboratory Results.",
-        "stem": "For each finding, click to specify whether Rosa's condition has <b>improved</b> or <b>not improved</b> since Day 1.",
+        "stem": "For each finding, click to specify whether the client's condition has <b>improved</b> or <b>not improved</b> since Day 1.",
         "matrix": {
           "firstColumnHeader": "Finding",
           "columns": [

@@ -16,18 +16,28 @@ newborn nursing practice; partly from the Merck summary. ABO: Merck's HDFN page 
 HDFN, while the hyperbilirubinemia page lists ABO incompatibility as a cause of neonatal jaundice; the case avoids it."""
 from nurs1021_common import *
 
-INTRO = ("The nurse on the postpartum and newborn unit is caring for baby boy Okafor, born at 37 weeks by vaginal "
-         "delivery 10 hours ago, and his mother, Grace, a 31-year-old G2P2 client.")
+INTRO = ("The nurse on the postpartum and newborn unit is caring for a male newborn born at 37 weeks by vaginal delivery "
+         "10 hours ago, and for the newborn's mother, a 31-year-old G2P2 client.")
 C = Chart2()
-S1_NOTE = [("Day 1 1700",
-    "Newborn assessment at 10 hours of age. {Skin of the face, chest and abdomen yellow; sclerae yellow.|correct} "
-    "{Skin and mucous membranes pale under the jaundice.|correct} {Liver edge 3 cm below the right costal margin; spleen "
-    "tip palpable.|correct} {Sleepy; needed waking for the last feed and took only 10 mL of formula with a weak suck.|correct} "
-    "{Hands and feet slightly bluish; trunk pink.} {Small white papules on a red base over the chest.} {Bluish-grey "
-    "patch over the lower back.} {Head slightly elongated from molding.} Mother's chart: blood group O, Rh-negative; "
-    "first child born 3 years ago at home in another country; she did not receive Rho(D) immune globulin. Prenatal "
-    "antibody screen this pregnancy: anti-D positive, titer 1:64. Father: Rh-positive.")]
-C.notes("nn", "Nurses' Notes", *S1_NOTE)
+C.notes("nn", "Nurses' Notes", ("Day 1 1700",
+    "The newborn assessment was completed at 10 hours of age. The newborn is formula-feeding. The maternal history was reviewed."))
+S1_HX = [
+    sec("Maternal history", "The client's blood group is O, Rh-negative. The client's first child was born 3 years ago at "
+        "home in another country, and the client did not receive Rho(D) immune globulin. The prenatal antibody screen in "
+        "this pregnancy was positive for anti-D, with a titer of 1:64. The father's blood group is Rh-positive."),
+    sec("Birth", "Born at 37 weeks by vaginal delivery.")]
+S1_PA = [
+    sec("Skin", "{The skin of the face, chest and abdomen is yellow, and the sclerae are yellow.|correct} {The skin and "
+        "mucous membranes are pale under the jaundice.|correct} {The hands and feet are slightly bluish, and the trunk is "
+        "pink.} {Small white papules on a red base are present over the chest.} {A bluish-grey patch is present over the "
+        "lower back.}"),
+    sec("Head", "{The head is slightly elongated from molding.}"),
+    sec("Abdomen", "{The liver edge is palpable 3 cm below the right costal margin, and the spleen tip is "
+        "palpable.|correct}"),
+    sec("Neurological and feeding", "{The newborn is sleepy, needed waking for the last feed, and took only 10 mL of "
+        "formula with a weak suck.|correct}")]
+C.doc("hx", "Health History", *S1_HX)
+C.doc("pa", "Physical Assessment", *S1_PA)
 VS = [vrow("T (axillary)", "Newborn: 36.5–37.5° C"), vrow("P", "Newborn: 110–160 beats/min"),
       vrow("RR", "Newborn: 30–60 breaths/min"), vrow(SPO2)]
 
@@ -39,13 +49,14 @@ def vitals(col, *v):
 vitals("Day 1 1700", "36.8° C", "164 beats/min", "56 breaths/min", "97% on room air")
 s1 = screen(1, INTRO, C, {
     "type": "highlight",
-    "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the newborn findings that require follow-up.",
+    "stem": "The nurse reviews the newborn's Physical Assessment and the Health History. <b>Highlight</b> the newborn "
+            "findings that require follow-up.",
     "options": [],
-    "highlightTabs": [highlight_tab("ht1", "Nurses' Notes", S1_NOTE)],
+    "highlightTabs": [highlight_doc("ht1", "Physical Assessment", S1_PA), highlight_doc("ht2", "Health History", S1_HX)],
     "maxCorrectSelections": None,
     "explanation": rationale(
         "<b>Require follow-up:</b> jaundice that appears in the <b>first 24 hours</b> is pathologic until proven "
-        "otherwise; physiologic jaundice appears after the first day. Here maternal antibodies are destroying the baby's "
+        "otherwise; physiologic jaundice appears after the first day. Here maternal antibodies are destroying the newborn's "
         "red cells (hemolysis), releasing unconjugated bilirubin faster than the immature liver can conjugate it. Pallor "
         "reflects anemia from hemolysis. The liver and spleen enlarge as they remove damaged cells and make new ones "
         "(extramedullary hematopoiesis). Sleepiness, poor feeding and a weak suck can be early signs of bilirubin "
@@ -59,7 +70,8 @@ s1 = screen(1, INTRO, C, {
 
 # Screen 2
 C.notes("nn", "Nurses' Notes", ("Day 1 1745",
-    "Results called to the pediatrician. Grace asks, “Why is this baby sick when my first baby was fine?”"))
+    "The laboratory results were reported to the pediatrician. The client asks, “Why is this baby sick when my first "
+    "baby was fine?”"))
 LAB = ["<b>Blood group (newborn)</b>", lab("Direct antiglobulin test (DAT, direct Coombs)", "Negative"),
        lab("Hemoglobin (Hgb)", "Newborn: 140–220 g/L"), lab("Reticulocyte percentage", "Newborn: 3%–7%"),
        lab("Bilirubin, total", "See hour-specific chart"), lab("Bilirubin, direct (conjugated)", "2–9 µmol/L"),
@@ -79,12 +91,13 @@ s2 = screen(2, INTRO, C, {
         ("Reticulocytes 14%", 1),
         ("Total bilirubin 176 µmol/L at 10 hours of age", 1)]),
     "explanation": rationale(
-        "<b>Pathogenesis (answering Grace):</b> during her first delivery, some of the baby's Rh-positive red cells "
-        "entered her circulation. Her immune system made anti-D antibodies; the first baby was born before that response "
-        "developed and was not affected. In this pregnancy, her IgG anti-D crossed the placenta, coated the baby's "
+        "<b>Pathogenesis (answering the client):</b> during the first delivery, some of the first child's Rh-positive red "
+        "cells entered the client's circulation. The client's immune system made anti-D antibodies; the first child was "
+        "born before that response developed and was not affected. In this pregnancy, the client's IgG anti-D crossed the "
+        "placenta, coated the newborn's "
         "Rh-positive red cells and caused their destruction. A dose of Rho(D) immune globulin within 72 hours of the first "
         "birth would most likely have prevented the sensitization.",
-        "<b>Supports hemolytic disease:</b> a positive DAT shows maternal antibody on the baby's red cells. Hemoglobin of "
+        "<b>Supports hemolytic disease:</b> a positive DAT shows maternal antibody on the newborn's red cells. Hemoglobin of "
         "118 g/L is low for a newborn (anemia from hemolysis), and 14% reticulocytes show the marrow trying to replace "
         "the cells. A total bilirubin of 176 µmol/L at 10 hours is far above expected for that age and, with a known "
         "hemolytic cause, is above the phototherapy threshold.",
@@ -94,14 +107,15 @@ s2 = screen(2, INTRO, C, {
 
 # Screen 3
 C.notes("nn", "Nurses' Notes", ("Day 1 2300",
-    "Repeat bilirubin drawn at 16 hours. Baby fed 15 mL; still sleepy but rouses to handling."))
+    "A repeat bilirubin level was drawn at 16 hours of age. The newborn took 15 mL of formula and remains sleepy but "
+    "rouses to handling."))
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Day 1 2300 (16 h)", list(zip(
     [LAB[4]], ["224 µmol/L"])))
 s3 = screen(3, INTRO, C, {
     "type": "dropdown_cloze",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 2300 and the Laboratory Results.",
     "stem": "Complete the following sentences by choosing from the lists of options.",
-    "cloze": {"text": "The baby's bilirubin rose by about [[drop0]] over 6 hours, which shows [[drop1]]. The nurse's "
+    "cloze": {"text": "The newborn's bilirubin rose by about [[drop0]] over 6 hours, which shows [[drop1]]. The nurse's "
                       "priority is preventing [[drop2]].",
               "dropdowns": [
                   dd(1031, "8 µmol/L per hour", "2 µmol/L per hour", "20 µmol/L per hour", "0.5 µmol/L per hour"),
@@ -113,7 +127,7 @@ s3 = screen(3, INTRO, C, {
         "<b>Rate of rise:</b> 176 to 224 µmol/L in 6 hours is 48 µmol/L, or 8 µmol/L per hour. A rise faster than about "
         "5 µmol/L per hour in the first 24 hours is a red flag for hemolysis.",
         "<b>Meaning:</b> physiologic jaundice begins after 24 hours and rises slowly; breastfeeding jaundice appears in the "
-        "first week with poor intake (this baby is formula-fed); bile duct obstruction raises <b>conjugated</b> bilirubin, "
+        "first week with poor intake (this newborn is formula-fed); bile duct obstruction raises <b>conjugated</b> bilirubin, "
         "which is normal here.",
         "<b>Priority:</b> unconjugated bilirubin is fat-soluble; when it exceeds the binding capacity of albumin it crosses "
         "the blood-brain barrier and deposits in the basal ganglia and brainstem. Early signs are lethargy and poor "
@@ -123,8 +137,8 @@ s3 = screen(3, INTRO, C, {
 
 # Screen 4
 C.notes("nn", "Nurses' Notes", ("Day 1 2330",
-    "Pediatrician orders intensive phototherapy and transfer to the neonatal intensive care unit. Grace asks how she can "
-    "help care for her baby."))
+    "The pediatrician ordered intensive phototherapy and transfer to the neonatal intensive care unit. The client asks "
+    "how to help care for the newborn."))
 C.rows("orders", "Orders", ["Category", "Order"], [
     ["<b>Phototherapy</b>", "Intensive LED phototherapy, continuous. Interrupt only briefly for feeds."],
     ["<b>Bilirubin</b>", "Serum total bilirubin every 4 hours. Exchange transfusion if bilirubin reaches the exchange "
@@ -133,14 +147,14 @@ C.rows("orders", "Orders", ["Category", "Order"], [
     ["<b>Blood bank</b>", "Crossmatch O Rh-negative red cells, compatible with the mother's plasma, for possible exchange "
                           "transfusion."]])
 s4 = screen(4, INTRO, C, select_all(1041, [
-    ("A", "Cover the baby's eyes with eye shields while the lights are on", True),
-    ("B", "Undress the baby except for a diaper to expose as much skin as possible", True),
-    ("C", "Check the baby's temperature at least every 3 to 4 hours", True),
+    ("A", "Cover the newborn's eyes with eye shields while the lights are on", True),
+    ("B", "Undress the newborn except for a diaper to expose as much skin as possible", True),
+    ("C", "Check the newborn's temperature at least every 3 to 4 hours", True),
     ("D", "Feed every 3 hours and record wet diapers and stools", True),
     ("E", "Protect each bilirubin sample from light", True),
     ("F", "Apply lotion to the skin to prevent drying under the lights", False),
     ("G", "Give glucose water between feeds to flush out the bilirubin", False),
-    ("H", "Judge the response by how yellow the baby's skin looks", False)],
+    ("H", "Judge the response by how yellow the newborn's skin looks", False)],
     rationale(
         "<b>Include:</b> blue-green light changes bilirubin in the skin into water-soluble forms excreted in bile and urine "
         "without conjugation. Eyes are shielded to protect the retina {A}. Maximal skin exposure increases the dose of "
@@ -151,12 +165,13 @@ s4 = screen(4, INTRO, C, select_all(1041, [
         "bilirubin and displaces milk, which is needed for stooling {G}. Phototherapy bleaches the skin while serum "
         "bilirubin can remain high, so the response is judged by serum bilirubin, not skin color {H}."),
     preamble="The nurse has reviewed the Nurses' Notes from Day 1 2330 and the Orders.",
-    stem="Which interventions should the nurse include in the baby's plan of care? Select all that apply."))
+    stem="Which interventions should the nurse include in the newborn's plan of care? Select all that apply."))
 
 # Screen 5
 C.notes("nn", "Nurses' Notes", ("Day 2 0700",
-    "Baby in the NICU under intensive phototherapy. Bilirubin still rising. Difficult to rouse; poor suck. High-pitched "
-    "cry when handled. Neonatologist plans an exchange transfusion through an umbilical venous catheter."))
+    "The newborn is in the NICU under intensive phototherapy, and the bilirubin level is still rising. The newborn is "
+    "difficult to rouse, has a poor suck and has a high-pitched cry when handled. The neonatologist plans an exchange "
+    "transfusion through an umbilical venous catheter."))
 vitals("Day 2 0700", "37.1° C", "172 beats/min", "58 breaths/min", "96% on room air")
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Day 2 0300 (20 h)", list(zip(
     [LAB[4]], ["262 µmol/L"])))
@@ -169,36 +184,37 @@ s5 = screen(5, INTRO, C, {
             "<b>Contraindicated</b> while the exchange transfusion is prepared.",
     "matrix": matrix_mc("Nursing Action", IMC, [
         ("Continue intensive phototherapy until the exchange transfusion begins", 0),
-        ("Turn off the phototherapy to observe the baby's skin color", 2),
+        ("Turn off the phototherapy to observe the newborn's skin color", 2),
         ("Report the high-pitched cry and difficulty rousing to the neonatologist at once", 0),
-        ("Place the baby on a cardiorespiratory monitor and keep him warm under a radiant warmer", 0),
-        ("Give the baby Rho(D) immune globulin", 2),
+        ("Place the newborn on a cardiorespiratory monitor and maintain warmth under a radiant warmer", 0),
+        ("Give the newborn Rho(D) immune globulin", 2),
         ("Repeat the direct antiglobulin test before the exchange", 1)]),
     "explanation": rationale(
         "<b>Indicated:</b> phototherapy continues to lower bilirubin while blood is prepared. A high-pitched cry, poor suck "
         "and difficulty rousing are signs of acute bilirubin encephalopathy: urgent exchange transfusion can prevent "
-        "permanent damage. An exchange transfusion replaces about twice the baby's blood volume in small aliquots, "
+        "permanent damage. An exchange transfusion replaces about twice the newborn's blood volume in small aliquots, "
         "removing bilirubin and antibody-coated cells and correcting anemia; heart rate, breathing, temperature, glucose "
         "and calcium are monitored closely.",
         "<b>Contraindicated:</b> stopping phototherapy lets bilirubin rise further; skin color does not reflect serum "
         "bilirubin. Rho(D) immune globulin is given to Rh-negative <b>mothers</b> to prevent sensitization; it is never "
-        "given to an Rh-positive baby, whose red cells it would destroy.",
+        "given to an Rh-positive newborn, whose red cells it would destroy.",
         "<b>Non-Essential:</b> the DAT is already positive and will not change management."),
 })
 
 # Screen 6
 C.notes("nn", "Nurses' Notes",
-    ("Day 2 1300", "Exchange transfusion completed without complications. Bilirubin 158 µmol/L; hemoglobin 148 g/L."),
-    ("Day 6 1000", "Phototherapy stopped on day 4; bilirubin stable. Alert, feeding well, normal tone and cry. Hearing "
-     "screen (automated brainstem response) passed. The nurse reviews discharge and future-pregnancy teaching with "
-     "Grace."))
+    ("Day 2 1300", "The exchange transfusion was completed without complications. Bilirubin is 158 µmol/L, and "
+     "hemoglobin is 148 g/L."),
+    ("Day 6 1000", "Phototherapy was discontinued on day 4, and the bilirubin level is stable. The newborn is alert and "
+     "feeding well, with normal tone and cry. The newborn passed the hearing screen (automated auditory brainstem "
+     "response). The nurse reviews discharge and future-pregnancy teaching with the client."))
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Day 6 0600", list(zip(
     [LAB[2], LAB[3], LAB[4]], ["132 g/L", "6%", "142 µmol/L"])))
 s6 = screen(6, INTRO, C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1300 and Day 6 1000 and the Laboratory Results.",
-    "stem": "For each statement Grace makes, click to specify whether it shows that the teaching was <b>understood</b> or "
-            "that she <b>needs further teaching</b>.",
+    "stem": "For each statement the client makes, click to specify whether it shows that the teaching was <b>understood</b> or "
+            "that the client <b>needs further teaching</b>.",
     "matrix": matrix_mc("Client Statement", ["Understood", "Needs Further Teaching"], [
         ("“Rho(D) immune globulin won't help me now, because I already have the antibodies.”", 0),
         ("“In my next pregnancy, I'll have antibody tests and ultrasounds to check the baby for anemia.”", 0),
@@ -208,13 +224,13 @@ s6 = screen(6, INTRO, C, {
         ("“My sister is Rh-negative too, so she should ask about the immune globulin in her pregnancy.”", 0)]),
     "explanation": rationale(
         "<b>Understood:</b> Rho(D) immune globulin prevents sensitization (given at 28 weeks and within 72 hours after the "
-        "birth of an Rh-positive baby, and after bleeding, trauma, amniocentesis, miscarriage or ectopic pregnancy); once "
+        "birth of an Rh-positive newborn, and after bleeding, trauma, amniocentesis, miscarriage or ectopic pregnancy); once "
         "antibodies exist, it cannot remove them. In later pregnancies the antibody titer is followed and, above the "
         "critical titer, middle cerebral artery Doppler ultrasound detects fetal anemia, which can be treated with "
-        "intrauterine transfusion. Maternal antibodies keep destroying the baby's cells for weeks, so late anemia is "
+        "intrauterine transfusion. Maternal antibodies keep destroying the newborn's cells for weeks, so late anemia is "
         "watched for. An unsensitized Rh-negative relative benefits from prophylaxis.",
         "<b>Needs further teaching:</b> sensitization is permanent and the disease usually becomes more severe with each "
-        "Rh-positive pregnancy. Sunlight is not a safe or measurable treatment and can burn or overheat a baby; returning "
+        "Rh-positive pregnancy. Sunlight is not a safe or measurable treatment and can burn or overheat a newborn; returning "
         "jaundice, poor feeding or sleepiness need prompt assessment."),
 })
 write_case(1, 10,

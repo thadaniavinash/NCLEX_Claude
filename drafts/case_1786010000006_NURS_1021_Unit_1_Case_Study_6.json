@@ -15,12 +15,22 @@
     {
       "step": 1,
       "leftContent": {
-        "intro": "The nurse in a nephrology clinic is assessing Margaret, a 67-year-old female client with type 2 diabetes, hypertension and stage 4 chronic kidney disease, who reports increasing tiredness.",
+        "intro": "The nurse in a nephrology clinic is assessing a 67-year-old female client with type 2 diabetes, hypertension and stage 4 chronic kidney disease who reports increasing tiredness.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The client presents for a scheduled nephrology visit and reports increasing tiredness over the past 3 months. The health history and physical assessment were completed. Blood work and a fecal immunochemical test were ordered.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Increasing tiredness for 3 months. The client has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. The client feels cold even indoors.</p><p><b>Other symptoms:</b> The client states, “I am itchy all the time,” and reports a metallic taste and a poor appetite. The client denies blood in the stools and black stools.</p><p><b>Medical history:</b> Type 2 diabetes for 20 years, hypertension, and stage 4 chronic kidney disease from diabetic nephropathy (not on dialysis).</p><p><b>Medications:</b> Insulin glargine, ramipril, amlodipine, furosemide and atorvastatin.</p><p><b>Weight:</b> 68 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. The skin is dry, with scratch marks on the forearms.</p><p><b>Cardiovascular:</b> 1+ pitting edema is present in both ankles.</p>"
           },
           {
             "id": "vs",
@@ -73,12 +83,22 @@
     {
       "step": 2,
       "leftContent": {
-        "intro": "Margaret returns to review her blood work.",
+        "intro": "The client returns to review the blood work.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The client presents for a scheduled nephrology visit and reports increasing tiredness over the past 3 months. The health history and physical assessment were completed. Blood work and a fecal immunochemical test were ordered.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">The client returned to review the laboratory results with the nephrologist. The fecal immunochemical test is negative. The client asks why kidney disease would affect the blood.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Increasing tiredness for 3 months. The client has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. The client feels cold even indoors.</p><p><b>Other symptoms:</b> The client states, “I am itchy all the time,” and reports a metallic taste and a poor appetite. The client denies blood in the stools and black stools.</p><p><b>Medical history:</b> Type 2 diabetes for 20 years, hypertension, and stage 4 chronic kidney disease from diabetic nephropathy (not on dialysis).</p><p><b>Medications:</b> Insulin glargine, ramipril, amlodipine, furosemide and atorvastatin.</p><p><b>Weight:</b> 68 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. The skin is dry, with scratch marks on the forearms.</p><p><b>Cardiovascular:</b> 1+ pitting edema is present in both ankles.</p>"
           },
           {
             "id": "vs",
@@ -97,7 +117,7 @@
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1100 and the Laboratory Results.",
         "stem": "Complete the following sentences by choosing from the lists of options.",
         "cloze": {
-          "text": "Margaret's damaged kidneys make too little [[drop0]], so her bone marrow produces fewer red cells. This is shown by [[drop1]]. Her ferritin and transferrin saturation show [[drop2]].",
+          "text": "The client's damaged kidneys make too little [[drop0]], so the bone marrow produces fewer red cells. This is shown by [[drop1]]. Her ferritin and transferrin saturation show [[drop2]].",
           "dropdowns": [
             {
               "placeholder": "Select...",
@@ -170,12 +190,22 @@
     {
       "step": 3,
       "leftContent": {
-        "intro": "Margaret returns to review her blood work.",
+        "intro": "The client returns to review the blood work.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The client presents for a scheduled nephrology visit and reports increasing tiredness over the past 3 months. The health history and physical assessment were completed. Blood work and a fecal immunochemical test were ordered.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">The client returned to review the laboratory results with the nephrologist. The fecal immunochemical test is negative. The client asks why kidney disease would affect the blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">The nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. The client reports having to stop twice on the stairs on the way into the clinic.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Increasing tiredness for 3 months. The client has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. The client feels cold even indoors.</p><p><b>Other symptoms:</b> The client states, “I am itchy all the time,” and reports a metallic taste and a poor appetite. The client denies blood in the stools and black stools.</p><p><b>Medical history:</b> Type 2 diabetes for 20 years, hypertension, and stage 4 chronic kidney disease from diabetic nephropathy (not on dialysis).</p><p><b>Medications:</b> Insulin glargine, ramipril, amlodipine, furosemide and atorvastatin.</p><p><b>Weight:</b> 68 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. The skin is dry, with scratch marks on the forearms.</p><p><b>Cardiovascular:</b> 1+ pitting edema is present in both ankles.</p>"
           },
           {
             "id": "vs",
@@ -266,12 +296,22 @@
     {
       "step": 4,
       "leftContent": {
-        "intro": "Three weeks later, Margaret returns to the clinic.",
+        "intro": "Three weeks later, the client returns to the clinic.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The client presents for a scheduled nephrology visit and reports increasing tiredness over the past 3 months. The health history and physical assessment were completed. Blood work and a fecal immunochemical test were ordered.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">The client returned to review the laboratory results with the nephrologist. The fecal immunochemical test is negative. The client asks why kidney disease would affect the blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">The nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. The client reports having to stop twice on the stairs on the way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose were given without reaction. The first darbepoetin dose is due today, and the client will self-inject the next doses at home. The client asks what to know about the medication.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Increasing tiredness for 3 months. The client has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. The client feels cold even indoors.</p><p><b>Other symptoms:</b> The client states, “I am itchy all the time,” and reports a metallic taste and a poor appetite. The client denies blood in the stools and black stools.</p><p><b>Medical history:</b> Type 2 diabetes for 20 years, hypertension, and stage 4 chronic kidney disease from diabetic nephropathy (not on dialysis).</p><p><b>Medications:</b> Insulin glargine, ramipril, amlodipine, furosemide and atorvastatin.</p><p><b>Weight:</b> 68 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. The skin is dry, with scratch marks on the forearms.</p><p><b>Cardiovascular:</b> 1+ pitting edema is present in both ankles.</p>"
           },
           {
             "id": "vs",
@@ -292,7 +332,7 @@
       },
       "question": {
         "preamble": "The nurse has reviewed the Nurses' Notes from Week 3 1000, the Vital Signs, and the Laboratory Results.",
-        "stem": "Which instructions should the nurse include in Margaret's teaching? Select all that apply.",
+        "stem": "Which instructions should the nurse include in the client's teaching? Select all that apply.",
         "type": "select_all",
         "options": [
           {
@@ -334,12 +374,22 @@
     {
       "step": 5,
       "leftContent": {
-        "intro": "At week 9, Margaret returns to the clinic.",
+        "intro": "At week 9, the client returns to the clinic.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">Visit for her scheduled darbepoetin dose. Reports a throbbing headache for 2 days and that her home BP readings have been 165 to 175 systolic. No chest pain; no weakness or numbness; speech clear. Says she has “more energy than in years.”</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The client presents for a scheduled nephrology visit and reports increasing tiredness over the past 3 months. The health history and physical assessment were completed. Blood work and a fecal immunochemical test were ordered.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">The client returned to review the laboratory results with the nephrologist. The fecal immunochemical test is negative. The client asks why kidney disease would affect the blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">The nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. The client reports having to stop twice on the stairs on the way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose were given without reaction. The first darbepoetin dose is due today, and the client will self-inject the next doses at home. The client asks what to know about the medication.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">The client presents for the scheduled darbepoetin dose. The client reports a throbbing headache for 2 days and home systolic BP readings of 165 to 175 mm Hg. The client denies chest pain, weakness and numbness, and speech is clear. The client states, “I have more energy than I have had in years.”</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Increasing tiredness for 3 months. The client has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. The client feels cold even indoors.</p><p><b>Other symptoms:</b> The client states, “I am itchy all the time,” and reports a metallic taste and a poor appetite. The client denies blood in the stools and black stools.</p><p><b>Medical history:</b> Type 2 diabetes for 20 years, hypertension, and stage 4 chronic kidney disease from diabetic nephropathy (not on dialysis).</p><p><b>Medications:</b> Insulin glargine, ramipril, amlodipine, furosemide and atorvastatin.</p><p><b>Weight:</b> 68 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. The skin is dry, with scratch marks on the forearms.</p><p><b>Cardiovascular:</b> 1+ pitting edema is present in both ankles.</p>"
           },
           {
             "id": "vs",
@@ -392,7 +442,7 @@
               ]
             },
             {
-              "text": "Review her home BP record and whether she is taking her antihypertensives",
+              "text": "Review the client's home BP record and whether the antihypertensives are being taken",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -406,7 +456,7 @@
               ]
             },
             {
-              "text": "Tell Margaret to take an extra amlodipine tablet tonight",
+              "text": "Tell the client to take an extra amlodipine tablet tonight",
               "correctIndex": 2,
               "correctIndices": [
                 2
@@ -414,18 +464,28 @@
             }
           ]
         },
-        "explanation": "<b>Contraindicated:</b> her hemoglobin is 121 g/L, above the 115 g/L hold limit, it rose 19 g/L in 2 weeks, and her BP is above 160/100 mm Hg, so all three hold criteria are met; giving the dose would raise the risk of stroke and thrombosis. The nurse does not change antihypertensive doses without a prescription.<br><br><b>Indicated:</b> the dose is held and the nephrologist notified to adjust the ESA and her BP treatment. A headache with a BP of 174/98 mm Hg needs a repeat reading and a neurologic check (speech, strength, vision) to exclude hypertensive emergency or stroke. Missed antihypertensive doses are a common, correctable cause of high BP.<br><br><b>Non-Essential:</b> her vitamin B12 was normal, and B12 deficiency does not explain a rising hemoglobin."
+        "explanation": "<b>Contraindicated:</b> the client's hemoglobin is 121 g/L, above the 115 g/L hold limit, it rose 19 g/L in 2 weeks, and the client's BP is above 160/100 mm Hg, so all three hold criteria are met; giving the dose would raise the risk of stroke and thrombosis. The nurse does not change antihypertensive doses without a prescription.<br><br><b>Indicated:</b> the dose is held and the nephrologist notified to adjust the ESA and the client's BP treatment. A headache with a BP of 174/98 mm Hg needs a repeat reading and a neurologic check (speech, strength, vision) to exclude hypertensive emergency or stroke. Missed antihypertensive doses are a common, correctable cause of high BP.<br><br><b>Non-Essential:</b> the client's vitamin B12 was normal, and B12 deficiency does not explain a rising hemoglobin."
       }
     },
     {
       "step": 6,
       "leftContent": {
-        "intro": "At week 16, Margaret returns for follow-up.",
+        "intro": "At week 16, the client returns for follow-up.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, atorvastatin. Weight 68 kg.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys would affect her blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs twice on her way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own injections at home. She asks what she needs to know.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">Visit for her scheduled darbepoetin dose. Reports a throbbing headache for 2 days and that her home BP readings have been 165 to 175 systolic. No chest pain; no weakness or numbness; speech clear. Says she has “more energy than in years.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 16 1000:</span><span class=\"nurse-note-text\">Darbepoetin was held for 2 weeks, then restarted at 20 mcg every 2 weeks; amlodipine was increased. No headaches. Walks to the grocery store and shops without needing to sit down.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1000:</span><span class=\"nurse-note-text\">The client presents for a scheduled nephrology visit and reports increasing tiredness over the past 3 months. The health history and physical assessment were completed. Blood work and a fecal immunochemical test were ordered.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1100:</span><span class=\"nurse-note-text\">The client returned to review the laboratory results with the nephrologist. The fecal immunochemical test is negative. The client asks why kidney disease would affect the blood.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 3 1130:</span><span class=\"nurse-note-text\">The nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. The client reports having to stop twice on the stairs on the way into the clinic.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 3 1000:</span><span class=\"nurse-note-text\">All 5 doses of iron sucrose were given without reaction. The first darbepoetin dose is due today, and the client will self-inject the next doses at home. The client asks what to know about the medication.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 9 1000:</span><span class=\"nurse-note-text\">The client presents for the scheduled darbepoetin dose. The client reports a throbbing headache for 2 days and home systolic BP readings of 165 to 175 mm Hg. The client denies chest pain, weakness and numbness, and speech is clear. The client states, “I have more energy than I have had in years.”</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 16 1000:</span><span class=\"nurse-note-text\">Darbepoetin was held for 2 weeks and then restarted at 20 mcg every 2 weeks, and the amlodipine dose was increased. The client reports no headaches and now walks to the grocery store and shops without needing to sit down.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for visit:</b> Increasing tiredness for 3 months. The client has to sit down twice while grocery shopping and becomes short of breath walking up the driveway. The client feels cold even indoors.</p><p><b>Other symptoms:</b> The client states, “I am itchy all the time,” and reports a metallic taste and a poor appetite. The client denies blood in the stools and black stools.</p><p><b>Medical history:</b> Type 2 diabetes for 20 years, hypertension, and stage 4 chronic kidney disease from diabetic nephropathy (not on dialysis).</p><p><b>Medications:</b> Insulin glargine, ramipril, amlodipine, furosemide and atorvastatin.</p><p><b>Weight:</b> 68 kg.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The conjunctivae and nail beds are pale. The skin is dry, with scratch marks on the forearms.</p><p><b>Cardiovascular:</b> 1+ pitting edema is present in both ankles.</p>"
           },
           {
             "id": "vs",
@@ -478,7 +538,7 @@
             "correct": false
           }
         ],
-        "explanation": "<b>Goals met:</b> her hemoglobin is within the 100 to 115 g/L target (Option 2); iron stores are replete (transferrin saturation above 0.20 and ferritin above 100 µg/L), so the ESA can work (Option 3); BP is controlled after the dose adjustment (Option 5); and her exercise tolerance has improved, the aim of treating the anemia (Option 6).<br><br><b>Not evidence of goals met:</b> a hemoglobin of 121 g/L was above target and led to the dose being held (Option 7). Creatinine and potassium reflect kidney function, which ESAs and iron do not improve; her slowly rising creatinine and high-normal potassium are followed by the nephrologist (Options 1 and 4)."
+        "explanation": "<b>Goals met:</b> the client's hemoglobin is within the 100 to 115 g/L target (Option 2); iron stores are replete (transferrin saturation above 0.20 and ferritin above 100 µg/L), so the ESA can work (Option 3); BP is controlled after the dose adjustment (Option 5); and the client's exercise tolerance has improved, the aim of treating the anemia (Option 6).<br><br><b>Not evidence of goals met:</b> a hemoglobin of 121 g/L was above target and led to the dose being held (Option 7). Creatinine and potassium reflect kidney function, which ESAs and iron do not improve; the client's slowly rising creatinine and high-normal potassium are followed by the nephrologist (Options 1 and 4)."
       }
     }
   ]

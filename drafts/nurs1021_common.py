@@ -6,7 +6,7 @@ drop-downs, and write_case() for NURS 1021 ids (case_17860<unit><n:07d>). Items 
 draft: true (hidden from students) so the author reviews them in the studio and uses "Show to students".
 """
 import json, os, re
-from unit6_common import Chart, table, note_rows, shuffle, matrix_mc, matrix_mr, rationale, lab, highlight_tab, HERE
+from unit6_common import Chart, table, note_rows, shuffle, matrix_mc, matrix_mr, rationale, lab, highlight_tab, strip_marks, HERE
 
 UNITS = {1: "Unit 1 (Blood Disorders)", 2: "Unit 2 (Cardiovascular Disorders)", 3: "Unit 3 (Respiratory Disorders)",
          4: "Unit 4 (Inflammation and Immune Disorders)", 5: "Unit 5 (Leukemias and Lymphomas)",
@@ -23,13 +23,30 @@ class Chart2(Chart):
         t = self._tab(tid, title, "rows", headers)
         t["entries"].extend(rows)
 
+    def doc(self, tid, title, *paragraphs):
+        """A document tab (Health History, Physical Assessment) of headed paragraphs; later screens may add more."""
+        t = self._tab(tid, title, "doc")
+        t["entries"].extend(strip_marks(p) for p in paragraphs)
+
     def snapshot(self):
         out = super().snapshot()
         for tab in out:
             t = self.tabs[tab["id"]]
             if t["kind"] == "rows":
                 tab["content"] = table(t["header"], t["entries"])
+            elif t["kind"] == "doc":
+                tab["content"] = "".join(t["entries"])
         return out
+
+
+def sec(heading, text):
+    """One headed paragraph: <p><b>Heading:</b> text</p> (the form older History and Physical tabs use)."""
+    return f"<p><b>{heading}:</b> {text}</p>"
+
+
+def highlight_doc(tid, title, paragraphs):
+    """Highlight passage built from headed paragraphs (keeps {phrase|correct} markup)."""
+    return {"id": tid, "title": title, "content": "".join(paragraphs)}
 
 
 def vrow(label, expected=None):

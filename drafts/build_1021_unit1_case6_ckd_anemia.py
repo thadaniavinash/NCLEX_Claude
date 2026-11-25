@@ -10,15 +10,24 @@ rises above 120-130 g/L; IV iron if not on dialysis when ferritin < 100 and TSAT
 monographs / nursing texts (not named on the Merck pages)."""
 from nurs1021_common import *
 
-INTRO = ("The nurse in a nephrology clinic is assessing Margaret, a 67-year-old female client with type 2 diabetes, "
-         "hypertension and stage 4 chronic kidney disease, who reports increasing tiredness.")
+INTRO = ("The nurse in a nephrology clinic is assessing a 67-year-old female client with type 2 diabetes, hypertension "
+         "and stage 4 chronic kidney disease who reports increasing tiredness.")
 C = Chart2()
 C.notes("nn", "Nurses' Notes", ("Day 1 1000",
-    "Reports 3 months of increasing tiredness; has to sit down twice while grocery shopping and becomes short of breath "
-    "walking up the driveway. Feels cold even indoors. Conjunctivae and nail beds pale. Skin dry with scratch marks on the "
-    "forearms; says she is “itchy all the time.” Notices a metallic taste and a poor appetite. 1+ pitting edema of both "
-    "ankles. No blood in stools; no black stools. Medications: insulin glargine, ramipril, amlodipine, furosemide, "
-    "atorvastatin. Weight 68 kg."))
+    "The client presents for a scheduled nephrology visit and reports increasing tiredness over the past 3 months. The health "
+    "history and physical assessment were completed. Blood work and a fecal immunochemical test were ordered."))
+C.doc("hx", "Health History",
+    sec("Reason for visit", "Increasing tiredness for 3 months. The client has to sit down twice while grocery shopping "
+        "and becomes short of breath walking up the driveway. The client feels cold even indoors."),
+    sec("Other symptoms", "The client states, “I am itchy all the time,” and reports a metallic taste and a poor appetite. "
+        "The client denies blood in the stools and black stools."),
+    sec("Medical history", "Type 2 diabetes for 20 years, hypertension, and stage 4 chronic kidney disease from diabetic "
+        "nephropathy (not on dialysis)."),
+    sec("Medications", "Insulin glargine, ramipril, amlodipine, furosemide and atorvastatin."),
+    sec("Weight", "68 kg."))
+C.doc("pa", "Physical Assessment",
+    sec("Skin", "The conjunctivae and nail beds are pale. The skin is dry, with scratch marks on the forearms."),
+    sec("Cardiovascular", "1+ pitting edema is present in both ankles."))
 VS = [vrow("T"), vrow("P"), vrow("RR"), vrow("BP"), vrow(SPO2)]
 
 
@@ -49,8 +58,8 @@ s1 = screen(1, INTRO, C, select_all(611, [
 
 # Screen 2
 C.notes("nn", "Nurses' Notes", ("Day 3 1100",
-    "Laboratory results reviewed with the nephrologist. Fecal immunochemical test negative. Margaret asks why her kidneys "
-    "would affect her blood."))
+    "The client returned to review the laboratory results with the nephrologist. The fecal immunochemical test is "
+    "negative. The client asks why kidney disease would affect the blood."))
 LAB = [lab("Hemoglobin (Hgb)", "Female: 115–155 g/L"), lab("Mean corpuscular volume (MCV)", "80–100 fL"),
        lab("Reticulocyte count, absolute", "23–90 × 10<sup>9</sup>/L"), lab("Ferritin", "Female: 11–307 µg/L"),
        lab("Transferrin saturation", "0.20–0.50"), lab("Vitamin B12", "133–675 pmol/L"),
@@ -59,11 +68,11 @@ LAB = [lab("Hemoglobin (Hgb)", "Female: 115–155 g/L"), lab("Mean corpuscular v
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Day 1", list(zip(LAB, [
     "86 g/L", "88 fL", "18 × 10<sup>9</sup>/L", "64 µg/L", "0.16", "412 pmol/L", "24 nmol/L", "198 µmol/L",
     "22 mL/min/1.73 m²", "5.3 mmol/L"])))
-s2 = screen(2, "Margaret returns to review her blood work.", C, {
+s2 = screen(2, "The client returns to review the blood work.", C, {
     "type": "dropdown_cloze",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1100 and the Laboratory Results.",
     "stem": "Complete the following sentences by choosing from the lists of options.",
-    "cloze": {"text": "Margaret's damaged kidneys make too little [[drop0]], so her bone marrow produces fewer red cells. "
+    "cloze": {"text": "The client's damaged kidneys make too little [[drop0]], so the bone marrow produces fewer red cells. "
                       "This is shown by [[drop1]]. Her ferritin and transferrin saturation show [[drop2]].",
               "dropdowns": [
                   dd(621, "erythropoietin", "renin", "intrinsic factor", "thrombopoietin"),
@@ -93,8 +102,8 @@ s2 = screen(2, "Margaret returns to review her blood work.", C, {
 
 # Screen 3
 C.notes("nn", "Nurses' Notes", ("Day 3 1130",
-    "Nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. Margaret says she had to stop on the stairs "
-    "twice on her way into the clinic."))
+    "The nephrologist plans IV iron now and darbepoetin alfa once iron is replaced. The client reports having to stop "
+    "twice on the stairs on the way into the clinic."))
 C.rows("orders", "Orders", ["Category", "Order"], [
     ["<b>Iron</b>", "Iron sucrose 200 mg IV over 15 minutes, 5 doses over 2 weeks."],
     ["<b>Erythropoiesis-stimulating agent</b>", "Darbepoetin alfa 30 mcg subcutaneously every 2 weeks, starting week 3. "
@@ -102,7 +111,7 @@ C.rows("orders", "Orders", ["Category", "Order"], [
                                                 "rises more than 10 g/L in 2 weeks, or BP is above 160/100 mm Hg."],
     ["<b>Monitoring</b>", "Hemoglobin every 2 weeks until stable; ferritin and transferrin saturation every 3 months. BP "
                           "before each dose."]])
-s3 = screen(3, "Margaret returns to review her blood work.", C, {
+s3 = screen(3, "The client returns to review the blood work.", C, {
     "type": "bowtie",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 3 1130 and the Orders.",
     "stem": "Complete the diagram by dragging from the choices below to specify what condition the client is most likely "
@@ -131,12 +140,12 @@ s3 = screen(3, "Margaret returns to review her blood work.", C, {
 
 # Screen 4
 C.notes("nn", "Nurses' Notes", ("Week 3 1000",
-    "All 5 doses of iron sucrose given without reaction. First darbepoetin dose today; Margaret will give her own "
-    "injections at home. She asks what she needs to know."))
+    "All 5 doses of iron sucrose were given without reaction. The first darbepoetin dose is due today, and the client "
+    "will self-inject the next doses at home. The client asks what to know about the medication."))
 vitals("Week 3 1000", "36.5° C", "98 beats/min", "18 breaths/min", "146/88 mm Hg", "98% on room air")
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Week 3", list(zip(
     [LAB[0], LAB[3], LAB[4]], ["92 g/L", "286 µg/L", "0.29"])))
-s4 = screen(4, "Three weeks later, Margaret returns to the clinic.", C, select_all(641, [
+s4 = screen(4, "Three weeks later, the client returns to the clinic.", C, select_all(641, [
     ("A", "Check and record your blood pressure at home every day and bring the record to each visit", True),
     ("B", "Report a severe headache, chest pain, sudden weakness or a painful, swollen leg right away", True),
     ("C", "Keep your blood test appointments every 2 weeks so the dose can be adjusted", True),
@@ -155,17 +164,17 @@ s4 = screen(4, "Three weeks later, Margaret returns to the clinic.", C, select_a
         "events and death {E}. Antihypertensives are needed even more on an ESA {F}. Doubling a dose risks an excessive "
         "rise; a missed dose is discussed with the clinic {H}."),
     preamble="The nurse has reviewed the Nurses' Notes from Week 3 1000, the Vital Signs, and the Laboratory Results.",
-    stem="Which instructions should the nurse include in Margaret's teaching? Select all that apply."))
+    stem="Which instructions should the nurse include in the client's teaching? Select all that apply."))
 
 # Screen 5
 C.notes("nn", "Nurses' Notes", ("Week 9 1000",
-    "Visit for her scheduled darbepoetin dose. Reports a throbbing headache for 2 days and that her home BP readings have "
-    "been 165 to 175 systolic. No chest pain; no weakness or numbness; speech clear. Says she has “more energy than in "
-    "years.”"))
+    "The client presents for the scheduled darbepoetin dose. The client reports a throbbing headache for 2 days and home "
+    "systolic BP readings of 165 to 175 mm Hg. The client denies chest pain, weakness and numbness, and speech is clear. "
+    "The client states, “I have more energy than I have had in years.”"))
 vitals("Week 9 1000", "36.6° C", "84 beats/min", "18 breaths/min", "174/98 mm Hg", "98% on room air")
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Week 7", list(zip([LAB[0]], ["102 g/L"])))
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Week 9", list(zip([LAB[0]], ["121 g/L"])))
-s5 = screen(5, "At week 9, Margaret returns to the clinic.", C, {
+s5 = screen(5, "At week 9, the client returns to the clinic.", C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Nurses' Notes from Week 9 1000, the Vital Signs, and the Laboratory Results.",
     "stem": "For each nursing action, click to specify whether the action is <b>Indicated</b>, <b>Non-Essential</b>, or "
@@ -174,28 +183,28 @@ s5 = screen(5, "At week 9, Margaret returns to the clinic.", C, {
         ("Give today's scheduled darbepoetin dose", 2),
         ("Hold the dose and notify the nephrologist", 0),
         ("Recheck the BP after 5 minutes of rest and assess for neurologic changes", 0),
-        ("Review her home BP record and whether she is taking her antihypertensives", 0),
+        ("Review the client's home BP record and whether the antihypertensives are being taken", 0),
         ("Request a repeat vitamin B12 level", 1),
-        ("Tell Margaret to take an extra amlodipine tablet tonight", 2)]),
+        ("Tell the client to take an extra amlodipine tablet tonight", 2)]),
     "explanation": rationale(
-        "<b>Contraindicated:</b> her hemoglobin is 121 g/L, above the 115 g/L hold limit, it rose 19 g/L in 2 weeks, and "
-        "her BP is above 160/100 mm Hg, so all three hold criteria are met; giving the dose would raise the risk of stroke "
+        "<b>Contraindicated:</b> the client's hemoglobin is 121 g/L, above the 115 g/L hold limit, it rose 19 g/L in 2 weeks, and "
+        "the client's BP is above 160/100 mm Hg, so all three hold criteria are met; giving the dose would raise the risk of stroke "
         "and thrombosis. The nurse does not change antihypertensive doses without a prescription.",
-        "<b>Indicated:</b> the dose is held and the nephrologist notified to adjust the ESA and her BP treatment. A headache "
+        "<b>Indicated:</b> the dose is held and the nephrologist notified to adjust the ESA and the client's BP treatment. A headache "
         "with a BP of 174/98 mm Hg needs a repeat reading and a neurologic check (speech, strength, vision) to exclude "
         "hypertensive emergency or stroke. Missed antihypertensive doses are a common, correctable cause of high BP.",
-        "<b>Non-Essential:</b> her vitamin B12 was normal, and B12 deficiency does not explain a rising hemoglobin."),
+        "<b>Non-Essential:</b> the client's vitamin B12 was normal, and B12 deficiency does not explain a rising hemoglobin."),
 })
 
 # Screen 6
 C.notes("nn", "Nurses' Notes", ("Week 16 1000",
-    "Darbepoetin was held for 2 weeks, then restarted at 20 mcg every 2 weeks; amlodipine was increased. No headaches. "
-    "Walks to the grocery store and shops without needing to sit down."))
+    "Darbepoetin was held for 2 weeks and then restarted at 20 mcg every 2 weeks, and the amlodipine dose was increased. "
+    "The client reports no headaches and now walks to the grocery store and shops without needing to sit down."))
 vitals("Week 16 1000", "36.5° C", "80 beats/min", "16 breaths/min", "138/84 mm Hg", "98% on room air")
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Week 16", list(zip(
     [LAB[0], LAB[3], LAB[4], LAB[7], LAB[8], LAB[9]],
     ["108 g/L", "254 µg/L", "0.27", "214 µmol/L", "20 mL/min/1.73 m²", "5.4 mmol/L"])))
-s6 = screen(6, "At week 16, Margaret returns for follow-up.", C, options_q("trend", 6617, [
+s6 = screen(6, "At week 16, the client returns for follow-up.", C, options_q("trend", 6617, [
     ("A", "Hemoglobin of 108 g/L at week 16", True),
     ("B", "Ferritin of 254 µg/L and transferrin saturation of 0.27", True),
     ("C", "Blood pressure of 138/84 mm Hg", True),
@@ -204,11 +213,11 @@ s6 = screen(6, "At week 16, Margaret returns for follow-up.", C, options_q("tren
     ("F", "Creatinine of 214 µmol/L", False),
     ("G", "Potassium of 5.4 mmol/L", False)],
     rationale(
-        "<b>Goals met:</b> her hemoglobin is within the 100 to 115 g/L target {A}; iron stores are replete (transferrin "
+        "<b>Goals met:</b> the client's hemoglobin is within the 100 to 115 g/L target {A}; iron stores are replete (transferrin "
         "saturation above 0.20 and ferritin above 100 µg/L), so the ESA can work {B}; BP is controlled after the dose "
-        "adjustment {C}; and her exercise tolerance has improved, the aim of treating the anemia {D}.",
+        "adjustment {C}; and the client's exercise tolerance has improved, the aim of treating the anemia {D}.",
         "<b>Not evidence of goals met:</b> a hemoglobin of 121 g/L was above target and led to the dose being held {E}. "
-        "Creatinine and potassium reflect kidney function, which ESAs and iron do not improve; her slowly rising creatinine "
+        "Creatinine and potassium reflect kidney function, which ESAs and iron do not improve; the client's slowly rising creatinine "
         "and high-normal potassium are followed by the nephrologist {F,G}."),
     preamble="The nurse has reviewed the Nurses' Notes from Week 16 1000, the Vital Signs, and the Laboratory Results.",
     stem="Based on the trends in the client's chart, which findings indicate that the treatment of the anemia is meeting "

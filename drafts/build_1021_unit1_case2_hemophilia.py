@@ -8,19 +8,31 @@ desmopressin only for mild hemophilia A (>=5%) with proven response; avoid aspir
 treat suspected intracranial bleeding before CT."""
 from nurs1021_common import *
 
-INTRO = ("The nurse in the emergency department is caring for Daniel, a 22-year-old male client with severe hemophilia A "
-         "who arrives with right knee pain.")
+INTRO = ("The nurse in the emergency department is caring for a 22-year-old male client with severe hemophilia A who "
+         "arrived with right knee pain.")
 C = Chart2()
-
-S1_NOTE = [("Day 1 1830",
-    "Arrived with his roommate. Hurt his right knee in a collision during a basketball game about 6 hours ago. "
-    "Says the knee first felt “tingly and warm” and then became painful and stiff. {Has missed his last two "
-    "prophylactic factor VIII infusions|correct} during exams. {Took ibuprofen 400 mg twice at home for the pain.|correct} "
-    "{Right knee swollen, warm and tense|correct}; {holds the knee bent at about 30° and cannot straighten it|correct}. "
-    "{Rates pain 8/10.|correct} {Right knee circumference 42 cm; left 37 cm.|correct} "
-    "{Right pedal pulses 2+}, {capillary refill less than 2 seconds}, {sensation in the right foot intact}. "
-    "{Third bleed into the right knee this year.|correct} {Alert and oriented × 4.} Weight 70 kg.")]
-C.notes("nn", "Nurses' Notes", *S1_NOTE)
+C.notes("nn", "Nurses' Notes", ("Day 1 1830",
+    "The client arrived at the emergency department with a roommate, reporting right knee pain that began after a "
+    "collision during a basketball game 6 hours ago. The client states that the knee “felt tingly and warm” before it "
+    "became painful and stiff. The health history and physical assessment were completed."))
+S1_HX = [
+    sec("Reason for visit", "Right knee pain and swelling after a collision during a basketball game 6 hours ago."),
+    sec("Medical history", "Severe hemophilia A (factor VIII activity less than 1%), diagnosed in infancy. "
+        "{This is the third bleed into the right knee this year.|correct}"),
+    sec("Medications", "Recombinant factor VIII IV three times a week, self-infused at home as prophylaxis. "
+        "{The client has missed the last two prophylactic factor VIII infusions during university examinations.|correct} "
+        "{The client took ibuprofen 400 mg PO twice at home today for the pain.|correct}"),
+    sec("Weight", "70 kg.")]
+S1_PA = [
+    sec("Neurological", "{The client is alert and oriented × 4.}"),
+    sec("Musculoskeletal", "{The right knee is swollen, warm and tense.|correct} {The client holds the right knee flexed "
+        "at about 30° and cannot extend it fully.|correct} {The right knee circumference is 42 cm; the left knee "
+        "circumference is 37 cm.|correct}"),
+    sec("Neurovascular, right foot", "{Pedal pulses are 2+.} {Capillary refill is less than 2 seconds.} {Sensation is "
+        "intact.}"),
+    sec("Pain", "{The client rates the right knee pain at 8/10.|correct}")]
+C.doc("hx", "Health History", *S1_HX)
+C.doc("pa", "Physical Assessment", *S1_PA)
 VS = [vrow("T"), vrow("P"), vrow("RR"), vrow("BP"), vrow(SPO2), vrow("Pain (0–10)")]
 
 
@@ -31,27 +43,29 @@ def vitals(col, *v):
 vitals("Day 1 1830", "37.4° C", "102 beats/min", "18 breaths/min", "132/78 mm Hg", "98% on room air", "8")
 s1 = screen(1, INTRO, C, {
     "type": "highlight",
-    "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that require follow-up.",
+    "stem": "The nurse reviews the Health History and the Physical Assessment. <b>Highlight</b> the findings that require "
+            "follow-up.",
     "options": [],
-    "highlightTabs": [highlight_tab("ht1", "Nurses' Notes", S1_NOTE)],
+    "highlightTabs": [highlight_doc("ht1", "Health History", S1_HX), highlight_doc("ht2", "Physical Assessment", S1_PA)],
     "maxCorrectSelections": None,
     "explanation": rationale(
         "<b>Require follow-up:</b> a swollen, warm, tense knee held in flexion, with severe pain and a 5 cm difference in "
         "circumference, is an acute <b>hemarthrosis</b> (bleeding into the joint), the most common bleed in severe hemophilia. "
         "Blood in the joint space raises pressure and the client holds the knee bent because that is the position of greatest "
         "joint volume. A tingling or warm feeling often comes before swelling, so pain is an early sign.",
-        "Missing two prophylactic factor VIII infusions left him with almost no factor VIII, so a minor collision caused a "
+        "Missing two prophylactic factor VIII infusions left the client with almost no factor VIII, so a minor collision caused a "
         "major bleed. Ibuprofen inhibits platelet function and adds to the bleeding; clients with hemophilia avoid aspirin and "
         "NSAIDs. A third bleed into the same joint this year makes the right knee a <b>target joint</b>: repeated bleeds "
         "inflame the synovium (synovitis), which bleeds more easily and leads to hemophilic arthropathy.",
         "<b>Do not require follow-up:</b> strong pedal pulses, brisk capillary refill and normal sensation show that blood "
-        "flow and nerves below the knee are intact. He is alert and oriented."),
+        "flow and nerves below the knee are intact. The client is alert and oriented."),
 })
 
 # Screen 2
 C.notes("nn", "Nurses' Notes", ("Day 1 1915",
-    "Hematology paged. Right knee splinted and elevated on pillows. Daniel asks how his hemophilia differs from the "
-    "hemophilia B his cousin has, and why the doctors could not use “the nasal spray” his uncle with mild hemophilia uses."))
+    "The hematology service was paged. The right knee was splinted and elevated on pillows. The client asked how "
+    "hemophilia A differs from the hemophilia B that a cousin has, and why the desmopressin nasal spray that an uncle with "
+    "mild hemophilia uses cannot be used."))
 LAB = [lab("Hemoglobin (Hgb)", "Male: 125–170 g/L"), lab("Platelet count", "130–380 × 10<sup>9</sup>/L"),
        lab("Prothrombin time (PT)", "10–14 s"), lab("International normalized ratio (INR)", "0.9–1.2"),
        lab("Activated partial thromboplastin time (aPTT)", "22–30 s"), lab("Fibrinogen", "2.0–4.0 g/L"),
@@ -62,7 +76,7 @@ C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "D
 s2 = screen(2, INTRO, C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1915 and the Laboratory Results.",
-    "stem": "The nurse answers Daniel's questions. For each statement, click to specify whether it applies to "
+    "stem": "The nurse answers the client's questions. For each statement, click to specify whether it applies to "
             "<b>hemophilia A</b>, <b>hemophilia B</b>, or <b>both</b>.",
     "matrix": matrix_mc("Statement", ["Hemophilia A", "Hemophilia B", "Both"], [
         ("Caused by a deficiency of factor IX (also called Christmas disease)", 1),
@@ -75,7 +89,7 @@ s2 = screen(2, INTRO, C, {
         "<b>Hemophilia A</b> is a deficiency of factor VIII and makes up about 80% of cases. Desmopressin (DDAVP) releases "
         "factor VIII and von Willebrand factor stored in endothelial cells, so it can raise the level about two- to threefold "
         "in <b>mild</b> hemophilia A (factor VIII 5% or higher) in clients who have been shown to respond. It cannot help when "
-        "there is no factor VIII to release, as in Daniel's severe disease (less than 1%), or in hemophilia B.",
+        "there is no factor VIII to release, as in this client's severe disease (less than 1%), or in hemophilia B.",
         "<b>Hemophilia B</b> (Christmas disease) is a deficiency of factor IX.",
         "<b>Both</b> are X-linked recessive, so males are mainly affected and the daughters of an affected male are carriers. "
         "Factors VIII and IX both belong to the intrinsic pathway, so both prolong the aPTT while the PT (extrinsic pathway) "
@@ -87,15 +101,15 @@ s2 = screen(2, INTRO, C, {
 
 # Screen 3
 C.notes("nn", "Nurses' Notes", ("Day 1 1940",
-    "Pain 8/10. Right knee circumference 43 cm. Right foot warm with pedal pulses 2+. Hematology reviewed the results by "
-    "phone and will enter orders."))
+    "The client rates the right knee pain at 8/10. The right knee circumference is now 43 cm. The right foot is warm, "
+    "with 2+ pedal pulses. The hematologist reviewed the laboratory results by telephone and will enter orders."))
 vitals("Day 1 1940", "37.4° C", "104 beats/min", "18 breaths/min", "134/80 mm Hg", "98% on room air", "8")
 s3 = screen(3, INTRO, C, {
     "type": "dropdown_cloze",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1940 and the Vital Signs.",
     "stem": "Complete the following sentences by choosing from the lists of options.",
     "cloze": {"text": "A prolonged aPTT with a normal PT, INR and platelet count points to a defect in the [[drop0]]. "
-                      "Because the aPTT corrects when Daniel's plasma is mixed with normal plasma, the cause is [[drop1]]. "
+                      "Because the aPTT corrects when the client's plasma is mixed with normal plasma, the cause is [[drop1]]. "
                       "The nurse's priority is [[drop2]].",
               "dropdowns": [
                   dd(231, "intrinsic pathway of coagulation", "extrinsic pathway of coagulation",
@@ -119,7 +133,7 @@ s3 = screen(3, INTRO, C, {
 })
 
 # Screen 4
-C.notes("nn", "Nurses' Notes", ("Day 1 2000", "Hematology orders received. IV access established in the left forearm."))
+C.notes("nn", "Nurses' Notes", ("Day 1 2000", "Hematology orders were received. A peripheral IV catheter was inserted in the left forearm."))
 C.rows("orders", "Orders", ["Category", "Order"], [
     ["<b>Factor replacement</b>", "Recombinant factor VIII 3,500 units (50 units/kg) IV now, then 1,750 units IV every "
                                   "12 hours. Factor VIII activity 30 minutes after the first dose."],
@@ -148,25 +162,27 @@ s4 = screen(4, INTRO, C, select_all(241, [
         "while the joint is still bleeding causes more bleeding; physiotherapy starts once pain and swelling settle {G}. "
         "Heat dilates blood vessels and increases bleeding {H}."),
     preamble="The nurse has reviewed the Nurses' Notes from Day 1 2000 and the Orders.",
-    stem="Which interventions should the nurse include in Daniel's plan of care? Select all that apply."))
+    stem="Which interventions should the nurse include in the client's plan of care? Select all that apply."))
 
 # Screen 5
 C.notes("nn", "Nurses' Notes",
-    ("Day 1 2045", "Factor VIII infusion completed. Pain 5/10. Right knee circumference 43 cm."),
-    ("Day 2 0610", "Found sitting on the bathroom floor. Says he slipped while using his crutches and hit the left side of "
-     "his head on the sink. Did not lose consciousness. Alert and oriented × 4; Glasgow Coma Scale 15. Pupils equal and "
-     "reactive. Reports a headache of 6/10 and mild nausea. Small swelling over the left temple. Provider notified; urgent "
-     "head CT requested."))
+    ("Day 1 2045", "The factor VIII infusion was completed without reaction. The client rates the knee pain at 5/10. "
+     "The right knee circumference is 43 cm."),
+    ("Day 2 0610", "The client was found sitting on the bathroom floor and states having slipped while using crutches and "
+     "struck the left side of the head on the sink. The client did not lose consciousness. The client is alert and oriented "
+     "× 4, with a Glasgow Coma Scale score of 15, and pupils are equal and reactive to light. The client reports a headache "
+     "rated 6/10 and mild nausea. A small swelling is present over the left temple. The provider was notified, and an urgent "
+     "head CT was requested."))
 vitals("Day 2 0615", "37.0° C", "88 beats/min", "16 breaths/min", "138/82 mm Hg", "98% on room air", "6 (head)")
 s5 = screen(5, INTRO, C, multiple_choice(251, [
     ("A", "Anticipate a prescription for a factor VIII dose to be given immediately, before the CT scan", True),
-    ("B", "Transport Daniel to CT first, since factor VIII is needed only if a bleed is confirmed", False),
-    ("C", "Give acetaminophen for the headache and recheck his neurologic status in 1 hour", False),
-    ("D", "Apply an ice pack to the left temple and keep Daniel on bed rest", False)],
+    ("B", "Transport the client to CT first, since factor VIII is needed only if a bleed is confirmed", False),
+    ("C", "Give acetaminophen for the headache and recheck the neurologic status in 1 hour", False),
+    ("D", "Apply an ice pack to the left temple and keep the client on bed rest", False)],
     rationale(
         "<b>Correct {A}:</b> in a person with hemophilia, “even a trivial blow to the head” can cause intracranial "
         "hemorrhage, and a headache after head trauma is treated as a possible bleed. Factor replacement to about 100% begins "
-        "<b>immediately, before</b> the CT scan or any other test is completed; waiting for imaging lets a bleed expand. His "
+        "<b>immediately, before</b> the CT scan or any other test is completed; waiting for imaging lets a bleed expand. The client's "
         "factor VIII level is falling since last night's dose, so a new dose is needed now.",
         "<b>Incorrect:</b> delaying factor until the CT confirms a bleed risks a fatal hemorrhage {B}. Treating the headache "
         "and waiting an hour misses the window to treat; a normal Glasgow Coma Scale now does not rule out a slowly expanding "
@@ -177,9 +193,10 @@ s5 = screen(5, INTRO, C, multiple_choice(251, [
 
 # Screen 6
 C.notes("nn", "Nurses' Notes",
-    ("Day 2 0800", "Factor VIII given at 0625. Head CT at 0700: no intracranial hemorrhage."),
-    ("Day 4 1000", "Headache resolved; neurologic checks normal. Right knee pain 2/10; circumference 38 cm; lacks 10° of "
-     "full extension. Walking with crutches. Hematology and the physiotherapist reviewed home prophylaxis, a graded exercise "
+    ("Day 2 0800", "Factor VIII was given at 0625. The head CT at 0700 showed no intracranial hemorrhage."),
+    ("Day 4 1000", "The client's headache has resolved, and neurologic checks are within normal limits. The client rates "
+     "the right knee pain at 2/10. The right knee circumference is 38 cm, and the knee lacks 10° of full extension. The "
+     "client is walking with crutches. The hematologist and the physiotherapist reviewed home prophylaxis, a graded exercise "
      "plan and a factor dose for any new bleed."))
 vitals("Day 4 1000", "36.8° C", "76 beats/min", "16 breaths/min", "124/76 mm Hg", "99% on room air", "2")
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Day 4 0600", list(zip(
@@ -188,8 +205,8 @@ s6 = screen(6, INTRO, C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0800 and Day 4 1000, the Vital Signs, and the "
                 "Laboratory Results.",
-    "stem": "For each finding, click to specify whether Daniel's condition has <b>improved</b> or <b>not improved</b> "
-            "compared with his admission.",
+    "stem": "For each finding, click to specify whether the client's condition has <b>improved</b> or <b>not improved</b> "
+            "compared with admission.",
     "matrix": matrix_mc("Finding", ["Improved", "Not Improved"], [
         ("Right knee circumference", 0),
         ("Hemoglobin", 1),
@@ -199,7 +216,7 @@ s6 = screen(6, INTRO, C, {
         ("Factor VIII activity", 0)]),
     "explanation": rationale(
         "<b>Improved:</b> knee circumference fell from 42 to 38 cm (right) as blood in the joint is reabsorbed; pain fell "
-        "from 8/10 to 2/10; he now lacks only 10° of extension instead of 30°. Factor VIII replacement corrected the aPTT "
+        "from 8/10 to 2/10; the knee now lacks only 10° of extension instead of 30°. Factor VIII replacement corrected the aPTT "
         "(68 s to 31 s) and the trough factor VIII is 62%, within the 50% to 80% target for a severe joint bleed.",
         "<b>Not improved:</b> hemoglobin fell from 138 to 121 g/L, reflecting the blood lost into the knee. It is now "
         "stable, but it is lower than on admission and is rechecked; a further fall would suggest another bleed.",

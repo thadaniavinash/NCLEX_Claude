@@ -13,16 +13,27 @@ Chelator specifics (deferoxamine, deferiprone with weekly ANC, deferasirox), car
 precautions are from standard references (TIF guidelines, product monographs), not the Merck page: flagged."""
 from nurs1021_common import *
 
-INTRO = ("The nurse in a hematology day unit is caring for Priya, a 24-year-old female client with beta-thalassemia "
-         "major who has come for her scheduled red blood cell transfusion.")
+INTRO = ("The nurse in a hematology day unit is caring for a 24-year-old female client with beta-thalassemia major who "
+         "has come for a scheduled red blood cell transfusion.")
 C = Chart2()
 C.notes("nn", "Nurses' Notes", ("Day 1 0830",
-    "Transfused every 3 to 4 weeks since age 1; splenectomy at age 12. Says she stopped taking her deferasirox tablets "
-    "about 8 months ago because of stomach upset. Reports increasing tiredness and, over the past 2 weeks, shortness of "
-    "breath climbing one flight of stairs, needing two pillows to sleep, and her heart “racing and skipping.” Height "
-    "152 cm. Prominent cheekbones and forehead. Skin has a grey-bronze tint; sclerae slightly yellow. Pulse irregular. "
-    "Fine crackles at both lung bases. 2+ pitting edema of both ankles. Abdomen: liver edge 4 cm below the right costal "
-    "margin; well-healed splenectomy scar."))
+    "The client arrived at the hematology day unit for a scheduled red blood cell transfusion and reports increasing "
+    "tiredness and new shortness of breath over the past 2 weeks. The health history and physical assessment were completed. "
+    "Blood work was drawn at 0845."))
+C.doc("hx", "Health History",
+    sec("Reason for visit", "Scheduled red blood cell transfusion. Over the past 2 weeks, the client reports shortness of "
+        "breath when climbing one flight of stairs, needing two pillows to sleep, and a heart that is “racing and "
+        "skipping.”"),
+    sec("Medical history", "Beta-thalassemia major, transfused every 3 to 4 weeks since age 1. Splenectomy at age 12."),
+    sec("Medications", "Deferasirox PO daily for iron chelation; the client states having stopped taking it about 8 "
+        "months ago because of stomach upset."))
+C.doc("pa", "Physical Assessment",
+    sec("General", "Height 152 cm. The cheekbones and forehead are prominent."),
+    sec("Skin", "The skin has a grey-bronze tint. The sclerae are slightly yellow."),
+    sec("Cardiovascular", "The pulse is irregular. 2+ pitting edema is present in both ankles."),
+    sec("Respiratory", "Fine crackles are heard at both lung bases."),
+    sec("Abdomen", "The liver edge is palpable 4 cm below the right costal margin. A well-healed splenectomy scar is "
+        "present."))
 VS = [vrow("T"), vrow("P"), vrow("RR"), vrow("BP"), vrow(SPO2)]
 
 
@@ -35,7 +46,7 @@ s1 = screen(1, INTRO, C, select_all(811, [
     ("A", "Shortness of breath on one flight of stairs and needing two pillows to sleep", True),
     ("B", "Irregular pulse of 112 beats/min with a “racing and skipping” heart", True),
     ("C", "Fine crackles at both lung bases and 2+ ankle edema", True),
-    ("D", "Stopped taking her deferasirox 8 months ago", True),
+    ("D", "Stopped taking deferasirox 8 months ago", True),
     ("E", "Grey-bronze skin and a liver edge 4 cm below the costal margin", True),
     ("F", "Prominent cheekbones and forehead", False),
     ("G", "Height of 152 cm", False),
@@ -50,14 +61,15 @@ s1 = screen(1, INTRO, C, select_all(811, [
         "<b>Long-standing, not new:</b> marrow expansion to compensate for ineffective erythropoiesis thickens the facial "
         "and skull bones in childhood {F}, and severe anemia with iron overload of the pituitary and gonads limits growth "
         "and puberty {G}. Her spleen was removed because enlarged spleens trap and destroy transfused cells {H}. These "
-        "need no urgent action, although her asplenia raises her risk of severe infection."),
+        "need no urgent action, although asplenia raises the client's risk of severe infection."),
     stem="The nurse reviews the client's history and assessment. Which findings require follow-up? Select all that "
          "apply."))
 
 # Screen 2
 C.notes("nn", "Nurses' Notes", ("Day 1 1000",
-    "Results reviewed with the hematologist. Echocardiogram and cardiac MRI booked for this afternoon. Priya's partner "
-    "asks whether their future children could have thalassemia; he was told years ago that he has “thalassemia trait.”"))
+    "The laboratory results were reviewed with the hematologist, and an echocardiogram and cardiac MRI were booked for "
+    "this afternoon. The client's partner, who was told years ago of having thalassemia trait, asks whether their future "
+    "children could have thalassemia."))
 LAB = [lab("Hemoglobin (Hgb)", "Female: 115–155 g/L"), lab("Mean corpuscular volume (MCV)", "80–100 fL"),
        "<b>Peripheral blood smear</b>", lab("Ferritin", "Female: 11–307 µg/L"),
        lab("Alanine aminotransferase (ALT)", "17–63 IU/L"), lab("Bilirubin, total", "3–17 µmol/L"),
@@ -90,33 +102,33 @@ s2 = screen(2, INTRO, C, {
         "<b>Trait (minor):</b> one gene is affected; there is mild microcytic anemia, usually without symptoms, and no "
         "treatment. HbA2 above 3.5% to 4% on electrophoresis is diagnostic; it is often mistaken for iron deficiency.",
         "<b>Both</b> make small cells. If the partner has beta-thalassemia trait, each pregnancy has a 50% chance of a child "
-        "with thalassemia major (Priya passes one affected gene to every child) and a 50% chance of a child with trait; "
+        "with thalassemia major (the client passes one affected gene to every child) and a 50% chance of a child with trait; "
         "genetic counselling is offered."),
 })
 
 # Screen 3
 C.notes("nn", "Nurses' Notes", ("Day 1 1530",
-    "Cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms); echocardiogram shows a left "
-    "ventricular ejection fraction of 45%. Hematologist plans admission for intensified chelation and a slower "
+    "The cardiac MRI shows severe myocardial iron loading (T2* 7 ms; severe if below 10 ms), and the echocardiogram shows "
+    "a left ventricular ejection fraction of 45%. The hematologist plans admission for intensified chelation and a slower "
     "transfusion."))
 s3 = screen(3, INTRO, C, {
     "type": "dropdown_cloze",
     "preamble": "The nurse has reviewed the Nurses' Notes from Day 1 1530.",
     "stem": "Complete the following sentences by choosing from the lists of options.",
-    "cloze": {"text": "Priya's red cells are small because [[drop0]]. Her body has accumulated iron mainly because "
+    "cloze": {"text": "The client's red cells are small because [[drop0]]. The client's body has accumulated iron mainly because "
                       "[[drop1]]. The nurse's priority is [[drop2]].",
               "dropdowns": [
                   dd(831, "too few beta-globin chains are made, so cells contain too little hemoglobin",
-                     "she lacks iron to make heme", "her red cells are destroyed by antibodies",
-                     "she lacks vitamin B12 to make DNA"),
+                     "the client lacks iron to make heme", "the red cells are destroyed by antibodies",
+                     "the client lacks vitamin B12 to make DNA"),
                   dd(832, "every transfusion adds iron that the body cannot excrete",
-                     "she eats a diet high in red meat",
-                     "her kidneys cannot excrete iron",
-                     "her spleen was removed"),
+                     "the client eats a diet high in red meat",
+                     "the kidneys cannot excrete iron",
+                     "the spleen was removed"),
                   dd(833, "heart failure and arrhythmias from iron in the heart muscle",
                      "liver damage from iron deposits",
                      "infection after splenectomy",
-                     "body image concerns about her bones")]},
+                     "body image concerns about the bones")]},
     "explanation": rationale(
         "<b>Small cells:</b> hemoglobin is built from globin chains plus heme; with too few beta chains, each cell holds "
         "less hemoglobin, so cells are microcytic and hypochromic even though iron is plentiful (ferritin 2,840 µg/L). "
@@ -125,12 +137,12 @@ s3 = screen(3, INTRO, C, {
         "extra iron; ineffective erythropoiesis also increases absorption from the gut. Chelation is started once ferritin "
         "exceeds about 1,000 µg/L or after 1 to 2 years of transfusions, and must be taken continuously.",
         "<b>Priority:</b> severe cardiac iron (T2* 7 ms), a falling ejection fraction, crackles, edema and an irregular "
-        "pulse put her at risk of fatal heart failure and arrhythmias. Liver iron, infection risk and body image matter, "
-        "but the threat to her circulation comes first."),
+        "pulse put the client at risk of fatal heart failure and arrhythmias. Liver iron, infection risk and body image matter, "
+        "but the threat to the client's circulation comes first."),
 })
 
 # Screen 4
-C.notes("nn", "Nurses' Notes", ("Day 1 1700", "Admitted to the medical unit. Implanted port accessed. Orders received."))
+C.notes("nn", "Nurses' Notes", ("Day 1 1700", "The client was admitted to the medical unit. The implanted port was accessed, and orders were received."))
 C.rows("orders", "Orders", ["Category", "Order"], [
     ["<b>Transfusion</b>", "2 units of leukoreduced, phenotype-matched red blood cells, each over 3 to 4 hours. Furosemide "
                            "20 mg IV between units. Pre-transfusion hemoglobin goal 95–105 g/L."],
@@ -144,26 +156,27 @@ s4 = screen(4, INTRO, C, {
             "<b>Contraindicated</b>.",
     "matrix": matrix_mc("Nursing Action", IMC, [
         ("Infuse each unit over 3 to 4 hours and give the furosemide between units", 0),
-        ("Give oral ferrous sulfate to help her make more hemoglobin", 2),
-        ("Tell Priya that her urine may turn orange-red during the deferoxamine infusion", 0),
+        ("Give oral ferrous sulfate to help the client make more hemoglobin", 2),
+        ("Tell the client that the urine may turn orange-red during the deferoxamine infusion", 0),
         ("Give the deferoxamine as a rapid IV bolus to remove iron faster", 2),
         ("Request a hemoglobin electrophoresis before each transfusion", 1),
-        ("Check the absolute neutrophil count every week while she takes deferiprone", 0)]),
+        ("Check the absolute neutrophil count every week while the client takes deferiprone", 0)]),
     "explanation": rationale(
         "<b>Indicated:</b> with heart failure, red cells are given slowly with a diuretic between units to prevent fluid "
         "overload. Deferoxamine binds iron to form ferrioxamine, excreted in urine and bile, which turns urine orange-red: "
         "an expected, harmless effect. Deferiprone can cause agranulocytosis, so the neutrophil count is checked every "
         "week and fever or sore throat is reported at once.",
-        "<b>Contraindicated:</b> she has iron overload; iron supplements add to the damage. Rapid IV deferoxamine causes "
+        "<b>Contraindicated:</b> the client has iron overload; iron supplements add to the damage. Rapid IV deferoxamine causes "
         "flushing, hypotension and shock; it is given by slow continuous infusion.",
-        "<b>Non-Essential:</b> her diagnosis is established; electrophoresis does not change before each transfusion. A "
+        "<b>Non-Essential:</b> the diagnosis is established; electrophoresis does not change before each transfusion. A "
         "type and screen (crossmatch) is what each transfusion needs."),
 })
 
 # Screen 5
 C.notes("nn", "Nurses' Notes", ("Day 6 1000",
-    "Breathing easier; sleeps flat; ankle edema 1+. Pulse regular. Will go home on deferiprone three times a day and "
-    "deferoxamine by subcutaneous pump overnight 5 nights a week. Priya says she wants to “do it properly this time.”"))
+    "The client reports breathing more easily and now sleeps flat. Ankle edema is 1+, and the pulse is regular. The "
+    "client will go home on deferiprone three times a day and deferoxamine by subcutaneous pump overnight 5 nights a week. "
+    "The client states, “I want to do it properly this time.”"))
 vitals("Day 6 1000", "36.7° C", "88 beats/min, regular", "18 breaths/min", "112/70 mm Hg", "97% on room air")
 s5 = screen(5, INTRO, C, select_all(8512, [
     ("A", "Go to the emergency department for a fever or sore throat, even if you feel well otherwise", True),
@@ -175,7 +188,7 @@ s5 = screen(5, INTRO, C, select_all(8512, [
     ("G", "You can stop the chelation once your transfusions are spaced further apart", False),
     ("H", "Skip deferiprone on the nights you use the deferoxamine pump", False)],
     rationale(
-        "<b>Include:</b> deferiprone can cause agranulocytosis, and without a spleen she is at risk of overwhelming "
+        "<b>Include:</b> deferiprone can cause agranulocytosis, and without a spleen the client is at risk of overwhelming "
         "infection with encapsulated bacteria; fever or sore throat needs urgent assessment and a neutrophil count {A,B}. "
         "Deferoxamine can damage hearing and vision (ototoxicity, retinopathy), so these are checked yearly and changes "
         "reported {C}. Extra iron worsens overload {D}. After splenectomy, pneumococcal, meningococcal and Haemophilus "
@@ -185,12 +198,13 @@ s5 = screen(5, INTRO, C, select_all(8512, [
         "long as transfusions continue, so chelation is lifelong {G}. The two chelators are prescribed together for heavy "
         "cardiac iron; skipping one reduces iron removal {H}."),
     preamble="The nurse has reviewed the Nurses' Notes from Day 6 1000 and the Vital Signs.",
-    stem="Which instructions should the nurse include in Priya's discharge teaching? Select all that apply."))
+    stem="Which instructions should the nurse include in the client's discharge teaching? Select all that apply."))
 
 # Screen 6
 C.notes("nn", "Nurses' Notes", ("Month 6 1000",
-    "Clinic visit. Takes deferiprone daily and uses the pump 5 nights a week; no missed doses. Walks 30 minutes without "
-    "breathlessness. No ankle edema. Repeat cardiac MRI: T2* 11 ms. Reports a sore throat since yesterday; no fever."))
+    "The client attends a clinic visit and reports taking deferiprone daily and using the pump 5 nights a week with no "
+    "missed doses. The client walks 30 minutes without breathlessness, and there is no ankle edema. The repeat cardiac MRI "
+    "shows a T2* of 11 ms. The client reports a sore throat since yesterday and denies fever."))
 vitals("Month 6 1000", "37.3° C", "82 beats/min, regular", "16 breaths/min", "114/72 mm Hg", "98% on room air")
 C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "Month 6 0900", list(zip(
     [LAB[0], LAB[3], LAB[4], LAB[7], LAB[8]],
@@ -198,7 +212,7 @@ C.column("labs", "Laboratory Results", "Laboratory Test and Reference Range", "M
 s6 = screen(6, INTRO, C, {
     "type": "matrix_mc",
     "preamble": "The nurse has reviewed the Nurses' Notes from Month 6 1000, the Vital Signs, and the Laboratory Results.",
-    "stem": "For each finding, click to specify whether it shows that Priya's condition has <b>improved</b> or "
+    "stem": "For each finding, click to specify whether it shows that the client's condition has <b>improved</b> or "
             "<b>not improved</b> since admission.",
     "matrix": matrix_mc("Finding", ["Improved", "Not Improved"], [
         ("Ferritin", 0),

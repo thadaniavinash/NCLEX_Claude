@@ -15,12 +15,22 @@
     {
       "step": 1,
       "leftContent": {
-        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home.",
+        "intro": "The nurse on a medical unit is caring for a 61-year-old female client admitted for investigation of anemia after two falls at home.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">The client was admitted from the emergency department after a fall at home. X-rays show no fracture. The client's daughter is at the bedside. The health history and physical assessment were completed.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> The client has fallen twice in the past month, both times at night. The client reports feeling tired for several months.</p><p><b>Neurological symptoms:</b> The client reports numbness and tingling in both feet for 4 months, “like wearing thick socks.” The client feels unsteady when walking in the dark. The daughter reports that the client has become forgetful and irritable.</p><p><b>Diet and elimination:</b> The client eats meat, eggs and dairy products daily. The client denies black or bloody stools.</p><p><b>Medical history and medications:</b> Type 2 diabetes treated with metformin for 9 years; hypothyroidism treated with levothyroxine; gastroesophageal reflux treated with omeprazole for 6 years.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The skin is pale with a slight yellow tinge.</p><p><b>Mouth:</b> The tongue is red, smooth and burning.</p><p><b>Neurological:</b> Vibration sense is absent at both great toes, and the client cannot tell whether the toes are moved up or down. The Romberg test is positive. Pain and temperature sensation in the feet are intact.</p>"
           },
           {
             "id": "vs",
@@ -31,13 +41,18 @@
       },
       "question": {
         "type": "highlight",
-        "stem": "The nurse reviews the Nurses' Notes. <b>Highlight</b> the findings that are consistent with vitamin B12 deficiency.",
+        "stem": "The nurse reviews the Health History and the Physical Assessment. <b>Highlight</b> the findings that are consistent with vitamin B12 deficiency.",
         "options": [],
         "highlightTabs": [
           {
             "id": "ht1",
-            "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. {Fell twice in the past month, both times at night.|correct} {Numbness and tingling in both feet for 4 months, “like wearing thick socks.”|correct} {Unsteady when walking in the dark.|correct} {Tongue red, smooth and burning.|correct} {Tired for months.|correct} Daughter reports {that Linda has become forgetful and irritable.|correct} {Skin pale with a slight yellow tinge.|correct} {Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down.|correct} {Romberg test positive.|correct} {Pain and temperature sensation in the feet intact.} {Eats meat, eggs and dairy daily.} {No black or bloody stools.} History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p>"
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> {The client has fallen twice in the past month, both times at night.|correct} {The client reports feeling tired for several months.|correct}</p><p><b>Neurological symptoms:</b> {The client reports numbness and tingling in both feet for 4 months, “like wearing thick socks.”|correct} {The client feels unsteady when walking in the dark.|correct} The daughter reports {that the client has become forgetful and irritable.|correct}</p><p><b>Diet and elimination:</b> {The client eats meat, eggs and dairy products daily.} {The client denies black or bloody stools.}</p><p><b>Medical history and medications:</b> Type 2 diabetes treated with metformin for 9 years; hypothyroidism treated with levothyroxine; gastroesophageal reflux treated with omeprazole for 6 years.</p>"
+          },
+          {
+            "id": "ht2",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> {The skin is pale with a slight yellow tinge.|correct}</p><p><b>Mouth:</b> {The tongue is red, smooth and burning.|correct}</p><p><b>Neurological:</b> {Vibration sense is absent at both great toes, and the client cannot tell whether the toes are moved up or down.|correct} {The Romberg test is positive.|correct} {Pain and temperature sensation in the feet are intact.}</p>"
           }
         ],
         "maxCorrectSelections": null,
@@ -48,12 +63,22 @@
     {
       "step": 2,
       "leftContent": {
-        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home.",
+        "intro": "The nurse on a medical unit is caring for a 61-year-old female client admitted for investigation of anemia after two falls at home.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">The client was admitted from the emergency department after a fall at home. X-rays show no fracture. The client's daughter is at the bedside. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the internist. The client asks whether to start the folic acid tablets that a neighbour takes for anemia.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> The client has fallen twice in the past month, both times at night. The client reports feeling tired for several months.</p><p><b>Neurological symptoms:</b> The client reports numbness and tingling in both feet for 4 months, “like wearing thick socks.” The client feels unsteady when walking in the dark. The daughter reports that the client has become forgetful and irritable.</p><p><b>Diet and elimination:</b> The client eats meat, eggs and dairy products daily. The client denies black or bloody stools.</p><p><b>Medical history and medications:</b> Type 2 diabetes treated with metformin for 9 years; hypothyroidism treated with levothyroxine; gastroesophageal reflux treated with omeprazole for 6 years.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The skin is pale with a slight yellow tinge.</p><p><b>Mouth:</b> The tongue is red, smooth and burning.</p><p><b>Neurological:</b> Vibration sense is absent at both great toes, and the client cannot tell whether the toes are moved up or down. The Romberg test is positive. Pain and temperature sensation in the feet are intact.</p>"
           },
           {
             "id": "vs",
@@ -123,18 +148,28 @@
             }
           ]
         },
-        "explanation": "<b>Both:</b> B12 and folate are both needed to make DNA. Without either, cells keep growing (RNA and protein synthesis continue) but divide poorly, so red cells are large (megaloblastic, MCV above 100 fL) and neutrophils have extra nuclear lobes. Folate needs B12 to be recycled, and both are needed to convert homocysteine to methionine, so homocysteine rises in both.<br><br><b>Vitamin B12 only:</b> B12 is also needed to convert methylmalonyl-CoA, so methylmalonic acid rises only in B12 deficiency; Linda's MMA of 1.9 µmol/L with a B12 of 98 pmol/L and normal folate confirm B12 deficiency. Neurologic damage occurs only in B12 deficiency. Intrinsic factor, made by gastric parietal cells, is needed to absorb B12 in the terminal ileum.<br><br><b>Folate only:</b> folate stores last only months, so deficiency develops with poor intake (alcohol use disorder), increased need (pregnancy) or drugs such as methotrexate and phenytoin.<br><br><b>Folic acid alone:</b> it could improve her blood count while her nerve damage progresses, so the nurse advises her not to take it unless prescribed."
+        "explanation": "<b>Both:</b> B12 and folate are both needed to make DNA. Without either, cells keep growing (RNA and protein synthesis continue) but divide poorly, so red cells are large (megaloblastic, MCV above 100 fL) and neutrophils have extra nuclear lobes. Folate needs B12 to be recycled, and both are needed to convert homocysteine to methionine, so homocysteine rises in both.<br><br><b>Vitamin B12 only:</b> B12 is also needed to convert methylmalonyl-CoA, so methylmalonic acid rises only in B12 deficiency; the client's MMA of 1.9 µmol/L with a B12 of 98 pmol/L and normal folate confirm B12 deficiency. Neurologic damage occurs only in B12 deficiency. Intrinsic factor, made by gastric parietal cells, is needed to absorb B12 in the terminal ileum.<br><br><b>Folate only:</b> folate stores last only months, so deficiency develops with poor intake (alcohol use disorder), increased need (pregnancy) or drugs such as methotrexate and phenytoin.<br><br><b>Folic acid alone:</b> it could improve the blood count while the nerve damage progresses, so the nurse advises the client not to take it unless prescribed."
       }
     },
     {
       "step": 3,
       "leftContent": {
-        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home.",
+        "intro": "The nurse on a medical unit is caring for a 61-year-old female client admitted for investigation of anemia after two falls at home.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">The client was admitted from the emergency department after a fall at home. X-rays show no fracture. The client's daughter is at the bedside. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the internist. The client asks whether to start the folic acid tablets that a neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">The intrinsic factor antibody test is positive, and the internist has diagnosed pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. At 0300 the client got up alone to use the bathroom and was found holding on to the doorframe. The client did not fall.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> The client has fallen twice in the past month, both times at night. The client reports feeling tired for several months.</p><p><b>Neurological symptoms:</b> The client reports numbness and tingling in both feet for 4 months, “like wearing thick socks.” The client feels unsteady when walking in the dark. The daughter reports that the client has become forgetful and irritable.</p><p><b>Diet and elimination:</b> The client eats meat, eggs and dairy products daily. The client denies black or bloody stools.</p><p><b>Medical history and medications:</b> Type 2 diabetes treated with metformin for 9 years; hypothyroidism treated with levothyroxine; gastroesophageal reflux treated with omeprazole for 6 years.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The skin is pale with a slight yellow tinge.</p><p><b>Mouth:</b> The tongue is red, smooth and burning.</p><p><b>Neurological:</b> Vibration sense is absent at both great toes, and the client cannot tell whether the toes are moved up or down. The Romberg test is positive. Pain and temperature sensation in the feet are intact.</p>"
           },
           {
             "id": "vs",
@@ -153,7 +188,7 @@
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 0900 and the Laboratory Results.",
         "stem": "Complete the following sentences by choosing from the lists of options.",
         "cloze": {
-          "text": "Linda's red cells are large because [[drop0]]. Her deficiency is mainly caused by [[drop1]]. The nurse's priority is [[drop2]].",
+          "text": "The client's red cells are large because [[drop0]]. The deficiency is mainly caused by [[drop1]]. The nurse's priority is [[drop2]].",
           "dropdowns": [
             {
               "placeholder": "Select...",
@@ -184,11 +219,11 @@
                   "correct": false
                 },
                 {
-                  "text": "too little folate in her diet",
+                  "text": "too little folate in the diet",
                   "correct": false
                 },
                 {
-                  "text": "too little vitamin B12 in her diet",
+                  "text": "too little vitamin B12 in the diet",
                   "correct": false
                 },
                 {
@@ -201,7 +236,7 @@
               "placeholder": "Select...",
               "options": [
                 {
-                  "text": "teaching her how to give injections",
+                  "text": "teaching the client how to give injections",
                   "correct": false
                 },
                 {
@@ -220,18 +255,28 @@
             }
           ]
         },
-        "explanation": "<b>Large cells:</b> without B12, DNA synthesis is impaired while RNA and protein synthesis continue, so precursors grow large but divide fewer times; many die in the marrow (ineffective erythropoiesis), raising LDH and bilirubin. Iron deficiency makes cells small.<br><br><b>Cause:</b> in pernicious anemia, autoimmune gastritis destroys parietal cells, and antibodies block intrinsic factor, so B12 cannot be absorbed in the ileum. It is often associated with other autoimmune diseases such as autoimmune thyroid disease. Metformin and reduced stomach acid (omeprazole) add to poor absorption. Her diet contains B12, and folate is normal.<br><br><b>Priority:</b> she has already fallen twice, has lost position sense and gets up alone at night: injury from falls is the most immediate risk. Her white cell count is only mildly low; glossitis and teaching follow."
+        "explanation": "<b>Large cells:</b> without B12, DNA synthesis is impaired while RNA and protein synthesis continue, so precursors grow large but divide fewer times; many die in the marrow (ineffective erythropoiesis), raising LDH and bilirubin. Iron deficiency makes cells small.<br><br><b>Cause:</b> in pernicious anemia, autoimmune gastritis destroys parietal cells, and antibodies block intrinsic factor, so B12 cannot be absorbed in the ileum. It is often associated with other autoimmune diseases such as autoimmune thyroid disease. Metformin and reduced stomach acid (omeprazole) add to poor absorption. The client's diet contains B12, and folate is normal.<br><br><b>Priority:</b> the client has already fallen twice, has lost position sense and gets up alone at night: injury from falls is the most immediate risk. The white cell count is only mildly low; glossitis and teaching follow."
       }
     },
     {
       "step": 4,
       "leftContent": {
-        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home.",
+        "intro": "The nurse on a medical unit is caring for a 61-year-old female client admitted for investigation of anemia after two falls at home.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">The client was admitted from the emergency department after a fall at home. X-rays show no fracture. The client's daughter is at the bedside. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the internist. The client asks whether to start the folic acid tablets that a neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">The intrinsic factor antibody test is positive, and the internist has diagnosed pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. At 0300 the client got up alone to use the bathroom and was found holding on to the doorframe. The client did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders were received from the internist.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> The client has fallen twice in the past month, both times at night. The client reports feeling tired for several months.</p><p><b>Neurological symptoms:</b> The client reports numbness and tingling in both feet for 4 months, “like wearing thick socks.” The client feels unsteady when walking in the dark. The daughter reports that the client has become forgetful and irritable.</p><p><b>Diet and elimination:</b> The client eats meat, eggs and dairy products daily. The client denies black or bloody stools.</p><p><b>Medical history and medications:</b> Type 2 diabetes treated with metformin for 9 years; hypothyroidism treated with levothyroxine; gastroesophageal reflux treated with omeprazole for 6 years.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The skin is pale with a slight yellow tinge.</p><p><b>Mouth:</b> The tongue is red, smooth and burning.</p><p><b>Neurological:</b> Vibration sense is absent at both great toes, and the client cannot tell whether the toes are moved up or down. The Romberg test is positive. Pain and temperature sensation in the feet are intact.</p>"
           },
           {
             "id": "vs",
@@ -252,19 +297,19 @@
       },
       "question": {
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1000 and the Orders.",
-        "stem": "Which interventions should the nurse include in Linda's plan of care? Select all that apply.",
+        "stem": "Which interventions should the nurse include in the client's plan of care? Select all that apply.",
         "type": "select_all",
         "options": [
           {
-            "text": "Teach her that eating more meat and dairy will correct her deficiency",
+            "text": "Teach the client that eating more meat and dairy will correct the deficiency",
             "correct": false
           },
           {
-            "text": "Inspect her feet daily for injuries she may not feel",
+            "text": "Inspect the client's feet daily for injuries the client may not feel",
             "correct": true
           },
           {
-            "text": "Keep her on bed rest until her hemoglobin is normal",
+            "text": "Keep the client on bed rest until the hemoglobin is normal",
             "correct": false
           },
           {
@@ -280,22 +325,32 @@
             "correct": false
           },
           {
-            "text": "Keep the bed low, the call bell in reach and a night light on, and assist her when she walks",
+            "text": "Keep the bed low, the call bell in reach and a night light on, and assist the client when walking",
             "correct": true
           }
         ],
-        "explanation": "<b>Include:</b> in pernicious anemia the oral B12 in food cannot be absorbed, so B12 is given by injection (Option 5). Fall precautions protect her while position sense is lost (Option 7). Loss of sensation in the feet means injuries can go unnoticed (Option 2). Glossitis makes spicy, hot and acidic foods painful (Option 4).<br><br><b>Do not include:</b> folic acid can correct the anemia but not the nerve damage, which can progress (Option 6). Without intrinsic factor, dietary B12 is not absorbed (Option 1). Bed rest increases weakness and deconditioning; she walks with assistance and physiotherapy (Option 3)."
+        "explanation": "<b>Include:</b> in pernicious anemia the oral B12 in food cannot be absorbed, so B12 is given by injection (Option 5). Fall precautions protect the client while position sense is lost (Option 7). Loss of sensation in the feet means injuries can go unnoticed (Option 2). Glossitis makes spicy, hot and acidic foods painful (Option 4).<br><br><b>Do not include:</b> folic acid can correct the anemia but not the nerve damage, which can progress (Option 6). Without intrinsic factor, dietary B12 is not absorbed (Option 1). Bed rest increases weakness and deconditioning; the client walks with assistance and physiotherapy (Option 3)."
       }
     },
     {
       "step": 5,
       "leftContent": {
-        "intro": "The nurse on a medical unit is caring for Linda, a 61-year-old female client admitted for investigation of anemia after two falls at home.",
+        "intro": "The nurse on a medical unit is caring for a 61-year-old female client admitted for investigation of anemia after two falls at home.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician leaves a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” Linda's daughter asks whether the injection could be given into the IV to save Linda a needle.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">The client was admitted from the emergency department after a fall at home. X-rays show no fracture. The client's daughter is at the bedside. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the internist. The client asks whether to start the folic acid tablets that a neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">The intrinsic factor antibody test is positive, and the internist has diagnosed pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. At 0300 the client got up alone to use the bathroom and was found holding on to the doorframe. The client did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders were received from the internist.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician left a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” The client's daughter asks whether the injection could be given through the IV to spare the client a needle.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> The client has fallen twice in the past month, both times at night. The client reports feeling tired for several months.</p><p><b>Neurological symptoms:</b> The client reports numbness and tingling in both feet for 4 months, “like wearing thick socks.” The client feels unsteady when walking in the dark. The daughter reports that the client has become forgetful and irritable.</p><p><b>Diet and elimination:</b> The client eats meat, eggs and dairy products daily. The client denies black or bloody stools.</p><p><b>Medical history and medications:</b> Type 2 diabetes treated with metformin for 9 years; hypothyroidism treated with levothyroxine; gastroesophageal reflux treated with omeprazole for 6 years.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The skin is pale with a slight yellow tinge.</p><p><b>Mouth:</b> The tongue is red, smooth and burning.</p><p><b>Neurological:</b> Vibration sense is absent at both great toes, and the client cannot tell whether the toes are moved up or down. The Romberg test is positive. Pain and temperature sensation in the feet are intact.</p>"
           },
           {
             "id": "vs",
@@ -362,7 +417,7 @@
               ]
             },
             {
-              "text": "Walk with Linda using a gait belt when she goes to the bathroom",
+              "text": "Walk with the client using a gait belt to the bathroom",
               "correctIndex": 0,
               "correctIndices": [
                 0
@@ -370,18 +425,28 @@
             }
           ]
         },
-        "explanation": "<b>Contraindicated:</b> giving folate alone to a client with B12 deficiency can improve the blood count while the neurologic damage continues, and holding B12 delays treatment that should start at once; gastroscopy does not require it to be held. Cyanocobalamin is given IM (or deep subcutaneously); given IV, most of it is lost in the urine before it can be used.<br><br><b>Indicated:</b> an order that conflicts with the diagnosis and the existing plan is clarified with the prescriber before acting. The prescribed IM dose is given. A gait belt and assistance protect her from falls.<br><br><b>Non-Essential:</b> low B12, high methylmalonic acid and positive intrinsic factor antibodies already confirm the diagnosis; a bone marrow biopsy is not needed."
+        "explanation": "<b>Contraindicated:</b> giving folate alone to a client with B12 deficiency can improve the blood count while the neurologic damage continues, and holding B12 delays treatment that should start at once; gastroscopy does not require it to be held. Cyanocobalamin is given IM (or deep subcutaneously); given IV, most of it is lost in the urine before it can be used.<br><br><b>Indicated:</b> an order that conflicts with the diagnosis and the existing plan is clarified with the prescriber before acting. The prescribed IM dose is given. A gait belt and assistance protect the client from falls.<br><br><b>Non-Essential:</b> low B12, high methylmalonic acid and positive intrinsic factor antibodies already confirm the diagnosis; a bone marrow biopsy is not needed."
       }
     },
     {
       "step": 6,
       "leftContent": {
-        "intro": "Six weeks later, Linda returns to the clinic.",
+        "intro": "Six weeks later, the client returns to the clinic.",
         "tabs": [
           {
             "id": "nn",
             "title": "Nurses' Notes",
-            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">Admitted from the emergency department after a fall at home; X-rays show no fracture. Fell twice in the past month, both times at night. Numbness and tingling in both feet for 4 months, “like wearing thick socks.” Unsteady when walking in the dark. Tongue red, smooth and burning. Tired for months. Daughter reports that Linda has become forgetful and irritable. Skin pale with a slight yellow tinge. Vibration sense absent at both great toes; cannot tell whether her toes are moved up or down. Romberg test positive. Pain and temperature sensation in the feet intact. Eats meat, eggs and dairy daily. No black or bloody stools. History: type 2 diabetes on metformin for 9 years, hypothyroidism on levothyroxine, gastroesophageal reflux on omeprazole for 6 years.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">Laboratory results reviewed with the internist. Linda asks whether she should start the folic acid tablets her neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">Intrinsic factor antibodies positive. Internist diagnoses pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. Linda got up alone at 0300 to use the bathroom and was found holding on to the doorframe; she did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders received.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician leaves a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” Linda's daughter asks whether the injection could be given into the IV to save Linda a needle.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1200:</span><span class=\"nurse-note-text\">Internist confirmed the original plan; cyanocobalamin given IM.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 6 1000:</span><span class=\"nurse-note-text\">Clinic visit. Energy improved; tongue no longer sore. Tingling in the feet less, still present. Walking with a cane; no further falls. The nurse reviews Linda's understanding of her condition.</span></p>"
+            "content": "<p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1500:</span><span class=\"nurse-note-text\">The client was admitted from the emergency department after a fall at home. X-rays show no fracture. The client's daughter is at the bedside. The health history and physical assessment were completed.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 1 1730:</span><span class=\"nurse-note-text\">The laboratory results were reviewed with the internist. The client asks whether to start the folic acid tablets that a neighbour takes for anemia.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 0900:</span><span class=\"nurse-note-text\">The intrinsic factor antibody test is positive, and the internist has diagnosed pernicious anemia; metformin and long-term omeprazole may also reduce B12 absorption. At 0300 the client got up alone to use the bathroom and was found holding on to the doorframe. The client did not fall.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1000:</span><span class=\"nurse-note-text\">Orders were received from the internist.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1100:</span><span class=\"nurse-note-text\">A covering physician left a verbal message to start folic acid 5 mg PO daily and “hold the B12 until after the gastroscopy.” The client's daughter asks whether the injection could be given through the IV to spare the client a needle.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Day 2 1200:</span><span class=\"nurse-note-text\">The internist confirmed the original plan, and cyanocobalamin was given IM.</span></p><p class=\"nurse-note-row\"><span class=\"nurse-note-time\">Week 6 1000:</span><span class=\"nurse-note-text\">The client attends a clinic visit. The client reports improved energy, and the tongue is no longer sore. Tingling in the feet has lessened but is still present. The client walks with a cane and has had no further falls. The nurse reviews the client's understanding of the condition.</span></p>"
+          },
+          {
+            "id": "hx",
+            "title": "Health History",
+            "content": "<p><b>Reason for admission:</b> The client has fallen twice in the past month, both times at night. The client reports feeling tired for several months.</p><p><b>Neurological symptoms:</b> The client reports numbness and tingling in both feet for 4 months, “like wearing thick socks.” The client feels unsteady when walking in the dark. The daughter reports that the client has become forgetful and irritable.</p><p><b>Diet and elimination:</b> The client eats meat, eggs and dairy products daily. The client denies black or bloody stools.</p><p><b>Medical history and medications:</b> Type 2 diabetes treated with metformin for 9 years; hypothyroidism treated with levothyroxine; gastroesophageal reflux treated with omeprazole for 6 years.</p>"
+          },
+          {
+            "id": "pa",
+            "title": "Physical Assessment",
+            "content": "<p><b>Skin:</b> The skin is pale with a slight yellow tinge.</p><p><b>Mouth:</b> The tongue is red, smooth and burning.</p><p><b>Neurological:</b> Vibration sense is absent at both great toes, and the client cannot tell whether the toes are moved up or down. The Romberg test is positive. Pain and temperature sensation in the feet are intact.</p>"
           },
           {
             "id": "vs",
@@ -402,7 +467,7 @@
       },
       "question": {
         "preamble": "The nurse has reviewed the Nurses' Notes from Day 2 1200 and Week 6 1000, the Vital Signs, and the Laboratory Results.",
-        "stem": "Which statements by Linda indicate that she understands the teaching? Select all that apply.",
+        "stem": "Which statements by the client indicate an understanding of the teaching? Select all that apply.",
         "type": "select_all",
         "options": [
           {

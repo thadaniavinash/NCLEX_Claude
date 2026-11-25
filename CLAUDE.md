@@ -99,6 +99,15 @@ history and assessment. Which of the following findings would be consistent with
 apply." (16 case studies changed with `drafts/build_cue_wording.py` → `drafts/cue_wording_patch.json`; the Unit 1
 Stand-alone 3 bow-tie preamble with `drafts/cue_wording_standalone_patch.json`). "Infant cues" in a nurses' note
 (NURS 1017 Unit 3 Case Study 3) is clinical wording in the chart and was kept.
+Charting style (user decision, 25 Nov 2026; NCLEX preparation): no names anywhere (intro, chart, stems, options,
+rationales): "the client" (the mother in a maternal-newborn case), "the newborn", family by role; avoid he/she for the
+client. Nurses' Notes are short, timed entries in complete, professional sentences ("The client reports...", "The client
+states, “...”", "The provider was notified."), no telegraphic fragments or abbreviations such as H/O, VS, RA. A long
+admission entry is split into a Health History tab (reason for visit, history, medications, social/family) and a
+Physical Assessment tab (findings by body system), as headed paragraphs `<p><b>Heading:</b> sentences</p>`
+(`sec()`/`Chart2.doc()` in `drafts/nurs1021_common.py`); a highlight question can use both as passage tabs.
+Applied to all 11 NURS 1021 Unit 1 case studies (`drafts/build_unit1_charting_fixes.py` →
+`drafts/unit1_charting_patch.json`); the rest of the bank is to be done later, unit by unit.
 Rationales with figures (pilot, October 2026: NURS 1017 Unit 5 Case Studies 6–8, `drafts/build_integ_rationales.py`
 → `drafts/integ_rationales_patch.json`; the user decides after review whether to extend it to other cases):
 structured HTML (answer, why, why not, "Beyond the chapter" note) with `<figure>` blocks whose images live in
