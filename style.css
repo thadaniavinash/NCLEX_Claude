@@ -5870,6 +5870,27 @@ html:not([data-theme="dark"]) #editor-view.with-preview .pane-left { border-bott
 .app-topbar .save-status-indicator[data-tone="muted"] { color: var(--text-subtle); }
 .app-topbar .save-status-indicator[data-tone="muted"] .status-dot-pulse { background-color: var(--text-faint); box-shadow: none; }
 
+/* Link between the practice site and the studio */
+.app-topbar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 38px;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+  font-size: var(--fs-body-sm);
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.app-topbar-link:hover { background: var(--surface-selected); }
+.app-topbar-link.hidden { display: none; }
+
 /* Account button and menu (js/account.js) */
 .account { position: relative; }
 
@@ -6440,6 +6461,8 @@ html:not([data-theme="dark"]) #editor-view.with-preview .pane-left { border-bott
   .app-logo { width: 30px; height: 30px; }
   .account-btn { padding: 4px; }
   .account-text, .account-caret { display: none; }
+  .app-topbar-link span { display: none; }
+  .app-topbar-link { padding: 0 var(--space-2); }
   .app-nav-tag, .app-sidebar-note { display: none; }
   .app-topbar-actions { flex-shrink: 0; }
   .app-brand-name { overflow: hidden; text-overflow: ellipsis; }
@@ -7294,14 +7317,23 @@ label.meta-chip::after { content: '\25BE'; font-size: 10px; opacity: .7; }
 
 /* Practise page while the portal is closed to students: only the signed-in author sees it */
 .portal-preview-note {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
   margin-bottom: var(--space-4);
-  padding: var(--space-2) var(--space-3);
+  padding: var(--space-2) var(--space-2) var(--space-2) var(--space-4);
+  line-height: 1.45;
   border: 1px solid var(--warning-border);
   border-radius: var(--radius-md);
   background: var(--warning-bg-subtle);
   color: var(--warning-text);
   font-size: var(--fs-body-sm);
 }
+.portal-preview-note.hidden { display: none; }
+.portal-preview-note > span { flex: 1; min-width: 0; }
+.portal-preview-note .app-btn { flex-shrink: 0; }
+.home-page > .portal-preview-note { margin-bottom: 0; }
+@media (max-width: 760px) { .portal-preview-note { flex-wrap: wrap; padding: var(--space-3); } }
 .paused-card .app-actions:not(:has(> :not(.hidden))) { display: none; }
 
 /* Editor: answer options and ordered steps as text boxes that grow with their text (one line of text

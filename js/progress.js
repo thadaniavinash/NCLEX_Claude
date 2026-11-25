@@ -14,13 +14,24 @@ const PROGRESS_STORAGE_KEY = 'nclex_progress_v1';
 const PROGRESS_MAX_SESSIONS = 500;
 const REVISIT_LIMIT = { cases: 3, standalone: 30 }; // size of a "practise again" session
 
+// The author trying out the practice site (signed in, or on the local server) is in preview: progress and
+// unfinished sessions are kept in this tab only (sessionStorage), so they vanish when the tab is closed and
+// never mix with anything saved in this browser as a guest. Students always use localStorage.
+function isAuthorPreview() {
+  return isAdminLoggedIn || isLocalServerHost();
+}
+
+function studentStorage() {
+  return isAuthorPreview() ? sessionStorage : localStorage;
+}
+
 function emptyProgress() {
   return { version: 1, sessions: [] };
 }
 
 function loadProgress() {
   try {
-    const raw = localStorage.getItem(PROGRESS_STORAGE_KEY);
+    const raw = studentStorage().getItem(PROGRESS_STORAGE_KEY);
     if (!raw) return emptyProgress();
     const data = JSON.parse(raw);
     if (!data || !Array.isArray(data.sessions)) return emptyProgress();
@@ -36,7 +47,7 @@ function saveProgress(data) {
   while (data.sessions.length > PROGRESS_MAX_SESSIONS) data.sessions.shift();
   for (;;) {
     try {
-      localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(data));
+      studentStorage().setItem(PROGRESS_STORAGE_KEY, JSON.stringify(data));
       return true;
     } catch (e) {
       if (data.sessions.length <= 1) return false;
@@ -193,13 +204,14 @@ function unitLabelHTML(course, unit) {
   return `<span class="unit-label"><strong>${head}</strong>${u.name ? `<span>${escapeHTML(u.name)}</span>` : ''}</span>`;
 }
 
+const AUTHOR_PREVIEW_PROGRESS_TEXT = 'Preview: you are signed in as the author, so these results are kept in this tab only and are cleared when you close it. Nothing is saved in this browser and nothing is sent anywhere.';
 const PROGRESS_PRIVACY_TEXT = 'Your results are saved only in this browser on this device. They are not sent to your instructor or anyone else. Clearing your browsing data or using a private window removes them; use Export to keep a copy or to move them to another device.';
 
 function renderProgressView() {
   const box = document.getElementById('progress-content');
   if (!box) return;
   const data = loadProgress();
-  const privacy = `<div class="app-notice" role="note"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><p>${PROGRESS_PRIVACY_TEXT}</p></div>`;
+  const privacy = `<div class="app-notice" role="note"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><p>${isAuthorPreview() ? AUTHOR_PREVIEW_PROGRESS_TEXT : PROGRESS_PRIVACY_TEXT}</p></div>`;
   const dataPanel = `
     <section class="app-card" aria-labelledby="progress-data-title">
       <h2 id="progress-data-title" class="app-card-title">Your data</h2>
@@ -394,7 +406,7 @@ function initProgressEvents() {
     }
     if (t.closest('#progress-clear-no')) { document.getElementById('progress-clear-confirm').classList.add('hidden'); return; }
     if (t.closest('#progress-clear-yes')) {
-      try { localStorage.removeItem(PROGRESS_STORAGE_KEY); } catch (err) { /* nothing stored */ }
+      try { studentStorage().removeItem(PROGRESS_STORAGE_KEY); } catch (err) { /* nothing stored */ }
       renderProgressView();
       setProgressMessage('Your progress was deleted from this browser.');
     }

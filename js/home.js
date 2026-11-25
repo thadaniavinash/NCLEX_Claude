@@ -19,12 +19,21 @@ function renderHomeView() {
   document.getElementById('home-sub').textContent = open
     ? 'Pick up where you left off, open what your instructor shared, or start a new practice session.'
     : 'Your instructor shares case studies and questions with a code or a link. The full question bank opens later.';
-  document.getElementById('home-preview-note').classList.toggle('hidden', !(isAdminLoggedIn && !STUDENT_PORTAL_OPEN));
+  renderAuthorPreviewNote(document.getElementById('home-preview-note'));
 
   renderHomeContinue(attempts);
   renderHomeQuickStart(open);
   renderHomeDevice(progress);
   renderPractiseNavState();
+}
+
+// The author trying out the practice site: what is different for them, and the way back to the studio.
+function renderAuthorPreviewNote(el) {
+  if (!el) return;
+  const on = isAuthorPreview();
+  el.classList.toggle('hidden', !on);
+  if (!on) { el.innerHTML = ''; return; }
+  el.innerHTML = `<span><strong>Preview as a student.</strong> You are ${isAdminLoggedIn ? 'signed in as the author' : 'on your own computer'}, so nothing you do here is kept: sessions and progress last only until you close this tab.${STUDENT_PORTAL_OPEN ? '' : ' Students see this site without Practise until you open the question bank.'}</span>`;
 }
 
 // The sidebar's Practise entry says when it is not open yet.
@@ -79,7 +88,7 @@ function renderHomeDevice(progress) {
       <div class="home-empty">
         <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
         <p><strong>Your results will appear here</strong> after your first case study or question: your score for each of the six clinical judgment steps, and what to practise again.</p>
-        <p class="muted">They are kept in this browser only. Nothing is sent to your instructor or anyone else.</p>
+        <p class="muted">${isAuthorPreview() ? 'Preview: they are kept in this tab only and cleared when you close it.' : 'They are kept in this browser only. Nothing is sent to your instructor or anyone else.'}</p>
       </div>`;
     return;
   }
@@ -101,7 +110,7 @@ function renderHomeDevice(progress) {
     <div class="home-steps">${steps}</div>
     ${s.revisit.length ? `<p class="home-revisit"><strong>${s.revisit.length}</strong> ${s.revisit.length === 1 ? 'item' : 'items'} to practise again in My progress.</p>` : ''}
     <div class="home-keep">
-      <p>Results stay in this browser. Export them to keep a copy or to move them to another device.</p>
+      <p>${isAuthorPreview() ? 'Preview: these results are cleared when you close this tab.' : 'Results stay in this browser. Export them to keep a copy or to move them to another device.'}</p>
       <button type="button" class="app-btn small" id="home-export-btn">Export</button>
     </div>`;
 }
@@ -168,9 +177,7 @@ function initHome() {
     }
     const quick = e.target.closest('[data-quick]');
     if (quick) { startQuickSession(quick.dataset.quick); return; }
-    if (e.target.closest('#home-export-btn')) { exportProgress(); return; }
-    const nav = e.target.closest('[data-nav-to]');
-    if (nav) switchView(nav.dataset.navTo);
+    if (e.target.closest('#home-export-btn')) exportProgress();
   });
   const pausedHome = document.getElementById('paused-home-btn');
   if (pausedHome) pausedHome.addEventListener('click', () => switchView('home'));

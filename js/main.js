@@ -9,6 +9,7 @@ async function initApp() {
   }
 
   initTheme();
+  initRouter();
   initAppShell();
   initAccount();
 
@@ -29,6 +30,7 @@ async function initApp() {
   await restoreAdminSession();
   applyAdminState();
 
+  startRouting();
   // Back from a password-reset email (js/account.js).
   if (handlePasswordResetReturn()) return;
 
@@ -38,7 +40,7 @@ async function initApp() {
   const directStandaloneId = urlParams.get('standalone') || urlParams.get('question') || urlParams.get('q');
   const examMode = urlParams.get('mode');
   const examId = urlParams.get('exam');
-  const isAuthorParam = urlParams.get('author') === '1' || urlParams.get('studio') === '1';
+  const isAuthorParam = isStudioAddress(urlParams);
   const codeParam = urlParams.get('code');
 
   // 1-2. A case study or question opened from a link the author shared (?case= / ?standalone=, with
@@ -48,6 +50,7 @@ async function initApp() {
   if (directCaseId) {
     const targetCase = findById(caseStudies, directCaseId);
     if (targetCase) {
+      markInitialLinkEntry();
       startLinkSession(targetCase, linkMode);
       return;
     }
@@ -57,6 +60,7 @@ async function initApp() {
   if (directStandaloneId) {
     const targetQ = findById(standaloneQuestions, directStandaloneId);
     if (targetQ) {
+      markInitialLinkEntry();
       startLinkSession(targetQ, linkMode);
       return;
     }
@@ -68,6 +72,7 @@ async function initApp() {
   if (codeParam) {
     const req = parseOpenRequest(codeParam);
     if (req.items.length && !req.unknown.length) {
+      markInitialLinkEntry();
       if (req.items.length === 1) startLinkSession(req.items[0], linkMode);
       else startCompiledSession(req.items.filter(i => !isStandaloneItem(i)), req.items.filter(isStandaloneItem), linkMode);
       return;
@@ -75,9 +80,10 @@ async function initApp() {
     showToast('This code does not match any case study or question. Check it with your instructor.', 'error');
   }
 
-  // 3. Authoring studio, the session builder in exam mode, or Home.
+  // 3. The page the address names (js/router.js: Home, My progress, Practise, the studio), or Practise in
+  // exam mode for the old ?mode=test address.
   if (isAuthorParam) {
-    switchView('overview');
+    switchView(viewFromUrl());
   } else if ((examMode === 'test' || examId) && studentPortalOpenForViewer()) {
     switchView('student');
     const testCard = document.getElementById('mode-card-test');
@@ -85,7 +91,7 @@ async function initApp() {
   } else if (urlParams.get('signin') === '1') {
     openSignIn('overview');
   } else {
-    switchView('home');
+    switchView(viewFromUrl());
   }
 }
 
@@ -132,6 +138,7 @@ function switchView(viewId) {
   }
   if (typeof renderAccountButton === 'function') renderAccountButton();
   if (viewId !== 'signin') document.title = `${APP_NAME} · ${APP_TAGLINE}`;
+  recordViewInHistory(viewId);
 
   if (viewId === 'dashboard') {
     renderDashboard();
@@ -140,6 +147,7 @@ function switchView(viewId) {
   } else if (viewId === 'home') {
     renderHomeView();
   } else if (viewId === 'progress') {
+    renderAuthorPreviewNote(document.getElementById('progress-preview-note'));
     renderProgressView();
   } else if (viewId === 'overview') {
     renderOverview();
@@ -147,6 +155,11 @@ function switchView(viewId) {
 }
 
 function initAppShell() {
+  // Buttons and links that open another page of the app (data-nav-to="progress", "overview", ...).
+  document.addEventListener('click', e => {
+    const nav = e.target.closest('[data-nav-to]');
+    if (nav) { e.preventDefault(); switchView(nav.dataset.navTo); }
+  });
   document.querySelectorAll('#app-shell [data-nav]').forEach(btn => {
     btn.addEventListener('click', () => switchView(btn.dataset.nav));
   });
@@ -154,8 +167,7 @@ function initAppShell() {
 
 function renderStudentPortal() {
   renderPractiseNavState();
-  const preview = document.getElementById('portal-preview-note');
-  if (preview) preview.classList.toggle('hidden', STUDENT_PORTAL_OPEN);
+  renderAuthorPreviewNote(document.getElementById('portal-preview-note'));
   renderPortalResume();
   renderSessionTopicsList();
   renderManualSelectionLists();

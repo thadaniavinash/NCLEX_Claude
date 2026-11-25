@@ -30,8 +30,9 @@ function renderAccountButton() {
   if (isAdminLoggedIn) {
     avatar.textContent = (email[0] || 'A').toUpperCase();
     avatar.classList.add('author');
-    name.textContent = 'Author';
-    sub.textContent = email || 'Signed in';
+    const previewing = document.getElementById('app-shell').dataset.area === 'student';
+    name.textContent = previewing ? 'Author · preview' : 'Author';
+    sub.textContent = previewing ? 'Nothing you do here is kept' : (email || 'Signed in');
     head.innerHTML = `<strong>Signed in as the author</strong><span>${escapeHTML(email)}</span>`;
   } else {
     avatar.textContent = 'G';
@@ -47,7 +48,9 @@ function renderAccountButton() {
     const el = document.querySelector(`#account-menu [data-account-action="${action}"]`);
     if (el) el.classList.toggle('hidden', !on);
   };
-  show('studio', isAdminLoggedIn);
+  show('studio', isAuthorPreview());
+  const studioLink = document.getElementById('topbar-studio-link');
+  if (studioLink) studioLink.classList.toggle('hidden', !isAuthorPreview());
   show('signout', isAdminLoggedIn);
   // No sign-in for students yet: only the author's studio offers it (on the local server).
   show('signin', !isAdminLoggedIn && document.getElementById('app-shell').dataset.area === 'studio');

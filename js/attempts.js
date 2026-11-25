@@ -9,14 +9,15 @@
      "Continue your session" banner.
    Only item ids are stored (not question content). A saved session is dropped when one of its items
    has been edited since (its `updatedAt` or number of screens differ), so answers never land on
-   changed questions. Sessions started from the studio or the editor preview are never saved. */
+   changed questions. Sessions started from the studio or the editor preview are never saved, and while the
+   author previews the practice site everything goes to this tab only (studentStorage in js/progress.js). */
 
 const ATTEMPT_STORAGE_KEY = 'nclex_attempts_v1';
 const ATTEMPT_MAX_LINK = 20; // link sessions kept (oldest dropped)
 
 function loadAttempts() {
   try {
-    const data = JSON.parse(localStorage.getItem(ATTEMPT_STORAGE_KEY) || '{}');
+    const data = JSON.parse(studentStorage().getItem(ATTEMPT_STORAGE_KEY) || '{}');
     return data && typeof data === 'object' ? data : {};
   } catch (e) {
     return {};
@@ -28,7 +29,7 @@ function storeAttempts(data) {
     .sort((a, b) => String(b.savedAt).localeCompare(String(a.savedAt)));
   links.slice(ATTEMPT_MAX_LINK).forEach(a => { delete data[a.key]; });
   try {
-    localStorage.setItem(ATTEMPT_STORAGE_KEY, JSON.stringify(data));
+    studentStorage().setItem(ATTEMPT_STORAGE_KEY, JSON.stringify(data));
     return true;
   } catch (e) {
     return false;

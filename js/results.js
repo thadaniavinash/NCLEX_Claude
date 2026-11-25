@@ -153,7 +153,7 @@ function loadResultsView() {
     note.classList.toggle('hidden', fromStudio);
     note.dataset.tone = sessionConfig.progressSaved ? 'ok' : 'warn';
     note.textContent = sessionConfig.progressSaved
-      ? 'Saved to My progress in this browser.'
+      ? (isAuthorPreview() ? 'Preview: added to My progress in this tab only. It is cleared when you close the tab.' : 'Saved to My progress in this browser.')
       : 'This result could not be saved to My progress: this browser is not keeping site data (for example in a private window).';
   }
   const progressBtn = document.getElementById('results-progress-btn');

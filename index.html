@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20261125105018">
+  <link rel="stylesheet" href="style.css?v=20261125120429">
 </head>
 <body>
 
@@ -43,6 +43,9 @@
           <span class="status-dot-pulse"></span>
           <span class="save-status-text">Checking…</span>
         </span>
+        <!-- Between the two sites: the studio's "Practice site", and "Back to studio" while the author previews it. -->
+        <button type="button" class="app-topbar-link studio-only" data-nav-to="home"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>Practice site</span></button>
+        <button type="button" class="app-topbar-link student-only hidden" id="topbar-studio-link" data-nav-to="overview"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg><span>Back to studio</span></button>
         <!-- The person using the site: Guest today (progress kept in this browser), the author when signed in,
              a student once accounts exist. Menu built by js/account.js. -->
         <div class="account">
@@ -54,7 +57,7 @@
           <div id="account-menu" class="account-menu hidden" role="menu" aria-labelledby="account-btn">
             <div class="account-menu-head" id="account-menu-head"></div>
             <button type="button" role="menuitem" data-account-action="progress" class="student-only">My progress</button>
-            <button type="button" role="menuitem" data-account-action="home" class="studio-only">Student site</button>
+            <button type="button" role="menuitem" data-account-action="home" class="studio-only">Practice site</button>
             <button type="button" role="menuitem" data-account-action="studio" class="student-only">Authoring studio</button>
             <button type="button" role="menuitem" data-theme-toggle data-account-theme>Dark theme</button>
             <div class="account-menu-sep" role="separator"></div>
@@ -78,20 +81,20 @@
       <!-- The studio is reached only by its own link (?author=1); students see no way in. -->
       <p class="app-sidebar-note student-only">Free practice for nursing students. Nothing to install.</p>
       <div class="app-sidebar-foot studio-only">
-        <button id="author-to-student-btn" type="button" class="app-nav-link studio-only"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><span>Student site</span></button>
+        <button id="author-to-student-btn" type="button" class="app-nav-link studio-only"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><span>Practice site</span></button>
       </div>
     </nav>
 
     <main class="app-main">
 
   <!-- ================= STUDENT PORTAL VIEW (PEARSON VUE NCLEX INTERFACE) ================= -->
-  <div id="student-view" class="view active">
+  <div id="student-view" class="view">
 
     <!-- Student Portal Main Workspace (Scrollable) -->
     <div class="student-portal-scroll-area">
       <div class="student-portal-container">
         <!-- Only the author sees this page while the portal is closed (STUDENT_PORTAL_OPEN in js/state.js) -->
-        <p id="portal-preview-note" class="portal-preview-note hidden" role="note"><strong>Preview.</strong> Students cannot open this page yet: the site is closed to them, and only the links you share work. You see it because you are signed in.</p>
+        <div id="portal-preview-note" class="portal-preview-note hidden" role="note"></div>
         <!-- Unfinished session saved in this browser (js/attempts.js) -->
         <div id="portal-resume" class="portal-resume hidden" role="region" aria-label="Unfinished session"></div>
         
@@ -558,6 +561,7 @@
   <!-- ================= MY PROGRESS (student results kept in this browser; js/progress.js) ================= -->
   <div id="progress-view" class="view app-page">
     <div class="app-page-inner">
+      <div id="progress-preview-note" class="portal-preview-note hidden" role="note"></div>
       <div class="app-page-head">
         <h1>My progress</h1>
         <p>Your results from sessions you finished in this browser.</p>
@@ -582,7 +586,7 @@
        device's progress. Built for guests now; the same layout will show an account's data later. -->
   <div id="home-view" class="view app-page">
     <div class="app-page-inner home-page">
-      <p id="home-preview-note" class="portal-preview-note hidden" role="note"><strong>Preview.</strong> Students see this page without Practise: the question bank is closed to them, and only the codes and links you share work.</p>
+      <div id="home-preview-note" class="portal-preview-note hidden" role="note"></div>
       <div class="home-head">
         <h1 id="home-title">Welcome</h1>
         <p id="home-sub"></p>
@@ -1397,34 +1401,35 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20261125105018"></script>
-  <script src="js/state.js?v=20261125105018"></script>
-  <script src="js/utils.js?v=20261125105018"></script>
-  <script src="js/data.js?v=20261125105018"></script>
-  <script src="js/auth.js?v=20261125105018"></script>
-  <script src="js/dashboard.js?v=20261125105018"></script>
-  <script src="js/session-builder.js?v=20261125105018"></script>
-  <script src="js/rich-text.js?v=20261125105018"></script>
-  <script src="js/table-tools.js?v=20261125105018"></script>
-  <script src="js/lab-ranges.js?v=20261125105018"></script>
-  <script src="js/notes-editor.js?v=20261125105018"></script>
-  <script src="js/cloze-editor.js?v=20261125105018"></script>
-  <script src="js/chart-continuity.js?v=20261125105018"></script>
-  <script src="js/editor-preview.js?v=20261125105018"></script>
-  <script src="js/highlight-editor.js?v=20261125105018"></script>
-  <script src="js/editor-header.js?v=20261125105018"></script>
-  <script src="js/editor.js?v=20261125105018"></script>
-  <script src="js/player.js?v=20261125105018"></script>
-  <script src="js/scoring.js?v=20261125105018"></script>
-  <script src="js/results.js?v=20261125105018"></script>
-  <script src="js/progress.js?v=20261125105018"></script>
-  <script src="js/attempts.js?v=20261125105018"></script>
-  <script src="js/short-codes.js?v=20261125105018"></script>
-  <script src="js/share-link.js?v=20261125105018"></script>
-  <script src="js/account.js?v=20261125105018"></script>
-  <script src="js/home.js?v=20261125105018"></script>
-  <script src="js/overview.js?v=20261125105018"></script>
-  <script src="js/calculator.js?v=20261125105018"></script>
-  <script src="js/main.js?v=20261125105018"></script>
+  <script src="cases-data.js?v=20261125120429"></script>
+  <script src="js/state.js?v=20261125120429"></script>
+  <script src="js/utils.js?v=20261125120429"></script>
+  <script src="js/data.js?v=20261125120429"></script>
+  <script src="js/auth.js?v=20261125120429"></script>
+  <script src="js/dashboard.js?v=20261125120429"></script>
+  <script src="js/session-builder.js?v=20261125120429"></script>
+  <script src="js/rich-text.js?v=20261125120429"></script>
+  <script src="js/table-tools.js?v=20261125120429"></script>
+  <script src="js/lab-ranges.js?v=20261125120429"></script>
+  <script src="js/notes-editor.js?v=20261125120429"></script>
+  <script src="js/cloze-editor.js?v=20261125120429"></script>
+  <script src="js/chart-continuity.js?v=20261125120429"></script>
+  <script src="js/editor-preview.js?v=20261125120429"></script>
+  <script src="js/highlight-editor.js?v=20261125120429"></script>
+  <script src="js/editor-header.js?v=20261125120429"></script>
+  <script src="js/editor.js?v=20261125120429"></script>
+  <script src="js/player.js?v=20261125120429"></script>
+  <script src="js/scoring.js?v=20261125120429"></script>
+  <script src="js/results.js?v=20261125120429"></script>
+  <script src="js/progress.js?v=20261125120429"></script>
+  <script src="js/attempts.js?v=20261125120429"></script>
+  <script src="js/short-codes.js?v=20261125120429"></script>
+  <script src="js/share-link.js?v=20261125120429"></script>
+  <script src="js/account.js?v=20261125120429"></script>
+  <script src="js/home.js?v=20261125120429"></script>
+  <script src="js/overview.js?v=20261125120429"></script>
+  <script src="js/calculator.js?v=20261125120429"></script>
+  <script src="js/router.js?v=20261125120429"></script>
+  <script src="js/main.js?v=20261125120429"></script>
 </body>
 </html>

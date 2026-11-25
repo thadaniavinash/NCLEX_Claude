@@ -39,11 +39,15 @@ One-time setup (Supabase dashboard of this project):
    `SUPABASE_SECRET_KEY` = the project's secret key (Supabase -> Project Settings -> API Keys).
    The workflow's `add` and `upload` actions need it once saving is restricted to admins.
 5. **Authentication -> URL Configuration**: set *Site URL* to
-   `https://thadaniavinash.github.io/NCLEX_Claude/` (and add it under *Redirect URLs*), so the
-   "Forgot password?" email on the sign-in page brings you back to the site instead of `localhost`.
+   `https://thadaniavinash.github.io/NCLEX_Claude/` and add
+   `https://thadaniavinash.github.io/NCLEX_Claude/**` under *Redirect URLs*, so the
+   "Forgot password?" email on the sign-in page brings you back to the studio instead of `localhost`.
 
-The studio (`?author=1`) shows a sign-in page until you sign in (on `localhost` it opens without
-signing in and saves to `cases-data.js`). Students never see a sign-in: they use the site as guests,
+Addresses: the practice site is `https://thadaniavinash.github.io/NCLEX_Claude/`; the studio is
+`https://thadaniavinash.github.io/NCLEX_Claude/studio/` (it opens `?studio`; the older `?author=1`
+still works). The studio shows a sign-in page until you sign in (on `localhost` it opens without
+signing in and saves to `cases-data.js`). While you are signed in, the practice site is a preview:
+your sessions and progress there last only until you close the tab. Students never see a sign-in: they use the site as guests,
 and their progress stays in their own browser.
 
 Unfinished items (a screen with no question text, or an answer key that cannot score full

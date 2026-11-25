@@ -37,7 +37,7 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   link sessions), `short-codes.js` (item codes such as `C-7KD4M`), `share-link.js` (studio "Share with
   students" dialog; lazy-loads `js/vendor/qrcode.js`, MIT), `account.js` (top-bar account menu, sign-in page,
   password reset), `home.js` (students' Home page), `overview.js` (studio Overview), `calculator.js`,
-  `main.js` (initApp, routing).
+  `router.js` (addresses per page, browser Back/Forward), `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
   when the database can't be reached. Read/write it losslessly with `tools/bank.py` (Python) or
   `tools/supabase.js` (Node). Keep it in sync via the workflow's `download` action.
@@ -272,6 +272,19 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   "Forgot password?" (Supabase `recover` email back to `?author=1`, `#type=recovery` → "Choose a new
   password" → `PUT /auth/v1/user`). `?author=1` signed out shows it (not on localhost); `?signin=1` opens
   it. The old "Admin Login" modal is removed.
+- **Addresses and Back** (js/router.js, Nov 2026 user request): practice site `./` (Home), `./?page=progress`,
+  `./?page=practise`; studio `./?studio` (Overview; `?author=1` / `?studio=1` still work and become `?studio`),
+  `./?studio&page=bank`; `studio/index.html` forwards the short bookmark `…/NCLEX_Claude/studio/` to `../?studio`.
+  The address bar follows the page (reload stays put); player, editor, results and paused get history entries,
+  so Back leaves them (the player saves the attempt, the editor saves first); entries carry `{view, prev}` so a
+  button back to the page underneath steps back instead of pushing. Start-up views are not recorded until
+  `startRouting()`. Links between the sites: studio top bar "Practice site" (and sidebar foot, account menu);
+  on the practice site the author gets "Back to studio".
+- **Author preview** (user request: the author's own trying-out must not be stored): while signed in (or on
+  localhost), `isAuthorPreview()` is true and `studentStorage()` (js/progress.js) puts progress and unfinished
+  sessions in sessionStorage, cleared with the tab, instead of localStorage; Home, My progress and Practise
+  show a "Preview as a student" note; the account button reads "Author · preview". Opening the site in a tab
+  where the author is not signed in behaves like a student's browser (nothing is sent anywhere either way).
 - **Student accounts (later)**: user decision, the easiest for students: sign in with an emailed one-time code
   (Supabase email OTP, the same email also carries a link), no passwords; Guest stays available; the first
   sign-in offers to add this browser's results to the account. Same account button and sign-in page.
@@ -283,7 +296,8 @@ Until these are done, anyone with the public key can still write the database:
 2. Disable public email sign-ups.
 3. Run `supabase/002_admin_logins.sql` with the admin email filled in.
 4. Add the `SUPABASE_SECRET_KEY` repository secret (needed by the workflow's add/upload after step 3).
-5. Supabase Authentication → URL Configuration: Site URL = the github.io address (for "Forgot password?").
+5. Supabase Authentication → URL Configuration: Site URL = the github.io address, and Redirect URLs
+   `https://thadaniavinash.github.io/NCLEX_Claude/**` (for "Forgot password?", which returns to `?studio`).
 The old hard-coded admin password is still in git history; the user was told to change it if reused.
 
 ## Remaining code work (from the latest review)

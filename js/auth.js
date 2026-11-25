@@ -87,14 +87,14 @@ async function signInAdmin(email, password) {
 }
 
 /* ---- Forgotten password ----
-   Supabase emails a link back to this page; it arrives with
+   Supabase emails a link back to this page (the studio address, ./?studio); it arrives with
    #access_token=...&refresh_token=...&type=recovery (or #error=...&error_description=...).
    The link only comes back here if this page's address is the project's Site URL or is listed under
    Authentication > URL Configuration > Redirect URLs in Supabase. */
 
 function passwordResetReturnUrl() {
   const { origin, pathname } = window.location;
-  return `${origin}${pathname}?author=1`;
+  return `${origin}${pathname}?studio`;
 }
 
 async function requestPasswordReset(email) {
