@@ -24,9 +24,9 @@ function sessionFromTokenResponse(data) {
   };
 }
 
-function authFetch(path, body, token) {
+function authFetch(path, body, token, method) {
   return fetch(`${SUPABASE_URL}/auth/v1/${path}`, {
-    method: 'POST',
+    method: method || 'POST',
     headers: {
       'apikey': SUPABASE_ANON_KEY,
       'Content-Type': 'application/json',
@@ -53,6 +53,18 @@ async function checkIsAdmin(token) {
   }
 }
 
+// Signs in with a session that is already known (from a password-reset link), if it is an admin.
+async function adoptAdminSession(session) {
+  const admin = await checkIsAdmin(session.access_token);
+  if (admin === false) {
+    authFetch('logout', {}, session.access_token).catch(() => {});
+    return { ok: false, message: 'This account is not an author account.' };
+  }
+  storeAuthSession(session);
+  isAdminLoggedIn = true;
+  return { ok: true };
+}
+
 async function signInAdmin(email, password) {
   let res, data;
   try {
@@ -72,6 +84,66 @@ async function signInAdmin(email, password) {
   storeAuthSession(session);
   isAdminLoggedIn = true;
   return { ok: true };
+}
+
+/* ---- Forgotten password ----
+   Supabase emails a link back to this page; it arrives with
+   #access_token=...&refresh_token=...&type=recovery (or #error=...&error_description=...).
+   The link only comes back here if this page's address is the project's Site URL or is listed under
+   Authentication > URL Configuration > Redirect URLs in Supabase. */
+
+function passwordResetReturnUrl() {
+  const { origin, pathname } = window.location;
+  return `${origin}${pathname}?author=1`;
+}
+
+async function requestPasswordReset(email) {
+  try {
+    const res = await authFetch(`recover?redirect_to=${encodeURIComponent(passwordResetReturnUrl())}`, { email });
+    if (res.status === 429) return { ok: false, message: 'Too many requests. Wait a minute, then try again.' };
+    if (!res.ok) {
+      const data = await res.json().catch(() => ({}));
+      return { ok: false, message: data.error_description || data.msg || 'The reset email could not be sent.' };
+    }
+    return { ok: true };
+  } catch (e) {
+    return { ok: false, message: 'Could not reach the sign-in service. Check your connection and try again.' };
+  }
+}
+
+// Reads (and removes from the address bar) what a password-reset link brought back.
+// Returns null, { session } or { error }.
+function takePasswordResetReturn() {
+  const hash = window.location.hash.replace(/^#/, '');
+  if (!hash) return null;
+  const p = new URLSearchParams(hash);
+  let result = null;
+  if (p.get('type') === 'recovery' && p.get('access_token')) {
+    result = { session: {
+      access_token: p.get('access_token'),
+      refresh_token: p.get('refresh_token'),
+      expires_at: Date.now() + (Number(p.get('expires_in')) || 3600) * 1000,
+      email: null
+    } };
+  } else if (p.get('error') || p.get('error_code')) {
+    result = { error: (p.get('error_description') || 'The link is not valid.').replace(/\+/g, ' ') };
+  }
+  if (result) history.replaceState(null, '', window.location.pathname + window.location.search);
+  return result;
+}
+
+async function setNewPassword(session, password) {
+  try {
+    const res = await authFetch('user', { password }, session.access_token, 'PUT');
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      return { ok: false, message: data.error_description || data.msg || 'The password could not be changed. Ask for a new reset link.' };
+    }
+    session.email = data.email || (data.user && data.user.email) || null;
+    return adoptAdminSession(session);
+  } catch (e) {
+    return { ok: false, message: 'Could not reach the sign-in service. Check your connection and try again.' };
+  }
 }
 
 async function refreshAuthSession() {

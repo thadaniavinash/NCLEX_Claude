@@ -23,8 +23,8 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
 ## Layout
 
 - `index.html` + `style.css`: single-page app. `#app-shell` (top bar + sidebar, bottom tabs on phones) holds
-  the student area (Practise = session builder, My progress, results) and the studio area (Overview,
-  Question bank); the exam player and the editor fill the window. Routing: `switchView` / `SHELL_VIEWS`
+  the student area (Home, Practise = session builder, My progress, results) and the studio area (Overview,
+  Question bank); the exam player, the editor and the sign-in page fill the window. Routing: `switchView` / `SHELL_VIEWS`
   in `main.js`.
 - `js/` (plain scripts sharing one global scope, loaded in this order; `main.js` last):
   `state.js` (constants, state, IndexedDB), `utils.js` (toast, escapeHTML, nurses' notes formatting,
@@ -34,8 +34,9 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   cell hints), `lab-ranges.js` (MCC reference ranges for lab tables), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
   `editor-preview.js`, `highlight-editor.js` (highlight passage authoring), `editor-header.js` (editor top bar), `editor.js`, `player.js`, `scoring.js`, `results.js`,
   `progress.js` (My progress, browser-only results), `attempts.js` (unfinished sessions saved in the browser,
-  link sessions), `share-link.js` (studio "Share with students" dialog; lazy-loads `js/vendor/qrcode.js`,
-  MIT), `overview.js` (studio Overview), `calculator.js`,
+  link sessions), `short-codes.js` (item codes such as `C-7KD4M`), `share-link.js` (studio "Share with
+  students" dialog; lazy-loads `js/vendor/qrcode.js`, MIT), `account.js` (top-bar account menu, sign-in page,
+  password reset), `home.js` (students' Home page), `overview.js` (studio Overview), `calculator.js`,
   `main.js` (initApp, routing).
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
   when the database can't be reached. Read/write it losslessly with `tools/bank.py` (Python) or
@@ -189,6 +190,7 @@ Both sessions push to `main`, so pull (rebase) before pushing.
   open-and-save changes nothing, no case screen drops chart content. Expected: 0 failures, 3 known incomplete items. (Since the September
   2026 content sync it also reports 2 stand-alone items whose chart tab the editor changes on save.)
 - `node tools/check-saving.js`: sign-in and saving against a simulated Supabase (13 checks).
+- `node tools/check.js` currently also reports "Lower Extremity Fracture" screen 4 (unfinished, hidden item).
 - Playwright is preinstalled (global npm); Chromium at `/opt/pw-browsers`. Block `*.supabase.co` in
   tests so nothing is written.
 - In earlier sessions this container could not reach `*.supabase.co` (proxy) or github.io; reach the
@@ -246,6 +248,34 @@ Both sessions push to `main`, so pull (rebase) before pushing.
 - Show the user mock-ups and screenshots in light mode only (their preferred theme); dark mode is still
   checked, just not sent.
 
+## Front door (November 2026; user chose direction B "Study desk" + A's sign-in page)
+
+- **Name**: "Clinical Judgment Lab", tagline "NCLEX-RN® case study practice" (`APP_NAME`, `APP_TAGLINE`,
+  `TRADEMARK_NOTICE` in js/state.js; text marked `data-app-name`/`data-app-tagline`/`data-trademark` is
+  filled from them). NCLEX is NCSBN's registered mark: never in the name, only descriptively, with the
+  notice (Home footer, sign-in page). The exam player was not renamed.
+- **Top bar**: light, brand left, account button right (Guest · "Progress saved on this device"; Author +
+  email when signed in). Its menu holds My progress / Student site / Authoring studio, the theme switch and
+  Sign out. Students no longer see the bank status; the studio keeps its save status.
+- **Home** (`#home-view`, default page; js/home.js): Continue (unfinished sessions from `attempts.js`,
+  `resumableAttempts`/`resumeSavedAttempt`), "Open a case study or question" (code or link, Practice / Exam
+  conditions), Start practising (One case study, 10 stand-alone, Build a session; disabled with a note while
+  the portal is closed), "On this device" (sessions, average, score by clinical judgment step, Export).
+  The old closed card (`#closed-view`) is gone: with `STUDENT_PORTAL_OPEN = false`, Practise shows "Opens
+  later" and `switchView('student')` lands on Home. Results and the paused page have a Home button.
+- **Short codes** (js/short-codes.js): `C-` (case study) or `Q-` (stand-alone) + 5 characters hashed from the
+  id (alphabet without 0 1 I L O), so codes never change and nothing is stored. Typing is forgiving (case,
+  hyphen, spaces); several codes open one session (how a set of stand-alone questions is shared); `?code=`
+  works in links. Links stay as the backup. The studio's Share dialog shows the code. `tools/check.js` fails
+  if two items share a code.
+- **Sign-in page** (`#signin-view`, js/account.js): full page, navy side panel + form; show password;
+  "Forgot password?" (Supabase `recover` email back to `?author=1`, `#type=recovery` → "Choose a new
+  password" → `PUT /auth/v1/user`). `?author=1` signed out shows it (not on localhost); `?signin=1` opens
+  it. The old "Admin Login" modal is removed.
+- **Student accounts (later)**: user decision, the easiest for students: sign in with an emailed one-time code
+  (Supabase email OTP, the same email also carries a link), no passwords; Guest stays available; the first
+  sign-in offers to add this browser's results to the account. Same account button and sign-in page.
+
 ## Pending setup (user's side; check the README "Administrators" section)
 
 Until these are done, anyone with the public key can still write the database:
@@ -253,11 +283,12 @@ Until these are done, anyone with the public key can still write the database:
 2. Disable public email sign-ups.
 3. Run `supabase/002_admin_logins.sql` with the admin email filled in.
 4. Add the `SUPABASE_SECRET_KEY` repository secret (needed by the workflow's add/upload after step 3).
+5. Supabase Authentication → URL Configuration: Site URL = the github.io address (for "Forgot password?").
 The old hard-coded admin password is still in git history; the user was told to change it if reused.
 
 ## Remaining code work (from the latest review)
 
-1. Test Mode says "Timed Exam Conditions" but there is no timer.
+1. Test Mode has no timer (its wording now says "Exam conditions", not "Timed").
 2. Student results are kept only in each student's browser (My progress); saving them centrally needs
    student accounts + a results table (not permitted yet).
 3. Finish or remove the 5 hidden items (content decisions).

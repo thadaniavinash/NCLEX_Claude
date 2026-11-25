@@ -76,13 +76,17 @@ async function simulate(route, dbState) {
   page.on('dialog', d => d.accept());
   const load = async () => { await page.goto(`${BASE}/index.html?author=1&x=${Date.now()}`); await page.waitForFunction(() => typeof caseStudies !== 'undefined' && caseStudies.length > 0); };
   const lastToast = () => page.evaluate(() => [...document.querySelectorAll('.toast')].map(t => t.textContent.trim()).pop() || '');
+  // The sign-in page (js/account.js), reached from the account menu (the local server shows the studio signed out).
   const signIn = async (email, password) => {
-    await page.click('#admin-login-btn');
-    await page.fill('#login-username', email);
-    await page.fill('#login-password', password);
-    await page.click('#admin-login-form button[type="submit"]');
+    if (!(await page.isVisible('#signin-view'))) {
+      await page.click('#account-btn');
+      await page.click('#account-menu [data-account-action="signin"]');
+    }
+    await page.fill('#signin-email', email);
+    await page.fill('#signin-password', password);
+    await page.click('#signin-form button[type="submit"]');
     await page.waitForTimeout(300);
-    return page.evaluate(() => ({ admin: isAdminLoggedIn, error: document.getElementById('login-error-msg').classList.contains('hidden') ? '' : document.getElementById('login-error-msg').textContent.trim() }));
+    return page.evaluate(() => ({ admin: isAdminLoggedIn, error: document.getElementById('signin-error').classList.contains('hidden') ? '' : document.getElementById('signin-error').textContent.trim() }));
   };
   const editTitle = (id, title) => page.evaluate(([id, title]) => { caseStudies.find(c => c.id === id).title = title; }, [id, title]);
   const save = async () => { await page.evaluate(() => saveCasesToStorage()); await page.waitForTimeout(200); return lastToast(); };
@@ -96,11 +100,9 @@ async function simulate(route, dbState) {
 
   let r = await signIn('admin@example.com', 'wrong');
   check('wrong password: rejected with a message', !r.admin && /incorrect email or password/i.test(r.error), r.error);
-  await page.click('#login-cancel-btn');
 
   r = await signIn('student@example.com', 'student-pass');
   check('non-admin account: rejected', !r.admin && /not an administrator/i.test(r.error), r.error);
-  await page.click('#login-cancel-btn');
 
   r = await signIn('admin@example.com', 'right-password');
   check('admin account: signed in', r.admin, r.error);
@@ -135,7 +137,8 @@ async function simulate(route, dbState) {
   await load();
   check('sign-in survives a page reload', await page.evaluate(() => isAdminLoggedIn));
 
-  await page.click('#admin-logout-btn');
+  await page.click('#account-btn');
+  await page.click('#account-menu [data-account-action="signout"]');
   await page.waitForTimeout(200);
   const before = dbState.patches;
   await editTitle('c1', 'After sign-out');

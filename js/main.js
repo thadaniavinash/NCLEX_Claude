@@ -10,6 +10,7 @@ async function initApp() {
 
   initTheme();
   initAppShell();
+  initAccount();
 
   await loadAllData();
   initDashboardEvents();
@@ -18,16 +19,18 @@ async function initApp() {
   initPlayerEvents();
   initResultsEvents();
   initAttemptSaving();
-  renderStudentBankStatus();
+  initHome();
   initShareDialog();
   initProgressEvents();
   initOverviewEvents();
   initCalculator();
   makeCalculatorDraggable();
   
-  initAdminEvents();
   await restoreAdminSession();
   applyAdminState();
+
+  // Back from a password-reset email (js/account.js).
+  if (handlePasswordResetReturn()) return;
 
   // Check URL parameters for direct case study launch, exam/mode launches, or authoring
   const urlParams = new URLSearchParams(window.location.search);
@@ -36,6 +39,7 @@ async function initApp() {
   const examMode = urlParams.get('mode');
   const examId = urlParams.get('exam');
   const isAuthorParam = urlParams.get('author') === '1' || urlParams.get('studio') === '1';
+  const codeParam = urlParams.get('code');
 
   // 1-2. A case study or question opened from a link the author shared (?case= / ?standalone=, with
   // &mode=test for exam conditions). Hidden items open too: the author decides who gets the link.
@@ -60,17 +64,28 @@ async function initApp() {
     showToast('This question link does not match any question. Check the link with your instructor.', 'error');
   }
 
-  // 3. Authoring or Exam Simulation Mode
+  // ?code=C-7KD4M (a code in a link) opens like a code typed on Home.
+  if (codeParam) {
+    const req = parseOpenRequest(codeParam);
+    if (req.items.length && !req.unknown.length) {
+      if (req.items.length === 1) startLinkSession(req.items[0], linkMode);
+      else startCompiledSession(req.items.filter(i => !isStandaloneItem(i)), req.items.filter(isStandaloneItem), linkMode);
+      return;
+    }
+    showToast('This code does not match any case study or question. Check it with your instructor.', 'error');
+  }
+
+  // 3. Authoring studio, the session builder in exam mode, or Home.
   if (isAuthorParam) {
     switchView('overview');
-  } else if (examMode === 'test' || examId) {
-    // Launch directly into Test Mode simulation
+  } else if ((examMode === 'test' || examId) && studentPortalOpenForViewer()) {
     switchView('student');
     const testCard = document.getElementById('mode-card-test');
     if (testCard) testCard.click();
+  } else if (urlParams.get('signin') === '1') {
+    openSignIn('overview');
   } else {
-    // Start on Student Portal
-    switchView('student');
+    switchView('home');
   }
 }
 
@@ -82,7 +97,7 @@ if (document.readyState === 'loading') {
 
 // Screens inside the app frame (top bar + sidebar) and the area whose navigation they show.
 // The exam player and the editor fill the whole window instead.
-const SHELL_VIEWS = { student: 'student', closed: 'student', progress: 'student', results: 'student', paused: 'student', overview: 'studio', dashboard: 'studio' };
+const SHELL_VIEWS = { home: 'student', student: 'student', progress: 'student', results: 'student', paused: 'student', overview: 'studio', dashboard: 'studio' };
 
 // Whether this visitor may use the Practise page (see STUDENT_PORTAL_OPEN in js/state.js).
 function studentPortalOpenForViewer() {
@@ -90,7 +105,15 @@ function studentPortalOpenForViewer() {
 }
 
 function switchView(viewId) {
-  if (viewId === 'student' && !studentPortalOpenForViewer()) viewId = 'closed';
+  // Practise (the session builder) is closed to students for now: they stay on Home.
+  if (viewId === 'student' && !studentPortalOpenForViewer()) viewId = 'home';
+  // The studio needs the author signed in (except on the local server): show the sign-in page.
+  if ((viewId === 'overview' || viewId === 'dashboard') && studioNeedsSignIn()) {
+    signinReturnView = viewId;
+    if (currentShellView() !== 'signin') { openSignIn(viewId); return; }
+    viewId = 'signin';
+  }
+  if (typeof setAccountMenuOpen === 'function') setAccountMenuOpen(false);
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   const targetView = document.getElementById(`${viewId}-view`);
   if (targetView) targetView.classList.add('active');
@@ -100,20 +123,22 @@ function switchView(viewId) {
   if (shell) {
     shell.classList.toggle('hidden', !area);
     if (area) shell.dataset.area = area;
-    const navId = ['results', 'paused', 'closed'].includes(viewId) ? 'student' : viewId;
+    const navId = ['results', 'paused'].includes(viewId) ? 'home' : viewId;
     shell.querySelectorAll('[data-nav]').forEach(b => {
       if (b.dataset.nav === navId) b.setAttribute('aria-current', 'page');
       else b.removeAttribute('aria-current');
     });
     if (targetView && area) targetView.scrollTop = 0;
   }
+  if (typeof renderAccountButton === 'function') renderAccountButton();
+  if (viewId !== 'signin') document.title = `${APP_NAME} · ${APP_TAGLINE}`;
 
   if (viewId === 'dashboard') {
     renderDashboard();
   } else if (viewId === 'student') {
     renderStudentPortal();
-  } else if (viewId === 'closed') {
-    renderClosedPortal();
+  } else if (viewId === 'home') {
+    renderHomeView();
   } else if (viewId === 'progress') {
     renderProgressView();
   } else if (viewId === 'overview') {
@@ -122,44 +147,19 @@ function switchView(viewId) {
 }
 
 function initAppShell() {
-  const closedProgress = document.getElementById('closed-progress-btn');
-  if (closedProgress) closedProgress.addEventListener('click', () => switchView('progress'));
   document.querySelectorAll('#app-shell [data-nav]').forEach(btn => {
     btn.addEventListener('click', () => switchView(btn.dataset.nav));
   });
 }
 
 function renderStudentPortal() {
-  renderStudentBankStatus();
+  renderPractiseNavState();
   const preview = document.getElementById('portal-preview-note');
   if (preview) preview.classList.toggle('hidden', STUDENT_PORTAL_OPEN);
   renderPortalResume();
   renderSessionTopicsList();
   renderManualSelectionLists();
   updateSessionCountsAndBounds();
-}
-
-// What students see at the site's address while the portal is closed.
-function renderClosedPortal() {
-  renderStudentBankStatus();
-  const progressBtn = document.getElementById('closed-progress-btn');
-  if (progressBtn) progressBtn.classList.toggle('hidden', !loadProgress().sessions.length);
-}
-
-// Top bar: how many items students can practise (or that the backup copy is showing).
-function renderStudentBankStatus() {
-  const bankStatusEl = document.getElementById('student-bank-status-text');
-  if (bankStatusEl) {
-    const counts = `${studentCaseStudies().length} case studies \u2022 ${studentStandaloneQuestions().length} questions`;
-    bankStatusEl.textContent = isDatabaseUnavailable ? `Offline backup: ${counts}` : counts;
-    const indicator = bankStatusEl.closest('.app-status');
-    if (indicator) {
-      indicator.classList.toggle('offline', isDatabaseUnavailable);
-      indicator.title = (isDatabaseUnavailable ? `${bankStatusEl.textContent}. ` : '') + (isDatabaseUnavailable
-        ? 'The question bank could not be reached, so a saved backup copy is shown. It may be missing the newest questions.'
-        : 'Questions available to practise');
-    }
-  }
 }
 
 // Table toolbar, cell navigation and template hints in the authoring text boxes (js/table-tools.js)

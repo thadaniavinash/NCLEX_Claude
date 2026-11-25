@@ -31,6 +31,12 @@ const STUDENT_SITE_URL = 'https://thadaniavinash.github.io/NCLEX_Claude/';
 // (or on localhost). Set to true to open the site to everyone.
 const STUDENT_PORTAL_OPEN = false;
 
+// The site's name (user decision, November 2026: no trademark in the name; NCLEX® and NCLEX-RN® are
+// NCSBN's registered marks, so they appear only descriptively, in the tagline, with the notice).
+const APP_NAME = 'Clinical Judgment Lab';
+const APP_TAGLINE = 'NCLEX-RN® case study practice';
+const TRADEMARK_NOTICE = 'NCLEX® and NCLEX-RN® are registered trademarks of the National Council of State Boards of Nursing, Inc. (NCSBN), which is not affiliated with this site.';
+
 const CURRICULUM_COURSES = {
   "NURS 1017": [
     "Unit 1 (Introduction to Pathophysiology)",

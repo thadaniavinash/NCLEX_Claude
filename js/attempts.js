@@ -121,6 +121,28 @@ function startLinkSession(item, mode) {
   showResumeModal(saved, () => applyAttempt(saved), () => { clearAttempt(key); });
 }
 
+// Unfinished sessions on this device that can still be continued, newest first (Home page).
+function resumableAttempts() {
+  return Object.values(loadAttempts())
+    .filter(a => a && a.key && (answeredCount(a) > 0 || a.step) && attemptBankItems(a))
+    .sort((a, b) => String(b.savedAt).localeCompare(String(a.savedAt)));
+}
+
+// Reopens a saved session where the student left it.
+function resumeSavedAttempt(saved) {
+  const items = attemptBankItems(saved);
+  if (!items) return false;
+  if (saved.key === 'portal') {
+    startCompiledSession(items.filter(i => !i.isStandalone), items.filter(i => i.isStandalone), saved.mode);
+  } else {
+    const mode = saved.mode === 'test' ? 'test' : 'review';
+    startPlayer(items[0], { mode, isRemediation: false, allowBacktrack: mode !== 'test', source: 'link',
+      attemptKey: saved.key, attemptItems: [{ id: items[0].id, fp: itemFingerprint(items[0]) }] });
+  }
+  applyAttempt(saved);
+  return true;
+}
+
 function showResumeModal(attempt, onContinue, onStartOver) {
   const modal = document.getElementById('resume-modal');
   if (!modal) return;

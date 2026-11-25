@@ -15,13 +15,14 @@
       document.documentElement.setAttribute('data-theme', theme);
     })();
   </script>
-  <title>Preparing for the NCLEX (NGN) Platform - Practice & Testing Portal</title>
+  <title>Clinical Judgment Lab · NCLEX-RN® case study practice</title>
+  <meta name="description" content="Free unfolding case studies and stand-alone questions for NCLEX-RN® preparation, with a rationale for every answer.">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20261014190834">
+  <link rel="stylesheet" href="style.css?v=20261125105018">
 </head>
 <body>
 
@@ -30,40 +31,44 @@
        navigation, data-area="studio" the authoring studio's; see switchView in js/main.js. -->
   <div id="app-shell" class="app-shell" data-area="student">
     <header class="app-topbar">
-      <div class="app-brand">
-        <div class="app-logo" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-        </div>
-        <div class="app-brand-text">
-          <span class="app-brand-name">NCLEX NGN Practice</span>
-          <span class="app-brand-area"><span class="student-only">Student portal</span><span class="studio-only">Authoring studio</span></span>
-        </div>
-      </div>
-      <div class="app-topbar-actions">
-        <span class="app-status student-only" title="Questions available to practise">
-          <span class="status-dot-pulse"></span>
-          <span id="student-bank-status-text">Loading…</span>
+      <a class="app-brand" href="./" data-brand-home aria-label="Clinical Judgment Lab: home">
+        <span class="app-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2.5-6 5 12 2.5-6h4"/></svg></span>
+        <span class="app-brand-text">
+          <span class="app-brand-name" data-app-name>Clinical Judgment Lab</span>
+          <span class="app-brand-area"><span class="student-only" data-app-tagline>NCLEX-RN® case study practice</span><span class="studio-only">Authoring studio</span></span>
         </span>
+      </a>
+      <div class="app-topbar-actions">
         <span class="app-status save-status-indicator studio-only" role="status" aria-live="polite">
           <span class="status-dot-pulse"></span>
           <span class="save-status-text">Checking…</span>
         </span>
-        <button type="button" class="theme-toggle-btn theme-toggle-header" data-theme-toggle aria-label="Switch theme" title="Switch theme">
-            <svg class="theme-icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            <svg class="theme-icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <!-- The person using the site: Guest today (progress kept in this browser), the author when signed in,
+             a student once accounts exist. Menu built by js/account.js. -->
+        <div class="account">
+          <button type="button" id="account-btn" class="account-btn" aria-haspopup="menu" aria-expanded="false" aria-controls="account-menu">
+            <span class="account-avatar" id="account-avatar" aria-hidden="true">G</span>
+            <span class="account-text"><span class="account-name" id="account-name">Guest</span><span class="account-sub" id="account-sub">Progress saved on this device</span></span>
+            <svg class="account-caret" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-        <div id="admin-status-logged-out" class="studio-only">
-          <button id="admin-login-btn" type="button" class="app-topbar-btn">Sign in</button>
-        </div>
-        <div id="admin-status-logged-in" class="studio-only hidden">
-          <button id="admin-logout-btn" type="button" class="app-topbar-btn">Sign out</button>
+          <div id="account-menu" class="account-menu hidden" role="menu" aria-labelledby="account-btn">
+            <div class="account-menu-head" id="account-menu-head"></div>
+            <button type="button" role="menuitem" data-account-action="progress" class="student-only">My progress</button>
+            <button type="button" role="menuitem" data-account-action="home" class="studio-only">Student site</button>
+            <button type="button" role="menuitem" data-account-action="studio" class="student-only">Authoring studio</button>
+            <button type="button" role="menuitem" data-theme-toggle data-account-theme>Dark theme</button>
+            <div class="account-menu-sep" role="separator"></div>
+            <button type="button" role="menuitem" data-account-action="signin">Sign in</button>
+            <button type="button" role="menuitem" data-account-action="signout">Sign out</button>
+          </div>
         </div>
       </div>
     </header>
 
     <nav class="app-sidebar" aria-label="Main">
       <div class="app-nav student-only">
-        <button type="button" class="app-nav-item" data-nav="student"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span>Practise</span></button>
+        <button type="button" class="app-nav-item" data-nav="home"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg><span>Home</span></button>
+        <button type="button" class="app-nav-item" data-nav="student" id="nav-practise"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span>Practise</span><span class="app-nav-tag" id="nav-practise-tag">Opens later</span></button>
         <button type="button" class="app-nav-item" data-nav="progress"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg><span>My progress</span></button>
       </div>
       <div class="app-nav studio-only">
@@ -71,8 +76,9 @@
         <button type="button" class="app-nav-item" data-nav="dashboard"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg><span>Question bank</span></button>
       </div>
       <!-- The studio is reached only by its own link (?author=1); students see no way in. -->
+      <p class="app-sidebar-note student-only">Free practice for nursing students. Nothing to install.</p>
       <div class="app-sidebar-foot studio-only">
-        <button id="author-to-student-btn" type="button" class="app-nav-link studio-only"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><span>Student portal</span></button>
+        <button id="author-to-student-btn" type="button" class="app-nav-link studio-only"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><span>Student site</span></button>
       </div>
     </nav>
 
@@ -151,10 +157,10 @@
                         <span class="mode-name">Test Mode</span>
                         <span class="mode-tag-pill exam">Simulation</span>
                       </div>
-                      <p class="mode-desc">Authentic Pearson VUE NCLEX exam simulation. <strong>Strictly no backtracking</strong>, Question Navigator hidden during test. Comprehensive score report and review upon completion.</p>
+                      <p class="mode-desc">NCLEX-style exam conditions. <strong>No going back</strong>, Question Navigator hidden during test. Comprehensive score report and review upon completion.</p>
                       <div class="mode-perk-row exam-perk">
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        <span>Timed Exam Conditions & Scoring</span>
+                        <span>Exam conditions &amp; scoring</span>
                       </div>
                     </div>
                   </label>
@@ -571,16 +577,63 @@
     </div>
   </div>
 
-  <!-- ================= PORTAL CLOSED (what students see at the site address until it opens) ================= -->
-  <div id="closed-view" class="view app-page">
-    <div class="app-page-inner">
-      <section class="app-card paused-card">
-        <h1 class="paused-title">The practice site is not open yet</h1>
-        <p class="paused-text">For now, your instructor shares case studies and questions with a link. Open the link you were given to start.</p>
-        <div class="app-actions">
-          <button type="button" class="app-btn" id="closed-progress-btn" data-nav-to="progress">My progress</button>
+  <!-- ================= HOME (students' first page; js/home.js) =================
+       Continue, open a case study by code or link, quick starts (when the portal is open), and this
+       device's progress. Built for guests now; the same layout will show an account's data later. -->
+  <div id="home-view" class="view app-page">
+    <div class="app-page-inner home-page">
+      <p id="home-preview-note" class="portal-preview-note hidden" role="note"><strong>Preview.</strong> Students see this page without Practise: the question bank is closed to them, and only the codes and links you share work.</p>
+      <div class="home-head">
+        <h1 id="home-title">Welcome</h1>
+        <p id="home-sub"></p>
+      </div>
+      <div class="home-grid">
+        <div class="home-col">
+          <section id="home-continue" class="app-card home-card hidden" aria-labelledby="home-continue-title">
+            <h2 class="home-card-title" id="home-continue-title">Continue where you left off</h2>
+            <div id="home-continue-list" class="home-continue-list"></div>
+          </section>
+
+          <section class="app-card home-card" aria-labelledby="home-open-title">
+            <h2 class="home-card-title" id="home-open-title">Open a case study or question</h2>
+            <p class="home-card-sub">Type the code your instructor gave you, such as <span class="code-sample">C-7KD4M</span>, or paste the link. Several codes open together as one session.</p>
+            <form id="home-open-form" class="home-open-form" novalidate>
+              <label class="visually-hidden" for="home-open-input">Code or link</label>
+              <input type="text" id="home-open-input" class="home-open-input" placeholder="Code or link" autocomplete="off" autocapitalize="characters" spellcheck="false">
+              <button type="submit" class="app-btn primary">Open</button>
+            </form>
+            <div class="home-mode" role="radiogroup" aria-label="How to answer">
+              <label><input type="radio" name="home-open-mode" value="review" checked><span><strong>Practice</strong> Rationale after each question</span></label>
+              <label><input type="radio" name="home-open-mode" value="test"><span><strong>Exam conditions</strong> No going back, results at the end</span></label>
+            </div>
+            <p id="home-open-msg" class="home-open-msg hidden" role="alert"></p>
+          </section>
+
+          <section id="home-quick" class="app-card home-card" aria-labelledby="home-quick-title">
+            <h2 class="home-card-title" id="home-quick-title">Start practising</h2>
+            <div class="home-quick-grid">
+              <button type="button" class="home-quick" data-quick="case"><strong>One case study</strong><span>6 questions · about 15 min</span></button>
+              <button type="button" class="home-quick" data-quick="standalone"><strong>10 stand-alone questions</strong><span>Mixed types · about 15 min</span></button>
+              <button type="button" class="home-quick" data-quick="build"><strong>Build a session</strong><span>Choose units, mode and length</span></button>
+            </div>
+            <p id="home-quick-note" class="home-card-sub hidden">These open when the question bank opens. Until then, your instructor shares case studies with a code or a link.</p>
+          </section>
         </div>
-      </section>
+
+        <div class="home-col">
+          <section class="app-card home-card" aria-labelledby="home-device-title">
+            <div class="home-card-headrow">
+              <h2 class="home-card-title" id="home-device-title">On this device</h2>
+              <button type="button" class="app-link-btn" id="home-progress-link" data-nav-to="progress">All progress</button>
+            </div>
+            <div id="home-device"></div>
+          </section>
+        </div>
+      </div>
+      <footer class="home-foot">
+        <p><strong data-app-name>Clinical Judgment Lab</strong> · <span data-app-tagline>NCLEX-RN® case study practice</span> · free for nursing students</p>
+        <p class="home-tm" data-trademark></p>
+      </footer>
     </div>
   </div>
 
@@ -593,6 +646,7 @@
         <div class="app-actions">
           <button type="button" class="app-btn primary" id="paused-continue-btn">Continue</button>
           <button type="button" class="app-btn" id="paused-restart-btn">Start over</button>
+          <button type="button" class="app-btn" id="paused-home-btn">Home</button>
         </div>
       </section>
     </div>
@@ -629,7 +683,7 @@
         <button id="results-review-answers-btn" class="btn btn-primary">Review Answers &amp; Rationales</button>
         <button id="results-retry-btn" class="btn btn-secondary">Retry These Questions</button>
         <button id="results-progress-btn" class="btn btn-secondary">My progress</button>
-        <button id="results-dashboard-btn" class="btn btn-secondary">Back to Practise</button>
+        <button id="results-dashboard-btn" class="btn btn-secondary">Home</button>
       </footer>
     </div>
   </div>
@@ -1239,30 +1293,69 @@
     </div>
   </div>
 
-  <!-- ================= ADMIN LOGIN MODAL ================= -->
-  <div id="login-modal" class="modal-overlay hidden">
-    <div class="modal-content">
-      <div class="modal-header" style="display: flex; justify-content: center; margin-bottom: 24px; border: none; padding: 0;">
-        <h3 style="font-family: var(--font-title); font-size: 20px; font-weight: 700; margin: 0;">Admin Login</h3>
+  <!-- ================= SIGN IN (full page; js/account.js) =================
+       The author signs in here (Supabase Auth, email and password). Student accounts, when they come,
+       will use this page too, with an emailed code instead of a password. -->
+  <div id="signin-view" class="view signin-page">
+    <aside class="signin-side">
+      <a class="signin-brand" href="./" data-brand-home><span class="app-logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2.5-6 5 12 2.5-6h4"/></svg></span><span data-app-name>Clinical Judgment Lab</span></a>
+      <div class="signin-side-main">
+        <h2>Authoring studio</h2>
+        <p>Write, review and share unfolding case studies and stand-alone questions.</p>
+        <p class="signin-side-stats" id="signin-side-stats"></p>
       </div>
-      <form id="admin-login-form">
-        <div class="form-group" style="margin-bottom: 16px;">
-          <label for="login-username" style="display: block; margin-bottom: 8px; font-size: 13px; color: #94a3b8;">Email</label>
-          <input type="email" id="login-username" class="form-control" placeholder="Enter your admin email" autocomplete="username" required style="width: 100%;">
-        </div>
-        <div class="form-group" style="margin-bottom: 24px;">
-          <label for="login-password" style="display: block; margin-bottom: 8px; font-size: 13px; color: #94a3b8;">Password</label>
-          <input type="password" id="login-password" class="form-control" placeholder="Enter password" autocomplete="current-password" required style="width: 100%;">
-        </div>
-        <div id="login-error-msg" class="hidden" style="color: #ef4444; font-size: 13px; margin-bottom: 16px; text-align: center; font-weight: 500;">
-          Incorrect email or password.
-        </div>
-        <div style="display: flex; gap: 12px; justify-content: flex-end;">
-          <button type="button" id="login-cancel-btn" class="btn btn-secondary">Cancel</button>
-          <button type="submit" class="btn btn-primary">Login</button>
-        </div>
-      </form>
-    </div>
+      <p class="signin-side-foot">Students do not need an account to practise. Their progress stays in their own browser.</p>
+    </aside>
+    <main class="signin-main">
+      <div class="signin-box">
+        <form id="signin-form" class="signin-form" novalidate>
+          <div class="signin-head"><h1>Sign in</h1><p>Use the email and password of your author account.</p></div>
+          <div class="signin-field">
+            <label for="signin-email">Email</label>
+            <input type="email" id="signin-email" autocomplete="username" required>
+          </div>
+          <div class="signin-field">
+            <div class="signin-label-row"><label for="signin-password">Password</label><button type="button" class="app-link-btn" data-signin-mode="reset-request">Forgot password?</button></div>
+            <div class="signin-password">
+              <input type="password" id="signin-password" autocomplete="current-password" required>
+              <button type="button" class="signin-show" data-show-password="signin-password" aria-pressed="false">Show</button>
+            </div>
+          </div>
+          <p id="signin-error" class="signin-msg error hidden" role="alert"></p>
+          <button type="submit" class="app-btn primary signin-submit">Sign in</button>
+          <p class="signin-foot">Not an author? <a href="./" data-brand-home>Go to the practice site</a></p>
+        </form>
+
+        <form id="reset-request-form" class="signin-form hidden" novalidate>
+          <div class="signin-head"><h1>Reset your password</h1><p>Enter your author email. We will send you a link to choose a new password.</p></div>
+          <div class="signin-field">
+            <label for="reset-email">Email</label>
+            <input type="email" id="reset-email" autocomplete="username" required>
+          </div>
+          <p id="reset-request-msg" class="signin-msg hidden" role="status"></p>
+          <button type="submit" class="app-btn primary signin-submit">Email me a reset link</button>
+          <p class="signin-foot"><button type="button" class="app-link-btn" data-signin-mode="signin">Back to sign in</button></p>
+        </form>
+
+        <form id="reset-password-form" class="signin-form hidden" novalidate>
+          <div class="signin-head"><h1>Choose a new password</h1><p>At least 8 characters. You will be signed in afterwards.</p></div>
+          <div class="signin-field">
+            <label for="reset-password">New password</label>
+            <div class="signin-password">
+              <input type="password" id="reset-password" autocomplete="new-password" minlength="8" required>
+              <button type="button" class="signin-show" data-show-password="reset-password" aria-pressed="false">Show</button>
+            </div>
+          </div>
+          <div class="signin-field">
+            <label for="reset-password-again">New password again</label>
+            <input type="password" id="reset-password-again" autocomplete="new-password" minlength="8" required>
+          </div>
+          <p id="reset-password-msg" class="signin-msg error hidden" role="alert"></p>
+          <button type="submit" class="app-btn primary signin-submit">Save password and sign in</button>
+        </form>
+        <p class="signin-tm" data-trademark></p>
+      </div>
+    </main>
   </div>
 
   <!-- ================= SKIP QUESTION CONFIRMATION MODAL ================= -->
@@ -1304,31 +1397,34 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- JS Dependencies -->
-  <script src="cases-data.js?v=20261014190834"></script>
-  <script src="js/state.js?v=20261014190834"></script>
-  <script src="js/utils.js?v=20261014190834"></script>
-  <script src="js/data.js?v=20261014190834"></script>
-  <script src="js/auth.js?v=20261014190834"></script>
-  <script src="js/dashboard.js?v=20261014190834"></script>
-  <script src="js/session-builder.js?v=20261014190834"></script>
-  <script src="js/rich-text.js?v=20261014190834"></script>
-  <script src="js/table-tools.js?v=20261014190834"></script>
-  <script src="js/lab-ranges.js?v=20261014190834"></script>
-  <script src="js/notes-editor.js?v=20261014190834"></script>
-  <script src="js/cloze-editor.js?v=20261014190834"></script>
-  <script src="js/chart-continuity.js?v=20261014190834"></script>
-  <script src="js/editor-preview.js?v=20261014190834"></script>
-  <script src="js/highlight-editor.js?v=20261014190834"></script>
-  <script src="js/editor-header.js?v=20261014190834"></script>
-  <script src="js/editor.js?v=20261014190834"></script>
-  <script src="js/player.js?v=20261014190834"></script>
-  <script src="js/scoring.js?v=20261014190834"></script>
-  <script src="js/results.js?v=20261014190834"></script>
-  <script src="js/progress.js?v=20261014190834"></script>
-  <script src="js/attempts.js?v=20261014190834"></script>
-  <script src="js/share-link.js?v=20261014190834"></script>
-  <script src="js/overview.js?v=20261014190834"></script>
-  <script src="js/calculator.js?v=20261014190834"></script>
-  <script src="js/main.js?v=20261014190834"></script>
+  <script src="cases-data.js?v=20261125105018"></script>
+  <script src="js/state.js?v=20261125105018"></script>
+  <script src="js/utils.js?v=20261125105018"></script>
+  <script src="js/data.js?v=20261125105018"></script>
+  <script src="js/auth.js?v=20261125105018"></script>
+  <script src="js/dashboard.js?v=20261125105018"></script>
+  <script src="js/session-builder.js?v=20261125105018"></script>
+  <script src="js/rich-text.js?v=20261125105018"></script>
+  <script src="js/table-tools.js?v=20261125105018"></script>
+  <script src="js/lab-ranges.js?v=20261125105018"></script>
+  <script src="js/notes-editor.js?v=20261125105018"></script>
+  <script src="js/cloze-editor.js?v=20261125105018"></script>
+  <script src="js/chart-continuity.js?v=20261125105018"></script>
+  <script src="js/editor-preview.js?v=20261125105018"></script>
+  <script src="js/highlight-editor.js?v=20261125105018"></script>
+  <script src="js/editor-header.js?v=20261125105018"></script>
+  <script src="js/editor.js?v=20261125105018"></script>
+  <script src="js/player.js?v=20261125105018"></script>
+  <script src="js/scoring.js?v=20261125105018"></script>
+  <script src="js/results.js?v=20261125105018"></script>
+  <script src="js/progress.js?v=20261125105018"></script>
+  <script src="js/attempts.js?v=20261125105018"></script>
+  <script src="js/short-codes.js?v=20261125105018"></script>
+  <script src="js/share-link.js?v=20261125105018"></script>
+  <script src="js/account.js?v=20261125105018"></script>
+  <script src="js/home.js?v=20261125105018"></script>
+  <script src="js/overview.js?v=20261125105018"></script>
+  <script src="js/calculator.js?v=20261125105018"></script>
+  <script src="js/main.js?v=20261125105018"></script>
 </body>
 </html>

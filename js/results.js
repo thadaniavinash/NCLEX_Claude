@@ -25,7 +25,7 @@ function initResultsEvents() {
 function leaveSession() {
   if (sessionConfig.source === 'studio') { switchView('dashboard'); return; }
   if (sessionConfig.source === 'link' && !sessionConfig.progressRecorded) { showPausedLinkSession(); return; }
-  switchView('student');
+  switchView('home');
 }
 
 function showPausedLinkSession() {
@@ -161,8 +161,7 @@ function loadResultsView() {
   // A case study opened from a shared link ends here (no way into the rest of the bank from it).
   const backBtn = document.getElementById('results-dashboard-btn');
   if (backBtn) {
-    backBtn.textContent = fromStudio ? 'Back to Question bank' : 'Back to Practise';
-    backBtn.classList.toggle('hidden', sessionConfig.source === 'link');
+    backBtn.textContent = fromStudio ? 'Back to Question bank' : 'Home';
   }
   const retryBtn = document.getElementById('results-retry-btn');
   if (retryBtn) retryBtn.textContent = sessionConfig.source === 'link' ? 'Try again' : 'Retry These Questions';

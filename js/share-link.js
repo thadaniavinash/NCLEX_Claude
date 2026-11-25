@@ -1,4 +1,5 @@
-/* Studio only: "Share with students" for one case study or stand-alone question. Gives two links, one
+/* Studio only: "Share with students" for one case study or stand-alone question. Gives its short code
+   (js/short-codes.js, typed by students on the Home page) and two links, one
    for Practice (feedback and rationale after each question) and one for Exam conditions (&mode=test:
    no going back, results at the end), each with Copy and a QR code to show on the projector.
 
@@ -78,6 +79,14 @@ function openShareDialog(item, opts = {}) {
         <button type="button" class="share-close" data-share-close aria-label="Close">&times;</button>
       </div>
       <div class="share-notes">${shareStatusHTML(item, opts.fromEditor)}</div>
+      <section class="share-code" aria-label="Code">
+        <div>
+          <span class="share-code-label">Code</span>
+          <span class="share-code-value" id="share-code-value">${escapeHTML(itemShortCode(item))}</span>
+        </div>
+        <p>Students type it on the Home page (Practice or Exam conditions is their choice there). Several codes typed together open as one session, which is the way to share a set of stand-alone questions.</p>
+        <button type="button" class="app-btn small" data-share-copy="code">Copy</button>
+      </section>
       <div class="share-options">
         ${SHARE_MODES.map(m => `
           <section class="share-option" data-share-mode="${m.mode}">
@@ -112,14 +121,17 @@ function closeShareDialog() {
 
 async function copyShareLink(mode, button) {
   const input = document.getElementById(`share-link-${mode}`);
+  const text = mode === 'code' ? itemShortCode(shareDialogItem) : input.value;
   let copied = false;
   try {
-    await navigator.clipboard.writeText(input.value);
+    await navigator.clipboard.writeText(text);
     copied = true;
   } catch (e) {
-    input.focus();
-    input.select();
-    try { copied = document.execCommand('copy'); } catch (err) { copied = false; }
+    if (input) {
+      input.focus();
+      input.select();
+      try { copied = document.execCommand('copy'); } catch (err) { copied = false; }
+    }
   }
   button.textContent = copied ? 'Copied' : 'Select and copy';
   setTimeout(() => { if (button.isConnected) button.textContent = 'Copy'; }, 2000);

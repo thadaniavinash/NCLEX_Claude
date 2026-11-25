@@ -1,4 +1,4 @@
-/* Faculty authoring dashboard (case and stand-alone tables) and admin login. */
+/* Faculty authoring dashboard (case and stand-alone tables). */
 
 /* ================= DASHBOARD ENGINE (FACULTY AUTHORING PORTAL) ================= */
 function initDashboardEvents() {
@@ -6,13 +6,7 @@ function initDashboardEvents() {
   if (downloadAll) downloadAll.addEventListener('click', downloadAllQuestionsJSON);
   const authorToStudentBtn = document.getElementById('author-to-student-btn');
   if (authorToStudentBtn) {
-    authorToStudentBtn.addEventListener('click', () => {
-      if (!studentPortalOpenForViewer()) {
-        showToast('The student portal is closed to students for now. Sign in to preview it.', 'warning');
-        return;
-      }
-      switchView('student');
-    });
+    authorToStudentBtn.addEventListener('click', () => switchView('home'));
   }
 
   const tabCases = document.getElementById('author-tab-cases');
@@ -70,10 +64,7 @@ function initDashboardEvents() {
 
   const readOnlySignInBtn = document.getElementById('author-readonly-signin-btn');
   if (readOnlySignInBtn) {
-    readOnlySignInBtn.addEventListener('click', () => {
-      const loginBtn = document.getElementById('admin-login-btn');
-      if (loginBtn) loginBtn.click();
-    });
+    readOnlySignInBtn.addEventListener('click', () => openSignIn(currentShellView() || 'dashboard'));
   }
 
   initAuthorTableSorting();
@@ -604,92 +595,15 @@ function initAuthorTableSorting() {
   });
 }
 
-/* ================= ADMIN MANAGEMENT SYSTEM ================= */
-function initAdminEvents() {
-  const adminLoginBtn = document.getElementById('admin-login-btn');
-  const adminLogoutBtn = document.getElementById('admin-logout-btn');
-  const loginModal = document.getElementById('login-modal');
-  const loginCancelBtn = document.getElementById('login-cancel-btn');
-  const adminLoginForm = document.getElementById('admin-login-form');
-  const loginUsernameInput = document.getElementById('login-username');
-  const loginPasswordInput = document.getElementById('login-password');
-  const loginErrorMsg = document.getElementById('login-error-msg');
-
-  if (adminLoginBtn) {
-    adminLoginBtn.addEventListener('click', () => {
-      if (loginUsernameInput) loginUsernameInput.value = '';
-      if (loginPasswordInput) loginPasswordInput.value = '';
-      if (loginErrorMsg) loginErrorMsg.classList.add('hidden');
-      if (loginModal) {
-        loginModal.classList.remove('hidden');
-        if (loginUsernameInput) loginUsernameInput.focus();
-      }
-    });
-  }
-
-  if (loginCancelBtn && loginModal) {
-    loginCancelBtn.addEventListener('click', () => {
-      loginModal.classList.add('hidden');
-    });
-  }
-
-  if (loginModal) {
-    loginModal.addEventListener('click', (e) => {
-      if (e.target === loginModal) {
-        loginModal.classList.add('hidden');
-      }
-    });
-  }
-
-  if (adminLoginForm) {
-    adminLoginForm.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const email = loginUsernameInput.value.trim();
-      const password = loginPasswordInput.value;
-      const submitBtn = adminLoginForm.querySelector('button[type="submit"]');
-      if (submitBtn) submitBtn.disabled = true;
-      if (loginErrorMsg) loginErrorMsg.classList.add('hidden');
-
-      const result = await signInAdmin(email, password);
-      if (submitBtn) submitBtn.disabled = false;
-      if (result.ok) {
-        loginPasswordInput.value = '';
-        if (loginModal) loginModal.classList.add('hidden');
-        showToast("Logged in as Administrator", "success");
-        applyAdminState();
-      } else if (loginErrorMsg) {
-        loginErrorMsg.textContent = result.message;
-        loginErrorMsg.classList.remove('hidden');
-      }
-    });
-  }
-
-  if (adminLogoutBtn) {
-    adminLogoutBtn.addEventListener('click', () => {
-      if (confirm("Are you sure you want to log out of admin mode?")) {
-        signOutAdmin();
-        showToast("Logged out of Admin Mode", "success");
-        applyAdminState();
-      }
-    });
-  }
-}
-
+/* ================= ADMIN STATE ================= */
+// Sign-in and sign-out themselves live in js/account.js (sign-in page, top-bar account menu).
 function applyAdminState() {
-  const loggedOutEl = document.getElementById('admin-status-logged-out');
-  const loggedInEl = document.getElementById('admin-status-logged-in');
-  if (isAdminLoggedIn) {
-    if (loggedOutEl) loggedOutEl.classList.add('hidden');
-    if (loggedInEl) loggedInEl.classList.remove('hidden');
-  } else {
-    if (loggedOutEl) loggedOutEl.classList.remove('hidden');
-    if (loggedInEl) loggedInEl.classList.add('hidden');
-  }
-
+  renderAccountButton();
   renderDashboard();
-  // Signing in or out changes whether the (closed) student portal may be shown.
+  // Signing in or out changes whether Practise is open to this visitor and whether Home shows the preview note.
   const active = document.querySelector('.view.active');
-  if (active && (active.id === 'student-view' || active.id === 'closed-view')) switchView('student');
+  if (active && active.id === 'student-view') switchView('student');
+  else if (active && active.id === 'home-view') renderHomeView();
 }
 
 function populateEditorUnitSelect(selectedCourse, selectedUnit) {

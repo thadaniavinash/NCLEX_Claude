@@ -113,6 +113,14 @@ function answerKey(q) {
       })(before, copy, '');
       if (diff.length) editorChanges.push(`${item.title} [${item.id}]: ${diff.slice(0, 4).join(', ')}${diff.length > 4 ? ` (+${diff.length - 4} more)` : ''}`);
     }
+    // Every item opens by its short code (js/short-codes.js): no two items may share one.
+    const codes = new Map();
+    items.forEach(item => {
+      const code = itemShortCode(item);
+      if (codes.has(code)) failures.push(`${item.title} [${item.id}]: short code ${code} is also used by [${codes.get(code)}]`);
+      else codes.set(code, item.id);
+      if ((findItemByShortCode(code.toLowerCase().replace('-', '')) || {}).id !== item.id) failures.push(`${item.title} [${item.id}]: its code ${code} does not open it`);
+    });
     return { items: items.length, screens, failures, editorChanges, skipped };
   }})(${JSON.stringify(answerKey.toString())})`);
 
