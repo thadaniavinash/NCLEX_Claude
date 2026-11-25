@@ -296,7 +296,7 @@ Until these are done, anyone with the public key can still write the database:
 2. Disable public email sign-ups.
 3. Run `supabase/002_admin_logins.sql` with the admin email filled in.
 4. Add the `SUPABASE_SECRET_KEY` repository secret (needed by the workflow's add/upload after step 3).
-5. Supabase Authentication → URL Configuration: Site URL = the github.io address, and Redirect URLs
+5. Done (25 Nov 2026, user): Supabase Authentication → URL Configuration, Redirect URLs
    `https://thadaniavinash.github.io/NCLEX_Claude/**` (for "Forgot password?", which returns to `?studio`).
 The old hard-coded admin password is still in git history; the user was told to change it if reused.
 
