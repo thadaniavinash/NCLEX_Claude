@@ -7840,3 +7840,28 @@ input.home-open-input[aria-invalid="true"] { border-color: var(--danger-border);
 @media (max-width: 760px) {
   .share-code { flex-wrap: wrap; }
 }
+
+/* LabRef link on lab-table rows in the player's chart (Practice mode only; addLabRefLinks in js/player.js).
+   Small enough not to crowd the exam-style table; larger on touch screens. */
+.labref-link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+  padding: 0 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--brand);
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  vertical-align: 1px;
+  white-space: nowrap;
+}
+.labref-link:hover { background: var(--surface-selected); border-color: var(--brand); }
+.labref-link:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+@media (pointer: coarse) {
+  .labref-link { line-height: 28px; padding: 0 10px; }
+}
