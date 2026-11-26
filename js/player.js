@@ -422,6 +422,48 @@ function renderPlayerTabs(tabs) {
   
   const activeTab = tabs.find(t => t.id === playerActiveTabId);
   contentBox.innerHTML = activeTab ? formatNursesNotes(activeTab.content, activeTab.title) : '';
+  if (labRefLinksAllowed()) addLabRefLinks(contentBox);
+}
+
+/* ---- LabRef links on lab-table rows (Practice mode only) ----
+   Each row of a Laboratory Results table whose test is in the MCC list (js/lab-ranges.js) gets a small
+   "LabRef" link to that test in LabRef, the lab values companion: normal range, what high and low
+   results mean, and the nursing care. It opens in a new tab so the case study stays where it is.
+   Not under exam conditions (the real NCLEX screen has no such links), and only in the chart panel,
+   never inside a highlight question's passage. The links are added to the screen only; the stored
+   chart content is unchanged. */
+function labRefLinksAllowed() {
+  return typeof labRefUrl === 'function' && (sessionConfig.mode !== 'test' || !!sessionConfig.isRemediation);
+}
+
+function addLabRefLinks(root) {
+  root.querySelectorAll('table').forEach(table => {
+    if (!(isLabTable(table) || hasRangeColumn(table))) return;
+    Array.from(table.rows).slice(1).forEach(row => {
+      const cell = row.cells[0];
+      if (!cell || cell.tagName !== 'TD' || cell.querySelector('.labref-link')) return;
+      // The test name is the first line of the bold text (some cells bold the range too) or of the cell.
+      const bold = cell.querySelector('b, strong');
+      const firstLine = cellTextForUnits(bold || cell).split('\n').find(x => x.trim()) || '';
+      const name = firstLine.replace(/\s+/g, ' ').trim();
+      const ref = name && findLabReferenceLoose(name);
+      const url = ref && labRefUrl(ref);
+      if (!url) return;
+      const link = document.createElement('a');
+      link.className = 'labref-link';
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = 'LabRef';
+      link.title = 'Normal range, what results mean and nursing care (opens in a new tab)';
+      link.setAttribute('aria-label', `Look up ${name} in LabRef (opens in a new tab)`);
+      // Right after the name: before the line break that starts the range, else after the bold name.
+      const br = (bold || cell).querySelector('br');
+      if (br) br.before(' ', link);
+      else if (bold) bold.after(' ', link);
+      else cell.append(' ', link);
+    });
+  });
 }
 
 /* ---- Phone layout: the chart and the question are two panes with a switch ---- */

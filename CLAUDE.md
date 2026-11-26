@@ -31,13 +31,18 @@ Work is committed and pushed directly to `main` here; GitHub Pages serves `main`
   shuffleArray), `data.js` (sanitizing, format migrations, load, readiness rule, saving),
   `auth.js` (Supabase Auth admin sign-in), `dashboard.js` (authoring tables, admin login UI),
   `session-builder.js`, `rich-text.js` (text box extras), `table-tools.js` (table toolbar, templates,
-  cell hints), `lab-ranges.js` (MCC reference ranges for lab tables), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
+  cell hints), `lab-ranges.js` (MCC reference ranges for lab tables; each entry's `labref` is the test's address in LabRef), `notes-editor.js`, `cloze-editor.js`, `chart-continuity.js` (chart carry-forward rule),
   `editor-preview.js`, `highlight-editor.js` (highlight passage authoring), `editor-header.js` (editor top bar), `editor.js`, `player.js`, `scoring.js`, `results.js`,
   `progress.js` (My progress, browser-only results), `attempts.js` (unfinished sessions saved in the browser,
   link sessions), `short-codes.js` (item codes such as `C-7KD4M`), `share-link.js` (studio "Share with
   students" dialog; lazy-loads `js/vendor/qrcode.js`, MIT), `account.js` (top-bar account menu, sign-in page,
   password reset), `home.js` (students' Home page), `overview.js` (studio Overview), `calculator.js`,
   `router.js` (addresses per page, browser Back/Forward), `main.js` (initApp, routing).
+- LabRef links (Nov 2026): in Practice mode (not exam conditions) the player adds a small "LabRef" link to each
+  lab-table row whose test is in `LAB_REFERENCE_RANGES` (`addLabRefLinks` in `player.js`, matched with
+  `findLabReferenceLoose`; serum-or-arterial bicarbonate is never linked). It opens LabRef, the lab values
+  companion in the `anatomy-physiology-virtual-labs` repo (`lab-values/?test=<labref>`), in a new tab. Links
+  are added on screen only; stored chart content is unchanged.
 - `cases-data.js`: backup of the question bank (`window.NCLEX_CASES`, `window.NCLEX_STANDALONE`), loaded
   when the database can't be reached. Read/write it losslessly with `tools/bank.py` (Python) or
   `tools/supabase.js` (Node). Keep it in sync via the workflow's `download` action.
