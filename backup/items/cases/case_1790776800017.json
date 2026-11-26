@@ -388,7 +388,7 @@
           {
             "id": "labs_umd17",
             "title": "Laboratory Results",
-            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1445</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>Male: 0.42&ndash;0.52 L/L; Female: 0.35&ndash;0.47 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.32 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Male: 130&ndash;180 g/L; Female: 120&ndash;160 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 g/L</td></tr></tbody></table>"
+            "content": "<table class=\"nclex-editor-table\" style=\"width:100%; border-collapse:collapse; margin:12px 0;\"><thead><tr><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">Laboratory Test and Reference Range</th><th style=\"border:1px solid #ccd8e0; padding:8px; background:#025287; color:white; font-weight:600; text-align:left;\">1445</th></tr></thead><tbody><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hematocrit (Hct)</b><br>0.38–0.50 L/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">0.32 L/L</td></tr><tr><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\"><b>Hemoglobin (Hgb)</b><br>Female: 115–155 g/L; Male: 125–170 g/L</td><td style=\"border:1px solid #ccd8e0; padding:8px; min-width:80px; background:white; color:#1e293b;\">100 g/L</td></tr></tbody></table>"
           }
         ],
         "intro": "A 55-year-old client is admitted to the surgical unit after a robotic-assisted laparoscopic radical prostatectomy for early-stage prostate cancer."
@@ -398,7 +398,7 @@
   "disorder": "Unit 9 (Reproductive Disorders)",
   "description": "Maryland Next Gen NCLEX Test Bank Project, September 1, 2022; Author: Tara Sohrabi, Montgomery College. Prostate cancer with prostatectomy: a 55-year-old client develops hemorrhagic shock after a robotic-assisted laparoscopic prostatectomy; recognition, actions, and evaluation.",
   "availability": "all",
-  "updatedAt": "2026-10-14T19:10:07.127Z",
+  "updatedAt": "2026-11-26T22:13:42.945Z",
   "authorReview": {
     "note": "Changed by Claude on 14 Oct 2026; please double-check:\nKetorolac (an NSAID, in a bleeding client) replaced by morphine 2 mg IV.\nContinuous bladder irrigation and catheter traction removed (they belong to TURP, not robotic radical prostatectomy); the screen 5 highlight passage no longer lists them.\nScreen 3 key \"cardiovascular assessment\" kept (the source had no key); rationale strengthened. Please confirm.",
     "flaggedAt": "2026-10-14"

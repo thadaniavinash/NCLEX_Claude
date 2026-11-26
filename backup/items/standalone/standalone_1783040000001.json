@@ -47,10 +47,11 @@
           {
             "id": "tab_u4_1_labs",
             "title": "Admission Laboratory Results",
-            "content": "<table class='nclex-editor-table'><thead><tr><th>Test</th><th>Result</th><th>Reference Range</th></tr></thead><tbody><tr><td>Serum Sodium</td><td><strong>118 mEq/L</strong></td><td>135–145 mEq/L</td></tr><tr><td>Serum Osmolality</td><td><strong>245 mOsm/kg</strong></td><td>275–295 mOsm/kg</td></tr><tr><td>Urine Osmolality</td><td><strong>580 mOsm/kg</strong></td><td>300–900 mOsm/kg</td></tr><tr><td>Urine Sodium</td><td><strong>62 mEq/L</strong></td><td>20–40 mEq/L</td></tr><tr><td>Serum Potassium</td><td>4.1 mEq/L</td><td>3.5–5.0 mEq/L</td></tr></tbody></table>"
+            "content": "<table class='nclex-editor-table'><thead><tr><th>Test</th><th>Result</th><th>Reference Range</th></tr></thead><tbody><tr><td>Serum Sodium</td><td><strong>118 mmol/L</strong></td><td>136–146 mmol/L</td></tr><tr><td>Serum Osmolality</td><td><strong>245 mOsm/kg</strong></td><td>275–295 mmol/kg</td></tr><tr><td>Urine Osmolality</td><td><strong>580 mOsm/kg</strong></td><td>300–900 mOsm/kg</td></tr><tr><td>Urine Sodium</td><td><strong>62 mEq/L</strong></td><td>20–40 mEq/L</td></tr><tr><td>Serum Potassium</td><td>4.1 mmol/L</td><td>3.5–5.1 mmol/L</td></tr></tbody></table>"
           }
         ]
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-11-26T22:13:42.945Z"
 }
